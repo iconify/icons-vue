@@ -1,0 +1,8 @@
+.xeyspvidn {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--4px, 4px);
+  d: path("M4 20L14 8l6 9l8-9l7 11l9-9.957M4 40l10-12l6 9l8-9l7 11l9-9.956");
+}

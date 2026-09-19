@@ -1,0 +1,6 @@
+.i4aplac_p {
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--4px, 4px);
+  d: path("M24 34c4.97 0 9-6 9-6s-4.03-6-9-6s-9 6-9 6s4.03 6 9 6Z");
+}

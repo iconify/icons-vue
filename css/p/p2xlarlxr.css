@@ -1,0 +1,8 @@
+.p2xlarlxr {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--4px, 4px);
+  d: path("M9 18v24h30V18L24 6zm15 4v12m7-8v4m-14-4v4");
+}

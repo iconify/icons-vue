@@ -1,0 +1,8 @@
+.nsvpsrbti {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--4px, 4px);
+  d: path("M23 9h20M5 16l8-8m0 0v34m10-23h16M23 29h12M23 39h8");
+}

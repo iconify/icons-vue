@@ -1,0 +1,7 @@
+.rlocaobos {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--4px, 4px);
+  d: path("M17 11.927C15.621 9.524 8.495 6.093 5.35 9.306C4.014 10.418 2.986 15.45 5.727 23L10 19.98m21-8.053c1.379-2.403 8.505-5.834 11.65-2.621c1.336 1.112 2.364 6.144-.377 13.694L38 19.98");
+}

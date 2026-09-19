@@ -1,0 +1,7 @@
+.xe3mmdbob {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--4px, 4px);
+  d: path("M17 36h14m2-18v-4.875a1 1 0 0 1 1-1h5a1 1 0 0 0 1-1V6");
+}

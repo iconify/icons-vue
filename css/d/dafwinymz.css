@@ -1,0 +1,8 @@
+.dafwinymz {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--4px, 4px);
+  d: path("m10 4l14 14L38 4M10 44l14-14l14 14m5-34L29 24l14 14M4 10l14 14L4 38");
+}

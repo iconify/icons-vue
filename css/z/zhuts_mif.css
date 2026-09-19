@@ -1,0 +1,7 @@
+.zhuts_mif {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--4px, 4px);
+  d: path("M42 20h2v-2h-2zm0 0c0 9.137-5.57 16.973-13.5 20.298M14 35l-4 9h20l-4-9");
+}

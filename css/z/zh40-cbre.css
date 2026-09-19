@@ -1,0 +1,8 @@
+.zh40-cbre {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--4px, 4px);
+  d: path("M27 9v12h12M21 39V27H9m18-6L42 6M21 27L6 42");
+}

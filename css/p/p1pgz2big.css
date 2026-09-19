@@ -1,0 +1,8 @@
+.p1pgz2big {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--4px, 4px);
+  d: path("M6 6v36h36M14 30v4m8-12v12m8-28v28m8-20v20");
+}

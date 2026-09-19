@@ -1,0 +1,7 @@
+.stknrr2es {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--4px, 4px);
+  d: path("M20 9h22M20 19h22M20 29h22M20 39h22M6 29h6L6 39h6");
+}

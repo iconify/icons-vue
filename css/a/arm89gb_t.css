@@ -1,0 +1,8 @@
+.arm89gb_t {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--4px, 4px);
+  d: path("M30 10h10c1.886 0 2.828 0 3.414.586S44 12.114 44 14v20c0 1.886 0 2.828-.586 3.414S41.886 38 40 38H30M18 10H8c-1.886 0-2.828 0-3.414.586S4 12.114 4 14v20c0 1.886 0 2.828.586 3.414S6.114 38 8 38h10m6-32v36");
+}

@@ -1,0 +1,7 @@
+.lnrengbdk {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--4px, 4px);
+  d: path("m24 14l14-8m-15 8L10 6m25 14v6");
+}

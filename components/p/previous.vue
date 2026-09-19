@@ -1,0 +1,10 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/j/j58uu9b3y.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":100,"height":100};
+const content = `<path class="j58uu9b3y"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="foundation:previous" /></template>

@@ -1,0 +1,31 @@
+{
+	"prefix": "geo",
+	"info": {
+		"name": "GeoGlyphs",
+		"total": 30,
+		"version": "0.0.10",
+		"author": {
+			"name": "Sam Matthews",
+			"url": "https://github.com/cugos/geoglyphs"
+		},
+		"license": {
+			"title": "MIT",
+			"spdx": "MIT",
+			"url": "https://github.com/cugos/geoglyphs/blob/main/LICENSE.md"
+		},
+		"samples": [
+			"turf-center",
+			"turf-erased",
+			"turf-point-on-line",
+			"turf-destination",
+			"turf-envelope",
+			"turf-along"
+		],
+		"category": "Flags / Maps",
+		"tags": [
+			"Has Padding"
+		],
+		"palette": false
+	},
+	"lastModified": 1722793889
+}

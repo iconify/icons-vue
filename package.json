@@ -1,0 +1,135 @@
+{
+  "name": "@iconify-vue/geo",
+  "type": "module",
+  "version": "1.0.4",
+  "homepage": "https://icon-sets.iconify.design/geo/",
+  "bugs": "https://github.com/iconify/icons-vue/issues",
+  "license": "MIT",
+  "exports": {
+    "./turf-along": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/turf-along.vue"
+    },
+    "./turf-bbox-polygon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/turf-bbox-polygon.vue"
+    },
+    "./turf-bezier": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/turf-bezier.vue"
+    },
+    "./turf-buffer": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/turf-buffer.vue"
+    },
+    "./turf-center": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/turf-center.vue"
+    },
+    "./turf-centroid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/turf-centroid.vue"
+    },
+    "./turf-concave": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/turf-concave.vue"
+    },
+    "./turf-convex": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/turf-convex.vue"
+    },
+    "./turf-destination": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/turf-destination.vue"
+    },
+    "./turf-envelope": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/turf-envelope.vue"
+    },
+    "./turf-erased": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/turf-erased.vue"
+    },
+    "./turf-explode": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/turf-explode.vue"
+    },
+    "./turf-extent": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/turf-extent.vue"
+    },
+    "./turf-intersect": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/turf-intersect.vue"
+    },
+    "./turf-kinks": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/turf-kinks.vue"
+    },
+    "./turf-line-slice": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/turf-line-slice.vue"
+    },
+    "./turf-merge": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/turf-merge.vue"
+    },
+    "./turf-midpoint": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/turf-midpoint.vue"
+    },
+    "./turf-point-grid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/turf-point-grid.vue"
+    },
+    "./turf-point-on-line": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/turf-point-on-line.vue"
+    },
+    "./turf-point-on-surface": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/turf-point-on-surface.vue"
+    },
+    "./turf-simplify": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/turf-simplify.vue"
+    },
+    "./turf-size": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/turf-size.vue"
+    },
+    "./turf-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/turf-square.vue"
+    },
+    "./turf-square-grid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/turf-square-grid.vue"
+    },
+    "./turf-tin": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/turf-tin.vue"
+    },
+    "./turf-triangle-grid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/turf-triangle-grid.vue"
+    },
+    "./turf-union": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/turf-union.vue"
+    },
+    "./ui-earth-east": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/ui-earth-east.vue"
+    },
+    "./ui-earth-west": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/ui-earth-west.vue"
+    },
+    "./*": "./*"
+  },
+  "dependencies": {
+    "@iconify/css-vue": "^1.0.0"
+  },
+  "repository": "github:iconify/icons-vue#geo"
+}

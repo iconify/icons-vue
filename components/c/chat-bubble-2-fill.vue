@@ -1,0 +1,10 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/d/d_kxzphhj.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":56,"height":56};
+const content = `<path class="d_kxzphhj"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="f7:chat-bubble-2-fill" /></template>

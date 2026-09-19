@@ -1,0 +1,7 @@
+.ie_1_3b_y {
+  fill: none;
+  stroke: var(--svg-color--ee99a0, #ee99a0);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M5.5 11v1.5H9a1.5 1.5 135 0 0 1.5-1.5");
+}

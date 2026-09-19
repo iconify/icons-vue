@@ -1,0 +1,7 @@
+.oknd-gnfs {
+  fill: none;
+  stroke: var(--svg-color--f5a97f, #f5a97f);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M4.5 4.5L1 8l3.5 3.5m7-7L15 8l-3.5 3.5M9.5 2l-3 12");
+}

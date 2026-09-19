@@ -1,0 +1,7 @@
+.gssoo-bml {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M2 4h8M2 1h8M2 7h8m-8 3h3.5");
+}

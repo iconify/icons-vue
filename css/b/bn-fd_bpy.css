@@ -1,0 +1,7 @@
+.bn-fd_bpy {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M6 3h8M6 8h8m-8 5h8");
+}

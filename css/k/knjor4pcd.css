@@ -1,0 +1,8 @@
+.knjor4pcd {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("m13 19l9-7l-9-7zM2 19l9-7l-9-7z");
+}

@@ -1,0 +1,10 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/w/wxt1ofkec.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":457,"height":680};
+const content = `<path class="wxt1ofkec"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="ls:italic" /></template>

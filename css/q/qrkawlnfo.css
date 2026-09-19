@@ -1,0 +1,5 @@
+.qrkawlnfo {
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M9.5 9.5h.01v.01H9.5zm5 5h.01v.01h-.01z");
+}

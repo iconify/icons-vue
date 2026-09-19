@@ -1,0 +1,6 @@
+.kow_tacta {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("m4 4l16 16");
+}

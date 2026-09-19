@@ -1,0 +1,6 @@
+.foumiebwk {
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--3px, 3px);
+  d: path("M7.5 9.5h.01v.01H7.5z");
+}

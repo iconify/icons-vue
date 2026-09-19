@@ -1,0 +1,8 @@
+.wuilmgbcd {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2-5px, 2.5px);
+  d: path("m17 9l-5-5m0 0L7 9m5-5v13m-6 3h12");
+}

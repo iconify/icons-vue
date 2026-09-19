@@ -1,0 +1,7 @@
+.efdecu-kr {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("m1 12l2 2l2-2m6-4v5h5");
+}

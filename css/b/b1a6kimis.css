@@ -1,0 +1,6 @@
+.b1a6kimis {
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M8.5 20.5h.01v.01H8.5zm9 0h.01v.01h-.01z");
+}

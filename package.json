@@ -1,0 +1,463 @@
+{
+  "name": "@iconify-vue/bpmn",
+  "type": "module",
+  "version": "1.0.4",
+  "homepage": "https://icon-sets.iconify.design/bpmn/",
+  "bugs": "https://github.com/iconify/icons-vue/issues",
+  "license": "OFL-1.1",
+  "exports": {
+    "./ad-hoc-marker": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/ad-hoc-marker.vue"
+    },
+    "./business-rule": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/business-rule.vue"
+    },
+    "./business-rule-task": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/business-rule-task.vue"
+    },
+    "./call-activity": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/call-activity.vue"
+    },
+    "./compensation-marker": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/compensation-marker.vue"
+    },
+    "./conditional-flow": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/conditional-flow.vue"
+    },
+    "./connection": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/connection.vue"
+    },
+    "./connection-multi": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/connection-multi.vue"
+    },
+    "./data-input": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/data-input.vue"
+    },
+    "./data-object": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/data-object.vue"
+    },
+    "./data-output": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/data-output.vue"
+    },
+    "./data-store": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/data-store.vue"
+    },
+    "./default-flow": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/default-flow.vue"
+    },
+    "./end-event": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/end-event.vue"
+    },
+    "./end-event-cancel": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/end-event-cancel.vue"
+    },
+    "./end-event-compensation": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/end-event-compensation.vue"
+    },
+    "./end-event-error": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/end-event-error.vue"
+    },
+    "./end-event-escalation": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/end-event-escalation.vue"
+    },
+    "./end-event-link": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/end-event-link.vue"
+    },
+    "./end-event-message": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/end-event-message.vue"
+    },
+    "./end-event-multiple": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/end-event-multiple.vue"
+    },
+    "./end-event-none": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/end-event-none.vue"
+    },
+    "./end-event-signal": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/end-event-signal.vue"
+    },
+    "./end-event-terminate": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/end-event-terminate.vue"
+    },
+    "./event-subprocess-expanded": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/event-subprocess-expanded.vue"
+    },
+    "./gateway": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gateway.vue"
+    },
+    "./gateway-complex": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gateway-complex.vue"
+    },
+    "./gateway-eventbased": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gateway-eventbased.vue"
+    },
+    "./gateway-none": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gateway-none.vue"
+    },
+    "./gateway-or": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gateway-or.vue"
+    },
+    "./gateway-parallel": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gateway-parallel.vue"
+    },
+    "./gateway-xor": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gateway-xor.vue"
+    },
+    "./group": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/group.vue"
+    },
+    "./hand-tool": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hand-tool.vue"
+    },
+    "./intermediate-event": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/intermediate-event.vue"
+    },
+    "./intermediate-event-catch-cancel": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/intermediate-event-catch-cancel.vue"
+    },
+    "./intermediate-event-catch-compensation": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/intermediate-event-catch-compensation.vue"
+    },
+    "./intermediate-event-catch-condition": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/intermediate-event-catch-condition.vue"
+    },
+    "./intermediate-event-catch-error": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/intermediate-event-catch-error.vue"
+    },
+    "./intermediate-event-catch-escalation": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/intermediate-event-catch-escalation.vue"
+    },
+    "./intermediate-event-catch-link": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/intermediate-event-catch-link.vue"
+    },
+    "./intermediate-event-catch-message": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/intermediate-event-catch-message.vue"
+    },
+    "./intermediate-event-catch-multiple": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/intermediate-event-catch-multiple.vue"
+    },
+    "./intermediate-event-catch-non-interrupting-condition": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/intermediate-event-catch-non-interrupting-condition.vue"
+    },
+    "./intermediate-event-catch-non-interrupting-escalation": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/intermediate-event-catch-non-interrupting-escalation.vue"
+    },
+    "./intermediate-event-catch-non-interrupting-message": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/intermediate-event-catch-non-interrupting-message.vue"
+    },
+    "./intermediate-event-catch-non-interrupting-multiple": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/intermediate-event-catch-non-interrupting-multiple.vue"
+    },
+    "./intermediate-event-catch-non-interrupting-parallel-multiple": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/intermediate-event-catch-non-interrupting-parallel-multiple.vue"
+    },
+    "./intermediate-event-catch-non-interrupting-signal": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/intermediate-event-catch-non-interrupting-signal.vue"
+    },
+    "./intermediate-event-catch-non-interrupting-timer": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/intermediate-event-catch-non-interrupting-timer.vue"
+    },
+    "./intermediate-event-catch-parallel-multiple": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/intermediate-event-catch-parallel-multiple.vue"
+    },
+    "./intermediate-event-catch-signal": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/intermediate-event-catch-signal.vue"
+    },
+    "./intermediate-event-catch-timer": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/intermediate-event-catch-timer.vue"
+    },
+    "./intermediate-event-non-interrupting": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/intermediate-event-non-interrupting.vue"
+    },
+    "./intermediate-event-none": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/intermediate-event-none.vue"
+    },
+    "./intermediate-event-throw-compensation": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/intermediate-event-throw-compensation.vue"
+    },
+    "./intermediate-event-throw-escalation": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/intermediate-event-throw-escalation.vue"
+    },
+    "./intermediate-event-throw-link": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/intermediate-event-throw-link.vue"
+    },
+    "./intermediate-event-throw-message": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/intermediate-event-throw-message.vue"
+    },
+    "./intermediate-event-throw-multiple": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/intermediate-event-throw-multiple.vue"
+    },
+    "./intermediate-event-throw-signal": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/intermediate-event-throw-signal.vue"
+    },
+    "./lane": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lane.vue"
+    },
+    "./lane-divide-three": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lane-divide-three.vue"
+    },
+    "./lane-divide-two": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lane-divide-two.vue"
+    },
+    "./lane-insert-above": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lane-insert-above.vue"
+    },
+    "./lane-insert-below": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lane-insert-below.vue"
+    },
+    "./lasso-tool": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lasso-tool.vue"
+    },
+    "./loop-marker": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/loop-marker.vue"
+    },
+    "./manual": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/manual.vue"
+    },
+    "./manual-task": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/manual-task.vue"
+    },
+    "./parallel-mi-marker": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/parallel-mi-marker.vue"
+    },
+    "./participant": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/participant.vue"
+    },
+    "./receive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/receive.vue"
+    },
+    "./receive-task": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/receive-task.vue"
+    },
+    "./screw-wrench": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/screw-wrench.vue"
+    },
+    "./script": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/script.vue"
+    },
+    "./script-task": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/script-task.vue"
+    },
+    "./send": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/send.vue"
+    },
+    "./send-task": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/send-task.vue"
+    },
+    "./sequential-mi-marker": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sequential-mi-marker.vue"
+    },
+    "./service": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/service.vue"
+    },
+    "./service-task": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/service-task.vue"
+    },
+    "./space-tool": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/space-tool.vue"
+    },
+    "./start-event": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/start-event.vue"
+    },
+    "./start-event-compensation": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/start-event-compensation.vue"
+    },
+    "./start-event-condition": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/start-event-condition.vue"
+    },
+    "./start-event-error": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/start-event-error.vue"
+    },
+    "./start-event-escalation": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/start-event-escalation.vue"
+    },
+    "./start-event-message": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/start-event-message.vue"
+    },
+    "./start-event-multiple": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/start-event-multiple.vue"
+    },
+    "./start-event-non-interrupting": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/start-event-non-interrupting.vue"
+    },
+    "./start-event-non-interrupting-condition": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/start-event-non-interrupting-condition.vue"
+    },
+    "./start-event-non-interrupting-escalation": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/start-event-non-interrupting-escalation.vue"
+    },
+    "./start-event-non-interrupting-message": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/start-event-non-interrupting-message.vue"
+    },
+    "./start-event-non-interrupting-multiple": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/start-event-non-interrupting-multiple.vue"
+    },
+    "./start-event-non-interrupting-parallel-multiple": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/start-event-non-interrupting-parallel-multiple.vue"
+    },
+    "./start-event-non-interrupting-signal": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/start-event-non-interrupting-signal.vue"
+    },
+    "./start-event-non-interrupting-timer": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/start-event-non-interrupting-timer.vue"
+    },
+    "./start-event-none": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/start-event-none.vue"
+    },
+    "./start-event-parallel-multiple": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/start-event-parallel-multiple.vue"
+    },
+    "./start-event-signal": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/start-event-signal.vue"
+    },
+    "./start-event-timer": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/start-event-timer.vue"
+    },
+    "./sub-process-marker": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sub-process-marker.vue"
+    },
+    "./subprocess-collapsed": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/subprocess-collapsed.vue"
+    },
+    "./subprocess-expanded": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/subprocess-expanded.vue"
+    },
+    "./task": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/task.vue"
+    },
+    "./task-none": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/task-none.vue"
+    },
+    "./text-annotation": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/text-annotation.vue"
+    },
+    "./transaction": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/transaction.vue"
+    },
+    "./trash": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/trash.vue"
+    },
+    "./user": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/user.vue"
+    },
+    "./user-task": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/user-task.vue"
+    },
+    "./*": "./*"
+  },
+  "dependencies": {
+    "@iconify/css-vue": "^1.0.0"
+  },
+  "repository": "github:iconify/icons-vue#bpmn"
+}

@@ -1,0 +1,29 @@
+{
+	"prefix": "bpmn",
+	"info": {
+		"name": "BPMN",
+		"total": 112,
+		"version": "0.10.0",
+		"author": {
+			"name": "Camunda Services GmbH",
+			"url": "https://github.com/bpmn-io/bpmn-font"
+		},
+		"license": {
+			"title": "Open Font License",
+			"spdx": "OFL-1.1",
+			"url": "https://github.com/bpmn-io/bpmn-font/blob/master/LICENSE"
+		},
+		"samples": [
+			"intermediate-event-catch-non-interrupting-escalation",
+			"user",
+			"lane-insert-above"
+		],
+		"displayHeight": 24,
+		"tags": [
+			"Has Padding"
+		],
+		"palette": false,
+		"hidden": true
+	},
+	"lastModified": 1722792999
+}

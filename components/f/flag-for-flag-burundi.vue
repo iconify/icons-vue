@@ -1,0 +1,21 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":64,"height":64};
+const content = `<path class="qujlxlbep"/><path class="srbb65b8m"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="emojione-monotone:flag-for-flag-burundi" /></template>
+<style>
+.qujlxlbep {
+  fill: currentColor;
+  d: path("m33.774 27.083l.985-1.966h-1.966l-.984-1.967l-.984 1.967h-1.966l.984 1.966l-.984 1.967h1.966l.984 1.967l.984-1.967h1.966zm-6.881 7.867l-.985-1.967l-.983 1.967h-1.966l.984 1.966l-.984 1.967h1.966l.983 1.967l.985-1.967h1.966l-.984-1.967l.984-1.966zm11.8 0l-.984-1.967l-.984 1.967h-1.966l.984 1.966l-.984 1.967h1.966l.984 1.967l.984-1.967h1.965l-.983-1.967l.983-1.966z");
+}
+
+.srbb65b8m {
+  fill: currentColor;
+  d: path("M32 2C15.432 2 2 15.432 2 32s13.432 30 30 30s30-13.432 30-30S48.568 2 32 2m16.124 52.87l-9.693-9.692a14.76 14.76 0 0 1-6.622 1.572c-2.383 0-4.627-.575-6.621-1.572l-9.535 9.533a28.2 28.2 0 0 1-6.523-6.587l9.482-9.481A14.6 14.6 0 0 1 17.014 32c0-2.392.584-4.644 1.598-6.642L9.13 15.876a28.2 28.2 0 0 1 6.523-6.587l9.535 9.534a14.75 14.75 0 0 1 6.621-1.573c2.384 0 4.628.575 6.622 1.573l9.693-9.693a28.2 28.2 0 0 1 6.587 6.522l-9.705 9.706A14.6 14.6 0 0 1 46.604 32a14.6 14.6 0 0 1-1.598 6.643l9.705 9.705a28.2 28.2 0 0 1-6.587 6.522");
+}
+
+</style>

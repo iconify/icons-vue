@@ -1,0 +1,34 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":64,"height":64};
+const content = `<path class="qi6loqxpn"/><path class="hz4x53bbo"/><path class="q2fxkuaty"/><ellipse class="tn_vkls8i"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="emojione-monotone:card-index-dividers" /></template>
+<style>
+.hz4x53bbo {
+  fill: currentColor;
+  d: path("M61.479 24.738h-2.766l.548-1.563c.451-.998.338-1.813-.243-1.879h-3.773l.255-1.133c.285-1.275-.121-2.309-.905-2.309H51.5l.301-2.588c.287-1.275-.12-2.309-.904-2.309h-4.24c-.188-1.14-.881-1.988-1.714-1.988H24.352V7.596c0-1.434-.789-2.596-1.766-2.596H3.766C2.789 5 2 6.162 2 7.596V59h44.709l15.014-32.383c.451-.998.338-1.812-.244-1.879M44.834 57H3.875V7.596c0-.289.066-.487.121-.596h18.358c.056.108.122.308.122.596v5.375h22.235c.058.116.122.323.122.596V57zm1.875-42.041h3.24l-.007.062l-3.233 27.622zm4.559 4.896h2.375l-4.89 21.597zm3.523 3.442h2.426l-6.854 19.561zm-1.61 17.23l4.833-13.789h1.562z");
+}
+
+.q2fxkuaty {
+  fill: currentColor;
+  d: path("M23.92 50.195a2.5 2.5 0 0 0-2.498 2.51a2.5 2.5 0 1 0 5 0a2.506 2.506 0 0 0-2.502-2.51");
+}
+
+.qi6loqxpn {
+  fill: currentColor;
+  d: path("M10.791 50.195a2.505 2.505 0 0 0-2.502 2.51a2.505 2.505 0 0 0 2.502 2.512a2.5 2.5 0 0 0 2.498-2.512a2.5 2.5 0 0 0-2.498-2.51");
+}
+
+.tn_vkls8i {
+  cx: 36.898px;
+  cy: 52.706px;
+  fill: currentColor;
+  rx: 2.5px;
+  ry: 2.511px;
+}
+
+</style>

@@ -1,0 +1,40 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":64,"height":64};
+const content = `<path class="ilmo9k0de"/><path class="t3hmqobbk"/><circle class="pfay7abgk"/><circle class="tksze48zu"/><path class="ynu3i7wmz"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="emojione-monotone:kissing-face" /></template>
+<style>
+.ilmo9k0de {
+  fill: currentColor;
+  d: path("M31.999 2C15.432 2 2 15.432 2 32s13.432 30 29.999 30C48.567 62 62 48.568 62 32S48.567 2 31.999 2m0 57.5C16.836 59.5 4.5 47.164 4.5 32S16.836 4.5 31.999 4.5C47.163 4.5 59.5 16.836 59.5 32S47.163 59.5 31.999 59.5");
+}
+
+.pfay7abgk {
+  cx: 20.499px;
+  cy: 25.592px;
+  r: 5px;
+  fill: currentColor;
+}
+
+.t3hmqobbk {
+  fill: currentColor;
+  d: path("M41.542 38.631c-1.893-1.963-6.021-.479-8.58-3.131c0 2.152 1.805 4.5 5.18 4.5c0 0-2.295.926-2.295 4.5c0 3.576 2.295 4.5 2.295 4.5c-3.375 0-5.18 2.35-5.18 4.5c2.559-2.65 6.688-1.168 8.58-3.129c1.582-1.639-1.828-2.965-1.828-5.871c0-2.904 3.41-4.232 1.828-5.869");
+}
+
+.tksze48zu {
+  cx: 43.499px;
+  cy: 25.592px;
+  r: 5px;
+  fill: currentColor;
+}
+
+.ynu3i7wmz {
+  fill: currentColor;
+  d: path("M51.616 14.988a16.42 16.42 0 0 0-13.492-3.615c-.703.135-.193 2.27.385 2.156c4.17-.748 8.457.4 11.693 3.133c.444.387 1.955-1.205 1.414-1.674m-25.742-3.765a16.42 16.42 0 0 0-13.49 3.615c-.541.469.969 2.063 1.412 1.674a14.23 14.23 0 0 1 11.691-3.133c.578.113 1.09-2.022.387-2.156");
+}
+
+</style>

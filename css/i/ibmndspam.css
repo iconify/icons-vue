@@ -1,0 +1,9 @@
+.ibmndspam {
+  cx: 256px;
+  cy: 184px;
+  r: 120px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--32px, 32px);
+}

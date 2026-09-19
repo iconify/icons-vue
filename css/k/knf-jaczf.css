@@ -1,0 +1,8 @@
+.knf-jaczf {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-miterlimit: 10;
+  stroke-width: var(--svg-stroke-width--32px, 32px);
+  d: path("M256 104v56h56a56 56 0 1 0-56-56Zm0 0v56h-56a56 56 0 1 1 56-56Z");
+}

@@ -1,0 +1,8 @@
+.v910tplip {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--32px, 32px);
+  d: path("M96 304h320M96 208h320M96 112h320M96 400h320");
+}

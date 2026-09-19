@@ -1,0 +1,12 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/h/hz6sozb5l.css';
+import '../../css/d/d6s6-cbpf.css';
+import '../../css/o/omk86fbup.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":512,"height":512};
+const content = `<path class="hz6sozb5l"/><path class="d6s6-cbpf"/><path class="omk86fbup"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="ion:person-add-outline" /></template>

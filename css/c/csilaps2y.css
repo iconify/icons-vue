@@ -1,0 +1,12 @@
+.csilaps2y {
+  width: 224px;
+  height: 224px;
+  x: 144px;
+  y: 144px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--32px, 32px);
+  rx: 16px;
+  ry: 16px;
+}

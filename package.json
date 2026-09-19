@@ -1,0 +1,583 @@
+{
+  "name": "@iconify-vue/covid",
+  "type": "module",
+  "version": "1.0.4",
+  "homepage": "https://icon-sets.iconify.design/covid/",
+  "bugs": "https://github.com/iconify/icons-vue/issues",
+  "license": "CC-BY-4.0",
+  "exports": {
+    "./covid-19-virus-4": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/covid-19-virus-4.vue"
+    },
+    "./covid-19-virus-pandemic-1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/covid-19-virus-pandemic-1.vue"
+    },
+    "./covid-19-virus-pandemic-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/covid-19-virus-pandemic-2.vue"
+    },
+    "./covid-19-virus-pandemic-3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/covid-19-virus-pandemic-3.vue"
+    },
+    "./covid-carrier-blood-1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/covid-carrier-blood-1.vue"
+    },
+    "./covid-carrier-blood-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/covid-carrier-blood-2.vue"
+    },
+    "./covid-carrier-human": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/covid-carrier-human.vue"
+    },
+    "./covid-carrier-packages": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/covid-carrier-packages.vue"
+    },
+    "./covid19-virus-1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/covid19-virus-1.vue"
+    },
+    "./covid19-virus-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/covid19-virus-2.vue"
+    },
+    "./covid19-virus-3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/covid19-virus-3.vue"
+    },
+    "./covid19-virus-bat": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/covid19-virus-bat.vue"
+    },
+    "./covid19-virus-heal-1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/covid19-virus-heal-1.vue"
+    },
+    "./covid19-virus-heal-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/covid19-virus-heal-2.vue"
+    },
+    "./covid19-virus-lifelong-1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/covid19-virus-lifelong-1.vue"
+    },
+    "./covid19-virus-lifelong-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/covid19-virus-lifelong-2.vue"
+    },
+    "./covid19-virus-patient-1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/covid19-virus-patient-1.vue"
+    },
+    "./covid19-virus-patient-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/covid19-virus-patient-2.vue"
+    },
+    "./covid19-virus-reinfected": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/covid19-virus-reinfected.vue"
+    },
+    "./covid19-virus-warning-1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/covid19-virus-warning-1.vue"
+    },
+    "./covid19-virus-warning-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/covid19-virus-warning-2.vue"
+    },
+    "./covid19-virus-warning-3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/covid19-virus-warning-3.vue"
+    },
+    "./graph-cured-decreasing": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/graph-cured-decreasing.vue"
+    },
+    "./graph-cured-increasing": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/graph-cured-increasing.vue"
+    },
+    "./graph-cured-stable": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/graph-cured-stable.vue"
+    },
+    "./graph-death-rate-decreasing": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/graph-death-rate-decreasing.vue"
+    },
+    "./graph-death-rate-increasing": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/graph-death-rate-increasing.vue"
+    },
+    "./graph-death-rate-stable": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/graph-death-rate-stable.vue"
+    },
+    "./graph-document-infected-report": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/graph-document-infected-report.vue"
+    },
+    "./graph-infected-decreasing": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/graph-infected-decreasing.vue"
+    },
+    "./graph-infected-increasing": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/graph-infected-increasing.vue"
+    },
+    "./graph-infected-stable": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/graph-infected-stable.vue"
+    },
+    "./mutation-1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mutation-1.vue"
+    },
+    "./mutation-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mutation-2.vue"
+    },
+    "./mutation-stronger": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mutation-stronger.vue"
+    },
+    "./mutation-temperature-change": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mutation-temperature-change.vue"
+    },
+    "./personal-hygiene-clean-bottle-shield": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/personal-hygiene-clean-bottle-shield.vue"
+    },
+    "./personal-hygiene-clean-bottle-virus": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/personal-hygiene-clean-bottle-virus.vue"
+    },
+    "./personal-hygiene-clean-bottle-virus-block": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/personal-hygiene-clean-bottle-virus-block.vue"
+    },
+    "./personal-hygiene-clean-gel": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/personal-hygiene-clean-gel.vue"
+    },
+    "./personal-hygiene-clean-toothpaste": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/personal-hygiene-clean-toothpaste.vue"
+    },
+    "./personal-hygiene-hand-liquid-soap": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/personal-hygiene-hand-liquid-soap.vue"
+    },
+    "./personal-hygiene-hand-sanitizer-liquid-1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/personal-hygiene-hand-sanitizer-liquid-1.vue"
+    },
+    "./personal-hygiene-hand-sanitizer-liquid-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/personal-hygiene-hand-sanitizer-liquid-2.vue"
+    },
+    "./personal-hygiene-hand-sanitizer-liquid-3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/personal-hygiene-hand-sanitizer-liquid-3.vue"
+    },
+    "./personal-hygiene-hand-sanitizer-liquid-drop": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/personal-hygiene-hand-sanitizer-liquid-drop.vue"
+    },
+    "./personal-hygiene-hand-sanitizer-liquid-virus-block": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/personal-hygiene-hand-sanitizer-liquid-virus-block.vue"
+    },
+    "./personal-hygiene-hand-sanitizer-spray": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/personal-hygiene-hand-sanitizer-spray.vue"
+    },
+    "./personal-hygiene-hand-sanitizer-spray-virus-block": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/personal-hygiene-hand-sanitizer-spray-virus-block.vue"
+    },
+    "./personal-hygiene-hand-sanitizer-virus-block": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/personal-hygiene-hand-sanitizer-virus-block.vue"
+    },
+    "./personal-hygiene-hand-sanitizer-virus-shield": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/personal-hygiene-hand-sanitizer-virus-shield.vue"
+    },
+    "./personal-hygiene-hand-soap-1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/personal-hygiene-hand-soap-1.vue"
+    },
+    "./personal-hygiene-hand-soap-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/personal-hygiene-hand-soap-2.vue"
+    },
+    "./personal-hygiene-hand-wash": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/personal-hygiene-hand-wash.vue"
+    },
+    "./personal-hygiene-hand-wipe-paper-1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/personal-hygiene-hand-wipe-paper-1.vue"
+    },
+    "./personal-hygiene-hand-wipe-paper-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/personal-hygiene-hand-wipe-paper-2.vue"
+    },
+    "./personal-hygiene-hand-wipe-paper-3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/personal-hygiene-hand-wipe-paper-3.vue"
+    },
+    "./personal-hygiene-hand-wipe-paper-4": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/personal-hygiene-hand-wipe-paper-4.vue"
+    },
+    "./quarantine-place-bed": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/quarantine-place-bed.vue"
+    },
+    "./quarantine-place-hospital": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/quarantine-place-hospital.vue"
+    },
+    "./quarantine-place-house-1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/quarantine-place-house-1.vue"
+    },
+    "./quarantine-place-house-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/quarantine-place-house-2.vue"
+    },
+    "./quarantine-place-house-shield": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/quarantine-place-house-shield.vue"
+    },
+    "./quarantine-place-self-lockdown-1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/quarantine-place-self-lockdown-1.vue"
+    },
+    "./quarantine-place-self-lockdown-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/quarantine-place-self-lockdown-2.vue"
+    },
+    "./quarantine-place-time-calendar-1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/quarantine-place-time-calendar-1.vue"
+    },
+    "./quarantine-place-time-calendar-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/quarantine-place-time-calendar-2.vue"
+    },
+    "./quarantine-place-time-calendar-day": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/quarantine-place-time-calendar-day.vue"
+    },
+    "./quarantine-place-time-date-day": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/quarantine-place-time-date-day.vue"
+    },
+    "./social-distancing-1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/social-distancing-1.vue"
+    },
+    "./social-distancing-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/social-distancing-2.vue"
+    },
+    "./social-distancing-attention": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/social-distancing-attention.vue"
+    },
+    "./social-distancing-correct-1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/social-distancing-correct-1.vue"
+    },
+    "./social-distancing-correct-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/social-distancing-correct-2.vue"
+    },
+    "./social-distancing-correct-3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/social-distancing-correct-3.vue"
+    },
+    "./social-distancing-correct-4": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/social-distancing-correct-4.vue"
+    },
+    "./social-distancing-correct-5": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/social-distancing-correct-5.vue"
+    },
+    "./social-distancing-correct-6": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/social-distancing-correct-6.vue"
+    },
+    "./social-distancing-do-not-close-1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/social-distancing-do-not-close-1.vue"
+    },
+    "./social-distancing-do-not-close-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/social-distancing-do-not-close-2.vue"
+    },
+    "./social-distancing-do-not-close-3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/social-distancing-do-not-close-3.vue"
+    },
+    "./social-distancing-do-not-close-4": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/social-distancing-do-not-close-4.vue"
+    },
+    "./social-distancing-do-not-touch": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/social-distancing-do-not-touch.vue"
+    },
+    "./social-distancing-man": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/social-distancing-man.vue"
+    },
+    "./social-distancing-not-allowed-space-man": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/social-distancing-not-allowed-space-man.vue"
+    },
+    "./social-distancing-not-allowed-space-woman": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/social-distancing-not-allowed-space-woman.vue"
+    },
+    "./social-distancing-protect-shield-1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/social-distancing-protect-shield-1.vue"
+    },
+    "./social-distancing-protect-shield-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/social-distancing-protect-shield-2.vue"
+    },
+    "./social-distancing-virus": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/social-distancing-virus.vue"
+    },
+    "./social-distancing-woman": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/social-distancing-woman.vue"
+    },
+    "./symptoms-cold-fever": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/symptoms-cold-fever.vue"
+    },
+    "./symptoms-fever": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/symptoms-fever.vue"
+    },
+    "./symptoms-nausea": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/symptoms-nausea.vue"
+    },
+    "./symptoms-virus-diarrhea-1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/symptoms-virus-diarrhea-1.vue"
+    },
+    "./symptoms-virus-diarrhea-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/symptoms-virus-diarrhea-2.vue"
+    },
+    "./symptoms-virus-headache-1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/symptoms-virus-headache-1.vue"
+    },
+    "./symptoms-virus-headache-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/symptoms-virus-headache-2.vue"
+    },
+    "./symptoms-virus-loss-smell-1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/symptoms-virus-loss-smell-1.vue"
+    },
+    "./symptoms-virus-loss-smell-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/symptoms-virus-loss-smell-2.vue"
+    },
+    "./symptoms-virus-lung-damage": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/symptoms-virus-lung-damage.vue"
+    },
+    "./symptoms-virus-stomach": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/symptoms-virus-stomach.vue"
+    },
+    "./transmission-virus-airplane-flight": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/transmission-virus-airplane-flight.vue"
+    },
+    "./transmission-virus-briefcase": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/transmission-virus-briefcase.vue"
+    },
+    "./transmission-virus-cough": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/transmission-virus-cough.vue"
+    },
+    "./transmission-virus-crowd": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/transmission-virus-crowd.vue"
+    },
+    "./transmission-virus-expand": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/transmission-virus-expand.vue"
+    },
+    "./transmission-virus-float-wind": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/transmission-virus-float-wind.vue"
+    },
+    "./transmission-virus-handshake": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/transmission-virus-handshake.vue"
+    },
+    "./transmission-virus-human-infected": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/transmission-virus-human-infected.vue"
+    },
+    "./transmission-virus-human-transmit-1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/transmission-virus-human-transmit-1.vue"
+    },
+    "./transmission-virus-human-transmit-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/transmission-virus-human-transmit-2.vue"
+    },
+    "./transmission-virus-increase-rate": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/transmission-virus-increase-rate.vue"
+    },
+    "./transmission-virus-inhale": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/transmission-virus-inhale.vue"
+    },
+    "./transmission-virus-mobile-application": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/transmission-virus-mobile-application.vue"
+    },
+    "./transmission-virus-rat-mouse": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/transmission-virus-rat-mouse.vue"
+    },
+    "./transmission-virus-touch-finger": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/transmission-virus-touch-finger.vue"
+    },
+    "./transmission-virus-touch-hand-1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/transmission-virus-touch-hand-1.vue"
+    },
+    "./transmission-virus-touch-hand-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/transmission-virus-touch-hand-2.vue"
+    },
+    "./transmission-virus-transmit": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/transmission-virus-transmit.vue"
+    },
+    "./transmission-virus-transportation": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/transmission-virus-transportation.vue"
+    },
+    "./transmission-virus-trash-bin": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/transmission-virus-trash-bin.vue"
+    },
+    "./transmission-virus-visible": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/transmission-virus-visible.vue"
+    },
+    "./transmission-virus-wind-breath": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/transmission-virus-wind-breath.vue"
+    },
+    "./vaccine-protection-face-mask-1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vaccine-protection-face-mask-1.vue"
+    },
+    "./vaccine-protection-face-mask-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vaccine-protection-face-mask-2.vue"
+    },
+    "./vaccine-protection-face-mask-3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vaccine-protection-face-mask-3.vue"
+    },
+    "./vaccine-protection-face-shield-1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vaccine-protection-face-shield-1.vue"
+    },
+    "./vaccine-protection-face-shield-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vaccine-protection-face-shield-2.vue"
+    },
+    "./vaccine-protection-infrared-thermometer-gun": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vaccine-protection-infrared-thermometer-gun.vue"
+    },
+    "./vaccine-protection-medicine-pill": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vaccine-protection-medicine-pill.vue"
+    },
+    "./vaccine-protection-people-shield": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vaccine-protection-people-shield.vue"
+    },
+    "./vaccine-protection-sanitizer-spray": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vaccine-protection-sanitizer-spray.vue"
+    },
+    "./vaccine-protection-shield": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vaccine-protection-shield.vue"
+    },
+    "./vaccine-protection-syringe": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vaccine-protection-syringe.vue"
+    },
+    "./vaccine-protection-virus": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vaccine-protection-virus.vue"
+    },
+    "./vaccine-protection-wash-hands": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vaccine-protection-wash-hands.vue"
+    },
+    "./virus-lab-research-magnifier-1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/virus-lab-research-magnifier-1.vue"
+    },
+    "./virus-lab-research-magnifier-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/virus-lab-research-magnifier-2.vue"
+    },
+    "./virus-lab-research-medicine-pill": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/virus-lab-research-medicine-pill.vue"
+    },
+    "./virus-lab-research-microscope": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/virus-lab-research-microscope.vue"
+    },
+    "./virus-lab-research-syringe": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/virus-lab-research-syringe.vue"
+    },
+    "./virus-lab-research-test-tube": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/virus-lab-research-test-tube.vue"
+    },
+    "./*": "./*"
+  },
+  "dependencies": {
+    "@iconify/css-vue": "^1.0.0"
+  },
+  "repository": "github:iconify/icons-vue#covid"
+}

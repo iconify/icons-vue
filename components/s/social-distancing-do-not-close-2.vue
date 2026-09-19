@@ -1,0 +1,13 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/h/hntgybcog.css';
+import '../../css/c/cbprcirqx.css';
+import '../../css/g/gian8go6d.css';
+import '../../css/j/j5udpybsm.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="hntgybcog"><path class="cbprcirqx"/><path class="gian8go6d"/><path class="j5udpybsm"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="covid:social-distancing-do-not-close-2" /></template>

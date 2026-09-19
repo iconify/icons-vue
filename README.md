@@ -1,16 +1,15 @@
 # @iconify-vue/fluent-emoji
 
-Icon set prefix: **fluent-emoji**
+⚠️ This icon set is deprecated and no longer maintained. Use it at your own risk.
 
-Icon set name: **Fluent Emoji**
 
-Author: **Microsoft Corporation**
+**Fluent Emoji**
 
-License: **[MIT](https://github.com/microsoft/fluentui-emoji/blob/main/LICENSE)**
+Author: [Microsoft Corporation](https://github.com/microsoft/fluentui-emoji)
 
-Repository: **https://github.com/microsoft/fluentui-emoji**
+License: [MIT](https://github.com/microsoft/fluentui-emoji/blob/main/LICENSE)
 
-Browse all icons: **[Preview Fluent Emoji](https://icon-sets.iconify.design/fluent-emoji/)**
+Browse all icons: [preview Fluent Emoji on Iconify](https://icon-sets.iconify.design/fluent-emoji/)
 
 ## Installation
 

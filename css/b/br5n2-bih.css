@@ -1,0 +1,8 @@
+.br5n2-bih {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M12 6v6m0 0v6m0-6h6m-6 0H6");
+}

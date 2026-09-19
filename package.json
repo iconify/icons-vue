@@ -1,0 +1,195 @@
+{
+  "name": "@iconify-vue/brandico",
+  "type": "module",
+  "version": "1.0.4",
+  "homepage": "https://icon-sets.iconify.design/brandico/",
+  "bugs": "https://github.com/iconify/icons-vue/issues",
+  "license": "CC-BY-SA-3.0",
+  "exports": {
+    "./amex": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/amex.vue"
+    },
+    "./bandcamp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bandcamp.vue"
+    },
+    "./blogger": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/blogger.vue"
+    },
+    "./blogger-rect": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/blogger-rect.vue"
+    },
+    "./box": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/box.vue"
+    },
+    "./box-rect": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/box-rect.vue"
+    },
+    "./codepen": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/codepen.vue"
+    },
+    "./deviantart": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/deviantart.vue"
+    },
+    "./diigo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/diigo.vue"
+    },
+    "./discover": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/discover.vue"
+    },
+    "./facebook": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/facebook.vue"
+    },
+    "./facebook-rect": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/facebook-rect.vue"
+    },
+    "./friendfeed": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/friendfeed.vue"
+    },
+    "./friendfeed-rect": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/friendfeed-rect.vue"
+    },
+    "./github": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/github.vue"
+    },
+    "./github-text": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/github-text.vue"
+    },
+    "./googleplus-rect": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/googleplus-rect.vue"
+    },
+    "./houzz": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/houzz.vue"
+    },
+    "./icq": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/icq.vue"
+    },
+    "./instagram": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/instagram.vue"
+    },
+    "./instagram-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/instagram-filled.vue"
+    },
+    "./jabber": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jabber.vue"
+    },
+    "./lastfm": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lastfm.vue"
+    },
+    "./lastfm-rect": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lastfm-rect.vue"
+    },
+    "./linkedin": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/linkedin.vue"
+    },
+    "./linkedin-rect": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/linkedin-rect.vue"
+    },
+    "./mastercard": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mastercard.vue"
+    },
+    "./odnoklassniki": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/odnoklassniki.vue"
+    },
+    "./odnoklassniki-rect": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/odnoklassniki-rect.vue"
+    },
+    "./picasa": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/picasa.vue"
+    },
+    "./skype": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/skype.vue"
+    },
+    "./tudou": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tudou.vue"
+    },
+    "./tumblr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tumblr.vue"
+    },
+    "./tumblr-rect": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tumblr-rect.vue"
+    },
+    "./twitter": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/twitter.vue"
+    },
+    "./twitter-bird": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/twitter-bird.vue"
+    },
+    "./vimeo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vimeo.vue"
+    },
+    "./vimeo-rect": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vimeo-rect.vue"
+    },
+    "./visa": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/visa.vue"
+    },
+    "./vkontakte-rect": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vkontakte-rect.vue"
+    },
+    "./win8": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/win8.vue"
+    },
+    "./wordpress": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wordpress.vue"
+    },
+    "./yandex": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yandex.vue"
+    },
+    "./yandex-rect": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yandex-rect.vue"
+    },
+    "./youku": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/youku.vue"
+    },
+    "./*": "./*"
+  },
+  "dependencies": {
+    "@iconify/css-vue": "^1.0.0"
+  },
+  "repository": "github:iconify/icons-vue#brandico"
+}

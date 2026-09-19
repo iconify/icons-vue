@@ -1,0 +1,26 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":64,"height":64};
+const content = `<path class="rl1cpz9vl"/><path class="f_xx2xjft"/><path class="tc_--qbvv"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="emojione:keycap-9" /></template>
+<style>
+.f_xx2xjft {
+  fill: var(--svg-color--fff, #fff);
+  d: path("M57 45.7c0 4.6-3.7 8.3-8.3 8.3H15.3C10.7 54 7 50.3 7 45.7V12.3C7 7.7 10.7 4 15.3 4h33.3c4.6 0 8.3 3.7 8.3 8.3v33.4z");
+}
+
+.rl1cpz9vl {
+  fill: var(--svg-color--d0d0d0, #d0d0d0);
+  d: path("M62 52c0 5.5-4.5 10-10 10H12C6.5 62 2 57.5 2 52V12C2 6.5 6.5 2 12 2h40c5.5 0 10 4.5 10 10z");
+}
+
+.tc_--qbvv {
+  fill: var(--svg-color--9aa0a5, #9aa0a5);
+  d: path("m22.6 37.2l5.6-.6c.1 1.2.5 2.1 1.1 2.6s1.3.9 2.3.9c1.2 0 2.2-.6 3-1.7s1.4-3.5 1.6-7.1c-1.4 1.8-3.2 2.6-5.4 2.6c-2.4 0-4.4-1-6.1-2.9s-2.6-4.4-2.6-7.4c0-3.2.9-5.7 2.7-7.7c1.8-1.9 4.1-2.9 6.9-2.9c3 0 5.5 1.2 7.5 3.7C41 19.1 42 23.2 42 28.8c0 5.7-1 9.9-3 12.4S34.3 45 31.1 45c-2.3 0-4.2-.7-5.7-2s-2.4-3.2-2.8-5.8m13-13.1c0-1.9-.4-3.4-1.3-4.5s-1.8-1.6-3-1.6c-1.1 0-1.9.4-2.6 1.3s-1.1 2.3-1.1 4.3s.4 3.5 1.1 4.5c.8.9 1.7 1.4 2.9 1.4c1.1 0 2-.5 2.8-1.4s1.2-2.2 1.2-4");
+}
+
+</style>

@@ -1,0 +1,115 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":64,"height":64};
+const content = `<path class="tjsr_sr6y"/><path class="xe6d0yhem"/><path class="ks0r-7bho"/><path class="sb6nulqcm"/><circle class="i8zmjcb-i"/><path class="h5k7kibnw"/><path class="ojnsgwbut"/><path class="g2i935yqa"/><path class="s5qq1pbta"/><circle class="v-mv6g1pi"/><path class="bq5gfwbzq"/><path class="zo3pu822c"/><circle class="wf11bln1v"/><g class="seu-twbkw"><path class="mj-8uc-zv"/><path class="tcst9_jnf"/></g><path class="smttendsk"/><path class="n11p0acak"/><path class="m1j99ybjt"/><path class="w6tc9vbii"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="emojione:detective-medium-skin-tone" /></template>
+<style>
+.bq5gfwbzq {
+  fill: var(--svg-color--231f20, #231f20);
+  d: path("M21.4 37.1c0 .8-.6 1.4-1.4 1.4s-1.4-.6-1.4-1.4s.6-1.4 1.4-1.4c.7 0 1.4.6 1.4 1.4");
+}
+
+.g2i935yqa {
+  fill: var(--svg-color--b58360, #b58360);
+  d: path("M32.3 48.4c-3.3 0-5-2.4-3.3-2.4h6.7c1.7 0-.1 2.4-3.4 2.4");
+}
+
+.h5k7kibnw {
+  fill: var(--svg-color--231f20, #231f20);
+  d: path("M40.3 37.7c0 .7.5 1.2 1.2 1.2s1.2-.5 1.2-1.2s-.5-1.2-1.2-1.2s-1.2.5-1.2 1.2");
+}
+
+.i8zmjcb-i {
+  cx: 41.5px;
+  cy: 37.7px;
+  r: 3.6px;
+  fill: var(--svg-color--664e27, #664e27);
+}
+
+.ks0r-7bho {
+  fill: var(--svg-color--664e27, #664e27);
+  d: path("M39.5 51.5c0 2.7-3.6 4.1-7.2 4.1s-7.2-1.4-7.2-4.1c0 0 0-.7.7-.7h13c.7 0 .7.7.7.7");
+}
+
+.m1j99ybjt {
+  fill: var(--svg-color--62727a, #62727a);
+  d: path("M52.9 22.3c-9.1-10.1.1-23.8-7-19.5c-5.2 3.2-10.2 4-13.9 4s-8.7-.8-13.9-4c-7.1-4.3 2.1 9.3-7 19.5C2.4 27.4 2 26.8 2 28c0 .7.4 6.8 30 6.8s30-6.2 30-6.8c0-1.2-.4-.6-9.1-5.7");
+}
+
+.mj-8uc-zv {
+  d: path("m11.083 48.734l1.1-1.905l2.51 1.45l-1.1 1.905z");
+}
+
+.n11p0acak {
+  fill: var(--svg-color--b0bdc6, #b0bdc6);
+  d: path("M4.3 56.7c-.4.7 5.4 4.1 5.8 3.4l.3-.5c.4-.7-5.4-4.1-5.8-3.4z");
+}
+
+.ojnsgwbut {
+  fill: var(--svg-color--664e27, #664e27);
+  d: path("M47.5 38.1c0-5.6-11.2-5.6-11.2.8c1.6-4.8 9.6-4.8 11.2-.8");
+}
+
+.s5qq1pbta {
+  fill: var(--svg-color--f5f5f5, #f5f5f5);
+  d: path("M19.5 34.2c-4.6 0-6.5 1.7-6.5 3.4s0 4.1 6.1 4.1c5.9 0 6.9-.7 6.9-3.2c0-1.8-1.9-4.3-6.5-4.3");
+}
+
+.sb6nulqcm {
+  fill: var(--svg-color--f5f5f5, #f5f5f5);
+  d: path("M41.9 35.3c4 0 5.6 1.4 5.6 2.9s0 3.5-5.3 3.5c-5.1 0-5.9-.6-5.9-2.8c0-1.5 1.6-3.6 5.6-3.6");
+}
+
+.seu-twbkw {
+  fill: var(--svg-color--b0bdc6, #b0bdc6);
+}
+
+.smttendsk {
+  fill: var(--svg-color--333, #333);
+  d: path("m5.022 56.832l5.15-8.92l4.504 2.6l-5.15 8.92z");
+}
+
+.tcst9_jnf {
+  d: path("M13.2 48c5.9 3.4 13.4 1.4 16.8-4.5s1.4-13.4-4.5-16.8s-13.4-1.4-16.8 4.5S7.3 44.6 13.2 48m-2.6-15.7c2.8-4.8 9-6.5 13.8-3.7s6.5 9 3.7 13.8s-9 6.5-13.8 3.7c-4.9-2.8-6.5-9-3.7-13.8");
+}
+
+.tjsr_sr6y {
+  fill: var(--svg-color--594640, #594640);
+  d: path("M11.5 41.2h41.6c0-22.4-3.2-27.2-20.8-27.2s-20.8 4.8-20.8 27.2");
+}
+
+.v-mv6g1pi {
+  cx: 20px;
+  cy: 37.1px;
+  r: 4.2px;
+  fill: var(--svg-color--664e27, #664e27);
+}
+
+.w6tc9vbii {
+  fill: var(--svg-color--2c3033, #2c3033);
+  d: path("M32 24.1c9.6 0 20.9-1.8 20.9-1.8c-1-1.1-1.7-2.2-2.3-3.4C46 19.6 39.9 20 32 20s-13.9-.4-18.6-1.1c-.6 1.2-1.3 2.4-2.3 3.4c0 0 11.3 1.8 20.9 1.8");
+}
+
+.wf11bln1v {
+  cx: 19.3px;
+  cy: 37.3px;
+  r: 11.1px;
+  fill: var(--svg-color--f5f5f5, #f5f5f5);
+  opacity: var(--svg-opacity--0-4, 0.4);
+}
+
+.xe6d0yhem {
+  fill: var(--svg-color--d6a57c, #d6a57c);
+  d: path("M51.3 36.3c-.1.9-.3 1.7-.6 2.1c-.4.8-1.4 1.3-1.4 1.3s.2-1.7.2-4c-1-13.9-1.8-10-17.3-10c-15.4 0-24.2 2.7-24.2 12c0 6.8 6.4 9.9 6.4 9.9C16 54.3 20.6 58 27.8 61.3c2.2 1 6.6 1 8.8 0c8-3.6 12.7-7.8 13.8-15.9c3.2-.2 4.2-2.4 4.2-4.9c.1-4.3-1.8-4.6-3.3-4.2");
+}
+
+.zo3pu822c {
+  fill: var(--svg-color--664e27, #664e27);
+  d: path("M13 37.5c0-6.5 13-6.5 13 .9c-1.9-5.5-11.1-5.5-13-.9");
+}
+
+</style>

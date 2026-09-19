@@ -1,0 +1,71 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":64,"height":64};
+const content = `<path class="ve21zlbnj"/><path class="j0hxhbcjy"/><path class="ivr88hbzt"/><path class="sp8i4ebax"/><path class="zz5tndb4m"/><path class="grk4lcblp"/><path class="apond3bip"/><path class="g3fuowboj"/><path class="eduf7b2ud"/><path class="z9t8ifb6y"/><path class="ol6vfryit"/><path class="dzt6a1f3n"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="emojione:hourglass-done" /></template>
+<style>
+.apond3bip {
+  fill: var(--svg-color--51575b, #51575b);
+  d: path("M50 5c0 1.1-.7 2-1.5 2h-33c-.8 0-1.5-.9-1.5-2V2c0-1.1.7-2 1.5-2h33.1c.7 0 1.4.9 1.4 2zm0 57c0 1.1-.7 2-1.5 2h-33c-.8 0-1.5-.9-1.5-2v-3c0-1.1.7-2 1.5-2h33.1c.8 0 1.5.9 1.5 2c-.1 0-.1 3-.1 3");
+}
+
+.dzt6a1f3n {
+  fill: var(--svg-color--51575b, #51575b);
+  d: path("M45 56.2c0 .4-.3.8-.7.8H19.7c-.4 0-.7-.4-.7-.8v-2.4c0-.4.3-.8.7-.8h24.6c.4 0 .7.4.7.8z");
+}
+
+.eduf7b2ud {
+  fill: var(--svg-color--cecece, #cecece);
+  d: path("M11 7h1v50h-1z");
+}
+
+.g3fuowboj {
+  fill: var(--svg-color--919191, #919191);
+  d: path("M12 7h1v50h-1z");
+}
+
+.grk4lcblp {
+  fill: var(--svg-color--212528, #212528);
+  d: path("M50 56.2c0 .4-.4.8-.9.8H14.9c-.5 0-.9-.4-.9-.8v-2.4c0-.4.4-.8.9-.8h34.2c.5 0 .9.4.9.8zM56 5c0 1.1-.8 2-1.9 2H9.9C8.8 7 8 6.1 8 5V2c0-1.1.8-2 1.9-2h44.3c1 0 1.9.9 1.9 2z");
+}
+
+.ivr88hbzt {
+  fill: var(--svg-color--428bc1, #428bc1);
+  d: path("M18.8 53h26.4c0-8.8-13.2-14.2-13.2-14.2S18.8 44.2 18.8 53");
+}
+
+.j0hxhbcjy {
+  fill: var(--svg-color--f5f5f5, #f5f5f5);
+  d: path("M35.5 33.6c-1.2-.5-1.9-.7-1.9-1.6c0-.8.7-1 1.9-1.6c6.3-2.5 6.9-8.8 6.9-19.4H21.6c0 10.7.6 17 6.9 19.4c1.2.5 1.9.7 1.9 1.6s-.7 1-1.9 1.6c-6.3 2.5-6.9 8.8-6.9 19.4h20.9c-.1-10.7-.7-17-7-19.4");
+}
+
+.ol6vfryit {
+  fill: var(--svg-color--cecece, #cecece);
+  d: path("M51 7h1v50h-1z");
+}
+
+.sp8i4ebax {
+  fill: var(--svg-color--212528, #212528);
+  d: path("M56 62c0 1.1-.8 2-1.9 2H9.9c-1 0-1.9-.9-1.9-2v-3c0-1.1.8-2 1.9-2h44.3c1 0 1.9.9 1.9 2zm-6-51.8c0 .4-.4.8-.9.8H14.9c-.5 0-.9-.4-.9-.8V7.8c0-.4.4-.8.9-.8h34.2c.5 0 .9.4.9.8z");
+}
+
+.ve21zlbnj {
+  fill: var(--svg-color--e5e5e5, #e5e5e5);
+  d: path("M36.9 33.6c-1.6-.5-2.6-.7-2.6-1.6c0-.8 1-1 2.6-1.6C45.6 28 48.1 21.7 48.1 11H15.9c0 10.7 2.5 17 11.2 19.4c1.6.5 2.6.7 2.6 1.6s-1 1-2.6 1.6C18.4 36 15.9 42.3 15.9 53h32.2c0-10.7-2.5-17-11.2-19.4");
+}
+
+.z9t8ifb6y {
+  fill: var(--svg-color--919191, #919191);
+  d: path("M52 7h1v50h-1z");
+}
+
+.zz5tndb4m {
+  fill: var(--svg-color--51575b, #51575b);
+  d: path("M45 10.2c0 .4-.3.8-.7.8H19.7c-.4 0-.7-.4-.7-.8V7.8c0-.4.3-.8.7-.8h24.6c.4 0 .7.4.7.8z");
+}
+
+</style>

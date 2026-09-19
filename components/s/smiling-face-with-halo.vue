@@ -1,0 +1,26 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":64,"height":64};
+const content = `<path class="v94ygabnc"/><path class="sg7dbxb0q"/><path class="qewm6741d"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="emojione:smiling-face-with-halo" /></template>
+<style>
+.qewm6741d {
+  fill: var(--svg-color--4aa9ff, #4aa9ff);
+  d: path("M54.3 7.2C53.8 3 45.9.8 28.5 2.6C12.2 4.4 3.9 8.3 4.3 12.4c.7 6.4 12.2 8.6 26 7.1c13.8-1.4 24.6-5.9 24-12.3m-24.7 5.4c-9.2 1-16.9.4-17-1.2c-.1-.6.9-1.2 2.5-1.9C19.8 6.1 25.7 4 32 4c4.5 0 8.8 1 12.6 2.9c.9.3 1.4.6 1.4 1c.2 1.5-7.2 3.7-16.4 4.7");
+}
+
+.sg7dbxb0q {
+  fill: var(--svg-color--664e27, #664e27);
+  d: path("M28.6 34.4c-1.8-4.9-4.5-7.4-7.2-7.4s-5.4 2.5-7.2 7.4c-.2.5.7 1.4 1.2.9c1.7-1.8 3.8-2.6 6-2.6s4.3.7 6 2.6c.5.5 1.4-.4 1.2-.9m21.2 0C48 29.5 45.3 27 42.6 27s-5.4 2.5-7.2 7.4c-.2.5.7 1.4 1.2.9c1.7-1.8 3.8-2.6 6-2.6s4.3.7 6 2.6c.4.5 1.4-.4 1.2-.9m-5.6 7.8c-7.8 5.5-16.5 5.4-24.3 0c-.9-.7-1.8.5-1.1 1.5c2.4 3.9 7.2 7.4 13.3 7.4s10.9-3.5 13.3-7.4c.5-1-.3-2.1-1.2-1.5");
+}
+
+.v94ygabnc {
+  fill: var(--svg-color--ffdd67, #ffdd67);
+  d: path("M61 33c0 16-13 29-29 29S3 49 3 33S16 4 32 4s29 13 29 29");
+}
+
+</style>

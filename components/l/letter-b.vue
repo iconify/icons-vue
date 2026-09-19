@@ -1,0 +1,23 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":64,"height":64};
+const content = `<circle class="bgatx5byk"/><path class="kl38qsb7h"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="emojione:letter-b" /></template>
+<style>
+.bgatx5byk {
+  cx: 32px;
+  cy: 32px;
+  r: 30px;
+  fill: var(--svg-color--4fd1d9, #4fd1d9);
+}
+
+.kl38qsb7h {
+  fill: var(--svg-color--fff, #fff);
+  d: path("M42.6 20.6c.9 1.2 1.3 2.7 1.3 4.4c0 1.8-.4 3.2-1.3 4.3c-.5.6-1.2 1.2-2.2 1.7c1.5.5 2.6 1.4 3.4 2.6s1.1 2.6 1.1 4.3s-.4 3.3-1.3 4.6c-.5.9-1.2 1.7-2.1 2.3q-1.35 1.05-3.3 1.5c-1.95.45-2.6.4-4.1.4h-13v-29h14c3.6-.2 6.1.9 7.5 2.9m-15.7 1.9v6.4H34c1.3 0 2.3-.2 3.1-.7s1.2-1.3 1.2-2.5c0-1.4-.5-2.2-1.6-2.7c-.9-.3-2-.5-3.4-.5zm0 11.2v7.7h7c1.3 0 2.2-.2 2.9-.5c1.3-.6 1.9-1.8 1.9-3.6c0-1.5-.6-2.5-1.8-3.1c-.7-.3-1.7-.5-2.9-.5z");
+}
+
+</style>

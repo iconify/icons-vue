@@ -1,0 +1,88 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":64,"height":64};
+const content = `<path class="ll5qm_c6c"/><path class="vcdgs0a5o"/><g class="sfcz0dbfy"><path class="kfeesvi_m"/><path class="onuwme87i"/></g><path class="q_66inbca"/><path class="gybfwte5e"/><path class="yt7q57a8d"/><path class="yn_xa66zt"/><path class="l5q7_4buh"/><path class="rqnm2wbti"/><path class="soeo9tbjp"/><path class="h8wq6q92u"/><path class="g4f764d6d"/><path class="c36ci7b3x"/><path class="gaik-01kj"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="emojione:person-getting-massage" /></template>
+<style>
+.c36ci7b3x {
+  fill: var(--svg-color--eba352, #eba352);
+  d: path("M32 39.6c-2.9 0-4.4-2.1-2.9-2.1H35c1.4 0-.1 2.1-3 2.1");
+}
+
+.g4f764d6d {
+  fill: var(--svg-color--d47f6c, #d47f6c);
+  d: path("M34.8 41.5c-2.1-.8-2.8.5-2.8.5s-.7-1.2-2.8-.5c-1.6.6-4.2.2-4.2.3c2.8.6 3.1 1.8 7 1.8c3.8 0 4.2-1.2 7-1.8c0 0-2.6.3-4.2-.3");
+}
+
+.gaik-01kj {
+  fill: var(--svg-color--937237, #937237);
+  d: path("M19.4 30.2c2.5 4.7 7.5 4.7 9.9 0c.1-.2-.2-.3-.6-.6c-2.5 2-6.5 1.8-8.8 0c-.3.3-.6.4-.5.6m15.3 0c2.5 4.7 7.5 4.7 9.9 0c.1-.2-.2-.3-.6-.6c-2.5 2-6.5 1.8-8.8 0c-.3.3-.6.4-.5.6");
+}
+
+.gybfwte5e {
+  fill: var(--svg-color--428bc1, #428bc1);
+  d: path("M3.7 8.5s7.8.3 9.6-2.1L12.8 2H3z");
+}
+
+.h8wq6q92u {
+  fill: var(--svg-color--f09985, #f09985);
+  d: path("m32 42.8l-7-1.1c4.2 6 9.8 6 14 0z");
+}
+
+.kfeesvi_m {
+  d: path("M16.9 34.7s-3-.8-3-5.2c0-3.5 2.3-4.1 2.3-4.1c8.2 0 21.7-10.5 21.7-10.5s5.1 9.3 10 10.5c0 0 2.4.4 2.4 4.1c0 4.4-3.2 5.2-3.2 5.2c0 6.7-9.3 14.7-15 14.7c-5.8 0-15.2-8-15.2-14.7");
+}
+
+.l5q7_4buh {
+  fill: var(--svg-color--eba352, #eba352);
+  d: path("M55 20.7c-.1-1.1.9-1.6 1-.5l.3 3.7c1.2-1.1 3-3.5 2.8-5.8l-.8-10.6c-.1-.8-.4-1.4-.8-1.9c1.1.5 2 1.4 2.1 2.8l.7 10.6c.3 3.7-3.2 6.4-3.9 6.9l.3 5c.1.9-.6 1.8-1.6 2c.4-.4.7-.9.7-1.5z");
+}
+
+.ll5qm_c6c {
+  fill: var(--svg-color--ffb300, #ffb300);
+  d: path("M32 5.8c-13.7 0-21.2 8.5-21.2 19.6v28.5h42.4V25.4c0-16.6-11.5-16.3-11.5-16.3s-.8-3.3-9.7-3.3");
+}
+
+.onuwme87i {
+  d: path("M18.5 19.1c-.9-2.2-1.2-4-1.2-5.4c0-.5-.2-.9-.5-1.2l-4.2-6c-1.2-2-7.8-2.1-8 1.9L4.1 19c-.2 3.4 3.5 6.5 4.1 6.1l-.5 5.7c-.1 1.1.5 2 1.7 2.1s2.3-.8 2.3-1.8l1-14.2l.9.8s.7 3.1 3 3.4c1.6.2 2.2-1.2 1.9-2");
+}
+
+.q_66inbca {
+  fill: var(--svg-color--eba352, #eba352);
+  d: path("M9 20.7c.1-1.1-.9-1.6-1-.5l-.3 3.7c-1.2-1.1-3-3.5-2.8-5.8l.8-10.6c.1-.8.4-1.4.8-1.9c-1.1.5-1.9 1.4-2 2.7L3.7 19c-.3 3.7 3.2 6.4 3.9 6.9l-.3 5c-.1.9.6 1.8 1.6 2c-.4-.4-.7-.9-.7-1.5z");
+}
+
+.rqnm2wbti {
+  fill: var(--svg-color--428bc1, #428bc1);
+  d: path("M60.3 8.5s-7.8.3-9.6-2.1l.5-4.4H61z");
+}
+
+.sfcz0dbfy {
+  fill: var(--svg-color--ffdd67, #ffdd67);
+}
+
+.soeo9tbjp {
+  fill: var(--svg-color--eba352, #eba352);
+  d: path("m49.5 18.5l.1-.4s1.2-1.5 1.6-2.9l.1 1.7c-.3.5-.6.9-.6.9l-.1.4c-.2.8-.8 2.5-3 2.8c1.3-.6 1.7-1.8 1.9-2.5");
+}
+
+.vcdgs0a5o {
+  fill: var(--svg-color--b386e2, #b386e2);
+  d: path("M41.6 49.9v-6.7H22.4v6.7C10.3 50.2 7.8 52.1 7.8 62h48.3c.1-9.9-2.4-11.8-14.5-12.1");
+}
+
+.yn_xa66zt {
+  fill: var(--svg-color--ffdd67, #ffdd67);
+  d: path("M45.5 19.1c.9-2.2 1.2-4 1.2-5.4c0-.5.2-.9.5-1.2l4.2-6c1.2-2 7.8-2.1 8 1.9l.5 10.6c.2 3.4-3.5 6.5-4.1 6.1l.5 5.7c.1 1.1-.5 2-1.7 2.1s-2.3-.8-2.3-1.8l-1-14.2l-.9.8s-.7 3.1-3 3.4c-1.6.2-2.2-1.2-1.9-2");
+}
+
+.yt7q57a8d {
+  fill: var(--svg-color--eba352, #eba352);
+  d: path("m14.5 18.5l-.1-.4s-1.2-1.5-1.6-2.9l-.1 1.7c.3.5.6.9.6.9l.1.4c.2.8.8 2.5 3 2.8c-1.3-.6-1.7-1.8-1.9-2.5");
+}
+
+</style>

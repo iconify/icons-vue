@@ -1,0 +1,61 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":64,"height":64};
+const content = `<path class="cljzb6x3l"/><path class="j0pl9bc2b"/><path class="jugat8zno"/><path class="ohyxzlbvs"/><path class="ymc0spwiu"/><path class="ovr4dsc6b"/><path class="p0f5fgbmw"/><path class="xcjv2ebbp"/><path class="q1zpp1cfx"/><path class="zdl52ob-j"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="emojione:flag-for-flag-malaysia" /></template>
+<style>
+.cljzb6x3l {
+  fill: var(--svg-color--ed4c5c, #ed4c5c);
+  d: path("M56 14H32v6h27.5c-.9-2.1-2.1-4.2-3.5-6");
+}
+
+.j0pl9bc2b {
+  fill: var(--svg-color--f9f9f9, #f9f9f9);
+  d: path("M61.4 38q.6-2.85.6-6H2q0 3.15.6 6z");
+}
+
+.jugat8zno {
+  fill: var(--svg-color--ed4c5c, #ed4c5c);
+  d: path("M32 2v6h18c-5-3.8-11.2-6-18-6");
+}
+
+.ohyxzlbvs {
+  fill: var(--svg-color--f9f9f9, #f9f9f9);
+  d: path("M32 14h24q-2.55-3.45-6-6H32zm27.5 6H32v6h29.4c-.4-2.1-1.1-4.1-1.9-6");
+}
+
+.ovr4dsc6b {
+  fill: var(--svg-color--f9f9f9, #f9f9f9);
+  d: path("M8 50h48c1.4-1.8 2.6-3.9 3.5-6h-55c.9 2.1 2.1 4.2 3.5 6");
+}
+
+.p0f5fgbmw {
+  fill: var(--svg-color--ed4c5c, #ed4c5c);
+  d: path("M8 50q2.55 3.45 6 6h36q3.45-2.55 6-6z");
+}
+
+.q1zpp1cfx {
+  fill: var(--svg-color--2a5f9e, #2a5f9e);
+  d: path("M32 2C15.4 2 2 15.4 2 32h30z");
+}
+
+.xcjv2ebbp {
+  fill: var(--svg-color--f9f9f9, #f9f9f9);
+  d: path("M14 56c5 3.8 11.2 6 18 6s13-2.2 18-6z");
+}
+
+.ymc0spwiu {
+  fill: var(--svg-color--ed4c5c, #ed4c5c);
+  d: path("M32 26v6h30q0-3.15-.6-6zM4.5 44h55c.8-1.9 1.5-3.9 1.9-6H2.6c.4 2.1 1.1 4.1 1.9 6");
+}
+
+.zdl52ob-j {
+  fill: var(--svg-color--ffe62e, #ffe62e);
+  d: path("M19.9 25.6c-3 0-5.5-2.5-5.5-5.6s2.5-5.6 5.5-5.6c1.2 0 2.2.4 3.1 1c-1.3-1.5-3.1-2.4-5.2-2.4c-3.8 0-6.8 3.1-6.8 7s3.1 7 6.8 7c2.1 0 3.9-.9 5.2-2.4c-.9.6-2 1-3.1 1m6.1-6.8l.7-1.8l-.2 1.9l1.4-1.3l-1 1.7l1.8-.6l-1.6 1l1.9.3l-1.9.3l1.6 1l-1.8-.6l1 1.7l-1.4-1.3l.2 1.9l-.7-1.8l-.7 1.8l.2-1.9l-1.4 1.3l1-1.7l-1.8.6l1.6-1L23 20l1.9-.3l-1.6-1l1.8.6l-1-1.7l1.4 1.3l-.2-1.9z");
+}
+
+</style>

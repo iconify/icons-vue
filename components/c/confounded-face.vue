@@ -1,0 +1,28 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":64,"height":64};
+const content = `<circle class="rhvdvboaq"/><path class="d_3zg8b4c"/><path class="j0ysc_oqg"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="emojione:confounded-face" /></template>
+<style>
+.d_3zg8b4c {
+  fill: var(--svg-color--917524, #917524);
+  d: path("M22.6 18.2c-3.2 2.7-7.5 3.9-11.7 3.1c-.6-.1-1.1 2-.4 2.2c4.8.9 9.8-.5 13.5-3.6c.5-.5-1-2.1-1.4-1.7m30.5 3c-4.2.7-8.5-.4-11.7-3.1c-.4-.4-2 1.2-1.4 1.7c3.7 3.2 8.7 4.5 13.5 3.6c.7-.2.2-2.3-.4-2.2");
+}
+
+.j0ysc_oqg {
+  fill: var(--svg-color--664e27, #664e27);
+  d: path("M46.6 42.4c-.5-.6-1.5-.8-2.2-.3l-4.2 2.8c-.7.5-1.8.4-2.4-.1l-4.6-3.9c-.6-.5-1.6-.5-2.3 0l-4.6 3.9c-.6.5-1.7.6-2.4.1l-4.3-2.8c-.7-.5-1.7-.3-2.2.3L13 47.6c-.5.6-.4.8.3.4l3.8-2.1c.7-.4 1.8-.3 2.4.3l4.6 4.5c.6.6 1.6.6 2.3.1l4.5-3.4c.7-.5 1.7-.5 2.4 0l4.4 3.4c.7.5 1.7.4 2.3-.1l4.6-4.5c.6-.6 1.7-.7 2.4-.3l3.8 2.1c.7.4.9.2.3-.4zm5.1-14.3c.6.3.3 1-.2 1.1c-2.7.4-5.5.9-8.3 2.4c4 .7 7.2 2.7 9 4.8c.4.5-.1 1.1-.5 1c-4.8-1.7-9.7-2.7-15.8-2c-.5 0-.9-.2-.8-.7c1.6-7.3 10.9-10 16.6-6.6m-39.4 0c-.6.3-.3 1 .2 1.1c2.7.4 5.5.9 8.3 2.4c-4 .7-7.2 2.7-9 4.8c-.4.5.1 1.1.5 1c4.8-1.7 9.7-2.7 15.8-2c.5 0 .9-.2.8-.7c-1.6-7.3-10.9-10-16.6-6.6");
+}
+
+.rhvdvboaq {
+  cx: 32px;
+  cy: 32px;
+  r: 30px;
+  fill: var(--svg-color--ffdd67, #ffdd67);
+}
+
+</style>

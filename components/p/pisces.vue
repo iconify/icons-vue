@@ -1,0 +1,25 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":64,"height":64};
+const content = `<circle class="iqhz24bmv"/><path class="q3k3tymfm"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="emojione:pisces" /></template>
+<style>
+.iqhz24bmv {
+  cx: 32px;
+  cy: 32px;
+  r: 30px;
+  fill: var(--svg-color--c28fef, #c28fef);
+}
+
+.q3k3tymfm {
+  fill: var(--svg-color--fff, #fff);
+  stroke: var(--svg-color--fff, #fff);
+  stroke-miterlimit: 10;
+  d: path("M45.3 45.9c-4.2-3.2-6.5-7.7-7-12.3h6.2c2 0 2-3.1 0-3.1h-6.2c.4-4.6 2.7-9.1 7-12.3c1.6-1.2 0-3.9-1.6-2.7c-5.2 3.9-8 9.4-8.4 15h-6.2c-.4-5.7-3.4-11.3-8.8-15.2c-1.6-1.2-3.2 1.5-1.6 2.7c4.4 3.2 6.8 7.8 7.3 12.5h-6.4c-2 0-2 3.1 0 3.1H26c-.4 4.7-2.8 9.3-7.2 12.5c-1.6 1.2 0 3.8 1.6 2.7c5.4-3.9 8.3-9.5 8.7-15.2h6.2c.4 5.6 3.2 11 8.5 15c1.5 1.1 3.1-1.6 1.5-2.7z");
+}
+
+</style>

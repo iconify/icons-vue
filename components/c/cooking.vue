@@ -1,0 +1,28 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":64,"height":64};
+const content = `<path class="r5zejm-lx"/><path class="lzr-adc3q"/><circle class="eafsvo_mk"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="emojione:cooking" /></template>
+<style>
+.eafsvo_mk {
+  cx: 23px;
+  cy: 36px;
+  r: 8px;
+  fill: var(--svg-color--f29a2e, #f29a2e);
+}
+
+.lzr-adc3q {
+  fill: var(--svg-color--fff, #fff);
+  d: path("M12.2 30.1c-4.1 9.1-1.2 19.3 6.6 22.8c7.7 3.5 17.3-1.1 21.4-10.2s1.2-19.3-6.6-22.8c-7.7-3.5-17.3 1-21.4 10.2");
+}
+
+.r5zejm-lx {
+  fill: var(--svg-color--3e4347, #3e4347);
+  d: path("m60.3 4l-.3-.3c-2.3-2.3-6.1-2.3-8.4 0l-10 10.1c-10-6.2-23.3-5-32 3.7C-.5 27.7-.5 44.2 9.6 54.3c10.1 10.2 26.6 10.2 36.7 0c8.6-8.6 9.9-21.9 3.9-31.9l10.1-10.1c2.3-2.3 2.3-6 0-8.3m-4.7 8.1c-2.1 0-3.7-1.7-3.7-3.7c0-2.1 1.7-3.7 3.7-3.7s3.7 1.7 3.7 3.7c0 2.1-1.6 3.7-3.7 3.7");
+}
+
+</style>

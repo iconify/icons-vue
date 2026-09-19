@@ -1,0 +1,37 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":64,"height":64};
+const content = `<path class="ttiw-8c2x"/><path class="lvyhkkb3v"/><path class="fc3-t2blg"/><path class="lmyq05bqq"/><path class="um-yvnb_v"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="emojione:page-with-curl" /></template>
+<style>
+.fc3-t2blg {
+  fill: var(--svg-color--d9e3e8, #d9e3e8);
+  d: path("M16.8 51c1.4 4.2 3.5 8.2 6.7 11.6c1.8 1.9 5.4 1.9 7.4.3c2.1-1.6 2-4.1.3-5.9c-3-3.2-5-6.9-6.3-10.8c-2.7 1.5-5.4 3.2-8.1 4.8");
+}
+
+.lmyq05bqq {
+  fill: var(--svg-color--333, #333);
+  d: path("M18.9 49c.1 5.4 1.3 10.2 4.6 13.6c1.8 1.9 5.4 1.9 7.4.3c2.1-1.6 2-4.1.3-5.9c-3-3.2 20.3-24.1 18.9-28c-2.6 1.5-21.3 12.9-31.2 20");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.lvyhkkb3v {
+  fill: var(--svg-color--7d8b91, #7d8b91);
+  d: path("M11 14.1c.5.7 1 1.5 1.4 2.3c9.1-2.8 18.3-5.6 27.4-8.5c-.3-.6-.7-1.2-1.1-1.8c-9.2 2.7-18.4 5.4-27.7 8m4.3 9.1c8.9-3.3 17.9-6.6 26.8-9.9c-.2-.7-.4-1.3-.7-2c-9 3.1-18 6.2-27 9.4c.3.9.6 1.7.9 2.5m1.8 7.4l26.4-11.4c-.1-.7-.3-1.4-.4-2.1c-8.8 3.6-17.7 7.2-26.5 10.9c.1.8.3 1.7.5 2.6");
+}
+
+.ttiw-8c2x {
+  fill: var(--svg-color--d9e3e8, #d9e3e8);
+  d: path("M0 8.8c16.3 11.8 10.7 33.9 19.9 49c2.7-1.8 5.3-3.5 8-5.3c1.7 2.7 3.9 5.2 6.8 7.4l23.7-18.3c-3.8-2.8-6-6.3-7.4-10.2C47.2 20.8 49 7.5 38.5 0C25.7 2.9 12.8 5.9 0 8.8");
+}
+
+.um-yvnb_v {
+  fill: var(--svg-color--b0bdc6, #b0bdc6);
+  d: path("M24.2 43.7c1.3 4.7 3.2 9.1 6.6 12.8c1.8 2 2.2 4.8.1 6.4c10.4-8 20.8-16.1 31.2-24.1c2.1-1.6 2.3-3.9 1-5.4c-2.4-2.6-3.8-5.8-4.7-9.1c-15.9 9-27.2 15.4-34.2 19.4");
+}
+
+</style>

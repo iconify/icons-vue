@@ -1,0 +1,104 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":64,"height":64};
+const content = `<path class="iye6odgcn"/><path class="l3x63bb3x"/><path class="gqu4ulb3o"/><path class="ynq_icrsg"/><path class="pm9z-no-o"/><path class="ds0gbdctw"/><circle class="eaiyzdb-e"/><circle class="orkihzbta"/><path class="xyqjjlbbn"/><path class="wtw0ghbnu"/><circle class="e8ak5qbco"/><path class="qjs-c1ajx"/><path class="qlz59grdn"/><path class="s_gjzdbls"/><circle class="ge2w0orbd"/><path class="a9qbt97-j"/><path class="h3se4g1ku"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="emojione:person-getting-haircut-dark-skin-tone" /></template>
+<style>
+.a9qbt97-j {
+  fill: var(--svg-color--cedbd5, #cedbd5);
+  d: path("M61.8 8.7c.8-2.8-.9-5.5-3.7-6.1s-5.7 1.1-6.4 3.9c-.1.3-.2 1.1-.2 1.1c-.3 6.4-1.5 7.6-1.5 7.6c-1.8-.5-2.8.6-3 2.2c-1.1 8.7-3.7 16.2 1 16.3l5-18.2s-.1-3.3.4-3.9c.6.5 1.3.8 2.1 1c2.7.6 5.6-1.2 6.3-3.9m-2.4-.6c-.4 1.4-1.9 2.3-3.3 2s-2.3-1.7-1.9-3.2c.4-1.4 1.9-2.3 3.3-2c1.4.4 2.3 1.8 1.9 3.2");
+}
+
+.ds0gbdctw {
+  fill: var(--svg-color--f5f5f5, #f5f5f5);
+  d: path("M30.6 31.7c-1.1 0-.9-1.3-.9-1.3c1.6-8.4 11-3.9 11-3.9c.7 1.5-1.7 5.1-2.4 5.2c-3.1.8-7.7 0-7.7 0");
+}
+
+.e8ak5qbco {
+  cx: 17.2px;
+  cy: 28.3px;
+  r: 3.3px;
+  fill: var(--svg-color--664e27, #664e27);
+}
+
+.eaiyzdb-e {
+  cx: 34.8px;
+  cy: 28.3px;
+  r: 3.3px;
+  fill: var(--svg-color--664e27, #664e27);
+}
+
+.ge2w0orbd {
+  cx: 17.2px;
+  cy: 28.3px;
+  r: 1.1px;
+  fill: var(--svg-color--2b2925, #2b2925);
+}
+
+.gqu4ulb3o {
+  fill: var(--svg-color--b386e2, #b386e2);
+  d: path("M35.6 49.4v-7H16.5v7C4.4 49.7 2 51.7 2 62h48.1c0-10.3-2.4-12.3-14.5-12.6");
+}
+
+.h3se4g1ku {
+  fill: var(--svg-color--231f20, #231f20);
+  d: path("M50.6 18.6c.2-.7-.2-1.5-1-1.6c-.7-.2-1.5.3-1.7 1s.2 1.5 1 1.6c.8.2 1.5-.3 1.7-1");
+}
+
+.iye6odgcn {
+  fill: var(--svg-color--231f20, #231f20);
+  d: path("M60.3 24.7c-.9.3-3.6 1.2-5.9 1.5c-.8.1-1.7 0-2.5-.1c-.7-.2-1.3-.6-1.5-1.3l-.2.7c-1.4-.8-2.5-2.4-2.7-5.1C46.3-.7 36.1 5.6 36.1 5.6S35.2 2 26.1 2C12 2 4.3 11 4.3 22.9v30.3S55.4 61.9 62 23.9c0 .1-.7.4-1.7.8");
+}
+
+.l3x63bb3x {
+  fill: var(--svg-color--a9b5ae, #a9b5ae);
+  d: path("M50.4 24.7c.5 1.6 2.7 1.7 5 1.3c-1-2.6-2.8-5.8-4.2-9.4c-.6-1.5-1.8-2.2-3.4-1.1c0 0-1.5-.7-3.4-6.7c0 0-.3-.8-.5-1c-1.4-2.4-4.6-3.1-7.1-1.6s-3.4 4.7-1.9 7.1c1.4 2.4 4.6 3.1 7.1 1.6c.7-.4 1.3-1 1.7-1.6c.6.4 1.4 3.6 1.4 3.6l5.2 8.6zm-9.7-11.9c-1.3.8-3 .4-3.7-.8s-.3-2.9 1-3.7s3-.4 3.7.8s.3 2.9-1 3.7");
+}
+
+.orkihzbta {
+  cx: 34.8px;
+  cy: 28.3px;
+  r: 1.1px;
+  fill: var(--svg-color--2b2925, #2b2925);
+}
+
+.pm9z-no-o {
+  fill: var(--svg-color--705041, #705041);
+  d: path("M26 38.2c-3 0-4.6-2.2-3-2.2h6.1c1.5 0 0 2.2-3.1 2.2");
+}
+
+.qjs-c1ajx {
+  fill: var(--svg-color--3b3226, #3b3226);
+  d: path("M22.4 30.4c-1.7-10.1-9.9-3.4-13.2-4.8c3.2 3.1 9.8-3.6 13.2 4.8");
+}
+
+.qlz59grdn {
+  fill: var(--svg-color--7d5442, #7d5442);
+  d: path("m26 41.9l-7.3-1.1c4.4 6.3 10.3 6.3 14.7 0z");
+}
+
+.s_gjzdbls {
+  fill: var(--svg-color--5c3f34, #5c3f34);
+  d: path("M28.9 40.5c-2.1-.8-2.9.5-2.9.5s-.7-1.3-2.9-.5c-1.7.6-4.5.3-4.4.3c2.9.6 3.3 1.9 7.3 1.9s4.4-1.2 7.3-1.9c.1 0-2.7.4-4.4-.3");
+}
+
+.wtw0ghbnu {
+  fill: var(--svg-color--f5f5f5, #f5f5f5);
+  d: path("M21.4 31.7c1.1 0 .9-1.3.9-1.3c-1.6-8.4-11-3.9-11-3.9c-.7 1.5 1.7 5.1 2.4 5.2c3.1.8 7.7 0 7.7 0");
+}
+
+.xyqjjlbbn {
+  fill: var(--svg-color--3b3226, #3b3226);
+  d: path("M29.7 30.4c1.7-10.1 9.9-3.4 13.2-4.8c-3.3 3.1-9.9-3.6-13.2 4.8");
+}
+
+.ynq_icrsg {
+  fill: var(--svg-color--8a6859, #8a6859);
+  d: path("M10.1 33.6s-3.2-.8-3.2-5.5c0-3.7 2.4-4.4 2.4-4.4C18 23.7 34 12.5 34 12.5s3.4 9.9 8.5 11.2c0 0 2.5.5 2.5 4.4c0 4.7-3.3 5.5-3.3 5.5c0 7.1-9.8 15.7-15.8 15.7s-15.8-8.6-15.8-15.7");
+}
+
+</style>

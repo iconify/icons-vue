@@ -1,0 +1,61 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":64,"height":64};
+const content = `<path class="ujuqcq4dq"/><path class="i33qr4buw"/><path class="ytr4iubxb"/><path class="z9cvzfr5f"/><path class="wsowc-b9o"/><path class="t4mmb0b1e"/><path class="fpn-lu5oi"/><path class="ynslfo1mk"/><path class="r98qcdb6e"/><path class="ff_1iib7z"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="emojione:wilted-flower" /></template>
+<style>
+.ff_1iib7z {
+  fill: var(--svg-color--594640, #594640);
+  d: path("m16.3 46.6l7-3.1l.6 4zm7.6-21.2l-4.6 3.4l-1.1-2.9z");
+}
+
+.fpn-lu5oi {
+  fill: var(--svg-color--cc6060, #cc6060);
+  d: path("M48.7 20.2C50.2 7.8 39.4 3.9 34.1 6.6s-5.7 10.7-.9 17.7c4.8 7.1 6.1 12.2 6.1 12.2s8.3-7.5 9.4-16.3");
+}
+
+.i33qr4buw {
+  fill: var(--svg-color--9ca84d, #9ca84d);
+  d: path("M3.9 23.5c4.9-7.1 11.8-5.3 11.8-5.3s4.2 3.9-2.3 10C8.9 32.3 7 40.5 7 40.5s-8.8-8.8-3.1-17m34.5 28.9c-6.9-3.6-5.1-8.7-5.1-8.7s3.8-3.1 9.7 1.7c4 3.3 12 4.8 12 4.8s-8.6 6.5-16.6 2.2");
+}
+
+.r98qcdb6e {
+  fill: var(--svg-color--9ca84d, #9ca84d);
+  d: path("M36 9.7c1.5-2.2 6.2-6.6.2-5.1c-11.8 2.9-5.8 20.3-5.8 20.3s1.1-8.8 5.6-15.2");
+}
+
+.t4mmb0b1e {
+  fill: var(--svg-color--b35454, #b35454);
+  d: path("M42.3 22.5c-12.8-6-13.1-13.4-7.8-16.1s15 .2 18.2 7.8C55.9 22 62 26.7 62 26.7s-9.9.4-19.7-4.2");
+}
+
+.ujuqcq4dq {
+  fill: var(--svg-color--7b853d, #7b853d);
+  d: path("M38.7 15.9c-.2-3.5-1.3-7-3.9-9.5c-1.3-1.3-2.9-2.2-4.6-2.7c-1.8-.5-3.6-.3-5.2.3c-1.6.7-3 1.8-4 3.1s-1.8 2.8-2.3 4.4c-1.1 3.1-1.4 6.4-.7 9.7c.6 3.2 1.9 6.5 3.2 9.7c1.3 3.3 2.7 6.6 3.9 10c2.4 6.8 3.8 14 4 21.1H23c.2-6.7-.6-13.4-2.5-20c-.9-3.3-2.1-6.6-3.2-9.9s-2.3-6.8-2.7-10.4c-.5-3.6 0-7.5 1.5-10.9c.8-1.7 1.8-3.4 3.1-4.8c1.3-1.5 3.1-2.7 5.2-3.4s4.4-.7 6.4 0s3.7 1.9 4.9 3.3c2.3 2.9 3.1 6.5 3 10");
+}
+
+.wsowc-b9o {
+  fill: var(--svg-color--994848, #994848);
+  d: path("M38.3 27.9c1.9 2.8 14.1-.3 18.9 3.1c0 0 2.2-6.9-2.7-10.2c-2.8-1.8-22.6-2.4-16.2 7.1");
+}
+
+.ynslfo1mk {
+  fill: var(--svg-color--7b853d, #7b853d);
+  d: path("M36 9.7c-8.1 4.3-7-1.2-1.7-3.9c13-6.7 21.3 6.7 21.3 6.7S43.1 5.8 36 9.7");
+}
+
+.ytr4iubxb {
+  fill: var(--svg-color--803c3c, #803c3c);
+  d: path("M48 17c-7-5.7-10.3-8.7-14.3-6.6s-2 17.2 6.5 18c8.3.8 11.7 6.2 11.7 6.2S59.3 26.2 48 17");
+}
+
+.z9cvzfr5f {
+  fill: var(--svg-color--663030, #663030);
+  d: path("M34.8 21.8C33.3 13.7 31 9.7 35 7.6s22 9.8 17.1 15.5c-6 7.1-5.8 11.6-5.8 11.6s-9.2-.8-11.5-12.9");
+}
+
+</style>

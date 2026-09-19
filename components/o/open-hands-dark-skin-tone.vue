@@ -1,0 +1,101 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":64,"height":64};
+const content = `<path class="kbj3awltl"/><path class="o_fv32kti"/><path class="gj_gjnsae"/><path class="trn-lqevb"/><path class="h7rk3mq5j"/><path class="tng9q33fh"/><path class="mmc8q7b4c"/><g class="w89d9nsjy"><path class="jpem6pb0j"/><path class="ldbna_bma"/></g><path class="zwvg3ubas"/><path class="jdyce0o_y"/><path class="bwnx79bou"/><path class="m0hm5nbal"/><path class="g19phtbpx"/><path class="b70avq2jx"/><path class="iioi8y0nb"/><g class="w89d9nsjy"><path class="p416rxh9n"/><path class="uh3jwrbwo"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="emojione:open-hands-dark-skin-tone" /></template>
+<style>
+.b70avq2jx {
+  fill: var(--svg-color--705041, #705041);
+  d: path("m56.2 16.9l.3.3c-1.1-.6-2.4-.3-3.2.7l-8.8 11.3l-1.5.5l9.6-12.3c.8-1.2 2.5-1.4 3.6-.5m4.9 9.8l.3.3c-1-.5-2.2-.2-2.9.7l-6.4 8.2l-1.5.5l7.2-9.2c.8-1.1 2.3-1.3 3.3-.5");
+}
+
+.bwnx79bou {
+  fill: var(--svg-color--8a6859, #8a6859);
+  d: path("m47 41l-4-3.1l12.6-16.1c.9-1.1 2.5-1.3 3.6-.5c1.1.9 1.3 2.5.4 3.6z");
+}
+
+.g19phtbpx {
+  fill: var(--svg-color--8a6859, #8a6859);
+  d: path("m44 36.5l-4-3.1l12.6-16.1c.9-1.1 2.5-1.3 3.6-.5c1.1.9 1.3 2.5.4 3.6z");
+}
+
+.gj_gjnsae {
+  fill: var(--svg-color--8a6859, #8a6859);
+  d: path("m17 41.1l4-3.1L8.4 21.9c-.9-1.1-2.5-1.3-3.6-.5c-1.1.9-1.3 2.5-.4 3.6z");
+}
+
+.h7rk3mq5j {
+  fill: var(--svg-color--8a6859, #8a6859);
+  d: path("m20 36.6l4-3.1l-12.6-16.1c-.9-1.1-2.5-1.3-3.6-.5c-1.1.9-1.3 2.5-.4 3.6z");
+}
+
+.iioi8y0nb {
+  fill: var(--svg-color--8a6859, #8a6859);
+  d: path("M31.7 18.5c1.9-.9 4.2 1 4.5 5.6c.2 3.2.1 4 1.8 5.3l1.5-1.9s14.9 11.7 13.9 12.9c0 0-3.4 5.8-7.4 7.9c-6 3.2-16.7-4-14.8-15.3c1.3-6.8-1.5-13.6.5-14.5");
+}
+
+.jdyce0o_y {
+  fill: var(--svg-color--705041, #705041);
+  d: path("m50.9 15.5l.3.3c-1-.5-2.4-.3-3.1.6L35.8 32.2l-.7-.5L47.4 16c.8-1.1 2.4-1.3 3.5-.5");
+}
+
+.jpem6pb0j {
+  d: path("M32.3 18.5c-.4-.2-.7-.2-1.1-.2c.1 0 .2.1.3.1c2 1 .9 4.5.5 7.5c-.3 2.4-.5 4.9.1 7c2.6 9.6-6.1 16.4-12.4 15.9C26 50 35.6 43.1 32.9 33.1c-.6-2.2-.4-4.5-.1-7c.4-3.1 1.5-6.6-.5-7.6");
+}
+
+.kbj3awltl {
+  fill: var(--svg-color--8a6859, #8a6859);
+  d: path("M2.9 26.8c-1 .8-1.2 2.3-.4 3.3l10.8 13.8L17 41L6.2 27.3c-.8-1.1-2.3-1.3-3.3-.5m22.1 8l3.9-3L16.6 16c-.8-1.1-2.4-1.3-3.5-.4c-1.1.8-1.3 2.4-.4 3.5z");
+}
+
+.ldbna_bma {
+  d: path("M26.4 29c-3.5 1.2-7.8 7.6-2.7 12.5c-4-5.1-.4-10 2.2-12z");
+}
+
+.m0hm5nbal {
+  fill: var(--svg-color--705041, #705041);
+  d: path("m59.2 21.3l.3.3c-1.1-.6-2.4-.3-3.2.7l-7.8 10l-1.5.5l8.6-11c.8-1.1 2.5-1.3 3.6-.5");
+}
+
+.mmc8q7b4c {
+  fill: var(--svg-color--8a6859, #8a6859);
+  d: path("M32.3 18.5c-1.9-.9-4.2 1-4.5 5.6c-.2 3.2-.1 4-1.8 5.3l-1.5-1.9S9.6 39.2 10.6 40.4c0 0 3.4 5.8 7.4 7.9c6 3.2 16.7-4 14.8-15.3c-1.3-6.7 1.5-13.5-.5-14.5");
+}
+
+.o_fv32kti {
+  fill: var(--svg-color--705041, #705041);
+  d: path("m13.1 15.6l-.3.3c1-.5 2.4-.3 3.1.6l12.3 15.7l.7-.5L16.6 16c-.8-1-2.4-1.2-3.5-.4");
+}
+
+.p416rxh9n {
+  d: path("M31.7 18.5c.4-.2.7-.2 1.1-.2c-.1 0-.2.1-.3.1c-2 1-.9 4.5-.5 7.5c.3 2.4.5 4.9-.1 7c-2.6 9.6 6.1 16.4 12.4 15.9C38 50 28.4 43 31.1 33c.6-2.2.4-4.5.1-7c-.4-3.1-1.5-6.6.5-7.5");
+}
+
+.tng9q33fh {
+  fill: var(--svg-color--705041, #705041);
+  d: path("m7.8 17l-.3.3c1.1-.6 2.5-.3 3.2.7l8.9 11.3l1.5.5l-9.6-12.3c-.9-1.2-2.6-1.4-3.7-.5m-4.9 9.8l-.3.3c1-.5 2.2-.2 2.9.7l6.4 8.2l1.5.5l-7.2-9.2c-.8-1.1-2.3-1.3-3.3-.5");
+}
+
+.trn-lqevb {
+  fill: var(--svg-color--705041, #705041);
+  d: path("m4.8 21.4l-.3.3c1.1-.6 2.4-.3 3.2.7l7.8 10l1.5.5l-8.6-11c-.8-1.2-2.5-1.4-3.6-.5");
+}
+
+.uh3jwrbwo {
+  d: path("M37.6 28.9c3.5 1.2 7.8 7.6 2.7 12.5c4-5.1.4-10-2.2-12z");
+}
+
+.w89d9nsjy {
+  fill: var(--svg-color--705041, #705041);
+}
+
+.zwvg3ubas {
+  fill: var(--svg-color--8a6859, #8a6859);
+  d: path("M61.1 26.7c1 .8 1.2 2.3.4 3.3L50.7 43.8L47 41l10.8-13.8c.8-1.1 2.3-1.3 3.3-.5m-22.1 8l-3.9-3L47.4 16c.8-1.1 2.4-1.3 3.5-.4c1.1.8 1.3 2.4.4 3.5z");
+}
+
+</style>

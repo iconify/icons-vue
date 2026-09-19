@@ -1,0 +1,26 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":64,"height":64};
+const content = `<path class="d4qu5acys"/><path class="cilfg4fls"/><path class="p02iddu3d"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="emojione:fountain-pen" /></template>
+<style>
+.cilfg4fls {
+  fill: var(--svg-color--3e4347, #3e4347);
+  d: path("M61.5 2.5c3.3 3.3 3.3 8.6 0 11.9L56.9 19S55.1 24 46 33.1C36.8 42.2 31.8 44 31.8 44l-9.7 9.7l-11.8-11.9l9.7-9.7s1.8-5 10.9-14.1S45 7.1 45 7.1l4.7-4.7c3.3-3.2 8.6-3.2 11.8.1");
+}
+
+.d4qu5acys {
+  fill: var(--svg-color--94989b, #94989b);
+  d: path("m12.3 43.8l7.9 7.9l-6.1 10.1S7.7 61.1 1.6 64l10-10c.5 0 .9-.1 1.3-.5c.7-.7.7-1.7 0-2.4s-1.7-.7-2.4 0c-.4.4-.5.9-.5 1.3l-10 10c2.9-6.2 2.2-12.5 2.2-12.5z");
+}
+
+.p02iddu3d {
+  fill: var(--svg-color--94989b, #94989b);
+  d: path("m45.008 7.149l1.555-1.556l11.88 11.88l-1.556 1.555zM18.404 33.752l1.554-1.557l11.89 11.87l-1.553 1.556z");
+}
+
+</style>

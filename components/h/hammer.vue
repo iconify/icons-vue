@@ -1,0 +1,36 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":64,"height":64};
+const content = `<path class="c4c9yccvy"/><path class="voomntv7r"/><path class="bpi84tbyg"/><path class="m30ttsbcg"/><path class="vv475mbur"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="emojione:hammer" /></template>
+<style>
+.bpi84tbyg {
+  fill: var(--svg-color--3e4347, #3e4347);
+  d: path("m10.5 20.4l-3.7-3.8s1.2 2.1-2 2.5c-1.3.2-2.1.4-2.5.8l8.6 8.9c.4-.5.6-1.3.8-2.6c.4-3.3 2.4-2 2.4-2zM39.6 4.3C29.5-6 18.4 5.5 18.4 5.5l6.5 6.7s6.3-8.5 14.2-6.1c.9.3 1.7.7 2 .5c.4-.3-.8-1.6-1.5-2.3");
+}
+
+.c4c9yccvy {
+  fill: var(--svg-color--3e4347, #3e4347);
+  d: path("m28.8 21.9l-5.6 5.8l-5.5-5.7l5.5-5.8z");
+}
+
+.m30ttsbcg {
+  fill: var(--svg-color--f2b200, #f2b200);
+  d: path("m26 24.8l-3.6 3.7s1.9 3 5.1 6.3c3.5 3.6 8.2 5.7 12.9 10.5c7 7.2 12.8 15 14.9 17.9c.8 1.1.9 1 1.9 0l3-3.1z");
+}
+
+.voomntv7r {
+  fill: var(--svg-color--94989b, #94989b);
+  d: path("M16.7 5.1L6.9 15.2c-.4.4-.4 1 0 1.3l3.7 3.8l3.7 3.8c.4.4.9.4 1.3 0L25.4 14c.4-.4.4-1 0-1.3L18 5.1c-.3-.4-.9-.4-1.3 0M.3 22c-.4.4-.4 1 0 1.3L7.6 31c.4.4 1 .4 1.4 0c0 0 2-2.1 2.1-2.2l-8.6-8.9C2.3 19.9.3 22 .3 22");
+}
+
+.vv475mbur {
+  fill: var(--svg-color--ffce31, #ffce31);
+  d: path("m26 24.8l3.6-3.7s2.9 1.9 6.1 5.2c3.5 3.6 5.5 8.5 10.2 13.3c7 7.2 14.5 13.2 17.4 15.4c1.1.8 1 1 0 2l-3 3.1z");
+}
+
+</style>

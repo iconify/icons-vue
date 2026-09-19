@@ -2,7 +2,7 @@
 
 **Glyphs**
 
-by [Goran Spasojevic](info.author.url)
+Author: [Goran Spasojevic](https://github.com/gorango/glyphs)
 
 License: [MIT](https://github.com/gorango/glyphs/blob/main/license)
 

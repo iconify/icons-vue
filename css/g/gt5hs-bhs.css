@@ -1,0 +1,8 @@
+.gt5hs-bhs {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M12 8.5a4 4 0 0 0-2.24 7.315L7.637 21.5A10 10 0 0 1 2 12.5c0-5.523 4.477-10 10-10s10 4.477 10 10a10 10 0 0 1-5.636 9l-2.125-5.685A4 4 0 0 0 12 8.5");
+}

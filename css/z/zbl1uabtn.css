@@ -1,0 +1,8 @@
+.zbl1uabtn {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("m16 18l2-2m-7 2l7-7M6 18L18 6");
+}

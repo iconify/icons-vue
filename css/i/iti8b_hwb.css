@@ -1,0 +1,6 @@
+.iti8b_hwb {
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M8 4v1c0 .943 0 1.414.293 1.707S9.057 7 10 7h4c.943 0 1.414 0 1.707-.293S16 5.943 16 5V4");
+}

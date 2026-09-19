@@ -1,0 +1,7 @@
+.sf-p1-qpm {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M6 15s1 .5 1.5 2c0 0 1.5-3 3.5-4");
+}

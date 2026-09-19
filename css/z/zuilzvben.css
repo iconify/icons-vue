@@ -1,0 +1,6 @@
+.zuilzvben {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M11.75 9.5V6.75a3.25 3.25 0 0 0-6.5 0V9.5");
+}

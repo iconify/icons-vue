@@ -1,0 +1,8 @@
+.gyrkn-lar {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("m18 12l-6 6m6-14L4 18");
+}

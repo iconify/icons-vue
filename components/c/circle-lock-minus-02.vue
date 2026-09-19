@@ -1,0 +1,12 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/i/ipq1z-bjh.css';
+import '../../css/m/mmcdf2b7r.css';
+import '../../css/u/ue3e5g9-c.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ipq1z-bjh"><path class="mmcdf2b7r"/><path class="ue3e5g9-c"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="hugeicons:circle-lock-minus-02" /></template>

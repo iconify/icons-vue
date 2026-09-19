@@ -1,0 +1,8 @@
+.muu7-ibcm {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M11 16.9a5.002 5.002 0 0 1 0-9.8M22 12a5 5 0 1 1-10 0a5 5 0 0 1 10 0M11.998 2v2m0 16v2M6.5 17.5L5 19m-1-7H2m4.499-5.5L5 5.001");
+}

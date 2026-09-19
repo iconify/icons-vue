@@ -1,0 +1,8 @@
+.yoa99fbtn {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M7 3.5V17M17 3.5V17M4 21h16M4 6s2.21-3 3-3s3 3 3 3m4 0s2.21-3 3-3s3 3 3 3");
+}

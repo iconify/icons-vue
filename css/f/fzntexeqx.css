@@ -1,0 +1,9 @@
+.fzntexeqx {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 16;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M19 12V9c0-1.886 0-2.828-.586-3.414S16.886 5 15 5h-3m-7 7v3c0 1.886 0 2.828.586 3.414S7.114 19 9 19h3");
+}

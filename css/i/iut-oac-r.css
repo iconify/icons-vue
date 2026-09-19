@@ -1,0 +1,8 @@
+.iut-oac-r {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M10 22H9c-2.828 0-4.243 0-5.121-.879C3 20.243 3 18.828 3 16V8c0-2.828 0-4.243.879-5.121C4.757 2 6.172 2 9 2h4c2.828 0 4.243 0 5.121.879C19 3.757 19 5.172 19 8v3M7 7h8m-8 4h8m-8 4h4m5.621 6.379l3.758-3.758a2.121 2.121 0 0 0-3-3L13.62 18.38a2.121 2.121 0 0 0 3 3M15.5 16.5l3 3");
+}

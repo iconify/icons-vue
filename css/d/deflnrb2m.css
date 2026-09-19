@@ -1,0 +1,8 @@
+.deflnrb2m {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M8 7S5.79 4 5 4S2 7 2 7m10 5h10M12 8h10m-10 8h5M2 17s2.21 3 3 3s3-3 3-3M5 5v14");
+}

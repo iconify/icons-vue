@@ -1,0 +1,8 @@
+.arc_rcc5n {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M4 18.5V3h5v15.5a2.5 2.5 0 0 1-5 0M4 12h5M3 3h7m4 0h7m-6 15.5V3h5v15.5a2.5 2.5 0 0 1-5 0m0-6.5h5");
+}

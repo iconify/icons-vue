@@ -1,0 +1,8 @@
+.d6tbo_dbt {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M11 12h10m-10 7h10M11 5h10M3 16s4-2.946 4-4s-4-4-4-4");
+}

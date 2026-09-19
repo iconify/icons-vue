@@ -1,0 +1,8 @@
+.s_bccvbch {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M2 8.32a15 15 0 0 1 7-3.517M22 8.32a15 15 0 0 0-7-3.517M5 12.36a10 10 0 0 1 4-2.4m10 2.398a10 10 0 0 0-4-2.398m-6.5 5.968q.237-.232.5-.43m6.5.43a5 5 0 0 0-.5-.43m-2.874 3.751H12m.25 0a.25.25 0 1 1-.5 0a.25.25 0 0 1 .5 0M12 15.5v-11");
+}

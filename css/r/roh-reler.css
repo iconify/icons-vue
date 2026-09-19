@@ -1,0 +1,6 @@
+.roh-reler {
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M2 8h11M2 13h11");
+}

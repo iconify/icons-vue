@@ -1,0 +1,19 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="y9h35ibzx"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:sms-message-and-email" /></template>
+<style>
+.y9h35ibzx {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M12.159 10.937h14.499m-14.499 4.302h14.499m-14.499 4.303h9.191M28.478 5.5H10.08a2.45 2.45 0 0 0-2.45 2.452h0v20.806l3.84-3.84h17.009a2.45 2.45 0 0 0 2.452-2.452v0h0V7.951A2.45 2.45 0 0 0 28.478 5.5m-6.229 27.238V42.5h18.122v-9.762L31.31 37.62zm13.135-3.675l4.987 3.676m-18.122-.001l9.061-6.677l2.33 1.716m-.968-.712l4.987 3.676");
+}
+
+</style>

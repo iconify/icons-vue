@@ -1,0 +1,30 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<g class="y9tr6bcfx"><path class="t34hdjn7h"/><path class="vkl90ccjr"/><path class="hb2p1sbpk"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:lecturio" /></template>
+<style>
+.hb2p1sbpk {
+  d: path("M43.499 25.497c0-13.53-18.084-19.623-24.228-14.468c4.752-2.895 19.784 3.242 19.784 14.468c0 11.792-12.364 13.647-19.37 9.15c5.141 7.358 23.988 5.003 23.814-9.15");
+}
+
+.t34hdjn7h {
+  d: path("m19.817 18.633l11.012 5.48l-8.735 5.478z");
+}
+
+.vkl90ccjr {
+  d: path("M4.502 21.796c0-21.93 26.442-18.008 30.77-12.046C30.518 6.855 9.35 2.494 9.35 21.796S31.809 43.438 38.815 38.94c-5.142 7.359-34.598 6.042-34.313-17.144");
+}
+
+.y9tr6bcfx {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+</style>

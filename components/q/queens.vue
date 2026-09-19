@@ -1,0 +1,27 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="wtj73k5wq"/><path class="p4v9ak5lx"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:queens" /></template>
+<style>
+.p4v9ak5lx {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M23.85 10.182c-1.232.158-3.262 2.367-4.827 4.91c-1.95 3.169-2.758 6.112-4.025 6.335c-1.267.224-2.144-1.523-3.686-3.013c-.928-.898-2.103-1.894-3.06-2.474c-1.095-.665-2.204-.865-2.873-.477c-1.297.755-1.937 12.6 3.823 19.751h29.596c5.76-7.152 5.12-18.996 3.823-19.75c-.669-.39-1.778-.189-2.873.476c-.957.58-2.132 1.576-3.06 2.474c-1.542 1.49-2.419 3.237-3.686 3.013c-1.268-.223-2.075-3.166-4.025-6.335c-1.565-2.543-3.598-4.73-4.828-4.91a1 1 0 0 0-.298 0z");
+}
+
+.wtj73k5wq {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M27.338 27.09C26.909 25.207 24 22.328 24 22.328s-2.91 2.88-3.338 4.762C21.09 28.972 24 31.852 24 31.852s2.909-2.88 3.338-4.762M9.202 37.828h29.596");
+}
+
+</style>

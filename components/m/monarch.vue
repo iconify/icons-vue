@@ -1,0 +1,19 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="rc4rn1asz"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:monarch" /></template>
+<style>
+.rc4rn1asz {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M21.588 19.236C18.314 8.62 12.27 5.331 7.838 9.054c-3.028 2.385-2.94 6.217-.738 9.094c1.56 2.04 4.51 4.023 6.875 5.013c1.95.816 5.753 2.002 6.944 5.164c1.037 2.755.656 6.39-.419 8.281c-1.653 2.91-4.146 4.766-6.974 3.31c-2.665-1.374-2.823-5.67-1.237-8.17c1.317-2.076 4.202-6.332 11.812-6.284m2.311-6.226C29.686 8.62 35.73 5.331 40.162 9.054c3.028 2.385 2.94 6.217.738 9.094c-1.56 2.04-4.51 4.023-6.875 5.013c-1.95.816-5.752 2.002-6.944 5.164c-1.037 2.755-.656 6.39.419 8.281c1.653 2.91 4.146 4.766 6.974 3.31c2.665-1.374 2.823-5.67 1.237-8.17c-1.317-2.076-4.202-6.332-11.812-6.284");
+}
+
+</style>

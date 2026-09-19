@@ -1,0 +1,53 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="deq5xsb2x"/><circle class="hhs0td5jm"/><path class="edx63cb6g"/><path class="iurkcwz3h"/><path class="t8pot72id"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:bad-north" /></template>
+<style>
+.deq5xsb2x {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M8.37 28.737c-2.022-10.376 7.333-17.605 12.028-18.526m3.315 16.347c-1.025 0-4.693-1.967-4.693-1.967m4.488 6.149c-.984.983-1.94 1.775-2.05 3.169c1.449.464 4.728-.164 4.728-.164c-.328-.984-1.694-2.323-2.678-3.006Z");
+}
+
+.edx63cb6g {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M14.545 28.416c1.722 0 4.1 2.76 4.1 4.236s-2.023 2.05-4.592 2.05s-2.978-2.187-2.978-3.498s1.476-2.788 3.47-2.788");
+}
+
+.hhs0td5jm {
+  cx: 24.055px;
+  cy: 39.511px;
+  r: 1.284px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.iurkcwz3h {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M23.713 43.5c1.407 0 3.949-.328 3.949-.328s.382-1.148.327-3.591c1.64-.477 9.673-3.404 9.673-3.404S39.85 32.9 39.85 30.66s-4.065-5.106-5.957-5.359c-1.481-.197-2.733-.109-5.465 1.753c.109-8.249-1.75-19.077-1.75-19.077s-.764-.492-2.964-.492s-2.965.492-2.965.492S18.89 18.805 19 27.054c-2.732-1.862-3.984-1.95-5.465-1.753c-1.892.253-5.957 3.118-5.957 5.359s2.186 5.517 2.186 5.517s8.034 2.927 9.673 3.404c-.054 2.443.328 3.591.328 3.591s2.542.328 3.949.328Z");
+}
+
+.t8pot72id {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M39.056 28.737c2.022-10.376-7.333-17.605-12.028-18.526m.969 7.963h-8.568m8.732 1.91s-3.205.217-4.448.217s-4.448-.217-4.448-.217m4.448 6.474c1.025 0 4.693-1.967 4.693-1.967m4.474 3.825c-1.72 0-4.098 2.76-4.098 4.236s2.022 2.05 4.59 2.05s2.979-2.187 2.979-3.498s-1.476-2.788-3.47-2.788M14.463 15.218l-8.05-8.983m.837 12.372l3.388 1.147m1.358-7.289l.602-3.192L9.303 5.59S7.775 7.72 7.777 7.758l-2.576 1.11l3.467 3.87z");
+}
+
+</style>

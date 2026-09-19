@@ -1,0 +1,35 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="pae_q0b_h"/><path class="gwu0034jj"/><path class="b-n0xmb0t"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:nomad-sculpt" /></template>
+<style>
+.b-n0xmb0t {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M12.781 20.258s-6.058 5.068-7.603 6.6c-1.114 1.105-.575 2.747-.333 3.133c1.463 2.338 4.135 2.088 18.545 1.461c-6.099-4.469-11.611-8.479-10.985-10.65c.627-2.173 8.482-1.068 11.862-.878c3.718.208 9.775.877 10.526-.627c.751-1.503-1.963-3.26-4.887-3.177s-7.268 3.55-10.066 3.467");
+}
+
+.gwu0034jj {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M36.398 18.285c4.009 2.673 8.122 5.252 6.875 7.445c-1.598 2.808-20.509 1.837-20.509 1.837");
+}
+
+.pae_q0b_h {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M29.78 31.62c-3.049-1.88-14.606-7.76-13.157-9.44c1.45-1.682 7.69-.598 10.36-.459c2.668.138 9.898.5 10.61-1.254c.71-1.754-3.008-3.3-5.348-4.051");
+}
+
+</style>

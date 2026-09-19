@@ -1,0 +1,45 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="go5bi_b8s"/><circle class="noor5x6jp"/><path class="w4w5mtf5m"/><path class="jvn1n37kq"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:satdump" /></template>
+<style>
+.go5bi_b8s {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M26.622 42.66A18.843 18.843 0 0 1 5.218 22.489");
+}
+
+.jvn1n37kq {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("m30.833 18.1l-.999 5.422Q27.317 20.447 24 17.814l5.19-1.232a5.1 5.1 0 0 0 1.643 1.518M6.21 12.456c1.454 7.364 4.866 13.331 10.192 18.302c4.57 4.265 10.658 10.66 19.058 9.187c-2.748-7.516-6.826-13.393-11.602-17.715c-6.082-5.504-11.973-9.774-17.648-9.774");
+}
+
+.noor5x6jp {
+  cx: 32.245px;
+  cy: 14.866px;
+  r: 1px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.w4w5mtf5m {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M39.397 34.862q-.237 3.341-1.63 5.527c.289-5.281-2.415-10.385-6.245-14.511l1.63-7.625h0a3.506 3.506 0 1 0-4.4-3.692h0l-6.941 1.583c-2.657-2.747-6.636-4.989-10.59-5.992c7.083-6.536 17.957-6.674 25.203-.319s8.529 17.153 2.973 25.029M5.217 22.489c4.765 9.035 11.61 16.514 21.405 20.17");
+}
+
+</style>

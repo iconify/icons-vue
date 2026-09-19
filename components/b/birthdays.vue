@@ -1,0 +1,75 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="uhebh4bpu"/><path class="dlc14qbil"/><path class="rqje_ufpu"/><path class="tilf_gb8u"/><path class="zx2_u39wb"/><path class="svmlc7b8w"/><path class="h24ouf6vi"/><path class="wb9a6hbpt"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:birthdays" /></template>
+<style>
+.dlc14qbil {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("m5.593 14.877l.46 4.028l.99.414m35.365-4.442l-.458 3.99l-1.074.452M24 21.408v5.01M13.842 37.924l-.766-20.392m3.652 21.692l-.243-20.483m17.649 19.193l.766-20.391m-3.652 21.691l.243-20.483M20.24 13.733c.022-.338-.249-2.624-.9-4.472a14 14 0 0 0-1.675-3.244l4.037-.517s.78 1.42 1.059 2.178c.332.905.718 2.802.718 2.802m-3.239 3.253c-4.794-2.667-6.332-.245-6.78 1.935c-.427 2.074 3.573 3.616 7.676 1.387");
+}
+
+.h24ouf6vi {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M22.472 12.482c1.012-1.858 1.627-4.2 5.253-6.505l3.645.273c.732.371 1.801 1.992-.517 4.098");
+}
+
+.rqje_ufpu {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M20.24 13.733c3.035-2.558 4.596 2.221 3.244 4.24c-2.004 2.606-2.772-2.645-3.243-4.24m-.001 0c-3.972-2.657-6.826-4.25-8.587-2.396c-2.853 3.003.514 5.107 2.652 6.058");
+}
+
+.svmlc7b8w {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M33.38 16.394s2.378-1.302 2.758-2.478c.831-2.57-3.92-6.667-8.53-1.059");
+}
+
+.tilf_gb8u {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M21.429 13.062c3.802-1.65 5.878-1.35 6.857.831c.55 1.227-.102 3.771-.229 3.975l-5.268.737");
+}
+
+.uhebh4bpu {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("m10.584 13.24l-4.992 1.637L24 21.407l18.407-6.53l-6.22-2.041M24.413 8.973L24 8.837l-.83.272M7.044 19.32l1.871 16.384L24 42.5V26.418zM24 26.418V42.5l15.085-6.797l1.791-16.384z");
+}
+
+.wb9a6hbpt {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M31.37 6.25c-2.536 1.09-3.385 3.715-4.516 6.059m-9.189-6.292c-1.176 1.583.086 4.812.682 6.487m13.143 6.249l-3.365-1.065m6.775-.145l-2.059-.651");
+}
+
+.zx2_u39wb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M28.363 16.668c5.726 1.777 5.398-1.246 5.253-1.944c-.352-1.695-3.916-3.627-5.829-1.663");
+}
+
+</style>

@@ -1,0 +1,56 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="kda_zs9nw"/><rect class="ub7zigbyl"/><path class="zjkilp4dj"/><path class="j26pbwnxm"/><path class="l7bnoacvz"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:kagi-translate" /></template>
+<style>
+.j26pbwnxm {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("m13.836 34.728l3.192 3.7l-3.192 3.699m26.028-27.368a5.214 5.214 0 0 0-5.215-5.215h-4.753");
+}
+
+.kda_zs9nw {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M25.395 19.183a5.8 5.8 0 0 1 3.062-.873h8.185c3.226 0 5.858 2.645 5.858 5.858v10.78a5.87 5.87 0 0 1-5.858 5.857h-8.185a5.87 5.87 0 0 1-5.858-5.858v-6.895");
+}
+
+.l7bnoacvz {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("m33.088 13.244l-3.192-3.7l3.192-3.699m3.583 29.559V27.13a4.08 4.08 0 0 0-4.07-4.07h0a4.08 4.08 0 0 0-4.07 4.07v8.274m-.001-4.789h8.141M16.647 19.92h2.687l-4.124-9.285m-5.134 2.609l10.083-1.332m-9.498 5.082l10.083-1.332m-10.083 4.551v.665a2.767 2.767 0 0 0 2.767 2.766h6.73");
+}
+
+.ub7zigbyl {
+  width: 19.9px;
+  height: 22.489px;
+  x: 5.5px;
+  y: 6.432px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  rx: 5.853px;
+  ry: 5.853px;
+}
+
+.zjkilp4dj {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M7.06 33.213a5.214 5.214 0 0 0 5.215 5.215h4.754");
+}
+
+</style>

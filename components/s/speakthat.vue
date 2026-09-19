@@ -1,0 +1,35 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="hx3txl5bq"/><path class="emeos7cws"/><path class="qkxmn4b-s"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:speakthat" /></template>
+<style>
+.emeos7cws {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M29.953 11.105c3.704 2.815 7.314 6.727 7.528 12.882s-2.247 9.808-7.528 12.961");
+}
+
+.hx3txl5bq {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M27.766 5.5L17.181 16.056l-10.424.108l.027 15.672l10.155-.134L27.712 42.5zm2.187 11.238c2.056 1.584 3.191 4.792 3.191 7.249s-1.055 5.442-3.191 7.488");
+}
+
+.qkxmn4b-s {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M29.953 5.659c10.506 6.14 12.107 12.558 12.032 18.328c-.092 7.21-3.827 14.429-12.032 18.354m-17.74-15.677c3.807-2.757 3.446-8.974 9.113-10.129c.48-.685.852-.629.972.208c5.067 4.027 1.17 9.493 2.868 13.621zm5.477 1.565c-.144.685-.055 1.377.596 1.582c.65.205 1.318-.27 1.541-.972");
+}
+
+</style>

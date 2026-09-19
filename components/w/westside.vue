@@ -1,0 +1,19 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="yfcre7bed"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:westside" /></template>
+<style>
+.yfcre7bed {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M23.864 36.153c-6.69 4.431-14.257-.583-14.794-7.807c-.415-5.585 4.411-13.524 8.912-12.435c2.496.605.147 5.844-2.059 8.295c-1.939 2.154-7.057 5.869-9.81 2.724c-3.294-3.764.476-9.53 3.893-12.731c4.376-4.1 12.69-6.463 14.075 0c1.292 6.025-4.858 12.818-9.388 19.424c7.18-5.385 11.875-13.984 17.715-21.219c-5.341 8.64-5.582 14.28-10.475 21.219c12.815-13.137 12.872-20.841 21.209-22.786");
+}
+
+</style>

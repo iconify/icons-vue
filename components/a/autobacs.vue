@@ -1,0 +1,43 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="jrhi_egfa"/><path class="a8hsb_bgk"/><path class="xnhv53pez"/><path class="yt-tr5-2p"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:autobacs" /></template>
+<style>
+.a8hsb_bgk {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M43.217 17.274C37.911 22.58 20 24 18.062 24c1.937 0 14.994.704 20.771 6.482c3.679-4.111 5.4-8.96 4.384-13.208");
+}
+
+.jrhi_egfa {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M22.933 39.164C18.08 24.001 8.375 24 5.24 24c3.135 0 13.143-.001 28.263-15.121c1.59.334 3.059.865 4.354 1.585C29.494 18.826 16.125 24 12.25 24c3.875 0 14.233 6.552 16.126 13.618a28 28 0 0 1-5.444 1.545z");
+}
+
+.xnhv53pez {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M5.24 24c3.135 0 18.301-7.827 22.732-15.503c-3.215.184-6.644 1.031-9.992 2.592C7.737 15.866 2.128 25.52 5.453 32.65c1.934 4.147 6.465 6.528 11.934 6.853C17.387 31.002 8.375 24 5.24 24");
+}
+
+.yt-tr5-2p {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M18.062 24C20 24 30.524 26.84 36.47 32.787a27.6 27.6 0 0 1-3.696 2.658C27.487 26.29 16.124 24 12.25 24c3.875 0 21.207-4.052 28.48-11.325a10.2 10.2 0 0 1 1.718 2.47C37.338 20.254 20 24 18.063 24z");
+}
+
+</style>

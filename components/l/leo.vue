@@ -1,0 +1,121 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="lcmjod83a"/><path class="gilcm08fh"/><path class="dc7tt7w3w"/><path class="shlec6bdt"/><path class="nu933r7hf"/><path class="zwnyesu7k"/><path class="h322clt5w"/><ellipse class="lm9o_9b3p"/><path class="u4dx-xb0c"/><ellipse class="a9z6kcd9v"/><path class="yl3gg5b4r"/><path class="ai-wgvboj"/><path class="astl4ibhs"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:leo" /></template>
+<style>
+.a9z6kcd9v {
+  cx: 29.63px;
+  cy: 14.64px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  rx: 2.23px;
+  ry: 2.66px;
+}
+
+.ai-wgvboj {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M34.41 23.31a31 31 0 0 0-4.16 3.62");
+}
+
+.astl4ibhs {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M27.57 24.57c1.06.05 5-.09 5.28-.05M13.93 7.45a7 7 0 0 0 .89 2.3");
+}
+
+.dc7tt7w3w {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M23.77 38.73c-.86 1.54-3.69 5.55-5.72 4.64c-1.45-.66-1-1.91-.8-2.56m15.8-3.08s2.57 3.62 3.88 2.15c1.84-2.06-3.28-5.82-5.21-6.14c-1.6-.26-1.19-.86-2.87-.86s-1.34.86-3.31.86c-3.23 0-2.75-2.35-7.32-3c-2.52-.37-3.7-3.23-4.7-3.23c-1.31 0-6.2 3.16-5.46 5s2.74.25 2.74.25");
+}
+
+.gilcm08fh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M18.6 38.73c-.79 1.42-1.17 2.49-2.27 2.28a3 3 0 0 1-1.9-1.61");
+}
+
+.h322clt5w {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M11.45 20.63c-2.28.88-2.2 2.44-1.37 3.17M35.18 9A5.4 5.4 0 0 1 34 10.46M27.86 10a11.1 11.1 0 0 1 3 1.13m-7.17-1.68a6.2 6.2 0 0 0-3.05 2.18");
+}
+
+.lcmjod83a {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M11.92 31.12a4.22 4.22 0 0 1-4 2.66c-2.42 0-1.72 4.68-.19 4.69C9 38.48 9 36.38 10 36.38s1.87 5.94 3.88 4.7c1.26-.78.29-3.18-.24-3.81");
+}
+
+.lm9o_9b3p {
+  cx: 23.03px;
+  cy: 14.64px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  rx: 2.23px;
+  ry: 2.66px;
+}
+
+.nu933r7hf {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M8 28.54c-1.69 1.18-1.2 2.75.06 3.14m5.4-16.02c-.41.55-2.8 3.37-4.1 2.06s1.51-4.33 2.78-4.55c-.26-.53-.51-2.23 1.79-1.77c-4.28-2.75-2.84-6.73.12-6.9s3.19 4.62 3.24 5.7c1.36-2.06 3.69-3.46 5.2-3.46s1.83.76 1.83.76a3.86 3.86 0 0 1 2.09-.76c1.11 0 3.8 2.52 5.56 2.52s1.33-2.52 3.23-2.52s3 2.34 2.55 3.59s-3.27 1.87-3.27 2.59s1 1.43 1 2.15s-1.26 1.15-1.26 2.16s5.39 4.38 5.17 8.47c-.18 3.45-2.58 3.34-3.95 5.71a14.3 14.3 0 0 0-1.54 3.32");
+}
+
+.shlec6bdt {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M17.43 33.73a3.83 3.83 0 0 0-1.51 1.49m5.24-.6a6.6 6.6 0 0 1 0 2.18m7.54-.89a13.2 13.2 0 0 0 2 1.91m3.08.81s-.27 4-2.78 4.2s-2.75-2.3-3.21-3.93c-1.1 1.2-2.93 4.62-4.52 3.45c-1.08-.79-.11-2.64-.11-2.64M12.31 24.86c-.64-.52-2.65-2.12-4.25 0s-.25 4 1.38 4.93");
+}
+
+.u4dx-xb0c {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M25.15 13.83c-2.12.29-1.81 2.45-1.36 3.31");
+}
+
+.yl3gg5b4r {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M31.75 13.83c-2.12.29-1.81 2.45-1.36 3.31m-4 6.23a49 49 0 0 0 3.86 3.56V29s-.23 1.09-3.32 1.09s-3-2.22-5.68-2.61s-5.14-2.67-5.14-3.37a2.64 2.64 0 0 1 1.32-2.06");
+}
+
+.zwnyesu7k {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M36.57 23.79c.32-1.25 2.83-4.05 4.77-2.61m-5.89 4.45c.65.39 4.53.65 6.18.61m-17.79-3.96c-.95-.09-3.44-2.14-3.95-2.79m3.95 5.17c-1.26.17-3.59 0-4.26-.53m16.76 6.13c-1.22.26-4.29.22-6.09-1.24m-16.67-9.4c-.9.69-2.48 1.64-3.1.41a2.08 2.08 0 0 1 .79-2.33");
+}
+
+</style>

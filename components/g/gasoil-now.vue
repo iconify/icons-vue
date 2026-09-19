@@ -1,0 +1,35 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="tiiop7btt"/><path class="j1nisybjb"/><path class="d9rvk6qur"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:gasoil-now" /></template>
+<style>
+.d9rvk6qur {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M38.81 16.498s-3.236-.2-2.57 3.36M8.517 13.586l1.505 5.106l-3.559-.932l1.497 5.1");
+}
+
+.j1nisybjb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M18.977 19.15c0 6.04 8.676 6.04 8.676 0M13.538 32.666s-8.763 1.092-6.878-7.38m33.796-.505c1.875 9-7.504 7.791-7.504 7.791m5.528-9.934l3.126-.937m-1.656.469s-.655-3.698-1.106-5.672c-.12-.528-.226-.933-.3-1.11c-.155-.331-2-1.625-2-1.625");
+}
+
+.tiiop7btt {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("m11.236 37.184l2.296-1.36l.681-23.904c0-.85.254-1.106.936-1.106H30.8c.978 0 1.446.17 1.446 1.106l.765 24.074l1.872 1.192z");
+}
+
+</style>

@@ -1,0 +1,43 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="uzag7mbxg"/><path class="j1kghhm5p"/><path class="tlqum3bgz"/><path class="p28-78b2r"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:secumap" /></template>
+<style>
+.j1kghhm5p {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("m20.035 29.983l2.744-3.362l.747-1.907m2.403-4.011l1.971.963");
+}
+
+.p28-78b2r {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M42.004 7.564C35.461 7.47 29.192 6.83 24 2.777C18.808 6.83 12.54 7.47 5.996 7.564C2.779 29.314 9.687 37.623 24 45.224c14.313-7.601 21.22-15.91 18.004-37.66");
+}
+
+.tlqum3bgz {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M24 11.288c5.927 0 10.733 4.805 10.733 10.733c0 2.05-1.219 5.286-3.14 7.176L24 36.707l-7.594-7.51c-1.92-1.89-3.139-5.126-3.139-7.176c0-5.928 4.806-10.733 10.733-10.733");
+}
+
+.uzag7mbxg {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M25.286 14.913a1.04 1.04 0 0 1-1.041 1.04a1.04 1.04 0 0 1-1.041-1.04a1.04 1.04 0 0 1 1.04-1.042a1.04 1.04 0 0 1 1.042 1.042m-3.964 7.524v-2.495l2.166-2.251l.824.052l.023 5.337l2.485 2.5l1.153 4.168");
+}
+
+</style>

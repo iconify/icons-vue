@@ -1,0 +1,27 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="xbgzwmbar"/><path class="lqx-wsbzy"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:denns-bio" /></template>
+<style>
+.lqx-wsbzy {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M27.466 20.58s2.04-.82 7.17-.82s7.864-3.952 7.864-6.65c0 0-2.736 1.336-7.865 1.336s-7.17 4.667-7.17 6.134");
+}
+
+.xbgzwmbar {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M12.348 26.589a4.15 4.15 0 0 1 0 8.3H5.5V18.287h6.848a4.15 4.15 0 0 1 0 8.301Zm0-.001H5.5m18.383-2.697v10.998m7.384-6.848a4.15 4.15 0 0 1 8.3 0v2.698a4.15 4.15 0 0 1-8.3 0zm-3.801-7.461s-1.518-.82-5.333-.82s-6.06-3.351-6.06-6.65c0 0 2.246 1.336 6.06 1.336s5.333 4.667 5.333 6.134");
+}
+
+</style>

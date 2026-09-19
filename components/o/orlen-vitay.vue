@@ -1,0 +1,27 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="msl3k5byn"/><path class="tb0d73bwy"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:orlen-vitay" /></template>
+<style>
+.msl3k5byn {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M24.59 17.38c.137.353.186.401.186 1.097a2.518 2.518 0 0 1-5.036 0c0-.696.006-.73.113-1.112z");
+}
+
+.tb0d73bwy {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("m11.792 15.47l14.822-.058c1.386.043 2.771.212 4.156 1.627c1.702 1.993 3.724 3.825 5.726 5.668c2.58 1.778 4.962 1.023 7.004-.29c-3.13-3.16-6.23-6.18-9.446-9.417c-1.677-1.433-3.043-2.479-5.929-2.849h-10.55c-2.587.23-5.081 2.524-5.783 5.319M4.817 25.787c-.85-3.68-.201-7.268 4.563-8.312c1.2-.158 2.132-.031 3.458.088c2.265.424 3.532 1.305 4.767 2.383l10.317 10.288c2.333 2.667 1.52 5.564.175 7.615c-8.312-7.8-14.011-14.699-15.346-14.997c-1.73-.362-3.518-.374-5.405-.145c-1.696.538-2.736 1.913-2.529 3.08");
+}
+
+</style>

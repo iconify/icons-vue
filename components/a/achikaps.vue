@@ -1,0 +1,140 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="otz6f-hpp"/><circle class="npe5g19zl"/><circle class="a834_cbhy"/><circle class="a1dmkkn-g"/><circle class="cxau_xbft"/><circle class="bhs6lin7l"/><circle class="q0r4bpbtj"/><circle class="i5_huh9hq"/><circle class="flv71qbqg"/><path class="w-sr6ub6h"/><circle class="ytjoypbit"/><path class="r86kcrbgr"/><circle class="t3ftm404d"/><path class="w3ogbh-cy"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:achikaps" /></template>
+<style>
+.a1dmkkn-g {
+  cx: 31.82px;
+  cy: 10.544px;
+  r: 1.684px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.a834_cbhy {
+  cx: 21.312px;
+  cy: 12.716px;
+  r: 1.684px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.bhs6lin7l {
+  cx: 30.74px;
+  cy: 37.303px;
+  r: 1.684px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.cxau_xbft {
+  cx: 37.656px;
+  cy: 31.9px;
+  r: 1.684px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.flv71qbqg {
+  cx: 9.153px;
+  cy: 23.556px;
+  r: 1.684px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.i5_huh9hq {
+  cx: 13.245px;
+  cy: 33.562px;
+  r: 1.684px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.npe5g19zl {
+  cx: 11.882px;
+  cy: 12.183px;
+  r: 2.484px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.otz6f-hpp {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M38.494 5.502H9.496c-2.2 0-4 1.8-4 4v28.997c0 2.2 1.8 4 4 4h28.998c2.2 0 4-1.8 4-4V9.5c0-2.2-1.8-4-4-4");
+}
+
+.q0r4bpbtj {
+  cx: 22.003px;
+  cy: 38.553px;
+  r: 1.684px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.r86kcrbgr {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M33.089 22.542v5.376m-8.237-1.021a2.03 2.03 0 0 1-1.762 1.021h0a2.03 2.03 0 0 1-2.029-2.028v-1.32a2.03 2.03 0 0 1 2.029-2.029h0c.753 0 1.41.41 1.76 1.019m-10.649 4.334l2.693-8.09m2.581 8.114l-2.581-8.114m1.718 5.4h-3.515");
+}
+
+.t3ftm404d {
+  cx: 36.81px;
+  cy: 20.2px;
+  r: 1.684px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.w-sr6ub6h {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("m32.428 8.974l1.323-3.462m2.393 13.141l-3.468-6.651m5.737 7.592l4.087-1.826M39.175 32.63l3.313 1.676m-6.364-3.075l-3.449-1.619m3.616 3.273l-4.178 3.408m-.593 2.496l2.114 3.709m-9.971-4.222l5.427-.65m-7.32 2.603l-.026 2.269m-9.514-7.584L7.119 41.71M22.945 12.3l7.227-1.392m-10.537 1.668l-5.278-.147m-3.322-2.59L9.392 5.504M37.47 30.222l-.451-8.36m-16.461-7.649l-2.02 3.775m-7.748 5.174l2.61-.664m-5.897.737l-1.996-.491m8.211 9.2l.48-1.948m6.315 7.779l-5.818-3.343m11.381-16.848l-3.577-3.68m4.46 5.9v8.114m0-3.347c0-1.12.908-2.029 2.028-2.029h0a2.03 2.03 0 0 1 2.029 2.029v3.347");
+}
+
+.w3ogbh-cy {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("m10.837 14.43l-1.684 7.441m0 3.369l2.942 7.097");
+}
+
+.ytjoypbit {
+  cx: 33.089px;
+  cy: 20.057px;
+  r: 0.75px;
+  fill: currentColor;
+}
+
+</style>

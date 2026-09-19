@@ -1,0 +1,35 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="c3a6tzq8h"/><path class="irun3abdy"/><path class="pr5rekb-u"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:selfpay-now" /></template>
+<style>
+.c3a6tzq8h {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M26.489 19.125h-4.977c-2.75 0-4.977-2.183-4.977-4.875s2.228-4.875 4.977-4.875h9.954");
+}
+
+.irun3abdy {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M33.954 4.5H21.511c-5.498 0-9.954 4.365-9.954 9.75S16.013 24 21.51 24h4.977c5.498 0 9.955 4.365 9.955 9.75s-4.457 9.75-9.955 9.75H14.045");
+}
+
+.pr5rekb-u {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M21.511 28.875h4.977c2.75 0 4.977 2.183 4.977 4.875s-2.228 4.875-4.977 4.875h-9.954m4.977-24.375h7.466m-2.488 19.5h-7.466");
+}
+
+</style>

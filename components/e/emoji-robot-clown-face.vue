@@ -1,0 +1,43 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="xss1a6bfa"/><path class="utd2vctix"/><path class="miw8gpxxj"/><path class="x0ehfob7t"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:emoji-robot-clown-face" /></template>
+<style>
+.miw8gpxxj {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M35.3 30.635s-1.25 6.675-10.932 6.936c-9.642-.348-10.932-6.936-10.932-6.936c-.364-1.37-.982-4.561 1.805-3.017c2.137 1.188 4.259 3.46 9.127 3.603c4.877-.143 6.99-2.415 9.128-3.603c2.786-1.544 2.176 1.647 1.804 3.017M7.35 29.552a1.85 1.85 0 0 1-1.85-1.85v-5.923a1.85 1.85 0 0 1 1.85-1.85h0a1.85 1.85 0 0 1 1.85 1.85v5.922a1.85 1.85 0 0 1-1.85 1.85m33.3.001a1.85 1.85 0 0 0 1.85-1.85v-5.923a1.85 1.85 0 0 0-1.85-1.85h0a1.85 1.85 0 0 0-1.85 1.85v5.922a1.85 1.85 0 0 0 1.85 1.85m-22.57-.131v6.674m3.7-5.183v6.392m3.7-6.155v6.363m3.7-7.325v6.578M14.817 20.67c-.001 2.757 1.238 4.994 2.769 4.995c1.53.002 2.771-2.232 2.772-4.989v-.006c0-2.757-1.239-4.993-2.77-4.995s-2.77 2.232-2.771 4.99zm12.892 0c0 2.757 1.24 4.992 2.77 4.992s2.771-2.235 2.771-4.992s-1.239-4.994-2.77-4.995s-2.77 2.232-2.771 4.99z");
+}
+
+.utd2vctix {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M32.473 40.655H15.527c-3.48 0-6.327-2.848-6.327-6.328V17.374c0-3.48 2.847-6.328 6.327-6.328h16.946c3.48 0 6.327 2.848 6.327 6.328v16.953c0 3.48-2.847 6.328-6.327 6.328");
+}
+
+.x0ehfob7t {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M21.835 26.167a2.165 2.165 0 1 0 4.33 0a2.165 2.165 0 0 0-4.33 0m5.218-11.577c2.295-1.23 4.903-1.277 6.852 0m-19.744 0c2.295-1.23 4.903-1.277 6.852 0");
+}
+
+.xss1a6bfa {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M22.52 11.054V9.195a1.85 1.85 0 0 1 1.85-1.85h0a1.85 1.85 0 0 1 1.85 1.85v1.85");
+}
+
+</style>

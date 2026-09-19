@@ -1,0 +1,39 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<circle class="yg4rai-0c"/><circle class="ynn97-mmq"/><path class="qraecwjrk"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:tactile-clock" /></template>
+<style>
+.qraecwjrk {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M24 7.303v2.737m0 30.656V37.96m8.348-28.42l-1.368 2.37M15.652 38.46l1.368-2.371m21.44-20.438l-2.37 1.369M9.54 32.348l2.37-1.369M40.697 24h-2.738M7.304 24h2.737m28.419 8.348l-2.37-1.369M9.54 15.651l2.37 1.369m20.438 21.44l-1.368-2.371M15.652 9.54l1.368 2.37M22.358 24h-1.711l-1.71-2.118l-1.711 4.236l-1.711-4.236L13.805 24h-1.711m13.013-1.317l1.21-1.21l2.707.288l-1.786-4.205l4.205 1.785l-1.785-4.204l4.204 1.785l-.287-2.707l1.21-1.21m-1.688-5.844L36.194 6l-1.161 3.097l3.096-1.161l-1.16 3.096l3.096-1.161l-1.161 3.097L42 11.806l-1.16 3.097m-.001 18.194L42 36.194l-3.097-1.162l1.162 3.097l-3.097-1.161l1.161 3.097l-3.097-1.162L36.194 42l-3.097-1.161M7.162 33.097L6 36.194l3.097-1.162l-1.161 3.097l3.097-1.161l-1.162 3.097l3.097-1.162L11.807 42l3.097-1.161m-.001-33.678L11.806 6l1.161 3.097l-3.096-1.161l1.16 3.096l-3.096-1.161l1.161 3.097L6 11.806l1.16 3.097");
+}
+
+.yg4rai-0c {
+  cx: 24px;
+  cy: 24px;
+  r: 16.97px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.ynn97-mmq {
+  cx: 24px;
+  cy: 24px;
+  r: 1.642px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+</style>

@@ -1,0 +1,71 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="vugs6hbmu"/><path class="zwc7umnho"/><circle class="hqz8curwo"/><circle class="vicikxbrc"/><ellipse class="eq-rojw8k"/><ellipse class="ffs_bya1t"/><path class="s3is_zbks"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:fluyo" /></template>
+<style>
+.eq-rojw8k {
+  cx: 11.191px;
+  cy: 26.316px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  rx: 1.969px;
+  ry: 1.94px;
+}
+
+.ffs_bya1t {
+  cx: 29.067px;
+  cy: 22.379px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  rx: 1.969px;
+  ry: 1.94px;
+}
+
+.hqz8curwo {
+  cx: 8.389px;
+  cy: 29.348px;
+  r: 0.75px;
+  fill: currentColor;
+}
+
+.s3is_zbks {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M8.13 24.405s.23-1.006 1.12-1.207m20.004-4.455s.862.058 1.523.69");
+}
+
+.vicikxbrc {
+  cx: 32.933px;
+  cy: 23.945px;
+  r: 0.75px;
+  fill: currentColor;
+}
+
+.vugs6hbmu {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M8.606 14.48c1.26-2.058 3.573-2.61 5.04-4.7c.71-1.096 3.279-7.817 4.43-4.243c.777 2.413 1.41 2.436 2.398 3.13c4.606 1.018 8.8 2.546 11.56 6.771c1.8 2.755 2.927 7.417 4.373 11.194c0 0 2.985 1.59 4.004 2.797c1.32 1.566 2.084 2.245 2.434 5.445c-5.255-.998-1.154-.238-8.075-1.992c-6.526 3.447-7.903 5.69-12.223 6.229c-2.244.279-5.628.041-10.609-1.382c-1 2.205-2.453 4.02-3.983 5.771c-.756-.317-1.669-.613-2.113-2.113c-.891-3.01-1.153-6.063.69-8.739C4.75 22.222 5.848 18.981 8.607 14.48Z");
+}
+
+.zwc7umnho {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M12.786 33.027c7.704 2.815 13.179.589 17.675-3.851");
+}
+
+</style>

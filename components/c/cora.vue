@@ -1,0 +1,49 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<ellipse class="dq8b5qhrv"/><ellipse class="e5__trbwm"/><path class="i2_c3tcdt"/><path class="xrz_p-7fz"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:cora" /></template>
+<style>
+.dq8b5qhrv {
+  cx: 24px;
+  cy: 24px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  rx: 18.5px;
+  ry: 15.5px;
+}
+
+.e5__trbwm {
+  cx: 24px;
+  cy: 24px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  rx: 18.5px;
+  ry: 12px;
+}
+
+.i2_c3tcdt {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M20.867 19.939c1.624 0 2.941 1.372 2.941 3.065v1.992c0 1.692-1.317 3.065-2.94 3.065h0c-1.625 0-2.942-1.373-2.942-3.065v-1.992c0-1.693 1.317-3.065 2.941-3.065m5.879 3.065c0-1.693 1.317-3.065 2.941-3.065m-2.941 0v8.122m-11.757-1.544c-.507.922-1.46 1.544-2.554 1.544c-1.624 0-2.941-1.373-2.941-3.065v-1.992c0-1.693 1.317-3.065 2.941-3.065c1.091 0 2.043.619 2.551 1.538m23.515 3.519c0 1.693-1.307 3.065-2.919 3.065h-1.024c-1.068 0-1.934-.91-1.934-2.03S33.49 24 34.558 24h3.948");
+}
+
+.xrz_p-7fz {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M33.354 20.744c.709-.74 1.205-.804 2.574-.804c1.553 0 2.573.711 2.573 2.635v5.486");
+}
+
+</style>

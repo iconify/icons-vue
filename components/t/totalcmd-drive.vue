@@ -1,0 +1,43 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="qohqj5wtl"/><path class="aaeh5qb-d"/><path class="hyx2snbuy"/><path class="dahp-nbyw"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:totalcmd-drive" /></template>
+<style>
+.aaeh5qb-d {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("m24 13.486l-3.725-6.449a2.46 2.46 0 0 0-.894.894l-6.88 11.92a2.45 2.45 0 0 0-.325 1.22h7.45zm8.1 14.034c.37-.216.68-.524.894-.895l.433-.745l2.072-3.59a2.45 2.45 0 0 0 .325-1.22h-7.45l1.586 3.116zM24 13.486l3.725-6.449a2.4 2.4 0 0 0-1.22-.325h-5.01c-.434 0-.854.122-1.22.325z");
+}
+
+.dahp-nbyw {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("m32.06 13.892l-3.441-5.96a2.46 2.46 0 0 0-.894-.894L24 13.486l4.375 7.586h7.436c0-.42-.108-.84-.325-1.22z");
+}
+
+.hyx2snbuy {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M28.375 21.07h-8.75L15.9 27.52c.366.217.786.325 1.22.325h13.76c.434 0 .854-.122 1.22-.325z");
+}
+
+.qohqj5wtl {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M30.258 38.977v1.379a.933.933 0 0 1-.932.931H18.674a.933.933 0 0 1-.932-.931v-6.813c0-.514.417-.931.932-.931h10.652a.93.93 0 0 1 .932.931v1.379m-4.23-7.077v4.766h-4.055v-4.766m-4.231 7.077v4.055H7.527A2.03 2.03 0 0 1 5.5 36.95h0a2.03 2.03 0 0 1 2.027-2.029zm12.516-.01v4.054h10.215A2.03 2.03 0 0 0 42.5 36.94h0a2.03 2.03 0 0 0-2.027-2.028zM13.964 24.823l1.042 1.8c.217.38.529.677.894.894l3.725-6.448h-7.45c0 .42.109.84.326 1.22z");
+}
+
+</style>

@@ -1,0 +1,38 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<defs><path id="SVGEpdqAehI" class="thgo_ulqb"/></defs><use href="#SVGEpdqAehI" class="c-zrgpb5l"/><use href="#SVGEpdqAehI" class="c-zrgpb5l"/><path class="z-s988b4i"/><path class="raz0-jb8i"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:google-calendar" /></template>
+<style>
+.c-zrgpb5l {
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.raz0-jb8i {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M14.514 18.787c1.097-.914 2.28-1.331 4.933-1.324l.617.003a3.963 3.963 0 0 1 3.963 3.963h0a3.963 3.963 0 0 1-3.963 3.963m-3.046 0h3.046");
+}
+
+.thgo_ulqb {
+  fill: none;
+  stroke: currentColor;
+  d: path("M6.36 14.59c-.475-3.607 2.333-6.81 5.972-6.81h23.336c3.639 0 6.447 3.203 5.973 6.81l-1.421 10.8l1.42 10.8c.475 3.608-2.333 6.81-5.972 6.81H12.332c-3.639 0-6.447-3.202-5.973-6.81l1.422-10.8z");
+}
+
+.z-s988b4i {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M10.153 8.187A6.67 6.67 0 0 1 15.843 5h16.313a6.67 6.67 0 0 1 5.69 3.186M27.669 19.621l3.964-2.158v15.855M14.515 31.98c1.095.918 2.277 1.338 4.93 1.338h.619a3.963 3.963 0 0 0 3.963-3.963h0a3.963 3.963 0 0 0-3.963-3.963");
+}
+
+</style>

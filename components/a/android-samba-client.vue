@@ -1,0 +1,35 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="o2xprcc6o"/><path class="itkq_x84b"/><path class="dxtl3lb5h"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:android-samba-client" /></template>
+<style>
+.dxtl3lb5h {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M32.756 24.694a7.72 7.72 0 0 1 8.001 6.177a5.175 5.175 0 0 1 .038 10.308H26.338a6.226 6.226 0 0 1 0-12.38a7.6 7.6 0 0 1 6.418-4.105");
+}
+
+.itkq_x84b {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M43.5 31.94V18.294h-39v18.72a2.18 2.18 0 0 0 2.16 2.2h15.805");
+}
+
+.o2xprcc6o {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M41.68 13.015H24.77c-2-.1-5.93-4.23-8.19-4.23h-9.9a2.18 2.18 0 0 0-2.18 2.18v.05h0v7.29h39v-3.42a1.83 1.83 0 0 0-1.79-1.87Z");
+}
+
+</style>

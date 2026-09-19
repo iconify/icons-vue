@@ -1,0 +1,43 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="a26c2wc2e"/><path class="wjf22762q"/><path class="oemadib_l"/><path class="za9bvrw3n"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:idle-fantasy" /></template>
+<style>
+.a26c2wc2e {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("m31.808 29.005l8.293 9.29l.995 5.205l-5-1.403l-6.765-7.584M25.27 17.639l3.503-3.894a8.7 8.7 0 0 1 3.215-.893q-1.723-1.837-4.976-2.552l2.22-2.322l3.955 3.547l5.291-5.658a1.258 1.258 0 1 1 1.253 1.149l-5.352 5.555l4.319 3.905l-2.041 2.322c-.619-1.715-1.876-3.111-3.011-4.568l-.485 2.654l-.87 1.555");
+}
+
+.oemadib_l {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("m22.73 17.639l-3.503-3.894a8.7 8.7 0 0 0-3.215-.893q1.723-1.837 4.976-2.552l-2.22-2.322l-3.955 3.547l-5.291-5.658a1.258 1.258 0 1 0-1.253 1.149");
+}
+
+.wjf22762q {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M23.998 40.387c-6.891-4.616-9.277-14.843-9.874-21.563q4.671-1.26 9.876-1.197q5.205-.061 9.876 1.197c-.597 6.72-2.986 16.947-9.878 21.563m-7.806-11.382L7.9 38.295L6.904 43.5l5-1.403l6.765-7.584");
+}
+
+.za9bvrw3n {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("m8.269 7.016l5.352 5.556l-4.319 3.904l2.041 2.322c.619-1.715 1.876-3.111 3.011-4.568l.485 2.654l.87 1.555");
+}
+
+</style>

@@ -1,0 +1,42 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<g class="y9tr6bcfx"><path class="fidnz5j4o"/><path class="qyifvbb_d"/><path class="lcq2vharl"/><path class="wuljgy32a"/></g><path class="um2-djrqn"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:asphalt-8" /></template>
+<style>
+.fidnz5j4o {
+  d: path("M38.647 22.255c.395 4.488 2.695 3.578 3.515 2.902");
+}
+
+.lcq2vharl {
+  d: path("M4.537 26.377s-.277-2.925.683-3.289c2.017-.763 2.04 5.733 1.802 5.908l8.251 3.972a13.9 13.9 0 0 1-1.104-6.4c.108-1.411 1.5-3.224 3.623-1.12c2.122 2.105 2.008 9.794 2.008 9.794a26.6 26.6 0 0 0 9.184.606c3.861-.183 7.68-.88 11.357-2.074c2.316-.773 2.76-1.64 3.101-2.738s-.946-1.018-.419-3.273s-.861-2.606-.861-2.606");
+}
+
+.qyifvbb_d {
+  d: path("M4.959 23.014c.481-2.584 4.911-1.655 4.911-1.655a6 6 0 0 1 4.359-2.79c.28-.066 7.635-.74 10.233.002s2.567 1.425 3.688 2.709a13.3 13.3 0 0 0 4.47.126a8.484 8.484 0 0 1 9.542 3.751");
+}
+
+.um2-djrqn {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M40.613 15.496a1.75 1.75 0 0 0-1.75 1.75h0c0 .967.783 1.75 1.75 1.75h1.137a1.75 1.75 0 0 0 1.75-1.75h0a1.75 1.75 0 0 0-1.75-1.75m0 0a1.75 1.75 0 0 0 1.75-1.75h0a1.75 1.75 0 0 0-1.75-1.75h-1.137a1.75 1.75 0 0 0-1.75 1.75h0c0 .967.783 1.75 1.75 1.75m0 0h1.137");
+}
+
+.wuljgy32a {
+  d: path("M23.115 24.556c-2.468-.098-1.714.575.198 2.377s3.09 1.612 5.588 1.761s.092-1.415.092-1.415s-3.41-2.626-5.878-2.723m-7.842 8.412c1.674 3.577 4.202 1.602 4.202 1.602M4.537 26.377c.244 4.498 2.485 2.62 2.485 2.62");
+}
+
+.y9tr6bcfx {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+</style>

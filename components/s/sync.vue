@@ -1,0 +1,26 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<g class="y9tr6bcfx"><path class="txi7u4bxo"/><path class="ceiekxs-j"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:sync" /></template>
+<style>
+.ceiekxs-j {
+  d: path("m14.294 26.799l4.1-.048l.044 4.48m-2.428-1.533l2.395-2.947m13.223-8.103l-2.395 2.947m4.112-.048l-4.101.048l-.044-4.48m2.428 1.533l-2.395 2.947");
+}
+
+.txi7u4bxo {
+  d: path("M11.613 16.88C8.201 17.115 5.5 20.213 5.5 24c0 3.94 2.924 7.135 6.532 7.135c1.575 0 3.02-.61 4.148-1.624a10 10 0 0 0-.72 3.739c0 5.109 3.79 9.25 8.467 9.25s8.468-4.141 8.468-9.25c.064-1.602-.242-2.893-.813-3.963a7 7 0 0 0-.552-.867a7.5 7.5 0 0 0-.685-.789c-3.267-3.28-9.601-4.034-12.853-7.547a7.4 7.4 0 0 1-.921-1.214c-.673-1.105-1.082-2.446-1.111-4.12c-.09-5.108 3.79-9.25 8.467-9.25s8.468 4.142 8.468 9.25c0 1.42-.293 2.764-.816 3.966c1.16-1.15 2.7-1.85 4.39-1.85c3.607 0 6.53 3.194 6.53 7.134s-2.923 7.135-6.53 7.135M16.01 29.698l2.395-2.947");
+}
+
+.y9tr6bcfx {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+</style>

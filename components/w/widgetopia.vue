@@ -1,0 +1,19 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="vctypg2ql"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:widgetopia" /></template>
+<style>
+.vctypg2ql {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M33.965 31.59h-4.75m-.643-6.518h6.035c1.939 0 3.5 1.561 3.5 3.5v6.035c0 1.939-1.561 3.5-3.5 3.5h-6.035a3.49 3.49 0 0 1-3.5-3.484v-6.051c0-1.939 1.561-3.5 3.5-3.5m3.017 4.142v4.75m-18.196-8.892h6.035c1.939 0 3.5 1.561 3.5 3.5v6.035c0 1.939-1.561 3.5-3.5 3.5h-6.035a3.49 3.49 0 0 1-3.5-3.484v-6.051c0-1.939 1.561-3.5 3.5-3.5m15.18-15.179h6.034c1.939 0 3.5 1.561 3.5 3.5v6.035c0 1.939-1.561 3.5-3.5 3.5h-6.035a3.49 3.49 0 0 1-3.5-3.484v-6.051c0-1.939 1.561-3.5 3.5-3.5zm-15.18 0h6.035c1.939 0 3.5 1.561 3.5 3.5v6.035c0 1.939-1.561 3.5-3.5 3.5h-6.035a3.49 3.49 0 0 1-3.5-3.484v-6.051c0-1.939 1.561-3.5 3.5-3.5M9.5 5.5h29c2.216 0 4 1.784 4 4v29c0 2.216-1.784 4-4 4h-29c-2.216 0-4-1.784-4-4v-29c0-2.216 1.784-4 4-4");
+}
+
+</style>

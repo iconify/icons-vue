@@ -1,0 +1,43 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="gd5gbbbky"/><path class="kbj2bo9md"/><path class="hy7ozrb_d"/><path class="snggvkb3c"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:credit-mutuel-mon-pargne-retraite-entreprise" /></template>
+<style>
+.gd5gbbbky {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M19.732 5.5L6.75 27.987l4.268 7.392h25.967l4.267-7.392L28.268 5.5z");
+}
+
+.hy7ozrb_d {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M33.449 14.469a6.568 6.568 0 0 0-9.44 2.77a6.34 6.34 0 0 0-.634 2.804a6.5 6.5 0 0 0 .547 2.616a.5.5 0 0 0 .087.176m-5.682 3.767a6.567 6.567 0 0 0 3.745 8.782");
+}
+
+.kbj2bo9md {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M14.549 14.48a6.47 6.47 0 0 1 3.504-1.019a6.6 6.6 0 0 1 5.957 3.779m-12.527 2.55c-.012.077-.012.164-.012.252c0 3.624 2.947 6.57 6.582 6.57c.099 0 .186 0 .274-.011a6.57 6.57 0 0 0 5.683-3.767c.033-.066.054-.12.087-.187m12.429-2.836c.011.077.011.153.011.23c0 3.482-2.726 6.33-6.154 6.548");
+}
+
+.snggvkb3c {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M26.638 35.384a6.56 6.56 0 0 0 4.292-6.165a6.574 6.574 0 0 0-6.58-6.582c-.088 0-.176 0-.252.012c-.066 0-.121 0-.176.01M22.449 42.5v-4.26h1.395c.788 0 1.427.641 1.427 1.431s-.64 1.43-1.427 1.43h-1.395m1.394.001l1.395 1.397M17.97 40.37h1.389m.741 2.13h-2.13v-4.26h2.13m7.8 2.13h1.389m.741 2.13H27.9v-4.26h2.13");
+}
+
+</style>

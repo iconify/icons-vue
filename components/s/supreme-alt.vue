@@ -1,0 +1,35 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="v3lhhyb5n"/><path class="sptciybbo"/><path class="kvk-mc1qw"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:supreme-alt" /></template>
+<style>
+.kvk-mc1qw {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M33.607 23.466c.126-.907.977-1.643 1.9-1.643s1.57.736 1.443 1.643l-.378 2.71m-14.464-2.71c.126-.907.977-1.643 1.9-1.643m-1.671 0l-.608 4.353M6.14 25.457c.337.525.824.72 1.54.72h.99c.921 0 1.77-.734 1.897-1.643s-.517-1.642-1.439-1.642H8.036c-.922 0-1.568-.735-1.44-1.642c.126-.908.978-1.644 1.902-1.644h.985c.715 0 1.202.196 1.54.72m17.188 5.022c-.357.495-.946.829-1.568.829c-.923 0-1.57-.736-1.443-1.643l.15-1.068c.126-.907.977-1.643 1.9-1.643s1.57.736 1.443 1.643L28.62 24h-3.344m16.106 1.348c-.357.495-.946.829-1.568.829c-.924 0-1.57-.736-1.443-1.643l.149-1.068c.126-.907.978-1.643 1.9-1.643s1.57.736 1.444 1.643l-.075.534h-3.344m-21.396.534c-.127.907.52 1.643 1.443 1.643s1.774-.736 1.9-1.643l.15-1.068c.126-.907-.52-1.642-1.443-1.642s-1.775.735-1.901 1.642m.228-1.643l-.916 6.571");
+}
+
+.sptciybbo {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("m12.515 21.823l-.379 2.71c-.126.908.52 1.643 1.443 1.643s1.775-.735 1.901-1.643l.378-2.71m-.379 2.711l-.229 1.642m15.014-2.71c.126-.907.977-1.643 1.9-1.643s1.57.736 1.443 1.643l-.378 2.71m-2.736-4.353l-.608 4.353");
+}
+
+.v3lhhyb5n {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M3.5 17.692h41v12.615h-41z");
+}
+
+</style>

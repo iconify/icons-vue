@@ -1,0 +1,26 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<g class="y9tr6bcfx"><path class="ez8jd_obe"/><path class="ymsn8kbga"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:archivetune" /></template>
+<style>
+.ez8jd_obe {
+  d: path("m6.18 6.9l33.824-1.395c.419-.017.81.204 1.015.573l1.33 2.4c.205.373.201.828-.012 1.197L32.83 26.117a.733.733 0 0 1-.958.295l-4.835-2.367a.68.68 0 0 1-.307-.916l4.576-9.192a.406.406 0 0 0-.375-.585L6.196 14.463a.656.656 0 0 1-.683-.658L5.5 7.618c0-.385.3-.701.68-.717");
+}
+
+.y9tr6bcfx {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.ymsn8kbga {
+  d: path("m18.219 16.895l6.175.552a.66.66 0 0 1 .593.744l-1.424 11.197q-.087.682-.274 1.345L20.12 41.967a.72.72 0 0 1-.852.511l-6.007-1.362a.663.663 0 0 1-.491-.817l2.689-10.257q.174-.666.278-1.347l1.699-11.18a.73.73 0 0 1 .783-.62");
+}
+
+</style>

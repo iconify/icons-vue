@@ -1,0 +1,19 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="g2nudqb7d"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:wild-ksu" /></template>
+<style>
+.g2nudqb7d {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M24 33.417c5.944 5.394 11.603 6.692 18.5.31c-2.255-2.565-4.377-3.803-7.118-4.024c5.88-4.288 5.57-12.865 5.57-12.865c-5.924-.044-10.831 3.89-10.831 3.89C31.27 14.495 24 6.67 24 6.67s-7.27 7.826-6.12 14.06c0 0-4.908-3.935-10.833-3.891c0 0-.31 8.577 5.571 12.865c-2.741.221-4.863 1.46-7.118 4.024c6.897 6.382 12.556 5.084 18.5-.31m0-.001v7.914");
+}
+
+</style>

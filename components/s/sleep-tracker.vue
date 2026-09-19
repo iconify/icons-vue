@@ -1,0 +1,19 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="cfn_ixbai"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:sleep-tracker" /></template>
+<style>
+.cfn_ixbai {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M5.107 19.915c.597 1.765 1.277 2.19 2.834 2.636c-1.725.419-2.29.661-2.834 2.58c-.475-1.828-.784-2.285-2.607-2.58c1.641-.497 2.078-.718 2.607-2.636M28.631 3.123c16.2 4.27 22.73 23.014 10.613 35.767c-9.864 10.382-30.006 7.24-35.411-9.257c11.285 5.354 19.642 1.383 23.215-2.827c4.232-4.988 6.543-14.569 1.583-23.683M8.56 11.235c.816 2.413 1.746 2.994 3.875 3.604c-2.358.572-3.13.904-3.875 3.527c-.649-2.498-1.072-3.124-3.565-3.527c2.245-.68 2.842-.981 3.565-3.604");
+}
+
+</style>

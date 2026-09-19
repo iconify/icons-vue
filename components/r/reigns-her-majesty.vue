@@ -1,0 +1,35 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="tmfrd9r7g"/><path class="olwo8ebpb"/><path class="lzgc9ni1p"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:reigns-her-majesty" /></template>
+<style>
+.lzgc9ni1p {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("m33.059 38.18l1.388-8.047L33.059 24l-9.062-6.074m11.968 1.402v-2.921");
+}
+
+.olwo8ebpb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("m24 44.5l12.724-8.877l2.161-5.899l-2.92-7.71v-2.686l-3.796-3.505v-4.146l-1.343-1.869l-1.46 1.81v1.811l-2.979-2.57V6.07L24 3.5l-2.387 2.57v4.789l-2.979 2.57v-1.811l-1.46-1.81l-1.343 1.869v4.146l-3.796 3.505v2.686l-2.92 7.71l2.16 5.899zm5.19-16.412v4.089");
+}
+
+.tmfrd9r7g {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M18.81 28.088v4.089m-3.869 6.003l-1.388-8.047L14.941 24l9.062-6.074m-11.968 1.402v-2.921");
+}
+
+</style>

@@ -1,0 +1,44 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<circle class="cpk0fnbgt"/><path class="qm1w-zbuw"/><circle class="pgdb4_btf"/><path class="rlmbwfbxv"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:1822-direkt" /></template>
+<style>
+.cpk0fnbgt {
+  cx: 24px;
+  cy: 24px;
+  r: 21.5px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.pgdb4_btf {
+  cx: 17.332px;
+  cy: 26.26px;
+  r: 0.747px;
+  fill: currentColor;
+}
+
+.qm1w-zbuw {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M19.248 31.136c0-1.22.993-2.216 2.208-2.216h0m-2.208-.001v5.874m9.655-8.866v8.866m0-1.884l3.975-3.99m-2.761 2.771l3.202 3.103");
+}
+
+.rlmbwfbxv {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M17.332 28.919v5.874m18.564-7.758v7.758m-1.215-5.874H37m-10.362 4.766c-.331.665-1.104 1.108-1.877 1.108h0a2.22 2.22 0 0 1-2.208-2.216v-1.44c0-1.22.993-2.217 2.208-2.217h0c1.214 0 2.208.997 2.208 2.216v.776h-4.416m-7.137-.776c0-1.22-.994-2.216-2.208-2.216h0A2.22 2.22 0 0 0 11 31.136v1.44c0 1.22.994 2.217 2.208 2.217h0a2.22 2.22 0 0 0 2.208-2.216m0 2.216v-8.866m-5.588-3.804h4.337m-4.337-7.595l2.169-1.211m0 0v8.806m6.807-4.403c-1.192 0-2.168.99-2.168 2.201h0c0 1.211.976 2.202 2.168 2.202h1.41c1.193 0 2.169-.99 2.169-2.202h0c0-1.21-.976-2.201-2.169-2.201m0 0c1.193 0 2.169-.99 2.169-2.202h0c0-1.21-.976-2.201-2.169-2.201h-1.41c-1.193 0-2.169.99-2.169 2.201h0c0 1.211.976 2.202 2.17 2.202zm4.642-1.541c0-1.651 1.302-2.972 2.82-2.972s2.928 1.32 2.928 2.972a3.03 3.03 0 0 1-.868 2.091c-1.193.99-4.88 3.853-4.88 3.853h5.748m2.476-5.944c0-1.651 1.302-2.972 2.82-2.972s2.928 1.32 2.928 2.972a3.03 3.03 0 0 1-.868 2.091c-1.192.99-4.88 3.853-4.88 3.853h5.748");
+}
+
+</style>

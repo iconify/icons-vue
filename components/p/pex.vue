@@ -1,0 +1,40 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<rect class="j3s9ivbxi"/><path class="h743wbdxe"/><path class="ke7s5ebrj"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:pex" /></template>
+<style>
+.h743wbdxe {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M10.71 25.907V19.64h2.05c1.16 0 2.101.942 2.101 2.105s-.94 2.104-2.1 2.104h-2.052m5.757-1.076h1.924m1.026 2.951h-2.95v-5.901h2.95m1.605 0l3.909 5.901m0-5.901l-3.909 5.901");
+}
+
+.j3s9ivbxi {
+  width: 37px;
+  height: 37px;
+  x: 5.5px;
+  y: 5.5px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  rx: 4px;
+  ry: 4px;
+}
+
+.ke7s5ebrj {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M9 27.837h18.742l3.447 1.615c.02-4.091-3.081-4.995-3.845-5.585c4.392.942 5.538 2.572 7.453 6.62c1.378-4.586-3.142-9.28-6.416-10.143c3.395.731 9.21 4.239 10.215 11.232c2.257-8.764-5.513-14.616-9.061-15.152");
+}
+
+</style>

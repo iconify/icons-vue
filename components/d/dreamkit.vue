@@ -1,0 +1,27 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="wr8c-fbyx"/><path class="afgpi_z-r"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:dreamkit" /></template>
+<style>
+.afgpi_z-r {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M23.083 32.428c-1.566 4.474-.93 9.006 3.009 12.963");
+}
+
+.wr8c-fbyx {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M23.07 32.428h.013a15.5 15.5 0 0 0 9.381 3.132a15.67 15.67 0 0 0 12.282-5.923c-2.287 8.483-9.654 14.883-18.64 15.754h-.014c-.68.068-1.389.109-2.097.109c-11.86 0-21.486-9.627-21.486-21.5S12.135 2.5 23.995 2.5c.79 0 1.58.04 2.356.136c-5.147.913-10.975 6.59-10.975 15.59c0 4.767 4.384 8.62 9.804 8.62c.667 0 1.334-.055 1.96-.177h.014h-.014a12.5 12.5 0 0 0-4.057 5.76");
+}
+
+</style>

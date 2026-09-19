@@ -1,0 +1,36 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<g class="y9tr6bcfx"><path class="blqxa9b_u"/><path class="bj9sfw5ht"/></g><g class="y9tr6bcfx"><circle class="er8yx0d8z"/><path class="flsjjbcqk"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:inkredible-pro" /></template>
+<style>
+.bj9sfw5ht {
+  d: path("m35.728 22.343l-9.67 13.536l-2.277-1.524L32.51 20.29m0 0l8.801-12.35c.922.026 1.76.548 2.189 1.364l-7.772 13.04zm10.299-9.693c.377 3.184-2.869 8.259-4.217 10.806");
+}
+
+.blqxa9b_u {
+  d: path("M4.5 36.927c5.402-2.741 5.402-2.786 7.865-3.19c-1.124 1.491-2.405 2.435-1.888 5.347c3.052.634 5.968-1.739 8.629-2.633c-.8 1.034-2.094 3.168-.517 3.595a5.7 5.7 0 0 0 2.67-.462m4.8-3.705l-3.371 2.43l1.093-3.954");
+}
+
+.er8yx0d8z {
+  cx: 11.847px;
+  cy: 14.623px;
+  r: 5.347px;
+}
+
+.flsjjbcqk {
+  d: path("M10.587 17.678v-6.111h2c1.132 0 2.049.919 2.049 2.052s-.917 2.053-2.048 2.053h-2.001");
+}
+
+.y9tr6bcfx {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+</style>

@@ -1,0 +1,35 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="mccgajb6p"/><path class="a2zxyvb0r"/><path class="pwsulubzs"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:google-arts-and-culture" /></template>
+<style>
+.a2zxyvb0r {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M25.484 37.22a8.8 8.8 0 0 1-3.648.797a8.75 8.75 0 0 1-8.758-8.758a8.756 8.756 0 0 1 8.758-8.758v-5.134c-7.67 0-13.892 6.22-13.892 13.892c0 7.682 6.222 13.892 13.892 13.892a13.8 13.8 0 0 0 7.55-2.235m.109-7.417a8.7 8.7 0 0 0 1.1-4.24v-.967h7.84v5.436h-3.456a13.5 13.5 0 0 1-1.691 3.358");
+}
+
+.mccgajb6p {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M16.7 15.372a5.134 5.134 0 1 1 5.134 5.134v5.738c6.005 0 10.872-4.868 10.872-10.872S27.84 4.5 21.834 4.5S10.962 9.368 10.962 15.372z");
+}
+
+.pwsulubzs {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M32.113 43.5h7.943L21.834 26.244h-7.942zm-10.277-5.483v5.134");
+}
+
+</style>

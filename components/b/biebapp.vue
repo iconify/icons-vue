@@ -1,0 +1,27 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="s9kia2h2z"/><path class="yxxjyf-sk"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:biebapp" /></template>
+<style>
+.s9kia2h2z {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M32.893 5.386c5.014 0 11.402.243 11.402 11.322S37.583 44.85 26.343 44.85S3.295 33.32 3.295 24.043S17.932 5.386 32.893 5.386");
+}
+
+.yxxjyf-sk {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M38.487 31.605c-2.507-.862-10.654-2.193-13.239 4.152c-4.935-5.17-11.123-3.212-14.1-1.645L9.346 16.8c2.977-1.567 9.166-3.525 14.1 1.645c2.586-6.345 10.732-5.014 13.24-4.152z");
+}
+
+</style>

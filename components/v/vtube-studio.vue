@@ -1,0 +1,26 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<g class="y9tr6bcfx"><path class="jt-6ylbmz"/><path class="ezclofbxb"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:vtube-studio" /></template>
+<style>
+.ezclofbxb {
+  d: path("M17.206 38.6c-3.588-3.158-7.175-6.314-9.521-11.342c-2.346-5.027-3.449-11.923-2.63-16.263c.817-4.339 3.555-6.12 6.446-6.497s5.934.65 7.959 3.676c2.025 3.028 3.033 8.054 2.92 13.42c-.115 5.367-1.351 11.072-2.587 16.777");
+}
+
+.jt-6ylbmz {
+  d: path("M37.029 42.44c.234.42-7.493-2.7-15.28-2.424c-7.788.276-15.636 3.946-15.87 3.528s7.143-4.926 14.931-5.201c7.788-.276 15.984 3.68 16.219 4.098m-16.942-4.628c1.417-4.921 2.833-9.843 5.496-13.635c2.662-3.792 6.57-6.455 9.61-7.396s5.208-.162 6.58 1.286s1.945 3.564.91 6.172c-1.036 2.61-3.68 5.711-7.508 8.14s-8.84 4.187-13.851 5.944");
+}
+
+.y9tr6bcfx {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+</style>

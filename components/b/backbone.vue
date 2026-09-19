@@ -1,0 +1,19 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="drykuebbi"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:backbone" /></template>
+<style>
+.drykuebbi {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M13 38.655V15c0-1.108.892-2 2-2h4.5c1.108 0 2 .892 2 2v27.5l-16-7.238V23.5c0-1.108.892-2 2-2H11c1.108 0 2 .892 2 2m22 0c0-1.108.892-2 2-2h3.5c1.108 0 2 .892 2 2v11.762l-16 7.238V15c0-1.108.892-2 2-2H33c1.108 0 2 .892 2 2v23.655M24 9.5c-.12-.446-1.78-2-3-2c1.22 0 2.88-1.554 3-2c.12.446 1.78 2 3 2c-1.22 0-2.88 1.554-3 2");
+}
+
+</style>

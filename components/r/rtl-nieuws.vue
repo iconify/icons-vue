@@ -1,0 +1,35 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="q7ncisbsk"/><path class="s43kocide"/><path class="me4cbq3dt"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:rtl-nieuws" /></template>
+<style>
+.me4cbq3dt {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M34.667 17.36v4h6m-33.334.169v-4h4.66c.74 0 1.34.6 1.34 1.343s-.6 1.344-1.34 1.344h-4.66m4.66 0l1.309 1.312m7.698-4h6m-3 4v-4m-10.817 9.29v6.153m21.934-6.153l-1.538 6.153l-1.539-6.153l-1.538 6.153l-1.538-6.153m8.85 5.479c.378.491.85.674 1.509.674h.91c.849 0 1.536-.687 1.536-1.535v-.006c0-.848-.687-1.535-1.535-1.535h-1.005a1.537 1.537 0 0 1-1.537-1.537h0c0-.85.69-1.54 1.54-1.54h.906c.658 0 1.132.183 1.509.675m-19.635-.675v4.115a2.038 2.038 0 0 0 4.076 0v-4.115M6.231 32.971v-6.153l4.076 6.153v-6.153m5.752 3.077h2.006m1.071 3.076h-3.077v-6.153h3.077");
+}
+
+.q7ncisbsk {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M3.5 15.029h13.667v9H3.5zm13.667 0h13.667v9H17.167z");
+}
+
+.s43kocide {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M30.833 15.029H44.5v9H30.833z");
+}
+
+</style>

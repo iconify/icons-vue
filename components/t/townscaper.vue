@@ -1,0 +1,35 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="xhbnuicxn"/><path class="rtkmbtldn"/><path class="iz6ebqbbe"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:townscaper" /></template>
+<style>
+.iz6ebqbbe {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M20.904 29.647h5.872v5.872h-5.872zm2.936 0v5.872m-2.936-2.936h5.872M18.745 43.5h10.19m-11.675-.893h-4.917v-25.11m25.367-1.37L24 4.5L10.29 16.127m20.13 26.48h4.917v-25.11M29.703 6.882V5.117h4.17v5.302");
+}
+
+.rtkmbtldn {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("m23.84 15.034l2.402 2.402l-2.402 2.402l-2.402-2.402zm-4.498 28.013V28.192h8.996v14.855");
+}
+
+.xhbnuicxn {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("m23.84 11.882l5.554 5.554l-5.554 5.554l-5.554-5.554z");
+}
+
+</style>

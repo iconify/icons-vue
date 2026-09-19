@@ -1,0 +1,27 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="e5fis5btp"/><path class="e9765nbox"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:lanna-hospital" /></template>
+<style>
+.e5fis5btp {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M41.32 39.295c2.137 0 2.745-2.184 1.63-3.89L26.43 10.102c-.75-1.148-1.833-1.397-2.43-1.397s-1.68.249-2.43 1.397L5.05 35.405c-1.115 1.706-.507 3.89 1.63 3.89z");
+}
+
+.e9765nbox {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M27.191 31.894a2.952 2.952 0 1 0-5.243 1.861c-1.828-.007-3.459-1.056-2.435-2.815l2.429-4.17h4.668l4.703 8.076h5.897L26.104 15.77H21.97l-3.605 6.193h5.448l1.813 3.114H16.55l-5.687 9.77H24.24a2.95 2.95 0 0 0 2.952-2.953");
+}
+
+</style>

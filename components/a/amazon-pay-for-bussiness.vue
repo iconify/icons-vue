@@ -1,0 +1,61 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="iac32o06v"/><path class="xz9hhpb1w"/><path class="x6g-1ccmt"/><path class="mbn_f56ja"/><circle class="um64usbru"/><path class="nk0uxwbyy"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:amazon-pay-for-bussiness" /></template>
+<style>
+.iac32o06v {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M33.444 43.315A21.5 21.5 0 0 1 24 45.5C12.126 45.5 2.5 35.874 2.5 24S12.126 2.5 24 2.5S45.5 12.126 45.5 24a21.5 21.5 0 0 1-2.177 9.428m-7.724-1.299l-.001.002");
+}
+
+.mbn_f56ja {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M33.502 16.748v4.019a2.436 2.436 0 1 1-4.872 0v-4.019m-2.21 4.05a2.454 2.454 0 0 1-4.909 0v-1.595a2.454 2.454 0 0 1 4.909 0m-.001 4.049v-6.504m-11.921 4.121a2.436 2.436 0 1 0 4.87 0v-1.583a2.436 2.436 0 1 0-4.87 0m0-2.436v9.743");
+}
+
+.nk0uxwbyy {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M39.536 38.5a2 2 0 1 1 0 4h-3.3v-8h3.3a2 2 0 1 1 0 4m-.001 0h-3.299");
+}
+
+.um64usbru {
+  cx: 38.499px;
+  cy: 38.5px;
+  r: 7px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.x6g-1ccmt {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M11.798 30.223c1.758 1.397 6.953 3.534 12.487 3.534a17 17 0 0 0 10.167-3.079m-.95-9.911v3.288a2.436 2.436 0 0 1-4.159 1.723");
+}
+
+.xz9hhpb1w {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M32.28 29.701c1.113-.451 3.092-1.05 3.688-.327c.483.586.146 1.686-.37 2.755");
+}
+
+</style>

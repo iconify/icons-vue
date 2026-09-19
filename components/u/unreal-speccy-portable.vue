@@ -1,0 +1,27 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="qo-0o1blp"/><path class="om0iombyg"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:unreal-speccy-portable" /></template>
+<style>
+.om0iombyg {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M41.814 5.5v33a4 4 0 0 1-4 4H6.185");
+}
+
+.qo-0o1blp {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M17.455 21.24h16.89c.912 0 1.65.722 1.65 1.613v5.231c0 .891-.738 1.614-1.65 1.614h-16.89c-.912 0-1.65-.723-1.65-1.614v-5.231c0-.891.738-1.614 1.65-1.614m-11.27 8.46h3.826c.914 0 1.65-.721 1.65-1.615v-5.23c0-.894-.736-1.615-1.65-1.615H6.185M25.134 5.5h8.936c.912 0 1.65.723 1.65 1.614v4.821c0 .891-.738 1.614-1.65 1.614h-8.936c-.911 0-1.65-.723-1.65-1.614V7.114c0-.891.739-1.614 1.65-1.614m-16.369 0H17.7c.911 0 1.65.723 1.65 1.614v4.821c0 .891-.738 1.614-1.65 1.614H8.765c-.911 0-1.65-.723-1.65-1.614V7.114c0-.891.739-1.614 1.65-1.614m16.343 15.739l3.406-7.691M15.909 42.009L21.361 29.7m6.416-8.461l3.406-7.692M18.578 42.009L24.029 29.7M35.72 9.33l1.696-3.83m-6.971 15.739l3.407-7.69m-12.606 28.46L26.698 29.7m6.416-8.462L40.084 5.5M23.915 42.009L29.366 29.7m6.19-7.947l6.259-14.13M26.584 42.009L32.035 29.7");
+}
+
+</style>

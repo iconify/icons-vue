@@ -1,0 +1,35 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="tv7hp4n2h"/><path class="p87wxn_0i"/><path class="ftyoc3bjk"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:discord-alt" /></template>
+<style>
+.ftyoc3bjk {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M30.15 22.67a3.48 3.48 0 0 1 3.37 3.9a3.38 3.38 0 0 1-3.31 3.22a3.53 3.53 0 0 1-3.43-3.9a3.45 3.45 0 0 1 3.37-3.22");
+}
+
+.p87wxn_0i {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M17.85 22.67a3.48 3.48 0 0 0-3.37 3.9a3.38 3.38 0 0 0 3.31 3.22a3.53 3.53 0 0 0 3.43-3.9a3.45 3.45 0 0 0-3.37-3.22m-5.65-8.3a28.2 28.2 0 0 1 8.16-2.18A23 23 0 0 1 24 12a23 23 0 0 1 3.64.21a28.2 28.2 0 0 1 8.16 2.18m-7.47-2.09l1-2.31a16.47 16.47 0 0 1 9.38 3.51A44.8 44.8 0 0 1 43.5 33s-2.8 4.79-10.18 5a47 47 0 0 1-2.86-3.81m6.46-2.9a29.6 29.6 0 0 1-8.64 3.49a21.3 21.3 0 0 1-4.28.4h0a21.3 21.3 0 0 1-4.28-.4a29.6 29.6 0 0 1-8.64-3.49");
+}
+
+.tv7hp4n2h {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M17.54 34.22A47 47 0 0 1 14.68 38C7.3 37.79 4.5 33 4.5 33a44.8 44.8 0 0 1 4.81-19.52A16.47 16.47 0 0 1 18.69 10l1 2.31");
+}
+
+</style>

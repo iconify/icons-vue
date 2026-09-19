@@ -1,0 +1,43 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="taisubc-h"/><path class="tbhxg3btq"/><path class="itozd6bjt"/><path class="t8yzp6b_o"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:credit-mutuel" /></template>
+<style>
+.itozd6bjt {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M34.133 17.594a7.044 7.044 0 0 0-10.123 2.971a6.8 6.8 0 0 0-.68 3.007c0 .998.21 1.95.586 2.806c.024.07.047.13.094.188m-6.094 4.04a7.043 7.043 0 0 0 4.016 9.418");
+}
+
+.t8yzp6b_o {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M26.829 40.024a7.04 7.04 0 0 0 4.603-6.611c0-.999-.211-1.962-.587-2.819a7.05 7.05 0 0 0-6.47-4.24c-.094 0-.188 0-.27.013c-.071 0-.13 0-.188.011");
+}
+
+.taisubc-h {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M19.423 7.976L5.5 32.092l4.577 7.927h27.847l4.576-7.927L28.577 7.976z");
+}
+
+.tbhxg3btq {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M13.864 17.606a6.94 6.94 0 0 1 3.758-1.092c2.819 0 5.25 1.656 6.389 4.052m-13.435 2.736c-.012.082-.012.176-.012.27c0 3.887 3.16 7.046 7.058 7.046c.106 0 .2 0 .294-.012a7.04 7.04 0 0 0 6.095-4.04c.035-.07.058-.129.093-.2m13.329-3.041c.012.082.012.164.012.247c0 3.734-2.924 6.787-6.6 7.022");
+}
+
+</style>

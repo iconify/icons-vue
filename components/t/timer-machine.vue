@@ -1,0 +1,27 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="q1wx-j28k"/><path class="g5g0c9y_s"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:timer-machine" /></template>
+<style>
+.g5g0c9y_s {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M7.799 26.672c.888 5.434 4.425 9.95 9.221 12.212");
+}
+
+.q1wx-j28k {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M25.434 45.395c10.7-.742 19.219-9.256 19.966-19.957m-42.807 0c.747 10.7 9.265 19.215 19.967 19.957m0-42.789c-10.701.742-19.22 9.257-19.967 19.958m42.855 0c-.744-10.722-9.29-19.25-20.014-19.969m-1.437 9.285v12.57l10.951 6.632m-15.145 8.819q.734.195 1.493.323");
+}
+
+</style>

@@ -1,0 +1,32 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<rect class="j3s9ivbxi"/><path class="il7o50yyw"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:granny" /></template>
+<style>
+.il7o50yyw {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M14.117 27.716v-7.432h1.778c1.006 0 1.82.817 1.82 1.824s-.814 1.824-1.82 1.824h-1.778m1.778 0l1.778 3.783m7.185.001v-7.432l3.598 7.432v-7.432m1.772 7.432v-7.432l3.599 7.432v-7.432m5.37 0L37.398 25l-1.799-4.716m1.799 7.432V25m-14.908.254h-2.406m-.597 2.462l1.8-7.432l1.799 7.432m-10.685-5.633a1.8 1.8 0 0 0-1.799-1.8h0a1.8 1.8 0 0 0-1.8 1.8v3.834a1.8 1.8 0 0 0 1.8 1.8h0a1.8 1.8 0 0 0 1.8-1.8v-.985h-1.8");
+}
+
+.j3s9ivbxi {
+  width: 37px;
+  height: 37px;
+  x: 5.5px;
+  y: 5.5px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  rx: 4px;
+  ry: 4px;
+}
+
+</style>

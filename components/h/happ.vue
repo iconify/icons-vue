@@ -1,0 +1,27 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="x040_dbuy"/><path class="ansbn3nfs"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:happ" /></template>
+<style>
+.ansbn3nfs {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("m26.478 21.866l-6.254 6.288h-1.255l-.217 1.484L8.8 39.636l3.139-21l9.803-9.062l-1.837 12.292zM38.079 9.129l.547-3.629h-8.445L28.17 18.911l1.089-.921");
+}
+
+.x040_dbuy {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("m11.939 18.636l-.659.596l1.936-12.917h8.446l-.58 3.87M20.259 28.2l-2.146 14.3H9.667l.653-4.391m17.853-1.55l-.896 5.941h8.446l2.237-14.912l-1.944 1.712m-15.002-1.94h6.841l-1.643 11.013l9.804-9.073L39.2 8.004l-9.941 9.986l-.456 3.081h-1.526l-.799.795");
+}
+
+</style>

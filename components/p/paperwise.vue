@@ -1,0 +1,19 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="tr2li1b3o"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:paperwise" /></template>
+<style>
+.tr2li1b3o {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M9.5 5.5h20c1.364 0 2.671.542 3.636 1.506l7.858 7.858A5.14 5.14 0 0 1 42.5 18.5v20a4 4 0 0 1-4 4h-29a4 4 0 0 1-4-4v-29a4 4 0 0 1 4-4m1.666 12.963h25.668m-25.668 4.056h25.668m-25.668 4.056h12.613m-12.613 4.056h12.613");
+}
+
+</style>

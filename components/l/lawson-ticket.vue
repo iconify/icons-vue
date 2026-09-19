@@ -1,0 +1,27 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="jxrxtccnl"/><path class="dcvb3rb2q"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:lawson-ticket" /></template>
+<style>
+.dcvb3rb2q {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M11.885 18.766h2.73c2.27 0 4.324 1.827 4.324 4.096v2.276c0 2.269-2.054 4.096-4.323 4.096h-2.731c-2.27 0-4.323-1.827-4.323-4.096v-2.276c0-2.269 2.054-4.096 4.323-4.096");
+}
+
+.jxrxtccnl {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M12 16.75h2.5c4.017 0 7.5 2.649 7.5 6.25v2c0 3.601-3.483 6.25-7.5 6.25H12c-4.016 0-7.5-2.649-7.5-6.25v-2c0-3.601 3.484-6.25 7.5-6.25m11.5 10h3m7.25-3.5l-4.5.626M28 26.5h7m-3.5-2.937V27.5c0 1.584-.41 2.28-2.165 2.75m7.165-3c1.12-1.12 1.688-2.87 1.688-4m-.248 1.5h5.56m-1.5 0v2.5c0 1.788-1.34 3-3 3");
+}
+
+</style>

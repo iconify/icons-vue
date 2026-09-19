@@ -1,0 +1,50 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="izo9k2b6e"/><path class="m8vyqgbsm"/><path class="sjozccqxx"/><path class="qsvtzfb7f"/><circle class="uxq0-lb9t"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:samsung-print-service-plugin" /></template>
+<style>
+.izo9k2b6e {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M34.637 28.854h3.143c2.73.14 4.842 2.69 4.715 5.694c-.12 2.809-2.162 5.056-4.714 5.187l-4.484-.009c-2.722.006-4.932-2.417-4.937-5.411v-.02");
+}
+
+.m8vyqgbsm {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M26.558 39.735h-3.143c-2.73-.14-4.841-2.689-4.714-5.694c.119-2.808 2.161-5.056 4.714-5.187l4.484.009c2.721-.005 4.931 2.417 4.936 5.412v.02");
+}
+
+.qsvtzfb7f {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M18.082 30.437h-6.836v9.32m16.829-25.871V8.242H11.969v12.873h22.574v-7.229zm0-5.644l6.468 5.644m-9.576 0h-9.385m15.219 3.297H15.582");
+}
+
+.sjozccqxx {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M19.133 39.758H5.5V21.115h35.511v7.506");
+}
+
+.uxq0-lb9t {
+  cx: 37.333px;
+  cy: 24.983px;
+  r: 0.75px;
+  fill: currentColor;
+}
+
+</style>

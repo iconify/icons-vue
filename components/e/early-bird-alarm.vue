@@ -1,0 +1,43 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="srf6y7g4w"/><path class="la9anvo3s"/><path class="j-o-d0bor"/><path class="jpx0_mb0a"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:early-bird-alarm" /></template>
+<style>
+.j-o-d0bor {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M20.29 30.027c1.235 0 1.613-2.341 0-2.341h-3.915c-1.624 0-1.235 2.34 0 2.34zm-1.305 4.961v-4.663");
+}
+
+.jpx0_mb0a {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M18.477 27.686v-.817c.05-7.79 11.664-7.79 11.664.04l-.02 7.887m1.903-20.846c2.69-.23 4.273 3.326-.14 4.292q-1.633 1.833-3.267 0c-2.69.08-3.975-4.213-.17-4.183q1.804-2.122 3.577-.11");
+}
+
+.la9anvo3s {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M5.716 29.857q5.39.478 8.148 5.38q5.67-1.934 9.663 3.027q4.143-4.84 11.346-3.018q.666-6.474 7.43-7.51M14.701 14.577a2.46 2.46 0 1 1 0 4.92a2.46 2.46 0 0 1-2.46-2.46a2.453 2.453 0 0 1 2.46-2.46m9.643 9.313c.577 0 1.046.469 1.046 1.046a1.042 1.042 0 1 1-1.046-1.046");
+}
+
+.srf6y7g4w {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M23.836 6.787c10.409 0 18.856 8.447 18.856 18.857c0 10.419-8.447 18.856-18.856 18.856c-10.42 0-18.857-8.437-18.857-18.856c0-10.41 8.437-18.857 18.857-18.857M5.985 12.216q-2.131-.438-2.33-2.53Q5.09 3.5 11.254 3.5q1.743.727 1.394 2.73q-3.665 1.932-6.664 5.986m36.031.159q2.14-.447 2.33-2.53q-1.424-6.186-7.59-6.186q-1.753.728-1.404 2.73q3.665 1.933 6.664 5.986");
+}
+
+</style>

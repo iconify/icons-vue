@@ -1,0 +1,27 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="spe1obcaf"/><path class="r8temjbqe"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:yahoo-japan-flea-market" /></template>
+<style>
+.r8temjbqe {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M9.888 30.31L7.905 41.417a.92.92 0 0 0 .907 1.08h10.224a.92.92 0 0 0 .915-.808l.577-4.228c.202-1.567 1.683-2.992 3.472-2.992s3.315 1.431 3.485 3.09l.564 4.13a.92.92 0 0 0 .915.808h10.224a.92.92 0 0 0 .907-1.08L38.112 30.31m-14.834-16.9V6.245a.737.737 0 0 1 1.064-.663l5.166 2.573a.744.744 0 0 1 0 1.33l-6.23 2.865");
+}
+
+.spe1obcaf {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M37.955 26.49L24.723 13.41a1.03 1.03 0 0 0-1.445 0L10.046 26.49m28.847 1.773a3.06 3.06 0 0 1-1.49 2.636a2.92 2.92 0 0 1-2.978 0a3.06 3.06 0 0 1-1.49-2.636a3.06 3.06 0 0 1-1.489 2.636a2.92 2.92 0 0 1-2.979 0a3.06 3.06 0 0 1-1.489-2.636a3.06 3.06 0 0 1-1.49 2.636a2.92 2.92 0 0 1-2.978 0a3.06 3.06 0 0 1-1.489-2.636a3.06 3.06 0 0 1-1.49 2.636a2.92 2.92 0 0 1-2.978 0a3.06 3.06 0 0 1-1.49-2.636a3.06 3.06 0 0 1-1.489 2.636a2.92 2.92 0 0 1-2.978 0a3.06 3.06 0 0 1-1.49-2.636V26.49h29.786z");
+}
+
+</style>

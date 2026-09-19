@@ -1,0 +1,35 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="zsuj806ax"/><path class="adkadpbch"/><path class="ge8408kpa"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:walkscape" /></template>
+<style>
+.adkadpbch {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M19.766 12.614s-1.686 5.79-5.971 11.349c-2.542 1.617-4.37 4.748-4.37 4.748s3.383 3.816 5.21 5.093c0 0 1.66-.016 2.64-.365c3.061 2.924 5.113 5.896 5.113 5.896V42.5h15.509v-3.165c-.512-1.413-1.628-3.16-4.074-4.4c-3.253-1.825-4.695-3.598-5.512-5.23c-1.492-2.985-.723-5.788 3.362-9.575");
+}
+
+.ge8408kpa {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M20.231 36.471c1.384-.93 2.79-.783 2.79-.783m10.802-.753c-3.296-1.146-6.507 0-6.507 0m-1.039 4.4h-3.889m15.509 0h-2.728M17.276 33.44c-2.032-2.848-6.353-6.827-6.353-6.827");
+}
+
+.zsuj806ax {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M22.358 5.5c-1.447 2.713-3.074 6.692-3.074 6.692c4.792 4.566 13.187 8.289 13.187 8.289c4.205-2.125 6.104-6.737 6.104-6.737c-3.165-2.758-9.842-7.475-16.217-8.244");
+}
+
+</style>

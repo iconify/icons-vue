@@ -1,0 +1,27 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="ydk0ibk9u"/><path class="vyi8lmlrz"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:deutschlandticket-om-bus" /></template>
+<style>
+.vyi8lmlrz {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("m13.28 30.278l-8.632.002c-.1-1.152-.41-2.263.068-3.62l8.603-.13l.711-8.218m-2.447 10.179l1.29-.045m-6.988.102l1.05.04m5.508-8.413l-.055 1.839m-8.833-1.442L3.5 22.413");
+}
+
+.ydk0ibk9u {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M16.822 21.657c.99 0 1.792.75 1.792 1.677v1.708c0 .926-.803 1.676-1.792 1.676h0c-.99 0-1.793-.75-1.793-1.676v-1.708c0-.926.803-1.677 1.793-1.677m3.206 5.056v-5.056l2.705 5.061l2.705-5.053v5.053m1.416-2.53h2.705m3.628 0c.747 0 1.352.566 1.352 1.265s-.606 1.265-1.352 1.265h-2.232v-5.061h2.232c.747 0 1.352.567 1.352 1.265s-.606 1.266-1.352 1.266m2.749-2.531v3.385c0 .926.802 1.676 1.792 1.676s1.792-.75 1.792-1.676v-3.385m1.503 4.507c.332.404.748.555 1.326.555h.801c.746 0 1.35-.566 1.35-1.263v-.006c0-.697-.604-1.262-1.35-1.262h-.883c-.746 0-1.351-.566-1.351-1.264h0c0-.7.606-1.267 1.354-1.267h.796c.58 0 .995.15 1.327.555m-23.17-2.679l-6.827-1.66c-3.23-.33-7.317-.08-8.629.33c-.747 1.053-.912 1.995-1.016 2.913");
+}
+
+</style>

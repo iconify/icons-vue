@@ -1,0 +1,19 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="yqs4uwbzy"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:widgeet" /></template>
+<style>
+.yqs4uwbzy {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M20.428 26.794H7.835a1.16 1.16 0 0 1-1.16-1.16V7.824c0-.64.52-1.16 1.16-1.16h12.593c.64 0 1.16.52 1.16 1.16v17.812c0 .64-.52 1.16-1.16 1.16m16.936-8.24H26.543c-.64 0-1.16-.52-1.16-1.16V6.66c0-.64.52-1.16 1.16-1.16h10.821c.64 0 1.16.52 1.16 1.16v10.736c0 .64-.52 1.16-1.16 1.16M20.439 40.832h-7.95a1.16 1.16 0 0 1-1.16-1.16v-7.86c0-.64.519-1.16 1.16-1.16h7.95c.64 0 1.16.52 1.16 1.16v7.86c0 .64-.52 1.16-1.16 1.16M40.165 42.5H26.609c-.64 0-1.16-.52-1.16-1.16V23.574c0-.64.52-1.16 1.16-1.16h13.555c.64 0 1.16.52 1.16 1.16V41.34c0 .64-.52 1.16-1.16 1.16");
+}
+
+</style>

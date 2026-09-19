@@ -1,0 +1,26 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<g class="y9tr6bcfx"><path class="quqbo8wxl"/><path class="ypakulbpn"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:gc-wizard" /></template>
+<style>
+.quqbo8wxl {
+  d: path("M24 2.5C12.126 2.5 2.5 12.126 2.5 24S12.126 45.5 24 45.5a21.5 21.5 0 0 0 13.711-4.974L20.797 23.731a1 1 0 0 1-.009-1.411l.003-.003l1.47-1.479a1 1 0 0 1 1.411-.008l.002.002l16.914 16.795A21.5 21.5 0 0 0 45.5 24c0-11.874-9.625-21.5-21.5-21.5m4.752 23.374l-2.761 3.014M21.77 18.111v-5.32m-.581 14.589v5.045m5.457-11.122h4.505m-19.302.734h4.506m-4.708-9.193l6.532 5.763m6.98-.856l5.877-6.548M18.031 25.502l-5.203 5.814");
+}
+
+.y9tr6bcfx {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.ypakulbpn {
+  d: path("M24 2.5C12.126 2.5 2.5 12.126 2.5 24S12.126 45.5 24 45.5a21.5 21.5 0 0 0 13.71-4.975L20.798 23.73a1 1 0 0 1-.009-1.411l.003-.003l1.469-1.478a1 1 0 0 1 1.411-.009l.003.003l16.914 16.795A21.5 21.5 0 0 0 45.5 24c0-11.874-9.626-21.5-21.5-21.5m4.751 23.374l-2.76 3.013M21.77 18.11v-5.32m-.582 14.59v5.045m5.457-11.122h4.505m-19.301.733h4.505m-4.707-9.193l6.531 5.763m6.98-.856l5.878-6.548M18.03 25.501l-5.203 5.814");
+}
+
+</style>

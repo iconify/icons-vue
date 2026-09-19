@@ -1,0 +1,34 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="mvt0grbnf"/><path class="spswfdt1i"/><path class="dqmjewb-n"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:harvard-fcu" /></template>
+<style>
+.dqmjewb-n {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  d: path("m12.27 15.707l11.776-3.049l11.716 3.108m-10.64 3.229l.18 24.02m3.366-24.02l.18 22.306");
+}
+
+.mvt0grbnf {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M32 39.145v-19.28c.658-.445 1-.938 1-1.44c-.002-1.732-4.031-3.136-9-3.136s-8.998 1.404-9 3.137c0 .5.342.994 1 1.44v19.279c2.316 1.85 5.017 3.327 8 4.355c2.983-1.028 5.684-2.505 8-4.355");
+}
+
+.spswfdt1i {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M24 4.5a2.05 2.05 0 0 0-1.44.592c-3.674 3.619-8.43 4.3-12.521 4.426a2.54 2.54 0 0 0-2.467 2.367A79.4 79.4 0 0 0 7.5 23.912c.678 6.182 3.795 11.475 8.5 15.233v-19.28c-.658-.445-1-.938-1-1.44c.002-1.732 4.031-3.136 9-3.136s8.998 1.404 9 3.137c0 .5-.342.994-1 1.44v19.279c4.704-3.758 7.822-9.05 8.5-15.233c.28-4.005.256-8.026-.072-12.027a2.54 2.54 0 0 0-2.467-2.367c-4.091-.126-8.845-.807-12.52-4.426A2.05 2.05 0 0 0 24 4.5");
+}
+
+</style>

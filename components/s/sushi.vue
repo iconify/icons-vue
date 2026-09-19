@@ -1,0 +1,30 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<defs><path id="SVGUNNY0dLy" class="j3zq8ibyu"/></defs><use href="#SVGUNNY0dLy" class="c-zrgpb5l"/><path class="k4cbsub1y"/><use href="#SVGUNNY0dLy" class="c-zrgpb5l"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:sushi" /></template>
+<style>
+.c-zrgpb5l {
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.j3zq8ibyu {
+  fill: none;
+  stroke: currentColor;
+  d: path("M4.81 27.5S15.397 24.855 24 24.855S43.19 27.5 43.19 27.5v-3.97c-10.598-11.472-27.781-11.47-38.38 0z");
+}
+
+.k4cbsub1y {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M5.129 27.411c0 .261.08.503.216.704a1.255 1.255 0 0 0 .413 2.441c.063 0 .124-.01.185-.018c-.115.189-.185.41-.185.647a1.258 1.258 0 0 0 1.963 1.043c.171.49.633.844 1.182.844s1.011-.353 1.183-.844a1.26 1.26 0 0 0 1.409 0c.171.49.633.844 1.182.844s1.011-.353 1.183-.844a1.26 1.26 0 0 0 1.41 0a1.25 1.25 0 0 0 2.364 0a1.26 1.26 0 0 0 1.41 0c.17.49.633.844 1.182.844s1.01-.353 1.182-.844a1.26 1.26 0 0 0 1.41 0c.17.49.633.844 1.182.844s1.011-.353 1.183-.844a1.26 1.26 0 0 0 1.409 0c.171.49.633.844 1.182.844s1.011-.353 1.183-.844a1.26 1.26 0 0 0 1.409 0c.171.49.633.844 1.182.844s1.012-.353 1.183-.844a1.26 1.26 0 0 0 1.41 0a1.25 1.25 0 0 0 2.364 0a1.26 1.26 0 0 0 1.41 0c.17.49.633.844 1.182.844s1.01-.353 1.182-.844a1.257 1.257 0 0 0 1.778-1.69c.061.008.122.018.185.018a1.255 1.255 0 0 0 .413-2.441c.137-.2.216-.443.216-.704");
+}
+
+</style>

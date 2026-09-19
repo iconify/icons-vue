@@ -1,0 +1,26 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="bq99z8bog"/><circle class="og151di1o"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:empik" /></template>
+<style>
+.bq99z8bog {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M25.449 21.696v7.6m0-4.465c0 1.05.845 1.9 1.887 1.9h0c1.042 0 1.886-.85 1.886-1.9v-1.235c0-1.05-.844-1.9-1.886-1.9h0c-1.042 0-1.887.85-1.887 1.9m-12.671 2.177c-.334.592-.96.959-1.64.959h0a1.893 1.893 0 0 1-1.886-1.9h0v-1.236c0-1.05.845-1.9 1.887-1.9h0c1.042 0 1.886.85 1.886 1.9v.618H9.252m22.816-2.518v5.036m3.995-2.705l2.685 2.693m-3.772-1.603l3.415-3.424m-3.416-2.562v7.6m-15.8-3.135c0-1.05.845-1.9 1.887-1.9h0c1.042 0 1.886.85 1.886 1.9v3.136m-7.546-5.036v5.036m0-3.136c0-1.05.844-1.9 1.886-1.9h0c1.042 0 1.887.85 1.887 1.9v3.136M9.5 5.5h29c2.216 0 4 1.784 4 4v29c0 2.216-1.784 4-4 4h-29c-2.216 0-4-1.784-4-4v-29c0-2.216 1.784-4 4-4");
+}
+
+.og151di1o {
+  cx: 32.068px;
+  cy: 19.464px;
+  r: 0.75px;
+  fill: currentColor;
+}
+
+</style>

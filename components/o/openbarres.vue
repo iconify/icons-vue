@@ -1,0 +1,27 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="gnvwg5d5d"/><path class="sqo91dzlk"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:openbarres" /></template>
+<style>
+.gnvwg5d5d {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M32.137 18.605a12.43 12.43 0 0 1-12.432 12.433A12.43 12.43 0 0 1 7.273 18.605A12.43 12.43 0 0 1 19.705 6.173a12.43 12.43 0 0 1 12.432 12.432m8.59 23.222L27.441 28.54");
+}
+
+.sqo91dzlk {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M9.499 18.17c.195-4.67 3.527-8.53 7.944-9.529m8.085 2.958v13.864m-12.664-5.447v5.447m4.221-7.86v7.86m4.221-11.364v11.364");
+}
+
+</style>

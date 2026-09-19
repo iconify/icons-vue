@@ -1,0 +1,47 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="bcg98cbwq"/><circle class="b6_7kebub"/><circle class="d94pwgu-i"/><path class="hrch29bjj"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:subnautica" /></template>
+<style>
+.b6_7kebub {
+  cx: 33.946px;
+  cy: 23.364px;
+  r: 5.985px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.bcg98cbwq {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M3.5 23.365s2.656 1.586 3.126 3.304c.492 1.798.412 4.767 4.297 4.767s5.257-.627 8.22-2.02c1.45.588 4.57.431 7.465 2.236c1.914 1.193 5.091 1.695 4.736 2.817c-.575 1.82-2.197 2.813-2.432 4.383s-1.567 3.736-.373 3.413c2.903-.785 5.395-6.905 6.768-8.24s6.564-4.146 6.878-7.756c1.687-.117 2.315-2.184 2.315-2.184s-.628-2.068-2.315-2.185c-.314-3.61-6.12-6.553-7.494-7.886s-5.379-7.481-8.003-8.279c-1.184-.36.627 2.354.863 3.923s2.393 2.865 2.393 4.042s-2.59 1.726-4.041 3.452s-3.453 3.217-4.904 3.806c-2.982-1.02-4.67-3.727-8.553-3.727s-5.14 2.667-6.082 4.276C5.75 22.56 3.5 23.364 3.5 23.364Z");
+}
+
+.d94pwgu-i {
+  cx: 34.813px;
+  cy: 23.364px;
+  r: 2.784px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.hrch29bjj {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M27.793 23.364h-1.831m-3.812-.261c-.256.432-.236 1.099-.04 1.57m-2.196-1.137c-.216.432-.2 1.099-.034 1.57m-2.041-1.12c-.04.184-.037.47-.006.67m3.166-3.698c-2.746 1.278-12.685 2.108-15.837 1.614m-.63 1.513c3.382.021 10.89 4.285 14.61 5.33");
+}
+
+</style>

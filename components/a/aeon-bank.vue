@@ -1,0 +1,27 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="iogpcbc8n"/><path class="qf6-0-bdy"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:aeon-bank" /></template>
+<style>
+.iogpcbc8n {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M9.08 24.002a10.55 10.55 0 0 1-3.58-7.93V7.5c0-1.108.892-2 2-2h8.572c5.838 0 10.572 4.733 10.569 10.574a5.285 5.285 0 0 1-5.284 5.284H16.07c-5.837 0-10.57 4.732-10.57 10.572v8.57c0 1.108.892 2 2 2h8.572c3.158 0 5.993-1.385 7.93-3.58");
+}
+
+.qf6-0-bdy {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M38.919 23.998a10.55 10.55 0 0 1 3.58 7.93V40.5c0 1.108-.891 2-2 2h-8.57c-5.84 0-10.573-4.733-10.57-10.574a5.285 5.285 0 0 1 5.284-5.284h5.286c5.838 0 10.572-4.733 10.572-10.572V7.5c0-1.108-.892-2-2-2h-8.572A10.55 10.55 0 0 0 24 9.079");
+}
+
+</style>

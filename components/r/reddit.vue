@@ -1,0 +1,45 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="eu30qlzyc"/><path class="q-t_17b5d"/><path class="xil2eccoe"/><circle class="bt1mb6b2j"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:reddit" /></template>
+<style>
+.bt1mb6b2j {
+  cx: 36.214px;
+  cy: 9.668px;
+  r: 3.045px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.eu30qlzyc {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M20.34 27.353c0-1.67-1.376-3.045-3.045-3.045s-3.045 1.376-3.045 3.045a3.045 3.045 0 0 0 6.09 0m10.365-3.045c-1.669 0-3.045 1.376-3.045 3.045s1.376 3.045 3.045 3.045s3.045-1.376 3.045-3.045s-1.347-3.045-3.045-3.045");
+}
+
+.q-t_17b5d {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M23.327 17.603c-4.539.146-8.638 1.493-11.595 3.63A4.26 4.26 0 0 0 4.5 24.308a4.27 4.27 0 0 0 2.518 3.894c-.059.41-.088.849-.088 1.288c0 6.559 7.642 11.888 17.07 11.888s17.07-5.33 17.07-11.888c0-.439-.03-.878-.088-1.288a4.258 4.258 0 0 0 1.339-6.83a4.26 4.26 0 0 0-6.023-.139c-2.928-2.108-6.94-3.484-11.42-3.63z");
+}
+
+.xil2eccoe {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M30.705 34.844c-2.41 1.82-4.23 2.072-6.705 2.072h0c-2.474 0-4.294-.252-6.705-2.072m6.792-17.241l2.184-9.976l6.956 1.443");
+}
+
+</style>

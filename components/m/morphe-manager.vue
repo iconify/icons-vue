@@ -1,0 +1,27 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="v0xmfbbcv"/><path class="zksw5zb-y"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:morphe-manager" /></template>
+<style>
+.v0xmfbbcv {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M5.5 17.979v18.064c.107 2.258 2.032 4.085 4.278 4.085s4.17-1.827 4.276-4.085V21.527m22.109 2.08c-.529.82-1.06 1.643-1.603 2.449a3.56 3.56 0 0 0-.614 1.988v7.999c.106 2.258 2.03 4.085 4.276 4.085s4.171-1.827 4.278-4.085V16.042c-2.004.851-4.39 4.545-6.337 7.565");
+}
+
+.zksw5zb-y {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M10.205 7.872c-3.636 0-4.705 2.687-4.705 4.3v5.807c3.209-3.55 8.02 2.903 8.554 3.548c2.996 3.44 4.706 9.353 9.946 9.57c7.262 0 11.448-16.955 18.5-18.173c0-3.01-1.177-5.053-4.705-5.053c-3.636 0-6.203 5.376-8.021 7.74C27.957 17.98 27.102 20.56 24 20.56s-4.064-2.69-5.774-4.947c-1.818-2.365-4.385-7.74-8.021-7.74Z");
+}
+
+</style>

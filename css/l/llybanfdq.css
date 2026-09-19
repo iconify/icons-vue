@@ -1,0 +1,7 @@
+.llybanfdq {
+  stroke: var(--svg-color--000, #000);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--4px, 4px);
+  d: path("M40 38C40 41.3137 32.8366 44 24 44C15.1634 44 8 41.3137 8 38");
+}

@@ -1,0 +1,5 @@
+.meijiidak {
+  fill: var(--svg-color--2f88ff, #2F88FF);
+  stroke-linejoin: round;
+  d: path("M10 30H16C19.3137 30 22 32.6863 22 36C22 39.3137 19.3137 42 16 42H10V30Z");
+}

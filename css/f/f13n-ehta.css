@@ -1,0 +1,8 @@
+.f13n-ehta {
+  fill: none;
+  stroke: var(--svg-color--000, #000);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--4px, 4px);
+  d: path("M12 13L34 34L23 44V4L34 14L12 35");
+}

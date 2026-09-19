@@ -1,0 +1,7 @@
+.ysajrofmt {
+  stroke: var(--svg-color--000, #000);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--4px, 4px);
+  d: path("M6 19L7 17M16 19L15 17M7 17L11 9L15 17M7 17H15");
+}

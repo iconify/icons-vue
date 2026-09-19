@@ -1,0 +1,5 @@
+.kv_hcvb_d {
+  stroke: var(--svg-color--000, #000);
+  stroke-linecap: round;
+  d: path("M42 12V39C42 40.6569 40.6569 42 39 42H12");
+}

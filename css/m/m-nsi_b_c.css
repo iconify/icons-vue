@@ -1,0 +1,6 @@
+.m-nsi_b_c {
+  stroke: var(--svg-color--000, #000);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M16 6H8C6.89543 6 6 6.89543 6 8V16");
+}

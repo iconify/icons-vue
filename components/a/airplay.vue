@@ -1,0 +1,12 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/a/a0a9vkbzg.css';
+import '../../css/h/hox00fw-n.css';
+import '../../css/v/vb569dqcb.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<g class="a0a9vkbzg"><path class="hox00fw-n"/><path class="vb569dqcb"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="icon-park:airplay" /></template>

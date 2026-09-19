@@ -1,0 +1,7 @@
+.oozzk-mgr {
+  stroke: var(--svg-color--000, #000);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--4px, 4px);
+  d: path("M40 40H8M40 40H4H8M40 40H44M40 40V24H8V40");
+}

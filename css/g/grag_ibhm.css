@@ -1,0 +1,7 @@
+.grag_ibhm {
+  stroke: var(--svg-color--000, #000);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--4px, 4px);
+  d: path("M24 16H4V32H6H12H36H42H44V16H38");
+}

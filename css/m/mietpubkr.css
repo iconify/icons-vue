@@ -1,0 +1,9 @@
+.mietpubkr {
+  fill: var(--svg-color--2f88ff, #2F88FF);
+  stroke: var(--svg-color--000, #000);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 2;
+  stroke-width: var(--svg-stroke-width--4px, 4px);
+  d: path("M40 44H8V40L14 37H34L40 40V44Z");
+}

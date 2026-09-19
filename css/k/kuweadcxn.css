@@ -1,0 +1,7 @@
+.kuweadcxn {
+  stroke: var(--svg-color--000, #000);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--4px, 4px);
+  d: path("M8 5V15C8 20 14 20 14 20C14 20 20 20 20 15V5");
+}

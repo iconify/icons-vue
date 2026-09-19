@@ -1,0 +1,7 @@
+.x7bcnabkt {
+  stroke: var(--svg-color--000, #000);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--4px, 4px);
+  d: path("M32 16H35M44 16H41M41 16V4H35V16M41 16H35");
+}

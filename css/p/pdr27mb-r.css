@@ -1,0 +1,8 @@
+.pdr27mb-r {
+  stroke: var(--svg-color--000, #000);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 2;
+  stroke-width: var(--svg-stroke-width--4px, 4px);
+  d: path("M25 4C28.7 7.81854 32 14.1197 32 20C32 25.8067 28.62 32.192 25 36");
+}

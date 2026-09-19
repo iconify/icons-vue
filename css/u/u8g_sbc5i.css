@@ -1,0 +1,6 @@
+.u8g_sbc5i {
+  stroke: var(--svg-color--000, #000);
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--4px, 4px);
+  d: path("M12 16C7.58172 16 4 19.5817 4 24C4 28.4183 7.58172 32 12 32V32");
+}

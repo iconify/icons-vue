@@ -1,0 +1,22 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="kfwjsrboc"/><path class="lvz0nnbur"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="ic:twotone-panorama-vertical" /></template>
+<style>
+.kfwjsrboc {
+  fill: currentColor;
+  d: path("M6.54 4c.77 2.6 1.16 5.28 1.16 8s-.39 5.4-1.16 8h10.91c-.77-2.6-1.16-5.28-1.16-8s.39-5.4 1.16-8z");
+  opacity: var(--svg-opacity--0-3, 0.3);
+}
+
+.lvz0nnbur {
+  fill: currentColor;
+  d: path("M19.94 21.12c-1.1-2.94-1.64-6.03-1.64-9.12s.55-6.18 1.64-9.12a1 1 0 0 0 .06-.31c0-.34-.23-.57-.63-.57H4.63c-.4 0-.63.23-.63.57c0 .1.02.2.06.31C5.16 5.82 5.71 8.91 5.71 12s-.55 6.18-1.64 9.12c-.05.11-.07.22-.07.31c0 .33.23.57.63.57h14.75c.39 0 .63-.24.63-.57c-.01-.1-.03-.2-.07-.31M17.45 20H6.54c.77-2.6 1.16-5.28 1.16-8s-.39-5.4-1.16-8h10.91c-.77 2.6-1.16 5.28-1.16 8s.39 5.4 1.16 8");
+}
+
+</style>

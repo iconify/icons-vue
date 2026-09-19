@@ -1,0 +1,34 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="e86d4na2d"/><path class="v8ozsw7jd"/><circle class="n1xy6nh9u"/><path class="d0po9ej1v"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="ic:twotone-cameraswitch" /></template>
+<style>
+.d0po9ej1v {
+  fill: currentColor;
+  d: path("M8.57.52L13.05 5V2.05c4.72.47 8.48 4.23 8.95 8.95h2C23.34 3.03 15.49-1.58 8.57.52m2.38 21.44c-4.72-.47-8.48-4.23-8.95-8.95H0c.66 7.97 8.51 12.58 15.43 10.48l-4.48-4.48z");
+}
+
+.e86d4na2d {
+  fill: currentColor;
+  d: path("M13.17 8h-2.34l-1 1H8v6h8V9h-1.83zM12 14c-1.1 0-2-.9-2-2s.9-2 2-2s2 .9 2 2s-.9 2-2 2");
+  opacity: var(--svg-opacity--0-3, 0.3);
+}
+
+.n1xy6nh9u {
+  cx: 12px;
+  cy: 12px;
+  r: 2px;
+  fill: currentColor;
+}
+
+.v8ozsw7jd {
+  fill: currentColor;
+  d: path("M16 7h-1l-1-1h-4L9 7H8c-1.1 0-2 .9-2 2v6c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V9c0-1.1-.9-2-2-2m0 8H8V9h1.83l1-1h2.34l1 1H16z");
+}
+
+</style>

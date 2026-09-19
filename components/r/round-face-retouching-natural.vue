@@ -1,0 +1,35 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="x6vp2hbzz"/><circle class="t8-_arz4f"/><circle class="pt3nek-ut"/><path class="vv2p67bzj"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="ic:round-face-retouching-natural" /></template>
+<style>
+.pt3nek-ut {
+  cx: 15px;
+  cy: 13px;
+  r: 1.25px;
+  fill: currentColor;
+}
+
+.t8-_arz4f {
+  cx: 9px;
+  cy: 13px;
+  r: 1.25px;
+  fill: currentColor;
+}
+
+.vv2p67bzj {
+  fill: currentColor;
+  d: path("M19.5 8.8c-.78 0-1.49-.46-1.82-1.17l-.41-.9l-.9-.41A2.01 2.01 0 0 1 15.2 4.5c0-.66.34-1.26.87-1.63C14.83 2.32 13.45 2 12 2C6.48 2 2 6.48 2 12s4.48 10 10 10s10-4.48 10-10c0-1.45-.32-2.83-.87-4.07c-.37.53-.97.87-1.63.87M12 20c-4.41 0-8-3.59-8-8c0-.05.01-.1 0-.14c2.6-.98 4.69-2.99 5.74-5.55A10 10 0 0 0 17.5 10c.75 0 1.47-.09 2.17-.24c.21.71.33 1.46.33 2.24c0 4.41-3.59 8-8 8");
+}
+
+.x6vp2hbzz {
+  fill: currentColor;
+  d: path("M22.01 4.05L20.6 3.4l-.65-1.41a.5.5 0 0 0-.91 0L18.4 3.4l-1.41.65a.5.5 0 0 0 0 .91l1.41.64l.65 1.41a.5.5 0 0 0 .91 0l.64-1.41l1.41-.65c.39-.17.39-.73 0-.9");
+}
+
+</style>

@@ -1,0 +1,22 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="n7_299b4c"/><path class="ktv9jxbrt"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="ic:twotone-calendar-month" /></template>
+<style>
+.ktv9jxbrt {
+  fill: currentColor;
+  d: path("M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20a2 2 0 0 0 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2m0 16H5V10h14zm0-12H5V6h14zM9 14H7v-2h2zm4 0h-2v-2h2zm4 0h-2v-2h2zm-8 4H7v-2h2zm4 0h-2v-2h2zm4 0h-2v-2h2z");
+}
+
+.n7_299b4c {
+  fill: currentColor;
+  d: path("M5 6h14v2H5z");
+  opacity: var(--svg-opacity--0-3, 0.3);
+}
+
+</style>

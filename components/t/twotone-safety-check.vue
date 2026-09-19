@@ -1,0 +1,22 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="is7dfmb7z"/><path class="l762rs_bf"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="ic:twotone-safety-check" /></template>
+<style>
+.is7dfmb7z {
+  fill: currentColor;
+  d: path("M12 4.14L6 6.39v4.7c0 4 2.55 7.7 6 8.83c3.45-1.13 6-4.82 6-8.83v-4.7zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5s5 2.24 5 5s-2.24 5-5 5m1.65-2.65L11.5 12.2V9h1v2.79l1.85 1.85z");
+  opacity: var(--svg-opacity--0-3, 0.3);
+}
+
+.l762rs_bf {
+  fill: currentColor;
+  d: path("M12 2L4 5v6.09c0 5.05 3.41 9.76 8 10.91c4.59-1.15 8-5.86 8-10.91V5zm6 9.09c0 4-2.55 7.7-6 8.83c-3.45-1.13-6-4.82-6-8.83v-4.7l6-2.25l6 2.25zM12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5s5-2.24 5-5s-2.24-5-5-5m1.65 7.35L11.5 12.2V9h1v2.79l1.85 1.85z");
+}
+
+</style>

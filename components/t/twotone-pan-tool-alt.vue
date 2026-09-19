@@ -1,0 +1,22 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="dq_h8lb2r"/><path class="zqp4hpb8l"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="ic:twotone-pan-tool-alt" /></template>
+<style>
+.dq_h8lb2r {
+  fill: currentColor;
+  d: path("M17.08 19h-6.55l-3.7-3.78l4.17.89V5.5c0-.28.22-.5.5-.5s.5.22.5.5v6.18h1.76L18 13.56z");
+  opacity: var(--svg-opacity--0-3, 0.3);
+}
+
+.zqp4hpb8l {
+  fill: currentColor;
+  d: path("m18.89 11.77l-3.8-1.67c-.13-.06-.28-.1-.44-.1H14V5.5a2.5 2.5 0 0 0-5 0v8.15l-1.87-.4c-.19-.03-1.02-.15-1.73.56L4 15.22l5.12 5.19c.37.38.88.59 1.41.59h6.55c.98 0 1.81-.7 1.97-1.67l.92-5.44a2 2 0 0 0-1.08-2.12M17.08 19h-6.55l-3.7-3.78l4.17.89V5.5c0-.28.22-.5.5-.5s.5.22.5.5v6.18h1.76L18 13.56z");
+}
+
+</style>

@@ -1,0 +1,28 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="ap_n0eb7x"/><path class="ioh3p9bxb"/><path class="t5kdzgb-p"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="ic:twotone-maps-ugc" /></template>
+<style>
+.ap_n0eb7x {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-3, 0.3);
+  d: path("M12 4c4.41 0 8 3.59 8 8s-3.59 8-8 8c-1.18 0-2.34-.26-3.43-.78c-.27-.13-.56-.19-.86-.19c-.19 0-.38.03-.56.08l-3.2.94l.94-3.2c.14-.47.1-.98-.11-1.42A7.9 7.9 0 0 1 4 12c0-4.41 3.59-8 8-8");
+}
+
+.ioh3p9bxb {
+  fill: currentColor;
+  d: path("M12 4c4.41 0 8 3.59 8 8s-3.59 8-8 8c-1.18 0-2.34-.26-3.43-.78c-.27-.13-.56-.19-.86-.19c-.19 0-.38.03-.56.08l-3.2.94l.94-3.2c.14-.47.1-.98-.11-1.42A7.9 7.9 0 0 1 4 12c0-4.41 3.59-8 8-8m0-2C6.48 2 2 6.48 2 12c0 1.54.36 2.98.97 4.29L1 23l6.71-1.97c1.31.61 2.75.97 4.29.97c5.52 0 10-4.48 10-10S17.52 2 12 2");
+}
+
+.t5kdzgb-p {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M13 8h-2v3H8v2h3v3h2v-3h3v-2h-3z");
+}
+
+</style>

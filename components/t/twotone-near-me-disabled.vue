@@ -1,0 +1,22 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="x1hdwijcx"/><path class="u9h8bibjr"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="ic:twotone-near-me-disabled" /></template>
+<style>
+.u9h8bibjr {
+  fill: currentColor;
+  d: path("M12 6.34L21 3l-3.34 9l-1.56-1.56l1.5-4.05l-4.05 1.5zm9.19 14.85l-5.07-5.07L14.31 21H12.9l-2.83-7.07L3 11.1V9.69l4.88-1.81l-5.07-5.07L4.22 1.4L22.6 19.78zm-6.62-6.62L9.43 9.43l-2.71 1.01l4.89 1.95l1.95 4.89z");
+}
+
+.x1hdwijcx {
+  fill: currentColor;
+  d: path("m16.1 10.44l1.5-4.05l-4.05 1.5zm-1.53 4.13L9.43 9.43l-2.71 1.01l4.89 1.95l1.95 4.89z");
+  opacity: var(--svg-opacity--0-3, 0.3);
+}
+
+</style>

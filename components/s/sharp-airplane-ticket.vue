@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="u4wr7tb1g"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="ic:sharp-airplane-ticket" /></template>
+<style>
+.u4wr7tb1g {
+  fill: currentColor;
+  d: path("M22 4H2.01v6c1.1 0 1.99.9 1.99 2s-.89 2-2 2v6h20zm-4.27 9.3l-8.86 2.36l-1.66-2.88l.93-.25l1.26.99l2.39-.64l-2.4-4.16l1.4-.38l4.01 3.74l2.44-.65a.967.967 0 0 1 1.18.68a.99.99 0 0 1-.69 1.19");
+}
+
+</style>

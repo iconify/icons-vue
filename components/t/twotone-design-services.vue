@@ -1,0 +1,22 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="a4n_azb5z"/><path class="nwzm_my1x"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="ic:twotone-design-services" /></template>
+<style>
+.a4n_azb5z {
+  fill: currentColor;
+  d: path("m15.91 9.28l-1.3-1.3L5 17.59V19h1.41l9.61-9.61zm-5.08-.35l-1.2-1.2l-1.19 1.19L7.02 7.5l1.19-1.18l-1.27-1.28l-1.9 1.9l3.89 3.89zm5.44 5.45l-1.2-1.21l-1.9 1.9l3.89 3.89l1.9-1.9l-1.27-1.27l-1.19 1.19l-1.42-1.41zm-.25-7.822l1.415-1.414l1.414 1.414l-1.414 1.414z");
+  opacity: var(--svg-opacity--0-3, 0.3);
+}
+
+.nwzm_my1x {
+  fill: currentColor;
+  d: path("m20.97 5.86l-2.83-2.83a.996.996 0 0 0-1.41 0l-4.49 4.49l-3.89-3.89c-.78-.78-2.05-.78-2.83 0l-1.9 1.9c-.78.78-.78 2.05 0 2.83l3.89 3.89L3 16.76V21h4.24l4.52-4.52l3.89 3.89c.95.95 2.23.6 2.83 0l1.9-1.9c.78-.78.78-2.05 0-2.83l-3.89-3.89l4.49-4.49a.993.993 0 0 0-.01-1.4M5.04 6.94l1.89-1.9L8.2 6.31L7.02 7.5l1.41 1.41l1.19-1.19l1.2 1.2l-1.9 1.9zM6.41 19H5v-1.41l9.61-9.61l1.3 1.3l.11.11zm10.09-2.02l1.19-1.19l1.27 1.27l-1.9 1.9l-3.89-3.89l1.9-1.9l1.2 1.2l-1.19 1.19zm.94-9l-1.41-1.41l1.41-1.41l1.41 1.41z");
+}
+
+</style>

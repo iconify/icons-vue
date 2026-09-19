@@ -1,0 +1,35 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="aipzthb6o"/><circle class="vdggz7bbb"/><path class="nqr049mtp"/><path class="dfwr82b2w"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="ic:twotone-plagiarism" /></template>
+<style>
+.aipzthb6o {
+  fill: currentColor;
+  d: path("M13 4H6v16h12V9h-5zm.97 7.03a3.48 3.48 0 0 1 .59 4.13l1.88 1.88l-1.41 1.41l-1.88-1.88c-1.33.71-3.01.53-4.13-.59a3.495 3.495 0 0 1 0-4.95a3.495 3.495 0 0 1 4.95 0");
+  opacity: var(--svg-opacity--0-3, 0.3);
+}
+
+.dfwr82b2w {
+  fill: currentColor;
+  d: path("M9.03 11.03a3.495 3.495 0 0 0 0 4.95a3.48 3.48 0 0 0 4.13.59l1.88 1.88l1.41-1.41l-1.88-1.88c.71-1.33.53-3.01-.59-4.13a3.495 3.495 0 0 0-4.95 0m3.53 3.53c-.59.59-1.54.59-2.12 0a1.49 1.49 0 0 1 0-2.12a1.49 1.49 0 0 1 2.12 0c.59.59.59 1.53 0 2.12");
+}
+
+.nqr049mtp {
+  fill: currentColor;
+  d: path("M14 2H6c-1.1 0-2 .9-2 2v16c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8zm4 18H6V4h7v5h5z");
+}
+
+.vdggz7bbb {
+  cx: 11.5px;
+  cy: 13.5px;
+  r: 1.5px;
+  fill: currentColor;
+  opacity: var(--svg-opacity--0-3, 0.3);
+}
+
+</style>

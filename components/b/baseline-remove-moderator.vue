@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="mlzp76bvu"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="ic:baseline-remove-moderator" /></template>
+<style>
+.mlzp76bvu {
+  fill: currentColor;
+  d: path("m22.27 21.73l-3.54-3.55L5.78 5.23L2.27 1.72L1 2.99L3.01 5H3v6c0 5.55 3.84 10.74 9 12c2.16-.53 4.08-1.76 5.6-3.41L21 23zM13 9.92l6.67 6.67C20.51 14.87 21 12.96 21 11V5l-9-4l-5.48 2.44L11 7.92z");
+}
+
+</style>

@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="svvb86b9s"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="ic:outline-image-not-supported" /></template>
+<style>
+.svvb86b9s {
+  fill: currentColor;
+  d: path("m21.9 21.9l-6.1-6.1l-2.69-2.69L5 5L3.59 3.59L2.1 2.1L.69 3.51L3 5.83V19c0 1.1.9 2 2 2h13.17l2.31 2.31zM5 19V7.83l6.84 6.84l-.84 1.05L9 13l-3 4h8.17l2 2zM7.83 5l-2-2H19c1.1 0 2 .9 2 2v13.17l-2-2V5z");
+}
+
+</style>

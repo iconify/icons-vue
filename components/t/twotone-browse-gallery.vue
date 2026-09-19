@@ -1,0 +1,27 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="xg2wnp1js"/><path class="o_sraloft"/><path class="g2sacpbzj"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="ic:twotone-browse-gallery" /></template>
+<style>
+.g2sacpbzj {
+  fill: currentColor;
+  d: path("M10 7H8v5.41l3.79 3.8l1.42-1.42l-3.21-3.2zm7.99-3.48v2.16A6.99 6.99 0 0 1 22 12c0 2.79-1.64 5.2-4.01 6.32v2.16C21.48 19.24 24 15.91 24 12s-2.52-7.24-6.01-8.48");
+}
+
+.o_sraloft {
+  fill: currentColor;
+  d: path("M9 3a9 9 0 1 0 .001 18.001A9 9 0 0 0 9 3m0 16c-3.86 0-7-3.14-7-7s3.14-7 7-7s7 3.14 7 7s-3.14 7-7 7");
+}
+
+.xg2wnp1js {
+  fill: currentColor;
+  d: path("M9 5c-3.86 0-7 3.14-7 7s3.14 7 7 7s7-3.14 7-7s-3.14-7-7-7m2.79 11.21L8 12.41V7h2v4.59l3.21 3.21z");
+  opacity: var(--svg-opacity--0-3, 0.3);
+}
+
+</style>

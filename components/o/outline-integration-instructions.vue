@@ -1,0 +1,21 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="sv0u_sq5m"/><path class="ldnbu-buu"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="ic:outline-integration-instructions" /></template>
+<style>
+.ldnbu-buu {
+  fill: currentColor;
+  d: path("M19 3h-4.18C14.4 1.84 13.3 1 12 1s-2.4.84-2.82 2H5c-.14 0-.27.01-.4.04a2.01 2.01 0 0 0-1.44 1.19c-.1.23-.16.49-.16.77v14c0 .27.06.54.16.78s.25.45.43.64c.27.27.62.47 1.01.55c.13.02.26.03.4.03h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2m-7-.25c.41 0 .75.34.75.75s-.34.75-.75.75s-.75-.34-.75-.75s.34-.75.75-.75M19 15v4H5V5h14z");
+}
+
+.sv0u_sq5m {
+  fill: currentColor;
+  d: path("M11 14.17L8.83 12L11 9.83L9.59 8.41L6 12l3.59 3.59zm3.41 1.42L18 12l-3.59-3.59L13 9.83L15.17 12L13 14.17z");
+}
+
+</style>

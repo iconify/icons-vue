@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="xl34klkfo"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="ic:twotone-local-dining" /></template>
+<style>
+.xl34klkfo {
+  fill: currentColor;
+  d: path("M5.11 21.28L12 14.41l6.88 6.88l1.41-1.41L13.41 13l1.47-1.47c1.53.71 3.68.21 5.27-1.38c1.91-1.91 2.28-4.65.81-6.12c-1.46-1.46-4.2-1.1-6.12.81c-1.59 1.59-2.09 3.74-1.38 5.27L3.7 19.87zM3.91 9.16l4.19 4.18l2.83-2.83L3.91 3.5a4.01 4.01 0 0 0 0 5.66");
+}
+
+</style>

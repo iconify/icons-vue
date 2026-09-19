@@ -1,16 +1,15 @@
 # @iconify-vue/fontelico
 
-Icon set prefix: **fontelico**
+⚠️ This icon set is deprecated and no longer maintained. Use it at your own risk.
 
-Icon set name: **Fontelico**
 
-Author: **Fontello**
+**Fontelico**
 
-License: **[CC BY SA](https://creativecommons.org/licenses/by-sa/3.0/)**
+Author: [Fontello](https://github.com/fontello/fontelico.font)
 
-Repository: **https://github.com/fontello/fontelico.font**
+License: [CC BY SA](https://creativecommons.org/licenses/by-sa/3.0/)
 
-Browse all icons: **[Preview Fontelico](https://icon-sets.iconify.design/fontelico/)**
+Browse all icons: [preview Fontelico on Iconify](https://icon-sets.iconify.design/fontelico/)
 
 ## Installation
 

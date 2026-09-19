@@ -1,0 +1,1455 @@
+{
+  "name": "@iconify-vue/guidance",
+  "type": "module",
+  "version": "1.0.4",
+  "homepage": "https://icon-sets.iconify.design/guidance/",
+  "bugs": "https://github.com/iconify/icons-vue/issues",
+  "license": "CC-BY-4.0",
+  "exports": {
+    "./24-hours": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/2/24-hours.vue"
+    },
+    "./accesible-restroom": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/accesible-restroom.vue"
+    },
+    "./access-for-hearing-loss": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/access-for-hearing-loss.vue"
+    },
+    "./access-to-low-vision": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/access-to-low-vision.vue"
+    },
+    "./accessible-exit": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/accessible-exit.vue"
+    },
+    "./accessible-exit-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/accessible-exit-2.vue"
+    },
+    "./accessible-men-restroom": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/accessible-men-restroom.vue"
+    },
+    "./accessible-women-restroom": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/accessible-women-restroom.vue"
+    },
+    "./airplane-mode": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/airplane-mode.vue"
+    },
+    "./airplane-mode-off": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/airplane-mode-off.vue"
+    },
+    "./alarm": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/alarm.vue"
+    },
+    "./alarm-bell": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/alarm-bell.vue"
+    },
+    "./alert-octagon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/alert-octagon.vue"
+    },
+    "./alert-triangle": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/alert-triangle.vue"
+    },
+    "./ambulance-entrance": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/ambulance-entrance.vue"
+    },
+    "./amusement-park": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/amusement-park.vue"
+    },
+    "./aquarium": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/aquarium.vue"
+    },
+    "./arcade": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arcade.vue"
+    },
+    "./arrival": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arrival.vue"
+    },
+    "./assistive-listening-device": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/assistive-listening-device.vue"
+    },
+    "./atm": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/atm.vue"
+    },
+    "./audio-description": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/audio-description.vue"
+    },
+    "./auditorium": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/auditorium.vue"
+    },
+    "./bank": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bank.vue"
+    },
+    "./bar": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bar.vue"
+    },
+    "./bell": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bell.vue"
+    },
+    "./bicycle": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bicycle.vue"
+    },
+    "./billing-department": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/billing-department.vue"
+    },
+    "./bin": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bin.vue"
+    },
+    "./bin-person": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bin-person.vue"
+    },
+    "./bin-throw-person": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bin-throw-person.vue"
+    },
+    "./bowling": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bowling.vue"
+    },
+    "./boxing": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/boxing.vue"
+    },
+    "./braille": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/braille.vue"
+    },
+    "./bus": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bus.vue"
+    },
+    "./cablecar": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cablecar.vue"
+    },
+    "./cafeteria": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cafeteria.vue"
+    },
+    "./calendar": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/calendar.vue"
+    },
+    "./camera": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/camera.vue"
+    },
+    "./campfires": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/campfires.vue"
+    },
+    "./campground": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/campground.vue"
+    },
+    "./car": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/car.vue"
+    },
+    "./car-rental": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/car-rental.vue"
+    },
+    "./card": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/card.vue"
+    },
+    "./care-staff-area": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/care-staff-area.vue"
+    },
+    "./casino": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/casino.vue"
+    },
+    "./changin-room-disabled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/changin-room-disabled.vue"
+    },
+    "./changin-room-family": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/changin-room-family.vue"
+    },
+    "./changin-room-man": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/changin-room-man.vue"
+    },
+    "./changin-room-woman": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/changin-room-woman.vue"
+    },
+    "./changing-room-hanger": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/changing-room-hanger.vue"
+    },
+    "./chapel": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chapel.vue"
+    },
+    "./charging-station": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/charging-station.vue"
+    },
+    "./chat": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chat.vue"
+    },
+    "./children-must-be-supervised": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/children-must-be-supervised.vue"
+    },
+    "./cleaning-room": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cleaning-room.vue"
+    },
+    "./cleaning-room-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cleaning-room-2.vue"
+    },
+    "./climbing-wall": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/climbing-wall.vue"
+    },
+    "./clock": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/clock.vue"
+    },
+    "./closed-captioning": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/closed-captioning.vue"
+    },
+    "./cloud": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloud.vue"
+    },
+    "./coffee-shop": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/coffee-shop.vue"
+    },
+    "./computer-room": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/computer-room.vue"
+    },
+    "./conference-room": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/conference-room.vue"
+    },
+    "./coworking-space": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/coworking-space.vue"
+    },
+    "./crutch": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/crutch.vue"
+    },
+    "./currency-exchange": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/currency-exchange.vue"
+    },
+    "./customs": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/customs.vue"
+    },
+    "./danger-poison": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/danger-poison.vue"
+    },
+    "./departure": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/departure.vue"
+    },
+    "./desk-for-laptop": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/desk-for-laptop.vue"
+    },
+    "./discotheque": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/discotheque.vue"
+    },
+    "./dislike": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dislike.vue"
+    },
+    "./do-not-sit": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/do-not-sit.vue"
+    },
+    "./do-not-skateboard-rollerboard": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/do-not-skateboard-rollerboard.vue"
+    },
+    "./do-not-stand-here": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/do-not-stand-here.vue"
+    },
+    "./down-2-short-arrow": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/down-2-short-arrow.vue"
+    },
+    "./down-angle-arrow": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/down-angle-arrow.vue"
+    },
+    "./down-arrow": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/down-arrow.vue"
+    },
+    "./down-left-2-short-arrow": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/down-left-2-short-arrow.vue"
+    },
+    "./down-left-arrow": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/down-left-arrow.vue"
+    },
+    "./down-right-2-short-arrow": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/down-right-2-short-arrow.vue"
+    },
+    "./down-right-arrow": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/down-right-arrow.vue"
+    },
+    "./drinking-fountain": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/drinking-fountain.vue"
+    },
+    "./drinking-water": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/drinking-water.vue"
+    },
+    "./drone-zone": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/drone-zone.vue"
+    },
+    "./e-bike-1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/e-bike-1.vue"
+    },
+    "./e-bike-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/e-bike-2.vue"
+    },
+    "./elderly-people-priority-seating": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/elderly-people-priority-seating.vue"
+    },
+    "./electric-scooter": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/electric-scooter.vue"
+    },
+    "./electric-wheelchair": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/electric-wheelchair.vue"
+    },
+    "./elevator": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/elevator.vue"
+    },
+    "./elevator-accesible": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/elevator-accesible.vue"
+    },
+    "./elevator-person": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/elevator-person.vue"
+    },
+    "./emergency-exit": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/emergency-exit.vue"
+    },
+    "./entry": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/entry.vue"
+    },
+    "./escalator": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/escalator.vue"
+    },
+    "./escalator-down-arrow": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/escalator-down-arrow.vue"
+    },
+    "./escalator-down-person": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/escalator-down-person.vue"
+    },
+    "./escalator-up-arrow": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/escalator-up-arrow.vue"
+    },
+    "./escalator-up-person": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/escalator-up-person.vue"
+    },
+    "./exclamation-mark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/exclamation-mark.vue"
+    },
+    "./exit": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/exit.vue"
+    },
+    "./eye": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/eye.vue"
+    },
+    "./face-scan": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/face-scan.vue"
+    },
+    "./falling-rocks": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/falling-rocks.vue"
+    },
+    "./female-sign": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/female-sign.vue"
+    },
+    "./fingerprint-scan": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fingerprint-scan.vue"
+    },
+    "./fire-alarm": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fire-alarm.vue"
+    },
+    "./fire-extinguisher": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fire-extinguisher.vue"
+    },
+    "./fire-hazard": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fire-hazard.vue"
+    },
+    "./fire-hose": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fire-hose.vue"
+    },
+    "./first-aid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/first-aid.vue"
+    },
+    "./fishing-area": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fishing-area.vue"
+    },
+    "./fishing-area-1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fishing-area-1.vue"
+    },
+    "./fishing-area-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fishing-area-2.vue"
+    },
+    "./flash-allowed": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/flash-allowed.vue"
+    },
+    "./flash-not-allowed": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/flash-not-allowed.vue"
+    },
+    "./folder": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder.vue"
+    },
+    "./forbidden": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/forbidden.vue"
+    },
+    "./forbidden-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/forbidden-2.vue"
+    },
+    "./fountain": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fountain.vue"
+    },
+    "./fragile": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fragile.vue"
+    },
+    "./funicular-railway": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/funicular-railway.vue"
+    },
+    "./gallery": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gallery.vue"
+    },
+    "./garden": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/garden.vue"
+    },
+    "./gas-station": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gas-station.vue"
+    },
+    "./gift-shop": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gift-shop.vue"
+    },
+    "./glass": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/glass.vue"
+    },
+    "./globe": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/globe.vue"
+    },
+    "./golf-course": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/golf-course.vue"
+    },
+    "./group-training": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/group-training.vue"
+    },
+    "./guest-height-limit": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/guest-height-limit.vue"
+    },
+    "./guest-within-height-limit-must-be-supervised": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/guest-within-height-limit-must-be-supervised.vue"
+    },
+    "./gym": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gym.vue"
+    },
+    "./hairdresser": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hairdresser.vue"
+    },
+    "./headphones": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/headphones.vue"
+    },
+    "./health-services": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/health-services.vue"
+    },
+    "./heart": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/heart.vue"
+    },
+    "./helicopter": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/helicopter.vue"
+    },
+    "./hide-eye-crossbar": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hide-eye-crossbar.vue"
+    },
+    "./high-voltage": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/high-voltage.vue"
+    },
+    "./hiking": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hiking.vue"
+    },
+    "./hold-tight": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hold-tight.vue"
+    },
+    "./home": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/home.vue"
+    },
+    "./home-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/home-2.vue"
+    },
+    "./hospital": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hospital.vue"
+    },
+    "./hotel-room": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hotel-room.vue"
+    },
+    "./hotel-room-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hotel-room-2.vue"
+    },
+    "./hydrant": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hydrant.vue"
+    },
+    "./image": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/image.vue"
+    },
+    "./in-patient": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/in-patient.vue"
+    },
+    "./information-desk-people": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/information-desk-people.vue"
+    },
+    "./information-desk-symbol": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/information-desk-symbol.vue"
+    },
+    "./intensive-care": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/intensive-care.vue"
+    },
+    "./iris-scan": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/iris-scan.vue"
+    },
+    "./kitchen": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kitchen.vue"
+    },
+    "./laboratory": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/laboratory.vue"
+    },
+    "./laundry": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/laundry.vue"
+    },
+    "./laundry-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/laundry-2.vue"
+    },
+    "./left-2-short-arrow": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/left-2-short-arrow.vue"
+    },
+    "./left-angle-arrow": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/left-angle-arrow.vue"
+    },
+    "./left-arrow": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/left-arrow.vue"
+    },
+    "./left-luggage": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/left-luggage.vue"
+    },
+    "./less-minus": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/less-minus.vue"
+    },
+    "./lgbt-friendly": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lgbt-friendly.vue"
+    },
+    "./library": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/library.vue"
+    },
+    "./like": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/like.vue"
+    },
+    "./location-off": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/location-off.vue"
+    },
+    "./location-pin": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/location-pin.vue"
+    },
+    "./lock": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lock.vue"
+    },
+    "./lockers": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lockers.vue"
+    },
+    "./lost-and-found": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lost-and-found.vue"
+    },
+    "./lounge": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lounge.vue"
+    },
+    "./luggage": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/luggage.vue"
+    },
+    "./luggage-check-in": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/luggage-check-in.vue"
+    },
+    "./luggage-conveyor-belt": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/luggage-conveyor-belt.vue"
+    },
+    "./luggage-lockers": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/luggage-lockers.vue"
+    },
+    "./luggage-trolley": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/luggage-trolley.vue"
+    },
+    "./mail": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mail.vue"
+    },
+    "./mailbox": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mailbox.vue"
+    },
+    "./male-sign": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/male-sign.vue"
+    },
+    "./map": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/map.vue"
+    },
+    "./massage": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/massage.vue"
+    },
+    "./medical-laboratory": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/medical-laboratory.vue"
+    },
+    "./meeting-point": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/meeting-point.vue"
+    },
+    "./meeting-point-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/meeting-point-2.vue"
+    },
+    "./meeting-room": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/meeting-room.vue"
+    },
+    "./men-restroom": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/men-restroom.vue"
+    },
+    "./money": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/money.vue"
+    },
+    "./more-add-plus": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/more-add-plus.vue"
+    },
+    "./motorcycle": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/motorcycle.vue"
+    },
+    "./mri-pet": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mri-pet.vue"
+    },
+    "./museum": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/museum.vue"
+    },
+    "./music-room": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/music-room.vue"
+    },
+    "./mute-notification": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mute-notification.vue"
+    },
+    "./newspapers": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/newspapers.vue"
+    },
+    "./no-access-for-service-animal-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/no-access-for-service-animal-2.vue"
+    },
+    "./no-access-for-service-animal-3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/no-access-for-service-animal-3.vue"
+    },
+    "./no-access-for-service-animal-4": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/no-access-for-service-animal-4.vue"
+    },
+    "./no-alcohol": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/no-alcohol.vue"
+    },
+    "./no-drinking-water": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/no-drinking-water.vue"
+    },
+    "./no-drone-allowed": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/no-drone-allowed.vue"
+    },
+    "./no-drug-or-substance": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/no-drug-or-substance.vue"
+    },
+    "./no-electric-scooter": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/no-electric-scooter.vue"
+    },
+    "./no-entry-for-pedestrians": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/no-entry-for-pedestrians.vue"
+    },
+    "./no-firearm-weapon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/no-firearm-weapon.vue"
+    },
+    "./no-fishing-1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/no-fishing-1.vue"
+    },
+    "./no-food": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/no-food.vue"
+    },
+    "./no-litter-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/no-litter-2.vue"
+    },
+    "./no-luggage-trolleys-beyond-this-point": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/no-luggage-trolleys-beyond-this-point.vue"
+    },
+    "./no-noise": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/no-noise.vue"
+    },
+    "./no-parking": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/no-parking.vue"
+    },
+    "./no-pets-allowed": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/no-pets-allowed.vue"
+    },
+    "./no-pictures": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/no-pictures.vue"
+    },
+    "./no-running": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/no-running.vue"
+    },
+    "./no-selfie-stick-allowed": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/no-selfie-stick-allowed.vue"
+    },
+    "./no-smoking": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/no-smoking.vue"
+    },
+    "./no-touch": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/no-touch.vue"
+    },
+    "./no-video": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/no-video.vue"
+    },
+    "./no-wheelchair-access": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/no-wheelchair-access.vue"
+    },
+    "./nursery": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nursery.vue"
+    },
+    "./office": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/office.vue"
+    },
+    "./office-pod": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/office-pod.vue"
+    },
+    "./paper": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/paper.vue"
+    },
+    "./parent-and-infant-priority-seating": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/parent-and-infant-priority-seating.vue"
+    },
+    "./park": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/park.vue"
+    },
+    "./parking": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/parking.vue"
+    },
+    "./passports": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/passports.vue"
+    },
+    "./patio": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/patio.vue"
+    },
+    "./pedestrians": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pedestrians.vue"
+    },
+    "./pen": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pen.vue"
+    },
+    "./personal-training": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/personal-training.vue"
+    },
+    "./pets-allowed": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pets-allowed.vue"
+    },
+    "./pharmacy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pharmacy.vue"
+    },
+    "./phone": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/phone.vue"
+    },
+    "./physical-therapy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/physical-therapy.vue"
+    },
+    "./pilates": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pilates.vue"
+    },
+    "./plane": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/plane.vue"
+    },
+    "./plastic": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/plastic.vue"
+    },
+    "./play": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/play.vue"
+    },
+    "./play-room": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/play-room.vue"
+    },
+    "./playground": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/playground.vue"
+    },
+    "./police": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/police.vue"
+    },
+    "./port": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/port.vue"
+    },
+    "./praying-room": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/praying-room.vue"
+    },
+    "./pregnant-woman-priority-seating": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pregnant-woman-priority-seating.vue"
+    },
+    "./printer": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/printer.vue"
+    },
+    "./projection-room": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/projection-room.vue"
+    },
+    "./prosthetic-arm": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/prosthetic-arm.vue"
+    },
+    "./prosthetic-leg": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/prosthetic-leg.vue"
+    },
+    "./pull": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pull.vue"
+    },
+    "./push": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/push.vue"
+    },
+    "./question-mark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/question-mark.vue"
+    },
+    "./quiet-area": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/quiet-area.vue"
+    },
+    "./radiation": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/radiation.vue"
+    },
+    "./radiology": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/radiology.vue"
+    },
+    "./ramp-down": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/ramp-down.vue"
+    },
+    "./ramp-down-arrow": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/ramp-down-arrow.vue"
+    },
+    "./ramp-up": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/ramp-up.vue"
+    },
+    "./ramp-up-arrow": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/ramp-up-arrow.vue"
+    },
+    "./reception-hotel-bell": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/reception-hotel-bell.vue"
+    },
+    "./recording-studio": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/recording-studio.vue"
+    },
+    "./recycling": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/recycling.vue"
+    },
+    "./refill-for-water-bottle": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/refill-for-water-bottle.vue"
+    },
+    "./refrigeration": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/refrigeration.vue"
+    },
+    "./remove-x-cross": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/remove-x-cross.vue"
+    },
+    "./restaurant": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/restaurant.vue"
+    },
+    "./right-2-short-arrow": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/right-2-short-arrow.vue"
+    },
+    "./right-angle-arrow": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/right-angle-arrow.vue"
+    },
+    "./right-arrow": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/right-arrow.vue"
+    },
+    "./rv-trailer": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rv-trailer.vue"
+    },
+    "./safe-social-distancing": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/safe-social-distancing.vue"
+    },
+    "./sanitize-hands": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sanitize-hands.vue"
+    },
+    "./sauna": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sauna.vue"
+    },
+    "./school-zone": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/school-zone.vue"
+    },
+    "./search": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/search.vue"
+    },
+    "./send": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/send.vue"
+    },
+    "./service-animal-1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/service-animal-1.vue"
+    },
+    "./service-animal-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/service-animal-2.vue"
+    },
+    "./service-animal-3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/service-animal-3.vue"
+    },
+    "./settings": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/settings.vue"
+    },
+    "./share": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/share.vue"
+    },
+    "./shelter": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/shelter.vue"
+    },
+    "./ship": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/ship.vue"
+    },
+    "./shop": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/shop.vue"
+    },
+    "./showers": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/showers.vue"
+    },
+    "./sign-language": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sign-language.vue"
+    },
+    "./skate-park": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/skate-park.vue"
+    },
+    "./smiley": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/smiley.vue"
+    },
+    "./smoking-area": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/smoking-area.vue"
+    },
+    "./socket": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/socket.vue"
+    },
+    "./spinning": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/spinning.vue"
+    },
+    "./stadium": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stadium.vue"
+    },
+    "./staff-only": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/staff-only.vue"
+    },
+    "./stairs": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stairs.vue"
+    },
+    "./stairs-down-arrow": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stairs-down-arrow.vue"
+    },
+    "./stairs-down-person": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stairs-down-person.vue"
+    },
+    "./stairs-up-arrow": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stairs-up-arrow.vue"
+    },
+    "./stairs-up-person": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stairs-up-person.vue"
+    },
+    "./stand-here": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stand-here.vue"
+    },
+    "./star": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/star.vue"
+    },
+    "./stroller-parking": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stroller-parking.vue"
+    },
+    "./study-room": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/study-room.vue"
+    },
+    "./sun": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sun.vue"
+    },
+    "./surgery": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/surgery.vue"
+    },
+    "./surveillance-camera": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/surveillance-camera.vue"
+    },
+    "./swimming-pool": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/swimming-pool.vue"
+    },
+    "./taxi": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/taxi.vue"
+    },
+    "./telecoil": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/telecoil.vue"
+    },
+    "./terrace": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/terrace.vue"
+    },
+    "./tickets": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tickets.vue"
+    },
+    "./time": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/time.vue"
+    },
+    "./tools": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tools.vue"
+    },
+    "./touch": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/touch.vue"
+    },
+    "./track": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/track.vue"
+    },
+    "./trailer-sites": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/trailer-sites.vue"
+    },
+    "./train": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/train.vue"
+    },
+    "./transgender-sign": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/transgender-sign.vue"
+    },
+    "./tunnel": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tunnel.vue"
+    },
+    "./ui-phone": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/ui-phone.vue"
+    },
+    "./unisex-restroom": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/unisex-restroom.vue"
+    },
+    "./unlock": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/unlock.vue"
+    },
+    "./up-2-short-arrow": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/up-2-short-arrow.vue"
+    },
+    "./up-angle-arrow": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/up-angle-arrow.vue"
+    },
+    "./up-arrow": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/up-arrow.vue"
+    },
+    "./up-left-2-short-arrow": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/up-left-2-short-arrow.vue"
+    },
+    "./up-left-arrow": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/up-left-arrow.vue"
+    },
+    "./up-right-2-short-arrow": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/up-right-2-short-arrow.vue"
+    },
+    "./up-right-arrow": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/up-right-arrow.vue"
+    },
+    "./user-1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/user-1.vue"
+    },
+    "./user-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/user-2.vue"
+    },
+    "./vending-machine": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vending-machine.vue"
+    },
+    "./video": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/video.vue"
+    },
+    "./visual-impairment": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/visual-impairment.vue"
+    },
+    "./voice-scan": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/voice-scan.vue"
+    },
+    "./volume": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/volume.vue"
+    },
+    "./volume-control-telephone": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/volume-control-telephone.vue"
+    },
+    "./waiting-room": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/waiting-room.vue"
+    },
+    "./walker": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/walker.vue"
+    },
+    "./wash-hands": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wash-hands.vue"
+    },
+    "./waste": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/waste.vue"
+    },
+    "./wc": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wc.vue"
+    },
+    "./wear-gas-mask": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wear-gas-mask.vue"
+    },
+    "./wear-gloves": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wear-gloves.vue"
+    },
+    "./wear-goggles": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wear-goggles.vue"
+    },
+    "./wear-hard-hat": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wear-hard-hat.vue"
+    },
+    "./wear-headset": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wear-headset.vue"
+    },
+    "./wear-mask": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wear-mask.vue"
+    },
+    "./weightlifting": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/weightlifting.vue"
+    },
+    "./wet-floor": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wet-floor.vue"
+    },
+    "./wheelchair-1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wheelchair-1.vue"
+    },
+    "./wheelchair-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wheelchair-2.vue"
+    },
+    "./wheelchair-basketball": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wheelchair-basketball.vue"
+    },
+    "./wheelchair-tennis": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wheelchair-tennis.vue"
+    },
+    "./wi-fi": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wi-fi.vue"
+    },
+    "./wifi-off": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wifi-off.vue"
+    },
+    "./women-restroom": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/women-restroom.vue"
+    },
+    "./yoga": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yoga.vue"
+    },
+    "./zoo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/z/zoo.vue"
+    },
+    "./*": "./*"
+  },
+  "dependencies": {
+    "@iconify/css-vue": "^1.0.0"
+  },
+  "repository": "github:iconify/icons-vue#guidance"
+}

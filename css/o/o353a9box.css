@@ -1,0 +1,8 @@
+.o353a9box {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M4 16h13M4 16l4-4m-4 4l4 4M20 8H7m13 0l-4 4m4-4l-4-4");
+}

@@ -1,0 +1,319 @@
+{
+  "name": "@iconify-vue/entypo-social",
+  "type": "module",
+  "version": "1.0.4",
+  "homepage": "https://icon-sets.iconify.design/entypo-social/",
+  "bugs": "https://github.com/iconify/icons-vue/issues",
+  "license": "CC-BY-SA-4.0",
+  "exports": {
+    "./500px": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/5/500px.vue"
+    },
+    "./500px-with-circle": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/5/500px-with-circle.vue"
+    },
+    "./basecamp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/basecamp.vue"
+    },
+    "./behance": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/behance.vue"
+    },
+    "./creative-cloud": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/creative-cloud.vue"
+    },
+    "./dribbble": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dribbble.vue"
+    },
+    "./dribbble-with-circle": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dribbble-with-circle.vue"
+    },
+    "./dropbox": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dropbox.vue"
+    },
+    "./evernote": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/evernote.vue"
+    },
+    "./facebook": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/facebook.vue"
+    },
+    "./facebook-with-circle": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/facebook-with-circle.vue"
+    },
+    "./flattr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/flattr.vue"
+    },
+    "./flickr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/flickr.vue"
+    },
+    "./flickr-with-circle": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/flickr-with-circle.vue"
+    },
+    "./foursquare": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/foursquare.vue"
+    },
+    "./github": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/github.vue"
+    },
+    "./github-with-circle": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/github-with-circle.vue"
+    },
+    "./google": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/google.vue"
+    },
+    "./google-drive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/google-drive.vue"
+    },
+    "./google-hangouts": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/google-hangouts.vue"
+    },
+    "./google-with-circle": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/google-with-circle.vue"
+    },
+    "./grooveshark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/grooveshark.vue"
+    },
+    "./icloud": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/icloud.vue"
+    },
+    "./instagram": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/instagram.vue"
+    },
+    "./instagram-with-circle": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/instagram-with-circle.vue"
+    },
+    "./lastfm": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lastfm.vue"
+    },
+    "./lastfm-with-circle": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lastfm-with-circle.vue"
+    },
+    "./linkedin": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/linkedin.vue"
+    },
+    "./linkedin-with-circle": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/linkedin-with-circle.vue"
+    },
+    "./medium": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/medium.vue"
+    },
+    "./medium-with-circle": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/medium-with-circle.vue"
+    },
+    "./mixi": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mixi.vue"
+    },
+    "./onedrive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/onedrive.vue"
+    },
+    "./paypal": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/paypal.vue"
+    },
+    "./picasa": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/picasa.vue"
+    },
+    "./pinterest": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pinterest.vue"
+    },
+    "./pinterest-with-circle": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pinterest-with-circle.vue"
+    },
+    "./qq": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/qq.vue"
+    },
+    "./qq-with-circle": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/qq-with-circle.vue"
+    },
+    "./raft": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/raft.vue"
+    },
+    "./raft-with-circle": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/raft-with-circle.vue"
+    },
+    "./rainbow": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rainbow.vue"
+    },
+    "./rdio": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rdio.vue"
+    },
+    "./rdio-with-circle": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rdio-with-circle.vue"
+    },
+    "./renren": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/renren.vue"
+    },
+    "./scribd": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/scribd.vue"
+    },
+    "./sina-weibo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sina-weibo.vue"
+    },
+    "./skype": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/skype.vue"
+    },
+    "./skype-with-circle": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/skype-with-circle.vue"
+    },
+    "./slideshare": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/slideshare.vue"
+    },
+    "./smashing": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/smashing.vue"
+    },
+    "./soundcloud": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/soundcloud.vue"
+    },
+    "./spotify": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/spotify.vue"
+    },
+    "./spotify-with-circle": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/spotify-with-circle.vue"
+    },
+    "./stumbleupon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stumbleupon.vue"
+    },
+    "./stumbleupon-with-circle": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stumbleupon-with-circle.vue"
+    },
+    "./swarm": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/swarm.vue"
+    },
+    "./tripadvisor": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tripadvisor.vue"
+    },
+    "./tumblr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tumblr.vue"
+    },
+    "./tumblr-with-circle": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tumblr-with-circle.vue"
+    },
+    "./twitter": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/twitter.vue"
+    },
+    "./twitter-with-circle": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/twitter-with-circle.vue"
+    },
+    "./vimeo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vimeo.vue"
+    },
+    "./vimeo-with-circle": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vimeo-with-circle.vue"
+    },
+    "./vine": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vine.vue"
+    },
+    "./vine-with-circle": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vine-with-circle.vue"
+    },
+    "./vk": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vk.vue"
+    },
+    "./vk-alternitive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vk-alternitive.vue"
+    },
+    "./vk-with-circle": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vk-with-circle.vue"
+    },
+    "./xing": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/x/xing.vue"
+    },
+    "./xing-with-circle": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/x/xing-with-circle.vue"
+    },
+    "./yelp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yelp.vue"
+    },
+    "./youko": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/youko.vue"
+    },
+    "./youko-with-circle": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/youko-with-circle.vue"
+    },
+    "./youtube": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/youtube.vue"
+    },
+    "./youtube-with-circle": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/youtube-with-circle.vue"
+    },
+    "./*": "./*"
+  },
+  "dependencies": {
+    "@iconify/css-vue": "^1.0.0"
+  },
+  "repository": "github:iconify/icons-vue#entypo-social"
+}

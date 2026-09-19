@@ -1,0 +1,1947 @@
+{
+  "name": "@iconify-vue/cryptocurrency-color",
+  "type": "module",
+  "version": "1.0.4",
+  "homepage": "https://icon-sets.iconify.design/cryptocurrency-color/",
+  "bugs": "https://github.com/iconify/icons-vue/issues",
+  "license": "CC0-1.0",
+  "exports": {
+    "./0xbtc": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/0/0xbtc.vue"
+    },
+    "./1inch": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/1/1inch.vue"
+    },
+    "./2give": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/2/2give.vue"
+    },
+    "./aave": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/aave.vue"
+    },
+    "./abt": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/abt.vue"
+    },
+    "./act": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/act.vue"
+    },
+    "./actn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/actn.vue"
+    },
+    "./ada": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/ada.vue"
+    },
+    "./add": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/add.vue"
+    },
+    "./adx": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/adx.vue"
+    },
+    "./ae": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/ae.vue"
+    },
+    "./aeon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/aeon.vue"
+    },
+    "./aeur": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/aeur.vue"
+    },
+    "./agi": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/agi.vue"
+    },
+    "./agrs": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/agrs.vue"
+    },
+    "./aion": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/aion.vue"
+    },
+    "./algo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/algo.vue"
+    },
+    "./amb": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/amb.vue"
+    },
+    "./amp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/amp.vue"
+    },
+    "./ampl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/ampl.vue"
+    },
+    "./ankr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/ankr.vue"
+    },
+    "./ant": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/ant.vue"
+    },
+    "./ape": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/ape.vue"
+    },
+    "./apex": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/apex.vue"
+    },
+    "./appc": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/appc.vue"
+    },
+    "./ardr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/ardr.vue"
+    },
+    "./arg": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arg.vue"
+    },
+    "./ark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/ark.vue"
+    },
+    "./arn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arn.vue"
+    },
+    "./arnx": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arnx.vue"
+    },
+    "./ary": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/ary.vue"
+    },
+    "./ast": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/ast.vue"
+    },
+    "./atlas": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/atlas.vue"
+    },
+    "./atm": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/atm.vue"
+    },
+    "./atom": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/atom.vue"
+    },
+    "./audr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/audr.vue"
+    },
+    "./aury": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/aury.vue"
+    },
+    "./auto": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/auto.vue"
+    },
+    "./avax": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/avax.vue"
+    },
+    "./aywa": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/aywa.vue"
+    },
+    "./bab": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bab.vue"
+    },
+    "./bal": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bal.vue"
+    },
+    "./band": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/band.vue"
+    },
+    "./bat": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bat.vue"
+    },
+    "./bay": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bay.vue"
+    },
+    "./bcbc": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bcbc.vue"
+    },
+    "./bcc": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bcc.vue"
+    },
+    "./bcd": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bcd.vue"
+    },
+    "./bch": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bch.vue"
+    },
+    "./bcio": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bcio.vue"
+    },
+    "./bcn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bcn.vue"
+    },
+    "./bco": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bco.vue"
+    },
+    "./bcpt": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bcpt.vue"
+    },
+    "./bdl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bdl.vue"
+    },
+    "./beam": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/beam.vue"
+    },
+    "./bela": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bela.vue"
+    },
+    "./bix": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bix.vue"
+    },
+    "./blcn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/blcn.vue"
+    },
+    "./blk": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/blk.vue"
+    },
+    "./block": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/block.vue"
+    },
+    "./blz": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/blz.vue"
+    },
+    "./bnb": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bnb.vue"
+    },
+    "./bnt": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bnt.vue"
+    },
+    "./bnty": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bnty.vue"
+    },
+    "./booty": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/booty.vue"
+    },
+    "./bos": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bos.vue"
+    },
+    "./bpt": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bpt.vue"
+    },
+    "./bq": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bq.vue"
+    },
+    "./brd": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/brd.vue"
+    },
+    "./bsd": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bsd.vue"
+    },
+    "./bsv": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bsv.vue"
+    },
+    "./btc": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/btc.vue"
+    },
+    "./btcd": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/btcd.vue"
+    },
+    "./btch": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/btch.vue"
+    },
+    "./btcp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/btcp.vue"
+    },
+    "./btcz": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/btcz.vue"
+    },
+    "./btdx": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/btdx.vue"
+    },
+    "./btg": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/btg.vue"
+    },
+    "./btm": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/btm.vue"
+    },
+    "./bts": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bts.vue"
+    },
+    "./btt": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/btt.vue"
+    },
+    "./btx": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/btx.vue"
+    },
+    "./burst": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/burst.vue"
+    },
+    "./bze": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bze.vue"
+    },
+    "./call": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/call.vue"
+    },
+    "./cc": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cc.vue"
+    },
+    "./cdn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cdn.vue"
+    },
+    "./cdt": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cdt.vue"
+    },
+    "./cenz": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cenz.vue"
+    },
+    "./chain": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chain.vue"
+    },
+    "./chat": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chat.vue"
+    },
+    "./chips": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chips.vue"
+    },
+    "./chsb": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chsb.vue"
+    },
+    "./chz": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chz.vue"
+    },
+    "./cix": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cix.vue"
+    },
+    "./clam": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/clam.vue"
+    },
+    "./cloak": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloak.vue"
+    },
+    "./cmm": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cmm.vue"
+    },
+    "./cmt": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cmt.vue"
+    },
+    "./cnd": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cnd.vue"
+    },
+    "./cnx": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cnx.vue"
+    },
+    "./cny": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cny.vue"
+    },
+    "./cob": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cob.vue"
+    },
+    "./colx": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/colx.vue"
+    },
+    "./comp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/comp.vue"
+    },
+    "./coqui": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/coqui.vue"
+    },
+    "./cred": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cred.vue"
+    },
+    "./crpt": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/crpt.vue"
+    },
+    "./crv": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/crv.vue"
+    },
+    "./crw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/crw.vue"
+    },
+    "./cs": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cs.vue"
+    },
+    "./ctr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/ctr.vue"
+    },
+    "./ctxc": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/ctxc.vue"
+    },
+    "./cvc": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cvc.vue"
+    },
+    "./d": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/d.vue"
+    },
+    "./dai": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dai.vue"
+    },
+    "./dash": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dash.vue"
+    },
+    "./dat": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dat.vue"
+    },
+    "./data": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/data.vue"
+    },
+    "./dbc": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dbc.vue"
+    },
+    "./dcn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dcn.vue"
+    },
+    "./dcr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dcr.vue"
+    },
+    "./deez": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/deez.vue"
+    },
+    "./dent": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dent.vue"
+    },
+    "./dew": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dew.vue"
+    },
+    "./dgb": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dgb.vue"
+    },
+    "./dgd": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dgd.vue"
+    },
+    "./dlt": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dlt.vue"
+    },
+    "./dnt": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dnt.vue"
+    },
+    "./dock": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dock.vue"
+    },
+    "./doge": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/doge.vue"
+    },
+    "./dot": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dot.vue"
+    },
+    "./drgn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/drgn.vue"
+    },
+    "./drop": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/drop.vue"
+    },
+    "./dta": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dta.vue"
+    },
+    "./dth": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dth.vue"
+    },
+    "./dtr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dtr.vue"
+    },
+    "./ebst": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/ebst.vue"
+    },
+    "./eca": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/eca.vue"
+    },
+    "./edg": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/edg.vue"
+    },
+    "./edo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/edo.vue"
+    },
+    "./edoge": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/edoge.vue"
+    },
+    "./ela": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/ela.vue"
+    },
+    "./elec": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/elec.vue"
+    },
+    "./elf": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/elf.vue"
+    },
+    "./elix": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/elix.vue"
+    },
+    "./ella": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/ella.vue"
+    },
+    "./emb": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/emb.vue"
+    },
+    "./emc": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/emc.vue"
+    },
+    "./emc2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/emc2.vue"
+    },
+    "./eng": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/eng.vue"
+    },
+    "./enj": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/enj.vue"
+    },
+    "./entrp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/entrp.vue"
+    },
+    "./eon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/eon.vue"
+    },
+    "./eop": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/eop.vue"
+    },
+    "./eos": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/eos.vue"
+    },
+    "./eqli": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/eqli.vue"
+    },
+    "./equa": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/equa.vue"
+    },
+    "./etc": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/etc.vue"
+    },
+    "./eth": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/eth.vue"
+    },
+    "./ethos": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/ethos.vue"
+    },
+    "./etn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/etn.vue"
+    },
+    "./etp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/etp.vue"
+    },
+    "./eur": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/eur.vue"
+    },
+    "./evx": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/evx.vue"
+    },
+    "./exmo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/exmo.vue"
+    },
+    "./exp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/exp.vue"
+    },
+    "./fair": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fair.vue"
+    },
+    "./fct": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fct.vue"
+    },
+    "./fida": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fida.vue"
+    },
+    "./fil": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fil.vue"
+    },
+    "./fjc": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fjc.vue"
+    },
+    "./fldc": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fldc.vue"
+    },
+    "./flo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/flo.vue"
+    },
+    "./flux": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/flux.vue"
+    },
+    "./fsn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fsn.vue"
+    },
+    "./ftc": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/ftc.vue"
+    },
+    "./fuel": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fuel.vue"
+    },
+    "./fun": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fun.vue"
+    },
+    "./game": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/game.vue"
+    },
+    "./gas": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gas.vue"
+    },
+    "./gbp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gbp.vue"
+    },
+    "./gbx": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gbx.vue"
+    },
+    "./gbyte": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gbyte.vue"
+    },
+    "./generic": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/generic.vue"
+    },
+    "./gin": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gin.vue"
+    },
+    "./glxt": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/glxt.vue"
+    },
+    "./gmr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gmr.vue"
+    },
+    "./gmt": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gmt.vue"
+    },
+    "./gno": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gno.vue"
+    },
+    "./gnt": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gnt.vue"
+    },
+    "./gold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gold.vue"
+    },
+    "./grc": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/grc.vue"
+    },
+    "./grin": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/grin.vue"
+    },
+    "./grs": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/grs.vue"
+    },
+    "./grt": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/grt.vue"
+    },
+    "./gsc": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gsc.vue"
+    },
+    "./gto": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gto.vue"
+    },
+    "./gup": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gup.vue"
+    },
+    "./gusd": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gusd.vue"
+    },
+    "./gvt": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gvt.vue"
+    },
+    "./gxs": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gxs.vue"
+    },
+    "./gzr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gzr.vue"
+    },
+    "./hight": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hight.vue"
+    },
+    "./hns": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hns.vue"
+    },
+    "./hodl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hodl.vue"
+    },
+    "./hot": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hot.vue"
+    },
+    "./hpb": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hpb.vue"
+    },
+    "./hsr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hsr.vue"
+    },
+    "./ht": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/ht.vue"
+    },
+    "./html": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/html.vue"
+    },
+    "./huc": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/huc.vue"
+    },
+    "./husd": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/husd.vue"
+    },
+    "./hush": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hush.vue"
+    },
+    "./icn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/icn.vue"
+    },
+    "./icp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/icp.vue"
+    },
+    "./icx": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/icx.vue"
+    },
+    "./ignis": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/ignis.vue"
+    },
+    "./ilk": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/ilk.vue"
+    },
+    "./ink": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/ink.vue"
+    },
+    "./ins": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/ins.vue"
+    },
+    "./ion": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/ion.vue"
+    },
+    "./iop": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/iop.vue"
+    },
+    "./iost": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/iost.vue"
+    },
+    "./iotx": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/iotx.vue"
+    },
+    "./iq": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/iq.vue"
+    },
+    "./itc": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/itc.vue"
+    },
+    "./jnt": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jnt.vue"
+    },
+    "./jpy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jpy.vue"
+    },
+    "./kcs": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kcs.vue"
+    },
+    "./kin": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kin.vue"
+    },
+    "./klown": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/klown.vue"
+    },
+    "./kmd": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kmd.vue"
+    },
+    "./knc": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/knc.vue"
+    },
+    "./krb": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/krb.vue"
+    },
+    "./ksm": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/ksm.vue"
+    },
+    "./lbc": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lbc.vue"
+    },
+    "./lend": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lend.vue"
+    },
+    "./leo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/leo.vue"
+    },
+    "./link": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/link.vue"
+    },
+    "./lkk": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lkk.vue"
+    },
+    "./loom": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/loom.vue"
+    },
+    "./lpt": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lpt.vue"
+    },
+    "./lrc": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lrc.vue"
+    },
+    "./lsk": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lsk.vue"
+    },
+    "./ltc": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/ltc.vue"
+    },
+    "./lun": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lun.vue"
+    },
+    "./maid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/maid.vue"
+    },
+    "./mana": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mana.vue"
+    },
+    "./matic": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/matic.vue"
+    },
+    "./max": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/max.vue"
+    },
+    "./mcap": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mcap.vue"
+    },
+    "./mco": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mco.vue"
+    },
+    "./mda": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mda.vue"
+    },
+    "./mds": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mds.vue"
+    },
+    "./med": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/med.vue"
+    },
+    "./meetone": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/meetone.vue"
+    },
+    "./mft": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mft.vue"
+    },
+    "./miota": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/miota.vue"
+    },
+    "./mith": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mith.vue"
+    },
+    "./mkr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mkr.vue"
+    },
+    "./mln": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mln.vue"
+    },
+    "./mnx": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mnx.vue"
+    },
+    "./mnz": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mnz.vue"
+    },
+    "./moac": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moac.vue"
+    },
+    "./mod": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mod.vue"
+    },
+    "./mona": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mona.vue"
+    },
+    "./msr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/msr.vue"
+    },
+    "./mth": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mth.vue"
+    },
+    "./mtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mtl.vue"
+    },
+    "./music": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/music.vue"
+    },
+    "./mzc": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mzc.vue"
+    },
+    "./nano": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nano.vue"
+    },
+    "./nas": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nas.vue"
+    },
+    "./nav": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nav.vue"
+    },
+    "./ncash": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/ncash.vue"
+    },
+    "./ndz": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/ndz.vue"
+    },
+    "./nebl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nebl.vue"
+    },
+    "./neo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/neo.vue"
+    },
+    "./neos": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/neos.vue"
+    },
+    "./neu": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/neu.vue"
+    },
+    "./nexo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nexo.vue"
+    },
+    "./ngc": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/ngc.vue"
+    },
+    "./nio": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nio.vue"
+    },
+    "./nkn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nkn.vue"
+    },
+    "./nlc2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nlc2.vue"
+    },
+    "./nlg": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nlg.vue"
+    },
+    "./nmc": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nmc.vue"
+    },
+    "./nmr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nmr.vue"
+    },
+    "./npxs": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/npxs.vue"
+    },
+    "./ntbc": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/ntbc.vue"
+    },
+    "./nuls": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nuls.vue"
+    },
+    "./nxs": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nxs.vue"
+    },
+    "./nxt": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nxt.vue"
+    },
+    "./oax": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/oax.vue"
+    },
+    "./ok": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/ok.vue"
+    },
+    "./omg": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/omg.vue"
+    },
+    "./omni": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/omni.vue"
+    },
+    "./one": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/one.vue"
+    },
+    "./ong": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/ong.vue"
+    },
+    "./ont": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/ont.vue"
+    },
+    "./oot": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/oot.vue"
+    },
+    "./ost": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/ost.vue"
+    },
+    "./ox": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/ox.vue"
+    },
+    "./oxt": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/oxt.vue"
+    },
+    "./oxy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/oxy.vue"
+    },
+    "./pac": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pac.vue"
+    },
+    "./part": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/part.vue"
+    },
+    "./pasc": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pasc.vue"
+    },
+    "./pasl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pasl.vue"
+    },
+    "./pax": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pax.vue"
+    },
+    "./paxg": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/paxg.vue"
+    },
+    "./pay": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pay.vue"
+    },
+    "./payx": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/payx.vue"
+    },
+    "./pink": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pink.vue"
+    },
+    "./pirl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pirl.vue"
+    },
+    "./pivx": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pivx.vue"
+    },
+    "./plr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/plr.vue"
+    },
+    "./poa": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/poa.vue"
+    },
+    "./poe": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/poe.vue"
+    },
+    "./polis": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/polis.vue"
+    },
+    "./poly": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/poly.vue"
+    },
+    "./pot": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pot.vue"
+    },
+    "./powr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/powr.vue"
+    },
+    "./ppc": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/ppc.vue"
+    },
+    "./ppp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/ppp.vue"
+    },
+    "./ppt": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/ppt.vue"
+    },
+    "./pre": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pre.vue"
+    },
+    "./prl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/prl.vue"
+    },
+    "./pungo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pungo.vue"
+    },
+    "./pura": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pura.vue"
+    },
+    "./qash": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/qash.vue"
+    },
+    "./qiwi": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/qiwi.vue"
+    },
+    "./qlc": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/qlc.vue"
+    },
+    "./qnt": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/qnt.vue"
+    },
+    "./qrl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/qrl.vue"
+    },
+    "./qsp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/qsp.vue"
+    },
+    "./qtum": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/qtum.vue"
+    },
+    "./r": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/r.vue"
+    },
+    "./rads": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rads.vue"
+    },
+    "./rap": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rap.vue"
+    },
+    "./ray": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/ray.vue"
+    },
+    "./rcn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rcn.vue"
+    },
+    "./rdd": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rdd.vue"
+    },
+    "./rdn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rdn.vue"
+    },
+    "./ren": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/ren.vue"
+    },
+    "./rep": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rep.vue"
+    },
+    "./repv2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/repv2.vue"
+    },
+    "./req": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/req.vue"
+    },
+    "./rhoc": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rhoc.vue"
+    },
+    "./ric": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/ric.vue"
+    },
+    "./rise": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rise.vue"
+    },
+    "./rlc": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rlc.vue"
+    },
+    "./rpx": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rpx.vue"
+    },
+    "./rub": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rub.vue"
+    },
+    "./rvn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rvn.vue"
+    },
+    "./ryo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/ryo.vue"
+    },
+    "./safe": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/safe.vue"
+    },
+    "./safemoon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/safemoon.vue"
+    },
+    "./sai": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sai.vue"
+    },
+    "./salt": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/salt.vue"
+    },
+    "./san": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/san.vue"
+    },
+    "./sand": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sand.vue"
+    },
+    "./sbd": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sbd.vue"
+    },
+    "./sberbank": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sberbank.vue"
+    },
+    "./sc": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sc.vue"
+    },
+    "./ser": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/ser.vue"
+    },
+    "./shift": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/shift.vue"
+    },
+    "./sib": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sib.vue"
+    },
+    "./sin": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sin.vue"
+    },
+    "./skl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/skl.vue"
+    },
+    "./sky": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sky.vue"
+    },
+    "./slr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/slr.vue"
+    },
+    "./sls": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sls.vue"
+    },
+    "./smart": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/smart.vue"
+    },
+    "./sngls": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sngls.vue"
+    },
+    "./snm": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/snm.vue"
+    },
+    "./snt": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/snt.vue"
+    },
+    "./snx": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/snx.vue"
+    },
+    "./soc": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/soc.vue"
+    },
+    "./sol": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sol.vue"
+    },
+    "./spacehbit": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/spacehbit.vue"
+    },
+    "./spank": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/spank.vue"
+    },
+    "./sphtx": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sphtx.vue"
+    },
+    "./srn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/srn.vue"
+    },
+    "./stak": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stak.vue"
+    },
+    "./start": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/start.vue"
+    },
+    "./steem": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/steem.vue"
+    },
+    "./storj": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/storj.vue"
+    },
+    "./storm": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/storm.vue"
+    },
+    "./stox": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stox.vue"
+    },
+    "./stq": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stq.vue"
+    },
+    "./strat": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/strat.vue"
+    },
+    "./stx": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stx.vue"
+    },
+    "./sub": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sub.vue"
+    },
+    "./sumo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sumo.vue"
+    },
+    "./sushi": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sushi.vue"
+    },
+    "./sys": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sys.vue"
+    },
+    "./taas": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/taas.vue"
+    },
+    "./tau": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tau.vue"
+    },
+    "./tbx": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tbx.vue"
+    },
+    "./tel": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tel.vue"
+    },
+    "./ten": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/ten.vue"
+    },
+    "./tern": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tern.vue"
+    },
+    "./tgch": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tgch.vue"
+    },
+    "./theta": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/theta.vue"
+    },
+    "./tix": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tix.vue"
+    },
+    "./tkn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tkn.vue"
+    },
+    "./tks": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tks.vue"
+    },
+    "./tnb": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tnb.vue"
+    },
+    "./tnc": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tnc.vue"
+    },
+    "./tnt": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tnt.vue"
+    },
+    "./tomo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tomo.vue"
+    },
+    "./tpay": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tpay.vue"
+    },
+    "./trig": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/trig.vue"
+    },
+    "./trtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/trtl.vue"
+    },
+    "./trx": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/trx.vue"
+    },
+    "./tusd": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tusd.vue"
+    },
+    "./tzc": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tzc.vue"
+    },
+    "./ubq": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/ubq.vue"
+    },
+    "./uma": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/uma.vue"
+    },
+    "./uni": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/uni.vue"
+    },
+    "./unity": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/unity.vue"
+    },
+    "./usd": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/usd.vue"
+    },
+    "./usdc": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/usdc.vue"
+    },
+    "./usdt": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/usdt.vue"
+    },
+    "./utk": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/utk.vue"
+    },
+    "./veri": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/veri.vue"
+    },
+    "./vet": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vet.vue"
+    },
+    "./via": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/via.vue"
+    },
+    "./vib": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vib.vue"
+    },
+    "./vibe": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vibe.vue"
+    },
+    "./vivo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vivo.vue"
+    },
+    "./vrc": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vrc.vue"
+    },
+    "./vrsc": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vrsc.vue"
+    },
+    "./vtc": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vtc.vue"
+    },
+    "./vtho": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vtho.vue"
+    },
+    "./wabi": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wabi.vue"
+    },
+    "./wan": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wan.vue"
+    },
+    "./waves": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/waves.vue"
+    },
+    "./wax": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wax.vue"
+    },
+    "./wbtc": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wbtc.vue"
+    },
+    "./wgr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wgr.vue"
+    },
+    "./wicc": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wicc.vue"
+    },
+    "./wings": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wings.vue"
+    },
+    "./wpr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wpr.vue"
+    },
+    "./wtc": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wtc.vue"
+    },
+    "./x": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/x/x.vue"
+    },
+    "./xas": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/x/xas.vue"
+    },
+    "./xbc": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/x/xbc.vue"
+    },
+    "./xbp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/x/xbp.vue"
+    },
+    "./xby": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/x/xby.vue"
+    },
+    "./xcp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/x/xcp.vue"
+    },
+    "./xdn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/x/xdn.vue"
+    },
+    "./xem": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/x/xem.vue"
+    },
+    "./xin": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/x/xin.vue"
+    },
+    "./xlm": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/x/xlm.vue"
+    },
+    "./xmcc": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/x/xmcc.vue"
+    },
+    "./xmg": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/x/xmg.vue"
+    },
+    "./xmo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/x/xmo.vue"
+    },
+    "./xmr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/x/xmr.vue"
+    },
+    "./xmy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/x/xmy.vue"
+    },
+    "./xp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/x/xp.vue"
+    },
+    "./xpa": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/x/xpa.vue"
+    },
+    "./xpm": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/x/xpm.vue"
+    },
+    "./xpr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/x/xpr.vue"
+    },
+    "./xrp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/x/xrp.vue"
+    },
+    "./xsg": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/x/xsg.vue"
+    },
+    "./xtz": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/x/xtz.vue"
+    },
+    "./xuc": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/x/xuc.vue"
+    },
+    "./xvc": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/x/xvc.vue"
+    },
+    "./xvg": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/x/xvg.vue"
+    },
+    "./xzc": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/x/xzc.vue"
+    },
+    "./yfi": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yfi.vue"
+    },
+    "./yoyow": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yoyow.vue"
+    },
+    "./zcl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/z/zcl.vue"
+    },
+    "./zec": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/z/zec.vue"
+    },
+    "./zel": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/z/zel.vue"
+    },
+    "./zen": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/z/zen.vue"
+    },
+    "./zest": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/z/zest.vue"
+    },
+    "./zil": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/z/zil.vue"
+    },
+    "./zilla": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/z/zilla.vue"
+    },
+    "./zrx": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/z/zrx.vue"
+    },
+    "./*": "./*"
+  },
+  "dependencies": {
+    "@iconify/css-vue": "^1.0.0"
+  },
+  "repository": "github:iconify/icons-vue#cryptocurrency-color"
+}

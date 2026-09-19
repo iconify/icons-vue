@@ -1,0 +1,8 @@
+.voxnpu-mg {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M3 10h14M3 6h18M3 18h14M3 14h18");
+}

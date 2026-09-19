@@ -1,0 +1,8 @@
+.bq146_btc {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M12 4v16M8 9v6m12-5v4M4 10v4m12-7v10");
+}

@@ -1,0 +1,12 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/h/hntgybcog.css';
+import '../../css/w/w9124j9il.css';
+import '../../css/z/zd4rzkbvy.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="hntgybcog"><path class="w9124j9il"/><path class="zd4rzkbvy"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="iconoir:intersect" /></template>

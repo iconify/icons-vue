@@ -1,0 +1,13 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/h/hntgybcog.css';
+import '../../css/i/inkjmjhqc.css';
+import '../../css/g/gr6bpbbmd.css';
+import '../../css/r/rfyy1zshr.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="hntgybcog"><path class="inkjmjhqc"/><path class="gr6bpbbmd"/><path class="rfyy1zshr"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="iconoir:headset-bolt-solid" /></template>

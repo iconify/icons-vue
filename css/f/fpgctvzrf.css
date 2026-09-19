@@ -1,0 +1,8 @@
+.fpgctvzrf {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M22 10H8c-8 0-8 11 0 11m14-11l-7-7m7 7l-7 7");
+}

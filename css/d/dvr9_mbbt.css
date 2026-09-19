@@ -1,0 +1,8 @@
+.dvr9_mbbt {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M21 21H3m6-9H5m14 0h-4m-8 6a2 2 0 0 1-2-2V3h4v13a2 2 0 0 1-2 2m10 0a2 2 0 0 1-2-2V3h4v13a2 2 0 0 1-2 2");
+}

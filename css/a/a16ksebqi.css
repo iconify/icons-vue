@@ -1,0 +1,8 @@
+.a16ksebqi {
+  fill: var(--svg-color--f2c94c, #f2c94c);
+  stroke: var(--svg-color--f2994a, #f2994a);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--4px, 4px);
+  d: path("M27 39a4 4 0 0 1 4-4h18a4 4 0 0 1 4 4v18a4 4 0 0 1-4 4H31a4 4 0 0 1-4-4z");
+}

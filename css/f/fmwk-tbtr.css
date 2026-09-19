@@ -1,0 +1,8 @@
+.fmwk-tbtr {
+  fill: var(--svg-color--828282, #828282);
+  stroke: var(--svg-color--828282, #828282);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--4px, 4px);
+  d: path("M15.5 60a4 4 0 0 1 4-4h41a4 4 0 0 1 4 4v7.9a.1.1 0 0 1-.1.1H15.6a.1.1 0 0 1-.1-.1z");
+}

@@ -1,0 +1,8 @@
+.mysunmbhd {
+  fill: var(--svg-color--eb5757, #eb5757);
+  stroke: var(--svg-color--eb5757, #eb5757);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--4px, 4px);
+  d: path("m65.811 41.184l-10.97 10.97c-1.108 1.107-.324 3 1.242 3h9.728a3 3 0 0 0 3-3v-9.728c0-1.565-1.893-2.35-3-1.242");
+}

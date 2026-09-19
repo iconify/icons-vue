@@ -1,0 +1,7 @@
+.hi_ztfptr {
+  stroke: var(--svg-color--4f4f4f, #4f4f4f);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--4px, 4px);
+  d: path("M13 16v48m0-42h6m-6 20h6");
+}

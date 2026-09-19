@@ -1,0 +1,8 @@
+.b51midcrf {
+  fill: var(--svg-color--2f80ed, #2f80ed);
+  stroke: var(--svg-color--2f80ed, #2f80ed);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--3px, 3px);
+  d: path("M42.418 56.596v16.808c0 1.696-2.05 2.545-3.25 1.346l-7.629-7.629a3 3 0 0 1 0-4.242l7.629-7.629c1.2-1.2 3.25-.35 3.25 1.346");
+}

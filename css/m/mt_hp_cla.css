@@ -1,0 +1,8 @@
+.mt_hp_cla {
+  fill: var(--svg-color--2f80ed, #2f80ed);
+  stroke: var(--svg-color--2f80ed, #2f80ed);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--4px, 4px);
+  d: path("M12.873 26.494a7.208 7.208 0 1 0 6.254-12.988a7.208 7.208 0 0 0-6.254 12.988");
+}

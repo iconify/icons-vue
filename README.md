@@ -1,16 +1,15 @@
 # @iconify-vue/flat-ui
 
-Icon set prefix: **flat-ui**
+⚠️ This icon set is deprecated and no longer maintained. Use it at your own risk.
 
-Icon set name: **Flat UI Icons**
 
-Author: **Designmodo, Inc.**
+**Flat UI Icons**
 
-License: **[MIT](https://github.com/designmodo/Flat-UI/blob/master/LICENSE)**
+Author: [Designmodo, Inc.](https://github.com/designmodo/Flat-UI)
 
-Repository: **https://github.com/designmodo/Flat-UI**
+License: [MIT](https://github.com/designmodo/Flat-UI/blob/master/LICENSE)
 
-Browse all icons: **[Preview Flat UI Icons](https://icon-sets.iconify.design/flat-ui/)**
+Browse all icons: [preview Flat UI Icons on Iconify](https://icon-sets.iconify.design/flat-ui/)
 
 ## Installation
 

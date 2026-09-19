@@ -1,0 +1,55 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":64,"height":64};
+const content = `<path class="ul5x75_de"/><path class="d9a99e5dz"/><path class="gtkpinbdn"/><path class="k2u7h-hte"/><path class="oi_binbwx"/><path class="v10sbfvew"/><circle class="cgxilxgbm"/><circle class="i30t2egvz"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="emojione-v1:dagger" /></template>
+<style>
+.cgxilxgbm {
+  cx: 16.876px;
+  cy: 5.132px;
+  r: 5.165px;
+  fill: var(--svg-color--405967, #405967);
+}
+
+.d9a99e5dz {
+  fill: var(--svg-color--bcbec0, #bcbec0);
+  d: path("M48.732 61.62C51.414 63.6 52.981 64 52.981 64s2.878-12.399-19.276-40.589l-3.969 2.416l-.11.065c14.273 18.17 18.15 29.767 19.11 35.728");
+}
+
+.gtkpinbdn {
+  fill: var(--svg-color--405967, #405967);
+  d: path("M15.224 9.129c-.914-1.506-.241-3.588 1.509-4.656c1.748-1.063 3.908-.709 4.823.795l9.832 16.15c.912 1.499.241 3.581-1.51 4.646c-1.752 1.066-3.912.707-4.828-.792l-9.826-16.14");
+}
+
+.i30t2egvz {
+  cx: 16.954px;
+  cy: 5.157px;
+  r: 3.302px;
+  fill: var(--svg-color--2f434c, #2f434c);
+}
+
+.k2u7h-hte {
+  fill: var(--svg-color--2f434c, #2f434c);
+  d: path("m18.395 7.195l9.825 16.14c.609 1 .5 2.262-.156 3.307a4.15 4.15 0 0 0 1.815-.585c1.751-1.065 2.421-3.147 1.51-4.646l-9.832-16.15c-.916-1.504-3.076-1.859-4.823-.795A4.2 4.2 0 0 0 15.38 5.81c1.229-.103 2.399.376 3.02 1.378");
+}
+
+.oi_binbwx {
+  fill: var(--svg-color--405967, #405967);
+  d: path("M23.11 31.722c-1.386.846-2.884.926-3.34.177c-.458-.752.304-2.041 1.686-2.886l14.908-9.08c1.388-.847 2.886-.922 3.338-.173c.458.749-.296 2.04-1.684 2.886l-14.908 9.08");
+}
+
+.ul5x75_de {
+  fill: var(--svg-color--a7a9ac, #a7a9ac);
+  d: path("M52.981 64s2.878-12.399-19.276-40.589l-3.969 2.416l-3.974 2.42C40.64 60.871 52.981 64 52.981 64");
+}
+
+.v10sbfvew {
+  fill: var(--svg-color--48646d, #48646d);
+  d: path("m14.962 8.711l6.334-3.857l1.651 2.712l-6.334 3.857zm3.64 5.968l6.334-3.858l1.65 2.71l-6.333 3.859zm9.993 2.154l1.652 2.712l-6.332 3.858l-1.652-2.713z");
+}
+
+</style>

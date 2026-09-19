@@ -1,0 +1,26 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":64,"height":64};
+const content = `<path class="bc80lpiju"/><path class="otrtrsemz"/><path class="pu2zz8bzm"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="emojione-v1:page" /></template>
+<style>
+.bc80lpiju {
+  fill: var(--svg-color--d0d1d2, #d0d1d2);
+  d: path("M7.323 58.23c0 3 2.676 5.434 5.985 5.434h38.17c3.303 0 5.985-2.431 5.985-5.434V9.266c0-3-2.683-5.432-5.985-5.432h-38.17c-3.31 0-5.985 2.431-5.985 5.432z");
+}
+
+.otrtrsemz {
+  fill: var(--svg-color--e7e6e6, #e7e6e6);
+  d: path("M7.323 54.4c0 3 2.676 5.434 5.985 5.434h38.17c3.303 0 5.985-2.433 5.985-5.434V5.435c.001-3-2.682-5.432-5.985-5.432h-38.17c-3.31 0-5.985 2.431-5.985 5.432z");
+}
+
+.pu2zz8bzm {
+  fill: var(--svg-color--35494d, #35494d);
+  d: path("M49.919 13.159H15.961c-2.287 0-2.287-3.211 0-3.211h33.958c2.28-.001 2.28 3.211 0 3.211m0 6.518H15.961c-2.287 0-2.287-3.209 0-3.209h33.958c2.28 0 2.28 3.209 0 3.209m0 6.663H15.961c-2.287 0-2.287-3.211 0-3.211h33.958c2.28 0 2.28 3.211 0 3.211m0 6.519H15.961c-2.287 0-2.287-3.212 0-3.212h33.958c2.28 0 2.28 3.212 0 3.212m0 12.581H34.288c-2.277 0-2.277-3.211 0-3.211h15.631c2.28.001 2.28 3.211 0 3.211");
+}
+
+</style>

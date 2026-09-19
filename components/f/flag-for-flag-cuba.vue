@@ -1,0 +1,51 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":64,"height":64};
+const content = `<path class="tslk-cv3p"/><path class="v94gtdbkf"/><path class="mon9tk8in"/><path class="c7aqwi_lz"/><path class="l5eph7qug"/><path class="vw7zybctr"/><path class="v8xkfmbnf"/><path class="v68uywfqg"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="emojione-v1:flag-for-flag-cuba" /></template>
+<style>
+.c7aqwi_lz {
+  fill: var(--svg-color--e6e7e8, #e6e7e8);
+  d: path("M14.03 45h49.84c.086-.649.135-1.316.135-2v-7H26.344z");
+}
+
+.l5eph7qug {
+  fill: var(--svg-color--1b75bb, #1b75bb);
+  d: path("M4.112 52.244C5.649 53.35 7.608 54 10 54h44c5.881 0 9.193-3.881 9.865-9h-49.84z");
+}
+
+.mon9tk8in {
+  fill: var(--svg-color--1b75bb, #1b75bb);
+  d: path("M32.51 31.49L26.339 36H64v-9H26.21z");
+}
+
+.tslk-cv3p {
+  fill: var(--svg-color--1b75bb, #1b75bb);
+  d: path("M54 10H10c-2.201 0-4.03.555-5.506 1.506L15 19h48.865c-.672-5.119-3.984-9-9.865-9");
+}
+
+.v68uywfqg {
+  fill: var(--svg-color--ec1c24, #ec1c24);
+  d: path("m4.11 52.25l.002-.002l-.03-.021z");
+}
+
+.v8xkfmbnf {
+  fill: var(--svg-color--e6e7e8, #e6e7e8);
+  d: path("m19.263 29.15l-6.04.01l-1.877-6.11l-1.86 6.11l-6.05-.01l4.899 3.725l-1.899 6.07l4.918-3.775l4.919 3.775l-1.901-6.07z");
+}
+
+.v94gtdbkf {
+  fill: var(--svg-color--e6e7e8, #e6e7e8);
+  d: path("M63.865 19H15l11.215 8H64v-6c0-.684-.049-1.351-.135-2");
+}
+
+.vw7zybctr {
+  fill: var(--svg-color--ec1c24, #ec1c24);
+  d: path("m26.21 27l-11.215-8l-10.514-7.5a9 9 0 0 0-1.024.772l-.043.038a9.1 9.1 0 0 0-1.709 2.057c-.211.343-.407.697-.579 1.07l-.016.039c-.154.338-.285.691-.407 1.051a12 12 0 0 0-.474 1.879Q.179 18.7.141 19q-.018.114-.034.229A18 18 0 0 0-.005 21v22a15 15 0 0 0 .11 1.746L.14 45q.026.206.059.41c.027.174.052.35.086.521q.107.525.254 1.028c.04.137.086.271.13.404q.128.393.282.768q.06.156.125.308q.231.522.513 1.01l.077.124q.275.456.594.873l.098.127a8.7 8.7 0 0 0 1.721 1.653l.03.021l9.911-7.244l12.313-9l6.171-4.51l-6.294-4.49");
+}
+
+</style>

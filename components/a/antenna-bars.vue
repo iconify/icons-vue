@@ -1,0 +1,21 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":64,"height":64};
+const content = `<path class="n5ws7i6by"/><path class="a_m6e2bji"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="emojione-v1:antenna-bars" /></template>
+<style>
+.a_m6e2bji {
+  fill: var(--svg-color--fff, #fff);
+  d: path("M11.408 43.779a4.046 4.046 0 0 0-4.046-4.045a4.04 4.04 0 0 0-4.04 4.045v6.883a4.04 4.04 0 0 0 4.04 4.04a4.045 4.045 0 0 0 4.046-4.04zm11.802-8.073a4.04 4.04 0 0 0-4.046-4.04a4.04 4.04 0 0 0-4.04 4.04v14.956a4.042 4.042 0 0 0 8.086 0zm12.419-8.073a4.039 4.039 0 1 0-8.08 0v23.03a4.04 4.04 0 0 0 8.08 0zm12.551-6.055a4.04 4.04 0 0 0-4.045-4.04a4.04 4.04 0 0 0-4.04 4.04v29.08a4.042 4.042 0 0 0 8.085 0zm12.67-8.073a4.047 4.047 0 0 0-8.093 0v37.16a4.044 4.044 0 0 0 4.047 4.04a4.045 4.045 0 0 0 4.046-4.04z");
+}
+
+.n5ws7i6by {
+  fill: var(--svg-color--1b75bb, #1b75bb);
+  d: path("M64 57.1a6.9 6.9 0 0 1-6.898 6.902H6.892A6.9 6.9 0 0 1-.004 57.1V6.9A6.9 6.9 0 0 1 6.892.002h50.21A6.9 6.9 0 0 1 64 6.9z");
+}
+
+</style>

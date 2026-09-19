@@ -1,0 +1,31 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":64,"height":64};
+const content = `<path class="dg7h9dbbn"/><path class="nkx1ubbdf"/><path class="tnvws62ik"/><path class="fvvalpb_j"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="emojione-v1:stamped-envelope" /></template>
+<style>
+.dg7h9dbbn {
+  fill: var(--svg-color--e7e6e6, #e7e6e6);
+  d: path("M0 7.643h64v48.734H0z");
+}
+
+.fvvalpb_j {
+  fill: var(--svg-color--243438, #243438);
+  d: path("M41.38 33.978c0 .592-.479 1.07-1.068 1.07H15.456a1.07 1.07 0 1 1 0-2.137h24.856a1.07 1.07 0 0 1 1.068 1.067m-3.418 5.532c0 .59-.418 1.068-.934 1.068H15.317c-.514 0-.934-.479-.934-1.068c0-.592.42-1.068.934-1.068h21.711c.516-.001.934.476.934 1.068m7.687 5.64c0 .59-.553 1.068-1.238 1.068H15.624c-.686 0-1.24-.479-1.24-1.068c0-.592.555-1.07 1.24-1.07h28.788c.685 0 1.237.479 1.237 1.07");
+}
+
+.nkx1ubbdf {
+  fill: var(--svg-color--be1e2d, #be1e2d);
+  d: path("M53.881 14.716c1.34 0 2.428 1.012 2.428 2.258v9.461c0 1.248-1.088 2.26-2.428 2.26h-8.01c-1.342 0-2.428-1.012-2.428-2.26v-9.461c0-1.246 1.086-2.258 2.428-2.258z");
+}
+
+.tnvws62ik {
+  fill: var(--svg-color--f15a29, #f15a29);
+  d: path("M49.51 16.853c.66 0 1.189.496 1.189 1.104v4.621c0 .609-.529 1.105-1.189 1.105h-3.911c-.654 0-1.186-.496-1.186-1.105v-4.621c0-.607.531-1.104 1.186-1.104z");
+}
+
+</style>

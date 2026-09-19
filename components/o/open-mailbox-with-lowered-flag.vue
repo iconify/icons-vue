@@ -1,0 +1,55 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":64,"height":64};
+const content = `<path class="zmowskmii"/><g class="dcew48b3c"><path class="tqrpk_m0k"/><path class="t__r8xvck"/></g><g class="zyda5sbgr"><path class="hffesnbtq"/><path class="a3avfdtjc"/></g><path class="fnmzmfbic"/><path class="ucdrle20e"/><path class="y6t_5r-3z"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="emojione-v1:open-mailbox-with-lowered-flag" /></template>
+<style>
+.a3avfdtjc {
+  d: path("M47.723 12H21.39c-5.57 0-10.08 6.172-10.08 13.783v16.802h46.497V25.783c0-7.611-4.514-13.783-10.08-13.783");
+}
+
+.dcew48b3c {
+  fill: var(--svg-color--a4806d, #a4806d);
+}
+
+.fnmzmfbic {
+  fill: var(--svg-color--627c7f, #627c7f);
+  d: path("M23.25 12H10.085C4.517 12 .005 18.172.005 25.783v16.802h33.332V25.783c0-7.611-4.514-13.783-10.08-13.783");
+}
+
+.hffesnbtq {
+  d: path("M21.39 12H10.083C4.516 12 0 18.172 0 25.783v16.802h11.307V25.783C11.307 18.172 15.82 12 21.39 12");
+}
+
+.t__r8xvck {
+  d: path("M25.16 47.397h13.15c.11 0 .201-.062.201-.135V38.47c0-.074-.091-.138-.201-.138H25.158a.23.23 0 0 0-.133.037l-.006.004l-.008.006a.11.11 0 0 0-.051.09v8.792c0 .075.087.136.198.136");
+}
+
+.tqrpk_m0k {
+  d: path("M31.11 64.762h7.289c.062 0 .111-.289.111-.625V23.881c0-.338-.05-.625-.111-.625h-7.288c-.033 0-.058.065-.074.168l-.002.021s-.002.002-.004.021a2.3 2.3 0 0 0-.029.417v40.256c0 .334.048.623.108.623");
+}
+
+.ucdrle20e {
+  fill: var(--svg-color--de374b, #de374b);
+  d: path("M63.903 29.278c.004.006.028.008.028.014v12.063a.25.25 0 0 1-.028.123s-.004 0-.004.002h-.004c-.013.025-.037.047-.065.047h-6.531c-.058 0-.103-.082-.103-.183v-6.567H37.36c-.217 0-.405-.039-.405-.082v-5.414c0-.047.188-.084.405-.084h26.47c.03 0 .057.03.073.071");
+}
+
+.y6t_5r-3z {
+  fill: var(--svg-color--495e5f, #495e5f);
+  d: path("M22.293 13.958H9.97c-5.21 0-9.438 5.776-9.438 12.901v15.726h31.2V26.859c0-7.125-4.224-12.901-9.439-12.901");
+}
+
+.zmowskmii {
+  fill: var(--svg-color--dfad92, #dfad92);
+  d: path("M25.16 64.762h13.154c.108 0 .199-.289.199-.625V23.881c0-.338-.091-.625-.199-.625H25.16c-.06 0-.104.065-.137.168l-.002.021s-.004.002-.006.021a1.3 1.3 0 0 0-.053.417v40.256c0 .334.089.623.198.623");
+}
+
+.zyda5sbgr {
+  fill: var(--svg-color--7c9c9f, #7c9c9f);
+}
+
+</style>

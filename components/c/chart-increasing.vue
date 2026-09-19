@@ -1,0 +1,30 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":64,"height":64};
+const content = `<path class="mi2-z3bti"/><path class="zzrq_46ns"/><path class="nza4n3gdq"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="emojione-v1:chart-increasing" /></template>
+<style>
+.mi2-z3bti {
+  fill: var(--svg-color--e6e7e8, #e6e7e8);
+  d: path("M63.874 57.01a6.863 6.863 0 0 1-6.862 6.868H7.067a6.864 6.864 0 0 1-6.86-6.868V7.073A6.863 6.863 0 0 1 7.067.209h49.944a6.86 6.86 0 0 1 6.862 6.864z");
+}
+
+.nza4n3gdq {
+  fill: var(--svg-color--ee4036, #ee4036);
+  d: path("M12.303 55.3c3.684-5.159 7.371-10.32 11.05-15.479l-3.896.074l15.477 15.479c1.268 1.27 3.39 1.038 4.164-.593c6.633-14 13.267-28.01 19.9-42.01c1.202-2.541-3.546-4.121-4.757-1.568c-6.633 14-13.267 28.01-19.899 42.01l4.163-.593l-15.477-15.479c-1.013-1.013-2.992-1.192-3.898.074q-5.526 7.74-11.06 15.479c-1.717 2.405 2.615 4.859 4.225 2.606");
+}
+
+.zzrq_46ns {
+  fill: none;
+  stroke: var(--svg-color--005, #005);
+  stroke-linecap: round;
+  stroke-opacity: 0.221;
+  stroke-width: var(--svg-stroke-width--0-4px, 0.4px);
+  d: path("M9.525 4.352v55.15zm6.451 0v55.15zm6.451 0v55.15zm6.451 0v55.15zm6.452 0v55.15zm6.45 0v55.15zm6.45 0v55.15zm6.451 0v55.15zm-50.4 50.352h55.15zm0-6.454h55.15zm0-6.448h55.15zm0-6.452h55.15zm0-6.45h55.15zm0-6.451h55.15zm0-6.45h55.15zm0-6.451h55.15z");
+}
+
+</style>

@@ -1,0 +1,10 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/e/emrqdv5ho.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":1024,"height":1024};
+const content = `<path class="emrqdv5ho"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="ant-design:video-camera" /></template>

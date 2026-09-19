@@ -1,0 +1,10 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/b/b238y7enx.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":640,"height":640};
+const content = `<path class="b238y7enx"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fa7-solid:landmark-dome" /></template>

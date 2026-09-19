@@ -1,0 +1,7 @@
+.bl_h1w5_h {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M6 18L18 6m0 12L6 6");
+}

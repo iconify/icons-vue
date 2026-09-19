@@ -1,0 +1,8 @@
+.um_pv-brv {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M17 6h-6.586a1 1 0 0 1-.707-.293L8.293 4.293A1 1 0 0 0 7.586 4H4a1 1 0 0 0-1 1v12a2 2 0 0 0 2 2m0 0h14a1 1 0 0 0 1-1v-7a1 1 0 0 0-1-1H8a1 1 0 0 0-1 1v6a2 2 0 0 1-2 2");
+}

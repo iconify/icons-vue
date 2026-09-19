@@ -1,0 +1,8 @@
+.hh1l-7bar {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M3 12h2l1.5-4l2 8l1.5-4h2l2.5-8L17 20l2-8h2");
+}

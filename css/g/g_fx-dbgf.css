@@ -1,0 +1,8 @@
+.g_fx-dbgf {
+  fill: var(--svg-color--red, red);
+  fill-rule: evenodd;
+  stroke: var(--svg-color--000, #000);
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2-5px, 2.5px);
+  d: path("m301.3 218.9l38.4 10.2v-54.8c-17.6 1-32.2-33.4-1.2-35.7c-30.5-4.4-34 3.5-37.5 12z");
+}

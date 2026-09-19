@@ -1,0 +1,7 @@
+.r1p-fgbot {
+  fill: none;
+  stroke: var(--svg-color--000, #000);
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--0-4px, 0.4px);
+  d: path("m286.3 308l-.1.5c0 1.5 1.2 2.6 2.7 2.6h-22c1.5 0 2.7-1.2 2.7-2.6l-.1-.5z");
+}

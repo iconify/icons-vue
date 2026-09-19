@@ -1,0 +1,2207 @@
+{
+  "name": "@iconify-vue/flag",
+  "type": "module",
+  "version": "1.0.6",
+  "homepage": "https://icon-sets.iconify.design/flag/",
+  "bugs": "https://github.com/iconify/icons-vue/issues",
+  "license": "MIT",
+  "exports": {
+    "./ad-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/ad-1x1.vue"
+    },
+    "./ad-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/ad-4x3.vue"
+    },
+    "./ae-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/ae-1x1.vue"
+    },
+    "./ae-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/ae-4x3.vue"
+    },
+    "./af-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/af-1x1.vue"
+    },
+    "./af-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/af-4x3.vue"
+    },
+    "./ag-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/ag-1x1.vue"
+    },
+    "./ag-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/ag-4x3.vue"
+    },
+    "./ai-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/ai-1x1.vue"
+    },
+    "./ai-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/ai-4x3.vue"
+    },
+    "./al-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/al-1x1.vue"
+    },
+    "./al-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/al-4x3.vue"
+    },
+    "./am-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/am-1x1.vue"
+    },
+    "./am-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/am-4x3.vue"
+    },
+    "./ao-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/ao-1x1.vue"
+    },
+    "./ao-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/ao-4x3.vue"
+    },
+    "./aq-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/aq-1x1.vue"
+    },
+    "./aq-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/aq-4x3.vue"
+    },
+    "./ar-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/ar-1x1.vue"
+    },
+    "./ar-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/ar-4x3.vue"
+    },
+    "./arab-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arab-1x1.vue"
+    },
+    "./arab-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arab-4x3.vue"
+    },
+    "./as-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/as-1x1.vue"
+    },
+    "./as-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/as-4x3.vue"
+    },
+    "./asean-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/asean-1x1.vue"
+    },
+    "./asean-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/asean-4x3.vue"
+    },
+    "./at-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/at-1x1.vue"
+    },
+    "./at-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/at-4x3.vue"
+    },
+    "./au-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/au-1x1.vue"
+    },
+    "./au-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/au-4x3.vue"
+    },
+    "./aw-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/aw-1x1.vue"
+    },
+    "./aw-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/aw-4x3.vue"
+    },
+    "./ax-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/ax-1x1.vue"
+    },
+    "./ax-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/ax-4x3.vue"
+    },
+    "./az-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/az-1x1.vue"
+    },
+    "./az-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/az-4x3.vue"
+    },
+    "./ba-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/ba-1x1.vue"
+    },
+    "./ba-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/ba-4x3.vue"
+    },
+    "./bb-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bb-1x1.vue"
+    },
+    "./bb-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bb-4x3.vue"
+    },
+    "./bd-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bd-1x1.vue"
+    },
+    "./bd-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bd-4x3.vue"
+    },
+    "./be-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/be-1x1.vue"
+    },
+    "./be-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/be-4x3.vue"
+    },
+    "./bf-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bf-1x1.vue"
+    },
+    "./bf-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bf-4x3.vue"
+    },
+    "./bg-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bg-1x1.vue"
+    },
+    "./bg-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bg-4x3.vue"
+    },
+    "./bh-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bh-1x1.vue"
+    },
+    "./bh-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bh-4x3.vue"
+    },
+    "./bi-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bi-1x1.vue"
+    },
+    "./bi-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bi-4x3.vue"
+    },
+    "./bj-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bj-1x1.vue"
+    },
+    "./bj-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bj-4x3.vue"
+    },
+    "./bl-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bl-1x1.vue"
+    },
+    "./bl-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bl-4x3.vue"
+    },
+    "./bm-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bm-1x1.vue"
+    },
+    "./bm-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bm-4x3.vue"
+    },
+    "./bn-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bn-1x1.vue"
+    },
+    "./bn-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bn-4x3.vue"
+    },
+    "./bo-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bo-1x1.vue"
+    },
+    "./bo-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bo-4x3.vue"
+    },
+    "./bq-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bq-1x1.vue"
+    },
+    "./bq-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bq-4x3.vue"
+    },
+    "./br-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/br-1x1.vue"
+    },
+    "./br-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/br-4x3.vue"
+    },
+    "./bs-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bs-1x1.vue"
+    },
+    "./bs-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bs-4x3.vue"
+    },
+    "./bt-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bt-1x1.vue"
+    },
+    "./bt-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bt-4x3.vue"
+    },
+    "./bv-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bv-1x1.vue"
+    },
+    "./bv-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bv-4x3.vue"
+    },
+    "./bw-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bw-1x1.vue"
+    },
+    "./bw-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bw-4x3.vue"
+    },
+    "./by-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/by-1x1.vue"
+    },
+    "./by-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/by-4x3.vue"
+    },
+    "./bz-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bz-1x1.vue"
+    },
+    "./bz-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bz-4x3.vue"
+    },
+    "./ca-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/ca-1x1.vue"
+    },
+    "./ca-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/ca-4x3.vue"
+    },
+    "./cc-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cc-1x1.vue"
+    },
+    "./cc-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cc-4x3.vue"
+    },
+    "./cd-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cd-1x1.vue"
+    },
+    "./cd-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cd-4x3.vue"
+    },
+    "./cefta-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cefta-1x1.vue"
+    },
+    "./cefta-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cefta-4x3.vue"
+    },
+    "./cf-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cf-1x1.vue"
+    },
+    "./cf-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cf-4x3.vue"
+    },
+    "./cg-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cg-1x1.vue"
+    },
+    "./cg-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cg-4x3.vue"
+    },
+    "./ch-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/ch-1x1.vue"
+    },
+    "./ch-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/ch-4x3.vue"
+    },
+    "./ci-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/ci-1x1.vue"
+    },
+    "./ci-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/ci-4x3.vue"
+    },
+    "./ck-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/ck-1x1.vue"
+    },
+    "./ck-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/ck-4x3.vue"
+    },
+    "./cl-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cl-1x1.vue"
+    },
+    "./cl-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cl-4x3.vue"
+    },
+    "./cm-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cm-1x1.vue"
+    },
+    "./cm-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cm-4x3.vue"
+    },
+    "./cn-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cn-1x1.vue"
+    },
+    "./cn-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cn-4x3.vue"
+    },
+    "./co-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/co-1x1.vue"
+    },
+    "./co-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/co-4x3.vue"
+    },
+    "./cp-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cp-1x1.vue"
+    },
+    "./cp-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cp-4x3.vue"
+    },
+    "./cr-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cr-1x1.vue"
+    },
+    "./cr-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cr-4x3.vue"
+    },
+    "./cu-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cu-1x1.vue"
+    },
+    "./cu-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cu-4x3.vue"
+    },
+    "./cv-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cv-1x1.vue"
+    },
+    "./cv-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cv-4x3.vue"
+    },
+    "./cw-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cw-1x1.vue"
+    },
+    "./cw-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cw-4x3.vue"
+    },
+    "./cx-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cx-1x1.vue"
+    },
+    "./cx-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cx-4x3.vue"
+    },
+    "./cy-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cy-1x1.vue"
+    },
+    "./cy-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cy-4x3.vue"
+    },
+    "./cz-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cz-1x1.vue"
+    },
+    "./cz-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cz-4x3.vue"
+    },
+    "./de-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/de-1x1.vue"
+    },
+    "./de-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/de-4x3.vue"
+    },
+    "./dg-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dg-1x1.vue"
+    },
+    "./dg-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dg-4x3.vue"
+    },
+    "./dj-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dj-1x1.vue"
+    },
+    "./dj-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dj-4x3.vue"
+    },
+    "./dk-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dk-1x1.vue"
+    },
+    "./dk-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dk-4x3.vue"
+    },
+    "./dm-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dm-1x1.vue"
+    },
+    "./dm-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dm-4x3.vue"
+    },
+    "./do-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/do-1x1.vue"
+    },
+    "./do-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/do-4x3.vue"
+    },
+    "./dz-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dz-1x1.vue"
+    },
+    "./dz-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dz-4x3.vue"
+    },
+    "./eac-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/eac-1x1.vue"
+    },
+    "./eac-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/eac-4x3.vue"
+    },
+    "./ec-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/ec-1x1.vue"
+    },
+    "./ec-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/ec-4x3.vue"
+    },
+    "./ee-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/ee-1x1.vue"
+    },
+    "./ee-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/ee-4x3.vue"
+    },
+    "./eg-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/eg-1x1.vue"
+    },
+    "./eg-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/eg-4x3.vue"
+    },
+    "./eh-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/eh-1x1.vue"
+    },
+    "./eh-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/eh-4x3.vue"
+    },
+    "./er-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/er-1x1.vue"
+    },
+    "./er-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/er-4x3.vue"
+    },
+    "./es-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/es-1x1.vue"
+    },
+    "./es-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/es-4x3.vue"
+    },
+    "./es-ct-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/es-ct-1x1.vue"
+    },
+    "./es-ct-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/es-ct-4x3.vue"
+    },
+    "./es-ga-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/es-ga-1x1.vue"
+    },
+    "./es-ga-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/es-ga-4x3.vue"
+    },
+    "./es-pv-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/es-pv-1x1.vue"
+    },
+    "./es-pv-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/es-pv-4x3.vue"
+    },
+    "./et-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/et-1x1.vue"
+    },
+    "./et-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/et-4x3.vue"
+    },
+    "./eu-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/eu-1x1.vue"
+    },
+    "./eu-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/eu-4x3.vue"
+    },
+    "./fi-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fi-1x1.vue"
+    },
+    "./fi-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fi-4x3.vue"
+    },
+    "./fj-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fj-1x1.vue"
+    },
+    "./fj-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fj-4x3.vue"
+    },
+    "./fk-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fk-1x1.vue"
+    },
+    "./fk-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fk-4x3.vue"
+    },
+    "./fm-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fm-1x1.vue"
+    },
+    "./fm-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fm-4x3.vue"
+    },
+    "./fo-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fo-1x1.vue"
+    },
+    "./fo-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fo-4x3.vue"
+    },
+    "./fr-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fr-1x1.vue"
+    },
+    "./fr-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fr-4x3.vue"
+    },
+    "./ga-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/ga-1x1.vue"
+    },
+    "./ga-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/ga-4x3.vue"
+    },
+    "./gb-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gb-1x1.vue"
+    },
+    "./gb-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gb-4x3.vue"
+    },
+    "./gb-eng-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gb-eng-1x1.vue"
+    },
+    "./gb-eng-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gb-eng-4x3.vue"
+    },
+    "./gb-nir-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gb-nir-1x1.vue"
+    },
+    "./gb-nir-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gb-nir-4x3.vue"
+    },
+    "./gb-sct-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gb-sct-1x1.vue"
+    },
+    "./gb-sct-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gb-sct-4x3.vue"
+    },
+    "./gb-wls-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gb-wls-1x1.vue"
+    },
+    "./gb-wls-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gb-wls-4x3.vue"
+    },
+    "./gd-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gd-1x1.vue"
+    },
+    "./gd-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gd-4x3.vue"
+    },
+    "./ge-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/ge-1x1.vue"
+    },
+    "./ge-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/ge-4x3.vue"
+    },
+    "./gf-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gf-1x1.vue"
+    },
+    "./gf-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gf-4x3.vue"
+    },
+    "./gg-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gg-1x1.vue"
+    },
+    "./gg-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gg-4x3.vue"
+    },
+    "./gh-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gh-1x1.vue"
+    },
+    "./gh-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gh-4x3.vue"
+    },
+    "./gi-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gi-1x1.vue"
+    },
+    "./gi-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gi-4x3.vue"
+    },
+    "./gl-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gl-1x1.vue"
+    },
+    "./gl-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gl-4x3.vue"
+    },
+    "./gm-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gm-1x1.vue"
+    },
+    "./gm-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gm-4x3.vue"
+    },
+    "./gn-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gn-1x1.vue"
+    },
+    "./gn-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gn-4x3.vue"
+    },
+    "./gp-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gp-1x1.vue"
+    },
+    "./gp-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gp-4x3.vue"
+    },
+    "./gq-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gq-1x1.vue"
+    },
+    "./gq-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gq-4x3.vue"
+    },
+    "./gr-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gr-1x1.vue"
+    },
+    "./gr-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gr-4x3.vue"
+    },
+    "./gs-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gs-1x1.vue"
+    },
+    "./gs-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gs-4x3.vue"
+    },
+    "./gt-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gt-1x1.vue"
+    },
+    "./gt-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gt-4x3.vue"
+    },
+    "./gu-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gu-1x1.vue"
+    },
+    "./gu-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gu-4x3.vue"
+    },
+    "./gw-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gw-1x1.vue"
+    },
+    "./gw-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gw-4x3.vue"
+    },
+    "./gy-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gy-1x1.vue"
+    },
+    "./gy-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gy-4x3.vue"
+    },
+    "./hk-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hk-1x1.vue"
+    },
+    "./hk-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hk-4x3.vue"
+    },
+    "./hm-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hm-1x1.vue"
+    },
+    "./hm-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hm-4x3.vue"
+    },
+    "./hn-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hn-1x1.vue"
+    },
+    "./hn-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hn-4x3.vue"
+    },
+    "./hr-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hr-1x1.vue"
+    },
+    "./hr-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hr-4x3.vue"
+    },
+    "./ht-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/ht-1x1.vue"
+    },
+    "./ht-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/ht-4x3.vue"
+    },
+    "./hu-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hu-1x1.vue"
+    },
+    "./hu-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hu-4x3.vue"
+    },
+    "./ic-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/ic-1x1.vue"
+    },
+    "./ic-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/ic-4x3.vue"
+    },
+    "./id-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/id-1x1.vue"
+    },
+    "./id-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/id-4x3.vue"
+    },
+    "./ie-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/ie-1x1.vue"
+    },
+    "./ie-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/ie-4x3.vue"
+    },
+    "./il-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/il-1x1.vue"
+    },
+    "./il-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/il-4x3.vue"
+    },
+    "./im-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/im-1x1.vue"
+    },
+    "./im-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/im-4x3.vue"
+    },
+    "./in-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/in-1x1.vue"
+    },
+    "./in-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/in-4x3.vue"
+    },
+    "./io-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/io-1x1.vue"
+    },
+    "./io-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/io-4x3.vue"
+    },
+    "./iq-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/iq-1x1.vue"
+    },
+    "./iq-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/iq-4x3.vue"
+    },
+    "./ir-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/ir-1x1.vue"
+    },
+    "./ir-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/ir-4x3.vue"
+    },
+    "./is-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/is-1x1.vue"
+    },
+    "./is-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/is-4x3.vue"
+    },
+    "./it-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/it-1x1.vue"
+    },
+    "./it-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/it-4x3.vue"
+    },
+    "./je-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/je-1x1.vue"
+    },
+    "./je-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/je-4x3.vue"
+    },
+    "./jm-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jm-1x1.vue"
+    },
+    "./jm-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jm-4x3.vue"
+    },
+    "./jo-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jo-1x1.vue"
+    },
+    "./jo-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jo-4x3.vue"
+    },
+    "./jp-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jp-1x1.vue"
+    },
+    "./jp-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jp-4x3.vue"
+    },
+    "./ke-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/ke-1x1.vue"
+    },
+    "./ke-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/ke-4x3.vue"
+    },
+    "./kg-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kg-1x1.vue"
+    },
+    "./kg-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kg-4x3.vue"
+    },
+    "./kh-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kh-1x1.vue"
+    },
+    "./kh-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kh-4x3.vue"
+    },
+    "./ki-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/ki-1x1.vue"
+    },
+    "./ki-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/ki-4x3.vue"
+    },
+    "./km-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/km-1x1.vue"
+    },
+    "./km-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/km-4x3.vue"
+    },
+    "./kn-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kn-1x1.vue"
+    },
+    "./kn-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kn-4x3.vue"
+    },
+    "./kp-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kp-1x1.vue"
+    },
+    "./kp-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kp-4x3.vue"
+    },
+    "./kr-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kr-1x1.vue"
+    },
+    "./kr-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kr-4x3.vue"
+    },
+    "./kw-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kw-1x1.vue"
+    },
+    "./kw-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kw-4x3.vue"
+    },
+    "./ky-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/ky-1x1.vue"
+    },
+    "./ky-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/ky-4x3.vue"
+    },
+    "./kz-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kz-1x1.vue"
+    },
+    "./kz-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kz-4x3.vue"
+    },
+    "./la-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/la-1x1.vue"
+    },
+    "./la-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/la-4x3.vue"
+    },
+    "./lb-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lb-1x1.vue"
+    },
+    "./lb-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lb-4x3.vue"
+    },
+    "./lc-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lc-1x1.vue"
+    },
+    "./lc-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lc-4x3.vue"
+    },
+    "./li-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/li-1x1.vue"
+    },
+    "./li-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/li-4x3.vue"
+    },
+    "./lk-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lk-1x1.vue"
+    },
+    "./lk-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lk-4x3.vue"
+    },
+    "./lr-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lr-1x1.vue"
+    },
+    "./lr-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lr-4x3.vue"
+    },
+    "./ls-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/ls-1x1.vue"
+    },
+    "./ls-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/ls-4x3.vue"
+    },
+    "./lt-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lt-1x1.vue"
+    },
+    "./lt-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lt-4x3.vue"
+    },
+    "./lu-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lu-1x1.vue"
+    },
+    "./lu-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lu-4x3.vue"
+    },
+    "./lv-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lv-1x1.vue"
+    },
+    "./lv-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lv-4x3.vue"
+    },
+    "./ly-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/ly-1x1.vue"
+    },
+    "./ly-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/ly-4x3.vue"
+    },
+    "./ma-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/ma-1x1.vue"
+    },
+    "./ma-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/ma-4x3.vue"
+    },
+    "./mc-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mc-1x1.vue"
+    },
+    "./mc-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mc-4x3.vue"
+    },
+    "./md-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/md-1x1.vue"
+    },
+    "./md-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/md-4x3.vue"
+    },
+    "./me-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/me-1x1.vue"
+    },
+    "./me-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/me-4x3.vue"
+    },
+    "./mf-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mf-1x1.vue"
+    },
+    "./mf-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mf-4x3.vue"
+    },
+    "./mg-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mg-1x1.vue"
+    },
+    "./mg-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mg-4x3.vue"
+    },
+    "./mh-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mh-1x1.vue"
+    },
+    "./mh-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mh-4x3.vue"
+    },
+    "./mk-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mk-1x1.vue"
+    },
+    "./mk-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mk-4x3.vue"
+    },
+    "./ml-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/ml-1x1.vue"
+    },
+    "./ml-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/ml-4x3.vue"
+    },
+    "./mm-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mm-1x1.vue"
+    },
+    "./mm-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mm-4x3.vue"
+    },
+    "./mn-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mn-1x1.vue"
+    },
+    "./mn-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mn-4x3.vue"
+    },
+    "./mo-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mo-1x1.vue"
+    },
+    "./mo-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mo-4x3.vue"
+    },
+    "./mp-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mp-1x1.vue"
+    },
+    "./mp-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mp-4x3.vue"
+    },
+    "./mq-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mq-1x1.vue"
+    },
+    "./mq-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mq-4x3.vue"
+    },
+    "./mr-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mr-1x1.vue"
+    },
+    "./mr-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mr-4x3.vue"
+    },
+    "./ms-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/ms-1x1.vue"
+    },
+    "./ms-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/ms-4x3.vue"
+    },
+    "./mt-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mt-1x1.vue"
+    },
+    "./mt-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mt-4x3.vue"
+    },
+    "./mu-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mu-1x1.vue"
+    },
+    "./mu-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mu-4x3.vue"
+    },
+    "./mv-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mv-1x1.vue"
+    },
+    "./mv-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mv-4x3.vue"
+    },
+    "./mw-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mw-1x1.vue"
+    },
+    "./mw-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mw-4x3.vue"
+    },
+    "./mx-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mx-1x1.vue"
+    },
+    "./mx-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mx-4x3.vue"
+    },
+    "./my-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/my-1x1.vue"
+    },
+    "./my-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/my-4x3.vue"
+    },
+    "./mz-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mz-1x1.vue"
+    },
+    "./mz-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mz-4x3.vue"
+    },
+    "./na-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/na-1x1.vue"
+    },
+    "./na-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/na-4x3.vue"
+    },
+    "./nc-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nc-1x1.vue"
+    },
+    "./nc-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nc-4x3.vue"
+    },
+    "./ne-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/ne-1x1.vue"
+    },
+    "./ne-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/ne-4x3.vue"
+    },
+    "./nf-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nf-1x1.vue"
+    },
+    "./nf-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nf-4x3.vue"
+    },
+    "./ng-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/ng-1x1.vue"
+    },
+    "./ng-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/ng-4x3.vue"
+    },
+    "./ni-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/ni-1x1.vue"
+    },
+    "./ni-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/ni-4x3.vue"
+    },
+    "./nl-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nl-1x1.vue"
+    },
+    "./nl-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nl-4x3.vue"
+    },
+    "./no-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/no-1x1.vue"
+    },
+    "./no-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/no-4x3.vue"
+    },
+    "./np-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/np-1x1.vue"
+    },
+    "./np-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/np-4x3.vue"
+    },
+    "./nr-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nr-1x1.vue"
+    },
+    "./nr-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nr-4x3.vue"
+    },
+    "./nu-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nu-1x1.vue"
+    },
+    "./nu-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nu-4x3.vue"
+    },
+    "./nz-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nz-1x1.vue"
+    },
+    "./nz-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nz-4x3.vue"
+    },
+    "./om-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/om-1x1.vue"
+    },
+    "./om-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/om-4x3.vue"
+    },
+    "./pa-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pa-1x1.vue"
+    },
+    "./pa-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pa-4x3.vue"
+    },
+    "./pc-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pc-1x1.vue"
+    },
+    "./pc-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pc-4x3.vue"
+    },
+    "./pe-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pe-1x1.vue"
+    },
+    "./pe-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pe-4x3.vue"
+    },
+    "./pf-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pf-1x1.vue"
+    },
+    "./pf-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pf-4x3.vue"
+    },
+    "./pg-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pg-1x1.vue"
+    },
+    "./pg-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pg-4x3.vue"
+    },
+    "./ph-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/ph-1x1.vue"
+    },
+    "./ph-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/ph-4x3.vue"
+    },
+    "./pk-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pk-1x1.vue"
+    },
+    "./pk-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pk-4x3.vue"
+    },
+    "./pl-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pl-1x1.vue"
+    },
+    "./pl-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pl-4x3.vue"
+    },
+    "./pm-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pm-1x1.vue"
+    },
+    "./pm-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pm-4x3.vue"
+    },
+    "./pn-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pn-1x1.vue"
+    },
+    "./pn-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pn-4x3.vue"
+    },
+    "./pr-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pr-1x1.vue"
+    },
+    "./pr-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pr-4x3.vue"
+    },
+    "./ps-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/ps-1x1.vue"
+    },
+    "./ps-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/ps-4x3.vue"
+    },
+    "./pt-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pt-1x1.vue"
+    },
+    "./pt-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pt-4x3.vue"
+    },
+    "./pw-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pw-1x1.vue"
+    },
+    "./pw-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pw-4x3.vue"
+    },
+    "./py-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/py-1x1.vue"
+    },
+    "./py-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/py-4x3.vue"
+    },
+    "./qa-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/qa-1x1.vue"
+    },
+    "./qa-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/qa-4x3.vue"
+    },
+    "./re-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/re-1x1.vue"
+    },
+    "./re-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/re-4x3.vue"
+    },
+    "./ro-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/ro-1x1.vue"
+    },
+    "./ro-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/ro-4x3.vue"
+    },
+    "./rs-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rs-1x1.vue"
+    },
+    "./rs-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rs-4x3.vue"
+    },
+    "./ru-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/ru-1x1.vue"
+    },
+    "./ru-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/ru-4x3.vue"
+    },
+    "./rw-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rw-1x1.vue"
+    },
+    "./rw-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rw-4x3.vue"
+    },
+    "./sa-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sa-1x1.vue"
+    },
+    "./sa-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sa-4x3.vue"
+    },
+    "./sb-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sb-1x1.vue"
+    },
+    "./sb-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sb-4x3.vue"
+    },
+    "./sc-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sc-1x1.vue"
+    },
+    "./sc-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sc-4x3.vue"
+    },
+    "./sd-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sd-1x1.vue"
+    },
+    "./sd-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sd-4x3.vue"
+    },
+    "./se-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/se-1x1.vue"
+    },
+    "./se-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/se-4x3.vue"
+    },
+    "./sg-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sg-1x1.vue"
+    },
+    "./sg-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sg-4x3.vue"
+    },
+    "./sh-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sh-1x1.vue"
+    },
+    "./sh-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sh-4x3.vue"
+    },
+    "./sh-ac-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sh-ac-1x1.vue"
+    },
+    "./sh-ac-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sh-ac-4x3.vue"
+    },
+    "./sh-hl-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sh-hl-1x1.vue"
+    },
+    "./sh-hl-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sh-hl-4x3.vue"
+    },
+    "./sh-ta-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sh-ta-1x1.vue"
+    },
+    "./sh-ta-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sh-ta-4x3.vue"
+    },
+    "./si-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/si-1x1.vue"
+    },
+    "./si-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/si-4x3.vue"
+    },
+    "./sj-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sj-1x1.vue"
+    },
+    "./sj-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sj-4x3.vue"
+    },
+    "./sk-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sk-1x1.vue"
+    },
+    "./sk-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sk-4x3.vue"
+    },
+    "./sl-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sl-1x1.vue"
+    },
+    "./sl-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sl-4x3.vue"
+    },
+    "./sm-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sm-1x1.vue"
+    },
+    "./sm-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sm-4x3.vue"
+    },
+    "./sn-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sn-1x1.vue"
+    },
+    "./sn-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sn-4x3.vue"
+    },
+    "./so-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/so-1x1.vue"
+    },
+    "./so-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/so-4x3.vue"
+    },
+    "./sr-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sr-1x1.vue"
+    },
+    "./sr-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sr-4x3.vue"
+    },
+    "./ss-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/ss-1x1.vue"
+    },
+    "./ss-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/ss-4x3.vue"
+    },
+    "./st-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/st-1x1.vue"
+    },
+    "./st-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/st-4x3.vue"
+    },
+    "./sv-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sv-1x1.vue"
+    },
+    "./sv-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sv-4x3.vue"
+    },
+    "./sx-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sx-1x1.vue"
+    },
+    "./sx-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sx-4x3.vue"
+    },
+    "./sy-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sy-1x1.vue"
+    },
+    "./sy-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sy-4x3.vue"
+    },
+    "./sz-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sz-1x1.vue"
+    },
+    "./sz-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sz-4x3.vue"
+    },
+    "./tc-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tc-1x1.vue"
+    },
+    "./tc-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tc-4x3.vue"
+    },
+    "./td-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/td-1x1.vue"
+    },
+    "./td-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/td-4x3.vue"
+    },
+    "./tf-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tf-1x1.vue"
+    },
+    "./tf-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tf-4x3.vue"
+    },
+    "./tg-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tg-1x1.vue"
+    },
+    "./tg-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tg-4x3.vue"
+    },
+    "./th-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/th-1x1.vue"
+    },
+    "./th-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/th-4x3.vue"
+    },
+    "./tj-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tj-1x1.vue"
+    },
+    "./tj-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tj-4x3.vue"
+    },
+    "./tk-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tk-1x1.vue"
+    },
+    "./tk-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tk-4x3.vue"
+    },
+    "./tl-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tl-1x1.vue"
+    },
+    "./tl-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tl-4x3.vue"
+    },
+    "./tm-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tm-1x1.vue"
+    },
+    "./tm-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tm-4x3.vue"
+    },
+    "./tn-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tn-1x1.vue"
+    },
+    "./tn-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tn-4x3.vue"
+    },
+    "./to-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/to-1x1.vue"
+    },
+    "./to-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/to-4x3.vue"
+    },
+    "./tr-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tr-1x1.vue"
+    },
+    "./tr-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tr-4x3.vue"
+    },
+    "./tt-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tt-1x1.vue"
+    },
+    "./tt-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tt-4x3.vue"
+    },
+    "./tv-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tv-1x1.vue"
+    },
+    "./tv-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tv-4x3.vue"
+    },
+    "./tw-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tw-1x1.vue"
+    },
+    "./tw-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tw-4x3.vue"
+    },
+    "./tz-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tz-1x1.vue"
+    },
+    "./tz-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tz-4x3.vue"
+    },
+    "./ua-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/ua-1x1.vue"
+    },
+    "./ua-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/ua-4x3.vue"
+    },
+    "./ug-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/ug-1x1.vue"
+    },
+    "./ug-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/ug-4x3.vue"
+    },
+    "./um-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/um-1x1.vue"
+    },
+    "./um-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/um-4x3.vue"
+    },
+    "./un-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/un-1x1.vue"
+    },
+    "./un-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/un-4x3.vue"
+    },
+    "./us-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/us-1x1.vue"
+    },
+    "./us-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/us-4x3.vue"
+    },
+    "./uy-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/uy-1x1.vue"
+    },
+    "./uy-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/uy-4x3.vue"
+    },
+    "./uz-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/uz-1x1.vue"
+    },
+    "./uz-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/uz-4x3.vue"
+    },
+    "./va-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/va-1x1.vue"
+    },
+    "./va-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/va-4x3.vue"
+    },
+    "./vc-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vc-1x1.vue"
+    },
+    "./vc-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vc-4x3.vue"
+    },
+    "./ve-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/ve-1x1.vue"
+    },
+    "./ve-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/ve-4x3.vue"
+    },
+    "./vg-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vg-1x1.vue"
+    },
+    "./vg-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vg-4x3.vue"
+    },
+    "./vi-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vi-1x1.vue"
+    },
+    "./vi-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vi-4x3.vue"
+    },
+    "./vn-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vn-1x1.vue"
+    },
+    "./vn-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vn-4x3.vue"
+    },
+    "./vu-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vu-1x1.vue"
+    },
+    "./vu-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vu-4x3.vue"
+    },
+    "./wf-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wf-1x1.vue"
+    },
+    "./wf-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wf-4x3.vue"
+    },
+    "./ws-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/ws-1x1.vue"
+    },
+    "./ws-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/ws-4x3.vue"
+    },
+    "./xk-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/x/xk-1x1.vue"
+    },
+    "./xk-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/x/xk-4x3.vue"
+    },
+    "./xx-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/x/xx-1x1.vue"
+    },
+    "./xx-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/x/xx-4x3.vue"
+    },
+    "./ye-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/ye-1x1.vue"
+    },
+    "./ye-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/ye-4x3.vue"
+    },
+    "./yt-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yt-1x1.vue"
+    },
+    "./yt-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yt-4x3.vue"
+    },
+    "./za-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/z/za-1x1.vue"
+    },
+    "./za-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/z/za-4x3.vue"
+    },
+    "./zm-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/z/zm-1x1.vue"
+    },
+    "./zm-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/z/zm-4x3.vue"
+    },
+    "./zw-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/z/zw-1x1.vue"
+    },
+    "./zw-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/z/zw-4x3.vue"
+    },
+    "./ac-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/ac-1x1.vue"
+    },
+    "./ac-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/ac-4x3.vue"
+    },
+    "./ea-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/ea-1x1.vue"
+    },
+    "./ea-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/ea-4x3.vue"
+    },
+    "./ta-1x1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/ta-1x1.vue"
+    },
+    "./ta-4x3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/ta-4x3.vue"
+    },
+    "./*": "./*"
+  },
+  "dependencies": {
+    "@iconify/css-vue": "^1.0.0"
+  },
+  "repository": "github:iconify/icons-vue#flag"
+}

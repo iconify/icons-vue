@@ -1,0 +1,9 @@
+.uv-hdobvg {
+  fill: var(--svg-color--fff, #fff);
+  stroke: var(--svg-color--000, #000);
+  stroke-dashoffset: 1;
+  stroke-linecap: square;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("m100 125.8l22 68.2h72l-58 42.2l22.1 68.2l-58-42.1l-58 42.1l22-68.2L6 194h71.8z");
+}

@@ -1,0 +1,7 @@
+.agebetbkg {
+  fill: none;
+  stroke: var(--svg-color--00a400, #00a400);
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--2-2px, 2.2px);
+  d: path("M235 206.6c3.4-9.5 10-25.6 10.7-25.6M227 226.4c-.6-6.7-4-24.7-4.3-26.5");
+}

@@ -1,0 +1,10 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/z/z-8om301c.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":2048,"height":2048};
+const content = `<path class="z-8om301c"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent-mdl2:double-chevron-right-12" /></template>

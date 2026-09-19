@@ -1,0 +1,17 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/f/ft5dv1b6b.css';
+import '../../css/h/h3q6m3bjh.css';
+import '../../css/t/tpaw2mbyj.css';
+import '../../css/x/xfsxv3b1x.css';
+import '../../css/f/fr236kbdl.css';
+import '../../css/g/gew6o9bah.css';
+import '../../css/h/htihj0m8a.css';
+import '../../css/y/ycsireb8s.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":20,"height":20};
+const content = `<g class="ft5dv1b6b"><path fill="url(#SVGghoXCeMa)" class="h3q6m3bjh"/><path fill="url(#SVG9eiebd3r)" class="tpaw2mbyj"/><path fill="url(#SVGWlBmidWN)" class="tpaw2mbyj"/><defs><linearGradient id="SVG9eiebd3r" x1="2" x2="15.703" y1="-4.5" y2="13.708" gradientUnits="userSpaceOnUse"><stop class="xfsxv3b1x"/><stop offset="1" class="fr236kbdl"/></linearGradient><linearGradient id="SVGWlBmidWN" x1="10" x2="14.161" y1="6.313" y2="17.571" gradientUnits="userSpaceOnUse"><stop offset=".125" class="gew6o9bah"/><stop offset=".769" class="htihj0m8a"/></linearGradient><radialGradient id="SVGghoXCeMa" cx="0" cy="0" r="1" gradientTransform="matrix(7 0 0 .9275 1.5 10)" gradientUnits="userSpaceOnUse"><stop class="fr236kbdl"/><stop offset="1" class="ycsireb8s"/></radialGradient></defs></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent-color:send-20" /></template>

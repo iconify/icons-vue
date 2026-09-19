@@ -1,16 +1,15 @@
 # @iconify-vue/feather
 
-Icon set prefix: **feather**
+⚠️ This icon set is deprecated and no longer maintained. Use it at your own risk.
 
-Icon set name: **Feather Icons**
 
-Author: **Cole Bemis**
+**Feather Icons**
 
-License: **[MIT](https://github.com/feathericons/feather/blob/master/LICENSE)**
+Author: [Cole Bemis](https://github.com/feathericons/feather)
 
-Repository: **https://github.com/feathericons/feather**
+License: [MIT](https://github.com/feathericons/feather/blob/master/LICENSE)
 
-Browse all icons: **[Preview Feather Icons](https://icon-sets.iconify.design/feather/)**
+Browse all icons: [preview Feather Icons on Iconify](https://icon-sets.iconify.design/feather/)
 
 ## Installation
 

@@ -1,0 +1,871 @@
+{
+  "name": "@iconify-vue/gcp",
+  "type": "module",
+  "version": "1.0.3",
+  "homepage": "https://icon-sets.iconify.design/gcp/",
+  "bugs": "https://github.com/iconify/icons-vue/issues",
+  "license": "Apache-2.0",
+  "exports": {
+    "./access-context-manager": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/access-context-manager.vue"
+    },
+    "./administration": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/administration.vue"
+    },
+    "./advanced-agent-modeling": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/advanced-agent-modeling.vue"
+    },
+    "./advanced-solutions-lab": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/advanced-solutions-lab.vue"
+    },
+    "./agent-assist": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/agent-assist.vue"
+    },
+    "./ai-hub": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/ai-hub.vue"
+    },
+    "./ai-platform": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/ai-platform.vue"
+    },
+    "./ai-platform-unified": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/ai-platform-unified.vue"
+    },
+    "./analytics-hub": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/analytics-hub.vue"
+    },
+    "./anthos": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/anthos.vue"
+    },
+    "./anthos-config-management": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/anthos-config-management.vue"
+    },
+    "./anthos-service-mesh": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/anthos-service-mesh.vue"
+    },
+    "./api": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/api.vue"
+    },
+    "./api-analytics": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/api-analytics.vue"
+    },
+    "./api-monetization": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/api-monetization.vue"
+    },
+    "./apigee-api-platform": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/apigee-api-platform.vue"
+    },
+    "./apigee-sense": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/apigee-sense.vue"
+    },
+    "./app-engine": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/app-engine.vue"
+    },
+    "./artifact-registry": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/artifact-registry.vue"
+    },
+    "./asset-inventory": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/asset-inventory.vue"
+    },
+    "./assured-workloads": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/assured-workloads.vue"
+    },
+    "./automl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/automl.vue"
+    },
+    "./automl-natural-language": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/automl-natural-language.vue"
+    },
+    "./automl-tables": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/automl-tables.vue"
+    },
+    "./automl-translation": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/automl-translation.vue"
+    },
+    "./automl-video-intelligence": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/automl-video-intelligence.vue"
+    },
+    "./automl-vision": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/automl-vision.vue"
+    },
+    "./bare-metal-solutions": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bare-metal-solutions.vue"
+    },
+    "./batch": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/batch.vue"
+    },
+    "./beyondcorp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/beyondcorp.vue"
+    },
+    "./bigquery": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bigquery.vue"
+    },
+    "./bigtable": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bigtable.vue"
+    },
+    "./billing": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/billing.vue"
+    },
+    "./binary-authorization": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/binary-authorization.vue"
+    },
+    "./catalog": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/catalog.vue"
+    },
+    "./certificate-authority-service": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/certificate-authority-service.vue"
+    },
+    "./certificate-manager": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/certificate-manager.vue"
+    },
+    "./cloud-api-gateway": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloud-api-gateway.vue"
+    },
+    "./cloud-apis": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloud-apis.vue"
+    },
+    "./cloud-armor": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloud-armor.vue"
+    },
+    "./cloud-asset-inventory": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloud-asset-inventory.vue"
+    },
+    "./cloud-audit-logs": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloud-audit-logs.vue"
+    },
+    "./cloud-build": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloud-build.vue"
+    },
+    "./cloud-cdn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloud-cdn.vue"
+    },
+    "./cloud-code": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloud-code.vue"
+    },
+    "./cloud-composer": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloud-composer.vue"
+    },
+    "./cloud-data-fusion": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloud-data-fusion.vue"
+    },
+    "./cloud-deploy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloud-deploy.vue"
+    },
+    "./cloud-deployment-manager": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloud-deployment-manager.vue"
+    },
+    "./cloud-dns": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloud-dns.vue"
+    },
+    "./cloud-domains": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloud-domains.vue"
+    },
+    "./cloud-ekm": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloud-ekm.vue"
+    },
+    "./cloud-endpoints": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloud-endpoints.vue"
+    },
+    "./cloud-external-ip-addresses": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloud-external-ip-addresses.vue"
+    },
+    "./cloud-firewall-rules": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloud-firewall-rules.vue"
+    },
+    "./cloud-for-marketing": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloud-for-marketing.vue"
+    },
+    "./cloud-functions": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloud-functions.vue"
+    },
+    "./cloud-generic": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloud-generic.vue"
+    },
+    "./cloud-gpu": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloud-gpu.vue"
+    },
+    "./cloud-healthcare-api": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloud-healthcare-api.vue"
+    },
+    "./cloud-healthcare-marketplace": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloud-healthcare-marketplace.vue"
+    },
+    "./cloud-hsm": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloud-hsm.vue"
+    },
+    "./cloud-ids": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloud-ids.vue"
+    },
+    "./cloud-inference-api": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloud-inference-api.vue"
+    },
+    "./cloud-interconnect": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloud-interconnect.vue"
+    },
+    "./cloud-jobs-api": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloud-jobs-api.vue"
+    },
+    "./cloud-load-balancing": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloud-load-balancing.vue"
+    },
+    "./cloud-logging": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloud-logging.vue"
+    },
+    "./cloud-media-edge": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloud-media-edge.vue"
+    },
+    "./cloud-monitoring": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloud-monitoring.vue"
+    },
+    "./cloud-nat": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloud-nat.vue"
+    },
+    "./cloud-natural-language-api": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloud-natural-language-api.vue"
+    },
+    "./cloud-network": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloud-network.vue"
+    },
+    "./cloud-ops": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloud-ops.vue"
+    },
+    "./cloud-optimization-ai": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloud-optimization-ai.vue"
+    },
+    "./cloud-optimization-ai-fleet-routing-api": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloud-optimization-ai-fleet-routing-api.vue"
+    },
+    "./cloud-router": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloud-router.vue"
+    },
+    "./cloud-routes": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloud-routes.vue"
+    },
+    "./cloud-run": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloud-run.vue"
+    },
+    "./cloud-run-for-anthos": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloud-run-for-anthos.vue"
+    },
+    "./cloud-scheduler": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloud-scheduler.vue"
+    },
+    "./cloud-security-scanner": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloud-security-scanner.vue"
+    },
+    "./cloud-shell": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloud-shell.vue"
+    },
+    "./cloud-spanner": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloud-spanner.vue"
+    },
+    "./cloud-sql": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloud-sql.vue"
+    },
+    "./cloud-storage": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloud-storage.vue"
+    },
+    "./cloud-tasks": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloud-tasks.vue"
+    },
+    "./cloud-test-lab": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloud-test-lab.vue"
+    },
+    "./cloud-tpu": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloud-tpu.vue"
+    },
+    "./cloud-translation-api": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloud-translation-api.vue"
+    },
+    "./cloud-vision-api": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloud-vision-api.vue"
+    },
+    "./cloud-vpn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloud-vpn.vue"
+    },
+    "./compute-engine": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/compute-engine.vue"
+    },
+    "./configuration-management": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/configuration-management.vue"
+    },
+    "./connectivity-test": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/connectivity-test.vue"
+    },
+    "./connectors": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/connectors.vue"
+    },
+    "./contact-center-ai": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/contact-center-ai.vue"
+    },
+    "./container-optimized-os": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/container-optimized-os.vue"
+    },
+    "./container-registry": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/container-registry.vue"
+    },
+    "./data-catalog": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/data-catalog.vue"
+    },
+    "./data-labeling": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/data-labeling.vue"
+    },
+    "./data-layers": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/data-layers.vue"
+    },
+    "./data-loss-prevention-api": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/data-loss-prevention-api.vue"
+    },
+    "./data-qna": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/data-qna.vue"
+    },
+    "./data-studio": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/data-studio.vue"
+    },
+    "./data-transfer": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/data-transfer.vue"
+    },
+    "./database-migration-service": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/database-migration-service.vue"
+    },
+    "./dataflow": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dataflow.vue"
+    },
+    "./datalab": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/datalab.vue"
+    },
+    "./dataplex": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dataplex.vue"
+    },
+    "./datapol": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/datapol.vue"
+    },
+    "./dataprep": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dataprep.vue"
+    },
+    "./dataproc": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dataproc.vue"
+    },
+    "./dataproc-metastore": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dataproc-metastore.vue"
+    },
+    "./datashare": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/datashare.vue"
+    },
+    "./datastore": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/datastore.vue"
+    },
+    "./datastream": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/datastream.vue"
+    },
+    "./debugger": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/debugger.vue"
+    },
+    "./developer-portal": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/developer-portal.vue"
+    },
+    "./dialogflow-cx": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dialogflow-cx.vue"
+    },
+    "./dialogflow-insights": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dialogflow-insights.vue"
+    },
+    "./document-ai": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/document-ai.vue"
+    },
+    "./early-access-center": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/early-access-center.vue"
+    },
+    "./error-reporting": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/error-reporting.vue"
+    },
+    "./eventarc": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/eventarc.vue"
+    },
+    "./filestore": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/filestore.vue"
+    },
+    "./financial-services-marketplace": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/financial-services-marketplace.vue"
+    },
+    "./firestore": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/firestore.vue"
+    },
+    "./fleet-engine": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fleet-engine.vue"
+    },
+    "./free-trial": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/free-trial.vue"
+    },
+    "./game-servers": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/game-servers.vue"
+    },
+    "./gce-systems-management": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gce-systems-management.vue"
+    },
+    "./genomics": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/genomics.vue"
+    },
+    "./gke-on-prem": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gke-on-prem.vue"
+    },
+    "./google-cloud-marketplace": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/google-cloud-marketplace.vue"
+    },
+    "./google-kubernetes-engine": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/google-kubernetes-engine.vue"
+    },
+    "./google-maps-platform": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/google-maps-platform.vue"
+    },
+    "./healthcare-nlp-api": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/healthcare-nlp-api.vue"
+    },
+    "./home": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/home.vue"
+    },
+    "./identity-and-access-management": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/identity-and-access-management.vue"
+    },
+    "./identity-aware-proxy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/identity-aware-proxy.vue"
+    },
+    "./identity-platform": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/identity-platform.vue"
+    },
+    "./iot-core": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/iot-core.vue"
+    },
+    "./iot-edge": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/iot-edge.vue"
+    },
+    "./key-access-justifications": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/key-access-justifications.vue"
+    },
+    "./key-management-service": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/key-management-service.vue"
+    },
+    "./kuberun": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kuberun.vue"
+    },
+    "./launcher": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/launcher.vue"
+    },
+    "./local-ssd": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/local-ssd.vue"
+    },
+    "./managed-service-for-microsoft-active-directory": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/managed-service-for-microsoft-active-directory.vue"
+    },
+    "./media-translation-api": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-translation-api.vue"
+    },
+    "./memorystore": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/memorystore.vue"
+    },
+    "./migrate-for-anthos": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/migrate-for-anthos.vue"
+    },
+    "./migrate-for-compute-engine": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/migrate-for-compute-engine.vue"
+    },
+    "./my-cloud": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/my-cloud.vue"
+    },
+    "./network-connectivity-center": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/network-connectivity-center.vue"
+    },
+    "./network-intelligence-center": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/network-intelligence-center.vue"
+    },
+    "./network-security": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/network-security.vue"
+    },
+    "./network-tiers": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/network-tiers.vue"
+    },
+    "./network-topology": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/network-topology.vue"
+    },
+    "./onboarding": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/onboarding.vue"
+    },
+    "./os-configuration-management": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/os-configuration-management.vue"
+    },
+    "./os-inventory-management": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/os-inventory-management.vue"
+    },
+    "./os-patch-management": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/os-patch-management.vue"
+    },
+    "./partner-interconnect": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/partner-interconnect.vue"
+    },
+    "./partner-portal": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/partner-portal.vue"
+    },
+    "./performance-dashboard": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/performance-dashboard.vue"
+    },
+    "./permissions": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/permissions.vue"
+    },
+    "./persistent-disk": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/persistent-disk.vue"
+    },
+    "./phishing-protection": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/phishing-protection.vue"
+    },
+    "./policy-analyzer": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/policy-analyzer.vue"
+    },
+    "./premium-network-tier": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/premium-network-tier.vue"
+    },
+    "./private-connectivity": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/private-connectivity.vue"
+    },
+    "./private-service-connect": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/private-service-connect.vue"
+    },
+    "./producer-portal": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/producer-portal.vue"
+    },
+    "./profiler": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/profiler.vue"
+    },
+    "./project": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/project.vue"
+    },
+    "./pubsub": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pubsub.vue"
+    },
+    "./quantum-engine": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/quantum-engine.vue"
+    },
+    "./quotas": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/quotas.vue"
+    },
+    "./real-world-insights": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/real-world-insights.vue"
+    },
+    "./recommendations-ai": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/recommendations-ai.vue"
+    },
+    "./release-notes": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/release-notes.vue"
+    },
+    "./retail-api": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/retail-api.vue"
+    },
+    "./risk-manager": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/risk-manager.vue"
+    },
+    "./runtime-config": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/runtime-config.vue"
+    },
+    "./secret-manager": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/secret-manager.vue"
+    },
+    "./security": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/security.vue"
+    },
+    "./security-command-center": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/security-command-center.vue"
+    },
+    "./security-health-advisor": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/security-health-advisor.vue"
+    },
+    "./security-key-enforcement": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/security-key-enforcement.vue"
+    },
+    "./service-discovery": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/service-discovery.vue"
+    },
+    "./speech-to-text": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/speech-to-text.vue"
+    },
+    "./stackdriver": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stackdriver.vue"
+    },
+    "./standard-network-tier": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/standard-network-tier.vue"
+    },
+    "./stream-suite": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stream-suite.vue"
+    },
+    "./support": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/support.vue"
+    },
+    "./tensorflow-enterprise": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tensorflow-enterprise.vue"
+    },
+    "./text-to-speech": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/text-to-speech.vue"
+    },
+    "./tools-for-powershell": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tools-for-powershell.vue"
+    },
+    "./trace": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/trace.vue"
+    },
+    "./traffic-director": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/traffic-director.vue"
+    },
+    "./transfer": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/transfer.vue"
+    },
+    "./transfer-appliance": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/transfer-appliance.vue"
+    },
+    "./user-preferences": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/user-preferences.vue"
+    },
+    "./vertexai": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vertexai.vue"
+    },
+    "./video-intelligence-api": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/video-intelligence-api.vue"
+    },
+    "./virtual-private-cloud": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/virtual-private-cloud.vue"
+    },
+    "./visual-inspection": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/visual-inspection.vue"
+    },
+    "./vmware-engine": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vmware-engine.vue"
+    },
+    "./web-risk": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/web-risk.vue"
+    },
+    "./web-security-scanner": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/web-security-scanner.vue"
+    },
+    "./workflows": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/workflows.vue"
+    },
+    "./workload-identity-pool": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/workload-identity-pool.vue"
+    },
+    "./*": "./*"
+  },
+  "dependencies": {
+    "@iconify/css-vue": "^1.0.0"
+  },
+  "repository": "github:iconify/icons-vue#gcp"
+}

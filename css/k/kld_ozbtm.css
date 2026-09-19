@@ -1,0 +1,8 @@
+.kld_ozbtm {
+  fill: var(--svg-color--fff, #FFF);
+  fill-rule: nonzero;
+  stroke: var(--svg-color--000, #000);
+  stroke-linejoin: bevel;
+  stroke-width: var(--svg-stroke-width--0-45px, 0.45px);
+  d: path("M155.609 93.612v-3.246c-1.126.441-1.463 1.527-1.817 2.264c.139-3.292-1.854-6.83-3.372-7.728c-1.518.898-3.548 4.512-3.371 7.728c-.364-.733-.691-1.823-1.818-2.264v3.246z");
+}

@@ -1,0 +1,5 @@
+.spovitbng {
+  fill: var(--svg-color--ffc400, #FFC400);
+  fill-rule: nonzero;
+  d: path("M.5 50.5h300v100H.5z");
+}

@@ -1,0 +1,7 @@
+.cotiombsl {
+  stroke: var(--svg-color--000, #000);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--0-35px, 0.35px);
+  d: path("m140.543 80.61l8.056 3.769c.422-.589 1.228-.972 2.006-.972c.779 0 1.585.383 2.006.972l8.056-3.769l.497 11.916l-8.535-5.087c-.643.677-1.139 1.025-2.024 1.025c-.885.001-1.465-.425-2.025-1.025l-8.593 5.029z");
+}

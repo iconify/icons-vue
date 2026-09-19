@@ -1,0 +1,7 @@
+.ie_g_gpxw {
+  stroke: var(--svg-color--000, #000);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--0-409px, 0.409px);
+  d: path("m150.222 122.492l-3.139.643m3.139-13.642l4.591 1.335m-4.591-1.335l-4.592 1.561m4.599.733l3.136.849m-3.136-.844l-3.179 1");
+}

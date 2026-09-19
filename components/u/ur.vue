@@ -1,0 +1,13 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/b/bc1fd0lxe.css';
+import '../../css/m/mf-5hnb6c.css';
+import '../../css/t/tlgsa5b8h.css';
+import '../../css/n/nm-upaclw.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":512,"height":512};
+const content = `<mask id="circleFlagsUr0"><circle class="bc1fd0lxe"/></mask><g mask="url(#circleFlagsUr0)"><path class="mf-5hnb6c"/><path class="tlgsa5b8h"/><path class="nm-upaclw"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="circle-flags:ur" /></template>

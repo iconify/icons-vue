@@ -1,0 +1,12 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/n/n1lsf0bnc.css';
+import '../../css/n/nxega0mee.css';
+import '../../css/f/fgrm5wbat.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":16,"height":16};
+const content = `<g class="n1lsf0bnc"><path class="nxega0mee"/><path class="fgrm5wbat"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="bi:box-arrow-in-up" /></template>

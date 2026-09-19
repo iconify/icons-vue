@@ -1,0 +1,6 @@
+.hlc_mks-n {
+  fill: none;
+  stroke: var(--svg-color--fff, #fff);
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M50 12L17 31m0 0l-33-19m33 19v38m0 0l-33 19m33-19l33 19m0 0v38m0-38l33-19m0 0l33 19M83 69V31m0 0l33-19M83 31L50 12m0 0v-45");
+}

@@ -1,0 +1,10 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/v/vbnh1vbfo.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":100,"height":100};
+const content = `<path class="vbnh1vbfo"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="gis:flag-start" /></template>

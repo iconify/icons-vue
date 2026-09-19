@@ -1,0 +1,3339 @@
+{
+  "name": "@iconify-vue/cib",
+  "type": "module",
+  "version": "1.0.4",
+  "homepage": "https://icon-sets.iconify.design/cib/",
+  "bugs": "https://github.com/iconify/icons-vue/issues",
+  "license": "CC0-1.0",
+  "exports": {
+    "./500px": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/5/500px.vue"
+    },
+    "./500px-5": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/5/500px-5.vue"
+    },
+    "./about-me": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/about-me.vue"
+    },
+    "./abstract": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/abstract.vue"
+    },
+    "./acm": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/acm.vue"
+    },
+    "./addthis": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/addthis.vue"
+    },
+    "./adguard": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/adguard.vue"
+    },
+    "./adobe": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/adobe.vue"
+    },
+    "./adobe-acrobat-reader": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/adobe-acrobat-reader.vue"
+    },
+    "./adobe-after-effects": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/adobe-after-effects.vue"
+    },
+    "./adobe-audition": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/adobe-audition.vue"
+    },
+    "./adobe-creative-cloud": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/adobe-creative-cloud.vue"
+    },
+    "./adobe-dreamweaver": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/adobe-dreamweaver.vue"
+    },
+    "./adobe-illustrator": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/adobe-illustrator.vue"
+    },
+    "./adobe-indesign": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/adobe-indesign.vue"
+    },
+    "./adobe-lightroom": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/adobe-lightroom.vue"
+    },
+    "./adobe-lightroom-classic": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/adobe-lightroom-classic.vue"
+    },
+    "./adobe-photoshop": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/adobe-photoshop.vue"
+    },
+    "./adobe-premiere": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/adobe-premiere.vue"
+    },
+    "./adobe-typekit": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/adobe-typekit.vue"
+    },
+    "./adobe-xd": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/adobe-xd.vue"
+    },
+    "./airbnb": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/airbnb.vue"
+    },
+    "./algolia": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/algolia.vue"
+    },
+    "./alipay": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/alipay.vue"
+    },
+    "./allocine": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/allocine.vue"
+    },
+    "./amazon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/amazon.vue"
+    },
+    "./amazon-aws": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/amazon-aws.vue"
+    },
+    "./amazon-pay": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/amazon-pay.vue"
+    },
+    "./amd": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/amd.vue"
+    },
+    "./american-express": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/american-express.vue"
+    },
+    "./anaconda": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/anaconda.vue"
+    },
+    "./analogue": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/analogue.vue"
+    },
+    "./android": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/android.vue"
+    },
+    "./android-alt": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/android-alt.vue"
+    },
+    "./angellist": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/angellist.vue"
+    },
+    "./angular": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/angular.vue"
+    },
+    "./angular-universal": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/angular-universal.vue"
+    },
+    "./ansible": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/ansible.vue"
+    },
+    "./apache": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/apache.vue"
+    },
+    "./apache-airflow": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/apache-airflow.vue"
+    },
+    "./apache-flink": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/apache-flink.vue"
+    },
+    "./apache-spark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/apache-spark.vue"
+    },
+    "./app-store": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/app-store.vue"
+    },
+    "./app-store-ios": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/app-store-ios.vue"
+    },
+    "./apple": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/apple.vue"
+    },
+    "./apple-music": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/apple-music.vue"
+    },
+    "./apple-pay": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/apple-pay.vue"
+    },
+    "./apple-podcasts": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/apple-podcasts.vue"
+    },
+    "./appveyor": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/appveyor.vue"
+    },
+    "./aral": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/aral.vue"
+    },
+    "./arch-linux": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arch-linux.vue"
+    },
+    "./archive-of-our-own": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/archive-of-our-own.vue"
+    },
+    "./arduino": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arduino.vue"
+    },
+    "./artstation": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/artstation.vue"
+    },
+    "./arxiv": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arxiv.vue"
+    },
+    "./asana": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/asana.vue"
+    },
+    "./at-and-t": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/at-and-t.vue"
+    },
+    "./atlassian": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/atlassian.vue"
+    },
+    "./atom": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/atom.vue"
+    },
+    "./audible": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/audible.vue"
+    },
+    "./aurelia": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/aurelia.vue"
+    },
+    "./auth0": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/auth0.vue"
+    },
+    "./automatic": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/automatic.vue"
+    },
+    "./autotask": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/autotask.vue"
+    },
+    "./aventrix": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/aventrix.vue"
+    },
+    "./azure-artifacts": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/azure-artifacts.vue"
+    },
+    "./azure-devops": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/azure-devops.vue"
+    },
+    "./azure-pipelines": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/azure-pipelines.vue"
+    },
+    "./babel": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/babel.vue"
+    },
+    "./baidu": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/baidu.vue"
+    },
+    "./bamboo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bamboo.vue"
+    },
+    "./bancontact": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bancontact.vue"
+    },
+    "./bandcamp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bandcamp.vue"
+    },
+    "./basecamp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/basecamp.vue"
+    },
+    "./bathasu": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bathasu.vue"
+    },
+    "./behance": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/behance.vue"
+    },
+    "./big-cartel": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/big-cartel.vue"
+    },
+    "./bing": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bing.vue"
+    },
+    "./bit": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bit.vue"
+    },
+    "./bitbucket": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bitbucket.vue"
+    },
+    "./bitcoin": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bitcoin.vue"
+    },
+    "./bitdefender": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bitdefender.vue"
+    },
+    "./bitly": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bitly.vue"
+    },
+    "./blackberry": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/blackberry.vue"
+    },
+    "./blender": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/blender.vue"
+    },
+    "./blogger": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/blogger.vue"
+    },
+    "./blogger-b": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/blogger-b.vue"
+    },
+    "./bluetooth": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bluetooth.vue"
+    },
+    "./bluetooth-b": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bluetooth-b.vue"
+    },
+    "./boeing": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/boeing.vue"
+    },
+    "./boost": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/boost.vue"
+    },
+    "./bootstrap": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bootstrap.vue"
+    },
+    "./bower": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bower.vue"
+    },
+    "./brand-ai": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/brand-ai.vue"
+    },
+    "./brave": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/brave.vue"
+    },
+    "./btc": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/btc.vue"
+    },
+    "./buddy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/buddy.vue"
+    },
+    "./buffer": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/buffer.vue"
+    },
+    "./buy-me-a-coffee": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/buy-me-a-coffee.vue"
+    },
+    "./buysellads": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/buysellads.vue"
+    },
+    "./buzzfeed": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/buzzfeed.vue"
+    },
+    "./c": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/c.vue"
+    },
+    "./cakephp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cakephp.vue"
+    },
+    "./campaign-monitor": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/campaign-monitor.vue"
+    },
+    "./canva": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/canva.vue"
+    },
+    "./cashapp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cashapp.vue"
+    },
+    "./cassandra": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cassandra.vue"
+    },
+    "./castro": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/castro.vue"
+    },
+    "./cc-amazon-pay": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cc-amazon-pay.vue"
+    },
+    "./cc-amex": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cc-amex.vue"
+    },
+    "./cc-apple-pay": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cc-apple-pay.vue"
+    },
+    "./cc-diners-club": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cc-diners-club.vue"
+    },
+    "./cc-discover": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cc-discover.vue"
+    },
+    "./cc-jcb": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cc-jcb.vue"
+    },
+    "./cc-mastercard": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cc-mastercard.vue"
+    },
+    "./cc-paypal": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cc-paypal.vue"
+    },
+    "./cc-stripe": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cc-stripe.vue"
+    },
+    "./cc-visa": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cc-visa.vue"
+    },
+    "./centos": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/centos.vue"
+    },
+    "./cevo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cevo.vue"
+    },
+    "./chase": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chase.vue"
+    },
+    "./chef": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chef.vue"
+    },
+    "./chromecast": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chromecast.vue"
+    },
+    "./circle": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/circle.vue"
+    },
+    "./circleci": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/circleci.vue"
+    },
+    "./cirrusci": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cirrusci.vue"
+    },
+    "./cisco": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cisco.vue"
+    },
+    "./civicrm": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/civicrm.vue"
+    },
+    "./clockify": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/clockify.vue"
+    },
+    "./clojure": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/clojure.vue"
+    },
+    "./cloudbees": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloudbees.vue"
+    },
+    "./cloudflare": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloudflare.vue"
+    },
+    "./cmake": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cmake.vue"
+    },
+    "./co-op": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/co-op.vue"
+    },
+    "./codacy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/codacy.vue"
+    },
+    "./code-climate": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/code-climate.vue"
+    },
+    "./codecademy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/codecademy.vue"
+    },
+    "./codecov": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/codecov.vue"
+    },
+    "./codeigniter": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/codeigniter.vue"
+    },
+    "./codepen": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/codepen.vue"
+    },
+    "./coderwall": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/coderwall.vue"
+    },
+    "./codesandbox": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/codesandbox.vue"
+    },
+    "./codeship": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/codeship.vue"
+    },
+    "./codewars": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/codewars.vue"
+    },
+    "./codio": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/codio.vue"
+    },
+    "./coffeescript": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/coffeescript.vue"
+    },
+    "./common-workflow-language": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/common-workflow-language.vue"
+    },
+    "./composer": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/composer.vue"
+    },
+    "./conda-forge": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/conda-forge.vue"
+    },
+    "./conekta": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/conekta.vue"
+    },
+    "./confluence": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/confluence.vue"
+    },
+    "./coreui": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/coreui.vue"
+    },
+    "./coreui-c": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/coreui-c.vue"
+    },
+    "./coursera": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/coursera.vue"
+    },
+    "./coveralls": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/coveralls.vue"
+    },
+    "./cpanel": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cpanel.vue"
+    },
+    "./cplusplus": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cplusplus.vue"
+    },
+    "./creative-commons": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/creative-commons.vue"
+    },
+    "./creative-commons-by": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/creative-commons-by.vue"
+    },
+    "./creative-commons-nc": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/creative-commons-nc.vue"
+    },
+    "./creative-commons-nc-eu": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/creative-commons-nc-eu.vue"
+    },
+    "./creative-commons-nc-jp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/creative-commons-nc-jp.vue"
+    },
+    "./creative-commons-nd": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/creative-commons-nd.vue"
+    },
+    "./creative-commons-pd": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/creative-commons-pd.vue"
+    },
+    "./creative-commons-pd-alt": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/creative-commons-pd-alt.vue"
+    },
+    "./creative-commons-remix": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/creative-commons-remix.vue"
+    },
+    "./creative-commons-sa": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/creative-commons-sa.vue"
+    },
+    "./creative-commons-sampling": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/creative-commons-sampling.vue"
+    },
+    "./creative-commons-sampling-plus": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/creative-commons-sampling-plus.vue"
+    },
+    "./creative-commons-share": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/creative-commons-share.vue"
+    },
+    "./creative-commons-zero": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/creative-commons-zero.vue"
+    },
+    "./crunchbase": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/crunchbase.vue"
+    },
+    "./crunchyroll": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/crunchyroll.vue"
+    },
+    "./css3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/css3.vue"
+    },
+    "./css3-shiled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/css3-shiled.vue"
+    },
+    "./csswizardry": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/csswizardry.vue"
+    },
+    "./d3-js": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/d3-js.vue"
+    },
+    "./dailymotion": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dailymotion.vue"
+    },
+    "./dashlane": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dashlane.vue"
+    },
+    "./dazn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dazn.vue"
+    },
+    "./dblp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dblp.vue"
+    },
+    "./debian": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/debian.vue"
+    },
+    "./deepin": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/deepin.vue"
+    },
+    "./deezer": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/deezer.vue"
+    },
+    "./delicious": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/delicious.vue"
+    },
+    "./dell": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dell.vue"
+    },
+    "./deno": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/deno.vue"
+    },
+    "./dependabot": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dependabot.vue"
+    },
+    "./designer-news": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/designer-news.vue"
+    },
+    "./dev-to": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dev-to.vue"
+    },
+    "./deviantart": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/deviantart.vue"
+    },
+    "./devrant": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/devrant.vue"
+    },
+    "./diaspora": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/diaspora.vue"
+    },
+    "./digg": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/digg.vue"
+    },
+    "./digital-ocean": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/digital-ocean.vue"
+    },
+    "./discord": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/discord.vue"
+    },
+    "./discourse": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/discourse.vue"
+    },
+    "./discover": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/discover.vue"
+    },
+    "./disqus": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/disqus.vue"
+    },
+    "./disroot": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/disroot.vue"
+    },
+    "./django": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/django.vue"
+    },
+    "./docker": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/docker.vue"
+    },
+    "./docusign": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/docusign.vue"
+    },
+    "./dot-net": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dot-net.vue"
+    },
+    "./draugiem-lv": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/draugiem-lv.vue"
+    },
+    "./dribbble": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dribbble.vue"
+    },
+    "./drone": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/drone.vue"
+    },
+    "./dropbox": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dropbox.vue"
+    },
+    "./drupal": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/drupal.vue"
+    },
+    "./dtube": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dtube.vue"
+    },
+    "./duckduckgo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/duckduckgo.vue"
+    },
+    "./dynatrace": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dynatrace.vue"
+    },
+    "./ebay": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/ebay.vue"
+    },
+    "./eclipseide": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/eclipseide.vue"
+    },
+    "./elastic": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/elastic.vue"
+    },
+    "./elastic-cloud": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/elastic-cloud.vue"
+    },
+    "./elastic-search": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/elastic-search.vue"
+    },
+    "./elastic-stack": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/elastic-stack.vue"
+    },
+    "./electron": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/electron.vue"
+    },
+    "./elementary": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/elementary.vue"
+    },
+    "./eleventy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/eleventy.vue"
+    },
+    "./ello": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/ello.vue"
+    },
+    "./elsevier": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/elsevier.vue"
+    },
+    "./emlakjet": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/emlakjet.vue"
+    },
+    "./empirekred": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/empirekred.vue"
+    },
+    "./envato": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/envato.vue"
+    },
+    "./epic-games": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/epic-games.vue"
+    },
+    "./epson": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/epson.vue"
+    },
+    "./esea": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/esea.vue"
+    },
+    "./eslint": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/eslint.vue"
+    },
+    "./ethereum": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/ethereum.vue"
+    },
+    "./etsy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/etsy.vue"
+    },
+    "./event-store": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/event-store.vue"
+    },
+    "./eventbrite": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/eventbrite.vue"
+    },
+    "./evernote": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/evernote.vue"
+    },
+    "./everplaces": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/everplaces.vue"
+    },
+    "./evry": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/evry.vue"
+    },
+    "./exercism": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/exercism.vue"
+    },
+    "./experts-exchange": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/experts-exchange.vue"
+    },
+    "./expo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/expo.vue"
+    },
+    "./eyeem": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/eyeem.vue"
+    },
+    "./f-secure": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/f-secure.vue"
+    },
+    "./facebook": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/facebook.vue"
+    },
+    "./facebook-f": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/facebook-f.vue"
+    },
+    "./faceit": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/faceit.vue"
+    },
+    "./fandango": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fandango.vue"
+    },
+    "./favro": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/favro.vue"
+    },
+    "./feathub": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/feathub.vue"
+    },
+    "./fedex": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fedex.vue"
+    },
+    "./fedora": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fedora.vue"
+    },
+    "./feedly": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/feedly.vue"
+    },
+    "./fido-alliance": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fido-alliance.vue"
+    },
+    "./figma": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/figma.vue"
+    },
+    "./filezilla": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/filezilla.vue"
+    },
+    "./firebase": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/firebase.vue"
+    },
+    "./fitbit": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fitbit.vue"
+    },
+    "./flask": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/flask.vue"
+    },
+    "./flattr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/flattr.vue"
+    },
+    "./flickr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/flickr.vue"
+    },
+    "./flipboard": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/flipboard.vue"
+    },
+    "./flutter": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/flutter.vue"
+    },
+    "./fnac": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fnac.vue"
+    },
+    "./foursquare": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/foursquare.vue"
+    },
+    "./framer": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/framer.vue"
+    },
+    "./freebsd": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/freebsd.vue"
+    },
+    "./freecodecamp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/freecodecamp.vue"
+    },
+    "./fur-affinity": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fur-affinity.vue"
+    },
+    "./furry-network": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/furry-network.vue"
+    },
+    "./garmin": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/garmin.vue"
+    },
+    "./gatsby": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gatsby.vue"
+    },
+    "./gauges": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gauges.vue"
+    },
+    "./genius": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/genius.vue"
+    },
+    "./gentoo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gentoo.vue"
+    },
+    "./geocaching": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/geocaching.vue"
+    },
+    "./gerrit": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gerrit.vue"
+    },
+    "./gg": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gg.vue"
+    },
+    "./ghost": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/ghost.vue"
+    },
+    "./gimp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gimp.vue"
+    },
+    "./git": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/git.vue"
+    },
+    "./gitea": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gitea.vue"
+    },
+    "./github": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/github.vue"
+    },
+    "./gitkraken": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gitkraken.vue"
+    },
+    "./gitlab": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gitlab.vue"
+    },
+    "./gitpod": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gitpod.vue"
+    },
+    "./gitter": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gitter.vue"
+    },
+    "./glassdoor": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/glassdoor.vue"
+    },
+    "./glitch": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/glitch.vue"
+    },
+    "./gmail": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gmail.vue"
+    },
+    "./gnu": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gnu.vue"
+    },
+    "./gnu-privacy-guard": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gnu-privacy-guard.vue"
+    },
+    "./gnu-social": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gnu-social.vue"
+    },
+    "./go": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/go.vue"
+    },
+    "./godot-engine": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/godot-engine.vue"
+    },
+    "./gog-com": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gog-com.vue"
+    },
+    "./goldenline": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/goldenline.vue"
+    },
+    "./goodreads": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/goodreads.vue"
+    },
+    "./google": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/google.vue"
+    },
+    "./google-ads": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/google-ads.vue"
+    },
+    "./google-allo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/google-allo.vue"
+    },
+    "./google-analytics": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/google-analytics.vue"
+    },
+    "./google-chrome": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/google-chrome.vue"
+    },
+    "./google-cloud": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/google-cloud.vue"
+    },
+    "./google-keep": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/google-keep.vue"
+    },
+    "./google-pay": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/google-pay.vue"
+    },
+    "./google-play": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/google-play.vue"
+    },
+    "./google-podcasts": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/google-podcasts.vue"
+    },
+    "./googles-cholar": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/googles-cholar.vue"
+    },
+    "./gov-uk": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gov-uk.vue"
+    },
+    "./gradle": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gradle.vue"
+    },
+    "./grafana": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/grafana.vue"
+    },
+    "./graphcool": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/graphcool.vue"
+    },
+    "./graphql": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/graphql.vue"
+    },
+    "./grav": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/grav.vue"
+    },
+    "./gravatar": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gravatar.vue"
+    },
+    "./greenkeeper": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/greenkeeper.vue"
+    },
+    "./greensock": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/greensock.vue"
+    },
+    "./groovy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/groovy.vue"
+    },
+    "./groupon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/groupon.vue"
+    },
+    "./grunt": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/grunt.vue"
+    },
+    "./gulp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gulp.vue"
+    },
+    "./gumroad": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gumroad.vue"
+    },
+    "./gumtree": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gumtree.vue"
+    },
+    "./habr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/habr.vue"
+    },
+    "./hackaday": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hackaday.vue"
+    },
+    "./hackerearth": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hackerearth.vue"
+    },
+    "./hackerone": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hackerone.vue"
+    },
+    "./hackerrank": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hackerrank.vue"
+    },
+    "./hackhands": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hackhands.vue"
+    },
+    "./hackster": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hackster.vue"
+    },
+    "./happycow": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/happycow.vue"
+    },
+    "./hashnode": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hashnode.vue"
+    },
+    "./haskell": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/haskell.vue"
+    },
+    "./hatena-bookmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hatena-bookmark.vue"
+    },
+    "./haxe": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/haxe.vue"
+    },
+    "./helm": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/helm.vue"
+    },
+    "./here": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/here.vue"
+    },
+    "./heroku": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/heroku.vue"
+    },
+    "./hexo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hexo.vue"
+    },
+    "./highly": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/highly.vue"
+    },
+    "./hipchat": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hipchat.vue"
+    },
+    "./hitachi": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hitachi.vue"
+    },
+    "./hockeyapp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hockeyapp.vue"
+    },
+    "./homify": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/homify.vue"
+    },
+    "./hootsuite": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hootsuite.vue"
+    },
+    "./hotjar": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hotjar.vue"
+    },
+    "./houzz": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/houzz.vue"
+    },
+    "./hp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hp.vue"
+    },
+    "./html5": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/html5.vue"
+    },
+    "./html5-shield": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/html5-shield.vue"
+    },
+    "./htmlacademy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/htmlacademy.vue"
+    },
+    "./huawei": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/huawei.vue"
+    },
+    "./hubspot": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hubspot.vue"
+    },
+    "./hulu": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hulu.vue"
+    },
+    "./humble-bundle": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/humble-bundle.vue"
+    },
+    "./iata": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/iata.vue"
+    },
+    "./ibm": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/ibm.vue"
+    },
+    "./icloud": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/icloud.vue"
+    },
+    "./iconjar": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/iconjar.vue"
+    },
+    "./icq": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/icq.vue"
+    },
+    "./ideal": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/ideal.vue"
+    },
+    "./ifixit": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/ifixit.vue"
+    },
+    "./imdb": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/imdb.vue"
+    },
+    "./indeed": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/indeed.vue"
+    },
+    "./inkscape": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/inkscape.vue"
+    },
+    "./instacart": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/instacart.vue"
+    },
+    "./instagram": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/instagram.vue"
+    },
+    "./instapaper": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/instapaper.vue"
+    },
+    "./intel": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/intel.vue"
+    },
+    "./intellijidea": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/intellijidea.vue"
+    },
+    "./intercom": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/intercom.vue"
+    },
+    "./internet-explorer": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/internet-explorer.vue"
+    },
+    "./invision": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/invision.vue"
+    },
+    "./ionic": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/ionic.vue"
+    },
+    "./issuu": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/issuu.vue"
+    },
+    "./itch-io": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/itch-io.vue"
+    },
+    "./jabber": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jabber.vue"
+    },
+    "./java": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/java.vue"
+    },
+    "./javascript": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/javascript.vue"
+    },
+    "./jekyll": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jekyll.vue"
+    },
+    "./jenkins": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jenkins.vue"
+    },
+    "./jest": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jest.vue"
+    },
+    "./jet": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jet.vue"
+    },
+    "./jetbrains": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jetbrains.vue"
+    },
+    "./jira": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jira.vue"
+    },
+    "./joomla": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/joomla.vue"
+    },
+    "./jquery": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jquery.vue"
+    },
+    "./js": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/js.vue"
+    },
+    "./jsdelivr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jsdelivr.vue"
+    },
+    "./jsfiddle": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jsfiddle.vue"
+    },
+    "./json": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/json.vue"
+    },
+    "./jupyter": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jupyter.vue"
+    },
+    "./justgiving": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/justgiving.vue"
+    },
+    "./kaggle": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kaggle.vue"
+    },
+    "./kaios": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kaios.vue"
+    },
+    "./kaspersky": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kaspersky.vue"
+    },
+    "./kentico": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kentico.vue"
+    },
+    "./keras": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/keras.vue"
+    },
+    "./keybase": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/keybase.vue"
+    },
+    "./keycdn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/keycdn.vue"
+    },
+    "./khan-academy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/khan-academy.vue"
+    },
+    "./kibana": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kibana.vue"
+    },
+    "./kickstarter": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kickstarter.vue"
+    },
+    "./kik": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kik.vue"
+    },
+    "./kirby": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kirby.vue"
+    },
+    "./klout": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/klout.vue"
+    },
+    "./known": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/known.vue"
+    },
+    "./ko-fi": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/ko-fi.vue"
+    },
+    "./kodi": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kodi.vue"
+    },
+    "./koding": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/koding.vue"
+    },
+    "./kotlin": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kotlin.vue"
+    },
+    "./krita": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/krita.vue"
+    },
+    "./kubernetes": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kubernetes.vue"
+    },
+    "./lanyrd": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lanyrd.vue"
+    },
+    "./laravel": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/laravel.vue"
+    },
+    "./laravel-horizon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/laravel-horizon.vue"
+    },
+    "./laravel-nova": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/laravel-nova.vue"
+    },
+    "./last-fm": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/last-fm.vue"
+    },
+    "./latex": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/latex.vue"
+    },
+    "./launchpad": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/launchpad.vue"
+    },
+    "./leetcode": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/leetcode.vue"
+    },
+    "./lenovo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lenovo.vue"
+    },
+    "./less": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/less.vue"
+    },
+    "./lets-encrypt": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lets-encrypt.vue"
+    },
+    "./letterboxd": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/letterboxd.vue"
+    },
+    "./lgtm": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lgtm.vue"
+    },
+    "./liberapay": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/liberapay.vue"
+    },
+    "./librarything": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/librarything.vue"
+    },
+    "./libreoffice": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/libreoffice.vue"
+    },
+    "./line": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/line.vue"
+    },
+    "./linkedin": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/linkedin.vue"
+    },
+    "./linkedin-in": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/linkedin-in.vue"
+    },
+    "./linux": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/linux.vue"
+    },
+    "./linux-foundation": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/linux-foundation.vue"
+    },
+    "./linux-mint": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/linux-mint.vue"
+    },
+    "./livejournal": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/livejournal.vue"
+    },
+    "./livestream": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/livestream.vue"
+    },
+    "./logstash": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/logstash.vue"
+    },
+    "./lua": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lua.vue"
+    },
+    "./lumen": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lumen.vue"
+    },
+    "./lyft": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lyft.vue"
+    },
+    "./macys": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/macys.vue"
+    },
+    "./magento": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/magento.vue"
+    },
+    "./magisk": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/magisk.vue"
+    },
+    "./mail-ru": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mail-ru.vue"
+    },
+    "./mailchimp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mailchimp.vue"
+    },
+    "./makerbot": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/makerbot.vue"
+    },
+    "./manjaro": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/manjaro.vue"
+    },
+    "./markdown": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/markdown.vue"
+    },
+    "./marketo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/marketo.vue"
+    },
+    "./mastercard": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mastercard.vue"
+    },
+    "./mastodon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mastodon.vue"
+    },
+    "./material-design": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/material-design.vue"
+    },
+    "./mathworks": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mathworks.vue"
+    },
+    "./matrix": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/matrix.vue"
+    },
+    "./mattermost": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mattermost.vue"
+    },
+    "./matternet": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/matternet.vue"
+    },
+    "./maxcdn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/maxcdn.vue"
+    },
+    "./mcafee": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mcafee.vue"
+    },
+    "./media-temple": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-temple.vue"
+    },
+    "./mediafire": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mediafire.vue"
+    },
+    "./medium": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/medium.vue"
+    },
+    "./medium-m": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/medium-m.vue"
+    },
+    "./meetup": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/meetup.vue"
+    },
+    "./mega": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mega.vue"
+    },
+    "./mendeley": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mendeley.vue"
+    },
+    "./messenger": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/messenger.vue"
+    },
+    "./meteor": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/meteor.vue"
+    },
+    "./micro-blog": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/micro-blog.vue"
+    },
+    "./microgenetics": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/microgenetics.vue"
+    },
+    "./microsoft": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/microsoft.vue"
+    },
+    "./microsoft-edge": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/microsoft-edge.vue"
+    },
+    "./minetest": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/minetest.vue"
+    },
+    "./minutemailer": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/minutemailer.vue"
+    },
+    "./mix": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mix.vue"
+    },
+    "./mixcloud": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mixcloud.vue"
+    },
+    "./mixer": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mixer.vue"
+    },
+    "./mojang": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mojang.vue"
+    },
+    "./monero": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/monero.vue"
+    },
+    "./mongodb": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mongodb.vue"
+    },
+    "./monkeytie": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/monkeytie.vue"
+    },
+    "./monogram": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/monogram.vue"
+    },
+    "./monzo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/monzo.vue"
+    },
+    "./moo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moo.vue"
+    },
+    "./mozilla": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mozilla.vue"
+    },
+    "./mozilla-firefox": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mozilla-firefox.vue"
+    },
+    "./musescore": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/musescore.vue"
+    },
+    "./mxlinux": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mxlinux.vue"
+    },
+    "./myspace": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/myspace.vue"
+    },
+    "./mysql": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mysql.vue"
+    },
+    "./nativescript": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nativescript.vue"
+    },
+    "./nec": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nec.vue"
+    },
+    "./neo4j": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/neo4j.vue"
+    },
+    "./netflix": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/netflix.vue"
+    },
+    "./netlify": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/netlify.vue"
+    },
+    "./next-js": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/next-js.vue"
+    },
+    "./nextcloud": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nextcloud.vue"
+    },
+    "./nextdoor": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nextdoor.vue"
+    },
+    "./nginx": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nginx.vue"
+    },
+    "./nim": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nim.vue"
+    },
+    "./nintendo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nintendo.vue"
+    },
+    "./nintendo-3ds": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nintendo-3ds.vue"
+    },
+    "./nintendo-gamecube": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nintendo-gamecube.vue"
+    },
+    "./nintendo-switch": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nintendo-switch.vue"
+    },
+    "./node-js": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/node-js.vue"
+    },
+    "./node-red": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/node-red.vue"
+    },
+    "./nodemon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nodemon.vue"
+    },
+    "./nokia": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nokia.vue"
+    },
+    "./notion": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/notion.vue"
+    },
+    "./npm": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/npm.vue"
+    },
+    "./nucleo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nucleo.vue"
+    },
+    "./nuget": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nuget.vue"
+    },
+    "./nuxt-js": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nuxt-js.vue"
+    },
+    "./nvidia": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nvidia.vue"
+    },
+    "./ocaml": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/ocaml.vue"
+    },
+    "./octave": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/octave.vue"
+    },
+    "./octopus-deploy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/octopus-deploy.vue"
+    },
+    "./oculus": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/oculus.vue"
+    },
+    "./odnoklassniki": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/odnoklassniki.vue"
+    },
+    "./open-access": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/open-access.vue"
+    },
+    "./open-collective": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/open-collective.vue"
+    },
+    "./open-id": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/open-id.vue"
+    },
+    "./open-source-initiative": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/open-source-initiative.vue"
+    },
+    "./openstreetmap": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/openstreetmap.vue"
+    },
+    "./opensuse": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/opensuse.vue"
+    },
+    "./openvpn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/openvpn.vue"
+    },
+    "./opera": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/opera.vue"
+    },
+    "./opsgenie": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/opsgenie.vue"
+    },
+    "./oracle": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/oracle.vue"
+    },
+    "./oracle-netsuite": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/oracle-netsuite.vue"
+    },
+    "./orcid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/orcid.vue"
+    },
+    "./origin": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/origin.vue"
+    },
+    "./osi": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/osi.vue"
+    },
+    "./osmc": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/osmc.vue"
+    },
+    "./overcast": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/overcast.vue"
+    },
+    "./overleaf": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/overleaf.vue"
+    },
+    "./ovh": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/ovh.vue"
+    },
+    "./pagekit": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pagekit.vue"
+    },
+    "./palantir": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/palantir.vue"
+    },
+    "./pandora": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pandora.vue"
+    },
+    "./pantheon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pantheon.vue"
+    },
+    "./patreon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/patreon.vue"
+    },
+    "./paypal": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/paypal.vue"
+    },
+    "./periscope": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/periscope.vue"
+    },
+    "./php": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/php.vue"
+    },
+    "./picarto-tv": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/picarto-tv.vue"
+    },
+    "./pinboard": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pinboard.vue"
+    },
+    "./pingdom": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pingdom.vue"
+    },
+    "./pingup": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pingup.vue"
+    },
+    "./pinterest": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pinterest.vue"
+    },
+    "./pinterest-p": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pinterest-p.vue"
+    },
+    "./pivotaltracker": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pivotaltracker.vue"
+    },
+    "./plangrid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/plangrid.vue"
+    },
+    "./player-me": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/player-me.vue"
+    },
+    "./playerfm": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/playerfm.vue"
+    },
+    "./playstation": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/playstation.vue"
+    },
+    "./playstation3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/playstation3.vue"
+    },
+    "./playstation4": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/playstation4.vue"
+    },
+    "./plesk": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/plesk.vue"
+    },
+    "./plex": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/plex.vue"
+    },
+    "./pluralsight": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pluralsight.vue"
+    },
+    "./plurk": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/plurk.vue"
+    },
+    "./pocket": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pocket.vue"
+    },
+    "./postgresql": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/postgresql.vue"
+    },
+    "./postman": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/postman.vue"
+    },
+    "./postwoman": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/postwoman.vue"
+    },
+    "./powershell": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/powershell.vue"
+    },
+    "./prettier": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/prettier.vue"
+    },
+    "./prismic": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/prismic.vue"
+    },
+    "./probot": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/probot.vue"
+    },
+    "./processwire": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/processwire.vue"
+    },
+    "./product-hunt": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/product-hunt.vue"
+    },
+    "./proto-io": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/proto-io.vue"
+    },
+    "./protonmail": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/protonmail.vue"
+    },
+    "./proxmox": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/proxmox.vue"
+    },
+    "./pypi": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pypi.vue"
+    },
+    "./python": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/python.vue"
+    },
+    "./pytorch": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pytorch.vue"
+    },
+    "./qgis": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/qgis.vue"
+    },
+    "./qiita": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/qiita.vue"
+    },
+    "./qq": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/qq.vue"
+    },
+    "./qualcomm": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/qualcomm.vue"
+    },
+    "./quantcast": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/quantcast.vue"
+    },
+    "./quantopian": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/quantopian.vue"
+    },
+    "./quarkus": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/quarkus.vue"
+    },
+    "./quora": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/quora.vue"
+    },
+    "./qwiklabs": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/qwiklabs.vue"
+    },
+    "./qzone": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/qzone.vue"
+    },
+    "./r": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/r.vue"
+    },
+    "./radiopublic": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/radiopublic.vue"
+    },
+    "./rails": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rails.vue"
+    },
+    "./raspberry-pi": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/raspberry-pi.vue"
+    },
+    "./react": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/react.vue"
+    },
+    "./read-the-docs": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/read-the-docs.vue"
+    },
+    "./readme": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/readme.vue"
+    },
+    "./realm": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/realm.vue"
+    },
+    "./reason": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/reason.vue"
+    },
+    "./redbubble": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/redbubble.vue"
+    },
+    "./reddit": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/reddit.vue"
+    },
+    "./reddit-alt": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/reddit-alt.vue"
+    },
+    "./redhat": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/redhat.vue"
+    },
+    "./redis": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/redis.vue"
+    },
+    "./redux": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/redux.vue"
+    },
+    "./renren": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/renren.vue"
+    },
+    "./reverbnation": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/reverbnation.vue"
+    },
+    "./riot": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/riot.vue"
+    },
+    "./ripple": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/ripple.vue"
+    },
+    "./riseup": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/riseup.vue"
+    },
+    "./rollup-js": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rollup-js.vue"
+    },
+    "./roots": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/roots.vue"
+    },
+    "./roundcube": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/roundcube.vue"
+    },
+    "./rss": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rss.vue"
+    },
+    "./rstudio": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rstudio.vue"
+    },
+    "./ruby": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/ruby.vue"
+    },
+    "./rubygems": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rubygems.vue"
+    },
+    "./runkeeper": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/runkeeper.vue"
+    },
+    "./rust": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rust.vue"
+    },
+    "./safari": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/safari.vue"
+    },
+    "./sahibinden": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sahibinden.vue"
+    },
+    "./salesforce": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/salesforce.vue"
+    },
+    "./saltstack": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/saltstack.vue"
+    },
+    "./samsung": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/samsung.vue"
+    },
+    "./samsung-pay": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/samsung-pay.vue"
+    },
+    "./sap": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sap.vue"
+    },
+    "./sass": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sass.vue"
+    },
+    "./sass-alt": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sass-alt.vue"
+    },
+    "./saucelabs": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/saucelabs.vue"
+    },
+    "./scala": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/scala.vue"
+    },
+    "./scaleway": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/scaleway.vue"
+    },
+    "./scribd": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/scribd.vue"
+    },
+    "./scrutinizerci": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/scrutinizerci.vue"
+    },
+    "./seagate": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/seagate.vue"
+    },
+    "./sega": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sega.vue"
+    },
+    "./sellfy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sellfy.vue"
+    },
+    "./semaphoreci": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/semaphoreci.vue"
+    },
+    "./sensu": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sensu.vue"
+    },
+    "./sentry": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sentry.vue"
+    },
+    "./server-fault": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/server-fault.vue"
+    },
+    "./shazam": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/shazam.vue"
+    },
+    "./shell": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/shell.vue"
+    },
+    "./shopify": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/shopify.vue"
+    },
+    "./showpad": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/showpad.vue"
+    },
+    "./siemens": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/siemens.vue"
+    },
+    "./signal": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/signal.vue"
+    },
+    "./sina-weibo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sina-weibo.vue"
+    },
+    "./sitepoint": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sitepoint.vue"
+    },
+    "./sketch": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sketch.vue"
+    },
+    "./skillshare": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/skillshare.vue"
+    },
+    "./skyliner": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/skyliner.vue"
+    },
+    "./skype": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/skype.vue"
+    },
+    "./slack": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/slack.vue"
+    },
+    "./slashdot": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/slashdot.vue"
+    },
+    "./slickpic": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/slickpic.vue"
+    },
+    "./slides": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/slides.vue"
+    },
+    "./slideshare": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/slideshare.vue"
+    },
+    "./smashingmagazine": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/smashingmagazine.vue"
+    },
+    "./snapchat": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/snapchat.vue"
+    },
+    "./snapcraft": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/snapcraft.vue"
+    },
+    "./snyk": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/snyk.vue"
+    },
+    "./society6": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/society6.vue"
+    },
+    "./socket-io": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/socket-io.vue"
+    },
+    "./sogou": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sogou.vue"
+    },
+    "./solus": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/solus.vue"
+    },
+    "./songkick": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/songkick.vue"
+    },
+    "./sonos": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sonos.vue"
+    },
+    "./soundcloud": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/soundcloud.vue"
+    },
+    "./sourceforge": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sourceforge.vue"
+    },
+    "./sourcegraph": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sourcegraph.vue"
+    },
+    "./spacemacs": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/spacemacs.vue"
+    },
+    "./spacex": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/spacex.vue"
+    },
+    "./sparkfun": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sparkfun.vue"
+    },
+    "./sparkpost": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sparkpost.vue"
+    },
+    "./spdx": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/spdx.vue"
+    },
+    "./speaker-deck": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/speaker-deck.vue"
+    },
+    "./spectrum": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/spectrum.vue"
+    },
+    "./spotify": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/spotify.vue"
+    },
+    "./spotlight": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/spotlight.vue"
+    },
+    "./spreaker": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/spreaker.vue"
+    },
+    "./spring": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/spring.vue"
+    },
+    "./sprint": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sprint.vue"
+    },
+    "./squarespace": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/squarespace.vue"
+    },
+    "./stackbit": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stackbit.vue"
+    },
+    "./stackexchange": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stackexchange.vue"
+    },
+    "./stackoverflow": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stackoverflow.vue"
+    },
+    "./stackpath": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stackpath.vue"
+    },
+    "./stackshare": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stackshare.vue"
+    },
+    "./stadia": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stadia.vue"
+    },
+    "./statamic": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/statamic.vue"
+    },
+    "./staticman": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/staticman.vue"
+    },
+    "./statuspage": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/statuspage.vue"
+    },
+    "./steam": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/steam.vue"
+    },
+    "./steem": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/steem.vue"
+    },
+    "./steemit": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/steemit.vue"
+    },
+    "./stitcher": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stitcher.vue"
+    },
+    "./storify": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/storify.vue"
+    },
+    "./storybook": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/storybook.vue"
+    },
+    "./strapi": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/strapi.vue"
+    },
+    "./strava": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/strava.vue"
+    },
+    "./stripe": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stripe.vue"
+    },
+    "./stripe-s": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stripe-s.vue"
+    },
+    "./stubhub": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stubhub.vue"
+    },
+    "./stumbleupon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stumbleupon.vue"
+    },
+    "./styleshare": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/styleshare.vue"
+    },
+    "./stylus": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stylus.vue"
+    },
+    "./sublime-text": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sublime-text.vue"
+    },
+    "./subversion": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/subversion.vue"
+    },
+    "./superuser": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/superuser.vue"
+    },
+    "./svelte": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/svelte.vue"
+    },
+    "./svg": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/svg.vue"
+    },
+    "./swagger": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/swagger.vue"
+    },
+    "./swarm": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/swarm.vue"
+    },
+    "./swift": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/swift.vue"
+    },
+    "./symantec": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/symantec.vue"
+    },
+    "./symfony": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/symfony.vue"
+    },
+    "./synology": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/synology.vue"
+    },
+    "./t-mobile": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/t-mobile.vue"
+    },
+    "./tableau": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tableau.vue"
+    },
+    "./tails": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tails.vue"
+    },
+    "./tapas": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tapas.vue"
+    },
+    "./teamviewer": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/teamviewer.vue"
+    },
+    "./ted": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/ted.vue"
+    },
+    "./teespring": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/teespring.vue"
+    },
+    "./telegram": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/telegram.vue"
+    },
+    "./telegram-plane": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/telegram-plane.vue"
+    },
+    "./tencent-qq": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tencent-qq.vue"
+    },
+    "./tencent-weibo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tencent-weibo.vue"
+    },
+    "./tensorflow": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tensorflow.vue"
+    },
+    "./terraform": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/terraform.vue"
+    },
+    "./tesla": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tesla.vue"
+    },
+    "./the-mighty": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/the-mighty.vue"
+    },
+    "./the-movie-database": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/the-movie-database.vue"
+    },
+    "./tidal": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tidal.vue"
+    },
+    "./tiktok": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tiktok.vue"
+    },
+    "./tinder": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tinder.vue"
+    },
+    "./todoist": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/todoist.vue"
+    },
+    "./toggl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/toggl.vue"
+    },
+    "./topcoder": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/topcoder.vue"
+    },
+    "./toptal": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/toptal.vue"
+    },
+    "./tor": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tor.vue"
+    },
+    "./toshiba": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/toshiba.vue"
+    },
+    "./trainerroad": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/trainerroad.vue"
+    },
+    "./trakt": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/trakt.vue"
+    },
+    "./travisci": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/travisci.vue"
+    },
+    "./treehouse": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/treehouse.vue"
+    },
+    "./trello": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/trello.vue"
+    },
+    "./tripadvisor": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tripadvisor.vue"
+    },
+    "./trulia": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/trulia.vue"
+    },
+    "./tumblr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tumblr.vue"
+    },
+    "./twilio": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/twilio.vue"
+    },
+    "./twitch": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/twitch.vue"
+    },
+    "./twitter": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/twitter.vue"
+    },
+    "./twoo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/twoo.vue"
+    },
+    "./typescript": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/typescript.vue"
+    },
+    "./typo3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/typo3.vue"
+    },
+    "./uber": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/uber.vue"
+    },
+    "./ubisoft": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/ubisoft.vue"
+    },
+    "./ublock-origin": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/ublock-origin.vue"
+    },
+    "./ubuntu": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/ubuntu.vue"
+    },
+    "./udacity": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/udacity.vue"
+    },
+    "./udemy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/udemy.vue"
+    },
+    "./uikit": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/uikit.vue"
+    },
+    "./umbraco": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/umbraco.vue"
+    },
+    "./unity": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/unity.vue"
+    },
+    "./unreal-engine": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/unreal-engine.vue"
+    },
+    "./unsplash": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/unsplash.vue"
+    },
+    "./untappd": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/untappd.vue"
+    },
+    "./upwork": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/upwork.vue"
+    },
+    "./usb": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/usb.vue"
+    },
+    "./v8": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/v8.vue"
+    },
+    "./vagrant": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vagrant.vue"
+    },
+    "./venmo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/venmo.vue"
+    },
+    "./verizon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/verizon.vue"
+    },
+    "./viadeo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/viadeo.vue"
+    },
+    "./viber": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/viber.vue"
+    },
+    "./vim": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vim.vue"
+    },
+    "./vimeo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vimeo.vue"
+    },
+    "./vimeo-v": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vimeo-v.vue"
+    },
+    "./vine": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vine.vue"
+    },
+    "./virb": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/virb.vue"
+    },
+    "./visa": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/visa.vue"
+    },
+    "./visual-studio": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/visual-studio.vue"
+    },
+    "./visual-studio-code": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/visual-studio-code.vue"
+    },
+    "./vk": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vk.vue"
+    },
+    "./vlc": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vlc.vue"
+    },
+    "./vsco": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vsco.vue"
+    },
+    "./vue-js": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vue-js.vue"
+    },
+    "./wattpad": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wattpad.vue"
+    },
+    "./weasyl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/weasyl.vue"
+    },
+    "./webcomponents-org": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/webcomponents-org.vue"
+    },
+    "./webpack": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/webpack.vue"
+    },
+    "./webstorm": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/webstorm.vue"
+    },
+    "./wechat": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wechat.vue"
+    },
+    "./whatsapp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/whatsapp.vue"
+    },
+    "./when-i-work": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/when-i-work.vue"
+    },
+    "./wii": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wii.vue"
+    },
+    "./wiiu": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wiiu.vue"
+    },
+    "./wikipedia": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wikipedia.vue"
+    },
+    "./windows": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/windows.vue"
+    },
+    "./wire": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wire.vue"
+    },
+    "./wireguard": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wireguard.vue"
+    },
+    "./wix": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wix.vue"
+    },
+    "./wolfram": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wolfram.vue"
+    },
+    "./wolfram-language": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wolfram-language.vue"
+    },
+    "./wolfram-mathematica": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wolfram-mathematica.vue"
+    },
+    "./wordpress": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wordpress.vue"
+    },
+    "./wpengine": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wpengine.vue"
+    },
+    "./x-pack": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/x/x-pack.vue"
+    },
+    "./xbox": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/x/xbox.vue"
+    },
+    "./xcode": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/x/xcode.vue"
+    },
+    "./xero": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/x/xero.vue"
+    },
+    "./xiaomi": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/x/xiaomi.vue"
+    },
+    "./xing": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/x/xing.vue"
+    },
+    "./xrp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/x/xrp.vue"
+    },
+    "./xsplit": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/x/xsplit.vue"
+    },
+    "./y-combinator": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/y-combinator.vue"
+    },
+    "./yahoo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yahoo.vue"
+    },
+    "./yammer": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yammer.vue"
+    },
+    "./yandex": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yandex.vue"
+    },
+    "./yarn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yarn.vue"
+    },
+    "./yelp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yelp.vue"
+    },
+    "./youtube": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/youtube.vue"
+    },
+    "./zalando": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/z/zalando.vue"
+    },
+    "./zapier": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/z/zapier.vue"
+    },
+    "./zeit": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/z/zeit.vue"
+    },
+    "./zendesk": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/z/zendesk.vue"
+    },
+    "./zerply": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/z/zerply.vue"
+    },
+    "./zillow": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/z/zillow.vue"
+    },
+    "./zingat": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/z/zingat.vue"
+    },
+    "./zoom": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/z/zoom.vue"
+    },
+    "./zorin": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/z/zorin.vue"
+    },
+    "./zulip": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/z/zulip.vue"
+    },
+    "./stack-overflow": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stack-overflow.vue"
+    },
+    "./*": "./*"
+  },
+  "dependencies": {
+    "@iconify/css-vue": "^1.0.0"
+  },
+  "repository": "github:iconify/icons-vue#cib"
+}

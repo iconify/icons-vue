@@ -1,0 +1,78 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":32,"height":32};
+const content = `<g class="ft5dv1b6b"><g filter="url(#iT4XvKe)"><rect fill="url(#iiUzkCb)" class="hrne6_-xd"/><rect fill="url(#i6Y1v4d)" class="hrne6_-xd"/></g><g filter="url(#iJMtRHb)"><path stroke="url(#ir6N8qC)" class="l3v0m_dua"/></g><g filter="url(#iJMIFkC)"><path stroke="url(#ixL4plu)" class="rph9k9bke"/></g><g filter="url(#iI9OZMd)"><path class="c9s70f0ww"/></g><g filter="url(#iprNI7b)"><path class="ysmxt8b7t"/></g><defs><filter id="iT4XvKe" width="29.875" height="28.875" x="2.301" y="1.063" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/><feOffset dx="2" dy="-1"/><feGaussianBlur stdDeviation="1.5"/><feComposite in2="hardAlpha" k2="-1" k3="1" operator="arithmetic"/><feColorMatrix values="0 0 0 0 0.298039 0 0 0 0 0.235294 0 0 0 0 0.6 0 0 0 1 0"/><feBlend in2="shape" result="effect1_innerShadow_18590_1208"/><feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/><feOffset dy="-1"/><feGaussianBlur stdDeviation="1.5"/><feComposite in2="hardAlpha" k2="-1" k3="1" operator="arithmetic"/><feColorMatrix values="0 0 0 0 0.352941 0 0 0 0 0.211765 0 0 0 0 0.709804 0 0 0 1 0"/><feBlend in2="effect1_innerShadow_18590_1208" result="effect2_innerShadow_18590_1208"/></filter><filter id="iJMtRHb" width="5.5" height="28.375" x="25.739" y="1.813" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_18590_1208" stdDeviation="1"/></filter><filter id="iJMIFkC" width="27.281" height="5.5" x="3.015" y="1.125" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_18590_1208" stdDeviation="1"/></filter><filter id="iI9OZMd" width="26.34" height="21.92" x="3.065" y="5.895" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_18590_1208" stdDeviation=".5"/></filter><filter id="iprNI7b" width="25.14" height="20.72" x="3.665" y="6.495" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/><feOffset dx="-.4" dy=".4"/><feGaussianBlur stdDeviation=".375"/><feComposite in2="hardAlpha" k2="-1" k3="1" operator="arithmetic"/><feColorMatrix values="0 0 0 0 0.913725 0 0 0 0 0.886275 0 0 0 0 0.968627 0 0 0 1 0"/><feBlend in2="shape" result="effect1_innerShadow_18590_1208"/><feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/><feOffset dx=".4" dy="-.4"/><feGaussianBlur stdDeviation=".2"/><feComposite in2="hardAlpha" k2="-1" k3="1" operator="arithmetic"/><feColorMatrix values="0 0 0 0 1 0 0 0 0 0.988235 0 0 0 0 1 0 0 0 1 0"/><feBlend in2="effect1_innerShadow_18590_1208" result="effect2_innerShadow_18590_1208"/></filter><linearGradient id="iiUzkCb" x1="16.239" x2="16.239" y1="5.637" y2="38.89" gradientUnits="userSpaceOnUse"><stop class="sn77b5ppw"/><stop offset="1" class="fitiklbqp"/></linearGradient><linearGradient id="ir6N8qC" x1="28.989" x2="28.989" y1="4.563" y2="27.438" gradientUnits="userSpaceOnUse"><stop class="ygaxn_bkp"/><stop offset="1" class="s-kusnt3y"/></linearGradient><linearGradient id="ixL4plu" x1="28.703" x2="3.171" y1="4.125" y2="4.125" gradientUnits="userSpaceOnUse"><stop class="ka-x5u-uy"/><stop offset="1" class="jlbvuvbtx"/></linearGradient><radialGradient id="i6Y1v4d" cx="0" cy="0" r="1" gradientTransform="matrix(-1.56249 1.46876 -1.71548 -1.82495 27.958 4.156)" gradientUnits="userSpaceOnUse"><stop class="mgmxs0b3v"/><stop offset="1" class="sefcefa1m"/></radialGradient></defs></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent-emoji:virgo" /></template>
+<style>
+.c9s70f0ww {
+  fill: var(--svg-color--6a4ebe, #6A4EBE);
+  d: path("M28.405 18.215v-3.33c0-2.57-2.09-4.67-4.67-4.67a4.65 4.65 0 0 0-2.537.751a.086.086 0 0 1-.133-.07a3.997 3.997 0 0 0-6.923-2.725a.105.105 0 0 1-.153 0a4 4 0 0 0-2.924-1.276a4 4 0 0 0-2.923 1.276a.105.105 0 0 1-.153 0a4 4 0 0 0-2.924-1.276c-.55 0-1 .45-1 1s.45 1 1 1c1.1 0 2 .9 2 2v12c0 .55.45 1 1 1s1-.45 1-1v-12c0-1.1.9-2 2-2s2 .9 2 2v12c0 .55.45 1 1 1s1-.45 1-1v-12c0-1.1.9-2 2-2s2 .9 2 2v7.32a6.07 6.07 0 0 0 2.851 5.142a.102.102 0 0 1 .008.168l-2.009 1.48a1.003 1.003 0 0 0 .6 1.81c.21 0 .41-.06.59-.2l2.57-1.896a.1.1 0 0 1 .12 0l2.57 1.896c.18.13.39.2.59.2a1.005 1.005 0 0 0 .6-1.81l-2.008-1.48a.102.102 0 0 1 .007-.168a6.07 6.07 0 0 0 2.851-5.142m-2 0c0 1.47-.8 2.84-2.09 3.55l-.53.302a.1.1 0 0 1-.1 0l-.53-.302a4.07 4.07 0 0 1-2.09-3.55v-3.33c0-1.47 1.2-2.67 2.67-2.67s2.67 1.2 2.67 2.67z");
+}
+
+.fitiklbqp {
+  stop-color: var(--svg-color--7764c6, #7764C6);
+}
+
+.ft5dv1b6b {
+  fill: none;
+}
+
+.hrne6_-xd {
+  width: 27.875px;
+  height: 27.875px;
+  x: 2.301px;
+  y: 2.063px;
+  rx: 3.6px;
+}
+
+.jlbvuvbtx {
+  stop-color: var(--svg-color--9a6ceb, #9A6CEB);
+}
+
+.ka-x5u-uy {
+  stop-color: var(--svg-color--a672ff, #A672FF);
+}
+
+.l3v0m_dua {
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M28.489 4.563v22.875");
+}
+
+.mgmxs0b3v {
+  stop-color: var(--svg-color--bb8dff, #BB8DFF);
+}
+
+.rph9k9bke {
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M5.765 3.875h21.781");
+}
+
+.s-kusnt3y {
+  stop-color: var(--svg-color--8777d6, #8777D6);
+}
+
+.sefcefa1m {
+  stop-color: var(--svg-color--bb8dff, #BB8DFF);
+  stop-opacity: 0;
+}
+
+.sn77b5ppw {
+  stop-color: var(--svg-color--9865ee, #9865EE);
+}
+
+.ygaxn_bkp {
+  stop-color: var(--svg-color--ae7eff, #AE7EFF);
+}
+
+.ysmxt8b7t {
+  fill: var(--svg-color--fcf2ff, #FCF2FF);
+  d: path("M28.405 18.215v-3.33c0-2.57-2.09-4.67-4.67-4.67a4.65 4.65 0 0 0-2.537.751a.086.086 0 0 1-.133-.07a3.997 3.997 0 0 0-6.923-2.725a.105.105 0 0 1-.153 0a4 4 0 0 0-2.924-1.276a4 4 0 0 0-2.923 1.276a.105.105 0 0 1-.153 0a4 4 0 0 0-2.924-1.276c-.55 0-1 .45-1 1s.45 1 1 1c1.1 0 2 .9 2 2v12c0 .55.45 1 1 1s1-.45 1-1v-12c0-1.1.9-2 2-2s2 .9 2 2v12c0 .55.45 1 1 1s1-.45 1-1v-12c0-1.1.9-2 2-2s2 .9 2 2v7.32a6.07 6.07 0 0 0 2.851 5.142a.102.102 0 0 1 .008.168l-2.009 1.48a1.003 1.003 0 0 0 .6 1.81c.21 0 .41-.06.59-.2l2.57-1.896a.1.1 0 0 1 .12 0l2.57 1.896c.18.13.39.2.59.2a1.005 1.005 0 0 0 .6-1.81l-2.008-1.48a.102.102 0 0 1 .007-.168a6.07 6.07 0 0 0 2.851-5.142m-2 0c0 1.47-.8 2.84-2.09 3.55l-.53.302a.1.1 0 0 1-.1 0l-.53-.302a4.07 4.07 0 0 1-2.09-3.55v-3.33c0-1.47 1.2-2.67 2.67-2.67s2.67 1.2 2.67 2.67z");
+}
+
+</style>

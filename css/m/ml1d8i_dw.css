@@ -1,0 +1,8 @@
+.ml1d8i_dw {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M14 9H3v20h20V18M18 4h10v10m0-10L14 18");
+}

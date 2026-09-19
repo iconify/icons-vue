@@ -1,0 +1,8 @@
+.rpky_m6mv {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M10 2v28l14-14Z");
+}

@@ -1,0 +1,8 @@
+.rcv-msb7f {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M6 2h20v28L16 20L6 30Z");
+}

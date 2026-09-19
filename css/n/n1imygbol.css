@@ -1,0 +1,8 @@
+.n1imygbol {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M4 16h7l3 13l4-26l3 13h7");
+}

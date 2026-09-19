@@ -1,0 +1,4259 @@
+{
+  "name": "@iconify-vue/devicon",
+  "type": "module",
+  "version": "1.0.24",
+  "homepage": "https://icon-sets.iconify.design/devicon/",
+  "bugs": "https://github.com/iconify/icons-vue/issues",
+  "license": "MIT",
+  "exports": {
+    "./aarch64": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/aarch64.vue"
+    },
+    "./adonisjs": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/adonisjs.vue"
+    },
+    "./adonisjs-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/adonisjs-wordmark.vue"
+    },
+    "./aerospike": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/aerospike.vue"
+    },
+    "./aerospike-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/aerospike-wordmark.vue"
+    },
+    "./aframe": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/aframe.vue"
+    },
+    "./aframe-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/aframe-wordmark.vue"
+    },
+    "./aftereffects": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/aftereffects.vue"
+    },
+    "./aiassistant": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/aiassistant.vue"
+    },
+    "./aiassistant-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/aiassistant-wordmark.vue"
+    },
+    "./akka": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/akka.vue"
+    },
+    "./akka-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/akka-wordmark.vue"
+    },
+    "./algolia": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/algolia.vue"
+    },
+    "./algolia-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/algolia-wordmark.vue"
+    },
+    "./almalinux": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/almalinux.vue"
+    },
+    "./almalinux-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/almalinux-wordmark.vue"
+    },
+    "./alpinejs": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/alpinejs.vue"
+    },
+    "./alpinejs-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/alpinejs-wordmark.vue"
+    },
+    "./amazonwebservices": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/amazonwebservices.vue"
+    },
+    "./anaconda": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/anaconda.vue"
+    },
+    "./anaconda-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/anaconda-wordmark.vue"
+    },
+    "./android": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/android.vue"
+    },
+    "./android-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/android-wordmark.vue"
+    },
+    "./androidstudio": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/androidstudio.vue"
+    },
+    "./androidstudio-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/androidstudio-wordmark.vue"
+    },
+    "./angular": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/angular.vue"
+    },
+    "./angular-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/angular-wordmark.vue"
+    },
+    "./angularjs": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/angularjs.vue"
+    },
+    "./angularjs-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/angularjs-wordmark.vue"
+    },
+    "./angularmaterial": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/angularmaterial.vue"
+    },
+    "./ansible": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/ansible.vue"
+    },
+    "./ansible-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/ansible-wordmark.vue"
+    },
+    "./ansys": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/ansys.vue"
+    },
+    "./ansys-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/ansys-wordmark.vue"
+    },
+    "./antdesign": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/antdesign.vue"
+    },
+    "./antdesign-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/antdesign-wordmark.vue"
+    },
+    "./apache": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/apache.vue"
+    },
+    "./apache-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/apache-wordmark.vue"
+    },
+    "./apacheairflow": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/apacheairflow.vue"
+    },
+    "./apacheairflow-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/apacheairflow-wordmark.vue"
+    },
+    "./apacheignite": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/apacheignite.vue"
+    },
+    "./apacheignite-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/apacheignite-wordmark.vue"
+    },
+    "./apachekafka": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/apachekafka.vue"
+    },
+    "./apachekafka-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/apachekafka-wordmark.vue"
+    },
+    "./apachespark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/apachespark.vue"
+    },
+    "./apachespark-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/apachespark-wordmark.vue"
+    },
+    "./apex": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/apex.vue"
+    },
+    "./apify": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/apify.vue"
+    },
+    "./apify-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/apify-wordmark.vue"
+    },
+    "./apl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/apl.vue"
+    },
+    "./apollographql": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/apollographql.vue"
+    },
+    "./apollographql-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/apollographql-wordmark.vue"
+    },
+    "./appcelerator": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/appcelerator.vue"
+    },
+    "./appcelerator-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/appcelerator-wordmark.vue"
+    },
+    "./apple": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/apple.vue"
+    },
+    "./appwrite": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/appwrite.vue"
+    },
+    "./appwrite-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/appwrite-wordmark.vue"
+    },
+    "./archlinux": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/archlinux.vue"
+    },
+    "./archlinux-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/archlinux-wordmark.vue"
+    },
+    "./arduino": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arduino.vue"
+    },
+    "./arduino-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arduino-wordmark.vue"
+    },
+    "./argocd": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/argocd.vue"
+    },
+    "./argocd-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/argocd-wordmark.vue"
+    },
+    "./artixlinux": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/artixlinux.vue"
+    },
+    "./artixlinux-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/artixlinux-wordmark.vue"
+    },
+    "./astro": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/astro.vue"
+    },
+    "./astro-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/astro-wordmark.vue"
+    },
+    "./atom": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/atom.vue"
+    },
+    "./atom-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/atom-wordmark.vue"
+    },
+    "./awk": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/awk.vue"
+    },
+    "./awk-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/awk-wordmark.vue"
+    },
+    "./azure": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/azure.vue"
+    },
+    "./azure-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/azure-wordmark.vue"
+    },
+    "./azuredatafactory": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/azuredatafactory.vue"
+    },
+    "./azuredevops": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/azuredevops.vue"
+    },
+    "./azuresqldatabase": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/azuresqldatabase.vue"
+    },
+    "./babel": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/babel.vue"
+    },
+    "./babylonjs": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/babylonjs.vue"
+    },
+    "./babylonjs-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/babylonjs-wordmark.vue"
+    },
+    "./backbonejs": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/backbonejs.vue"
+    },
+    "./backbonejs-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/backbonejs-wordmark.vue"
+    },
+    "./ballerina": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/ballerina.vue"
+    },
+    "./ballerina-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/ballerina-wordmark.vue"
+    },
+    "./bamboo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bamboo.vue"
+    },
+    "./bamboo-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bamboo-wordmark.vue"
+    },
+    "./bash": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bash.vue"
+    },
+    "./bazel": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bazel.vue"
+    },
+    "./bazel-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bazel-wordmark.vue"
+    },
+    "./beats": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/beats.vue"
+    },
+    "./behance": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/behance.vue"
+    },
+    "./behance-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/behance-wordmark.vue"
+    },
+    "./bevyengine": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bevyengine.vue"
+    },
+    "./bevyengine-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bevyengine-wordmark.vue"
+    },
+    "./biome": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/biome.vue"
+    },
+    "./biome-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/biome-wordmark.vue"
+    },
+    "./bitbucket": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bitbucket.vue"
+    },
+    "./bitbucket-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bitbucket-wordmark.vue"
+    },
+    "./blazor": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/blazor.vue"
+    },
+    "./blender": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/blender.vue"
+    },
+    "./blender-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/blender-wordmark.vue"
+    },
+    "./bootstrap": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bootstrap.vue"
+    },
+    "./bootstrap-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bootstrap-wordmark.vue"
+    },
+    "./bower": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bower.vue"
+    },
+    "./bower-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bower-wordmark.vue"
+    },
+    "./browserstack": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/browserstack.vue"
+    },
+    "./browserstack-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/browserstack-wordmark.vue"
+    },
+    "./bruno": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bruno.vue"
+    },
+    "./bruno-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bruno-wordmark.vue"
+    },
+    "./bun": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bun.vue"
+    },
+    "./burpsuite": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/burpsuite.vue"
+    },
+    "./burpsuite-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/burpsuite-wordmark.vue"
+    },
+    "./c": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/c.vue"
+    },
+    "./cachyos": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cachyos.vue"
+    },
+    "./cairo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cairo.vue"
+    },
+    "./cairo-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cairo-wordmark.vue"
+    },
+    "./cake": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cake.vue"
+    },
+    "./cakephp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cakephp.vue"
+    },
+    "./cakephp-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cakephp-wordmark.vue"
+    },
+    "./canva": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/canva.vue"
+    },
+    "./capacitor": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/capacitor.vue"
+    },
+    "./capacitor-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/capacitor-wordmark.vue"
+    },
+    "./carbon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/carbon.vue"
+    },
+    "./cassandra": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cassandra.vue"
+    },
+    "./cassandra-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cassandra-wordmark.vue"
+    },
+    "./centos": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/centos.vue"
+    },
+    "./centos-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/centos-wordmark.vue"
+    },
+    "./ceph": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/ceph.vue"
+    },
+    "./ceph-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/ceph-wordmark.vue"
+    },
+    "./ceylon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/ceylon.vue"
+    },
+    "./ceylon-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/ceylon-wordmark.vue"
+    },
+    "./chakraui": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chakraui.vue"
+    },
+    "./chakraui-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chakraui-wordmark.vue"
+    },
+    "./chartjs": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chartjs.vue"
+    },
+    "./chartjs-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chartjs-wordmark.vue"
+    },
+    "./chrome": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chrome.vue"
+    },
+    "./chrome-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chrome-wordmark.vue"
+    },
+    "./clarity": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/clarity.vue"
+    },
+    "./clarity-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/clarity-wordmark.vue"
+    },
+    "./claude": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/claude.vue"
+    },
+    "./clickhouse": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/clickhouse.vue"
+    },
+    "./clion": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/clion.vue"
+    },
+    "./clion-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/clion-wordmark.vue"
+    },
+    "./clojure": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/clojure.vue"
+    },
+    "./clojurescript": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/clojurescript.vue"
+    },
+    "./cloudflare": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloudflare.vue"
+    },
+    "./cloudflare-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloudflare-wordmark.vue"
+    },
+    "./cloudflareworkers": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloudflareworkers.vue"
+    },
+    "./cloudflareworkers-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloudflareworkers-wordmark.vue"
+    },
+    "./cloudrun": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloudrun.vue"
+    },
+    "./cmake": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cmake.vue"
+    },
+    "./cmake-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cmake-wordmark.vue"
+    },
+    "./cobol": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cobol.vue"
+    },
+    "./codeac": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/codeac.vue"
+    },
+    "./codeberg": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/codeberg.vue"
+    },
+    "./codeberg-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/codeberg-wordmark.vue"
+    },
+    "./codepen": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/codepen.vue"
+    },
+    "./codepen-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/codepen-wordmark.vue"
+    },
+    "./codex": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/codex.vue"
+    },
+    "./coffeescript": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/coffeescript.vue"
+    },
+    "./coffeescript-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/coffeescript-wordmark.vue"
+    },
+    "./composer": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/composer.vue"
+    },
+    "./confluence": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/confluence.vue"
+    },
+    "./confluence-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/confluence-wordmark.vue"
+    },
+    "./consul": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/consul.vue"
+    },
+    "./consul-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/consul-wordmark.vue"
+    },
+    "./contao": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/contao.vue"
+    },
+    "./contao-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/contao-wordmark.vue"
+    },
+    "./cordova": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cordova.vue"
+    },
+    "./cordova-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cordova-wordmark.vue"
+    },
+    "./corejs": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/corejs.vue"
+    },
+    "./corejs-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/corejs-wordmark.vue"
+    },
+    "./cosmosdb": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cosmosdb.vue"
+    },
+    "./cosmosdb-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cosmosdb-wordmark.vue"
+    },
+    "./couchbase": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/couchbase.vue"
+    },
+    "./couchbase-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/couchbase-wordmark.vue"
+    },
+    "./couchdb": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/couchdb.vue"
+    },
+    "./couchdb-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/couchdb-wordmark.vue"
+    },
+    "./cpanel": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cpanel.vue"
+    },
+    "./cpanel-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cpanel-wordmark.vue"
+    },
+    "./cplusplus": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cplusplus.vue"
+    },
+    "./crystal": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/crystal.vue"
+    },
+    "./crystal-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/crystal-wordmark.vue"
+    },
+    "./csharp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/csharp.vue"
+    },
+    "./css": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/css.vue"
+    },
+    "./css3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/css3.vue"
+    },
+    "./css3-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/css3-wordmark.vue"
+    },
+    "./cursor": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cursor.vue"
+    },
+    "./cursor-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cursor-wordmark.vue"
+    },
+    "./cypressio": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cypressio.vue"
+    },
+    "./cypressio-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cypressio-wordmark.vue"
+    },
+    "./d3js": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/d3js.vue"
+    },
+    "./dart": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dart.vue"
+    },
+    "./dart-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dart-wordmark.vue"
+    },
+    "./datadog": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/datadog.vue"
+    },
+    "./datadog-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/datadog-wordmark.vue"
+    },
+    "./datagrip": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/datagrip.vue"
+    },
+    "./datagrip-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/datagrip-wordmark.vue"
+    },
+    "./dataspell": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dataspell.vue"
+    },
+    "./dataspell-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dataspell-wordmark.vue"
+    },
+    "./datatables": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/datatables.vue"
+    },
+    "./dbeaver": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dbeaver.vue"
+    },
+    "./debian": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/debian.vue"
+    },
+    "./debian-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/debian-wordmark.vue"
+    },
+    "./delphi": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/delphi.vue"
+    },
+    "./denojs": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/denojs.vue"
+    },
+    "./denojs-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/denojs-wordmark.vue"
+    },
+    "./detaspace": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/detaspace.vue"
+    },
+    "./detaspace-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/detaspace-wordmark.vue"
+    },
+    "./devicon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/devicon.vue"
+    },
+    "./devicon-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/devicon-wordmark.vue"
+    },
+    "./digitalocean": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/digitalocean.vue"
+    },
+    "./digitalocean-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/digitalocean-wordmark.vue"
+    },
+    "./discloud": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/discloud.vue"
+    },
+    "./discloud-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/discloud-wordmark.vue"
+    },
+    "./discordjs": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/discordjs.vue"
+    },
+    "./discordjs-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/discordjs-wordmark.vue"
+    },
+    "./djangorest": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/djangorest.vue"
+    },
+    "./djangorest-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/djangorest-wordmark.vue"
+    },
+    "./docker": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/docker.vue"
+    },
+    "./docker-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/docker-wordmark.vue"
+    },
+    "./doctrine": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/doctrine.vue"
+    },
+    "./doctrine-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/doctrine-wordmark.vue"
+    },
+    "./dot-net": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dot-net.vue"
+    },
+    "./dot-net-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dot-net-wordmark.vue"
+    },
+    "./dotnetcore": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dotnetcore.vue"
+    },
+    "./dovecot": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dovecot.vue"
+    },
+    "./dreamweaver": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dreamweaver.vue"
+    },
+    "./dropwizard": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dropwizard.vue"
+    },
+    "./drupal": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/drupal.vue"
+    },
+    "./drupal-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/drupal-wordmark.vue"
+    },
+    "./duckdb": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/duckdb.vue"
+    },
+    "./dyalog": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dyalog.vue"
+    },
+    "./dyalog-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dyalog-wordmark.vue"
+    },
+    "./dynamodb": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dynamodb.vue"
+    },
+    "./dynatrace": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dynatrace.vue"
+    },
+    "./dynatrace-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dynatrace-wordmark.vue"
+    },
+    "./eclipse": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/eclipse.vue"
+    },
+    "./eclipse-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/eclipse-wordmark.vue"
+    },
+    "./ecto": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/ecto.vue"
+    },
+    "./ecto-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/ecto-wordmark.vue"
+    },
+    "./elasticsearch": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/elasticsearch.vue"
+    },
+    "./elasticsearch-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/elasticsearch-wordmark.vue"
+    },
+    "./electron": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/electron.vue"
+    },
+    "./electron-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/electron-wordmark.vue"
+    },
+    "./eleventy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/eleventy.vue"
+    },
+    "./elixir": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/elixir.vue"
+    },
+    "./elixir-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/elixir-wordmark.vue"
+    },
+    "./elm": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/elm.vue"
+    },
+    "./elm-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/elm-wordmark.vue"
+    },
+    "./emacs": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/emacs.vue"
+    },
+    "./emailjs": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/emailjs.vue"
+    },
+    "./emailjs-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/emailjs-wordmark.vue"
+    },
+    "./embeddedc": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/embeddedc.vue"
+    },
+    "./embeddedc-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/embeddedc-wordmark.vue"
+    },
+    "./ember": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/ember.vue"
+    },
+    "./ember-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/ember-wordmark.vue"
+    },
+    "./entityframeworkcore": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/entityframeworkcore.vue"
+    },
+    "./envoy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/envoy.vue"
+    },
+    "./envoy-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/envoy-wordmark.vue"
+    },
+    "./erlang": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/erlang.vue"
+    },
+    "./erlang-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/erlang-wordmark.vue"
+    },
+    "./eslint": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/eslint.vue"
+    },
+    "./eslint-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/eslint-wordmark.vue"
+    },
+    "./expo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/expo.vue"
+    },
+    "./expo-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/expo-wordmark.vue"
+    },
+    "./express": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/express.vue"
+    },
+    "./express-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/express-wordmark.vue"
+    },
+    "./facebook": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/facebook.vue"
+    },
+    "./fastapi": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fastapi.vue"
+    },
+    "./fastapi-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fastapi-wordmark.vue"
+    },
+    "./fastify": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fastify.vue"
+    },
+    "./fastify-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fastify-wordmark.vue"
+    },
+    "./faunadb": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/faunadb.vue"
+    },
+    "./faunadb-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/faunadb-wordmark.vue"
+    },
+    "./feathersjs": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/feathersjs.vue"
+    },
+    "./fedora": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fedora.vue"
+    },
+    "./fiber": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fiber.vue"
+    },
+    "./figma": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/figma.vue"
+    },
+    "./filamentphp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/filamentphp.vue"
+    },
+    "./filezilla": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/filezilla.vue"
+    },
+    "./filezilla-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/filezilla-wordmark.vue"
+    },
+    "./firebase": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/firebase.vue"
+    },
+    "./firebase-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/firebase-wordmark.vue"
+    },
+    "./firebird": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/firebird.vue"
+    },
+    "./firefox": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/firefox.vue"
+    },
+    "./firefox-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/firefox-wordmark.vue"
+    },
+    "./fish": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fish.vue"
+    },
+    "./flask": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/flask.vue"
+    },
+    "./flask-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/flask-wordmark.vue"
+    },
+    "./flutter": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/flutter.vue"
+    },
+    "./flyway": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/flyway.vue"
+    },
+    "./flyway-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/flyway-wordmark.vue"
+    },
+    "./forgejo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/forgejo.vue"
+    },
+    "./forgejo-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/forgejo-wordmark.vue"
+    },
+    "./fortran": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fortran.vue"
+    },
+    "./foundation": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/foundation.vue"
+    },
+    "./foundation-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/foundation-wordmark.vue"
+    },
+    "./framermotion": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/framermotion.vue"
+    },
+    "./framermotion-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/framermotion-wordmark.vue"
+    },
+    "./framework7": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/framework7.vue"
+    },
+    "./framework7-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/framework7-wordmark.vue"
+    },
+    "./frankenphp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/frankenphp.vue"
+    },
+    "./frankenphp-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/frankenphp-wordmark.vue"
+    },
+    "./fsharp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fsharp.vue"
+    },
+    "./fusion": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fusion.vue"
+    },
+    "./gardener": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gardener.vue"
+    },
+    "./gatling": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gatling.vue"
+    },
+    "./gatling-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gatling-wordmark.vue"
+    },
+    "./gatsby": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gatsby.vue"
+    },
+    "./gatsby-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gatsby-wordmark.vue"
+    },
+    "./gazebo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gazebo.vue"
+    },
+    "./gazebo-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gazebo-wordmark.vue"
+    },
+    "./gcc": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gcc.vue"
+    },
+    "./gentoo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gentoo.vue"
+    },
+    "./gentoo-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gentoo-wordmark.vue"
+    },
+    "./ghidra": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/ghidra.vue"
+    },
+    "./ghost": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/ghost.vue"
+    },
+    "./ghost-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/ghost-wordmark.vue"
+    },
+    "./gimp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gimp.vue"
+    },
+    "./gimp-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gimp-wordmark.vue"
+    },
+    "./git": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/git.vue"
+    },
+    "./git-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/git-wordmark.vue"
+    },
+    "./gitbook": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gitbook.vue"
+    },
+    "./gitbook-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gitbook-wordmark.vue"
+    },
+    "./gitea": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gitea.vue"
+    },
+    "./gitea-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gitea-wordmark.vue"
+    },
+    "./github": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/github.vue"
+    },
+    "./github-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/github-wordmark.vue"
+    },
+    "./githubactions": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/githubactions.vue"
+    },
+    "./githubactions-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/githubactions-wordmark.vue"
+    },
+    "./githubcodespaces": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/githubcodespaces.vue"
+    },
+    "./githubcopilot": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/githubcopilot.vue"
+    },
+    "./githubcopilot-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/githubcopilot-wordmark.vue"
+    },
+    "./gitkraken": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gitkraken.vue"
+    },
+    "./gitkraken-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gitkraken-wordmark.vue"
+    },
+    "./gitlab": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gitlab.vue"
+    },
+    "./gitlab-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gitlab-wordmark.vue"
+    },
+    "./gitpod": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gitpod.vue"
+    },
+    "./gitpod-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gitpod-wordmark.vue"
+    },
+    "./gleam": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gleam.vue"
+    },
+    "./glitch": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/glitch.vue"
+    },
+    "./gnuradio": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gnuradio.vue"
+    },
+    "./gnuradio-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gnuradio-wordmark.vue"
+    },
+    "./go": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/go.vue"
+    },
+    "./go-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/go-wordmark.vue"
+    },
+    "./godot": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/godot.vue"
+    },
+    "./godot-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/godot-wordmark.vue"
+    },
+    "./goland": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/goland.vue"
+    },
+    "./goland-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/goland-wordmark.vue"
+    },
+    "./google": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/google.vue"
+    },
+    "./google-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/google-wordmark.vue"
+    },
+    "./googleappscript": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/googleappscript.vue"
+    },
+    "./googlecloud": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/googlecloud.vue"
+    },
+    "./googlecloud-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/googlecloud-wordmark.vue"
+    },
+    "./googlecolab": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/googlecolab.vue"
+    },
+    "./gradle": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gradle.vue"
+    },
+    "./gradle-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gradle-wordmark.vue"
+    },
+    "./grafana": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/grafana.vue"
+    },
+    "./grafana-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/grafana-wordmark.vue"
+    },
+    "./grafanaloki": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/grafanaloki.vue"
+    },
+    "./grafanaloki-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/grafanaloki-wordmark.vue"
+    },
+    "./grails": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/grails.vue"
+    },
+    "./groovy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/groovy.vue"
+    },
+    "./grpc": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/grpc.vue"
+    },
+    "./grunt": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/grunt.vue"
+    },
+    "./grunt-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/grunt-wordmark.vue"
+    },
+    "./hadoop": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hadoop.vue"
+    },
+    "./hadoop-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hadoop-wordmark.vue"
+    },
+    "./handlebars": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/handlebars.vue"
+    },
+    "./handlebars-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/handlebars-wordmark.vue"
+    },
+    "./haproxy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/haproxy.vue"
+    },
+    "./haproxy-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/haproxy-wordmark.vue"
+    },
+    "./harbor": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/harbor.vue"
+    },
+    "./harbor-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/harbor-wordmark.vue"
+    },
+    "./hardhat": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hardhat.vue"
+    },
+    "./hardhat-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hardhat-wordmark.vue"
+    },
+    "./harvester": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/harvester.vue"
+    },
+    "./harvester-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/harvester-wordmark.vue"
+    },
+    "./haskell": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/haskell.vue"
+    },
+    "./haskell-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/haskell-wordmark.vue"
+    },
+    "./haxe": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/haxe.vue"
+    },
+    "./helix": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/helix.vue"
+    },
+    "./helm": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/helm.vue"
+    },
+    "./heroku": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/heroku.vue"
+    },
+    "./heroku-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/heroku-wordmark.vue"
+    },
+    "./hibernate": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hibernate.vue"
+    },
+    "./hibernate-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hibernate-wordmark.vue"
+    },
+    "./homebrew": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/homebrew.vue"
+    },
+    "./homebrew-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/homebrew-wordmark.vue"
+    },
+    "./hoppscotch": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hoppscotch.vue"
+    },
+    "./html5": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/html5.vue"
+    },
+    "./html5-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/html5-wordmark.vue"
+    },
+    "./htmx": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/htmx.vue"
+    },
+    "./htmx-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/htmx-wordmark.vue"
+    },
+    "./huggingface": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/huggingface.vue"
+    },
+    "./huggingface-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/huggingface-wordmark.vue"
+    },
+    "./hugo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hugo.vue"
+    },
+    "./hugo-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hugo-wordmark.vue"
+    },
+    "./hyperv": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hyperv.vue"
+    },
+    "./hyperv-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hyperv-wordmark.vue"
+    },
+    "./hyprland": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hyprland.vue"
+    },
+    "./hyprland-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hyprland-wordmark.vue"
+    },
+    "./ie10": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/ie10.vue"
+    },
+    "./ifttt": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/ifttt.vue"
+    },
+    "./illustrator": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/illustrator.vue"
+    },
+    "./inertiajs": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/inertiajs.vue"
+    },
+    "./inertiajs-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/inertiajs-wordmark.vue"
+    },
+    "./influxdb": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/influxdb.vue"
+    },
+    "./influxdb-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/influxdb-wordmark.vue"
+    },
+    "./inkscape": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/inkscape.vue"
+    },
+    "./inkscape-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/inkscape-wordmark.vue"
+    },
+    "./insomnia": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/insomnia.vue"
+    },
+    "./insomnia-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/insomnia-wordmark.vue"
+    },
+    "./intellij": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/intellij.vue"
+    },
+    "./intellij-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/intellij-wordmark.vue"
+    },
+    "./ionic": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/ionic.vue"
+    },
+    "./ionic-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/ionic-wordmark.vue"
+    },
+    "./istio": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/istio.vue"
+    },
+    "./istio-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/istio-wordmark.vue"
+    },
+    "./jaegertracing": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jaegertracing.vue"
+    },
+    "./jaegertracing-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jaegertracing-wordmark.vue"
+    },
+    "./jamstack": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jamstack.vue"
+    },
+    "./jamstack-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jamstack-wordmark.vue"
+    },
+    "./jasmine": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jasmine.vue"
+    },
+    "./jasmine-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jasmine-wordmark.vue"
+    },
+    "./java": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/java.vue"
+    },
+    "./java-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/java-wordmark.vue"
+    },
+    "./javascript": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/javascript.vue"
+    },
+    "./jeet": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jeet.vue"
+    },
+    "./jeet-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jeet-wordmark.vue"
+    },
+    "./jekyll": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jekyll.vue"
+    },
+    "./jenkins": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jenkins.vue"
+    },
+    "./jetbrains": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jetbrains.vue"
+    },
+    "./jetpackcompose": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jetpackcompose.vue"
+    },
+    "./jetpackcompose-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jetpackcompose-wordmark.vue"
+    },
+    "./jhipster": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jhipster.vue"
+    },
+    "./jhipster-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jhipster-wordmark.vue"
+    },
+    "./jira": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jira.vue"
+    },
+    "./jira-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jira-wordmark.vue"
+    },
+    "./jiraalign": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jiraalign.vue"
+    },
+    "./jiraalign-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jiraalign-wordmark.vue"
+    },
+    "./jquery": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jquery.vue"
+    },
+    "./jquery-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jquery-wordmark.vue"
+    },
+    "./json": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/json.vue"
+    },
+    "./jule": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jule.vue"
+    },
+    "./jule-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jule-wordmark.vue"
+    },
+    "./julia": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/julia.vue"
+    },
+    "./julia-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/julia-wordmark.vue"
+    },
+    "./junie": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/junie.vue"
+    },
+    "./junie-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/junie-wordmark.vue"
+    },
+    "./junit": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/junit.vue"
+    },
+    "./junit-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/junit-wordmark.vue"
+    },
+    "./jupyter": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jupyter.vue"
+    },
+    "./jupyter-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jupyter-wordmark.vue"
+    },
+    "./jwt": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jwt.vue"
+    },
+    "./jwt-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jwt-wordmark.vue"
+    },
+    "./k3os": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/k3os.vue"
+    },
+    "./k3os-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/k3os-wordmark.vue"
+    },
+    "./k3s": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/k3s.vue"
+    },
+    "./k3s-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/k3s-wordmark.vue"
+    },
+    "./k6": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/k6.vue"
+    },
+    "./kaggle": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kaggle.vue"
+    },
+    "./kaggle-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kaggle-wordmark.vue"
+    },
+    "./kaldi": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kaldi.vue"
+    },
+    "./kaldi-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kaldi-wordmark.vue"
+    },
+    "./kalilinux": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kalilinux.vue"
+    },
+    "./kalilinux-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kalilinux-wordmark.vue"
+    },
+    "./karatelabs": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/karatelabs.vue"
+    },
+    "./karatelabs-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/karatelabs-wordmark.vue"
+    },
+    "./karma": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/karma.vue"
+    },
+    "./kdeneon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kdeneon.vue"
+    },
+    "./keras": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/keras.vue"
+    },
+    "./keras-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/keras-wordmark.vue"
+    },
+    "./kibana": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kibana.vue"
+    },
+    "./kibana-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kibana-wordmark.vue"
+    },
+    "./knexjs": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/knexjs.vue"
+    },
+    "./knexjs-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/knexjs-wordmark.vue"
+    },
+    "./kotlin": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kotlin.vue"
+    },
+    "./kotlin-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kotlin-wordmark.vue"
+    },
+    "./krakenjs": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/krakenjs.vue"
+    },
+    "./krakenjs-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/krakenjs-wordmark.vue"
+    },
+    "./ktor": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/ktor.vue"
+    },
+    "./ktor-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/ktor-wordmark.vue"
+    },
+    "./kubeflow": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kubeflow.vue"
+    },
+    "./kubeflow-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kubeflow-wordmark.vue"
+    },
+    "./kubernetes": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kubernetes.vue"
+    },
+    "./kubernetes-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kubernetes-wordmark.vue"
+    },
+    "./labview": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/labview.vue"
+    },
+    "./labview-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/labview-wordmark.vue"
+    },
+    "./laminas": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/laminas.vue"
+    },
+    "./laminas-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/laminas-wordmark.vue"
+    },
+    "./laravel": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/laravel.vue"
+    },
+    "./laravel-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/laravel-wordmark.vue"
+    },
+    "./laraveljetstream": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/laraveljetstream.vue"
+    },
+    "./laraveljetstream-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/laraveljetstream-wordmark.vue"
+    },
+    "./latex": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/latex.vue"
+    },
+    "./leetcode": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/leetcode.vue"
+    },
+    "./leetcode-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/leetcode-wordmark.vue"
+    },
+    "./libgdx": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/libgdx.vue"
+    },
+    "./linkedin": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/linkedin.vue"
+    },
+    "./linkedin-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/linkedin-wordmark.vue"
+    },
+    "./linux": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/linux.vue"
+    },
+    "./linuxmint": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/linuxmint.vue"
+    },
+    "./linuxmint-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/linuxmint-wordmark.vue"
+    },
+    "./liquibase": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/liquibase.vue"
+    },
+    "./liquibase-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/liquibase-wordmark.vue"
+    },
+    "./livewire": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/livewire.vue"
+    },
+    "./livewire-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/livewire-wordmark.vue"
+    },
+    "./llvm": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/llvm.vue"
+    },
+    "./lodash": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lodash.vue"
+    },
+    "./logstash": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/logstash.vue"
+    },
+    "./logstash-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/logstash-wordmark.vue"
+    },
+    "./lovable": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lovable.vue"
+    },
+    "./lovable-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lovable-wordmark.vue"
+    },
+    "./love2d": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/love2d.vue"
+    },
+    "./lua": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lua.vue"
+    },
+    "./lua-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lua-wordmark.vue"
+    },
+    "./luau": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/luau.vue"
+    },
+    "./lumen": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lumen.vue"
+    },
+    "./magento": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/magento.vue"
+    },
+    "./magento-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/magento-wordmark.vue"
+    },
+    "./mapbox": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mapbox.vue"
+    },
+    "./mariadb": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mariadb.vue"
+    },
+    "./mariadb-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mariadb-wordmark.vue"
+    },
+    "./markdown": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/markdown.vue"
+    },
+    "./materializecss": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/materializecss.vue"
+    },
+    "./materialui": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/materialui.vue"
+    },
+    "./matlab": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/matlab.vue"
+    },
+    "./matplotlib": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/matplotlib.vue"
+    },
+    "./matplotlib-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/matplotlib-wordmark.vue"
+    },
+    "./mattermost": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mattermost.vue"
+    },
+    "./mattermost-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mattermost-wordmark.vue"
+    },
+    "./maven": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/maven.vue"
+    },
+    "./maven-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/maven-wordmark.vue"
+    },
+    "./maya": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/maya.vue"
+    },
+    "./maya-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/maya-wordmark.vue"
+    },
+    "./memcached": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/memcached.vue"
+    },
+    "./memcached-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/memcached-wordmark.vue"
+    },
+    "./mercurial": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mercurial.vue"
+    },
+    "./mercurial-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mercurial-wordmark.vue"
+    },
+    "./metabase": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/metabase.vue"
+    },
+    "./meteor": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/meteor.vue"
+    },
+    "./meteor-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/meteor-wordmark.vue"
+    },
+    "./microsoftsqlserver": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/microsoftsqlserver.vue"
+    },
+    "./microsoftsqlserver-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/microsoftsqlserver-wordmark.vue"
+    },
+    "./minitab": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/minitab.vue"
+    },
+    "./mithril": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mithril.vue"
+    },
+    "./mobx": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mobx.vue"
+    },
+    "./mocha": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mocha.vue"
+    },
+    "./modx": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/modx.vue"
+    },
+    "./modx-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/modx-wordmark.vue"
+    },
+    "./moleculer": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moleculer.vue"
+    },
+    "./moleculer-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moleculer-wordmark.vue"
+    },
+    "./mongock": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mongock.vue"
+    },
+    "./mongodb": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mongodb.vue"
+    },
+    "./mongodb-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mongodb-wordmark.vue"
+    },
+    "./mongoose": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mongoose.vue"
+    },
+    "./mongoose-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mongoose-wordmark.vue"
+    },
+    "./monogame": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/monogame.vue"
+    },
+    "./monogame-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/monogame-wordmark.vue"
+    },
+    "./moodle": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moodle.vue"
+    },
+    "./moodle-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moodle-wordmark.vue"
+    },
+    "./motion": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/motion.vue"
+    },
+    "./msbuild": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/msbuild.vue"
+    },
+    "./msdos": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/msdos.vue"
+    },
+    "./mysql": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mysql.vue"
+    },
+    "./mysql-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mysql-wordmark.vue"
+    },
+    "./n8n": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/n8n.vue"
+    },
+    "./n8n-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/n8n-wordmark.vue"
+    },
+    "./nano": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nano.vue"
+    },
+    "./nano-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nano-wordmark.vue"
+    },
+    "./nasm": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nasm.vue"
+    },
+    "./nasm-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nasm-wordmark.vue"
+    },
+    "./nats": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nats.vue"
+    },
+    "./neo4j": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/neo4j.vue"
+    },
+    "./neo4j-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/neo4j-wordmark.vue"
+    },
+    "./neovim": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/neovim.vue"
+    },
+    "./neovim-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/neovim-wordmark.vue"
+    },
+    "./nestjs": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nestjs.vue"
+    },
+    "./nestjs-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nestjs-wordmark.vue"
+    },
+    "./netbeans": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/netbeans.vue"
+    },
+    "./netbeans-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/netbeans-wordmark.vue"
+    },
+    "./netbox": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/netbox.vue"
+    },
+    "./netbox-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/netbox-wordmark.vue"
+    },
+    "./netlify": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/netlify.vue"
+    },
+    "./netlify-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/netlify-wordmark.vue"
+    },
+    "./networkx": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/networkx.vue"
+    },
+    "./networkx-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/networkx-wordmark.vue"
+    },
+    "./newrelic": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/newrelic.vue"
+    },
+    "./nextjs": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nextjs.vue"
+    },
+    "./nextjs-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nextjs-wordmark.vue"
+    },
+    "./nginx": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nginx.vue"
+    },
+    "./ngrok": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/ngrok.vue"
+    },
+    "./ngrx": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/ngrx.vue"
+    },
+    "./nhibernate": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nhibernate.vue"
+    },
+    "./nhibernate-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nhibernate-wordmark.vue"
+    },
+    "./nim": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nim.vue"
+    },
+    "./nim-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nim-wordmark.vue"
+    },
+    "./nimble": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nimble.vue"
+    },
+    "./nixos": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nixos.vue"
+    },
+    "./nixos-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nixos-wordmark.vue"
+    },
+    "./nodejs": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nodejs.vue"
+    },
+    "./nodejs-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nodejs-wordmark.vue"
+    },
+    "./nodemon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nodemon.vue"
+    },
+    "./nodered": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nodered.vue"
+    },
+    "./nodewebkit": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nodewebkit.vue"
+    },
+    "./nodewebkit-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nodewebkit-wordmark.vue"
+    },
+    "./nomad": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nomad.vue"
+    },
+    "./nomad-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nomad-wordmark.vue"
+    },
+    "./norg": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/norg.vue"
+    },
+    "./notion": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/notion.vue"
+    },
+    "./novelwriter": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/novelwriter.vue"
+    },
+    "./npm": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/npm.vue"
+    },
+    "./npm-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/npm-wordmark.vue"
+    },
+    "./npss": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/npss.vue"
+    },
+    "./nuget": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nuget.vue"
+    },
+    "./nuget-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nuget-wordmark.vue"
+    },
+    "./numpy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/numpy.vue"
+    },
+    "./numpy-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/numpy-wordmark.vue"
+    },
+    "./nuxt": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nuxt.vue"
+    },
+    "./nuxt-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nuxt-wordmark.vue"
+    },
+    "./nuxtjs": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nuxtjs.vue"
+    },
+    "./nuxtjs-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nuxtjs-wordmark.vue"
+    },
+    "./oauth": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/oauth.vue"
+    },
+    "./ocaml": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/ocaml.vue"
+    },
+    "./ocaml-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/ocaml-wordmark.vue"
+    },
+    "./odin": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/odin.vue"
+    },
+    "./odin-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/odin-wordmark.vue"
+    },
+    "./ohmyzsh": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/ohmyzsh.vue"
+    },
+    "./okta": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/okta.vue"
+    },
+    "./okta-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/okta-wordmark.vue"
+    },
+    "./ollama": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/ollama.vue"
+    },
+    "./openal": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/openal.vue"
+    },
+    "./openapi": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/openapi.vue"
+    },
+    "./openapi-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/openapi-wordmark.vue"
+    },
+    "./opencl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/opencl.vue"
+    },
+    "./opencv": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/opencv.vue"
+    },
+    "./opencv-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/opencv-wordmark.vue"
+    },
+    "./opengl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/opengl.vue"
+    },
+    "./openstack": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/openstack.vue"
+    },
+    "./openstack-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/openstack-wordmark.vue"
+    },
+    "./opensuse": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/opensuse.vue"
+    },
+    "./opensuse-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/opensuse-wordmark.vue"
+    },
+    "./opentelemetry": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/opentelemetry.vue"
+    },
+    "./opentelemetry-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/opentelemetry-wordmark.vue"
+    },
+    "./opera": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/opera.vue"
+    },
+    "./opera-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/opera-wordmark.vue"
+    },
+    "./opnsense": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/opnsense.vue"
+    },
+    "./opnsense-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/opnsense-wordmark.vue"
+    },
+    "./oracle": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/oracle.vue"
+    },
+    "./ory": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/ory.vue"
+    },
+    "./ory-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/ory-wordmark.vue"
+    },
+    "./p5js": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/p5js.vue"
+    },
+    "./packer": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/packer.vue"
+    },
+    "./packer-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/packer-wordmark.vue"
+    },
+    "./pandas": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pandas.vue"
+    },
+    "./pandas-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pandas-wordmark.vue"
+    },
+    "./passport": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/passport.vue"
+    },
+    "./passport-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/passport-wordmark.vue"
+    },
+    "./payloadcms": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/payloadcms.vue"
+    },
+    "./payloadcms-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/payloadcms-wordmark.vue"
+    },
+    "./perl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/perl.vue"
+    },
+    "./pfsense": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pfsense.vue"
+    },
+    "./pfsense-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pfsense-wordmark.vue"
+    },
+    "./phalcon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/phalcon.vue"
+    },
+    "./phoenix": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/phoenix.vue"
+    },
+    "./phoenix-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/phoenix-wordmark.vue"
+    },
+    "./photonengine": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/photonengine.vue"
+    },
+    "./photoshop": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/photoshop.vue"
+    },
+    "./php": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/php.vue"
+    },
+    "./phpstorm": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/phpstorm.vue"
+    },
+    "./phpstorm-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/phpstorm-wordmark.vue"
+    },
+    "./pixijs": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pixijs.vue"
+    },
+    "./pixijs-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pixijs-wordmark.vue"
+    },
+    "./playwright": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/playwright.vue"
+    },
+    "./plotly": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/plotly.vue"
+    },
+    "./plotly-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/plotly-wordmark.vue"
+    },
+    "./pm2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pm2.vue"
+    },
+    "./pm2-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pm2-wordmark.vue"
+    },
+    "./pnpm": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pnpm.vue"
+    },
+    "./pnpm-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pnpm-wordmark.vue"
+    },
+    "./podman": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/podman.vue"
+    },
+    "./podman-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/podman-wordmark.vue"
+    },
+    "./poetry": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/poetry.vue"
+    },
+    "./polygon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/polygon.vue"
+    },
+    "./polygon-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/polygon-wordmark.vue"
+    },
+    "./portainer": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/portainer.vue"
+    },
+    "./portainer-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/portainer-wordmark.vue"
+    },
+    "./positron": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/positron.vue"
+    },
+    "./postcss": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/postcss.vue"
+    },
+    "./postcss-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/postcss-wordmark.vue"
+    },
+    "./postgresql": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/postgresql.vue"
+    },
+    "./postgresql-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/postgresql-wordmark.vue"
+    },
+    "./postman": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/postman.vue"
+    },
+    "./postman-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/postman-wordmark.vue"
+    },
+    "./powershell": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/powershell.vue"
+    },
+    "./premierepro": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/premierepro.vue"
+    },
+    "./prestashop": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/prestashop.vue"
+    },
+    "./prestashop-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/prestashop-wordmark.vue"
+    },
+    "./primeng": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/primeng.vue"
+    },
+    "./prisma": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/prisma.vue"
+    },
+    "./prisma-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/prisma-wordmark.vue"
+    },
+    "./processing": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/processing.vue"
+    },
+    "./processing-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/processing-wordmark.vue"
+    },
+    "./processwire": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/processwire.vue"
+    },
+    "./processwire-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/processwire-wordmark.vue"
+    },
+    "./prolog": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/prolog.vue"
+    },
+    "./prolog-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/prolog-wordmark.vue"
+    },
+    "./prometheus": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/prometheus.vue"
+    },
+    "./prometheus-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/prometheus-wordmark.vue"
+    },
+    "./protractor": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/protractor.vue"
+    },
+    "./protractor-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/protractor-wordmark.vue"
+    },
+    "./proxmox": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/proxmox.vue"
+    },
+    "./proxmox-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/proxmox-wordmark.vue"
+    },
+    "./pug": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pug.vue"
+    },
+    "./pulsar": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pulsar.vue"
+    },
+    "./pulsar-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pulsar-wordmark.vue"
+    },
+    "./pulumi": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pulumi.vue"
+    },
+    "./pulumi-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pulumi-wordmark.vue"
+    },
+    "./puppeteer": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/puppeteer.vue"
+    },
+    "./purescript": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/purescript.vue"
+    },
+    "./purescript-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/purescript-wordmark.vue"
+    },
+    "./putty": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/putty.vue"
+    },
+    "./pycharm": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pycharm.vue"
+    },
+    "./pycharm-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pycharm-wordmark.vue"
+    },
+    "./pypi": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pypi.vue"
+    },
+    "./pypi-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pypi-wordmark.vue"
+    },
+    "./pyscript-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pyscript-wordmark.vue"
+    },
+    "./pytest": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pytest.vue"
+    },
+    "./pytest-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pytest-wordmark.vue"
+    },
+    "./python": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/python.vue"
+    },
+    "./python-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/python-wordmark.vue"
+    },
+    "./pytorch": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pytorch.vue"
+    },
+    "./pytorch-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pytorch-wordmark.vue"
+    },
+    "./qiskit": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/qiskit.vue"
+    },
+    "./qodana": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/qodana.vue"
+    },
+    "./qt": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/qt.vue"
+    },
+    "./qtest": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/qtest.vue"
+    },
+    "./qtest-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/qtest-wordmark.vue"
+    },
+    "./quarkus": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/quarkus.vue"
+    },
+    "./quarkus-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/quarkus-wordmark.vue"
+    },
+    "./quasar": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/quasar.vue"
+    },
+    "./quasar-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/quasar-wordmark.vue"
+    },
+    "./qwik": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/qwik.vue"
+    },
+    "./qwik-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/qwik-wordmark.vue"
+    },
+    "./r": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/r.vue"
+    },
+    "./rabbitmq": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rabbitmq.vue"
+    },
+    "./rabbitmq-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rabbitmq-wordmark.vue"
+    },
+    "./racket": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/racket.vue"
+    },
+    "./radstudio": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/radstudio.vue"
+    },
+    "./rails-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rails-wordmark.vue"
+    },
+    "./railway": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/railway.vue"
+    },
+    "./railway-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/railway-wordmark.vue"
+    },
+    "./rancher": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rancher.vue"
+    },
+    "./rancher-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rancher-wordmark.vue"
+    },
+    "./raspberrypi": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/raspberrypi.vue"
+    },
+    "./raspberrypi-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/raspberrypi-wordmark.vue"
+    },
+    "./ravendb": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/ravendb.vue"
+    },
+    "./ravendb-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/ravendb-wordmark.vue"
+    },
+    "./reach": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/reach.vue"
+    },
+    "./react": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/react.vue"
+    },
+    "./react-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/react-wordmark.vue"
+    },
+    "./reactbootstrap": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/reactbootstrap.vue"
+    },
+    "./reactnative": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/reactnative.vue"
+    },
+    "./reactnative-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/reactnative-wordmark.vue"
+    },
+    "./reactnavigation": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/reactnavigation.vue"
+    },
+    "./reactrouter": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/reactrouter.vue"
+    },
+    "./reactrouter-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/reactrouter-wordmark.vue"
+    },
+    "./readthedocs": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/readthedocs.vue"
+    },
+    "./readthedocs-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/readthedocs-wordmark.vue"
+    },
+    "./realm": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/realm.vue"
+    },
+    "./realm-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/realm-wordmark.vue"
+    },
+    "./rect": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rect.vue"
+    },
+    "./redhat": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/redhat.vue"
+    },
+    "./redhat-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/redhat-wordmark.vue"
+    },
+    "./redis": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/redis.vue"
+    },
+    "./redis-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/redis-wordmark.vue"
+    },
+    "./redux": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/redux.vue"
+    },
+    "./reflex": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/reflex.vue"
+    },
+    "./reflex-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/reflex-wordmark.vue"
+    },
+    "./remix": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/remix.vue"
+    },
+    "./remix-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/remix-wordmark.vue"
+    },
+    "./renpy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/renpy.vue"
+    },
+    "./replit": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/replit.vue"
+    },
+    "./replit-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/replit-wordmark.vue"
+    },
+    "./rexx": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rexx.vue"
+    },
+    "./rexx-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rexx-wordmark.vue"
+    },
+    "./rider": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rider.vue"
+    },
+    "./rider-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rider-wordmark.vue"
+    },
+    "./rocksdb": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rocksdb.vue"
+    },
+    "./rockylinux": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rockylinux.vue"
+    },
+    "./rockylinux-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rockylinux-wordmark.vue"
+    },
+    "./rollup": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rollup.vue"
+    },
+    "./rollup-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rollup-wordmark.vue"
+    },
+    "./ros": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/ros.vue"
+    },
+    "./ros-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/ros-wordmark.vue"
+    },
+    "./rspec": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rspec.vue"
+    },
+    "./rspec-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rspec-wordmark.vue"
+    },
+    "./rstudio": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rstudio.vue"
+    },
+    "./ruby": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/ruby.vue"
+    },
+    "./ruby-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/ruby-wordmark.vue"
+    },
+    "./rubymine": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rubymine.vue"
+    },
+    "./rubymine-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rubymine-wordmark.vue"
+    },
+    "./rust": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rust.vue"
+    },
+    "./rxjs": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rxjs.vue"
+    },
+    "./safari": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/safari.vue"
+    },
+    "./safari-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/safari-wordmark.vue"
+    },
+    "./salesforce": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/salesforce.vue"
+    },
+    "./sanity": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sanity.vue"
+    },
+    "./sass": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sass.vue"
+    },
+    "./scala": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/scala.vue"
+    },
+    "./scala-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/scala-wordmark.vue"
+    },
+    "./scaleway": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/scaleway.vue"
+    },
+    "./scaleway-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/scaleway-wordmark.vue"
+    },
+    "./scalingo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/scalingo.vue"
+    },
+    "./scalingo-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/scalingo-wordmark.vue"
+    },
+    "./scikitlearn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/scikitlearn.vue"
+    },
+    "./sdl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sdl.vue"
+    },
+    "./seaborn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/seaborn.vue"
+    },
+    "./seaborn-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/seaborn-wordmark.vue"
+    },
+    "./selenium": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/selenium.vue"
+    },
+    "./sema": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sema.vue"
+    },
+    "./sema-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sema-wordmark.vue"
+    },
+    "./sentry": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sentry.vue"
+    },
+    "./sentry-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sentry-wordmark.vue"
+    },
+    "./sequelize": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sequelize.vue"
+    },
+    "./sequelize-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sequelize-wordmark.vue"
+    },
+    "./sfml": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sfml.vue"
+    },
+    "./shopware": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/shopware.vue"
+    },
+    "./shopware-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/shopware-wordmark.vue"
+    },
+    "./shotgrid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/shotgrid.vue"
+    },
+    "./shotgrid-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/shotgrid-wordmark.vue"
+    },
+    "./sketch": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sketch.vue"
+    },
+    "./sketch-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sketch-wordmark.vue"
+    },
+    "./slack": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/slack.vue"
+    },
+    "./slack-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/slack-wordmark.vue"
+    },
+    "./socketio": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/socketio.vue"
+    },
+    "./socketio-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/socketio-wordmark.vue"
+    },
+    "./solidity": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/solidity.vue"
+    },
+    "./solidjs": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/solidjs.vue"
+    },
+    "./solidjs-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/solidjs-wordmark.vue"
+    },
+    "./sonarqube": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sonarqube.vue"
+    },
+    "./sonarqube-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sonarqube-wordmark.vue"
+    },
+    "./sourceengine": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sourceengine.vue"
+    },
+    "./sourceengine-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sourceengine-wordmark.vue"
+    },
+    "./sourcetree": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sourcetree.vue"
+    },
+    "./sourcetree-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sourcetree-wordmark.vue"
+    },
+    "./spack": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/spack.vue"
+    },
+    "./spicedb": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/spicedb.vue"
+    },
+    "./splunk-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/splunk-wordmark.vue"
+    },
+    "./spring": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/spring.vue"
+    },
+    "./spring-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/spring-wordmark.vue"
+    },
+    "./spss": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/spss.vue"
+    },
+    "./spyder": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/spyder.vue"
+    },
+    "./spyder-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/spyder-wordmark.vue"
+    },
+    "./sqlalchemy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sqlalchemy.vue"
+    },
+    "./sqlalchemy-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sqlalchemy-wordmark.vue"
+    },
+    "./sqldeveloper": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sqldeveloper.vue"
+    },
+    "./sqlite": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sqlite.vue"
+    },
+    "./sqlite-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sqlite-wordmark.vue"
+    },
+    "./ssh": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/ssh.vue"
+    },
+    "./ssh-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/ssh-wordmark.vue"
+    },
+    "./stackblitz": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stackblitz.vue"
+    },
+    "./stackblitz-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stackblitz-wordmark.vue"
+    },
+    "./stackoverflow": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stackoverflow.vue"
+    },
+    "./stackoverflow-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stackoverflow-wordmark.vue"
+    },
+    "./starship": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/starship.vue"
+    },
+    "./starship-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/starship-wordmark.vue"
+    },
+    "./stata-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stata-wordmark.vue"
+    },
+    "./stenciljs": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stenciljs.vue"
+    },
+    "./stenciljs-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stenciljs-wordmark.vue"
+    },
+    "./stimulus": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stimulus.vue"
+    },
+    "./stimulus-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stimulus-wordmark.vue"
+    },
+    "./storybook": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/storybook.vue"
+    },
+    "./storybook-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/storybook-wordmark.vue"
+    },
+    "./streamlit": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/streamlit.vue"
+    },
+    "./streamlit-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/streamlit-wordmark.vue"
+    },
+    "./styledcomponents": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/styledcomponents.vue"
+    },
+    "./styledcomponents-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/styledcomponents-wordmark.vue"
+    },
+    "./stylus": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stylus.vue"
+    },
+    "./subversion": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/subversion.vue"
+    },
+    "./subversion-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/subversion-wordmark.vue"
+    },
+    "./sulu": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sulu.vue"
+    },
+    "./sulu-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sulu-wordmark.vue"
+    },
+    "./supabase": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/supabase.vue"
+    },
+    "./supabase-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/supabase-wordmark.vue"
+    },
+    "./surrealdb": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/surrealdb.vue"
+    },
+    "./surrealdb-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/surrealdb-wordmark.vue"
+    },
+    "./svelte": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/svelte.vue"
+    },
+    "./svelte-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/svelte-wordmark.vue"
+    },
+    "./svgo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/svgo.vue"
+    },
+    "./svgo-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/svgo-wordmark.vue"
+    },
+    "./swagger": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/swagger.vue"
+    },
+    "./swagger-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/swagger-wordmark.vue"
+    },
+    "./swift": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/swift.vue"
+    },
+    "./swift-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/swift-wordmark.vue"
+    },
+    "./swiper": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/swiper.vue"
+    },
+    "./symfony": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/symfony.vue"
+    },
+    "./symfony-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/symfony-wordmark.vue"
+    },
+    "./tailwindcss": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tailwindcss.vue"
+    },
+    "./tailwindcss-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tailwindcss-wordmark.vue"
+    },
+    "./talos": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/talos.vue"
+    },
+    "./tauri": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tauri.vue"
+    },
+    "./tauri-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tauri-wordmark.vue"
+    },
+    "./teamcity": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/teamcity.vue"
+    },
+    "./teamcity-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/teamcity-wordmark.vue"
+    },
+    "./teleport": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/teleport.vue"
+    },
+    "./teleport-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/teleport-wordmark.vue"
+    },
+    "./tensorflow": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tensorflow.vue"
+    },
+    "./tensorflow-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tensorflow-wordmark.vue"
+    },
+    "./tenzir": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tenzir.vue"
+    },
+    "./tenzir-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tenzir-wordmark.vue"
+    },
+    "./terraform": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/terraform.vue"
+    },
+    "./terraform-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/terraform-wordmark.vue"
+    },
+    "./terramate": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/terramate.vue"
+    },
+    "./terramate-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/terramate-wordmark.vue"
+    },
+    "./testrail": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/testrail.vue"
+    },
+    "./testrail-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/testrail-wordmark.vue"
+    },
+    "./tex": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tex.vue"
+    },
+    "./thealgorithms": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/thealgorithms.vue"
+    },
+    "./thealgorithms-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/thealgorithms-wordmark.vue"
+    },
+    "./threedsmax": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/threedsmax.vue"
+    },
+    "./threejs": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/threejs.vue"
+    },
+    "./threejs-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/threejs-wordmark.vue"
+    },
+    "./thymeleaf": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/thymeleaf.vue"
+    },
+    "./thymeleaf-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/thymeleaf-wordmark.vue"
+    },
+    "./tigerbeetle": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tigerbeetle.vue"
+    },
+    "./tigerbeetle-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tigerbeetle-wordmark.vue"
+    },
+    "./tinygo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tinygo.vue"
+    },
+    "./titaniumsdk": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/titaniumsdk.vue"
+    },
+    "./tmux": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tmux.vue"
+    },
+    "./tmux-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tmux-wordmark.vue"
+    },
+    "./tomcat": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tomcat.vue"
+    },
+    "./tomcat-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tomcat-wordmark.vue"
+    },
+    "./tortoisegit": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tortoisegit.vue"
+    },
+    "./towergit": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/towergit.vue"
+    },
+    "./towergit-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/towergit-wordmark.vue"
+    },
+    "./traefikmesh": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/traefikmesh.vue"
+    },
+    "./traefikmesh-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/traefikmesh-wordmark.vue"
+    },
+    "./traefikproxy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/traefikproxy.vue"
+    },
+    "./traefikproxy-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/traefikproxy-wordmark.vue"
+    },
+    "./travis": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/travis.vue"
+    },
+    "./travis-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/travis-wordmark.vue"
+    },
+    "./trello": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/trello.vue"
+    },
+    "./trello-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/trello-wordmark.vue"
+    },
+    "./trpc": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/trpc.vue"
+    },
+    "./trpc-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/trpc-wordmark.vue"
+    },
+    "./turbo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/turbo.vue"
+    },
+    "./turbo-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/turbo-wordmark.vue"
+    },
+    "./twilio": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/twilio.vue"
+    },
+    "./twilio-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/twilio-wordmark.vue"
+    },
+    "./twitter": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/twitter.vue"
+    },
+    "./typeorm": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/typeorm.vue"
+    },
+    "./typeorm-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/typeorm-wordmark.vue"
+    },
+    "./typer": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/typer.vue"
+    },
+    "./typer-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/typer-wordmark.vue"
+    },
+    "./typescript": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/typescript.vue"
+    },
+    "./typo3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/typo3.vue"
+    },
+    "./typo3-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/typo3-wordmark.vue"
+    },
+    "./ubuntu": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/ubuntu.vue"
+    },
+    "./ubuntu-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/ubuntu-wordmark.vue"
+    },
+    "./unifiedmodelinglanguage": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/unifiedmodelinglanguage.vue"
+    },
+    "./unifiedmodelinglanguage-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/unifiedmodelinglanguage-wordmark.vue"
+    },
+    "./unity": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/unity.vue"
+    },
+    "./unity-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/unity-wordmark.vue"
+    },
+    "./unix": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/unix.vue"
+    },
+    "./unrealengine": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/unrealengine.vue"
+    },
+    "./unrealengine-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/unrealengine-wordmark.vue"
+    },
+    "./uv": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/uv.vue"
+    },
+    "./uwsgi": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/uwsgi.vue"
+    },
+    "./v8": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/v8.vue"
+    },
+    "./vaadin": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vaadin.vue"
+    },
+    "./vaadin-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vaadin-wordmark.vue"
+    },
+    "./vagrant": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vagrant.vue"
+    },
+    "./vagrant-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vagrant-wordmark.vue"
+    },
+    "./vala": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vala.vue"
+    },
+    "./vala-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vala-wordmark.vue"
+    },
+    "./vapor": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vapor.vue"
+    },
+    "./vapor-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vapor-wordmark.vue"
+    },
+    "./vault": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vault.vue"
+    },
+    "./vault-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vault-wordmark.vue"
+    },
+    "./veevalidate": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/veevalidate.vue"
+    },
+    "./vercel": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vercel.vue"
+    },
+    "./vercel-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vercel-wordmark.vue"
+    },
+    "./vertx": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vertx.vue"
+    },
+    "./vertx-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vertx-wordmark.vue"
+    },
+    "./vim": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vim.vue"
+    },
+    "./visualbasic": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/visualbasic.vue"
+    },
+    "./visualstudio": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/visualstudio.vue"
+    },
+    "./visualstudio-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/visualstudio-wordmark.vue"
+    },
+    "./vite": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vite.vue"
+    },
+    "./vite-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vite-wordmark.vue"
+    },
+    "./vitejs": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vitejs.vue"
+    },
+    "./vitess": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vitess.vue"
+    },
+    "./vitess-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vitess-wordmark.vue"
+    },
+    "./vitest": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vitest.vue"
+    },
+    "./vlang": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vlang.vue"
+    },
+    "./vscode": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vscode.vue"
+    },
+    "./vscode-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vscode-wordmark.vue"
+    },
+    "./vscodium": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vscodium.vue"
+    },
+    "./vsphere": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vsphere.vue"
+    },
+    "./vsphere-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vsphere-wordmark.vue"
+    },
+    "./vuejs": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vuejs.vue"
+    },
+    "./vuejs-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vuejs-wordmark.vue"
+    },
+    "./vuestorefront": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vuestorefront.vue"
+    },
+    "./vuetify": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vuetify.vue"
+    },
+    "./vulkan": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vulkan.vue"
+    },
+    "./vyper": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vyper.vue"
+    },
+    "./vyper-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vyper-wordmark.vue"
+    },
+    "./waku": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/waku.vue"
+    },
+    "./wasm": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wasm.vue"
+    },
+    "./wasm-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wasm-wordmark.vue"
+    },
+    "./wasp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wasp.vue"
+    },
+    "./web2py": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/web2py.vue"
+    },
+    "./web3js": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/web3js.vue"
+    },
+    "./webflow": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/webflow.vue"
+    },
+    "./webgpu": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/webgpu.vue"
+    },
+    "./webgpu-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/webgpu-wordmark.vue"
+    },
+    "./weblate": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/weblate.vue"
+    },
+    "./weblate-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/weblate-wordmark.vue"
+    },
+    "./webpack": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/webpack.vue"
+    },
+    "./webpack-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/webpack-wordmark.vue"
+    },
+    "./webstorm": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/webstorm.vue"
+    },
+    "./webstorm-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/webstorm-wordmark.vue"
+    },
+    "./windows11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/windows11.vue"
+    },
+    "./windows11-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/windows11-wordmark.vue"
+    },
+    "./windows8": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/windows8.vue"
+    },
+    "./windows8-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/windows8-wordmark.vue"
+    },
+    "./wireguard": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wireguard.vue"
+    },
+    "./wireguard-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wireguard-wordmark.vue"
+    },
+    "./wolfram": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wolfram.vue"
+    },
+    "./wolfram-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wolfram-wordmark.vue"
+    },
+    "./woocommerce": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/woocommerce.vue"
+    },
+    "./woocommerce-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/woocommerce-wordmark.vue"
+    },
+    "./wordpress": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wordpress.vue"
+    },
+    "./xamarin": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/x/xamarin.vue"
+    },
+    "./xamarin-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/x/xamarin-wordmark.vue"
+    },
+    "./xcode": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/x/xcode.vue"
+    },
+    "./xd": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/x/xd.vue"
+    },
+    "./xml": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/x/xml.vue"
+    },
+    "./yaml": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yaml.vue"
+    },
+    "./yarn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yarn.vue"
+    },
+    "./yarn-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yarn-wordmark.vue"
+    },
+    "./yii": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yii.vue"
+    },
+    "./yii-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yii-wordmark.vue"
+    },
+    "./youtrack": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/youtrack.vue"
+    },
+    "./youtrack-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/youtrack-wordmark.vue"
+    },
+    "./yugabytedb": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yugabytedb.vue"
+    },
+    "./yugabytedb-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yugabytedb-wordmark.vue"
+    },
+    "./yunohost": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yunohost.vue"
+    },
+    "./zed": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/z/zed.vue"
+    },
+    "./zend": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/z/zend.vue"
+    },
+    "./zend-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/z/zend-wordmark.vue"
+    },
+    "./zig": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/z/zig.vue"
+    },
+    "./zig-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/z/zig-wordmark.vue"
+    },
+    "./zsh": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/z/zsh.vue"
+    },
+    "./zsh-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/z/zsh-wordmark.vue"
+    },
+    "./zustand": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/z/zustand.vue"
+    },
+    "./3dsmax": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/3/3dsmax.vue"
+    },
+    "./amazonwebservices-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/amazonwebservices-wordmark.vue"
+    },
+    "./web3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/web3.vue"
+    },
+    "./*": "./*"
+  },
+  "dependencies": {
+    "@iconify/css-vue": "^1.0.0"
+  },
+  "repository": "github:iconify/icons-vue#devicon"
+}

@@ -1,0 +1,12 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/t/to0c2ub7t.css';
+import '../../css/t/tydx89bkk.css';
+import '../../css/m/mth_jkjsy.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="to0c2ub7t"><path class="tydx89bkk"/><path class="mth_jkjsy"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="akar-icons:stop" /></template>

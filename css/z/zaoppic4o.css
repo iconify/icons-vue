@@ -1,0 +1,8 @@
+.zaoppic4o {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M6 3v18M18 3v18M3 6h18M3 18h18");
+}

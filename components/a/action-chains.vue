@@ -1,0 +1,11 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/u/uri5h4b8u.css';
+import '../../css/c/ct5b1-o3f.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<circle class="uri5h4b8u"/><path class="ct5b1-o3f"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="eos-icons:action-chains" /></template>

@@ -1,16 +1,15 @@
 # @iconify-vue/bpmn
 
-Icon set prefix: **bpmn**
+⚠️ This icon set is deprecated and no longer maintained. Use it at your own risk.
 
-Icon set name: **BPMN**
 
-Author: **Camunda Services GmbH**
+**BPMN**
 
-License: **[Open Font License](https://github.com/bpmn-io/bpmn-font/blob/master/LICENSE)**
+Author: [Camunda Services GmbH](https://github.com/bpmn-io/bpmn-font)
 
-Repository: **https://github.com/bpmn-io/bpmn-font**
+License: [Open Font License](https://github.com/bpmn-io/bpmn-font/blob/master/LICENSE)
 
-Browse all icons: **[Preview BPMN](https://icon-sets.iconify.design/bpmn/)**
+Browse all icons: [preview BPMN on Iconify](https://icon-sets.iconify.design/bpmn/)
 
 ## Installation
 

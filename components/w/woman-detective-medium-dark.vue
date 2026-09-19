@@ -1,0 +1,34 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/f/ft5dv1b6b.css';
+import '../../css/r/r7j5twu2y.css';
+import '../../css/g/gmxtcu5jk.css';
+import '../../css/j/j6mbvczot.css';
+import '../../css/t/t9hvc79oc.css';
+import '../../css/p/pa4ldpb-w.css';
+import '../../css/j/j2ftgdcug.css';
+import '../../css/c/cgyltnwxu.css';
+import '../../css/w/wisxy09py.css';
+import '../../css/u/ufwvt-zuw.css';
+import '../../css/v/vb1pcgqcq.css';
+import '../../css/p/po6624b0a.css';
+import '../../css/i/inwcrg0at.css';
+import '../../css/w/wdve3ghir.css';
+import '../../css/d/d_cqpl6jf.css';
+import '../../css/c/cf6zs1bkq.css';
+import '../../css/f/fhmvhccxu.css';
+import '../../css/y/ylu035bbt.css';
+import '../../css/x/x5ehxwgrk.css';
+import '../../css/k/kgnv2zb3l.css';
+import '../../css/b/bzm0utb4r.css';
+import '../../css/u/uxb-0ubpv.css';
+import '../../css/i/iy77jsbag.css';
+import '../../css/a/a8haxh5mk.css';
+import '../../css/w/wxzdhpjhe.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":32,"height":32};
+const content = `<g class="ft5dv1b6b"><path class="r7j5twu2y"/><path class="gmxtcu5jk"/><path class="j6mbvczot"/><path class="t9hvc79oc"/><path class="pa4ldpb-w"/><path class="j2ftgdcug"/><path class="cgyltnwxu"/><path class="wisxy09py"/><path class="ufwvt-zuw"/><path class="vb1pcgqcq"/><path class="po6624b0a"/><path class="inwcrg0at"/><path class="wdve3ghir"/><path class="d_cqpl6jf"/><path class="cf6zs1bkq"/><path class="fhmvhccxu"/><path class="ylu035bbt"/><path class="x5ehxwgrk"/><path class="kgnv2zb3l"/><path class="bzm0utb4r"/><path class="uxb-0ubpv"/><path class="iy77jsbag"/><path class="a8haxh5mk"/><path class="wxzdhpjhe"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent-emoji-flat:woman-detective-medium-dark" /></template>

@@ -1,0 +1,28 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/f/ft5dv1b6b.css';
+import '../../css/z/z6ar0zbat.css';
+import '../../css/a/a81ggz_av.css';
+import '../../css/j/jk8o3_bnk.css';
+import '../../css/g/gzzamkz7q.css';
+import '../../css/f/fhwlifb4y.css';
+import '../../css/y/y0i48q7zz.css';
+import '../../css/p/php98q_rm.css';
+import '../../css/t/tl0am2b0a.css';
+import '../../css/v/vc4mzbcld.css';
+import '../../css/z/ztuar7o9l.css';
+import '../../css/v/vjylnlk4v.css';
+import '../../css/f/f3h7ppe5t.css';
+import '../../css/q/qndd_3bmf.css';
+import '../../css/x/x-yd8q67d.css';
+import '../../css/g/ghfo-gbno.css';
+import '../../css/c/cupb4ozmw.css';
+import '../../css/h/hu8_6tb5l.css';
+import '../../css/c/cf_gifbnz.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":32,"height":32};
+const content = `<g class="ft5dv1b6b"><path class="z6ar0zbat"/><path class="a81ggz_av"/><path class="jk8o3_bnk"/><path class="gzzamkz7q"/><path class="fhwlifb4y"/><path class="y0i48q7zz"/><path class="php98q_rm"/><path class="tl0am2b0a"/><path class="vc4mzbcld"/><path class="ztuar7o9l"/><path class="vjylnlk4v"/><path class="f3h7ppe5t"/><path class="qndd_3bmf"/><path class="x-yd8q67d"/><path class="ghfo-gbno"/><path class="cupb4ozmw"/><path class="hu8_6tb5l"/><path class="cf_gifbnz"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent-emoji-flat:woman-getting-haircut" /></template>

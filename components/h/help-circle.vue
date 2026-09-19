@@ -1,0 +1,10 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/m/mwmc9j4zj.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":512,"height":512};
+const content = `<path class="mwmc9j4zj"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="famicons:help-circle" /></template>

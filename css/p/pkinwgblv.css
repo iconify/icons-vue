@@ -1,0 +1,8 @@
+.pkinwgblv {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--32px, 32px);
+  d: path("M448 64L64 240.14h200a8 8 0 0 1 8 8V448Z");
+}

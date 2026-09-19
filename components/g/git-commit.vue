@@ -1,0 +1,10 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/d/dmn9y9neh.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":512,"height":512};
+const content = `<path class="dmn9y9neh"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="famicons:git-commit" /></template>

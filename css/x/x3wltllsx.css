@@ -1,0 +1,8 @@
+.x3wltllsx {
+  fill: var(--svg-color--555, #555);
+  stroke: var(--svg-color--fff, #fff);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--4px, 4px);
+  d: path("M6 30h12v12H6zM30 6h12v12H30zm0 12h12v12H30zm-12 0h12v12H18zM6 18h12v12H6z");
+}

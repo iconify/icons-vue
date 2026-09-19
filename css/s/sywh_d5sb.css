@@ -1,0 +1,7 @@
+.sywh_d5sb {
+  stroke: var(--svg-color--fff, #fff);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--4px, 4px);
+  d: path("M6 5v25h36V5M30 37l-6 6l-6-6m6-7v13");
+}

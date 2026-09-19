@@ -1,0 +1,8 @@
+.l301i3_fe {
+  fill: var(--svg-color--555, #555);
+  stroke: var(--svg-color--fff, #fff);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--4px, 4px);
+  d: path("m15 36l6-23h6l6 23l-9 8zm6-32h6l3 2l-3 7h-6l-3-7z");
+}

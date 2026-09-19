@@ -1,0 +1,7 @@
+.hp5chh-it {
+  stroke: var(--svg-color--fff, #fff);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--4px, 4px);
+  d: path("M24 37V27l-2 1m2 9h2m-2 0h-2");
+}

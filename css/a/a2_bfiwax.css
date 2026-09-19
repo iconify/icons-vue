@@ -1,0 +1,7 @@
+.a2_bfiwax {
+  fill: var(--svg-color--555, #555);
+  stroke: var(--svg-color--fff, #fff);
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--4px, 4px);
+  d: path("m17 19l7 11l7-11l-7-11zm13.667 21L24 30h13.333L44 40zm-13.334 0L24 30H10.667L4 40z");
+}

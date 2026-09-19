@@ -1,0 +1,7 @@
+.o25-t-hzf {
+  stroke: var(--svg-color--fff, #fff);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--4px, 4px);
+  d: path("M17 39v5m5-5v5m5-5v5");
+}

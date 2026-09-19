@@ -1,0 +1,7 @@
+.v6p0_bl_n {
+  fill: var(--svg-color--555, #555);
+  stroke: var(--svg-color--fff, #fff);
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--4px, 4px);
+  d: path("M19 4h18L26 18h15L17 44l5-19H8z");
+}

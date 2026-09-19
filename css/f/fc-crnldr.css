@@ -1,0 +1,6 @@
+.fc-crnldr {
+  stroke: var(--svg-color--fff, #fff);
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--4px, 4px);
+  d: path("M24 7v4m0 6v4m0 6v4m0 6v4");
+}

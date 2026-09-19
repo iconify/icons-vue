@@ -1,0 +1,6 @@
+.drtx_1_li {
+  fill: var(--svg-color--555, #555);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M7 27a8 8 0 0 1 8-8h18a8 8 0 0 1 8 8v8a4 4 0 0 1-4 4H11a4 4 0 0 1-4-4z");
+}

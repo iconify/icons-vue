@@ -1,0 +1,13 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/a/aql7dnt-u.css';
+import '../../css/u/ug-3ocbdk.css';
+import '../../css/o/os5ebxzkm.css';
+import '../../css/b/bl95smbeo.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<defs><mask id="SVGCQ0IKcil"><g class="aql7dnt-u"><path class="ug-3ocbdk"/><path class="os5ebxzkm"/></g></mask></defs><path mask="url(#SVGCQ0IKcil)" class="bl95smbeo"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="icon-park-twotone:weixin-mini-app" /></template>

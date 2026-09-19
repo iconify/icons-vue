@@ -1,0 +1,6 @@
+.ssvr-sble {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M9.5 7.25h7m-7 4h7m-7 4h7");
+}

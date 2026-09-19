@@ -1,0 +1,951 @@
+{
+  "name": "@iconify-vue/icons8",
+  "type": "module",
+  "version": "1.0.4",
+  "homepage": "https://icon-sets.iconify.design/icons8/",
+  "bugs": "https://github.com/iconify/icons-vue/issues",
+  "license": "MIT",
+  "exports": {
+    "./add-shopping-cart": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/add-shopping-cart.vue"
+    },
+    "./add-user": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/add-user.vue"
+    },
+    "./adventures": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/adventures.vue"
+    },
+    "./advertising": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/advertising.vue"
+    },
+    "./airport": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/airport.vue"
+    },
+    "./align-center": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/align-center.vue"
+    },
+    "./align-justify": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/align-justify.vue"
+    },
+    "./align-left": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/align-left.vue"
+    },
+    "./align-right": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/align-right.vue"
+    },
+    "./alphabetical-sorting": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/alphabetical-sorting.vue"
+    },
+    "./alphabetical-sorting-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/alphabetical-sorting-2.vue"
+    },
+    "./amex": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/amex.vue"
+    },
+    "./angle-down": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/angle-down.vue"
+    },
+    "./angle-left": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/angle-left.vue"
+    },
+    "./angle-right": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/angle-right.vue"
+    },
+    "./angle-up": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/angle-up.vue"
+    },
+    "./archive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/archive.vue"
+    },
+    "./area-chart": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/area-chart.vue"
+    },
+    "./arrows-long-down": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arrows-long-down.vue"
+    },
+    "./arrows-long-left": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arrows-long-left.vue"
+    },
+    "./arrows-long-right": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arrows-long-right.vue"
+    },
+    "./arrows-long-up": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arrows-long-up.vue"
+    },
+    "./asterisk": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/asterisk.vue"
+    },
+    "./audio-file": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/audio-file.vue"
+    },
+    "./babys-room": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/babys-room.vue"
+    },
+    "./bank-card": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bank-card.vue"
+    },
+    "./banknotes": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/banknotes.vue"
+    },
+    "./bar-chart": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bar-chart.vue"
+    },
+    "./barcode": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/barcode.vue"
+    },
+    "./bed": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bed.vue"
+    },
+    "./binoculars": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/binoculars.vue"
+    },
+    "./bitcoin": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bitcoin.vue"
+    },
+    "./bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bold.vue"
+    },
+    "./bookmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bookmark.vue"
+    },
+    "./box": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/box.vue"
+    },
+    "./briefcase": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/briefcase.vue"
+    },
+    "./british-pound": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/british-pound.vue"
+    },
+    "./brush": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/brush.vue"
+    },
+    "./buy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/buy.vue"
+    },
+    "./calculator": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/calculator.vue"
+    },
+    "./camera": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/camera.vue"
+    },
+    "./cancel": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cancel.vue"
+    },
+    "./cancel-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cancel-2.vue"
+    },
+    "./cat-footprint": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cat-footprint.vue"
+    },
+    "./checked": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/checked.vue"
+    },
+    "./checked-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/checked-2.vue"
+    },
+    "./checkmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/checkmark.vue"
+    },
+    "./chevron-down": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chevron-down.vue"
+    },
+    "./chevron-down-round": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chevron-down-round.vue"
+    },
+    "./chevron-left": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chevron-left.vue"
+    },
+    "./chevron-left-round": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chevron-left-round.vue"
+    },
+    "./chevron-right": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chevron-right.vue"
+    },
+    "./chevron-right-round": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chevron-right-round.vue"
+    },
+    "./chevron-up": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chevron-up.vue"
+    },
+    "./chevron-up-round": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chevron-up-round.vue"
+    },
+    "./circle": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/circle.vue"
+    },
+    "./circle-notch": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/circle-notch.vue"
+    },
+    "./circle-thin": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/circle-thin.vue"
+    },
+    "./clipboard": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/clipboard.vue"
+    },
+    "./code-file": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/code-file.vue"
+    },
+    "./color-dropper": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/color-dropper.vue"
+    },
+    "./columns": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/columns.vue"
+    },
+    "./comments": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/comments.vue"
+    },
+    "./compress": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/compress.vue"
+    },
+    "./controller": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/controller.vue"
+    },
+    "./copy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/copy.vue"
+    },
+    "./copyright": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/copyright.vue"
+    },
+    "./create-new": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/create-new.vue"
+    },
+    "./crop": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/crop.vue"
+    },
+    "./cut": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cut.vue"
+    },
+    "./database": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/database.vue"
+    },
+    "./dining-room": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dining-room.vue"
+    },
+    "./diploma-1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/diploma-1.vue"
+    },
+    "./doctor": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/doctor.vue"
+    },
+    "./document": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/document.vue"
+    },
+    "./double-left": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/double-left.vue"
+    },
+    "./double-right": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/double-right.vue"
+    },
+    "./double-up": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/double-up.vue"
+    },
+    "./down-arrow": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/down-arrow.vue"
+    },
+    "./down-round": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/down-round.vue"
+    },
+    "./down-squared": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/down-squared.vue"
+    },
+    "./download": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/download.vue"
+    },
+    "./download-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/download-2.vue"
+    },
+    "./electrical": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/electrical.vue"
+    },
+    "./electricity": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/electricity.vue"
+    },
+    "./eraser": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/eraser.vue"
+    },
+    "./euro": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/euro.vue"
+    },
+    "./exclamation-mark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/exclamation-mark.vue"
+    },
+    "./export": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/export.vue"
+    },
+    "./fantasy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fantasy.vue"
+    },
+    "./fax": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fax.vue"
+    },
+    "./female": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/female.vue"
+    },
+    "./file": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file.vue"
+    },
+    "./film": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/film.vue"
+    },
+    "./filter": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/filter.vue"
+    },
+    "./finish-flag": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/finish-flag.vue"
+    },
+    "./fire-extinguisher": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fire-extinguisher.vue"
+    },
+    "./folder": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder.vue"
+    },
+    "./football2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/football2.vue"
+    },
+    "./gender": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gender.vue"
+    },
+    "./gender-neutral-user": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gender-neutral-user.vue"
+    },
+    "./genderqueer": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/genderqueer.vue"
+    },
+    "./generic-sorting": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/generic-sorting.vue"
+    },
+    "./generic-sorting-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/generic-sorting-2.vue"
+    },
+    "./generic-text": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/generic-text.vue"
+    },
+    "./gift": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gift.vue"
+    },
+    "./google-wallet": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/google-wallet.vue"
+    },
+    "./gps-device": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gps-device.vue"
+    },
+    "./grid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/grid.vue"
+    },
+    "./grid-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/grid-2.vue"
+    },
+    "./grid-3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/grid-3.vue"
+    },
+    "./group": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/group.vue"
+    },
+    "./hdd": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hdd.vue"
+    },
+    "./header": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/header.vue"
+    },
+    "./home": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/home.vue"
+    },
+    "./hospital-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hospital-2.vue"
+    },
+    "./idea": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/idea.vue"
+    },
+    "./image-file": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/image-file.vue"
+    },
+    "./import": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/import.vue"
+    },
+    "./indent": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/indent.vue"
+    },
+    "./info": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/info.vue"
+    },
+    "./insert-table": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/insert-table.vue"
+    },
+    "./ipad": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/ipad.vue"
+    },
+    "./iphone": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/iphone.vue"
+    },
+    "./italic": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/italic.vue"
+    },
+    "./japanese-yen": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/japanese-yen.vue"
+    },
+    "./key": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/key.vue"
+    },
+    "./keyboard": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/keyboard.vue"
+    },
+    "./last-quarter": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/last-quarter.vue"
+    },
+    "./left-arrow": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/left-arrow.vue"
+    },
+    "./left-round": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/left-round.vue"
+    },
+    "./left-squared": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/left-squared.vue"
+    },
+    "./level-down": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/level-down.vue"
+    },
+    "./level-up": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/level-up.vue"
+    },
+    "./library": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/library.vue"
+    },
+    "./list": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/list.vue"
+    },
+    "./lock": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lock.vue"
+    },
+    "./lock-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lock-2.vue"
+    },
+    "./male": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/male.vue"
+    },
+    "./mastercard": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mastercard.vue"
+    },
+    "./minus": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/minus.vue"
+    },
+    "./monitor": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/monitor.vue"
+    },
+    "./moon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon.vue"
+    },
+    "./music": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/music.vue"
+    },
+    "./news": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/news.vue"
+    },
+    "./notebook": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/notebook.vue"
+    },
+    "./numbered-list": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/numbered-list.vue"
+    },
+    "./numerical-sorting-12": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/numerical-sorting-12.vue"
+    },
+    "./numerical-sorting-21": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/numerical-sorting-21.vue"
+    },
+    "./old-time-camera": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/old-time-camera.vue"
+    },
+    "./opened-folder": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/opened-folder.vue"
+    },
+    "./organization": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/organization.vue"
+    },
+    "./outdent": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/outdent.vue"
+    },
+    "./paragraph": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/paragraph.vue"
+    },
+    "./parallel-tasks": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/parallel-tasks.vue"
+    },
+    "./paste": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/paste.vue"
+    },
+    "./paypal": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/paypal.vue"
+    },
+    "./pdf": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pdf.vue"
+    },
+    "./pencil": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pencil.vue"
+    },
+    "./phone": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/phone.vue"
+    },
+    "./picture": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/picture.vue"
+    },
+    "./pie-chart": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pie-chart.vue"
+    },
+    "./pin-3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pin-3.vue"
+    },
+    "./plus": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/plus.vue"
+    },
+    "./powerpoint": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/powerpoint.vue"
+    },
+    "./price-tag": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/price-tag.vue"
+    },
+    "./puzzle": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/puzzle.vue"
+    },
+    "./qr-code": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/qr-code.vue"
+    },
+    "./question-mark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/question-mark.vue"
+    },
+    "./recycling": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/recycling.vue"
+    },
+    "./refresh": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/refresh.vue"
+    },
+    "./remove-user": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/remove-user.vue"
+    },
+    "./resize-diagonal": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/resize-diagonal.vue"
+    },
+    "./resize-four-directions": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/resize-four-directions.vue"
+    },
+    "./resize-horizontal": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/resize-horizontal.vue"
+    },
+    "./resize-vertical": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/resize-vertical.vue"
+    },
+    "./right-arrow": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/right-arrow.vue"
+    },
+    "./right-round": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/right-round.vue"
+    },
+    "./right-squared": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/right-squared.vue"
+    },
+    "./rotate-left": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rotate-left.vue"
+    },
+    "./rotate-right": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rotate-right.vue"
+    },
+    "./rouble": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rouble.vue"
+    },
+    "./rounded-rectangle": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rounded-rectangle.vue"
+    },
+    "./rounded-rectangle-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rounded-rectangle-filled.vue"
+    },
+    "./rupee": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rupee.vue"
+    },
+    "./search": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/search.vue"
+    },
+    "./sensor": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sensor.vue"
+    },
+    "./services": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/services.vue"
+    },
+    "./settings": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/settings.vue"
+    },
+    "./share": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/share.vue"
+    },
+    "./shekel": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/shekel.vue"
+    },
+    "./shopping-cart": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/shopping-cart.vue"
+    },
+    "./shutdown": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/shutdown.vue"
+    },
+    "./sort": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sort.vue"
+    },
+    "./sort-down": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sort-down.vue"
+    },
+    "./sort-left": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sort-left.vue"
+    },
+    "./sort-right": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sort-right.vue"
+    },
+    "./sort-up": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sort-up.vue"
+    },
+    "./spy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/spy.vue"
+    },
+    "./strikethrough": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/strikethrough.vue"
+    },
+    "./stripe": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stripe.vue"
+    },
+    "./student": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/student.vue"
+    },
+    "./subscript": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/subscript.vue"
+    },
+    "./superscript": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/superscript.vue"
+    },
+    "./support": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/support.vue"
+    },
+    "./tags": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tags.vue"
+    },
+    "./tasks": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tasks.vue"
+    },
+    "./text-height": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/text-height.vue"
+    },
+    "./text-width": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/text-width.vue"
+    },
+    "./ticket": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/ticket.vue"
+    },
+    "./timeline": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/timeline.vue"
+    },
+    "./todo-list": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/todo-list.vue"
+    },
+    "./translation": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/translation.vue"
+    },
+    "./trash": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/trash.vue"
+    },
+    "./trophy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/trophy.vue"
+    },
+    "./turkish-lira": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/turkish-lira.vue"
+    },
+    "./umbrella": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/umbrella.vue"
+    },
+    "./underline": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/underline.vue"
+    },
+    "./undo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/undo.vue"
+    },
+    "./unlock-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/unlock-2.vue"
+    },
+    "./up-arrow": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/up-arrow.vue"
+    },
+    "./up-round": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/up-round.vue"
+    },
+    "./up-squared": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/up-squared.vue"
+    },
+    "./upload": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/upload.vue"
+    },
+    "./upload-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/upload-2.vue"
+    },
+    "./us-dollar": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/us-dollar.vue"
+    },
+    "./user-female": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/user-female.vue"
+    },
+    "./user-male": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/user-male.vue"
+    },
+    "./video-call": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/video-call.vue"
+    },
+    "./video-file": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/video-file.vue"
+    },
+    "./visa": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/visa.vue"
+    },
+    "./won": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/won.vue"
+    },
+    "./word": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/word.vue"
+    },
+    "./xls": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/x/xls.vue"
+    },
+    "./*": "./*"
+  },
+  "dependencies": {
+    "@iconify/css-vue": "^1.0.0"
+  },
+  "repository": "github:iconify/icons-vue#icons8"
+}

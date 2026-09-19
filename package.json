@@ -1,0 +1,151 @@
+{
+  "name": "@iconify-vue/fontelico",
+  "type": "module",
+  "version": "1.0.4",
+  "homepage": "https://icon-sets.iconify.design/fontelico/",
+  "bugs": "https://github.com/iconify/icons-vue/issues",
+  "license": "CC-BY-SA-3.0",
+  "exports": {
+    "./chrome": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chrome.vue"
+    },
+    "./crown": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/crown.vue"
+    },
+    "./crown-minus": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/crown-minus.vue"
+    },
+    "./crown-plus": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/crown-plus.vue"
+    },
+    "./emo-angry": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/emo-angry.vue"
+    },
+    "./emo-beer": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/emo-beer.vue"
+    },
+    "./emo-coffee": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/emo-coffee.vue"
+    },
+    "./emo-cry": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/emo-cry.vue"
+    },
+    "./emo-devil": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/emo-devil.vue"
+    },
+    "./emo-displeased": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/emo-displeased.vue"
+    },
+    "./emo-grin": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/emo-grin.vue"
+    },
+    "./emo-happy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/emo-happy.vue"
+    },
+    "./emo-laugh": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/emo-laugh.vue"
+    },
+    "./emo-saint": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/emo-saint.vue"
+    },
+    "./emo-shoot": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/emo-shoot.vue"
+    },
+    "./emo-sleep": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/emo-sleep.vue"
+    },
+    "./emo-squint": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/emo-squint.vue"
+    },
+    "./emo-sunglasses": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/emo-sunglasses.vue"
+    },
+    "./emo-surprised": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/emo-surprised.vue"
+    },
+    "./emo-thumbsup": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/emo-thumbsup.vue"
+    },
+    "./emo-tongue": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/emo-tongue.vue"
+    },
+    "./emo-unhappy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/emo-unhappy.vue"
+    },
+    "./emo-wink": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/emo-wink.vue"
+    },
+    "./emo-wink2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/emo-wink2.vue"
+    },
+    "./firefox": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/firefox.vue"
+    },
+    "./ie": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/ie.vue"
+    },
+    "./marquee": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/marquee.vue"
+    },
+    "./opera": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/opera.vue"
+    },
+    "./spin1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/spin1.vue"
+    },
+    "./spin2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/spin2.vue"
+    },
+    "./spin3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/spin3.vue"
+    },
+    "./spin4": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/spin4.vue"
+    },
+    "./spin5": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/spin5.vue"
+    },
+    "./spin6": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/spin6.vue"
+    },
+    "./*": "./*"
+  },
+  "dependencies": {
+    "@iconify/css-vue": "^1.0.0"
+  },
+  "repository": "github:iconify/icons-vue#fontelico"
+}

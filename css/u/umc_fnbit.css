@@ -1,0 +1,5 @@
+.umc_fnbit {
+  fill: var(--svg-color--db501c, #db501c);
+  fill-rule: evenodd;
+  d: path("M0 0v8h32V0z");
+}

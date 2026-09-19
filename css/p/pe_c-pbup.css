@@ -1,0 +1,6 @@
+.pe_c-pbup {
+  fill: var(--svg-color--2e42a5, #2e42a5);
+  stroke: var(--svg-color--f7fcff, #f7fcff);
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M10-1H9V9H-1v6H9v10h6V15h18V9H15V-1z");
+}

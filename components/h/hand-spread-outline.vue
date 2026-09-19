@@ -1,0 +1,10 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/s/sshpvtb5j.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":80,"height":80};
+const content = `<path clip-rule="evenodd" class="sshpvtb5j"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="glyphs:hand-spread-outline" /></template>

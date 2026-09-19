@@ -1,0 +1,8 @@
+.pdiv--brm {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-25, 0.25);
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("m40 12l16 38.32L40 68L24 50.32z");
+}

@@ -1,0 +1,7 @@
+.vja-mbcsd {
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--8px, 8px);
+  d: path("M58 50h12v12H58zm-48 0h12v12H10zm24-32h12v12H34z");
+}

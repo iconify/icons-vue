@@ -1,0 +1,7 @@
+.rsmcvdeld {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--5px, 5px);
+  d: path("M12 37.5v32m56-6.095H12m56 0V69.5");
+}

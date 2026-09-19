@@ -1,0 +1,7 @@
+.brn2yybda {
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--8px, 8px);
+  d: path("M34 7h12v12H34zm0 54h12v12H34zM7 34h12v12H7zm54 0h12v12H61z");
+}

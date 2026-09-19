@@ -1,0 +1,6 @@
+.x2chlabpl {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--5px, 5px);
+  d: path("M12 20a4 4 0 0 1 4-4h48a4 4 0 0 1 4 4v.986a.48.48 0 0 1-.49.467H12.845c-.444 0-.845-.334-.845-.778z");
+}

@@ -1,0 +1,9 @@
+.gjucursle {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-25, 0.25);
+  fill-rule: evenodd;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M14 9a2 2 0 0 1 1.737 1.008Q15.867 10 16 10h22a4 4 0 0 1 4 4h21.046c2.83 0 4.765 2.858 3.714 5.486L60.154 36l6.606 16.514C67.81 55.142 65.876 58 63.046 58H42a4 4 0 0 1-4-4H16v13a2 2 0 1 1-4 0V11a2 2 0 0 1 2-2m24 5H16v36h22a4 4 0 0 1 4 4h21.046L56.44 37.486a4 4 0 0 1 0-2.972L63.046 18H42v16a2 2 0 1 1-4 0z");
+}

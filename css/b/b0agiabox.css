@@ -1,0 +1,10 @@
+.b0agiabox {
+  cx: 40px;
+  cy: 36px;
+  r: 4px;
+  fill: currentColor;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--3px, 3px);
+}

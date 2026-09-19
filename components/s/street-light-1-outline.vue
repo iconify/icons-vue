@@ -1,0 +1,12 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/b/bi12bsetm.css';
+import '../../css/v/vti5d67lu.css';
+import '../../css/v/v5lgh3l7i.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":80,"height":80};
+const content = `<g clip-rule="evenodd" class="bi12bsetm"><path class="vti5d67lu"/><path class="v5lgh3l7i"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="glyphs:street-light-1-outline" /></template>

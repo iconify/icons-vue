@@ -1,0 +1,9 @@
+.mpkcm5but {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-25, 0.25);
+  fill-rule: evenodd;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M14 18a4 4 0 0 1 4-4h22a2 2 0 0 1 2 2v48a2 2 0 0 1-2 2H18a4 4 0 0 1-4-4zm24 0H18v44h20z");
+}

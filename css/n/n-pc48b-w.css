@@ -1,0 +1,8 @@
+.n-pc48b-w {
+  fill: currentColor;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--6px, 6px);
+  d: path("M12 59.728a4 4 0 0 1 4-4h48a4 4 0 0 1 4 4v7.9a.1.1 0 0 1-.1.1H12.1a.1.1 0 0 1-.1-.1z");
+}

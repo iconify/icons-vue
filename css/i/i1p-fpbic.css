@@ -1,0 +1,6 @@
+.i1p-fpbic {
+  stroke: var(--svg-color--fff, #fff);
+  stroke-linejoin: round;
+  stroke-miterlimit: 2;
+  d: path("M24 4v6m-6-5l4 5m8-5l-4 5");
+}

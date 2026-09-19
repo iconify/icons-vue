@@ -1,0 +1,6 @@
+.rvsjambol {
+  stroke: var(--svg-color--000, #000);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M24 28v-6m0 6h-6");
+}

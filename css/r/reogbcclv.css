@@ -1,0 +1,7 @@
+.reogbcclv {
+  stroke: var(--svg-color--000, #000);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--4px, 4px);
+  d: path("M15 17h-3m22 11v6m-3-3h6");
+}

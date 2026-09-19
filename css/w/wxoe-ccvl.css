@@ -1,0 +1,7 @@
+.wxoe-ccvl {
+  stroke: var(--svg-color--000, #000);
+  stroke-linecap: square;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--4px, 4px);
+  d: path("M12 34h1");
+}

@@ -1,0 +1,6 @@
+.msv6_bc6s {
+  fill: var(--svg-color--fff, #fff);
+  stroke: var(--svg-color--fff, #fff);
+  stroke-linejoin: round;
+  d: path("M5 8a2 2 0 0 1 2-2h12l5 6h17a2 2 0 0 1 2 2v26a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2z");
+}

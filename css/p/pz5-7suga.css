@@ -1,0 +1,6 @@
+.pz5-7suga {
+  fill: var(--svg-color--000, #000);
+  stroke: var(--svg-color--000, #000);
+  stroke-linejoin: round;
+  d: path("M19 27h10v6H19zm-5-8h20v8H14z");
+}

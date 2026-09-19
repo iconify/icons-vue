@@ -1,0 +1,6 @@
+.svaol_i1h {
+  stroke: var(--svg-color--000, #000);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M16 15v18m16-16v16");
+}

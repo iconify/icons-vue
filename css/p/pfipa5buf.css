@@ -1,0 +1,5 @@
+.pfipa5buf {
+  stroke: var(--svg-color--fff, #fff);
+  stroke-linecap: round;
+  d: path("M6 20v10m36-10v10");
+}

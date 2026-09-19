@@ -1,0 +1,10 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/m/m0a38yrne.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":448,"height":512};
+const content = `<path class="m0a38yrne"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fa-brands:magento" /></template>

@@ -1,0 +1,6 @@
+.sw64g_bnp {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M9 15v8H1v-8zm14 0v8h-8v-8zM9 1v8H1V1zm14 0v8h-8V1z");
+}

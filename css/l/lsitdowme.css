@@ -1,0 +1,6 @@
+.lsitdowme {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M2 14h8v8m-9 1l9-9M23 1l-9 9m8 0h-8V2");
+}

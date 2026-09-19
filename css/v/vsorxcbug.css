@@ -1,0 +1,6 @@
+.vsorxcbug {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M1 6h22v15H1zm5 0v15M18 6v15M8 6V3h8v3");
+}

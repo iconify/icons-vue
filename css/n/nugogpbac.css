@@ -1,0 +1,8 @@
+.nugogpbac {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M4 8h7v6l-4 7M20 8h-7v6l4 7M12 5a1 1 0 1 0 0-2a1 1 0 0 0 0 2m-1 3h2v5h-2z");
+}

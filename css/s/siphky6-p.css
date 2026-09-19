@@ -1,0 +1,8 @@
+.siphky6-p {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M7 3h14l-3 15l-8 4l-7-4l1-4m1-5h14");
+}

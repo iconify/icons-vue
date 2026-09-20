@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/octicon",
   "type": "module",
-  "version": "1.0.24",
+  "version": "1.0.25",
   "homepage": "https://icon-sets.iconify.design/octicon/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -821,6 +821,14 @@
     "./crosshairs-24": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/crosshairs-24.vue"
+    },
+    "./cursor-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cursor-16.vue"
+    },
+    "./cursor-24": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cursor-24.vue"
     },
     "./dash": {
       "types": "./types/dd0bq22g.d.ts",
@@ -2489,6 +2497,14 @@
     "./person-add-24": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/person-add-24.vue"
+    },
+    "./person-cursor-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/person-cursor-16.vue"
+    },
+    "./person-cursor-24": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/person-cursor-24.vue"
     },
     "./person-fill-16": {
       "types": "./types/dd0bq22g.d.ts",

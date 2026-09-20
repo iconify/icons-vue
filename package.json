@@ -1,0 +1,691 @@
+{
+  "name": "@iconify-vue/osmic",
+  "type": "module",
+  "version": "1.0.1",
+  "homepage": "https://icon-sets.iconify.design/osmic/",
+  "bugs": "https://github.com/iconify/icons-vue/issues",
+  "license": "CC0-1.0",
+  "exports": {
+    "./airport-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/airport-14.vue"
+    },
+    "./alcohol-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/alcohol-14.vue"
+    },
+    "./alpine-hut-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/alpine-hut-14.vue"
+    },
+    "./archaeological-site-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/archaeological-site-14.vue"
+    },
+    "./atm-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/atm-14.vue"
+    },
+    "./bakery-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bakery-14.vue"
+    },
+    "./bank-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bank-14.vue"
+    },
+    "./bar-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bar-14.vue"
+    },
+    "./basic-hut-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/basic-hut-14.vue"
+    },
+    "./beauty-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/beauty-14.vue"
+    },
+    "./bench-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bench-14.vue"
+    },
+    "./beverages-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/beverages-14.vue"
+    },
+    "./bicycle-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bicycle-14.vue"
+    },
+    "./biergarten-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/biergarten-14.vue"
+    },
+    "./bollard-10": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bollard-10.vue"
+    },
+    "./bollard-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bollard-14.vue"
+    },
+    "./books-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/books-14.vue"
+    },
+    "./buddhist-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/buddhist-14.vue"
+    },
+    "./bus-station-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bus-station-14.vue"
+    },
+    "./bus-stop-10": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bus-stop-10.vue"
+    },
+    "./bus-stop-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bus-stop-14.vue"
+    },
+    "./butcher-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/butcher-14.vue"
+    },
+    "./cafe-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cafe-14.vue"
+    },
+    "./camping-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/camping-14.vue"
+    },
+    "./car-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/car-14.vue"
+    },
+    "./car-parts-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/car-parts-14.vue"
+    },
+    "./caravan-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/caravan-14.vue"
+    },
+    "./castle-defensive-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/castle-defensive-14.vue"
+    },
+    "./castle-fortress-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/castle-fortress-14.vue"
+    },
+    "./castle-manor-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/castle-manor-14.vue"
+    },
+    "./castle-palace-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/castle-palace-14.vue"
+    },
+    "./castle-stately-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/castle-stately-14.vue"
+    },
+    "./cattle-grid-10": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cattle-grid-10.vue"
+    },
+    "./cattle-grid-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cattle-grid-14.vue"
+    },
+    "./cemetery-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cemetery-14.vue"
+    },
+    "./charging-station-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/charging-station-14.vue"
+    },
+    "./chemist-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chemist-14.vue"
+    },
+    "./christian-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/christian-14.vue"
+    },
+    "./christian-orthodox-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/christian-orthodox-14.vue"
+    },
+    "./cinema-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cinema-14.vue"
+    },
+    "./city-gate-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/city-gate-14.vue"
+    },
+    "./clock-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/clock-14.vue"
+    },
+    "./clothes-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/clothes-14.vue"
+    },
+    "./computer-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/computer-14.vue"
+    },
+    "./confectionery-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/confectionery-14.vue"
+    },
+    "./convenience-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/convenience-14.vue"
+    },
+    "./copyshop-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/copyshop-14.vue"
+    },
+    "./courthouse-10": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/courthouse-10.vue"
+    },
+    "./courthouse-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/courthouse-14.vue"
+    },
+    "./dentist-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dentist-14.vue"
+    },
+    "./doctor-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/doctor-14.vue"
+    },
+    "./doityourself-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/doityourself-14.vue"
+    },
+    "./drinking-water-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/drinking-water-14.vue"
+    },
+    "./electronics-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/electronics-14.vue"
+    },
+    "./elevator-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/elevator-14.vue"
+    },
+    "./embassy-10": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/embassy-10.vue"
+    },
+    "./embassy-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/embassy-14.vue"
+    },
+    "./emergency-phone-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/emergency-phone-14.vue"
+    },
+    "./entrance-10": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/entrance-10.vue"
+    },
+    "./entrance-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/entrance-14.vue"
+    },
+    "./exit-10": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/exit-10.vue"
+    },
+    "./exit-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/exit-14.vue"
+    },
+    "./fast-food-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fast-food-14.vue"
+    },
+    "./ferry-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/ferry-14.vue"
+    },
+    "./fire-station-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fire-station-14.vue"
+    },
+    "./florist-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/florist-14.vue"
+    },
+    "./ford-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/ford-14.vue"
+    },
+    "./fort-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fort-14.vue"
+    },
+    "./fountain-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fountain-14.vue"
+    },
+    "./fuel-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fuel-14.vue"
+    },
+    "./furniture-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/furniture-14.vue"
+    },
+    "./garden-centre-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/garden-centre-14.vue"
+    },
+    "./gate-10": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gate-10.vue"
+    },
+    "./gate-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gate-14.vue"
+    },
+    "./gift-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gift-14.vue"
+    },
+    "./government-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/government-14.vue"
+    },
+    "./greengrocer-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/greengrocer-14.vue"
+    },
+    "./guidepost-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/guidepost-14.vue"
+    },
+    "./hairdresser-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hairdresser-14.vue"
+    },
+    "./heliport-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/heliport-14.vue"
+    },
+    "./hifi-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hifi-14.vue"
+    },
+    "./hinduist-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hinduist-14.vue"
+    },
+    "./hospital-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hospital-14.vue"
+    },
+    "./hostel-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hostel-14.vue"
+    },
+    "./hotel-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hotel-14.vue"
+    },
+    "./hunting-stand-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hunting-stand-14.vue"
+    },
+    "./ice-cream-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/ice-cream-14.vue"
+    },
+    "./information-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/information-14.vue"
+    },
+    "./jewellery-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jewellery-14.vue"
+    },
+    "./jewish-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jewish-14.vue"
+    },
+    "./kiosk-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kiosk-14.vue"
+    },
+    "./laundry-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/laundry-14.vue"
+    },
+    "./library-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/library-14.vue"
+    },
+    "./lift-gate-10": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lift-gate-10.vue"
+    },
+    "./lift-gate-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lift-gate-14.vue"
+    },
+    "./lighthouse-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lighthouse-14.vue"
+    },
+    "./luggage-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/luggage-14.vue"
+    },
+    "./mast-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mast-14.vue"
+    },
+    "./mast-communications-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mast-communications-14.vue"
+    },
+    "./memorial-10": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/memorial-10.vue"
+    },
+    "./memorial-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/memorial-14.vue"
+    },
+    "./metro-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/metro-14.vue"
+    },
+    "./mobile-phone-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mobile-phone-14.vue"
+    },
+    "./monument-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/monument-14.vue"
+    },
+    "./motel-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/motel-14.vue"
+    },
+    "./museum-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/museum-14.vue"
+    },
+    "./muslim-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/muslim-14.vue"
+    },
+    "./news-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/news-14.vue"
+    },
+    "./nightclub-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nightclub-14.vue"
+    },
+    "./optician-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/optician-14.vue"
+    },
+    "./parking-bicycle-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/parking-bicycle-14.vue"
+    },
+    "./parking-car-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/parking-car-14.vue"
+    },
+    "./parking-garage-car-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/parking-garage-car-14.vue"
+    },
+    "./peak-10": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/peak-10.vue"
+    },
+    "./peak-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/peak-14.vue"
+    },
+    "./pet-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pet-14.vue"
+    },
+    "./pharmacy-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pharmacy-14.vue"
+    },
+    "./photo-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/photo-14.vue"
+    },
+    "./place-of-worship-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/place-of-worship-14.vue"
+    },
+    "./playground-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/playground-14.vue"
+    },
+    "./police-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/police-14.vue"
+    },
+    "./post-office-10": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/post-office-10.vue"
+    },
+    "./post-office-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/post-office-14.vue"
+    },
+    "./power-wind-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/power-wind-14.vue"
+    },
+    "./prison-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/prison-14.vue"
+    },
+    "./pub-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pub-14.vue"
+    },
+    "./railway-halt-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/railway-halt-14.vue"
+    },
+    "./railway-station-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/railway-station-14.vue"
+    },
+    "./recycling-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/recycling-14.vue"
+    },
+    "./rental-bicycle-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rental-bicycle-14.vue"
+    },
+    "./rental-car-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rental-car-14.vue"
+    },
+    "./repair-bicycle-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/repair-bicycle-14.vue"
+    },
+    "./repair-car-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/repair-car-14.vue"
+    },
+    "./restaurant-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/restaurant-14.vue"
+    },
+    "./saddle-10": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/saddle-10.vue"
+    },
+    "./saddle-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/saddle-14.vue"
+    },
+    "./shared-car-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/shared-car-14.vue"
+    },
+    "./shelter-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/shelter-14.vue"
+    },
+    "./shintoist-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/shintoist-14.vue"
+    },
+    "./shoes-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/shoes-14.vue"
+    },
+    "./sikhist-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sikhist-14.vue"
+    },
+    "./spring-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/spring-14.vue"
+    },
+    "./stationery-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stationery-14.vue"
+    },
+    "./steps-10": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/steps-10.vue"
+    },
+    "./steps-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/steps-14.vue"
+    },
+    "./supermarket-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/supermarket-14.vue"
+    },
+    "./swimming-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/swimming-14.vue"
+    },
+    "./table-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/table-14.vue"
+    },
+    "./taoist-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/taoist-14.vue"
+    },
+    "./taxi-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/taxi-14.vue"
+    },
+    "./telephone-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/telephone-14.vue"
+    },
+    "./theatre-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/theatre-14.vue"
+    },
+    "./toilets-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/toilets-14.vue"
+    },
+    "./town-hall-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/town-hall-14.vue"
+    },
+    "./toys-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/toys-14.vue"
+    },
+    "./tram-stop-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tram-stop-14.vue"
+    },
+    "./tree-coniferous-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tree-coniferous-14.vue"
+    },
+    "./tree-deciduous-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tree-deciduous-14.vue"
+    },
+    "./tree-unspecified-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tree-unspecified-14.vue"
+    },
+    "./veterinary-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/veterinary-14.vue"
+    },
+    "./viewpoint-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/viewpoint-14.vue"
+    },
+    "./wash-bicycle-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wash-bicycle-14.vue"
+    },
+    "./waste-basket-10": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/waste-basket-10.vue"
+    },
+    "./waste-basket-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/waste-basket-14.vue"
+    },
+    "./watchtower-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/watchtower-14.vue"
+    },
+    "./water-tower-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/water-tower-14.vue"
+    },
+    "./waterfall-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/waterfall-14.vue"
+    },
+    "./wilderness-hut-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wilderness-hut-14.vue"
+    },
+    "./windmill-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/windmill-14.vue"
+    },
+    "./*": "./*"
+  },
+  "dependencies": {
+    "@iconify/css-vue": "^1.0.0"
+  },
+  "repository": "github:iconify/icons-vue#osmic"
+}

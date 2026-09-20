@@ -1,0 +1,12 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/j/jx0p4fbya.css';
+import '../../css/o/ox7az0b5n.css';
+import '../../css/c/cbw2w-bvq.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="jx0p4fbya"><path class="ox7az0b5n"/><path class="cbw2w-bvq"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="streamline-sharp:credit-card-2" /></template>

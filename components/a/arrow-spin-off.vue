@@ -1,0 +1,14 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/c/cuyn6tgcc.css';
+import '../../css/n/ni50ofboa.css';
+import '../../css/l/luxlqfrxi.css';
+import '../../css/v/v56dgzb1x.css';
+import '../../css/s/sgrmctbfl.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":20,"height":20};
+const content = `<g class="cuyn6tgcc"><circle class="ni50ofboa"/><path class="luxlqfrxi"/><path class="v56dgzb1x"/><path class="sgrmctbfl"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="pepicons-print:arrow-spin-off" /></template>

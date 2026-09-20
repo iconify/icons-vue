@@ -76,8 +76,8 @@ There are 222 branches in this repository, one for each icon set.
 
 ### UI 24px
 
-- [#solar](https://github.com/iconify/icons-vue/tree/solar): **Solar** (8274 icons, CC BY 4.0)
-- [#tabler](https://github.com/iconify/icons-vue/tree/tabler): **Tabler Icons** (6184 icons, MIT)
+- [#solar](https://github.com/iconify/icons-vue/tree/solar): **Solar** (8280 icons, CC BY 4.0)
+- [#tabler](https://github.com/iconify/icons-vue/tree/tabler): **Tabler Icons** (6202 icons, MIT)
 - [#iconmind](https://github.com/iconify/icons-vue/tree/iconmind): **IconMind** (31722 icons, MIT)
 - [#boxicons](https://github.com/iconify/icons-vue/tree/boxicons): **Boxicons** (3768 icons, MIT)
 - [#mingcute](https://github.com/iconify/icons-vue/tree/mingcute): **MingCute Icon** (3320 icons, Apache 2.0)
@@ -169,7 +169,7 @@ There are 222 branches in this repository, one for each icon set.
 - [#clarity](https://github.com/iconify/icons-vue/tree/clarity): **Clarity** (1103 icons, MIT)
 - [#streamline-freehand](https://github.com/iconify/icons-vue/tree/streamline-freehand): **Freehand free icons** (1000 icons, CC BY 4.0)
 - [#ix](https://github.com/iconify/icons-vue/tree/ix): **Siemens Industrial Experience Icons** (1479 icons, MIT)
-- [#octicon](https://github.com/iconify/icons-vue/tree/octicon): **Octicons** (761 icons, MIT)
+- [#octicon](https://github.com/iconify/icons-vue/tree/octicon): **Octicons** (765 icons, MIT)
 - [#memory](https://github.com/iconify/icons-vue/tree/memory): **Memory Icons** (651 icons, Apache 2.0)
 - [#system-uicons](https://github.com/iconify/icons-vue/tree/system-uicons): **System UIcons** (430 icons, Unlicense)
 - [#radix-icons](https://github.com/iconify/icons-vue/tree/radix-icons): **Radix Icons** (332 icons, MIT)
@@ -213,11 +213,11 @@ There are 222 branches in this repository, one for each icon set.
 
 ### Programming
 
-- [#vscode-icons](https://github.com/iconify/icons-vue/tree/vscode-icons): **VSCode Icons** (1595 icons, MIT)
+- [#vscode-icons](https://github.com/iconify/icons-vue/tree/vscode-icons): **VSCode Icons** (1596 icons, MIT)
 - [#codicon](https://github.com/iconify/icons-vue/tree/codicon): **Codicons** (653 icons, CC BY 4.0)
 - [#material-icon-theme](https://github.com/iconify/icons-vue/tree/material-icon-theme): **Material Icon Theme** (904 icons, MIT)
 - [#file-icons](https://github.com/iconify/icons-vue/tree/file-icons): **File Icons** (930 icons, ISC)
-- [#devicon](https://github.com/iconify/icons-vue/tree/devicon): **Devicon** (1052 icons, MIT)
+- [#devicon](https://github.com/iconify/icons-vue/tree/devicon): **Devicon** (1053 icons, MIT)
 - [#devicon-plain](https://github.com/iconify/icons-vue/tree/devicon-plain): **Devicon Plain** (769 icons, MIT)
 - [#catppuccin](https://github.com/iconify/icons-vue/tree/catppuccin): **Catppuccin Icons** (656 icons, MIT)
 - [#skill-icons](https://github.com/iconify/icons-vue/tree/skill-icons): **Skill Icons** (400 icons, MIT)
@@ -227,17 +227,17 @@ There are 222 branches in this repository, one for each icon set.
 
 ### Logos
 
-- [#simple-icons](https://github.com/iconify/icons-vue/tree/simple-icons): **Simple Icons** (3460 icons, CC0 1.0)
+- [#simple-icons](https://github.com/iconify/icons-vue/tree/simple-icons): **Simple Icons** (3461 icons, CC0 1.0)
 - [#logos](https://github.com/iconify/icons-vue/tree/logos): **SVG Logos** (1935 icons, CC0)
 - [#streamline-logos](https://github.com/iconify/icons-vue/tree/streamline-logos): **Logos free icons** (1362 icons, CC BY 4.0)
 - [#cib](https://github.com/iconify/icons-vue/tree/cib): **CoreUI Brands** (830 icons, CC0 1.0)
 - [#fa7-brands](https://github.com/iconify/icons-vue/tree/fa7-brands): **Font Awesome Brands** (608 icons, CC BY 4.0)
 - [#bxl](https://github.com/iconify/icons-vue/tree/bxl): **Boxicons Brands** (295 icons, MIT)
 - [#nonicons](https://github.com/iconify/icons-vue/tree/nonicons): **Nonicons** (69 icons, MIT)
-- [#arcticons](https://github.com/iconify/icons-vue/tree/arcticons): **Arcticons** (15057 icons, CC BY-SA 4.0)
+- [#arcticons](https://github.com/iconify/icons-vue/tree/arcticons): **Arcticons** (15322 icons, CC BY-SA 4.0)
 - [#thesvg](https://github.com/iconify/icons-vue/tree/thesvg): **theSVG** (3753 icons, MIT)
 - [#thesvg-color](https://github.com/iconify/icons-vue/tree/thesvg-color): **theSVG Color** (4891 icons, MIT)
-- [#selfhst](https://github.com/iconify/icons-vue/tree/selfhst): **selfh.st/icons** (7168 icons, CC BY 4.0)
+- [#selfhst](https://github.com/iconify/icons-vue/tree/selfhst): **selfh.st/icons** (7184 icons, CC BY 4.0)
 - [#cbi](https://github.com/iconify/icons-vue/tree/cbi): **Custom Brand Icons** (1737 icons, CC BY-NC-SA 4.0)
 - [#brandico](https://github.com/iconify/icons-vue/tree/brandico): **Brandico** (45 icons, CC BY SA)
 - [#entypo-social](https://github.com/iconify/icons-vue/tree/entypo-social): **Entypo+ Social** (76 icons, CC BY-SA 4.0)
@@ -266,7 +266,7 @@ There are 222 branches in this repository, one for each icon set.
 - [#flag](https://github.com/iconify/icons-vue/tree/flag): **Flag Icons** (542 icons, MIT)
 - [#flagpack](https://github.com/iconify/icons-vue/tree/flagpack): **Flagpack** (254 icons, MIT)
 - [#cif](https://github.com/iconify/icons-vue/tree/cif): **CoreUI Flags** (199 icons, CC0 1.0)
-- [#pinhead](https://github.com/iconify/icons-vue/tree/pinhead): **Pinhead Map Icons** (2719 icons, CC0)
+- [#pinhead](https://github.com/iconify/icons-vue/tree/pinhead): **Pinhead Map Icons** (2726 icons, CC0)
 - [#roentgen](https://github.com/iconify/icons-vue/tree/roentgen): **Röntgen** (574 icons, CC BY 4.0)
 - [#maki](https://github.com/iconify/icons-vue/tree/maki): **Maki** (215 icons, CC0)
 - [#temaki](https://github.com/iconify/icons-vue/tree/temaki): **Temaki** (557 icons, CC0)
@@ -320,4 +320,4 @@ There are 222 branches in this repository, one for each icon set.
 - [#vaadin](https://github.com/iconify/icons-vue/tree/vaadin): **Vaadin Icons** (636 icons, Apache 2.0)
 - [#grommet-icons](https://github.com/iconify/icons-vue/tree/grommet-icons): **Grommet Icons** (636 icons, Apache 2.0)
 
-Total: $222 icon sets, 367385 icons.
+Total: 222 icon sets, 367704 icons.

@@ -1,0 +1,98 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":128,"height":128};
+const content = `<path class="unpktgbwe"/><radialGradient id="SVGlXJH5cUV" cx="64" cy="58.438" r="47.532" gradientTransform="matrix(1 0 0 1.1901 0 -11.111)" gradientUnits="userSpaceOnUse"><stop offset=".794" class="stui2mbih"/><stop offset="1" class="d-llkv2cb"/></radialGradient><path fill="url(#SVGlXJH5cUV)" class="hyjhn1bec"/><linearGradient id="SVGtxJJNpSQ" x1="64" x2="64" y1="94.007" y2="122.1" gradientUnits="userSpaceOnUse"><stop offset="0" class="xb94qyb-t"/><stop offset=".705" class="ci_fo_bpd"/><stop offset="1" class="u3kz4vb7l"/></linearGradient><path fill="url(#SVGtxJJNpSQ)" class="pbmj6alkr"/><path class="n3onmmehi"/><path class="a0mvj7p8z"/><path class="xqzcsibdk"/><g class="d2ol71wkq"><ellipse class="i2mcs1bjm"/><ellipse class="rk6i4zb5x"/></g><path class="m2bnv3-5g"/><path class="f9jn7domd"/><path class="b2x8f463o"/><radialGradient id="SVGV7wUjcQy" cx="64.333" cy="62.463" r="49.788" gradientTransform="matrix(1 0 0 1.2135 0 -13.333)" gradientUnits="userSpaceOnUse"><stop offset=".796" class="stui2mbih"/><stop offset="1" class="d-llkv2cb"/></radialGradient><path fill="url(#SVGV7wUjcQy)" class="v5no-5blj"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="noto:woman-dark-skin-tone-white-hair" /></template>
+<style>
+.a0mvj7p8z {
+  fill: var(--svg-color--70534a, #70534a);
+  d: path("M64 14.91c-17.2 0-33.13 12.79-33.13 39.91c0 21.79 13.49 34.67 25.23 38.83c2.8.99 5.5 1.49 7.9 1.49c2.38 0 5.07-.49 7.85-1.47c11.76-4.14 25.28-17.03 25.28-38.84C97.13 27.7 81.2 14.91 64 14.91");
+}
+
+.b2x8f463o {
+  fill: var(--svg-color--d6d6d6, #d6d6d6);
+  d: path("M64.57 2.87c-41.01 0-40.68 37.92-40.68 38.52c0 7.76.19 16.53.75 25.32l6.72-.02c-.06-2.92 1.99-20.97 8.08-22.34c22.36-5.02 35.01-16.89 35.01-16.89c3.29 7.19 13.58 14.19 17.27 16.86c3.03 2.19 3.96 18.55 3.9 22.38h7.71c0-.05.02-.1.02-.16c.56-8.75.74-17.46.74-25.17c.01-.58 1.49-38.5-39.52-38.5");
+}
+
+.ci_fo_bpd {
+  stop-color: var(--svg-color--5914f2, #5914f2);
+}
+
+.d-llkv2cb {
+  stop-color: var(--svg-color--fff, #fff);
+  stop-opacity: 0.5;
+}
+
+.d2ol71wkq {
+  fill: var(--svg-color--1a1717, #1a1717);
+}
+
+.f9jn7domd {
+  fill: var(--svg-color--1a1717, #1a1717);
+  d: path("M72.31 76.14c-3.15 1.87-13.46 1.87-16.61 0c-1.81-1.07-3.65.57-2.9 2.21c.74 1.61 6.37 5.36 11.23 5.36c4.87 0 10.42-3.75 11.16-5.36c.75-1.64-1.07-3.29-2.88-2.21");
+}
+
+.hyjhn1bec {
+  d: path("M64.57 2.87c-41.01 0-40.68 37.92-40.68 38.52c0 24.56 1.88 59.25 11.71 72.9c3.9 5.41 11.43 5.71 11.43 5.71l16.97-.02l16.97.03s7.53-.3 11.43-5.71c9.83-13.65 11.71-48.34 11.71-72.9c-.01-.61 1.47-38.53-39.54-38.53");
+}
+
+.i2mcs1bjm {
+  cx: 47.57px;
+  cy: 58.87px;
+  rx: 4.87px;
+  ry: 5.04px;
+}
+
+.m2bnv3-5g {
+  fill: var(--svg-color--33251f, #33251f);
+  d: path("M67.82 68.05c-.1-.04-.21-.07-.32-.08h-6.99c-.11.01-.21.04-.32.08c-.63.26-.98.91-.68 1.61s1.69 2.66 4.49 2.66s4.19-1.96 4.49-2.66c.31-.69-.04-1.35-.67-1.61");
+}
+
+.n3onmmehi {
+  fill: var(--svg-color--3c2b24, #3c2b24);
+  d: path("M73.08 90.08H54.91v9.98c0 4.51 3.7 8.17 8.26 8.17h1.65c4.56 0 8.26-3.66 8.26-8.17z");
+}
+
+.pbmj6alkr {
+  d: path("M64.12 94.45h-.13c-25.65.03-51.46 7.55-51.46 25.44v4.14h102.93v-4.14c0-16.87-25.56-25.44-51.34-25.44");
+}
+
+.rk6i4zb5x {
+  cx: 80.43px;
+  cy: 58.87px;
+  rx: 4.87px;
+  ry: 5.04px;
+}
+
+.stui2mbih {
+  stop-color: var(--svg-color--fff, #fff);
+  stop-opacity: 0;
+}
+
+.u3kz4vb7l {
+  stop-color: var(--svg-color--530eeb, #530eeb);
+}
+
+.unpktgbwe {
+  fill: var(--svg-color--d6d6d6, #d6d6d6);
+  d: path("M64.57 2.87c-41.01 0-40.68 37.92-40.68 38.52c0 24.56 1.88 59.25 11.71 72.9c3.9 5.41 11.43 5.71 11.43 5.71l16.97-.02l16.97.03s7.53-.3 11.43-5.71c9.83-13.65 11.71-48.34 11.71-72.9c-.01-.61 1.47-38.53-39.54-38.53");
+}
+
+.v5no-5blj {
+  d: path("M64.57 2.87c-41.01 0-40.68 37.92-40.68 38.52c0 7.76.19 16.53.75 25.32l6.72-.02c-.06-2.92 1.99-20.97 8.08-22.34c22.36-5.02 35.01-16.89 35.01-16.89c3.29 7.19 13.58 14.19 17.27 16.86c3.03 2.19 3.96 18.55 3.9 22.38h7.71c0-.05.02-.1.02-.16c.56-8.75.74-17.46.74-25.17c.01-.58 1.49-38.5-39.52-38.5");
+}
+
+.xb94qyb-t {
+  stop-color: var(--svg-color--651fff, #651fff);
+}
+
+.xqzcsibdk {
+  fill: var(--svg-color--9e9e9e, #9e9e9e);
+  d: path("M54.8 49.82c-.93-1.23-3.07-3.01-7.23-3.01s-6.31 1.79-7.23 3.01c-.41.54-.31 1.17-.02 1.55c.26.35 1.04.68 1.9.39s2.54-1.16 5.35-1.18c2.81.02 4.49.89 5.35 1.18s1.64-.03 1.9-.39c.29-.38.39-1.01-.02-1.55m32.86 0c-.93-1.23-3.07-3.01-7.23-3.01s-6.31 1.79-7.23 3.01c-.41.54-.31 1.17-.02 1.55c.26.35 1.04.68 1.9.39s2.54-1.16 5.35-1.18c2.81.02 4.49.89 5.35 1.18s1.64-.03 1.9-.39c.28-.38.39-1.01-.02-1.55");
+}
+
+</style>

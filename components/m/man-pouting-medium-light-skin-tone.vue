@@ -1,0 +1,106 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":128,"height":128};
+const content = `<linearGradient id="SVGiqjJmejL" x1="64" x2="64" y1="84.257" y2="123.663" gradientUnits="userSpaceOnUse"><stop offset="0" class="zs84mcc3v"/><stop offset=".515" class="fwmih7b7q"/><stop offset="1" class="xv220cbff"/></linearGradient><path fill="url(#SVGiqjJmejL)" class="i62gwrb2v"/><linearGradient id="SVGWYRYCeGc" x1="26.31" x2="53.27" y1="99.818" y2="99.818" gradientUnits="userSpaceOnUse"><stop offset=".5" class="gg42svbns"/><stop offset="1" class="ms-lo7bhi"/></linearGradient><path fill="url(#SVGWYRYCeGc)" class="u3oj04f7o"/><path class="tfusodbry"/><linearGradient id="SVGqzYUecql" x1="68.578" x2="94.07" y1="104.21" y2="104.21" gradientUnits="userSpaceOnUse"><stop offset=".5" class="gg42svbns"/><stop offset="1" class="ms-lo7bhi"/></linearGradient><path fill="url(#SVGqzYUecql)" class="u3rxuldct"/><path class="njklzo2qc"/><path class="gv0d8_byi"/><path class="dmspjibcr"/><path class="nxx1hyb-s"/><path class="yu7xnvbyr"/><path class="fjc_q-xsk"/><path class="nckn6-b4c"/><path class="w9jmfyb3d"/><radialGradient id="SVGNoy2Rblf" cx="63.89" cy="88.754" r="32.909" gradientTransform="matrix(1 0 0 -1.1282 0 140.486)" gradientUnits="userSpaceOnUse"><stop offset=".794" class="l1arbqe-k"/><stop offset="1" class="atqdr-9uk"/></radialGradient><path fill="url(#SVGNoy2Rblf)" class="qaf536jlp"/><path class="jppqqlbnr"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="noto:man-pouting-medium-light-skin-tone" /></template>
+<style>
+.atqdr-9uk {
+  stop-color: var(--svg-color--bfa055, #bfa055);
+}
+
+.dmspjibcr {
+  fill: var(--svg-color--e0bb95, #e0bb95);
+  d: path("M64 9.14c-14.97 0-28.84 16.01-28.84 39.05c0 22.92 14.29 34.25 28.84 34.25S92.84 71.1 92.84 48.19C92.84 25.15 78.97 9.14 64 9.14");
+}
+
+.fjc_q-xsk {
+  fill: var(--svg-color--6d4c41, #6d4c41);
+  d: path("M72.25 70.09c-.41-1.47-4.05-4.81-8.5-4.81c-4.48 0-7.61 3.65-7.99 4.8c-.02.07-.09.28.06.4c.2.15.45-.01 1.21-.5c1.36-.88 3.9-2.51 6.8-2.51c2.74 0 5.29 1.54 6.81 2.46c.71.43 1.1.67 1.35.67q.105 0 .18-.06c.17-.13.11-.37.08-.45");
+}
+
+.fwmih7b7q {
+  stop-color: var(--svg-color--00b29a, #00b29a);
+}
+
+.gg42svbns {
+  stop-color: var(--svg-color--e0bb95, #e0bb95);
+}
+
+.gv0d8_byi {
+  fill: var(--svg-color--c48e6a, #c48e6a);
+  d: path("M71.81 77.11H56.19v8.59c0 3.88 3.18 7.03 7.11 7.03h1.42c3.92 0 7.11-3.15 7.11-7.03zM87.51 43H40.49c-5.07 0-9.21 4.42-9.21 9.82s4.15 9.82 9.21 9.82H87.5c5.07 0 9.21-4.42 9.21-9.82c.01-5.4-4.13-9.82-9.2-9.82");
+}
+
+.i62gwrb2v {
+  d: path("M105.85 103.24c-2.11-4.78-8.32-19.66-15.93-23.1c-8.26-3.72-25.92.7-25.92.7s-17.4-4.23-25.66-.5c-7.61 3.43-14.08 18.12-16.2 22.9c-2.11 4.78-3.8 11.35-1.13 15.38c2.68 4.03 5.93 5.38 11.92 5.38h61.11c7.94 0 10.26-1.34 12.93-5.38c2.68-4.03.99-10.6-1.12-15.38");
+}
+
+.jppqqlbnr {
+  fill: var(--svg-color--ab872f, #ab872f);
+  d: path("M43.32 42.91c2.75-3.9 9.21-4.03 12.45-.71c.56.57 1.16 1.33.73 2.16c-.47.93-1.42.78-2.21.46c-2.1-.85-4.26-1.23-6.52-.77c-.98.2-1.81.61-2.74.93c-1.24.44-2.51-.87-1.71-2.07m39.75 2.17c-1.93-.84-3.88-1.32-6.01-1.08c-.96.11-1.92.36-2.82.72c-.71.28-1.49.75-2.23.24c-2.11-1.46 1.64-3.83 2.74-4.31c2.39-1.03 5.23-.94 7.54.27c.91.48 1.91 1.17 2.45 2.08c.68 1.12-.34 2.63-1.67 2.08");
+}
+
+.l1arbqe-k {
+  stop-color: var(--svg-color--bfa055, #bfa055);
+  stop-opacity: 0;
+}
+
+.ms-lo7bhi {
+  stop-color: var(--svg-color--cca47a, #cca47a);
+}
+
+.nckn6-b4c {
+  fill: var(--svg-color--ba8f63, #ba8f63);
+  d: path("M63.9 71.88c2.46 0 4.54 1.34 4.34.62c-.21-.72-2.13-2.51-4.48-2.51s-4.01 1.91-4.21 2.51c-.19.61 1.89-.62 4.35-.62");
+}
+
+.njklzo2qc {
+  fill: var(--svg-color--ba8f63, #ba8f63);
+  d: path("M31.3 106.12c.35-.46 1.2-1.23 1.7-1.66c1.55-1.35 3.77-2.52 6.16-3.2c.28-.08.58.08.66.37c.08.28-.08.58-.37.66c-2.93.83-4.95 2.02-6.51 3.57c0 0-.27.08-.78.2c-.38.08-.86.06-.86.06m-3.39-2.93c2.72-3.21 5.75-4.16 9.1-5.02c.28-.07.58.1.65.39s-.1.58-.39.65c-3.16.81-5.56 1.77-7.62 3.76c0 0-.31.14-.73.2c-.55.08-1.01.02-1.01.02m-.88-4.79c1.9-1.7 4.35-2.88 7.63-3.67c.29-.06.58.11.65.4a.54.54 0 0 1-.4.65c-3.04.73-5.32 1.8-7.07 3.34c0 0-.27-.09-.46-.24c-.19-.17-.35-.48-.35-.48");
+}
+
+.nxx1hyb-s {
+  fill: var(--svg-color--5d4037, #5d4037);
+  d: path("M54.1 50.21c0 1.33-.58 2.53-1.49 3.33H47.1c-.91-.8-1.49-2-1.49-3.33c0-2.43 1.9-4.39 4.24-4.39c2.35 0 4.25 1.96 4.25 4.39m28.28 0c0 1.33-.58 2.53-1.49 3.33h-5.51c-.91-.8-1.49-2-1.49-3.33c0-2.43 1.9-4.39 4.24-4.39c2.35 0 4.25 1.96 4.25 4.39");
+}
+
+.qaf536jlp {
+  d: path("M95.12 48.19s8.04-44.83-31.21-45.04h-.02a44 44 0 0 0-5.18.31h-.03l-.23.03c-33.04 4.16-25.78 44.7-25.78 44.7l2.57 6.63c.11.29.54.26.61-.04c.85-3.79 3.85-17.03 5.37-21.06c.9-2.38 3.37-3.77 5.87-3.31c3.85.7 9.98 1.56 16.74 1.56h.14c6.76 0 12.89-.86 16.74-1.56c2.5-.45 4.97.93 5.87 3.31c1.52 4.04 4.54 17.36 5.37 21.1c.07.31.49.34.6.05c.79-2.04 2.57-6.68 2.57-6.68");
+}
+
+.tfusodbry {
+  fill: var(--svg-color--00796b, #00796b);
+  d: path("M47.95 124c11.25-1.44 31.69-10.89 32.27-11.4s.2-1.99.2-1.99s12.52-5.18 13.2-4.26s.36 1.24-.57 1.87c-.66.44-11.06 4.66-15.73 7.67c-7.33 4.71-14.24 8.06-14.24 8.06z");
+}
+
+.u3oj04f7o {
+  d: path("M52.88 101.03c.38-.12.5-.57.28-.9c-1.54-2.32-5.72-6.76-10.76-7.79c-3.25-.67-6.42-.31-9.15.38c-2.4.61-5.09 2.23-5.79 3.2c-1.64 2.28.37 3.17.37 3.17s-2.01 1.41-1.41 2.97c.72 1.84 3.24.9 3.24.9s-1.28 1.17-.09 2.53c.99 1.14 3.37.35 3.37.35s-.39.9.77 1.57c1.57.91 3.92-1.18 5.54-1.83c.88-.35 2.62-.96 3.67-1.34c3.24-1.15 7.24-1.96 9.96-3.21");
+}
+
+.u3rxuldct {
+  d: path("M68.58 98.96s7.59 3.01 11.85 11.65c0 0 1.88-.24 4.34-1.06s3.35-1.65 4.92-1.93s3.96-.34 4.26-.87c.8-1.42-2.11-6.15-7.32-7.79c-8.22-2.59-18.05 0-18.05 0");
+}
+
+.w9jmfyb3d {
+  fill: var(--svg-color--ab872f, #ab872f);
+  d: path("M63.9 3.15h-.02c-39.26.21-31.22 45.04-31.22 45.04s1.76 4.62 2.56 6.66c.12.3.54.26.61-.05c.84-3.75 3.86-17.04 5.38-21.08c.9-2.38 3.37-3.77 5.87-3.31c3.85.7 9.98 1.56 16.74 1.56h.14c6.76 0 12.89-.86 16.74-1.56c2.5-.45 4.97.93 5.87 3.31c1.51 4.03 4.51 17.24 5.36 21.05c.07.31.5.34.61.04l2.58-6.62S103.16 3.36 63.9 3.15");
+}
+
+.xv220cbff {
+  stop-color: var(--svg-color--00ab94, #00ab94);
+}
+
+.yu7xnvbyr {
+  fill: var(--svg-color--c48e6a, #c48e6a);
+  d: path("M67.32 58.17c-.09-.03-.18-.06-.28-.07h-6.08a1 1 0 0 0-.28.07c-.55.22-.85.79-.59 1.4s1.47 2.31 3.91 2.31s3.66-1.71 3.91-2.31c.26-.61-.04-1.18-.59-1.4");
+}
+
+.zs84mcc3v {
+  stop-color: var(--svg-color--00bfa5, #00bfa5);
+}
+
+</style>

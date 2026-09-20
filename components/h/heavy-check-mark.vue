@@ -1,0 +1,36 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":128,"height":128};
+const content = `<path class="ijklo90xg"/><path class="zfx65qb-o"/><circle class="jr-t1_rlg"/><path class="ft17gvblh"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="noto:heavy-check-mark" /></template>
+<style>
+.ft17gvblh {
+  fill: var(--svg-color--fff, #fff);
+  d: path("M12.73 65.49c.67-.01.53-3.76 2.28-7.35c1.23-2.54 2.82-3.82 2.81-5.24s-1.92-8.34-3.35-7.88c-1.99.63-4.53 3.19-5.1 7.18c-.89 6.28 2.13 13.31 3.36 13.29");
+  opacity: var(--svg-opacity--0-35, 0.35);
+}
+
+.ijklo90xg {
+  fill: var(--svg-color--546d7a, #546d7a);
+  d: path("M36.02 123.97c-.7-.02-1.41-.08-2.1-.2a12.05 12.05 0 0 1-9.3-8l-20-60c-2.1-6.3 1.3-13.1 7.6-15.2s13.1 1.3 15.2 7.6l13 39l62.2-78.6c4.11-5.22 11.68-6.11 16.9-2s6.11 11.68 2 16.9l-76 96a12.35 12.35 0 0 1-9.5 4.5");
+}
+
+.jr-t1_rlg {
+  cx: 108.45px;
+  cy: 12.83px;
+  r: 3.3px;
+  fill: var(--svg-color--fff, #fff);
+  opacity: var(--svg-opacity--0-35, 0.35);
+}
+
+.zfx65qb-o {
+  fill: var(--svg-color--fff, #fff);
+  d: path("M75.17 58.91c1.49-1.24 29.97-35.22 29.97-35.22s2.38-2.53.36-4.75c-1.9-2.03-4.38-.7-5.57.62S73.04 51.18 71.98 52.68a5.43 5.43 0 0 0-.09 5.53c.94 1.52 2.25 1.6 3.28.7");
+  opacity: var(--svg-opacity--0-35, 0.35);
+}
+
+</style>

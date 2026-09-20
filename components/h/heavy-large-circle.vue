@@ -1,0 +1,32 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":128,"height":128};
+const content = `<path class="r4sb_o_dp"/><path class="k7uqnibpj"/><path class="x7qbq70nd"/><path class="mccpa8too"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="noto:heavy-large-circle" /></template>
+<style>
+.k7uqnibpj {
+  fill: var(--svg-color--c33, #c33);
+  d: path("M64 4C40.1 4 19.4 18 9.8 38.3C18.9 19.8 38 7 60.1 7c31 0 56.1 25.1 56.1 56.1s-25.1 56.1-56.1 56.1C29.3 119.2 4.3 94.3 4 63.5v.5c0 33.1 26.9 60 60 60s60-26.9 60-60S97.1 4 64 4");
+}
+
+.mccpa8too {
+  fill: var(--svg-color--fff, #fff);
+  d: path("M24 29.7c4.5-7.1 14.1-13 24.1-14.8c2.5-.4 5-.6 7.1.2c1.6.6 2.9 2.1 2 3.8c-.7 1.4-2.6 2-4.1 2.5c-9.3 3-17.8 9.5-23 17.4c-2 3-5 11.3-8.7 9.2c-3.9-2.3-3.1-9.5 2.6-18.3");
+  opacity: var(--svg-opacity--0-2, 0.2);
+}
+
+.r4sb_o_dp {
+  fill: var(--svg-color--f44336, #f44336);
+  d: path("M64 28c19.8 0 36 16.2 36 36s-16.2 36-36 36s-36-16.2-36-36s16.2-36 36-36m0-24C30.9 4 4 30.9 4 64s26.9 60 60 60s60-26.9 60-60S97.1 4 64 4");
+}
+
+.x7qbq70nd {
+  fill: var(--svg-color--c33, #c33);
+  d: path("M65.6 26.7c-15 0-28 8.8-34 21.5c5.7-11.6 17.7-19.7 31.6-19.7c19.4 0 35.2 15.8 35.2 35.2S82.6 98.9 63.2 98.9c-19.3 0-35-15.6-35.2-34.9v.3c0 20.8 16.9 37.6 37.6 37.6s37.6-16.9 37.6-37.6s-16.8-37.6-37.6-37.6");
+}
+
+</style>

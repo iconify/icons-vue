@@ -1,0 +1,68 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":128,"height":128};
+const content = `<path class="pu59wjr9e"/><path class="k971svbdv"/><path class="tldtv3b5y"/><path class="l-j6l8b0j"/><path class="ponrhnbxk"/><ellipse transform="rotate(-45 10.995 116.309)" class="hwwgzoo1b"/><linearGradient id="SVGLpuzSRGn" x1="20.75" x2="37.146" y1="15.232" y2="41.824" gradientTransform="rotate(21.938 59.71 136.602)" gradientUnits="userSpaceOnUse"><stop offset=".285" class="vc--wpv5i"/><stop offset="1" class="stui2mbih"/></linearGradient><path fill="url(#SVGLpuzSRGn)" class="yeam6nb0u"/><path class="o0-pf4b6r"/><linearGradient id="SVGDP3o3g4B" x1="58.224" x2="62.358" y1="96.402" y2="53.685" gradientTransform="rotate(12.17 64.006 220.098)" gradientUnits="userSpaceOnUse"><stop offset=".285" class="vc--wpv5i"/><stop offset="1" class="stui2mbih"/></linearGradient><path fill="url(#SVGDP3o3g4B)" class="ny-cupaua"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="noto:magnifying-glass-tilted-right" /></template>
+<style>
+.hwwgzoo1b {
+  cx: 10.99px;
+  cy: 116.31px;
+  fill: var(--svg-color--424242, #424242);
+  rx: 3.56px;
+  ry: 9.25px;
+}
+
+.k971svbdv {
+  fill: var(--svg-color--616161, #616161);
+  d: path("M80.37 12.67c19.85 0 36.01 16.15 36.01 36.01s-14.95 34.8-34.8 34.8s-36.02-16.15-36.02-36.01s14.95-34.8 34.81-34.8m-27.62 7.18c-12.98 14.29-19.6 37.66-1.17 56.09c19.9 19.9 46.51 11.64 60.73-2.88c7.69-7.85 17.35-36.61-2.33-56.28s-48.61-6.42-57.23 3.07");
+}
+
+.l-j6l8b0j {
+  fill: var(--svg-color--616161, #616161);
+  d: path("M39.5 76.96c1.13-.9 5.05-3 9.36 1.28c4.3 4.28 2.55 7.66 1.7 8.91c0 0-30.53 33.87-31.92 35.27c-2.05 2.05-6.26.3-10.16-3.6s-5.78-7.67-3.58-9.87c1.79-1.79 33.47-31.09 34.6-31.99");
+}
+
+.ny-cupaua {
+  d: path("M86.02 76.23c-4.53-.14-5.41-2.24-4.48-3.93c.74-1.34 2.47-1.61 4-1.73c8.15-.64 16-5.59 22.06-10.87c-1.07 5.49-3.19 8.35-6.52 11.02c-3.26 2.6-8.12 5.73-15.06 5.51");
+}
+
+.o0-pf4b6r {
+  fill: var(--svg-color--fff, #fff);
+  d: path("M52.24 25.22c.46-.01.88-.23 1.13-.61c1.35-1.98 4.49-7.3 13.03-12.01c4.98-2.75 9.16-3.84 10.65-4.15c4.22-.88 2.76-3.07.02-2.7c-3.11.42-16.78 3.43-26.02 17.24c-.64.97.03 2.26 1.19 2.23m64.82 36.47c-1.29.16-2.48 2.4-2.72 2.79c-1.25 2.04-3.7 7.1-12.22 11.85c-3.97 2.21-8.06 3.83-10.1 4.39c-3.33.92-2.61 3.2.1 2.7c3.09-.57 16.61-4.2 25.2-18.42c.6-1 1.46-3.52-.26-3.31");
+  opacity: var(--svg-opacity--0-59, 0.59);
+}
+
+.ponrhnbxk {
+  fill: var(--svg-color--bdbdbd, #bdbdbd);
+  d: path("M84.08 8.64c19.85 0 36 16.15 36 36s-16.15 36-36 36s-36-16.15-36-36s16.16-36 36-36m0-3.96c-22.06 0-39.95 17.89-39.95 39.95s17.89 39.95 39.95 39.95s39.95-17.89 39.95-39.95S106.15 4.68 84.08 4.68");
+}
+
+.pu59wjr9e {
+  fill: var(--svg-color--81d4fa, #81d4fa);
+  d: path("M80.37 12.67c-19.85 0-34.8 14.95-34.8 34.8s16.15 36.01 36.01 36.01s34.8-14.95 34.8-34.8s-16.16-36.01-36.01-36.01");
+  opacity: var(--svg-opacity--0-6, 0.6);
+}
+
+.stui2mbih {
+  stop-color: var(--svg-color--fff, #fff);
+  stop-opacity: 0;
+}
+
+.tldtv3b5y {
+  fill: var(--svg-color--bdbdbd, #bdbdbd);
+  d: path("m28.22 90.86l8.33 8.38l19.62-19.8s1.66-3.19-1.62-6.47s-6.71-1.91-6.71-1.91z");
+}
+
+.vc--wpv5i {
+  stop-color: var(--svg-color--fff, #fff);
+}
+
+.yeam6nb0u {
+  d: path("M72.52 16.93c-8.6 3.9-13.79 9.96-16.99 17.72c-1.18 2.86-2 6.05-1.13 9.02c.87 2.96 3.95 5.44 6.94 4.7c1.98-.49 3.41-2.17 4.86-3.61a28 28 0 0 1 7.66-5.36c3.54-1.68 7.42-2.59 10.9-4.41c3.47-1.82 6.66-4.88 7.12-8.77c.45-3.81-1.96-7.61-5.34-9.44s-9.06-2.1-14.02.15");
+}
+
+</style>

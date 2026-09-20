@@ -1,0 +1,190 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":128,"height":128};
+const content = `<linearGradient id="SVGTyfzhd0p" x1="104.406" x2="117.392" y1="17.336" y2="17.336" gradientTransform="matrix(1 0 0 -1 0 128)" gradientUnits="userSpaceOnUse"><stop offset=".003" class="l54z63-qu"/><stop offset=".404" class="dzp7rdf0i"/><stop offset="1" class="fo7gk-beh"/></linearGradient><path fill="url(#SVGTyfzhd0p)" class="z3sufjbzn"/><linearGradient id="SVGIRGFZdGt" x1="4.406" x2="96.406" y1="18.359" y2="18.359" gradientTransform="matrix(1 0 0 -1 0 128)" gradientUnits="userSpaceOnUse"><stop offset=".003" class="l54z63-qu"/><stop offset=".404" class="dzp7rdf0i"/><stop offset="1" class="fo7gk-beh"/></linearGradient><path fill="url(#SVGIRGFZdGt)" class="djuvfccfo"/><path class="jaa15o_oc"/><path class="j3x6m91mp"/><path class="dl6nknben"/><path class="gji-0ccje"/><path class="rs5__3beg"/><path class="q4_h61btt"/><path class="knsy6j4ne"/><path class="zfdolgbrt"/><path class="f_t31lb9w"/><path class="u7yvy9bpj"/><path class="kgp2y2bdn"/><g class="fgqj36-ft"><ellipse class="awwe5dbjl"/><ellipse class="f6m365bti"/></g><path class="yf7yfqmuq"/><path class="q6m7c3f5j"/><path class="q82n-7bzz"/><linearGradient id="SVGnxDydczC" x1="37.349" x2="37.349" y1="32.246" y2="3.007" gradientTransform="matrix(1 0 0 -1 0 128)" gradientUnits="userSpaceOnUse"><stop offset="0" class="f267jt5sf"/><stop offset=".682" class="g3c_jbvil"/><stop offset="1" class="g3c_jbvil"/></linearGradient><path fill="url(#SVGnxDydczC)" class="kw6j9wb_b"/><linearGradient id="SVGxPWIwcoB" x1="36.537" x2="36.537" y1="32.246" y2="3.007" gradientTransform="matrix(-1 0 0 -1 100 128)" gradientUnits="userSpaceOnUse"><stop offset="0" class="f267jt5sf"/><stop offset=".682" class="g3c_jbvil"/><stop offset="1" class="g3c_jbvil"/></linearGradient><path fill="url(#SVGxPWIwcoB)" class="iy6ektbmr"/><path class="xnw74ub9j"/><radialGradient id="SVGcBdtoc1T" cx="50.407" cy="79.901" r="38.092" gradientTransform="matrix(1 0 0 -1.1282 0 138.242)" gradientUnits="userSpaceOnUse"><stop offset=".794" class="mlb8vsb9l"/><stop offset="1" class="m_5onzv2u"/></radialGradient><path fill="url(#SVGcBdtoc1T)" class="eoup6ebrb"/><path class="iqcdfhb0n"/><path class="hmpxssxep"/><path class="vzs-iab4z"/><linearGradient id="SVGEvE6obEF" x1="50.406" x2="50.406" y1="123.827" y2="76.658" gradientTransform="matrix(1 0 0 -1 0 128)" gradientUnits="userSpaceOnUse"><stop offset="0" class="ip0ngccya"/><stop offset="1" class="vlzxxcccm"/></linearGradient><path fill="url(#SVGEvE6obEF)" class="talcyuqms"/><path class="kevin_bze"/><linearGradient id="SVGH5idyKPu" x1="50.406" x2="50.406" y1="94.92" y2="68.98" gradientTransform="matrix(1 0 0 -1 0 128)" gradientUnits="userSpaceOnUse"><stop offset="0" class="ip0ngccya"/><stop offset="1" class="vlzxxcccm"/></linearGradient><path fill="url(#SVGH5idyKPu)" class="ng1itpvqk"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="noto:man-factory-worker-medium-dark-skin-tone" /></template>
+<style>
+.awwe5dbjl {
+  cx: 34.6px;
+  cy: 58.86px;
+  rx: 4.93px;
+  ry: 5.1px;
+}
+
+.djuvfccfo {
+  d: path("M50.52 95.52h-.12c-22.55.03-46 7.28-46 25.06v3.18h92v-3.18c.01-16.76-23.23-25.06-45.88-25.06");
+}
+
+.dl6nknben {
+  fill: var(--svg-color--616161, #616161);
+  d: path("m103.5 122.76l.39-32.79c.01-1.05-1.33-1.92-3-1.95s-3.03.81-3.04 1.86l-.39 32.87h6.04z");
+}
+
+.dzp7rdf0i {
+  stop-color: var(--svg-color--3b7dff, #3b7dff);
+}
+
+.eoup6ebrb {
+  d: path("M86.55 57.17s9.31-51.9-36.13-52.14h-.04c-.71 0-1.4.02-2.08.05c-1.35.06-2.66.16-3.92.31h-.04c-.09.01-.17.03-.26.04c-38.23 4.81-29.82 51.74-29.82 51.74l2.98 7.68c.13.34.62.31.7-.05c.98-4.39 4.46-19.71 6.22-24.37a6.08 6.08 0 0 1 6.8-3.83c4.44.8 11.54 1.8 19.36 1.8h.16c7.83 0 14.92-1 19.37-1.81c2.9-.53 5.76 1.08 6.79 3.83c1.76 4.68 5.25 20.1 6.22 24.42c.08.36.57.39.7.05c.94-2.35 2.99-7.72 2.99-7.72");
+}
+
+.f_t31lb9w {
+  fill: var(--svg-color--f5f5f5, #f5f5f5);
+  d: path("m53.08 123.76l6.66-19.42h-19.9l7.89 19.42z");
+}
+
+.f267jt5sf {
+  stop-color: var(--svg-color--1565c0, #1565c0);
+}
+
+.f6m365bti {
+  cx: 65.74px;
+  cy: 58.86px;
+  rx: 4.93px;
+  ry: 5.1px;
+}
+
+.fgqj36-ft {
+  fill: var(--svg-color--42312c, #42312c);
+}
+
+.fo7gk-beh {
+  stop-color: var(--svg-color--2962ff, #2962ff);
+}
+
+.g3c_jbvil {
+  stop-color: var(--svg-color--0d47a1, #0d47a1);
+}
+
+.gji-0ccje {
+  fill: var(--svg-color--504f4f, #504f4f);
+  d: path("m105.17 123.76l.31-28.96c.02-1.88-1.33-3.42-3.01-3.45l-3.26-.04c-1.68-.02-3.07 1.48-3.08 3.36l-.31 29.08z");
+}
+
+.hmpxssxep {
+  fill: var(--svg-color--807978, #807978);
+  d: path("M12.41 43.84h-4c-2.21 0-4-1.79-4-4v-8c0-2.21 1.79-4 4-4h4c2.21 0 4 1.79 4 4v8c0 2.21-1.8 4-4 4m80 0h-4c-2.21 0-4-1.79-4-4v-8c0-2.21 1.79-4 4-4h4c2.21 0 4 1.79 4 4v8c0 2.21-1.8 4-4 4");
+}
+
+.ip0ngccya {
+  stop-color: var(--svg-color--bdbdbd, #bdbdbd);
+}
+
+.iqcdfhb0n {
+  fill: var(--svg-color--423f3e, #423f3e);
+  d: path("M79.1 21.46H21.71V6.12s7.49-2.28 28.78-2.28c13.15 0 28.62 2.44 28.62 2.44z");
+  opacity: var(--svg-opacity--0-74, 0.74);
+}
+
+.iy6ektbmr {
+  d: path("M64.7 108.22c-.33 0-.65.16-.85.45l-10.18 15.09h-.58l6.4-28.01l7.47 1.15l6.89 14.85l-8.77-3.46c-.13-.05-.26-.07-.38-.07");
+}
+
+.j3x6m91mp {
+  fill: var(--svg-color--504f4f, #504f4f);
+  d: path("m107.05 59.92l-1.49-.02c-1.11-.02-2-.97-1.99-2.13l.02-2.21c.01-1.16.92-2.09 2.03-2.07l1.49.02c1.11.02 2 .97 1.99 2.13l-.02 2.21c-.02 1.15-.93 2.08-2.03 2.07");
+}
+
+.jaa15o_oc {
+  fill: var(--svg-color--9e9e9e, #9e9e9e);
+  d: path("m118.37 54.56l-11.11-.32c-4.2-.09-7.67 3.39-7.75 7.79l-.64 36.36l3.8.09l.64-36.36c.04-2.19 1.78-3.94 3.87-3.9l11.11.32z");
+}
+
+.kevin_bze {
+  fill: var(--svg-color--807978, #807978);
+  d: path("M68 27.86c-.55 0-1-.34-1-.76v-4.7c0-.42.45-.76 1-.76s1 .34 1 .76v4.7c0 .41-.45.76-1 .76m-9.33 1.85c-.55 0-1-.34-1-.76v-8.4c0-.42.45-.76 1-.76s1 .34 1 .76v8.4c0 .41-.45.76-1 .76m-8.26-1.5c-.55 0-1-.34-1-.76v-5.4c0-.42.45-.76 1-.76s1 .34 1 .76v5.4c0 .42-.45.76-1 .76m-17.59-.35c-.55 0-1-.34-1-.76v-4.7c0-.42.45-.76 1-.76s1 .34 1 .76v4.7c0 .41-.45.76-1 .76m9.32 1.85c-.55 0-1-.34-1-.76v-8.4c0-.42.45-.76 1-.76s1 .34 1 .76v8.4c0 .41-.45.76-1 .76");
+}
+
+.kgp2y2bdn {
+  fill: var(--svg-color--a56c43, #a56c43);
+  d: path("M50.41 11.11c-17.4 0-33.52 18.61-33.52 45.4c0 26.64 16.61 39.81 33.52 39.81s33.52-13.17 33.52-39.81c0-26.79-16.12-45.4-33.52-45.4");
+}
+
+.knsy6j4ne {
+  fill: var(--svg-color--84ffff, #84ffff);
+  d: path("M113.03 53.44c3.51 1.22 5.22 2.32 5.22 2.32s-1.12 1.22-4.74 2.01c-2.69.59-4.44-.41-4.42-2.13c.03-1.71 2.13-2.83 3.94-2.2");
+}
+
+.kw6j9wb_b {
+  d: path("M36.12 108.22c.33 0 .65.16.85.45l10.18 15.09h.58l-6.4-28.01l-7.47 1.15l-6.89 14.85l8.77-3.46c.12-.05.25-.07.38-.07");
+}
+
+.l54z63-qu {
+  stop-color: var(--svg-color--448aff, #448aff);
+}
+
+.m_5onzv2u {
+  stop-color: var(--svg-color--554138, #554138);
+}
+
+.mlb8vsb9l {
+  stop-color: var(--svg-color--554138, #554138);
+  stop-opacity: 0;
+}
+
+.ng1itpvqk {
+  d: path("M8.15 58.84S19.68 38.75 50.4 37.15c30.72 1.6 42.25 21.69 42.25 21.69c1.1-.62 1.52-1.86 1.67-2.48c-2.9-5.7-12.64-17.79-36.45-22.74c-3.44-.72-11.33-.72-14.77 0C19.3 38.57 9.38 50.66 6.48 56.36c.15.62.58 1.86 1.67 2.48");
+}
+
+.q4_h61btt {
+  fill: var(--svg-color--2962ff, #2962ff);
+  d: path("M112.32 51.37c3.69 0 7.59 2.79 9.57 4.44c-2.28 1.91-6.15 4.62-8.99 4.62c-1.79 0-4.82-.98-4.82-4.66c0-3.47 2.67-4.4 4.24-4.4m0-1.68c-2.56 0-5.92 1.67-5.92 6.08s3.5 6.33 6.5 6.33c5 0 11.5-6.29 11.5-6.29s-6.08-6.12-12.08-6.12");
+}
+
+.q6m7c3f5j {
+  fill: var(--svg-color--875334, #875334);
+  d: path("M54.26 68.1c-.11-.04-.21-.07-.32-.08h-7.08c-.11.01-.22.04-.32.08c-.64.26-.99.92-.69 1.63s1.71 2.69 4.55 2.69s4.25-1.99 4.55-2.69c.31-.7-.04-1.37-.69-1.63");
+}
+
+.q82n-7bzz {
+  fill: var(--svg-color--473530, #473530);
+  d: path("M58.94 76.19c-3.19 1.89-13.63 1.89-16.81 0c-1.83-1.09-3.7.58-2.94 2.24c.75 1.63 6.44 5.42 11.37 5.42s10.55-3.79 11.3-5.42c.75-1.67-1.1-3.33-2.92-2.24");
+}
+
+.rs5__3beg {
+  fill: var(--svg-color--40c4ff, #40c4ff);
+  d: path("M112.91 61.27c-2.73 0-5.66-1.72-5.66-5.49c0-4.14 3.19-5.24 5.08-5.24c4.5 0 9.18 3.78 10.85 5.28c-1.74 1.52-6.55 5.45-10.27 5.45");
+}
+
+.talcyuqms {
+  d: path("M90.36 31.37a9.5 9.5 0 0 0-.68-3.12L81.88 8.9c-.58-1.18-1.64-2.18-3.03-3.04c-.21-.13-.47.04-.47.29v9.07c0 .97-.78 1.75-1.73 1.75H24.16c-.96 0-1.73-.78-1.73-1.75V5.98c0-.18-.18-.29-.32-.2c-1.46.88-2.57 1.91-3.17 3.13l-7.8 19.35c-.4 1-.63 2.05-.68 3.12l-4.05 24.6s.02.15.08.38c.15.62.57 1.86 1.67 2.48c0 0 11.21-19.36 40.58-21.58c1.11-.08 2.23-.08 3.34 0c29.37 2.22 40.58 21.58 40.58 21.58c1.1-.62 1.52-1.86 1.67-2.48c.06-.23.08-.38.08-.38z");
+}
+
+.u7yvy9bpj {
+  fill: var(--svg-color--7a4c32, #7a4c32);
+  d: path("M50.41 92.37h-9.08v9.98c0 4.51 3.7 8.17 8.26 8.17h1.65c4.56 0 8.26-3.66 8.26-8.17v-9.98zm27.32-41.89H23.08c-5.89 0-10.71 5.13-10.71 11.41S17.19 73.3 23.08 73.3h54.65c5.89 0 10.71-5.14 10.71-11.41s-4.82-11.41-10.71-11.41");
+}
+
+.vlzxxcccm {
+  stop-color: var(--svg-color--757575, #757575);
+}
+
+.vzs-iab4z {
+  fill: var(--svg-color--807978, #807978);
+  d: path("M50.01 32.62c-13.33 0-31.06 6.41-39.1 10.97v9.88C18.46 47.04 33.69 42 50.01 42c16.5 0 29.02 6.26 39.82 11.62c.05-2.14.36-10.19-.69-12.75c-8.05-4.66-25.65-8.25-39.13-8.25");
+}
+
+.xnw74ub9j {
+  fill: var(--svg-color--3c2c23, #3c2c23);
+  d: path("M50.42 5.03h-.04c-45.43.24-36.12 52.14-36.12 52.14s2.04 5.35 2.97 7.71c.13.34.63.3.71-.05c.97-4.34 4.46-19.73 6.22-24.4a6.08 6.08 0 0 1 6.8-3.83c4.44.8 11.54 1.8 19.36 1.8h.16c7.83 0 14.92-1 19.37-1.81c2.9-.53 5.76 1.08 6.79 3.83c1.75 4.66 5.22 19.96 6.2 24.36c.08.36.58.39.71.05l2.98-7.67c.02.01 9.33-51.89-36.11-52.13");
+}
+
+.yf7yfqmuq {
+  fill: var(--svg-color--42312c, #42312c);
+  d: path("M41.59 50.93c-.98-1.48-3.24-3.63-7.62-3.63s-6.65 2.15-7.62 3.63c-.43.65-.32 1.41-.02 1.86c.28.42 1.1.82 2 .47s2.68-1.4 5.64-1.42c2.97.02 4.74 1.07 5.64 1.42c.91.35 1.73-.04 2.01-.47c.29-.45.4-1.21-.03-1.86m32.88 0c-.98-1.48-3.24-3.63-7.62-3.63s-6.65 2.15-7.62 3.63c-.43.65-.32 1.41-.02 1.86c.28.42 1.1.82 2.01.47s2.68-1.4 5.64-1.42c2.97.02 4.74 1.07 5.64 1.42c.91.35 1.73-.04 2-.47c.3-.45.41-1.21-.03-1.86");
+}
+
+.z3sufjbzn {
+  d: path("M117.28 122.28c0-6.76-3.88-20-11.75-24.71l-1.12 26.19h12.97z");
+}
+
+.zfdolgbrt {
+  fill: var(--svg-color--f44336, #f44336);
+  d: path("M114.27 109.82c-.14-1.42-.63-2.77-1.1-3.9c-1.47-3.57-3.14-6.35-6.95-9.16c-3.87-2.86-8.13-3.43-10.05-3.11c-2.16.35-3.54 1.2-4.11 2.52c-.43 1.01-.27 2.03-.01 2.79c-1.1.38-2.58 1.13-3.05 2.48c-.56 1.58-.11 2.86.54 3.74c-.94.6-2.11 1.55-2.45 2.74c-.45 1.59 1.01 3.35 1.99 4.32c-.48.64-1.05 1.5-1.18 2.13c-.68 3.36 3.68 5.24 6.36 5.82c.43.09.86-.1 1.08-.48l.92-1.6c3.43 1.06 8.44 2.48 10.53 2.48c.29 0 .52-.03.68-.08c1.93-.67 3.18-2.24 4.28-3.62c.17-.21.34-.43.51-.64c1.51-1.82 2.24-4.16 2.01-6.43");
+}
+
+</style>

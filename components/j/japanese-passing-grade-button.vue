@@ -1,0 +1,31 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":128,"height":128};
+const content = `<path class="xse-t8d2c"/><path class="bh2unrb8j"/><path class="shqsgobgw"/><path class="cipglxe8e"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="noto:japanese-passing-grade-button" /></template>
+<style>
+.bh2unrb8j {
+  fill: var(--svg-color--f44336, #f44336);
+  d: path("M109.7 4H11.5C7.4 4 4 7.4 4 11.5v97.9c0 4.1 3.3 7.5 7.5 7.5h98.1c4.1 0 7.5-3.3 7.5-7.5V11.5c.1-4.1-3.1-7.4-7.2-7.5z");
+}
+
+.cipglxe8e {
+  fill: var(--svg-color--ff8a80, #ff8a80);
+  d: path("M39.7 12.9c0-2.3-1.6-3-10.8-2.7c-7.7.3-11.5 1.2-13.8 4s-2.9 8.5-3 15.3c0 4.8 0 9.3 2.5 9.3c3.4 0 3.4-7.9 6.2-12.3c5.4-8.7 18.9-10.6 18.9-13.6");
+}
+
+.shqsgobgw {
+  fill: var(--svg-color--fafafa, #fafafa);
+  d: path("M41.7 102.5c-1.8 0-3.3-.6-4.5-1.7c-1.1-1.2-1.7-2.7-1.7-4.5V73.9c0-1.9.6-3.4 1.7-4.5c1.1-1.2 2.6-1.7 4.5-1.7h45.8c1.8 0 3.3.6 4.5 1.7c1.1 1.1 1.7 2.7 1.7 4.5v22.3c0 1.9-.6 3.4-1.7 4.5s-2.6 1.7-4.5 1.7H41.7zm4.6-8h36.2c1.5 0 2.3-.8 2.3-2.3V78c0-1.5-.8-2.3-2.3-2.3H46.3c-1.5 0-2.3.8-2.3 2.3v14.2c0 1.5.8 2.3 2.3 2.3m18.1-37.7h-19c-2.6 0-3.9-1.3-3.9-4q0-3.9 3.9-3.9h38.7q3.9 0 3.9 3.9c0 2.7-1.3 4-3.9 4zM64 27C53.6 42 35.7 54.3 29.5 57.9c-2.6 1.5-4.7 1.1-6.4-1.1c-1.9-2.6-1.3-4.7 1.9-6.5c6.4-3.8 12.6-8.4 18.4-13.7q8.4-7.65 13.8-15.3c.5-.8 1.3-1.5 2.5-2.1c1.1-.6 2.4-.9 3.6-.9h.9c2.6 0 4.7 1 6.2 3.1C74.8 27 80 32.3 85.9 37.2s11.9 8.9 18.1 12.2c1.8.9 2.9 1.9 3.2 2.9s-.1 2.3-1.3 3.9c-1.7 2.4-3.9 2.9-6.6 1.3c-8.4-5-25.5-16.7-35.3-30.5");
+}
+
+.xse-t8d2c {
+  fill: var(--svg-color--c33, #c33);
+  d: path("M116 4H12c-4.4 0-8 3.6-8 8v104c0 4.4 3.6 8 8 8h104c4.4 0 8-3.6 8-8V12c0-4.4-3.6-8-8-8");
+}
+
+</style>

@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/vscode-icons",
   "type": "module",
-  "version": "1.0.52",
+  "version": "1.0.53",
   "homepage": "https://icon-sets.iconify.design/vscode-icons/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -3837,6 +3837,10 @@
     "./file-type-rproj": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-rproj.vue"
+    },
+    "./file-type-rspack": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-type-rspack.vue"
     },
     "./file-type-rspec": {
       "types": "./types/dd0bq22g.d.ts",

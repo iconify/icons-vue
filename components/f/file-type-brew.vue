@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":32,"height":32};
-const content = `<g class="z_7mkfbjc"><path class="x2l6lrbmp"/><path class="e-_4p_bxp"/><path class="ajnbemgkp"/><path class="nfza0mb9p"/><path class="egxbwtbuz"/><path class="otsbf12tu"/></g>`;
+const content = `<g class="z_7mkfbjc"><path class="x2l6lrbmp"/><path class="e-_4p_bxp"/><path class="ajnbemgkp"/><path class="nfza0mb9p"/><path class="egxbwtbuz"/><path class="u_hsebc8c"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="vscode-icons:file-type-brew" /></template>
 <style>
@@ -30,9 +30,9 @@ const content = `<g class="z_7mkfbjc"><path class="x2l6lrbmp"/><path class="e-_4
   stroke: none;
 }
 
-.otsbf12tu {
+.u_hsebc8c {
   fill: var(--svg-color--fff, #fff);
-  d: path("M16.89 16.59c0-.2-.12-.46-.32-.58a2 2 0 0 1-.73-.87a23 23 0 0 1-6.34-.71a10 10 0 0 0-.96-.22a1.6 1.6 0 0 1-1.3-1.57c0-.86.68-1.55 1.53-1.58a1.94 1.94 0 1 1 3.73.98h0a1.85 1.85 0 0 1 3.53 0v-.21a2.01 2.01 0 0 1 3.93-.6l.17-.05a1.6 1.6 0 0 1 .78-.2a1.58 1.58 0 0 1 .22 3.14a2 2 0 0 0-.52.14q-.68.25-1.4.43a2 2 0 0 1-.2.65a2 2 0 0 0-.24 1.18v.18c0 .51-.42.83-.94.83a.94.94 0 0 1-.94-.94");
+  d: path("M16.89 16.59c0-.2-.12-.46-.32-.58a2 2 0 0 1-.73-.87a23 23 0 0 1-6.34-.71a10 10 0 0 0-.96-.22a1.6 1.6 0 0 1-1.3-1.57c0-.86.68-1.55 1.53-1.58a1.94 1.94 0 1 1 3.73.98a1.85 1.85 0 0 1 3.53 0v-.21a2.01 2.01 0 0 1 3.93-.6l.17-.05a1.6 1.6 0 0 1 .78-.2a1.58 1.58 0 0 1 .22 3.14a2 2 0 0 0-.52.14q-.68.25-1.4.43a2 2 0 0 1-.2.65a2 2 0 0 0-.24 1.18v.18c0 .51-.42.83-.94.83a.94.94 0 0 1-.94-.94");
 }
 
 .x2l6lrbmp {

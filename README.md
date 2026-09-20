@@ -25,6 +25,8 @@ When a package has many versions, each with large `exports` field, that quickly 
 
 NPM has a limit of 100mb per package. When that limit is hit, NPM prevents new versions from being published, while also preventing developer from unpublishing old versions of that package.
 
+Unfortunately, a couple of packages have reached that limit, which prevented packages from being updated on NPM.
+
 
 ### Solution
 
@@ -317,3 +319,5 @@ There are 222 branches in this repository, one for each icon set.
 - [#el](https://github.com/iconify/icons-vue/tree/el): **Elusive Icons** (304 icons, Open Font License)
 - [#vaadin](https://github.com/iconify/icons-vue/tree/vaadin): **Vaadin Icons** (636 icons, Apache 2.0)
 - [#grommet-icons](https://github.com/iconify/icons-vue/tree/grommet-icons): **Grommet Icons** (636 icons, Apache 2.0)
+
+Total: $222 icon sets, 367385 icons.

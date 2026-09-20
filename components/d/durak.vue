@@ -4,16 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="ars2uvi7b"/><path class="r6ikisz6n"/>`;
+const content = `<path class="efe-vnbdz"/><path class="r6ikisz6n"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:durak" /></template>
 <style>
-.ars2uvi7b {
+.efe-vnbdz {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M37.031 29.174s-.542-8.922 3.648-13.644a1.432 1.432 0 1 0-.54-1.215c-1.473.4-2.911.916-4.302 1.545a21.3 21.3 0 0 0-4.768 3.09L23.76 8.76a1.437 1.437 0 1 0-1.672 0L14.74 18.925l-7.076-4.207a1.4 1.4 0 0 0 .205-.73a1.434 1.434 0 1 0-1.434 1.434h0q.112 0 .222-.022l2.162 13.779");
+  d: path("M37.031 29.174s-.542-8.922 3.648-13.644a1.432 1.432 0 1 0-.54-1.215c-1.473.4-2.911.916-4.302 1.545a21.3 21.3 0 0 0-4.768 3.09L23.76 8.76a1.437 1.437 0 1 0-1.672 0L14.74 18.925l-7.076-4.207a1.4 1.4 0 0 0 .205-.73a1.434 1.434 0 1 0-1.434 1.434q.112 0 .222-.022l2.162 13.779");
 }
 
 .r6ikisz6n {

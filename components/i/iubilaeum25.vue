@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="s2hmp3u8i"/><path class="ll-p5np5z"/><path class="zhrohxb4k"/><path class="bl5p_sy_s"/><path class="v6xnq3rpo"/><path class="g108z64ul"/><path class="pju_4x2wv"/><path class="l57twacsi"/><ellipse class="z1gxp8eaf"/><ellipse class="q29nkbb-k"/><ellipse class="o617vjbgu"/><ellipse class="uul_k0y4q"/><path class="xknzb2b0i"/>`;
+const content = `<path class="s2hmp3u8i"/><path class="ll-p5np5z"/><path class="vwy-jozet"/><path class="bl5p_sy_s"/><path class="v6xnq3rpo"/><path class="o8ufljbln"/><path class="pju_4x2wv"/><path class="l57twacsi"/><ellipse class="z1gxp8eaf"/><ellipse class="q29nkbb-k"/><ellipse class="o617vjbgu"/><ellipse class="uul_k0y4q"/><path class="xknzb2b0i"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:iubilaeum25" /></template>
 <style>
@@ -14,14 +14,6 @@ const content = `<path class="s2hmp3u8i"/><path class="ll-p5np5z"/><path class="
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("M25.295 28.22c-.078-.292-.42-3.172-.381-3.21c.017-.017.237.065.489.183c.536.25 1.232.458 2.158.646c.583.118.836.134 2.082.132c.79 0 1.693-.035 2.039-.078c.589-.072 1.731-.271 1.973-.343c.102-.03.11-.01.076.23c-.087.635-.81 2.476-1.347 3.432q-2.788 4.96-8.087 6.278c-.823.205-2.273.44-2.69.437l-.237-.002c1.391-1.073 3.02-1.88 3.83-4.789");
-}
-
-.g108z64ul {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M30.147 25.437c-.174-.676-.357-2.78-.397-2.884c-.04-.102-.033-.108.047-.043c.203.165 1.25.372 2.16.428c1.013.061 2.73-.007 3.767-.148c1.156-.159 3.165-.733 4.16-1.19c.24-.11.452-.186.469-.169c.058.058-.172 1.816-.348 2.661c-.67 3.22-2.09 5.862-4.32 8.037c-1.061 1.035-2.359 1.974-3.57 2.584c-.983.494-3.004 1.198-4.014 1.398c-.195.039-.408.085-.473.102s.19-.284.567-.67h0c.377-.384.856-.912 1.064-1.171c.208-.26 2.68-4.685 3.12-5.152");
 }
 
 .l57twacsi {
@@ -49,6 +41,14 @@ const content = `<path class="s2hmp3u8i"/><path class="ll-p5np5z"/><path class="
   stroke-linejoin: round;
   rx: 1.069px;
   ry: 1.134px;
+}
+
+.o8ufljbln {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M30.147 25.437c-.174-.676-.357-2.78-.397-2.884c-.04-.102-.033-.108.047-.043c.203.165 1.25.372 2.16.428c1.013.061 2.73-.007 3.767-.148c1.156-.159 3.165-.733 4.16-1.19c.24-.11.452-.186.469-.169c.058.058-.172 1.816-.348 2.661c-.67 3.22-2.09 5.862-4.32 8.037c-1.061 1.035-2.359 1.974-3.57 2.584c-.983.494-3.004 1.198-4.014 1.398c-.195.039-.408.085-.473.102s.19-.284.567-.67c.377-.384.856-.912 1.064-1.171c.208-.26 2.68-4.685 3.12-5.152");
 }
 
 .pju_4x2wv {
@@ -97,6 +97,14 @@ const content = `<path class="s2hmp3u8i"/><path class="ll-p5np5z"/><path class="
   d: path("M24.908 25.009s2.37-1.446 3.725-1.523c.875-.049.809 1.588 1.004 2.484");
 }
 
+.vwy-jozet {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M19.384 28.494c-.082 1.006.214-1.76.267-2.064c.018-.105.057-.192.087-.192s.275.151.544.335c.913.624 2.087 1.104 3.434 1.404c.933.208 1.529.27 2.564.27c.497 0 .903.012.903.025c0 .055-.594 1.049-.88 1.474c-.949 1.405-2.397 2.774-3.832 3.621c-1.429.844-3.138 1.383-4.663 1.47c-.32.017-.688.039-.818.047s-.422.007-.65-.001c-.502-.02-2.308.021-3.735-.831");
+}
+
 .xknzb2b0i {
   fill: none;
   stroke: currentColor;
@@ -114,14 +122,6 @@ const content = `<path class="s2hmp3u8i"/><path class="ll-p5np5z"/><path class="
   stroke-linejoin: round;
   rx: 1.291px;
   ry: 1.37px;
-}
-
-.zhrohxb4k {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M19.384 28.494c-.082 1.006.214-1.76.267-2.064c.018-.105.057-.192.087-.192s.275.151.544.335c.913.624 2.087 1.104 3.434 1.404c.933.208 1.529.27 2.564.27c.497 0 .903.012.903.025c0 .055-.594 1.049-.88 1.474c-.949 1.405-2.397 2.774-3.832 3.621c-1.429.844-3.138 1.383-4.663 1.47c-.32.017-.688.039-.818.047s-.422.007-.65-.001h0c-.502-.02-2.308.021-3.735-.831");
 }
 
 </style>

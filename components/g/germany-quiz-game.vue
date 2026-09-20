@@ -4,16 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="o_plmr6ct"/><path class="n9sqrnb1e"/>`;
+const content = `<path class="o_plmr6ct"/><path class="grejgpbzq"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:germany-quiz-game" /></template>
 <style>
-.n9sqrnb1e {
+.grejgpbzq {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M19.797 19.782a2.45 2.45 0 0 0-2.45-2.45h0a2.45 2.45 0 0 0-2.45 2.45v2.496a2.45 2.45 0 0 0 2.45 2.45h0a2.45 2.45 0 0 0 2.45-2.45h-2.45M30.66 17.33a2.445 2.445 0 0 1 2.45 2.45v2.497c0 1.357-1.092 2.45-2.45 2.45s-2.45-1.093-2.45-2.45v-2.496a2.445 2.445 0 0 1 2.45-2.45m-4.808 7.397h-3.698v-7.397h3.698m-3.698 3.699h2.411");
+  d: path("M19.797 19.782a2.45 2.45 0 1 0-4.9 0v2.496a2.45 2.45 0 1 0 4.9 0h-2.45M30.66 17.33a2.445 2.445 0 0 1 2.45 2.45v2.497c0 1.357-1.092 2.45-2.45 2.45s-2.45-1.093-2.45-2.45v-2.496a2.445 2.445 0 0 1 2.45-2.45m-4.808 7.397h-3.698v-7.397h3.698m-3.698 3.699h2.411");
 }
 
 .o_plmr6ct {

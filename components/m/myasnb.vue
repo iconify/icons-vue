@@ -4,18 +4,10 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="x5-osacwi"/><path class="i_-yeze5u"/><rect class="j3s9ivbxi"/>`;
+const content = `<path class="k8ap0dbek"/><path class="rqscfiada"/><rect class="j3s9ivbxi"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:myasnb" /></template>
 <style>
-.i_-yeze5u {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M23.932 15.832v3.005a1.82 1.82 0 0 1-1.82 1.821h0a1.82 1.82 0 0 1-1.822-1.821v-3.005m-9.148 1.821a1.82 1.82 0 0 1 1.82-1.821h0a1.82 1.82 0 0 1 1.822 1.821v3.005m-3.642-4.826v4.826m3.642-3.005a1.82 1.82 0 0 1 1.821-1.821h0a1.82 1.82 0 0 1 1.821 1.821v3.005m7.376 11.51v-7.285l4.826 7.285v-7.285m-13.339 7.285h1.002a2.276 2.276 0 0 0 2.277-2.276V27.16a2.276 2.276 0 0 1 2.276-2.277h1.003m11.832 3.643a1.821 1.821 0 0 1 0 3.642h-3.005v-7.285h3.005a1.821 1.821 0 0 1 0 3.643m0 0h-3.005m-18.147 1.229h-3.228m-.799 2.413l2.413-7.285l2.413 7.285");
-}
-
 .j3s9ivbxi {
   width: 37px;
   height: 37px;
@@ -29,12 +21,20 @@ const content = `<path class="x5-osacwi"/><path class="i_-yeze5u"/><rect class="
   ry: 4px;
 }
 
-.x5-osacwi {
+.k8ap0dbek {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M23.932 18.837v2.459a1.82 1.82 0 0 1-1.82 1.82h0c-.504 0-.959-.203-1.288-.533");
+  d: path("M23.932 18.837v2.459a1.82 1.82 0 0 1-1.82 1.82c-.504 0-.959-.203-1.288-.533");
+}
+
+.rqscfiada {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M23.932 15.832v3.005a1.821 1.821 0 0 1-3.642 0v-3.005m-9.148 1.821a1.821 1.821 0 0 1 3.642 0v3.005m-3.642-4.826v4.826m3.642-3.005a1.821 1.821 0 0 1 3.642 0v3.005m7.376 11.51v-7.285l4.826 7.285v-7.285m-13.339 7.285h1.002a2.276 2.276 0 0 0 2.277-2.276V27.16a2.276 2.276 0 0 1 2.276-2.277h1.003m11.832 3.643a1.821 1.821 0 0 1 0 3.642h-3.005v-7.285h3.005a1.821 1.821 0 0 1 0 3.643m0 0h-3.005m-18.147 1.229h-3.228m-.799 2.413l2.413-7.285l2.413 7.285");
 }
 
 </style>

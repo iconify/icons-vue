@@ -4,10 +4,18 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="lfvnzzbdk"/><circle class="v6tf9864w"/><rect class="j3s9ivbxi"/>`;
+const content = `<path class="dj2conhea"/><circle class="v6tf9864w"/><rect class="j3s9ivbxi"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:bns" /></template>
 <style>
+.dj2conhea {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M17.44 25.95a5.56 5.56 0 0 1 11.12 0v3.61a5.56 5.56 0 0 1-11.12 0m0 5.56V12.88");
+}
+
 .j3s9ivbxi {
   width: 37px;
   height: 37px;
@@ -19,14 +27,6 @@ const content = `<path class="lfvnzzbdk"/><circle class="v6tf9864w"/><rect class
   stroke-linejoin: round;
   rx: 4px;
   ry: 4px;
-}
-
-.lfvnzzbdk {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M17.44 25.95A5.56 5.56 0 0 1 23 20.39h0a5.56 5.56 0 0 1 5.56 5.56v3.61A5.56 5.56 0 0 1 23 35.12h0a5.56 5.56 0 0 1-5.56-5.56m0 5.56V12.88");
 }
 
 .v6tf9864w {

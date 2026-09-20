@@ -4,16 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="b3j4_gbht"/><path class="yd8jzx11m"/><circle class="nxzqkxyjc"/><circle class="kda1g59vh"/>`;
+const content = `<path class="d90t1gbjt"/><path class="yd8jzx11m"/><circle class="nxzqkxyjc"/><circle class="kda1g59vh"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:android-alt-2" /></template>
 <style>
-.b3j4_gbht {
+.d90t1gbjt {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M36.786 21.225a1.6 1.6 0 0 1 1.67 1.34l.02 6.55c0 5.138-2.742 9.887-7.192 12.455h0c-6.873 3.97-15.663 1.618-19.634-5.254a14.37 14.37 0 0 1-1.927-7.297v-6.453a1.183 1.183 0 0 1 1.315-1.34");
+  d: path("M36.786 21.225a1.6 1.6 0 0 1 1.67 1.34l.02 6.55c0 5.138-2.742 9.887-7.192 12.455c-6.873 3.97-15.663 1.618-19.634-5.254a14.37 14.37 0 0 1-1.927-7.297v-6.453a1.183 1.183 0 0 1 1.315-1.34");
 }
 
 .kda1g59vh {

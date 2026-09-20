@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="j1v_u9btl"/><path class="lknrb06ha"/><rect class="epd9kstvr"/><path class="pavdgljme"/><circle class="q38mcdvtx"/>`;
+const content = `<path class="j1v_u9btl"/><path class="lknrb06ha"/><rect class="epd9kstvr"/><path class="vwb7babhw"/><circle class="q38mcdvtx"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:postnl" /></template>
 <style>
@@ -36,19 +36,19 @@ const content = `<path class="j1v_u9btl"/><path class="lknrb06ha"/><rect class="
   d: path("M15.947 17.025c-.367-1.115-1.032-.979-1.436-.585c-.297.29-.102 1.6.495 2.226m3.658-1.641c.367-1.115 1.033-.979 1.436-.585c.297.29.103 1.6-.495 2.226");
 }
 
-.pavdgljme {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M21.185 26.701a2.18 2.18 0 0 0 1.595.434h.435a1.283 1.283 0 0 0 1.281-1.285h0a1.283 1.283 0 0 0-1.281-1.284h-.87a1.283 1.283 0 0 1-1.282-1.285h0a1.283 1.283 0 0 1 1.282-1.284h.435a2.18 2.18 0 0 1 1.595.433m2.887-2.032v5.767a.97.97 0 0 0 .97.97h.29m-2.278-5.138h2.036m6.024 5.138v-3.2a1.94 1.94 0 0 0-1.939-1.938h0a1.94 1.94 0 0 0-1.939 1.939v3.199m0-3.199v-1.939M9.6 25.168a1.94 1.94 0 0 0 1.939 1.939h0a1.94 1.94 0 0 0 1.939-1.94v-1.26a1.94 1.94 0 0 0-1.94-1.938h0A1.94 1.94 0 0 0 9.6 23.908m0-1.939v7.755M36.182 19.38v7.755");
-}
-
 .q38mcdvtx {
   cx: 17.306px;
   cy: 13.972px;
   r: 0.75px;
   fill: currentColor;
+}
+
+.vwb7babhw {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M21.185 26.701a2.18 2.18 0 0 0 1.595.434h.435a1.283 1.283 0 0 0 1.281-1.285a1.283 1.283 0 0 0-1.281-1.284h-.87a1.283 1.283 0 0 1-1.282-1.285a1.283 1.283 0 0 1 1.282-1.284h.435a2.18 2.18 0 0 1 1.595.433m2.887-2.032v5.767a.97.97 0 0 0 .97.97h.29m-2.278-5.138h2.036m6.024 5.138v-3.2a1.94 1.94 0 0 0-1.939-1.938a1.94 1.94 0 0 0-1.939 1.939v3.199m0-3.199v-1.939M9.6 25.168a1.94 1.94 0 0 0 1.939 1.939a1.94 1.94 0 0 0 1.939-1.94v-1.26a1.94 1.94 0 0 0-1.94-1.938A1.94 1.94 0 0 0 9.6 23.908m0-1.939v7.755M36.182 19.38v7.755");
 }
 
 </style>

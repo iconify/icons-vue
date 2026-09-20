@@ -4,24 +4,28 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<g class="y9tr6bcfx"><path class="z5f8vd5hz"/><path class="itr1owbix"/><path class="a58b5jbut"/><path class="linkrsbol"/></g><g class="y9tr6bcfx"><path class="rcgpw9bkl"/><path class="vqvq7dbjk"/><path class="x03_0jioe"/><path class="h3pwreb5h"/></g>`;
+const content = `<g class="y9tr6bcfx"><path class="mqkcl7-so"/><path class="oj2tv4h5v"/><path class="gyd18tbzc"/><path class="linkrsbol"/></g><g class="y9tr6bcfx"><path class="rcgpw9bkl"/><path class="vqvq7dbjk"/><path class="x03_0jioe"/><path class="h3pwreb5h"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:stunt-bike-extreme" /></template>
 <style>
-.a58b5jbut {
-  d: path("M18.303 35.521a2.242 2.242 0 1 1-4.477.193h0a2.24 2.24 0 0 1 2.243-2.243h0q.214 0 .423.04m3.648-2.154l-3.768 4.386m-.435-11.647L5.5 29.854c5.061-2.563 5.434-3.415 8.596-1.5l4.153.025M34.3 14.426l-2.854-.035l-8.99 4.028l-1.138 1.329M10.556 29.19l5.964-.732");
+.gyd18tbzc {
+  d: path("M18.303 35.521a2.242 2.242 0 1 1-4.477.193a2.243 2.243 0 0 1 2.666-2.202m3.648-2.155l-3.768 4.386m-.435-11.647L5.5 29.854c5.061-2.563 5.434-3.415 8.596-1.5l4.153.025M34.3 14.426l-2.854-.035l-8.99 4.028l-1.138 1.329M10.556 29.19l5.964-.732");
 }
 
 .h3pwreb5h {
   d: path("M16.91 16.803c.792.288 2.15-.274 3.267-.743c.723-.304 1.148.267 2.024-.037");
 }
 
-.itr1owbix {
-  d: path("M33.447 18.68a5.305 5.305 0 1 1-1.556 3.753h0c0-.534.08-1.065.24-1.575M20.557 32.886c.534.847.817 1.827.817 2.828h0a5.305 5.305 0 1 1-2.765-4.657");
-}
-
 .linkrsbol {
   d: path("m25.399 17.177l2.912.092l-.01 4.587l-.977.22l-1.087-1.627l-1.567.118l-2.3 2.064l-.255 2.627m6.213-8.296l3.142-2.39m-7.836 11.841a1.296 1.296 0 0 1 2.383.711m-2.057 3.424l3.47-2.27q.166-.279.289-.577m-3.912-2.696c.72-.53 1.4-.788 2.074-1.004c2.792-.895 4.344 2.405 1.803 2.664");
+}
+
+.mqkcl7-so {
+  d: path("m23.445 14.646l.958.52l.8.435m-2.893.355l.07 2.342m7.24-.299l8.163 4.432m-1.318-2.118a2.243 2.243 0 0 1 2.974 2.12a2.242 2.242 0 1 1-4.485-.044");
+}
+
+.oj2tv4h5v {
+  d: path("M33.447 18.68a5.305 5.305 0 1 1-1.556 3.753c0-.534.08-1.065.24-1.575M20.557 32.886a5.305 5.305 0 1 1-1.948-1.83");
 }
 
 .rcgpw9bkl {
@@ -41,10 +45,6 @@ const content = `<g class="y9tr6bcfx"><path class="z5f8vd5hz"/><path class="itr1
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-}
-
-.z5f8vd5hz {
-  d: path("m23.445 14.646l.958.52l.8.435m-2.893.355l.07 2.342m7.24-.299l8.163 4.432m-1.318-2.118a2.243 2.243 0 0 1 2.974 2.12h0a2.242 2.242 0 1 1-4.485-.044");
 }
 
 </style>

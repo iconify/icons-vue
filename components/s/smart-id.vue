@@ -4,16 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="v-zwobbwl"/><path class="pto795dxr"/><circle class="whh4kwbeq"/>`;
+const content = `<path class="v-zwobbwl"/><path class="nvw_fxues"/><circle class="whh4kwbeq"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:smart-id" /></template>
 <style>
-.pto795dxr {
+.nvw_fxues {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M28.25 24.708V45.08h0a21.6 21.6 0 0 1-4.25.42C12.126 45.5 2.5 35.874 2.5 24c0-7.291 3.63-13.735 9.18-17.623");
+  d: path("M28.25 24.708V45.08a21.6 21.6 0 0 1-4.25.42C12.126 45.5 2.5 35.874 2.5 24c0-7.291 3.63-13.735 9.18-17.623");
 }
 
 .v-zwobbwl {

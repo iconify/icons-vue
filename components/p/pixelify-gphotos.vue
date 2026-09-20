@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="h6hjqjefa"/><path class="mfsy6iv-e"/><path class="s5v57bcpn"/><path class="v507gbcfv"/><circle class="a-tcbjb6o"/><rect class="j3s9ivbxi"/>`;
+const content = `<path class="h6hjqjefa"/><path class="mfsy6iv-e"/><path class="ky011sb7r"/><path class="v507gbcfv"/><circle class="a-tcbjb6o"/><rect class="j3s9ivbxi"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:pixelify-gphotos" /></template>
 <style>
@@ -39,20 +39,20 @@ const content = `<path class="h6hjqjefa"/><path class="mfsy6iv-e"/><path class="
   ry: 4px;
 }
 
+.ky011sb7r {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M23.461 37.443a1.62 1.62 0 0 1-1.145-1.984a1.62 1.62 0 0 1 1.982-1.15a1.62 1.62 0 0 1 1.145 1.984l-.001.002a1.62 1.62 0 0 1-1.98 1.148ZM5.5 26.577c5.83-6.608 13.41-9.177 20.979-1.516");
+}
+
 .mfsy6iv-e {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("M29.435 30.444a1.245 1.245 0 0 1-.001-1.76a1.245 1.245 0 0 1 1.76-.007c.487.484.487 1.272.002 1.76l-.003.003a1.243 1.243 0 0 1-1.758.005l-.001-.001zm-2.355 6.757q.087-.21.148-.428q.056-.22.086-.445l1.14-.487a.23.23 0 0 0 .132-.27l-.477-1.791a.225.225 0 0 0-.246-.169l-1.233.151a3.5 3.5 0 0 0-.637-.638l.15-1.23a.225.225 0 0 0-.168-.245l-1.79-.48a.225.225 0 0 0-.267.13l-.485 1.139a3.5 3.5 0 0 0-.87.235l-.997-.75a.225.225 0 0 0-.298.024l-1.308 1.312a.23.23 0 0 0-.022.3l.742.992q-.087.21-.147.428a4 4 0 0 0-.087.445l-1.14.487a.23.23 0 0 0-.13.271l.477 1.79a.224.224 0 0 0 .247.17l1.233-.152q.277.36.636.639l-.15 1.23a.225.225 0 0 0 .168.245l1.785.479a.225.225 0 0 0 .268-.13l.485-1.14a3.5 3.5 0 0 0 .87-.234l.993.748c.09.069.219.059.298-.024l1.308-1.312a.23.23 0 0 0 .022-.3z");
-}
-
-.s5v57bcpn {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M23.461 37.443a1.62 1.62 0 0 1-1.145-1.984a1.62 1.62 0 0 1 1.982-1.15a1.62 1.62 0 0 1 1.145 1.984l-.001.002a1.62 1.62 0 0 1-1.98 1.148zM5.5 26.577c5.83-6.608 13.41-9.177 20.979-1.516");
 }
 
 .v507gbcfv {

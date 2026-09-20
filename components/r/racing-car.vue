@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="w0pho07os"/><path class="bt1ly6lng"/><path class="e_qb9d1lz"/>`;
+const content = `<path class="zsi8-dbsg"/><path class="bt1ly6lng"/><path class="e_qb9d1lz"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:racing-car" /></template>
 <style>
@@ -24,12 +24,12 @@ const content = `<path class="w0pho07os"/><path class="bt1ly6lng"/><path class="
   d: path("M30.963 23.439c4.235-1.409 8.578-2.635 11.615-6.04m-24.003 8.518a46.6 46.6 0 0 0 9.034-1.55M10.61 16.426l2.696 3.807");
 }
 
-.w0pho07os {
+.zsi8-dbsg {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("m29.23 25.59l-2.911 1.587a6.44 6.44 0 0 1-7.354-.838l-.601-.533c-3.423-3.067-1.626-3.595 1.363-3.621c2.887-.025 5.75-.022 8.881.209c2.98.22 3.248 1.767.623 3.197z");
+  d: path("m29.23 25.59l-2.911 1.587a6.44 6.44 0 0 1-7.354-.838l-.601-.533c-3.423-3.067-1.626-3.595 1.363-3.621c2.887-.025 5.75-.022 8.881.209c2.98.22 3.248 1.767.623 3.197");
 }
 
 </style>

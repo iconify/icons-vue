@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="q-ud2hbxk"/><circle class="doxlmbcnu"/><path class="nyp6_ervs"/><rect class="vg-w5cb_k"/><path class="g8j7ojbgw"/><g class="y9tr6bcfx"><circle class="s0bk5ua8j"/><circle class="m7xynb9kc"/><circle class="hp65ylb_c"/></g><g class="y9tr6bcfx"><circle class="sgwlylh3a"/><circle class="u_y0dfunp"/><circle class="ion8i6bpf"/></g>`;
+const content = `<path class="lk6s0ixhe"/><circle class="doxlmbcnu"/><path class="nyp6_ervs"/><rect class="vg-w5cb_k"/><path class="g8j7ojbgw"/><g class="y9tr6bcfx"><circle class="s0bk5ua8j"/><circle class="m7xynb9kc"/><circle class="hp65ylb_c"/></g><g class="y9tr6bcfx"><circle class="sgwlylh3a"/><circle class="u_y0dfunp"/><circle class="ion8i6bpf"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:muttiapp" /></template>
 <style>
@@ -35,6 +35,14 @@ const content = `<path class="q-ud2hbxk"/><circle class="doxlmbcnu"/><path class
   r: 1.061px;
 }
 
+.lk6s0ixhe {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M21.675 22.602v3.321a2.02 2.02 0 0 0 2.013 2.014a2.02 2.02 0 0 0 2.013-2.014v-3.321m0 3.422v2.013m3.085-7.099v6.04c0 .604.402 1.006 1.006 1.006h.302m-2.416-5.435h2.215m3.117-1.622v6.04c0 .604.402 1.007 1.006 1.007h.302m-2.416-5.436h2.215m-22.876 5.359v-7.952l4.027 8.053l4.026-8.053v8.053");
+}
+
 .m7xynb9kc {
   cx: 14.734px;
   cy: 38.125px;
@@ -47,14 +55,6 @@ const content = `<path class="q-ud2hbxk"/><circle class="doxlmbcnu"/><path class
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("M36.557 22.619v5.436");
-}
-
-.q-ud2hbxk {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M21.675 22.602v3.321a2.02 2.02 0 0 0 2.013 2.014h0a2.02 2.02 0 0 0 2.013-2.014v-3.321m0 3.422v2.013m3.085-7.099v6.04c0 .604.402 1.006 1.006 1.006h.302m-2.416-5.435h2.215m3.117-1.622v6.04c0 .604.402 1.007 1.006 1.007h.302m-2.416-5.436h2.215m-22.876 5.359v-7.952l4.027 8.053l4.026-8.053v8.053");
 }
 
 .s0bk5ua8j {

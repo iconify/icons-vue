@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="yjnbcv9yb"/><path class="m4mut1vvq"/><path class="l87iohwyk"/><rect class="vyf0ocb-f"/><rect class="vyf0ocb-f"/><path class="qa9k4f7ba"/><path class="g0_s7bcdv"/><rect class="tulq8j6qe"/><path class="rmbp7mbwe"/>`;
+const content = `<path class="yjnbcv9yb"/><path class="m4mut1vvq"/><path class="l87iohwyk"/><rect class="vyf0ocb-f"/><rect class="vyf0ocb-f"/><path class="qa9k4f7ba"/><path class="g0_s7bcdv"/><rect class="tulq8j6qe"/><path class="sfv7ytben"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:calgary-transit-my-fare" /></template>
 <style>
@@ -40,12 +40,12 @@ const content = `<path class="yjnbcv9yb"/><path class="m4mut1vvq"/><path class="
   d: path("M14.246 35.181h-3.709v-1.534c0-.66 3.566-.262 3.71 1.534m11.743 0h3.709v-1.534c0-.66-3.566-.262-3.71 1.534");
 }
 
-.rmbp7mbwe {
+.sfv7ytben {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M31.111 22.239c.705.496 1.43.645 2.39.388l1.28-.343a2.215 2.215 0 0 0 1.56-2.704h0a2.214 2.214 0 0 0-2.703-1.562l-1.387.372a2.214 2.214 0 0 1-2.703-1.561h0a2.214 2.214 0 0 1 1.56-2.705l1.28-.342c.96-.258 1.657-.216 2.39.388m-3.612-2.222l.512 2.023m3.045 10.489l-.513-2.023");
+  d: path("M31.111 22.239c.705.496 1.43.645 2.39.388l1.28-.343a2.215 2.215 0 0 0 1.56-2.704a2.214 2.214 0 0 0-2.703-1.562l-1.387.372a2.214 2.214 0 0 1-2.703-1.561a2.214 2.214 0 0 1 1.56-2.705l1.28-.342c.96-.258 1.657-.216 2.39.388m-3.612-2.222l.512 2.023m3.045 10.489l-.513-2.023");
 }
 
 .tulq8j6qe {

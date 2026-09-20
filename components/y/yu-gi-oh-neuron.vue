@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="a3vas2bkx"/><rect class="o1ki421jj"/><path class="ipq8pqf3n"/><circle class="yp4opcc_d"/><path class="cf_3zjbvq"/><circle class="tbc0nnmcw"/><path class="pm4ik0bog"/><rect class="bel_kac7o"/><path class="ys5jmib_c"/>`;
+const content = `<path class="a3vas2bkx"/><rect class="o1ki421jj"/><path class="mtj__jbik"/><circle class="yp4opcc_d"/><path class="cf_3zjbvq"/><circle class="tbc0nnmcw"/><path class="pm4ik0bog"/><rect class="bel_kac7o"/><path class="byar-d__o"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:yu-gi-oh-neuron" /></template>
 <style>
@@ -29,6 +29,14 @@ const content = `<path class="a3vas2bkx"/><rect class="o1ki421jj"/><path class="
   ry: 1.957px;
 }
 
+.byar-d__o {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M23.354 15.55a1.957 1.957 0 1 0-3.914 0v1.993a1.957 1.957 0 0 0 3.914 0h-1.957m19.22 17.393H7.383L3.5 28.545l3.883-6.391h33.234l3.883 6.391z");
+}
+
 .cf_3zjbvq {
   fill: none;
   stroke: currentColor;
@@ -37,12 +45,12 @@ const content = `<path class="a3vas2bkx"/><rect class="o1ki421jj"/><path class="
   d: path("M24.864 15.586V19.5");
 }
 
-.ipq8pqf3n {
+.mtj__jbik {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M10.731 15.586v2.437c0 .816.661 1.477 1.477 1.477h0c.816 0 1.477-.661 1.477-1.477v-2.437m0 2.437V19.5m22.35-5.908V19.5m0-2.437c0-.816.661-1.477 1.477-1.477h0c.816 0 1.477.661 1.477 1.477V19.5m-28.651-5.908l-1.957 2.954l-1.957-2.954M8.381 19.5v-2.954");
+  d: path("M10.731 15.586v2.437a1.477 1.477 0 0 0 2.954 0v-2.437m0 2.437V19.5m22.35-5.908V19.5m0-2.437a1.477 1.477 0 0 1 2.954 0V19.5m-28.651-5.908l-1.957 2.954l-1.957-2.954M8.381 19.5v-2.954");
 }
 
 .o1ki421jj {
@@ -78,14 +86,6 @@ const content = `<path class="a3vas2bkx"/><rect class="o1ki421jj"/><path class="
   cy: 13.777px;
   r: 0.713px;
   fill: currentColor;
-}
-
-.ys5jmib_c {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M23.354 15.55a1.957 1.957 0 0 0-1.957-1.958h0c-1.08 0-1.957.876-1.957 1.957v1.994c0 1.08.876 1.957 1.957 1.957h0a1.957 1.957 0 0 0 1.957-1.957h-1.957m19.22 17.393H7.383L3.5 28.545l3.883-6.391h33.234l3.883 6.391z");
 }
 
 </style>

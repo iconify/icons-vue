@@ -4,24 +4,20 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<g class="y9tr6bcfx"><path class="g6kaneb7n"/><path class="jfoh2abid"/><path class="uwuzwn7at"/><path class="n--3wgbzc"/><path class="dng3l3hmy"/><path class="i5g101bmf"/><path class="ar3l8mb2t"/><path class="sjpxfvbwz"/><path class="i6-7x8bqi"/></g>`;
+const content = `<g class="y9tr6bcfx"><path class="edg36ybza"/><path class="jfoh2abid"/><path class="uwuzwn7at"/><path class="n--3wgbzc"/><path class="dng3l3hmy"/><path class="q_jx67bkm"/><path class="gzvib7xms"/><path class="sjpxfvbwz"/><path class="i6-7x8bqi"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:rider-worlds" /></template>
 <style>
-.ar3l8mb2t {
-  d: path("M11.374 32.138c0 1.002-.625 1.815-1.397 1.815h0c-.772 0-1.398-.813-1.398-1.815h0c0-1.002.626-1.814 1.398-1.814h0c.772 0 1.397.812 1.397 1.814m5.694-4.48c-.058 1.003-.548 1.917-1.486 2.791L13.2 32.672l-.805-.443c.241-1.966-.494-3.695-1.914-3.682c1.418-1.028 2.774-2.403 4.306-2.801m1.606 4.094l3.193-.046l.157-1.049");
-}
-
 .dng3l3hmy {
   d: path("M17.513 23.547c-4.62 2.62-8.862 4.41-13.013 2.897l1.017-2.019l2.305-2.029l1.607.626c.876.34 2.133-.144 3.284-.586");
 }
 
-.g6kaneb7n {
-  d: path("M41.409 13.258a5.9 5.9 0 0 1 1.941 3.16h0c.77 3.326-1.503 6.696-5.077 7.527c-3.574.83-7.094-1.193-7.864-4.52a6 6 0 0 1-.145-1.104");
+.edg36ybza {
+  d: path("M41.409 13.258a5.9 5.9 0 0 1 1.941 3.16c.77 3.326-1.503 6.696-5.077 7.527c-3.574.83-7.094-1.193-7.864-4.52a6 6 0 0 1-.145-1.104");
 }
 
-.i5g101bmf {
-  d: path("M10.514 23.106c1.283-2.853 3.862-4.754 5.961-6.38m-2.345 8.575c2.591.888 4.339 3.647 4.273 6.748h0c-.08 3.816-2.849 6.851-6.182 6.78s-5.97-3.22-5.889-7.036h0c.038-1.818.701-3.55 1.845-4.818");
+.gzvib7xms {
+  d: path("M11.374 32.138c0 1.002-.625 1.815-1.397 1.815s-1.398-.813-1.398-1.815s.626-1.814 1.398-1.814s1.397.812 1.397 1.814m5.694-4.48c-.058 1.003-.548 1.917-1.486 2.791L13.2 32.672l-.805-.443c.241-1.966-.494-3.695-1.914-3.682c1.418-1.028 2.774-2.403 4.306-2.801m1.606 4.094l3.193-.046l.157-1.049");
 }
 
 .i6-7x8bqi {
@@ -34,6 +30,10 @@ const content = `<g class="y9tr6bcfx"><path class="g6kaneb7n"/><path class="jfoh
 
 .n--3wgbzc {
   d: path("m37.137 10.125l-7.368 1.812l-.347-.364m13.984 1.939c-1.28-1.394-2.563-2.538-4.259-3.14l-.706.199M22.534 20.906l-4.828 2.827l-1.189-1.163l-3.56.615l-.907-2.776l3.793-.87l.931.805L22.6 18.99l.492.65z");
+}
+
+.q_jx67bkm {
+  d: path("M10.514 23.106c1.283-2.853 3.862-4.754 5.961-6.38m-2.345 8.575c2.591.888 4.339 3.647 4.273 6.748c-.08 3.816-2.849 6.851-6.182 6.78s-5.97-3.22-5.889-7.036c.038-1.818.701-3.55 1.845-4.818");
 }
 
 .sjpxfvbwz {

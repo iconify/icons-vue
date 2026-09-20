@@ -4,16 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="x2st2nw3e"/><path class="oadqa2byk"/>`;
+const content = `<path class="x2st2nw3e"/><path class="mucpb_b0b"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:mixerbox-bff" /></template>
 <style>
-.oadqa2byk {
+.mucpb_b0b {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M29.894 16.143c0 3.23-2.639 5.85-5.894 5.85s-5.894-2.62-5.894-5.85v0c0-3.23 2.64-5.849 5.894-5.849s5.894 2.62 5.894 5.85zm.604 12.217l-4.534 13.595c-.27.807-.97 1.545-2.045 1.545s-1.775-.738-2.045-1.545l-4.528-13.58");
+  d: path("M29.894 16.143c0 3.23-2.639 5.85-5.894 5.85s-5.894-2.62-5.894-5.85s2.64-5.849 5.894-5.849s5.894 2.62 5.894 5.85zm.604 12.217l-4.534 13.595c-.27.807-.97 1.545-2.045 1.545s-1.775-.738-2.045-1.545l-4.528-13.58");
 }
 
 .x2st2nw3e {

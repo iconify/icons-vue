@@ -4,16 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="s28z-b7aj"/><path class="v-3f-ablg"/>`;
+const content = `<path class="nroh7nazo"/><path class="v-3f-ablg"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:desmos-scientific" /></template>
 <style>
-.s28z-b7aj {
+.nroh7nazo {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M13.618 18.847c.3-.25.6-.35 1.25-.35h.4c.55 0 1 .45 1 1h0c0 .55-.45 1-1 1h-1h1c.55 0 1 .45 1 1s-.45 1-1 1h-.4c-.7 0-.95-.1-1.25-.35m15.582 7.35l4.3-8h-5.3m-7.232 2.6c0-1.5 1.2-2.7 2.6-2.7s2.7 1.2 2.7 2.7c0 .7-.3 1.4-.8 1.9l-4.5 3.5h5.3m-13.041-3l.755-2h.199l1.887 5h.201l3.774-10H33.5");
+  d: path("M13.618 18.847c.3-.25.6-.35 1.25-.35h.4c.55 0 1 .45 1 1s-.45 1-1 1h-1h1c.55 0 1 .45 1 1s-.45 1-1 1h-.4c-.7 0-.95-.1-1.25-.35m15.582 7.35l4.3-8h-5.3m-7.232 2.6c0-1.5 1.2-2.7 2.6-2.7s2.7 1.2 2.7 2.7c0 .7-.3 1.4-.8 1.9l-4.5 3.5h5.3m-13.041-3l.755-2h.199l1.887 5h.201l3.774-10H33.5");
 }
 
 .v-3f-ablg {

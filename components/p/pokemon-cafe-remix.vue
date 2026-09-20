@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<g class="y9tr6bcfx"><path class="y-dvztbbz"/><path class="m63ut2r-c"/></g><g class="y9tr6bcfx"><path class="f-hj0b7dp"/><path class="e-2xv94-a"/></g><g class="y9tr6bcfx"><path class="vmjadwcmo"/><path class="oyn1embex"/><path class="w6cjsp2jx"/><path class="mhc3-bg5g"/></g>`;
+const content = `<g class="y9tr6bcfx"><path class="y-dvztbbz"/><path class="m63ut2r-c"/></g><g class="y9tr6bcfx"><path class="f-hj0b7dp"/><path class="e-2xv94-a"/></g><g class="y9tr6bcfx"><path class="vmjadwcmo"/><path class="zmh0eds4p"/><path class="yx3-skf7v"/><path class="mhc3-bg5g"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:pokemon-cafe-remix" /></template>
 <style>
@@ -24,16 +24,8 @@ const content = `<g class="y9tr6bcfx"><path class="y-dvztbbz"/><path class="m63u
   d: path("M26.396 32.472c.328 1.957-.681 4.401-2.436 4.401s-2.765-2.444-2.437-4.4");
 }
 
-.oyn1embex {
-  d: path("M32.31 23.076c0 .649-.4 1.175-.894 1.175h0c-.494 0-.895-.526-.895-1.175s.4-1.176.895-1.176s.894.527.894 1.176m-3.557 5.023c.363-.403.625-.548.877-.736c.14.635.673 1.132 1.591 1.132s1.45-.497 1.59-1.132c.314.233.641.4 1.157 1.072m-5.878-6.111a2.4 2.4 0 0 1 1.305-1.539M13.84 27.437a2.744 2.744 0 1 0 5.488 0c0-1.516-.328-5.596-2.744-5.596s-2.744 4.08-2.744 5.596");
-}
-
 .vmjadwcmo {
   d: path("M34.16 27.437a2.744 2.744 0 1 1-5.488 0c0-1.516.328-5.596 2.744-5.596s2.744 4.08 2.744 5.596");
-}
-
-.w6cjsp2jx {
-  d: path("M15.69 23.076c0 .649.4 1.175.894 1.175h0c.494 0 .895-.526.895-1.175s-.4-1.176-.895-1.176s-.894.527-.894 1.176m3.557 5.023c-.363-.403-.625-.548-.877-.736c-.14.635-.673 1.132-1.591 1.132s-1.45-.497-1.59-1.132c-.314.233-.641.4-1.157 1.072m5.878-6.111a2.39 2.39 0 0 0-1.305-1.539m4.749 8.722h1.292m-5.083 2.101a1.5 1.5 0 0 0 1.062.799c1.23.261 1.877-.568 3.313-.568s2.083.83 3.313.568a1.5 1.5 0 0 0 1.062-.799");
 }
 
 .y-dvztbbz {
@@ -45,6 +37,14 @@ const content = `<g class="y9tr6bcfx"><path class="y-dvztbbz"/><path class="m63u
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
+}
+
+.yx3-skf7v {
+  d: path("M15.69 23.076c0 .649.4 1.175.894 1.175s.895-.526.895-1.175s-.4-1.176-.895-1.176s-.894.527-.894 1.176m3.557 5.023c-.363-.403-.625-.548-.877-.736c-.14.635-.673 1.132-1.591 1.132s-1.45-.497-1.59-1.132c-.314.233-.641.4-1.157 1.072m5.878-6.111a2.39 2.39 0 0 0-1.305-1.539m4.749 8.722h1.292m-5.083 2.101a1.5 1.5 0 0 0 1.062.799c1.23.261 1.877-.568 3.313-.568s2.083.83 3.313.568a1.5 1.5 0 0 0 1.062-.799");
+}
+
+.zmh0eds4p {
+  d: path("M32.31 23.076c0 .649-.4 1.175-.894 1.175s-.895-.526-.895-1.175s.4-1.176.895-1.176s.894.527.894 1.176m-3.557 5.023c.363-.403.625-.548.877-.736c.14.635.673 1.132 1.591 1.132s1.45-.497 1.59-1.132c.314.233.641.4 1.157 1.072m-5.878-6.111a2.4 2.4 0 0 1 1.305-1.539M13.84 27.437a2.744 2.744 0 1 0 5.488 0c0-1.516-.328-5.596-2.744-5.596s-2.744 4.08-2.744 5.596");
 }
 
 </style>

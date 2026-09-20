@@ -4,16 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="tdtlxabkv"/><path class="c4ndmjx4o"/><path class="jyd5_xbmo"/><path class="c7e6ojb4b"/><path class="z-e-mbbhr"/>`;
+const content = `<path class="tdtlxabkv"/><path class="c1az4qbxn"/><path class="cfky6tbld"/><path class="c7e6ojb4b"/><path class="z-e-mbbhr"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:octafx" /></template>
 <style>
-.c4ndmjx4o {
+.c1az4qbxn {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M23.99 37.888c-6.717 3.856-12.338 4.745-14.4 2.279l-4.265-4.654c-1.777-2.127-.642-6.446 3.018-11.502c-3.662-5.052-4.794-9.367-3.018-11.493h0L9.59 7.864");
+  d: path("M23.99 37.888c-6.717 3.856-12.338 4.745-14.4 2.279l-4.265-4.654c-1.777-2.127-.642-6.446 3.018-11.502c-3.662-5.052-4.794-9.367-3.018-11.493S9.59 7.864 9.59 7.864");
 }
 
 .c7e6ojb4b {
@@ -24,12 +24,12 @@ const content = `<path class="tdtlxabkv"/><path class="c4ndmjx4o"/><path class="
   d: path("M39.199 36.9c-.226-2.206-1.504-5.006-3.667-8.031a55 55 0 0 1-5.781 5.149");
 }
 
-.jyd5_xbmo {
+.cfky6tbld {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M42.676 12.52c-3.712-4.445-17.182 2.21-26.136 11.49c8.947 9.289 22.423 15.947 26.136 11.503c1.778-2.127.642-6.447-3.02-11.5c3.663-5.05 4.797-9.368 3.02-11.495zM9.59 40.167c-2.61-3.123 1.586-9.49 2.877-11.295M18.267 14c-3.677-1.922-6.99-2.924-9.465-2.857");
+  d: path("M42.676 12.52zc-3.712-4.445-17.182 2.21-26.136 11.49c8.947 9.289 22.423 15.947 26.136 11.503c1.778-2.127.642-6.447-3.02-11.5c3.663-5.05 4.797-9.368 3.02-11.495zM9.59 40.167c-2.61-3.123 1.586-9.49 2.877-11.295M18.267 14c-3.677-1.922-6.99-2.924-9.465-2.857");
 }
 
 .tdtlxabkv {

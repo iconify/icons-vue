@@ -4,16 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="r96yymbwe"/><circle class="pn5es2bnw"/><path class="sei23-b6b"/><path class="qnuk6dxup"/><path class="tv2fegb6i"/><path class="v-h119cic"/><path class="paz4erbuq"/><path class="pf1-g5btn"/><path class="q2zikqb6h"/><path class="as_k3fqrh"/>`;
+const content = `<path class="r96yymbwe"/><circle class="pn5es2bnw"/><path class="sei23-b6b"/><path class="qnuk6dxup"/><path class="tv2fegb6i"/><path class="v-h119cic"/><path class="paz4erbuq"/><path class="pf1-g5btn"/><path class="q2zikqb6h"/><path class="de4r46ddp"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:bloonstd6" /></template>
 <style>
-.as_k3fqrh {
+.de4r46ddp {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M32.975 36.105c-1.22.007-4.347.228-4.68.656c-.167.243-.043-.032-.09.927h0c.04 1.055.112 1.03.474 1.334c.475 2.09 1.292 4.628 4.134 4.47h3.657c7.568-3.726 6.574-8.365 3.378-9.715m-11.17 5.245L30.871 39m-1.541 2.147l1.836.09");
+  d: path("M32.975 36.105c-1.22.007-4.347.228-4.68.656c-.167.243-.043-.032-.09.927c.04 1.055.112 1.03.474 1.334c.475 2.09 1.292 4.628 4.134 4.47h3.657c7.568-3.726 6.574-8.365 3.378-9.715m-11.17 5.245L30.871 39m-1.541 2.147l1.836.09");
 }
 
 .paz4erbuq {

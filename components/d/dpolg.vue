@@ -4,16 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="wabgsgbsc"/><path class="vvtmtz1di"/>`;
+const content = `<path class="wabgsgbsc"/><path class="rhomx7bkh"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:dpolg" /></template>
 <style>
-.vvtmtz1di {
+.rhomx7bkh {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M35.112 24c0 6.18-4.975 11.19-11.112 11.19h0c-6.137 0-11.111-5.01-11.111-11.19h0c0-6.18 4.974-11.19 11.111-11.19h0c6.137 0 11.112 5.01 11.112 11.19");
+  d: path("M35.112 24c0 6.18-4.975 11.19-11.112 11.19S12.889 30.18 12.889 24S17.863 12.81 24 12.81S35.112 17.82 35.112 24");
 }
 
 .wabgsgbsc {

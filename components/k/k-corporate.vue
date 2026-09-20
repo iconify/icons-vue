@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<g class="y9tr6bcfx"><path class="bqniqebry"/><path class="t5mcgsebp"/><path class="eteev_bte"/><path class="g5ifd1bhr"/><path class="ubmrm-c7c"/></g>`;
+const content = `<g class="y9tr6bcfx"><path class="bqniqebry"/><path class="p79wkcbox"/><path class="eteev_bte"/><path class="g5ifd1bhr"/><path class="ubmrm-c7c"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:k-corporate" /></template>
 <style>
@@ -20,8 +20,8 @@ const content = `<g class="y9tr6bcfx"><path class="bqniqebry"/><path class="t5mc
   d: path("M30.387 8.19a9.265 9.265 0 0 1 9.423 9.423");
 }
 
-.t5mcgsebp {
-  d: path("m25.788 13.168l9.043 9.044a.87.87 0 0 1-.004 1.234l-9.575 9.574a.87.87 0 0 1-1.233.004l-9.044-9.043a.87.87 0 0 1 .004-1.234l9.575-9.575a.87.87 0 0 1 1.234-.004m-5.459 18.187l2.065 2.065a.87.87 0 0 1-.004 1.233l-4.677 4.678a.87.87 0 0 1-1.233.003L8.665 31.52a.87.87 0 0 1 .004-1.234l4.677-4.677a.87.87 0 0 1 1.234-.004h0l2.066 2.067m-7.087 1.725l9.004 9.084m.269-5.631l2.669 2.693m-9.005-9.083l2.669 2.692m1.858 4.825l3.009 3.035m-9.005-9.084l2.983 3.009m-2.945 2.983l2.955-2.955m.06 5.97l2.955-2.955");
+.p79wkcbox {
+  d: path("m25.788 13.168l9.043 9.044a.87.87 0 0 1-.004 1.234l-9.575 9.574a.87.87 0 0 1-1.233.004l-9.044-9.043a.87.87 0 0 1 .004-1.234l9.575-9.575a.87.87 0 0 1 1.234-.004m-5.459 18.187l2.065 2.065a.87.87 0 0 1-.004 1.233l-4.677 4.678a.87.87 0 0 1-1.233.003L8.665 31.52a.87.87 0 0 1 .004-1.234l4.677-4.677a.87.87 0 0 1 1.234-.004l2.066 2.067m-7.087 1.725l9.004 9.084m.269-5.631l2.669 2.693m-9.005-9.083l2.669 2.692m1.858 4.825l3.009 3.035m-9.005-9.084l2.983 3.009m-2.945 2.983l2.955-2.955m.06 5.97l2.955-2.955");
 }
 
 .ubmrm-c7c {

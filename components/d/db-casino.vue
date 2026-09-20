@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="yyyqymv8p"/><path class="tw0q_abzo"/><rect class="mredrfbji"/><circle class="ajzzl5bvb"/><path class="gzbv6zd4p"/>`;
+const content = `<path class="yyyqymv8p"/><path class="k8g_tcc6b"/><rect class="mredrfbji"/><circle class="ajzzl5bvb"/><path class="cem0c_whr"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:db-casino" /></template>
 <style>
@@ -15,12 +15,20 @@ const content = `<path class="yyyqymv8p"/><path class="tw0q_abzo"/><rect class="
   fill: currentColor;
 }
 
-.gzbv6zd4p {
+.cem0c_whr {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M27.022 34.474v6.341m-6.473-.535c.437.367.908.535 1.968.535h.536c.874 0 1.582-.71 1.582-1.585h0c0-.875-.708-1.585-1.582-1.585H21.98c-.874 0-1.582-.71-1.582-1.585h0c0-.876.708-1.586 1.582-1.586h.537c1.059 0 1.53.168 1.967.535M10.97 39.61a2.39 2.39 0 0 1-2.077 1.205h0A2.393 2.393 0 0 1 6.5 38.422v-1.555a2.393 2.393 0 0 1 2.393-2.393h0c.887 0 1.662.484 2.075 1.202m6.95 2.747a2.393 2.393 0 0 1-2.393 2.392h0a2.393 2.393 0 0 1-2.393-2.393v-1.555a2.393 2.393 0 0 1 2.393-2.393h0a2.393 2.393 0 0 1 2.393 2.393m0 3.948v-6.341m16.375 6.338v-3.948a2.393 2.393 0 0 0-2.393-2.393h0a2.393 2.393 0 0 0-2.393 2.393m0 3.948v-6.341");
+  d: path("M27.022 34.474v6.341m-6.473-.535c.437.367.908.535 1.968.535h.536c.874 0 1.582-.71 1.582-1.585s-.708-1.585-1.582-1.585H21.98c-.874 0-1.582-.71-1.582-1.585c0-.876.708-1.586 1.582-1.586h.537c1.059 0 1.53.168 1.967.535M10.97 39.61a2.393 2.393 0 0 1-4.47-1.187v-1.556a2.392 2.392 0 0 1 4.468-1.192m6.95 2.748a2.393 2.393 0 0 1-4.785 0v-1.556a2.393 2.393 0 0 1 4.785 0m0 3.948v-6.341m16.375 6.338v-3.948a2.393 2.393 0 0 0-4.785 0m-.001 3.948v-6.341");
+}
+
+.k8g_tcc6b {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M12.71 25.814V10.007h2.935a7.903 7.903 0 0 1 0 15.806zm18.629-7.904h-5.08m5.08 0a3.952 3.952 0 0 1 0 7.904h-5.08V10.007h5.08a3.952 3.952 0 0 1 0 7.903");
 }
 
 .mredrfbji {
@@ -34,14 +42,6 @@ const content = `<path class="yyyqymv8p"/><path class="tw0q_abzo"/><rect class="
   stroke-linejoin: round;
   rx: 2.393px;
   ry: 2.393px;
-}
-
-.tw0q_abzo {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M12.71 25.814V10.007h2.935a7.903 7.903 0 0 1 7.903 7.904h0a7.903 7.903 0 0 1-7.903 7.903zm18.629-7.904h-5.08m5.08 0a3.952 3.952 0 0 1 0 7.904h-5.08V10.007h5.08a3.952 3.952 0 0 1 0 7.903");
 }
 
 .yyyqymv8p {

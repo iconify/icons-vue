@@ -4,10 +4,18 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="sx91gr2th"/><rect class="gb_jxebvi"/><path class="sfw44bbqh"/><circle class="t0ixubr4x"/><circle class="fxb1iebph"/><path class="f3z1oeami"/><path class="ht2g3acyx"/><circle class="vk5ih5bfu"/><path class="jft99pbry"/>`;
+const content = `<path class="c_ye59ljq"/><rect class="gb_jxebvi"/><path class="sfw44bbqh"/><circle class="t0ixubr4x"/><circle class="fxb1iebph"/><path class="f3z1oeami"/><path class="ht2g3acyx"/><circle class="vk5ih5bfu"/><path class="jft99pbry"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:darktheme" /></template>
 <style>
+.c_ye59ljq {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M15.885 17.505c-.422-1.826-3.38-2.077-4.71-1.242c-.624.392-1.351 1.34-1.374 2.58c-.023 1.26.766 2.458.698 3.716c-.18 3.348-2.907 6.276-2.907 9.628c0 2.05.589 4.217 1.778 5.887c1.846 2.59 4.653 4.789 7.73 5.589c2.565.666 5.625.34 7.894-.932M37.07 25.36a2.6 2.6 0 0 1 0 5.2m.45-12.766a2.888 2.888 0 0 1 0 5.777m-.45-12.543a2.792 2.792 0 0 1 0 5.584");
+}
+
 .f3z1oeami {
   fill: none;
   stroke: currentColor;
@@ -58,14 +66,6 @@ const content = `<path class="sx91gr2th"/><rect class="gb_jxebvi"/><path class="
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("M21.169 40.603v-.5l-.5.25zm10.571-.5v.5h.5v-.5zM25.444 6.607h4.38");
-}
-
-.sx91gr2th {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M15.885 17.505c-.422-1.826-3.38-2.077-4.71-1.242c-.624.392-1.351 1.34-1.374 2.58c-.023 1.26.766 2.458.698 3.716c-.18 3.348-2.907 6.276-2.907 9.628c0 2.05.589 4.217 1.778 5.887c1.846 2.59 4.653 4.789 7.73 5.589c2.565.666 5.625.34 7.894-.932M37.07 25.36a2.6 2.6 0 0 1 2.6 2.6h0a2.6 2.6 0 0 1-2.6 2.6h0m.45-12.766a2.888 2.888 0 0 1 0 5.777m-.45-12.543a2.79 2.79 0 0 1 2.792 2.792h0a2.79 2.79 0 0 1-2.792 2.792h0");
 }
 
 .t0ixubr4x {

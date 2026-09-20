@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<rect class="j3s9ivbxi"/><path class="zhcn2rb1d"/><rect class="hslkrf1jh"/><circle class="g2f95brax"/><path class="o8m0nsbfs"/>`;
+const content = `<rect class="j3s9ivbxi"/><path class="zhcn2rb1d"/><rect class="hslkrf1jh"/><circle class="g2f95brax"/><path class="rdflh0bjc"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:pivo" /></template>
 <style>
@@ -41,12 +41,12 @@ const content = `<rect class="j3s9ivbxi"/><path class="zhcn2rb1d"/><rect class="
   ry: 4px;
 }
 
-.o8m0nsbfs {
+.rdflh0bjc {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M20.381 20.761v7.079M12.5 25.169a2.67 2.67 0 0 0 2.672 2.671h0a2.67 2.67 0 0 0 2.671-2.671v-1.737a2.67 2.67 0 0 0-2.671-2.671h0a2.67 2.67 0 0 0-2.672 2.671m0-2.671v10.686");
+  d: path("M20.381 20.761v7.079M12.5 25.169a2.672 2.672 0 1 0 5.343 0v-1.737a2.672 2.672 0 1 0-5.343 0m0-2.671v10.686");
 }
 
 .zhcn2rb1d {

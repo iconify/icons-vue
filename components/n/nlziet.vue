@@ -4,24 +4,24 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="wvna0bblr"/><path class="v-9ufac1m"/><path class="dx8p4y3bt"/>`;
+const content = `<path class="wvna0bblr"/><path class="v-9ufac1m"/><path class="wt-lcab2d"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:nlziet" /></template>
 <style>
-.dx8p4y3bt {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M5.527 26.569q.156 6.1 1.055 12.201a3.14 3.14 0 0 0 2.642 2.642a100.8 100.8 0 0 0 29.54 0a3.14 3.14 0 0 0 2.642-2.642c.17-1.149.315-2.298.445-3.447h-3.843v-8.755h4.439c.054-2.114.02-4.23-.057-6.344h-4.382V12.43h3.799c-.123-1.066-.244-2.133-.4-3.2a3.14 3.14 0 0 0-2.643-2.641a100.8 100.8 0 0 0-29.54 0A3.14 3.14 0 0 0 6.582 9.23a103 103 0 0 0-.42 3.2h4.623z");
-}
-
 .v-9ufac1m {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("m20.081 11.686l16.473 11.22a.95.95 0 0 1-.005 1.576L20.08 35.535m9.823-6.592v13.386m0-23.953V5.701");
+}
+
+.wt-lcab2d {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M5.527 26.569q.156 6.1 1.055 12.201a3.14 3.14 0 0 0 2.642 2.642a100.8 100.8 0 0 0 29.54 0a3.14 3.14 0 0 0 2.642-2.642c.17-1.149.315-2.298.445-3.447h-3.843v-8.755h4.439c.054-2.114.02-4.23-.057-6.344h-4.382V12.43h3.799c-.123-1.066-.244-2.133-.4-3.2a3.14 3.14 0 0 0-2.643-2.641a100.8 100.8 0 0 0-29.54 0A3.14 3.14 0 0 0 6.582 9.23a103 103 0 0 0-.42 3.2s4.623 0 4.623 0z");
 }
 
 .wvna0bblr {

@@ -4,12 +4,12 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<g class="y9tr6bcfx"><path class="a924-81ja"/><path class="zjcu5zb3v"/><path class="zrbbegbha"/></g>`;
+const content = `<g class="y9tr6bcfx"><path class="l665nt9rh"/><path class="zjcu5zb3v"/><path class="zrbbegbha"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:dr-nyheder" /></template>
 <style>
-.a924-81ja {
-  d: path("M19.528 34.327c-.207 0-1.781.122-3.745-.585c-1.958-.706-3.806-1.512-5.36-2.442c-1.554-.929-2.836-1.916-3.729-2.785S5.3 27.021 5.296 26.437c-.003-.492.216-1.244.634-2.118a14.2 14.2 0 0 1 1.842-2.848a20 20 0 0 1 2.937-2.863c1.776-1.416 3.337-2.389 3.844-2.301c.616.107-4.737 9.773 3.893 15.316c3.08 1.919 2.439 2.704 1.082 2.704m-.848.008");
+.l665nt9rh {
+  d: path("M19.528 34.327c-.207 0-1.781.122-3.745-.585c-1.958-.706-3.806-1.512-5.36-2.442c-1.554-.929-2.836-1.916-3.729-2.785S5.3 27.021 5.296 26.437c-.003-.492.216-1.244.634-2.118a14.2 14.2 0 0 1 1.842-2.848a20 20 0 0 1 2.937-2.863c1.776-1.416 3.337-2.389 3.844-2.301c.616.107-4.737 9.773 3.893 15.316c3.08 1.919 2.439 2.704 1.082 2.704m-.848.008z");
 }
 
 .y9tr6bcfx {

@@ -1,0 +1,121 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<circle class="gva8obbgp"/><circle class="xf508xq8i"/><circle class="irk98yzko"/><circle class="yri9l6q0g"/><path class="o7ownnbja"/><path class="wfy6n126b"/><path class="l6k9a4bat"/><path class="ltnl8mh4x"/><circle class="hc4q903hz"/><circle class="qzrxhsbyq"/><circle class="onehjsbjd"/><path class="jif5l-bcn"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:uk-eta" /></template>
+<style>
+.gva8obbgp {
+  cx: 24px;
+  cy: 24.149px;
+  r: 1.771px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.hc4q903hz {
+  cx: 30.917px;
+  cy: 16.405px;
+  r: 1.771px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.irk98yzko {
+  cx: 11.345px;
+  cy: 19.838px;
+  r: 1.771px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.jif5l-bcn {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("m24 10.844l3.965-1.912v3.824zm0 0l-3.965-1.912v3.824zm16.749 23.45c-1.68-1.494-2.274-3.781-2.274-3.781c-.436 3.143-.82 4.417-.82 4.417c1.187-.855 3.094-.636 3.094-.636");
+}
+
+.l6k9a4bat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("m24 10.844l3.965-1.912v3.824zM7.251 34.294c1.68-1.494 2.273-3.781 2.273-3.781c.437 3.143.821 4.417.821 4.417c-1.187-.855-3.094-.636-3.094-.636");
+}
+
+.ltnl8mh4x {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M27.08 28.542s-1.976 1.926-3.08 4.312c0 0 3.258-.604 4.273-2.083c0 0 .247 2.563-.325 4.437c0 0-.611-2.719-3.948-2.354c0 1.617 1.65 4.695 4.436 4.695c5.238 0 3.736-5.01 1.641-3.457c-.384-3.125 2.148-3.16 3.195-1.589c0 0-2.154-4.21 1.284-6.277c0 0 2.382 3.481-1.284 6.277c2.165-1.117 3.545-.122 2.881 2.497c0 0-.28-.89-1.222-.89c-1.344 0-3.029 3.522.803 3.788c5.134.356 6.017-4.532 4.26-7.63l2.506.873c-3.09 5.16-3.876 10.581-3.876 10.581S29.772 40.674 24 40.674S9.376 41.722 9.376 41.722S8.59 36.301 5.5 31.142l2.505-.874c-1.756 3.098-.873 7.986 4.26 7.63c3.833-.266 2.148-3.789.804-3.789c-.943 0-1.222.891-1.222.891c-.664-2.619.716-3.614 2.88-2.497c-3.64-3.07-1.283-6.277-1.283-6.277c3.31 1.766 1.284 6.277 1.284 6.277c1.047-1.571 3.579-1.536 3.195 1.59c-2.095-1.555-3.597 3.456 1.641 3.456c2.785 0 4.436-3.078 4.436-4.695c-3.337-.365-3.948 2.354-3.948 2.354c-.572-1.874-.325-4.437-.325-4.437C20.742 32.25 24 32.854 24 32.854c-1.104-2.386-3.08-4.312-3.08-4.312z");
+}
+
+.o7ownnbja {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("m24 10.844l-3.965-1.912v3.824z");
+}
+
+.onehjsbjd {
+  cx: 40.729px;
+  cy: 25.6px;
+  r: 1.771px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.qzrxhsbyq {
+  cx: 36.655px;
+  cy: 19.838px;
+  r: 1.771px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.wfy6n126b {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M24 19.465a2.1 2.1 0 0 0 2.1-2.1c0-1.702-2.1-3.168-2.1-7.07c0-1.782 1.81-4.017 1.81-4.017h-3.62S24 8.513 24 10.294c0 3.902-2.1 5.37-2.1 7.071c0 1.16.94 2.1 2.1 2.1");
+}
+
+.xf508xq8i {
+  cx: 17.083px;
+  cy: 16.405px;
+  r: 1.771px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.yri9l6q0g {
+  cx: 7.271px;
+  cy: 25.6px;
+  r: 1.771px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+</style>

@@ -4,16 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="lxsa2gb4v"/><path class="v7lwn4b_e"/><path class="yw1x5hbph"/>`;
+const content = `<path class="h5-17n9rs"/><path class="v7lwn4b_e"/><path class="yw1x5hbph"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:heytap-smart-home" /></template>
 <style>
-.lxsa2gb4v {
+.h5-17n9rs {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M21.116 37.385H7.74c-1.241 0-2.24-.903-2.24-2.025V16.753c0-.84.609-1.734 1.351-2.125l14.53-7.65h0c.276-.145.658-.145.934 0l14.53 7.65c.71.373 1.13 1.323 1.13 2.125v3.1");
+  d: path("M21.116 37.385H7.74c-1.241 0-2.24-.903-2.24-2.025V16.753c0-.84.609-1.734 1.351-2.125l14.53-7.65c.276-.145.658-.145.934 0l14.53 7.65c.71.373 1.13 1.323 1.13 2.125v3.1");
 }
 
 .v7lwn4b_e {

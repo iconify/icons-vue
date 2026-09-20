@@ -4,10 +4,14 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<g class="y9tr6bcfx"><path class="nb9o0ey7h"/><path class="ti0zxccqw"/></g><g class="y9tr6bcfx"><path class="ho7b1vb_c"/><path class="ibie-9bnp"/><path class="w0pn9f1nf"/></g>`;
+const content = `<g class="y9tr6bcfx"><path class="h3x9av8_h"/><path class="qh5jkzehq"/></g><g class="y9tr6bcfx"><path class="ho7b1vb_c"/><path class="ibie-9bnp"/><path class="w0pn9f1nf"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:notion-calendar-23" /></template>
 <style>
+.h3x9av8_h {
+  d: path("M16.928 27.492c0-2.37 1.896-4.366 4.109-4.482s4.267 1.673 4.267 4.043c0 1.106-.475 2.237-1.265 3.069c-1.738 1.513-7.11 5.903-7.11 5.903l8.375-.439m3.42-1.258c.883.694 1.837.983 3.98.87l.499-.026c1.767-.092 3.2-1.6 3.2-3.367a3.005 3.005 0 0 0-3.2-3.031");
+}
+
 .ho7b1vb_c {
   d: path("m39.153 41.418l-24.717 1.08a2.97 2.97 0 0 1-3.097-2.966v-25.21a2.97 2.97 0 0 1 2.838-2.966l25.956-1.133a1.78 1.78 0 0 1 1.859 1.779v26.451a2.97 2.97 0 0 1-2.839 2.965");
 }
@@ -16,12 +20,8 @@ const content = `<g class="y9tr6bcfx"><path class="nb9o0ey7h"/><path class="ti0z
   d: path("M11.339 22.117v-2.97c0-.954.75-1.738 1.703-1.78l27.091-1.182a1.78 1.78 0 0 1 1.859 1.779v3.803");
 }
 
-.nb9o0ey7h {
-  d: path("M16.928 27.492c0-2.37 1.896-4.366 4.109-4.482s4.267 1.673 4.267 4.043c0 1.106-.475 2.237-1.265 3.069c-1.738 1.513-7.11 5.903-7.11 5.903l8.375-.439m3.42-1.258c.883.694 1.837.983 3.98.87l.499-.026c1.767-.092 3.2-1.6 3.2-3.367h0a3.005 3.005 0 0 0-3.2-3.031");
-}
-
-.ti0zxccqw {
-  d: path("M28.722 23.676c.886-.784 1.84-1.17 3.983-1.277l.498-.024a3.005 3.005 0 0 1 3.2 3.032h0c0 1.767-1.433 3.274-3.2 3.367m-2.459.129l2.459-.129");
+.qh5jkzehq {
+  d: path("M28.722 23.676c.886-.784 1.84-1.17 3.983-1.277l.498-.024a3.005 3.005 0 0 1 3.2 3.032c0 1.767-1.433 3.274-3.2 3.367m-2.459.129l2.459-.129");
 }
 
 .w0pn9f1nf {

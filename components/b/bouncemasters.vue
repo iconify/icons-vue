@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="cylvkx53e"/><path class="g2wj9jbhp"/><path class="i5zv3nvmy"/><path class="drpjs0bfa"/><path class="ttnc9j90q"/><path class="ilr52xb0f"/><path class="u-50ffbxs"/><path class="smn0-ebvy"/><path class="zw75u4byt"/>`;
+const content = `<path class="cylvkx53e"/><path class="g2wj9jbhp"/><path class="i5zv3nvmy"/><path class="g4m8kub-r"/><path class="ttnc9j90q"/><path class="ilr52xb0f"/><path class="u-50ffbxs"/><path class="smn0-ebvy"/><path class="zw75u4byt"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:bouncemasters" /></template>
 <style>
@@ -13,20 +13,20 @@ const content = `<path class="cylvkx53e"/><path class="g2wj9jbhp"/><path class="
   d: path("M30.215 13.38a.75.75 0 1 1-1.5 0a.75.75 0 0 1 1.5 0m7.102 0a.75.75 0 1 1-1.5 0a.75.75 0 0 1 1.5 0");
 }
 
-.drpjs0bfa {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M35.115 12.336a3.1 3.1 0 0 1 6.006 1.07h0a3.099 3.099 0 0 1-6.18.317m-9.795.683a3.099 3.099 0 1 1 6.031-1h0c0 .34-.056.678-.166 1z");
-}
-
 .g2wj9jbhp {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("M9.5 5.5h29c2.216 0 4 1.784 4 4v29c0 2.216-1.784 4-4 4h-29c-2.216 0-4-1.784-4-4v-29c0-2.216 1.784-4 4-4");
+}
+
+.g4m8kub-r {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M35.115 12.336a3.1 3.1 0 0 1 6.006 1.07a3.099 3.099 0 0 1-6.18.317m-9.795.683a3.099 3.099 0 1 1 6.031-1c0 .34-.056.678-.166 1z");
 }
 
 .i5zv3nvmy {

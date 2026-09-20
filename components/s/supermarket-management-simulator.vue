@@ -4,12 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<g class="y9tr6bcfx"><path class="jc-a9nadq"/><path class="cenz_5bga"/><path class="ygx663b-v"/><path class="vqb375b_r"/></g>`;
+const content = `<g class="y9tr6bcfx"><path class="jc-a9nadq"/><path class="cenz_5bga"/><path class="e8em8bc_c"/><path class="vqb375b_r"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:supermarket-management-simulator" /></template>
 <style>
 .cenz_5bga {
   d: path("m35.356 40.777l-4.97-.463V35.77l1.737-.395");
+}
+
+.e8em8bc_c {
+  d: path("m32.122 36.007l1.408.112l1.863-.232V33.92l-1.408-.112l-1.863.231zm4.532 2.833l-1.298.389v2.24l2.6.375l3.14-.941v-2.241l-.898-.13");
 }
 
 .jc-a9nadq {
@@ -25,10 +29,6 @@ const content = `<g class="y9tr6bcfx"><path class="jc-a9nadq"/><path class="cenz
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-}
-
-.ygx663b-v {
-  d: path("m32.122 36.007l1.408.112l1.863-.232V33.92l-1.408-.112l-1.863.231zm4.532 2.833l-1.298.389v2.24h0l2.6.375l3.14-.941v-2.241l-.898-.13");
 }
 
 </style>

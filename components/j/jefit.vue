@@ -4,16 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<circle class="p36ko_b2v"/><path class="mg6jj5b4s"/><path class="uk4v6ub8y"/>`;
+const content = `<circle class="p36ko_b2v"/><path class="cgcxm-rpl"/><path class="uk4v6ub8y"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:jefit" /></template>
 <style>
-.mg6jj5b4s {
+.cgcxm-rpl {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M18.824 37.617c-.116-.044-.667-.169-1.19-.334a14 14 0 0 1-1.114-.413c-6.276-2.62-9.73-7.79-9.73-14.71q0-.836.081-1.668m33.899-2.197a17.2 17.2 0 0 1 .44 3.865h0a17.21 17.21 0 0 1-8.02 14.552M9.8 12.438a17.21 17.21 0 0 1 18.394-6.969");
+  d: path("M18.824 37.617c-.116-.044-.667-.169-1.19-.334a14 14 0 0 1-1.114-.413c-6.276-2.62-9.73-7.79-9.73-14.71q0-.836.081-1.668m33.899-2.197a17.2 17.2 0 0 1 .44 3.865a17.21 17.21 0 0 1-8.02 14.552M9.8 12.438a17.21 17.21 0 0 1 18.394-6.969");
 }
 
 .p36ko_b2v {

@@ -4,24 +4,24 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="li56cpb2v"/><path class="z5tk6mloj"/><path class="y5j5mp-rq"/>`;
+const content = `<path class="li56cpb2v"/><path class="z5tk6mloj"/><path class="h67p3vh5u"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:sharp-printsmash" /></template>
 <style>
+.h67p3vh5u {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M16.222 28.658c4.296-4.296 11.26-4.296 15.556 0m-12.727 2.828a7 7 0 0 1 9.9 0m-7.071 2.829a3 3 0 0 1 4.242 0L24 36.436z");
+}
+
 .li56cpb2v {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("M12.437 24H6.5c-.554 0-1-.446-1-1V6.5c0-.554.446-1 1-1h35c.554 0 1 .446 1 1V23c0 .554-.446 1-1 1h-5.938");
-}
-
-.y5j5mp-rq {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M16.222 28.658c4.296-4.296 11.26-4.296 15.556 0m-12.727 2.828a7 7 0 0 1 9.9 0h0m-7.071 2.829a3 3 0 0 1 4.242 0L24 36.436z");
 }
 
 .z5tk6mloj {

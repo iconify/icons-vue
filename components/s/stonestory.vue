@@ -4,16 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="k8dqagb7s"/><path class="zstfocr6i"/>`;
+const content = `<path class="sr1ftl-0m"/><path class="zstfocr6i"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:stonestory" /></template>
 <style>
-.k8dqagb7s {
+.sr1ftl-0m {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("m17.185 18.177l-3.04 10.281m3.04 3.76L14.145 42.5m12.538-10.282L29.722 42.5m-7.999-23.234l.033 10.281M9.423 5.5v24.737m17.26-10.971s2.026 2.302 2.026 5.14s-2.026 5.141-2.026 5.141m12.991-10.281s2.026 2.302 2.026 5.14s-2.026 5.141-2.026 5.141m-7.676 1.07h5.065m-10.38-13.355h10.38M21.756 7.46a2.684 2.684 0 0 0-2.685 2.683v2.735a2.684 2.684 0 0 0 2.685 2.685h0a2.684 2.684 0 0 0 2.684-2.685v-2.735a2.684 2.684 0 0 0-2.684-2.684M6.3 24.406h6.247");
+  d: path("m17.185 18.177l-3.04 10.281m3.04 3.76L14.145 42.5m12.538-10.282L29.722 42.5m-7.999-23.234l.033 10.281M9.423 5.5v24.737m17.26-10.971s2.026 2.302 2.026 5.14s-2.026 5.141-2.026 5.141m12.991-10.281s2.026 2.302 2.026 5.14s-2.026 5.141-2.026 5.141m-7.676 1.07h5.065m-10.38-13.355h10.38M21.756 7.46za2.684 2.684 0 0 0-2.685 2.683v2.735a2.684 2.684 0 0 0 5.369 0v-2.735a2.684 2.684 0 0 0-2.684-2.684M6.3 24.406h6.247");
 }
 
 .zstfocr6i {

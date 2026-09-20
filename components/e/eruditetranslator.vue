@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="b8qw87bkf"/><path class="nehs-h25v"/><path class="ndwkmtlxu"/><path class="lzl3979zq"/><ellipse class="q-i4sr33r"/>`;
+const content = `<path class="b8qw87bkf"/><path class="rel9jkbbc"/><path class="ndwkmtlxu"/><path class="lzl3979zq"/><ellipse class="q-i4sr33r"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:eruditetranslator" /></template>
 <style>
@@ -32,14 +32,6 @@ const content = `<path class="b8qw87bkf"/><path class="nehs-h25v"/><path class="
   d: path("M20.77 24.23a3.28 3.28 0 0 0 6.46 0M24 26.938v1.647m8.348-4.512h9.038m-4.544-1.969v1.969m2.817 0c0 2.719-4.047 6.343-7.244 7.03");
 }
 
-.nehs-h25v {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M24 19.415a1.75 1.75 0 0 1 1.719 1.775h0v2.195A1.75 1.75 0 0 1 24 25.16h0a1.75 1.75 0 0 1-1.719-1.775h0V21.19A1.75 1.75 0 0 1 24 19.415");
-}
-
 .q-i4sr33r {
   cx: 24px;
   cy: 24px;
@@ -49,6 +41,14 @@ const content = `<path class="b8qw87bkf"/><path class="nehs-h25v"/><path class="
   stroke-linejoin: round;
   rx: 6.198px;
   ry: 6.206px;
+}
+
+.rel9jkbbc {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M24 19.415a1.75 1.75 0 0 1 1.719 1.775v2.195A1.75 1.75 0 0 1 24 25.16a1.75 1.75 0 0 1-1.719-1.775V21.19A1.75 1.75 0 0 1 24 19.415");
 }
 
 </style>

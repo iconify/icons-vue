@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="jl7_qjbts"/><circle class="irj3fgslb"/><path class="i3taowg4y"/><path class="frdqcll6h"/>`;
+const content = `<path class="ype23sb3r"/><circle class="irj3fgslb"/><path class="i3taowg4y"/><path class="frdqcll6h"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:abimobil-classic" /></template>
 <style>
@@ -31,12 +31,12 @@ const content = `<path class="jl7_qjbts"/><circle class="irj3fgslb"/><path class
   fill: currentColor;
 }
 
-.jl7_qjbts {
+.ype23sb3r {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M30.698 38.867h-4.195m-1.04 3.153l3.137-9.521l3.137 9.521m2.593-3.927c0-1.315 1.06-2.38 2.368-2.38h0a2.374 2.374 0 0 1 2.368 2.38v1.547c0 1.315-1.06 2.38-2.368 2.38h0a2.374 2.374 0 0 1-2.367-2.38m0 2.38v-9.521");
+  d: path("M30.698 38.867h-4.195m-1.04 3.153l3.137-9.521l3.137 9.521m2.593-3.927c0-1.315 1.06-2.38 2.368-2.38a2.374 2.374 0 0 1 2.368 2.38v1.547c0 1.315-1.06 2.38-2.368 2.38a2.374 2.374 0 0 1-2.367-2.38m0 2.38v-9.521");
 }
 
 </style>

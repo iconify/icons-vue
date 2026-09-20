@@ -4,18 +4,10 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<rect class="j3s9ivbxi"/><path class="e_v15z0dz"/>`;
+const content = `<rect class="j3s9ivbxi"/><path class="pd94pmg8x"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:letter-lowercase-n" /></template>
 <style>
-.e_v15z0dz {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M28 29.3v-6.6a4 4 0 0 0-4-4h0a4 4 0 0 0-4 4m0 6.6V18.7");
-}
-
 .j3s9ivbxi {
   width: 37px;
   height: 37px;
@@ -27,6 +19,14 @@ const content = `<rect class="j3s9ivbxi"/><path class="e_v15z0dz"/>`;
   stroke-linejoin: round;
   rx: 4px;
   ry: 4px;
+}
+
+.pd94pmg8x {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M28 29.3v-6.6a4 4 0 0 0-8 0m0 6.6V18.7");
 }
 
 </style>

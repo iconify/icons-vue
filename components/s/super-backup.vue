@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<rect class="mkpgasb1s"/><path class="gmfup29pj"/><circle class="swx-mebbo"/><circle class="cp57egb3t"/><path class="a9ry_rb_y"/>`;
+const content = `<rect class="mkpgasb1s"/><path class="w2fd06oeo"/><circle class="swx-mebbo"/><circle class="cp57egb3t"/><path class="a9ry_rb_y"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:super-backup" /></template>
 <style>
@@ -21,14 +21,6 @@ const content = `<rect class="mkpgasb1s"/><path class="gmfup29pj"/><circle class
   cy: 39.513px;
   r: 0.75px;
   fill: currentColor;
-}
-
-.gmfup29pj {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M42.085 30.81a2.774 2.774 0 0 0-2.775-2.774H8.69a2.774 2.774 0 0 0-2.775 2.774h0M38.326 7.693a2.2 2.2 0 0 0-2.198-2.198H11.872a2.2 2.2 0 0 0-2.198 2.198h0m0 0L4.5 39.513m33.826-31.82L43.5 39.514m-24.942-.001h10.884");
 }
 
 .mkpgasb1s {
@@ -48,6 +40,14 @@ const content = `<rect class="mkpgasb1s"/><path class="gmfup29pj"/><circle class
   cy: 39.513px;
   r: 0.75px;
   fill: currentColor;
+}
+
+.w2fd06oeo {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M42.085 30.81za2.774 2.774 0 0 0-2.775-2.774H8.69a2.774 2.774 0 0 0-2.775 2.774M38.326 7.693za2.2 2.2 0 0 0-2.198-2.198H11.872a2.2 2.2 0 0 0-2.198 2.198m0 0L4.5 39.513m33.826-31.82L43.5 39.514m-24.942-.001h10.884");
 }
 
 </style>

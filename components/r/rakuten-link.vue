@@ -4,23 +4,23 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="bhku_-bpe"/><circle class="cqty7ubeh"/><path class="s938i_brp"/><path class="m1mmjf99z"/>`;
+const content = `<path class="g81frzvae"/><circle class="cqty7ubeh"/><path class="s938i_brp"/><path class="m1mmjf99z"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:rakuten-link" /></template>
 <style>
-.bhku_-bpe {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M29.573 29.043v7.764m0-1.65l3.493-3.494m-2.426 2.426l2.814 2.718m-6.04 0v-3.203a1.947 1.947 0 0 0-1.94-1.94h0a1.947 1.947 0 0 0-1.942 1.94v3.203m0-3.203v-1.941");
-}
-
 .cqty7ubeh {
   cx: 21.142px;
   cy: 29.334px;
   r: 0.75px;
   fill: currentColor;
+}
+
+.g81frzvae {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M29.573 29.043v7.764m0-1.65l3.493-3.494m-2.426 2.426l2.814 2.718m-6.04 0v-3.203a1.947 1.947 0 0 0-1.94-1.94a1.947 1.947 0 0 0-1.942 1.94v3.203m0-3.203v-1.941");
 }
 
 .m1mmjf99z {

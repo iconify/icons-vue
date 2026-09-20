@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<g class="y9tr6bcfx"><path class="bewdimn3v"/><path class="y5jed8b4u"/><path class="gaxqysneg"/></g><path class="hae8ibb0j"/><g class="y9tr6bcfx"><path class="dio43cbna"/><path class="cqmzefbft"/></g>`;
+const content = `<g class="y9tr6bcfx"><path class="bewdimn3v"/><path class="qpzadun1v"/><path class="y35_a-bll"/></g><path class="hae8ibb0j"/><g class="y9tr6bcfx"><path class="dio43cbna"/><path class="cqmzefbft"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:miui-downloader" /></template>
 <style>
@@ -20,10 +20,6 @@ const content = `<g class="y9tr6bcfx"><path class="bewdimn3v"/><path class="y5je
   d: path("M22.717 37.43a1.52 1.52 0 0 1-1.261 1.736l-.525.082c-.547.084-1.059-.294-1.144-.845s.288-1.066.835-1.15l2.022-.314");
 }
 
-.gaxqysneg {
-  d: path("M24.672 24.836c.096-.811.847-1.394 1.677-1.302h0c.83.091 1.425.824 1.329 1.635l-.287 2.424m.469 7.305l-.746 2.04c-.25.683.082 1.445.74 1.702s1.393-.087 1.642-.77l.746-2.04m-.746 2.04l-.452 1.236m-13.252-8.303l-1.275 4.815m2.736-1.076l-4.197-2.663m10.046 1.498c-.649 0-1.174-.557-1.174-1.245v-.808c0-.688.525-1.245 1.174-1.245s1.174.557 1.174 1.245v.808c0 .688-.526 1.245-1.174 1.245m4.338-4.063l.948 3.11m3.933.481l-.28 3.81m-12.619-7.969l-.207 3.73");
-}
-
 .hae8ibb0j {
   fill: none;
   stroke: currentColor;
@@ -32,8 +28,12 @@ const content = `<g class="y9tr6bcfx"><path class="bewdimn3v"/><path class="y5je
   d: path("m31.497 14.575l4.258 4.283l4.258-4.283m-4.258 4.283V5.613");
 }
 
-.y5jed8b4u {
-  d: path("M21.666 24.504c.096-.812.847-1.395 1.677-1.303h0c.83.092 1.425.824 1.329 1.635l-.287 2.424m-2.545-4.225l-.46 3.893");
+.qpzadun1v {
+  d: path("M21.666 24.504c.096-.812.847-1.395 1.677-1.303s1.425.824 1.329 1.635l-.287 2.424m-2.545-4.225l-.46 3.893");
+}
+
+.y35_a-bll {
+  d: path("M24.672 24.836c.096-.811.847-1.394 1.677-1.302s1.425.824 1.329 1.635l-.287 2.424m.469 7.305l-.746 2.04c-.25.683.082 1.445.74 1.702s1.393-.087 1.642-.77l.746-2.04m-.746 2.04l-.452 1.236m-13.252-8.303l-1.275 4.815m2.736-1.076l-4.197-2.663m10.046 1.498c-.649 0-1.174-.557-1.174-1.245v-.808c0-.688.525-1.245 1.174-1.245s1.174.557 1.174 1.245v.808c0 .688-.526 1.245-1.174 1.245m4.338-4.063l.948 3.11m3.933.481l-.28 3.81m-12.619-7.969l-.207 3.73");
 }
 
 .y9tr6bcfx {

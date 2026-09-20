@@ -4,16 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="x4saviktw"/><path class="wkklitizy"/><path class="xnhst8bml"/>`;
+const content = `<path class="x4saviktw"/><path class="o3c1_qb0b"/><path class="xnhst8bml"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:world-geography" /></template>
 <style>
-.wkklitizy {
+.o3c1_qb0b {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M19.45 18.31a2.65 2.65 0 0 0-2.65-2.65h0a2.65 2.65 0 0 0-2.65 2.65v2.7a2.65 2.65 0 0 0 2.65 2.65h0a2.65 2.65 0 0 0 2.65-2.65H16.8m14.4-5.35a2.644 2.644 0 0 1 2.65 2.65v2.7c0 1.469-1.181 2.65-2.65 2.65s-2.65-1.181-2.65-2.65v-2.7a2.644 2.644 0 0 1 2.65-2.65m-5.2 8h-4v-8h4m-4 4h2.608m-15.411.908c.593.254 1.175.505 1.794.719m1.438 18.436c-2.12-2.574-1.764-6.47-4.367-8.742c-1.158-1.308-.985-3.19-.671-4.781c.177-2.624-2.161-4.708-2.253-7.368");
+  d: path("M19.45 18.31a2.65 2.65 0 1 0-5.3 0v2.7a2.65 2.65 0 1 0 5.3 0H16.8m14.4-5.35a2.644 2.644 0 0 1 2.65 2.65v2.7c0 1.469-1.181 2.65-2.65 2.65s-2.65-1.181-2.65-2.65v-2.7a2.644 2.644 0 0 1 2.65-2.65m-5.2 8h-4v-8h4m-4 4h2.608m-15.411.908c.593.254 1.175.505 1.794.719m1.438 18.436c-2.12-2.574-1.764-6.47-4.367-8.742c-1.158-1.308-.985-3.19-.671-4.781c.177-2.624-2.161-4.708-2.253-7.368");
 }
 
 .x4saviktw {

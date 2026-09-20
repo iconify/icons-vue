@@ -1,0 +1,27 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="fvea9y9po"/><path class="hwgtoeb-t"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:straight-talk-my-account" /></template>
+<style>
+.fvea9y9po {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M39.35 24.26h.33c2.04 0 3.7-1.66 3.7-3.7v-4.52c0-2.05-1.66-3.71-3.7-3.71H8.2c-2.04 0-3.7 1.66-3.7 3.71v4.52c0 2.04 1.66 3.7 3.7 3.7h12.57l.01 3.19l4.15-3.19h10.45");
+}
+
+.hwgtoeb-t {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M20.77 24.26h-.5c-2.05 0-3.71 1.66-3.71 3.71v3.87c0 2.05 1.66 3.71 3.71 3.71H39.8c2.04 0 3.7-1.66 3.7-3.71v-3.87c0-2.05-1.66-3.71-3.7-3.71h-.45v-3.99l-3.97 3.99H24.93");
+}
+
+</style>

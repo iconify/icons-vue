@@ -4,16 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="yhdg85bpf"/><path class="h4y43ybwy"/>`;
+const content = `<path class="yhdg85bpf"/><path class="vks8rfbsa"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:lineage-phone" /></template>
 <style>
-.h4y43ybwy {
+.vks8rfbsa {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M22.87 16.836h6.096a3.11 3.11 0 0 0 2.536-1.311l2.003-2.826a3.5 3.5 0 0 0 .647-2.031h0a3.5 3.5 0 0 0-.647-2.031l-2.45-3.457a1.61 1.61 0 0 0-1.316-.68h-1.566M22.87 31.164h6.096a3.11 3.11 0 0 1 2.536 1.311l2.003 2.826a3.5 3.5 0 0 1 .647 2.031h0a3.5 3.5 0 0 1-.647 2.031l-2.45 3.457a1.61 1.61 0 0 1-1.316.68h-1.566");
+  d: path("M22.87 16.836h6.096a3.11 3.11 0 0 0 2.536-1.311l2.003-2.826a3.5 3.5 0 0 0 .647-2.031a3.5 3.5 0 0 0-.647-2.031l-2.45-3.457a1.61 1.61 0 0 0-1.316-.68h-1.566M22.87 31.164h6.096a3.11 3.11 0 0 1 2.536 1.311l2.003 2.826a3.5 3.5 0 0 1 .647 2.031a3.5 3.5 0 0 1-.647 2.031l-2.45 3.457a1.61 1.61 0 0 1-1.316.68h-1.566");
 }
 
 .yhdg85bpf {

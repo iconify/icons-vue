@@ -4,24 +4,24 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="io0phsrfl"/><path class="oq6nkrb2w"/><path class="tqe3azb7n"/><path class="ymljjjb3v"/>`;
+const content = `<path class="io0phsrfl"/><path class="i_abwab9m"/><path class="tqe3azb7n"/><path class="ymljjjb3v"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:etiquettable" /></template>
 <style>
+.i_abwab9m {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M14.952 37.964a2.284 2.284 0 1 1 4.563-.19m9.685.09a2.284 2.284 0 0 1 4.563-.18");
+}
+
 .io0phsrfl {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("M12.13 36.052q5.23-4.95 10.09-.135q-5.23 4.942-10.09.135m14.112-.072q5.24-4.943 10.1-.126q-5.23 4.941-10.1.126");
-}
-
-.oq6nkrb2w {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M14.952 37.964a2.284 2.284 0 1 1 4.563-.19m9.685.09a2.284 2.284 0 0 1 4.563-.18h0");
 }
 
 .tqe3azb7n {

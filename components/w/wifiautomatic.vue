@@ -4,16 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="tieua6bhf"/><path class="wtwkxebia"/>`;
+const content = `<path class="a0kfnif2f"/><path class="wtwkxebia"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:wifiautomatic" /></template>
 <style>
-.tieua6bhf {
+.a0kfnif2f {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M33.25 23.51a14.44 14.44 0 0 0-18.45-.05v.05m9.2 3.54a7.61 7.61 0 1 0 7.61 7.61h0A7.61 7.61 0 0 0 24 27.05m14-9.36a22 22 0 0 0-28 0");
+  d: path("M33.25 23.51a14.44 14.44 0 0 0-18.45-.05v.05m9.2 3.54a7.61 7.61 0 1 0 7.61 7.61A7.61 7.61 0 0 0 24 27.05m14-9.36a22 22 0 0 0-28 0");
 }
 
 .wtwkxebia {

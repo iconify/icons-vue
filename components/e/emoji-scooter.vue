@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="cx1rn7xsk"/><path class="qmwwafbyg"/><path class="dgk16abzm"/>`;
+const content = `<path class="cx1rn7xsk"/><path class="qmwwafbyg"/><path class="d5s6eobck"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:emoji-scooter" /></template>
 <style>
@@ -16,12 +16,12 @@ const content = `<path class="cx1rn7xsk"/><path class="qmwwafbyg"/><path class="
   d: path("M17.09 36.585h16.713v.431c0 1.225-.904 2.218-2.02 2.218H19.11c-1.115 0-2.019-.993-2.019-2.218zm1.563-27.948a.7.7 0 0 1-.013.243l-.33 1.504a.74.74 0 0 1-.88.564l-.782-.171a.74.74 0 0 1-.564-.88l.33-1.505a.7.7 0 0 1 .065-.181");
 }
 
-.dgk16abzm {
+.d5s6eobck {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M6.803 38.803a3.696 3.696 0 0 0 7.394 0v0a3.696 3.696 0 0 0-7.394-.001zm27 0a3.696 3.696 0 0 0 7.394.002v-.002a3.696 3.696 0 0 0-7.394-.003z");
+  d: path("M6.803 38.803a3.696 3.696 0 0 0 7.394 0a3.696 3.696 0 0 0-7.394-.001m27 .001a3.696 3.696 0 0 0 7.394.002v-.002a3.696 3.696 0 0 0-7.394-.003z");
 }
 
 .qmwwafbyg {

@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<rect class="sd2g05nnv"/><path class="mekntibai"/><circle class="z2kyr8bya"/><circle class="ckxq4x-jj"/><circle class="uwa5--n1r"/><circle class="wa1mr8i8e"/><circle class="s791d_b8u"/><circle class="yesedpbwf"/><circle class="r16b11boe"/><circle class="h9vki-boq"/><circle class="fjcnsdb0u"/>`;
+const content = `<rect class="sd2g05nnv"/><path class="ki8138evx"/><circle class="z2kyr8bya"/><circle class="ckxq4x-jj"/><circle class="uwa5--n1r"/><circle class="wa1mr8i8e"/><circle class="s791d_b8u"/><circle class="yesedpbwf"/><circle class="r16b11boe"/><circle class="h9vki-boq"/><circle class="fjcnsdb0u"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:finder" /></template>
 <style>
@@ -29,12 +29,12 @@ const content = `<rect class="sd2g05nnv"/><path class="mekntibai"/><circle class
   fill: currentColor;
 }
 
-.mekntibai {
+.ki8138evx {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M28.81 13.64v-3.62m-10.69 6.79h11.76v11.76H18.12zm5.36-9.64a6.61 6.61 0 0 1 5.3-2.68h0a6.63 6.63 0 0 1 5.31 2.68m-8 1.72a3.23 3.23 0 0 1 5.31 0");
+  d: path("M28.81 13.64v-3.62m-10.69 6.79h11.76v11.76H18.12zm5.36-9.64a6.61 6.61 0 0 1 5.3-2.68a6.63 6.63 0 0 1 5.31 2.68m-8 1.72a3.23 3.23 0 0 1 5.31 0");
 }
 
 .r16b11boe {

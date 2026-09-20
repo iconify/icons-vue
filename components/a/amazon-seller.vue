@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<g class="y9tr6bcfx"><path class="ur3n-0bet"/><path class="uvy28wbft"/><path class="zb68q5b2l"/><path class="b43rnkbgq"/><path class="w17tcdbvz"/></g>`;
+const content = `<g class="y9tr6bcfx"><path class="ur3n-0bet"/><path class="q2l4stb0w"/><path class="zb68q5b2l"/><path class="b43rnkbgq"/><path class="w17tcdbvz"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:amazon-seller" /></template>
 <style>
@@ -12,12 +12,12 @@ const content = `<g class="y9tr6bcfx"><path class="ur3n-0bet"/><path class="uvy2
   d: path("M20.451 5.36c.183 3.952.845 9.308.203 8.567m8.708 13.148c.718-.425 2.019-1.052 2.512-.661c.534.422.163 1.61-.206 2.546");
 }
 
-.ur3n-0bet {
-  d: path("m26.18 10.823l5.901 5.94l4.086 23.15L15.92 43.5l-4.086-23.15l3.509-7.607z");
+.q2l4stb0w {
+  d: path("M22.64 14.716a1.34 1.34 0 1 1-2.638.467a1.34 1.34 0 1 1 2.638-.467");
 }
 
-.uvy28wbft {
-  d: path("M22.64 14.716a1.34 1.34 0 1 1-2.638.467h0a1.34 1.34 0 1 1 2.638-.467");
+.ur3n-0bet {
+  d: path("m26.18 10.823l5.901 5.94l4.086 23.15L15.92 43.5l-4.086-23.15l3.509-7.607z");
 }
 
 .w17tcdbvz {

@@ -4,24 +4,24 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="ch4yunbay"/><path class="i91cet7hv"/>`;
+const content = `<path class="yehlrqivo"/><path class="i91cet7hv"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:mj-pdf" /></template>
 <style>
-.ch4yunbay {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M27.19 34.253v-8.175h1.881c2.02 0 3.66 1.601 3.66 3.577v1.021c0 1.975-1.64 3.577-3.66 3.577zm-9.402 0v-8.175h2.738c1.548 0 2.803 1.23 2.803 2.746s-1.255 2.745-2.803 2.745h-2.738m-3.561 2.318v6.155c0 1.133-.9 2.052-2.01 2.052h0c-1.11 0-2.009-.919-2.009-2.052v-.681");
-}
-
 .i91cet7hv {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("M6.189 34.236v-8.197l4.019 8.206l4.019-8.194v8.194m22.813-4.08h2.718m-2.718 4.087v-8.174h4.182M5.5 5.907h24.78m2.928 0H42.5m-17.38 6.151h17.132m-36.494 0h16.678M5.84 18.044l9.077-.083m2.858.042h14.871");
+}
+
+.yehlrqivo {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M27.19 34.253v-8.175h1.881c2.02 0 3.66 1.601 3.66 3.577v1.021c0 1.975-1.64 3.577-3.66 3.577zm-9.402 0v-8.175h2.738c1.548 0 2.803 1.23 2.803 2.746s-1.255 2.745-2.803 2.745h-2.738m-3.561 2.318v6.155c0 1.133-.9 2.052-2.01 2.052s-2.009-.919-2.009-2.052v-.681");
 }
 
 </style>

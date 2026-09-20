@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<rect class="ank5m11dj"/><path class="t3srpgbki"/>`;
+const content = `<rect class="ank5m11dj"/><path class="zwl2eobis"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:roboform" /></template>
 <style>
@@ -21,12 +21,12 @@ const content = `<rect class="ank5m11dj"/><path class="t3srpgbki"/>`;
   ry: 6.921px;
 }
 
-.t3srpgbki {
+.zwl2eobis {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M12.029 31.963H35.97a5.27 5.27 0 0 1 5.27 5.268h0a5.27 5.27 0 0 1-5.27 5.27H12.03a5.27 5.27 0 0 1-5.27-5.27h0a5.27 5.27 0 0 1 5.27-5.268m8.895-13.31a3.703 3.703 0 1 1 0-.026m6.525.026a3.703 3.703 0 1 0 0-.026");
+  d: path("M12.029 31.963H35.97a5.269 5.269 0 0 1 0 10.537H12.03a5.269 5.269 0 0 1 0-10.537m8.895-13.31a3.703 3.703 0 1 1 0-.026m6.525.026a3.703 3.703 0 1 0 0-.026");
 }
 
 </style>

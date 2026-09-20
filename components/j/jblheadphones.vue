@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="ffalwwbqg"/><path class="xh17qsb2u"/>`;
+const content = `<path class="ffalwwbqg"/><path class="slyvd3bkm"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:jblheadphones" /></template>
 <style>
@@ -16,12 +16,12 @@ const content = `<path class="ffalwwbqg"/><path class="xh17qsb2u"/>`;
   d: path("M6.525 30.123a18.497 18.497 0 1 1 34.949.004");
 }
 
-.xh17qsb2u {
+.slyvd3bkm {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M19.231 40.467A8.333 8.333 0 0 1 8.434 27.772Zm9.538 0a8.333 8.333 0 1 0 10.797-12.695Zm-3.663-19.831a2.525 2.525 0 1 1 0 5.05H20.94v-10.1h4.166a2.525 2.525 0 1 1 0 5.05m-.001 0H20.94m-2.57-5.05v7.575a2.53 2.53 0 0 1-2.526 2.525h0a2.53 2.53 0 0 1-2.525-2.525v-.884m16.694-6.691v10.1h5.05");
+  d: path("M19.231 40.467A8.333 8.333 0 0 1 8.434 27.772Zm9.538 0a8.333 8.333 0 1 0 10.797-12.695Zm-3.663-19.831a2.525 2.525 0 1 1 0 5.05H20.94v-10.1h4.166a2.525 2.525 0 1 1 0 5.05m-.001 0H20.94m-2.57-5.05v7.575a2.53 2.53 0 0 1-2.526 2.525a2.53 2.53 0 0 1-2.525-2.525v-.884m16.694-6.691v10.1h5.05");
 }
 
 </style>

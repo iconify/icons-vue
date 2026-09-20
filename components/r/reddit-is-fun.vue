@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="yw5py9jcm"/><circle class="u-woj1pbh"/><path class="epx1rngnr"/><circle class="exzd_ccmr"/><path class="tfocttb9g"/><path class="c2xrbabwq"/>`;
+const content = `<path class="vedgxt92j"/><circle class="u-woj1pbh"/><path class="epx1rngnr"/><circle class="exzd_ccmr"/><path class="fk3ks8b1r"/><path class="c2xrbabwq"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:reddit-is-fun" /></template>
 <style>
@@ -31,12 +31,12 @@ const content = `<path class="yw5py9jcm"/><circle class="u-woj1pbh"/><path class
   fill: currentColor;
 }
 
-.tfocttb9g {
+.fk3ks8b1r {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M28.794 34.953V16.88a3.834 3.834 0 0 1 3.834-3.833h0c1.886 0 3.064.558 3.872 1.604M25.547 20.44h7.667");
+  d: path("M28.794 34.953V16.88a3.834 3.834 0 0 1 3.834-3.833c1.886 0 3.064.558 3.872 1.604M25.547 20.44h7.667");
 }
 
 .u-woj1pbh {
@@ -49,12 +49,12 @@ const content = `<path class="yw5py9jcm"/><circle class="u-woj1pbh"/><path class
   stroke-linejoin: round;
 }
 
-.yw5py9jcm {
+.vedgxt92j {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M13.5 25.917a5.477 5.477 0 0 1 5.477-5.477h0m-5.477 0v14.513");
+  d: path("M13.5 25.917a5.477 5.477 0 0 1 5.477-5.477m-5.477 0v14.513");
 }
 
 </style>

@@ -4,26 +4,10 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<g class="y9tr6bcfx"><path class="v-1c8shvj"/><path class="k3huiibuf"/></g><path class="bt7m6ibla"/><g class="y9tr6bcfx"><path class="ankdk1b4s"/><path class="b_cf-4q9t"/><path class="ney1si8lz"/><path class="g-osicc2m"/><path class="i78ud6b5j"/></g><path class="e4-sjeuhp"/><path class="g2wj9jbhp"/>`;
+const content = `<g class="y9tr6bcfx"><path class="v-1c8shvj"/><path class="k3huiibuf"/></g><path class="xcjxlvk1l"/><g class="y9tr6bcfx"><path class="v4_0txb-e"/><path class="kllme1bil"/><path class="ney1si8lz"/><path class="g-osicc2m"/><path class="i78ud6b5j"/></g><path class="e4-sjeuhp"/><path class="g2wj9jbhp"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:knife-hit" /></template>
 <style>
-.ankdk1b4s {
-  d: path("M34.017 12.644c2.158 2.402 2.507 5.58.778 7.097h0c-1.728 1.518-4.879.801-7.037-1.6s-2.506-5.58-.778-7.097c1.729-1.518 4.88-.801 7.037 1.6");
-}
-
-.b_cf-4q9t {
-  d: path("M33.116 13.07c1.556 1.463 2.092 3.397 1.196 4.322h0c-.896.924-2.884.487-4.441-.975s-2.093-3.396-1.197-4.32s2.885-.488 4.442.974m-.016 7.411c-1.407.84-2.83 1.705-4.397 2.522l-2.55 2.372c-2.152.534-6.084-2.06-5.301-5.14l2.442-2.649c.783-1.927 1.65-3.332 2.641-4.46");
-}
-
-.bt7m6ibla {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M21.656 19.364c-1.619-1.556-3.257-3.1-4.89-4.646c-.383-.363-.88-.242-1.262.086l-.899.775c-.646.557-.333 1.15.132 1.63h0c4.224 5.022 8.6 9.764 14.335 14.422c.376.305.889.36 1.36-.111l.753-.75c.516-.516.47-1.04.122-1.44a116 116 0 0 0-4.34-4.71");
-}
-
 .e4-sjeuhp {
   fill: none;
   stroke: currentColor;
@@ -52,12 +36,28 @@ const content = `<g class="y9tr6bcfx"><path class="v-1c8shvj"/><path class="k3hu
   d: path("M10.445 34.94c.773-.168 1.555-.154 2.37-.91l6.314-5.851c.392-.363 1.218-.65 1.58-.258l2.117 2.287");
 }
 
+.kllme1bil {
+  d: path("M33.116 13.07c1.556 1.463 2.092 3.397 1.196 4.322c-.896.924-2.884.487-4.441-.975s-2.093-3.396-1.197-4.32s2.885-.488 4.442.974m-.016 7.411c-1.407.84-2.83 1.705-4.397 2.522l-2.55 2.372c-2.152.534-6.084-2.06-5.301-5.14l2.442-2.649c.783-1.927 1.65-3.332 2.641-4.46");
+}
+
 .ney1si8lz {
   d: path("M27.368 24.247c-2.267.274-5.945-2.328-5.27-5.364");
 }
 
 .v-1c8shvj {
   d: path("m18.128 21.14l-7.002 10.506l-1.108 2.91c1.192 1.57 3.166 1.205 4.16.608l7.732-4.648c.545-.327.91-.341 1.357-.287l2.463-1.456");
+}
+
+.v4_0txb-e {
+  d: path("M34.017 12.644c2.158 2.402 2.507 5.58.778 7.097c-1.728 1.518-4.879.801-7.037-1.6s-2.506-5.58-.778-7.097c1.729-1.518 4.88-.801 7.037 1.6");
+}
+
+.xcjxlvk1l {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M21.656 19.364c-1.619-1.556-3.257-3.1-4.89-4.646c-.383-.363-.88-.242-1.262.086l-.899.775c-.646.557-.333 1.15.132 1.63c4.224 5.022 8.6 9.764 14.335 14.422c.376.305.889.36 1.36-.111l.753-.75c.516-.516.47-1.04.122-1.44a116 116 0 0 0-4.34-4.71");
 }
 
 .y9tr6bcfx {

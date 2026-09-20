@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="gy21znb7t"/><path class="lc-q2bcqn"/><path class="pdmvcsbba"/><circle class="cz49mlh3r"/><circle class="d_r-y9o7t"/><path class="xo7iqxezl"/>`;
+const content = `<path class="t_jzeqs0t"/><path class="lc-q2bcqn"/><path class="pdmvcsbba"/><circle class="cz49mlh3r"/><circle class="d_r-y9o7t"/><path class="xo7iqxezl"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:openai-sora" /></template>
 <style>
@@ -22,14 +22,6 @@ const content = `<path class="gy21znb7t"/><path class="lc-q2bcqn"/><path class="
   fill: currentColor;
 }
 
-.gy21znb7t {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M18.435 3.236a9.5 9.5 0 0 0-6.968 8.21q-.77.075-1.517.275a9.5 9.5 0 0 0-6.718 11.635a9.5 9.5 0 0 0 3.634 5.238a9.5 9.5 0 0 0-.528 6.353a9.5 9.5 0 0 0 11.635 6.718a9.5 9.5 0 0 0 1.446-.53a9.5 9.5 0 0 0 10.146 3.635a9.5 9.5 0 0 0 6.969-8.22a9.5 9.5 0 0 0 1.516-.265a9.5 9.5 0 0 0 3.09-16.889a9.5 9.5 0 0 0 .522-6.337A9.5 9.5 0 0 0 30.027 6.34a9.5 9.5 0 0 0-1.426.52a9.5 9.5 0 0 0-10.166-3.625z");
-}
-
 .lc-q2bcqn {
   fill: none;
   stroke: currentColor;
@@ -44,6 +36,14 @@ const content = `<path class="gy21znb7t"/><path class="lc-q2bcqn"/><path class="
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("m15.878 21.713l-1.658-.239l1.317-1.036l.239-1.658l1.036 1.317l1.658.238l-1.317 1.036l-.239 1.659z");
+}
+
+.t_jzeqs0t {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M18.435 3.236a9.5 9.5 0 0 0-6.968 8.21q-.77.075-1.517.275a9.5 9.5 0 0 0-6.718 11.635a9.5 9.5 0 0 0 3.634 5.238a9.5 9.5 0 0 0-.528 6.353a9.5 9.5 0 0 0 11.635 6.718a9.5 9.5 0 0 0 1.446-.53a9.5 9.5 0 0 0 10.146 3.635a9.5 9.5 0 0 0 6.969-8.22a9.5 9.5 0 0 0 1.516-.265a9.5 9.5 0 0 0 3.09-16.889a9.5 9.5 0 0 0 .522-6.337A9.5 9.5 0 0 0 30.027 6.34a9.5 9.5 0 0 0-1.426.52a9.5 9.5 0 0 0-10.166-3.625Z");
 }
 
 .xo7iqxezl {

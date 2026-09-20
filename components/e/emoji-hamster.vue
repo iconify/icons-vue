@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="gyatmeb-s"/><path class="xe7wjxb5j"/><g class="y9tr6bcfx"><path class="zfh4shbum"/><path class="ut6ye1wqn"/><path class="px3uj1bfw"/></g>`;
+const content = `<path class="gyatmeb-s"/><path class="w_ggt5p4m"/><g class="y9tr6bcfx"><path class="zfh4shbum"/><path class="ut6ye1wqn"/><path class="px3uj1bfw"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:emoji-hamster" /></template>
 <style>
@@ -24,12 +24,12 @@ const content = `<path class="gyatmeb-s"/><path class="xe7wjxb5j"/><g class="y9t
   d: path("M40.95 28.742c1.397-6.2-5.888-10.952-5.888-10.952c1.865-.621 5.181-5.958 2.435-8.445s-6.529 2.072-6.529 2.072s-2.813-1.19-6.594-1.15c-3.78-.04-6.594 1.15-6.594 1.15s-3.782-4.56-6.528-2.073s.57 7.825 2.435 8.446c0 0-7.285 4.752-5.888 10.952");
 }
 
-.xe7wjxb5j {
+.w_ggt5p4m {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M24.374 30.794c2.16 0 2.72-2.252 2.72-2.252c5.517 3.138 10.745 1.023 12.717-.483h0c.51-.39 1.227.048 1.139.683c-1.674 12.028-9.566 10.656-13.49 8.828l-2.06-.147a14 14 0 0 0-2.05 0l-2.06.147c-3.925 1.828-11.817 3.2-13.49-8.828c-.09-.635.629-1.072 1.138-.683h0c1.972 1.506 7.2 3.62 12.716.483c0 0 .561 2.252 2.72 2.252");
+  d: path("M24.374 30.794c2.16 0 2.72-2.252 2.72-2.252c5.517 3.138 10.745 1.023 12.717-.483c.51-.39 1.227.048 1.139.683c-1.674 12.028-9.566 10.656-13.49 8.828l-2.06-.147a14 14 0 0 0-2.05 0l-2.06.147c-3.925 1.828-11.817 3.2-13.49-8.828c-.09-.635.629-1.072 1.138-.683c1.972 1.506 7.2 3.62 12.716.483c0 0 .561 2.252 2.72 2.252");
 }
 
 .y9tr6bcfx {

@@ -4,16 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="zzgjxybrw"/><path class="y6wb3fbvd"/><path class="blou_rbow"/>`;
+const content = `<path class="zzgjxybrw"/><path class="y6wb3fbvd"/><path class="qunn3pl0g"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:wifi-pro-ftp-server" /></template>
 <style>
-.blou_rbow {
+.qunn3pl0g {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M26.534 30.484a3.94 3.94 0 0 0-5.032-.014v.014m2.506 1.612a1.58 1.58 0 1 0 1.58 1.58h0a1.58 1.58 0 0 0-1.58-1.58m4.928-4.343a7.744 7.744 0 0 0-9.856 0m12.224-2.866a11.45 11.45 0 0 0-14.608 0");
+  d: path("M26.534 30.484a3.94 3.94 0 0 0-5.032-.014v.014m2.506 1.612a1.58 1.58 0 1 0 1.58 1.58a1.58 1.58 0 0 0-1.58-1.58m4.928-4.343a7.744 7.744 0 0 0-9.856 0m12.224-2.866a11.45 11.45 0 0 0-14.608 0");
 }
 
 .y6wb3fbvd {

@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="eib0e-bwk"/><g class="y9tr6bcfx"><path class="jpv1hebaw"/><path class="hza22accx"/><path class="segullb9d"/><path class="kc9lp6azr"/><path class="bqzx6hb2o"/><path class="qynyhnbwx"/></g><g class="y9tr6bcfx"><path class="wnhys3q4z"/><path class="i5v4ybceq"/><path class="ji07p3d5m"/></g>`;
+const content = `<path class="eib0e-bwk"/><g class="y9tr6bcfx"><path class="jpv1hebaw"/><path class="hza22accx"/><path class="segullb9d"/><path class="kc9lp6azr"/><path class="bqzx6hb2o"/><path class="qynyhnbwx"/></g><g class="y9tr6bcfx"><path class="wnhys3q4z"/><path class="xqub0hzia"/><path class="ji07p3d5m"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:my-singing-monsters" /></template>
 <style>
@@ -22,10 +22,6 @@ const content = `<path class="eib0e-bwk"/><g class="y9tr6bcfx"><path class="jpv1
 
 .hza22accx {
   d: path("M17.504 23.052c-.178.369-.309.784-.089 1.17c.316.552 1.38 1.127 2.095.979c.119-.697.358-1.257.594-1.822c-.485-.58-1.162-.94-1.75-.936");
-}
-
-.i5v4ybceq {
-  d: path("M13.59 13.107a1.46 1.46 0 0 1-1.467 1.452h0c-.81 0-1.466-.65-1.466-1.452v0c0-.801.656-1.451 1.466-1.451s1.466.65 1.466 1.451m-4.222-.44c0 .801-.656 1.451-1.466 1.451s-1.466-.65-1.466-1.451s.656-1.452 1.466-1.452h0c.81 0 1.466.65 1.466 1.452");
 }
 
 .ji07p3d5m {
@@ -50,6 +46,10 @@ const content = `<path class="eib0e-bwk"/><g class="y9tr6bcfx"><path class="jpv1
 
 .wnhys3q4z {
   d: path("m13.567 13.18l.508-5.585l-3.964.803l-.805 4.649");
+}
+
+.xqub0hzia {
+  d: path("M13.59 13.107c0 .802-.657 1.452-1.467 1.452s-1.466-.65-1.466-1.452s.656-1.451 1.466-1.451s1.466.65 1.466 1.451m-4.222-.44c0 .801-.656 1.451-1.466 1.451s-1.466-.65-1.466-1.451s.656-1.452 1.466-1.452s1.466.65 1.466 1.452");
 }
 
 .y9tr6bcfx {

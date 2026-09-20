@@ -4,16 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="w_3uhot5r"/><path class="dtlmtccwz"/>`;
+const content = `<path class="w_3uhot5r"/><path class="ihleesb5g"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:alibaba-supplier" /></template>
 <style>
-.dtlmtccwz {
+.ihleesb5g {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M37.357 23.537c.49.64 1.106.877 1.962.877h1.184a1.996 1.996 0 0 0 1.996-1.996v-.009a1.996 1.996 0 0 0-1.996-1.996h-1.307a2 2 0 0 1-1.997-1.997h0c0-1.106.896-2.002 2.002-2.002h1.178c.856 0 1.47.237 1.961.876");
+  d: path("M37.357 23.537c.49.64 1.106.877 1.962.877h1.184a1.996 1.996 0 0 0 1.996-1.996v-.009a1.996 1.996 0 0 0-1.996-1.996h-1.307a2 2 0 0 1-1.997-1.997c0-1.106.896-2.002 2.002-2.002h1.178c.856 0 1.47.237 1.961.876");
 }
 
 .w_3uhot5r {

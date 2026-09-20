@@ -4,10 +4,18 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="jqp9-5sle"/><circle class="iyjvozbmi"/><path class="ohxd_ybxp"/><circle class="s6j63dr-i"/><circle class="f_xam00xf"/><circle class="ylwewjbdn"/><circle class="e_vctfbxn"/><circle class="okj70bbog"/><circle class="vq6fpvbrh"/><circle class="uqvkosb5j"/><circle class="eo17ffbdv"/><circle class="m8ykgccgu"/>`;
+const content = `<path class="mywfdm2nw"/><circle class="iyjvozbmi"/><path class="bgjfvtdoy"/><circle class="s6j63dr-i"/><circle class="f_xam00xf"/><circle class="ylwewjbdn"/><circle class="e_vctfbxn"/><circle class="okj70bbog"/><circle class="vq6fpvbrh"/><circle class="uqvkosb5j"/><circle class="eo17ffbdv"/><circle class="m8ykgccgu"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:infraredremote" /></template>
 <style>
+.bgjfvtdoy {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M31.171 6.002a10.8 10.8 0 0 1 7.702 3.318a10.8 10.8 0 0 1 3.323 7.697m-10.204-7.88a7.115 7.115 0 0 1 7.068 7.077m-6.324-4.147a3.57 3.57 0 0 1 3.302 2.65a2.8 2.8 0 0 1 .089.74");
+}
+
 .e_vctfbxn {
   cx: 23.307px;
   cy: 19.275px;
@@ -39,14 +47,6 @@ const content = `<path class="jqp9-5sle"/><circle class="iyjvozbmi"/><path class
   stroke-linejoin: round;
 }
 
-.jqp9-5sle {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M37.849 20.953L27.098 10.2c-.44-.44-1.332-.26-1.992.4L4.182 31.524c-.66.66-.839 1.552-.399 1.992l10.751 10.751c.44.44 1.332.261 1.992-.399h0L37.45 22.945c.66-.66.839-1.553.399-1.992");
-}
-
 .m8ykgccgu {
   cx: 23.307px;
   cy: 25.218px;
@@ -54,12 +54,12 @@ const content = `<path class="jqp9-5sle"/><circle class="iyjvozbmi"/><path class
   fill: currentColor;
 }
 
-.ohxd_ybxp {
+.mywfdm2nw {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M31.171 6.002a10.8 10.8 0 0 1 7.702 3.318h0a10.8 10.8 0 0 1 3.323 7.697m-10.204-7.88a7.115 7.115 0 0 1 7.068 7.077m-6.324-4.147a3.57 3.57 0 0 1 3.302 2.65a2.8 2.8 0 0 1 .089.74");
+  d: path("M37.849 20.953L27.098 10.2c-.44-.44-1.332-.26-1.992.4L4.182 31.524c-.66.66-.839 1.552-.399 1.992l10.751 10.751c.44.44 1.332.261 1.992-.399L37.45 22.945c.66-.66.839-1.553.399-1.992");
 }
 
 .okj70bbog {

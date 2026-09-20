@@ -4,10 +4,18 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="o1novq99m"/><path class="mpqe13bcr"/><path class="svaphacgs"/>`;
+const content = `<path class="ft0texpvm"/><path class="mpqe13bcr"/><path class="rvvx4xbfy"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:calendarimportexport" /></template>
 <style>
+.ft0texpvm {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M37.015 28.585a8.46 8.46 0 1 0 8.46 8.46v-.01a8.45 8.45 0 0 0-8.45-8.45zm-2.517 4.234v8.449M31.75 35.7l2.748-2.881m2.739 2.881l-2.739-2.881m5.074 8.449v-8.449m2.748 5.568l-2.748 2.881m-2.739-2.881l2.739 2.881M15.818 8.562a2.514 2.514 0 1 1-2.516 2.516v-.002a2.514 2.514 0 0 1 2.513-2.515zm16.394 0a2.514 2.514 0 0 1 2.515 2.513v.001a2.514 2.514 0 1 1-2.515-2.515z");
+}
+
 .mpqe13bcr {
   fill: none;
   stroke: currentColor;
@@ -16,20 +24,12 @@ const content = `<path class="o1novq99m"/><path class="mpqe13bcr"/><path class="
   d: path("M42.515 30.615V9.485a4 4 0 0 0-4-4h-29a4 4 0 0 0-4 4v29a4 4 0 0 0 4 4h21.022m-2.769-20.283l4.5-2.45m0 0v10.289");
 }
 
-.o1novq99m {
+.rvvx4xbfy {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M37.015 28.585a8.46 8.46 0 1 0 8.46 8.46h0v-.01a8.45 8.45 0 0 0-8.45-8.45zm-2.517 4.234v8.449M31.75 35.7l2.748-2.881m2.739 2.881l-2.739-2.881m5.074 8.449v-8.449m2.748 5.568l-2.748 2.881m-2.739-2.881l2.739 2.881M15.818 8.562a2.514 2.514 0 1 1-2.516 2.516v-.002a2.514 2.514 0 0 1 2.513-2.515zm16.394 0a2.514 2.514 0 0 1 2.515 2.513h0v.001a2.514 2.514 0 0 1-2.515 2.513h0a2.514 2.514 0 0 1 0-5.028z");
-}
-
-.svaphacgs {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M12.089 36.234c1.242 1.041 2.584 1.518 5.597 1.518h.702a4.5 4.5 0 0 0 4.499-4.499h0a4.5 4.5 0 0 0-4.5-4.499m-6.3-7.499c1.245-1.037 2.588-1.51 5.6-1.503l.7.004a4.5 4.5 0 0 1 4.5 4.5h0a4.5 4.5 0 0 1-4.5 4.498m-3.457 0h3.458");
+  d: path("M12.089 36.234c1.242 1.041 2.584 1.518 5.597 1.518h.702a4.5 4.5 0 0 0-.001-8.998m-6.3-7.499c1.245-1.037 2.588-1.51 5.6-1.503l.7.004a4.5 4.5 0 1 1 0 8.998m-3.457 0h3.458");
 }
 
 </style>

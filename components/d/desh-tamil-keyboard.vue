@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<g class="y9tr6bcfx"><path class="penk6oupj"/><path class="kyju5ub2l"/></g><g class="y9tr6bcfx"><path class="za4lbpb-s"/><rect class="jwpe47e7e"/><rect class="rgcydlbas"/><rect class="e-04qgxxa"/><path class="xw58dppcq"/><rect class="rgf3zqb3y"/><rect class="n8oasabdf"/><rect class="cf-xth5ws"/><path class="bk5ojmbhy"/><rect class="fs_71_bzy"/><path class="ey931hjnn"/></g>`;
+const content = `<g class="y9tr6bcfx"><path class="z_29cuaap"/><path class="kyju5ub2l"/></g><g class="y9tr6bcfx"><path class="za4lbpb-s"/><rect class="jwpe47e7e"/><rect class="rgcydlbas"/><rect class="e-04qgxxa"/><path class="ocel3bcpk"/><rect class="rgf3zqb3y"/><rect class="n8oasabdf"/><rect class="cf-xth5ws"/><path class="bk5ojmbhy"/><rect class="fs_71_bzy"/><path class="ehr-8zajk"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:desh-tamil-keyboard" /></template>
 <style>
@@ -30,8 +30,8 @@ const content = `<g class="y9tr6bcfx"><path class="penk6oupj"/><path class="kyju
   ry: 0.421px;
 }
 
-.ey931hjnn {
-  d: path("m34.253 23.878l-10.131 7.768l-10.13-7.768a2.1 2.1 0 0 1-.824-1.67V7.183c0-.93.753-1.683 1.683-1.683h18.542c.93 0 1.683.754 1.683 1.683h0v15.025c0 .654-.304 1.271-.824 1.67");
+.ehr-8zajk {
+  d: path("m34.253 23.878l-10.131 7.768l-10.13-7.768a2.1 2.1 0 0 1-.824-1.67V7.183c0-.93.753-1.683 1.683-1.683h18.542c.93 0 1.683.754 1.683 1.683v15.025c0 .654-.304 1.271-.824 1.67");
 }
 
 .fs_71_bzy {
@@ -65,8 +65,8 @@ const content = `<g class="y9tr6bcfx"><path class="penk6oupj"/><path class="kyju
   ry: 0.421px;
 }
 
-.penk6oupj {
-  d: path("M19.862 13.88H25.9v2.054a3.02 3.02 0 0 1-3.02 3.02h0a3.02 3.02 0 0 1-3.02-3.02zm9.124-3.891h-7.53v3.89");
+.ocel3bcpk {
+  d: path("M25.805 30.355v2.37a.42.42 0 0 1-.42.421H22.86a.42.42 0 0 1-.42-.42v-2.37");
 }
 
 .rgcydlbas {
@@ -87,15 +87,15 @@ const content = `<g class="y9tr6bcfx"><path class="penk6oupj"/><path class="kyju
   ry: 0.421px;
 }
 
-.xw58dppcq {
-  d: path("M25.805 30.355v2.37a.42.42 0 0 1-.42.421H22.86a.42.42 0 0 1-.42-.42h0v-2.37");
-}
-
 .y9tr6bcfx {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
+}
+
+.z_29cuaap {
+  d: path("M19.862 13.88H25.9v2.054a3.02 3.02 0 0 1-3.02 3.02a3.02 3.02 0 0 1-3.02-3.02zm9.124-3.891h-7.53v3.89");
 }
 
 .za4lbpb-s {

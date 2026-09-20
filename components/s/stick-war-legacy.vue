@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="g2wj9jbhp"/><path class="s2jy8zbiw"/><path class="wrca27jnu"/><path class="qq_hpab2l"/><path class="qn8gy0bbo"/><path class="no-ii3qyd"/><path class="nf-u_3bsp"/><path class="kq8rgcbda"/>`;
+const content = `<path class="g2wj9jbhp"/><path class="s2jy8zbiw"/><path class="wrca27jnu"/><path class="qq_hpab2l"/><path class="x5qaoy11v"/><path class="ig0phab0o"/><path class="nf-u_3bsp"/><path class="kq8rgcbda"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:stick-war-legacy" /></template>
 <style>
@@ -14,6 +14,14 @@ const content = `<path class="g2wj9jbhp"/><path class="s2jy8zbiw"/><path class="
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("M9.5 5.5h29c2.216 0 4 1.784 4 4v29c0 2.216-1.784 4-4 4h-29c-2.216 0-4-1.784-4-4v-29c0-2.216 1.784-4 4-4");
+}
+
+.ig0phab0o {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M40.063 16.357c-1.527 3.383-7.01 6.377-7.972 1.953c2.63-.341 5.343-.83 7.972-1.953m-16.472-2.141c1.317 1.33 2.635 2.615 3.952 3.58c-2.188 2.489-4.095-.02-4.182-3.139m16.362 27.634c-.558-.54-.839-1.606-.76-2.18c.087-.628.1-1.036.502-2.09c-.48-.725.003-.933-.293-1.947c-.067-.553.546-1.38.877-1.577c.718-.426 1.462-.125 2.43.368m-16.204-6.237c1.437.535 4.373 1.416 5.435 3.03c.78-1.788 1.705-3.408 2.152-5.786l-.622-2.08c-.195-.653-.395-1.047-1.229-1.184c-1.912-.314-5.371-.295-5.785.868l.624 2.746z");
 }
 
 .kq8rgcbda {
@@ -30,22 +38,6 @@ const content = `<path class="g2wj9jbhp"/><path class="s2jy8zbiw"/><path class="
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("M26.467 24.543c2.48-.604 5.918-.508 7.376 1.425m-.134.615c-1.91-.778-4.84-.418-5.234.744m-1.415 8.011c-1.026 2.119-1.69 4.81-2.042 7.15M14.26 20.218c-.71.128-1.485.575-2.328 1.084c-1.347-.822-1.838-1.957-1.865-3.428c.172-.713.612-1.537 1.232-1.878c1.058-.474 1.964-.75 3.38-.897c.592-.076 1.14.3 1.661.959c.282 2.301.972 4.715 1.598 5.654c1.038 1.559 3.772 4.061 5.978 6.235");
-}
-
-.no-ii3qyd {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M40.063 16.357c-1.527 3.383-7.01 6.377-7.972 1.953c2.63-.341 5.343-.83 7.972-1.953m-16.472-2.141c1.317 1.33 2.635 2.615 3.952 3.58h0c-2.188 2.489-4.095-.02-4.182-3.139m16.362 27.634c-.558-.54-.839-1.606-.76-2.18c.087-.628.1-1.036.502-2.09c-.48-.725.003-.933-.293-1.947c-.067-.553.546-1.38.877-1.577c.718-.426 1.462-.125 2.43.368m-16.204-6.237c1.437.535 4.373 1.416 5.435 3.03c.78-1.788 1.705-3.408 2.152-5.786l-.622-2.08c-.195-.653-.395-1.047-1.229-1.184c-1.912-.314-5.371-.295-5.785.868l.624 2.746z");
-}
-
-.qn8gy0bbo {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M10.916 32.37c-.115 3.654.515 7.465 1.48 10.122M9.371 31.185c-.201 4.736.026 8.58.737 11.306m-3.545-11.39c.126 3.68-.156 8.498.626 10.652M42.5 31.75c-2.214 1.709-4.888 2.63-7.633 2.63c-7.134 0-12.917-6.09-12.917-13.601s5.783-13.6 12.917-13.6h0c2.738 0 5.405.915 7.616 2.615");
 }
 
 .qq_hpab2l {
@@ -70,6 +62,14 @@ const content = `<path class="g2wj9jbhp"/><path class="s2jy8zbiw"/><path class="
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("M36.531 36.484c-1.838 1.694-3.866 3.878-5.467 6.005m3.81-8.111c-2.414 2.121-4.916 4.93-7.174 8.056M14.077 12.776l-.875 2.561M8.32 9.762l-.263 3.76m3.64-1.631l-.596 2.419m-2.873-4.075c.345-.948 2.972-.732 4.124-.11c.821 1.047 1.29 1.67 1.644 2.889c.634-.702 1.229-1.14.946-2.577c-1.267-2.976-2.822-4.034-6.436-3.444c-.356.808-.65 1.76-.278 3.242");
+}
+
+.x5qaoy11v {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M10.916 32.37c-.115 3.654.515 7.465 1.48 10.122M9.371 31.185c-.201 4.736.026 8.58.737 11.306m-3.545-11.39c.126 3.68-.156 8.498.626 10.652M42.5 31.75c-2.214 1.709-4.888 2.63-7.633 2.63c-7.134 0-12.917-6.09-12.917-13.601s5.783-13.6 12.917-13.6c2.738 0 5.405.915 7.616 2.615");
 }
 
 </style>

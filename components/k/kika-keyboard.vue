@@ -4,16 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="be01c1qws"/><path class="yl0ntabiw"/>`;
+const content = `<path class="dip3vvbjq"/><path class="yl0ntabiw"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:kika-keyboard" /></template>
 <style>
-.be01c1qws {
+.dip3vvbjq {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M39.111 31.912L24 43.5L8.889 31.912a3.14 3.14 0 0 1-1.229-2.49V7.01a2.51 2.51 0 0 1 2.511-2.51h27.658a2.51 2.51 0 0 1 2.51 2.51h0v22.412c0 .976-.453 1.896-1.228 2.49");
+  d: path("M39.111 31.912L24 43.5L8.889 31.912a3.14 3.14 0 0 1-1.229-2.49V7.01a2.51 2.51 0 0 1 2.511-2.51h27.658a2.51 2.51 0 0 1 2.51 2.51v22.412c0 .976-.453 1.896-1.228 2.49");
 }
 
 .yl0ntabiw {

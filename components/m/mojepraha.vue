@@ -4,18 +4,10 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="ry83ffbng"/><path class="yc86yibst"/><path class="iw0zkp3uc"/><rect class="j3s9ivbxi"/>`;
+const content = `<path class="ry83ffbng"/><path class="yc86yibst"/><path class="mu89qjmlo"/><rect class="j3s9ivbxi"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:mojepraha" /></template>
 <style>
-.iw0zkp3uc {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M25.424 30.75c-.42 0-.84-.42-.84-.84v-4.72m2.76-2.805v8.394m0-3.462c0-1.154.945-2.099 2.099-2.099s2.098.945 2.098 2.099v3.462m-9.498-14.467");
-}
-
 .j3s9ivbxi {
   width: 37px;
   height: 37px;
@@ -27,6 +19,14 @@ const content = `<path class="ry83ffbng"/><path class="yc86yibst"/><path class="
   stroke-linejoin: round;
   rx: 4px;
   ry: 4px;
+}
+
+.mu89qjmlo {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M25.424 30.75c-.42 0-.84-.42-.84-.84v-4.72m2.76-2.805v8.394m0-3.462c0-1.154.945-2.099 2.099-2.099s2.098.945 2.098 2.099v3.462m-9.498-14.467z");
 }
 
 .ry83ffbng {

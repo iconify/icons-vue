@@ -4,10 +4,18 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="tw26e2_6c"/><circle class="h_mgq373y"/><circle class="ghed1ac7b"/><circle class="wm830cc3l"/><path class="iv04wcbub"/><circle class="lxdowwbsg"/><path class="ycy9v4bid"/><path class="i9clfwm2k"/><circle class="xmowibcql"/>`;
+const content = `<path class="gfr87h2af"/><circle class="h_mgq373y"/><circle class="ghed1ac7b"/><circle class="wm830cc3l"/><path class="iv04wcbub"/><circle class="lxdowwbsg"/><path class="ycy9v4bid"/><path class="i9clfwm2k"/><circle class="xmowibcql"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:digiturk-online" /></template>
 <style>
+.gfr87h2af {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M28.722 38.49a8.355 8.355 0 1 0-4.72 1.462v-7.143M8.26 9.88a3.303 3.303 0 1 1 0 6.607m5.415-.001V12.31");
+}
+
 .ghed1ac7b {
   cx: 13.675px;
   cy: 10.495px;
@@ -46,14 +54,6 @@ const content = `<path class="tw26e2_6c"/><circle class="h_mgq373y"/><circle cla
   cy: 10.495px;
   r: 0.75px;
   fill: currentColor;
-}
-
-.tw26e2_6c {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M28.722 38.49a8.355 8.355 0 1 0-4.72 1.462v-7.143M8.26 9.88a3.303 3.303 0 0 1 3.303 3.303h0a3.303 3.303 0 0 1-3.304 3.303h0m5.416 0V12.31");
 }
 
 .wm830cc3l {

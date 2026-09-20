@@ -4,20 +4,20 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="s0durpbtz"/><g class="y9tr6bcfx"><path class="gffs01v8e"/><path class="hy5hc8v8x"/><path class="fq-mfxbgb"/></g>`;
+const content = `<path class="s0durpbtz"/><g class="y9tr6bcfx"><path class="gffs01v8e"/><path class="j1xtad4fw"/><path class="kzen96bsk"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:schildichat" /></template>
 <style>
-.fq-mfxbgb {
-  d: path("M28.47 20.54a36 36 0 0 1 2.8-2.4a5.3 5.3 0 0 1 1.6-.9l.9-3.9h0l-5.1-2S25.57 11 24 11h0c-1.6 0-4.7.3-4.7.3l-5.2 2h0l.9 3.9a11 11 0 0 1 1.6.9a36 36 0 0 1 2.8 2.4M37.57 19l-3.7-5.7");
-}
-
 .gffs01v8e {
   d: path("m33 17.34l4.6 1.7l.9 1.4l2.3 4.4l2.1 6.2l.6 2.1l-2.8.4l-2.4.6l-3.2-.5");
 }
 
-.hy5hc8v8x {
-  d: path("M24.07 36.74c1.1 0 1.4.2 3.3.2c.5 0 1.8-.9 3.2-1.6a29 29 0 0 1 4.6-1.7c.4-.8-5.8-12.7-6.5-13h0a12.6 12.6 0 0 0-4.6-.7a13.2 13.2 0 0 0-4.6.7h0c-.8.3-6.9 12.2-6.5 13a33 33 0 0 1 4.6 1.7a15 15 0 0 0 3.2 1.6c1.8 0 2.1-.2 3.3-.2");
+.j1xtad4fw {
+  d: path("M24.07 36.74c1.1 0 1.4.2 3.3.2c.5 0 1.8-.9 3.2-1.6a29 29 0 0 1 4.6-1.7c.4-.8-5.8-12.7-6.5-13a12.6 12.6 0 0 0-4.6-.7a13.2 13.2 0 0 0-4.6.7c-.8.3-6.9 12.2-6.5 13a33 33 0 0 1 4.6 1.7a15 15 0 0 0 3.2 1.6c1.8 0 2.1-.2 3.3-.2");
+}
+
+.kzen96bsk {
+  d: path("M28.47 20.54a36 36 0 0 1 2.8-2.4a5.3 5.3 0 0 1 1.6-.9l.9-3.9l-5.1-2S25.57 11 24 11c-1.6 0-4.7.3-4.7.3l-5.2 2l.9 3.9a11 11 0 0 1 1.6.9a36 36 0 0 1 2.8 2.4M37.57 19l-3.7-5.7");
 }
 
 .s0durpbtz {

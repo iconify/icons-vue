@@ -1,0 +1,27 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="w1c0xzceb"/><path class="ue41uwbxk"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:picc" /></template>
+<style>
+.ue41uwbxk {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M43.5 32.5c-7.18 0-11.843-1.489-19.116-5.7m-2.286 4.994C29.769 36.111 35.615 38 43.5 38M21.25 8.998c-.01 15.404-4.331 21.678-6.986 23.082c-1.328.702-2.201.526-2.934.03S9.97 30.636 10 29.052c.024-1.251.518-1.84 1.305-2.19s2.053-.413 3.709.64q1.146.73 2.233 1.406");
+}
+
+.w1c0xzceb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M19.443 23.798q-.72-.454-1.476-.934c-2.92-1.859-6.23-2.212-8.899-1.024S4.56 25.804 4.5 28.948c-.06 3.205 1.359 6.098 3.746 7.716s5.708 1.802 8.588.28c5.76-3.046 9.905-11.562 9.916-27.941");
+}
+
+</style>

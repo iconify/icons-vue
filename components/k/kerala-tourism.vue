@@ -4,16 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="tq192fqos"/><path class="pngykrcrk"/><path class="jrpx9nbla"/><path class="llyx2isck"/><path class="ip59khb7u"/>`;
+const content = `<path class="tq192fqos"/><path class="pngykrcrk"/><path class="jrpx9nbla"/><path class="w-7omcb1e"/><path class="er6zzujrt"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:kerala-tourism" /></template>
 <style>
-.ip59khb7u {
+.er6zzujrt {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M16.856 32.241c2.03 1.576 5.235.973 7.396-.308v0c1.81 1.883 5.327 1.424 7.301-.078h0c1.78 1.693 5.258 1.233 6.914-.447h0c1.272 1.282 3.417 1.145 5.033.636m-34.613 3.3c2.097 1.308 5.663 1.598 7.383-.397v0c1.57 2.109 6.006 1.845 7.658-.044v-.001c2.053 1.89 6.081 1.342 7.97-.63h0c1.27 2.08 5.191 1.741 6.46-.166M8.893 19.877v10.682m3.766-5.769c-4.643-.446-5.018 5.422-.216 5.234");
+  d: path("M16.856 32.241c2.03 1.576 5.235.973 7.396-.308c1.81 1.883 5.327 1.424 7.301-.078c1.78 1.693 5.258 1.233 6.914-.447c1.272 1.282 3.417 1.145 5.033.636m-34.613 3.3c2.097 1.308 5.663 1.598 7.383-.397c1.57 2.109 6.006 1.845 7.658-.044v-.001c2.053 1.89 6.081 1.342 7.97-.63c1.27 2.08 5.191 1.741 6.46-.166M8.893 19.877v10.682m3.766-5.769c-4.643-.446-5.018 5.422-.216 5.234");
 }
 
 .jrpx9nbla {
@@ -22,14 +22,6 @@ const content = `<path class="tq192fqos"/><path class="pngykrcrk"/><path class="
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("M25.798 14.518c-.494-1.855-2.608-3.834-4.023-1.696m4.023 1.696c2.165-2.185 2.832 1.096 3.01 2.805m-4.631 8.247c.303-1.008 2-.91 2.656-.28c.706 1.311.161 3.395.33 5.532");
-}
-
-.llyx2isck {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M27.162 28.944c-2.506 3.65-6.111-1.688-1.61-1.9M4.5 33.06c1.206.196 2.868-.428 3.778-1.205h0c2.427 1.92 5.922 2.088 8.579.386");
 }
 
 .pngykrcrk {
@@ -46,6 +38,14 @@ const content = `<path class="tq192fqos"/><path class="pngykrcrk"/><path class="
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("M32.752 25.307c.302-1.007 2-.91 2.655-.28c.706 1.312.161 3.396.33 5.533");
+}
+
+.w-7omcb1e {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M27.162 28.944c-2.506 3.65-6.111-1.688-1.61-1.9M4.5 33.06c1.206.196 2.868-.428 3.778-1.205c2.427 1.92 5.922 2.088 8.579.386");
 }
 
 </style>

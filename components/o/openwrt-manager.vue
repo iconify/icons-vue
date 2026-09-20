@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="g_9ss5b_g"/><path class="v8uuzpbfi"/><circle class="arz5y4bcu"/><path class="lzyicmd5p"/>`;
+const content = `<path class="vkxu0rbou"/><path class="v8uuzpbfi"/><circle class="arz5y4bcu"/><path class="lzyicmd5p"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:openwrt-manager" /></template>
 <style>
@@ -16,14 +16,6 @@ const content = `<path class="g_9ss5b_g"/><path class="v8uuzpbfi"/><circle class
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-}
-
-.g_9ss5b_g {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M13.642 14.836c5.35-5.35 14.026-5.35 19.377 0q0 0 0 0M30.18 36.39a13.701 13.701 0 0 1-18.715-18.715m23.731-.001a13.7 13.7 0 0 1 .792 12.094m-17.875-10.46a7.38 7.38 0 0 1 10.434 0h0");
 }
 
 .lzyicmd5p {
@@ -40,6 +32,14 @@ const content = `<path class="g_9ss5b_g"/><path class="v8uuzpbfi"/><circle class
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("M9.17 10.365c7.82-7.82 20.5-7.82 28.32 0");
+}
+
+.vkxu0rbou {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M13.642 14.836c5.35-5.35 14.026-5.35 19.377 0M30.18 36.39a13.701 13.701 0 0 1-18.715-18.715m23.731-.001a13.7 13.7 0 0 1 .792 12.094m-17.875-10.46a7.38 7.38 0 0 1 10.434 0");
 }
 
 </style>

@@ -4,20 +4,24 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<g class="y9tr6bcfx"><path class="a1civftgv"/><path class="yjuusyban"/><path class="wqfd1sbym"/><path class="oy55x1bkn"/><path class="nu8z3r6wp"/></g>`;
+const content = `<g class="y9tr6bcfx"><path class="vb6ipkb1q"/><path class="tddorqf-q"/><path class="wqfd1sbym"/><path class="bha_dg7ae"/><path class="qwydunbzv"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:zenwatchmanager" /></template>
 <style>
-.a1civftgv {
-  d: path("M38.99 7.765H9.01c-1.003 0-1.817.785-1.817 1.752v28.915c0 .968.814 1.753 1.817 1.753h29.98c1.003 0 1.817-.785 1.817-1.753h0V9.517c0-.967-.814-1.752-1.817-1.752");
+.bha_dg7ae {
+  d: path("M25.5 24.238a1.5 1.5 0 1 1-1.5-1.5a1.5 1.5 0 0 1 1.5 1.5");
 }
 
-.nu8z3r6wp {
-  d: path("M28 24.238a4 4 0 0 1-4 4h0a4 4 0 0 1-4-4h0a4 4 0 0 1 4-4h0a4 4 0 0 1 4 4");
+.qwydunbzv {
+  d: path("M28 24.238a4 4 0 0 1-8 0a4 4 0 0 1 8 0");
 }
 
-.oy55x1bkn {
-  d: path("M25.5 24.238a1.5 1.5 0 1 1-1.5-1.5h0a1.5 1.5 0 0 1 1.5 1.5");
+.tddorqf-q {
+  d: path("M35.668 11.155H12.332c-.78 0-1.414.626-1.414 1.397v23.037c0 .771.633 1.396 1.414 1.396h23.336c.78 0 1.414-.625 1.414-1.396V12.552c0-.771-.633-1.397-1.414-1.397m-23.531-3.39V5.5h23.346v2.265M12.35 40.185V42.5h23.038v-2.315");
+}
+
+.vb6ipkb1q {
+  d: path("M38.99 7.765H9.01c-1.003 0-1.817.785-1.817 1.752v28.915c0 .968.814 1.753 1.817 1.753h29.98c1.003 0 1.817-.785 1.817-1.753V9.517c0-.967-.814-1.752-1.817-1.752");
 }
 
 .wqfd1sbym {
@@ -29,10 +33,6 @@ const content = `<g class="y9tr6bcfx"><path class="a1civftgv"/><path class="yjuu
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-}
-
-.yjuusyban {
-  d: path("M35.668 11.155H12.332c-.78 0-1.414.626-1.414 1.397h0v23.037c0 .771.633 1.396 1.414 1.396h23.336c.78 0 1.414-.625 1.414-1.396V12.552c0-.771-.633-1.397-1.414-1.397m-23.531-3.39V5.5h23.346v2.265M12.35 40.185V42.5h23.038v-2.315");
 }
 
 </style>

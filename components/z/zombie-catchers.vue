@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="pg-t4laic"/><path class="vofapoq3b"/><path class="ehccsm5zj"/><path class="t9pqh5b6p"/><path class="pf8356ahw"/><path class="svwqc73ug"/><path class="bmq7p7bcv"/><path class="hswulbctk"/>`;
+const content = `<path class="ohzc4ib2k"/><path class="vofapoq3b"/><path class="ehccsm5zj"/><path class="t9pqh5b6p"/><path class="pf8356ahw"/><path class="svwqc73ug"/><path class="bmq7p7bcv"/><path class="hswulbctk"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:zombie-catchers" /></template>
 <style>
@@ -32,20 +32,20 @@ const content = `<path class="pg-t4laic"/><path class="vofapoq3b"/><path class="
   d: path("M17.731 34.368c.51.124.826-.747.952-1.257c.15-.607.308-1.73-.306-1.853m-6.437.086l5.272 1.271m-3.262 2.772c-2.775-1.93-5.597-3.95-8.438-5.539c3.492-.293 6.929-.843 10.36-1.416c-1.39 1.427-2.314 4.313-1.923 6.954z");
 }
 
+.ohzc4ib2k {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M38.5 5.624c2.216 0 4 1.784 4 4v29a3.99 3.99 0 0 1-2.62 3.757M5.5 27.777V9.624c0-2.217 1.784-4 4-4h16.389m4.92 37H9.5c-2.216 0-4-1.785-4-4V32.25M36.731 6.394a1.675 1.675 0 1 1-3.349 0a1.675 1.675 0 0 1 3.349 0m-5.994-.304a1.467 1.467 0 0 1-2.934.001a1.467 1.467 0 0 1 2.934 0");
+}
+
 .pf8356ahw {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("M33.218 25.272c-.226 3.465-2.878 6.132-6.084 6.22c-1.925.052-3.769-.265-3.012-1.319m-2.309-3.303c.284.932.352 1.884 1.31 2.762c.194.178.415-.118.489-.305c.243-.62.145-1.492.155-2.308");
-}
-
-.pg-t4laic {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M38.5 5.624c2.216 0 4 1.784 4 4v29a3.99 3.99 0 0 1-2.62 3.757M5.5 27.777V9.624c0-2.217 1.784-4 4-4h16.389m4.92 37H9.5c-2.216 0-4-1.785-4-4V32.25M36.731 6.394a1.675 1.675 0 1 1-3.349 0a1.675 1.675 0 0 1 3.349 0m-5.994-.304a1.467 1.467 0 0 1-2.934.001v0a1.467 1.467 0 0 1 2.934 0");
 }
 
 .svwqc73ug {

@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<circle class="ox6op560v"/><path class="jxye8cbfu"/><ellipse class="c0-grlblp"/><path class="e0fd06b0p"/>`;
+const content = `<circle class="ox6op560v"/><path class="jxye8cbfu"/><ellipse class="c0-grlblp"/><path class="se4t2bckf"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:network-utilities" /></template>
 <style>
@@ -17,14 +17,6 @@ const content = `<circle class="ox6op560v"/><path class="jxye8cbfu"/><ellipse cl
   stroke-linejoin: round;
   rx: 6.433px;
   ry: 15.021px;
-}
-
-.e0fd06b0p {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M42.398 31.818a4.669 4.669 0 0 1-6.561 5.918h0l-4.099 4.75A1.757 1.757 0 0 1 29.254 40l4.75-4.098h0a4.669 4.669 0 0 1 5.917-6.561l-3.068 3.06l.416 2.069l2.068.416Z");
 }
 
 .jxye8cbfu {
@@ -43,6 +35,14 @@ const content = `<circle class="ox6op560v"/><path class="jxye8cbfu"/><ellipse cl
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
+}
+
+.se4t2bckf {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M42.398 31.818a4.669 4.669 0 0 1-6.561 5.918l-4.099 4.75A1.757 1.757 0 0 1 29.254 40l4.75-4.098a4.669 4.669 0 0 1 5.917-6.561l-3.068 3.06l.416 2.069l2.068.416Z");
 }
 
 </style>

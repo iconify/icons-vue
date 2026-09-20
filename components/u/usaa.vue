@@ -4,16 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="ml-anenhl"/><path class="ezealcb0f"/>`;
+const content = `<path class="ml-anenhl"/><path class="hdnsmv60g"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:usaa" /></template>
 <style>
-.ezealcb0f {
+.hdnsmv60g {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("m27.135 15.838l10.102 6.167a3.04 3.04 0 0 0 2.921 0m-12.37-1.511l9.562 5.708a2.79 2.79 0 0 0 2.809 0M28.442 25.15l8.888 5.25a2.83 2.83 0 0 0 2.827 0M8.548 32.676v6.508A3.28 3.28 0 0 0 11.74 42.5a3.28 3.28 0 0 0 3.192-3.316v-6.508m2.053 8.708a2.95 2.95 0 0 0 2.473 1.113h1.483a2.48 2.48 0 0 0 2.473-2.473h0a2.48 2.48 0 0 0-2.473-2.473h-1.607a2.48 2.48 0 0 1-2.473-2.473h0a2.48 2.48 0 0 1 2.473-2.473h1.484a2.66 2.66 0 0 1 2.472 1.113m2.732 5.46h4.142m3.974 0h4.141m-5.36 3.294l3.324-9.848l3.2 9.848m-14.66 0l3.323-9.848l3.201 9.848");
+  d: path("m27.135 15.838l10.102 6.167a3.04 3.04 0 0 0 2.921 0m-12.37-1.511l9.562 5.708a2.79 2.79 0 0 0 2.809 0M28.442 25.15l8.888 5.25a2.83 2.83 0 0 0 2.827 0M8.548 32.676v6.508A3.28 3.28 0 0 0 11.74 42.5a3.28 3.28 0 0 0 3.192-3.316v-6.508m2.053 8.708a2.95 2.95 0 0 0 2.473 1.113h1.483a2.48 2.48 0 0 0 2.473-2.473a2.48 2.48 0 0 0-2.473-2.473h-1.607a2.48 2.48 0 0 1-2.473-2.473a2.48 2.48 0 0 1 2.473-2.473h1.484a2.66 2.66 0 0 1 2.472 1.113m2.732 5.46h4.142m3.974 0h4.141m-5.36 3.294l3.324-9.848l3.2 9.848m-14.66 0l3.323-9.848l3.201 9.848");
 }
 
 .ml-anenhl {

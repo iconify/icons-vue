@@ -4,16 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="wf4achv2e"/><path class="ifrdoxbcc"/>`;
+const content = `<path class="wf4achv2e"/><path class="me3pximqi"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:ttsutil" /></template>
 <style>
-.ifrdoxbcc {
+.me3pximqi {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M33.101 17.782c2.768-.005 4.158 3.34 2.203 5.298s-5.301.574-5.301-2.194a3.105 3.105 0 0 1 3.098-3.104m0 7.36c3.47 0 6.203.965 6.203 2.115v2.96H26.899v-2.989c0-1.15 2.734-2.087 6.203-2.087zm4.784-2.087c.481-1.033.638-2.212.338-3.344a5 5 0 0 0-.327-.985m1.934 5.208c.732-1.58.934-3.397.382-5.089a7 7 0 0 0-.358-1.004");
+  d: path("M33.101 17.782c2.768-.005 4.158 3.34 2.203 5.298s-5.301.574-5.301-2.194a3.105 3.105 0 0 1 3.098-3.104m0 7.36c3.47 0 6.203.965 6.203 2.115v2.96H26.899v-2.989c0-1.15 2.734-2.087 6.203-2.087Zm4.784-2.087c.481-1.033.638-2.212.338-3.344a5 5 0 0 0-.327-.985m1.934 5.208c.732-1.58.934-3.397.382-5.089a7 7 0 0 0-.358-1.004");
 }
 
 .wf4achv2e {

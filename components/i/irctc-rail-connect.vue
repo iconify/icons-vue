@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="b_r5n4bid"/><path class="wnf30hoqd"/><path class="ez06y-bnc"/><path class="h8-g4wbqs"/><path class="arp-xdl8v"/><path class="h9_gaob-u"/><path class="g6uf-6bes"/><path class="bmp9u-v4i"/>`;
+const content = `<path class="b_r5n4bid"/><path class="wnf30hoqd"/><path class="ez06y-bnc"/><path class="h8-g4wbqs"/><path class="arp-xdl8v"/><path class="h9_gaob-u"/><path class="g6uf-6bes"/><path class="rpxj6qb6r"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:irctc-rail-connect" /></template>
 <style>
@@ -22,14 +22,6 @@ const content = `<path class="b_r5n4bid"/><path class="wnf30hoqd"/><path class="
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("M8.747 19.452C14.54 14.55 27.37 12.59 36.548 13.66");
-}
-
-.bmp9u-v4i {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M23.895 18.739a3.486 3.486 0 0 1 3.486 3.486h0a3.486 3.486 0 0 1-3.486 3.486l4.277 4.522");
 }
 
 .ez06y-bnc {
@@ -62,6 +54,14 @@ const content = `<path class="b_r5n4bid"/><path class="wnf30hoqd"/><path class="
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("M31.648 34.186c1.509-2.614 3.614-12.905 1.115-20.791");
+}
+
+.rpxj6qb6r {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M23.895 18.739a3.486 3.486 0 0 1 3.486 3.486a3.486 3.486 0 0 1-3.486 3.486l4.277 4.522");
 }
 
 .wnf30hoqd {

@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="ahl-bkbwu"/><path class="z50l41elc"/><path class="qgos2hrud"/><path class="i-kiehb5a"/><path class="oh_ys8cvv"/>`;
+const content = `<path class="ahl-bkbwu"/><path class="rhw60dbwu"/><path class="qgos2hrud"/><path class="i-kiehb5a"/><path class="oh_ys8cvv"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:broccoli" /></template>
 <style>
@@ -40,12 +40,12 @@ const content = `<path class="ahl-bkbwu"/><path class="z50l41elc"/><path class="
   d: path("M32.657 20.712a4.132 4.132 0 0 1-8.21.713");
 }
 
-.z50l41elc {
+.rhw60dbwu {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M18.142 11.302a4.481 4.481 0 0 1 7.668-4.64h0a3.688 3.688 0 0 1 5.754 4.553M17.958 22.323q4.132 1.547 5.787 6.998m0-.001q.324-3.623 2.239-5.288");
+  d: path("M18.142 11.302a4.481 4.481 0 0 1 7.668-4.64a3.688 3.688 0 0 1 5.754 4.553M17.958 22.323q4.132 1.547 5.787 6.998m0-.001q.324-3.623 2.239-5.288");
 }
 
 </style>

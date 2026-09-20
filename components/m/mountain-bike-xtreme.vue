@@ -4,14 +4,10 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<g class="y9tr6bcfx"><path class="mv7u9066d"/><path class="i0m5e3uhl"/><path class="nyv0afseo"/></g><g class="y9tr6bcfx"><path class="i59a-ib4l"/><path class="bx6_aqh1t"/><path class="emqnvrbba"/><path class="k7pd5v6df"/><path class="vba5q5bia"/></g>`;
+const content = `<g class="y9tr6bcfx"><path class="mv7u9066d"/><path class="i0m5e3uhl"/><path class="nyv0afseo"/></g><g class="y9tr6bcfx"><path class="i59a-ib4l"/><path class="ljpxxlqzk"/><path class="emqnvrbba"/><path class="muqrzf7qa"/><path class="vba5q5bia"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:mountain-bike-xtreme" /></template>
 <style>
-.bx6_aqh1t {
-  d: path("M37.923 29.69a1.671 1.671 0 1 1-1.672-1.672h0c.924 0 1.672.748 1.672 1.671m-25.777 6.269c0 .8-.649 1.449-1.449 1.449h0c-.8 0-1.449-.65-1.449-1.45h0c0-.8.649-1.448 1.45-1.448h0c.8 0 1.448.649 1.448 1.449");
-}
-
 .emqnvrbba {
   d: path("m34.621 29.345l-8.992-9.74l-6.125 6.648");
 }
@@ -24,8 +20,12 @@ const content = `<g class="y9tr6bcfx"><path class="mv7u9066d"/><path class="i0m5
   d: path("M31.79 23.997a7.33 7.33 0 1 1-2.95 5.878c0-1.179.278-2.291.771-3.277M16.92 37.472a6.31 6.31 0 1 1-4.209-7.601");
 }
 
-.k7pd5v6df {
-  d: path("m26.514 20.564l-1.994 2.681l-2.555 8.265l-.924 1.344m6.886-11.379l.521.436m.682 3.027l1.584.053m-9.526 8.935c0 .577-.468 1.045-1.045 1.045h0a1.045 1.045 0 0 1-1.046-1.045h0c0-.577.468-1.045 1.046-1.045h0c.577 0 1.045.468 1.045 1.045m-7.323 1.946a39 39 0 0 1-1.73.257m1.27-12.41l2.638 4.049M10.8 24.227l2.757-.802m1.581 5.373l-3.586 5.991");
+.ljpxxlqzk {
+  d: path("M37.923 29.69a1.671 1.671 0 1 1-1.672-1.672c.924 0 1.672.748 1.672 1.671m-25.777 6.269a1.449 1.449 0 0 1-2.898 0a1.449 1.449 0 1 1 2.898 0");
+}
+
+.muqrzf7qa {
+  d: path("m26.514 20.564l-1.994 2.681l-2.555 8.265l-.924 1.344m6.886-11.379l.521.436m.682 3.027l1.584.053m-9.526 8.935a1.045 1.045 0 0 1-2.09 0a1.045 1.045 0 0 1 2.09 0m-7.323 1.946a39 39 0 0 1-1.73.257m1.27-12.41l2.638 4.049M10.8 24.227l2.757-.802m1.581 5.373l-3.586 5.991");
 }
 
 .mv7u9066d {

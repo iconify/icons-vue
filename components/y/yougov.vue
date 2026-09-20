@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<rect class="j3s9ivbxi"/><path class="olyw3zb3m"/>`;
+const content = `<rect class="j3s9ivbxi"/><path class="kdagjgbfj"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:yougov" /></template>
 <style>
@@ -21,12 +21,12 @@ const content = `<rect class="j3s9ivbxi"/><path class="olyw3zb3m"/>`;
   ry: 4px;
 }
 
-.olyw3zb3m {
+.kdagjgbfj {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("m39.5 22.803l-1.842 4.881l-1.842-4.881m-17.121 0v3.039c0 1.017.825 1.842 1.842 1.842h0a1.84 1.84 0 0 0 1.842-1.842v-3.04m0 3.04v1.842m-8.998-7.368L10.941 24L8.5 20.316m2.441 7.368V24m18.145-1.243a2.44 2.44 0 0 0-2.44-2.441h0a2.44 2.44 0 0 0-2.441 2.44v2.487a2.44 2.44 0 0 0 2.44 2.441h0a2.44 2.44 0 0 0 2.441-2.44h-2.44m-13.486-.599a1.842 1.842 0 0 1 3.684 0v1.197a1.842 1.842 0 0 1-3.684 0zm17.583 0a1.842 1.842 0 0 1 3.684 0v1.197a1.842 1.842 0 0 1-3.684 0z");
+  d: path("m39.5 22.803l-1.842 4.881l-1.842-4.881m-17.121 0v3.039a1.842 1.842 0 0 0 3.684 0v-3.04m0 3.04v1.842m-8.998-7.368L10.941 24L8.5 20.316m2.441 7.368V24m18.145-1.243a2.44 2.44 0 0 0-4.881 0v2.486a2.44 2.44 0 0 0 4.881 0h-2.44m-13.486-.598a1.842 1.842 0 0 1 3.684 0v1.197a1.842 1.842 0 0 1-3.684 0zm17.583 0a1.842 1.842 0 0 1 3.684 0v1.197a1.842 1.842 0 0 1-3.684 0z");
 }
 
 </style>

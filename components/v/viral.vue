@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="rao258b-j"/><path class="k6wkkjbnv"/><path class="y-x90ccce"/><rect class="j3s9ivbxi"/><path class="bc5auubgu"/>`;
+const content = `<path class="rao258b-j"/><path class="r97r_v_iv"/><path class="opew60bij"/><rect class="j3s9ivbxi"/><path class="bc5auubgu"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:viral" /></template>
 <style>
@@ -29,12 +29,20 @@ const content = `<path class="rao258b-j"/><path class="k6wkkjbnv"/><path class="
   ry: 4px;
 }
 
-.k6wkkjbnv {
+.opew60bij {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M33.582 24A9.58 9.58 0 0 1 24 33.582h0A9.58 9.58 0 0 1 14.418 24h0a9.582 9.582 0 1 1 19.164 0");
+  d: path("M38.407 24c0 7.957-6.45 14.407-14.407 14.407S9.593 31.957 9.593 24S16.043 9.593 24 9.593S38.407 16.043 38.407 24");
+}
+
+.r97r_v_iv {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M33.582 24a9.582 9.582 0 1 1-19.164 0a9.582 9.582 0 1 1 19.164 0");
 }
 
 .rao258b-j {
@@ -43,14 +51,6 @@ const content = `<path class="rao258b-j"/><path class="k6wkkjbnv"/><path class="
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("m36.843 42.5l-5.912-5.912m0 0l-3.605-3.605m.004-.003l-3.89-3.88m17.888 12.228L34.16 34.16m0 0l-3.41-3.41m0 0l-3.12-3.12m5.35-.3l-3.88-3.88m3.882 3.876l3.606 3.605m0 0l5.912 5.912M20.37 27.63l-3.13 3.13M5.5 24h8.918M24 18.87V5.5m17.328 1.171L25.91 22.09m-5.54-1.72l-3.14-3.14L6.67 6.67m19.28 15.46a2.701 2.701 0 1 1-3.9 3.74c-1.03-1.08-1-2.79.08-3.82c1.07-1.02 2.75-1 3.78.04z");
-}
-
-.y-x90ccce {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M38.407 24c0 7.957-6.45 14.407-14.407 14.407h0c-7.957 0-14.407-6.45-14.407-14.407h0c0-7.957 6.45-14.407 14.407-14.407h0c7.957 0 14.407 6.45 14.407 14.407");
 }
 
 </style>

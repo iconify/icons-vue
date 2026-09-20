@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<rect class="j3s9ivbxi"/><path class="jb2cadbja"/><circle class="mh1ybmjlp"/><path class="oso0mm-ud"/>`;
+const content = `<rect class="j3s9ivbxi"/><path class="jb2cadbja"/><circle class="mh1ybmjlp"/><path class="r816-nb5e"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:slimsocial" /></template>
 <style>
@@ -39,12 +39,12 @@ const content = `<rect class="j3s9ivbxi"/><path class="jb2cadbja"/><circle class
   stroke-linejoin: round;
 }
 
-.oso0mm-ud {
+.r816-nb5e {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M22.355 26.203c.365.307.76.447 1.645.447h.449c.73 0 1.322-.593 1.322-1.325h0c0-.732-.592-1.325-1.322-1.325h-.898c-.73 0-1.322-.593-1.322-1.325h0c0-.732.592-1.325 1.322-1.325H24c.885 0 1.28.14 1.645.447");
+  d: path("M22.355 26.203c.365.307.76.447 1.645.447h.449c.73 0 1.322-.593 1.322-1.325S25.179 24 24.449 24h-.898c-.73 0-1.322-.593-1.322-1.325s.592-1.325 1.322-1.325H24c.885 0 1.28.14 1.645.447");
 }
 
 </style>

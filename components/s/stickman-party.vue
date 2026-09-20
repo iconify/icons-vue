@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="j6mf1tfqe"/><path class="qjjpbdc3c"/><path class="td8zqacro"/><path class="pir_9nbvh"/><path class="vophfe-pj"/><path class="zewuomq2r"/><path class="but0gqbck"/><path class="qssgsswuo"/><path class="k-94atjez"/>`;
+const content = `<path class="j6mf1tfqe"/><path class="qjjpbdc3c"/><path class="td8zqacro"/><path class="pir_9nbvh"/><path class="vophfe-pj"/><path class="zewuomq2r"/><path class="but0gqbck"/><path class="qssgsswuo"/><path class="shtwpd0ce"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:stickman-party" /></template>
 <style>
@@ -22,14 +22,6 @@ const content = `<path class="j6mf1tfqe"/><path class="qjjpbdc3c"/><path class="
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("M5.5 29.726V9.88c0-2.217 1.784-4 4-4h15.022M42.5 19.539v19.34c0 2.217-1.784 4-4 4h-29a3.99 3.99 0 0 1-4-4v-3.331m33-29.668c2.216 0 4 1.784 4 4");
-}
-
-.k-94atjez {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M36.377 20.44c2.77.12 3.864-1.184 5.737-3.76l-1.299-.884M24.37 13.083c.226.862 1.259.857 1.602.22m-.034-.513c-1.296-2.698-.457-4.332 1.324-7.276l1.435.916m-1.207 8.524l3.94-5.042c.302.791.442 1.606.364 2.453l2.9-1.98l-.556 3.544c.728-.44 1.522-.67 2.365-.745l-2.813 5.748c-.697-.72-1.372-1.484-2.819-2.438s-2.428-1.227-3.38-1.54h0");
 }
 
 .pir_9nbvh {
@@ -54,6 +46,14 @@ const content = `<path class="j6mf1tfqe"/><path class="qjjpbdc3c"/><path class="
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("m40.338 16.044l.83.13l.551-3.173c-.354-2.584-3.17-4.805-4.119-5.498c-2.27-1.653-5.294-2.64-7.007-2.323l-2.326 1.467l.285.675m8.138 14.552c-.818.122-1.185-.755-.764-1.276");
+}
+
+.shtwpd0ce {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M36.377 20.44c2.77.12 3.864-1.184 5.737-3.76l-1.299-.884M24.37 13.083c.226.862 1.259.857 1.602.22m-.034-.513c-1.296-2.698-.457-4.332 1.324-7.276l1.435.916m-1.207 8.524l3.94-5.042c.302.791.442 1.606.364 2.453l2.9-1.98l-.556 3.544c.728-.44 1.522-.67 2.365-.745l-2.813 5.748c-.697-.72-1.372-1.484-2.819-2.438s-2.428-1.227-3.38-1.54");
 }
 
 .td8zqacro {

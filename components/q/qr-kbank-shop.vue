@@ -4,20 +4,20 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<g class="y9tr6bcfx"><path class="oqqw2ukfu"/><path class="jlyultbfy"/></g><path class="hta43zams"/>`;
+const content = `<g class="y9tr6bcfx"><path class="oqqw2ukfu"/><path class="jlyultbfy"/></g><path class="l_mvmobmq"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:qr-kbank-shop" /></template>
 <style>
-.hta43zams {
+.jlyultbfy {
+  d: path("M9.5 5.5h29c2.216 0 4 1.784 4 4v29c0 2.216-1.784 4-4 4h-29c-2.216 0-4-1.784-4-4v-29c0-2.216 1.784-4 4-4");
+}
+
+.l_mvmobmq {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M26.34 35.925V22.872h4.367c2.469 0 4.47 1.963 4.47 4.384s-2.001 4.383-4.47 4.383H26.34m4.367.001l4.366 4.281m-13.413.004l-4.419-4.272m.001-8.781c2.448 0 4.418 1.928 4.418 4.324V31.6c0 2.395-1.97 4.324-4.418 4.324h0c-2.448 0-4.419-1.928-4.419-4.324v-4.405c0-2.396 1.97-4.324 4.419-4.324");
-}
-
-.jlyultbfy {
-  d: path("M9.5 5.5h29c2.216 0 4 1.784 4 4v29c0 2.216-1.784 4-4 4h-29c-2.216 0-4-1.784-4-4v-29c0-2.216 1.784-4 4-4");
+  d: path("M26.34 35.925V22.872h4.367c2.469 0 4.47 1.963 4.47 4.384s-2.001 4.383-4.47 4.383H26.34m4.367.001l4.366 4.281m-13.413.004l-4.419-4.272m.001-8.781zc2.448 0 4.418 1.928 4.418 4.324V31.6c0 2.395-1.97 4.324-4.418 4.324s-4.419-1.928-4.419-4.324v-4.405c0-2.396 1.97-4.324 4.419-4.324");
 }
 
 .oqqw2ukfu {

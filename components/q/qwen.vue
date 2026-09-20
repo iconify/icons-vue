@@ -4,40 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="iddbs3bxt"/><path class="nw9bnfbfi"/><path class="ibzyhx7cz"/><path class="dxktfcc8j"/>`;
+const content = `<path class="uwzbzjbeq"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:qwen" /></template>
 <style>
-.dxktfcc8j {
+.uwzbzjbeq {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("m23.375 44.86l5.884-.618l4.995-8.652l5.925-.687l3.176-5.501");
-}
-
-.ibzyhx7cz {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("m5.762 12.979l-2.407 5.404l4.995 8.652l-2.367 5.475l3.176 5.501m25.904-13.396l2.367 5.474l5.925-.687l-4.734-10.949h-5.528L21.008 39.386l2.367 5.474z");
-}
-
-.iddbs3bxt {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("m18.802 13.666l3.557-4.787l-3.557-4.787l-7.116 9.574l2.764 4.787h24.171l3.557-4.787z");
-}
-
-.nw9bnfbfi {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("m42.178 13.666l-3.477-4.787h-9.99l-3.557-4.787h-6.352M17.45 33.224l-5.924-.688l-2.367 5.475l11.849 1.375l2.764-4.788l-12.086-20.932l-5.924-.687z");
+  d: path("M27.15 6.867L25.784 4.5a2.52 2.52 0 0 0-2.178-1.26h-2.734c-.9 0-1.731.481-2.18 1.26l-4.187 7.253a2.51 2.51 0 0 0 0 2.514l1.367 2.37a2.52 2.52 0 0 0 2.178 1.257h19.655c.9 0 1.73-.479 2.18-1.257l1.367-2.37a2.52 2.52 0 0 0 0-2.514l-1.367-2.37a2.52 2.52 0 0 0-2.18-1.256H27.488c-.434 0-.12-.883-.337-1.26M8.116 30.143L6.749 32.51a2.52 2.52 0 0 0 0 2.516l1.367 2.37a2.52 2.52 0 0 0 2.178 1.257h8.375c.9 0 1.731-.479 2.18-1.257l1.368-2.37a2.52 2.52 0 0 0 0-2.516l-9.828-17.02a2.52 2.52 0 0 0-2.18-1.26H7.475c-.898 0-1.729.481-2.178 1.26l-1.368 2.367a2.52 2.52 0 0 0 0 2.516l5.108 8.849c.217.376-.704.545-.921.92m29.673 4.848h2.736c.898 0 1.73-.479 2.178-1.257l1.368-2.37a2.52 2.52 0 0 0 0-2.516l-4.187-7.253a2.52 2.52 0 0 0-2.18-1.257h-2.735c-.897 0-1.728.478-2.178 1.257l-9.827 17.022a2.52 2.52 0 0 0 0 2.517l1.367 2.367a2.52 2.52 0 0 0 2.178 1.26h2.735c.9 0 1.73-.482 2.18-1.26l5.108-8.846c.217-.376.823.336 1.257.336");
 }
 
 </style>

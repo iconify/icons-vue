@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="bi9-vl57g"/><path class="u3gif0bwe"/><path class="fnxvm5b9c"/><path class="do_x_lbib"/><path class="uzhgesb2w"/><path class="zf1bm9w0a"/><path class="dd6rh1beg"/><path class="z9ebyy4dk"/><path class="o79dwcbky"/>`;
+const content = `<path class="bi9-vl57g"/><path class="u3gif0bwe"/><path class="fnxvm5b9c"/><path class="do_x_lbib"/><path class="uzhgesb2w"/><path class="zf1bm9w0a"/><path class="dd6rh1beg"/><path class="z9ebyy4dk"/><path class="g94318anp"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:maybank-m2u-sg" /></template>
 <style>
@@ -40,12 +40,12 @@ const content = `<path class="bi9-vl57g"/><path class="u3gif0bwe"/><path class="
   d: path("M35.799 12.76c-2.655-3.11-6.31-3.039-6.31-3.039m7.999 5.426c2.976 5.846 2.754 17.337-10.41 22.031c3.545-2.976 5.61-7.122 3.599-11.627c1.85.537 2.411 2.038 2.411 2.038c.994-3.968-.025-6.382-2.063-7.776c1.395.16 2.2.67 2.843 1.34c-.322-2.36-1.609-3.646-2.601-4.263");
 }
 
-.o79dwcbky {
+.g94318anp {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M19.528 44.344c.367.478.827.656 1.467.656h.886c.824 0 1.493-.668 1.493-1.493v-.006c0-.824-.669-1.493-1.493-1.493h-.977a1.494 1.494 0 0 1-1.494-1.494h0c0-.827.67-1.498 1.497-1.498h.881c.64 0 1.1.178 1.467.656m5.657 1.327a1.98 1.98 0 0 0-1.982-1.983h0a1.98 1.98 0 0 0-1.982 1.982v2.02c0 1.095.887 1.982 1.982 1.982h0a1.98 1.98 0 0 0 1.982-1.982H26.93");
+  d: path("M19.528 44.344c.367.478.827.656 1.467.656h.886c.824 0 1.493-.668 1.493-1.493v-.006c0-.824-.669-1.493-1.493-1.493h-.977a1.494 1.494 0 0 1-1.494-1.494c0-.827.67-1.498 1.497-1.498h.881c.64 0 1.1.178 1.467.656m5.657 1.327a1.982 1.982 0 1 0-3.964 0v2.019a1.982 1.982 0 0 0 3.964 0H26.93");
 }
 
 .u3gif0bwe {

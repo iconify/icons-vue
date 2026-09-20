@@ -4,16 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="roltacwwv"/>`;
+const content = `<path class="ir-bkvl8r"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:qantas" /></template>
 <style>
-.roltacwwv {
+.ir-bkvl8r {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M42.5 40.4S30 32.3 25.1 31.7c-.6 0-1-.5-1.1-1c-.6-2.5-2.6-9.1-8.6-11.5C7.5 16 5.5 7.6 5.5 7.6s4.3 6.6 11 7.8S27.1 21 27.1 21s4 3.4 2.5-1.1c0 0 2.7.7 5.8 3.3c0 0 .1.6-2.3 1s-9.3 1.3-5.6 5.2c2.1.8 9.2 4.1 15 10.9h0z");
+  d: path("M42.5 40.4S30 32.3 25.1 31.7c-.6 0-1-.5-1.1-1c-.6-2.5-2.6-9.1-8.6-11.5C7.5 16 5.5 7.6 5.5 7.6s4.3 6.6 11 7.8S27.1 21 27.1 21s4 3.4 2.5-1.1c0 0 2.7.7 5.8 3.3c0 0 .1.6-2.3 1s-9.3 1.3-5.6 5.2c2.1.8 9.2 4.1 15 10.9z");
 }
 
 </style>

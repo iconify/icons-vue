@@ -4,16 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="xmpfdmc1x"/><path class="ps8qpeb4u"/>`;
+const content = `<path class="xmpfdmc1x"/><path class="od0oa-thz"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:oscaro" /></template>
 <style>
-.ps8qpeb4u {
+.od0oa-thz {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M23.878 33.663c-3.622 0-6.28-2.899-6.28-6.28V20.86c0-3.623 2.9-6.522 6.282-6.522h0a6.496 6.496 0 0 1 6.522 6.468v6.334a6.496 6.496 0 0 1-6.469 6.523z");
+  d: path("M23.878 33.663zc-3.622 0-6.28-2.899-6.28-6.28V20.86c0-3.623 2.9-6.522 6.282-6.522a6.496 6.496 0 0 1 6.522 6.468v6.334a6.496 6.496 0 0 1-6.469 6.523z");
 }
 
 .xmpfdmc1x {

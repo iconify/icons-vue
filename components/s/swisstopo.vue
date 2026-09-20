@@ -4,24 +4,24 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="ud-xwdbvl"/><path class="l01gwwb7a"/><path class="e8bpjqb1v"/>`;
+const content = `<path class="ud-xwdbvl"/><path class="l01gwwb7a"/><path class="l9q_shjms"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:swisstopo" /></template>
 <style>
-.e8bpjqb1v {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M21.82 9.772a9.554 9.554 0 0 0-9.555 9.555c0 7.477 7.314 16.49 9.207 18.698a.577.577 0 0 0 .814.064a1 1 0 0 0 .068-.068c1.861-2.216 9.02-11.222 9.02-18.694a9.554 9.554 0 0 0-9.554-9.555m0 13.125a3.57 3.57 0 1 1 3.57-3.57v0a3.57 3.57 0 0 1-3.57 3.57");
-}
-
 .l01gwwb7a {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("M34.54 42.744a21.503 21.503 0 1 1 10.959-18.97m.001.172a21.5 21.5 0 0 1-1.265 7.338");
+}
+
+.l9q_shjms {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M21.82 9.772a9.554 9.554 0 0 0-9.555 9.555c0 7.477 7.314 16.49 9.207 18.698a.577.577 0 0 0 .814.064a1 1 0 0 0 .068-.068c1.861-2.216 9.02-11.222 9.02-18.694a9.554 9.554 0 0 0-9.554-9.555m0 13.125a3.57 3.57 0 1 1 3.57-3.57a3.57 3.57 0 0 1-3.57 3.57");
 }
 
 .ud-xwdbvl {

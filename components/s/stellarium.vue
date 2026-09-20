@@ -4,10 +4,18 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<circle class="cpk0fnbgt"/><path class="l8aqbxr3j"/><circle class="f3qvb3b9m"/><circle class="pl8efvdru"/><circle class="xxozbprnq"/><circle class="t88xvwbzq"/><path class="e2a_ybbiv"/>`;
+const content = `<circle class="cpk0fnbgt"/><path class="hv7qey12o"/><circle class="f3qvb3b9m"/><circle class="pl8efvdru"/><circle class="xxozbprnq"/><circle class="t88xvwbzq"/><path class="b0lddbcbw"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:stellarium" /></template>
 <style>
+.b0lddbcbw {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("m30.2 44.17l-11.32-19.6l-3.58 6.2l-1.66-2.88L12 30.73L5.54 19.57l-2.71 4.69M24 15.15h5m-2.52-2.5v5m-11.79 1.48zM16.83 17z");
+}
+
 .cpk0fnbgt {
   cx: 24px;
   cy: 24px;
@@ -16,14 +24,6 @@ const content = `<circle class="cpk0fnbgt"/><path class="l8aqbxr3j"/><circle cla
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-}
-
-.e2a_ybbiv {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("m30.2 44.17l-11.32-19.6l-3.58 6.2l-1.66-2.88L12 30.73L5.54 19.57l-2.71 4.69M24 15.15h5m-2.52-2.5v5M16.83 17");
 }
 
 .f3qvb3b9m {
@@ -36,12 +36,12 @@ const content = `<circle class="cpk0fnbgt"/><path class="l8aqbxr3j"/><circle cla
   stroke-linejoin: round;
 }
 
-.l8aqbxr3j {
+.hv7qey12o {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M26.16 36.79c3.87-2.7 12.57-4.64 17.1-3.56m-8.51-21.91a6.9 6.9 0 0 1-5.37 12.25a6.9 6.9 0 1 0 5.37-12.25M14.52 9.84");
+  d: path("M26.16 36.79c3.87-2.7 12.57-4.64 17.1-3.56m-8.51-21.91a6.9 6.9 0 0 1-5.37 12.25a6.9 6.9 0 1 0 5.37-12.25m-18.96 6.73zm-1.27-8.21z");
 }
 
 .pl8efvdru {

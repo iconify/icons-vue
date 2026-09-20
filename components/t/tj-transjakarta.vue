@@ -4,16 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="l4u001zdr"/><path class="wnwa7i8xe"/>`;
+const content = `<path class="ucuwpmd4j"/><path class="wnwa7i8xe"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:tj-transjakarta" /></template>
 <style>
-.l4u001zdr {
+.ucuwpmd4j {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("m37.861 12.168l2.213-2.436A21.5 21.5 0 0 0 24 2.5C12.126 2.5 2.5 12.126 2.5 24c.02 2.619.519 5.212 1.471 7.652l2.533-2.79A18.2 18.2 0 0 1 5.772 24c0-10.067 8.16-18.229 18.227-18.23H24a18.23 18.23 0 0 1 13.86 6.397zm6.207 4.137l-2.523 2.777c.45 1.6.68 3.255.683 4.918c0 10.067-8.16 18.228-18.227 18.229H24a18.23 18.23 0 0 1-13.854-6.405l-2.182 2.403A21.5 21.5 0 0 0 24 45.5c11.874 0 21.5-9.626 21.5-21.5a21.5 21.5 0 0 0-1.432-7.695");
+  d: path("m37.861 12.168l2.213-2.436A21.5 21.5 0 0 0 24 2.5C12.126 2.5 2.5 12.126 2.5 24c.02 2.619.519 5.212 1.471 7.652l2.533-2.79A18.2 18.2 0 0 1 5.772 24c0-10.067 8.16-18.229 18.227-18.23H24a18.23 18.23 0 0 1 13.86 6.397m6.208 4.138l-2.523 2.777c.45 1.6.68 3.255.683 4.918c0 10.067-8.16 18.228-18.227 18.229H24a18.23 18.23 0 0 1-13.854-6.405l-2.182 2.403A21.5 21.5 0 0 0 24 45.5c11.874 0 21.5-9.626 21.5-21.5a21.5 21.5 0 0 0-1.432-7.695");
 }
 
 .wnwa7i8xe {

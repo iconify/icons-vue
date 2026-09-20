@@ -4,40 +4,40 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="uvixfrc4b"/><path class="ct1xf62zp"/><path class="jbe-bdc9c"/><path class="pw9j-kxaf"/><path class="nltff2q6x"/>`;
+const content = `<path class="uvixfrc4b"/><path class="kqfung82n"/><path class="fch2lx2zl"/><path class="on2_kdbgd"/><path class="b8zx7wbdi"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:clicker-for-whatsapp" /></template>
 <style>
-.ct1xf62zp {
+.b8zx7wbdi {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("m17.556 22.584l10.58-10.58a1.944 1.944 0 0 1 2.749 0h0c.759.76.759 1.99 0 2.75l-9.233 9.232");
+  d: path("m27.15 29.483l1.473-1.473a1.944 1.944 0 0 1 2.749 2.749l-2.821 2.82c-1.86 1.86-4.5 2.937-6.548 4.986l-9.944-9.944c2.371-2.156 2.87-6.97 3.234-9.648c.206-1.518.943-1.913 2.344-1.698s1.617 2.372 1.078 4.15");
 }
 
-.jbe-bdc9c {
+.fch2lx2zl {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("m21.653 23.985l3.503-3.503a1.944 1.944 0 0 1 2.749 0h0c.758.76.758 1.99 0 2.749L24.4 26.734");
+  d: path("m21.653 23.985l3.503-3.503a1.944 1.944 0 0 1 2.749 2.749L24.4 26.734");
 }
 
-.nltff2q6x {
+.kqfung82n {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("m27.15 29.483l1.473-1.473a1.944 1.944 0 0 1 2.749 0h0c.759.759.759 1.99 0 2.748L28.55 33.58c-1.86 1.86-4.5 2.937-6.548 4.986l-9.944-9.944c2.371-2.156 2.87-6.97 3.234-9.648c.206-1.518.943-1.913 2.344-1.698s1.617 2.372 1.078 4.15");
+  d: path("m17.556 22.584l10.58-10.58a1.944 1.944 0 0 1 2.749 2.749l-9.233 9.233");
 }
 
-.pw9j-kxaf {
+.on2_kdbgd {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("m24.401 26.734l2.533-2.533a1.944 1.944 0 0 1 2.749 0h0c.759.759.759 1.99 0 2.749l-2.533 2.533");
+  d: path("m24.401 26.734l2.533-2.533a1.944 1.944 0 0 1 2.749 2.749l-2.533 2.533");
 }
 
 .uvixfrc4b {

@@ -4,24 +4,24 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="so-ak7xdj"/><path class="vjgt-2bqv"/><path class="zdqob3c1t"/>`;
+const content = `<path class="so-ak7xdj"/><path class="efwixor0k"/><path class="zdqob3c1t"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:emoji-face-stuck-out-tongue-closed-eyes" /></template>
 <style>
+.efwixor0k {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M29.89 36.077a11.76 11.76 0 0 0 5.853-10.196s-4.745 3.813-11.718 3.813c-6.943 0-11.769-3.813-11.769-3.813a11.75 11.75 0 0 0 5.853 10.18");
+}
+
 .so-ak7xdj {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("m20.517 16.505l-4.922-3.102m16.891 0l-4.923 3.102m-11.968 3.103l4.922-3.103m7.046 0l4.923 3.103M19.419 41.922C11.407 39.873 5.5 32.619 5.5 23.96C5.5 13.745 13.785 5.5 24.04 5.5c10.215 0 18.46 8.245 18.46 18.46c0 8.688-5.916 15.96-13.935 17.981");
-}
-
-.vjgt-2bqv {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M29.89 36.077a11.76 11.76 0 0 0 5.853-10.196h0s-4.745 3.813-11.718 3.813c-6.943 0-11.769-3.813-11.769-3.813h0a11.75 11.75 0 0 0 5.853 10.18");
 }
 
 .zdqob3c1t {

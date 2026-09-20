@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<g class="y9tr6bcfx"><path class="rqd-sy80g"/><path class="lcb067b7p"/></g><g class="y9tr6bcfx"><path class="uzbvvokte"/><path class="rgjropwei"/></g>`;
+const content = `<g class="y9tr6bcfx"><path class="xquohyeac"/><path class="lcb067b7p"/></g><g class="y9tr6bcfx"><path class="uzbvvokte"/><path class="rgjropwei"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:weatherbug-elite" /></template>
 <style>
@@ -16,12 +16,12 @@ const content = `<g class="y9tr6bcfx"><path class="rqd-sy80g"/><path class="lcb0
   d: path("M39.22 41.5h-4v-8h4");
 }
 
-.rqd-sy80g {
-  d: path("M30.965 40.615a18.9 18.9 0 0 1-8.246 1.885c-10.46 0-18.938-8.479-18.938-18.938h0c0-10.46 8.48-18.937 18.938-18.937s18.938 8.478 18.938 18.937h0c0 2.685-.56 5.24-1.568 7.555");
-}
-
 .uzbvvokte {
   d: path("M44.22 37.5a7 7 0 1 1-14 0a7 7 0 0 1 14 0");
+}
+
+.xquohyeac {
+  d: path("M30.965 40.615a18.9 18.9 0 0 1-8.246 1.885c-10.46 0-18.938-8.479-18.938-18.938c0-10.46 8.48-18.937 18.938-18.937s18.938 8.478 18.938 18.937c0 2.685-.56 5.24-1.568 7.555");
 }
 
 .y9tr6bcfx {

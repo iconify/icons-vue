@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="d4kf85b1j"/><circle class="t4b659o-m"/><path class="sohybacqr"/><circle class="wmk3nfkea"/><circle class="rsqvx95oh"/><circle class="bld5m9bet"/><circle class="ycb7n5b4a"/><circle class="hsvkjz-gr"/><circle class="y_acd26lf"/><circle class="w8hko4bap"/><circle class="v7at3yrge"/><circle class="nbje4fbpo"/><circle class="cezrjuyym"/><circle class="a05xsh00o"/><circle class="p21g4itbo"/><circle class="v9bpg9qvw"/><circle class="y1wvp7cxg"/><circle class="s8muevbjf"/><circle class="j8cxaybnr"/><circle class="as-2oqbwz"/><circle class="pa52jnb0z"/><circle class="rk-kyvyhy"/><circle class="l5e1ripir"/><circle class="pd1mcsoro"/><circle class="tu2r10b8h"/><circle class="rgsh_ccsu"/><circle class="z1-6l00ch"/><circle class="bvyvttblv"/><circle class="aaf6oohlq"/><circle class="trdx1-l9w"/><circle class="fhunu1b8a"/><circle class="oxy_rxjjg"/><circle class="qsjuybcqi"/><circle class="m34vlmyxg"/><circle class="g4dxquncu"/>`;
+const content = `<path class="h-xiq48ff"/><circle class="t4b659o-m"/><path class="sohybacqr"/><circle class="wmk3nfkea"/><circle class="rsqvx95oh"/><circle class="bld5m9bet"/><circle class="ycb7n5b4a"/><circle class="hsvkjz-gr"/><circle class="y_acd26lf"/><circle class="w8hko4bap"/><circle class="v7at3yrge"/><circle class="nbje4fbpo"/><circle class="cezrjuyym"/><circle class="a05xsh00o"/><circle class="p21g4itbo"/><circle class="v9bpg9qvw"/><circle class="y1wvp7cxg"/><circle class="s8muevbjf"/><circle class="j8cxaybnr"/><circle class="as-2oqbwz"/><circle class="pa52jnb0z"/><circle class="rk-kyvyhy"/><circle class="l5e1ripir"/><circle class="pd1mcsoro"/><circle class="tu2r10b8h"/><circle class="rgsh_ccsu"/><circle class="z1-6l00ch"/><circle class="bvyvttblv"/><circle class="aaf6oohlq"/><circle class="trdx1-l9w"/><circle class="fhunu1b8a"/><circle class="oxy_rxjjg"/><circle class="qsjuybcqi"/><circle class="m34vlmyxg"/><circle class="g4dxquncu"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:ukw-radio" /></template>
 <style>
@@ -50,14 +50,6 @@ const content = `<path class="d4kf85b1j"/><circle class="t4b659o-m"/><path class
   fill: currentColor;
 }
 
-.d4kf85b1j {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M24 2.5A21.5 21.5 0 0 1 45.5 24v16.5a5 5 0 0 1-5 5H24A21.5 21.5 0 0 1 2.5 24v0A21.5 21.5 0 0 1 24 2.5");
-}
-
 .fhunu1b8a {
   cx: 32.569px;
   cy: 27.507px;
@@ -70,6 +62,14 @@ const content = `<path class="d4kf85b1j"/><circle class="t4b659o-m"/><path class
   cy: 36.507px;
   r: 0.75px;
   fill: currentColor;
+}
+
+.h-xiq48ff {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M24 2.5zA21.5 21.5 0 0 1 45.5 24v16.5a5 5 0 0 1-5 5H24A21.5 21.5 0 0 1 2.5 24A21.5 21.5 0 0 1 24 2.5");
 }
 
 .hsvkjz-gr {

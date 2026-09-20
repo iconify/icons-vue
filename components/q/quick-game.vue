@@ -4,24 +4,24 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="kpak8hbxr"/><path class="okyuqab-r"/><path class="yau476b5h"/>`;
+const content = `<path class="kpak8hbxr"/><path class="a2u_06bxl"/><path class="yau476b5h"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:quick-game" /></template>
 <style>
+.a2u_06bxl {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M14.884 16.37a2.466 2.466 0 0 1-2.465 2.466a2.466 2.466 0 0 1-2.466-2.466a2.466 2.466 0 0 1 2.466-2.465a2.466 2.466 0 0 1 2.465 2.465m10.083 0a2.466 2.466 0 0 1-2.465 2.466a2.466 2.466 0 0 1-2.466-2.466a2.466 2.466 0 0 1 2.466-2.465a2.466 2.466 0 0 1 2.465 2.465m4.889-.26a13.357 13.357 0 0 1 12.975 13.351a13.357 13.357 0 0 1-13.356 13.357a13.357 13.357 0 0 1-13.343-12.74");
+}
+
 .kpak8hbxr {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("M17.461 5.182c-6.788 0-12.292 5.502-12.292 12.29V27.57a2.32 2.32 0 0 0 2.325 2.325h19.932a2.32 2.32 0 0 0 2.325-2.325V17.472c0-6.788-5.502-12.29-12.29-12.29");
-}
-
-.okyuqab-r {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M14.884 16.37a2.466 2.466 0 0 1-2.465 2.466a2.466 2.466 0 0 1-2.466-2.466a2.466 2.466 0 0 1 2.466-2.465a2.466 2.466 0 0 1 2.465 2.465m10.083 0a2.466 2.466 0 0 1-2.465 2.466a2.466 2.466 0 0 1-2.466-2.466a2.466 2.466 0 0 1 2.466-2.465a2.466 2.466 0 0 1 2.465 2.465m4.889-.26a13.357 13.357 0 0 1 12.975 13.351v0a13.357 13.357 0 0 1-13.356 13.357a13.357 13.357 0 0 1-13.343-12.74");
 }
 
 .yau476b5h {

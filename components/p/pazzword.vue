@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="mohtvrp4e"/><path class="i2-8_9ygm"/><path class="frulv1gpx"/><path class="sz5_g4baa"/><path class="y16jexq8u"/><path class="ngil-4b2b"/><path class="kctq92zus"/><path class="oknk43nuq"/>`;
+const content = `<path class="jl_hupb6x"/><path class="i2-8_9ygm"/><path class="frulv1gpx"/><path class="sz5_g4baa"/><path class="y16jexq8u"/><path class="ngil-4b2b"/><path class="kctq92zus"/><path class="oknk43nuq"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:pazzword" /></template>
 <style>
@@ -24,20 +24,20 @@ const content = `<path class="mohtvrp4e"/><path class="i2-8_9ygm"/><path class="
   d: path("M23.835 38.65c4.588-1.617 4.972-4.234 4.588-10.085c-1.425 0-2.95-.526-4.638-1.96c-1.688 1.434-3.203 1.96-4.628 1.96c-.384 5.85 0 8.468 4.678 10.085");
 }
 
+.jl_hupb6x {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M13.973 26.09h20.038c1.2 0 2.173.972 2.173 2.172v13.055A2.17 2.17 0 0 1 34.02 43.5H13.973c-1.2 0-2.173-.973-2.173-2.172V28.262c0-1.2.973-2.173 2.173-2.173");
+}
+
 .kctq92zus {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("M18.106 12.215c-.08 4.396-.005 7.86 5.7 9.984V20.52v1.68c5.96-2.152 5.78-5.588 5.708-9.984");
-}
-
-.mohtvrp4e {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M13.973 26.09h20.038c1.2 0 2.173.972 2.173 2.172h0v13.055A2.17 2.17 0 0 1 34.02 43.5H13.973c-1.2 0-2.173-.973-2.173-2.172V28.262c0-1.2.973-2.173 2.173-2.173");
 }
 
 .ngil-4b2b {

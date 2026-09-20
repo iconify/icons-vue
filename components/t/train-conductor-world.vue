@@ -4,14 +4,10 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<g class="y9tr6bcfx"><ellipse class="h9hijbcuh"/><ellipse class="swop3ytug"/><ellipse class="hv1kku3uw"/><ellipse class="uao2_nbet"/><path class="bvc6rdbdh"/><path class="si992ibxm"/><ellipse class="sj8h1qb1b"/><path class="w9q6r7b5n"/><ellipse class="co9g3fbqt"/><path class="doz2z1wyo"/><path class="bzs6zmlmq"/></g>`;
+const content = `<g class="y9tr6bcfx"><ellipse class="h9hijbcuh"/><ellipse class="swop3ytug"/><ellipse class="hv1kku3uw"/><ellipse class="uao2_nbet"/><path class="fue7yf_ex"/><path class="si992ibxm"/><ellipse class="sj8h1qb1b"/><path class="w9q6r7b5n"/><ellipse class="co9g3fbqt"/><path class="doz2z1wyo"/><path class="bzs6zmlmq"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:train-conductor-world" /></template>
 <style>
-.bvc6rdbdh {
-  d: path("m31.779 42.656l-.287-6.666l9.485-6.861l2.023 6.4c-.318 1.342-.408 2.61-1.464 4.194c-3.832 2.243-6.796 2.591-9.757 2.933m7.395-20.34c0 3.337-1.725 7.13-3.854 8.47s-3.856-.28-3.856-3.617v-.002c0-3.337 1.725-7.13 3.855-8.469q0 0 0 0c2.129-1.34 3.855.281 3.855 3.619v0m1.196 5.07c0 .934-.483 1.995-1.078 2.37s-1.079-.078-1.079-1.012v0c0-.935.483-1.995 1.079-2.37s1.079.078 1.079 1.012z");
-}
-
 .bzs6zmlmq {
   d: path("M28.666 14.834s2.252.879 2.252.844m6.34 2.62l-2.47-1.055M22.789 9.498l.005 2.948M6.147 14.16v11.118m6.951-8.118v8.73m8.166-.018l6.283 2.417");
 }
@@ -25,6 +21,10 @@ const content = `<g class="y9tr6bcfx"><ellipse class="h9hijbcuh"/><ellipse class
 
 .doz2z1wyo {
   d: path("m28.664 13.148l.005 3.382c-1.585.849-2.632.32-2.693-.337l-.008-3.045m-4.538-1.26l4.3 1.749");
+}
+
+.fue7yf_ex {
+  d: path("m31.779 42.656l-.287-6.666l9.485-6.861l2.023 6.4c-.318 1.342-.408 2.61-1.464 4.194c-3.832 2.243-6.796 2.591-9.757 2.933m7.395-20.34c0 3.337-1.725 7.13-3.854 8.47s-3.856-.28-3.856-3.617v-.002c0-3.337 1.725-7.13 3.855-8.469c2.129-1.34 3.855.281 3.855 3.619m1.196 5.07c0 .934-.483 1.995-1.078 2.37s-1.079-.078-1.079-1.012c0-.935.483-1.995 1.079-2.37s1.079.078 1.079 1.012");
 }
 
 .h9hijbcuh {

@@ -4,10 +4,18 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="jzmzyjbnx"/><path class="nghae7y9z"/><path class="k0266gx4u"/><path class="xsiqdfb_r"/><path class="soojxjmhx"/>`;
+const content = `<path class="jzmzyjbnx"/><path class="eghan4b9k"/><path class="k0266gx4u"/><path class="xsiqdfb_r"/><path class="soojxjmhx"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:tsv-library" /></template>
 <style>
+.eghan4b9k {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("m6.13 11.4l4.656-1.133c.63-.126 1.258 0 1.888 0a1.87 1.87 0 0 0 1.636 0l12.585-4.28c.88-.251 1.888-.503 2.768-.503h1.51c.882 0 1.763.504 2.014 1.385l.252.88h.503c.755 0 1.51.378 1.762 1.133l.378 1.385c.377 1.007 1.132 1.888 2.265 2.265l3.901 1.259v27.687l-2.139.377q-6.795 1.322-13.592 0l-4.405-.88c-4.278-.882-8.683-.882-13.088-.127l-3.524.63l.378-30.33z");
+}
+
 .jzmzyjbnx {
   fill: none;
   stroke: currentColor;
@@ -22,14 +30,6 @@ const content = `<path class="jzmzyjbnx"/><path class="nghae7y9z"/><path class="
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("M13.429 21.97v-1.635h-4.28v4.404h5.664v-2.768zm21.646.504h4.153v2.391h-4.153zm-13.466-2.391s-1.259-3.901 3.02-3.901");
-}
-
-.nghae7y9z {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("m6.13 11.4l4.656-1.133c.63-.126 1.258 0 1.888 0h0a1.87 1.87 0 0 0 1.636 0l12.585-4.28c.88-.251 1.888-.503 2.768-.503h1.51c.882 0 1.763.504 2.014 1.385l.252.88h.503c.755 0 1.51.378 1.762 1.133l.378 1.385c.377 1.007 1.132 1.888 2.265 2.265l3.901 1.259v27.687l-2.139.377q-6.795 1.322-13.592 0l-4.405-.88c-4.278-.882-8.683-.882-13.088-.127l-3.524.63l.378-30.33z");
 }
 
 .soojxjmhx {

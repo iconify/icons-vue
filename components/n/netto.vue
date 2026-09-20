@@ -4,16 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="u0k6uliew"/>`;
+const content = `<path class="eqmqqm7rm"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:netto" /></template>
 <style>
-.u0k6uliew {
+.eqmqqm7rm {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M4.5 19.854V15.11h4.674M43.5 28.146v4.743h-4.673M7.94 28.775v-9.55l6.326 9.55v-9.55m7.121 8.345a2.39 2.39 0 0 1-2.075 1.205h0a2.387 2.387 0 0 1-2.387-2.388v-1.552a2.387 2.387 0 0 1 2.388-2.387h0a2.39 2.39 0 0 1 2.387 2.388v.775h-4.775m8.687-5.132v7.102c0 .66.535 1.194 1.194 1.194h.358m-2.806-6.327h2.507m4.211-1.969v7.102c0 .66.534 1.194 1.193 1.194h.358m-2.805-6.327h2.507m2.957 2.388a2.387 2.387 0 1 1 4.775 0v1.552a2.388 2.388 0 0 1-4.775 0z");
+  d: path("M4.5 19.854V15.11h4.674M43.5 28.146v4.743h-4.673M7.94 28.775v-9.55l6.326 9.55v-9.55m7.121 8.345a2.387 2.387 0 0 1-4.462-1.183v-1.552a2.388 2.388 0 0 1 4.775 0v.776h-4.775m8.687-5.132v7.102c0 .66.535 1.194 1.194 1.194h.358m-2.806-6.327h2.507m4.211-1.969v7.102c0 .66.534 1.194 1.193 1.194h.358m-2.805-6.327h2.507m2.957 2.388a2.387 2.387 0 1 1 4.775 0v1.552a2.388 2.388 0 0 1-4.775 0z");
 }
 
 </style>

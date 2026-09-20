@@ -4,16 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<rect class="oxpyp4blm"/><path class="ery9bdx7q"/><path class="qc03nfwmv"/>`;
+const content = `<rect class="oxpyp4blm"/><path class="gw8hlp7jt"/><path class="qc03nfwmv"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:poe-ai-chat" /></template>
 <style>
-.ery9bdx7q {
+.gw8hlp7jt {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M35.118 9.3a2.33 2.33 0 0 1 2.331 2.331v.43a3.72 3.72 0 0 0 3.72 3.72h0a2.33 2.33 0 0 1 2.331 2.331v7.158a2.33 2.33 0 0 1-2.33 2.331h0a3.72 3.72 0 0 0-3.72 3.72v.43a2.33 2.33 0 0 1-2.332 2.331h-18.72l-3.393 4.112c-.827 1.002-2.454.417-2.454-.882v-5.99a3.72 3.72 0 0 0-3.72-3.72h0A2.33 2.33 0 0 1 4.5 25.27v-7.158a2.33 2.33 0 0 1 2.33-2.331h0a3.72 3.72 0 0 0 3.72-3.72v-.43a2.33 2.33 0 0 1 2.332-2.33z");
+  d: path("M35.118 9.3a2.33 2.33 0 0 1 2.331 2.331v.43a3.72 3.72 0 0 0 3.72 3.72a2.33 2.33 0 0 1 2.331 2.331v7.158a2.33 2.33 0 0 1-2.33 2.331a3.72 3.72 0 0 0-3.72 3.72v.43a2.33 2.33 0 0 1-2.332 2.331h-18.72l-3.393 4.112c-.827 1.002-2.454.417-2.454-.882v-5.99a3.72 3.72 0 0 0-3.72-3.72A2.33 2.33 0 0 1 4.5 25.27v-7.158a2.33 2.33 0 0 1 2.33-2.331a3.72 3.72 0 0 0 3.72-3.72v-.43a2.33 2.33 0 0 1 2.332-2.33z");
 }
 
 .oxpyp4blm {

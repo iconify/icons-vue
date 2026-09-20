@@ -4,16 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="rjn8lpbsz"/><path class="z6detzbfb"/>`;
+const content = `<path class="uu6p12wey"/><path class="z6detzbfb"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:widget-lab" /></template>
 <style>
-.rjn8lpbsz {
+.uu6p12wey {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M10.431 15.85v20.93l20.89 3.712V19.555M20.538 7.507l20.486 3.686l-9.704 8.269l-20.841-3.704h0zm8.844 1.81l-9.108 8.005m19.918 15.433l-8.652 7.604m9.5-29.066v15.502m1.874 2.895s-3.07-5.205-4.812-6.43c-1.75-1.232-3.438-.031-2.087 2.257c1.282 1.883 2.614 2.255 3.918 6.09c.297.83 1.692 2.29 2.854 1.576c1.16-.715.68-2.258.127-3.493m-32.579-8.517S5.71 28.154 7.95 29.69c1.064.73 2.037-.794 2.436-1.849M6.97 16.744l-2.47.128m2.925-2.894l-2.187-1.155m4.317-.459l-.4-2.44");
+  d: path("M10.431 15.85v20.93l20.89 3.712V19.555M20.538 7.507l20.486 3.686l-9.704 8.269l-20.841-3.704zm8.844 1.81l-9.108 8.005m19.918 15.433l-8.652 7.604m9.5-29.066v15.502m1.874 2.895s-3.07-5.205-4.812-6.43c-1.75-1.232-3.438-.031-2.087 2.257c1.282 1.883 2.614 2.255 3.918 6.09c.297.83 1.692 2.29 2.854 1.576c1.16-.715.68-2.258.127-3.493m-32.579-8.517S5.71 28.154 7.95 29.69c1.064.73 2.037-.794 2.436-1.849M6.97 16.744l-2.47.128m2.925-2.894l-2.187-1.155m4.317-.459l-.4-2.44");
 }
 
 .z6detzbfb {

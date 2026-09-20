@@ -4,16 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="ifd1aoh8u"/><path class="r6x7w2b6o"/><path class="csxaanb4s"/><path class="a7ch74bmi"/><path class="k9jovub7z"/>`;
+const content = `<path class="ifd1aoh8u"/><path class="r6x7w2b6o"/><path class="csxaanb4s"/><path class="qnjbdjbyk"/><path class="cm_ff4ogb"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:zflasher-stm32" /></template>
 <style>
-.a7ch74bmi {
+.cm_ff4ogb {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M20.79 38.418v-4.995l2.5 5l2.5-4.992v4.992m-10.172-5h3.312m-1.656 5v-5m-6.429 4.453c.307.399.691.547 1.226.547h.74c.69 0 1.248-.558 1.248-1.247v-.005c0-.69-.559-1.248-1.248-1.248h-.816c-.69 0-1.249-.559-1.249-1.248h0c0-.691.56-1.252 1.252-1.252h.736c.535 0 .92.15 1.226.548m18.695 1.109a1.658 1.658 0 0 1 3.303-.187c.052.524-.114 1.04-.475 1.358c-.67.588-2.828 2.172-2.828 2.172h3.313m-8.21-.421c.346.289.718.421 1.555.421h.195c.69 0 1.25-.56 1.25-1.25h0c0-.69-.56-1.249-1.25-1.249");
+  d: path("M27.758 33.841c.346-.288.719-.42 1.556-.418l.194.002a1.25 1.25 0 1 1 0 2.5m-.961-.001h.961");
 }
 
 .csxaanb4s {
@@ -32,12 +32,12 @@ const content = `<path class="ifd1aoh8u"/><path class="r6x7w2b6o"/><path class="
   d: path("M10.73 10.501h14.253L18.32 26.223h7.977L28.52 31.5H10.5l6.663-15.722h-3.029z");
 }
 
-.k9jovub7z {
+.qnjbdjbyk {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M27.758 33.841c.346-.288.719-.42 1.556-.418l.194.002c.69 0 1.25.56 1.25 1.25h0c0 .69-.56 1.249-1.25 1.249m-.961 0h.961");
+  d: path("M20.79 38.418v-4.995l2.5 5l2.5-4.992v4.992m-10.172-5h3.312m-1.656 5v-5m-6.429 4.453c.307.399.691.547 1.226.547h.74c.69 0 1.248-.558 1.248-1.247v-.005c0-.69-.559-1.248-1.248-1.248h-.816c-.69 0-1.249-.559-1.249-1.248c0-.691.56-1.252 1.252-1.252h.736c.535 0 .92.15 1.226.548m18.695 1.109a1.658 1.658 0 0 1 3.303-.187c.052.524-.114 1.04-.475 1.358c-.67.588-2.828 2.172-2.828 2.172h3.313m-8.21-.421c.346.289.718.421 1.555.421h.195a1.25 1.25 0 1 0 0-2.5");
 }
 
 .r6x7w2b6o {

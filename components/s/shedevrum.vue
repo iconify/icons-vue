@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<g class="y9tr6bcfx"><path class="gx0-cacdc"/><path class="ofyk_54mc"/><path class="jsk9c_xve"/></g><g class="y9tr6bcfx"><path class="fs9pxkbzj"/><path class="ek9lp0geq"/><path class="qwur823ui"/><path class="tf_rjqb1w"/></g><g class="y9tr6bcfx"><path class="o745bxqpw"/><path class="gz_5mac6n"/></g><path class="g5cpifq9m"/>`;
+const content = `<g class="y9tr6bcfx"><path class="gx0-cacdc"/><path class="k9e6_5b9e"/><path class="jsk9c_xve"/></g><g class="y9tr6bcfx"><path class="fs9pxkbzj"/><path class="ek9lp0geq"/><path class="qwur823ui"/><path class="tf_rjqb1w"/></g><g class="y9tr6bcfx"><path class="o745bxqpw"/><path class="gz_5mac6n"/></g><path class="g5cpifq9m"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:shedevrum" /></template>
 <style>
@@ -36,12 +36,12 @@ const content = `<g class="y9tr6bcfx"><path class="gx0-cacdc"/><path class="ofyk
   d: path("M11.568 15.685c-.24 1.033-.044 2.507.85 3.35c4.669-.643 6.78-1.395 10.029-1.735c1.616-.861 1.897-2.223 2.21-3.506m-1.595-6.446c.284-.761.834-1.987 2.076-2.663c.315 1.463.309 3.913.03 5.133");
 }
 
-.o745bxqpw {
-  d: path("M20.297 32.075c1.965.496 3.512.978 5.08 1.85c.023.958-.086 1.935 1.253 2.71c-.41.622-.32 1.194.072 1.514c-.115.735.083 1.192.566 1.672c-.105.405.073.817.357.815l.24.893c1.046-.643 2.327-.406 3.221.115c.035-.493.193-.944-.041-1.527c.412-.144.574-.673.086-1.177c.306-.445.357-.844.082-1.344c.55-.668.696-1.367.608-2.3c.711-.729.838-1.618.508-2.546");
+.k9e6_5b9e {
+  d: path("M12.795 19.052c.829.77 2.261.999 3.5.84c3.578-.456 7.15-1.273 9.495-3.443c2.011-1.863 3.548-2.63 3.138-5.184c-.392-2.438-1.502-3.453-3.466-4.115m-2.158-.552c-1.012-.161-2.922-.28-3.993.716c-.757-.624-1.462-1.6-1.922-2.814c-.706 1.286.054 2.804.958 3.914c-.814 1.13-1.216 2.303-2.028 3.598l-2.303.558");
 }
 
-.ofyk_54mc {
-  d: path("M12.795 19.052c.829.77 2.261.999 3.5.84c3.578-.456 7.15-1.273 9.495-3.443c2.011-1.863 3.548-2.63 3.138-5.184c-.392-2.438-1.502-3.453-3.466-4.115m-2.158-.552c-1.012-.161-2.922-.28-3.993.716c-.757-.624-1.462-1.6-1.922-2.814h0c-.706 1.286.054 2.804.958 3.914c-.814 1.13-1.216 2.303-2.028 3.598l-2.303.558");
+.o745bxqpw {
+  d: path("M20.297 32.075c1.965.496 3.512.978 5.08 1.85c.023.958-.086 1.935 1.253 2.71c-.41.622-.32 1.194.072 1.514c-.115.735.083 1.192.566 1.672c-.105.405.073.817.357.815l.24.893c1.046-.643 2.327-.406 3.221.115c.035-.493.193-.944-.041-1.527c.412-.144.574-.673.086-1.177c.306-.445.357-.844.082-1.344c.55-.668.696-1.367.608-2.3c.711-.729.838-1.618.508-2.546");
 }
 
 .qwur823ui {

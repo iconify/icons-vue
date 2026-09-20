@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="nest_wqcx"/><path class="r-ytt26gh"/><ellipse class="dzr108b1k"/><ellipse class="be72-bb2j"/><path class="ff9dkp66p"/><path class="i4jfaobcz"/>`;
+const content = `<path class="nest_wqcx"/><path class="tx0zt48dp"/><ellipse class="dzr108b1k"/><ellipse class="be72-bb2j"/><path class="ff9dkp66p"/><path class="i4jfaobcz"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:indian-train-status-minits" /></template>
 <style>
@@ -54,12 +54,12 @@ const content = `<path class="nest_wqcx"/><path class="r-ytt26gh"/><ellipse clas
   d: path("M6.814 26.754s8.102 2.78 17.933-17.553h1.983V6.226h11.124v3.28h1.112s1.693-.782 3.327 8.663v10.89s-.136 4.854-2.702 5.206s-32.503 0-32.503 0s-2.595-3.022-.274-7.511");
 }
 
-.r-ytt26gh {
+.tx0zt48dp {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M21.362 21.03c-.744 0-1.347.672-1.347 1.5h0v3.329c0 .828.603 1.499 1.347 1.499s1.347-.671 1.347-1.499h0v-3.33c0-.827-.603-1.498-1.347-1.498m-4.16 3.581c-.64 0-1.158.578-1.159 1.29v2.41c.006.712.53 1.284 1.17 1.278c.631-.007 1.142-.575 1.148-1.278v-2.41c0-.712-.519-1.29-1.159-1.29q0 0 0 0m-3.793 2.382c-.546 0-.989.492-.989 1.1h0v1.619c-.005.607.433 1.105.98 1.11c.545.006.992-.481.998-1.09v-1.64c0-.607-.443-1.1-.99-1.1Zm-3.608 1.435c-.439 0-.794.396-.794.884h0v1.346c.004.488.364.88.803.874c.432-.005.782-.393.786-.874v-1.346c0-.488-.356-.884-.795-.884");
+  d: path("M21.362 21.03c-.744 0-1.347.672-1.347 1.5v3.329c0 .828.603 1.499 1.347 1.499s1.347-.671 1.347-1.499v-3.33c0-.827-.603-1.498-1.347-1.498m-4.16 3.581c-.64 0-1.158.578-1.159 1.29v2.41c.006.712.53 1.284 1.17 1.278c.631-.007 1.142-.575 1.148-1.278v-2.41c0-.712-.519-1.29-1.159-1.29m-3.793 2.382c-.546 0-.989.492-.989 1.1v1.619c-.005.607.433 1.105.98 1.11c.545.006.992-.481.998-1.09v-1.64c0-.607-.443-1.1-.99-1.1Zm-3.608 1.435c-.439 0-.794.396-.794.884v1.346c.004.488.364.88.803.874c.432-.005.782-.393.786-.874v-1.346c0-.488-.356-.884-.795-.884");
 }
 
 </style>

@@ -4,16 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="hl8nx83ia"/><path class="hfy1cnbsn"/>`;
+const content = `<path class="hl8nx83ia"/><path class="gzurdbc2o"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:mtv-katsomo" /></template>
 <style>
-.hfy1cnbsn {
+.gzurdbc2o {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M18.52 39.761a2.332 2.332 0 1 1 4.663 0V43.5m2.77-7.81v6.669a1.05 1.05 0 0 0 1.112 1.111h.333m-2.556-5.891h2.334M20.84 25.493a21.63 21.63 0 0 0 9.213-6a21.63 21.63 0 0 0-9.212-6h0a20.5 20.5 0 0 0 0 12");
+  d: path("M18.52 39.761a2.332 2.332 0 1 1 4.663 0V43.5m2.77-7.81v6.669a1.05 1.05 0 0 0 1.112 1.111h.333m-2.556-5.891h2.334M20.84 25.493a21.63 21.63 0 0 0 9.213-6a21.63 21.63 0 0 0-9.212-6a20.5 20.5 0 0 0 0 12");
 }
 
 .hl8nx83ia {

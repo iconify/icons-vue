@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="nuu5_2bmg"/><g class="y9tr6bcfx"><circle class="rrnqh53gc"/><circle class="h5bv8mrnq"/><circle class="u4vd61z-f"/><circle class="dsdxprb7h"/><path class="q1ne59bil"/></g><path class="v7ajb8ucc"/><circle class="rp1ljg7zm"/><circle class="fc6p2ibjt"/>`;
+const content = `<path class="o_n1jkzqb"/><g class="y9tr6bcfx"><circle class="rrnqh53gc"/><circle class="h5bv8mrnq"/><circle class="u4vd61z-f"/><circle class="dsdxprb7h"/><path class="q1ne59bil"/></g><path class="v7ajb8ucc"/><circle class="rp1ljg7zm"/><circle class="fc6p2ibjt"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:robotfindskitten-alt" /></template>
 <style>
@@ -27,12 +27,12 @@ const content = `<path class="nuu5_2bmg"/><g class="y9tr6bcfx"><circle class="rr
   r: 1.02px;
 }
 
-.nuu5_2bmg {
+.o_n1jkzqb {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M22.83 21.358a1.386 1.386 0 0 0-1.076 2.26l2.222 2.609l2.2-2.583l.01-.012l.012-.014a1.387 1.387 0 1 0-2.222-1.653a1.38 1.38 0 0 0-1.145-.607zm-12.722-3.897c3.095 0 5.604 2.475 5.604 5.528v.79H4.505v-.79c0-3.053 2.509-5.528 5.604-5.528zm-4.839-.826l1.592 1.849m8.086-1.849l-1.592 1.849");
+  d: path("M22.83 21.358a1.386 1.386 0 0 0-1.076 2.26l2.222 2.609l2.2-2.583l.01-.012l.012-.014a1.387 1.387 0 1 0-2.222-1.653a1.38 1.38 0 0 0-1.145-.607zm-12.722-3.897c3.095 0 5.604 2.475 5.604 5.528v.79H4.505v-.79c0-3.053 2.509-5.528 5.604-5.528m-4.84-.826l1.592 1.849m8.086-1.849l-1.592 1.849");
 }
 
 .q1ne59bil {

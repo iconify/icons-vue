@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="c801gcb5p"/><circle class="cqwsr0b0d"/><path class="x50piubxv"/>`;
+const content = `<path class="c801gcb5p"/><circle class="cqwsr0b0d"/><path class="nfbz8vb0i"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:iherb" /></template>
 <style>
@@ -23,12 +23,12 @@ const content = `<path class="c801gcb5p"/><circle class="cqwsr0b0d"/><path class
   fill: currentColor;
 }
 
-.x50piubxv {
+.nfbz8vb0i {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M10.321 22.739v6.217m18.67-3.889a2.346 2.346 0 0 1 2.346-2.346h0m-2.346 0v6.217m-2.751-1.184a2.35 2.35 0 0 1-2.04 1.184h0a2.346 2.346 0 0 1-2.345-2.346v-1.525a2.346 2.346 0 0 1 2.346-2.346h0a2.346 2.346 0 0 1 2.346 2.346v.763h-4.692m11.953-.763a2.346 2.346 0 0 1 2.346-2.346h0a2.346 2.346 0 0 1 2.346 2.346v1.525a2.346 2.346 0 0 1-2.346 2.346h0a2.346 2.346 0 0 1-2.346-2.346m0 2.346v-9.383");
+  d: path("M10.321 22.739v6.217m18.67-3.889a2.346 2.346 0 0 1 2.346-2.346m-2.346 0v6.217m-2.751-1.184a2.346 2.346 0 0 1-4.384-1.162v-1.525a2.346 2.346 0 0 1 4.692 0v.763h-4.693m11.953-.763a2.346 2.346 0 0 1 4.692 0v1.525a2.346 2.346 0 0 1-4.692 0m0 2.346v-9.383");
 }
 
 </style>

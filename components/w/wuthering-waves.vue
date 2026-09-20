@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="u6qlhshbh"/><path class="rd6pudb6j"/><path class="u4jvfzd5k"/><path class="xhu78f9mk"/><path class="whxkxubpx"/><path class="mlaid0b8s"/><path class="jpvm0zbqn"/><path class="txd8gd6ol"/><path class="glfb25bvm"/><path class="e3q8ihtlq"/><path class="c0h0h995y"/><path class="ckycniq-n"/><path class="c7rghogdl"/><path class="hi1__gbqr"/><path class="ennm0gtbe"/><rect class="j3s9ivbxi"/>`;
+const content = `<path class="u6qlhshbh"/><path class="rd6pudb6j"/><path class="u4jvfzd5k"/><path class="xhu78f9mk"/><path class="whxkxubpx"/><path class="mlaid0b8s"/><path class="jpvm0zbqn"/><path class="io3uaumgc"/><path class="glfb25bvm"/><path class="e3q8ihtlq"/><path class="c0h0h995y"/><path class="ckycniq-n"/><path class="c7rghogdl"/><path class="hi1__gbqr"/><path class="ennm0gtbe"/><rect class="j3s9ivbxi"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:wuthering-waves" /></template>
 <style>
@@ -64,6 +64,14 @@ const content = `<path class="u6qlhshbh"/><path class="rd6pudb6j"/><path class="
   d: path("M13.408 38.167s3.31 4.263 4.32 4.207m-2.244-14.529s1.458 9.76 8.863 8.863c0 0-1.907 4.488-8.639-.168");
 }
 
+.io3uaumgc {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M17.867 26.67s-1.828 2.508 2.677 5.44c0 0 1.233.638 1.403.086c.17-.553.85 1.105.85 1.105m7.068-25.123s.253-1.407-1.095-2.597m-10.166 6.801s2.934-6.82 6.424-4.362m.555.08s1.19-1.666-.793-2.539M14.784 5.5c-.455 1.276-.383 2.044-.224 2.44c.158.397.317 2.38.317 2.38s2.731-.447 3.779 2.286m-.046.456s-1.275 2.186-1.776 2.186c0 0 .501-2.323-3.462-3.416c0 0 1.184-.729 1.367-1.594M5.677 12.56s1.682-1.138 7.376-.865");
+}
+
 .j3s9ivbxi {
   width: 37px;
   height: 37px;
@@ -99,14 +107,6 @@ const content = `<path class="u6qlhshbh"/><path class="rd6pudb6j"/><path class="
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("M26.401 28.346s.228 2.558.625 3.353c0 0-4.44-1.857-2.403-7.633m10.531-9.587s1.136 4.32-.285 6.763c-1.42 2.444-3.554 3.762-3.554 3.762s1.844-3.172 1.875-5.303");
-}
-
-.txd8gd6ol {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M17.867 26.67s-1.828 2.508 2.677 5.44c0 0 1.233.638 1.403.086c.17-.553.85 1.105.85 1.105h0m7.068-25.123s.253-1.407-1.095-2.597m-10.166 6.801s2.934-6.82 6.424-4.362m.555.08s1.19-1.666-.793-2.539M14.784 5.5c-.455 1.276-.383 2.044-.224 2.44c.158.397.317 2.38.317 2.38s2.731-.447 3.779 2.286m-.046.456s-1.275 2.186-1.776 2.186c0 0 .501-2.323-3.462-3.416c0 0 1.184-.729 1.367-1.594M5.677 12.56s1.682-1.138 7.376-.865");
 }
 
 .u4jvfzd5k {

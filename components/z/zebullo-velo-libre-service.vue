@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="i9clfwm2k"/><circle class="tw_4lub9e"/><path class="hr_7pvbmy"/><circle class="dljmqitxc"/><circle class="aaacpubic"/><path class="q1xwf7buy"/>`;
+const content = `<path class="i9clfwm2k"/><circle class="tw_4lub9e"/><path class="nijc13bfn"/><circle class="dljmqitxc"/><circle class="aaacpubic"/><path class="q1xwf7buy"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:zebullo-velo-libre-service" /></template>
 <style>
@@ -28,20 +28,20 @@ const content = `<path class="i9clfwm2k"/><circle class="tw_4lub9e"/><path class
   stroke-linejoin: round;
 }
 
-.hr_7pvbmy {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M26.456 22.21v4.779c0 .377.305.682.682.682h.205m-2.752-5.449V27c0 .377.306.683.683.683h.205m-4.94-3.65v2.252c0 .754.61 1.365 1.365 1.365h0c.754 0 1.365-.611 1.365-1.365v-2.253m0 2.253v1.365m-7.832-.89a1.37 1.37 0 0 1-1.186.69h0a1.365 1.365 0 0 1-1.366-1.366v-.887c0-.754.612-1.366 1.366-1.366h0c.754 0 1.365.611 1.365 1.365v.444h-2.73m3.828-.367c0-.754.612-1.366 1.366-1.366h0c.754 0 1.365.612 1.365 1.366v.887c0 .754-.611 1.365-1.365 1.365h0a1.365 1.365 0 0 1-1.366-1.365m0 1.365v-5.46M8.5 21.956h3.618L8.5 27.417h3.618");
-}
-
 .i9clfwm2k {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("M38.5 5.5h-29a4 4 0 0 0-4 4v29a4 4 0 0 0 4 4h29a4 4 0 0 0 4-4v-29a4 4 0 0 0-4-4");
+}
+
+.nijc13bfn {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M26.456 22.21v4.779c0 .377.305.682.682.682h.205m-2.752-5.449V27c0 .377.306.683.683.683h.205m-4.94-3.65v2.252a1.365 1.365 0 0 0 2.73 0v-2.253m0 2.253v1.365m-7.832-.89a1.365 1.365 0 0 1-2.551-.676v-.887a1.365 1.365 0 1 1 2.73 0v.443h-2.73m3.828-.367a1.365 1.365 0 1 1 2.73 0v.887a1.365 1.365 0 0 1-2.73 0m0 1.365v-5.46M8.5 21.956h3.618L8.5 27.417h3.618");
 }
 
 .q1xwf7buy {

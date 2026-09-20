@@ -1,16 +1,12 @@
 # @iconify-vue/arcticons
 
-Icon set prefix: **arcticons**
+**Arcticons**
 
-Icon set name: **Arcticons**
+Author: [Donnnno](https://github.com/Arcticons-Team/Arcticons)
 
-Author: **Donnnno**
+License: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 
-License: **[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)**
-
-Repository: **https://github.com/Arcticons-Team/Arcticons**
-
-Browse all icons: **[Preview Arcticons](https://icon-sets.iconify.design/arcticons/)**
+Browse all icons: [preview Arcticons on Iconify](https://icon-sets.iconify.design/arcticons/)
 
 ## Installation
 

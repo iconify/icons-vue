@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="k7csiybpv"/><path class="nl8s30bhe"/><path class="pitsp82dj"/><path class="lvo_2zbtq"/><rect class="xp5fiybkn"/><path class="n46k8abuu"/>`;
+const content = `<path class="k7csiybpv"/><path class="nl8s30bhe"/><path class="pitsp82dj"/><path class="lvo_2zbtq"/><rect class="xp5fiybkn"/><path class="thbvurb3v"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:g-web-browser" /></template>
 <style>
@@ -24,14 +24,6 @@ const content = `<path class="k7csiybpv"/><path class="nl8s30bhe"/><path class="
   d: path("M22.389 42.49c-3.55-2.526-7.008-6.465-9.693-11.115c-5.938-10.284-6.583-21.027-1.44-23.995c5.141-2.969 14.122 2.961 20.06 13.245c4.829 8.365 6.276 17.3 3.539 21.865");
 }
 
-.n46k8abuu {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M26.23 23.9c0-2.287-1.891-4.14-4.225-4.14h0c-2.333 0-4.225 1.853-4.225 4.14v4.219c0 2.287 1.892 4.14 4.225 4.14h0c2.334 0 4.225-1.853 4.225-4.14h-4.225");
-}
-
 .nl8s30bhe {
   fill: none;
   stroke: currentColor;
@@ -46,6 +38,14 @@ const content = `<path class="k7csiybpv"/><path class="nl8s30bhe"/><path class="
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("M5.494 26.384c2.526-3.55 6.485-7.008 11.135-9.693c10.284-5.938 21.027-6.583 23.995-1.44c2.969 5.141-2.961 14.122-13.245 20.06c-8.357 4.824-17.29 6.274-21.859 3.545");
+}
+
+.thbvurb3v {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M26.23 23.9c0-2.287-1.891-4.14-4.225-4.14s-4.225 1.853-4.225 4.14v4.219c0 2.287 1.892 4.14 4.225 4.14c2.334 0 4.225-1.853 4.225-4.14h-4.225");
 }
 
 .xp5fiybkn {

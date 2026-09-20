@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<circle class="cpk0fnbgt"/><path class="mem18ybbx"/><path class="xhhfm4bls"/><rect class="hynlserts"/><rect class="ngzp5rb2y"/><path class="k_8hxvbrc"/>`;
+const content = `<circle class="cpk0fnbgt"/><path class="mem18ybbx"/><path class="xhhfm4bls"/><rect class="hynlserts"/><rect class="ngzp5rb2y"/><path class="itlqpbbnl"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:amazon-photos" /></template>
 <style>
@@ -30,12 +30,12 @@ const content = `<circle class="cpk0fnbgt"/><path class="mem18ybbx"/><path class
   rx: 2px;
 }
 
-.k_8hxvbrc {
+.itlqpbbnl {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M14.469 17.475v8m.001-3.3a2 2 0 0 1 2-2h0a2 2 0 0 1 2 2v3.3m17.666-.447a2.25 2.25 0 0 0 1.645.447h.449a1.324 1.324 0 0 0 1.322-1.325h0a1.324 1.324 0 0 0-1.322-1.325h-.897A1.324 1.324 0 0 1 36.01 21.5h0a1.324 1.324 0 0 1 1.322-1.325h.449a2.25 2.25 0 0 1 1.645.447M27.14 18.525v5.95a1 1 0 0 0 1 1h.3m-2.349-5.3h2.1m-19.743 3.3a2 2 0 0 0 2 2h0a2 2 0 0 0 2-2v-1.3a2 2 0 0 0-2-2h0a2 2 0 0 0-2 2m0-2v8");
+  d: path("M14.469 17.475v8m.001-3.3a2 2 0 0 1 2-2a2 2 0 0 1 2 2v3.3m17.666-.447a2.25 2.25 0 0 0 1.645.447h.449a1.324 1.324 0 0 0 1.322-1.325a1.324 1.324 0 0 0-1.322-1.325h-.897A1.324 1.324 0 0 1 36.01 21.5a1.324 1.324 0 0 1 1.322-1.325h.449a2.25 2.25 0 0 1 1.645.447M27.14 18.525v5.95a1 1 0 0 0 1 1h.3m-2.349-5.3h2.1m-19.743 3.3a2 2 0 0 0 2 2a2 2 0 0 0 2-2v-1.3a2 2 0 0 0-2-2a2 2 0 0 0-2 2m0-2v8");
 }
 
 .mem18ybbx {

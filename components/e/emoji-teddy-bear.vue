@@ -4,16 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="nbxwsw-wd"/><path class="vqh1vpxcy"/><path class="wzbd-bbqd"/><path class="ydsz24bil"/><path class="vypgcbbum"/>`;
+const content = `<path class="v3iwbdb4u"/><path class="vqh1vpxcy"/><path class="wzbd-bbqd"/><path class="ydsz24bil"/><path class="y4u2a3bzj"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:emoji-teddy-bear" /></template>
 <style>
-.nbxwsw-wd {
+.v3iwbdb4u {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M20.028 16.707a1.324 1.324 0 1 0 1.324-1.324h0c-.731 0-1.324.593-1.324 1.324m5.296 0a1.324 1.324 0 1 0 1.324-1.324h0c-.731 0-1.324.593-1.324 1.324m-3.468 8.016a3.31 3.31 0 0 0 4.287 0");
+  d: path("M20.028 16.707a1.324 1.324 0 1 0 1.324-1.324c-.731 0-1.324.593-1.324 1.324m5.296 0a1.324 1.324 0 1 0 1.324-1.324c-.731 0-1.324.593-1.324 1.324m-3.468 8.016a3.31 3.31 0 0 0 4.287 0");
 }
 
 .vqh1vpxcy {
@@ -24,20 +24,20 @@ const content = `<path class="nbxwsw-wd"/><path class="vqh1vpxcy"/><path class="
   d: path("M14.07 18.038c0 5.485 4.445 9.931 9.93 9.931s9.93-4.446 9.93-9.93S29.486 8.106 24 8.106c-5.484.002-9.929 4.448-9.93 9.931");
 }
 
-.vypgcbbum {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M24 23.248s-2.143-.584-2.143-2.071c0-1.023 1.013-1.232 1.646-1.263l.837-.004c.604.004 1.804.154 1.804 1.267c0 1.487-2.144 2.07-2.144 2.07m-10.406 7.821c.747-3.465 3.872-5.556 3.872-5.556m13.154 0s3.086 2.066 3.858 5.491m-17.792-1.111l2.349 4.013a2.13 2.13 0 0 0 2.819.876h0a2.13 2.13 0 0 0 .953-2.86l-.01-.018l-.672-1.314m9.445-.697l-2.51 4.013a2.13 2.13 0 0 1-2.818.876h0a2.13 2.13 0 0 1-.953-2.86l.009-.018l.672-1.314m-9.725 9.981s6.259 4.357 15.51 0M24 23.525v1.987");
-}
-
 .wzbd-bbqd {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("M20.4 8.784a4.966 4.966 0 1 0-5.936 6.48M7.449 36.64c0 3.169 2.226 5.737 4.965 5.737s4.966-2.568 4.966-5.737c0-3.165-2.226-5.737-4.966-5.737S7.45 33.475 7.45 36.64m23.17 0c0 3.169 2.226 5.737 4.966 5.737s4.965-2.568 4.965-5.737c0-3.165-2.226-5.737-4.965-5.737s-4.966 2.572-4.966 5.737");
+}
+
+.y4u2a3bzj {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M24 23.248s-2.143-.584-2.143-2.071c0-1.023 1.013-1.232 1.646-1.263l.837-.004c.604.004 1.804.154 1.804 1.267c0 1.487-2.144 2.07-2.144 2.07m-10.406 7.821c.747-3.465 3.872-5.556 3.872-5.556m13.154 0s3.086 2.066 3.858 5.491m-17.792-1.111l2.349 4.013a2.132 2.132 0 0 0 3.772-1.984l-.01-.018l-.672-1.314m9.445-.697l-2.51 4.013a2.132 2.132 0 0 1-3.772-1.984l.01-.018l.672-1.314m-9.725 9.981s6.259 4.357 15.51 0M24 23.525v1.987");
 }
 
 .ydsz24bil {

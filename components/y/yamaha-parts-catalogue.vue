@@ -4,24 +4,24 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="t0u_jmzla"/><path class="dpi94bbie"/><path class="zu8amvvfx"/>`;
+const content = `<path class="dvvyqsbjx"/><path class="sqkt7isoj"/><path class="zu8amvvfx"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:yamaha-parts-catalogue" /></template>
 <style>
-.dpi94bbie {
+.dvvyqsbjx {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M19.68 19.86a3.293 3.293 0 0 1 0 6.589h0a3.293 3.293 0 0 1-3.293-3.294v0a3.293 3.293 0 0 1 3.292-3.294");
+  d: path("M34.339 23.113c0 8.071-6.543 14.614-14.615 14.614S5.11 31.184 5.11 23.113S11.653 8.498 19.724 8.498S34.34 15.042 34.34 23.113m-.664 10.507l.536-.93a2.057 2.057 0 0 1 2.816-.754l4.83 2.789a2.057 2.057 0 0 1 .754 2.815l-.536.93a2.057 2.057 0 0 1-2.816.754l-4.83-2.789a2.057 2.057 0 0 1-.754-2.815m-1.904-2.047l2.27 1.311");
 }
 
-.t0u_jmzla {
+.sqkt7isoj {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M34.339 23.113c0 8.071-6.543 14.614-14.615 14.614S5.11 31.184 5.11 23.113h0c0-8.071 6.543-14.615 14.614-14.615S34.34 15.042 34.34 23.113m-.664 10.507l.536-.93a2.057 2.057 0 0 1 2.816-.754l4.83 2.789a2.057 2.057 0 0 1 .754 2.815l-.536.93a2.057 2.057 0 0 1-2.816.754l-4.83-2.789a2.057 2.057 0 0 1-.754-2.815m-1.904-2.047l2.27 1.311");
+  d: path("M19.68 19.86a3.293 3.293 0 0 1 0 6.589a3.293 3.293 0 0 1 0-6.588");
 }
 
 .zu8amvvfx {

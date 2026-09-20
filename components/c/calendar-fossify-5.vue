@@ -4,16 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="fsvfd5-jc"/><path class="gdpz_rbbn"/>`;
+const content = `<path class="bsfbq0bvu"/><path class="gdpz_rbbn"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:calendar-fossify-5" /></template>
 <style>
-.fsvfd5-jc {
+.bsfbq0bvu {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M20.57 35.85c.773.648 1.523.945 3.398.945h.322a3.14 3.14 0 0 0 3.14-3.14v0a3.14 3.14 0 0 0-3.14-3.14h-3.72v-4.92h6.86");
+  d: path("M20.57 35.85c.773.648 1.523.945 3.398.945h.322a3.14 3.14 0 0 0 0-6.28h-3.72v-4.92h6.86");
 }
 
 .gdpz_rbbn {

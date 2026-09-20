@@ -4,24 +4,24 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="z3myur6hn"/><path class="lrrcafucl"/><path class="c60_g9b7q"/><path class="duv8b30_l"/>`;
+const content = `<path class="z3myur6hn"/><path class="lrrcafucl"/><path class="jd4yg8bem"/><path class="duv8b30_l"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:birthday-calendar" /></template>
 <style>
-.c60_g9b7q {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M40.392 31.692V41.88a1.49 1.49 0 0 1-1.49 1.49H9.096a1.49 1.49 0 0 1-1.49-1.49h0V31.692");
-}
-
 .duv8b30_l {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("m24 34.753l.902 1.83l2.02.293L25.46 38.3l.345 2.01l-1.806-.949l-1.806.95l.345-2.011l-1.46-1.424l2.018-.293Z");
+}
+
+.jd4yg8bem {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M40.392 31.692V41.88a1.49 1.49 0 0 1-1.49 1.49H9.096a1.49 1.49 0 0 1-1.49-1.49V31.692");
 }
 
 .lrrcafucl {

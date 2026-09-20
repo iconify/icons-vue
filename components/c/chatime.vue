@@ -4,16 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="oq_8nzlsd"/>`;
+const content = `<path class="r30h5ubkg"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:chatime" /></template>
 <style>
-.oq_8nzlsd {
+.r30h5ubkg {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M8.92 32.017s1.5 3.5 1.3 5.1s-1.2 2.7-2.3 2.4s-2-1.3-.9-3.4s1.9-4.2 1.9-4.2m-.9-2.9s-3-13.6 8.1-15.5c12.1-2.1 6.8 12.3 6.8 12.3l-2.2 4.9h0s3-6.1 3.9-7.5c.3-.5.3-2.6 6-2.6c10.9 0 11.9-6.3 11.9-6.3c-3.3.5-5.8-.5-8.2-.3c-3.2.3-7.8 3.6-9.7 8.3c0 0 3.2-11.4-5.8-13.6c-4.5-1.1-8.1 1.1-11 4.9s-3.4 9.7.2 15.4");
+  d: path("M8.92 32.017s1.5 3.5 1.3 5.1s-1.2 2.7-2.3 2.4s-2-1.3-.9-3.4s1.9-4.2 1.9-4.2m-.9-2.9s-3-13.6 8.1-15.5c12.1-2.1 6.8 12.3 6.8 12.3l-2.2 4.9s3-6.1 3.9-7.5c.3-.5.3-2.6 6-2.6c10.9 0 11.9-6.3 11.9-6.3c-3.3.5-5.8-.5-8.2-.3c-3.2.3-7.8 3.6-9.7 8.3c0 0 3.2-11.4-5.8-13.6c-4.5-1.1-8.1 1.1-11 4.9s-3.4 9.7.2 15.4");
 }
 
 </style>

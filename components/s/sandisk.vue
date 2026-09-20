@@ -1,0 +1,19 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="om6_fdbzx"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:sandisk" /></template>
+<style>
+.om6_fdbzx {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M5.548 31.256h7.418v7.574H5.548zm6.777-4.217L42.37 38.774v-5.922c0-2.597-1.34-2.841-3.204-3.501l-22.633-8.009c-1.96-.694-2.41-1.402-2.41-2.546c0-1.465 1.139-2.198 2.656-2.198h16.404c1.105 0 1.948.951 1.948 2.099v2.012H42.5V9.169H14.227c-4.042 0-8.3 3.486-8.664 8.17c-.333 4.302.48 7.247 6.762 9.7");
+}
+
+</style>

@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="t5t3erblg"/><path class="ss7qcj_vo"/><path class="abdunac8h"/>`;
+const content = `<path class="m9bpkib0c"/><path class="uw05iymnd"/><path class="abdunac8h"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:facetune" /></template>
 <style>
@@ -16,20 +16,20 @@ const content = `<path class="t5t3erblg"/><path class="ss7qcj_vo"/><path class="
   d: path("M13.338 34.668c-.296-4.55 5.159-5.142 8.843-5.4c4.293-.301 8.232-.814 10.547-5.883c3.034 3.218 3.95 8.018 2.074 11.042");
 }
 
-.ss7qcj_vo {
+.m9bpkib0c {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M13.338 34.668A12.9 12.9 0 0 0 24 40.233c4.439 0 8.332-2.194 10.662-5.565m-2.112-3.71c0 .877-.71 1.587-1.587 1.587h0a1.587 1.587 0 1 1 1.587-1.587");
+  d: path("M24 7.767c-10.739 0-19.514 8.776-19.514 19.514c0 3.829 1.126 7.574 3.238 10.767a3.281 3.281 0 0 0 5.474-3.62a12.95 12.95 0 0 1-2.15-7.147c0-7.192 5.76-12.951 12.952-12.951s12.951 5.76 12.951 12.951a12.95 12.95 0 0 1-2.149 7.146a3.281 3.281 0 0 0 5.474 3.62a19.5 19.5 0 0 0 3.238-10.766c0-10.738-8.775-19.514-19.514-19.514");
 }
 
-.t5t3erblg {
+.uw05iymnd {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M24 7.767c-10.739 0-19.514 8.776-19.514 19.514c0 3.829 1.126 7.574 3.238 10.767a3.281 3.281 0 0 0 5.474-3.62h0a12.95 12.95 0 0 1-2.15-7.147c0-7.192 5.76-12.951 12.952-12.951s12.951 5.76 12.951 12.951a12.95 12.95 0 0 1-2.149 7.146a3.281 3.281 0 0 0 5.474 3.62a19.5 19.5 0 0 0 3.238-10.766c0-10.738-8.775-19.514-19.514-19.514");
+  d: path("M13.338 34.668A12.9 12.9 0 0 0 24 40.233c4.439 0 8.332-2.194 10.662-5.565m-2.112-3.71a1.587 1.587 0 1 1-3.174 0a1.587 1.587 0 0 1 3.174 0");
 }
 
 </style>

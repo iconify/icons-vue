@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="pbyxfmn3a"/><path class="y0ot4pbqs"/><path class="rx464_mew"/>`;
+const content = `<path class="pbyxfmn3a"/><path class="yryzrybje"/><path class="rx464_mew"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:xscreensaver" /></template>
 <style>
@@ -24,12 +24,12 @@ const content = `<path class="pbyxfmn3a"/><path class="y0ot4pbqs"/><path class="
   d: path("M15.9 36.4h-3a1 1 0 0 1-1-1V31m16.4-10.6h7.2a1 1 0 0 1 1 1v14.1a1 1 0 0 1-1 1h-4.4M20.3 20.4h2.4m-9.4 0h1.5m6 18.9a5.53 5.53 0 0 1-4 4.2h14.6a5.9 5.9 0 0 1-3.7-4.2");
 }
 
-.y0ot4pbqs {
+.yryzrybje {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M20.8 39.3H9.3a.9.9 0 0 1-.9-.9V18.1a.9.9 0 0 1 .9-.9h3.9m13.4 0h12.2a.9.9 0 0 1 .9.9v20.3a.9.9 0 0 1-.9.9h-12M19 17.2h3.3m-9 0H15m-1.8 0");
+  d: path("M20.8 39.3H9.3a.9.9 0 0 1-.9-.9V18.1a.9.9 0 0 1 .9-.9h3.9m13.4 0h12.2a.9.9 0 0 1 .9.9v20.3a.9.9 0 0 1-.9.9h-12M19 17.2h3.3m-9 0H15m-1.8 0z");
 }
 
 </style>

@@ -4,16 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="b1hyki9wb"/><path class="l9samrqqu"/>`;
+const content = `<path class="kqjl7kttg"/><path class="l9samrqqu"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:opera-beta" /></template>
 <style>
-.b1hyki9wb {
+.kqjl7kttg {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M16.923 36.116c-2.377-2.806-3.917-6.954-4.022-11.61v-1.012c.104-4.655 1.644-8.803 4.022-11.61C20.005 7.88 24.592 5.34 29.71 5.34c3.15 0 6.096.961 8.616 2.634A21.4 21.4 0 0 0 24.08 2.503L24 2.5C12.125 2.5 2.5 12.127 2.5 24c0 11.528 9.077 20.938 20.476 21.472q.509.026 1.024.026c5.504 0 10.524-2.07 14.328-5.471c-2.52 1.671-5.466 2.633-8.616 2.633c-5.12 0-9.705-2.54-12.79-6.545z");
+  d: path("M16.923 36.116c-2.377-2.806-3.917-6.954-4.022-11.61v-1.012c.104-4.655 1.644-8.803 4.022-11.61C20.005 7.88 24.592 5.34 29.71 5.34c3.15 0 6.096.961 8.616 2.634A21.4 21.4 0 0 0 24.08 2.503L24 2.5C12.125 2.5 2.5 12.127 2.5 24c0 11.528 9.077 20.938 20.476 21.472q.509.026 1.024.026c5.504 0 10.524-2.07 14.328-5.471c-2.52 1.671-5.466 2.633-8.616 2.633c-5.12 0-9.705-2.54-12.79-6.545");
 }
 
 .l9samrqqu {

@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<g class="y9tr6bcfx"><path class="utn-u5bfe"/><path class="a0p9wkbhz"/><path class="w_a3dw_cr"/><path class="bvvyfdbun"/></g>`;
+const content = `<g class="y9tr6bcfx"><path class="utn-u5bfe"/><path class="a0p9wkbhz"/><path class="w6pn2acks"/><path class="bvvyfdbun"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:crayon-adaptive" /></template>
 <style>
@@ -20,8 +20,8 @@ const content = `<g class="y9tr6bcfx"><path class="utn-u5bfe"/><path class="a0p9
   d: path("M35.661 15.442c-9.345-1.987-19.025-2.7-28.804-2.414c-1.104 2.196-2.842 6.184 1.051 9.393c3.513 2.895 8.34 1.328 10.526-2.313c.762-1.269 1.432-2.385 1.588-4.19c.065-.754 1.027-.847 1.008.103c-.106 5.274 3.06 8.5 6.463 9.163c2.93.571 7.54-1.28 8.405-5.6c.336-1.68.296-2.768-.237-4.142");
 }
 
-.w_a3dw_cr {
-  d: path("M12.324 12.962a17.1 17.1 0 0 1 13.07-6.07C34.84 6.893 42.5 14.553 42.5 24h0c0 9.448-7.659 17.107-17.107 17.107S8.287 33.448 8.287 24q0-.62.045-1.24");
+.w6pn2acks {
+  d: path("M12.324 12.962a17.1 17.1 0 0 1 13.07-6.07C34.84 6.893 42.5 14.553 42.5 24s-7.659 17.107-17.107 17.107S8.287 33.448 8.287 24q0-.62.045-1.24");
 }
 
 .y9tr6bcfx {

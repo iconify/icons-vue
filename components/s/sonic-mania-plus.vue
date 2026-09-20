@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<g class="y9tr6bcfx"><path class="ce0upl81d"/><path class="d6xoo6zcz"/><path class="zpzqkb4xr"/><path class="ms6w3mb7m"/><path class="hzqcrvboh"/><path class="s0rwuxb0f"/><path class="qju0racal"/><path class="vbc8pzo9e"/><path class="yv0ttudqz"/><path class="wz4wvdbma"/></g><rect class="j3s9ivbxi"/>`;
+const content = `<g class="y9tr6bcfx"><path class="ce0upl81d"/><path class="d6xoo6zcz"/><path class="zpzqkb4xr"/><path class="ms6w3mb7m"/><path class="hzqcrvboh"/><path class="s0rwuxb0f"/><path class="jorlxgc4n"/><path class="vbc8pzo9e"/><path class="yv0ttudqz"/><path class="wz4wvdbma"/></g><rect class="j3s9ivbxi"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:sonic-mania-plus" /></template>
 <style>
@@ -33,12 +33,12 @@ const content = `<g class="y9tr6bcfx"><path class="ce0upl81d"/><path class="d6xo
   ry: 4px;
 }
 
-.ms6w3mb7m {
-  d: path("M37.126 10.259c-1.036-1.354-3.007.175-2.527 2.276c.18.78.7 1.029 1.658.722");
+.jorlxgc4n {
+  d: path("M16.014 36.844c.765-.232 2.365-.064 3.236.524m14.603-5.204c0 2.094-1.645 3.792-3.673 3.792c-2.03 0-3.674-1.698-3.674-3.792c0-2.095 1.645-3.793 3.674-3.793s3.673 1.698 3.673 3.793");
 }
 
-.qju0racal {
-  d: path("M16.014 36.844c.765-.232 2.365-.064 3.236.524m14.603-5.204c0 2.094-1.645 3.792-3.673 3.792h0c-2.03 0-3.674-1.698-3.674-3.792h0c0-2.095 1.645-3.793 3.674-3.793s3.673 1.698 3.673 3.793");
+.ms6w3mb7m {
+  d: path("M37.126 10.259c-1.036-1.354-3.007.175-2.527 2.276c.18.78.7 1.029 1.658.722");
 }
 
 .s0rwuxb0f {

@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<circle class="cpk0fnbgt"/><path class="gdoa_mb6o"/>`;
+const content = `<circle class="cpk0fnbgt"/><path class="rlsr06bkd"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:letter-lowercase-circle-c" /></template>
 <style>
@@ -18,12 +18,12 @@ const content = `<circle class="cpk0fnbgt"/><path class="gdoa_mb6o"/>`;
   stroke-linejoin: round;
 }
 
-.gdoa_mb6o {
+.rlsr06bkd {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M27.737 27.285a4 4 0 0 1-3.474 2.015h0a4 4 0 0 1-4-4v-2.6a4 4 0 0 1 4-4h0c1.484 0 2.78.808 3.47 2.008");
+  d: path("M27.737 27.285a4 4 0 0 1-7.473-1.985v-2.6a4 4 0 0 1 4-4a4 4 0 0 1 3.469 2.008");
 }
 
 </style>

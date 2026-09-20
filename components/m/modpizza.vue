@@ -4,16 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="ile_z4bgt"/><path class="vb_uuxzdb"/>`;
+const content = `<path class="o4x0x141s"/><path class="vb_uuxzdb"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:modpizza" /></template>
 <style>
-.ile_z4bgt {
+.o4x0x141s {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M28.68 19.4a3.15 3.15 0 0 0-3.31-3.14a3.27 3.27 0 0 0-3 3.32v2.91a3.15 3.15 0 0 0 3.15 3.14h0a3.15 3.15 0 0 0 3.14-3.14V19.4m-17.82 6.23v-9.37l4.67 9.38l4.68-9.37v9.37m10.69-.01v-9.39h1.59a4.69 4.69 0 0 1 4.69 4.7h0a4.69 4.69 0 0 1-4.69 4.69Z");
+  d: path("M28.68 19.4a3.15 3.15 0 0 0-3.31-3.14a3.27 3.27 0 0 0-3 3.32v2.91a3.15 3.15 0 0 0 3.15 3.14a3.15 3.15 0 0 0 3.14-3.14V19.4m-17.82 6.23v-9.37l4.67 9.38l4.68-9.37v9.37m10.69-.01v-9.39h1.59a4.69 4.69 0 0 1 4.69 4.7a4.69 4.69 0 0 1-4.69 4.69Z");
 }
 
 .vb_uuxzdb {

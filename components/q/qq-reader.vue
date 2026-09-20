@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<circle class="a0d9k3b3u"/><path class="fo7mwr_nq"/><path class="azw_ywhmf"/><path class="wp85vkbst"/><g class="y9tr6bcfx"><path class="ol366htwr"/><path class="se3-i_bry"/><path class="fh0lqnb6e"/></g>`;
+const content = `<circle class="a0d9k3b3u"/><path class="fo7mwr_nq"/><path class="q3-azdb9k"/><path class="wp85vkbst"/><g class="y9tr6bcfx"><path class="ol366htwr"/><path class="se3-i_bry"/><path class="fh0lqnb6e"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:qq-reader" /></template>
 <style>
@@ -13,14 +13,6 @@ const content = `<circle class="a0d9k3b3u"/><path class="fo7mwr_nq"/><path class
   cy: 13.157px;
   r: 0.75px;
   fill: currentColor;
-}
-
-.azw_ywhmf {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M31.42 18.303c-.993-1.347-4.554-1.69-7.412-1.69s-6.42.343-7.412 1.69c2.234 1.557 5.717 2.239 7.412 2.226s5.178-.669 7.412-2.226m-8.449-5.612c0 1.683-.958 3.047-2.14 3.047h0c-1.18 0-2.139-1.364-2.139-3.047s.958-3.046 2.14-3.046c1.181 0 2.14 1.364 2.14 3.046m6.351 0c0 1.683-.958 3.047-2.14 3.047h0c-1.18 0-2.138-1.364-2.138-3.047h0c0-1.682.957-3.046 2.139-3.046h0c1.181 0 2.14 1.364 2.14 3.046");
 }
 
 .fh0lqnb6e {
@@ -37,6 +29,14 @@ const content = `<circle class="a0d9k3b3u"/><path class="fo7mwr_nq"/><path class
 
 .ol366htwr {
   d: path("m8.184 24.939l-.546-5.199c4.817.122 11.401 3.051 15.739 4.768h1.246c4.337-1.717 10.922-4.646 15.739-4.768l-.546 5.199m-.456 4.344l-.955 9.082l-12.807 4.257c-.381.466-1.051.37-1.598.37s-1.217.096-1.598-.37L9.595 38.365l-.954-9.082");
+}
+
+.q3-azdb9k {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M31.42 18.303c-.993-1.347-4.554-1.69-7.412-1.69s-6.42.343-7.412 1.69c2.234 1.557 5.717 2.239 7.412 2.226s5.178-.669 7.412-2.226m-8.449-5.612c0 1.683-.958 3.047-2.14 3.047c-1.18 0-2.139-1.364-2.139-3.047s.958-3.046 2.14-3.046c1.181 0 2.14 1.364 2.14 3.046m6.351 0c0 1.683-.958 3.047-2.14 3.047c-1.18 0-2.138-1.364-2.138-3.047c0-1.682.957-3.046 2.139-3.046s2.14 1.364 2.14 3.046");
 }
 
 .se3-i_bry {

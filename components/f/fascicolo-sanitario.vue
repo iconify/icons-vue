@@ -1,0 +1,37 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<circle class="cpk0fnbgt"/><path class="mug93f-xf"/><path class="sp23m6b-t"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:fascicolo-sanitario" /></template>
+<style>
+.cpk0fnbgt {
+  cx: 24px;
+  cy: 24px;
+  r: 21.5px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.mug93f-xf {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("m32.469 27l-1.534-3.103s.125-.892 1.034-1.267s1.766.072 1.766.072l3.781 7.794s1.498 5.44-1.819 7.526c-3.317 2.087-5.297 1.64-5.618 1.64s-2.89-1.533-3.424-1.997c-.535-.464-3.193-1.748-4.637-1.944c-1.445-.196-2.64-.071-2.943-.82c-.303-.75.98-1.98 1.23-2.07c.25-.088 2.426-.606 3.121-.356c.696.25-3.798-8.632-3.798-8.632l-.535-.99s-.642-1.578.704-2.23c1.347-.65 2.381.84 2.381.84l1.828 3.543s.025-1.437.895-1.727s1.867.315 1.867.315s.731 1.072.718 1.261c-.012.19-.58-1.261.72-1.841s2.345.177 2.345.177zm-4.985-2.172l1.856 3.785m-5.334-3.606l2.207 5.079");
+}
+
+.sp23m6b-t {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M23.955 21.482c-1.27 2.2-1.494-2.187-3.948-1.53s-.454 4.569-2.654 3.299s2.187-1.494 1.53-3.948c-.658-2.454-4.57-.455-3.3-2.655s1.495 2.187 3.949 1.53c2.454-.658.454-4.57 2.654-3.299s-2.187 1.494-1.53 3.948c.658 2.454 4.57.454 3.3 2.655m-16.902-2.65h4.744m-1.141-8.739l3.442 3.442m5.261-6.974v4.78m8.49-1.177l-3.389 3.388m1.694 5.513h5.048");
+}
+
+</style>

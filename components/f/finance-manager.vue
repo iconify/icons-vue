@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="u7eitdb3g"/><path class="andgok1cx"/><path class="xa31xab1r"/>`;
+const content = `<path class="mf3iiie_n"/><path class="andgok1cx"/><path class="xa31xab1r"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:finance-manager" /></template>
 <style>
@@ -16,12 +16,12 @@ const content = `<path class="u7eitdb3g"/><path class="andgok1cx"/><path class="
   d: path("M43.5 30.662a5 5 0 0 1-.423.018h-8.233a4.62 4.62 0 0 1-4.63-4.61v-.54a4.62 4.62 0 0 1 4.61-4.63h8.253q.215 0 .423.02");
 }
 
-.u7eitdb3g {
+.mf3iiie_n {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M37.51 25.906a1.86 1.86 0 0 1-1.86 1.86h0a1.86 1.86 0 0 1-1.86-1.86h0a1.86 1.86 0 0 1 1.86-1.86h0a1.86 1.86 0 0 1 1.86 1.86");
+  d: path("M37.51 25.906a1.86 1.86 0 0 1-3.72 0a1.86 1.86 0 0 1 3.72 0");
 }
 
 .xa31xab1r {

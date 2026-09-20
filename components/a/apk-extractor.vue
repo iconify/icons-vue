@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="o6gg2vb7n"/><path class="gpli-3qxk"/><path class="pnzimus3m"/>`;
+const content = `<path class="o6gg2vb7n"/><path class="gpli-3qxk"/><path class="v0pi40s9n"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:apk-extractor" /></template>
 <style>
@@ -24,12 +24,12 @@ const content = `<path class="o6gg2vb7n"/><path class="gpli-3qxk"/><path class="
   d: path("M5.5 14.5h37v27h-37zm0 0l5-8h27l5 8M24 6.5v12");
 }
 
-.pnzimus3m {
+.v0pi40s9n {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M24 22.289a11.5 11.5 0 0 1 11.5 11.5v1.641h0h-23h0v-1.641a11.5 11.5 0 0 1 11.5-11.5m-9.931-1.719l3.268 3.845m16.594-3.845l-3.268 3.845");
+  d: path("M24 22.289za11.5 11.5 0 0 1 11.5 11.5v1.641h-23v-1.641a11.5 11.5 0 0 1 11.5-11.5m-9.931-1.719l3.268 3.845m16.594-3.845l-3.268 3.845");
 }
 
 </style>

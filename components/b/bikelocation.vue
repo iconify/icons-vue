@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="mm8fibcti"/><circle class="vn16w925x"/><circle class="y6gt57bru"/><path class="cbe3fcu-g"/><path class="sn1q0zb0f"/>`;
+const content = `<path class="p53lf-qyg"/><circle class="vn16w925x"/><circle class="y6gt57bru"/><path class="cbe3fcu-g"/><path class="sn1q0zb0f"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:bikelocation" /></template>
 <style>
@@ -16,12 +16,12 @@ const content = `<path class="mm8fibcti"/><circle class="vn16w925x"/><circle cla
   d: path("M29.12 13.06L23.72 20h-7.08l5.42-6.94z");
 }
 
-.mm8fibcti {
+.p53lf-qyg {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M24 4.5A15.93 15.93 0 0 0 8.08 20.42c0 6.22 3.93 11.9 7.8 16a52 52 0 0 0 7.73 6.78l.39.27l.39-.27a52 52 0 0 0 7.73-6.78c3.87-4.14 7.8-9.81 7.8-16A15.93 15.93 0 0 0 24 4.5");
+  d: path("M24 4.5zA15.93 15.93 0 0 0 8.08 20.42c0 6.22 3.93 11.9 7.8 16a52 52 0 0 0 7.73 6.78l.39.27l.39-.27a52 52 0 0 0 7.73-6.78c3.87-4.14 7.8-9.81 7.8-16A15.93 15.93 0 0 0 24 4.5");
 }
 
 .sn1q0zb0f {

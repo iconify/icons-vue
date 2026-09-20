@@ -4,16 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="kg_sa8b1z"/><path class="sowwcz_hh"/>`;
+const content = `<path class="bz0_98bos"/><path class="sowwcz_hh"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:kraken" /></template>
 <style>
-.kg_sa8b1z {
+.bz0_98bos {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M31.877 28.116a2.627 2.627 0 0 1 5.251 0h0m-15.754 0a2.627 2.627 0 0 1 5.252 0m-15.754 0a2.58 2.58 0 0 1 2.625-2.535h0a2.58 2.58 0 0 1 2.626 2.535m5.251 8.009a2.52 2.52 0 0 1-1.312 2.195a2.71 2.71 0 0 1-2.626 0a2.52 2.52 0 0 1-1.313-2.195m26.257 0a2.52 2.52 0 0 1-1.313 2.195a2.71 2.71 0 0 1-2.626 0a2.52 2.52 0 0 1-1.313-2.195m-5.251 0a2.52 2.52 0 0 1-1.313 2.195a2.71 2.71 0 0 1-2.626 0a2.52 2.52 0 0 1-1.312-2.195");
+  d: path("M31.877 28.116a2.627 2.627 0 0 1 5.251 0m-15.754 0a2.627 2.627 0 0 1 5.252 0m-15.754 0a2.58 2.58 0 0 1 2.625-2.535a2.58 2.58 0 0 1 2.626 2.535m5.251 8.009a2.52 2.52 0 0 1-1.312 2.195a2.71 2.71 0 0 1-2.626 0a2.52 2.52 0 0 1-1.313-2.195m26.257 0a2.52 2.52 0 0 1-1.313 2.195a2.71 2.71 0 0 1-2.626 0a2.52 2.52 0 0 1-1.313-2.195m-5.251 0a2.52 2.52 0 0 1-1.313 2.195a2.71 2.71 0 0 1-2.626 0a2.52 2.52 0 0 1-1.312-2.195");
 }
 
 .sowwcz_hh {

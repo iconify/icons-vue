@@ -4,16 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="b7dcu0b4s"/><path class="wx-pguerm"/>`;
+const content = `<path class="karjpfbwb"/><path class="wx-pguerm"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:keio-atman" /></template>
 <style>
-.b7dcu0b4s {
+.karjpfbwb {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M6.678 9.722c-.87-2.335 2.104-3.61 4.045-3.703a120 120 0 0 0 4.725-.333c3.125-.29 21.013-.224 21.907.081c1.153.309 3.068 4.3.828 4.3c-1.854-.465-20.434-.055-23.302.514c-1.091.217-2.686.539-3.543.716c-2.931.714-3.77.548-4.66-1.575m25.723 26.304c-3.151-4.384-6.182-9.083-9.829-12.368c-1.526 1.526-6.11 9.217-6.853 11.819c4.025-.16 11.412-.65 16.682.55z");
+  d: path("M6.678 9.722c-.87-2.335 2.104-3.61 4.045-3.703a120 120 0 0 0 4.725-.333c3.125-.29 21.013-.224 21.907.081c1.153.309 3.068 4.3.828 4.3c-1.854-.465-20.434-.055-23.302.514c-1.091.217-2.686.539-3.543.716c-2.931.714-3.77.548-4.66-1.575m25.723 26.304c-3.151-4.384-6.182-9.083-9.829-12.368c-1.526 1.526-6.11 9.217-6.853 11.819c4.025-.16 11.412-.65 16.682.55");
 }
 
 .wx-pguerm {

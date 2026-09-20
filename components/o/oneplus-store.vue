@@ -4,18 +4,10 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="p-spa4b1i"/><path class="ap1dv9tby"/><path class="i9clfwm2k"/><path class="dbrdfab8z"/><circle class="dbbi57b2v"/><circle class="t60knubks"/>`;
+const content = `<path class="p-spa4b1i"/><path class="vfry8fgeo"/><path class="i9clfwm2k"/><path class="dbrdfab8z"/><circle class="dbbi57b2v"/><circle class="t60knubks"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:oneplus-store" /></template>
 <style>
-.ap1dv9tby {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M24.505 25.587a2.515 2.515 0 0 1-2.515 2.515h0");
-}
-
 .dbbi57b2v {
   cx: 14.944px;
   cy: 10.338px;
@@ -58,6 +50,14 @@ const content = `<path class="p-spa4b1i"/><path class="ap1dv9tby"/><path class="
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
+}
+
+.vfry8fgeo {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M24.505 25.587za2.515 2.515 0 0 1-2.515 2.515");
 }
 
 </style>

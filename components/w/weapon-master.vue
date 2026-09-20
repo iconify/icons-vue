@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="g2wj9jbhp"/><g class="y9tr6bcfx"><path class="iqhe4v3fz"/><path class="e9obj-b7u"/></g><g class="y9tr6bcfx"><path class="u56m_kbig"/><path class="xrcyf9qcb"/></g><g class="y9tr6bcfx"><path class="w7_zel7zn"/><path class="jxo2sdb8i"/></g><path class="f7ag0-3ex"/><g class="y9tr6bcfx"><path class="jq8zc6b0x"/><path class="jak2zdhur"/></g><path class="n58le0b-k"/>`;
+const content = `<path class="g2wj9jbhp"/><g class="y9tr6bcfx"><path class="iqhe4v3fz"/><path class="e9obj-b7u"/></g><g class="y9tr6bcfx"><path class="u56m_kbig"/><path class="xrcyf9qcb"/></g><g class="y9tr6bcfx"><path class="w7_zel7zn"/><path class="jxo2sdb8i"/></g><path class="f7ag0-3ex"/><g class="y9tr6bcfx"><path class="jq8zc6b0x"/><path class="jak2zdhur"/></g><path class="w49u6rbpq"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:weapon-master" /></template>
 <style>
@@ -44,16 +44,16 @@ const content = `<path class="g2wj9jbhp"/><g class="y9tr6bcfx"><path class="iqhe
   d: path("M28.404 28.477c.475.156 1.463-.058 1.516-.62m-4.893-2.785l2.731 2.112m6.099 9.763l1.898 1.467v3.772m.218-3.61l.821.634l4.047-.562");
 }
 
-.n58le0b-k {
+.u56m_kbig {
+  d: path("m22.806 19.96l1.644 2.576l1.233.907v1.227l-2.53.573V23.91l-1.378-1l-1.835-2.845v3.27");
+}
+
+.w49u6rbpq {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("m19.45 25.089l10.517 8.129v1.705l1.378 1.065v-1.705l1.628 1.258M39.96 7.127V19.3M8.04 7.127V19.3M24 7.127V19.3m-12.532-6.087h3.221m1.742 2.481c.395.507.89.695 1.58.695h.954c.887 0 1.607-.71 1.607-1.586v0c0-.877-.72-1.587-1.607-1.587H17.91c-.888 0-1.607-.71-1.607-1.587v0c0-.876.72-1.586 1.607-1.586h.954c.689 0 1.184.188 1.58.695m-2.006 6.442V9.247m13.954 6.447c.395.507.89.695 1.58.695h.953c.888 0 1.607-.71 1.607-1.586v0c0-.877-.72-1.587-1.607-1.587h-1.054c-.887 0-1.607-.71-1.607-1.587v0c0-.876.72-1.586 1.607-1.586h.954c.69 0 1.184.188 1.58.695m-2.007 6.442V9.247m-6.97 3.966h3.221m-1.61-1.586V14.8");
-}
-
-.u56m_kbig {
-  d: path("m22.806 19.96l1.644 2.576l1.233.907v1.227l-2.53.573V23.91l-1.378-1l-1.835-2.845v3.27");
+  d: path("m19.45 25.089l10.517 8.129v1.705l1.378 1.065v-1.705l1.628 1.258M39.96 7.127V19.3M8.04 7.127V19.3M24 7.127V19.3m-12.532-6.087h3.221m1.742 2.481c.395.507.89.695 1.58.695h.954c.887 0 1.607-.71 1.607-1.586s-.72-1.587-1.607-1.587H17.91c-.888 0-1.607-.71-1.607-1.587c0-.876.72-1.586 1.607-1.586h.954c.689 0 1.184.188 1.58.695m-2.006 6.442V9.247m13.954 6.447c.395.507.89.695 1.58.695h.953c.888 0 1.607-.71 1.607-1.586s-.72-1.587-1.607-1.587h-1.054c-.887 0-1.607-.71-1.607-1.587c0-.876.72-1.586 1.607-1.586h.954c.69 0 1.184.188 1.58.695m-2.007 6.442V9.247m-6.97 3.966h3.221m-1.61-1.586V14.8");
 }
 
 .w7_zel7zn {

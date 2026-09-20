@@ -4,18 +4,10 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="gnz2-dbwx"/><path class="atow0wbjx"/><path class="t4jbtz5gx"/><circle class="fvy1a6zfr"/><circle class="nx762dx3e"/>`;
+const content = `<path class="gnz2-dbwx"/><path class="rn2ntdjtp"/><path class="t4jbtz5gx"/><circle class="fvy1a6zfr"/><circle class="nx762dx3e"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:mitaicompanion" /></template>
 <style>
-.atow0wbjx {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M21.48 20.21h5.27a5.55 5.55 0 0 1 5.55 5.55v.6h0h-16.38h0v-.6a5.55 5.55 0 0 1 5.56-5.55m-5.56 8.52h16.37m-16.37 3.42h16.37");
-}
-
 .fvy1a6zfr {
   cx: 21.84px;
   cy: 23.47px;
@@ -36,6 +28,14 @@ const content = `<path class="gnz2-dbwx"/><path class="atow0wbjx"/><path class="
   cy: 23.47px;
   r: 0.75px;
   fill: currentColor;
+}
+
+.rn2ntdjtp {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M21.48 20.21h5.27a5.55 5.55 0 0 1 5.55 5.55v.6H15.92v-.6a5.55 5.55 0 0 1 5.56-5.55m-5.56 8.52h16.37m-16.37 3.42h16.37");
 }
 
 .t4jbtz5gx {

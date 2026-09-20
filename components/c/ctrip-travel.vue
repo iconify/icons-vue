@@ -4,16 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="ogwbkcb5p"/><path class="cbb-civlk"/>`;
+const content = `<path class="ogwbkcb5p"/><path class="mt6gb20gc"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:ctrip-travel" /></template>
 <style>
-.cbb-civlk {
+.mt6gb20gc {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M38.399 28.942c-.235-1.263-.858-2.284-2.063-2.763c-2.12-.842-3.843 1.723-3.13 3.535c1.472 3.739-2.13 9.244-7.754 9.18m6.932-27.761c0 .908-.736 1.643-1.644 1.643h0a1.644 1.644 0 0 1-1.644-1.643h0c0-.908.736-1.643 1.644-1.643h0c.908 0 1.644.735 1.644 1.643");
+  d: path("M38.399 28.942c-.235-1.263-.858-2.284-2.063-2.763c-2.12-.842-3.843 1.723-3.13 3.535c1.472 3.739-2.13 9.244-7.754 9.18m6.932-27.761a1.644 1.644 0 0 1-3.288 0a1.644 1.644 0 0 1 3.288 0");
 }
 
 .ogwbkcb5p {

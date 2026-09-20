@@ -4,24 +4,32 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="x86zwyb6b"/><path class="r8gvfbcsk"/><path class="hqkfzmqpd"/><path class="tytvujbbx"/><path class="oozai2b_a"/><path class="y3ai4bc1s"/><path class="dd5iwwgtf"/>`;
+const content = `<path class="x86zwyb6b"/><path class="tmh2uuq_t"/><path class="dncuymksg"/><path class="f9s6jfb-l"/><path class="oozai2b_a"/><path class="y3ai4bc1s"/><path class="j78q28l0r"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:wood-screws-games" /></template>
 <style>
-.dd5iwwgtf {
+.dncuymksg {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("m36.682 40.563l-1.362.71a1.823 1.823 0 0 1-2.46-.766l-.004-.007L18.25 12.53a1.823 1.823 0 0 1 .774-2.465h0L25.22 6.83a1.823 1.823 0 0 1 2.465.774l.576 1.103");
+  d: path("M41.176 35.85a4.726 4.726 0 1 1-9.451 0a4.726 4.726 0 0 1 9.45-.001");
 }
 
-.hqkfzmqpd {
+.f9s6jfb-l {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M41.176 35.85a4.726 4.726 0 1 1-9.451 0a4.726 4.726 0 0 1 9.45-.001z");
+  d: path("m31.02 13.988l11.27 21.587a1.823 1.823 0 0 1-.773 2.464l-1.335.697m-3.461 1.807l-1.4.73a1.823 1.823 0 0 1-2.462-.766l-.003-.007L18.25 12.53a1.823 1.823 0 0 1 .774-2.465L25.22 6.83a1.823 1.823 0 0 1 2.465.774l.576 1.103");
+}
+
+.j78q28l0r {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("m36.682 40.563l-1.362.71a1.823 1.823 0 0 1-2.46-.766l-.004-.007L18.25 12.53a1.823 1.823 0 0 1 .774-2.465L25.22 6.83a1.823 1.823 0 0 1 2.465.774l.576 1.103");
 }
 
 .oozai2b_a {
@@ -32,20 +40,12 @@ const content = `<path class="x86zwyb6b"/><path class="r8gvfbcsk"/><path class="
   d: path("M33.833 14.41c-1.342.774-3.44-.349-4.688-2.507c-1.247-2.16-1.17-4.539.172-5.313c1.342-.775 3.44.348 4.688 2.507c1.246 2.16 1.17 4.539-.172 5.313");
 }
 
-.r8gvfbcsk {
+.tmh2uuq_t {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M15.548 12.256a4.726 4.726 0 1 1-9.451 0a4.726 4.726 0 0 1 9.451 0m0 23.594a4.726 4.726 0 1 1-9.451 0a4.726 4.726 0 0 1 9.451-.001zM9.335 10.769l2.973 2.972m.002-2.972L9.333 13.74m.002 20.622l2.973 2.973m.002-2.973l-2.975 2.973m23.949 3.705H15.677m25.803-2.98v1.153a1.823 1.823 0 0 1-1.827 1.827h-3.88m3.814-10.643h.066c1.012 0 1.827.815 1.827 1.827v1.797m-25.337-3.624h11.435m7.385 3.965l2.974 2.973m0-2.973l-2.974 2.973");
-}
-
-.tytvujbbx {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("m31.02 13.988l11.27 21.587a1.823 1.823 0 0 1-.773 2.464l-1.335.697m-3.461 1.807l-1.4.73a1.823 1.823 0 0 1-2.462-.766l-.003-.007L18.25 12.53a1.823 1.823 0 0 1 .774-2.465h0L25.22 6.83a1.823 1.823 0 0 1 2.465.774l.576 1.103");
+  d: path("M15.548 12.256a4.726 4.726 0 1 1-9.451 0a4.726 4.726 0 0 1 9.451 0m0 23.594a4.726 4.726 0 1 1-9.451 0a4.726 4.726 0 0 1 9.451-.001m-6.213-25.08l2.973 2.972m.002-2.972L9.333 13.74m.002 20.622l2.973 2.973m.002-2.973l-2.975 2.973m23.949 3.705H15.677m25.803-2.98v1.153a1.823 1.823 0 0 1-1.827 1.827h-3.88m3.814-10.643h.066c1.012 0 1.827.815 1.827 1.827v1.797m-25.337-3.624h11.435m7.385 3.965l2.974 2.973m0-2.973l-2.974 2.973");
 }
 
 .x86zwyb6b {

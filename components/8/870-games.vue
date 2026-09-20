@@ -4,16 +4,12 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<g class="y9tr6bcfx"><path class="j-twbtbiv"/><path class="y614vuktf"/><path class="c6jiuvbmm"/><path class="opa-albas"/><path class="grgfuoi-u"/></g>`;
+const content = `<g class="y9tr6bcfx"><path class="j-twbtbiv"/><path class="y614vuktf"/><path class="c6jiuvbmm"/><path class="opa-albas"/><path class="z36tqzb5l"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:870-games" /></template>
 <style>
 .c6jiuvbmm {
   d: path("M35.025 14.026c.72 1.16 1.894 2.022 3.217 2.723m-1.25-4.506a12 12 0 0 0 2.434 2.05M9.171 15.787c-.8.931-1.236 2.08-1.236 3.264c.005.355.049.71.132 1.056c-2.183 1.203-3.56 3.627-3.567 6.277c.007 2.886 1.635 5.477 4.113 6.545c-1.44 1.6-2.364 3.724-2.637 6.01m29.279-25.1a6.4 6.4 0 0 0-2.086.016c-1.31-2.862-4.902-4.794-9.169-4.794s-7.86 1.932-9.169 4.794a6.4 6.4 0 0 0-2.086-.016m26.084 1.948c.8.931 1.236 2.08 1.236 3.264c-.005.355-.049.71-.132 1.056c2.183 1.203 3.56 3.627 3.567 6.277c-.007 2.886-1.635 5.477-4.113 6.545c1.44 1.6 2.364 3.724 2.637 6.01");
-}
-
-.grgfuoi-u {
-  d: path("M36.962 29.725a3.61 3.61 0 0 1-3.61 3.614h0a3.61 3.61 0 0 1-3.612-3.614v0a3.61 3.61 0 0 1 3.611-3.615a3.61 3.61 0 0 1 3.61 3.615m-.325-1.503l-2.158.91");
 }
 
 .j-twbtbiv {
@@ -33,6 +29,10 @@ const content = `<g class="y9tr6bcfx"><path class="j-twbtbiv"/><path class="y614
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
+}
+
+.z36tqzb5l {
+  d: path("M36.962 29.725a3.61 3.61 0 0 1-3.61 3.614a3.61 3.61 0 0 1-3.612-3.614a3.61 3.61 0 0 1 3.611-3.615a3.61 3.61 0 0 1 3.61 3.615m-.325-1.503l-2.158.91");
 }
 
 </style>

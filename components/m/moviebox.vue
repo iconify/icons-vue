@@ -4,12 +4,12 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<g class="y9tr6bcfx"><path class="h50zv_bgb"/><path class="lz40vkbso"/></g>`;
+const content = `<g class="y9tr6bcfx"><path class="cw6j8mz3o"/><path class="lz40vkbso"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:moviebox" /></template>
 <style>
-.h50zv_bgb {
-  d: path("m24.382 36.74l13.766-7.95c1.574-.908 2.607-2.677 2.607-4.79s-1.033-3.882-2.607-4.79h0L15.563 6.166c-2.886-1.667-8.317-.22-8.317 4.803v26.06c0 5.023 5.431 6.47 8.317 4.803l5.161-2.98");
+.cw6j8mz3o {
+  d: path("m24.382 36.74l13.766-7.95c1.574-.908 2.607-2.677 2.607-4.79s-1.033-3.882-2.607-4.79L15.563 6.166c-2.886-1.667-8.317-.22-8.317 4.803v26.06c0 5.023 5.431 6.47 8.317 4.803l5.161-2.98");
 }
 
 .lz40vkbso {

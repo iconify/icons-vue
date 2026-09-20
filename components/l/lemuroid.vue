@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<circle class="gww5ooevl"/><circle class="uaiewabrq"/><path class="xnue-cbqu"/><circle class="ejoo13bdy"/><circle class="q5u4mibbp"/><circle class="qc3-pebzk"/><circle class="ux1gt0b0v"/><path class="jzdimietf"/><path class="v170sfb1p"/>`;
+const content = `<circle class="gww5ooevl"/><circle class="uaiewabrq"/><path class="s82s-6q4s"/><circle class="ejoo13bdy"/><circle class="q5u4mibbp"/><circle class="qc3-pebzk"/><circle class="ux1gt0b0v"/><path class="jzdimietf"/><path class="v170sfb1p"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:lemuroid" /></template>
 <style>
@@ -54,6 +54,14 @@ const content = `<circle class="gww5ooevl"/><circle class="uaiewabrq"/><path cla
   stroke-linejoin: round;
 }
 
+.s82s-6q4s {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M23.2 27.25h1.7a4.59 4.59 0 0 1 4.6 4.6a4.59 4.59 0 0 1-4.6 4.6h-1.7a4.59 4.59 0 0 1-4.6-4.6a4.65 4.65 0 0 1 4.6-4.6");
+}
+
 .uaiewabrq {
   cx: 12px;
   cy: 19.05px;
@@ -79,14 +87,6 @@ const content = `<circle class="gww5ooevl"/><circle class="uaiewabrq"/><path cla
   stroke: currentColor;
   stroke-linejoin: round;
   d: path("m24 33.85l2.9-3.3H21Z");
-}
-
-.xnue-cbqu {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M23.2 27.25h1.7a4.59 4.59 0 0 1 4.6 4.6h0a4.59 4.59 0 0 1-4.6 4.6h-1.7a4.59 4.59 0 0 1-4.6-4.6h0a4.65 4.65 0 0 1 4.6-4.6");
 }
 
 </style>

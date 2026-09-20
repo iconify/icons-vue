@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<rect class="j3s9ivbxi"/><path class="mkzs0kbvh"/><path class="ovlx5vc3f"/><circle class="jv64roogq"/><circle class="oj75-41jl"/><path class="laehbqbpv"/><ellipse class="n1gz2hbcv"/>`;
+const content = `<rect class="j3s9ivbxi"/><path class="mkzs0kbvh"/><path class="pxst2x1sj"/><circle class="jv64roogq"/><circle class="oj75-41jl"/><path class="w6dcqubun"/><ellipse class="n1gz2hbcv"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:bokete" /></template>
 <style>
@@ -29,14 +29,6 @@ const content = `<rect class="j3s9ivbxi"/><path class="mkzs0kbvh"/><path class="
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-}
-
-.laehbqbpv {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M19.404 33.335A5.5 4.25 0 0 1 18.5 31a5.5 4.25 0 0 1 5.5-4.25A5.5 4.25 0 0 1 29.5 31v0a5.5 4.25 0 0 1-.9 2.329");
 }
 
 .mkzs0kbvh {
@@ -68,12 +60,20 @@ const content = `<rect class="j3s9ivbxi"/><path class="mkzs0kbvh"/><path class="
   stroke-linejoin: round;
 }
 
-.ovlx5vc3f {
+.pxst2x1sj {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M18.724 29.842A6.75 4.75 0 0 1 17 30a6.75 4.75 0 0 1-6.75-4.75A6.75 4.75 0 0 1 17 20.5a6.75 4.75 0 0 1 4.417 1.158m5.176-.006A6.75 4.75 0 0 1 31 20.5a6.75 4.75 0 0 1 6.75 4.75v0A6.75 4.75 0 0 1 31 30a6.75 4.75 0 0 1-1.724-.158");
+  d: path("M18.724 29.842A6.75 4.75 0 0 1 17 30a6.75 4.75 0 0 1-6.75-4.75A6.75 4.75 0 0 1 17 20.5a6.75 4.75 0 0 1 4.417 1.158m5.176-.006A6.75 4.75 0 0 1 31 20.5a6.75 4.75 0 0 1 6.75 4.75A6.75 4.75 0 0 1 31 30a6.75 4.75 0 0 1-1.724-.158");
+}
+
+.w6dcqubun {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M19.404 33.335A5.5 4.25 0 0 1 18.5 31a5.5 4.25 0 0 1 5.5-4.25A5.5 4.25 0 0 1 29.5 31a5.5 4.25 0 0 1-.9 2.329");
 }
 
 </style>

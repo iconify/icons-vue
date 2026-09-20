@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<g class="y9tr6bcfx"><path class="oy52z_bes"/><path class="e1r-bmune"/></g><g class="y9tr6bcfx"><path class="j70osbbph"/><path class="ky8-ddcll"/></g>`;
+const content = `<g class="y9tr6bcfx"><path class="otmgurbjf"/><path class="e1r-bmune"/></g><g class="y9tr6bcfx"><path class="j70osbbph"/><path class="ky8-ddcll"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:game-booster-plus" /></template>
 <style>
@@ -20,8 +20,8 @@ const content = `<g class="y9tr6bcfx"><path class="oy52z_bes"/><path class="e1r-
   d: path("M26.316 30.031s-2.828 2.004-2.514 4.638c-1.293-1.326-1.255-1.882-1.192-3.795c-2.116-.004-.86-2.19.25-3.386c-4.42 1.662-4.17 6.397-2.382 8.686c.407-1.568 1.296-2.095 1.296-2.095");
 }
 
-.oy52z_bes {
-  d: path("M16.848 16.214h-1.257v-1.257a1.53 1.53 0 1 0-3.06 0h0v1.257h-1.256a1.53 1.53 0 1 0-.002 3.06h1.259v1.257a1.53 1.53 0 1 0 3.06 0v-1.257h1.256a1.53 1.53 0 0 0 0-3.06m13.193 1.754a2.35 2.35 0 0 1 2.348 2.348h0a2.35 2.35 0 0 1-2.348 2.348h0a2.35 2.35 0 0 1-2.348-2.348h0a2.35 2.35 0 0 1 2.348-2.348m5.145-5.144a2.35 2.35 0 0 1 2.348 2.348h0a2.35 2.35 0 0 1-2.348 2.348h0a2.35 2.35 0 0 1-2.349-2.348h0a2.35 2.35 0 0 1 2.349-2.349");
+.otmgurbjf {
+  d: path("M16.848 16.214h-1.257v-1.257a1.53 1.53 0 1 0-3.06 0v1.257h-1.256a1.53 1.53 0 1 0-.002 3.06h1.259v1.257a1.53 1.53 0 1 0 3.06 0v-1.257h1.256a1.53 1.53 0 0 0 0-3.06m13.193 1.754za2.348 2.348 0 1 1 0 4.696a2.348 2.348 0 1 1 0-4.696m5.145-5.144za2.348 2.348 0 1 1 0 4.696a2.348 2.348 0 1 1 0-4.696");
 }
 
 .y9tr6bcfx {

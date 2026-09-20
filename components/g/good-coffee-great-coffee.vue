@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="tmkzjmbah"/><path class="wdpp12bls"/><circle class="qdquekxrh"/><path class="cllam8nwz"/>`;
+const content = `<path class="olg5yrlst"/><path class="wdpp12bls"/><circle class="qdquekxrh"/><path class="cllam8nwz"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:good-coffee-great-coffee" /></template>
 <style>
@@ -16,6 +16,14 @@ const content = `<path class="tmkzjmbah"/><path class="wdpp12bls"/><circle class
   d: path("M6.592 27.052H4.045A1.04 1.04 0 0 1 3 26.007v-4.014c0-.578.466-1.044 1.045-1.044h2.547");
 }
 
+.olg5yrlst {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M39.395 19.263a14.8 14.8 0 0 1 1.111 5.632c0 8.19-6.64 14.83-14.832 14.83s-14.831-6.64-14.831-14.83c0-1.932.377-3.845 1.11-5.632");
+}
+
 .qdquekxrh {
   cx: 25.674px;
   cy: 24px;
@@ -24,14 +32,6 @@ const content = `<path class="tmkzjmbah"/><path class="wdpp12bls"/><circle class
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-}
-
-.tmkzjmbah {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M39.395 19.263a14.8 14.8 0 0 1 1.111 5.632h0c0 8.19-6.64 14.83-14.832 14.83s-14.831-6.64-14.831-14.83c0-1.932.377-3.845 1.11-5.632");
 }
 
 .wdpp12bls {

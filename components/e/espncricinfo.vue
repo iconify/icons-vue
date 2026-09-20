@@ -4,10 +4,18 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="x5gal503k"/><circle class="sn4_nnuww"/><path class="ggza0ebva"/><circle class="v0nww3bxc"/><path class="rbn6luzsr"/><path class="g2wj9jbhp"/>`;
+const content = `<path class="x5gal503k"/><circle class="sn4_nnuww"/><path class="ggza0ebva"/><circle class="v0nww3bxc"/><path class="evgjiacuj"/><path class="g2wj9jbhp"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:espncricinfo" /></template>
 <style>
+.evgjiacuj {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M24.975 28.685v4.614m-13.195-.875a1.74 1.74 0 0 1-3.254-.864v-1.132a1.741 1.741 0 0 1 3.252-.867M30.725 33.3v-2.874a1.741 1.741 0 1 0-3.483 0m0 2.873v-4.614m5.951 4.615v-5.747c0-.673.545-1.219 1.218-1.219c.6 0 .975.178 1.232.51m-3.487 1.841h2.438m-11.862 3.739a1.741 1.741 0 0 1-3.253-.864v-1.132a1.74 1.74 0 0 1 3.252-.867");
+}
+
 .g2wj9jbhp {
   fill: none;
   stroke: currentColor;
@@ -22,14 +30,6 @@ const content = `<path class="x5gal503k"/><circle class="sn4_nnuww"/><path class
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("M17.469 28.685v4.614");
-}
-
-.rbn6luzsr {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M24.975 28.685v4.614m-13.195-.875a1.74 1.74 0 0 1-3.254-.864v-1.132a1.741 1.741 0 0 1 3.252-.867M30.725 33.3v-2.874a1.741 1.741 0 1 0-3.483 0m0 2.873v-4.614m5.951 4.615v-5.747c0-.673.545-1.219 1.218-1.219c.6 0 .975.178 1.232.51m-3.487 1.841h2.438m-11.862 3.739a1.74 1.74 0 0 1-1.512.877h0a1.74 1.74 0 0 1-1.741-1.74v-1.133c0-.961.78-1.741 1.741-1.741h0c.646 0 1.21.352 1.51.874");
 }
 
 .sn4_nnuww {

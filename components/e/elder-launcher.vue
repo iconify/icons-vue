@@ -4,18 +4,10 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="haedycbbf"/><circle class="xwy2_2ykj"/><path class="us4h8o8cd"/>`;
+const content = `<path class="zy8ho_ogz"/><circle class="xwy2_2ykj"/><path class="us4h8o8cd"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:elder-launcher" /></template>
 <style>
-.haedycbbf {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M42.5 19.42a13.673 13.673 0 0 1-13.673 13.672h0A13.673 13.673 0 0 1 15.154 19.42h0A13.673 13.673 0 0 1 28.827 5.746h0A13.673 13.673 0 0 1 42.5 19.42m-6.405 22.834H6.047m22.741 0v-9.162M8.535 42.254V25.16");
-}
-
 .us4h8o8cd {
   fill: none;
   stroke: currentColor;
@@ -32,6 +24,14 @@ const content = `<path class="haedycbbf"/><circle class="xwy2_2ykj"/><path class
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
+}
+
+.zy8ho_ogz {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M42.5 19.42a13.673 13.673 0 0 1-13.673 13.672A13.673 13.673 0 0 1 15.154 19.42A13.673 13.673 0 0 1 28.827 5.746A13.673 13.673 0 0 1 42.5 19.42m-6.405 22.834H6.047m22.741 0v-9.162M8.535 42.254V25.16");
 }
 
 </style>

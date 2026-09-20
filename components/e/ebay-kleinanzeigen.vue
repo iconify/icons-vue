@@ -4,16 +4,12 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<g class="y9tr6bcfx"><path class="s37me8pmm"/><path class="lf1iymbvm"/><path class="tkmm7tlkc"/></g>`;
+const content = `<g class="y9tr6bcfx"><path class="yo5h11cyu"/><path class="k83o5xbrx"/><path class="tkmm7tlkc"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:ebay-kleinanzeigen" /></template>
 <style>
-.lf1iymbvm {
-  d: path("M37.075 21.986v3.651c0 1.222-.99 2.212-2.212 2.212h-.01h0a2.21 2.21 0 0 1-2.203-2.212v-3.651m-17.207 4.708a2.22 2.22 0 0 1-1.91 1.155h0a2.21 2.21 0 0 1-2.221-2.203v-1.449c0-1.22.99-2.211 2.212-2.211h.009a2.21 2.21 0 0 1 2.203 2.212v.72h-4.442m18.665.719c0 1.222-.99 2.212-2.212 2.212h0a2.21 2.21 0 0 1-2.203-2.212v-1.44c0-1.217.985-2.206 2.203-2.211h0c1.222 0 2.212.99 2.212 2.212m0 3.651v-5.863m-11.531 2.212c0-1.222.99-2.212 2.212-2.212h0a2.21 2.21 0 0 1 2.203 2.212v1.44a2.21 2.21 0 0 1-2.203 2.211h0a2.21 2.21 0 0 1-2.212-2.212m0 2.212V19.01");
-}
-
-.s37me8pmm {
-  d: path("M37.075 25.637v2.985a2.203 2.203 0 0 1-2.204 2.203h-.017h0a2.18 2.18 0 0 1-1.564-.648");
+.k83o5xbrx {
+  d: path("M37.075 21.986v3.651c0 1.222-.99 2.212-2.212 2.212h-.01a2.21 2.21 0 0 1-2.203-2.212v-3.651m-17.207 4.708a2.22 2.22 0 0 1-1.91 1.155a2.21 2.21 0 0 1-2.221-2.203v-1.449c0-1.22.99-2.211 2.212-2.211h.009a2.21 2.21 0 0 1 2.203 2.212v.72h-4.442m18.665.719c0 1.222-.99 2.212-2.212 2.212a2.21 2.21 0 0 1-2.203-2.212v-1.44c0-1.217.985-2.206 2.203-2.211c1.222 0 2.212.99 2.212 2.212m0 3.651v-5.863m-11.531 2.212c0-1.222.99-2.212 2.212-2.212a2.21 2.21 0 0 1 2.203 2.212v1.44a2.21 2.21 0 0 1-2.203 2.211a2.21 2.21 0 0 1-2.212-2.212m0 2.212V19.01");
 }
 
 .tkmm7tlkc {
@@ -25,6 +21,10 @@ const content = `<g class="y9tr6bcfx"><path class="s37me8pmm"/><path class="lf1i
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
+}
+
+.yo5h11cyu {
+  d: path("M37.075 25.637v2.985a2.203 2.203 0 0 1-2.204 2.203h-.017a2.18 2.18 0 0 1-1.564-.648");
 }
 
 </style>

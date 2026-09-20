@@ -4,16 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="s11d1gckc"/><path class="tepw4lbun"/>`;
+const content = `<path class="jmfqab2tv"/><path class="tepw4lbun"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:meinheidelberg" /></template>
 <style>
-.s11d1gckc {
+.jmfqab2tv {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M19.242 5.131C13.716 6.59 8.063 12.496 6.768 18.068A17.79 17.79 0 0 0 19.55 39.493a2.7 2.7 0 0 1 1.268.788l2.935 3.09a.453.453 0 0 0 .635 0h0l2.944-3.09a2.7 2.7 0 0 1 1.277-.779a17.812 17.812 0 0 0-9.367-34.37m3.479 24.278h2.718");
+  d: path("M19.242 5.131C13.716 6.59 8.063 12.496 6.768 18.068A17.79 17.79 0 0 0 19.55 39.493a2.7 2.7 0 0 1 1.268.788l2.935 3.09a.453.453 0 0 0 .635 0l2.944-3.09a2.7 2.7 0 0 1 1.277-.779a17.812 17.812 0 0 0-9.367-34.37m3.479 24.278h2.718");
 }
 
 .tepw4lbun {

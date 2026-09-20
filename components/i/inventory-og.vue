@@ -4,16 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="dj3qiyb4z"/><path class="dnk2cglwm"/><path class="q291v7b1w"/><path class="mtet0ibfx"/>`;
+const content = `<path class="c-m45cc-r"/><path class="dnk2cglwm"/><path class="q291v7b1w"/><path class="mtet0ibfx"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:inventory-og" /></template>
 <style>
-.dj3qiyb4z {
+.c-m45cc-r {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M25.466 27.058c0 3.984-3.04 6.273-6.79 5.113s-6.79-5.33-6.79-9.313h0c0-3.984 3.04-6.274 6.79-5.114h0c3.75 1.16 6.79 5.33 6.79 9.314");
+  d: path("M25.466 27.058c0 3.984-3.04 6.273-6.79 5.113s-6.79-5.33-6.79-9.313s3.04-6.274 6.79-5.114s6.79 5.33 6.79 9.314");
 }
 
 .dnk2cglwm {

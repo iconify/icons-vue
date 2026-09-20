@@ -4,16 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="yyqps6bwm"/><path class="z9a0tp70b"/>`;
+const content = `<path class="jtlbnzb7l"/><path class="z9a0tp70b"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:googledocs" /></template>
 <style>
-.yyqps6bwm {
+.jtlbnzb7l {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M31.608 42.5h-15.23c-1.983 0-2.973 0-3.76-.311a4.43 4.43 0 0 1-2.489-2.49c-.31-.785-.31-1.776-.31-3.758V10.059c0-1.982 0-2.973.31-3.759a4.43 4.43 0 0 1 2.49-2.489c.786-.31 1.776-.31 3.758-.31h8.51l12.141 12.14h0c.368.369.552.553.694.761c.204.3.344.64.412.997c.047.248.047.51.047 1.036c-.008 10.84-.013 10.947-.013 17.499c0 1.986 0 2.98-.312 3.766a4.43 4.43 0 0 1-2.489 2.489c-.786.311-1.777.311-3.759.311");
+  d: path("M31.608 42.5h-15.23c-1.983 0-2.973 0-3.76-.311a4.43 4.43 0 0 1-2.489-2.49c-.31-.785-.31-1.776-.31-3.758V10.059c0-1.982 0-2.973.31-3.759a4.43 4.43 0 0 1 2.49-2.489c.786-.31 1.776-.31 3.758-.31h8.51l12.141 12.14c.368.369.552.553.694.761c.204.3.344.64.412.997c.047.248.047.51.047 1.036c-.008 10.84-.013 10.947-.013 17.499c0 1.986 0 2.98-.312 3.766a4.43 4.43 0 0 1-2.489 2.489c-.786.311-1.777.311-3.759.311");
 }
 
 .z9a0tp70b {

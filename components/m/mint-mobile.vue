@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<g class="y9tr6bcfx"><path class="gy2v-7bda"/><path class="wkjz5ubbj"/></g><path class="lel57n9hl"/><path class="kafbcel_s"/>`;
+const content = `<g class="y9tr6bcfx"><path class="gy2v-7bda"/><path class="wkjz5ubbj"/></g><path class="lel57n9hl"/><path class="k9-x13uqb"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:mint-mobile" /></template>
 <style>
@@ -12,12 +12,12 @@ const content = `<g class="y9tr6bcfx"><path class="gy2v-7bda"/><path class="wkjz
   d: path("M6.081 23.475c7.906-2.108 15.81-1.054 15.81 1.054h4.217c0-2.108 7.906-3.426 15.81-1.054");
 }
 
-.kafbcel_s {
+.k9-x13uqb {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M19.784 35.122c2.635.264 5.797.264 8.432 0h0M5.86 16.092c2.066 1.111 4.437 1.638 6.545 1.638c.527-3.162.527-5.006 0-6.85");
+  d: path("M19.784 35.122c2.635.264 5.797.264 8.432 0M5.86 16.092c2.066 1.111 4.437 1.638 6.545 1.638c.527-3.162.527-5.006 0-6.85");
 }
 
 .lel57n9hl {

@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<rect class="j3s9ivbxi"/><path class="z259k73vn"/>`;
+const content = `<rect class="j3s9ivbxi"/><path class="mznvk9boq"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:ccc" /></template>
 <style>
@@ -21,12 +21,12 @@ const content = `<rect class="j3s9ivbxi"/><path class="z259k73vn"/>`;
   ry: 4px;
 }
 
-.z259k73vn {
+.mznvk9boq {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M18.1 25.64v.041a3.3 3.3 0 0 1-3.3 3.3h0a3.3 3.3 0 0 1-3.3-3.3V22.32a3.3 3.3 0 0 1 3.3-3.3h0a3.3 3.3 0 0 1 3.3 3.3v.04m9.2 3.28v.041a3.3 3.3 0 0 1-3.3 3.3h0a3.3 3.3 0 0 1-3.3-3.3V22.32a3.3 3.3 0 0 1 3.3-3.3h0a3.3 3.3 0 0 1 3.3 3.3v.04m9.2 3.28v.041a3.3 3.3 0 0 1-3.3 3.3h0a3.3 3.3 0 0 1-3.3-3.3V22.32a3.3 3.3 0 0 1 3.3-3.3h0a3.3 3.3 0 0 1 3.3 3.3v.04");
+  d: path("M18.1 25.64v.041a3.3 3.3 0 1 1-6.6 0V22.32a3.3 3.3 0 1 1 6.6 0v.04m9.2 3.28v.041a3.3 3.3 0 1 1-6.6 0V22.32a3.3 3.3 0 1 1 6.6 0v.04m9.2 3.28v.041a3.3 3.3 0 1 1-6.6 0V22.32a3.3 3.3 0 1 1 6.6 0v.04");
 }
 
 </style>

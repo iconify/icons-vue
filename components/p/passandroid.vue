@@ -4,16 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="hw5k93fcd"/><path class="xc6daxbjh"/>`;
+const content = `<path class="t7t127bkp"/><path class="xc6daxbjh"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:passandroid" /></template>
 <style>
-.hw5k93fcd {
+.t7t127bkp {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("m5.705 22.722l.001.002v.001l.002.002v.001l.001.002A2.773 2.773 0 0 1 4.5 26.46h0l5.894 11.549a2.773 2.773 0 0 1 3.717 1.187l27.277-13.92a2.773 2.773 0 0 1 1.218-3.706l-5.894-11.55a2.773 2.773 0 0 1-3.73-1.209h0l-.004-.008Z");
+  d: path("m5.705 22.722l.001.002v.001l.002.002v.001l.001.002A2.773 2.773 0 0 1 4.5 26.46l5.894 11.549a2.773 2.773 0 0 1 3.717 1.187l27.277-13.92a2.773 2.773 0 0 1 1.218-3.706l-5.894-11.55a2.773 2.773 0 0 1-3.73-1.209l-.004-.008Z");
 }
 
 .xc6daxbjh {

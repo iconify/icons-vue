@@ -4,10 +4,18 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="opw6fubno"/><path class="ft_slo-dv"/><path class="f68499bkw"/><path class="ianhk_f3k"/><path class="vp8eeqwrk"/>`;
+const content = `<path class="e94je7bvs"/><path class="ft_slo-dv"/><path class="f68499bkw"/><path class="ianhk_f3k"/><path class="vp8eeqwrk"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:flappycrush" /></template>
 <style>
+.e94je7bvs {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M21.198 4.5h5.604a12 12 0 0 1 12 12v27H9.198v-27a12 12 0 0 1 12-12");
+}
+
 .f68499bkw {
   fill: none;
   stroke: currentColor;
@@ -30,14 +38,6 @@ const content = `<path class="opw6fubno"/><path class="ft_slo-dv"/><path class="
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("M29.239 30.197h5.22a1.942 1.942 0 0 0-2.026-2.454c-2.532 0-5.571.39-5.571 2.454s1.987 2.376 3.819 2.376a2.775 2.775 0 0 0 2.648-2.376m-5.084-5.064v-1.286m2.436 1.286v-1.286");
-}
-
-.opw6fubno {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M21.198 4.5h5.604a12 12 0 0 1 12 12v27h0H9.198h0v-27a12 12 0 0 1 12-12");
 }
 
 .vp8eeqwrk {

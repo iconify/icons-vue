@@ -4,16 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="uw8sirvkg"/><path class="ta40141ci"/><path class="oe_9_fboo"/>`;
+const content = `<path class="uw8sirvkg"/><path class="ta40141ci"/><path class="s5l0mybpl"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:alcodroid" /></template>
 <style>
-.oe_9_fboo {
+.s5l0mybpl {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M22.96 14.94a7.26 7.26 0 0 1 9 4.94h0c.16.55-.16 1.12-.7 1.28l-11.99 3.49c-.55.16-1.12-.16-1.28-.7h0a7.26 7.26 0 0 1 4.94-9h.03Zm-6.31.71l2.65 1.75m9.39-5.25l-1.3 2.9");
+  d: path("M22.96 14.94za7.26 7.26 0 0 1 9 4.94c.16.55-.16 1.12-.7 1.28l-11.99 3.49c-.55.16-1.12-.16-1.28-.7a7.26 7.26 0 0 1 4.94-9h.03Zm-6.31.71l2.65 1.75m9.39-5.25l-1.3 2.9");
 }
 
 .ta40141ci {

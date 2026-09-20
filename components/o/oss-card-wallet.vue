@@ -4,20 +4,20 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<g class="y9tr6bcfx"><path class="yrui89j1m"/><path class="kbiom7b8g"/><path class="xf46qabxq"/><path class="np9ypdbms"/></g><path class="eoadmu-lb"/>`;
+const content = `<g class="y9tr6bcfx"><path class="yrui89j1m"/><path class="kbiom7b8g"/><path class="xf46qabxq"/><path class="np9ypdbms"/></g><path class="m0m7djbxn"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:oss-card-wallet" /></template>
 <style>
-.eoadmu-lb {
+.kbiom7b8g {
+  d: path("M16.99 22.427h1.864c.791 0 1.429.638 1.429 1.43v1.868c0 .793-.638 1.431-1.43 1.431H16.99a1.427 1.427 0 0 1-1.429-1.431v-1.867c0-.793.637-1.431 1.43-1.431m18.755 3.738a2.22 2.22 0 0 1-3.958-1.385a2.222 2.222 0 0 1 3.958-1.386");
+}
+
+.m0m7djbxn {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("m12.232 34.743l-1.63.364a2.28 2.28 0 0 1-2.73-1.735L4.556 18.504a2.285 2.285 0 0 1 1.733-2.734h0L32.12 9.992a2.28 2.28 0 0 1 2.73 1.736l1.435 6.43m-18.475.001l17.557-4.116M5.14 21.129l7.342-1.721M6.06 25.254l6.17-1.447");
-}
-
-.kbiom7b8g {
-  d: path("M16.99 22.427h1.864c.791 0 1.429.638 1.429 1.43v1.868c0 .793-.638 1.431-1.43 1.431H16.99a1.427 1.427 0 0 1-1.429-1.431v-1.867c0-.793.637-1.431 1.43-1.431m18.755 3.738a2.22 2.22 0 0 1-3.958-1.385a2.222 2.222 0 0 1 3.958-1.386");
+  d: path("m12.232 34.743l-1.63.364a2.28 2.28 0 0 1-2.73-1.735L4.556 18.504a2.285 2.285 0 0 1 1.733-2.734L32.12 9.992a2.28 2.28 0 0 1 2.73 1.736l1.435 6.43m-18.475.001l17.557-4.116M5.14 21.129l7.342-1.721M6.06 25.254l6.17-1.447");
 }
 
 .np9ypdbms {

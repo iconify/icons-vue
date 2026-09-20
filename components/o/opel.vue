@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="aj851zbiv"/><path class="a78k_cb0h"/>`;
+const content = `<path class="q7m0t8bow"/><path class="a78k_cb0h"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:opel" /></template>
 <style>
@@ -16,12 +16,12 @@ const content = `<path class="aj851zbiv"/><path class="a78k_cb0h"/>`;
   d: path("m44.686 25.613l-18.38-1.168l5.235-3.588c.215-.146.113-.497-.155-.497H4.489a.63.63 0 0 0-.5.246l-.922 1.274a.315.315 0 0 0 .25.509l18.373 1.148l-5.22 3.608c-.219.153-.108.498.154.498h26.889a.63.63 0 0 0 .5-.247l.922-1.274c.154-.196.021-.509-.249-.509");
 }
 
-.aj851zbiv {
+.q7m0t8bow {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M40.603 27.687a17.004 17.004 0 0 1-16.6 13.317C14.614 41.004 7 33.39 7 24h0q0-.67.053-1.336m.347-2.335A17.004 17.004 0 0 1 24.004 6.996c9.391 0 17.005 7.613 17.005 17.005h0q0 .673-.054 1.344");
+  d: path("M40.603 27.687a17.004 17.004 0 0 1-16.6 13.317C14.614 41.004 7 33.39 7 24q0-.67.053-1.336m.347-2.335A17.004 17.004 0 0 1 24.004 6.996c9.391 0 17.005 7.613 17.005 17.005q0 .673-.054 1.344");
 }
 
 </style>

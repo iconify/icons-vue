@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<rect class="j3s9ivbxi"/><path class="pj3zg71xn"/><path class="epvw03b1k"/>`;
+const content = `<rect class="j3s9ivbxi"/><path class="x817ofb_d"/><path class="epvw03b1k"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:readid-me" /></template>
 <style>
@@ -29,12 +29,12 @@ const content = `<rect class="j3s9ivbxi"/><path class="pj3zg71xn"/><path class="
   ry: 4px;
 }
 
-.pj3zg71xn {
+.x817ofb_d {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M11.5 19.555v15.632m5.36.026V19.581h5.03c4.317 0 7.816 3.5 7.816 7.816h0c0 4.317-3.5 7.816-7.816 7.816zm7.701-22.426c6.583 0 11.939 5.356 11.939 11.939");
+  d: path("M11.5 19.555v15.632m5.36.026V19.581h5.03a7.816 7.816 0 0 1 0 15.632zm7.701-22.426c6.583 0 11.939 5.356 11.939 11.939");
 }
 
 </style>

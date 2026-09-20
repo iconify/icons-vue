@@ -4,16 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="s5redjemw"/><path class="tqb1r-way"/>`;
+const content = `<path class="ap4y97b6y"/><path class="tqb1r-way"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:noodles-and-company" /></template>
 <style>
-.s5redjemw {
+.ap4y97b6y {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("m18.429 33.507l-.775-2.89a6.49 6.49 0 0 1 4.588-7.947h0a6.49 6.49 0 0 1 7.947 4.588h0l.775 2.892");
+  d: path("m18.429 33.507l-.775-2.89a6.489 6.489 0 0 1 12.535-3.359s.775 2.892.775 2.892");
 }
 
 .tqb1r-way {

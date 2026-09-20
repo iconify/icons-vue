@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="zvp66cccx"/><path class="djhzcbb5a"/><circle class="dd48f29bl"/><circle class="io2m-bb1f"/><circle class="sfyjftp_s"/><circle class="avz39rb6j"/><circle class="qx5l-w5to"/><circle class="iq339fkwa"/><circle class="klnoznbrf"/><circle class="h2s8hgvbg"/><circle class="rb_43wb9w"/><circle class="b6wbufs_j"/><circle class="p2v01nkqy"/><circle class="k4_coqb8q"/><path class="gvvgtfbbs"/><circle class="is26gz2ny"/><path class="pydshhb5s"/>`;
+const content = `<path class="mx56vyb3d"/><path class="djhzcbb5a"/><circle class="dd48f29bl"/><circle class="io2m-bb1f"/><circle class="sfyjftp_s"/><circle class="avz39rb6j"/><circle class="qx5l-w5to"/><circle class="iq339fkwa"/><circle class="klnoznbrf"/><circle class="h2s8hgvbg"/><circle class="rb_43wb9w"/><circle class="b6wbufs_j"/><circle class="p2v01nkqy"/><circle class="k4_coqb8q"/><path class="gvvgtfbbs"/><circle class="is26gz2ny"/><path class="pydshhb5s"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:wifi-simulator" /></template>
 <style>
@@ -87,6 +87,14 @@ const content = `<path class="zvp66cccx"/><path class="djhzcbb5a"/><circle class
   fill: currentColor;
 }
 
+.mx56vyb3d {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M13 17.375h22a8.5 8.5 0 0 1 0 17H13a8.5 8.5 0 0 1 0-17");
+}
+
 .p2v01nkqy {
   cx: 15.38px;
   cy: 13.606px;
@@ -121,14 +129,6 @@ const content = `<path class="zvp66cccx"/><path class="djhzcbb5a"/><circle class
   cy: 11.051px;
   r: 0.75px;
   fill: currentColor;
-}
-
-.zvp66cccx {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M13 17.375h22a8.5 8.5 0 0 1 8.5 8.5h0a8.5 8.5 0 0 1-8.5 8.5H13a8.5 8.5 0 0 1-8.5-8.5h0a8.5 8.5 0 0 1 8.5-8.5");
 }
 
 </style>

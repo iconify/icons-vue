@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="aa1rbmb-w"/><path class="pnpdpp99f"/><path class="pvxobj-3z"/>`;
+const content = `<path class="aa1rbmb-w"/><path class="c-e3vs94p"/><path class="pvxobj-3z"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:gcm-trader" /></template>
 <style>
@@ -16,12 +16,12 @@ const content = `<path class="aa1rbmb-w"/><path class="pnpdpp99f"/><path class="
   d: path("M36.976 24.532h6.988v5.427A9.619 9.619 0 0 1 26.794 24a9.619 9.619 0 0 1 17.155-5.976");
 }
 
-.pnpdpp99f {
+.c-e3vs94p {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M36.061 36.414c-6.856 0-12.414-5.558-12.414-12.414s5.558-12.414 12.414-12.414c2.584 0 5.104.807 7.208 2.308A19.95 19.95 0 0 0 26.05 4C15.03 4 6.096 12.954 6.096 24S15.03 44 26.05 44a19.95 19.95 0 0 0 17.244-9.928a12.3 12.3 0 0 1-7.232 2.342z");
+  d: path("M36.061 36.414c-6.856 0-12.414-5.558-12.414-12.414s5.558-12.414 12.414-12.414c2.584 0 5.104.807 7.208 2.308A19.95 19.95 0 0 0 26.05 4C15.03 4 6.096 12.954 6.096 24S15.03 44 26.05 44a19.95 19.95 0 0 0 17.244-9.928a12.3 12.3 0 0 1-7.232 2.342");
 }
 
 .pvxobj-3z {

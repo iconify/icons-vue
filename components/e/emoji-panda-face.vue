@@ -4,16 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="xii40gbtk"/><path class="fsj7yk7wy"/><path class="ldywb32xp"/><path class="e66l61nss"/>`;
+const content = `<path class="xii40gbtk"/><path class="fsj7yk7wy"/><path class="ldywb32xp"/><path class="fmuf4crzk"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:emoji-panda-face" /></template>
 <style>
-.e66l61nss {
+.fmuf4crzk {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M17.99 26.134a1.297 1.297 0 0 0 2.596.002v-.002a1.297 1.297 0 0 0-2.596-.002zm9.558 0a1.297 1.297 0 0 0 2.595 0h0a1.297 1.297 0 0 0-2.595 0m6.314 12.056c-2.028.747-4.621.56-6.314 1.297M14.382 38.19c2.265.892 4.377.648 6.204 1.297m12.309-24.405a12.6 12.6 0 0 0-2.982-.856c.094-.357.45-.853.636-1.133m-12.964 0c.243.3.43.592.577.93c-.893.27-1.716.46-2.813 1.059m10.239 12.244c.004 1.622 0 3.092 3.649 3.243m-6.523-3.243c-.018 1.406 0 2.835-3.65 3.243");
+  d: path("M17.99 26.134a1.297 1.297 0 0 0 2.596.002v-.002a1.297 1.297 0 0 0-2.596-.002zm9.558 0a1.297 1.297 0 0 0 2.595 0a1.297 1.297 0 0 0-2.595 0m6.314 12.056c-2.028.747-4.621.56-6.314 1.297M14.382 38.19c2.265.892 4.377.648 6.204 1.297m12.309-24.405a12.6 12.6 0 0 0-2.982-.856c.094-.357.45-.853.636-1.133m-12.964 0c.243.3.43.592.577.93c-.893.27-1.716.46-2.813 1.059m10.239 12.244c.004 1.622 0 3.092 3.649 3.243m-6.523-3.243c-.018 1.406 0 2.835-3.65 3.243");
 }
 
 .fsj7yk7wy {

@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<g class="y9tr6bcfx"><path class="p0cznvblv"/><path class="ydmy7ntjv"/><path class="hh0t8fd3o"/></g><path class="qt4w5c6db"/>`;
+const content = `<g class="y9tr6bcfx"><path class="nbfpvozte"/><path class="ydmy7ntjv"/><path class="hh0t8fd3o"/></g><path class="qt4w5c6db"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:wallipop" /></template>
 <style>
@@ -13,8 +13,8 @@ const content = `<g class="y9tr6bcfx"><path class="p0cznvblv"/><path class="ydmy
   opacity: var(--svg-opacity--0-965, 0.965);
 }
 
-.p0cznvblv {
-  d: path("M24.437 14.972a7.98 7.98 0 0 0-7.655 5.722c2.574 2.187 7.761 7.643 7.761 7.643l2.775-2.937s2.6-1.767 4.765-.185a7.973 7.973 0 0 0-7.647-10.243z");
+.nbfpvozte {
+  d: path("M24.437 14.972a7.98 7.98 0 0 0-7.655 5.722c2.574 2.187 7.761 7.643 7.761 7.643l2.775-2.937s2.6-1.767 4.765-.185a7.973 7.973 0 0 0-7.647-10.243");
 }
 
 .qt4w5c6db {

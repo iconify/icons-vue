@@ -1,0 +1,53 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<circle class="cpk0fnbgt"/><path class="d8pd7j2ex"/><path class="i-jreibvp"/><path class="g4grygbhu"/><path class="a4my1yeca"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:zepeto" /></template>
+<style>
+.a4my1yeca {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M27.797 26.234c1.682-1.15 3.897-2.398 5.383.693m4.065.4c-1.303.87-2.289 1.148-2.289 1.148");
+}
+
+.cpk0fnbgt {
+  cx: 24px;
+  cy: 24px;
+  r: 21.5px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.d8pd7j2ex {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M29.563 12.411c-4.486 4.43-14.691 9.925-21.196 4.654c.897-5.72 10.382-12.318 17.888-10.598c2.691.617 3.308 5.944 3.308 5.944");
+}
+
+.g4grygbhu {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M26.878 6.72c5.825.869 12.411 5.562 11.881 17.747c-.056 1.29-1.514 2.86-1.514 2.86c-.224 5.72-3.874 16.027-3.874 16.027m-8.106-4.564c-1.03 2.78-.917 4.238-.917 4.238c1.178.224 3.095 2.197 3.095 2.197m-12.21-10.29a519 519 0 0 0-.362 5.738c-2.579.617-2.62 1.334-2.62 1.334M8.367 17.065c-2.524 1.122-5.668 9.862-5.668 9.862m20.163 1.353c1.15 1.206 2.692 1.318 3.365.253M19.694 30.3c2.27.335 7.598 2.13 7.598 2.13c-1.738 2.93-6.771 4.668-7.598-2.13m-3.701-7.33c1.43-1.194 4.43-2.45 6.224 0");
+}
+
+.i-jreibvp {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M29.563 12.411c.617 5.552 5.944 7.626 5.944 7.626s1.178 10.935-3.7 12.337c0 0-1.179 7.177-10.599 6.785c-8.916-3.87-12.673-13.85-7.626-19.936");
+}
+
+</style>

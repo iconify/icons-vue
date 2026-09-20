@@ -4,12 +4,12 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<g class="y9tr6bcfx"><path class="ya5_ptbxo"/><path class="r0tp6tbav"/></g>`;
+const content = `<g class="y9tr6bcfx"><path class="ya5_ptbxo"/><path class="b-7tas_js"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:rattlegram" /></template>
 <style>
-.r0tp6tbav {
-  d: path("M10.393 24.709c3.637.113 6.997-.75 10.07-2.615m12.259.919c-3.776-1.453-6.225.13-6.289.177m-7.123-5.092l.175.775h0M9.535 20.5l.175.774h0");
+.b-7tas_js {
+  d: path("M10.393 24.709c3.637.113 6.997-.75 10.07-2.615m12.259.919c-3.776-1.453-6.225.13-6.289.177m-7.123-5.092l.175.775M9.535 20.5l.175.774");
 }
 
 .y9tr6bcfx {

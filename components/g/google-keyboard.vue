@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="xqgql63sr"/><rect class="uwxradcgn"/><rect class="p2ug2jbiv"/><rect class="mdiolpbsn"/><path class="a-dgcnzvv"/><rect class="lsl3tnbme"/><rect class="f7zw9_bwd"/><rect class="r6z3kvj4j"/><path class="j7gzitrby"/><rect class="lzz0w1byn"/><path class="sc2_y91fj"/><path class="zqdgq68-z"/>`;
+const content = `<path class="xqgql63sr"/><rect class="uwxradcgn"/><rect class="p2ug2jbiv"/><rect class="mdiolpbsn"/><path class="a-dgcnzvv"/><rect class="lsl3tnbme"/><rect class="f7zw9_bwd"/><rect class="r6z3kvj4j"/><path class="j7gzitrby"/><rect class="lzz0w1byn"/><path class="sc2_y91fj"/><path class="yv0t959on"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:google-keyboard" /></template>
 <style>
@@ -124,12 +124,12 @@ const content = `<path class="xqgql63sr"/><rect class="uwxradcgn"/><rect class="
   d: path("M13.168 18.573H7.64a2.08 2.08 0 0 0-2.078 2.078v19.771A2.08 2.08 0 0 0 7.64 42.5h32.72a2.08 2.08 0 0 0 2.078-2.078V20.651a2.08 2.08 0 0 0-2.078-2.078h-5.284");
 }
 
-.zqdgq68-z {
+.yv0t959on {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M28.47 14.347a4.353 4.353 0 0 0-4.582-4.352a4.52 4.52 0 0 0-4.115 4.599v4.038a4.353 4.353 0 0 0 4.349 4.357h0a4.353 4.353 0 0 0 4.348-4.357h-4.348");
+  d: path("M28.47 14.347a4.353 4.353 0 0 0-4.582-4.352a4.52 4.52 0 0 0-4.115 4.599v4.038a4.353 4.353 0 0 0 4.349 4.357a4.353 4.353 0 0 0 4.348-4.357h-4.348");
 }
 
 </style>

@@ -4,16 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="haw3ogbkq"/><path class="e0y311rov"/><path class="sxtfntird"/><path class="nz3h-sbvb"/>`;
+const content = `<path class="haw3ogbkq"/><path class="wtyc_ovdi"/><path class="b15n1zbil"/><path class="nz3h-sbvb"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:dsb" /></template>
 <style>
-.e0y311rov {
+.b15n1zbil {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M29.8 28.93v-9.89m0-.04H34a2.48 2.48 0 0 1 2.48 2.48h0A2.48 2.48 0 0 1 34 24h-4.2");
+  d: path("M29.8 24H34a2.48 2.48 0 0 1 2.48 2.48A2.48 2.48 0 0 1 34 29h-4.2m-18.25 0V19h1.69a5 5 0 0 1 5 5a5 5 0 0 1-5 5Zm11.52-10a2.47 2.47 0 0 0-2.47 2.47A2.48 2.48 0 0 0 23.07 24h.84m0 0h.84a2.47 2.47 0 0 1 2.47 2.47a2.47 2.47 0 0 1-2.47 2.47M27 19.87a4.2 4.2 0 0 0-3.09-.87h-.84");
 }
 
 .haw3ogbkq {
@@ -31,12 +31,12 @@ const content = `<path class="haw3ogbkq"/><path class="e0y311rov"/><path class="
   d: path("M20.84 28.1a4.2 4.2 0 0 0 3.07.83h.84");
 }
 
-.sxtfntird {
+.wtyc_ovdi {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M29.8 24H34a2.48 2.48 0 0 1 2.48 2.48h0A2.48 2.48 0 0 1 34 29h-4.2m-18.25 0V19h1.69a5 5 0 0 1 5 5h0a5 5 0 0 1-5 5Zm11.52-10a2.47 2.47 0 0 0-2.47 2.47h0A2.48 2.48 0 0 0 23.07 24h.84m0 0h.84a2.47 2.47 0 0 1 2.47 2.47h0a2.47 2.47 0 0 1-2.47 2.47M27 19.87a4.2 4.2 0 0 0-3.09-.87h-.84");
+  d: path("M29.8 28.93v-9.89m0-.04H34a2.48 2.48 0 0 1 2.48 2.48A2.48 2.48 0 0 1 34 24h-4.2");
 }
 
 </style>

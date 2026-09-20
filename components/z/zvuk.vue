@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<circle class="iaa0bacgb"/><path class="a1zz4mbgx"/><path class="mumqwjbcs"/><circle class="wch8c83cz"/>`;
+const content = `<circle class="iaa0bacgb"/><path class="a1zz4mbgx"/><path class="k8ylui94j"/><circle class="wch8c83cz"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:zvuk" /></template>
 <style>
@@ -23,12 +23,12 @@ const content = `<circle class="iaa0bacgb"/><path class="a1zz4mbgx"/><path class
   fill: currentColor;
 }
 
-.mumqwjbcs {
+.k8ylui94j {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M5.908 13.921h.1c14.916 0 27.007 12.092 27.007 27.008v.001h0v.1M4.452 24.71q.776-.075 1.556-.074c8.998 0 16.292 7.295 16.292 16.293q0 .778-.074 1.552m7.663-31.029v6.473m0-2.67c0-.894.733-1.619 1.637-1.619h0c.903 0 1.634.725 1.634 1.619v2.67m2.542-4.289v4.289m2.963 0v-5.34a1.14 1.14 0 0 1 1.145-1.133h0c.563 0 .915.165 1.155.474m-3.27 1.71h2.29m2.828 0v4.289");
+  d: path("M5.908 13.921h.1c14.916 0 27.007 12.092 27.007 27.008v.101M4.452 24.71q.776-.075 1.556-.074c8.998 0 16.292 7.295 16.292 16.293q0 .778-.074 1.552m7.663-31.029v6.473m0-2.67c0-.894.733-1.619 1.637-1.619c.903 0 1.634.725 1.634 1.619v2.67m2.542-4.289v4.289m2.963 0v-5.34a1.14 1.14 0 0 1 1.145-1.133c.563 0 .915.165 1.155.474m-3.27 1.71h2.29m2.828 0v4.289");
 }
 
 .wch8c83cz {

@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="ikbd_5b9l"/><g class="y9tr6bcfx"><path class="nec4o4bos"/><path class="y921p9bnb"/><path class="kwl1nkt6a"/><path class="j2exrqbbj"/><path class="o_pcamb5d"/><path class="nwzmw4h_w"/><path class="av7-m_7vo"/></g><path class="eratcubla"/><g class="y9tr6bcfx"><path class="zh6b6bbmp"/><path class="obp5w_bns"/></g><g class="y9tr6bcfx"><path class="bw1bgh2as"/><path class="yjsfo3bqq"/><path class="tf2r4wzqh"/><path class="u3bdxyb-d"/></g>`;
+const content = `<path class="ikbd_5b9l"/><g class="y9tr6bcfx"><path class="fn63i_b7y"/><path class="j1jsi-qhr"/><path class="l1tijnh6p"/><path class="j2exrqbbj"/><path class="g0cfvfuvu"/><path class="sg7je25bs"/><path class="av7-m_7vo"/></g><path class="eratcubla"/><g class="y9tr6bcfx"><path class="zh6b6bbmp"/><path class="obp5w_bns"/></g><g class="y9tr6bcfx"><path class="bw1bgh2as"/><path class="yjsfo3bqq"/><path class="tf2r4wzqh"/><path class="u3bdxyb-d"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:zombie-tsunami" /></template>
 <style>
@@ -24,6 +24,14 @@ const content = `<path class="ikbd_5b9l"/><g class="y9tr6bcfx"><path class="nec4
   d: path("M24.4 20.358c-.005-2.282-1.6-2.501-2.123-1.746c-.33.477-.044 1.618 1.022 1.644m.798-8.817c-.593.516-.855 1.336-1.15 2.548c-.416 1.708-2.011 1.994-2.472 3.078c-.413.972.14 1.673.669 2.357m4.826-7.983c.594.516.855 1.336 1.15 2.548c.417 1.708 2.012 1.994 2.472 3.078c.453 1.065-.253 1.804-.825 2.565m-3.099.728c.005-2.282 1.6-2.501 2.123-1.746c.33.477.044 1.618-1.022 1.644");
 }
 
+.fn63i_b7y {
+  d: path("M17.32 13.917a4.469 4.469 0 1 1-8.937 0a4.469 4.469 0 0 1 8.937 0");
+}
+
+.g0cfvfuvu {
+  d: path("M41.039 13.917a4.469 4.469 0 1 1-8.937 0a4.469 4.469 0 1 1 8.937 0");
+}
+
 .ikbd_5b9l {
   fill: none;
   stroke: currentColor;
@@ -32,28 +40,24 @@ const content = `<path class="ikbd_5b9l"/><g class="y9tr6bcfx"><path class="nec4
   d: path("M9.496 5.495h29c2.216 0 4 1.784 4 4v29c0 2.216-1.784 4-4 4h-29c-2.216 0-4-1.784-4-4v-29c0-2.216 1.784-4 4-4");
 }
 
+.j1jsi-qhr {
+  d: path("M12.58 11.25a2.239 2.239 0 1 1-2.257 1.803");
+}
+
 .j2exrqbbj {
   d: path("M22.897 13.946c-1.465-8.95-15.92-8.238-17.32 1.686m36.927 5.932c-1.085 1.037-2.661 1.82-4.692 1.965M26.815 12.881c2.027-6.61 11.892-6.875 15.688-1.033");
 }
 
-.kwl1nkt6a {
-  d: path("M12.766 11.963c0 .809-.656 1.465-1.465 1.465h0a1.465 1.465 0 1 1 1.465-1.465m8.378 7.459c-1.226 1.614-3.017 2.995-5.548 3.636C8.961 24.74 5.392 20.521 5.558 17.54");
-}
-
-.nec4o4bos {
-  d: path("M17.32 13.917a4.47 4.47 0 0 1-4.47 4.469h0a4.469 4.469 0 1 1 4.47-4.469");
-}
-
-.nwzmw4h_w {
-  d: path("M36.3 11.25a2.24 2.24 0 0 1 2.177 2.237h0a2.239 2.239 0 1 1-4.434-.435");
-}
-
-.o_pcamb5d {
-  d: path("M41.039 13.917c0 2.468-2 4.469-4.469 4.469h0c-2.468 0-4.469-2-4.469-4.469v0a4.469 4.469 0 1 1 8.938 0");
+.l1tijnh6p {
+  d: path("M12.766 11.963a1.465 1.465 0 1 1-2.93 0a1.465 1.465 0 0 1 2.93 0m8.378 7.459c-1.226 1.614-3.017 2.995-5.548 3.636C8.961 24.74 5.392 20.521 5.558 17.54");
 }
 
 .obp5w_bns {
   d: path("M13.72 28.563a34 34 0 0 1 3.036-.34");
+}
+
+.sg7je25bs {
+  d: path("M36.3 11.25a2.239 2.239 0 1 1-2.257 1.803");
 }
 
 .tf2r4wzqh {
@@ -62,10 +66,6 @@ const content = `<path class="ikbd_5b9l"/><g class="y9tr6bcfx"><path class="nec4
 
 .u3bdxyb-d {
   d: path("M26.345 27.01c-5.694-.716-12.627-1.741-16.893 2.677c-1.749 1.813-.9 7.438 3.026 10.545c1.815 1.436 4.248 1.933 6.77 2.273m23.01-6.747c-2.265 2.727-4.467 5.555-7.684 6.737");
-}
-
-.y921p9bnb {
-  d: path("M12.58 11.25a2.24 2.24 0 0 1 2.178 2.237h0a2.239 2.239 0 1 1-4.435-.435");
 }
 
 .y9tr6bcfx {

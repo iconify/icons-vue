@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<ellipse class="pj75n13wt"/><path class="d4_s6bb8k"/><circle class="dvs0dibpu"/><path class="ekj-lobhj"/><ellipse class="zx89oz_zw"/><path class="j90f2o5gd"/><circle class="bea6kpxle"/><path class="dztvclpmd"/><ellipse class="x0o_i2v0e"/><path class="f8q-h9mlu"/><circle class="asihhc6rs"/><path class="agc8phfxj"/><ellipse class="w189jwbun"/><path class="qlq9tklkz"/><circle class="puay72b8y"/><path class="h75s0cc9y"/>`;
+const content = `<ellipse class="pj75n13wt"/><path class="d4_s6bb8k"/><circle class="dvs0dibpu"/><path class="ekj-lobhj"/><ellipse class="zx89oz_zw"/><path class="j90f2o5gd"/><circle class="bea6kpxle"/><path class="dztvclpmd"/><ellipse class="x0o_i2v0e"/><path class="f8q-h9mlu"/><circle class="asihhc6rs"/><path class="agc8phfxj"/><ellipse class="w189jwbun"/><path class="qlq9tklkz"/><circle class="puay72b8y"/><path class="mxrdrxbac"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:dji-pilot" /></template>
 <style>
@@ -78,20 +78,20 @@ const content = `<ellipse class="pj75n13wt"/><path class="d4_s6bb8k"/><circle cl
   d: path("m34.939 37.086l-1.775 1.778m1.775-3.904l-5.194-5.204");
 }
 
-.h75s0cc9y {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("m14.836 38.864l-1.776-1.778m5.195-18.842a33.4 33.4 0 0 0 11.49 0h0l-.006.033a33.4 33.4 0 0 0 0 11.446l.006.033h0a33.4 33.4 0 0 0-11.49 0h0l.006-.033a33.4 33.4 0 0 0 0-11.446Z");
-}
-
 .j90f2o5gd {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("m37.061 13.04l1.775 1.778m-3.897-1.778l-5.194 5.204");
+}
+
+.mxrdrxbac {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("m14.836 38.864l-1.776-1.778m5.195-18.842za33.4 33.4 0 0 0 11.49 0l-.006.033a33.4 33.4 0 0 0 0 11.446l.006.033a33.4 33.4 0 0 0-11.49 0l.006-.033a33.4 33.4 0 0 0 0-11.446Z");
 }
 
 .pj75n13wt {

@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<g class="y9tr6bcfx"><path class="eclzutbcp"/><path class="qmg_ztbui"/></g><g class="y9tr6bcfx"><path class="f8n64r1oc"/><path class="i57b_lqiw"/></g>`;
+const content = `<g class="y9tr6bcfx"><path class="eclzutbcp"/><path class="qmg_ztbui"/></g><g class="y9tr6bcfx"><path class="f8n64r1oc"/><path class="z2nrg5zeg"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:rush" /></template>
 <style>
@@ -16,10 +16,6 @@ const content = `<g class="y9tr6bcfx"><path class="eclzutbcp"/><path class="qmg_
   d: path("m24.538 23.71l-4.31-.724l2.821 11.43");
 }
 
-.i57b_lqiw {
-  d: path("M23.192 35.224a2.236 2.236 0 0 1-2.239 2.234h0c-1.236 0-2.238-1-2.238-2.234s1.002-2.235 2.238-2.235s2.239 1 2.239 2.235");
-}
-
 .qmg_ztbui {
   d: path("M33.852 32.199L39.586 6.72l-8.384 4.75L27.65 5.5L12.722 20.104");
 }
@@ -29,6 +25,10 @@ const content = `<g class="y9tr6bcfx"><path class="eclzutbcp"/><path class="qmg_
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
+}
+
+.z2nrg5zeg {
+  d: path("M23.192 35.224a2.236 2.236 0 0 1-2.239 2.234c-1.236 0-2.238-1-2.238-2.234s1.002-2.235 2.238-2.235s2.239 1 2.239 2.235");
 }
 
 </style>

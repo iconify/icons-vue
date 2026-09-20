@@ -4,24 +4,24 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="ppwq38_yx"/><path class="pmmpc0b8k"/>`;
+const content = `<path class="lsmo8ddpd"/><path class="g2lr-iw6l"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:technogym" /></template>
 <style>
-.pmmpc0b8k {
+.g2lr-iw6l {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M33.898 22.077a2.233 2.233 0 0 0-4.467 0v2.276a2.233 2.233 0 0 0 4.467.002v-.001h-2.233");
+  d: path("M26.461 21.913zc.854 0 1.547.692 1.547 1.546v1.577a1.547 1.547 0 0 1-3.093 0v-1.577c0-.854.692-1.546 1.546-1.546m7.437.164a2.233 2.233 0 0 0-4.467 0v2.276a2.233 2.233 0 0 0 4.467.002v-.001h-2.233");
 }
 
-.ppwq38_yx {
+.lsmo8ddpd {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M39.83 26.578v-4.664l2.335 4.67l2.335-4.662v4.661m-41-6.738h24.561m-22.327 6.74V19.84m14.65 6.741v-4.668l3.092 4.668v-4.668m-7.606-.001v4.67m3.087-4.67v4.67m-3.087-2.345h3.093m19.462-2.325l-1.546 2.335l-1.547-2.335m-15.068 6.246h14.045l2.567-3.91m-22.436.771v.019a1.547 1.547 0 1 1-3.093 0v-1.576a1.547 1.547 0 0 1 3.093 0v.019m-6.86.767h1.523m.813 2.335H7.58v-4.67h2.335m16.546 0c.854 0 1.547.692 1.547 1.546v1.577c0 .854-.693 1.546-1.547 1.546h0a1.547 1.547 0 0 1-1.546-1.546v-1.577c0-.854.692-1.546 1.546-1.546");
+  d: path("M39.83 26.578v-4.664l2.335 4.67l2.335-4.662v4.661m-41-6.738h24.561m-22.327 6.74V19.84m14.65 6.741v-4.668l3.092 4.668v-4.668m-7.606-.001v4.67m3.087-4.67v4.67m-3.087-2.345h3.093m19.462-2.325l-1.546 2.335l-1.547-2.335m-15.068 6.246h14.045l2.567-3.91m-22.436.771v.019a1.547 1.547 0 1 1-3.093 0v-1.576a1.547 1.547 0 0 1 3.093 0v.019m-6.86.767h1.523m.813 2.335H7.58v-4.67h2.335");
 }
 
 </style>

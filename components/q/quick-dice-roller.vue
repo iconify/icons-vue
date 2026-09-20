@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="hmop7z6aj"/><circle class="v7fgmrb_x"/><circle class="v7u_i0reb"/><circle class="fph158njl"/><circle class="x-wbwyous"/><circle class="zar_edc5q"/><circle class="c1ozm9b_y"/><path class="h12t5ldlv"/><circle class="db_mjb2bg"/><circle class="mc2263ien"/><circle class="xnscwujwq"/><circle class="o2cu0lc2w"/><path class="aok2-6arl"/><circle class="jspq-6b8p"/><circle class="dyjjpobiv"/>`;
+const content = `<path class="hmop7z6aj"/><circle class="v7fgmrb_x"/><circle class="v7u_i0reb"/><circle class="fph158njl"/><circle class="x-wbwyous"/><circle class="zar_edc5q"/><circle class="c1ozm9b_y"/><path class="r0u2jqbvq"/><circle class="db_mjb2bg"/><circle class="mc2263ien"/><circle class="xnscwujwq"/><circle class="o2cu0lc2w"/><path class="aok2-6arl"/><circle class="jspq-6b8p"/><circle class="dyjjpobiv"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:quick-dice-roller" /></template>
 <style>
@@ -44,14 +44,6 @@ const content = `<path class="hmop7z6aj"/><circle class="v7fgmrb_x"/><circle cla
   fill: currentColor;
 }
 
-.h12t5ldlv {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("m31.444 30.17l-8.891 3.325a.575.575 0 0 0-.339.739h0l3.326 8.892a.575.575 0 0 0 .74.338h0l8.89-3.326a.575.575 0 0 0 .34-.739v-.001l-3.325-8.89a.575.575 0 0 0-.74-.34Z");
-}
-
 .hmop7z6aj {
   fill: none;
   stroke: currentColor;
@@ -79,6 +71,14 @@ const content = `<path class="hmop7z6aj"/><circle class="v7fgmrb_x"/><circle cla
   cy: 38.102px;
   r: 0.75px;
   fill: currentColor;
+}
+
+.r0u2jqbvq {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("m31.444 30.17l-8.891 3.325a.575.575 0 0 0-.339.739l3.326 8.892a.575.575 0 0 0 .74.338l8.89-3.326a.575.575 0 0 0 .34-.739v-.001l-3.325-8.89a.575.575 0 0 0-.74-.34Z");
 }
 
 .v7fgmrb_x {

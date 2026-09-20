@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="ixkaxpbem"/><path class="sqm6xqdkb"/><path class="wbbvh2b0g"/><path class="tscw4dbqr"/>`;
+const content = `<path class="ixkaxpbem"/><path class="sqm6xqdkb"/><path class="wbbvh2b0g"/><path class="uo3-ufd2i"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:chesspgnmaster" /></template>
 <style>
@@ -24,12 +24,12 @@ const content = `<path class="ixkaxpbem"/><path class="sqm6xqdkb"/><path class="
   d: path("M38.5 5.5h-29a4 4 0 0 0-4 4v29a4 4 0 0 0 4 4h29a4 4 0 0 0 4-4v-29a4 4 0 0 0-4-4M24 5.5v37");
 }
 
-.tscw4dbqr {
+.uo3-ufd2i {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M33.452 30.773c.32.022.642-.03.94-.15a3.6 3.6 0 0 0-.94.15M14.58 20.35h-4.27s-3.87-7 4.25-11.78h0c8.12 4.82 4.26 11.78 4.26 11.78zM5.5 24h37");
+  d: path("M33.452 30.773c.32.022.642-.03.94-.15a3.6 3.6 0 0 0-.94.15M14.58 20.35h-4.27s-3.87-7 4.25-11.78c8.12 4.82 4.26 11.78 4.26 11.78zM5.5 24h37");
 }
 
 .wbbvh2b0g {

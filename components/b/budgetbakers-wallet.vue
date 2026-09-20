@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="ahpy00bqr"/><path class="wun6fccqr"/><circle class="howgxka1r"/>`;
+const content = `<path class="ahpy00bqr"/><path class="tf59xlbge"/><circle class="howgxka1r"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:budgetbakers-wallet" /></template>
 <style>
@@ -26,12 +26,12 @@ const content = `<path class="ahpy00bqr"/><path class="wun6fccqr"/><circle class
   stroke-linejoin: round;
 }
 
-.wun6fccqr {
+.tf59xlbge {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M42.294 29.925H31.925a5.82 5.82 0 0 1-5.822-5.822h0a5.82 5.82 0 0 1 5.822-5.823h10.37c.665 0 1.205.54 1.205 1.206v9.234c0 .665-.54 1.205-1.206 1.205");
+  d: path("M42.294 29.925H31.925a5.822 5.822 0 0 1 0-11.645h10.37c.665 0 1.205.54 1.205 1.206v9.234c0 .665-.54 1.205-1.206 1.205");
 }
 
 </style>

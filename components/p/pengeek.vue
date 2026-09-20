@@ -4,12 +4,12 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<g class="y9tr6bcfx"><circle class="j8pkdxe3w"/><circle class="y2bbkrb3u"/><path class="olhbg2l8a"/></g><g class="y9tr6bcfx"><circle class="lcr5ro0lg"/><circle class="laewr4jqj"/><path class="le6rm_olc"/></g><g class="y9tr6bcfx"><path class="a7t4vxbpb"/><circle class="kxf1erxci"/><path class="fhhp1pg4b"/></g>`;
+const content = `<g class="y9tr6bcfx"><circle class="j8pkdxe3w"/><circle class="y2bbkrb3u"/><path class="olhbg2l8a"/></g><g class="y9tr6bcfx"><circle class="lcr5ro0lg"/><circle class="laewr4jqj"/><path class="le6rm_olc"/></g><g class="y9tr6bcfx"><path class="apu_ieels"/><circle class="kxf1erxci"/><path class="fhhp1pg4b"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:pengeek" /></template>
 <style>
-.a7t4vxbpb {
-  d: path("M12.672 20.857C12.672 14.6 17.743 9.529 24 9.529h0c6.257 0 11.329 5.071 11.329 11.328h0");
+.apu_ieels {
+  d: path("M12.672 20.857C12.672 14.6 17.743 9.529 24 9.529S35.329 14.6 35.329 20.857");
 }
 
 .fhhp1pg4b {

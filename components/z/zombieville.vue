@@ -4,24 +4,24 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="eus61e86m"/><path class="wb1p2tyiz"/><path class="i1ay622eg"/>`;
+const content = `<path class="nlbwb5cea"/><path class="wb1p2tyiz"/><path class="i1ay622eg"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:zombieville" /></template>
 <style>
-.eus61e86m {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M37.64 20.29v-1.14a7 7 0 0 1 .8-.93c-.51-.73-1.36-1.07-1.29-2.46a7.52 7.52 0 0 0-3.78-5.64C30.28 7.3 24.5 6.2 20 7.89c-6.77.27-9.77 6.11-10.66 8.61c-1.4 6.09.85 11.35 3.23 13.26c-1.79.54-3.54 1.1-2.2 4.23a9.4 9.4 0 0 0 4.54 3.09c1.49.09 3.24.86 3.53-2.14c2.1 0 7.75 6.31 10 7.34c4.65 1.28 6.89-3.46 13.23-3.79h0a14.4 14.4 0 0 1 .86-5.64l-1.34-.23c-3.46 2.17-7.2 4.45-11.45 6.9c-1.58-2.1-1.63-4.07-.29-6.43c2.67-2.09 5.18-4 10.14-4.46a13.1 13.1 0 0 1-1.69-4.75");
-}
-
 .i1ay622eg {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("M23.92 21.08a6.5 6.5 0 0 0-3.48 1.79c-.28.29-.33 1.23.48 2.19a6 6 0 0 0 5.68 1.39a8 8 0 0 0 1.82-1.25a1 1 0 0 0 .18-1.2a4.3 4.3 0 0 0-1.46-1.6a5.06 5.06 0 0 0-3.22-1.32m11.98.06s-2.08.3-2.37 1.11c-.18.52.14 1.6.62 1.34c1.27-.69 3.09-1.1 3.89-1.59s-1.55-1-2.14-.86M31 11c.28.28-.36 2.14-.77 1.72c.01-.05.51-2.06.77-1.72m-8.79.1a19 19 0 0 1 4.46 1.06c-.51.4-2 .1-2.91 0c-1.24-.01-1.66-.41-1.55-1.06m5.56-.83c.39.06.67.12.74.76a1.12 1.12 0 0 1-.74-.76");
+}
+
+.nlbwb5cea {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M37.64 20.29v-1.14a7 7 0 0 1 .8-.93c-.51-.73-1.36-1.07-1.29-2.46a7.52 7.52 0 0 0-3.78-5.64C30.28 7.3 24.5 6.2 20 7.89c-6.77.27-9.77 6.11-10.66 8.61c-1.4 6.09.85 11.35 3.23 13.26c-1.79.54-3.54 1.1-2.2 4.23a9.4 9.4 0 0 0 4.54 3.09c1.49.09 3.24.86 3.53-2.14c2.1 0 7.75 6.31 10 7.34c4.65 1.28 6.89-3.46 13.23-3.79a14.4 14.4 0 0 1 .86-5.64l-1.34-.23c-3.46 2.17-7.2 4.45-11.45 6.9c-1.58-2.1-1.63-4.07-.29-6.43c2.67-2.09 5.18-4 10.14-4.46a13.1 13.1 0 0 1-1.69-4.75");
 }
 
 .wb1p2tyiz {

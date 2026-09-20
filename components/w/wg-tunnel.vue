@@ -4,16 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="ob69nnj8f"/><path class="zqo3fhb0q"/><path class="b6we_qu7x"/>`;
+const content = `<path class="ob69nnj8f"/><path class="zqo3fhb0q"/><path class="k0k8zogvl"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:wg-tunnel" /></template>
 <style>
-.b6we_qu7x {
+.k0k8zogvl {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M20.142 21.802a11 11 0 0 1-.376-2.862c0-3.838 1.896-6.95 4.234-6.95s4.234 3.112 4.234 6.95h0c0 .987-.128 1.963-.376 2.862m-3.098 5.441l.892 3.103h-3.304l.892-3.103m2.236-1.281c0 .825-.66 1.494-1.476 1.494s-1.477-.669-1.477-1.494h0c0-.825.661-1.494 1.477-1.494s1.476.669 1.476 1.494");
+  d: path("M20.142 21.802a11 11 0 0 1-.376-2.862c0-3.838 1.896-6.95 4.234-6.95s4.234 3.112 4.234 6.95c0 .987-.128 1.963-.376 2.862m-3.098 5.441zl.892 3.103h-3.304l.892-3.103m2.236-1.281c0 .825-.66 1.494-1.476 1.494s-1.477-.669-1.477-1.494s.661-1.494 1.477-1.494s1.476.669 1.476 1.494");
 }
 
 .ob69nnj8f {

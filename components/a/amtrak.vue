@@ -4,16 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="znh6w5ugm"/><path class="luu775bfb"/>`;
+const content = `<path class="znh6w5ugm"/><path class="cm4bpzbda"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:amtrak" /></template>
 <style>
-.luu775bfb {
+.cm4bpzbda {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("m20.302 27.885l7.496 2.587c3.495-6.73 10.123-9.771 16.702-12.945c-9.136 2.543-19.144 4.244-24.197 10.357z");
+  d: path("m20.302 27.885l7.496 2.587c3.495-6.73 10.123-9.771 16.702-12.945c-9.136 2.543-19.144 4.244-24.197 10.357Z");
 }
 
 .znh6w5ugm {

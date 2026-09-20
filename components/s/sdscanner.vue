@@ -4,18 +4,10 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<circle class="jp3xjub3k"/><path class="waozs-a8u"/><path class="ajymzjeps"/><path class="cnajofbbq"/>`;
+const content = `<circle class="jp3xjub3k"/><path class="waozs-a8u"/><path class="nduxb8kzx"/><path class="cnajofbbq"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:sdscanner" /></template>
 <style>
-.ajymzjeps {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M39 12.9H21.37a1.13 1.13 0 0 0-1.07 1.19h0v19.68A1.13 1.13 0 0 0 21.37 35H39a1.13 1.13 0 0 0 1-1.23V14.09a1.13 1.13 0 0 0-1-1.19");
-}
-
 .cnajofbbq {
   fill: none;
   stroke: currentColor;
@@ -32,6 +24,14 @@ const content = `<circle class="jp3xjub3k"/><path class="waozs-a8u"/><path class
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
+}
+
+.nduxb8kzx {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M39 12.9H21.37a1.13 1.13 0 0 0-1.07 1.19v19.68A1.13 1.13 0 0 0 21.37 35H39a1.13 1.13 0 0 0 1-1.23V14.09a1.13 1.13 0 0 0-1-1.19");
 }
 
 .waozs-a8u {

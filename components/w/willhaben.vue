@@ -4,16 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="j98an1bqd"/><path class="zka6-ck3p"/><path class="d667lpb3i"/>`;
+const content = `<path class="j98an1bqd"/><path class="zka6-ck3p"/><path class="gepekiu-j"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:willhaben" /></template>
 <style>
-.d667lpb3i {
+.gepekiu-j {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M42.5 24.51h-27a7.01 7.01 0 0 1-7.01-7.01h0a7.01 7.01 0 0 1 7.01-7.01h27");
+  d: path("M42.5 24.51h-27a7.01 7.01 0 0 1 0-14.02h27");
 }
 
 .j98an1bqd {

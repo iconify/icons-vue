@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="g_28v6bdj"/><path class="rv3pugble"/>`;
+const content = `<path class="g_28v6bdj"/><path class="g-5dlabyg"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:club-jt" /></template>
 <style>
@@ -16,12 +16,12 @@ const content = `<path class="g_28v6bdj"/><path class="rv3pugble"/>`;
   d: path("M5.5 42V6h37m0 15v21H24");
 }
 
-.rv3pugble {
+.g-5dlabyg {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M19.9 10v8h4m-8-2.683v.033A2.65 2.65 0 0 1 13.25 18h0a2.65 2.65 0 0 1-2.65-2.65v-2.7A2.65 2.65 0 0 1 13.25 10h0a2.65 2.65 0 0 1 2.65 2.65v.033M27.9 10v5.35a2.65 2.65 0 1 0 5.3 0V10m7.3 4a2 2 0 1 1 0 4h-3.3v-8h3.3a2 2 0 1 1 0 4m0 0h-3.296M13.5 23h10m.5-1.5h13m-3.75 0v13.698a2.03 2.03 116.25 0 1-.793 1.609l-4.414 3.386a.493.493 26.25 0 1-.793-.391V21.5M15.75 23v18.11c0 .606-1.566 1.605-2.701-.36c-1.055-1.828-3.502-.066-2.598 1.5c1.627 2.818 3.162 1.472 3.685 1.098l6.32-4.85a2.03 2.03 116.25 0 0 .794-1.608V23");
+  d: path("M19.9 10v8h4m-8-2.683v.033a2.65 2.65 0 1 1-5.3 0v-2.7a2.65 2.65 0 1 1 5.3 0v.033M27.9 10v5.35a2.65 2.65 0 1 0 5.3 0V10m7.3 4a2 2 0 1 1 0 4h-3.3v-8h3.3a2 2 0 1 1 0 4m0 0h-3.296M13.5 23h10m.5-1.5h13m-3.75 0v13.698a2.03 2.03 116.25 0 1-.793 1.609l-4.414 3.386a.493.493 26.25 0 1-.793-.391V21.5M15.75 23v18.11c0 .606-1.566 1.605-2.701-.36c-1.055-1.828-3.502-.066-2.598 1.5c1.627 2.818 3.162 1.472 3.685 1.098l6.32-4.85a2.03 2.03 116.25 0 0 .794-1.608V23");
 }
 
 </style>

@@ -4,16 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="m-g8e1bta"/><path class="vlmdvrf4y"/>`;
+const content = `<path class="r2r-rwb_q"/><path class="vlmdvrf4y"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:bga" /></template>
 <style>
-.m-g8e1bta {
+.r2r-rwb_q {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M16.57 11.758a17.2 17.2 0 0 1 7.04-1.495c1.21 0 2.417.126 3.596.374M8.843 28.622a12.5 12.5 0 0 1-.831-4.474c0-1.538.287-3.065.849-4.52m18.703 17.95c-1.291.301-2.62.454-3.955.454c-3.618 0-7.123-1.12-9.916-3.167m22.89-18.424c1.71 2.282 2.624 4.963 2.624 7.707h0q0 .429-.03.858");
+  d: path("M16.57 11.758a17.2 17.2 0 0 1 7.04-1.495c1.21 0 2.417.126 3.596.374M8.843 28.622a12.5 12.5 0 0 1-.831-4.474c0-1.538.287-3.065.849-4.52m18.703 17.95c-1.291.301-2.62.454-3.955.454c-3.618 0-7.123-1.12-9.916-3.167m22.89-18.424c1.71 2.282 2.624 4.963 2.624 7.707q0 .429-.03.858");
 }
 
 .vlmdvrf4y {

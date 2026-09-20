@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<circle class="cpk0fnbgt"/><path class="e46mm8bgz"/><path class="phohhro8v"/><circle class="nofow-7zg"/><path class="yqn8f46-d"/><circle class="sy0f5ibrh"/><path class="gkjf-jp8a"/>`;
+const content = `<circle class="cpk0fnbgt"/><path class="e46mm8bgz"/><path class="gq_08q2sz"/><circle class="nofow-7zg"/><path class="tzbwgub_x"/><circle class="sy0f5ibrh"/><path class="gkjf-jp8a"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:iyzico" /></template>
 <style>
@@ -34,19 +34,19 @@ const content = `<circle class="cpk0fnbgt"/><path class="e46mm8bgz"/><path class
   d: path("M25.943 21.117v5.992");
 }
 
+.gq_08q2sz {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M16.8 21.117v3.823c0 1.274-1.043 2.317-2.318 2.317s-2.316-1.043-2.316-2.317v-3.823m24.689 5.992za2.27 2.27 0 0 1-2.261-2.261v-1.47a2.27 2.27 0 0 1 2.26-2.26a2.27 2.27 0 0 1 2.262 2.26v1.47a2.27 2.27 0 0 1-2.261 2.26m-17.788-5.991h4.438l-4.438 5.992h4.438");
+}
+
 .nofow-7zg {
   cx: 9.732px;
   cy: 18.348px;
   r: 0.75px;
   fill: currentColor;
-}
-
-.phohhro8v {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M16.8 21.117v3.823c0 1.274-1.043 2.317-2.318 2.317s-2.316-1.043-2.316-2.317v-3.823m24.689 5.992a2.27 2.27 0 0 1-2.261-2.261v-1.47a2.27 2.27 0 0 1 2.26-2.26h0a2.27 2.27 0 0 1 2.262 2.26v1.47a2.27 2.27 0 0 1-2.261 2.26m-17.788-5.991h4.438l-4.438 5.992h4.438");
 }
 
 .sy0f5ibrh {
@@ -56,12 +56,12 @@ const content = `<circle class="cpk0fnbgt"/><path class="e46mm8bgz"/><path class
   fill: currentColor;
 }
 
-.yqn8f46-d {
+.tzbwgub_x {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M9.732 21.117v5.992m22.772-1.131c-.339.679-1.13 1.13-1.921 1.13h0a2.27 2.27 0 0 1-2.261-2.26v-1.47a2.27 2.27 0 0 1 2.26-2.26h0c.792 0 1.583.452 1.922 1.13");
+  d: path("M9.732 21.117v5.992m22.772-1.131c-.339.679-1.13 1.13-1.921 1.13a2.27 2.27 0 0 1-2.261-2.26v-1.47a2.27 2.27 0 0 1 2.26-2.26c.792 0 1.583.452 1.922 1.13");
 }
 
 </style>

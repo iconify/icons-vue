@@ -4,16 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="rkelngbtw"/><path class="oxiwoqy_q"/>`;
+const content = `<path class="rkelngbtw"/><path class="emedp0btc"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:windscribevpn" /></template>
 <style>
-.oxiwoqy_q {
+.emedp0btc {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M12.82 14.48V33.7h3.07a3.43 3.43 0 0 0 2.2-1h0L24 27.34l5.9 5.38h0a3.52 3.52 0 0 0 2.21 1h3.07V14.48");
+  d: path("M12.82 14.48V33.7h3.07a3.43 3.43 0 0 0 2.2-1L24 27.34l5.9 5.38a3.52 3.52 0 0 0 2.21 1h3.07V14.48");
 }
 
 .rkelngbtw {

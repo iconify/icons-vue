@@ -4,16 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="tqdy_abjg"/><path class="hzjigmbeg"/>`;
+const content = `<path class="tqdy_abjg"/><path class="cluhn-b6x"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:xact" /></template>
 <style>
-.hzjigmbeg {
+.cluhn-b6x {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M9.48 15.876c0-1.071.355-2.056 1.158-2.86c1.607-1.693 4.286-1.52 5.979.086l7.007 6.42c-1.694 0-3.344.812-4.683 2.065l-2.678 2.497l-5.538-5.09c-.795-.88-1.244-2.047-1.244-3.118Zm15.716 3.732a8 8 0 0 0-.985-.069L36.36 7.936c1.693-1.607 4.371-1.52 5.978.086c1.607 1.694 1.52 4.286-.086 5.893l-10.627 10.09h0l-2.592-2.496h0s-.717-.7-2.047-1.322c-1.322-.622-1.789-.579-1.789-.579");
+  d: path("M9.48 15.876c0-1.071.355-2.056 1.158-2.86c1.607-1.693 4.286-1.52 5.979.086l7.007 6.42c-1.694 0-3.344.812-4.683 2.065l-2.678 2.497l-5.538-5.09c-.795-.88-1.244-2.047-1.244-3.118Zm15.716 3.732a8 8 0 0 0-.985-.069L36.36 7.936c1.693-1.607 4.371-1.52 5.978.086c1.607 1.694 1.52 4.286-.086 5.893l-10.627 10.09l-2.592-2.496s-.717-.7-2.047-1.322c-1.322-.622-1.789-.579-1.789-.579");
 }
 
 .tqdy_abjg {

@@ -4,16 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="lv2h0ab9i"/><path class="iu21if3ja"/><path class="dnp9fvrux"/>`;
+const content = `<path class="lv2h0ab9i"/><path class="iu21if3ja"/><path class="hd627-v6k"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:redreader-alpha" /></template>
 <style>
-.dnp9fvrux {
+.hd627-v6k {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M40.562 39.402a2.586 2.586 0 0 1-2.578 2.578h0a2.586 2.586 0 0 1-2.578-2.578v-1.675a2.586 2.586 0 0 1 2.578-2.579h0a2.586 2.586 0 0 1 2.578 2.579m1.032 4.125c-.516 0-1.032-.516-1.032-1.032v-5.8");
+  d: path("M40.562 39.402a2.586 2.586 0 0 1-2.578 2.578a2.586 2.586 0 0 1-2.578-2.578v-1.675a2.586 2.586 0 0 1 2.578-2.579a2.586 2.586 0 0 1 2.578 2.579m1.032 4.125c-.516 0-1.032-.516-1.032-1.032v-5.8");
 }
 
 .iu21if3ja {

@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="vves2owfl"/><path class="kif4gbw3k"/><path class="drtutl8cg"/><path class="q110tl-ns"/>`;
+const content = `<path class="vves2owfl"/><path class="kif4gbw3k"/><path class="drtutl8cg"/><path class="pihgscwka"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:regentijd" /></template>
 <style>
@@ -24,12 +24,12 @@ const content = `<path class="vves2owfl"/><path class="kif4gbw3k"/><path class="
   d: path("M17.402 22.187a6.77 6.77 0 0 0-9.574-9.574m19.149 19.149a6.77 6.77 0 0 0-9.575-9.575");
 }
 
-.q110tl-ns {
+.pihgscwka {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M26.977 31.762c12.104-12.104 9.574-19.15 9.574-19.15m-9.574 9.575l-12.35 12.35a5.347 5.347 0 0 1-7.56 0h0a5.347 5.347 0 0 1 0-7.563l.897-.897");
+  d: path("M26.977 31.762c12.104-12.104 9.574-19.15 9.574-19.15m-9.574 9.575l-12.35 12.35a5.347 5.347 0 0 1-7.56 0a5.347 5.347 0 0 1 0-7.563l.897-.897");
 }
 
 .vves2owfl {

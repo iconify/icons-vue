@@ -4,18 +4,10 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<circle class="kaau-_bcf"/><path class="hmkibgorw"/><path class="yyuyhgbbp"/><path class="r_w6js44k"/><path class="j9z77dynq"/>`;
+const content = `<circle class="kaau-_bcf"/><path class="tsfjuabog"/><path class="yyuyhgbbp"/><path class="r_w6js44k"/><path class="j9z77dynq"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:komeda-coffee" /></template>
 <style>
-.hmkibgorw {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M30.005 36.5c0-8.997-7.084-9.306-9.75-13.924l1.75 5.228l-3.5-2l-3 6.196l3 3l3-3l-3-6.196l-3.5 2l1.75-5.228c-2.677 4.637-10.75 5.456-10.75 13.924v6h19.5v-6.25h-12.5a3 3 0 0 1 1.5-2.598M33.005 32h7v8.5a1 1 0 0 1-1 1h-5a1 1 0 0 1-1-1h0z");
-}
-
 .j9z77dynq {
   fill: none;
   stroke: currentColor;
@@ -40,6 +32,14 @@ const content = `<circle class="kaau-_bcf"/><path class="hmkibgorw"/><path class
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("M33.005 40.5a2 2 0 0 1-2-2m0-2a2 2 0 0 1 2-2M28.25 14.83c1.865-3.143-1.326-3.881-3.22-2.825c-2.002 1.116-3.701 4.12-6.525 4.12c-3.557 0-6.458-4.03-8.82-5.12c-2.028-.893-4.116 1.65-2.837 3.826c1.264 1.656 4.635 2.668 7.657 2.668c0 2.875 1.922 5.75 4 5.75s4-2.875 4-5.75c2.578 0 4.665-1.012 5.744-2.668m-5.494 2.666v7.82");
+}
+
+.tsfjuabog {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M30.005 36.5c0-8.997-7.084-9.306-9.75-13.924l1.75 5.228l-3.5-2l-3 6.196l3 3l3-3l-3-6.196l-3.5 2l1.75-5.228c-2.677 4.637-10.75 5.456-10.75 13.924v6h19.5v-6.25h-12.5a3 3 0 0 1 1.5-2.598M33.005 32h7v8.5a1 1 0 0 1-1 1h-5a1 1 0 0 1-1-1z");
 }
 
 .yyuyhgbbp {

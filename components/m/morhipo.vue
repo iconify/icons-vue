@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="sq4b0t3ap"/><path class="aho2qcbcb"/><circle class="c8rc4nxbn"/><path class="iu8m7bb8v"/><path class="i9clfwm2k"/>`;
+const content = `<path class="yw56i0yze"/><path class="aho2qcbcb"/><circle class="c8rc4nxbn"/><path class="yleqlbcmv"/><path class="i9clfwm2k"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:morhipo" /></template>
 <style>
@@ -31,20 +31,20 @@ const content = `<path class="sq4b0t3ap"/><path class="aho2qcbcb"/><circle class
   d: path("M38.5 5.5h-29a4 4 0 0 0-4 4v29a4 4 0 0 0 4 4h29a4 4 0 0 0 4-4v-29a4 4 0 0 0-4-4");
 }
 
-.iu8m7bb8v {
+.yleqlbcmv {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M29.437 22.234v3.892m1.873-1.441c0 .792.648 1.441 1.441 1.441s1.442-.649 1.442-1.441v-.937c0-.793-.649-1.442-1.442-1.442s-1.441.649-1.441 1.441m0-1.513V28m6.169-1.874a1.446 1.446 0 0 1-1.442-1.441v-.937c0-.793.649-1.442 1.442-1.442h0c.792 0 1.441.649 1.441 1.442v.937c0 .793-.649 1.441-1.441 1.441");
+  d: path("M29.437 22.234v3.892m1.873-1.441c0 .792.648 1.441 1.441 1.441s1.442-.649 1.442-1.441v-.937c0-.793-.649-1.442-1.442-1.442s-1.441.649-1.441 1.441m0-1.513V28m6.169-1.874a1.446 1.446 0 0 1-1.442-1.441v-.937c0-.793.649-1.442 1.442-1.442s1.441.649 1.441 1.442v.937c0 .793-.649 1.441-1.441 1.441");
 }
 
-.sq4b0t3ap {
+.yw56i0yze {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M18.122 26.126a1.446 1.446 0 0 1-1.442-1.441v-.937c0-.793.65-1.442 1.442-1.442h0c.793 0 1.442.649 1.442 1.442v.937c0 .793-.65 1.441-1.442 1.441m-9.042-2.45c0-.793.649-1.442 1.441-1.442s1.442.65 1.442 1.442v2.378m-2.883-3.82v3.892");
+  d: path("M18.122 26.126a1.446 1.446 0 0 1-1.442-1.441v-.937c0-.793.65-1.442 1.442-1.442c.793 0 1.442.649 1.442 1.442v.937c0 .793-.65 1.441-1.442 1.441m-9.042-2.45c0-.793.649-1.442 1.441-1.442s1.442.65 1.442 1.442v2.378m-2.883-3.82v3.892");
 }
 
 </style>

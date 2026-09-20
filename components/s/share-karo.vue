@@ -4,18 +4,10 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="isdscibql"/><path class="gzt8ebbqu"/><path class="dxaokhbkg"/>`;
+const content = `<path class="isdscibql"/><path class="gzt8ebbqu"/><path class="zr_ddybyo"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:share-karo" /></template>
 <style>
-.dxaokhbkg {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M24.4 20.892c2.955 1.695 4.723 4.218 5.29 7.58c.165.98.199 1.96.016 2.94c-.046.53-.18 1.043-.312 1.556c-.505 1.973-.1 3.803.879 5.541c.105.212.258.359.402.542a6.9 6.9 0 0 0 3.71 2.45h0c.402.169 2.471.315 3.083.213c1.697-.284 3.151-1.031 4.262-2.33c1.499-1.754 2.062-3.79 1.628-6.089c-.286-1.513-1.008-2.767-2.106-3.823a5 5 0 0 0-1.095-.848c-.7-.533-1.546-.7-2.358-.968c-3.043-1.001-5.205-2.997-6.536-5.903c-.288-.628-.538-1.284-.637-1.955c-.144-.974-.51-2.098-.135-3.404");
-}
-
 .gzt8ebbqu {
   fill: none;
   stroke: currentColor;
@@ -30,6 +22,14 @@ const content = `<path class="isdscibql"/><path class="gzt8ebbqu"/><path class="
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("M10.907 27.597c.449-.177.739-.323.87-.39c1.553-.802 2.852-1.917 3.842-3.347c.935-1.35 1.55-2.847 1.749-4.502c.194-1.615-.01-3.183-.355-4.762c-.464-2.127.099-4.053 1.426-5.75c1.23-1.574 2.878-2.477 4.847-2.666c2.727-.261 4.946.753 6.589 2.953c1.074 1.44 1.442 3.093 1.308 4.86a5.8 5.8 0 0 1-.408 1.783c-.145.349-.654 1.397-.779 1.58c-1.025 1.505-2.43 2.471-4.172 2.964c-.495.14-1.83.624-2.02.717c-1.472.718-2.656 1.778-3.626 3.079c-1.367 1.831-2.021 3.903-2.023 6.186c0 .15-.005.37.004.536");
+}
+
+.zr_ddybyo {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M24.4 20.892c2.955 1.695 4.723 4.218 5.29 7.58c.165.98.199 1.96.016 2.94c-.046.53-.18 1.043-.312 1.556c-.505 1.973-.1 3.803.879 5.541c.105.212.258.359.402.542a6.9 6.9 0 0 0 3.71 2.45c.402.169 2.471.315 3.083.213c1.697-.284 3.151-1.031 4.262-2.33c1.499-1.754 2.062-3.79 1.628-6.089c-.286-1.513-1.008-2.767-2.106-3.823a5 5 0 0 0-1.095-.848c-.7-.533-1.546-.7-2.358-.968c-3.043-1.001-5.205-2.997-6.536-5.903c-.288-.628-.538-1.284-.637-1.955c-.144-.974-.51-2.098-.135-3.404");
 }
 
 </style>

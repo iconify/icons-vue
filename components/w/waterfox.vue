@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="g10-ac31p"/><path class="qedbv_hxd"/><path class="np8x2q3_v"/><circle class="qaj-_tbdp"/><path class="cdo0ueblo"/>`;
+const content = `<path class="g10-ac31p"/><path class="q89tf-5zx"/><path class="np8x2q3_v"/><circle class="qaj-_tbdp"/><path class="cdo0ueblo"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:waterfox" /></template>
 <style>
@@ -32,6 +32,14 @@ const content = `<path class="g10-ac31p"/><path class="qedbv_hxd"/><path class="
   d: path("M28.995 22.257c1.7 2.833 3.913 6.656 4.892 8.457c.867 1.638 2.98 2.404 4.69 1.662L36 38.134a4.1 4.1 0 0 1-1.668 1.836a4.1 4.1 0 0 1-2.924.502a.4.4 0 0 1-.13-.025a4.18 4.18 0 0 1-2.775-2.126l-4.518-8.249m.634-13.856c-2.63 1.497-2.502 5.115-.887 5.698s2.312-1.314 2.84-1.078s.474 1.839 3.553.116");
 }
 
+.q89tf-5zx {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M32.875 15.574c-7.458-2.262-11.783 3.31-12.367 4.23c-1.53 2.411-5.078 8.488-6.395 10.91c-.867 1.638-2.98 2.404-4.69 1.662L12 38.134c.349.757.94 1.426 1.668 1.836c.864.524 1.937.71 2.924.502c.045 0 .09-.013.13-.025a4.18 4.18 0 0 0 2.775-2.126l6.483-11.836c2.205-3.755 5.497-7.064 7.36-8.784c.709-.654.458-1.847-.465-2.127m-3.85 23.513c.391.458.888.84 1.475 1.101a4.19 4.19 0 0 0 5.53-2.114l7.105-15.895a4.187 4.187 0 0 0-7.645-3.417l-3.663 8.195");
+}
+
 .qaj-_tbdp {
   cx: 31.836px;
   cy: 9.005px;
@@ -40,14 +48,6 @@ const content = `<path class="g10-ac31p"/><path class="qedbv_hxd"/><path class="
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-}
-
-.qedbv_hxd {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M32.875 15.574c-7.458-2.262-11.783 3.31-12.367 4.23c-1.53 2.411-5.078 8.488-6.395 10.91c-.867 1.638-2.98 2.404-4.69 1.662L12 38.134c.349.757.94 1.426 1.668 1.836c.864.524 1.937.71 2.924.502c.045 0 .09-.013.13-.025a4.18 4.18 0 0 0 2.775-2.126l6.483-11.836h0c2.205-3.755 5.497-7.064 7.36-8.784c.709-.654.458-1.847-.465-2.127m-3.85 23.513c.391.458.888.84 1.475 1.101a4.19 4.19 0 0 0 5.53-2.114l7.105-15.895a4.187 4.187 0 0 0-7.645-3.417l-3.663 8.195");
 }
 
 </style>

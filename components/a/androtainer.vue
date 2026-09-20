@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="qbu_z7bko"/><path class="xu01wct1l"/><rect transform="rotate(-89.043 21.483 15.764)" class="j5uhhninw"/><path class="t3xw3rbmf"/><path class="d2bgmendk"/><path class="j5su4x8lx"/>`;
+const content = `<path class="x08ocxb5q"/><path class="xu01wct1l"/><rect transform="rotate(-89.043 21.483 15.764)" class="j5uhhninw"/><path class="t3xw3rbmf"/><path class="d2bgmendk"/><path class="j5su4x8lx"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:androtainer" /></template>
 <style>
@@ -36,20 +36,20 @@ const content = `<path class="qbu_z7bko"/><path class="xu01wct1l"/><rect transfo
   rx: 0.713px;
 }
 
-.qbu_z7bko {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M42.134 21.767a9.24 9.24 0 0 0-9.414 6.154a27 27 0 0 0-5.757-2.666s-.763-3.605 1.398-5.188c0 0-3.382-.959-7.489 2.88a29.7 29.7 0 0 0-11.61 3.285h0c-3.452 1.994-.08 2.91 1.044 3.506s5.086 2.3 6.993.99s2.603-2.767 2.954-1.45s-.207 2.878-2.15 3.842s.97.998.97.998s-.068 1.383 2.258 2.275s2.64.412 2.108-.385s1.716 1.36 3.464 1.04c0 0 .47-.254-.781-1.371s-1.08-1.752.337-2.17s4.424-3.517 6.813-3.374a12.7 12.7 0 0 0 4.18 3.218c2.202.856.879.235.373-.403s-1.847-3.216-1.653-4.404s2.54-6.157 5.962-6.777m-16.271-4.759l.385-1.981a.713.713 0 0 1 .836-.564l1.98.385a.713.713 0 0 1 .564.836l-.385 1.982a.713.713 0 0 1-.836.563l-1.981-.385a.713.713 0 0 1-.563-.836");
-}
-
 .t3xw3rbmf {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("m14.692 18.29l1.988-.345a.713.713 0 0 1 .824.58l.346 1.99a.713.713 0 0 1-.58.824l-1.989.345a.713.713 0 0 1-.824-.58l-.345-1.99a.713.713 0 0 1 .58-.823");
+}
+
+.x08ocxb5q {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M42.134 21.767a9.24 9.24 0 0 0-9.414 6.154a27 27 0 0 0-5.757-2.666s-.763-3.605 1.398-5.188c0 0-3.382-.959-7.489 2.88a29.7 29.7 0 0 0-11.61 3.285c-3.452 1.994-.08 2.91 1.044 3.506s5.086 2.3 6.993.99s2.603-2.767 2.954-1.45s-.207 2.878-2.15 3.842s.97.998.97.998s-.068 1.383 2.258 2.275s2.64.412 2.108-.385s1.716 1.36 3.464 1.04c0 0 .47-.254-.781-1.371s-1.08-1.752.337-2.17s4.424-3.517 6.813-3.374a12.7 12.7 0 0 0 4.18 3.218c2.202.856.879.235.373-.403s-1.847-3.216-1.653-4.404s2.54-6.157 5.962-6.777m-16.271-4.759l.385-1.981a.713.713 0 0 1 .836-.564l1.98.385a.713.713 0 0 1 .564.836l-.385 1.982a.713.713 0 0 1-.836.563l-1.981-.385a.713.713 0 0 1-.563-.836");
 }
 
 .xu01wct1l {

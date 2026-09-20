@@ -4,14 +4,10 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<g class="y9tr6bcfx"><path class="qlzqqccdv"/><path class="hnnmrmbez"/><path class="nkk_3pbdz"/><path class="mus2xplem"/></g>`;
+const content = `<g class="y9tr6bcfx"><path class="qlzqqccdv"/><path class="z781mwbuv"/><path class="nkk_3pbdz"/><path class="mus2xplem"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:talaadthai-online" /></template>
 <style>
-.hnnmrmbez {
-  d: path("M29.88 16.074c1.252-.992 3.508-1.004 4.384.238M9.629 22.371a7.059 7.059 0 1 1 14.112-.269h0q0 .135-.005.27");
-}
-
 .mus2xplem {
   d: path("M15.74 13.055c.47-4.671-1.768-7.83-7.655-7.276c-.707 5.69 3.678 9.055 7.655 7.276");
 }
@@ -29,6 +25,10 @@ const content = `<g class="y9tr6bcfx"><path class="qlzqqccdv"/><path class="hnnm
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
+}
+
+.z781mwbuv {
+  d: path("M29.88 16.074c1.252-.992 3.508-1.004 4.384.238M9.629 22.371a7.059 7.059 0 1 1 14.112-.269q0 .135-.005.27");
 }
 
 </style>

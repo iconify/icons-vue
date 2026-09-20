@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="ucr8hpbjw"/><path class="hpbw0_kbz"/><path class="h8ko_e2ho"/><path class="l5hpuq58j"/><path class="x3lrkjbfc"/><path class="ez0gqrw9u"/><path class="thu618b4a"/><path class="gth9w3bkd"/><path class="ula8ppb1n"/><path class="yxy5p28gp"/><path class="m500-82fm"/><path class="yo3-3ew9z"/><path class="em-j-wl6z"/><path class="egn_o6bqf"/>`;
+const content = `<path class="kg7zd_bxt"/><path class="hpbw0_kbz"/><path class="h8ko_e2ho"/><path class="l5hpuq58j"/><path class="x3lrkjbfc"/><path class="ez0gqrw9u"/><path class="wiij_z7dk"/><path class="gth9w3bkd"/><path class="ula8ppb1n"/><path class="yxy5p28gp"/><path class="m500-82fm"/><path class="yo3-3ew9z"/><path class="em-j-wl6z"/><path class="egn_o6bqf"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:afk-arena" /></template>
 <style>
@@ -56,6 +56,14 @@ const content = `<path class="ucr8hpbjw"/><path class="hpbw0_kbz"/><path class="
   d: path("M19.204 28.697s-.685 4.655 5.411 3.562m-13.527 0a9.7 9.7 0 0 0 2.818 4.05m1.5 4.792a16 16 0 0 1 .046 1.677");
 }
 
+.kg7zd_bxt {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M10.489 19.023q-.113.279-.203.566c-.718 1.81-2.73 6.107-5.786 6.483a60 60 0 0 0 7.784 2.624m7.233.424a7.523 7.523 0 0 0-2.083-14.751a6.8 6.8 0 0 0-4.237 1.308m3.302 13.02s.685 4.655-5.411 3.562");
+}
+
 .l5hpuq58j {
   fill: none;
   stroke: currentColor;
@@ -72,28 +80,20 @@ const content = `<path class="ucr8hpbjw"/><path class="hpbw0_kbz"/><path class="
   d: path("M32.592 20.43a21.3 21.3 0 0 0-2.595-6.04m2.571 13.457s3.938 3.325 5.81 3.406m.001 0a17.7 17.7 0 0 0-2.532 6.773");
 }
 
-.thu618b4a {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M21.443 40.094s-1.68-.656-1.274-3.286c0 0-.004-2.617-1.289-2.617m5.188-16.093a7.52 7.52 0 0 1 6.498-3.73h0a7.52 7.52 0 0 1 5.02 1.924m2.272 3.649c.82 1.96 2.77 5.778 5.642 6.131c0 0-1.744.743-4.069 1.525m-1.873.595a37 37 0 0 1-3.186.808m-7.683-.662a7.6 7.6 0 0 1-2.282-2.128");
-}
-
-.ucr8hpbjw {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M10.489 19.023q-.113.279-.203.566c-.718 1.81-2.73 6.107-5.786 6.483a60 60 0 0 0 7.784 2.624m7.233.424a7.523 7.523 0 0 0-2.083-14.751h0a6.8 6.8 0 0 0-4.237 1.308m3.302 13.02s.685 4.655-5.411 3.562");
-}
-
 .ula8ppb1n {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("M35.418 20.293a11.85 11.85 0 0 1-.914 5.07c-1.088 2.33-3.16 3.502-4.21 3.502h-.386a4.72 4.72 0 0 1-2.93-1.624");
+}
+
+.wiij_z7dk {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M21.443 40.094s-1.68-.656-1.274-3.286c0 0-.004-2.617-1.289-2.617m5.188-16.093a7.52 7.52 0 0 1 6.498-3.73a7.52 7.52 0 0 1 5.02 1.924m2.272 3.649c.82 1.96 2.77 5.778 5.642 6.131c0 0-1.744.743-4.069 1.525m-1.873.595a37 37 0 0 1-3.186.808m-7.683-.662a7.6 7.6 0 0 1-2.282-2.128");
 }
 
 .x3lrkjbfc {

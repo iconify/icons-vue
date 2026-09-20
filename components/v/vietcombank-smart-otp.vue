@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<g class="h01tyzbfu"><path class="ggma2i97f"/><path class="r4zuiyyxt"/><path class="rab4xhb7v"/><path class="fde451h4e"/></g><path class="btnvfqbrh"/>`;
+const content = `<g class="h01tyzbfu"><path class="ggma2i97f"/><path class="r4zuiyyxt"/><path class="rab4xhb7v"/><path class="jsgn4_btl"/></g><path class="btnvfqbrh"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:vietcombank-smart-otp" /></template>
 <style>
@@ -16,12 +16,6 @@ const content = `<g class="h01tyzbfu"><path class="ggma2i97f"/><path class="r4zu
   d: path("M24.366 39.735V43.5m-.569-2.871h1.138m5.768 2.871a1.436 1.436 0 0 1-1.436-1.436v-1.463a1.436 1.436 0 1 1 2.872 0v1.463c0 .793-.643 1.436-1.436 1.436m7.558 0v-4.334h1.42c.801 0 1.451.651 1.451 1.455s-.65 1.456-1.452 1.456h-1.419");
 }
 
-.fde451h4e {
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M6.953 43.025c.266.346.6.475 1.063.475h.642a1.08 1.08 0 0 0 1.08-1.081v-.005a1.08 1.08 0 0 0-1.08-1.08H7.95a1.08 1.08 0 0 1-1.083-1.083h0c0-.6.486-1.085 1.085-1.085h.638c.464 0 .797.129 1.063.475m24.112-.475h2.871M35.2 43.5v-4.334m-23.836 2.546a1.084 1.084 0 0 1 2.167 0V43.5m-2.167-2.871V43.5m2.167-1.788a1.084 1.084 0 0 1 2.167 0V43.5m3.792-1.084c0 .599-.485 1.084-1.083 1.084h0a1.084 1.084 0 0 1-1.084-1.084v-.704c0-.599.485-1.084 1.084-1.084h0c.598 0 1.083.485 1.083 1.084m0 1.788v-2.871m1.626 1.083c0-.598.485-1.083 1.083-1.083m-1.083 0V43.5");
-}
-
 .ggma2i97f {
   stroke-linejoin: round;
   d: path("M17.585 5.753c4.723-2.407 20.272-1.195 22.173 2.346c1.123 4.944-2.716 10.665-4.07 12.697c-3.734 5.605-5.469 8.522-9.154 4.588c-6.311-6.739-13.407-18.087-8.95-19.632Z");
@@ -30,6 +24,12 @@ const content = `<g class="h01tyzbfu"><path class="ggma2i97f"/><path class="r4zu
 .h01tyzbfu {
   fill: none;
   stroke: currentColor;
+}
+
+.jsgn4_btl {
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M6.953 43.025c.266.346.6.475 1.063.475h.642a1.08 1.08 0 0 0 1.08-1.081v-.005a1.08 1.08 0 0 0-1.08-1.08H7.95a1.085 1.085 0 0 1 .002-2.167h.638c.464 0 .797.128 1.063.474m24.112-.475h2.871M35.2 43.5v-4.334m-23.836 2.546a1.084 1.084 0 0 1 2.167 0V43.5m-2.167-2.871V43.5m2.167-1.788a1.084 1.084 0 0 1 2.167 0V43.5m3.792-1.084a1.084 1.084 0 1 1-2.167 0v-.704a1.084 1.084 0 1 1 2.167 0m0 1.788v-2.871m1.626 1.083c0-.598.485-1.083 1.083-1.083m-1.083 0V43.5");
 }
 
 .r4zuiyyxt {

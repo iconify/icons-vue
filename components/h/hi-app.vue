@@ -4,24 +4,24 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="cnyvs-thx"/><path class="l-es4bbjp"/><path class="s1719jb1m"/><path class="wbb9kkbsb"/><path class="nr99xcc9o"/><path class="n310tobok"/>`;
+const content = `<path class="cnyvs-thx"/><path class="chrvw2f3w"/><path class="s1719jb1m"/><path class="wbb9kkbsb"/><path class="nr99xcc9o"/><path class="n310tobok"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:hi-app" /></template>
 <style>
+.chrvw2f3w {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M28.294 20.972c-.668 4.48-6.724 3.385-7.376.417c3.144.503 4.924.434 7.376-.417m4.125-2.36c0 .903-.571 1.635-1.276 1.635c-.704 0-1.275-.732-1.275-1.635s.57-1.635 1.275-1.635s1.276.732 1.276 1.635m-12.651.107c0 .903-.57 1.635-1.275 1.635s-1.276-.732-1.276-1.635s.571-1.635 1.276-1.635c.704 0 1.275.732 1.275 1.635m9.236 9.735c2.737 1.83 2.56 5.458 2.682 8.752c-2.933 2.649-7.377 2.648-11.593 1.008l1.02-2.72");
+}
+
 .cnyvs-thx {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("M20.026 6.049c-5.698.917-10.01 5.602-10.01 11.277c0 6.338 5.378 11.44 12.058 11.44l3.854-.001c6.68 0 12.056-5.103 12.056-11.44c0-3.877-2.013-7.292-5.092-9.388m-1.74-.99a12.7 12.7 0 0 0-3.656-1.073c.365-2.787-9.44-4.145-6.652 1.893c1.403 3.037 10.555 4.852 13.244-2.327c-4.059 3.538-8.648 3.114-9.81.832");
-}
-
-.l-es4bbjp {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M28.294 20.972c-.668 4.48-6.724 3.385-7.376.417c3.144.503 4.924.434 7.376-.417m4.125-2.36c0 .903-.571 1.635-1.276 1.635h0c-.704 0-1.275-.732-1.275-1.635h0c0-.903.57-1.635 1.275-1.635s1.276.732 1.276 1.635q0 0 0 0m-12.651.107c0 .903-.57 1.635-1.275 1.635h0c-.705 0-1.276-.732-1.276-1.635h0c0-.903.571-1.635 1.276-1.635c.704 0 1.275.732 1.275 1.635q0 0 0 0m9.236 9.735c2.737 1.83 2.56 5.458 2.682 8.752c-2.933 2.649-7.377 2.648-11.593 1.008l1.02-2.72");
 }
 
 .n310tobok {

@@ -4,10 +4,18 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="luuiv0-nu"/><circle class="hwm10_b4v"/><path class="z72jclh2z"/>`;
+const content = `<path class="u8u4sl_3c"/><circle class="hwm10_b4v"/><path class="gsh41bc3m"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:dawn" /></template>
 <style>
+.gsh41bc3m {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M23.25 9.34c-3 2.32-.39 4.82 1.8 3.45c1.38-.86 2.75-1.36 3.6-.2s-.26 3.11-2.72 4.3M8.49 30.21a3 3 0 0 0 3 3h5.68a4.12 4.12 0 0 0 4-3l.66-2.38A2.29 2.29 0 0 1 24 26.11a2.29 2.29 0 0 1 2.22 1.69l.66 2.38a4.12 4.12 0 0 0 4 3h5.64a3 3 0 0 0 3-3v-5.51a2 2 0 0 0-1.83-2c-4-.32-9-.39-13.68-.35s-9.68 0-13.68.35a2 2 0 0 0-1.83 2Z");
+}
+
 .hwm10_b4v {
   cx: 25.19px;
   cy: 7.59px;
@@ -18,20 +26,12 @@ const content = `<path class="luuiv0-nu"/><circle class="hwm10_b4v"/><path class
   stroke-linejoin: round;
 }
 
-.luuiv0-nu {
+.u8u4sl_3c {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M20 17.08c.54-.06 1.64-.16 2.18-.2s1.21-.05 1.81-.05A29.2 29.2 0 0 1 35.26 19A4.41 4.41 0 0 1 39 16.83a4.65 4.65 0 0 1 4.5 4.79h0a5 5 0 0 1-1.07 3.11a7.6 7.6 0 0 1 1.07 3.77c0 6.5-8.73 11.67-19.5 11.68h0C13.23 40.18 4.5 35 4.5 28.5h0a7.7 7.7 0 0 1 1.07-3.78a5 5 0 0 1-1.07-3.1A4.65 4.65 0 0 1 9 16.83h0A4.42 4.42 0 0 1 12.75 19A25.8 25.8 0 0 1 20 17.08");
-}
-
-.z72jclh2z {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M23.25 9.34c-3 2.32-.39 4.82 1.8 3.45c1.38-.86 2.75-1.36 3.6-.2s-.26 3.11-2.72 4.3M8.49 30.21a3 3 0 0 0 3 3h5.68a4.12 4.12 0 0 0 4-3l.66-2.38A2.29 2.29 0 0 1 24 26.11h0a2.29 2.29 0 0 1 2.22 1.69l.66 2.38a4.12 4.12 0 0 0 4 3h5.64a3 3 0 0 0 3-3v-5.51a2 2 0 0 0-1.83-2c-4-.32-9-.39-13.68-.35s-9.68 0-13.68.35a2 2 0 0 0-1.83 2Z");
+  d: path("M20 17.08c.54-.06 1.64-.16 2.18-.2s1.21-.05 1.81-.05A29.2 29.2 0 0 1 35.26 19A4.41 4.41 0 0 1 39 16.83a4.65 4.65 0 0 1 4.5 4.79a5 5 0 0 1-1.07 3.11a7.6 7.6 0 0 1 1.07 3.77c0 6.5-8.73 11.67-19.5 11.68C13.23 40.18 4.5 35 4.5 28.5a7.7 7.7 0 0 1 1.07-3.78a5 5 0 0 1-1.07-3.1A4.65 4.65 0 0 1 9 16.83A4.42 4.42 0 0 1 12.75 19A25.8 25.8 0 0 1 20 17.08");
 }
 
 </style>

@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="jw5ypx58p"/><g class="y9tr6bcfx"><path class="ho7b1vb_c"/><path class="ibie-9bnp"/><path class="w0pn9f1nf"/></g>`;
+const content = `<path class="lk8s4fb5q"/><g class="y9tr6bcfx"><path class="ho7b1vb_c"/><path class="ibie-9bnp"/><path class="w0pn9f1nf"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:notion-calendar-15" /></template>
 <style>
@@ -16,12 +16,12 @@ const content = `<path class="jw5ypx58p"/><g class="y9tr6bcfx"><path class="ho7b
   d: path("M11.339 22.117v-2.97c0-.954.75-1.738 1.703-1.78l27.091-1.182a1.78 1.78 0 0 1 1.859 1.779v3.803");
 }
 
-.jw5ypx58p {
+.lk8s4fb5q {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("m18.735 24.974l3.2-1.928m0 0v12.8m4.82-1.332c.884.694 1.741.988 3.884.876l.368-.02c1.982-.103 3.588-1.794 3.588-3.776h0c0-1.982-1.606-3.504-3.588-3.4l-4.252.222v-5.623l7.84-.41m-9.46 13.295l-6.4.336");
+  d: path("m18.735 24.974l3.2-1.928m0 0v12.8m4.82-1.332c.884.694 1.741.988 3.884.876l.368-.02c1.982-.103 3.588-1.794 3.588-3.776s-1.606-3.504-3.588-3.4l-4.252.222v-5.623l7.84-.41m-9.46 13.295l-6.4.336");
 }
 
 .w0pn9f1nf {

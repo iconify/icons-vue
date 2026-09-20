@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="kry8dab8d"/><path class="gd__l71ef"/><path class="y2uqz8bnh"/><circle class="xt60wwb0h"/>`;
+const content = `<path class="lfpyh334i"/><path class="gd__l71ef"/><path class="y2uqz8bnh"/><circle class="xt60wwb0h"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:nekokolpa-community" /></template>
 <style>
@@ -16,12 +16,12 @@ const content = `<path class="kry8dab8d"/><path class="gd__l71ef"/><path class="
   d: path("M30.004 36.684h-.01c-.887-.17-1.821-.368-2.303-.358c-.878.019-.132.783.623 1.538c-2.37.151-5.031-.575-8.005-2.18c1.227 2.775 0 2.51-3.691-.774c.075 2.53-1.464 1.435-4.645-3.286q-1.357 5.24-1.765-3.738c-1.228 3.295-2.87 3.096-1.889-1.624v-.01c.104-.471.227-1 .388-1.576c-.199-.34-.34-.67-.406-.991c-.16-.604-.114-1.18.141-1.709l-4.71-8.477c3.558-.36 6.976-.293 10.252.217c2.926-4.173 4.2-4.579 3.814-1.228c3.634-4.408 5.38-4.72 5.24-.925c3.86-3.077 5.342-3.002 4.455.236q4.7-3.37 3.805.453l9.327-3.068c2.407-.887 3.125-.227 2.162 1.973a964 964 0 0 1-3.503 8.147c.104.114.208.236.302.359q1.19 1.428 1.671 3.125c.33 1.123.435 2.34.303 3.653c-.803-.538-1.417-1.029-1.822-1.463c.302.887.443 1.982.415 3.276");
 }
 
-.kry8dab8d {
+.lfpyh334i {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M37.363 33.677v.027c0 1.21-.98 2.19-2.189 2.19h0a2.19 2.19 0 0 1-2.189-2.19v-2.23a2.19 2.19 0 0 1 2.19-2.189h0c1.208 0 2.188.98 2.188 2.19v.026");
+  d: path("M37.363 33.677v.027a2.189 2.189 0 1 1-4.378 0v-2.23a2.189 2.189 0 0 1 4.378 0v.027");
 }
 
 .xt60wwb0h {

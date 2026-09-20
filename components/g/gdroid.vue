@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<circle class="ahlvx9bqz"/><circle class="jv0-78bwd"/><rect class="k3qm-mbda"/><path class="fuh928b7j"/><rect class="acw1d3bha"/><path class="lk5v-zbsu"/>`;
+const content = `<circle class="ahlvx9bqz"/><circle class="jv0-78bwd"/><rect class="k3qm-mbda"/><path class="fuh928b7j"/><rect class="acw1d3bha"/><path class="d0kdq1-2h"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:gdroid" /></template>
 <style>
@@ -28,6 +28,14 @@ const content = `<circle class="ahlvx9bqz"/><circle class="jv0-78bwd"/><rect cla
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
+}
+
+.d0kdq1-2h {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("m42.5 5.85l-3.66 3.67M28.172 31.167a4.166 4.166 0 0 0-4.386-4.164a4.326 4.326 0 0 0-3.938 4.4v3.864a4.166 4.166 0 0 0 4.162 4.17a4.166 4.166 0 0 0 4.162-4.17v-1H24.01");
 }
 
 .fuh928b7j {
@@ -58,14 +66,6 @@ const content = `<circle class="ahlvx9bqz"/><circle class="jv0-78bwd"/><rect cla
   stroke-linecap: round;
   stroke-linejoin: round;
   rx: 2.8px;
-}
-
-.lk5v-zbsu {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("m42.5 5.85l-3.66 3.67M28.172 31.167a4.166 4.166 0 0 0-4.386-4.164a4.326 4.326 0 0 0-3.938 4.4v3.864a4.166 4.166 0 0 0 4.162 4.17h0a4.166 4.166 0 0 0 4.162-4.17v-1H24.01");
 }
 
 </style>

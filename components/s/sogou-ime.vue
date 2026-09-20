@@ -4,16 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="pa78ccb2b"/><path class="nlftf6cjl"/>`;
+const content = `<path class="pa78ccb2b"/><path class="ahz9pfbug"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:sogou-ime" /></template>
 <style>
-.nlftf6cjl {
+.ahz9pfbug {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M19.927 32.678c1.54 1.045 3.135 1.347 5.253.78l2.824-.757c2.589-.694 4.16-3.301 3.492-5.794h0c-.669-2.494-3.333-3.966-5.922-3.273l-3.06.82c-2.588.693-5.253-.78-5.92-3.273h0c-.67-2.493.902-5.1 3.49-5.794l2.825-.757c2.118-.567 3.651-.492 5.253.78");
+  d: path("M19.927 32.678c1.54 1.045 3.135 1.347 5.253.78l2.824-.757c2.589-.694 4.16-3.301 3.492-5.794c-.669-2.494-3.333-3.966-5.922-3.273l-3.06.82c-2.588.693-5.253-.78-5.92-3.273c-.67-2.493.902-5.1 3.49-5.794l2.825-.757c2.118-.567 3.651-.492 5.253.78");
 }
 
 .pa78ccb2b {

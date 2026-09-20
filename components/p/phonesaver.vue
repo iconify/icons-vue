@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="kue1irb7o"/><path class="knxvqtb2a"/><path class="ddef0ebaq"/>`;
+const content = `<path class="uobm3abij"/><path class="s5yy5p9tc"/><path class="ddef0ebaq"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:phonesaver" /></template>
 <style>
@@ -16,20 +16,20 @@ const content = `<path class="kue1irb7o"/><path class="knxvqtb2a"/><path class="
   d: path("M42.37 31.56H36a5 5 0 0 1-5 5h-7m10.92-15.45L24 30.52");
 }
 
-.knxvqtb2a {
+.s5yy5p9tc {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M5.63 31.56H12a5 5 0 0 0 5 5h7m0-6.04V5.5M13.08 21.11L24 30.52m5.83-15.13H39l3.41 16.17h0A10.94 10.94 0 0 1 31.43 42.5H24");
+  d: path("M5.63 31.56H12a5 5 0 0 0 5 5h7m0-6.04V5.5M13.08 21.11L24 30.52m5.83-15.13H39l3.41 16.17A10.94 10.94 0 0 1 31.43 42.5H24");
 }
 
-.kue1irb7o {
+.uobm3abij {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M18.17 15.39H9L5.63 31.56h0A10.94 10.94 0 0 0 16.57 42.5H24");
+  d: path("M18.17 15.39H9L5.63 31.56A10.94 10.94 0 0 0 16.57 42.5H24");
 }
 
 </style>

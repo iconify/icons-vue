@@ -4,10 +4,18 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="ri7xqs5dq"/><path class="xax70mbse"/><circle class="lkr3x2bwo"/><circle class="r87yusxwr"/><rect class="wg2v28bvw"/><rect class="he5vw6bcf"/><path class="i6f7atb7w"/>`;
+const content = `<path class="ri7xqs5dq"/><path class="xax70mbse"/><circle class="lkr3x2bwo"/><circle class="r87yusxwr"/><rect class="wg2v28bvw"/><rect class="he5vw6bcf"/><path class="ep78v70rk"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:flextrafik" /></template>
 <style>
+.ep78v70rk {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M29.162 24.88h1.374c.387 0 1.97 1.35 2.232 1.637l1.972 2.153c.262.286-.312.7-.7.7h-4.737a.7.7 0 0 1-.7-.7v-3.09c0-.389.172-.7.56-.7Zm-3.65-10.669l-4.45 5.777m4.45 0l-4.45-5.777m-1.925 4.677a2.23 2.23 0 0 1-1.933 1.1c-1.23 0-2.225-.976-2.225-2.18v-1.417c0-1.203.996-2.18 2.225-2.18s2.225.976 2.225 2.18v.709h-4.45m-7.937-2.889h3.115m-1.796 5.777v-7.195c0-.843.697-1.526 1.558-1.526h.606a1.85 1.85 0 0 1 1.584.638v6.991c0 .602.498 1.09 1.112 1.09h.334");
+}
+
 .he5vw6bcf {
   width: 7.731px;
   height: 4.491px;
@@ -19,14 +27,6 @@ const content = `<path class="ri7xqs5dq"/><path class="xax70mbse"/><circle class
   stroke-linejoin: round;
   rx: 0.7px;
   ry: 0.7px;
-}
-
-.i6f7atb7w {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M29.162 24.88h1.374c.387 0 1.97 1.35 2.232 1.637l1.972 2.153c.262.286-.312.7-.7.7h-4.737a.7.7 0 0 1-.7-.7v-3.09c0-.389.172-.7.56-.7Zm-3.65-10.669l-4.45 5.777m4.45 0l-4.45-5.777m-1.925 4.677a2.23 2.23 0 0 1-1.933 1.1c-1.23 0-2.225-.976-2.225-2.18v-1.417c0-1.203.996-2.18 2.225-2.18h0c1.229 0 2.225.976 2.225 2.18v.709h-4.45m-7.937-2.889h3.115m-1.796 5.777v-7.195c0-.843.697-1.526 1.558-1.526h.606a1.85 1.85 0 0 1 1.584.638v6.991c0 .602.498 1.09 1.112 1.09h.334");
 }
 
 .lkr3x2bwo {

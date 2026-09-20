@@ -4,24 +4,24 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="uajnd11oc"/><path class="kk-vg3nrr"/><path class="cip405bcp"/><path class="xwu862vgp"/><path class="zb7t73a2g"/>`;
+const content = `<path class="uajnd11oc"/><path class="kk-vg3nrr"/><path class="tmthh8b9c"/><path class="xwu862vgp"/><path class="zb7t73a2g"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:kagi-slop-detective" /></template>
 <style>
-.cip405bcp {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("m34.912 17.084l.009.002s-.637-7.33-2.494-8.325s-2.305.147-4.709-2.222c-2.277-2.243-4.88-1.625-5.712.069c-.886 1.803-3.63 7.172-3.63 7.172h0c-4.685-.434-7.96-.21-8.127.706c-.243 1.333 6.192 3.627 14.374 5.123s15.013 1.628 15.256.295c.136-.743-1.807-1.784-4.967-2.82");
-}
-
 .kk-vg3nrr {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("M2.85 27.84v.01c.26.45.59.87.97 1.25A6.56 6.56 0 0 0 8.46 31h1.7V17.23H8.45c-1.74-.01-3.4.68-4.63 1.91c-.4.4-.75.85-1.03 1.33v.01m24.93-.41l-.59-.04l-10.45-.67M20.37 31H10.16m8.61-8.88c.39.24.62.67.62 1.13c0 .76-.61 1.35-1.35 1.35c-.58 0-1.06-.34-1.26-.85m.53-1.63c-.31.19-.52.5-.6.86m7.39-.86c.48.21.82.69.82 1.24c0 .75-.6 1.35-1.35 1.35c-.58 0-1.08-.37-1.25-.88c0-.01-.02-.01-.02-.03m-.05-.65v-.06c.09-.45.4-.8.8-.97m.56 13.76h-5.49m1.612-24.73a84 84 0 0 1 5.975.877c3.346.611 6.4 1.368 8.83 2.111m-15.811-1.043c1.845.2 4.357.701 6.468 1.086c3.346.611 7.243 1.634 9.673 2.377");
+}
+
+.tmthh8b9c {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("m34.912 17.084l.009.002s-.637-7.33-2.494-8.325s-2.305.147-4.709-2.222c-2.277-2.243-4.88-1.625-5.712.069c-.886 1.803-3.63 7.172-3.63 7.172c-4.685-.434-7.96-.21-8.127.706c-.243 1.333 6.192 3.627 14.374 5.123s15.013 1.628 15.256.295c.136-.743-1.807-1.784-4.967-2.82");
 }
 
 .uajnd11oc {

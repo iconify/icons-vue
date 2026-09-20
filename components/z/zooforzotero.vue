@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="ydqthzbbt"/><rect class="gr_1_obge"/><rect class="yc09wh2nt"/><rect class="wrt4qob1b"/><path class="x76d897qj"/>`;
+const content = `<path class="ydqthzbbt"/><rect class="gr_1_obge"/><rect class="yc09wh2nt"/><rect class="wrt4qob1b"/><path class="l3dboe8rp"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:zooforzotero" /></template>
 <style>
@@ -21,6 +21,14 @@ const content = `<path class="ydqthzbbt"/><rect class="gr_1_obge"/><rect class="
   ry: 2.844px;
 }
 
+.l3dboe8rp {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M25.593 31.808a2.844 2.844 0 0 1 2.843-2.843m-2.843 0V36.5m-13.537-25h7.535l-7.535 11.374h7.535m3.063 12.191a2.844 2.844 0 0 1-5.314-1.408v-1.849a2.844 2.844 0 0 1 5.687 0v.924h-5.688m-3.79-6.113v8.459c0 .785.636 1.422 1.422 1.422h.426m-3.341-7.536h2.986");
+}
+
 .wrt4qob1b {
   width: 5.687px;
   height: 7.535px;
@@ -32,14 +40,6 @@ const content = `<path class="ydqthzbbt"/><rect class="gr_1_obge"/><rect class="
   stroke-linejoin: round;
   rx: 2.844px;
   ry: 2.844px;
-}
-
-.x76d897qj {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M25.593 31.808a2.844 2.844 0 0 1 2.843-2.843h0m-2.843 0V36.5m-13.537-25h7.535l-7.535 11.374h7.535m3.063 12.191a2.84 2.84 0 0 1-2.471 1.435h0a2.844 2.844 0 0 1-2.844-2.844v-1.848a2.844 2.844 0 0 1 2.844-2.843h0a2.844 2.844 0 0 1 2.843 2.843v.924H17.34m-3.791-6.113v8.459c0 .785.636 1.422 1.422 1.422h.426m-3.341-7.536h2.986");
 }
 
 .yc09wh2nt {

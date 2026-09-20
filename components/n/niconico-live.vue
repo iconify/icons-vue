@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="wh6pg3bqt"/><path class="gfe14142n"/>`;
+const content = `<path class="u28_2dbtf"/><path class="gfe14142n"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:niconico-live" /></template>
 <style>
@@ -16,12 +16,12 @@ const content = `<path class="wh6pg3bqt"/><path class="gfe14142n"/>`;
   d: path("M28.706 27.207c.948 0 1.71.761 1.71 1.708s-.762 1.708-1.71 1.708s-1.71-.762-1.71-1.708s.762-1.708 1.71-1.708m-5.381 9.852h-4.53l2.265-2.556zM13.16 29.463c.948 0 1.71.762 1.71 1.708s-.762 1.709-1.71 1.709s-1.71-.762-1.71-1.709s.762-1.708 1.71-1.708");
 }
 
-.wh6pg3bqt {
+.u28_2dbtf {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M26.292 9.438a4.94 4.94 0 0 1-4.944 4.937a4.94 4.94 0 0 1-4.945-4.937h0A4.94 4.94 0 0 1 21.348 4.5h0a4.94 4.94 0 0 1 4.944 4.938M10.758 20.31h16.98a9.476 9.476 0 0 1 9.504 9.49v4.21a9.476 9.476 0 0 1-9.504 9.49h-16.98m10.59-29.125v5.933");
+  d: path("M26.292 9.438a4.94 4.94 0 0 1-4.944 4.937a4.94 4.94 0 0 1-4.945-4.937A4.94 4.94 0 0 1 21.348 4.5a4.94 4.94 0 0 1 4.944 4.938M10.758 20.31h16.98a9.476 9.476 0 0 1 9.504 9.49v4.21a9.476 9.476 0 0 1-9.504 9.49h-16.98m10.59-29.125v5.933");
 }
 
 </style>

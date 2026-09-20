@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<circle class="imu-ntbes"/><path class="nc8gz0bny"/><path class="hp6-8bbsv"/><path class="utn25qz1p"/>`;
+const content = `<circle class="imu-ntbes"/><path class="j5yk-abto"/><path class="hp6-8bbsv"/><path class="utn25qz1p"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:amboss-qbank" /></template>
 <style>
@@ -26,12 +26,12 @@ const content = `<circle class="imu-ntbes"/><path class="nc8gz0bny"/><path class
   stroke-linejoin: round;
 }
 
-.nc8gz0bny {
+.j5yk-abto {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("m39.614 41.845l-2.65-2.618m0-5.382a2.65 2.65 0 0 1 2.65 2.65v2.7a2.65 2.65 0 0 1-2.65 2.65h0a2.65 2.65 0 0 1-2.65-2.65v-2.7a2.65 2.65 0 0 1 2.65-2.65M33.03 32.05L27.23 22");
+  d: path("m39.614 41.845l-2.65-2.618m0-5.382za2.65 2.65 0 0 1 2.65 2.65v2.7a2.65 2.65 0 1 1-5.3 0v-2.7a2.65 2.65 0 0 1 2.65-2.65M33.03 32.05L27.23 22");
 }
 
 .utn25qz1p {

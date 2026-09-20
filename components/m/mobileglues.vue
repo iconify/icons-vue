@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="w5-9qhb-w"/><path class="bq-mf9byu"/><path class="mt9l65bgx"/><path class="pr8-kdf0d"/><path class="jnwpnab7x"/><ellipse class="akqtafbka"/><ellipse class="xm8klcrlo"/><ellipse transform="rotate(-75 26.8 6.742)" class="rqrhy3y1p"/><path class="h_tkvkbgs"/>`;
+const content = `<path class="w5-9qhb-w"/><path class="bq-mf9byu"/><path class="mt9l65bgx"/><path class="pr8-kdf0d"/><path class="jnwpnab7x"/><ellipse class="akqtafbka"/><ellipse class="xm8klcrlo"/><ellipse transform="rotate(-75 26.8 6.742)" class="rqrhy3y1p"/><path class="c3f_ycb4i"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:mobileglues" /></template>
 <style>
@@ -27,12 +27,12 @@ const content = `<path class="w5-9qhb-w"/><path class="bq-mf9byu"/><path class="
   d: path("M12.134 15.095L24 21.946l11.866-6.851M24 21.947v9.669m0 2v2.033");
 }
 
-.h_tkvkbgs {
+.c3f_ycb4i {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M34.786 11.33a1 1 0 0 1-.123.043c-.506.136-1.035-.194-1.18-.737q0 0 0 0c-.146-.543.147-1.093.653-1.23q0 0 0 0c.507-.135 1.035.195 1.18.738q0 0 0 0");
+  d: path("M34.786 11.33a1 1 0 0 1-.123.043c-.506.136-1.035-.194-1.18-.737s.147-1.093.653-1.23c.507-.135 1.035.195 1.18.738");
 }
 
 .jnwpnab7x {

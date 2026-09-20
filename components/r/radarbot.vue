@@ -4,16 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="hqo15y6eh"/><path class="ouij8hbjj"/>`;
+const content = `<path class="ioli74dmx"/><path class="ouij8hbjj"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:radarbot" /></template>
 <style>
-.hqo15y6eh {
+.ioli74dmx {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M15.73 23.996a3.927 3.927 0 0 1-3.926 3.927h-.002a3.926 3.926 0 0 1 0-7.854h0a3.926 3.926 0 0 1 3.927 3.927m3.356-6.379a9.67 9.67 0 0 1 2.398 6.379h0a9.67 9.67 0 0 1-2.403 6.385m4.364-17.077a15.805 15.805 0 0 1-.004 21.388m4.278-25.61a21.8 21.8 0 0 1 5.896 14.914a21.8 21.8 0 0 1-5.905 14.921");
+  d: path("M15.73 23.996a3.927 3.927 0 0 1-3.926 3.927h-.002a3.926 3.926 0 0 1 0-7.854a3.926 3.926 0 0 1 3.927 3.927m3.356-6.379a9.67 9.67 0 0 1 2.398 6.379a9.67 9.67 0 0 1-2.403 6.385m4.364-17.077a15.805 15.805 0 0 1-.004 21.388m4.278-25.61a21.8 21.8 0 0 1 5.896 14.914a21.8 21.8 0 0 1-5.905 14.921");
 }
 
 .ouij8hbjj {

@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="lwt33j7wh"/><path class="enyzg4b-s"/><path class="k9-uwddjf"/>`;
+const content = `<path class="kwpymccaj"/><path class="enyzg4b-s"/><path class="k9-uwddjf"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:mynetdiary" /></template>
 <style>
@@ -24,12 +24,12 @@ const content = `<path class="lwt33j7wh"/><path class="enyzg4b-s"/><path class="
   d: path("M11.817 38.547c10.897.673 21.954-2.821 28.874-5.934M7.68 27.543c12.122-.14 24.037-3.03 33.621-6.421M13.157 38.529l-.657-3.488m3.885 3.375l-.328-1.744m3.556 1.278l-.657-3.488m3.885 3.195l-.328-1.744m3.556 1.136l-.657-3.489m3.843 2.889l-.328-1.745m3.598.813l-.657-3.488m3.962 2.329l-.329-1.745m3.48.583l-.657-3.489");
 }
 
-.lwt33j7wh {
+.kwpymccaj {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M32.212 5.28q-.002 2.928-2.133 5.458c-1.714 2.004-3.787 3.161-6.036 2.979a6 6 0 0 1-.045-.74c0-1.872.815-3.876 2.263-5.514q1.085-1.245 2.756-2.07q1.669-.815 3.154-.893q.042.39.04.78z");
+  d: path("M32.212 5.28q-.002 2.928-2.133 5.458c-1.714 2.004-3.787 3.161-6.036 2.979a6 6 0 0 1-.045-.74c0-1.872.815-3.876 2.263-5.514q1.085-1.245 2.756-2.07q1.669-.815 3.154-.893q.042.39.04.78Z");
 }
 
 </style>

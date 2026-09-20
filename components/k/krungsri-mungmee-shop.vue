@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="g2wj9jbhp"/><path class="bu4_yf8hs"/><path class="ax2zd6bok"/><path class="abqbxiizq"/><path class="y21iupp9l"/><path class="w326kebze"/>`;
+const content = `<path class="g2wj9jbhp"/><path class="bu4_yf8hs"/><path class="ax2zd6bok"/><path class="abqbxiizq"/><path class="y21iupp9l"/><path class="jsz71hbxb"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:krungsri-mungmee-shop" /></template>
 <style>
@@ -40,12 +40,12 @@ const content = `<path class="g2wj9jbhp"/><path class="bu4_yf8hs"/><path class="
   d: path("M9.5 5.5h29c2.216 0 4 1.784 4 4v29c0 2.216-1.784 4-4 4h-29c-2.216 0-4-1.784-4-4v-29c0-2.216 1.784-4 4-4");
 }
 
-.w326kebze {
+.jsz71hbxb {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M29.605 9.91c0 6.549 1.054 10.222 5.408 12.458m-3.908 17.278v-5.843h1.873c1.059 0 1.917.879 1.917 1.963c0 1.083-.858 1.962-1.917 1.962h-1.873m-12.002-3.925v5.843m3.79-5.843v5.843m-3.79-2.932h3.79m-9.675 2.292c.351.466.791.64 1.403.64h.847c.788 0 1.427-.653 1.427-1.458v-.006c0-.805-.639-1.457-1.427-1.457h-.934c-.79 0-1.429-.654-1.429-1.46h0c0-.807.641-1.462 1.432-1.462h.842c.612 0 1.052.174 1.403.64m10.214-.64c1.05 0 1.895.864 1.895 1.936v1.971c0 1.073-.845 1.936-1.895 1.936h0c-1.05 0-1.894-.863-1.894-1.936v-1.97c0-1.072.845-1.936 1.894-1.936");
+  d: path("M29.605 9.91c0 6.549 1.054 10.222 5.408 12.458m-3.908 17.278v-5.843h1.873c1.059 0 1.917.879 1.917 1.963c0 1.083-.858 1.962-1.917 1.962h-1.873m-12.002-3.925v5.843m3.79-5.843v5.843m-3.79-2.932h3.79m-9.675 2.292c.351.466.791.64 1.403.64h.847c.788 0 1.427-.653 1.427-1.458v-.006c0-.805-.639-1.457-1.427-1.457h-.934c-.79 0-1.429-.654-1.429-1.46c0-.807.641-1.462 1.432-1.462h.842c.612 0 1.052.174 1.403.64m10.214-.64c1.05 0 1.895.864 1.895 1.936v1.971c0 1.073-.845 1.936-1.895 1.936s-1.894-.863-1.894-1.936v-1.97c0-1.072.845-1.936 1.894-1.936");
 }
 
 .y21iupp9l {

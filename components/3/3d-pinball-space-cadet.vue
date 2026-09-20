@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<circle class="cpk0fnbgt"/><path class="yjko2nbwr"/><path class="u434onk3b"/><path class="upre90mfd"/>`;
+const content = `<circle class="cpk0fnbgt"/><path class="yjko2nbwr"/><path class="u434onk3b"/><path class="wy1yn2kkh"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:3d-pinball-space-cadet" /></template>
 <style>
@@ -26,12 +26,12 @@ const content = `<circle class="cpk0fnbgt"/><path class="yjko2nbwr"/><path class
   d: path("M13.31 19.39c-.01-.17-.02-.35-.02-.53c0-1.26.35-2.43.97-3.43m9.45-1.88a6.57 6.57 0 0 1 2.7 5.12c1.07.89 1.76 2.2 1.76 3.7c0 2.66-2.15 4.81-4.81 4.81c-1.49 0-2.81-.69-3.7-1.76a6.53 6.53 0 0 1-5.82-3.95");
 }
 
-.upre90mfd {
+.wy1yn2kkh {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M18.982 9.673a4.815 4.815 0 0 1 4.814 4.814h0a4.815 4.815 0 0 1-4.815 4.815h0a4.815 4.815 0 0 1-4.814-4.815h0a4.815 4.815 0 0 1 4.814-4.814m-6.127 9.629c.725 0 1.313.588 1.313 1.313h0c0 .725-.588 1.313-1.313 1.313h0a1.313 1.313 0 0 1-1.313-1.313h0c0-.725.587-1.313 1.313-1.313");
+  d: path("M18.982 9.673za4.815 4.815 0 1 1 0 9.63a4.815 4.815 0 1 1 0-9.63m-6.128 9.629za1.313 1.313 0 0 1 0 2.626a1.313 1.313 0 0 1 0-2.626");
 }
 
 .yjko2nbwr {

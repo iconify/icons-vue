@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="i2ijg9b5o"/><circle class="h_mgq373y"/><circle class="ghed1ac7b"/><circle class="wm830cc3l"/><path class="iv04wcbub"/><circle class="lxdowwbsg"/><path class="ycy9v4bid"/><path class="i9clfwm2k"/><path class="uh0-vsbai"/><path class="lp3r8kqqu"/>`;
+const content = `<path class="mcw5i0brs"/><circle class="h_mgq373y"/><circle class="ghed1ac7b"/><circle class="wm830cc3l"/><path class="iv04wcbub"/><circle class="lxdowwbsg"/><path class="ycy9v4bid"/><path class="i9clfwm2k"/><path class="t8a3v_b4h"/><path class="lp3r8kqqu"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:digiturk-sinyal" /></template>
 <style>
@@ -23,14 +23,6 @@ const content = `<path class="i2ijg9b5o"/><circle class="h_mgq373y"/><circle cla
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-}
-
-.i2ijg9b5o {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M8.26 9.88a3.303 3.303 0 0 1 3.303 3.303h0a3.303 3.303 0 0 1-3.304 3.303h0m5.416 0V12.31");
 }
 
 .i9clfwm2k {
@@ -64,12 +56,20 @@ const content = `<path class="i2ijg9b5o"/><circle class="h_mgq373y"/><circle cla
   fill: currentColor;
 }
 
-.uh0-vsbai {
+.mcw5i0brs {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M24.99 26.162a.24.24 0 0 1-.342 0l-2.056-2.055a.24.24 0 0 1 0-.343l3.426-3.426a.24.24 0 0 1 .343 0l2.055 2.056a.24.24 0 0 1 0 .342zm-11.24 6.445l3.425-3.426a.24.24 0 0 1 .343 0l2.055 2.055a.24.24 0 0 1 0 .343l-3.426 3.426a.24.24 0 0 1-.342 0l-2.055-2.056a.24.24 0 0 1 0-.342m5.924-4.162l-2.399-2.399a1.697 1.697 0 0 1 1.199-2.894h0c.454 0 .88.176 1.2.496l2.398 2.399zm2.373 2.373l-1.159-1.159l2.398-2.398l1.159 1.159l-1.199 1.199zm1.388 2.139a3.153 3.153 0 0 0 3.149-3.15");
+  d: path("M8.26 9.88a3.303 3.303 0 1 1 0 6.607m5.415-.001V12.31");
+}
+
+.t8a3v_b4h {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M24.99 26.162a.24.24 0 0 1-.342 0l-2.056-2.055a.24.24 0 0 1 0-.343l3.426-3.426a.24.24 0 0 1 .343 0l2.055 2.056a.24.24 0 0 1 0 .342zm-11.24 6.445l3.425-3.426a.24.24 0 0 1 .343 0l2.055 2.055a.24.24 0 0 1 0 .343l-3.426 3.426a.24.24 0 0 1-.342 0l-2.055-2.056a.24.24 0 0 1 0-.342m5.924-4.162l-2.399-2.399a1.697 1.697 0 0 1 1.199-2.894c.454 0 .88.176 1.2.496l2.398 2.399zm2.373 2.373l-1.159-1.159l2.398-2.398l1.159 1.159l-1.199 1.199zm1.388 2.139a3.153 3.153 0 0 0 3.149-3.15");
 }
 
 .wm830cc3l {

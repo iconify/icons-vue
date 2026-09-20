@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="vc-muhb5p"/><path class="rtcpeok1g"/><path class="o1-_6eb3r"/><path class="d4_retb6m"/><path class="y2nl2mk8o"/>`;
+const content = `<path class="vc-muhb5p"/><path class="rtcpeok1g"/><path class="e9jog_bxy"/><path class="d4_retb6m"/><path class="y2nl2mk8o"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:duolingo-streaksaver-7" /></template>
 <style>
@@ -16,12 +16,12 @@ const content = `<path class="vc-muhb5p"/><path class="rtcpeok1g"/><path class="
   d: path("m24 31.264l4.9-.695a4.504 4.504 0 0 0-4.9-4.221a4.504 4.504 0 0 0-4.9 4.222z");
 }
 
-.o1-_6eb3r {
+.e9jog_bxy {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M28.077 31.366a8.82 8.82 0 0 0 7.595 4.324h0a8.83 8.83 0 0 0 8.828-8.828h0v-5.19a8.8 8.8 0 0 0-2.21-5.844h0c0-1.926-.468-4.617-1.771-4.617s-2.509 1.945-2.509 1.945s.815-4.626-1.524-4.626c-3.327 0-5.084 8.956-12.485 8.956S14.84 8.53 11.515 8.53c-2.34 0-1.524 4.626-1.524 4.626s-1.206-1.945-2.51-1.945s-1.77 2.691-1.77 4.617h0A8.8 8.8 0 0 0 3.5 21.672v5.19a8.83 8.83 0 0 0 8.828 8.828h0a8.82 8.82 0 0 0 7.595-4.324");
+  d: path("M28.077 31.366A8.828 8.828 0 0 0 44.5 26.862v-5.19a8.8 8.8 0 0 0-2.21-5.844c0-1.926-.468-4.617-1.771-4.617s-2.509 1.945-2.509 1.945s.815-4.626-1.524-4.626c-3.327 0-5.084 8.956-12.485 8.956S14.84 8.53 11.515 8.53c-2.34 0-1.524 4.626-1.524 4.626s-1.206-1.945-2.51-1.945s-1.77 2.691-1.77 4.617A8.8 8.8 0 0 0 3.5 21.672v5.19a8.83 8.83 0 0 0 8.828 8.828a8.82 8.82 0 0 0 7.595-4.324");
 }
 
 .rtcpeok1g {

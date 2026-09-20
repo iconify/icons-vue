@@ -4,16 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="kzfeoyb-v"/><path class="jlg81-bpd"/>`;
+const content = `<path class="kzfeoyb-v"/><path class="aomu_tbib"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:playmods" /></template>
 <style>
-.jlg81-bpd {
+.aomu_tbib {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("m30.814 22.955l2.362-1.046a2.2 2.2 0 0 0 1.078-2.993c-2.134-4.285-6.733-7.024-11.712-6.368h0C16.804 13.303 12.5 18.212 12.5 24s4.305 10.697 10.043 11.452c4.979.655 9.578-2.084 11.712-6.369a2.2 2.2 0 0 0-1.078-2.993l-2.362-1.046c-1.207-.563-1.226-1.52 0-2.089m-13.489-2.386h6.19m-3.096-3.094v6.19");
+  d: path("m30.814 22.955l2.362-1.046a2.2 2.2 0 0 0 1.078-2.993c-2.134-4.285-6.733-7.024-11.712-6.368C16.804 13.303 12.5 18.212 12.5 24s4.305 10.697 10.043 11.452c4.979.655 9.578-2.084 11.712-6.369a2.2 2.2 0 0 0-1.078-2.993l-2.362-1.046c-1.207-.563-1.226-1.52 0-2.089m-13.489-2.386h6.19m-3.096-3.094v6.19");
 }
 
 .kzfeoyb-v {

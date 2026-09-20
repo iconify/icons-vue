@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="z13conbha"/><path class="j_by9cb0b"/><circle class="n4o6vbbsv"/><circle class="nifnlf7xf"/><circle class="ywnmc0ybe"/><circle class="miry2t93o"/><path class="qelgebc9j"/><rect class="i4w9898ps"/>`;
+const content = `<path class="z13conbha"/><path class="j_by9cb0b"/><circle class="n4o6vbbsv"/><circle class="nifnlf7xf"/><circle class="ywnmc0ybe"/><circle class="miry2t93o"/><path class="unibydpzl"/><rect class="i4w9898ps"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:tanpura-droid" /></template>
 <style>
@@ -59,12 +59,12 @@ const content = `<path class="z13conbha"/><path class="j_by9cb0b"/><circle class
   stroke-linejoin: round;
 }
 
-.qelgebc9j {
+.unibydpzl {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M24.441 14.008c.429.558.966.766 1.713.766h1.035c.963 0 1.743-.78 1.743-1.744v-.007c0-.963-.78-1.743-1.743-1.743h-1.141a1.745 1.745 0 0 1-1.745-1.745h0c0-.966.783-1.749 1.749-1.749h1.028c.748 0 1.285.208 1.714.766m6.033 4.474c0 .965-.782 1.747-1.747 1.747h0a1.747 1.747 0 0 1-1.747-1.747v-1.135c0-.965.782-1.747 1.747-1.747h0c.965 0 1.747.782 1.747 1.747m0 2.882v-4.629m-4.605 17.178v-6.987h2.288c1.293 0 2.341 1.05 2.341 2.347s-1.048 2.346-2.341 2.346h-2.288m2.288.001l2.289 2.292m5.722-.877a1.746 1.746 0 0 1-3.265-.866v-1.135a1.747 1.747 0 1 1 3.494 0v.568h-3.494m-.264 13.119c0 .965-.782 1.747-1.747 1.747h0a1.747 1.747 0 0 1-1.747-1.747v-1.135c0-.965.782-1.747 1.747-1.747h0c.965 0 1.747.782 1.747 1.747m0 2.882v-4.629m-5.948-.043a2.314 2.314 0 1 0-4.63 0v2.358a2.314 2.314 0 1 0 4.63 0h-2.315");
+  d: path("M24.441 14.008c.429.558.966.766 1.713.766h1.035c.963 0 1.743-.78 1.743-1.744v-.007c0-.963-.78-1.743-1.743-1.743h-1.141a1.745 1.745 0 0 1-1.745-1.745c0-.966.783-1.749 1.749-1.749h1.028c.748 0 1.285.208 1.714.766m6.033 4.474a1.747 1.747 0 1 1-3.494 0v-1.135a1.747 1.747 0 1 1 3.494 0m0 2.882v-4.629m-4.605 17.178v-6.987h2.288c1.293 0 2.341 1.05 2.341 2.347s-1.048 2.346-2.341 2.346h-2.288m2.288.001l2.289 2.292m5.722-.877a1.746 1.746 0 0 1-3.265-.866v-1.135a1.747 1.747 0 1 1 3.494 0v.568h-3.494m-.264 13.119a1.747 1.747 0 1 1-3.494 0v-1.135a1.747 1.747 0 1 1 3.494 0m0 2.882v-4.629m-5.948-.043a2.314 2.314 0 1 0-4.63 0v2.358a2.314 2.314 0 1 0 4.63 0h-2.315");
 }
 
 .ywnmc0ybe {

@@ -4,20 +4,20 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<g class="y9tr6bcfx"><path class="edyse0l7n"/><path class="qq3_d4bjv"/><path class="yf2jpezvj"/></g><path class="oek7ajalh"/><path class="de6dkbcfb"/>`;
+const content = `<g class="y9tr6bcfx"><path class="edyse0l7n"/><path class="qq3_d4bjv"/><path class="zu729_b3r"/></g><path class="oek7ajalh"/><path class="hylbvvbne"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:zipme" /></template>
 <style>
-.de6dkbcfb {
+.edyse0l7n {
+  d: path("M9.5 5.5h29a4 4 0 0 1 4 4v29a4 4 0 0 1-4 4h-29a4 4 0 0 1-4-4v-29a4 4 0 0 1 4-4");
+}
+
+.hylbvvbne {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M31.366 29.996a6.783 6.783 0 0 1 6.783 6.783h0a.964.964 0 0 1-.964.964h0h-11.668a.964.964 0 0 1-.965-.964h0a6.783 6.783 0 0 1 6.783-6.783zm-5.857-1.011l1.929 2.263m9.786-2.263l-1.93 2.263");
-}
-
-.edyse0l7n {
-  d: path("M9.5 5.5h29a4 4 0 0 1 4 4v29a4 4 0 0 1-4 4h-29a4 4 0 0 1-4-4v-29a4 4 0 0 1 4-4");
+  d: path("M31.366 29.996za6.783 6.783 0 0 1 6.783 6.783a.964.964 0 0 1-.964.964s-11.668 0-11.668 0a.964.964 0 0 1-.965-.964a6.783 6.783 0 0 1 6.783-6.783zm-5.857-1.011l1.929 2.263m9.786-2.263l-1.93 2.263");
 }
 
 .oek7ajalh {
@@ -39,8 +39,8 @@ const content = `<g class="y9tr6bcfx"><path class="edyse0l7n"/><path class="qq3_
   stroke-linejoin: round;
 }
 
-.yf2jpezvj {
-  d: path("m12.316 10.368l-.974.974v1.947l.974.974l.973-.974v-1.947zm-1.948-2.921h3.895m-2.921 0V5.5h0m1.948 1.947V5.5m-1.948 9.737V42.5m1.948-27.263V42.5m-1.948-2.921h1.947m-1.947-2.921h1.947m-1.947-2.921h1.947m-1.947-2.921h1.947m-1.947-2.921h1.947m-1.947-2.921h1.947m-1.947-2.921h1.947m-1.947-2.921h1.947m-1.947-2.922h1.947m16.553-4.868h5.842m-2.921-2.921v5.842");
+.zu729_b3r {
+  d: path("m12.316 10.368l-.974.974v1.947l.974.974l.973-.974v-1.947zm-1.948-2.921h3.895m-2.921 0V5.5m1.948 1.947V5.5m-1.948 9.737V42.5m1.948-27.263V42.5m-1.948-2.921h1.947m-1.947-2.921h1.947m-1.947-2.921h1.947m-1.947-2.921h1.947m-1.947-2.921h1.947m-1.947-2.921h1.947m-1.947-2.921h1.947m-1.947-2.921h1.947m-1.947-2.922h1.947m16.553-4.868h5.842m-2.921-2.921v5.842");
 }
 
 </style>

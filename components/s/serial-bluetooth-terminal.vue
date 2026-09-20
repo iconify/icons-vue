@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="d0uafzb2q"/><path class="e42tzsb5c"/><path class="m3b31vbkk"/>`;
+const content = `<path class="d0uafzb2q"/><path class="e42tzsb5c"/><path class="s0fidggmh"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:serial-bluetooth-terminal" /></template>
 <style>
@@ -24,12 +24,12 @@ const content = `<path class="d0uafzb2q"/><path class="e42tzsb5c"/><path class="
   d: path("m27.715 26.774l6.251-6.981l-3.053-3.424v13.658l3.053-3.425l-6.251-6.981");
 }
 
-.m3b31vbkk {
+.s0fidggmh {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M31.206 14.487c2.813 0 5.092 2.333 5.092 5.21v7.58c0 2.877-2.28 5.21-5.092 5.21h0c-2.812 0-5.092-2.333-5.092-5.21v-7.58c0-2.877 2.28-5.21 5.092-5.21");
+  d: path("M31.206 14.487zc2.813 0 5.092 2.333 5.092 5.21v7.58c0 2.877-2.28 5.21-5.092 5.21s-5.092-2.333-5.092-5.21v-7.58c0-2.877 2.28-5.21 5.092-5.21");
 }
 
 </style>

@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="tjs4g1b7x"/><path class="cnms0g_9c"/><path class="q7vu1mbfs"/><circle class="kg5q9ub6a"/><path class="ei4djg-7e"/>`;
+const content = `<path class="tjs4g1b7x"/><path class="cnms0g_9c"/><path class="k62wvgxmt"/><circle class="kg5q9ub6a"/><path class="ei4djg-7e"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:microsoft-edge-dev" /></template>
 <style>
@@ -24,6 +24,14 @@ const content = `<path class="tjs4g1b7x"/><path class="cnms0g_9c"/><path class="
   d: path("M36.85 13.5v-8h1.8a3.5 3.5 0 0 1 3.5 3.5v1a3.5 3.5 0 0 1-3.5 3.5Z");
 }
 
+.k62wvgxmt {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M2.545 24.04c0-7.275 7.826-11.358 13.844-11.358s13.105 4.771 13.105 11.359c0 3.194-1.916 2.765-1.916 4.68c0 1.488 2.994 2.496 6.348 2.496c5.43 0 11.977-2.715 11.508-9.372a21.5 21.5 0 0 0-2.08-7.308");
+}
+
 .kg5q9ub6a {
   cx: 38.5px;
   cy: 9.5px;
@@ -32,14 +40,6 @@ const content = `<path class="tjs4g1b7x"/><path class="cnms0g_9c"/><path class="
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-}
-
-.q7vu1mbfs {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M2.545 24.04c0-7.275 7.826-11.358 13.844-11.358s13.105 4.771 13.105 11.359c0 3.194-1.916 2.765-1.916 4.68c0 1.488 2.994 2.496 6.348 2.496c5.43 0 11.977-2.715 11.508-9.372h0a21.5 21.5 0 0 0-2.08-7.308");
 }
 
 .tjs4g1b7x {

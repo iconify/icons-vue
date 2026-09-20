@@ -4,14 +4,10 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<g class="y9tr6bcfx"><path class="zve3wdxdf"/><path class="rmdk0obwf"/><path class="fav7u4b7i"/><path class="af4rgyrcq"/><path class="oojztemwo"/><path class="g9-yfcbmq"/><path class="arb5iv9lz"/><path class="cwwe17_my"/><path class="gk1v4hili"/><path class="xe_38glua"/></g>`;
+const content = `<g class="y9tr6bcfx"><path class="zve3wdxdf"/><path class="rmdk0obwf"/><path class="fav7u4b7i"/><path class="izlnrdblb"/><path class="oojztemwo"/><path class="g9-yfcbmq"/><path class="arb5iv9lz"/><path class="cwwe17_my"/><path class="gk1v4hili"/><path class="xe_38glua"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:honkai-star-rail" /></template>
 <style>
-.af4rgyrcq {
-  d: path("M13.416 27.035s.488 2.511 2.067 4.09c0 0-3.694-.254-5.16-3.131m4.164-3.836s1.354-2.651 5.077-1.862m6.206-2.651s3.384-4.456 6.487.339m-.847-1.354l.96-.62m-2.482-.508l.225-.734m-3.948 1.862l-.395-.508m-10.224 4.334l-.837-.475m-.165 1.669l-.79-.056m7.672 4.569s2.482-1.749 5.641-1.24c0 0 .004 2.84-2.017 3.407c-1.93.543-2.778-.644-3.624-2.167m1.749-4.4l.056 1.072h0");
-}
-
 .arb5iv9lz {
   d: path("M42.095 29.413s-2.392-.877-3.668 2.392c0 0-2.392 3.03-3.11 3.11");
 }
@@ -30,6 +26,10 @@ const content = `<g class="y9tr6bcfx"><path class="zve3wdxdf"/><path class="rmdk
 
 .gk1v4hili {
   d: path("M31.649 35.872s1.116.399 1.595.32m1.116 6.14s.638-3.43.399-4.945M9.08 42.172s3.031-.638 3.988-1.276s.479.798 1.675 1.276");
+}
+
+.izlnrdblb {
+  d: path("M13.416 27.035s.488 2.511 2.067 4.09c0 0-3.694-.254-5.16-3.131m4.164-3.836s1.354-2.651 5.077-1.862m6.206-2.651s3.384-4.456 6.487.339m-.847-1.354l.96-.62m-2.482-.508l.225-.734m-3.948 1.862l-.395-.508m-10.224 4.334l-.837-.475m-.165 1.669l-.79-.056m7.672 4.569s2.482-1.749 5.641-1.24c0 0 .004 2.84-2.017 3.407c-1.93.543-2.778-.644-3.624-2.167m1.749-4.4l.056 1.072");
 }
 
 .oojztemwo {

@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<circle class="cpk0fnbgt"/><circle class="og3tjkr2p"/><path class="hj1kadchm"/><path class="eslayrf5n"/><path class="pwgz91zaw"/>`;
+const content = `<circle class="cpk0fnbgt"/><circle class="og3tjkr2p"/><path class="hj1kadchm"/><path class="tsqyv0k2g"/><path class="pwgz91zaw"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:30-day-fitness-challenge" /></template>
 <style>
@@ -16,14 +16,6 @@ const content = `<circle class="cpk0fnbgt"/><circle class="og3tjkr2p"/><path cla
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-}
-
-.eslayrf5n {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M25.525 26.159a4.238 4.238 0 0 0 8.475 0V21.84a4.238 4.238 0 0 0-8.475 0Zm-6.247-2.157a3.2 3.2 0 0 0 3.197-3.198h0a3.2 3.2 0 0 0-3.197-3.197m0 12.789a3.2 3.2 0 0 0 3.197-3.197v0a3.2 3.2 0 0 0-3.197-3.197m-5.277 5.315c.884.74 1.837 1.08 3.978 1.08h1.299");
 }
 
 .hj1kadchm {
@@ -50,6 +42,14 @@ const content = `<circle class="cpk0fnbgt"/><circle class="og3tjkr2p"/><path cla
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("M14 18.672c.885-.738 1.84-1.074 3.98-1.068l1.3.003m-3.26 6.395h3.258");
+}
+
+.tsqyv0k2g {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M25.525 26.159a4.238 4.238 0 0 0 8.475 0V21.84a4.238 4.238 0 0 0-8.475 0Zm-6.247-2.157a3.2 3.2 0 0 0 3.197-3.198a3.2 3.2 0 0 0-3.197-3.197m0 12.789a3.2 3.2 0 0 0 3.197-3.197a3.2 3.2 0 0 0-3.197-3.197m-5.277 5.315c.884.74 1.837 1.08 3.978 1.08h1.299");
 }
 
 </style>

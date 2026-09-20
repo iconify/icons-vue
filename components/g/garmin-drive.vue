@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="s15gkwbmm"/><circle class="c8c-a65gx"/><path class="h9xfr-49x"/><path class="z2ei3ebzq"/>`;
+const content = `<path class="s15gkwbmm"/><circle class="c8c-a65gx"/><path class="sqmjhccwr"/><path class="z2ei3ebzq"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:garmin-drive" /></template>
 <style>
@@ -18,20 +18,20 @@ const content = `<path class="s15gkwbmm"/><circle class="c8c-a65gx"/><path class
   stroke-linejoin: round;
 }
 
-.h9xfr-49x {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M12.176 8.115a2.68 2.68 0 0 0-2.82-2.678c-1.447.076-2.532 1.377-2.532 2.83v2.484A2.68 2.68 0 0 0 9.5 13.433h0c1.478 0 2.676-1.2 2.676-2.682H9.5M30.434 17v5.524h3.609m0 7.085h-3.609v1.153c0 4.542-3.695 8.238-8.238 8.238s-8.239-3.696-8.239-8.238s3.696-8.238 8.239-8.238h1.153V17m-1.153 12.61c-.636 0-1.153.516-1.153 1.152a1.154 1.154 0 0 0 2.306 0V29.61zm11.847-3.544h-1.288m-5.864-2.537v-2.547m0 7.802v-2.221");
-}
-
 .s15gkwbmm {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("M5.5 15.176V38.5a4 4 0 0 0 4 4h29a4 4 0 0 0 4-4v-29a4 4 0 0 0-4-4H15.291");
+}
+
+.sqmjhccwr {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M12.176 8.115a2.68 2.68 0 0 0-2.82-2.678c-1.447.076-2.532 1.377-2.532 2.83v2.484A2.68 2.68 0 0 0 9.5 13.433c1.478 0 2.676-1.2 2.676-2.682H9.5M30.434 17v5.524h3.609m0 7.085h-3.609v1.153c0 4.542-3.695 8.238-8.238 8.238s-8.239-3.696-8.239-8.238s3.696-8.238 8.239-8.238h1.153V17m-1.153 12.61c-.636 0-1.153.516-1.153 1.152a1.154 1.154 0 0 0 2.306 0V29.61zm11.847-3.544h-1.288m-5.864-2.537v-2.547m0 7.802v-2.221");
 }
 
 .z2ei3ebzq {

@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="icl6r1k2e"/><path class="i9clfwm2k"/><path class="yfxz8z4ib"/><path class="cqrrf2btc"/>`;
+const content = `<path class="pr8yosb6z"/><path class="i9clfwm2k"/><path class="yfxz8z4ib"/><path class="cqrrf2btc"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:mdict" /></template>
 <style>
@@ -24,12 +24,12 @@ const content = `<path class="icl6r1k2e"/><path class="i9clfwm2k"/><path class="
   d: path("M38.5 5.5h-29a4 4 0 0 0-4 4v29a4 4 0 0 0 4 4h29a4 4 0 0 0 4-4v-29a4 4 0 0 0-4-4");
 }
 
-.icl6r1k2e {
+.pr8yosb6z {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M40.289 13.72c0 1.1-.9 2-2 2h0c-1.1 0-2-.9-2-2v-1.3c0-1.1.9-2 2-2h0c1.1 0 2 .9 2 2m0 3.299v-5.3m-5.208 5.301l-2.6-8l-2.026 6.002m.226-.703h3.5");
+  d: path("M40.289 13.72c0 1.1-.9 2-2 2s-2-.9-2-2v-1.3c0-1.1.9-2 2-2s2 .9 2 2m0 3.299v-5.3m-5.208 5.301l-2.6-8l-2.026 6.002m.226-.703h3.5");
 }
 
 .yfxz8z4ib {

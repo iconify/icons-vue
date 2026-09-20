@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<rect class="cgjl6m22w"/><path class="cjodmlbvt"/><rect transform="rotate(135 27.748 14.73)" class="g98ej2b2n"/><circle class="xx7vhcbms"/><circle class="p4i11m0mt"/><circle class="s_5y9nyin"/><circle class="k9q1ks6fa"/><circle class="bqq9bk0sv"/><circle class="ugx5j2bkj"/><circle class="txv-0gbsm"/><path class="siz85dbkw"/>`;
+const content = `<rect class="cgjl6m22w"/><path class="cjodmlbvt"/><rect transform="rotate(135 27.748 14.73)" class="g98ej2b2n"/><circle class="xx7vhcbms"/><circle class="p4i11m0mt"/><circle class="s_5y9nyin"/><circle class="k9q1ks6fa"/><circle class="bqq9bk0sv"/><circle class="ugx5j2bkj"/><circle class="txv-0gbsm"/><path class="xwll4q1qo"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:esapp" /></template>
 <style>
@@ -82,14 +82,6 @@ const content = `<rect class="cgjl6m22w"/><path class="cjodmlbvt"/><rect transfo
   stroke-linejoin: round;
 }
 
-.siz85dbkw {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("m34.343 10.767l1.92-1.92a.644.644 0 0 1 .91 0l1.464 1.465a.644.644 0 0 1 0 .91l-1.92 1.92m-10.74 6.368l1.503-1.504a2.126 2.126 0 0 0 0-3.008h0a2.127 2.127 0 0 0-3.008 0l-1.504 1.504m5.451-2.443l.87-.869m.113 3.241h1.229m-2.212 2.372l.87.869m-3.242-6.596v-1.229m-2.372 2.212l-.869-.869m-9.422 14.42v9.05c0 1.613.914 2.058 1.78 2.058m9.694 0c.86.86 7.42-6.101 7.42-8.003s-3.376-7.13-4.204-8.053s-3.739 1.314-2.451 3.251s1.224 2.554 1.224 2.554");
-}
-
 .txv-0gbsm {
   cx: 13.563px;
   cy: 22.73px;
@@ -108,6 +100,14 @@ const content = `<rect class="cgjl6m22w"/><path class="cjodmlbvt"/><rect transfo
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
+}
+
+.xwll4q1qo {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("m34.343 10.767l1.92-1.92a.644.644 0 0 1 .91 0l1.464 1.465a.644.644 0 0 1 0 .91l-1.92 1.92m-10.74 6.368l1.503-1.504a2.127 2.127 0 0 0-3.009-3.008l-1.503 1.504m5.451-2.443l.87-.869m.113 3.241h1.229m-2.212 2.372l.87.869m-3.242-6.596v-1.229m-2.372 2.212l-.869-.869m-9.422 14.42v9.05c0 1.613.914 2.058 1.78 2.058m9.694 0c.86.86 7.42-6.101 7.42-8.003s-3.376-7.13-4.204-8.053s-3.739 1.314-2.451 3.251s1.224 2.554 1.224 2.554");
 }
 
 .xx7vhcbms {

@@ -4,14 +4,10 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="g2wj9jbhp"/><path class="z_0gsdtls"/><g class="y9tr6bcfx"><path class="nnkdnglmp"/><path class="kppj_2b1i"/><path class="libc_wbvh"/><path class="q1g85giwx"/><path class="pea5wkuol"/></g><g class="y9tr6bcfx"><path class="rzjhtyize"/><path class="rl3ymsqzn"/><path class="amehih1oj"/></g>`;
+const content = `<path class="g2wj9jbhp"/><path class="z_0gsdtls"/><g class="y9tr6bcfx"><path class="nnkdnglmp"/><path class="kppj_2b1i"/><path class="libc_wbvh"/><path class="q1g85giwx"/><path class="pea5wkuol"/></g><g class="y9tr6bcfx"><path class="rzjhtyize"/><path class="qspne138v"/><path class="wz_ri2o1i"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:capybara" /></template>
 <style>
-.amehih1oj {
-  d: path("M23.13 14.376c0 .978-1.017 1.77-2.27 1.77h0c-1.253 0-2.268-.792-2.268-1.77v0c0-.978 1.015-1.771 2.268-1.771h0c1.253 0 2.27.793 2.27 1.77m-2.387-.088h.598");
-}
-
 .g2wj9jbhp {
   fill: none;
   stroke: currentColor;
@@ -40,12 +36,16 @@ const content = `<path class="g2wj9jbhp"/><path class="z_0gsdtls"/><g class="y9t
   d: path("M8.917 17.101c.525-.11 1.339.145 1.847.518m3.314 6.841l4.417-1.246m8.722 1.726c.783.126 1.673.205 2.224 1.003c.184 2.32.212 4.302-.23 6.1m1.004-7.393l-.84.856");
 }
 
-.rl3ymsqzn {
-  d: path("M18.048 6.596c-.346-.187-1.243-.502-2.183.534a2 2 0 0 0-.374 2.256m3.334 3.993a1.054 1.054 0 1 1 .366-.798h0c0 .223-.071.44-.203.621m2.983-.492a.912.912 0 0 1 .884-1.139h0a.912.912 0 0 1 .053 1.823");
+.qspne138v {
+  d: path("M18.048 6.596c-.346-.187-1.243-.502-2.183.534a2 2 0 0 0-.374 2.256m3.334 3.993a1.054 1.054 0 1 1 .366-.798c0 .223-.071.44-.203.621m2.983-.492a.912.912 0 0 1 .884-1.139a.912.912 0 0 1 .053 1.823");
 }
 
 .rzjhtyize {
   d: path("M19.365 8.75c1.43-.174 2.296-1.134 2.324-2.775c-1.366-.333-4.395-.555-3.752 2.319c-.852.176-1.68.526-2.417 1.146c-2.46 2.07-3.168 6.388-.667 8.343c2.958 2.312 7.873 1.295 9.404 0c2.302-1.947 1.404-5.337.177-7.126c-1.046-1.525-2.244-2.075-3.629-2.32");
+}
+
+.wz_ri2o1i {
+  d: path("M23.13 14.376c0 .978-1.017 1.77-2.27 1.77s-2.268-.792-2.268-1.77s1.015-1.771 2.268-1.771s2.27.793 2.27 1.77m-2.387-.088h.598");
 }
 
 .y9tr6bcfx {

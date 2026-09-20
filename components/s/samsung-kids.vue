@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="vikk5kbwk"/><path class="h1cz7lbig"/><circle class="a8n2576sn"/><circle class="zvh7ah41t"/><path class="f7-s2bc0u"/>`;
+const content = `<path class="vikk5kbwk"/><path class="h1cz7lbig"/><circle class="a8n2576sn"/><circle class="zvh7ah41t"/><path class="it2zdyrrn"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:samsung-kids" /></template>
 <style>
@@ -18,20 +18,20 @@ const content = `<path class="vikk5kbwk"/><path class="h1cz7lbig"/><circle class
   stroke-linejoin: round;
 }
 
-.f7-s2bc0u {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M21.733 23.549c0-.885.717-1.603 1.602-1.603h0c.884 0 1.601.718 1.601 1.602z");
-}
-
 .h1cz7lbig {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("M14.613 15.066c5.193.568 9.814.065 13.301-2.565c1.826 3.286 3.65 4.264 5.476 5.103m-2.297 8.87c1.32-.268 1.453.607 1.335 1.122c-1.978 8.635-13.625 7.991-15.972 1.122c-.321-.94.334-1.515 1.362-1.362c4.382.648 8.822.021 13.275-.882");
+}
+
+.it2zdyrrn {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M21.733 23.549a1.602 1.602 0 1 1 3.204 0z");
 }
 
 .vikk5kbwk {

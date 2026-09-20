@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<circle class="f1ihv1bbc"/><path class="h6ebqwi_u"/><path class="b4w1prb2a"/><circle class="s7-gkgbhj"/><circle class="oisfnzbzm"/><circle class="a-ph0hz2e"/>`;
+const content = `<circle class="f1ihv1bbc"/><path class="b-t1ysbiw"/><path class="b4w1prb2a"/><circle class="s7-gkgbhj"/><circle class="oisfnzbzm"/><circle class="a-ph0hz2e"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:linwood-flow" /></template>
 <style>
@@ -13,6 +13,14 @@ const content = `<circle class="f1ihv1bbc"/><path class="h6ebqwi_u"/><path class
   cy: 13.845px;
   r: 0.75px;
   fill: currentColor;
+}
+
+.b-t1ysbiw {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M23.979 39.889h6.912a9.176 9.176 0 0 0 9.175-9.176v-5.868a9.12 9.12 0 0 0-1.76-5.389a5.682 5.682 0 1 0-5.771-3.632a9 9 0 0 0-1.644-.155H17.067a9 9 0 0 0-1.644.155a5.655 5.655 0 1 0-5.771 3.632a9.12 9.12 0 0 0-1.76 5.39v5.867a9.176 9.176 0 0 0 9.175 9.176z");
 }
 
 .b4w1prb2a {
@@ -31,14 +39,6 @@ const content = `<circle class="f1ihv1bbc"/><path class="h6ebqwi_u"/><path class
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-}
-
-.h6ebqwi_u {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M23.979 39.889h6.912a9.176 9.176 0 0 0 9.175-9.176h0v-5.868a9.12 9.12 0 0 0-1.76-5.389a5.682 5.682 0 1 0-5.771-3.632a9 9 0 0 0-1.644-.155H17.067a9 9 0 0 0-1.644.155a5.655 5.655 0 1 0-5.771 3.632a9.12 9.12 0 0 0-1.76 5.39v5.867a9.176 9.176 0 0 0 9.175 9.176z");
 }
 
 .oisfnzbzm {

@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="jx3sy610n"/><path class="mxcu2xk7q"/><rect class="d9phyyuqq"/>`;
+const content = `<path class="jx3sy610n"/><path class="mxcu2xk7q"/><rect class="d9phyyuqq"/><path class="zumq6d8sw"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:dot-tickets" /></template>
 <style>
@@ -35,6 +35,14 @@ const content = `<path class="jx3sy610n"/><path class="mxcu2xk7q"/><rect class="
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("M10.5 29.274V18.726h2.373a4.615 4.615 0 0 1 4.615 4.615v1.318a4.615 4.615 0 0 1-4.615 4.615z");
+}
+
+.zumq6d8sw {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M37.5 18.726z");
 }
 
 </style>

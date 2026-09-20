@@ -4,16 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="uhebh4bpu"/><path class="dlc14qbil"/><path class="rqje_ufpu"/><path class="tilf_gb8u"/><path class="zx2_u39wb"/><path class="svmlc7b8w"/><path class="h24ouf6vi"/><path class="wb9a6hbpt"/>`;
+const content = `<path class="uhebh4bpu"/><path class="eg3wfdccq"/><path class="rqje_ufpu"/><path class="tilf_gb8u"/><path class="zx2_u39wb"/><path class="svmlc7b8w"/><path class="h24ouf6vi"/><path class="wb9a6hbpt"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:birthdays" /></template>
 <style>
-.dlc14qbil {
+.eg3wfdccq {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("m5.593 14.877l.46 4.028l.99.414m35.365-4.442l-.458 3.99l-1.074.452M24 21.408v5.01M13.842 37.924l-.766-20.392m3.652 21.692l-.243-20.483m17.649 19.193l.766-20.391m-3.652 21.691l.243-20.483M20.24 13.733c.022-.338-.249-2.624-.9-4.472a14 14 0 0 0-1.675-3.244l4.037-.517s.78 1.42 1.059 2.178c.332.905.718 2.802.718 2.802m-3.239 3.253c-4.794-2.667-6.332-.245-6.78 1.935c-.427 2.074 3.573 3.616 7.676 1.387");
+  d: path("M5.593 14.877zl.46 4.028l.99.414m35.365-4.442zl-.458 3.99l-1.074.452M24 21.408v5.01M13.842 37.924l-.766-20.392m3.652 21.692l-.243-20.483m17.649 19.193l.766-20.391m-3.652 21.691l.243-20.483M20.24 13.733c.022-.338-.249-2.624-.9-4.472a14 14 0 0 0-1.675-3.244l4.037-.517s.78 1.42 1.059 2.178c.332.905.718 2.802.718 2.802m-3.239 3.253c-4.794-2.667-6.332-.245-6.78 1.935c-.427 2.074 3.573 3.616 7.676 1.387");
 }
 
 .h24ouf6vi {

@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="worntaczp"/><path class="mxufvvfaj"/><path class="i9clfwm2k"/>`;
+const content = `<path class="worntaczp"/><path class="s69qwcmqk"/><path class="i9clfwm2k"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:myupmc" /></template>
 <style>
@@ -16,12 +16,12 @@ const content = `<path class="worntaczp"/><path class="mxufvvfaj"/><path class="
   d: path("M38.5 5.5h-29a4 4 0 0 0-4 4v29a4 4 0 0 0 4 4h29a4 4 0 0 0 4-4v-29a4 4 0 0 0-4-4");
 }
 
-.mxufvvfaj {
+.s69qwcmqk {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M23.591 31.847V23.77l4.043 8.086l4.043-8.073v8.073m-15.626 0V23.77h2.647c1.497 0 2.71 1.216 2.71 2.716s-1.213 2.715-2.71 2.715h-2.647m23.449-.056v.033c0 1.479-1.2 2.678-2.678 2.678h0c-1.48 0-2.679-1.2-2.679-2.678v-2.73c0-1.478 1.2-2.677 2.679-2.677h0a2.68 2.68 0 0 1 2.678 2.678v.033m-31-2.712v5.408a2.678 2.678 0 1 0 5.357 0V23.77");
+  d: path("M23.591 31.847V23.77l4.043 8.086l4.043-8.073v8.073m-15.626 0V23.77h2.647c1.497 0 2.71 1.216 2.71 2.716s-1.213 2.715-2.71 2.715h-2.647m23.449-.056v.033a2.678 2.678 0 0 1-5.357 0v-2.73a2.678 2.678 0 0 1 5.357 0v.034m-31-2.712v5.408a2.678 2.678 0 1 0 5.357 0V23.77");
 }
 
 .worntaczp {

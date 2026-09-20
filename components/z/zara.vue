@@ -4,24 +4,24 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="fedp45b1j"/><path class="to4-aac-c"/><path class="eenwhw9lq"/>`;
+const content = `<path class="fedp45b1j"/><path class="to4-aac-c"/><path class="l5n9ndbpn"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:zara" /></template>
 <style>
-.eenwhw9lq {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M23.404 23.83c13.965 0 5.535 7.323 11.751 8.09c.852.084 1.788-.171 2.384-.852h0M23.404 15.996h2.64c7.493 0 7.493 7.748 0 7.748h-2.64m5.194 8.26h2.81");
-}
-
 .fedp45b1j {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("M4.5 20.849v-4.853h9.707L4.755 32.004h11.156v-4.342");
+}
+
+.l5n9ndbpn {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M23.404 23.83c13.965 0 5.535 7.323 11.751 8.09c.852.084 1.788-.171 2.384-.852M23.404 15.996h2.64c7.493 0 7.493 7.748 0 7.748h-2.64m5.194 8.26h2.81");
 }
 
 .to4-aac-c {

@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="r6-4_laho"/><circle class="cegrky88m"/><circle class="xfvwpnbte"/><path class="j3yboqyfb"/><rect class="zh87zmb4a"/>`;
+const content = `<path class="z23220bqd"/><circle class="cegrky88m"/><circle class="xfvwpnbte"/><path class="j3yboqyfb"/><rect class="zh87zmb4a"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:aliexpress" /></template>
 <style>
@@ -26,14 +26,6 @@ const content = `<path class="r6-4_laho"/><circle class="cegrky88m"/><circle cla
   d: path("M13.296 23.999c1.072 5.907 6.73 9.825 12.637 8.752A10.87 10.87 0 0 0 34.685 24");
 }
 
-.r6-4_laho {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M39.716 8.269a2.77 2.77 0 0 0-2.72-2.77h-26a2.77 2.77 0 0 0-2.73 2.77h0");
-}
-
 .xfvwpnbte {
   cx: 34.855px;
   cy: 22.109px;
@@ -42,6 +34,14 @@ const content = `<path class="r6-4_laho"/><circle class="cegrky88m"/><circle cla
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
+}
+
+.z23220bqd {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M39.716 8.269za2.77 2.77 0 0 0-2.72-2.77h-26a2.77 2.77 0 0 0-2.73 2.77");
 }
 
 .zh87zmb4a {

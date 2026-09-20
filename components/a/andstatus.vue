@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="diu6m15vy"/><path class="fnvlb-cjz"/><path class="d6y75wbcl"/>`;
+const content = `<path class="diu6m15vy"/><path class="ee6b5wmjl"/><path class="d6y75wbcl"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:andstatus" /></template>
 <style>
@@ -24,12 +24,12 @@ const content = `<path class="diu6m15vy"/><path class="fnvlb-cjz"/><path class="
   d: path("M31.93 40.88C28 37.67 15 22.2 15 22.2c-1.64-2.15-4.53-5-4.53-9.18a7.5 7.5 0 0 1 7.7-7.42a7.36 7.36 0 0 1 7.41 7.4c0 4.2-3.4 7.78-9.69 9C8.88 23.33 4.5 27.17 4.5 33.51c0 5.13 3.23 8.89 9.69 8.89c8.49 0 13.23-8.83 18.11-16");
 }
 
-.fnvlb-cjz {
+.ee6b5wmjl {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("m13.05 7.4l-5.73 4.79l5.75 7.64M36 24.45a4.48 4.48 0 0 0-4.47 4.49h0A4.48 4.48 0 0 0 36 33.42h1.5m0 0H39a4.48 4.48 0 0 1 4.48 4.49h0A4.48 4.48 0 0 1 39 42.4");
+  d: path("m13.05 7.4l-5.73 4.79l5.75 7.64M36 24.45a4.48 4.48 0 0 0-4.47 4.49A4.48 4.48 0 0 0 36 33.42h1.5m0 0H39a4.48 4.48 0 0 1 4.48 4.49A4.48 4.48 0 0 1 39 42.4");
 }
 
 </style>

@@ -4,17 +4,10 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<circle class="cpk0fnbgt"/><path class="gyo4ojv-s"/><path class="a9l8acbbv"/>`;
+const content = `<circle class="cpk0fnbgt"/><path class="gyo4ojv-s"/><path class="ds5_erbin"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:urecord" /></template>
 <style>
-.a9l8acbbv {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  d: path("M31.11 27.69a5.43 5.43 0 0 1 5.54-5.28h0m-5.54 0v14");
-}
-
 .cpk0fnbgt {
   cx: 24px;
   cy: 24px;
@@ -23,6 +16,13 @@ const content = `<circle class="cpk0fnbgt"/><path class="gyo4ojv-s"/><path class
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
+}
+
+.ds5_erbin {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  d: path("M31.11 27.69a5.43 5.43 0 0 1 5.54-5.28m-5.54 0v14");
 }
 
 .gyo4ojv-s {

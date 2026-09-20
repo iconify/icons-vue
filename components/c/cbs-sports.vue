@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<g class="y9tr6bcfx"><circle class="rr89qvbde"/><path class="id5dlgb_u"/><circle class="e1o3acqae"/></g><g class="y9tr6bcfx"><path class="es7i29beb"/><rect class="zlccgob1n"/></g>`;
+const content = `<g class="y9tr6bcfx"><circle class="rr89qvbde"/><path class="id5dlgb_u"/><circle class="e1o3acqae"/></g><g class="y9tr6bcfx"><path class="u3xzs6b2n"/><rect class="zlccgob1n"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:cbs-sports" /></template>
 <style>
@@ -12,10 +12,6 @@ const content = `<g class="y9tr6bcfx"><circle class="rr89qvbde"/><path class="id
   cx: 24px;
   cy: 19.706px;
   r: 8.38px;
-}
-
-.es7i29beb {
-  d: path("M14.352 43.45V37.4h1.98c1.12 0 2.027.91 2.027 2.032s-.907 2.031-2.027 2.031h-1.98m11.101 1.987V37.4h1.98c1.12 0 2.028.91 2.028 2.032s-.908 2.031-2.027 2.031h-1.98m1.98.001l1.98 1.984m.83-6.047h4.007m-2.004 6.049v-6.049M8.914 42.787c.371.483.836.663 1.483.663h.896a1.51 1.51 0 0 0 1.509-1.51v-.006c0-.833-.676-1.508-1.51-1.508h-.987a1.51 1.51 0 0 1-1.51-1.511h0c0-.836.677-1.514 1.513-1.514h.89c.648 0 1.113.18 1.484.663m22.636 4.723c.37.483.836.663 1.483.663h.896c.833 0 1.508-.676 1.508-1.51v-.006c0-.833-.675-1.508-1.508-1.508h-.988a1.51 1.51 0 0 1-1.51-1.511h0c0-.836.677-1.514 1.513-1.514h.89c.648 0 1.113.18 1.484.663");
 }
 
 .id5dlgb_u {
@@ -26,6 +22,10 @@ const content = `<g class="y9tr6bcfx"><circle class="rr89qvbde"/><path class="id
   cx: 24px;
   cy: 19.706px;
   r: 15.206px;
+}
+
+.u3xzs6b2n {
+  d: path("M14.352 43.45V37.4h1.98c1.12 0 2.027.91 2.027 2.032s-.907 2.031-2.027 2.031h-1.98m11.101 1.987V37.4h1.98c1.12 0 2.028.91 2.028 2.032s-.908 2.031-2.027 2.031h-1.98m1.98.001l1.98 1.984m.83-6.047h4.007m-2.004 6.049v-6.049M8.914 42.787c.371.483.836.663 1.483.663h.896a1.51 1.51 0 0 0 1.509-1.51v-.006c0-.833-.676-1.508-1.51-1.508h-.987a1.51 1.51 0 0 1-1.51-1.511c0-.836.677-1.514 1.513-1.514h.89c.648 0 1.113.18 1.484.663m22.636 4.723c.37.483.836.663 1.483.663h.896c.833 0 1.508-.676 1.508-1.51v-.006c0-.833-.675-1.508-1.508-1.508h-.988a1.51 1.51 0 0 1-1.51-1.511c0-.836.677-1.514 1.513-1.514h.89c.648 0 1.113.18 1.484.663");
 }
 
 .y9tr6bcfx {

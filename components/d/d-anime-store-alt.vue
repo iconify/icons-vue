@@ -4,24 +4,24 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="vypyyfbzx"/><path class="wispabb4f"/><path class="njmtc_bjb"/><path class="b1bgru-lw"/>`;
+const content = `<path class="vypyyfbzx"/><path class="wispabb4f"/><path class="njmtc_bjb"/><path class="po83hqb5f"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:d-anime-store-alt" /></template>
 <style>
-.b1bgru-lw {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("m5.5 36.709l5.023.005c-.119 1.281-.827 2.629-2.947 3.038m14.864-9.453c-3.09-.276-5.654-2.112-6.863-4.918c-.454-1.053-.638-1.884-.69-3.121c-.197-4.63 3.026-8.361 7.567-8.76c1.56-.138 2.944.07 4.266.637l.715.307v-8.31h4.654v20.868l-.528.26c-.29.143-1.074.588-1.741.99c-1.493.896-2.317 1.313-3.144 1.59c-1.225.409-2.83.582-4.235.457Zm2.178-4.435c2.096-.56 3.307-2.757 2.773-5.025c-.345-1.462-1.426-2.574-2.821-2.903c-2.297-.542-4.356.647-4.945 2.854c-.143.536-.139 1.684.008 2.235c.373 1.402 1.397 2.464 2.732 2.832c.501.138 1.746.142 2.252.007z");
-}
-
 .njmtc_bjb {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("M19.079 38.368c1.551.585 2.66.976 4.258 2.059m-11.531.978h4.916m-4.354-4.309h3.724m-8.466 1.148c.136 1.417-.218 2.403-1.907 3.398");
+}
+
+.po83hqb5f {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("m5.5 36.709l5.023.005c-.119 1.281-.827 2.629-2.947 3.038m14.864-9.453c-3.09-.276-5.654-2.112-6.863-4.918c-.454-1.053-.638-1.884-.69-3.121c-.197-4.63 3.026-8.361 7.567-8.76c1.56-.138 2.944.07 4.266.637l.715.307v-8.31h4.654v20.868l-.528.26c-.29.143-1.074.588-1.741.99c-1.493.896-2.317 1.313-3.144 1.59c-1.225.409-2.83.582-4.235.457Zm2.178-4.435c2.096-.56 3.307-2.757 2.773-5.025c-.345-1.462-1.426-2.574-2.821-2.903c-2.297-.542-4.356.647-4.945 2.854c-.143.536-.139 1.684.008 2.235c.373 1.402 1.397 2.464 2.732 2.832c.501.138 1.746.142 2.252.007Z");
 }
 
 .vypyyfbzx {

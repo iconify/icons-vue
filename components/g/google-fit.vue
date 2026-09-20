@@ -4,16 +4,24 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="qxd27tbup"/><path class="md8ugbbyj"/><path class="uw8m4nbus"/><path class="wgoqq7b1a"/>`;
+const content = `<path class="qxd27tbup"/><path class="h0yjrenkn"/><path class="ixwu79b0l"/><path class="wgoqq7b1a"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:google-fit" /></template>
 <style>
-.md8ugbbyj {
+.h0yjrenkn {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("m17.956 27.665l6.059-6.026l-4.259-4.243l-5.317 5.3h0l-4.243 4.226l2.279 2.295l1.964 1.949l2.048-2.048");
+  d: path("m17.956 27.665l6.059-6.026l-4.259-4.243l-5.317 5.3l-4.243 4.226l2.279 2.295l1.964 1.949l2.048-2.048");
+}
+
+.ixwu79b0l {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("m28.242 36.482l9.576-9.56l-4.259-4.226l-9.56 9.543l-5.316-5.3l-4.244 4.227l5.317 5.316l-.017.016l4.26 4.013l4.26-4.029z");
 }
 
 .qxd27tbup {
@@ -22,14 +30,6 @@ const content = `<path class="qxd27tbup"/><path class="md8ugbbyj"/><path class="
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("m8.231 24.958l1.965 1.964l4.243-4.226l-1.948-1.965l-.891-.892a3.68 3.68 0 0 1-1.09-2.641c0-.876.297-1.668.809-2.295a3.74 3.74 0 0 1 2.939-1.437c1.007 0 1.932.396 2.658 1.106l.875.842l1.965 1.982l4.26-4.227l-1.982-1.965l-.891-.858a9.7 9.7 0 0 0-6.885-2.857c-5.4 0-9.758 4.36-9.758 9.725c0 1.337.264 2.609.76 3.781a9.5 9.5 0 0 0 2.096 3.087z");
-}
-
-.uw8m4nbus {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("m28.242 36.482l9.576-9.56l-4.259-4.226l-9.56 9.543l-5.316-5.3l-4.244 4.227l5.317 5.316l-.017.016l4.26 4.013h0l4.26-4.029h0z");
 }
 
 .wgoqq7b1a {

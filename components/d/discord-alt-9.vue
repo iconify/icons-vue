@@ -4,16 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="pyw3_vngm"/><circle class="s-3vtok1l"/><path class="p29gn4fpt"/>`;
+const content = `<path class="pyw3_vngm"/><circle class="s-3vtok1l"/><path class="p6s2qccbq"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:discord-alt-9" /></template>
 <style>
-.p29gn4fpt {
+.p6s2qccbq {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M28.973 30.103a4.75 4.75 0 0 1-3.289-5.227l.327-2.219a1.977 1.977 0 0 1 2.152-1.68h0a17.1 17.1 0 0 1 6.4 1.954l.222.12a1.977 1.977 0 0 1 .839 2.612l-.98 1.997a4.75 4.75 0 0 1-5.671 2.442M25.98 22.84L7.93 16.47m35.32 12.41l-7.88-2.72");
+  d: path("M28.973 30.103za4.75 4.75 0 0 1-3.289-5.227l.327-2.219a1.977 1.977 0 0 1 2.152-1.68a17.1 17.1 0 0 1 6.4 1.954l.222.12a1.977 1.977 0 0 1 .839 2.612l-.98 1.997a4.75 4.75 0 0 1-5.671 2.442M25.98 22.84L7.93 16.47m35.32 12.41l-7.88-2.72");
 }
 
 .pyw3_vngm {

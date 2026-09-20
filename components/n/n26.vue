@@ -4,10 +4,18 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="mvewbccqd"/><path class="y11hdjyic"/><path class="i9clfwm2k"/>`;
+const content = `<path class="pb-emdbnh"/><path class="b6aczei8a"/><path class="i9clfwm2k"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:n26" /></template>
 <style>
+.b6aczei8a {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M38.215 25.795a3.513 3.513 0 0 0-7.026 0m3.324-6.962h1.851m-8.893 3.503a3.513 3.513 0 0 0-3.702-3.508c-1.9.1-3.324 1.804-3.324 3.706m7.026 6.774h-7.026l5.3-3.663c.749-.518 1.365-1.248 1.598-2.128q.127-.476.128-.983M9.785 31.756h7.026M9.785 16.244h7.026");
+}
+
 .i9clfwm2k {
   fill: none;
   stroke: currentColor;
@@ -16,20 +24,12 @@ const content = `<path class="mvewbccqd"/><path class="y11hdjyic"/><path class="
   d: path("M38.5 5.5h-29a4 4 0 0 0-4 4v29a4 4 0 0 0 4 4h29a4 4 0 0 0 4-4v-29a4 4 0 0 0-4-4");
 }
 
-.mvewbccqd {
+.pb-emdbnh {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M9.785 18.848v10.46m7.026 0v-10.46m-7.026 0l7.026 10.46m17.702-10.475c-1.9.1-3.324 1.805-3.324 3.707v3.255a3.513 3.513 0 0 0 3.513 3.513h0a3.513 3.513 0 0 0 3.513-3.513");
-}
-
-.y11hdjyic {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M38.215 25.795a3.513 3.513 0 0 0-3.513-3.513h0a3.513 3.513 0 0 0-3.513 3.513m3.324-6.962h1.851m-8.893 3.503a3.513 3.513 0 0 0-3.702-3.508c-1.9.1-3.324 1.804-3.324 3.706m7.026 6.774h-7.026l5.3-3.663c.749-.518 1.365-1.248 1.598-2.128q.127-.476.128-.983M9.785 31.756h7.026M9.785 16.244h7.026");
+  d: path("M9.785 18.848v10.46m7.026 0v-10.46m-7.026 0l7.026 10.46m17.702-10.475c-1.9.1-3.324 1.805-3.324 3.707v3.255a3.513 3.513 0 0 0 7.026 0");
 }
 
 </style>

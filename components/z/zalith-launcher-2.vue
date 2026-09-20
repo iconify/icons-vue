@@ -1,0 +1,35 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="gpiny5hcd"/><path class="mhykg202q"/><path class="seiwpsz9b"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:zalith-launcher-2" /></template>
+<style>
+.gpiny5hcd {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M6.197 13.75L24 3.5l17.803 10.25v20.5L24 44.5L6.197 34.25z");
+}
+
+.mhykg202q {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M15.099 18.875L24 13.75l8.901 5.125L24 24zm0 0v10.25L24 34.25l8.901-5.125v-10.25M24 24v10.25m-8.901-12.273L24 27.102l8.901-5.125");
+}
+
+.seiwpsz9b {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("m14.236 16.717l8.415-4.855q1.349-.81 2.698 0l8.416 4.855q1.43.756 1.43 2.158v10.25q0 1.402-1.215 2.104L25.133 36.3q-1.133.648-2.482-.162l-8.416-4.855q-1.43-.756-1.43-2.158v-10.25q0-1.402 1.43-2.158m27.568-2.967l-6.609 3.83M6.197 13.75l6.609 3.83M24 44.5v-7.687");
+}
+
+</style>

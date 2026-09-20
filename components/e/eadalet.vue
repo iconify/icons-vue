@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="ahd7y-b7k"/><circle class="cpk0fnbgt"/><path class="r7m0cdcbw"/><path class="y25dmwb_i"/>`;
+const content = `<path class="ahd7y-b7k"/><circle class="cpk0fnbgt"/><path class="p_v2lqexm"/><path class="y25dmwb_i"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:eadalet" /></template>
 <style>
@@ -26,12 +26,12 @@ const content = `<path class="ahd7y-b7k"/><circle class="cpk0fnbgt"/><path class
   stroke-linejoin: round;
 }
 
-.r7m0cdcbw {
+.p_v2lqexm {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("m22.857 30.406l2.442.012m-1.245-13.015V33.81c0 .415 1.245-.088 1.245-.088m-.615-21.917c-.569 1.038-1.633 1.68-2.786 1.68c-1.769 0-3.203-1.485-3.203-3.316h0c0-1.831 1.434-3.316 3.203-3.316h0c1.149 0 2.21.637 2.78 1.668m-7.26 7.722l12.96-.002m-14.061 1.031L13.58 28.538m5.477-.001l-2.74-11.265m14.979-.112l-2.737 11.266m5.477-.001l-2.74-11.265M10.873 32.121s3.439-.418 7.022.8c2.742.933 4.905 3.391 4.905 3.391m14.284-4.191s-3.438-.418-7.022.8c-2.742.933-4.905 3.391-4.905 3.391m-14.455-1.573c2.493-.536 6.01-.17 7.764.402c2.257.737 4 2.255 4.882 3.03m13.908-3.432c-2.494-.536-6.01-.17-7.765.403c-2.257.736-4 2.254-4.882 3.03");
+  d: path("m22.857 30.406l2.442.012m-1.245-13.015V33.81c0 .415 1.245-.088 1.245-.088m-.615-21.917c-.569 1.038-1.633 1.68-2.786 1.68c-1.769 0-3.203-1.485-3.203-3.316s1.434-3.316 3.203-3.316c1.149 0 2.21.637 2.78 1.668m-7.26 7.722l12.96-.002m-14.061 1.031L13.58 28.538m5.477-.001l-2.74-11.265m14.979-.112l-2.737 11.266m5.477-.001l-2.74-11.265M10.873 32.121s3.439-.418 7.022.8c2.742.933 4.905 3.391 4.905 3.391m14.284-4.191s-3.438-.418-7.022.8c-2.742.933-4.905 3.391-4.905 3.391m-14.455-1.573c2.493-.536 6.01-.17 7.764.402c2.257.737 4 2.255 4.882 3.03m13.908-3.432c-2.494-.536-6.01-.17-7.765.403c-2.257.736-4 2.254-4.882 3.03");
 }
 
 .y25dmwb_i {

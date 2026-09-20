@@ -4,10 +4,18 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="wiye1ebwf"/><path class="ivlh_qvnk"/><path class="t0eroleye"/>`;
+const content = `<path class="grswe264k"/><path class="ivlh_qvnk"/><path class="t0eroleye"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:emoji-basket" /></template>
 <style>
+.grswe264k {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M20.526 21.589L13.144 9.755c-.896-1.437-.666-3.197.513-3.933s2.862-.166 3.758 1.271l8.943 14.496z");
+}
+
 .ivlh_qvnk {
   fill: none;
   stroke: currentColor;
@@ -22,14 +30,6 @@ const content = `<path class="wiye1ebwf"/><path class="ivlh_qvnk"/><path class="
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("m24 23.862l-15.09-.036l3.917 18.673h22.346l3.918-18.673zM26.551 26l6.999 7.69m-15.24-7.804l12.706 14.143m-16.78-11.05l10.072 11.4m-8.917-1.285l1.112 1.107m-1.689-7.237L21.249 26m-4.578 14.1L29.94 26m-5.632 14.379l9.689-10.023m-2.981 9.674l1.737-1.464M21.58 19.613a.711.711 0 0 0 1.424.001v-.001a.711.711 0 0 0-1.423-.002z");
-}
-
-.wiye1ebwf {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M20.526 21.589L13.144 9.755c-.896-1.437-.666-3.197.513-3.933h0c1.179-.735 2.862-.166 3.758 1.271l8.943 14.496z");
 }
 
 </style>

@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="o2c14s5bj"/><g class="y9tr6bcfx"><path class="ryhtnbm6g"/><path class="sry2ezb9q"/></g><g class="y9tr6bcfx"><path class="rs5ezobxy"/><path class="mpl1fh0is"/></g><path class="gmp6hxb5t"/><path class="l03idab7h"/><path class="b1k_87rob"/>`;
+const content = `<path class="o2c14s5bj"/><g class="y9tr6bcfx"><path class="ryhtnbm6g"/><path class="sry2ezb9q"/></g><g class="y9tr6bcfx"><path class="rs5ezobxy"/><path class="nwgo4e_vw"/></g><path class="gmp6hxb5t"/><path class="nl066hvmx"/><path class="b1k_87rob"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:talking-tom-2" /></template>
 <style>
@@ -24,16 +24,16 @@ const content = `<path class="o2c14s5bj"/><g class="y9tr6bcfx"><path class="ryht
   d: path("M17.23 35.723c.904-1.36 4.9-2.358 6.77-2.358s5.866.998 6.77 2.358m-20.028-1.404c1.277-1.652 3.343-2.229 5.99-2.454M7.75 30.59c1.6-2.105 5.434-2.239 8.638-1.144");
 }
 
-.l03idab7h {
+.nl066hvmx {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M24 41.461c8.665 0 19.111-5.121 16.758-15.15c-.501-2.136-1.747-2.452-2.529-4.952c2.216-2.29 3.652-4.479 3.75-8.07c.046-1.683.063-2.756.516-3.596c.102-.657-1.242-.772-2.86-.878c-2.25-.149-4.234-.262-6.306.05C31.04 7.576 28.585 6.538 24 6.538s-7.04 1.038-9.33 2.325h0c-2.07-.31-4.055-.198-6.305-.05c-1.618.107-2.962.222-2.86.88c.453.839.47 1.912.516 3.595c.098 3.591 1.534 5.78 3.75 8.07c-.782 2.5-2.028 2.816-2.53 4.953C4.89 36.34 15.336 41.462 24 41.462");
+  d: path("M24 41.461c8.665 0 19.111-5.121 16.758-15.15c-.501-2.136-1.747-2.452-2.529-4.952c2.216-2.29 3.652-4.479 3.75-8.07c.046-1.683.063-2.756.516-3.596c.102-.657-1.242-.772-2.86-.878c-2.25-.149-4.234-.262-6.306.05C31.04 7.576 28.585 6.538 24 6.538s-7.04 1.038-9.33 2.325c-2.07-.31-4.055-.198-6.305-.05c-1.618.107-2.962.222-2.86.88c.453.839.47 1.912.516 3.595c.098 3.591 1.534 5.78 3.75 8.07c-.782 2.5-2.028 2.816-2.53 4.953C4.89 36.34 15.336 41.462 24 41.462");
 }
 
-.mpl1fh0is {
-  d: path("M26.574 20.56a4.39 4.39 0 0 1 8.076 2.39h0a4.4 4.4 0 0 1-1.048 2.847m-.714-6.362l-1.112 1.398");
+.nwgo4e_vw {
+  d: path("M26.574 20.56a4.39 4.39 0 0 1 8.076 2.39a4.4 4.4 0 0 1-1.048 2.847m-.714-6.362l-1.112 1.398");
 }
 
 .o2c14s5bj {

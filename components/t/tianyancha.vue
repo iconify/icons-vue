@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="ov7k0_86k"/><path class="mmrmmzcjo"/><path class="vo_wi5jef"/><path class="gima8sbwn"/>`;
+const content = `<path class="pf9yt7wei"/><path class="mmrmmzcjo"/><path class="vo_wi5jef"/><path class="gima8sbwn"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:tianyancha" /></template>
 <style>
@@ -24,12 +24,12 @@ const content = `<path class="ov7k0_86k"/><path class="mmrmmzcjo"/><path class="
   d: path("M40.533 37.745A21.5 21.5 0 0 1 29.39 44.82c-4.747-6.902-6.165-13.963-4.786-20.64c-1.556 4.226 3.6 16.376 15.929 13.566");
 }
 
-.ov7k0_86k {
+.pf9yt7wei {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M45.338 21.366Q45.5 22.669 45.5 24h0c0 3.843-1.008 7.45-2.775 10.573c-7.823 2.36-14.597-3.564-15.458-6.55c1.74 6.488 18.504 2.553 18.071-6.657");
+  d: path("M45.338 21.366Q45.5 22.669 45.5 24c0 3.843-1.008 7.45-2.775 10.573c-7.823 2.36-14.597-3.564-15.458-6.55c1.74 6.488 18.504 2.553 18.071-6.657");
 }
 
 .vo_wi5jef {

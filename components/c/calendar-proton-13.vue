@@ -4,16 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="a-0swib0m"/><path class="f6_7b22_l"/><path class="wtoegrbgv"/><path class="orx8z1bik"/>`;
+const content = `<path class="c5w9ngk6s"/><path class="f6_7b22_l"/><path class="wtoegrbgv"/><path class="orx8z1bik"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:calendar-proton-13" /></template>
 <style>
-.a-0swib0m {
+.c5w9ngk6s {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("m11.209 20.972l3.75-2.062m0 0v15m9.835-7.5a3.715 3.715 0 0 1 3.704 3.704h0a3.715 3.715 0 0 1-3.704 3.703h-1.482c-2.592 0-3.518-.37-4.63-1.296m.001-12.223c1.11-.925 2.222-1.296 4.63-1.296h1.481a3.715 3.715 0 0 1 3.704 3.704h0a3.715 3.715 0 0 1-3.704 3.704H21.09");
+  d: path("m11.209 20.972l3.75-2.062m0 0v15m9.835-7.5a3.715 3.715 0 0 1 3.704 3.704a3.715 3.715 0 0 1-3.704 3.703h-1.482c-2.592 0-3.518-.37-4.63-1.296m.001-12.223c1.11-.925 2.222-1.296 4.63-1.296h1.481a3.715 3.715 0 0 1 3.704 3.704a3.715 3.715 0 0 1-3.704 3.704H21.09");
 }
 
 .f6_7b22_l {

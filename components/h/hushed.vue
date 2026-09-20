@@ -4,18 +4,10 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="a2mpv10yy"/><path class="of3m_fbyx"/><path class="gm_uuo1ox"/>`;
+const content = `<path class="phfyxgb3p"/><path class="of3m_fbyx"/><path class="gm_uuo1ox"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:hushed" /></template>
 <style>
-.a2mpv10yy {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M40.712 30.276a62 62 0 0 1-6.3-1.11a3.11 3.11 0 0 0-3 .58c-.53.54-2.06 2.05-3.65 3.61a28.7 28.7 0 0 1-13.1-13.11c1.55-1.59 3-3.11 3.59-3.64a3.11 3.11 0 0 0 .58-3a62 62 0 0 1-1.11-6.31a2 2 0 0 0-2.195-1.783l-.105.013h-8.52a1.5 1.5 0 0 0-1.36 1.37c-.55 7.69 3.74 15.92 4.61 17.5h0v.06l.12.23h0a35.44 35.44 0 0 0 13 13h0l.44.25h0c2 1.06 9.95 5.06 17.38 4.51a1.5 1.5 0 0 0 1.39-1.36v-8.51a2 2 0 0 0-1.665-2.286z");
-}
-
 .gm_uuo1ox {
   fill: none;
   stroke: currentColor;
@@ -30,6 +22,14 @@ const content = `<path class="a2mpv10yy"/><path class="of3m_fbyx"/><path class="
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("M33.25 5.502c-5.113 0-9.258 3.514-9.258 7.85a7.16 7.16 0 0 0 2.234 5.105l-.982 4.465l4.218-2.412a10.6 10.6 0 0 0 3.787.692c5.113 0 9.258-3.515 9.258-7.85s-4.145-7.85-9.258-7.85");
+}
+
+.phfyxgb3p {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M40.712 30.276a62 62 0 0 1-6.3-1.11a3.11 3.11 0 0 0-3 .58c-.53.54-2.06 2.05-3.65 3.61a28.7 28.7 0 0 1-13.1-13.11c1.55-1.59 3-3.11 3.59-3.64a3.11 3.11 0 0 0 .58-3a62 62 0 0 1-1.11-6.31a2 2 0 0 0-2.195-1.783l-.105.013h-8.52a1.5 1.5 0 0 0-1.36 1.37c-.55 7.69 3.74 15.92 4.61 17.5v.06l.12.23a35.44 35.44 0 0 0 13 13l.44.25c2 1.06 9.95 5.06 17.38 4.51a1.5 1.5 0 0 0 1.39-1.36v-8.51a2 2 0 0 0-1.665-2.286z");
 }
 
 </style>

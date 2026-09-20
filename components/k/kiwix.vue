@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<circle class="qsb60nbvv"/><path class="zulhapc1l"/><path class="snv3jnbpq"/><path class="fvl_mbbxm"/>`;
+const content = `<circle class="qsb60nbvv"/><path class="ucxjfacds"/><path class="snv3jnbpq"/><path class="fvl_mbbxm"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:kiwix" /></template>
 <style>
@@ -34,12 +34,12 @@ const content = `<circle class="qsb60nbvv"/><path class="zulhapc1l"/><path class
   d: path("M33.61 20.9a1.08 1.08 0 0 1 1.72-.4M9.74 25.38s1 6.56 2.73 9.63c0 0 3-1.3 7 1.6");
 }
 
-.zulhapc1l {
+.ucxjfacds {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M42.5 31.5c.33-5.14-5.65-9.61-8.17-11.87c1.72-4.43-3.52-9.07-8.16-6.84a14.6 14.6 0 0 0-10.26-4.27h0C6.65 8.65-.46 18.79 8.64 27.89c2.25 2.25 3-2.51 6.76-3.64c6.09-2.56 14.7 4.07 18.93-4.62m-3.28-1.54a1.22 1.22 0 0 0-1.19-1.2h0a1.24 1.24 0 0 0-1.2 1.26a1.3 1.3 0 0 0 .42 1a2 2 0 0 1 .32-3.9h0a1.92 1.92 0 0 1 1.87 2a2.1 2.1 0 0 1-.22.84");
+  d: path("M42.5 31.5c.33-5.14-5.65-9.61-8.17-11.87c1.72-4.43-3.52-9.07-8.16-6.84a14.6 14.6 0 0 0-10.26-4.27C6.65 8.65-.46 18.79 8.64 27.89c2.25 2.25 3-2.51 6.76-3.64c6.09-2.56 14.7 4.07 18.93-4.62m-3.28-1.54a1.22 1.22 0 0 0-1.19-1.2a1.24 1.24 0 0 0-1.2 1.26a1.3 1.3 0 0 0 .42 1a2 2 0 0 1 .32-3.9a1.92 1.92 0 0 1 1.87 2a2.1 2.1 0 0 1-.22.84");
 }
 
 </style>

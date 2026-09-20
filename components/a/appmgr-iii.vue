@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="yy2surble"/><path class="q0vdtxk3c"/><path class="ehrx9ibjt"/><path class="ep-qjm62l"/><path class="rur0twokj"/><path class="gixp_6cjk"/><path class="e irbt6jbkm"/><path class="jmewxib8c"/><circle class="mp5kzf_jf"/><circle class="zwva49b3d"/>`;
+const content = `<path class="rrr79f99c"/><path class="q0vdtxk3c"/><path class="ehrx9ibjt"/><path class="ep-qjm62l"/><path class="rur0twokj"/><path class="gixp_6cjk"/><path class="e irbt6jbkm"/><path class="jmewxib8c"/><circle class="mp5kzf_jf"/><circle class="zwva49b3d"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:appmgr-iii" /></template>
 <style>
@@ -63,20 +63,20 @@ const content = `<path class="yy2surble"/><path class="q0vdtxk3c"/><path class="
   d: path("m26.21 12.955l-.47-4.246c-.106-.957-.745-1.867-2.195-1.756L9.697 8.48a1.98 1.98 0 0 0-1.76 2.191l1.16 10.48");
 }
 
+.rrr79f99c {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("m9.098 21.15l-.84-7.583H7.85c-1.052 0-1.9.845-1.9 1.896v5.687m36.1 1.896v-7.583c0-1.05-.847-1.896-1.9-1.896h-7.129M5.951 27.785c0 .168.027.329.068.484zm18.456-7.991l-.553-4.185c-.054-.487-.458-.852-.947-.892a1 1 0 0 0-.214.003c-.582.063-1 .563-.938 1.12m.687 6.259l-.851-7.69m-8.253.909l.646 5.833m-.439-3.963a1.02 1.02 0 0 0-1.052-.896q-.054 0-.108.007c-.582.064-1 .564-.94 1.12l.414 3.732");
+}
+
 .rur0twokj {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("m8.8 25.89l1.705 12.297H27.55l1.2-12.297z");
-}
-
-.yy2surble {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("m9.098 21.15l-.84-7.583H7.85c-1.052 0-1.9.845-1.9 1.896v5.687m36.1 1.896v-7.583c0-1.05-.847-1.896-1.9-1.896h-7.129M5.951 27.785c0 .168.027.329.068.484zm18.456-7.991l-.553-4.185c-.054-.487-.458-.852-.947-.892a1 1 0 0 0-.106-.004h0q-.054 0-.109.006c-.581.064-1 .564-.938 1.12m.688 6.26l-.851-7.69m-8.253.909l.646 5.833m-.439-3.963a1.02 1.02 0 0 0-1.052-.896q-.054 0-.108.007c-.582.064-1 .564-.94 1.12l.414 3.732");
 }
 
 .zwva49b3d {

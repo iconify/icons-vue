@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="k9pl4didz"/><g class="y9tr6bcfx"><path class="f3bw9ebar"/><path class="w88803b3o"/><path class="lr7g50b-t"/></g><g class="y9tr6bcfx"><path class="vmodklnvq"/><path class="x92cdpbqw"/></g><g class="y9tr6bcfx"><path class="uhg_r4beq"/><path class="civq4ebqu"/><path class="xxiq2qbxs"/><path class="yp6jxfbom"/><path class="ssg0ncq2k"/><path class="r33zkq5pc"/><path class="frtmow_jw"/></g><g class="y9tr6bcfx"><path class="ogdqysj9g"/><path class="tvwfh35sy"/><path class="jito8ubcm"/><path class="bfsbw143r"/><path class="xr2rr7bns"/><path class="vw9r3p5ss"/><path class="wg3kssazo"/></g><g class="y9tr6bcfx"><path class="z8pzxoaag"/><path class="p5v9j-18t"/><path class="lcjv1fbin"/><path class="fw8qhrb9k"/><path class="o0_vpbbnf"/></g>`;
+const content = `<path class="k9pl4didz"/><g class="y9tr6bcfx"><path class="f3bw9ebar"/><path class="w88803b3o"/><path class="ms_ebhbva"/></g><g class="y9tr6bcfx"><path class="vmodklnvq"/><path class="x92cdpbqw"/></g><path class="mkod3bbxq"/><g class="y9tr6bcfx"><path class="uhg_r4beq"/><path class="civq4ebqu"/><path class="xxiq2qbxs"/><path class="yp6jxfbom"/><path class="ssg0ncq2k"/><path class="r33zkq5pc"/><path class="frtmow_jw"/></g><g class="y9tr6bcfx"><path class="ogdqysj9g"/><path class="tvwfh35sy"/><path class="x115d-b8g"/><path class="bfsbw143r"/><path class="xr2rr7bns"/><path class="vw9r3p5ss"/><path class="wg3kssazo"/></g><g class="y9tr6bcfx"><path class="z8pzxoaag"/><path class="p5v9j-18t"/><path class="lcjv1fbin"/><path class="fw8qhrb9k"/><path class="o0_vpbbnf"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:toca-world" /></template>
 <style>
@@ -28,10 +28,6 @@ const content = `<path class="k9pl4didz"/><g class="y9tr6bcfx"><path class="f3bw
   d: path("M16.359 40.173c.51.315 1.068.66 1.757.894m1.52-4.944c-.657-1.376.073-1.953 1.423-1.93c.96.016 1.739.101 2.355.706c.37-1.286 1.477-1.898 2.631-1.574c.47.131.669.868.499 1.272c1.532 1.015 2.11 2.616 2.07 3.55c1.046 1.29 1.29 2.39 1.474 3.475c.204.322.342.613.438.88m-7.211-7.781l1.601 7.777");
 }
 
-.jito8ubcm {
-  d: path("M37.942 15.658c1.064.258 2.049.708 2.76 1.51c1.251 1.408 1.322 3.526 1.21 5.406c-.11 1.88-.431 3.976-1.84 5.227h0c-1.408 1.25-3.526 1.322-5.407 1.21c-.946-.056-1.947-.165-2.867-.439m-2.094-11.666q.169-.195.365-.369c.802-.712 1.834-1.042 2.921-1.173m.82.61a65 65 0 0 0-.538 4.118");
-}
-
 .k9pl4didz {
   fill: none;
   stroke: currentColor;
@@ -44,8 +40,16 @@ const content = `<path class="k9pl4didz"/><g class="y9tr6bcfx"><path class="f3bw
   d: path("m35.223 30.888l.33-.459c1.488-.082 1.971-.704 2.093-1.53M19.532 42.502c.094-.255.16-.562.2-.931c.97-.707 1.668-2.41.68-3.958c-1.616-2.535-4.251-.8-5.185 1.869c-.885.75-1.499 1.823-1.62 3.015");
 }
 
-.lr7g50b-t {
-  d: path("M22.314 30.066c1.357-.999 3.043-.477 3.306 1.707m-1.014-9.586l1.292-1.343M19.29 23.74l-2.407-.482m2.899 2.96c.144.763-.223 1.472-.82 1.585c-.598.114-1.2-.413-1.344-1.175v0c-.144-.762.223-1.472.82-1.585h0c.598-.113 1.2.413 1.344 1.175m7.608-2.116c.186.753-.14 1.482-.73 1.629s-1.22-.345-1.408-1.098v0c-.187-.753.14-1.482.73-1.629s1.22.345 1.407 1.098m-4.157 1.604l.277.5m-2.235-6.836l2.772 1.745m-2.133.371l1.377-2.22");
+.mkod3bbxq {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M5.5 15.129zm0-4.147z");
+}
+
+.ms_ebhbva {
+  d: path("M22.314 30.066c1.357-.999 3.043-.477 3.306 1.707m-1.014-9.586l1.292-1.343M19.29 23.74l-2.407-.482m2.899 2.96c.144.763-.223 1.472-.82 1.585c-.598.114-1.2-.413-1.344-1.175s.223-1.472.82-1.585c.598-.113 1.2.413 1.344 1.175m7.608-2.116c.186.753-.14 1.482-.73 1.629s-1.22-.345-1.408-1.098s.14-1.482.73-1.629s1.22.345 1.407 1.098m-4.157 1.604l.277.5m-2.235-6.836l2.772 1.745m-2.133.371l1.377-2.22");
 }
 
 .o0_vpbbnf {
@@ -90,6 +94,10 @@ const content = `<path class="k9pl4didz"/><g class="y9tr6bcfx"><path class="f3bw
 
 .wg3kssazo {
   d: path("M36.337 13.552c1.705-2.637 3.197-4.646 2.256-5c-.85-.32-2.036 2.402-2.99 4.81");
+}
+
+.x115d-b8g {
+  d: path("M37.942 15.658c1.064.258 2.049.708 2.76 1.51c1.251 1.408 1.322 3.526 1.21 5.406c-.11 1.88-.431 3.976-1.84 5.227c-1.408 1.25-3.526 1.322-5.407 1.21c-.946-.056-1.947-.165-2.867-.439m-2.094-11.666q.169-.195.365-.369c.802-.712 1.834-1.042 2.921-1.173m.82.61a65 65 0 0 0-.538 4.118");
 }
 
 .x92cdpbqw {

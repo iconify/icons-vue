@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="uu5j-vbau"/><path class="y5xj3-y4k"/><path class="gubza_b4g"/>`;
+const content = `<path class="m36uhdbyp"/><path class="y5xj3-y4k"/><path class="gubza_b4g"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:muzei-source" /></template>
 <style>
@@ -16,12 +16,12 @@ const content = `<path class="uu5j-vbau"/><path class="y5xj3-y4k"/><path class="
   d: path("M28.67 32a5.91 5.91 0 1 0 9.26-5.14");
 }
 
-.uu5j-vbau {
+.m36uhdbyp {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M24 2.5C12.128 2.506 2.506 12.128 2.5 24h0c.006 11.872 9.628 21.495 21.5 21.5h0c11.874 0 21.5-9.626 21.5-21.5S35.874 2.5 24 2.5");
+  d: path("M24 2.5C12.128 2.506 2.506 12.128 2.5 24c.006 11.872 9.628 21.495 21.5 21.5c11.874 0 21.5-9.626 21.5-21.5S35.874 2.5 24 2.5");
 }
 
 .y5xj3-y4k {

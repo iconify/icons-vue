@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<g class="y9tr6bcfx"><path class="jkrxjpbna"/><path class="t-5w6ybmc"/></g><path class="d_c4ypyza"/><path class="rcsxw0b9u"/><path class="jpxwe8b2p"/>`;
+const content = `<g class="y9tr6bcfx"><path class="jpm0pxbcp"/><path class="t-5w6ybmc"/></g><path class="d_c4ypyza"/><path class="rcsxw0b9u"/><path class="jpxwe8b2p"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:aa-fonts-keyboard" /></template>
 <style>
@@ -16,8 +16,8 @@ const content = `<g class="y9tr6bcfx"><path class="jkrxjpbna"/><path class="t-5w
   d: path("M34.12 31.29a5.265 5.265 0 0 1-3.37-4.912v-3.42a5.26 5.26 0 0 1 3.37-4.912m7.155-.351v14.32a1.8 1.8 0 0 0 1.798 1.8h.427m-23.579-4.37H8.285m6.973-14.077L8.285 36.419h3.15");
 }
 
-.jkrxjpbna {
-  d: path("M37.49 26.378a5.263 5.263 0 0 1-5.262 5.263h0a5.263 5.263 0 0 1-5.263-5.263v-3.42a5.263 5.263 0 0 1 5.263-5.263h0a5.263 5.263 0 0 1 5.262 5.263");
+.jpm0pxbcp {
+  d: path("M37.49 26.378a5.263 5.263 0 0 1-10.525 0v-3.42a5.263 5.263 0 0 1 10.525 0");
 }
 
 .jpxwe8b2p {

@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="x2-mki2jl"/><path class="ja9q7ve0b"/><path class="bp5nbj-dc"/>`;
+const content = `<path class="zor_wbb1u"/><path class="ja9q7ve0b"/><path class="bp5nbj-dc"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:wavepay" /></template>
 <style>
@@ -24,12 +24,12 @@ const content = `<path class="x2-mki2jl"/><path class="ja9q7ve0b"/><path class="
   d: path("M20.005 29.208c-3.953-3.222-2.703-10.837-.494-13.926c6.106-8.539 15.441-7.33 19.98-1.855c3.657 4.413 4.302 11.46.137 16.23c-5.849 6.7-17.648 6.653-23.153 1.728C9.7 25.327 6.41 16.028 11.621 10.225c3.867-4.308 11.565-4.903 15.703-.932");
 }
 
-.x2-mki2jl {
+.zor_wbb1u {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M28.819 26.446c0 3.12-2.109 5.65-4.71 5.65h0c-2.602 0-4.71-2.53-4.71-5.65s2.108-5.65 4.71-5.65s4.71 2.529 4.71 5.65");
+  d: path("M28.819 26.446c0 3.12-2.109 5.65-4.71 5.65s-4.71-2.53-4.71-5.65s2.108-5.65 4.71-5.65s4.71 2.529 4.71 5.65");
 }
 
 </style>

@@ -4,16 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="fzwhubbxx"/><path class="p3mmcihcz"/>`;
+const content = `<path class="owopk7p2s"/><path class="p3mmcihcz"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:geberit-home" /></template>
 <style>
-.fzwhubbxx {
+.owopk7p2s {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M27.108 28.756a4.83 4.83 0 0 0-6.173-.017v.017m3.075 1.977a1.937 1.937 0 1 0 1.936 1.938h0c0-1.07-.866-1.937-1.936-1.938m6.044-5.327a9.5 9.5 0 0 0-12.09 0m14.995-3.514a14.04 14.04 0 0 0-17.918 0");
+  d: path("M27.108 28.756a4.83 4.83 0 0 0-6.173-.017v.017m3.075 1.977a1.937 1.937 0 1 0 1.936 1.938c0-1.07-.866-1.937-1.936-1.938m6.044-5.327a9.5 9.5 0 0 0-12.09 0m14.995-3.514a14.04 14.04 0 0 0-17.918 0");
 }
 
 .p3mmcihcz {

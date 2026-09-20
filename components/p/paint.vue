@@ -4,16 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="wak557brd"/><path class="a9e4snf2h"/>`;
+const content = `<path class="wak557brd"/><path class="dvh9o7bdb"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:paint" /></template>
 <style>
-.a9e4snf2h {
+.dvh9o7bdb {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M15.93 20.832a3.21 3.21 0 0 1-3.21 3.211h0a3.211 3.211 0 0 1 0-6.422h0a3.21 3.21 0 0 1 3.21 3.211m22.557 0a3.21 3.21 0 0 1-3.211 3.211h0a3.21 3.21 0 0 1-3.211-3.21h0a3.21 3.21 0 0 1 3.21-3.212h0a3.21 3.21 0 0 1 3.212 3.211m-6.043-8.215a3.211 3.211 0 0 1-6.422 0h0a3.21 3.21 0 0 1 3.211-3.211h0a3.21 3.21 0 0 1 3.211 3.21m-10.471.001a3.21 3.21 0 0 1-3.21 3.21h0a3.211 3.211 0 1 1 3.21-3.21");
+  d: path("M15.93 20.832a3.211 3.211 0 1 1-3.211-3.211a3.21 3.21 0 0 1 3.212 3.211m22.556 0a3.211 3.211 0 1 1-6.422 0a3.211 3.211 0 1 1 6.422 0m-6.043-8.215a3.211 3.211 0 0 1-6.422 0a3.211 3.211 0 1 1 6.422 0m-10.471 0a3.211 3.211 0 1 1-6.422 0a3.211 3.211 0 0 1 6.422 0");
 }
 
 .wak557brd {

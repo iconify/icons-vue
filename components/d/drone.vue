@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<ellipse transform="rotate(-69.071 32.654 35.807)" class="elh6hl01g"/><path class="k6xanybqu"/><circle class="j6218ab0v"/><path class="lpuwmmfxr"/><ellipse transform="rotate(-20.929 15.346 35.807)" class="tt304bhmz"/><path class="bkzlqabpw"/><path class="rao-s51ix"/><path class="mlsssabum"/><circle class="oxxga6lua"/><path class="bhrqmlb8l"/><ellipse class="opuj1fb6v"/><path class="pixyr8e3t"/>`;
+const content = `<ellipse transform="rotate(-69.071 32.654 35.807)" class="elh6hl01g"/><path class="k6xanybqu"/><circle class="j6218ab0v"/><path class="lpuwmmfxr"/><ellipse transform="rotate(-20.929 15.346 35.807)" class="tt304bhmz"/><path class="cbbqdmdec"/><path class="rao-s51ix"/><path class="mlsssabum"/><circle class="oxxga6lua"/><path class="bhrqmlb8l"/><ellipse class="opuj1fb6v"/><path class="pixyr8e3t"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:drone" /></template>
 <style>
@@ -16,12 +16,12 @@ const content = `<ellipse transform="rotate(-69.071 32.654 35.807)" class="elh6h
   d: path("M7.537 19.512c.334-1.071.964-1.777 1.625-2.31c.582.097 1.074.421 1.235.859c-.226.664-.924 2.034-1.424 2.656m.921-3.242l.457-.707m1.365.022l-.816.3l-1.12-.657l-.07-1.094C11.336 11.8 14.382 6.514 24 6.514s12.665 5.287 14.29 8.825l-.07 1.094l-1.12.656l-.815-.3m-27.06 5.547c.262-.36.556-.683.868-.893c.446-.3.929-.373 1.407-.004");
 }
 
-.bkzlqabpw {
+.cbbqdmdec {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M27.779 41.77a12.8 12.8 0 0 0 4.329-2.83q0 0 0 0m-16.216 0q0 0 0 0a12.8 12.8 0 0 0 4.329 2.83m14.228-5.972q.47-.858.85-1.802c1.052-2.622 1.569-5.725 1.569-9.169c0-1.186-.125-2.32-.368-3.388c-1.02-4.486-4.112-7.81-8.727-8.945c-1.132-.28-2.394-.426-3.773-.426s-2.64.146-3.773.426c-4.615 1.135-7.708 4.459-8.727 8.945a15.3 15.3 0 0 0-.368 3.388c0 3.444.517 6.547 1.569 9.17q.38.943.85 1.801M8.908 21.445a.334.334 0 0 1 .317.333v13.177c0 .185-.15.334-.335.334H6.21a.335.335 0 0 1-.335-.335V21.779c0-.178.14-.325.317-.333m-.318.953h-.636c-1.61 1.191-2.694 3.417-2.694 5.967s1.084 4.777 2.693 5.968h.637");
+  d: path("M27.779 41.77a12.8 12.8 0 0 0 4.329-2.83m-16.216 0q0 0 0 0a12.8 12.8 0 0 0 4.329 2.83m14.228-5.972q.47-.858.85-1.802c1.052-2.622 1.569-5.725 1.569-9.169c0-1.186-.125-2.32-.368-3.388c-1.02-4.486-4.112-7.81-8.727-8.945c-1.132-.28-2.394-.426-3.773-.426s-2.64.146-3.773.426c-4.615 1.135-7.708 4.459-8.727 8.945a15.3 15.3 0 0 0-.368 3.388c0 3.444.517 6.547 1.569 9.17q.38.943.85 1.801M8.908 21.445a.334.334 0 0 1 .317.333v13.177c0 .185-.15.334-.335.334H6.21a.335.335 0 0 1-.335-.335V21.779c0-.178.14-.325.317-.333m-.318.953h-.636c-1.61 1.191-2.694 3.417-2.694 5.967s1.084 4.777 2.693 5.968h.637");
 }
 
 .elh6hl01g {

@@ -4,12 +4,12 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<g class="y9tr6bcfx"><path class="hvyhubfly"/><path class="s-kytjbrq"/><path class="v6h4q54eb"/></g>`;
+const content = `<g class="y9tr6bcfx"><path class="ap-uli7te"/><path class="s-kytjbrq"/><path class="v6h4q54eb"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:anime-brasil" /></template>
 <style>
-.hvyhubfly {
-  d: path("M36.868 14.783A12.52 12.52 0 0 1 40.917 24h0c0 3.39-1.375 6.635-3.81 8.993M16.265 20.935a12.517 12.517 0 0 1 15.584-8.967m.19 24.008a12.52 12.52 0 0 1-15.836-9.165m17.493-9.457a8.5 8.5 0 0 1 3.188 6.142m-12.312-7.083a8.5 8.5 0 0 1 6.68-.418M20.031 22.52a8.5 8.5 0 0 1 3.406-5.418m0 13.796a8.5 8.5 0 0 1-3.443-5.65m11.508 6.664a8.5 8.5 0 0 1-6.752-.237m12.12-6.97a8.5 8.5 0 0 1-3.02 5.816");
+.ap-uli7te {
+  d: path("M36.868 14.783a12.516 12.516 0 0 1 .238 18.21M16.265 20.935a12.517 12.517 0 0 1 15.584-8.967m.19 24.008a12.52 12.52 0 0 1-15.836-9.165m17.493-9.457a8.5 8.5 0 0 1 3.188 6.142m-12.312-7.083a8.5 8.5 0 0 1 6.68-.418M20.031 22.52a8.5 8.5 0 0 1 3.406-5.418m0 13.796a8.5 8.5 0 0 1-3.443-5.65m11.508 6.664a8.5 8.5 0 0 1-6.752-.237m12.12-6.97a8.5 8.5 0 0 1-3.02 5.816");
 }
 
 .s-kytjbrq {

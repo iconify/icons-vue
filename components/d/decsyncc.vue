@@ -4,16 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="n5levglzy"/><path class="bwgg0nb4k"/>`;
+const content = `<path class="n5levglzy"/><path class="i0v5dbbcf"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:decsyncc" /></template>
 <style>
-.bwgg0nb4k {
+.i0v5dbbcf {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M33.09 10.55A16.24 16.24 0 0 0 7.76 24m7.16 13.46A16.23 16.23 0 0 0 40.23 24M9.04 24h2.82l-3.88 5.92L4.11 24zm30.14 0h-2.82l3.87-5.92L44.11 24h0z");
+  d: path("M33.09 10.55A16.24 16.24 0 0 0 7.76 24m7.16 13.46A16.23 16.23 0 0 0 40.23 24M9.04 24h2.82l-3.88 5.92L4.11 24zm30.14 0h-2.82l3.87-5.92L44.11 24z");
 }
 
 .n5levglzy {

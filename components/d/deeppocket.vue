@@ -4,24 +4,24 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="np-pyeb8a"/><path class="nab-bcbhd"/><path class="kpj28lnvv"/>`;
+const content = `<path class="np-pyeb8a"/><path class="axjy9ib0c"/><path class="dh-eydmqc"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:deeppocket" /></template>
 <style>
-.kpj28lnvv {
+.axjy9ib0c {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M15.812 8.941L17.957 4.5h0l19.2 9.274");
+  d: path("m8.267 24.882l14.07 3.77a6.53 6.53 0 0 0 3.326 0l14.07-3.77m-28.16-11.109l1.373-5.543l22.383 5.545");
 }
 
-.nab-bcbhd {
+.dh-eydmqc {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("m8.267 24.882l14.07 3.77a6.53 6.53 0 0 0 3.326 0l14.07-3.77m-28.16-11.109l1.373-5.543h0l22.383 5.545");
+  d: path("M15.812 8.941L17.957 4.5l19.2 9.274");
 }
 
 .np-pyeb8a {

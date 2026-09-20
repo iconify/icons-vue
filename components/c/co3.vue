@@ -4,24 +4,24 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<circle class="v0ucrrb3h"/><path class="hiqp7ub2f"/><path class="ux6ql0bpe"/><path class="yo3dyzbzs"/>`;
+const content = `<circle class="v0ucrrb3h"/><path class="obw5w3bkx"/><path class="i42vq8rvu"/><path class="yo3dyzbzs"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:co3" /></template>
 <style>
-.hiqp7ub2f {
+.i42vq8rvu {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M10.04 31.121a16.46 16.46 0 0 1-2.417-8.585c0-9.09 7.37-16.46 16.46-16.46s16.46 7.37 16.46 16.46h0a16.46 16.46 0 0 1-2.218 8.253m-3.815 4.484a16.46 16.46 0 0 1-20.401.357");
+  d: path("M14.633 26.968a10.6 10.6 0 0 1-.863-4.186c0-6.77 5.777-10.58 10.58-10.58c4.876 0 10.58 3.873 10.58 10.58a10.6 10.6 0 0 1-.787 4.004m-2.917 4.038a10.58 10.58 0 0 1-13.606.122m22.655-5.362c1.24-.912 2.228-1.552 3.225-3.175c-.997-1.624-1.984-2.264-3.225-3.176M7.726 25.567c-1.242-.912-2.229-1.552-3.226-3.175c.997-1.623 1.984-2.263 3.226-3.176M20.95 38.698c.913 1.241 1.553 2.228 3.176 3.226c1.623-.998 2.263-1.985 3.175-3.226");
 }
 
-.ux6ql0bpe {
+.obw5w3bkx {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M14.633 26.968a10.6 10.6 0 0 1-.863-4.186c0-6.77 5.777-10.58 10.58-10.58c4.876 0 10.58 3.873 10.58 10.58h0a10.6 10.6 0 0 1-.787 4.004m-2.917 4.038a10.58 10.58 0 0 1-13.606.122m22.655-5.362c1.24-.912 2.228-1.552 3.225-3.175c-.997-1.624-1.984-2.264-3.225-3.176M7.726 25.567c-1.242-.912-2.229-1.552-3.226-3.175c.997-1.623 1.984-2.263 3.226-3.176M20.95 38.698c.913 1.241 1.553 2.228 3.176 3.226c1.623-.998 2.263-1.985 3.175-3.226");
+  d: path("M10.04 31.121a16.46 16.46 0 0 1-2.417-8.585c0-9.09 7.37-16.46 16.46-16.46s16.46 7.37 16.46 16.46a16.46 16.46 0 0 1-2.218 8.253m-3.815 4.484a16.46 16.46 0 0 1-20.401.357");
 }
 
 .v0ucrrb3h {

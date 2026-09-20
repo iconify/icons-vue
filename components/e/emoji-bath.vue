@@ -4,10 +4,18 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="qbjyi7bky"/><path class="x2r8webbi"/><path class="mo87dlxwa"/><path class="fvz6n1brz"/>`;
+const content = `<path class="qbjyi7bky"/><path class="fdp9emb9n"/><path class="mo87dlxwa"/><path class="fvz6n1brz"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:emoji-bath" /></template>
 <style>
+.fdp9emb9n {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M31.221 7.952c1.133-1.487 3.045-1.912 4.248-.991s1.275 2.902.142 4.389zM6.3 22.04v6.656c0 4.885 3.824 8.92 8.496 8.92h18.408c4.672 0 8.495-4.035 8.495-8.92V22.04c-11.782.89-23.616.89-35.399 0m7.08-7.929z");
+}
+
 .fvz6n1brz {
   fill: none;
   stroke: currentColor;
@@ -30,14 +38,6 @@ const content = `<path class="qbjyi7bky"/><path class="x2r8webbi"/><path class="
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("M40.071 22.04V8.024s0-4.885-4.602-1.062");
-}
-
-.x2r8webbi {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M31.221 7.952c1.133-1.487 3.045-1.912 4.248-.991s1.275 2.902.142 4.389zM6.3 22.04v6.656c0 4.885 3.824 8.92 8.496 8.92h18.408c4.672 0 8.495-4.035 8.495-8.92V22.04c-11.782.89-23.616.89-35.399 0m7.08-7.929");
 }
 
 </style>

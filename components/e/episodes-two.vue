@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<rect class="do4bm-p4w"/><path class="sj095p_cu"/><path class="sf41vxbhh"/>`;
+const content = `<rect class="do4bm-p4w"/><path class="sj095p_cu"/><path class="gt94pljov"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:episodes-two" /></template>
 <style>
@@ -20,12 +20,12 @@ const content = `<rect class="do4bm-p4w"/><path class="sj095p_cu"/><path class="
   rx: 2px;
 }
 
-.sf41vxbhh {
+.gt94pljov {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M24 18.598A14.703 14.703 0 0 1 38.703 33.3v0a2.1 2.1 0 0 1-2.099 2.099H11.397a2.1 2.1 0 0 1-2.1-2.099v0A14.703 14.703 0 0 1 24 18.597m-12.697-2.198l4.177 4.917m21.217-4.917l-4.177 4.917");
+  d: path("M24 18.598zA14.703 14.703 0 0 1 38.703 33.3a2.1 2.1 0 0 1-2.099 2.099H11.397a2.1 2.1 0 0 1-2.1-2.099A14.703 14.703 0 0 1 24 18.597m-12.697-2.198l4.177 4.917m21.217-4.917l-4.177 4.917");
 }
 
 .sj095p_cu {

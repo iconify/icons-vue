@@ -4,18 +4,10 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="bdddnpb3y"/><circle class="md2at2bpd"/><path class="ojn0m9bmj"/><path class="pn3j2_vfm"/>`;
+const content = `<path class="mna3hobsj"/><circle class="md2at2bpd"/><path class="ojn0m9bmj"/><path class="pn3j2_vfm"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:jihanpi" /></template>
 <style>
-.bdddnpb3y {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M8.997 17.012a15.532 15.532 0 1 1 22.769 17.471C24.824 38.491 24 42.5 24 42.5s-.823-4.009-7.766-8.017a15.53 15.53 0 0 1-7.237-17.47z");
-}
-
 .md2at2bpd {
   cx: 30px;
   cy: 14.033px;
@@ -24,6 +16,14 @@ const content = `<path class="bdddnpb3y"/><circle class="md2at2bpd"/><path class
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
+}
+
+.mna3hobsj {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M8.997 17.012a15.532 15.532 0 1 1 22.769 17.471C24.824 38.491 24 42.5 24 42.5s-.823-4.009-7.766-8.017a15.53 15.53 0 0 1-7.237-17.47");
 }
 
 .ojn0m9bmj {

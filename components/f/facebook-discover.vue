@@ -4,10 +4,18 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<circle class="cpk0fnbgt"/><path class="kqp07hbkl"/><path class="w2qn22h5c"/>`;
+const content = `<circle class="cpk0fnbgt"/><path class="bwblwvbne"/><path class="w2qn22h5c"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:facebook-discover" /></template>
 <style>
+.bwblwvbne {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M25.286 30.919h-9.233V13.597h9.233a8.66 8.66 0 1 1 0 17.322");
+}
+
 .cpk0fnbgt {
   cx: 24px;
   cy: 24px;
@@ -16,14 +24,6 @@ const content = `<circle class="cpk0fnbgt"/><path class="kqp07hbkl"/><path class
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-}
-
-.kqp07hbkl {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M25.286 30.919h-9.233V13.597h9.233a8.66 8.66 0 0 1 8.661 8.66h0a8.66 8.66 0 0 1-8.66 8.662");
 }
 
 .w2qn22h5c {

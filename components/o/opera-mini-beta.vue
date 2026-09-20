@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="mwpelabcz"/><path class="hur6sq8zr"/><circle class="iv34yub_k"/><path class="fiqpmub9n"/>`;
+const content = `<path class="vn928ituv"/><path class="hur6sq8zr"/><circle class="iv34yub_k"/><path class="fiqpmub9n"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:opera-mini-beta" /></template>
 <style>
@@ -34,12 +34,12 @@ const content = `<path class="mwpelabcz"/><path class="hur6sq8zr"/><circle class
   stroke-linejoin: round;
 }
 
-.mwpelabcz {
+.vn928ituv {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M32.669 42.373q-1.442.286-2.957.288c-5.12 0-9.705-2.54-12.79-6.545v0c-2.376-2.806-3.916-6.954-4.021-11.61v-1.012c.104-4.655 1.644-8.804 4.022-11.61C20.006 7.878 24.592 5.34 29.71 5.34c3.15 0 6.096.961 8.616 2.634A21.4 21.4 0 0 0 24.08 2.502L24 2.501C12.125 2.5 2.5 12.127 2.5 24c0 11.528 9.077 20.938 20.476 21.472q.509.026 1.024.026c3.384 0 6.585-.782 9.432-2.175");
+  d: path("M32.669 42.373q-1.442.286-2.957.288c-5.12 0-9.705-2.54-12.79-6.545c-2.376-2.806-3.916-6.954-4.021-11.61v-1.012c.104-4.655 1.644-8.804 4.022-11.61C20.006 7.878 24.592 5.34 29.71 5.34c3.15 0 6.096.961 8.616 2.634A21.4 21.4 0 0 0 24.08 2.502L24 2.501C12.125 2.5 2.5 12.127 2.5 24c0 11.528 9.077 20.938 20.476 21.472q.509.026 1.024.026c3.384 0 6.585-.782 9.432-2.175");
 }
 
 </style>

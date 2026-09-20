@@ -4,16 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="gdgy4bclg"/><path class="le6fvhbcj"/>`;
+const content = `<path class="knd3knblm"/><path class="le6fvhbcj"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:dramabox" /></template>
 <style>
-.gdgy4bclg {
+.knd3knblm {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M6.612 23.748c0 3.628.092 6.67.222 9.153c.251 4.824 4.251 8.594 9.081 8.594h7.548c9.801 0 17.747-7.946 17.747-17.747h0C41.21 13.946 33.264 6 23.463 6h-7.548c-4.83 0-8.83 3.77-9.081 8.594c-.13 2.483-.222 5.526-.222 9.154");
+  d: path("M6.612 23.748c0 3.628.092 6.67.222 9.153c.251 4.824 4.251 8.594 9.081 8.594h7.548c9.801 0 17.747-7.946 17.747-17.747S33.264 6 23.463 6h-7.548c-4.83 0-8.83 3.77-9.081 8.594c-.13 2.483-.222 5.526-.222 9.154");
 }
 
 .le6fvhbcj {

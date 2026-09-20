@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<g class="y9tr6bcfx"><path class="q4iov7bcf"/><path class="uhvodwfrz"/><path class="hhgcfg8mz"/><path class="srg73tvdc"/></g><g class="y9tr6bcfx"><path class="t9mprx_yw"/><path class="idqnzmb_l"/></g>`;
+const content = `<g class="y9tr6bcfx"><path class="yrakgbcyy"/><path class="sc7xhs_1u"/><path class="hhgcfg8mz"/><path class="srg73tvdc"/></g><g class="y9tr6bcfx"><path class="vc2-39_xq"/><path class="idqnzmb_l"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:ddnet" /></template>
 <style>
@@ -16,20 +16,16 @@ const content = `<g class="y9tr6bcfx"><path class="q4iov7bcf"/><path class="uhvo
   d: path("M36.05 31.156c1.353.572 2.068 1.23 2.068 1.901c0 2.016-6.32 3.65-14.118 3.65s-14.118-1.634-14.118-3.65c0-.946 1.421-1.855 3.965-2.536");
 }
 
-.q4iov7bcf {
-  d: path("M23.397 19.81c0 2-.803 3.62-1.795 3.62h0c-.992 0-1.796-1.62-1.796-3.62h0c0-2 .804-3.62 1.796-3.62h0c.992 0 1.795 1.62 1.795 3.62m4.797 0c0 2-.804 3.62-1.796 3.62h0c-.992 0-1.796-1.62-1.796-3.62h0c0-2 .804-3.62 1.796-3.62h0c.992 0 1.796 1.62 1.796 3.62");
+.sc7xhs_1u {
+  d: path("M23.809 32.252c-6.305-.105-11.361-5.239-11.361-11.537c0-6.372 5.172-11.538 11.552-11.538s11.553 5.166 11.553 11.538a11.53 11.53 0 0 1-2.538 7.216");
 }
 
 .srg73tvdc {
   d: path("M15.297 28.292c-.992.662-1.58 1.649-1.429 2.989c.225 1.999 1.566 2.152 4.09 2.14l4.985-.026a5.3 5.3 0 0 0 1.72-.323");
 }
 
-.t9mprx_yw {
-  d: path("M35.042 29.13c4.692 1.015 7.458 2.615 7.458 4.315h0c0 2.97-8.283 5.378-18.5 5.378h0c-10.217 0-18.5-2.408-18.5-5.378h0c0-1.91 3.486-3.677 9.158-4.641");
-}
-
-.uhvodwfrz {
-  d: path("M23.809 32.252c-6.305-.105-11.361-5.239-11.361-11.537c0-6.372 5.172-11.538 11.552-11.538s11.553 5.166 11.553 11.538h0a11.53 11.53 0 0 1-2.538 7.216");
+.vc2-39_xq {
+  d: path("M35.042 29.13c4.692 1.015 7.458 2.615 7.458 4.315c0 2.97-8.283 5.378-18.5 5.378S5.5 36.415 5.5 33.445c0-1.91 3.486-3.677 9.158-4.641");
 }
 
 .y9tr6bcfx {
@@ -37,6 +33,10 @@ const content = `<g class="y9tr6bcfx"><path class="q4iov7bcf"/><path class="uhvo
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
+}
+
+.yrakgbcyy {
+  d: path("M23.397 19.81c0 2-.803 3.62-1.795 3.62s-1.796-1.62-1.796-3.62s.804-3.62 1.796-3.62s1.795 1.62 1.795 3.62m4.797 0c0 2-.804 3.62-1.796 3.62s-1.796-1.62-1.796-3.62s.804-3.62 1.796-3.62s1.796 1.62 1.796 3.62");
 }
 
 </style>

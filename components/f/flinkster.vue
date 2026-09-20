@@ -4,24 +4,24 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="o09mvubji"/><path class="hotydxgmc"/><path class="eeyx8yplz"/>`;
+const content = `<path class="o09mvubji"/><path class="e6s0dd4hw"/><path class="lg1lpgm9y"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:flinkster" /></template>
 <style>
-.eeyx8yplz {
+.e6s0dd4hw {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M25.82 11.48h5.83A3.47 3.47 0 0 1 35.13 15h0a3.48 3.48 0 0 1-3.48 3.48h-5.83m-12.95-.07V4.5h2.36a7 7 0 0 1 7 7h0a7 7 0 0 1-6.95 7Z");
+  d: path("M25.82 18.39V4.52m0 0h5.83A3.48 3.48 0 0 1 35.13 8a3.48 3.48 0 0 1-3.48 3.48h-5.83");
 }
 
-.hotydxgmc {
+.lg1lpgm9y {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M25.82 18.39V4.52m0 0h5.83A3.48 3.48 0 0 1 35.13 8h0a3.48 3.48 0 0 1-3.48 3.48h-5.83");
+  d: path("M25.82 11.48h5.83A3.47 3.47 0 0 1 35.13 15a3.48 3.48 0 0 1-3.48 3.48h-5.83m-12.95-.07V4.5h2.36a7 7 0 0 1 7 7a7 7 0 0 1-6.95 7Z");
 }
 
 .o09mvubji {

@@ -4,18 +4,10 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="sjoeosb_w"/><path class="bjo10fk9j"/><path class="a4-nsev6j"/><path class="ibarn1b8p"/>`;
+const content = `<path class="sjoeosb_w"/><path class="bjo10fk9j"/><path class="og58c2unl"/><path class="ibarn1b8p"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:bamras" /></template>
 <style>
-.a4-nsev6j {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M45.5 24c0 6.787-9.626 12.29-21.5 12.29h0C12.126 36.29 2.5 30.787 2.5 24h0c0-6.787 9.626-12.29 21.5-12.29h0c11.874 0 21.5 5.503 21.5 12.29");
-}
-
 .bjo10fk9j {
   fill: none;
   stroke: currentColor;
@@ -30,6 +22,14 @@ const content = `<path class="sjoeosb_w"/><path class="bjo10fk9j"/><path class="
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("M28.157 28.26v-8.327h1.872c2.01 0 3.64 1.631 3.64 3.643v1.041a3.64 3.64 0 0 1-3.64 3.643zm10.555-8.327v8.327M12.72 24.096a2.081 2.081 0 0 1 0 4.164H9.288v-8.327h3.432a2.081 2.081 0 0 1 0 4.164Zm0 0H9.288");
+}
+
+.og58c2unl {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M45.5 24c0 6.787-9.626 12.29-21.5 12.29S2.5 30.787 2.5 24S12.126 11.71 24 11.71S45.5 17.214 45.5 24");
 }
 
 .sjoeosb_w {

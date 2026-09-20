@@ -4,16 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="ac35tpbkl"/><path class="kzykk8swa"/>`;
+const content = `<path class="e4r55x3ru"/><path class="kzykk8swa"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:calendar-samsung-8" /></template>
 <style>
-.ac35tpbkl {
+.e4r55x3ru {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M25.3 28h-2.6c-2.2 0-4 1.8-4 4h0c0 2.2 1.8 4 4 4h2.6c2.2 0 4-1.8 4-4h0c0-2.2-1.8-4-4-4m0 0c2.2 0 4-1.8 4-4h0c0-2.2-1.8-4-4-4h-2.6c-2.2 0-4 1.8-4 4h0c0 2.2 1.8 4 4 4");
+  d: path("M25.3 28h-2.6c-2.2 0-4 1.8-4 4s1.8 4 4 4h2.6c2.2 0 4-1.8 4-4s-1.8-4-4-4m0 0c2.2 0 4-1.8 4-4s-1.8-4-4-4h-2.6c-2.2 0-4 1.8-4 4s1.8 4 4 4");
 }
 
 .kzykk8swa {

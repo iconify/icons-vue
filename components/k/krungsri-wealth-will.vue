@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="g2wj9jbhp"/><path class="zfbgvabnp"/><path class="jdn_4sb3z"/><path class="n50j76buw"/>`;
+const content = `<path class="g2wj9jbhp"/><path class="s_vcnzb6j"/><path class="jdn_4sb3z"/><path class="n50j76buw"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:krungsri-wealth-will" /></template>
 <style>
@@ -32,12 +32,12 @@ const content = `<path class="g2wj9jbhp"/><path class="zfbgvabnp"/><path class="
   d: path("M21.24 30.959c1.801-1.795 2.94-3.648 1.546-4.25h2.428c-1.395.602-.255 2.455 1.545 4.25");
 }
 
-.zfbgvabnp {
+.s_vcnzb6j {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M33.246 27.672a9.246 9.246 0 0 1-18.492 0h0a9.246 9.246 0 0 1 18.492 0M32.127 5.52A9.25 9.25 0 0 1 24 10.358a9.25 9.25 0 0 1-8.127-4.836m15.389 9.11H42.5m-21.762 0h6.524m-21.762 0h11.238m2.153-5.718l-.298 11.153M29.109 8.914l.298 11.153");
+  d: path("M33.246 27.672a9.246 9.246 0 0 1-18.492 0a9.246 9.246 0 0 1 18.492 0M32.127 5.52A9.25 9.25 0 0 1 24 10.358a9.25 9.25 0 0 1-8.127-4.836m15.389 9.11H42.5m-21.762 0h6.524m-21.762 0h11.238m2.153-5.718l-.298 11.153M29.109 8.914l.298 11.153");
 }
 
 </style>

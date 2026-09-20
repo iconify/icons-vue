@@ -4,18 +4,10 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="vjphzdbdw"/><circle class="p_obkct5z"/><path class="ju3ld-sdd"/><rect class="si68wrbxw"/><path class="axsgziboa"/><path class="i9clfwm2k"/>`;
+const content = `<path class="vjphzdbdw"/><circle class="p_obkct5z"/><path class="ju3ld-sdd"/><rect class="si68wrbxw"/><path class="tpcl69ban"/><path class="i9clfwm2k"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:156-poa" /></template>
 <style>
-.axsgziboa {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M35.1 33.187h-4.431M29.572 36.5l3.313-10l3.312 10M18.093 22.362c.819.687 1.613 1 3.599 1h.341a3.326 3.326 0 0 0 3.326-3.325h0a3.326 3.326 0 0 0-3.326-3.326h-3.94V11.5h7.266M11.803 29.832h3.637m-1.157 1.183v-2.366");
-}
-
 .i9clfwm2k {
   fill: none;
   stroke: currentColor;
@@ -53,6 +45,14 @@ const content = `<path class="vjphzdbdw"/><circle class="p_obkct5z"/><path class
   stroke-linejoin: round;
   rx: 3.313px;
   ry: 3.313px;
+}
+
+.tpcl69ban {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M35.1 33.187h-4.431M29.572 36.5l3.313-10l3.312 10M18.093 22.362c.819.687 1.613 1 3.599 1h.341a3.326 3.326 0 0 0 0-6.652h-3.94V11.5h7.266M11.803 29.832h3.637m-1.157 1.183v-2.366");
 }
 
 .vjphzdbdw {

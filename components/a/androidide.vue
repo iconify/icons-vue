@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="g9gtfac6v"/><path class="fl3ruu9ab"/><circle class="ddl1rkb7o"/><circle class="pj25cdclk"/>`;
+const content = `<path class="g9gtfac6v"/><path class="edbl3-bpn"/><circle class="ddl1rkb7o"/><circle class="pj25cdclk"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:androidide" /></template>
 <style>
@@ -15,12 +15,12 @@ const content = `<path class="g9gtfac6v"/><path class="fl3ruu9ab"/><circle class
   fill: currentColor;
 }
 
-.fl3ruu9ab {
+.edbl3-bpn {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M13.278 30.91c0-6.171 4.827-11.174 10.782-11.174h0c5.955 0 10.783 5.003 10.783 11.174zm18.079-8.229l2.829-2.829m-17.754 2.842l-2.828-2.828");
+  d: path("M13.278 30.91c0-6.171 4.827-11.174 10.782-11.174s10.783 5.003 10.783 11.174zm18.079-8.229l2.829-2.829m-17.754 2.842l-2.828-2.828");
 }
 
 .g9gtfac6v {

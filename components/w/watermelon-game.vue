@@ -4,10 +4,18 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="qeemwabnq"/><path class="muiyhpqzb"/><path class="sygx6j60e"/><path class="xiqgkxbwd"/><path class="che2t6b8l"/><path class="zxq0sgbuh"/><path class="p3s8pc89l"/><path class="crr32y8xe"/><path class="vk0p20m6v"/>`;
+const content = `<path class="qeemwabnq"/><path class="muiyhpqzb"/><path class="sygx6j60e"/><path class="b_59_xbrb"/><path class="che2t6b8l"/><path class="zxq0sgbuh"/><path class="p3s8pc89l"/><path class="crr32y8xe"/><path class="vk0p20m6v"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:watermelon-game" /></template>
 <style>
+.b_59_xbrb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M14.3 23.37c2.59-4.87 6.767-5.15 10.785-4.502C27.3 14.36 34.024 12 38.626 15.469m-5.567 9.161a2.061 2.061 0 1 1 2.247-2.054c0 .357.045.463-.047.803zm-8.82 3.28a2.054 2.054 0 1 0-2.354.493c.772-.225 1.535-.346 2.353-.494m12.517-4.349l-2.058 1.091m-13.533 5.144l1.93-.859m15.845-13.32c.41-1.315 2.29-1.889 3.433-.91m.087 11.181c-.965.853-2.165 1.223-3.08.97m.869-7.879c.5-.958 1.304-1.522 2.21-1.291");
+}
+
 .che2t6b8l {
   fill: none;
   stroke: currentColor;
@@ -62,14 +70,6 @@ const content = `<path class="qeemwabnq"/><path class="muiyhpqzb"/><path class="
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("M14.164 36.198c-1.957-.087-3.108-1.62-2.963-2.771c.005-2.338-1.792-2.254-2.886-1.168c-.605.6-.773 1.717-.746 2.478c.138 3.828 2.71 5.67 5.677 5.35m2.356-29.007c1.18 1.22-.217 2.892.084 3.761c-.966-.438-2.094.278-2.874.046c-1.3-.386-1.178-1.6-.837-2.078c.379-.532.974-.498 1.553-.568c-.316-.988.875-2.398 2.073-1.16z");
-}
-
-.xiqgkxbwd {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M14.3 23.37c2.59-4.87 6.767-5.15 10.785-4.502C27.3 14.36 34.024 12 38.626 15.469m-5.567 9.161a2.061 2.061 0 1 1 2.247-2.054h0c0 .357.045.463-.047.803zm-8.82 3.28a2.05 2.05 0 0 0 .535-1.383h0a2.054 2.054 0 1 0-2.89 1.876c.773-.225 1.536-.346 2.354-.494zm12.516-4.35l-2.058 1.091m-13.533 5.144l1.93-.859m15.845-13.32c.41-1.315 2.29-1.889 3.433-.91m.087 11.181c-.965.853-2.165 1.223-3.08.97m.869-7.879c.5-.958 1.304-1.522 2.21-1.291");
 }
 
 .zxq0sgbuh {

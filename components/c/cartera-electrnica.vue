@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="b1u_820ou"/><path class="tlra3bb6y"/>`;
+const content = `<path class="b1u_820ou"/><path class="brafls9bt"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:cartera-electrnica" /></template>
 <style>
@@ -16,12 +16,12 @@ const content = `<path class="b1u_820ou"/><path class="tlra3bb6y"/>`;
   d: path("M37.431 12.931h-4.535c-1.585 0-3.186.398-4.452 1.352c-.934.703-2.575 1.17-4.444 1.17s-3.51-.467-4.444-1.17c-1.266-.954-2.867-1.352-4.452-1.352h-4.535a2.82 2.82 0 0 0-2.818 2.818V32.25a2.82 2.82 0 0 0 2.818 2.818H37.43a2.82 2.82 0 0 0 2.818-2.818v-16.5a2.82 2.82 0 0 0-2.818-2.818m-19.847 6.415h3.083m-3.083 9.306v-9.306");
 }
 
-.tlra3bb6y {
+.brafls9bt {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M24.193 24.814a2.327 2.327 0 0 1 2.327-2.326h0a2.327 2.327 0 0 1 2.327 2.326v3.84m-4.654-6.166v6.165m4.654-3.839a2.327 2.327 0 0 1 2.326-2.326h0a2.327 2.327 0 0 1 2.327 2.326v3.84M22.051 25.57h-2.326m-6.299-3.577v-2.646h2.646z");
+  d: path("M24.193 24.814a2.327 2.327 0 0 1 4.653 0v3.84m-4.653-6.166v6.165m4.654-3.839a2.327 2.327 0 0 1 4.653 0v3.84M22.051 25.57h-2.326m-6.299-3.577v-2.646h2.646z");
 }
 
 </style>

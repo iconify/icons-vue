@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="hzf_3_rgu"/><ellipse class="qksh4hbpd"/><path class="qynm4ibmz"/>`;
+const content = `<path class="hzf_3_rgu"/><ellipse class="qksh4hbpd"/><path class="x5ts-4bsb"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:ruthlesssettings" /></template>
 <style>
@@ -27,12 +27,12 @@ const content = `<path class="hzf_3_rgu"/><ellipse class="qksh4hbpd"/><path clas
   ry: 12.07px;
 }
 
-.qynm4ibmz {
+.x5ts-4bsb {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("m41.12 38.36l-2.37-3.6h0a18.53 18.53 0 1 0-33.26-11.2v-.11v16.63");
+  d: path("m41.12 38.36l-2.37-3.6a18.53 18.53 0 1 0-33.26-11.2v-.11v16.63");
 }
 
 </style>

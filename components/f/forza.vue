@@ -4,24 +4,24 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="rvjtz-bqv"/><path class="my9odtbed"/><path class="w6j-8cbas"/><path class="t5w5gebub"/>`;
+const content = `<path class="b17nich1k"/><path class="cz11n9unt"/><path class="w6j-8cbas"/><path class="t5w5gebub"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:forza" /></template>
 <style>
-.my9odtbed {
+.b17nich1k {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M24 44H5.868A1.863 1.863 0 0 1 4 42.141V24m33.993 14.291A20 20 0 0 1 24 44M4 24a20 20 0 0 1 5.712-13.994m0 0A20 20 0 0 1 24 4c11.046 0 20 8.954 20 20h0a20 20 0 0 1-6.007 14.29");
+  d: path("M28.51 27.372c-1.48 1.92-3.494 3.647-6.093 5.022l2.141 5.14c2.451.087 4.702-.21 7.084-.925c1.758-1.866 2.381-3.959 2.155-6.402a58 58 0 0 0-5.287-2.834m-13.858-5.448a19.6 19.6 0 0 0 .798 7.21c-1.48.936-2.695 1.634-4.14 2.611c-1.985-1.886-2.853-2.874-3.805-5.545c.19-2.254.943-4.284 2.269-6.057zm6.458-10.603c-.68 1.853-.897 3.709-.637 6.158c2.474.819 4.969 1.86 7.026 2.949c1.373-1.717 2.95-3.262 4.614-4.733c-.765-1.932-1.957-3.944-4.219-5.35c-2.758-.305-4.594.029-6.784.976");
 }
 
-.rvjtz-bqv {
+.cz11n9unt {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M28.51 27.372c-1.48 1.92-3.494 3.647-6.093 5.022l2.141 5.14c2.451.087 4.702-.21 7.084-.925c1.758-1.866 2.381-3.959 2.155-6.402a58 58 0 0 0-5.287-2.834zm-13.858-5.447a19.6 19.6 0 0 0 .798 7.21c-1.48.936-2.695 1.634-4.14 2.611c-1.985-1.886-2.853-2.874-3.805-5.545c.19-2.254.943-4.284 2.269-6.057zm6.458-10.603c-.68 1.853-.897 3.709-.637 6.158c2.474.819 4.969 1.86 7.026 2.949c1.373-1.717 2.95-3.262 4.614-4.733c-.765-1.932-1.957-3.944-4.219-5.35c-2.758-.305-4.594.029-6.784.976");
+  d: path("M24 44H5.868A1.863 1.863 0 0 1 4 42.141V24m33.993 14.291A20 20 0 0 1 24 44M4 24a20 20 0 0 1 5.712-13.994m0 0A20 20 0 0 1 24 4c11.046 0 20 8.954 20 20a20 20 0 0 1-6.007 14.29");
 }
 
 .t5w5gebub {

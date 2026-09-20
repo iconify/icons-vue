@@ -4,10 +4,18 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="mqf0nb2mk"/><path class="howolqbrm"/><path class="s-pxs9b9j"/><path class="z2tu3bcyr"/>`;
+const content = `<path class="mqf0nb2mk"/><path class="howolqbrm"/><path class="cw8-hpbdn"/><path class="z2tu3bcyr"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:fcitx5" /></template>
 <style>
+.cw8-hpbdn {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M24 28.872zc-2.49 0-8.49-4.872-8.49-7.191V5.5h16.98v16.18c0 2.117-6.065 7.192-8.49 7.192m-1.511-18.413l-4.971 2.28m12.993.013l-5-2.293");
+}
+
 .howolqbrm {
   fill: none;
   stroke: currentColor;
@@ -22,14 +30,6 @@ const content = `<path class="mqf0nb2mk"/><path class="howolqbrm"/><path class="
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("M15.51 18.573H7.64c-1.148 0-2.078.93-2.078 2.078v19.771c0 1.148.93 2.078 2.078 2.078h32.72c1.148 0 2.078-.93 2.078-2.078V20.651c0-1.148-.93-2.078-2.078-2.078h-7.87");
-}
-
-.s-pxs9b9j {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M24 28.872c-2.49 0-8.49-4.872-8.49-7.191V5.5h16.98v16.18c0 2.117-6.065 7.192-8.49 7.192m-1.511-18.413l-4.971 2.28m12.993.013l-5-2.293");
 }
 
 .z2tu3bcyr {

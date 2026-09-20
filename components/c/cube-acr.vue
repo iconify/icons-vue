@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="cts6macco"/><path class="ca80qvn7g"/><path class="zvs8opb8t"/><path class="bu63mmbfv"/>`;
+const content = `<path class="cts6macco"/><path class="ca80qvn7g"/><path class="pz255kcfx"/><path class="bu63mmbfv"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:cube-acr" /></template>
 <style>
@@ -32,12 +32,12 @@ const content = `<path class="cts6macco"/><path class="ca80qvn7g"/><path class="
   d: path("M7.03 14.23L24 24.03l16.86-9.73l-16.97-9.8Z");
 }
 
-.zvs8opb8t {
+.pz255kcfx {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M11.347 27.33c.433-.194 2.06-.92 2.211-.979c.198-.12.26-.404.162-.75q-.201-.989-.31-1.941a1.2 1.2 0 0 0-.624-.858l-.019-.009l-2.374-1.37c-.205-.1-.365-.027-.379.17a14.7 14.7 0 0 0 1.287 5.63h0l.01.023zh.002a22.6 22.6 0 0 0 3.634 5.723l-.004.001l.122.139l.004.004h0a19.6 19.6 0 0 0 4.837 4.056c.205.104.37.039.389-.155v-2.376a1.1 1.1 0 0 0-.476-.916l-.019-.013q-.888-.621-1.76-1.326a.99.99 0 0 0-.844-.325c-.146.068-1.808.734-2.253.913m17.849-9.458c1.064-.28 1.961.538 2.004 1.826h0l.094 2.883a2.86 2.86 0 0 1-1.85 2.84h0c-1.064.28-1.96-.539-2.003-1.827v0l-.095-2.883a2.86 2.86 0 0 1 1.85-2.839");
+  d: path("M11.347 27.33c.433-.194 2.06-.92 2.211-.979c.198-.12.26-.404.162-.75q-.201-.989-.31-1.941a1.2 1.2 0 0 0-.624-.858l-.019-.009l-2.374-1.37c-.205-.1-.365-.027-.379.17a14.7 14.7 0 0 0 1.287 5.63l.01.023zh.002a22.6 22.6 0 0 0 3.634 5.723l-.004.001l.122.139l.004.004a19.6 19.6 0 0 0 4.837 4.056c.205.104.37.039.389-.155v-2.376a1.1 1.1 0 0 0-.476-.916l-.019-.013q-.888-.621-1.76-1.326a.99.99 0 0 0-.844-.325c-.146.068-1.808.734-2.253.913m17.849-9.458zc1.064-.28 1.961.538 2.004 1.826l.094 2.883a2.86 2.86 0 0 1-1.85 2.84c-1.064.28-1.96-.539-2.003-1.827l-.095-2.883a2.86 2.86 0 0 1 1.85-2.839");
 }
 
 </style>

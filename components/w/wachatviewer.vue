@@ -4,18 +4,10 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<circle class="h6my3_b_z"/><path class="w3zg7vb8z"/><path class="a6_xrziwd"/>`;
+const content = `<circle class="h6my3_b_z"/><path class="w3zg7vb8z"/><path class="q_0-v852m"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:wachatviewer" /></template>
 <style>
-.a6_xrziwd {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M17.856 21.755c.42-.429 1.993-2.04 2.14-2.182a.85.85 0 0 0 .157-.817a17 17 0 0 1-.3-1.705a.546.546 0 0 0-.622-.48h-2.298a.405.405 0 0 0-.367.377a9.6 9.6 0 0 0 1.246 4.728v.001l.01.018zl.002-.002a9.6 9.6 0 0 0 3.517 3.509l-.004.003l.118.065l.004.003h0a9.54 9.54 0 0 0 4.68 1.222a.406.406 0 0 0 .377-.367V23.89a.546.546 0 0 0-.479-.623a16 16 0 0 1-1.704-.3a.85.85 0 0 0-.816.157c-.141.147-1.75 1.721-2.18 2.142");
-}
-
 .h6my3_b_z {
   cx: 21.566px;
   cy: 21.566px;
@@ -24,6 +16,14 @@ const content = `<circle class="h6my3_b_z"/><path class="w3zg7vb8z"/><path class
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
+}
+
+.q_0-v852m {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M17.856 21.755c.42-.429 1.993-2.04 2.14-2.182a.85.85 0 0 0 .157-.817a17 17 0 0 1-.3-1.705a.546.546 0 0 0-.622-.48h-2.298a.405.405 0 0 0-.367.377a9.6 9.6 0 0 0 1.246 4.728v.001l.01.018zl.002-.002a9.6 9.6 0 0 0 3.517 3.509l-.004.003l.118.065l.004.003a9.54 9.54 0 0 0 4.68 1.222a.406.406 0 0 0 .377-.367V23.89a.546.546 0 0 0-.479-.623a16 16 0 0 1-1.704-.3a.85.85 0 0 0-.816.157c-.141.147-1.75 1.721-2.18 2.142");
 }
 
 .w3zg7vb8z {

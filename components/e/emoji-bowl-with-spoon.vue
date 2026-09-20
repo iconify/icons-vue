@@ -4,16 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="wwq799xqg"/><path class="kv08ngbya"/>`;
+const content = `<path class="wwq799xqg"/><path class="tet5u0u1p"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:emoji-bowl-with-spoon" /></template>
 <style>
-.kv08ngbya {
+.tet5u0u1p {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M16.724 36.645v1.55c0 .585.474 1.058 1.058 1.058h12.593c.585 0 1.058-.473 1.058-1.058h0v-1.523m2.326-20.486c3.226 0 5.842-1.665 5.842-3.72s-2.615-3.72-5.842-3.72c-2.997 0-5.465.865-5.802 2.716h0l-18.125-.517a1.276 1.276 0 0 0 0 2.55l18.13-.017h0c.34 1.847 2.803 2.708 5.797 2.708");
+  d: path("M16.724 36.645v1.55c0 .585.474 1.058 1.058 1.058h12.593c.585 0 1.058-.473 1.058-1.058v-1.523m2.326-20.486c3.226 0 5.842-1.665 5.842-3.72s-2.615-3.72-5.842-3.72c-2.997 0-5.465.865-5.802 2.716l-18.125-.517a1.276 1.276 0 0 0 0 2.55l18.13-.017c.34 1.847 2.803 2.708 5.797 2.708");
 }
 
 .wwq799xqg {

@@ -4,18 +4,10 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="t39rr8bdu"/><path class="swg7lcchr"/><circle class="mythbmb_s"/><path class="aqxugvf1b"/>`;
+const content = `<path class="t39rr8bdu"/><path class="swg7lcchr"/><circle class="mythbmb_s"/><path class="vpafvrbsk"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:open-100x" /></template>
 <style>
-.aqxugvf1b {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("m17.934 24.402l1.106-.602v4.423m11.029-.746l-2.212-2.93m2.212 0l-2.212 2.93M21.491 23.8c.812 0 1.465.654 1.465 1.466v1.493c0 .811-.653 1.465-1.465 1.465h0a1.46 1.46 0 0 1-1.465-1.466v-1.492c0-.812.654-1.465 1.465-1.465m1.119.521l-2.24 3.382m5.037-3.904c.812 0 1.465.654 1.465 1.466v1.493c0 .811-.653 1.465-1.465 1.465h0a1.46 1.46 0 0 1-1.465-1.466v-1.492c0-.812.653-1.465 1.465-1.465m1.118.521l-2.24 3.382");
-}
-
 .mythbmb_s {
   cx: 38.503px;
   cy: 17.6px;
@@ -40,6 +32,14 @@ const content = `<path class="t39rr8bdu"/><path class="swg7lcchr"/><circle class
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("M24.002 17.5a8.5 8.5 0 1 1 0 17a8.5 8.5 0 0 1 0-17");
+}
+
+.vpafvrbsk {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("m17.934 24.402l1.106-.602v4.423m11.029-.746l-2.212-2.93m2.212 0l-2.212 2.93M21.491 23.8zc.812 0 1.465.654 1.465 1.466v1.493c0 .811-.653 1.465-1.465 1.465a1.46 1.46 0 0 1-1.465-1.466v-1.492c0-.812.654-1.465 1.465-1.465m1.119.521l-2.24 3.382m5.037-3.904zc.812 0 1.465.654 1.465 1.466v1.493c0 .811-.653 1.465-1.465 1.465a1.46 1.46 0 0 1-1.465-1.466v-1.492c0-.812.653-1.465 1.465-1.465m1.118.521l-2.24 3.382");
 }
 
 </style>

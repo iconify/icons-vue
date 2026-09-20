@@ -4,24 +4,24 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<ellipse class="vyipyruee"/><path class="nksc4lbom"/><path class="ds1sfujms"/>`;
+const content = `<ellipse class="vyipyruee"/><path class="nksc4lbom"/><path class="s_5r9rb_g"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:buy-trianguloy-a-coffee" /></template>
 <style>
-.ds1sfujms {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M39.125 13.483c.743 8.186.614 10.032 0 13.235h0c-.872 4.38-7.33 7.805-16.374 7.805S7.19 30.951 6.378 26.718c-.614-3.203-.743-5.049 0-13.235");
-}
-
 .nksc4lbom {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("M37.7 29.898c2.082.92 3.3 2.028 3.3 3.23c0 3.11-8.166 5.625-18.25 5.625c-10.072 0-18.25-2.515-18.25-5.624c0-1.203 1.216-2.312 3.298-3.217m4.272-13.235c.581-2.122 5.137-3.771 10.68-3.771s10.098 1.649 10.679 3.771m5.691.879a5.865 5.865 0 0 1 4.38 5.678a5.87 5.87 0 0 1-5.123 5.826");
+}
+
+.s_5r9rb_g {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M39.125 13.483c.743 8.186.614 10.032 0 13.235c-.872 4.38-7.33 7.805-16.374 7.805S7.19 30.951 6.378 26.718c-.614-3.203-.743-5.049 0-13.235");
 }
 
 .vyipyruee {

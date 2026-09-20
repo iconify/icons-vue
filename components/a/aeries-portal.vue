@@ -4,16 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="udl7ntnvw"/><path class="esm1xodsh"/>`;
+const content = `<path class="udl7ntnvw"/><path class="lbbj-sbpi"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:aeries-portal" /></template>
 <style>
-.esm1xodsh {
+.lbbj-sbpi {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("m36.14 42.5l-1.843-5.635h0h-15.52L16.88 42.5m9.774-29.515L21.163 29.58h10.808z");
+  d: path("m36.14 42.5l-1.843-5.635h-15.52L16.88 42.5m9.774-29.515L21.163 29.58h10.808z");
 }
 
 .udl7ntnvw {

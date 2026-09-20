@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<g class="y9tr6bcfx"><path class="za4lbpb-s"/><rect class="jwpe47e7e"/><rect class="rgcydlbas"/><rect class="e-04qgxxa"/><path class="xw58dppcq"/><rect class="rgf3zqb3y"/><rect class="n8oasabdf"/><rect class="cf-xth5ws"/><path class="bk5ojmbhy"/><rect class="fs_71_bzy"/><path class="ey931hjnn"/></g><path class="f9zq_zbfo"/>`;
+const content = `<g class="y9tr6bcfx"><path class="za4lbpb-s"/><rect class="jwpe47e7e"/><rect class="rgcydlbas"/><rect class="e-04qgxxa"/><path class="ocel3bcpk"/><rect class="rgf3zqb3y"/><rect class="n8oasabdf"/><rect class="cf-xth5ws"/><path class="bk5ojmbhy"/><rect class="fs_71_bzy"/><path class="ehr-8zajk"/></g><path class="vtyf68bzi"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:1c-keyboard" /></template>
 <style>
@@ -30,16 +30,8 @@ const content = `<g class="y9tr6bcfx"><path class="za4lbpb-s"/><rect class="jwpe
   ry: 0.421px;
 }
 
-.ey931hjnn {
-  d: path("m34.253 23.878l-10.131 7.768l-10.13-7.768a2.1 2.1 0 0 1-.824-1.67V7.183c0-.93.753-1.683 1.683-1.683h18.542c.93 0 1.683.754 1.683 1.683h0v15.025c0 .654-.304 1.271-.824 1.67");
-}
-
-.f9zq_zbfo {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("m16.257 11.759l3.25-1.77v13m12.236-4.359v.053a4.306 4.306 0 0 1-4.306 4.306h0a4.306 4.306 0 0 1-4.307-4.306v-4.387a4.306 4.306 0 0 1 4.307-4.307h0a4.306 4.306 0 0 1 4.306 4.307v.053");
+.ehr-8zajk {
+  d: path("m34.253 23.878l-10.131 7.768l-10.13-7.768a2.1 2.1 0 0 1-.824-1.67V7.183c0-.93.753-1.683 1.683-1.683h18.542c.93 0 1.683.754 1.683 1.683v15.025c0 .654-.304 1.271-.824 1.67");
 }
 
 .fs_71_bzy {
@@ -69,6 +61,10 @@ const content = `<g class="y9tr6bcfx"><path class="za4lbpb-s"/><rect class="jwpe
   ry: 0.421px;
 }
 
+.ocel3bcpk {
+  d: path("M25.805 30.355v2.37a.42.42 0 0 1-.42.421H22.86a.42.42 0 0 1-.42-.42v-2.37");
+}
+
 .rgcydlbas {
   width: 3.366px;
   height: 3.366px;
@@ -87,8 +83,12 @@ const content = `<g class="y9tr6bcfx"><path class="za4lbpb-s"/><rect class="jwpe
   ry: 0.421px;
 }
 
-.xw58dppcq {
-  d: path("M25.805 30.355v2.37a.42.42 0 0 1-.42.421H22.86a.42.42 0 0 1-.42-.42h0v-2.37");
+.vtyf68bzi {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("m16.257 11.759l3.25-1.77v13m12.236-4.359v.053a4.306 4.306 0 1 1-8.612 0v-4.387a4.306 4.306 0 1 1 8.613 0v.053");
 }
 
 .y9tr6bcfx {

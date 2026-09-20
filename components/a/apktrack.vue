@@ -4,16 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="rf1w9abyr"/><path class="ug9rg2_bw"/><path class="l0dps7k6m"/>`;
+const content = `<path class="rf1w9abyr"/><path class="ug9rg2_bw"/><path class="b17p6qt5y"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:apktrack" /></template>
 <style>
-.l0dps7k6m {
+.b17p6qt5y {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M24 26.63a8.72 8.72 0 0 1 8.72 8.72v0a1.24 1.24 0 0 1-1.24 1.24h-15a1.24 1.24 0 0 1-1.24-1.24v0A8.72 8.72 0 0 1 24 26.63m-7.53-1.31l2.48 2.92m12.58-2.92l-2.48 2.92");
+  d: path("M24 26.63za8.72 8.72 0 0 1 8.72 8.72a1.24 1.24 0 0 1-1.24 1.24h-15a1.24 1.24 0 0 1-1.24-1.24A8.72 8.72 0 0 1 24 26.63m-7.53-1.31l2.48 2.92m12.58-2.92l-2.48 2.92");
 }
 
 .rf1w9abyr {

@@ -4,12 +4,12 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<g class="y9tr6bcfx"><path class="g3d-wsuzw"/><path class="nrx75tbmc"/><path class="xxq8ksbxo"/></g>`;
+const content = `<g class="y9tr6bcfx"><path class="afc5d5m4g"/><path class="nrx75tbmc"/><path class="xxq8ksbxo"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:body-measures" /></template>
 <style>
-.g3d-wsuzw {
-  d: path("M15.819 41.078h16.974M19.302 6.8h14.714m.039.01c5.207 3.384 8.436 9.808 8.436 16.78h0c0 7.437-3.67 14.205-9.418 17.368m-2.226-26.502h9.436m-7.485 9.784h9.52m-12.062 9.602l9.668-.029M16.339 18.189h10.177m-10.066-.006h.296m2.602-11.329c4.751 3.478 7.733 9.755 7.733 16.42h0c-.04 7.12-2.977 14.17-7.069 16.781c-1.087.694-2.31.978-3.489 1.026");
+.afc5d5m4g {
+  d: path("M15.819 41.078h16.974M19.302 6.8h14.714m.039.01c5.207 3.384 8.436 9.808 8.436 16.78c0 7.437-3.67 14.205-9.418 17.368m-2.226-26.502h9.436m-7.485 9.784h9.52m-12.062 9.602l9.668-.029M16.339 18.189h10.177m-10.066-.006h.296m2.602-11.329c4.751 3.478 7.733 9.755 7.733 16.42c-.04 7.12-2.977 14.17-7.069 16.781c-1.087.694-2.31.978-3.489 1.026");
 }
 
 .nrx75tbmc {

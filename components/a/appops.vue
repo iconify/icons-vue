@@ -4,16 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="pqd-jlbxp"/><path class="w99y1n2ph"/>`;
+const content = `<path class="e2p7h7iqw"/><path class="w99y1n2ph"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:appops" /></template>
 <style>
-.pqd-jlbxp {
+.e2p7h7iqw {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("m38.18 11.78l2.45-2.41a2.85 2.85 0 0 0 0-4v0a2.87 2.87 0 0 0-4 0l-2.46 2.41a17.41 17.41 0 0 0-20.34 0L11.4 5.36a2.88 2.88 0 0 0-4.06 0v0a2.85 2.85 0 0 0 0 4l2.44 2.41A17.4 17.4 0 0 0 6.51 22v19.66a1.84 1.84 0 0 0 1.84 1.84h31.3a1.84 1.84 0 0 0 1.84-1.84V22a17.42 17.42 0 0 0-3.31-10.22m-21.54 13a3.22 3.22 0 1 1 3.22-3.22a3.22 3.22 0 0 1-3.22 3.21Zm14.72 0a3.22 3.22 0 1 1 3.22-3.22a3.22 3.22 0 0 1-3.22 3.21Z");
+  d: path("m38.18 11.78l2.45-2.41a2.85 2.85 0 0 0 0-4a2.87 2.87 0 0 0-4 0l-2.46 2.41a17.41 17.41 0 0 0-20.34 0L11.4 5.36a2.88 2.88 0 0 0-4.06 0a2.85 2.85 0 0 0 0 4l2.44 2.41A17.4 17.4 0 0 0 6.51 22v19.66a1.84 1.84 0 0 0 1.84 1.84h31.3a1.84 1.84 0 0 0 1.84-1.84V22a17.42 17.42 0 0 0-3.31-10.22m-21.54 13a3.22 3.22 0 1 1 3.22-3.22a3.22 3.22 0 0 1-3.22 3.21Zm14.72 0a3.22 3.22 0 1 1 3.22-3.22a3.22 3.22 0 0 1-3.22 3.21Z");
 }
 
 .w99y1n2ph {

@@ -4,10 +4,18 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="sulllcbsi"/><path class="rntsupbzy"/><rect class="j675s-b4c"/>`;
+const content = `<path class="sulllcbsi"/><path class="d7f9xqb-w"/><rect class="j675s-b4c"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:guitar-songs" /></template>
 <style>
+.d7f9xqb-w {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M5.496 15.884c2.717-1.515 9.22-.737 13.055 2.276c4.747 3.73 9.125 4.306 12.882 2.758c4.407-1.816 9.204-.946 11.064.946m.001 0l.007.008M36.423 34.47a5.311 5.311 0 0 1-10.624 0a5.31 5.31 0 0 1 5.31-5.312h.002a5.31 5.31 0 0 1 5.31 5.312s.001 0 .001 0");
+}
+
 .j675s-b4c {
   width: 37px;
   height: 37px;
@@ -19,14 +27,6 @@ const content = `<path class="sulllcbsi"/><path class="rntsupbzy"/><rect class="
   stroke-linejoin: round;
   rx: 4px;
   ry: 4px;
-}
-
-.rntsupbzy {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M5.496 15.884c2.717-1.515 9.22-.737 13.055 2.276c4.747 3.73 9.125 4.306 12.882 2.758c4.407-1.816 9.204-.946 11.064.946m.001 0l.007.008M36.423 34.47a5.311 5.311 0 0 1-10.624 0h0a5.31 5.31 0 0 1 5.31-5.312h.002a5.31 5.31 0 0 1 5.31 5.312h.001");
 }
 
 .sulllcbsi {

@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="vgv84fb2n"/><path class="ue_w_m1hm"/><path class="v4g0olbgq"/>`;
+const content = `<path class="vgv84fb2n"/><path class="ue_w_m1hm"/><path class="v7fzybbho"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:gps-emulator" /></template>
 <style>
@@ -16,12 +16,12 @@ const content = `<path class="vgv84fb2n"/><path class="ue_w_m1hm"/><path class="
   d: path("M15.384 11.492c5.72 2.004 11.42 2.933 17.58 1.93");
 }
 
-.v4g0olbgq {
+.v7fzybbho {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M33.184 12.814c3.585 1.438 5.578 3.169 5.372 4.664h0c-.357 2.606-7.164 3.754-15.203 2.565h-.002c-8.04-1.19-14.265-4.266-13.907-6.872q0 0 0 0c.2-1.461 2.479-2.53 6.168-2.897m-1.897 8.752c-.081-.037-.143.157-.173.265c-2.35 8.41 9.38 15.063 9.914 24.709h0c.47-8.488 9.588-14.652 10.188-21.745a58 58 0 0 1-6.466-.11c-.186 1.94-1.797 3.421-3.723 3.421c-2.065 0-3.74-1.697-3.74-3.79q0-.367.068-.728c-2.166-.506-4.212-1.183-6.068-2.022");
+  d: path("M33.184 12.814c3.585 1.438 5.578 3.169 5.372 4.664c-.357 2.606-7.164 3.754-15.203 2.565h-.002c-8.04-1.19-14.265-4.266-13.907-6.872c.2-1.461 2.479-2.53 6.168-2.897m-1.897 8.752c-.081-.037-.143.157-.173.265c-2.35 8.41 9.38 15.063 9.914 24.709c.47-8.488 9.588-14.652 10.188-21.745a58 58 0 0 1-6.466-.11c-.186 1.94-1.797 3.421-3.723 3.421c-2.065 0-3.74-1.697-3.74-3.79q0-.367.068-.728c-2.166-.506-4.212-1.183-6.068-2.022");
 }
 
 .vgv84fb2n {

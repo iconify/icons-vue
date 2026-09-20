@@ -1,0 +1,32 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<rect class="j3s9ivbxi"/><path class="irx4kgjil"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:midni" /></template>
+<style>
+.irx4kgjil {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M38.3 20v8m-28.6-.009V20l4 8l4-7.988V28m5-8h1.8a3.5 3.5 0 0 1 3.5 3.5v1a3.5 3.5 0 0 1-3.5 3.5h-1.8m7.3 0v-8l5.3 8v-8m-14.6 0v8M5.5 33.25h37m-18.5 0v9.25m-8.292-5.381l-.958.311m0-1.007v1.007m.592.814l-.592-.814m-.958-.311l.958.311m-.592.814l.592-.814m4.997.771l-.957.311m0-1.007v1.007m.591.815l-.591-.815m-.958-.311l.958.311m-.592.815l.592-.815m-9.037-.311l.958.311m0-1.007v1.007m-.592.815l.592-.815m.957-.311l-.957.311m.591.815l-.591-.815m19.562-.637h1.304m.348 2h-2v-4h2m2.079 3.562c.245.32.553.438.98.438h.593a1 1 0 0 0 .998-.998v-.004a1 1 0 0 0-.998-.998h-.653a1.001 1.001 0 0 1 .002-2h.589c.428 0 .736.12.98.439");
+}
+
+.j3s9ivbxi {
+  width: 37px;
+  height: 37px;
+  x: 5.5px;
+  y: 5.5px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  rx: 4px;
+  ry: 4px;
+}
+
+</style>

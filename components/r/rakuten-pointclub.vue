@@ -4,12 +4,12 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<g class="y9tr6bcfx"><path class="h635-2bwi"/><path class="n4xxmpm4n"/></g><g class="y9tr6bcfx"><path class="jpb12nbgq"/><path class="v4u8a36zl"/></g>`;
+const content = `<g class="y9tr6bcfx"><path class="haqhm0avn"/><path class="n4xxmpm4n"/></g><g class="y9tr6bcfx"><path class="jpb12nbgq"/><path class="wuvxs4bfc"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:rakuten-pointclub" /></template>
 <style>
-.h635-2bwi {
-  d: path("M12.243 27.93a14.1 14.1 0 0 1-.985-5.18c0-7.443 5.743-13.478 12.827-13.478h0c7.084 0 12.827 6.035 12.827 13.478h0c0 1.778-.335 3.539-.985 5.18m-6.283 6.966c-1.734.877-3.634 1.332-5.56 1.332s-3.824-.455-5.558-1.332");
+.haqhm0avn {
+  d: path("M12.243 27.93a14.1 14.1 0 0 1-.985-5.18c0-7.443 5.743-13.478 12.827-13.478s12.827 6.035 12.827 13.478c0 1.778-.335 3.539-.985 5.18m-6.283 6.966c-1.734.877-3.634 1.332-5.56 1.332s-3.824-.455-5.558-1.332");
 }
 
 .jpb12nbgq {
@@ -20,8 +20,8 @@ const content = `<g class="y9tr6bcfx"><path class="h635-2bwi"/><path class="n4xx
   d: path("M21.277 24.689V14.607h3.29c1.898 0 3.417 1.512 3.417 3.403s-1.519 3.402-3.417 3.402h-3.29");
 }
 
-.v4u8a36zl {
-  d: path("M19.99 29.24v4.27h2.003m3.162-4.27v2.829c0 .8.6 1.441 1.302 1.441s1.351-.64 1.351-1.441v-2.83m-10.979 2.805c0 .8-.601 1.441-1.352 1.441h0c-.751 0-1.352-.64-1.352-1.388v-1.441c0-.801.601-1.442 1.352-1.388h0c.751 0 1.302.64 1.302 1.388h0m15.893.719c.551 0 1.002.48 1.002 1.068s-.45 1.067-1.002 1.067H31.02v-4.27h1.652c.551 0 1.002.48 1.002 1.067s-.45 1.068-1.002 1.068m0 0H30.97");
+.wuvxs4bfc {
+  d: path("M19.99 29.24v4.27h2.003m3.162-4.27v2.829c0 .8.6 1.441 1.302 1.441s1.351-.64 1.351-1.441v-2.83m-10.979 2.805zc0 .8-.601 1.441-1.352 1.441s-1.352-.64-1.352-1.388v-1.441c0-.801.601-1.442 1.352-1.388c.751 0 1.302.64 1.302 1.388m15.893.719c.551 0 1.002.48 1.002 1.068s-.45 1.067-1.002 1.067H31.02v-4.27h1.652c.551 0 1.002.48 1.002 1.067s-.45 1.068-1.002 1.068m0 0H30.97");
 }
 
 .y9tr6bcfx {

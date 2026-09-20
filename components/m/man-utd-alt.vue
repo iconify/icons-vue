@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="pqobx7w1r"/><path class="i46zhjb_v"/><path class="jq5nlu8xd"/><path class="qm7j07pmz"/><path class="fk54m_6el"/><path class="f7wslb64z"/><path class="z21j8ebhx"/><path class="aqb8w1b5s"/><path class="m3_fu_bkj"/><path class="xn3630t4a"/><path class="pmkqzzb3d"/><path class="sjsg71bud"/><path class="bvqcwzbys"/><path class="ui2991rnm"/><path class="ncsq3ivhf"/><path class="h74h3r-rb"/><path class="mmqhf-brf"/><path class="qm031mbqc"/><path class="t9om0mbdc"/>`;
+const content = `<path class="pqobx7w1r"/><path class="i46zhjb_v"/><path class="jq5nlu8xd"/><path class="qm7j07pmz"/><path class="fk54m_6el"/><path class="f7wslb64z"/><path class="nttebab5o"/><path class="aqb8w1b5s"/><path class="m3_fu_bkj"/><path class="xn3630t4a"/><path class="pmkqzzb3d"/><path class="sjsg71bud"/><path class="bvqcwzbys"/><path class="k3iw4ibyf"/><path class="ncsq3ivhf"/><path class="h74h3r-rb"/><path class="mmqhf-brf"/><path class="qm031mbqc"/><path class="t9om0mbdc"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:man-utd-alt" /></template>
 <style>
@@ -64,6 +64,14 @@ const content = `<path class="pqobx7w1r"/><path class="i46zhjb_v"/><path class="
   d: path("m7.87 12.322l-2.19 2.27c-.73.756.143 1.3 1.026 1.063m.402-.457c.787.206.976.83.902 1.659m-1.304-1.202l2.025-2.302m8.319-4.495c0-4.16 1.81-5.146 5.346-1.482");
 }
 
+.k3iw4ibyf {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M5.583 24.9c.25.573.785.8 1.55.826m3.718-.636c-.291 1.086-1.458 1.623-2.12 1.484m33.861-.705a2.777 2.777 0 1 1-5.555 0a2.777 2.777 0 1 1 5.555 0");
+}
+
 .m3_fu_bkj {
   fill: none;
   stroke: currentColor;
@@ -86,6 +94,14 @@ const content = `<path class="pqobx7w1r"/><path class="i46zhjb_v"/><path class="
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("M38.395 23.959c.263.295 1.931.86 2.84 0");
+}
+
+.nttebab5o {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M29.516 5.157c.019 1.125-.166 1.42-.894 1.458m-6.225.761c1.069-3.819 2.138-3.85 3.207 0m-2.536-1.899l.718.433m-5.584 7.794h11.596m-14.446 6.943h17.296M10.963 25.87a2.778 2.778 0 0 1-5.555 0a2.778 2.778 0 0 1 5.555 0m7.848-5.223l-.864-2.24l1.297.448h10.81v1.823m-8.556 14.647c-3.337-.489-6.42-1.94-8.81-4.148m22.624-.001c-2.389 2.208-5.473 3.66-8.81 4.149");
 }
 
 .pmkqzzb3d {
@@ -136,28 +152,12 @@ const content = `<path class="pqobx7w1r"/><path class="i46zhjb_v"/><path class="
   d: path("m22.186 25.36l-.907-2.721h.68l.68-.68l.681.68l.454.014l.68-.695l.68.68h.68m0 .001l-.907 2.72l.68.68l-.68.907m0 .001c2.15-.485 3.74-.175 4.081.453m-4.081-.453l.567 1.757m3.514 3.457V25.36m1.36-.04h-2.72m0 0v-2.228m2.72 2.228v-2.228m-1.36 2.228v-2.228m1.639-13.15l-1.235 1.901m1.235-1.901l2.568 4.37m1.235-1.901l-1.235 1.902M13.57 12.411l1.235 1.902m-1.235-1.902l3.137.667m.666-3.136l1.235 1.901m-1.235-1.901l-.667 3.136M14.778 35.1l-.325.847c-.65 1.694 3.584 3.319 4.234 1.625l.325-.846m7.255-25.877L24 8.58m-2.267 2.269L24 8.58m-1.587 1.588h3.174M24 39.87v-2.267m2.267 0h-4.534m11.013.121c1.705-.62.93-2.752-.775-2.131m-2.208 3.215l-.775-2.13m0 .001l2.983-1.086m-2.208 3.215l2.983-1.085");
 }
 
-.ui2991rnm {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M5.583 24.9c.25.573.785.8 1.55.826m3.718-.636c-.291 1.086-1.458 1.623-2.12 1.484m33.861-.705a2.777 2.777 0 0 1-2.778 2.778h0a2.777 2.777 0 0 1-2.777-2.778h0a2.777 2.777 0 0 1 2.777-2.777h0a2.777 2.777 0 0 1 2.778 2.777");
-}
-
 .xn3630t4a {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("M22.27 41.265c-.047 2.938 3.407 3.01 3.46 0m-4.64-.121c-.017.606-.254.839-.55.97");
-}
-
-.z21j8ebhx {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M29.516 5.157c.019 1.125-.166 1.42-.894 1.458m-6.225.761c1.069-3.819 2.138-3.85 3.207 0m-2.536-1.899l.718.433m-5.584 7.794h11.596m-14.446 6.943h17.296M10.963 25.87a2.777 2.777 0 0 1-2.778 2.777h0a2.78 2.78 0 0 1-2.777-2.777h0a2.777 2.777 0 0 1 2.777-2.778h0a2.78 2.78 0 0 1 2.778 2.778m7.848-5.223l-.864-2.24l1.297.448h10.81v1.823m-8.556 14.647c-3.337-.489-6.42-1.94-8.81-4.148m22.624-.001c-2.389 2.208-5.473 3.66-8.81 4.149");
 }
 
 </style>

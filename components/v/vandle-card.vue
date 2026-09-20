@@ -4,16 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="sk1301yss"/>`;
+const content = `<path class="o8mx_2pwu"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:vandle-card" /></template>
 <style>
-.sk1301yss {
+.o8mx_2pwu {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M24 36.616c3.424 0 6.86.701 10.939.701c4.728 0 8.561-5.962 8.561-13.317s-3.833-13.317-8.561-13.317c-4.08 0-7.515.701-10.939.701s-6.86-.701-10.939-.701C8.333 10.683 4.5 16.645 4.5 24s3.833 13.317 8.561 13.317c4.08 0 7.515-.701 10.939-.701M13.5 21.25h21");
+  d: path("M14.037 22.062C8.82 2.723 17.912.893 21.551 9.096c1.2 2.704 2.03 7.509 2.345 10.891c.852-5.823 3.447-11.596 5.255-13.404c4.35-4.349 11.723-3.49 4.491 19.5c-1.688 6.3-6.46 6.643-8.155 3.709c-3.774-6.537 12.625-9.12 12.625 2.546c0 5.526-6.204 11.162-14.217 11.162c-9.058 0-14.008-3.869-14.008-8.004c0-4.256 2.56-6.716 4.696-7.267c4.18-1.078 7.732 3.377 2.859 8.25");
 }
 
 </style>

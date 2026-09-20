@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<rect class="j3s9ivbxi"/><path class="l7sq1abap"/><g class="y9tr6bcfx"><path class="xlbwaliok"/><path class="vuqfgymrk"/></g><circle class="iafdt2i8p"/><path class="meu2jn8tu"/>`;
+const content = `<rect class="j3s9ivbxi"/><path class="l7sq1abap"/><g class="y9tr6bcfx"><path class="xlbwaliok"/><path class="vuqfgymrk"/></g><circle class="iafdt2i8p"/><path class="vs8k5o9bf"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:bbinstant" /></template>
 <style>
@@ -36,12 +36,12 @@ const content = `<rect class="j3s9ivbxi"/><path class="l7sq1abap"/><g class="y9t
   d: path("M5.5 31h37");
 }
 
-.meu2jn8tu {
+.vs8k5o9bf {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M10.226 35.129v4.705m19.226-1.776a1.78 1.78 0 0 1-1.785 1.776h0a1.78 1.78 0 0 1-1.785-1.776v-1.154c0-.98.8-1.775 1.785-1.775h0a1.78 1.78 0 0 1 1.785 1.775m0 2.93v-4.705m-13.616 4.705v-2.93a1.78 1.78 0 0 0-1.785-1.775h0a1.78 1.78 0 0 0-1.784 1.775m0 2.93v-4.705m22.683 4.705v-2.93a1.78 1.78 0 0 0-1.785-1.775h0a1.78 1.78 0 0 0-1.785 1.775m.001 2.93v-4.705m-13.493 4.308c.326.272.678.397 1.468.397h.4c.652 0 1.18-.527 1.18-1.177h0c0-.65-.528-1.176-1.18-1.176h-.8c-.652 0-1.18-.526-1.18-1.176h0c0-.65.528-1.176 1.18-1.176h.4c.79 0 1.142.125 1.468.397m2.591-1.862v5.282c0 .49.4.888.892.888h.268m-2.097-4.705h1.874m12.886-1.465v5.282c0 .49.4.888.893.888h.267m-2.097-4.705h1.874");
+  d: path("M10.226 35.129v4.705m19.226-1.776a1.78 1.78 0 0 1-1.785 1.776a1.78 1.78 0 0 1-1.785-1.776v-1.154c0-.98.8-1.775 1.785-1.775a1.78 1.78 0 0 1 1.785 1.775m0 2.93v-4.705m-13.616 4.705v-2.93a1.78 1.78 0 0 0-1.785-1.775a1.78 1.78 0 0 0-1.784 1.775m0 2.93v-4.705m22.683 4.705v-2.93a1.78 1.78 0 0 0-1.785-1.775a1.78 1.78 0 0 0-1.785 1.775m.001 2.93v-4.705m-13.493 4.308c.326.272.678.397 1.468.397h.4a1.177 1.177 0 1 0 0-2.353h-.8c-.652 0-1.18-.526-1.18-1.176s.528-1.176 1.18-1.176h.4c.79 0 1.142.125 1.468.397m2.591-1.862v5.282c0 .49.4.888.892.888h.268m-2.097-4.705h1.874m12.886-1.465v5.282c0 .49.4.888.893.888h.267m-2.097-4.705h1.874");
 }
 
 .vuqfgymrk {

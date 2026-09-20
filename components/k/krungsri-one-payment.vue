@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="g2wj9jbhp"/><path class="bu4_yf8hs"/><path class="ax2zd6bok"/><path class="abqbxiizq"/><path class="y21iupp9l"/><path class="jme15lbdj"/>`;
+const content = `<path class="g2wj9jbhp"/><path class="bu4_yf8hs"/><path class="ax2zd6bok"/><path class="abqbxiizq"/><path class="y21iupp9l"/><path class="bx0qo2ojg"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:krungsri-one-payment" /></template>
 <style>
@@ -32,20 +32,20 @@ const content = `<path class="g2wj9jbhp"/><path class="bu4_yf8hs"/><path class="
   d: path("M17.078 28.699C22.61 23.676 24 17.196 24.016 8.343c.016 8.853 1.405 15.333 6.937 20.356");
 }
 
+.bx0qo2ojg {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M29.605 9.91c0 6.549 1.054 10.222 5.408 12.458M22.575 39.646v-5.843l3.79 5.843v-5.843m2.3 2.922h1.864m.996 2.921h-2.86v-5.843h2.86m-13.15 0c1.05 0 1.895.864 1.895 1.936v1.971c0 1.073-.845 1.936-1.895 1.936s-1.895-.863-1.895-1.936v-1.97c0-1.072.846-1.936 1.895-1.936");
+}
+
 .g2wj9jbhp {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("M9.5 5.5h29c2.216 0 4 1.784 4 4v29c0 2.216-1.784 4-4 4h-29c-2.216 0-4-1.784-4-4v-29c0-2.216 1.784-4 4-4");
-}
-
-.jme15lbdj {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M29.605 9.91c0 6.549 1.054 10.222 5.408 12.458M22.575 39.646v-5.843l3.79 5.843v-5.843m2.3 2.922h1.864m.996 2.921h-2.86v-5.843h2.86m-13.15 0c1.05 0 1.895.864 1.895 1.936v1.971c0 1.073-.845 1.936-1.895 1.936h0c-1.05 0-1.895-.863-1.895-1.936v-1.97c0-1.072.846-1.936 1.895-1.936");
 }
 
 .y21iupp9l {

@@ -4,16 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="m9zrhcpbz"/><ellipse class="uo36glvut"/><path class="dtithnbwt"/><ellipse class="p5yvx6b-j"/><circle class="jzdifab9b"/><circle class="oi18gpb4b"/><ellipse class="ujuvrabua"/><ellipse class="uiv9vxqvr"/><ellipse class="p-lpubyii"/><path class="k3h7l2brn"/><path class="d3whwtb-r"/><path class="tlfuiccnh"/><path class="sebr3ibdo"/><circle class="v885_lbwn"/><circle class="nqx2rmpqw"/><path class="r5dy32blm"/>`;
+const content = `<path class="m9zrhcpbz"/><ellipse class="uo36glvut"/><path class="dtithnbwt"/><ellipse class="p5yvx6b-j"/><circle class="jzdifab9b"/><circle class="oi18gpb4b"/><ellipse class="ujuvrabua"/><ellipse class="uiv9vxqvr"/><ellipse class="p-lpubyii"/><path class="c_0lshlpc"/><path class="hrjf303wv"/><path class="tlfuiccnh"/><path class="sebr3ibdo"/><circle class="v885_lbwn"/><circle class="nqx2rmpqw"/><path class="p1hrapb8r"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:rpicameraviewer" /></template>
 <style>
-.d3whwtb-r {
+.c_0lshlpc {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M35.3 17a1.1 1.1 0 0 1 .1.5h0c0 .9-1.1 1.7-2.4 1.7s-2.4-.7-2.4-1.7h0a1.07 1.07 0 0 1 .2-.6");
+  d: path("M12.1 26.2c-1.4 2.5.2 3.2 2.2 3.8m0 0c-.3 2.6-.1 4.7 2.7 5m.3.6c-1.4 1.5.3 3.3 2.3 3.3m2.6 2.8c2 2.1 3.6 1.5 4.9-1.1m0 0c3.3 1.8 4.7 1 4.9-1.4m1.4-1.6c1.7.3 2.8-.3 1.9-3.8m.9-1.5c1.6-1.1 2.6-2.6.6-5.1m-19.3-8c0 .2.1.4.1.6a2.08 2.08 0 0 1-1.9 2.3a1.71 1.71 0 0 1-1.6-1.1m-.2-.4a2.2 2.2 0 0 1-.1-.8a2.08 2.08 0 0 1 1.9-2.3a1.9 1.9 0 0 1 .7.2m4.9-.3a2.2 2.2 0 0 1 .8.5m-1.9 3.7a2.26 2.26 0 0 1-2-2.2a1.7 1.7 0 0 1 .1-.7m4.4.9a2.34 2.34 0 0 1-2.1 2.1m6.2-3a2 2 0 0 1-1.8 2.2a1.93 1.93 0 0 1-1.8-1.8m7.9-.5a4.3 4.3 0 0 1-.7 1.4");
 }
 
 .dtithnbwt {
@@ -24,6 +24,14 @@ const content = `<path class="m9zrhcpbz"/><ellipse class="uo36glvut"/><path clas
   d: path("M37.1 26.7c2.8-1.8 3.2-3.5 1.5-4.9");
 }
 
+.hrjf303wv {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M35.3 17a1.1 1.1 0 0 1 .1.5c0 .9-1.1 1.7-2.4 1.7s-2.4-.7-2.4-1.7a1.07 1.07 0 0 1 .2-.6");
+}
+
 .jzdifab9b {
   cx: 34.9px;
   cy: 26px;
@@ -32,14 +40,6 @@ const content = `<path class="m9zrhcpbz"/><ellipse class="uo36glvut"/><path clas
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-}
-
-.k3h7l2brn {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M12.1 26.2c-1.4 2.5.2 3.2 2.2 3.8m0 0c-.3 2.6-.1 4.7 2.7 5m.3.6c-1.4 1.5.3 3.3 2.3 3.3m2.6 2.8c2 2.1 3.6 1.5 4.9-1.1m0 0c3.3 1.8 4.7 1 4.9-1.4m1.4-1.6c1.7.3 2.8-.3 1.9-3.8m.9-1.5c1.6-1.1 2.6-2.6.6-5.1m-19.3-8c0 .2.1.4.1.6h0a2.08 2.08 0 0 1-1.9 2.3h0a1.71 1.71 0 0 1-1.6-1.1m-.2-.4a2.2 2.2 0 0 1-.1-.8a2.08 2.08 0 0 1 1.9-2.3a1.9 1.9 0 0 1 .7.2m4.9-.3a2.2 2.2 0 0 1 .8.5m-1.9 3.7a2.26 2.26 0 0 1-2-2.2a1.7 1.7 0 0 1 .1-.7m4.4.9a2.34 2.34 0 0 1-2.1 2.1m6.2-3a2 2 0 0 1-1.8 2.2a1.93 1.93 0 0 1-1.8-1.8m7.9-.5a4.3 4.3 0 0 1-.7 1.4");
 }
 
 .m9zrhcpbz {
@@ -81,6 +81,14 @@ const content = `<path class="m9zrhcpbz"/><ellipse class="uo36glvut"/><path clas
   ry: 2.2px;
 }
 
+.p1hrapb8r {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M18.4 27.4za2.48 2.48 0 0 1-2.4-2.6a2.55 2.55 0 0 1 2.4-2.6a2.26 2.26 0 0 1 2.1 1.4m11.8 6.5a2.27 2.27 0 0 1 1.6-.6a2.35 2.35 0 0 1 2.3 2.4a2.35 2.35 0 0 1-2.3 2.4a2.29 2.29 0 0 1-2.3-2.1m-10.7 2za2.18 2.18 0 0 1-2 2.4a2.25 2.25 0 0 1-2-2.4a2.25 2.25 0 0 1 2-2.4h.1M29.6 23v-.4a3 3 0 0 1 .2-1m.9-1a1.9 1.9 0 0 1 .7-.2a2 2 0 0 1 1.9 2.1a2 2 0 0 1-1.9 2.1h-.3");
+}
+
 .p5yvx6b-j {
   cx: 36.5px;
   cy: 21.1px;
@@ -90,14 +98,6 @@ const content = `<path class="m9zrhcpbz"/><ellipse class="uo36glvut"/><path clas
   stroke-linejoin: round;
   rx: 2.1px;
   ry: 2.2px;
-}
-
-.r5dy32blm {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M18.4 27.4a2.48 2.48 0 0 1-2.4-2.6a2.55 2.55 0 0 1 2.4-2.6a2.26 2.26 0 0 1 2.1 1.4m11.8 6.5a2.27 2.27 0 0 1 1.6-.6a2.35 2.35 0 0 1 2.3 2.4h0a2.35 2.35 0 0 1-2.3 2.4h0a2.29 2.29 0 0 1-2.3-2.1m-10.7 2a2.18 2.18 0 0 1-2 2.4h0a2.25 2.25 0 0 1-2-2.4h0a2.25 2.25 0 0 1 2-2.4h.1M29.6 23v-.4a3 3 0 0 1 .2-1m.9-1a1.9 1.9 0 0 1 .7-.2a2 2 0 0 1 1.9 2.1h0a2 2 0 0 1-1.9 2.1h-.3");
 }
 
 .sebr3ibdo {

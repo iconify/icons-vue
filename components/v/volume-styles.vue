@@ -4,10 +4,18 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="uek-bs_mh"/><circle class="nbog-pb-i"/><circle class="ficrw85uu"/><path class="j68vol3fw"/><circle class="r_qkoabbd"/><path class="j5nju7bbb"/>`;
+const content = `<path class="uek-bs_mh"/><circle class="nbog-pb-i"/><circle class="ficrw85uu"/><path class="j68vol3fw"/><circle class="r_qkoabbd"/><path class="aexnttb9v"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:volume-styles" /></template>
 <style>
+.aexnttb9v {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M11.652 37.886c.21-.215.997-1.02 1.07-1.091c.163-.157.078-.409.078-.409s-.118-.51-.15-.853c-.025-.27-.31-.24-.31-.24h-1.15a.205.205 0 0 0-.183.19c-.078 1.038.506 2.15.623 2.363l.005.01za4.8 4.8 0 0 0 1.758 1.754l-.001.002l.06.034c.262.142 1.337.686 2.341.61c0 0 .163-.005.188-.183v-1.15s.03-.285-.24-.31c-.34-.033-.851-.15-.851-.15s-.251-.085-.408.078c-.07.073-.875.86-1.09 1.07");
+}
+
 .ficrw85uu {
   cx: 34.5px;
   cy: 28px;
@@ -16,14 +24,6 @@ const content = `<path class="uek-bs_mh"/><circle class="nbog-pb-i"/><circle cla
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-}
-
-.j5nju7bbb {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M11.652 37.886c.21-.215.997-1.02 1.07-1.091c.163-.157.078-.409.078-.409s-.118-.51-.15-.853c-.025-.27-.31-.24-.31-.24h-1.15a.205.205 0 0 0-.183.19c-.078 1.038.506 2.15.623 2.363h0l.005.01za4.8 4.8 0 0 0 1.758 1.754l-.001.002l.06.034h0c.262.142 1.337.686 2.341.61c0 0 .163-.005.188-.183v-1.15s.03-.285-.24-.31c-.34-.033-.851-.15-.851-.15s-.251-.085-.408.078c-.07.073-.875.86-1.09 1.07");
 }
 
 .j68vol3fw {

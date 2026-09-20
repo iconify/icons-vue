@@ -1,0 +1,6 @@
+.x2-ltettm {
+  stroke: var(--svg-color--4147d5, #4147d5);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M.5 6.5v4a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-4a1 1 0 0 0-1-1h-6a1 1 0 0 0-1 1m2.5 7h3m-1.5 0v-2");
+}

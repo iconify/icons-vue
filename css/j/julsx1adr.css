@@ -1,0 +1,6 @@
+.julsx1adr {
+  stroke: var(--svg-color--4147d5, #4147d5);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M9 4H5a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1");
+}

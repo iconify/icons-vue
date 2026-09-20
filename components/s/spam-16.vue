@@ -1,0 +1,11 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/r/rk-vv_b6c.css';
+import '../../css/d/d4i5-t89q.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":16,"height":16};
+const content = `<path class="rk-vv_b6c"/><path clip-rule="evenodd" class="d4i5-t89q"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="qlementine-icons:spam-16" /></template>

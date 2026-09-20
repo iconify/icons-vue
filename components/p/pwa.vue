@@ -1,0 +1,26 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":512,"height":193};
+const content = `<path class="o7s36nx6h"/><path class="z_4oqlbli"/><path class="iw1vedg3q"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="logos:pwa" /></template>
+<style>
+.iw1vedg3q {
+  fill: var(--svg-color--3d3d3d, #3d3d3d);
+  d: path("M48.912 126.595H80.65q14.421 0 25.683-3.22l8.208-25.287l22.94-70.674a56.5 56.5 0 0 0-5.986-7.858Q113.827 0 79.795 0H0v192.77h48.912zm42.01-82.247q6.901 6.945 6.901 18.59q0 11.733-6.069 18.611q-6.653 7.642-24.5 7.642H48.912V37.404h18.476q16.635 0 23.534 6.945");
+}
+
+.o7s36nx6h {
+  fill: var(--svg-color--3d3d3d, #3d3d3d);
+  d: path("m376.818 158.244l14.791-37.403h42.707l-20.267-56.739L439.397 0L512 192.769h-53.542l-12.407-34.525z");
+}
+
+.z_4oqlbli {
+  fill: var(--svg-color--5a0fc8, #5a0fc8);
+  d: path("M331.14 192.77L408.863 0l-51.528.001l-53.167 124.571L266.361.001h-39.607l-40.595 124.571l-28.629-56.764l-25.907 79.817l26.304 45.145h50.71L245.32 81.056l34.976 111.714z");
+}
+
+</style>

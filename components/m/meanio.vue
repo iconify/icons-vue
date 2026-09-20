@@ -1,0 +1,37 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":256,"height":274};
+const content = `<path class="xtk9ruu2f"/><path class="tq060382j"/><path class="mwkzjsb2n"/><path class="lz4zjnxlk"/><path class="c2p9j5bdb"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="logos:meanio" /></template>
+<style>
+.c2p9j5bdb {
+  d: path("M128.1 0C67.5 0 0 44.3 0 44.3l20.1 174L128 273.7V0h.1z");
+  opacity: var(--svg-opacity--0-1, 0.1);
+  fill: var(--svg-color--000, #000);
+}
+
+.lz4zjnxlk {
+  d: path("M57.5 200.7V52.9l35.3-.2l35.2 92.9l38.1-92.4l34.8-.3v147.8h-28.7l1.5-103.8L128 200.7L83.9 97.1l2.3 103.6H57.5z");
+  fill: var(--svg-color--fff, #FFF);
+}
+
+.mwkzjsb2n {
+  d: path("M14.9 54l17.8 149.6l95.4 47.6l95.5-47.5l17.5-149.8S181.5 16 128 16C74.5 16 14.9 54 14.9 54z");
+  fill: var(--svg-color--007d96, #007D96);
+}
+
+.tq060382j {
+  d: path("M8.3 49.4l18.8 159.5l101 50.8L229.2 209l18.6-159.7S184.7 8.9 128.1 8.9S8.3 49.4 8.3 49.4z");
+  fill: var(--svg-color--fff, #FFF);
+}
+
+.xtk9ruu2f {
+  d: path("M0 44.3l20.1 174L128 273.7l108.1-55.3L256 44.1S188.6 0 128.1 0S0 44.3 0 44.3z");
+  fill: var(--svg-color--007d96, #007D96);
+}
+
+</style>

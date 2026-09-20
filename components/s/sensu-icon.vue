@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":256,"height":256};
+const content = `<path class="ws4m0ybdz"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="logos:sensu-icon" /></template>
+<style>
+.ws4m0ybdz {
+  fill: var(--svg-color--73cc58, #73cc58);
+  d: path("M256 127.948L128.052 0L0 127.948L128.052 256zM128.052 34.023l47.1 47.17c-15.43-4.149-31.3-6.281-47.162-6.281a179 179 0 0 0-47.162 6.28zM86.104 179.857a86.4 86.4 0 0 1 41.948-10.766c14.913 0 29.235 3.75 41.947 10.766l-41.947 41.948zm101.389-17.493a110.7 110.7 0 0 0-59.503-17.335a110.6 110.6 0 0 0-59.51 17.335l-33.019-33.02c26.704-19.618 58.85-30.267 92.639-30.267c33.79 0 65.9 10.58 92.639 30.268z");
+}
+
+</style>

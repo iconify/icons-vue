@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":256,"height":277};
+const content = `<path class="vsaxc-spu"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="logos:progress" /></template>
+<style>
+.vsaxc-spu {
+  fill: var(--svg-color--5ce500, #5ce500);
+  d: path("M63.017 260.487L2.769 223.492l60.248-35.871zm30.83 16.292V172.754L0 115.906l65.32-38.532l91.541 55.952v104.53zm90.932-12.793V119.229L57.516 41.861L128.24 0L256 74.049V221.17z");
+}
+
+</style>

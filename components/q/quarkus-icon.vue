@@ -1,0 +1,26 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":256,"height":257};
+const content = `<path class="jzd_e3bvp"/><path class="hkfelvn9t"/><path class="akalozdvj"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="logos:quarkus-icon" /></template>
+<style>
+.akalozdvj {
+  fill: var(--svg-color--091313, #091313);
+  d: path("m86.453 94.218l39.417 22.748v45.523l-39.417-22.762zm83.118 0v45.51l-39.417 22.76v-45.522zm-41.559-26.483l39.417 22.761l-39.417 22.761l-39.417-22.76z");
+}
+
+.hkfelvn9t {
+  fill: var(--svg-color--ff004a, #ff004a);
+  d: path("m86.453 139.727l39.417 22.762l-39.417 22.748zm83.118-45.509l39.418 22.748l-39.418 22.761zM88.595 44.987l39.417 22.748l-39.417 22.761z");
+}
+
+.jzd_e3bvp {
+  fill: var(--svg-color--4695eb, #4695eb);
+  d: path("M213.554 0c23.418.08 42.377 19.052 42.443 42.47v171.084c-.066 23.428-19.042 42.404-42.47 42.47h-25.439l-11.661-28.318h37.127c7.774-.1 14.051-6.378 14.152-14.152V42.47c-.1-7.774-6.378-14.051-14.152-14.152H42.47c-7.774.1-14.051 6.378-14.152 14.152v171.084c.1 7.774 6.378 14.051 14.152 14.152h62.607l22.935-48.494l31.625 76.812H42.47C19.042 255.958.066 236.982 0 213.554V42.47C.066 19.042 19.042.066 42.47 0zm-43.983 139.727v45.51l-39.417-22.748zM86.453 94.218v45.51l-39.418-22.762zm80.976-49.231v45.51l-39.417-22.762z");
+}
+
+</style>

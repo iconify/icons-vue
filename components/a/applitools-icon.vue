@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":256,"height":350};
+const content = `<path class="tujs1kbhm"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="logos:applitools-icon" /></template>
+<style>
+.tujs1kbhm {
+  fill: var(--svg-color--00a298, #00a298);
+  d: path("M195.725 174.716a238.4 238.4 0 0 1-5.124 49.174c-21.835-13.617-50.72-29.986-88.82-49.174c38.1-19.2 66.972-35.57 88.82-49.186a238.5 238.5 0 0 1 5.111 49.186M256 74.246V21.494a1023 1023 0 0 1-56.828 46.75C178.845 37.22 152.87 15.32 118.702 0c26.775 23.748 45.176 50.51 59.068 84.088C70.117 161.322 0 174.716 0 174.716s70.117 13.382 177.77 90.629c-13.892 33.59-32.28 60.327-59.069 84.075c34.168-15.321 60.144-37.221 80.471-68.243A1022 1022 0 0 1 256 327.939v-52.752s-6.448-10.747-37.3-32.66c7.864-21.114 12.189-43.958 12.189-67.81a194 194 0 0 0-12.189-67.811c30.852-21.927 37.3-32.66 37.3-32.66");
+}
+
+</style>

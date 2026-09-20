@@ -1,0 +1,26 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":256,"height":231};
+const content = `<path class="vz4ipubtw"/><path class="hq-4dr-tq"/><path class="bt3jbobhd"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="logos:google-cloud-run" /></template>
+<style>
+.bt3jbobhd {
+  fill: var(--svg-color--fff, #fff);
+  d: path("m82.038 59.254l17.705 11.893l13.88 44.618l-13.633 43.278l-17.952 12.014l17.343-55.796zm45.347 19.836l8.593 27.792h32.989zm68.42 36.172l-83.376 55.795l17.343-55.795l-17.343-56.008z");
+}
+
+.hq-4dr-tq {
+  fill-opacity: var(--svg-fill-opacity--0-07, 0.07);
+  d: path("m236.495 155.027l-36.17 62.905a23.46 23.46 0 0 1-19.739 12.12H140.51l-58.472-58.995l17.238-55.583l-17.238-56.22l17.705 11.893l23.806 24.019l-11.12-35.912l83.375 56.008z");
+}
+
+.vz4ipubtw {
+  fill: var(--svg-color--4285f4, #4285f4);
+  d: path("M75.39 0a23.1 23.1 0 0 0-19.72 11.76L3.054 102.995a22.96 22.96 0 0 0 0 22.879l52.598 91.997a23.54 23.54 0 0 0 19.719 12.18h105.216a23.46 23.46 0 0 0 19.74-12.12l52.598-91.477a23.44 23.44 0 0 0 3.074-11.61c0-4.004-1.025-8.01-3.074-11.61L200.326 11.76A23.12 23.12 0 0 0 180.606 0z");
+}
+
+</style>

@@ -1,0 +1,26 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":256,"height":318};
+const content = `<path class="njoji84yb"/><path class="qcfujtlod"/><path class="u31nvebsl"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="logos:liftweb" /></template>
+<style>
+.njoji84yb {
+  fill: var(--svg-color--4861b4, #4861b4);
+  d: path("M209.255 159.9c0 20.398-16.542 43.912-36.931 52.519l-135.402 57.17C16.533 278.205 0 268.653 0 248.255V112.846c0-20.39 16.533-43.896 36.922-52.511l135.402-57.17c20.389-8.607 36.931.945 36.931 21.342z");
+}
+
+.qcfujtlod {
+  fill: var(--svg-color--25336d, #25336d);
+  d: path("M238.19 44.996v134.946c0 20.389-16.534 43.904-36.931 52.51L65.857 289.623c-6.998 2.96-13.531 3.739-19.112 2.703v.456c0 20.381 16.534 29.941 36.923 21.334l135.41-57.17C239.467 248.331 256 224.824 256 204.427V69.025c0-13.39-7.147-22.055-17.81-24.029");
+}
+
+.u31nvebsl {
+  fill: var(--svg-color--fff, #fff);
+  d: path("M186.728 262.083c-17.437 0-32.221-6.202-44.368-18.639q-18.208-18.644-18.208-44.825v-91.978l32.892-13.888L98.05 42.738l-53.672 97.575l35.157-14.842v73.107c0 29.261 10.538 54.169 31.599 74.699c7.827 7.62 17.966 14.831 26.921 19.623l70.271-30.817z");
+}
+
+</style>

@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":256,"height":158};
+const content = `<path class="lu_t3lj4x"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="logos:purescript-icon" /></template>
+<style>
+.lu_t3lj4x {
+  fill: var(--svg-color--1d222d, #1d222d);
+  d: path("M51.676 46.77L64.88 59.98l-42.352 42.346l42.352 42.357l-13.205 13.196L2.72 108.924A9.26 9.26 0 0 1 0 102.328a9.24 9.24 0 0 1 2.721-6.6zm110.207 69.604l19.987 18.663H94.102l-19.987-18.663zM204.328 0l48.935 48.96A9.27 9.27 0 0 1 256 55.55a9.3 9.3 0 0 1-2.737 6.615l-48.935 48.945l-13.2-13.202l42.33-42.351l-42.33-42.355zM181.87 69.612l-19.987 18.663H74.115l19.987-18.663zm-19.987-46.774l19.98 18.67h-87.76L74.12 22.837z");
+}
+
+</style>

@@ -1,16 +1,12 @@
 # @iconify-vue/akar-icons
 
-Icon set prefix: **akar-icons**
+**Akar Icons**
 
-Icon set name: **Akar Icons**
+Author: [Arturo Wibawa](https://github.com/artcoholic/akar-icons)
 
-Author: **Arturo Wibawa**
+License: [MIT](https://github.com/artcoholic/akar-icons/blob/master/LICENSE)
 
-License: **[MIT](https://github.com/artcoholic/akar-icons/blob/master/LICENSE)**
-
-Repository: **https://github.com/artcoholic/akar-icons**
-
-Browse all icons: **[Preview Akar Icons](https://icon-sets.iconify.design/akar-icons/)**
+Browse all icons: [preview Akar Icons on Iconify](https://icon-sets.iconify.design/akar-icons/)
 
 ## Installation
 

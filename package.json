@@ -1,0 +1,267 @@
+{
+  "name": "@iconify-vue/unjs",
+  "type": "module",
+  "version": "1.0.5",
+  "homepage": "https://icon-sets.iconify.design/unjs/",
+  "bugs": "https://github.com/iconify/icons-vue/issues",
+  "license": "Apache-2.0",
+  "exports": {
+    "./automd": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/automd.vue"
+    },
+    "./bundle-runner": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bundle-runner.vue"
+    },
+    "./c12": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/c12.vue"
+    },
+    "./changelogen": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/changelogen.vue"
+    },
+    "./citty": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/citty.vue"
+    },
+    "./confbox": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/confbox.vue"
+    },
+    "./consola": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/consola.vue"
+    },
+    "./cookie-es": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cookie-es.vue"
+    },
+    "./crossws": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/crossws.vue"
+    },
+    "./db0": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/db0.vue"
+    },
+    "./defu": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/defu.vue"
+    },
+    "./destr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/destr.vue"
+    },
+    "./fontaine": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fontaine.vue"
+    },
+    "./fs-memo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fs-memo.vue"
+    },
+    "./get-port-please": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/get-port-please.vue"
+    },
+    "./giget": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/giget.vue"
+    },
+    "./h3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/h3.vue"
+    },
+    "./hookable": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hookable.vue"
+    },
+    "./httpxy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/httpxy.vue"
+    },
+    "./image-meta": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/image-meta.vue"
+    },
+    "./ipx": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/ipx.vue"
+    },
+    "./jimp-compact": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jimp-compact.vue"
+    },
+    "./jiti": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jiti.vue"
+    },
+    "./knitwork": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/knitwork.vue"
+    },
+    "./listhen": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/listhen.vue"
+    },
+    "./magic-regexp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/magic-regexp.vue"
+    },
+    "./magicast": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/magicast.vue"
+    },
+    "./mdbox": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mdbox.vue"
+    },
+    "./mkdist": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mkdist.vue"
+    },
+    "./mlly": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mlly.vue"
+    },
+    "./mongoz": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mongoz.vue"
+    },
+    "./nanotar": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nanotar.vue"
+    },
+    "./nitro": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nitro.vue"
+    },
+    "./node-fetch-native": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/node-fetch-native.vue"
+    },
+    "./nypm": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nypm.vue"
+    },
+    "./ofetch": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/ofetch.vue"
+    },
+    "./ohash": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/ohash.vue"
+    },
+    "./pathe": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pathe.vue"
+    },
+    "./perfect-debounce": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/perfect-debounce.vue"
+    },
+    "./pkg-types": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pkg-types.vue"
+    },
+    "./radix3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/radix3.vue"
+    },
+    "./rc9": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rc9.vue"
+    },
+    "./scule": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/scule.vue"
+    },
+    "./serve-placeholder": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/serve-placeholder.vue"
+    },
+    "./std-env": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/std-env.vue"
+    },
+    "./theme-colors": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/theme-colors.vue"
+    },
+    "./ufo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/ufo.vue"
+    },
+    "./unbuild": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/unbuild.vue"
+    },
+    "./uncrypto": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/uncrypto.vue"
+    },
+    "./unctx": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/unctx.vue"
+    },
+    "./undocs": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/undocs.vue"
+    },
+    "./unenv": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/unenv.vue"
+    },
+    "./ungh": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/ungh.vue"
+    },
+    "./unhead": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/unhead.vue"
+    },
+    "./unimport": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/unimport.vue"
+    },
+    "./unpdf": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/unpdf.vue"
+    },
+    "./unplugin": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/unplugin.vue"
+    },
+    "./unstorage": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/unstorage.vue"
+    },
+    "./untun": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/untun.vue"
+    },
+    "./untyped": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/untyped.vue"
+    },
+    "./unwasm": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/unwasm.vue"
+    },
+    "./uqr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/uqr.vue"
+    },
+    "./webpackbar": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/webpackbar.vue"
+    },
+    "./*": "./*"
+  },
+  "dependencies": {
+    "@iconify/css-vue": "^1.0.0"
+  },
+  "repository": "github:iconify/icons-vue#unjs"
+}

@@ -1,0 +1,10 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/z/zvxqpcc6p.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":8,"height":8};
+const content = `<path class="zvxqpcc6p"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="picon:charger" /></template>

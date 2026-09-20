@@ -1,0 +1,6 @@
+.ibjsi_bpx {
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M21 21v-9.5l-8-1.667L9 9v12z");
+}

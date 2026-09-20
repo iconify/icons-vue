@@ -1,0 +1,6 @@
+.koaozeboc {
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M21 21H3V3m12 9h4v9h-4zM7 6h4v15H7z");
+}

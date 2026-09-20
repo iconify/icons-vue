@@ -1,0 +1,6 @@
+.sbry_navz {
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M12 18a8 8 0 0 1-3-.581L8 22m4-4a8 8 0 0 0 3-.581L16 22m-4-4a8 8 0 1 0 0-16a8 8 0 0 0 0 16Zm4 4H8m8 0h2M8 22H6");
+}

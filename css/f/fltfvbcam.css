@@ -1,0 +1,6 @@
+.fltfvbcam {
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("m15 12l-4.5 3V9z");
+}

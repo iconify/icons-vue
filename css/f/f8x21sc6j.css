@@ -1,0 +1,7 @@
+.f8x21sc6j {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M5 3v18m7-12v12m7-18v18");
+}

@@ -1,0 +1,6 @@
+.nbrsa_bly {
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M1 20h22M2 4h20v13H2z");
+}

@@ -1,0 +1,6 @@
+.o-hdpccfe {
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M3 18V6m18 12V6");
+}

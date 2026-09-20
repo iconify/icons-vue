@@ -1,0 +1,6 @@
+.pec-oacye {
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M21 10V5H3v5m18 0H3m18 0v11H3V10m4-5V2m10 3V2");
+}

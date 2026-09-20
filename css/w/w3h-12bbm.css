@@ -1,0 +1,7 @@
+.w3h-12bbm {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M9 5H5v4m4 10H5v-4M15 5h4v4m-4 10h4v-4");
+}

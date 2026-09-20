@@ -1,0 +1,6 @@
+.wfc2hacpp {
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M7 7.5h5m0 0h5m-5 0V17");
+}

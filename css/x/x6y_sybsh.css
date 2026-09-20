@@ -1,0 +1,6 @@
+.x6y_sybsh {
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M4 8H1.5M8 4V1.5M16 4V1.5M20 16h2.5M20 8h2.5M8 20v2.5m8-2.5v2.5M4 16H1.5M4 4h16v16H4z");
+}

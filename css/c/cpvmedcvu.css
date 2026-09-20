@@ -1,0 +1,6 @@
+.cpvmedcvu {
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M15 6.5L9 3L3 6.5V20l6-2.5m6-11L21 4v5m-6-2.5V9m-6 8.5v-14m0 14l1.5.875m10.75-5.379h-6.5V20.5l3.253-2l3.247 2z");
+}

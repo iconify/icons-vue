@@ -1,0 +1,6 @@
+.zikmbib_q {
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M9 4H3m6 0v7H7v10H3V4m6 0V3M3 4V3m18 1v17h-4V11h-2V4m6 0h-6m6 0V3m-6 1V3m-3 18v-5");
+}

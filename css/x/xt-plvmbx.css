@@ -1,0 +1,6 @@
+.xt-plvmbx {
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("m9 13l2.77-6h.46L15 13m-4.5-2.083h3");
+}

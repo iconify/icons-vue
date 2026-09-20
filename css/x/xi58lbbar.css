@@ -1,0 +1,7 @@
+.xi58lbbar {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M20 4H4l8 8l-8 8h16");
+}

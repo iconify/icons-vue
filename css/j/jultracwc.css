@@ -1,0 +1,6 @@
+.jultracwc {
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M8 9v2m8-2v2m-7.465 4A4 4 0 0 0 12 17c1.48 0 2.773-.804 3.465-2");
+}

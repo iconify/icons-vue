@@ -1,0 +1,6 @@
+.ozhoyrbed {
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M12 14h3m1-13v4m-5-4v4M7 3h13v15H7z");
+}

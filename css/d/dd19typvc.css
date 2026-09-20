@@ -1,0 +1,7 @@
+.dd19typvc {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M3 5h18M6 12h12M3 19h18");
+}

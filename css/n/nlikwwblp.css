@@ -1,0 +1,6 @@
+.nlikwwblp {
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M12 21h9V3h-9m0 18H3V3h9m0 18V3m-9 9h18");
+}

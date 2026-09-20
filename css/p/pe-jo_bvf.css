@@ -1,0 +1,6 @@
+.pe-jo_bvf {
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M21 12V3H3v18h9m3-13h-2v5.25m0 .75a2 2 0 1 1-4 0a2 2 0 0 1 4 0Zm6 2v3m0 0v3m0-3h-3m3 0h3");
+}

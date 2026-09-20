@@ -1,0 +1,5 @@
+.cupcblbeg {
+  stroke: currentColor;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M16 2h-4v5.5L14 6l2 1.5z");
+}

@@ -1,0 +1,6 @@
+.af95is16y {
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M6 9v10h9M6 9a3 3 0 1 0 0-6a3 3 0 0 0 0 6Zm0 3h9m0 5h6v4h-6zm0-7h6v4h-6z");
+}

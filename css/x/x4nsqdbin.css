@@ -1,0 +1,7 @@
+.x4nsqdbin {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M10.5 7.5L6 12l4.5 4.5m6.5-9L12.5 12l4.5 4.5");
+}

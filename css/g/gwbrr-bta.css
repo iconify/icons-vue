@@ -1,0 +1,6 @@
+.gwbrr-bta {
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M3 3h18v18H3zm4 10v4m5-6v1m5 2v3m-5-1v1m5-8v1");
+}

@@ -1,0 +1,6 @@
+.x10q-smgs {
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M4 7L3 21h6v-7l2.5-1.25L11 7M4 7L3 3h9l-1 4M4 7h7m4 11v3");
+}

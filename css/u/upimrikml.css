@@ -1,0 +1,6 @@
+.upimrikml {
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M14 6.5V3H3v11h3.5");
+}

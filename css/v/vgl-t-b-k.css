@@ -1,0 +1,7 @@
+.vgl-t-b-k {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M5 8h14M5 16h14");
+}

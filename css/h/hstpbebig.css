@@ -1,0 +1,6 @@
+.hstpbebig {
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M17.5 14.5v3m0 0v3m0-3h-3m3 0h3");
+}

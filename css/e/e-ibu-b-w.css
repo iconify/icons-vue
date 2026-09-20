@@ -1,0 +1,7 @@
+.e-ibu-b-w {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M16.5 10.5L12 15l-4.5-4.5m4.5 3.25V4m8.5 11v5h-17v-5");
+}

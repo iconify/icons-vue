@@ -1,0 +1,7 @@
+.in1b-kb3i {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M8 5h7a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1H9a1 1 0 0 0-1 1v6h8");
+}

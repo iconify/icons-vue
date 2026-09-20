@@ -1,0 +1,6 @@
+.e2htoobre {
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M8.33 13.768L10.098 12L8.33 10.232m7.438 0L14 12l1.768 1.768");
+}

@@ -1,0 +1,5 @@
+.msqmn_bst {
+  stroke: currentColor;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M12 10v8l9 3v-8m-9-3l4.5 1.5L21 13m-9-3V2l9 3v8");
+}

@@ -1,0 +1,6 @@
+.fipt221up {
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M10 21v-6h4v6zm0 0c.313 0-.356 0 0 0Z");
+}

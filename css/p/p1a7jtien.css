@@ -1,0 +1,6 @@
+.p1a7jtien {
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M7 10h3l5-3v10l-5-3H7z");
+}

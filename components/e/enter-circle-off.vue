@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/c/cuyn6tgcc.css';
+import '../../css/y/ykbeh9bqu.css';
+import '../../css/l/lz22xst6e.css';
+import '../../css/j/jsbu-tb6f.css';
+import '../../css/s/s0mrlwbgd.css';
+import '../../css/z/zsuclwbnx.css';
+import '../../css/k/kspoj7vnd.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":26,"height":26};
+const content = `<g class="cuyn6tgcc"><path clip-rule="evenodd" class="ykbeh9bqu"/><path clip-rule="evenodd" class="lz22xst6e"/><path clip-rule="evenodd" class="jsbu-tb6f"/><path clip-rule="evenodd" class="s0mrlwbgd"/><path class="zsuclwbnx"/><path clip-rule="evenodd" class="kspoj7vnd"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="pepicons-pencil:enter-circle-off" /></template>

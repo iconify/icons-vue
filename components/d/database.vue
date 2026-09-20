@@ -1,0 +1,12 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/n/n1lsf0bnc.css';
+import '../../css/q/qfdmq5boh.css';
+import '../../css/d/d0avyez-f.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":20,"height":20};
+const content = `<g clip-rule="evenodd" class="n1lsf0bnc"><path class="qfdmq5boh"/><path class="d0avyez-f"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="pepicons-pencil:database" /></template>

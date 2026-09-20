@@ -1,0 +1,167 @@
+{
+  "name": "@iconify-vue/k8s",
+  "type": "module",
+  "version": "1.0.1",
+  "homepage": "https://icon-sets.iconify.design/k8s/",
+  "bugs": "https://github.com/iconify/icons-vue/issues",
+  "license": "Apache-2.0",
+  "exports": {
+    "./api-server": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/api-server.vue"
+    },
+    "./cloud-controller-manager": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloud-controller-manager.vue"
+    },
+    "./clusterrole": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/clusterrole.vue"
+    },
+    "./clusterrolebinding": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/clusterrolebinding.vue"
+    },
+    "./configmap": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/configmap.vue"
+    },
+    "./controller-manager": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/controller-manager.vue"
+    },
+    "./cronjob": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cronjob.vue"
+    },
+    "./customresourcedefinition": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/customresourcedefinition.vue"
+    },
+    "./daemonset": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/daemonset.vue"
+    },
+    "./deployment": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/deployment.vue"
+    },
+    "./endpoints": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/endpoints.vue"
+    },
+    "./etcd-cluster": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/etcd-cluster.vue"
+    },
+    "./group": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/group.vue"
+    },
+    "./horizontalpodautoscaler": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/horizontalpodautoscaler.vue"
+    },
+    "./ingress": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/ingress.vue"
+    },
+    "./job": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/job.vue"
+    },
+    "./kube-proxy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kube-proxy.vue"
+    },
+    "./kubelet": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kubelet.vue"
+    },
+    "./limitrange": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/limitrange.vue"
+    },
+    "./namespace": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/namespace.vue"
+    },
+    "./networkpolicy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/networkpolicy.vue"
+    },
+    "./persistentvolume": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/persistentvolume.vue"
+    },
+    "./persistentvolumeclaim": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/persistentvolumeclaim.vue"
+    },
+    "./pod": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pod.vue"
+    },
+    "./podsecuritypolicy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/podsecuritypolicy.vue"
+    },
+    "./replicaset": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/replicaset.vue"
+    },
+    "./resourcequota": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/resourcequota.vue"
+    },
+    "./role": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/role.vue"
+    },
+    "./rolebinding": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rolebinding.vue"
+    },
+    "./scheduler": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/scheduler.vue"
+    },
+    "./secret": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/secret.vue"
+    },
+    "./service": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/service.vue"
+    },
+    "./serviceaccount": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/serviceaccount.vue"
+    },
+    "./statefulset": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/statefulset.vue"
+    },
+    "./storageclass": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/storageclass.vue"
+    },
+    "./user": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/user.vue"
+    },
+    "./volume": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/volume.vue"
+    },
+    "./worker-node": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/worker-node.vue"
+    },
+    "./*": "./*"
+  },
+  "dependencies": {
+    "@iconify/css-vue": "^1.0.0"
+  },
+  "repository": "github:iconify/icons-vue#k8s"
+}

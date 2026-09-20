@@ -1,0 +1,2243 @@
+{
+  "name": "@iconify-vue/temaki",
+  "type": "module",
+  "version": "1.0.8",
+  "homepage": "https://icon-sets.iconify.design/temaki/",
+  "bugs": "https://github.com/iconify/icons-vue/issues",
+  "license": "CC0-1.0",
+  "exports": {
+    "./abseiling": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/abseiling.vue"
+    },
+    "./accessible-space": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/accessible-space.vue"
+    },
+    "./accounting": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/accounting.vue"
+    },
+    "./activity-panel": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/activity-panel.vue"
+    },
+    "./adit-profile": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/adit-profile.vue"
+    },
+    "./aerialway-pole": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/aerialway-pole.vue"
+    },
+    "./airport": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/airport.vue"
+    },
+    "./amusement-park": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/amusement-park.vue"
+    },
+    "./anchor-medal": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/anchor-medal.vue"
+    },
+    "./antenna": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/antenna.vue"
+    },
+    "./anvil": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/anvil.vue"
+    },
+    "./anvil-and-hammer": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/anvil-and-hammer.vue"
+    },
+    "./app-terminal": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/app-terminal.vue"
+    },
+    "./archery": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/archery.vue"
+    },
+    "./army-tent": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/army-tent.vue"
+    },
+    "./asterisk": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/asterisk.vue"
+    },
+    "./atm": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/atm.vue"
+    },
+    "./atm2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/atm2.vue"
+    },
+    "./balance-beam": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/balance-beam.vue"
+    },
+    "./balloon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/balloon.vue"
+    },
+    "./barn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/barn.vue"
+    },
+    "./basketswing": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/basketswing.vue"
+    },
+    "./beach": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/beach.vue"
+    },
+    "./beauty-salon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/beauty-salon.vue"
+    },
+    "./bench": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bench.vue"
+    },
+    "./benchmark-disk": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/benchmark-disk.vue"
+    },
+    "./bicycle-box": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bicycle-box.vue"
+    },
+    "./bicycle-locker": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bicycle-locker.vue"
+    },
+    "./bicycle-parked": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bicycle-parked.vue"
+    },
+    "./bicycle-rental": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bicycle-rental.vue"
+    },
+    "./bicycle-repair": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bicycle-repair.vue"
+    },
+    "./bicycle-shed": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bicycle-shed.vue"
+    },
+    "./bicycle-structure": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bicycle-structure.vue"
+    },
+    "./bicycle-wash": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bicycle-wash.vue"
+    },
+    "./bikini": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bikini.vue"
+    },
+    "./billboard": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/billboard.vue"
+    },
+    "./binoculars": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/binoculars.vue"
+    },
+    "./bleachers": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bleachers.vue"
+    },
+    "./blind": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/blind.vue"
+    },
+    "./board-bus": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/board-bus.vue"
+    },
+    "./board-ferry": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/board-ferry.vue"
+    },
+    "./board-gondola-lift": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/board-gondola-lift.vue"
+    },
+    "./board-hanging-rail": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/board-hanging-rail.vue"
+    },
+    "./board-heavy-rail": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/board-heavy-rail.vue"
+    },
+    "./board-light-rail": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/board-light-rail.vue"
+    },
+    "./board-monorail": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/board-monorail.vue"
+    },
+    "./board-school-bus": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/board-school-bus.vue"
+    },
+    "./board-subway": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/board-subway.vue"
+    },
+    "./board-train": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/board-train.vue"
+    },
+    "./board-train-bullet": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/board-train-bullet.vue"
+    },
+    "./board-train-diesel": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/board-train-diesel.vue"
+    },
+    "./board-train-kids": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/board-train-kids.vue"
+    },
+    "./board-train-steam": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/board-train-steam.vue"
+    },
+    "./board-tram": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/board-tram.vue"
+    },
+    "./board-transit": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/board-transit.vue"
+    },
+    "./board-trolleybus": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/board-trolleybus.vue"
+    },
+    "./boat": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/boat.vue"
+    },
+    "./boat-dry-dock": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/boat-dry-dock.vue"
+    },
+    "./boat-floating": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/boat-floating.vue"
+    },
+    "./boat-ramp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/boat-ramp.vue"
+    },
+    "./boat-rental": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/boat-rental.vue"
+    },
+    "./boat-repair": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/boat-repair.vue"
+    },
+    "./boat-tour": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/boat-tour.vue"
+    },
+    "./boating": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/boating.vue"
+    },
+    "./bollard": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bollard.vue"
+    },
+    "./bollard-row": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bollard-row.vue"
+    },
+    "./book-store": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/book-store.vue"
+    },
+    "./bottles": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bottles.vue"
+    },
+    "./boulder1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/boulder1.vue"
+    },
+    "./boulder2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/boulder2.vue"
+    },
+    "./boulder3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/boulder3.vue"
+    },
+    "./bow-and-arrow": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bow-and-arrow.vue"
+    },
+    "./bowling": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bowling.vue"
+    },
+    "./bowling-alt1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bowling-alt1.vue"
+    },
+    "./bread": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bread.vue"
+    },
+    "./brick-trowel": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/brick-trowel.vue"
+    },
+    "./bridge": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bridge.vue"
+    },
+    "./briefcase": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/briefcase.vue"
+    },
+    "./briefcase-asterisk": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/briefcase-asterisk.vue"
+    },
+    "./briefcase-bolt": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/briefcase-bolt.vue"
+    },
+    "./briefcase-cross": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/briefcase-cross.vue"
+    },
+    "./briefcase-info": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/briefcase-info.vue"
+    },
+    "./briefcase-shield": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/briefcase-shield.vue"
+    },
+    "./bubble-tea": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bubble-tea.vue"
+    },
+    "./buffer-stop": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/buffer-stop.vue"
+    },
+    "./bulb": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bulb.vue"
+    },
+    "./bulb2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bulb2.vue"
+    },
+    "./bulb3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bulb3.vue"
+    },
+    "./bulldozer": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bulldozer.vue"
+    },
+    "./bulletin-board": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bulletin-board.vue"
+    },
+    "./bunk-beds": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bunk-beds.vue"
+    },
+    "./bunker": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bunker.vue"
+    },
+    "./bunker-silo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bunker-silo.vue"
+    },
+    "./buoy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/buoy.vue"
+    },
+    "./bus": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bus.vue"
+    },
+    "./bus-guided": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bus-guided.vue"
+    },
+    "./cabin": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cabin.vue"
+    },
+    "./cable": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cable.vue"
+    },
+    "./cable-device": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cable-device.vue"
+    },
+    "./cable-manhole": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cable-manhole.vue"
+    },
+    "./cable-meter": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cable-meter.vue"
+    },
+    "./cable-shutoff": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cable-shutoff.vue"
+    },
+    "./cairn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cairn.vue"
+    },
+    "./camper-trailer": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/camper-trailer.vue"
+    },
+    "./camper-trailer-dump": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/camper-trailer-dump.vue"
+    },
+    "./campfire": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/campfire.vue"
+    },
+    "./can": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/can.vue"
+    },
+    "./canoe": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/canoe.vue"
+    },
+    "./cape-landform": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cape-landform.vue"
+    },
+    "./capitol": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/capitol.vue"
+    },
+    "./car-dealer": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/car-dealer.vue"
+    },
+    "./car-parked": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/car-parked.vue"
+    },
+    "./car-pool": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/car-pool.vue"
+    },
+    "./car-structure": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/car-structure.vue"
+    },
+    "./car-wash": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/car-wash.vue"
+    },
+    "./carport": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/carport.vue"
+    },
+    "./casino": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/casino.vue"
+    },
+    "./catering": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/catering.vue"
+    },
+    "./cattle-grid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cattle-grid.vue"
+    },
+    "./chairlift": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chairlift.vue"
+    },
+    "./checkpoint": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/checkpoint.vue"
+    },
+    "./chefs-knife": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chefs-knife.vue"
+    },
+    "./chicane-arrow": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chicane-arrow.vue"
+    },
+    "./chimney": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chimney.vue"
+    },
+    "./chocolate": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chocolate.vue"
+    },
+    "./cleaver": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cleaver.vue"
+    },
+    "./cliff-falling-rocks": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cliff-falling-rocks.vue"
+    },
+    "./climbing": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/climbing.vue"
+    },
+    "./climbing-frame": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/climbing-frame.vue"
+    },
+    "./climbing-wall": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/climbing-wall.vue"
+    },
+    "./clock": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/clock.vue"
+    },
+    "./cloth": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloth.vue"
+    },
+    "./clothes-hanger": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/clothes-hanger.vue"
+    },
+    "./coffee": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/coffee.vue"
+    },
+    "./compass": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/compass.vue"
+    },
+    "./conveyor": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/conveyor.vue"
+    },
+    "./cooling-tower": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cooling-tower.vue"
+    },
+    "./cooling-tower-radiation": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cooling-tower-radiation.vue"
+    },
+    "./coral-reef": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/coral-reef.vue"
+    },
+    "./courthouse": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/courthouse.vue"
+    },
+    "./crane": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/crane.vue"
+    },
+    "./cross-country-skiing": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cross-country-skiing.vue"
+    },
+    "./crossing-markings-dashes": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/crossing-markings-dashes.vue"
+    },
+    "./crossing-markings-dots": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/crossing-markings-dots.vue"
+    },
+    "./crossing-markings-ladder": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/crossing-markings-ladder.vue"
+    },
+    "./crossing-markings-ladder-paired": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/crossing-markings-ladder-paired.vue"
+    },
+    "./crossing-markings-ladder-skewed": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/crossing-markings-ladder-skewed.vue"
+    },
+    "./crossing-markings-lines": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/crossing-markings-lines.vue"
+    },
+    "./crossing-markings-lines-paired": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/crossing-markings-lines-paired.vue"
+    },
+    "./crossing-markings-surface": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/crossing-markings-surface.vue"
+    },
+    "./crossing-markings-zebra": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/crossing-markings-zebra.vue"
+    },
+    "./crossing-markings-zebra-bicolour": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/crossing-markings-zebra-bicolour.vue"
+    },
+    "./crossing-markings-zebra-double": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/crossing-markings-zebra-double.vue"
+    },
+    "./crossing-markings-zebra-paired": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/crossing-markings-zebra-paired.vue"
+    },
+    "./crossing-rail-rail": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/crossing-rail-rail.vue"
+    },
+    "./crossing-rail-road": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/crossing-rail-road.vue"
+    },
+    "./crossing-rail-solid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/crossing-rail-solid.vue"
+    },
+    "./crossing-rail-striped": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/crossing-rail-striped.vue"
+    },
+    "./crossing-tram-road": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/crossing-tram-road.vue"
+    },
+    "./crossing-tram-solid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/crossing-tram-solid.vue"
+    },
+    "./crossing-tram-striped": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/crossing-tram-striped.vue"
+    },
+    "./curtains": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/curtains.vue"
+    },
+    "./cushion": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cushion.vue"
+    },
+    "./cycle-barrier": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cycle-barrier.vue"
+    },
+    "./cyclist-crosswalk": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cyclist-crosswalk.vue"
+    },
+    "./dagger": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dagger.vue"
+    },
+    "./desk-lamp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/desk-lamp.vue"
+    },
+    "./detergent-bottle": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/detergent-bottle.vue"
+    },
+    "./diamond": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/diamond.vue"
+    },
+    "./dice": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dice.vue"
+    },
+    "./disc-golf-basket": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/disc-golf-basket.vue"
+    },
+    "./diving": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/diving.vue"
+    },
+    "./dog-shelter": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dog-shelter.vue"
+    },
+    "./domed-tower": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/domed-tower.vue"
+    },
+    "./donut": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/donut.vue"
+    },
+    "./drag-lift": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/drag-lift.vue"
+    },
+    "./dress": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dress.vue"
+    },
+    "./drink-cup": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/drink-cup.vue"
+    },
+    "./ear": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/ear.vue"
+    },
+    "./egg": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/egg.vue"
+    },
+    "./electronic": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/electronic.vue"
+    },
+    "./elevator": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/elevator.vue"
+    },
+    "./embassy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/embassy.vue"
+    },
+    "./fashion-accessories": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fashion-accessories.vue"
+    },
+    "./ferry": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/ferry.vue"
+    },
+    "./field-hockey": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/field-hockey.vue"
+    },
+    "./fighter-jet": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fighter-jet.vue"
+    },
+    "./fire-hydrant": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fire-hydrant.vue"
+    },
+    "./fire-hydrant-underground": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fire-hydrant-underground.vue"
+    },
+    "./fireplace": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fireplace.vue"
+    },
+    "./fish-cleaning": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fish-cleaning.vue"
+    },
+    "./fish-ladder": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fish-ladder.vue"
+    },
+    "./fishing-pier": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fishing-pier.vue"
+    },
+    "./florist": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/florist.vue"
+    },
+    "./food": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/food.vue"
+    },
+    "./footwear-decontamination": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/footwear-decontamination.vue"
+    },
+    "./fountain": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fountain.vue"
+    },
+    "./freight-car": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/freight-car.vue"
+    },
+    "./furniture": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/furniture.vue"
+    },
+    "./garden-bed": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/garden-bed.vue"
+    },
+    "./gas": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gas.vue"
+    },
+    "./gas-device": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gas-device.vue"
+    },
+    "./gas-manhole": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gas-manhole.vue"
+    },
+    "./gas-meter": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gas-meter.vue"
+    },
+    "./gas-shutoff": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gas-shutoff.vue"
+    },
+    "./gate": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gate.vue"
+    },
+    "./geyser-from-ground": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/geyser-from-ground.vue"
+    },
+    "./golf-cart": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/golf-cart.vue"
+    },
+    "./golf-green": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/golf-green.vue"
+    },
+    "./gondola-lift": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gondola-lift.vue"
+    },
+    "./goods-lift": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/goods-lift.vue"
+    },
+    "./gown": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gown.vue"
+    },
+    "./grapes": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/grapes.vue"
+    },
+    "./grass": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/grass.vue"
+    },
+    "./guard-rail": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/guard-rail.vue"
+    },
+    "./gym": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gym.vue"
+    },
+    "./hair-care": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hair-care.vue"
+    },
+    "./hammer-shoe": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hammer-shoe.vue"
+    },
+    "./hand": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hand.vue"
+    },
+    "./handbag": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/handbag.vue"
+    },
+    "./hang-gliding": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hang-gliding.vue"
+    },
+    "./hangar": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hangar.vue"
+    },
+    "./hanging-rail": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hanging-rail.vue"
+    },
+    "./hearing-aid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hearing-aid.vue"
+    },
+    "./heart": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/heart.vue"
+    },
+    "./heavy-rail": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/heavy-rail.vue"
+    },
+    "./hedge": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hedge.vue"
+    },
+    "./height-restrictor": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/height-restrictor.vue"
+    },
+    "./hinduism": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hinduism.vue"
+    },
+    "./horizontal-bar": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/horizontal-bar.vue"
+    },
+    "./horn-cleat": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/horn-cleat.vue"
+    },
+    "./horse-shelter": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/horse-shelter.vue"
+    },
+    "./horseshoe": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/horseshoe.vue"
+    },
+    "./horseshoes": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/horseshoes.vue"
+    },
+    "./hot-drink-cup": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hot-drink-cup.vue"
+    },
+    "./hotpot": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hotpot.vue"
+    },
+    "./houseboat": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/houseboat.vue"
+    },
+    "./hunting-blind": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hunting-blind.vue"
+    },
+    "./hut": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hut.vue"
+    },
+    "./ice-fishing": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/ice-fishing.vue"
+    },
+    "./ice-skating": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/ice-skating.vue"
+    },
+    "./info-board": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/info-board.vue"
+    },
+    "./inline-skating": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/inline-skating.vue"
+    },
+    "./island-trees-building": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/island-trees-building.vue"
+    },
+    "./islet-tree": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/islet-tree.vue"
+    },
+    "./j-bar-lift": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/j-bar-lift.vue"
+    },
+    "./jet-skiing": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jet-skiing.vue"
+    },
+    "./jetplane-front": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jetplane-front.vue"
+    },
+    "./jewelry-store": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jewelry-store.vue"
+    },
+    "./junction": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/junction.vue"
+    },
+    "./junk-car": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/junk-car.vue"
+    },
+    "./kayaking": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kayaking.vue"
+    },
+    "./kerb-flush": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kerb-flush.vue"
+    },
+    "./kerb-lowered": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kerb-lowered.vue"
+    },
+    "./kerb-raised": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kerb-raised.vue"
+    },
+    "./kerb-rolled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kerb-rolled.vue"
+    },
+    "./kerb-unspecified": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kerb-unspecified.vue"
+    },
+    "./kitchen-sink": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kitchen-sink.vue"
+    },
+    "./latrine": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/latrine.vue"
+    },
+    "./laundry": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/laundry.vue"
+    },
+    "./lawn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lawn.vue"
+    },
+    "./lawyer": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lawyer.vue"
+    },
+    "./letter-box": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/letter-box.vue"
+    },
+    "./library": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/library.vue"
+    },
+    "./lift-gate": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lift-gate.vue"
+    },
+    "./light-rail": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/light-rail.vue"
+    },
+    "./lipstick": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lipstick.vue"
+    },
+    "./lock": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lock.vue"
+    },
+    "./lounger": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lounger.vue"
+    },
+    "./lounging": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lounging.vue"
+    },
+    "./manhole": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/manhole.vue"
+    },
+    "./manufactured-home": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/manufactured-home.vue"
+    },
+    "./mast": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mast.vue"
+    },
+    "./mast-communication": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mast-communication.vue"
+    },
+    "./mast-lighting": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mast-lighting.vue"
+    },
+    "./maze": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/maze.vue"
+    },
+    "./meat": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/meat.vue"
+    },
+    "./milestone": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/milestone.vue"
+    },
+    "./military": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/military.vue"
+    },
+    "./military-checkpoint": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/military-checkpoint.vue"
+    },
+    "./milk-jug": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/milk-jug.vue"
+    },
+    "./mineshaft-cage": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mineshaft-cage.vue"
+    },
+    "./mineshaft-profile": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mineshaft-profile.vue"
+    },
+    "./money-hand": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/money-hand.vue"
+    },
+    "./monorail": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/monorail.vue"
+    },
+    "./motorcycle": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/motorcycle.vue"
+    },
+    "./motorcycle-parked": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/motorcycle-parked.vue"
+    },
+    "./motorcycle-rental": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/motorcycle-rental.vue"
+    },
+    "./motorcycle-repair": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/motorcycle-repair.vue"
+    },
+    "./mountain-asterisk": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mountain-asterisk.vue"
+    },
+    "./mountain-cross": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mountain-cross.vue"
+    },
+    "./mountain-range": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mountain-range.vue"
+    },
+    "./movie-rental": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/movie-rental.vue"
+    },
+    "./museum": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/museum.vue"
+    },
+    "./natural-arch": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/natural-arch.vue"
+    },
+    "./needle-and-spool": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/needle-and-spool.vue"
+    },
+    "./obelisk": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/obelisk.vue"
+    },
+    "./oil-well": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/oil-well.vue"
+    },
+    "./os-benchmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/os-benchmark.vue"
+    },
+    "./paifang": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/paifang.vue"
+    },
+    "./parking-space": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/parking-space.vue"
+    },
+    "./passport-checkpoint": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/passport-checkpoint.vue"
+    },
+    "./ped-cyclist-crosswalk": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/ped-cyclist-crosswalk.vue"
+    },
+    "./pedestrian": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pedestrian.vue"
+    },
+    "./pedestrian-and-cyclist": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pedestrian-and-cyclist.vue"
+    },
+    "./pedestrian-crosswalk": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pedestrian-crosswalk.vue"
+    },
+    "./pedestrian-walled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pedestrian-walled.vue"
+    },
+    "./perfume": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/perfume.vue"
+    },
+    "./pet-grooming": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pet-grooming.vue"
+    },
+    "./pet-store": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pet-store.vue"
+    },
+    "./pharmacy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pharmacy.vue"
+    },
+    "./physiotherapist": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/physiotherapist.vue"
+    },
+    "./pick-hammer": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pick-hammer.vue"
+    },
+    "./pickleball": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pickleball.vue"
+    },
+    "./picnic-shelter": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/picnic-shelter.vue"
+    },
+    "./pier-fixed": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pier-fixed.vue"
+    },
+    "./pier-floating": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pier-floating.vue"
+    },
+    "./pin": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pin.vue"
+    },
+    "./pipe": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pipe.vue"
+    },
+    "./plane-taxiing": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/plane-taxiing.vue"
+    },
+    "./planes": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/planes.vue"
+    },
+    "./planes-bidirectional": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/planes-bidirectional.vue"
+    },
+    "./plant": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/plant.vue"
+    },
+    "./plaque": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/plaque.vue"
+    },
+    "./platter-lift": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/platter-lift.vue"
+    },
+    "./play-structure": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/play-structure.vue"
+    },
+    "./playhouse": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/playhouse.vue"
+    },
+    "./plumber": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/plumber.vue"
+    },
+    "./police-checkpoint": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/police-checkpoint.vue"
+    },
+    "./police-officer": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/police-officer.vue"
+    },
+    "./polished-nail": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/polished-nail.vue"
+    },
+    "./portrait": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/portrait.vue"
+    },
+    "./portrait-framed": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/portrait-framed.vue"
+    },
+    "./post-box": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/post-box.vue"
+    },
+    "./poster-box": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/poster-box.vue"
+    },
+    "./power": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/power.vue"
+    },
+    "./power-cb": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/power-cb.vue"
+    },
+    "./power-cb2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/power-cb2.vue"
+    },
+    "./power-circuit": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/power-circuit.vue"
+    },
+    "./power-ct": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/power-ct.vue"
+    },
+    "./power-device": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/power-device.vue"
+    },
+    "./power-isolator": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/power-isolator.vue"
+    },
+    "./power-la": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/power-la.vue"
+    },
+    "./power-manhole": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/power-manhole.vue"
+    },
+    "./power-meter": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/power-meter.vue"
+    },
+    "./power-pole": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/power-pole.vue"
+    },
+    "./power-shutoff": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/power-shutoff.vue"
+    },
+    "./power-switch": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/power-switch.vue"
+    },
+    "./power-tower": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/power-tower.vue"
+    },
+    "./power-transformer": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/power-transformer.vue"
+    },
+    "./powered-pump": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/powered-pump.vue"
+    },
+    "./propane-tank": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/propane-tank.vue"
+    },
+    "./psychic": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/psychic.vue"
+    },
+    "./quakerism": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/quakerism.vue"
+    },
+    "./quay": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/quay.vue"
+    },
+    "./racetrack-oval": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/racetrack-oval.vue"
+    },
+    "./radiation": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/radiation.vue"
+    },
+    "./radio": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/radio.vue"
+    },
+    "./rafting": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rafting.vue"
+    },
+    "./rail-flag": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rail-flag.vue"
+    },
+    "./rail-profile": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rail-profile.vue"
+    },
+    "./railing": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/railing.vue"
+    },
+    "./railway-cable-track": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/railway-cable-track.vue"
+    },
+    "./railway-signals": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/railway-signals.vue"
+    },
+    "./railway-track": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/railway-track.vue"
+    },
+    "./railway-track-askew": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/railway-track-askew.vue"
+    },
+    "./railway-track-mini": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/railway-track-mini.vue"
+    },
+    "./railway-track-narrow": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/railway-track-narrow.vue"
+    },
+    "./railway-track-partial": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/railway-track-partial.vue"
+    },
+    "./real-estate-agency": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/real-estate-agency.vue"
+    },
+    "./rigging": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rigging.vue"
+    },
+    "./rocket-firework": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rocket-firework.vue"
+    },
+    "./roller-coaster": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/roller-coaster.vue"
+    },
+    "./room": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/room.vue"
+    },
+    "./rope-fence": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rope-fence.vue"
+    },
+    "./row-houses": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/row-houses.vue"
+    },
+    "./ruins": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/ruins.vue"
+    },
+    "./rumble-strip": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rumble-strip.vue"
+    },
+    "./saddle": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/saddle.vue"
+    },
+    "./sail": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sail.vue"
+    },
+    "./sailboat": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sailboat.vue"
+    },
+    "./sailing": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sailing.vue"
+    },
+    "./sandbox": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sandbox.vue"
+    },
+    "./sandwich": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sandwich.vue"
+    },
+    "./scaffold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/scaffold.vue"
+    },
+    "./school": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/school.vue"
+    },
+    "./school-bus": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/school-bus.vue"
+    },
+    "./scuba-diving": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/scuba-diving.vue"
+    },
+    "./sculpture": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sculpture.vue"
+    },
+    "./security-camera": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/security-camera.vue"
+    },
+    "./seesaw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/seesaw.vue"
+    },
+    "./shield": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/shield.vue"
+    },
+    "./shinto": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/shinto.vue"
+    },
+    "./shopping-mall": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/shopping-mall.vue"
+    },
+    "./shower": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/shower.vue"
+    },
+    "./shrub": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/shrub.vue"
+    },
+    "./shrub-low": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/shrub-low.vue"
+    },
+    "./shuffleboard": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/shuffleboard.vue"
+    },
+    "./sign-and-bench": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sign-and-bench.vue"
+    },
+    "./sign-and-car": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sign-and-car.vue"
+    },
+    "./sign-and-pedestrian": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sign-and-pedestrian.vue"
+    },
+    "./sikhism": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sikhism.vue"
+    },
+    "./silo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/silo.vue"
+    },
+    "./skateboarding": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/skateboarding.vue"
+    },
+    "./ski-jumping": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/ski-jumping.vue"
+    },
+    "./skiing": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/skiing.vue"
+    },
+    "./sledding": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sledding.vue"
+    },
+    "./sleep-shelter": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sleep-shelter.vue"
+    },
+    "./slide": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/slide.vue"
+    },
+    "./slide2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/slide2.vue"
+    },
+    "./snow": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/snow.vue"
+    },
+    "./snow-shoeing": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/snow-shoeing.vue"
+    },
+    "./snowboarding": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/snowboarding.vue"
+    },
+    "./snowmobile": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/snowmobile.vue"
+    },
+    "./social-facility": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/social-facility.vue"
+    },
+    "./spa": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/spa.vue"
+    },
+    "./speaker": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/speaker.vue"
+    },
+    "./speed-bump": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/speed-bump.vue"
+    },
+    "./speed-dip": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/speed-dip.vue"
+    },
+    "./speed-dip-double": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/speed-dip-double.vue"
+    },
+    "./speed-hump": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/speed-hump.vue"
+    },
+    "./speed-table": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/speed-table.vue"
+    },
+    "./speedway-8": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/speedway-8.vue"
+    },
+    "./speedway-oval": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/speedway-oval.vue"
+    },
+    "./spice-bottle": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/spice-bottle.vue"
+    },
+    "./spike-strip": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/spike-strip.vue"
+    },
+    "./splash-pad": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/splash-pad.vue"
+    },
+    "./spotting-scope": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/spotting-scope.vue"
+    },
+    "./spring-rider": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/spring-rider.vue"
+    },
+    "./stamp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stamp.vue"
+    },
+    "./statue": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/statue.vue"
+    },
+    "./stile-squeezer": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stile-squeezer.vue"
+    },
+    "./stop": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stop.vue"
+    },
+    "./storage": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/storage.vue"
+    },
+    "./storage-drum": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/storage-drum.vue"
+    },
+    "./storage-fermenter": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/storage-fermenter.vue"
+    },
+    "./storage-rental": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/storage-rental.vue"
+    },
+    "./storage-tank": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/storage-tank.vue"
+    },
+    "./street-lamp-arm": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/street-lamp-arm.vue"
+    },
+    "./striped-way": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/striped-way.vue"
+    },
+    "./striped-zone": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/striped-zone.vue"
+    },
+    "./subway": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/subway.vue"
+    },
+    "./suitcase": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/suitcase.vue"
+    },
+    "./suitcase-key": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/suitcase-key.vue"
+    },
+    "./suitcase-xray": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/suitcase-xray.vue"
+    },
+    "./surfing": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/surfing.vue"
+    },
+    "./swamp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/swamp.vue"
+    },
+    "./swing": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/swing.vue"
+    },
+    "./t-bar-lift": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/t-bar-lift.vue"
+    },
+    "./table-soccer": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/table-soccer.vue"
+    },
+    "./tall-gate": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tall-gate.vue"
+    },
+    "./tanning": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tanning.vue"
+    },
+    "./tanning2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tanning2.vue"
+    },
+    "./taoism": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/taoism.vue"
+    },
+    "./tattoo-machine": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tattoo-machine.vue"
+    },
+    "./taxi-stand": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/taxi-stand.vue"
+    },
+    "./telephone": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/telephone.vue"
+    },
+    "./telescope": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/telescope.vue"
+    },
+    "./temaki": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/temaki.vue"
+    },
+    "./tennis": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tennis.vue"
+    },
+    "./tents": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tents.vue"
+    },
+    "./ticket": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/ticket.vue"
+    },
+    "./tiling": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tiling.vue"
+    },
+    "./tire": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tire.vue"
+    },
+    "./tire-course": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tire-course.vue"
+    },
+    "./toll-gantry": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/toll-gantry.vue"
+    },
+    "./toolbox": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/toolbox.vue"
+    },
+    "./tools": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tools.vue"
+    },
+    "./tower": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tower.vue"
+    },
+    "./tower-communication": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tower-communication.vue"
+    },
+    "./town-hall": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/town-hall.vue"
+    },
+    "./traffic-signals": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/traffic-signals.vue"
+    },
+    "./train": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/train.vue"
+    },
+    "./train-bullet": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/train-bullet.vue"
+    },
+    "./train-diesel": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/train-diesel.vue"
+    },
+    "./train-kids": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/train-kids.vue"
+    },
+    "./train-steam": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/train-steam.vue"
+    },
+    "./train-wash": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/train-wash.vue"
+    },
+    "./tram": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tram.vue"
+    },
+    "./tram-side": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tram-side.vue"
+    },
+    "./trampoline": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/trampoline.vue"
+    },
+    "./transit": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/transit.vue"
+    },
+    "./transit-shelter": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/transit-shelter.vue"
+    },
+    "./tree-and-bench": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tree-and-bench.vue"
+    },
+    "./tree-broadleaved": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tree-broadleaved.vue"
+    },
+    "./tree-cactus": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tree-cactus.vue"
+    },
+    "./tree-leafless": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tree-leafless.vue"
+    },
+    "./tree-needleleaved": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tree-needleleaved.vue"
+    },
+    "./tree-palm": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tree-palm.vue"
+    },
+    "./tree-row": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tree-row.vue"
+    },
+    "./tree-stump": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tree-stump.vue"
+    },
+    "./trench": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/trench.vue"
+    },
+    "./trolleybus": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/trolleybus.vue"
+    },
+    "./truck": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/truck.vue"
+    },
+    "./tunnel": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tunnel.vue"
+    },
+    "./turnstile": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/turnstile.vue"
+    },
+    "./utility-pole": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/utility-pole.vue"
+    },
+    "./vacuum": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vacuum.vue"
+    },
+    "./vacuum-station": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vacuum-station.vue"
+    },
+    "./valley": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/valley.vue"
+    },
+    "./vase": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vase.vue"
+    },
+    "./vending-bread": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vending-bread.vue"
+    },
+    "./vending-cigarettes": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vending-cigarettes.vue"
+    },
+    "./vending-cold-drink": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vending-cold-drink.vue"
+    },
+    "./vending-cold-drink2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vending-cold-drink2.vue"
+    },
+    "./vending-eggs": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vending-eggs.vue"
+    },
+    "./vending-flat-coin": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vending-flat-coin.vue"
+    },
+    "./vending-hot-drink": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vending-hot-drink.vue"
+    },
+    "./vending-hot-drink2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vending-hot-drink2.vue"
+    },
+    "./vending-ice": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vending-ice.vue"
+    },
+    "./vending-ice-cream": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vending-ice-cream.vue"
+    },
+    "./vending-ice-cream2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vending-ice-cream2.vue"
+    },
+    "./vending-lockers": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vending-lockers.vue"
+    },
+    "./vending-love": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vending-love.vue"
+    },
+    "./vending-machine": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vending-machine.vue"
+    },
+    "./vending-medicine": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vending-medicine.vue"
+    },
+    "./vending-newspaper": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vending-newspaper.vue"
+    },
+    "./vending-pet-waste": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vending-pet-waste.vue"
+    },
+    "./vending-stamps": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vending-stamps.vue"
+    },
+    "./vending-tickets": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vending-tickets.vue"
+    },
+    "./vending-venus": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vending-venus.vue"
+    },
+    "./vertex": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vertex.vue"
+    },
+    "./vertical-rotisserie": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vertical-rotisserie.vue"
+    },
+    "./veterinary-care": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/veterinary-care.vue"
+    },
+    "./viewpoint": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/viewpoint.vue"
+    },
+    "./wall": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wall.vue"
+    },
+    "./waste": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/waste.vue"
+    },
+    "./waste-device": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/waste-device.vue"
+    },
+    "./waste-manhole": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/waste-manhole.vue"
+    },
+    "./waste-meter": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/waste-meter.vue"
+    },
+    "./waste-shutoff": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/waste-shutoff.vue"
+    },
+    "./water": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/water.vue"
+    },
+    "./water-bottle": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/water-bottle.vue"
+    },
+    "./water-device": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/water-device.vue"
+    },
+    "./water-manhole": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/water-manhole.vue"
+    },
+    "./water-meter": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/water-meter.vue"
+    },
+    "./water-shutoff": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/water-shutoff.vue"
+    },
+    "./water-tap": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/water-tap.vue"
+    },
+    "./water-tap-drinkable": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/water-tap-drinkable.vue"
+    },
+    "./water-tower": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/water-tower.vue"
+    },
+    "./waterskiing": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/waterskiing.vue"
+    },
+    "./well-pump-manual": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/well-pump-manual.vue"
+    },
+    "./well-pump-powered": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/well-pump-powered.vue"
+    },
+    "./whale-watching": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/whale-watching.vue"
+    },
+    "./wheel": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wheel.vue"
+    },
+    "./wheelchair": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wheelchair.vue"
+    },
+    "./wheelchair-active": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wheelchair-active.vue"
+    },
+    "./wind-surfing": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wind-surfing.vue"
+    },
+    "./wind-turbine": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wind-turbine.vue"
+    },
+    "./windmill": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/windmill.vue"
+    },
+    "./window": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/window.vue"
+    },
+    "./windpump": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/windpump.vue"
+    },
+    "./windsock": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/windsock.vue"
+    },
+    "./x-oblique": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/x/x-oblique.vue"
+    },
+    "./yield": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yield.vue"
+    },
+    "./zip-wire": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/z/zip-wire.vue"
+    },
+    "./zoo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/z/zoo.vue"
+    },
+    "./*": "./*"
+  },
+  "dependencies": {
+    "@iconify/css-vue": "^1.0.0"
+  },
+  "repository": "github:iconify/icons-vue#temaki"
+}

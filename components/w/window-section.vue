@@ -1,0 +1,13 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/n/n2fuemo5t.css';
+import '../../css/t/tvuc3h5zy.css';
+import '../../css/a/amudyvb1b.css';
+import '../../css/q/qv0ny4dca.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="n2fuemo5t"/><path class="tvuc3h5zy"/><path class="amudyvb1b"/><path class="qv0ny4dca"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="uim:window-section" /></template>

@@ -1,0 +1,6 @@
+.equ8s-64r {
+  stroke: var(--svg-color--4147d5, #4147d5);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M7 8.846c.96 0 1.5-.54 1.5-1.5s-.54-1.5-1.5-1.5s-1.5.54-1.5 1.5s.54 1.5 1.5 1.5");
+}

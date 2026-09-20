@@ -1,0 +1,9 @@
+.ivhcsttma {
+  fill: none;
+  stroke: var(--svg-color--e2e8f0, #e2e8f0);
+  stroke-dasharray: 60 60;
+  stroke-linecap: round;
+  stroke-miterlimit: 10;
+  stroke-width: var(--svg-stroke-width--18px, 18px);
+  d: path("M99 9h90");
+}

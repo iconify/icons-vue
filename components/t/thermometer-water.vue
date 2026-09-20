@@ -1,0 +1,14 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/h/hn5ububqz.css';
+import '../../css/q/q1cpo9b-u.css';
+import '../../css/b/b34w7i1wr.css';
+import '../../css/h/hopdpj1fj.css';
+import '../../css/h/hle-fvg2n.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":512,"height":512};
+const content = `<defs><clipPath id="SVGvy0DNepQ"><path class="hn5ububqz"/></clipPath><symbol id="SVGrLxmDd9P" viewBox="0 0 244 92"><path class="q1cpo9b-u"><animate attributeName="d" calcMode="spline" dur="3s" keySplines=".42, 0, .58, 1; .42, 0, .58, 1" repeatCount="indefinite" values="M 242 24.63 h -8 c -10.92 0 -20.85 -11.66 -26 -21.39 a 2.28 2.28 0 0 0 -4.06 0 c -5.12 9.73 -15.05 21.39 -26 21.39 S 157.15 13 152 3.24 a 2.28 2.28 0 0 0 -4.06 0 c -5.12 9.73 -15.05 21.39 -26 21.39 S 101.15 13 96 3.24 a 2.28 2.28 0 0 0 -4.06 0 c -5.12 9.73 -15 21.39 -26 21.39 S 45.15 13 40 3.24 a 2.28 2.28 0 0 0 -4.06 0 c -5.12 9.73 -15 21.39 -26 21.39 H 2 V 74 A 16.14 16.14 0 0 0 18 90 H 226 a 16.14 16.14 0 0 0 16 -16.3 Z; M 242 24.63 h -8 c -10.92 0 -20.85 -11.66 -26 -21.39 a 2.28 2.28 0 0 0 -4.06 0 c -5.12 9.73 -15.05 21.39 -26 21.39 S 157.15 13 152 3.24 a 2.28 2.28 0 0 0 -4.06 0 c -5.12 9.73 -15.05 21.39 -26 21.39 S 101.15 13 96 3.24 a 2.28 2.28 0 0 0 -4.06 0 c -5.12 9.73 -15 21.39 -26 21.39 S 45.15 13 40 3.24 a 2.28 2.28 0 0 0 -4.06 0 c -5.12 9.73 -15 21.39 -26 21.39 H 2 V 59 A 16.14 16.14 0 0 0 18 75 H 226 a 16.14 16.14 0 0 0 16 -16.3 Z; M 242 24.63 h -8 c -10.92 0 -20.85 -11.66 -26 -21.39 a 2.28 2.28 0 0 0 -4.06 0 c -5.12 9.73 -15.05 21.39 -26 21.39 S 157.15 13 152 3.24 a 2.28 2.28 0 0 0 -4.06 0 c -5.12 9.73 -15.05 21.39 -26 21.39 S 101.15 13 96 3.24 a 2.28 2.28 0 0 0 -4.06 0 c -5.12 9.73 -15 21.39 -26 21.39 S 45.15 13 40 3.24 a 2.28 2.28 0 0 0 -4.06 0 c -5.12 9.73 -15 21.39 -26 21.39 H 2 V 74 A 16.14 16.14 0 0 0 18 90 H 226 a 16.14 16.14 0 0 0 16 -16.3 Z"/><animateTransform additive="sum" attributeName="transform" calcMode="spline" dur="3s" keySplines=".42, 0, .58, 1; .42, 0, .58, 1" repeatCount="indefinite" type="translate" values="0 0; 0 15; 0 0"/></path></symbol></defs><g clip-path="url(#SVGvy0DNepQ)"><use width="244" height="92" href="#SVGrLxmDd9P" transform="translate(134 242)"/></g><ellipse class="b34w7i1wr"/><path class="hopdpj1fj"><animateTransform attributeName="transform" calcMode="spline" dur="1s" keySplines=".42, 0, .58, 1; .42, 0, .58, 1" repeatCount="indefinite" type="translate" values="0 0; 0 18; 0 0"/></path><path class="hle-fvg2n"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="meteocons:thermometer-water" /></template>

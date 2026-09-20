@@ -1,0 +1,18 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/p/p2edwbbmi.css';
+import '../../css/x/x3z_zeblz.css';
+import '../../css/g/grny65b5z.css';
+import '../../css/l/le-qv1b7l.css';
+import '../../css/y/yvq0q9f5t.css';
+import '../../css/i/iazd5_bwo.css';
+import '../../css/m/mzwgp8pmp.css';
+import '../../css/f/fqk8mibcy.css';
+import '../../css/y/ykd9cjbnf.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":512,"height":512};
+const content = `<defs><symbol id="SVGnoI23bPp" viewBox="0 0 196 196"><circle fill="url(#SVG9IEgDxri)" class="p2edwbbmi"/><path class="x3z_zeblz"><animateTransform additive="sum" attributeName="transform" dur="6s" repeatCount="indefinite" type="rotate" values="0 98 98; 45 98 98"/></path></symbol><symbol id="SVGMnBDAb4I" viewBox="0 0 350 222"><path fill="url(#SVGMeEfudbH)" class="grny65b5z"/></symbol><symbol id="SVGpSsklbqg" viewBox="0 0 363 258"><use width="196" height="196" href="#SVGnoI23bPp"/><use width="350" height="222" href="#SVGMnBDAb4I" transform="translate(13 36)"/></symbol><symbol id="SVGD00Kwd0A" viewBox="0 0 102.7 186.8"><path fill="url(#SVGvnYDXzed)" class="le-qv1b7l"><animate id="SVGbxDaaeoE" attributeName="opacity" begin="0s; x1.end+.67s" dur="1.33s" keyTimes="0; .38; .5; .63; .75; .86; .94; 1" values="1; 1; 0; 1; 0; 1; 0; 1"/></path></symbol><linearGradient id="SVGMeEfudbH" x1="99.5" x2="232.6" y1="30.7" y2="261.4" gradientUnits="userSpaceOnUse"><stop offset="0" class="yvq0q9f5t"/><stop offset=".5" class="yvq0q9f5t"/><stop offset="1" class="iazd5_bwo"/></linearGradient><linearGradient id="SVGvnYDXzed" x1="8.7" x2="80.9" y1="17.1" y2="142.1" gradientUnits="userSpaceOnUse"><stop offset="0" class="mzwgp8pmp"/><stop offset=".5" class="mzwgp8pmp"/><stop offset="1" class="fqk8mibcy"/></linearGradient><linearGradient id="SVG9IEgDxri" x1="78" x2="118" y1="63.4" y2="132.7" gradientUnits="userSpaceOnUse"><stop offset="0" class="ykd9cjbnf"/><stop offset=".5" class="ykd9cjbnf"/><stop offset="1" class="fqk8mibcy"/></linearGradient></defs><use width="363" height="258" href="#SVGpSsklbqg" transform="translate(68 109)"/><use width="102.7" height="186.7" href="#SVGD00Kwd0A" transform="translate(205.23 291)"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="meteocons:thunderstorms-day-fill" /></template>

@@ -1,0 +1,10 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/e/e4yq3qb3c.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":16,"height":16};
+const content = `<path class="e4yq3qb3c"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="vaadin:globe-wire" /></template>

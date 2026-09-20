@@ -1,0 +1,647 @@
+{
+  "name": "@iconify-vue/academicons",
+  "type": "module",
+  "version": "1.0.14",
+  "homepage": "https://icon-sets.iconify.design/academicons/",
+  "bugs": "https://github.com/iconify/icons-vue/issues",
+  "license": "OFL-1.1",
+  "exports": {
+    "./academia": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/academia.vue"
+    },
+    "./academia-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/academia-square.vue"
+    },
+    "./acclaim": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/acclaim.vue"
+    },
+    "./acclaim-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/acclaim-square.vue"
+    },
+    "./acm": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/acm.vue"
+    },
+    "./acm-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/acm-square.vue"
+    },
+    "./acmdl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/acmdl.vue"
+    },
+    "./acmdl-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/acmdl-square.vue"
+    },
+    "./ads": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/ads.vue"
+    },
+    "./ads-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/ads-square.vue"
+    },
+    "./africarxiv": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/africarxiv.vue"
+    },
+    "./africarxiv-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/africarxiv-square.vue"
+    },
+    "./archive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/archive.vue"
+    },
+    "./archive-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/archive-square.vue"
+    },
+    "./arxiv": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arxiv.vue"
+    },
+    "./arxiv-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arxiv-square.vue"
+    },
+    "./biorxiv": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/biorxiv.vue"
+    },
+    "./biorxiv-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/biorxiv-square.vue"
+    },
+    "./ceur": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/ceur.vue"
+    },
+    "./ceur-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/ceur-square.vue"
+    },
+    "./ciencia-vitae": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/ciencia-vitae.vue"
+    },
+    "./ciencia-vitae-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/ciencia-vitae-square.vue"
+    },
+    "./clarivate": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/clarivate.vue"
+    },
+    "./clarivate-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/clarivate-square.vue"
+    },
+    "./closed-access": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/closed-access.vue"
+    },
+    "./closed-access-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/closed-access-square.vue"
+    },
+    "./conversation": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/conversation.vue"
+    },
+    "./conversation-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/conversation-square.vue"
+    },
+    "./coursera": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/coursera.vue"
+    },
+    "./coursera-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/coursera-square.vue"
+    },
+    "./crossref": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/crossref.vue"
+    },
+    "./crossref-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/crossref-square.vue"
+    },
+    "./cv": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cv.vue"
+    },
+    "./cv-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cv-square.vue"
+    },
+    "./datacite": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/datacite.vue"
+    },
+    "./datacite-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/datacite-square.vue"
+    },
+    "./dataverse": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dataverse.vue"
+    },
+    "./dataverse-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dataverse-square.vue"
+    },
+    "./dblp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dblp.vue"
+    },
+    "./dblp-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dblp-square.vue"
+    },
+    "./depsy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/depsy.vue"
+    },
+    "./depsy-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/depsy-square.vue"
+    },
+    "./doi": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/doi.vue"
+    },
+    "./doi-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/doi-square.vue"
+    },
+    "./dryad": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dryad.vue"
+    },
+    "./dryad-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dryad-square.vue"
+    },
+    "./elsevier": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/elsevier.vue"
+    },
+    "./elsevier-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/elsevier-square.vue"
+    },
+    "./figshare": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/figshare.vue"
+    },
+    "./figshare-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/figshare-square.vue"
+    },
+    "./google-scholar": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/google-scholar.vue"
+    },
+    "./google-scholar-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/google-scholar-square.vue"
+    },
+    "./hal": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hal.vue"
+    },
+    "./hal-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hal-square.vue"
+    },
+    "./hypothesis": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hypothesis.vue"
+    },
+    "./hypothesis-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hypothesis-square.vue"
+    },
+    "./ideas-repec": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/ideas-repec.vue"
+    },
+    "./ideas-repec-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/ideas-repec-square.vue"
+    },
+    "./ieee": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/ieee.vue"
+    },
+    "./ieee-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/ieee-square.vue"
+    },
+    "./impactstory": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/impactstory.vue"
+    },
+    "./impactstory-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/impactstory-square.vue"
+    },
+    "./inaturalist": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/inaturalist.vue"
+    },
+    "./inaturalist-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/inaturalist-square.vue"
+    },
+    "./inpn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/inpn.vue"
+    },
+    "./inpn-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/inpn-square.vue"
+    },
+    "./inspire": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/inspire.vue"
+    },
+    "./inspire-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/inspire-square.vue"
+    },
+    "./isidore": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/isidore.vue"
+    },
+    "./isidore-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/isidore-square.vue"
+    },
+    "./isni": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/isni.vue"
+    },
+    "./isni-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/isni-square.vue"
+    },
+    "./jstor": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jstor.vue"
+    },
+    "./jstor-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jstor-square.vue"
+    },
+    "./lattes": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lattes.vue"
+    },
+    "./lattes-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lattes-square.vue"
+    },
+    "./mathoverflow": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mathoverflow.vue"
+    },
+    "./mathoverflow-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mathoverflow-square.vue"
+    },
+    "./mendeley": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mendeley.vue"
+    },
+    "./mendeley-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mendeley-square.vue"
+    },
+    "./moodle": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moodle.vue"
+    },
+    "./moodle-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moodle-square.vue"
+    },
+    "./mtmt": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mtmt.vue"
+    },
+    "./mtmt-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mtmt-square.vue"
+    },
+    "./nakala": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nakala.vue"
+    },
+    "./nakala-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nakala-square.vue"
+    },
+    "./obp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/obp.vue"
+    },
+    "./obp-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/obp-square.vue"
+    },
+    "./open-access": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/open-access.vue"
+    },
+    "./open-access-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/open-access-square.vue"
+    },
+    "./open-data": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/open-data.vue"
+    },
+    "./open-data-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/open-data-square.vue"
+    },
+    "./open-materials": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/open-materials.vue"
+    },
+    "./open-materials-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/open-materials-square.vue"
+    },
+    "./openedition": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/openedition.vue"
+    },
+    "./openedition-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/openedition-square.vue"
+    },
+    "./orcid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/orcid.vue"
+    },
+    "./orcid-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/orcid-square.vue"
+    },
+    "./osf": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/osf.vue"
+    },
+    "./osf-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/osf-square.vue"
+    },
+    "./overleaf": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/overleaf.vue"
+    },
+    "./overleaf-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/overleaf-square.vue"
+    },
+    "./philpapers": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/philpapers.vue"
+    },
+    "./philpapers-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/philpapers-square.vue"
+    },
+    "./piazza": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/piazza.vue"
+    },
+    "./piazza-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/piazza-square.vue"
+    },
+    "./preregistered": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/preregistered.vue"
+    },
+    "./preregistered-de": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/preregistered-de.vue"
+    },
+    "./preregistered-de-plus": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/preregistered-de-plus.vue"
+    },
+    "./preregistered-de-plus-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/preregistered-de-plus-square.vue"
+    },
+    "./preregistered-de-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/preregistered-de-square.vue"
+    },
+    "./preregistered-de-tc": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/preregistered-de-tc.vue"
+    },
+    "./preregistered-de-tc-plus": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/preregistered-de-tc-plus.vue"
+    },
+    "./preregistered-de-tc-plus-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/preregistered-de-tc-plus-square.vue"
+    },
+    "./preregistered-de-tc-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/preregistered-de-tc-square.vue"
+    },
+    "./preregistered-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/preregistered-square.vue"
+    },
+    "./preregistered-tc": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/preregistered-tc.vue"
+    },
+    "./preregistered-tc-plus": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/preregistered-tc-plus.vue"
+    },
+    "./preregistered-tc-plus-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/preregistered-tc-plus-square.vue"
+    },
+    "./preregistered-tc-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/preregistered-tc-square.vue"
+    },
+    "./protocols": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/protocols.vue"
+    },
+    "./protocols-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/protocols-square.vue"
+    },
+    "./psyarxiv": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/psyarxiv.vue"
+    },
+    "./psyarxiv-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/psyarxiv-square.vue"
+    },
+    "./publons": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/publons.vue"
+    },
+    "./publons-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/publons-square.vue"
+    },
+    "./pubmed": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pubmed.vue"
+    },
+    "./pubmed-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pubmed-square.vue"
+    },
+    "./pubpeer": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pubpeer.vue"
+    },
+    "./pubpeer-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pubpeer-square.vue"
+    },
+    "./researcherid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/researcherid.vue"
+    },
+    "./researcherid-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/researcherid-square.vue"
+    },
+    "./researchgate": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/researchgate.vue"
+    },
+    "./researchgate-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/researchgate-square.vue"
+    },
+    "./ror": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/ror.vue"
+    },
+    "./ror-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/ror-square.vue"
+    },
+    "./sci-hub": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sci-hub.vue"
+    },
+    "./sci-hub-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sci-hub-square.vue"
+    },
+    "./scirate": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/scirate.vue"
+    },
+    "./scirate-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/scirate-square.vue"
+    },
+    "./scopus": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/scopus.vue"
+    },
+    "./scopus-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/scopus-square.vue"
+    },
+    "./semantic-scholar": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/semantic-scholar.vue"
+    },
+    "./semantic-scholar-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/semantic-scholar-square.vue"
+    },
+    "./springer": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/springer.vue"
+    },
+    "./springer-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/springer-square.vue"
+    },
+    "./ssrn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/ssrn.vue"
+    },
+    "./ssrn-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/ssrn-square.vue"
+    },
+    "./stackoverflow": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stackoverflow.vue"
+    },
+    "./stackoverflow-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stackoverflow-square.vue"
+    },
+    "./viaf": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/viaf.vue"
+    },
+    "./viaf-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/viaf-square.vue"
+    },
+    "./wiley": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wiley.vue"
+    },
+    "./wiley-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wiley-square.vue"
+    },
+    "./zenodo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/z/zenodo.vue"
+    },
+    "./zenodo-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/z/zenodo-square.vue"
+    },
+    "./zotero": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/z/zotero.vue"
+    },
+    "./zotero-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/z/zotero-square.vue"
+    },
+    "./*": "./*"
+  },
+  "dependencies": {
+    "@iconify/css-vue": "^1.0.0"
+  },
+  "repository": "github:iconify/icons-vue#academicons"
+}

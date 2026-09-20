@@ -1,0 +1,8 @@
+.usuimpbio {
+  fill: var(--svg-color--dd4814, #dd4814);
+  stroke: var(--svg-color--fff, #fff);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+  d: path("m511.1 256l-.2 88.7l-254.6 148l.2-88.7zM256.5 404l-.2 88.7L0 344.7L.2 256z");
+}

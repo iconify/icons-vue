@@ -1,0 +1,11 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/u/usv905b_v.css';
+import '../../css/t/tnhvtrfme.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":512,"height":512};
+const content = `<circle class="usv905b_v"/><path class="tnhvtrfme"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="selfhst:komelia" /></template>

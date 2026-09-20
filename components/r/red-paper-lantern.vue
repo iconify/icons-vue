@@ -1,0 +1,26 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":36,"height":36};
+const content = `<path class="cri-xqboi"/><path class="f-yyad_kx"/><path class="qochgtb4h"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="twemoji:red-paper-lantern" /></template>
+<style>
+.cri-xqboi {
+  fill: var(--svg-color--292f33, #292f33);
+  d: path("M29 34a2 2 0 0 1-2 2H9a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h18a2 2 0 0 1 2 2z");
+}
+
+.f-yyad_kx {
+  fill: var(--svg-color--be1931, #be1931);
+  d: path("M6.699 32h22.602C33.383 28.7 35 23.658 35 18S33.384 7.3 29.302 4H6.698C2.615 7.3 1 12.342 1 18s1.616 10.7 5.699 14");
+}
+
+.qochgtb4h {
+  fill: var(--svg-color--dd2e44, #dd2e44);
+  d: path("M1.301 22q.161 1.024.415 2h32.568q.254-.976.415-2zm-.229-2h33.855q.073-.986.073-2H1q0 1.014.072 2m31.605 8q.546-.96.956-2H2.367q.41 1.04.956 2zM2.366 10a18 18 0 0 0-.651 2h32.569a18 18 0 0 0-.651-2zm-1.065 4a24 24 0 0 0-.229 2h33.855a24 24 0 0 0-.229-2zm30.014 16H4.685c.591.721 1.26 1.391 2.014 2h22.602a14 14 0 0 0 2.014-2M4.685 6a14 14 0 0 0-1.363 2h29.356a14 14 0 0 0-1.362-2z");
+}
+
+</style>

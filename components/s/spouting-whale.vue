@@ -1,0 +1,43 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":36,"height":36};
+const content = `<path class="tn4u01b2f"/><path class="jig1crbnz"/><path class="bh5jb4b1d"/><path class="i8dojvbwj"/><path class="nqylgub1s"/><circle class="akd7u9b6c"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="twemoji:spouting-whale" /></template>
+<style>
+.akd7u9b6c {
+  cx: 6.5px;
+  cy: 25.5px;
+  r: 1.5px;
+  fill: var(--svg-color--292f33, #292f33);
+}
+
+.bh5jb4b1d {
+  fill: var(--svg-color--3b88c3, #3b88c3);
+  d: path("M32 14c4.123 0 4-5 4-7s-2 1-5 2s-7-2-6 0s3 5 7 5");
+}
+
+.i8dojvbwj {
+  fill: var(--svg-color--55acee, #55acee);
+  d: path("M10 7c0 2.209-.896 6-2 6S6 9.209 6 7s.896-2 2-2s2-.209 2 2");
+}
+
+.jig1crbnz {
+  fill: var(--svg-color--55acee, #55acee);
+  d: path("M34.003 23c-.465 3.727-2.041 7.523-5.003 10c-2.757 2.305-6 2.969-8 2.969c-2.371 0-10.029.031-13 .031c-4.035 0-6.062-1.555-7.062-3.996C.157 30.102 4 33 15 33c14 0 17-5 19.003-10");
+}
+
+.nqylgub1s {
+  fill: var(--svg-color--55acee, #55acee);
+  d: path("M8 5c0-3-6-2-6 0s3 1 4 3s2-3 2-3m0 0c0-3 6-2 6 0s-3 1-4 3s-2-3-2-3");
+}
+
+.tn4u01b2f {
+  fill: var(--svg-color--3b88c3, #3b88c3);
+  d: path("M32 12c2.122-2.122 5 14.312-3 21c-2.757 2.305-6 2.969-8 2.969c-2.371 0-10.029.031-13 .031c-7.18 0-8-4.925-8-11s.82-11 8-11c6 0 10 2 13 3.996c4.977 3.312 5.992 3.861 8 2.004c3.213-2.97 1-6 3-8");
+}
+
+</style>

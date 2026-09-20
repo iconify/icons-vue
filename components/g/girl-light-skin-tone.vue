@@ -1,0 +1,56 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":36,"height":36};
+const content = `<path class="eu_19630i"/><path class="aab0cdb7y"/><path class="yg5s3jbgd"/><path class="c8nx-14oa"/><path class="wl42dbclv"/><path class="aoapcfbfh"/><path class="laent7_ak"/><path class="o0sq-mlak"/><path class="mglk6gbvh"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="twemoji:girl-light-skin-tone" /></template>
+<style>
+.aab0cdb7y {
+  fill: var(--svg-color--292f33, #292f33);
+  d: path("M26.96 23.087C31 27 31.043 34.021 30.021 34.021s-4.115-1.852-6.068-3.937s-1.75-6.778-1.75-6.778l1.586-4.319c0-.001-.869.187 3.171 4.1M3 34c-1 0-1-7 3-11s3-4 3-4l2 4s0 5-2 7s-5 4-6 4");
+}
+
+.aoapcfbfh {
+  fill: var(--svg-color--df1f32, #df1f32);
+  d: path("M18 27.651c-2.42 0-4.274-.687-4.352-.715a1 1 0 0 1 .702-1.873c.016.006 1.61.588 3.65.588s3.635-.582 3.65-.588a1 1 0 0 1 1.285.587a1 1 0 0 1-.584 1.286c-.077.029-1.93.715-4.351.715");
+}
+
+.c8nx-14oa {
+  fill: var(--svg-color--f7dece, #f7dece);
+  d: path("M6.914 18.353c-.571-2.134-2.116-3.575-3.45-3.217s-1.95 2.378-1.379 4.511c.571 2.135 2.116 3.574 3.45 3.217c1.334-.358 1.951-2.378 1.379-4.511m27.001 1.294c.571-2.134-.046-4.154-1.38-4.512c-1.333-.356-2.878 1.083-3.449 3.218c-.572 2.134.045 4.153 1.379 4.511s2.879-1.083 3.45-3.217");
+}
+
+.eu_19630i {
+  fill: var(--svg-color--292f33, #292f33);
+  d: path("M29.96 23.087C34 27 34.043 34.021 33.021 34.021s-4.115-1.852-6.068-3.937s-1.75-6.778-1.75-6.778l1.586-4.319c0-.001-.869.187 3.171 4.1");
+}
+
+.laent7_ak {
+  fill: var(--svg-color--c1694f, #c1694f);
+  d: path("M19 23h-2a1 1 0 1 1 0-2h2a1 1 0 1 1 0 2");
+}
+
+.mglk6gbvh {
+  fill: var(--svg-color--292f33, #292f33);
+  d: path("M32 10c-2-7-7-9-10-9c-2 0-4 2-4 2s-2-2-4-2c-3 0-8 2-10 9c-1.648 5.769 1 11 1 11c0-3.001 2-9 7-9s6-4 6-4s.786 4 5.786 4S31 18 31 21c0 0 2.648-5.231 1-11");
+}
+
+.o0sq-mlak {
+  fill: var(--svg-color--662113, #662113);
+  d: path("M12 20a1 1 0 0 1-1-1v-2a1 1 0 0 1 2 0v2a1 1 0 0 1-1 1m12 0a1 1 0 0 1-1-1v-2a1 1 0 1 1 2 0v2a1 1 0 0 1-1 1");
+}
+
+.wl42dbclv {
+  fill: var(--svg-color--f7dece, #f7dece);
+  d: path("M31 19c0-9.389-5.82-16-13-16S5 9.611 5 19s5.82 15 13 15s13-5.611 13-15");
+}
+
+.yg5s3jbgd {
+  fill: var(--svg-color--292f33, #292f33);
+  d: path("M6 34c-1 0-1-7 3-11s3-4 3-4l2 4s0 5-2 7s-5 4-6 4");
+}
+
+</style>

@@ -1,0 +1,32 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":36,"height":36};
+const content = `<path class="djkqh502v"/><g class="jq-bugbaf"><path class="k-4s_kb-m"/><path class="axs-tfgmh"/><path class="t3uwr7rnt"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="twemoji:sign-of-the-horns" /></template>
+<style>
+.axs-tfgmh {
+  d: path("M7 8a2 2 0 0 1 4 0v14c0 .839.378 1.659.999 2.221c1.168.96 2.843 1.043 4-.002c.202-.184.384-.387.53-.618l-.003-.003C16.727 23.713 17 24 18 24h2.537c-1.809 1.365-3.037 3.99-3.037 7a.5.5 0 0 0 1 0c0-3.859 2.187-7 4.875-7c.713.079.847-1 .125-1H18a2 2 0 0 1 0-4h8c.968 0 1.481.596 1.725 1.015c.126.217.185.389.188.4L29 24c.103.335.479 1.871.411 2.191C29.411 31 24.715 36 19 36c-6.537 0-12-5.25-12-12c.008.007 0-16 0-16");
+}
+
+.djkqh502v {
+  fill: var(--svg-color--ef9645, #ef9645);
+  d: path("m18 32.625l-8.146-7.583L11 17c0-.811.485-1.507 1.18-1.82L16 16c0-.811.485-1.507 1.18-1.82l3.716.799L21 15V6c0-.811.485-1.507 1.18-1.82l3.612 13.66L26 18c.922 0 1.723 2 1.723 2l.002.015z");
+}
+
+.jq-bugbaf {
+  fill: var(--svg-color--ffdc5d, #ffdc5d);
+}
+
+.k-4s_kb-m {
+  d: path("M16 18.778c-.609.549-1 1.336-1 2.222c0 .753.287 1.433.745 1.959A2 2 0 0 1 14 24a2 2 0 0 1-2-2v-6c0-.293.067-.569.18-.82A1.996 1.996 0 0 1 16 16z");
+}
+
+.t3uwr7rnt {
+  d: path("M21 18h-3a3 3 0 0 0-1 .184V15c0-.293.067-.569.18-.82A1.996 1.996 0 0 1 21 15zm1 0V5c0-.293.067-.569.18-.82A1.996 1.996 0 0 1 26 5v13z");
+}
+
+</style>

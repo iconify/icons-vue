@@ -1,0 +1,26 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":36,"height":36};
+const content = `<path class="dkvw-_gvl"/><path class="sk8o9-b0y"/><path class="hduc8fg-p"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="twemoji:rightwards-pushing-hand-light-skin-tone" /></template>
+<style>
+.dkvw-_gvl {
+  fill: var(--svg-color--e0aa94, #e0aa94);
+  d: path("M19.5 31c.64 0 1.28-.24 1.77-.73c5.45-5.45 7.95-24.78 8.21-26.96c.17-1.37-.81-2.62-2.18-2.78c-1.38-.17-2.62.81-2.78 2.18c-.93 7.6-3.59 20.84-6.79 24.04a2.499 2.499 0 0 0 1.77 4.27Z");
+}
+
+.hduc8fg-p {
+  fill: var(--svg-color--e0aa94, #e0aa94);
+  d: path("M23.79 26.47c.77-1.68 1.11-3.93 1.47-5.82c.22-1.26.42-2.55.6-3.81c.05-1.6 1.43-2.97 3.04-2.74c.47.01.92.11 1.35.26l-.02.86c-1.24-.57-2.76-.43-3.19 1.06c-.44 3.71-.43 7.3-1.67 10.9c-.47 1.09-2.09.36-1.59-.71ZM9.45 34h13.22c1.55 0 3.09-.15 4.61-.46l2.04-.41a7.56 7.56 0 0 1-5.49 2.35H7.33c-1.25 0-2.3-.84-2.64-1.98c1.57.32 3.16.5 4.76.5");
+}
+
+.sk8o9-b0y {
+  fill: var(--svg-color--f7dece, #f7dece);
+  d: path("m7.1 25.33l8.75 1.15c2.15.51 3.94-1.06 5.01-2.8l.17-.38c1.3-2.86 2.22-5.87 2.73-8.97l1.92-11.69a2.392 2.392 0 0 1 4.77.31l-.22 12.21c0 .07.02.14.05.21c.78 1.3 1.35 3.72-.04 7.88c.15.77.44 1.48.92 2.69c1.28 4.82-2.35 9.55-7.34 9.55H7.33a2.76 2.76 0 0 1-2.76-2.76v-5.16c0-1.35 1.19-2.4 2.54-2.22Z");
+}
+
+</style>

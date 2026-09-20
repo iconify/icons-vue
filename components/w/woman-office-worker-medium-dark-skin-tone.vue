@@ -1,0 +1,91 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":36,"height":36};
+const content = `<path class="lilgt_v7n"/><path class="v14rkgb-e"/><path class="hus4d3gtc"/><path class="lyyspibig"/><path class="xn8b1hbpi"/><path class="nighzlb7s"/><path class="imxoxcbeq"/><path class="evfk0db6z"/><path class="trm47jbwf"/><path class="edmiq0w2m"/><path class="n1aueobzi"/><path class="tmki56pov"/><path class="lbypczb4x"/><path class="aoidqwb_m"/><path class="dtzfa4fkn"/><path class="d8slpbc8t"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="twemoji:woman-office-worker-medium-dark-skin-tone" /></template>
+<style>
+.aoidqwb_m {
+  fill: var(--svg-color--662213, #662213);
+  d: path("M26.628 16.796a.85.85 0 0 1-.846-.847v-.845c0-.465.381-.846.846-.846s.846.381.846.846v.845a.85.85 0 0 1-.846.847m-6.765 0a.85.85 0 0 1-.846-.847v-.845c0-.465.381-.846.846-.846a.85.85 0 0 1 .847.846v.845a.85.85 0 0 1-.847.847");
+}
+
+.d8slpbc8t {
+  fill: var(--svg-color--ae7e57, #ae7e57);
+  d: path("M33.088 14.845c0 1.448-.733 2.622-1.639 2.622c-.905 0-1.639-1.174-1.639-2.622s.733-2.623 1.639-2.623s1.639 1.175 1.639 2.623m-16.389 0c0 1.448-.734 2.622-1.639 2.622s-1.639-1.174-1.639-2.622s.734-2.623 1.639-2.623s1.639 1.175 1.639 2.623");
+}
+
+.dtzfa4fkn {
+  fill: var(--svg-color--60352a, #60352a);
+  d: path("M12.98 17.909c-.021-1-.044-.224-.044-.465c0-3.422 2.053.494 2.053-1.943s1.368-2.683 2.736-4.051c.685-.685 2.053-2.026 2.053-2.026s3.421 2.067 6.158 2.067c2.736 0 5.474 1.375 5.474 4.112s2.053-1.584 2.053 1.837c0 .244-.022-.531-.04.469h.719c.006-2 .006-1.924.006-3.202C34.148 5.813 27.306 2.5 23.2 2.5c-4.104 0-10.947 3.257-10.947 12.152c0 .793-.02 1.257.008 3.257z");
+}
+
+.edmiq0w2m {
+  fill: var(--svg-color--9a6a4a, #9a6a4a);
+  d: path("M19.755 24.054c.975 1.102 2.185 1.4 3.499 1.4s2.526-.298 3.501-1.4v-2.801h-7z");
+}
+
+.evfk0db6z {
+  fill: var(--svg-color--60352a, #60352a);
+  d: path("M23.2 3.979c4.104 0 10.947 2.053 10.947 10.947c0 8.895 0 10.948-2.053 10.948s-4.79-2.053-8.895-2.053c-4.106 0-6.785 2.053-8.896 2.053c-2.287 0-2.053-8.211-2.053-10.948c.002-8.895 6.845-10.947 10.95-10.947");
+}
+
+.hus4d3gtc {
+  fill: var(--svg-color--50a5e6, #50a5e6);
+  d: path("M6 26a1 1 0 0 1-1-1V13a1 1 0 0 1 2 0v12a1 1 0 0 1-1 1");
+}
+
+.imxoxcbeq {
+  fill: var(--svg-color--3a87c2, #3a87c2);
+  d: path("M19 26h-1.5l-1 5.5l3 1L19 36h3.5zm8.5 0H29l.5 5.5l-3 1L27 36h-3.5z");
+}
+
+.lbypczb4x {
+  fill: var(--svg-color--915a34, #915a34);
+  d: path("M24.091 19.409h-1.69a.423.423 0 0 1-.423-.423v-.153c0-.233.189-.424.423-.424h1.69c.233 0 .424.19.424.424v.153a.424.424 0 0 1-.424.423");
+}
+
+.lilgt_v7n {
+  fill: var(--svg-color--ccd6dc, #ccd6dc);
+  d: path("M30 26a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V4a4 4 0 0 1 4-4h22a4 4 0 0 1 4 4z");
+}
+
+.lyyspibig {
+  fill: var(--svg-color--77b255, #77b255);
+  d: path("M10 26a1 1 0 0 1-1-1V8a1 1 0 0 1 2 0v17a1 1 0 0 1-1 1");
+}
+
+.n1aueobzi {
+  fill: var(--svg-color--ae7e57, #ae7e57);
+  d: path("M14.989 14.627c0-5.834 3.676-10.563 8.211-10.563c4.533 0 8.209 4.729 8.209 10.563c0 5.833-3.676 10.285-8.209 10.285c-4.535 0-8.211-4.452-8.211-10.285");
+}
+
+.nighzlb7s {
+  fill: var(--svg-color--f4f7f9, #f4f7f9);
+  d: path("m28.25 26l-3.182 10h-4.091L18.25 26");
+}
+
+.tmki56pov {
+  fill: var(--svg-color--de2032, #de2032);
+  d: path("M23.2 22.452c-1.606 0-2.447-.794-2.537-.885a.685.685 0 0 1 .961-.974c.035.032.551.491 1.576.491c1.038 0 1.555-.473 1.576-.492a.69.69 0 0 1 .963.019c.26.269.26.691-.004.955c-.089.092-.929.886-2.535.886");
+}
+
+.trm47jbwf {
+  fill: var(--svg-color--ae7e57, #ae7e57);
+  d: path("M19.755 26c1 1.982 2.792 4.5 3.5 4.5s2.512-2.549 3.5-4.5v-3.591h-7z");
+}
+
+.v14rkgb-e {
+  fill: var(--svg-color--f5f8fa, #f5f8fa);
+  d: path("M28 26a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h22a2 2 0 0 1 2 2z");
+}
+
+.xn8b1hbpi {
+  fill: var(--svg-color--226798, #226798);
+  d: path("M36 36v-4.5c0-3.314-3.561-5.5-6.875-5.5h-12C13.812 26 10 28.186 10 31.5V36z");
+}
+
+</style>

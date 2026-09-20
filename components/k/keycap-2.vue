@@ -1,0 +1,21 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":36,"height":36};
+const content = `<path class="x-kz1kb7j"/><path class="rzjljdbrh"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="twemoji:keycap-2" /></template>
+<style>
+.rzjljdbrh {
+  fill: var(--svg-color--fff, #fff);
+  d: path("M23.086 24.907c1.365 0 2.42.62 2.42 2.046c0 1.427-1.055 2.047-2.233 2.047H12.917c-1.364 0-2.418-.62-2.418-2.047c0-.65.403-1.209.713-1.581c2.573-3.069 5.364-5.86 7.721-9.271c.558-.806 1.085-1.768 1.085-2.884c0-1.271-.961-2.387-2.233-2.387c-3.566 0-1.86 5.023-4.837 5.023c-1.488 0-2.264-1.054-2.264-2.264c0-3.906 3.473-7.038 7.287-7.038S24.854 9.063 24.854 13c0 4.309-4.805 8.589-7.441 11.906h5.673z");
+}
+
+.x-kz1kb7j {
+  fill: var(--svg-color--3b88c3, #3b88c3);
+  d: path("M36 32a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V4a4 4 0 0 1 4-4h28a4 4 0 0 1 4 4z");
+}
+
+</style>

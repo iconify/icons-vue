@@ -1,0 +1,26 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":36,"height":36};
+const content = `<path class="aemm20uen"/><path class="g0k3g-b8n"/><path class="swor3-bjs"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="twemoji:collision" /></template>
+<style>
+.aemm20uen {
+  fill: var(--svg-color--bb1a34, #bb1a34);
+  d: path("m22 0l-4 8.028l-5-5.018v7.024L3 8.028l8 8.028l-11 6.02h12L6 34.118l12-8.028l11 10.035l-3-14.049h10l-8-6.021l8-9.031l-12 3.01z");
+}
+
+.g0k3g-b8n {
+  fill: var(--svg-color--fcab40, #fcab40);
+  d: path("m22.914 12.924l1.86-.467L30 11.146l-3.381 3.816l-1.319 1.49l1.59 1.195l2.925 2.202h-5.918l.473 2.218l1.551 7.26l-5.845-5.332l-1.056-.964l-1.188.795l-5.24 3.506l2.406-4.828l1.322-2.655H9.564l3.759-2.059l2.145-1.172l-1.727-1.735l-3.044-3.053l3.221.646l2.186.439V8.686l1.45 1.455l1.794 1.799l1.133-2.276l1.273-2.556");
+}
+
+.swor3-bjs {
+  fill: var(--svg-color--f5f8fa, #f5f8fa);
+  d: path("m21.512 14.301l.767-.193l2.158-.541l-1.396 1.576l-.545.615l.656.493l1.208.909h-2.443l.195.916l.641 2.997l-2.413-2.201l-.437-.398l-.49.328l-2.163 1.448l.993-1.994l.546-1.096H16l1.553-.85l.885-.484l-.713-.716l-1.257-1.261l1.329.267l.903.181v-1.745l.599.6l.74.743l.468-.939l.525-1.056");
+}
+
+</style>

@@ -1,0 +1,58 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":36,"height":36};
+const content = `<path class="xa0b8h2xn"/><circle class="cojv7rbjb"/><path class="yli94r_ir"/><path class="pkopijb1a"/><path class="zd-sjkpvl"/><path class="ncr82e6ul"/><path class="pfx8dqcsu"/><path class="ekd6is0ky"/><path class="ummj3fbjn"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="twemoji:man-bowing-medium-dark-skin-tone" /></template>
+<style>
+.cojv7rbjb {
+  cx: 18px;
+  cy: 28px;
+  r: 3px;
+  fill: var(--svg-color--9b6a49, #9b6a49);
+}
+
+.ekd6is0ky {
+  fill: var(--svg-color--915a34, #915a34);
+  d: path("M19 26.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 0 1");
+}
+
+.ncr82e6ul {
+  fill: var(--svg-color--af7e57, #af7e57);
+  d: path("m17 34l-5-1l-2-1H7l-1 4h11c1 0 1-1 1-1c0-.553-1-1-1-1m9-2l-2 1l-5 1s-1 .447-1 1c0 0 0 1 1 1h11l-1-4z");
+}
+
+.pfx8dqcsu {
+  fill: var(--svg-color--60352a, #60352a);
+  d: path("M22 22a1 1 0 0 1-1-1v-1a1 1 0 1 1 2 0v1a1 1 0 0 1-1 1m-8 0a1 1 0 0 1-1-1v-1a1 1 0 1 1 2 0v1a1 1 0 0 1-1 1");
+}
+
+.pkopijb1a {
+  fill: var(--svg-color--af7e57, #af7e57);
+  d: path("M10.847 17.715c0 1.58-.8 2.861-1.788 2.861s-1.788-1.281-1.788-2.861s.801-2.861 1.788-2.861s1.788 1.281 1.788 2.861m17.882 0c0 1.58-.8 2.861-1.788 2.861s-1.788-1.281-1.788-2.861s.8-2.861 1.788-2.861s1.788 1.281 1.788 2.861");
+}
+
+.ummj3fbjn {
+  fill: var(--svg-color--5dadec, #5dadec);
+  d: path("M5.499 8a1 1 0 0 1-.599-.2l-4-3a1 1 0 0 1 1.2-1.6l4 3A1 1 0 0 1 5.499 8m3.002-3a1 1 0 0 1-.833-.445l-2-3A1 1 0 0 1 7.332.445l2 3A1.001 1.001 0 0 1 8.501 5m22 3a1 1 0 0 1-.601-1.8l4-3a1 1 0 1 1 1.199 1.6l-4 3a1 1 0 0 1-.598.2m-3.002-3a1 1 0 0 1-.831-1.555l2-3a1 1 0 1 1 1.664 1.11l-2 3a1 1 0 0 1-.833.445");
+}
+
+.xa0b8h2xn {
+  fill: var(--svg-color--4289c1, #4289c1);
+  d: path("M27 22H9s-9 0-9 7c0 3.156 4 7 4 7h28s4-3.844 4-7c0-7-9-7-9-7");
+}
+
+.yli94r_ir {
+  fill: var(--svg-color--af7e57, #af7e57);
+  d: path("M9 9.938V21c0 4.971 4.029 9 9 9s9-4.029 9-9V10.25z");
+}
+
+.zd-sjkpvl {
+  fill: var(--svg-color--60352a, #60352a);
+  d: path("M18 4.823c-7.019 0-10.139 4.684-10.139 8.588s1.343 4.986 1.56 3.903c.78-3.903 3.12-5.101 3.12-5.101c4.68 3.904 3.9.781 3.9.781c4.679 4.684 2.34 0 2.34 0c1.56 1.562 6.239 1.562 6.239 1.562s.78 1.198 1.559 2.759c.78 1.562 1.56 0 1.56-3.903c0-3.905-3.9-8.589-10.139-8.589");
+}
+
+</style>

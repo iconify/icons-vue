@@ -1,0 +1,21 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":36,"height":36};
+const content = `<path class="dgh7jhswh"/><path class="zmjmoc81d"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="twemoji:peace-symbol" /></template>
+<style>
+.dgh7jhswh {
+  fill: var(--svg-color--9266cc, #9266cc);
+  d: path("M36 32a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V4a4 4 0 0 1 4-4h28a4 4 0 0 1 4 4z");
+}
+
+.zmjmoc81d {
+  fill: var(--svg-color--fff, #fff);
+  d: path("M18 4C10.281 4 4 10.281 4 18s6.281 14 14 14s14-6.281 14-14S25.719 4 18 4m11.103 14a11.03 11.03 0 0 1-1.827 6.085l-7.823-7.178V7.003c5.437.716 9.65 5.368 9.65 10.997m-12.65 10.983a11.05 11.05 0 0 1-5.802-2.682l5.802-5.323zm3-8.005l5.848 5.366a11.05 11.05 0 0 1-5.848 2.653zm-3-13.961v9.889L8.69 24.03A11.03 11.03 0 0 1 6.897 18c0-5.596 4.165-10.226 9.556-10.983");
+}
+
+</style>

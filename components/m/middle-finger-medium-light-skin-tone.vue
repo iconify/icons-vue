@@ -1,0 +1,26 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":36,"height":36};
+const content = `<path class="p3op-hbum"/><path class="t7nd64brn"/><path class="wrzds-bgs"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="twemoji:middle-finger-medium-light-skin-tone" /></template>
+<style>
+.p3op-hbum {
+  fill: var(--svg-color--f3d2a2, #f3d2a2);
+  d: path("M30.011 20.183s.093-2.362-1.792-3.068c-1.667-.625-2.309.622-2.309.622s.059-1.914-1.941-2.622c-1.885-.668-2.984.773-2.984.773s-.072-1.687-2.058-2.232c-1.671-.459-2.916 1.167-2.916 1.167v-.822c0-.959-.542-2.575-2.543-2.576c-2-.002-2.457 1.659-2.457 2.576v1.614c0 1.323-.948.198-1.636.823c-1.57 1.427-2.269 6.431-1.188 10.5c1.312 4.938 4.062 9.101 9.694 9.101c8.132 0 12.124-5.298 12.129-11.924z");
+}
+
+.t7nd64brn {
+  fill: var(--svg-color--f3d2a2, #f3d2a2);
+  d: path("M21 18.5a2.5 2.5 0 1 1-5 0v-16a2.5 2.5 0 1 1 5 0zM12.25 16l-2.312.003c-1.625 0-2.141.465-2.812 3.122c-.438 1.729-.984 2.547-.984 4.391c0 2.906 4.594 12.348 11.359 12.391z");
+}
+
+.wrzds-bgs {
+  fill: var(--svg-color--c68f6a, #c68f6a);
+  d: path("M10 25.521c0 .251.204.479.456.479h.088a.456.456 0 0 0 .456-.456V16h-.969z");
+}
+
+</style>

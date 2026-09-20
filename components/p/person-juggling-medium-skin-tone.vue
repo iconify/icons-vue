@@ -1,0 +1,97 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":36,"height":36};
+const content = `<path class="iwettlg_h"/><path class="ml97mubiq"/><path class="hx-t4vz3e"/><path class="irj7ipqbe"/><path class="x22xwcb6z"/><path class="vjnaa0b7a"/><path class="mo5r4wbzu"/><path class="j2cdgfbun"/><circle class="ut_t21syf"/><circle class="o5-krulhj"/><circle class="u3kv_m4fm"/><path class="lqu8b2bzf"/><path class="l5qw_4pul"/><path class="vspv3lv1b"/><path class="lsghzgunr"/><path class="brkjq0r0m"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="twemoji:person-juggling-medium-skin-tone" /></template>
+<style>
+.brkjq0r0m {
+  fill: var(--svg-color--dd551f, #dd551f);
+  d: path("M10 30h1v6h-1zm15-3h1v9h-1z");
+}
+
+.hx-t4vz3e {
+  fill: var(--svg-color--cc9b7a, #cc9b7a);
+  d: path("M13.881 25.029c1.058 1.207 2.049 1.51 3.477 1.51c1.426 0 2.426-.304 3.485-1.51v-3.515h-6.961z");
+}
+
+.irj7ipqbe {
+  fill: var(--svg-color--963b22, #963b22);
+  d: path("M20.591 5.419c-1.666-.539-5.587-.392-6.567.882c-2.548.049-5.538 2.352-5.93 5.391c-.388 3.008.476 4.404.784 6.666c.348 2.562 1.789 3.382 2.941 3.725c1.657 2.189 3.418 2.095 6.375 2.095c5.775 0 8.525-3.864 8.769-10.427c.146-3.97-2.183-6.976-6.372-8.332");
+}
+
+.iwettlg_h {
+  fill: var(--svg-color--fa743e, #fa743e);
+  d: path("m26 26.163l.017.836H6V36h24v-9.835z");
+}
+
+.j2cdgfbun {
+  fill: var(--svg-color--d1d3d4, #d1d3d4);
+  d: path("M5.895 14.205s-3.834 1.39-4.214 6.221c0 0-2.4-4.817-.522-10.149zm14.156-8.228s-2.758-3.005-7.363-1.497c0 0 3.522-4.069 9.167-4.387zm9.22 10.36s1.972-3.571-.923-7.457c0 0 4.978 2.046 7.075 7.296z");
+}
+
+.l5qw_4pul {
+  fill: var(--svg-color--d4ab88, #d4ab88);
+  d: path("M36.075 23.921a.77.77 0 0 0-.77-.776l-4.616.776h-3.847a.774.774 0 0 0-.77.778L26 26.25l1.611.002h3.078l4.616-1.553c.001 0 .77-.348.77-.778");
+}
+
+.lqu8b2bzf {
+  fill: var(--svg-color--cc9b7a, #cc9b7a);
+  d: path("M32.646 23.488a.99.99 0 0 0-1.169-.774l-2.057.431h-1.809c-.85 0-1.538.695-1.538 1.555v1.552h3.847c.83 0 1.503-.666 1.532-1.496l.273-.057h.503c0-.059-.022-.113-.035-.169a1 1 0 0 0 .453-1.042");
+}
+
+.lsghzgunr {
+  fill: var(--svg-color--d4ab88, #d4ab88);
+  d: path("M0 27.669c0-.429.344-.776.769-.776l4.617.776h3.847c.425 0 .769.349.769.778V30H5.386L.769 28.447S0 28.099 0 27.669");
+}
+
+.ml97mubiq {
+  fill: var(--svg-color--d4ab88, #d4ab88);
+  d: path("M13.862 26.999s.85 2.063 3.55 2.063s3.45-2.063 3.45-2.063l-.024-3.9l-6.976-.1z");
+}
+
+.mo5r4wbzu {
+  fill: var(--svg-color--662113, #662113);
+  d: path("M14.069 17.578a.825.825 0 0 1-.825-.825v-.825a.825.825 0 1 1 1.65 0v.825c0 .455-.37.825-.825.825m6.6 0a.825.825 0 0 1-.825-.825v-.825a.825.825 0 1 1 1.65 0v.825c0 .455-.37.825-.825.825");
+}
+
+.o5-krulhj {
+  cx: 22.516px;
+  cy: 3.5px;
+  r: 3.5px;
+  fill: var(--svg-color--be1931, #be1931);
+}
+
+.u3kv_m4fm {
+  cx: 32.396px;
+  cy: 17.854px;
+  r: 3.5px;
+  fill: var(--svg-color--3b88c3, #3b88c3);
+}
+
+.ut_t21syf {
+  cx: 4.603px;
+  cy: 10.986px;
+  r: 3.5px;
+  fill: var(--svg-color--5c913b, #5c913b);
+}
+
+.vjnaa0b7a {
+  fill: var(--svg-color--c1694f, #c1694f);
+  d: path("M17.359 23.566c-2.396 0-3.132-.62-3.256-.745a.58.58 0 0 1 0-.815a.57.57 0 0 1 .786-.02c.045.032.627.428 2.47.428c1.915 0 2.466-.426 2.472-.431a.554.554 0 0 1 .796.014c.223.225.21.6-.013.824c-.123.125-.858.745-3.255.745m.835-3.101h-1.65a.411.411 0 1 1 0-.824h1.65a.411.411 0 1 1 0 .824");
+}
+
+.vspv3lv1b {
+  fill: var(--svg-color--cc9b7a, #cc9b7a);
+  d: path("M3.43 27.236a.99.99 0 0 1 1.168-.774l2.058.431h1.808c.85 0 1.539.695 1.539 1.555V30H6.155c-.83 0-1.503-.666-1.532-1.496l-.273-.057h-.503c0-.059.022-.113.036-.169a1 1 0 0 1-.453-1.042");
+}
+
+.x22xwcb6z {
+  fill: var(--svg-color--d4ab88, #d4ab88);
+  d: path("M23.894 14.031c-.559-.774-1.274-1.397-2.843-1.617c.588.27 1.152 1.201 1.225 1.715c.074.515.147.931-.319.417c-1.865-2.062-3.896-1.25-5.909-2.509c-1.406-.88-1.834-1.853-1.834-1.853s-.172 1.299-2.303 2.622c-.618.384-1.355 1.238-1.764 2.499c-.294.907-.203 1.715-.203 3.097c0 4.034 3.324 7.425 7.425 7.425s7.425-3.421 7.425-7.425c0-2.508-.263-3.489-.9-4.371");
+}
+
+</style>

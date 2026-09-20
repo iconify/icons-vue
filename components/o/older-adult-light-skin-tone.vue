@@ -1,0 +1,36 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":36,"height":36};
+const content = `<path class="hlvo5x38v"/><path class="aq-7szbux"/><path class="sbpdpfbix"/><path class="c-ntt1b8g"/><path class="ut2d5ibrr"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="twemoji:older-adult-light-skin-tone" /></template>
+<style>
+.aq-7szbux {
+  d: path("M18 31.5c-2.347 0-3.575-1.16-3.707-1.293a.999.999 0 0 1 1.404-1.424c.051.047.806.717 2.303.717c1.519 0 2.273-.689 2.305-.719a1.008 1.008 0 0 1 1.408.029a.993.993 0 0 1-.006 1.396c-.132.133-1.36 1.294-3.707 1.294zm1-5h-2a1 1 0 1 1 0-2h2a1 1 0 1 1 0 2z");
+  fill: var(--svg-color--c1694f, #C1694F);
+}
+
+.c-ntt1b8g {
+  d: path("M25.5 20h-3a1 1 0 1 1 0-2h3a1 1 0 1 1 0 2zm-12 0h-3a1 1 0 0 1 0-2h3a1 1 0 0 1 0 2z");
+  fill: var(--svg-color--d1d3d4, #D1D3D4);
+}
+
+.hlvo5x38v {
+  fill: var(--svg-color--f7dece, #F7DECE);
+  d: path("M22 12c-4 0-9-2-9-2s-2 1-3 2c-1.863 1.863-3.724 5.372-3.971 8.312C6.336 28.487 7.75 35 18 35s11.606-6.44 11.965-14.551C29.613 16.819 25.81 12 22 12z");
+}
+
+.sbpdpfbix {
+  d: path("M13 24a1 1 0 0 1-1-1v-1a1 1 0 0 1 2 0v1a1 1 0 0 1-1 1zm10 0a1 1 0 0 1-1-1v-1a1 1 0 1 1 2 0v1a1 1 0 0 1-1 1z");
+  fill: var(--svg-color--662113, #662113);
+}
+
+.ut2d5ibrr {
+  fill: var(--svg-color--d1d3d4, #D1D3D4);
+  d: path("M17.998 5c8.205 0 13.331 5.137 13.331 10.182c0 5.044-1.026 7.064-2.051 5.044C28.252 18.209 27 15 27 15s-3 2-6-.828c0 0 1.1 6.054-5.054 0c0 0 .054 3.828-5.127-1.008c0 0-3.077 2.018-4.102 7.062c-.284 1.401-2.051 0-2.051-5.044C4.666 10.137 8.768 5 17.998 5");
+}
+
+</style>

@@ -1,0 +1,31 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":36,"height":36};
+const content = `<path class="zkmzurbfi"/><path class="v5giwfhrq"/><path class="sx5uhacsk"/><path class="mc5_evb4b"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="twemoji:flag-for-flag-malawi" /></template>
+<style>
+.mc5_evb4b {
+  d: path("M23.191 12a5.992 5.992 0 0 0-10.382 0h10.382zm-5.493-6h.603L18 8.163zm-1.514.18l.594-.102l.068 2.183zm-1.463.433l.569-.201l.435 2.14zm-1.368.673l.527-.293l.79 2.036zm-1.235.895l.47-.378l1.122 1.873zm-1.067 1.09l.401-.452l1.421 1.658zm-.866 1.255l.317-.513l1.681 1.393zM10.898 12l-1.13-.65l-.226.559l.364.091zm15.355 0l.218-.054l-.221-.557l-1.074.611zm-.731-1.951l.312.512l-2.001.872zm-.943-1.198l.394.451l-1.826 1.198zm-1.132-1.023l.464.38l-1.596 1.487zm-1.288-.816l.521.296l-1.323 1.735zm-1.408-.588l.564.204l-1.011 1.934zm-1.487-.341l.59.106l-.67 2.077z");
+  fill: var(--svg-color--dd2e44, #DD2E44);
+}
+
+.sx5uhacsk {
+  fill: var(--svg-color--141414, #141414);
+  d: path("M32 5H4a4 4 0 0 0-4 4v4h36V9a4 4 0 0 0-4-4z");
+}
+
+.v5giwfhrq {
+  fill: var(--svg-color--dd2e44, #DD2E44);
+  d: path("M0 13h36v10H0z");
+}
+
+.zkmzurbfi {
+  fill: var(--svg-color--77b255, #77B255);
+  d: path("M36 27a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V9a4 4 0 0 1 4-4h28a4 4 0 0 1 4 4v18z");
+}
+
+</style>

@@ -1,0 +1,88 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":36,"height":36};
+const content = `<ellipse class="b-k0_pmsm"/><path class="jpm9x0bnw"/><path class="u3e2sy-cq"/><path class="vkipe7otn"/><path class="ahdtiwb_p"/><path class="pyr6dnbsi"/><path class="xt96pcbuo"/><path class="t9fe0jhoe"/><path class="pwj0idbec"/><path class="y-t3cccst"/><path class="qdeaou-sb"/><circle class="f72v0srku"/><circle class="mhubds0nx"/><path class="t9vi3cbmx"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="twemoji:mage" /></template>
+<style>
+.ahdtiwb_p {
+  fill: var(--svg-color--d1d3d4, #d1d3d4);
+  d: path("M17.982 13.557c-2.61 0-5.654 3.198-9.115 3.885c.143 1.499.597 2.619.802 4.127c.337 2.477 1.73 3.27 2.843 3.601c1.602 2.116 3.305 2.026 6.164 2.026c5.483 0 8.14-3.609 8.457-9.747c-3.476-.692-6.532-3.892-9.151-3.892");
+}
+
+.b-k0_pmsm {
+  cx: 18px;
+  cy: 19.024px;
+  fill: var(--svg-color--c63900, #c63900);
+  rx: 15px;
+  ry: 3.529px;
+}
+
+.f72v0srku {
+  cx: 4px;
+  cy: 6px;
+  r: 3px;
+  fill: var(--svg-color--55acee, #55acee);
+}
+
+.jpm9x0bnw {
+  fill: var(--svg-color--fa743e, #fa743e);
+  d: path("M26.276 28.276h-16c-2.486 0-4.774 1.443-5.762 3.449c-.368-.415-.907-.619-1.514-.619c-1.1 0-2 .935-2 1.998V36h31v-1.931c0-3.199-2.411-5.793-5.724-5.793");
+}
+
+.mhubds0nx {
+  cx: 3.5px;
+  cy: 5.5px;
+  r: 1.5px;
+  fill: var(--svg-color--b0f0ff, #b0f0ff);
+}
+
+.pwj0idbec {
+  fill: var(--svg-color--c1694f, #c1694f);
+  d: path("M17.997 26.465c-2.359 0-3.084-.604-3.204-.726a.56.56 0 0 1 0-.794a.563.563 0 0 1 .773-.02c.044.032.617.417 2.431.417c1.886 0 2.429-.416 2.435-.42a.55.55 0 0 1 .783.013a.574.574 0 0 1-.012.804c-.123.122-.847.726-3.206.726");
+}
+
+.pyr6dnbsi {
+  fill: var(--svg-color--ffdc5d, #ffdc5d);
+  d: path("M24.315 17.386c-.54-.748-1.232-1.35-2.748-1.564c.569.261 1.114 1.161 1.185 1.658c.071.498.142.9-.308.403c-1.803-1.993-3.767-1.208-5.714-2.426c-1.359-.851-1.773-1.791-1.773-1.791s-.166 1.256-2.227 2.535c-.598.371-1.31 1.197-1.706 2.417c-.284.877-.196 1.659-.196 2.995c0 3.9 3.214 7.179 7.179 7.179s7.179-3.308 7.179-7.179c-.001-2.426-.255-3.374-.871-4.227");
+}
+
+.qdeaou-sb {
+  fill: var(--svg-color--d99e82, #d99e82);
+  d: path("M5 36H3V11.862L2 8h4l-1 3.862z");
+}
+
+.t9fe0jhoe {
+  fill: var(--svg-color--662113, #662113);
+  d: path("M14.809 20.815a.8.8 0 0 1-.798-.798v-.797a.798.798 0 0 1 1.596 0v.798c0 .44-.357.797-.798.797m6.382 0a.8.8 0 0 1-.798-.798v-.797a.798.798 0 0 1 1.596 0v.798a.8.8 0 0 1-.798.797");
+}
+
+.t9vi3cbmx {
+  fill: var(--svg-color--ffdc5d, #ffdc5d);
+  d: path("M7 30.5C7 32.433 5.657 34 4 34s-3-1.567-3-3.5S2.343 28 4 28s3 .567 3 2.5");
+}
+
+.u3e2sy-cq {
+  fill: var(--svg-color--ffdc5d, #ffdc5d);
+  d: path("M14 25v3.234c0 .004.011.007.015.011c.132.237 3.737 6.739 3.989 6.739c.253 0 3.854-6.502 3.985-6.739c.004-.004.01-.007.01-.011V25z");
+}
+
+.vkipe7otn {
+  fill: var(--svg-color--f9ca55, #f9ca55);
+  d: path("M14 27.598c1.115 1.259 2.497 1.6 4 1.6c1.502 0 2.884-.342 4-1.6v-3.2h-8z");
+}
+
+.xt96pcbuo {
+  fill: var(--svg-color--c1694f, #c1694f);
+  d: path("M18.798 23.607h-1.595a.399.399 0 1 1 0-.798h1.595a.399.399 0 1 1 0 .798");
+}
+
+.y-t3cccst {
+  fill: var(--svg-color--fa743e, #fa743e);
+  d: path("M25.765 15.157C24.537 12.47 18.793 0 18 0s-6.537 12.47-7.765 15.157C5.415 16.001 3 17.595 3 19c6-2 11-2.443 15-2.443S27 17 33 19c0-1.405-2.415-2.999-7.235-3.843");
+}
+
+</style>

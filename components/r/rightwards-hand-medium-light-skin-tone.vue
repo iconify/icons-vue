@@ -1,0 +1,21 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":36,"height":36};
+const content = `<path class="lvy4dbqph"/><path class="a6_dk7bvh"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="twemoji:rightwards-hand-medium-light-skin-tone" /></template>
+<style>
+.a6_dk7bvh {
+  fill: var(--svg-color--f3d2a2, #f3d2a2);
+  d: path("M19.781 4.625c.611 1.381-.208 3.354-2.188 4.75c-1.3.917-3.151 1.187-3.344 2.391c-.073.46.313 1.234 1.397 1.234H31.5s2 0 2 2s-2 2-2 2H19.867c.029 0 .064 1 .082 1H34s2 0 2 2s-2 2-2 2H19.947c-.017 0-.041 1-.069 1H31.75s2 0 2 2s-2 2-2 2H19.112c-.118 0-.251 1-.398 1h8.536s2 0 2 2s-2 2-2 2H12C5.373 32 0 26.627 0 20c0-4.775 2.598-8.06 5.292-9.896C7.577 8.547 9.949 8.096 10.666 8c0 0 1.479-.123 2.865-1.156a58 58 0 0 0 3.866-3.125c.359-.317 1.707-.625 2.384.906");
+}
+
+.lvy4dbqph {
+  fill: var(--svg-color--d2a077, #d2a077);
+  d: path("M33.035 15.5a2.5 2.5 0 0 1-2.5 2.5h-.005l5.005 2.5a2.5 2.5 0 0 1-2.5 2.5H31.75l1.535 2.5a2.5 2.5 0 0 1-2.5 2.5H27.25L18 29V15.458z");
+}
+
+</style>

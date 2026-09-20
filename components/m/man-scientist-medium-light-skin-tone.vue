@@ -1,0 +1,113 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":36,"height":36};
+const content = `<path class="mmawzubpl"/><path class="lw3gg4b3j"/><path class="gr8y891kg"/><path class="y8s9uab1j"/><path class="awkk2cgzl"/><path class="tve6mobup"/><path class="znqqmxb0n"/><path class="i8p242b8x"/><path class="d39jawl5h"/><path class="jh2qtmbhq"/><path class="v-0x69aky"/><path class="ree6q-ies"/><path class="bt036nlwm"/><circle class="vkwbtjbkj"/><circle class="lf9yyubkw"/><circle class="xqf08zbzw"/><path class="azmatcxon"/><path class="cku5t_bec"/><path class="xd0on2bym"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="twemoji:man-scientist-medium-light-skin-tone" /></template>
+<style>
+.awkk2cgzl {
+  fill: var(--svg-color--f3d2a2, #f3d2a2);
+  d: path("M13.477 14.96c0-5.589 3.816-10.121 8.523-10.121s8.522 4.532 8.522 10.121S26.707 25.081 22 25.081c-4.706-.001-8.523-4.532-8.523-10.121");
+}
+
+.azmatcxon {
+  fill: var(--svg-color--a8bccc, #a8bccc);
+  d: path("M10 18H5s-2 0-2 2s2 2 2 2v5l-4 5c-.883 1.104-1 1.821-1 2c0 2 2 2 2 2h11s2 0 2-2c0-.134.153-.559-1-2l-4-5v-5s2 0 2-2s-2-2-2-2");
+}
+
+.bt036nlwm {
+  fill: var(--svg-color--f5f8fa, #f5f8fa);
+  d: path("M29 10H15c-1 0-1 1-1 1v4c0 1.461 2.333 2 4 2s2.599-1 4-1s2.333 1 4 1s4-.539 4-2v-4c0-1-1-1-1-1m0 4c0 1.325-.852 2-3 2c-1.539 0-2.804-1-4-1s-2.461 1-4 1c-2.148 0-3-.675-3-2v-3h14z");
+}
+
+.cku5t_bec {
+  fill: var(--svg-color--e1e8ed, #e1e8ed);
+  d: path("M9 27.351V21h1c.449-.012 1-.194 1-1c0-.803-.547-.987-1.008-1H5c-.45.012-1 .194-1 1s.55.988 1.012 1l.975.024L6 27.351l-1.894 2.368l3.394 3.5l3.394-3.5z");
+}
+
+.d39jawl5h {
+  fill: var(--svg-color--c1694f, #c1694f);
+  d: path("M22.75 17.75h-1.5c-.413 0-.75-.337-.75-.75s.337-.75.75-.75h1.5c.413 0 .75.337.75.75s-.337.75-.75.75");
+}
+
+.gr8y891kg {
+  fill: var(--svg-color--e2c196, #e2c196);
+  d: path("M18 24c1.216 1.374 2.355 1.719 3.996 1.719c1.639 0 2.787-.346 4.004-1.719v-4h-8z");
+}
+
+.i8p242b8x {
+  fill: var(--svg-color--662113, #662113);
+  d: path("M18 15c-.55 0-1-.45-1-1v-1c0-.55.45-1 1-1s1 .45 1 1v1c0 .55-.45 1-1 1m8 0c-.55 0-1-.45-1-1v-1c0-.55.45-1 1-1s1 .45 1 1v1c0 .55-.45 1-1 1");
+}
+
+.jh2qtmbhq {
+  fill: var(--svg-color--66757f, #66757f);
+  d: path("M19.059 36L18 26.781s1.41 1.645 4 1.645s4.219-1.645 4.219-1.645L24.996 36z");
+}
+
+.lf9yyubkw {
+  cx: 9px;
+  cy: 16px;
+  r: 1px;
+  fill: var(--svg-color--9266cc, #9266cc);
+}
+
+.lw3gg4b3j {
+  fill: var(--svg-color--f3d2a2, #f3d2a2);
+  d: path("m18 27l4 4l4-4v-5h-8z");
+}
+
+.mmawzubpl {
+  fill: var(--svg-color--ccd6dd, #ccd6dd);
+  d: path("M36 36v-4a6 6 0 0 0-6-6H14a6 6 0 0 0-6 6v4z");
+}
+
+.ree6q-ies {
+  fill: var(--svg-color--fff, #fff);
+  d: path("M14.753 10.75h14.5V16h-14.5z");
+  opacity: var(--svg-opacity--0-4, 0.4);
+}
+
+.tve6mobup {
+  fill: var(--svg-color--c1694f, #c1694f);
+  d: path("M22 21.802c-2.754 0-3.6-.705-3.741-.848a.655.655 0 0 1 .902-.95c.052.037.721.487 2.839.487c2.2 0 2.836-.485 2.842-.49a.64.64 0 0 1 .913.015a.67.67 0 0 1-.014.938c-.141.143-.987.848-3.741.848");
+}
+
+.v-0x69aky {
+  fill: var(--svg-color--f5f8fa, #f5f8fa);
+  d: path("M18.081 25.25C18.647 25.816 21 36 21 36h-3.156l-1.704-2.562l1.704-2.835l-2.017-.634l.254-3.957s1.729-1.033 2-.762m7.838 0C25.353 25.816 23 36 23 36h3.156l1.704-2.562l-1.704-2.835l2.017-.634l-.254-3.957s-1.729-1.033-2-.762");
+}
+
+.vkwbtjbkj {
+  cx: 7px;
+  cy: 11px;
+  r: 1px;
+  fill: var(--svg-color--9266cc, #9266cc);
+}
+
+.xd0on2bym {
+  fill: var(--svg-color--9266cc, #9266cc);
+  d: path("M.999 34.034c.001.772.551.954 1.013.966H13c.449-.012 1-.194 1-1v-.041l.006-.082c0-.003-.055-.337-.787-1.252l-2.325-2.906H4.106l-2.325 2.906c-.719.899-.782 1.404-.782 1.409");
+}
+
+.xqf08zbzw {
+  cx: 5.5px;
+  cy: 14.5px;
+  r: 1.5px;
+  fill: var(--svg-color--9266cc, #9266cc);
+}
+
+.y8s9uab1j {
+  fill: var(--svg-color--f3d2a2, #f3d2a2);
+  d: path("M15.444 13.936c0 1.448-.734 2.622-1.639 2.622s-1.639-1.174-1.639-2.622s.734-2.623 1.639-2.623c.905-.001 1.639 1.174 1.639 2.623m16.389 0c0 1.448-.733 2.622-1.639 2.622c-.905 0-1.639-1.174-1.639-2.622s.733-2.623 1.639-2.623c.906-.001 1.639 1.174 1.639 2.623");
+}
+
+.znqqmxb0n {
+  fill: var(--svg-color--ffe51e, #ffe51e);
+  d: path("M22 1.48c5.648 0 9.178 4.168 9.178 7.641s-.706 4.863-1.412 3.473l-1.412-2.778s-4.235 0-5.647-1.39c0 0 2.118 4.168-2.118 0c0 0 .706 2.779-3.53-.694c0 0-2.118 1.389-2.824 4.862c-.196.964-1.412 0-1.412-3.473C12.822 5.648 15.646 1.48 22 1.48");
+}
+
+</style>

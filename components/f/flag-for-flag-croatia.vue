@@ -1,0 +1,46 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":36,"height":36};
+const content = `<path class="mie7wlbfa"/><path class="q3cvrzt2o"/><path class="iwwj22bdm"/><path class="k0a99j96q"/><path class="o8haaghkn"/><path class="vx3kx9b6y"/><path class="piuocq91s"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="twemoji:flag-for-flag-croatia" /></template>
+<style>
+.iwwj22bdm {
+  fill: var(--svg-color--d52b1e, #D52B1E);
+  d: path("M32 5H4a4 4 0 0 0-4 4v4h36V9a4 4 0 0 0-4-4z");
+}
+
+.k0a99j96q {
+  fill: var(--svg-color--d52b1e, #D52B1E);
+  d: path("M11.409 7.436V18.97a6.591 6.591 0 0 0 13.182 0V7.436H11.409z");
+}
+
+.mie7wlbfa {
+  fill: var(--svg-color--eee, #EEE);
+  d: path("M0 12.9h36v10.2H0z");
+}
+
+.o8haaghkn {
+  d: path("M14.25 18h2.5v2.5h-2.5zm2.5 2.5h2.5V23h-2.5zm0-5h2.5V18h-2.5zm2.5 2.5h2.5v2.5h-2.5zm0-5h2.5v2.5h-2.5zm2.5 2.5h2.341V18H21.75zm-7.5-2.5h2.5v2.5h-2.5zm7.5 10h.805a6.08 6.08 0 0 0 1.334-2.5H21.75V23zm-2.5 0v1.931a6.074 6.074 0 0 0 2.5-1.171V23h-2.5zm-5 0v-2.5h-2.139a6.069 6.069 0 0 0 1.334 2.5h.805zm-2.341-7.5h2.341V18h-2.341zM14.25 23v.76a6.074 6.074 0 0 0 2.5 1.171V23h-2.5z");
+  fill: var(--svg-color--fff, #FFF);
+}
+
+.piuocq91s {
+  fill: var(--svg-color--0193dd, #0193DD);
+  d: path("M16.638 8.681l.221 2.563c.33-.026.729-.051 1.141-.051c.412 0 .811.025 1.141.051l.221-2.563L18 7.468l-1.362 1.213zm7.941-.053l-1.698.673l-.668 2.489c.731.206 1.45.468 2.144.779l1.086-2.336l-.864-1.605zm-13.157-.002l-.866 1.606l1.087 2.336c.69-.31 1.409-.572 2.144-.779l-.67-2.49l-1.695-.673z");
+}
+
+.q3cvrzt2o {
+  fill: var(--svg-color--171796, #171796);
+  d: path("M36 27a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4v-4h36v4z");
+}
+
+.vx3kx9b6y {
+  fill: var(--svg-color--171796, #171796);
+  d: path("M24.757 8.141l-1.998.791l-1.328-1.682l-1.829 1.126L18 6.949l-1.603 1.428l-1.826-1.128l-1.331 1.684l-1.995-.793l-1.122 2.08l1.331 2.862l.176-.082c.78-.363 1.603-.662 2.443-.888l.04-.011a15.042 15.042 0 0 1 2.523-.451l.064-.006c.705-.06 1.896-.06 2.601 0l.058.005c.824.074 1.678.226 2.536.453l.033.009c.836.225 1.658.524 2.441.889l.175.082l1.331-2.861l-1.118-2.08z");
+}
+
+</style>

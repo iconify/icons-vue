@@ -1,0 +1,36 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":36,"height":36};
+const content = `<path class="drt9002kp"/><path class="s0d2vb0hy"/><path class="te939wb5w"/><path class="mz1uy6byx"/><path class="nmcctjblq"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="twemoji:flag-for-caribbean-netherlands" /></template>
+<style>
+.drt9002kp {
+  fill: var(--svg-color--eeeded, #EEEDED);
+  d: path("M1.369 30.011L34.633 5.99A3.998 3.998 0 0 0 32 5H13.25L0 15.833V27a3.98 3.98 0 0 0 1.369 3.011z");
+}
+
+.mz1uy6byx {
+  d: path("M16.513 15.894l1.192-.688l-1.192-.688a5.566 5.566 0 0 0-4.825-4.825L11 8.5l-.688 1.192a5.566 5.566 0 0 0-4.825 4.825l-1.192.688l1.192.688a5.566 5.566 0 0 0 4.825 4.825L11 21.912l.688-1.192a5.568 5.568 0 0 0 4.825-4.826zM11 20.048a4.848 4.848 0 0 1-4.843-4.842c0-2.67 2.172-4.842 4.843-4.842s4.842 2.172 4.842 4.842A4.847 4.847 0 0 1 11 20.048z");
+  fill: var(--svg-color--000, #000);
+}
+
+.nmcctjblq {
+  fill: var(--svg-color--dc171d, #DC171D);
+  d: path("M12.914 15.206l.957-1.658h-1.914L11 11.891l-.957 1.657H8.129l.957 1.658l-.957 1.657h1.914L11 18.521l.957-1.658h1.914z");
+}
+
+.s0d2vb0hy {
+  fill: var(--svg-color--012a87, #012A87);
+  d: path("M34.633 5.99L1.369 30.011A3.992 3.992 0 0 0 4 31h28a4 4 0 0 0 4-4V9a3.996 3.996 0 0 0-1.367-3.01z");
+}
+
+.te939wb5w {
+  fill: var(--svg-color--f9d90f, #F9D90F);
+  d: path("M4 5a4 4 0 0 0-4 4v6.833L13.25 5H4z");
+}
+
+</style>

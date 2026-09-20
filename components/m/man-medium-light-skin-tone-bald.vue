@@ -1,0 +1,26 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":36,"height":36};
+const content = `<path class="o-4aznbui"/><path class="f5-xe1s4o"/><path class="tfj0swb0e"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="twemoji:man-medium-light-skin-tone-bald" /></template>
+<style>
+.f5-xe1s4o {
+  fill: var(--svg-color--c1694f, #c1694f);
+  d: path("M18 31c-4.201 0-5.491-1.077-5.707-1.293a.999.999 0 0 1 1.376-1.45c.08.058 1.1.743 4.331.743c3.355 0 4.326-.739 4.336-.747c.39-.389 1.001-.37 1.393.021c.391.391.369 1.043-.021 1.434C23.491 29.923 22.201 31 18 31m1-5h-2a1 1 0 1 1 0-2h2a1 1 0 1 1 0 2");
+}
+
+.o-4aznbui {
+  fill: var(--svg-color--f2d1a1, #f2d1a1);
+  d: path("M29.5 16C28.406 8.311 23.392 4.875 18 4.875S7.594 8.311 6.5 16C5.119 16 4 17.791 4 20c0 2.107 1.021 3.815 2.314 3.97C7.537 30.619 12.299 35 18 35s10.463-4.381 11.685-11.03C30.979 23.815 32 22.107 32 20c0-2.209-1.119-4-2.5-4");
+}
+
+.tfj0swb0e {
+  fill: var(--svg-color--662113, #662113);
+  d: path("M13 21a1 1 0 0 1-1-1v-2a1 1 0 0 1 2 0v2a1 1 0 0 1-1 1m10 0a1 1 0 0 1-1-1v-2a1 1 0 1 1 2 0v2a1 1 0 0 1-1 1");
+}
+
+</style>

@@ -1,0 +1,64 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":36,"height":36};
+const content = `<path class="do4maabeu"/><path class="avzpf155s"/><path class="g2xs54bvy"/><path class="fo_sz_bdz"/><path class="vsr9g9axn"/><ellipse class="mjokl69zz"/><path class="kxzieulyh"/><path class="p3f3ygbnf"/><path class="h7hpn9bxe"/><path class="u5s5bebjs"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="twemoji:couch-and-lamp" /></template>
+<style>
+.avzpf155s {
+  fill: var(--svg-color--ccd6dd, #ccd6dd);
+  d: path("M34.882 32c.037-.164.062-.33.062-.5c0-1.933-2.463-3.5-5.5-3.5s-5.5 1.567-5.5 3.5c0 .17.025.336.062.5z");
+}
+
+.do4maabeu {
+  fill: var(--svg-color--ccd6dd, #ccd6dd);
+  d: path("M31 29.5a1.5 1.5 0 0 1-3 0v-24a1.5 1.5 0 1 1 3 0z");
+}
+
+.fo_sz_bdz {
+  fill: var(--svg-color--5d9040, #5d9040);
+  d: path("M29.006 29.101c0 1.215-1.017 2.199-2.271 2.199H6.296c-1.254 0-2.271-.984-2.271-2.199v-9.9c0-1.215 1.017-2.2 2.271-2.2h20.439c1.254 0 2.271.985 2.271 2.2z");
+}
+
+.g2xs54bvy {
+  fill: var(--svg-color--fcab40, #fcab40);
+  d: path("M35.944 9c.334 1.125-.896 2-2 2h-9c-1.104 0-2.291-1-2-2l2-7c.25-1.084.896-2 2-2h5c1.105 0 1.75 1.125 2 2z");
+}
+
+.h7hpn9bxe {
+  fill: var(--svg-color--78b159, #78b159);
+  d: path("M26.4 33.5a2.2 2.2 0 1 0 4.399 0v-9.899a2.2 2.2 0 0 0-4.399 0zM16.5 28a2.2 2.2 0 0 1-2.2 2.2H8.8a2.2 2.2 0 0 1 0-4.4h5.5a2.2 2.2 0 0 1 2.2 2.2m9.9 0a2.2 2.2 0 0 1-2.2 2.2h-5.5a2.2 2.2 0 0 1 0-4.4h5.5a2.2 2.2 0 0 1 2.2 2.2");
+}
+
+.kxzieulyh {
+  fill: var(--svg-color--78b159, #78b159);
+  d: path("M6.6 23.601A3.3 3.3 0 1 1-.001 23.6a3.3 3.3 0 0 1 6.601 0");
+}
+
+.mjokl69zz {
+  cx: 16.516px;
+  cy: 19.125px;
+  fill: var(--svg-color--5d9040, #5d9040);
+  rx: 12.484px;
+  ry: 6.125px;
+}
+
+.p3f3ygbnf {
+  fill: var(--svg-color--78b159, #78b159);
+  d: path("M6.6 33.5a2.2 2.2 0 0 1-4.4 0v-9.899a2.2 2.2 0 0 1 4.4 0zm19.8-9.899a3.3 3.3 0 1 0 6.6 0a3.3 3.3 0 0 0-6.6 0");
+}
+
+.u5s5bebjs {
+  fill: var(--svg-color--78b159, #78b159);
+  d: path("M6 28h21v3H6z");
+}
+
+.vsr9g9axn {
+  fill: var(--svg-color--3f7123, #3f7123);
+  d: path("M27.5 31.3a2.2 2.2 0 0 1-2.2 2.2H6.6a2.2 2.2 0 0 1-2.2-2.2v-1.1A2.2 2.2 0 0 1 6.6 28h18.7a2.2 2.2 0 0 1 2.2 2.2z");
+}
+
+</style>

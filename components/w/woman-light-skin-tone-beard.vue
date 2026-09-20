@@ -1,0 +1,51 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":36,"height":36};
+const content = `<path class="fucomcbij"/><path class="mbwoycb0n"/><path class="cw36mftnc"/><path class="pab555b1j"/><path class="jdbh6ab2a"/><path class="o8ma0jbvs"/><path class="xmrpnpbpw"/><path class="ppzv0obik"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="twemoji:woman-light-skin-tone-beard" /></template>
+<style>
+.cw36mftnc {
+  fill: var(--svg-color--c1694f, #c1694f);
+  d: path("M19 25h-2a1 1 0 1 1 0-2h2a1 1 0 1 1 0 2");
+}
+
+.fucomcbij {
+  fill: var(--svg-color--292f33, #292f33);
+  d: path("M18 3c6 0 16 3 16 16s0 16-3 16s-7-3-13-3s-9.915 3-13 3c-3.343 0-3-12-3-16C2 6 12 3 18 3");
+}
+
+.jdbh6ab2a {
+  fill: var(--svg-color--662113, #662113);
+  d: path("M13 22a1 1 0 0 1-1-1v-2a1 1 0 0 1 2 0v2a1 1 0 0 1-1 1m10 0a1 1 0 0 1-1-1v-2a1 1 0 1 1 2 0v2a1 1 0 0 1-1 1");
+}
+
+.mbwoycb0n {
+  fill: var(--svg-color--f7dece, #f7dece);
+  d: path("M6 18.562c0-8.526 5.373-15.438 12-15.438s12 6.912 12 15.438S24.627 34 18 34S6 27.088 6 18.562");
+}
+
+.o8ma0jbvs {
+  fill: var(--svg-color--0b0200, #0b0200);
+  d: path("M28.257 26.577c-.005-.013 0 0 0-.013L25 27.5H11l-3.257-.936c0 .013.005.001 0 .013c-.474 1.289 1.266 3.473 1.266 3.473c.728 1.936 1.499 2.431 2.455 3.091l1.658-.483h9.756l1.658.483c.956-.66 1.727-1.155 2.455-3.091c0 0 1.741-2.184 1.266-3.473");
+}
+
+.pab555b1j {
+  fill: var(--svg-color--292f33, #292f33);
+  d: path("M3.064 24c-.03-.325-.064-.647-.064-1c0-5 3 .562 3-3s2-4 4-6l3-3s5 3 9 3s8 2 8 6s3-2 3 3c0 .355-.033.673-.058 1h1.049C34 22.523 34 20.868 34 19C34 6 24 1 18 1S2 6 2 19c0 1.158-.028 2.986.012 5z");
+}
+
+.ppzv0obik {
+  fill: var(--svg-color--f7dece, #f7dece);
+  d: path("M18 29.65c-3.368 0-5.893-1.784 0-1.784s3.368 1.784 0 1.784");
+}
+
+.xmrpnpbpw {
+  fill: var(--svg-color--292f33, #292f33);
+  d: path("M25.875 24.767c-.875.931-2.625 2.793-4.375 1.862c-2.475-1.316-3.5-.931-3.5-.931s-1.025-.385-3.5.931c-1.75.931-3.5-.931-4.375-1.862c-.619-.658-2.625-1.862-2.625 0c0 2.792 1.75 4.654 1.75 4.654c1.75 4.654 5.25 4.654 5.25 4.654c.875.931 6.125.931 7 0c0 0 3.5 0 5.25-4.654c0 0 1.75-1.862 1.75-4.654c0-1.862-2.006-.658-2.625 0");
+}
+
+</style>

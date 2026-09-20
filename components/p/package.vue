@@ -1,0 +1,51 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":36,"height":36};
+const content = `<path class="ukrlx6o8v"/><path class="l2w5p4bzo"/><path class="c4mj8ibxc"/><path class="x2m5-kblj"/><path class="gf-qpqbeu"/><path class="m0e5upbvs"/><path class="eihv869ag"/><path class="ad_be9bud"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="twemoji:package" /></template>
+<style>
+.ad_be9bud {
+  fill: var(--svg-color--e1e8ed, #e1e8ed);
+  d: path("M27.656 14.75C23.688 11.625 14.201 4.299 12.935 3.373l-2.073 1.649c3.393 2.669 12.481 9.681 14.86 11.573c.037.029.06.059.087.088L27.903 15a1.2 1.2 0 0 0-.247-.25");
+}
+
+.c4mj8ibxc {
+  fill: var(--svg-color--d99e82, #d99e82);
+  d: path("M19.289.5c-.753-.61-1.988-.61-2.742 0L4.565 10.029c-.754.61-.754 1.607 0 2.216l12.023 9.646c.754.609 1.989.609 2.743 0l12.104-9.73c.754-.609.754-1.606 0-2.216z");
+}
+
+.eihv869ag {
+  fill: var(--svg-color--ccd6dd, #ccd6dd);
+  d: path("M28 18.836v-3.57c0-.188-.146-.359-.344-.516c-3.968-3.125-13.455-10.451-14.721-11.377l-2.073 1.649c3.393 2.669 12.481 9.681 14.86 11.573c.256.204.278.415.278.608v4.836l1-.761c1.104-.797 1-1.338 1-2.442");
+}
+
+.gf-qpqbeu {
+  fill: var(--svg-color--99aab5, #99aab5);
+  d: path("M28 18.836c0 1.104.104 1.646-1 2.442l-2.469 1.878c-1.104.797-1.531.113-1.531-.992v-2.961c0-.193-.026-.4-.278-.608C20.144 16.47 10.134 8.519 8.31 7.051l4.625-3.678c1.266.926 10.753 8.252 14.722 11.377c.197.156.343.328.343.516z");
+}
+
+.l2w5p4bzo {
+  fill: var(--svg-color--c1694f, #c1694f);
+  d: path("M32 11v12.375c0 2.042-1.063 2.484-1.063 2.484s-9.767 7.667-11.588 9.099C17.526 36.39 18 33.375 18 33.375V22z");
+}
+
+.m0e5upbvs {
+  fill: var(--svg-color--ccd6dd, #ccd6dd);
+  d: path("M27.656 14.75C23.688 11.625 14.201 4.299 12.935 3.373l-1.721 1.368l-2.904 2.31c1.825 1.468 11.834 9.419 14.412 11.544a.7.7 0 0 1 .248.371L27.903 15a1.2 1.2 0 0 0-.247-.25");
+}
+
+.ukrlx6o8v {
+  fill: var(--svg-color--662113, #662113);
+  d: path("M4 11v12.375c0 2.042 1.093 2.484 1.093 2.484l11.574 9.099C18.489 36.39 18 33.375 18 33.375V22z");
+}
+
+.x2m5-kblj {
+  fill: var(--svg-color--d99e82, #d99e82);
+  d: path("M18 35.75c-.552 0-1-.482-1-1.078V21.745c0-.596.448-1.078 1-1.078c.553 0 1 .482 1 1.078v12.927c0 .596-.447 1.078-1 1.078");
+}
+
+</style>

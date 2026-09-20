@@ -1,0 +1,12 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/h/hntgybcog.css';
+import '../../css/d/d3zx-49_d.css';
+import '../../css/f/f4h9_zbfp.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="hntgybcog"><path class="d3zx-49_d"/><path class="f4h9_zbfp"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="mage:message-dots" /></template>

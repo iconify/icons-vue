@@ -1,0 +1,34 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":20,"height":20};
+const content = `<g class="cuyn6tgcc"><path clip-rule="evenodd" class="n9ez2mbjt"/><path clip-rule="evenodd" class="w_kk0v03s"/><path clip-rule="evenodd" class="evg0i5vrb"/><path class="xedf9ccsf"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="pepicons-pop:studio-light-front-off" /></template>
+<style>
+.cuyn6tgcc {
+  fill: currentColor;
+}
+
+.evg0i5vrb {
+  fill-rule: evenodd;
+  d: path("M6.61 10.296c-1.33.886-3.11-.067-3.11-1.665V5.37c0-1.598 1.78-2.55 3.11-1.665l2.945 1.964L8.667 7l.888 1.332zM7.946 7L5.5 5.369V8.63zm5.444-3.296c1.33-.886 3.11.067 3.11 1.665V8.63c0 1.598-1.78 2.55-3.11 1.665l-2.945-1.964L11.333 7l-.888-1.332zM12.054 7L14.5 8.631V5.37zm3.36 11.406a1 1 0 0 1-1.32.508L11 17.539v.961a1 1 0 1 1-2 0v-.961l-3.094 1.375a1 1 0 0 1-.812-1.828L9 15.35V13a1 1 0 1 1 2 0v2.35l3.906 1.736a1 1 0 0 1 .508 1.32");
+}
+
+.n9ez2mbjt {
+  fill-rule: evenodd;
+  d: path("M10 8a1 1 0 1 0 0-2a1 1 0 0 0 0 2m0 2a3 3 0 1 0 0-6a3 3 0 0 0 0 6");
+}
+
+.w_kk0v03s {
+  fill-rule: evenodd;
+  d: path("M6.013 3.508C5.236 2.174 6.197.5 7.741.5h4.518c1.543 0 2.505 1.674 1.727 3.008L12.24 6.504l-1.73-1.008L12.26 2.5H7.741l1.748 2.996L7.76 6.504zm7.974 6.984c.777 1.334-.184 3.008-1.728 3.008H7.741c-1.544 0-2.505-1.674-1.728-3.008l1.748-2.996L9.49 8.504L7.74 11.5h4.518L10.51 8.504l1.728-1.008z");
+}
+
+.xedf9ccsf {
+  d: path("M1.293 2.707a1 1 0 0 1 1.414-1.414l16 16a1 1 0 0 1-1.414 1.414z");
+}
+
+</style>

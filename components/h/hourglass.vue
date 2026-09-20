@@ -1,0 +1,34 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":20,"height":20};
+const content = `<g class="cuyn6tgcc"><path clip-rule="evenodd" class="ptmz_cbiu"/><path clip-rule="evenodd" class="m6y0inb2y"/><path class="dv7e1wf3g"/><path clip-rule="evenodd" class="qci9-xbfy"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="pepicons-pop:hourglass" /></template>
+<style>
+.cuyn6tgcc {
+  fill: currentColor;
+}
+
+.dv7e1wf3g {
+  d: path("M7 15.75s2-1.5 3-1.5s3 1.5 3 1.5v.5H7z");
+}
+
+.m6y0inb2y {
+  fill-rule: evenodd;
+  d: path("M12.797 16c-.13-.819-.323-1.595-.575-2.084c-.198-.385-.586-.875-1.118-1.407A16 16 0 0 0 10 11.513c-.352.29-.74.631-1.104.996c-.532.532-.92 1.022-1.118 1.407c-.252.489-.444 1.265-.575 2.084zm.662 2c.844 0 1.518-.697 1.42-1.535c-.125-1.077-.378-2.492-.879-3.465c-.672-1.305-2.218-2.643-3.18-3.393a1.326 1.326 0 0 0-1.64 0C8.217 10.357 6.672 11.695 6 13c-.501.973-.754 2.388-.88 3.465c-.097.838.577 1.535 1.421 1.535z");
+}
+
+.ptmz_cbiu {
+  fill-rule: evenodd;
+  d: path("M7.203 4c.13.819.323 1.595.575 2.084c.198.385.586.874 1.118 1.407c.365.365.752.706 1.104.996c.352-.29.74-.631 1.104-.996c.532-.533.92-1.022 1.118-1.407c.252-.489.444-1.265.575-2.084zm-.662-2c-.844 0-1.518.697-1.42 1.536C5.246 4.612 5.499 6.026 6 7c.672 1.305 2.218 2.643 3.18 3.393c.485.38 1.155.38 1.64 0C11.783 9.643 13.329 8.305 14 7c.501-.973.754-2.388.88-3.464c.097-.84-.577-1.536-1.421-1.536z");
+}
+
+.qci9-xbfy {
+  fill-rule: evenodd;
+  d: path("M4 2.5a1 1 0 0 1 1-1h10a1 1 0 1 1 0 2H5a1 1 0 0 1-1-1m0 15a1 1 0 0 1 1-1h10a1 1 0 1 1 0 2H5a1 1 0 0 1-1-1");
+}
+
+</style>

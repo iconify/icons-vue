@@ -1,0 +1,40 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":26,"height":26};
+const content = `<g class="ft5dv1b6b"><defs><mask id="SVGAdmKHDzJ"><path class="k5-vjlrin"/><g class="ivjvz2eii"><path class="k6uj9ziot"/><path clip-rule="evenodd" class="g-ura4bog"/></g></mask></defs><circle mask="url(#SVGAdmKHDzJ)" class="bd9gczbnq"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="pepicons-pop:umbrella-circle-filled" /></template>
+<style>
+.bd9gczbnq {
+  cx: 13px;
+  cy: 13px;
+  r: 13px;
+  fill: currentColor;
+}
+
+.ft5dv1b6b {
+  fill: none;
+}
+
+.g-ura4bog {
+  fill-rule: evenodd;
+  d: path("m8.668 14.235l.088-.122a7 7 0 0 1 .37-.47l.221.173c.719.57 1.126.785 1.817.67c.404-.067.725-.233 1.14-.522c.058-.04.107-.076.206-.147c.341-.246.474-.317.506-.317c.001 0 .13.069.466.313l.084.061c.51.369.828.545 1.284.615c.693.105 1.083-.117 1.811-.72c.094-.078.162-.134.214-.175l.013.017c.078.097.2.25.346.46l.044.062l.218.31c.11.155.201.276.293.385c.354.422.689.67 1.207.672c1.208.005 2.004-.812 2.004-2c0-4.49-3.426-8-7.886-8C8.619 5.5 5 9.044 5 13.5c0 1.191.807 1.965 1.97 2c.528.015.872-.23 1.231-.648c.092-.107.183-.224.294-.376zm-1.656-1.123C7.213 9.954 9.847 7.5 13.114 7.5c3.207 0 5.677 2.395 5.873 5.587l-.117-.169c-.606-.86-.992-1.26-1.67-1.398c-.43-.088-.816.018-1.19.242c-.197.117-.306.202-.625.467c-.155.128-.246.2-.316.245a4 4 0 0 1-.33-.22l-.08-.058c-.714-.519-1.064-.706-1.675-.696c-.6.01-.957.2-1.644.695l-.181.129c-.114.08-.196.13-.25.159a3 3 0 0 1-.32-.235c-.325-.256-.427-.332-.623-.443c-.37-.21-.754-.307-1.176-.217c-.667.143-1.068.542-1.654 1.352l-.102.142z");
+}
+
+.ivjvz2eii {
+  fill: var(--svg-color--000, #000);
+}
+
+.k5-vjlrin {
+  fill: var(--svg-color--fff, #fff);
+  d: path("M0 0h26v26H0z");
+}
+
+.k6uj9ziot {
+  d: path("M14.386 20.358c.129 0 .225-.16.225-1.038a1 1 0 0 1 2 0c0 1.84-.72 3.038-2.225 3.038c-1.345 0-2.214-.851-2.379-2.24L12 20v-6.5a1 1 0 0 1 2 0v6.438c.049.37.112.42.386.42M12 4.5a1 1 0 0 1 2 0V6a1 1 0 1 1-2 0z");
+}
+
+</style>

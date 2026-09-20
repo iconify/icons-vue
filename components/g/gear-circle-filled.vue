@@ -1,0 +1,96 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":26,"height":26};
+const content = `<g class="ft5dv1b6b"><defs><mask id="SVGMfag1bjq"><path class="k5-vjlrin"/><g clip-rule="evenodd" class="kvn14gsjy"><path class="e7j_bac0y"/><path class="c_29xg85m"/><path class="hvy6dhsgw"/><path class="yo6u3qdpx"/><path class="beald-bpf"/><path class="ds1wwcb6g"/><path class="xc2uuebwp"/><path class="fkrd__5kj"/><path class="ohcwhxbmk"/><path class="i3nmseojk"/><path class="rvqxv0trm"/><path class="as2l66jmd"/><path class="pnlznccnf"/><path class="vzs6pmbra"/><path class="v3zzoj81i"/><path class="vt1yfcbhl"/></g></mask></defs><circle mask="url(#SVGMfag1bjq)" class="bd9gczbnq"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="pepicons-pop:gear-circle-filled" /></template>
+<style>
+.as2l66jmd {
+  d: path("M6.101 11.917a1 1 0 0 1-.518-1.316l.5-1.15a1 1 0 0 1 1.834.798l-.5 1.15a1 1 0 0 1-1.316.518");
+}
+
+.bd9gczbnq {
+  cx: 13px;
+  cy: 13px;
+  r: 13px;
+  fill: currentColor;
+}
+
+.beald-bpf {
+  d: path("M20.29 16.504a2 2 0 0 1-.375 2.309l-1.102 1.102a2 2 0 0 1-2.309.375l-.77-.385a1 1 0 1 1 .895-1.789l.77.385l1.102-1.102l-.385-.77a1 1 0 0 1 1.789-.894z");
+}
+
+.c_29xg85m {
+  d: path("M18.644 8.888a1 1 0 0 1 1.297.564l.46 1.166a1 1 0 0 1-1.861.733l-.46-1.166a1 1 0 0 1 .564-1.297");
+}
+
+.ds1wwcb6g {
+  d: path("M17.112 18.644a1 1 0 0 1-.563 1.297l-1.167.46a1 1 0 1 1-.733-1.861l1.167-.46a1 1 0 0 1 1.296.564");
+}
+
+.e7j_bac0y {
+  d: path("M13 15a2 2 0 1 0 0-4a2 2 0 0 0 0 4m0 2a4 4 0 1 0 0-8a4 4 0 0 0 0 8m3.504-11.29a2 2 0 0 1 2.309.375l1.102 1.102a2 2 0 0 1 .375 2.309l-.385.77a1 1 0 1 1-1.789-.895l.385-.77L17.399 7.5l-.77.385a1 1 0 1 1-.894-1.789z");
+}
+
+.fkrd__5kj {
+  d: path("M11.917 19.899a1 1 0 0 1-1.316.518l-1.15-.5a1 1 0 1 1 .798-1.834l1.15.5a1 1 0 0 1 .518 1.316");
+}
+
+.ft5dv1b6b {
+  fill: none;
+}
+
+.hvy6dhsgw {
+  d: path("M20.633 10.323A2 2 0 0 1 22 12.221v1.558a2 2 0 0 1-1.367 1.898l-.817.272a1 1 0 1 1-.632-1.898L20 13.78v-1.558l-.816-.272a1 1 0 0 1 .632-1.898z");
+}
+
+.i3nmseojk {
+  d: path("M7.356 17.112a1 1 0 0 1-1.297-.563l-.46-1.167a1 1 0 0 1 1.861-.733l.46 1.166a1 1 0 0 1-.564 1.297");
+}
+
+.k5-vjlrin {
+  fill: var(--svg-color--fff, #fff);
+  d: path("M0 0h26v26H0z");
+}
+
+.kvn14gsjy {
+  fill: var(--svg-color--000, #000);
+  fill-rule: evenodd;
+}
+
+.ohcwhxbmk {
+  d: path("M9.496 20.29a2 2 0 0 1-2.309-.375l-1.102-1.102a2 2 0 0 1-.375-2.309l.385-.77a1 1 0 1 1 1.789.895l-.385.77L8.601 18.5l.77-.385a1 1 0 1 1 .894 1.789z");
+}
+
+.pnlznccnf {
+  d: path("M5.71 9.496a2 2 0 0 1 .375-2.309l1.102-1.102a2 2 0 0 1 2.309-.375l.77.385a1 1 0 1 1-.895 1.789l-.77-.385L7.5 8.601l.385.77a1 1 0 1 1-1.789.894z");
+}
+
+.rvqxv0trm {
+  d: path("M5.368 15.677A2 2 0 0 1 4 13.779v-1.558a2 2 0 0 1 1.368-1.898l.816-.272a1 1 0 1 1 .632 1.898L6 12.22v1.558l.816.272a1 1 0 1 1-.632 1.898z");
+}
+
+.v3zzoj81i {
+  d: path("M10.323 5.368A2 2 0 0 1 12.221 4h1.558a2 2 0 0 1 1.898 1.368l.272.816a1 1 0 0 1-1.898.632L13.78 6h-1.558l-.272.816a1 1 0 0 1-1.898-.632z");
+}
+
+.vt1yfcbhl {
+  d: path("M14.083 6.101a1 1 0 0 1 1.316-.518l1.15.5a1 1 0 0 1-.798 1.834l-1.15-.5a1 1 0 0 1-.518-1.316");
+}
+
+.vzs6pmbra {
+  d: path("M8.887 7.356a1 1 0 0 1 .564-1.297l1.167-.46a1 1 0 1 1 .733 1.861l-1.167.46a1 1 0 0 1-1.297-.564");
+}
+
+.xc2uuebwp {
+  d: path("M15.677 20.633A2 2 0 0 1 13.779 22h-1.558a2 2 0 0 1-1.898-1.367l-.272-.817a1 1 0 0 1 1.898-.632l.272.816h1.558l.272-.816a1 1 0 0 1 1.898.632z");
+}
+
+.yo6u3qdpx {
+  d: path("M19.899 14.083a1 1 0 0 1 .518 1.316l-.5 1.15a1 1 0 1 1-1.834-.798l.5-1.15a1 1 0 0 1 1.316-.518");
+}
+
+</style>

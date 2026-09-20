@@ -1,0 +1,24 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":20,"height":20};
+const content = `<g clip-rule="evenodd" class="n1lsf0bnc"><path class="c5a5b0t5r"/><path class="e6s9h0bxs"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="pepicons-pop:paperclip" /></template>
+<style>
+.c5a5b0t5r {
+  d: path("M9.109 2.493a4.5 4.5 0 1 1 6.513 6.211l-5.349 5.608a2.75 2.75 0 0 1-3.981-3.795l4.484-4.707a1 1 0 0 1 1.448 1.38L7.74 11.896a.75.75 0 0 0 1.086 1.036l5.349-5.608a2.5 2.5 0 0 0-3.619-3.451l-4.83 5.066a1 1 0 0 1-1.448-1.38z");
+}
+
+.e6s9h0bxs {
+  d: path("M4.824 15.68c-.372-.355-.726-.926-1.036-1.605c-.6-1.31-.168-2.929 1.004-4.159L9.176 5.32a1 1 0 1 0-1.447-1.38L3.345 8.536C1.796 10.16.928 12.631 1.97 14.906c.352.77.833 1.609 1.475 2.22c.632.604 1.476 1.04 2.25 1.354c2.345.95 4.797-.061 6.345-1.715l5.691-6.082a1 1 0 1 0-1.46-1.366l-5.692 6.08c-1.173 1.255-2.785 1.775-4.133 1.23c-.68-.277-1.255-.599-1.621-.948");
+}
+
+.n1lsf0bnc {
+  fill: currentColor;
+  fill-rule: evenodd;
+}
+
+</style>

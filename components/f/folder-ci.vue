@@ -1,0 +1,11 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/n/nhg495fle.css';
+import '../../css/u/u1tsesnyu.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":16,"height":16};
+const content = `<path class="nhg495fle"/><path class="u1tsesnyu"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-icon-theme:folder-ci" /></template>

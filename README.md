@@ -2,6 +2,9 @@
 
 This repository contains icon components for Vue for all 222 icon sets available on [Iconify](https://icon-sets.iconify.design/).
 
+Each icon set is published in a separate branch of this repository, see list of branches below.
+
+
 ## Why not NPM ???
 
 Due to NPM issues, these packages cannot be published to NPM.
@@ -38,7 +41,7 @@ This is why these packages are published to GitHub instead of NPM.
 
 NPM client can install packages from a branch of a Git repository, where it retrieves metadata only for the latest commit in a branch, so no more huge metadata regardless of how many versions have been published.
 
-Each icon set is published in a separate branch of this repository, which makes it easy to maintain many icon sets without creating multiple repositories.
+Each icon set is published in a separate branch of this repository, which makes it easy to maintain many icon sets without creating multiple repositories. Also you can see what has changed in each update in commit diffs.
 
 
 ## Installation

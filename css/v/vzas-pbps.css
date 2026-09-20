@@ -1,0 +1,7 @@
+.vzas-pbps {
+  fill: var(--svg-color--78eb7b, #78eb7b);
+  stroke: var(--svg-color--191919, #191919);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M12 12H8.25v3.75H12z");
+}

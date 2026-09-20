@@ -1,0 +1,7 @@
+.l_tnobcdf {
+  fill: var(--svg-color--e3e3e3, #e3e3e3);
+  stroke: var(--svg-color--191919, #191919);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M13.241 20.84c.654-.654.73-1.638.169-2.198s-1.544-.485-2.198.169s-.73 1.638-.17 2.198c.561.56 1.545.485 2.199-.169");
+}

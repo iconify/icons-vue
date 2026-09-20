@@ -1,0 +1,8 @@
+.tpnw-rbon {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M19 18H5m2-6h10m4-6H3");
+}

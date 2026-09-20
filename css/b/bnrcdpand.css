@@ -1,0 +1,8 @@
+.bnrcdpand {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("m6 3l6 10.36L18 3m-6 3.45L14 3h9L12 22L1 3h9Z");
+}

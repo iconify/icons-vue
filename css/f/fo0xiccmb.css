@@ -1,0 +1,8 @@
+.fo0xiccmb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M7 2h10m-2 0v7q4 2 4 6v3H5v-3q0-4 4-6V2m3 20v-9");
+}

@@ -1,0 +1,8 @@
+.silzgfbub {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M12 8.5V2m0 13.5V22M2 8.5v7L12 22l10-6.5v-7L12 2Zl10 7l10-7m0 7l-10-7l-10 7");
+}

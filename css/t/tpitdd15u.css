@@ -1,0 +1,8 @@
+.tpitdd15u {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M15 21V6M9 18V3m0 0l6 3l6-3v15l-6 3l-6-3l-6 3V6Z");
+}

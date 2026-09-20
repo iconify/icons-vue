@@ -1,0 +1,8 @@
+.todztinhg {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M18 8a1 1 0 0 1 0 8q-3 0-6-4T6 8a1 1 0 0 0 0 8q3 0 6-4t6-4");
+}

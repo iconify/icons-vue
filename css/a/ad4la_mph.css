@@ -1,0 +1,8 @@
+.ad4la_mph {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M2 22v-3a3 3 0 1 1 3 3Zm10-7v5q6 0 4-7m-7-1H4q0-6 7-4m1 7q10-4 10-13q-9 0-13 10Z");
+}

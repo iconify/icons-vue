@@ -1,0 +1,8 @@
+.hypaunbbo {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M9 16h6a1 1 0 0 0 0-12H9a6 6 0 0 0-5.78 4.39l-2.13 7.88a3 3 0 0 0 5.09 2.79Zm6 0l2.82 3.06a3 3 0 0 0 5.09-2.79l-2.13-7.88M8 8v4m-2-2h4m5 0h2");
+}

@@ -1,0 +1,1739 @@
+{
+  "name": "@iconify-vue/ooui",
+  "type": "module",
+  "version": "1.0.16",
+  "homepage": "https://icon-sets.iconify.design/ooui/",
+  "bugs": "https://github.com/iconify/icons-vue/issues",
+  "license": "MIT",
+  "exports": {
+    "./add": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/add.vue"
+    },
+    "./alert": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/alert.vue"
+    },
+    "./align-center": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/align-center.vue"
+    },
+    "./align-left": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/align-left.vue"
+    },
+    "./align-right": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/align-right.vue"
+    },
+    "./appearance": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/appearance.vue"
+    },
+    "./arrow-down": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arrow-down.vue"
+    },
+    "./arrow-next-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arrow-next-ltr.vue"
+    },
+    "./arrow-next-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arrow-next-rtl.vue"
+    },
+    "./arrow-previous-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arrow-previous-ltr.vue"
+    },
+    "./arrow-previous-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arrow-previous-rtl.vue"
+    },
+    "./arrow-up": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arrow-up.vue"
+    },
+    "./article-add": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/article-add.vue"
+    },
+    "./article-check": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/article-check.vue"
+    },
+    "./article-disambiguation-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/article-disambiguation-ltr.vue"
+    },
+    "./article-disambiguation-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/article-disambiguation-rtl.vue"
+    },
+    "./article-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/article-ltr.vue"
+    },
+    "./article-not-found-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/article-not-found-ltr.vue"
+    },
+    "./article-not-found-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/article-not-found-rtl.vue"
+    },
+    "./article-redirect-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/article-redirect-ltr.vue"
+    },
+    "./article-redirect-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/article-redirect-rtl.vue"
+    },
+    "./article-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/article-rtl.vue"
+    },
+    "./article-search": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/article-search.vue"
+    },
+    "./articles-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/articles-ltr.vue"
+    },
+    "./articles-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/articles-rtl.vue"
+    },
+    "./articles-search-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/articles-search-ltr.vue"
+    },
+    "./articles-search-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/articles-search-rtl.vue"
+    },
+    "./asterisk": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/asterisk.vue"
+    },
+    "./attachment": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/attachment.vue"
+    },
+    "./bell": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bell.vue"
+    },
+    "./bell-outline": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bell-outline.vue"
+    },
+    "./bigger": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bigger.vue"
+    },
+    "./block": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/block.vue"
+    },
+    "./block-outline": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/block-outline.vue"
+    },
+    "./bold-a": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bold-a.vue"
+    },
+    "./bold-arab-ain": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bold-arab-ain.vue"
+    },
+    "./bold-arab-dad": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bold-arab-dad.vue"
+    },
+    "./bold-arab-jeem": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bold-arab-jeem.vue"
+    },
+    "./bold-armn-to": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bold-armn-to.vue"
+    },
+    "./bold-b": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bold-b.vue"
+    },
+    "./bold-cyrl-be": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bold-cyrl-be.vue"
+    },
+    "./bold-cyrl-palochka": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bold-cyrl-palochka.vue"
+    },
+    "./bold-cyrl-te": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bold-cyrl-te.vue"
+    },
+    "./bold-cyrl-zhe": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bold-cyrl-zhe.vue"
+    },
+    "./bold-f": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bold-f.vue"
+    },
+    "./bold-g": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bold-g.vue"
+    },
+    "./bold-geor-man": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bold-geor-man.vue"
+    },
+    "./bold-l": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bold-l.vue"
+    },
+    "./bold-n": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bold-n.vue"
+    },
+    "./bold-q": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bold-q.vue"
+    },
+    "./bold-v": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bold-v.vue"
+    },
+    "./book": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/book.vue"
+    },
+    "./book-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/book-ltr.vue"
+    },
+    "./book-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/book-rtl.vue"
+    },
+    "./bookmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bookmark.vue"
+    },
+    "./bookmark-list-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bookmark-list-ltr.vue"
+    },
+    "./bookmark-list-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bookmark-list-rtl.vue"
+    },
+    "./bookmark-outline": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bookmark-outline.vue"
+    },
+    "./bright": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bright.vue"
+    },
+    "./browser-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/browser-ltr.vue"
+    },
+    "./browser-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/browser-rtl.vue"
+    },
+    "./calendar": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/calendar.vue"
+    },
+    "./camera": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/camera.vue"
+    },
+    "./cancel": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cancel.vue"
+    },
+    "./chart": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chart.vue"
+    },
+    "./chart-bar": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chart-bar.vue"
+    },
+    "./chart-line": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chart-line.vue"
+    },
+    "./chart-pie": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chart-pie.vue"
+    },
+    "./chart-scatter": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chart-scatter.vue"
+    },
+    "./check": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/check.vue"
+    },
+    "./check-all": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/check-all.vue"
+    },
+    "./clear": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/clear.vue"
+    },
+    "./clock": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/clock.vue"
+    },
+    "./close": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/close.vue"
+    },
+    "./code": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/code.vue"
+    },
+    "./collapse": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/collapse.vue"
+    },
+    "./configure": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/configure.vue"
+    },
+    "./copy-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/copy-ltr.vue"
+    },
+    "./copy-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/copy-rtl.vue"
+    },
+    "./cut-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cut-ltr.vue"
+    },
+    "./cut-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cut-rtl.vue"
+    },
+    "./database": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/database.vue"
+    },
+    "./die": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/die.vue"
+    },
+    "./diffs-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/diffs-ltr.vue"
+    },
+    "./diffs-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/diffs-rtl.vue"
+    },
+    "./double-chevron-end-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/double-chevron-end-ltr.vue"
+    },
+    "./double-chevron-end-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/double-chevron-end-rtl.vue"
+    },
+    "./double-chevron-start-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/double-chevron-start-ltr.vue"
+    },
+    "./double-chevron-start-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/double-chevron-start-rtl.vue"
+    },
+    "./down-triangle": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/down-triangle.vue"
+    },
+    "./download": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/download.vue"
+    },
+    "./draggable-horizontal": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/draggable-horizontal.vue"
+    },
+    "./draggable-vertical": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/draggable-vertical.vue"
+    },
+    "./draggable-xy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/draggable-xy.vue"
+    },
+    "./edit": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/edit.vue"
+    },
+    "./edit-lock": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/edit-lock.vue"
+    },
+    "./edit-undo-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/edit-undo-ltr.vue"
+    },
+    "./edit-undo-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/edit-undo-rtl.vue"
+    },
+    "./ellipsis": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/ellipsis.vue"
+    },
+    "./error": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/error.vue"
+    },
+    "./exit-fullscreen": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/exit-fullscreen.vue"
+    },
+    "./expand": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/expand.vue"
+    },
+    "./eye": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/eye.vue"
+    },
+    "./eye-closed": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/eye-closed.vue"
+    },
+    "./feedback-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/feedback-ltr.vue"
+    },
+    "./feedback-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/feedback-rtl.vue"
+    },
+    "./filter": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/filter.vue"
+    },
+    "./flag-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/flag-ltr.vue"
+    },
+    "./flag-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/flag-rtl.vue"
+    },
+    "./folder-placeholder-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-placeholder-ltr.vue"
+    },
+    "./folder-placeholder-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-placeholder-rtl.vue"
+    },
+    "./full-screen": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/full-screen.vue"
+    },
+    "./function": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/function.vue"
+    },
+    "./function-argument-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/function-argument-ltr.vue"
+    },
+    "./function-argument-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/function-argument-rtl.vue"
+    },
+    "./funnel": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/funnel.vue"
+    },
+    "./funnel-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/funnel-ltr.vue"
+    },
+    "./funnel-match-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/funnel-match-ltr.vue"
+    },
+    "./funnel-match-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/funnel-match-rtl.vue"
+    },
+    "./funnel-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/funnel-rtl.vue"
+    },
+    "./globe": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/globe.vue"
+    },
+    "./half-bright-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/half-bright-ltr.vue"
+    },
+    "./half-bright-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/half-bright-rtl.vue"
+    },
+    "./half-star-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/half-star-ltr.vue"
+    },
+    "./half-star-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/half-star-rtl.vue"
+    },
+    "./hand": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hand.vue"
+    },
+    "./heart": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/heart.vue"
+    },
+    "./heart-outline": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/heart-outline.vue"
+    },
+    "./help-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/help-ltr.vue"
+    },
+    "./help-notice-filled-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/help-notice-filled-ltr.vue"
+    },
+    "./help-notice-filled-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/help-notice-filled-rtl.vue"
+    },
+    "./help-notice-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/help-notice-ltr.vue"
+    },
+    "./help-notice-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/help-notice-rtl.vue"
+    },
+    "./help-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/help-rtl.vue"
+    },
+    "./hieroglyph": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hieroglyph.vue"
+    },
+    "./highlight": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/highlight.vue"
+    },
+    "./history": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/history.vue"
+    },
+    "./home": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/home.vue"
+    },
+    "./image": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/image.vue"
+    },
+    "./image-add-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/image-add-ltr.vue"
+    },
+    "./image-add-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/image-add-rtl.vue"
+    },
+    "./image-broken": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/image-broken.vue"
+    },
+    "./image-gallery": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/image-gallery.vue"
+    },
+    "./image-gallery-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/image-gallery-ltr.vue"
+    },
+    "./image-gallery-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/image-gallery-rtl.vue"
+    },
+    "./image-layout-basic": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/image-layout-basic.vue"
+    },
+    "./image-layout-frame": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/image-layout-frame.vue"
+    },
+    "./image-layout-frameless": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/image-layout-frameless.vue"
+    },
+    "./image-layout-thumbnail": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/image-layout-thumbnail.vue"
+    },
+    "./image-lock-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/image-lock-ltr.vue"
+    },
+    "./image-lock-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/image-lock-rtl.vue"
+    },
+    "./indent-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/indent-ltr.vue"
+    },
+    "./indent-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/indent-rtl.vue"
+    },
+    "./info": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/info.vue"
+    },
+    "./info-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/info-filled.vue"
+    },
+    "./instance-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/instance-ltr.vue"
+    },
+    "./instance-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/instance-rtl.vue"
+    },
+    "./italic-a": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/italic-a.vue"
+    },
+    "./italic-arab-keheh-jeem": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/italic-arab-keheh-jeem.vue"
+    },
+    "./italic-arab-meem": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/italic-arab-meem.vue"
+    },
+    "./italic-arab-teh": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/italic-arab-teh.vue"
+    },
+    "./italic-armn-sha": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/italic-armn-sha.vue"
+    },
+    "./italic-c": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/italic-c.vue"
+    },
+    "./italic-d": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/italic-d.vue"
+    },
+    "./italic-e": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/italic-e.vue"
+    },
+    "./italic-geor-kan": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/italic-geor-kan.vue"
+    },
+    "./italic-i": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/italic-i.vue"
+    },
+    "./italic-k": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/italic-k.vue"
+    },
+    "./italic-s": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/italic-s.vue"
+    },
+    "./journal-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/journal-ltr.vue"
+    },
+    "./journal-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/journal-rtl.vue"
+    },
+    "./key": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/key.vue"
+    },
+    "./keyboard": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/keyboard.vue"
+    },
+    "./lab-flask": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lab-flask.vue"
+    },
+    "./language": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/language.vue"
+    },
+    "./larger-text": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/larger-text.vue"
+    },
+    "./layout-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/layout-ltr.vue"
+    },
+    "./layout-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/layout-rtl.vue"
+    },
+    "./level-none-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/level-none-ltr.vue"
+    },
+    "./level-none-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/level-none-rtl.vue"
+    },
+    "./level-one-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/level-one-ltr.vue"
+    },
+    "./level-one-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/level-one-rtl.vue"
+    },
+    "./level-three-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/level-three-ltr.vue"
+    },
+    "./level-three-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/level-three-rtl.vue"
+    },
+    "./level-two-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/level-two-ltr.vue"
+    },
+    "./level-two-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/level-two-rtl.vue"
+    },
+    "./lightbulb": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lightbulb.vue"
+    },
+    "./lightbulb-dashed": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lightbulb-dashed.vue"
+    },
+    "./lightbulb-outline": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lightbulb-outline.vue"
+    },
+    "./link": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/link.vue"
+    },
+    "./link-external-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/link-external-ltr.vue"
+    },
+    "./link-external-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/link-external-rtl.vue"
+    },
+    "./link-secure": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/link-secure.vue"
+    },
+    "./list-bullet-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/list-bullet-ltr.vue"
+    },
+    "./list-bullet-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/list-bullet-rtl.vue"
+    },
+    "./list-numbered-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/list-numbered-ltr.vue"
+    },
+    "./list-numbered-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/list-numbered-rtl.vue"
+    },
+    "./literal-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/literal-ltr.vue"
+    },
+    "./literal-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/literal-rtl.vue"
+    },
+    "./live": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/live.vue"
+    },
+    "./lock": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lock.vue"
+    },
+    "./log-in-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/log-in-ltr.vue"
+    },
+    "./log-in-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/log-in-rtl.vue"
+    },
+    "./log-out-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/log-out-ltr.vue"
+    },
+    "./log-out-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/log-out-rtl.vue"
+    },
+    "./logo-cc": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/logo-cc.vue"
+    },
+    "./logo-codex": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/logo-codex.vue"
+    },
+    "./logo-media-wiki": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/logo-media-wiki.vue"
+    },
+    "./logo-meta-wiki": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/logo-meta-wiki.vue"
+    },
+    "./logo-wikibooks": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/logo-wikibooks.vue"
+    },
+    "./logo-wikidata": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/logo-wikidata.vue"
+    },
+    "./logo-wikifunctions": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/logo-wikifunctions.vue"
+    },
+    "./logo-wikimedia": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/logo-wikimedia.vue"
+    },
+    "./logo-wikimedia-commons": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/logo-wikimedia-commons.vue"
+    },
+    "./logo-wikimedia-discovery": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/logo-wikimedia-discovery.vue"
+    },
+    "./logo-wikinews": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/logo-wikinews.vue"
+    },
+    "./logo-wikipedia": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/logo-wikipedia.vue"
+    },
+    "./logo-wikiquote": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/logo-wikiquote.vue"
+    },
+    "./logo-wikisource": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/logo-wikisource.vue"
+    },
+    "./logo-wikispecies": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/logo-wikispecies.vue"
+    },
+    "./logo-wikiversity": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/logo-wikiversity.vue"
+    },
+    "./logo-wikivoyage": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/logo-wikivoyage.vue"
+    },
+    "./logo-wiktionary": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/logo-wiktionary.vue"
+    },
+    "./magic-wand": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/magic-wand.vue"
+    },
+    "./map-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/map-ltr.vue"
+    },
+    "./map-pin": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/map-pin.vue"
+    },
+    "./map-pin-add": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/map-pin-add.vue"
+    },
+    "./map-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/map-rtl.vue"
+    },
+    "./map-trail": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/map-trail.vue"
+    },
+    "./markup": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/markup.vue"
+    },
+    "./mathematics": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mathematics.vue"
+    },
+    "./mathematics-display-block": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mathematics-display-block.vue"
+    },
+    "./mathematics-display-default": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mathematics-display-default.vue"
+    },
+    "./mathematics-display-inline": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mathematics-display-inline.vue"
+    },
+    "./menu": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/menu.vue"
+    },
+    "./merge-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/merge-ltr.vue"
+    },
+    "./merge-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/merge-rtl.vue"
+    },
+    "./message": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/message.vue"
+    },
+    "./microphone": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/microphone.vue"
+    },
+    "./moon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon.vue"
+    },
+    "./move": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/move.vue"
+    },
+    "./move-first-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/move-first-ltr.vue"
+    },
+    "./move-first-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/move-first-rtl.vue"
+    },
+    "./move-last-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/move-last-ltr.vue"
+    },
+    "./move-last-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/move-last-rtl.vue"
+    },
+    "./musical-score": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/musical-score.vue"
+    },
+    "./network": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/network.vue"
+    },
+    "./network-off": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/network-off.vue"
+    },
+    "./new-window-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/new-window-ltr.vue"
+    },
+    "./new-window-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/new-window-rtl.vue"
+    },
+    "./newline-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/newline-ltr.vue"
+    },
+    "./newline-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/newline-rtl.vue"
+    },
+    "./newspaper-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/newspaper-ltr.vue"
+    },
+    "./newspaper-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/newspaper-rtl.vue"
+    },
+    "./next-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/next-ltr.vue"
+    },
+    "./next-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/next-rtl.vue"
+    },
+    "./no-wiki-text": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/no-wiki-text.vue"
+    },
+    "./not-bright": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/not-bright.vue"
+    },
+    "./notice": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/notice.vue"
+    },
+    "./ocr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/ocr.vue"
+    },
+    "./ongoing-conversation-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/ongoing-conversation-ltr.vue"
+    },
+    "./ongoing-conversation-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/ongoing-conversation-rtl.vue"
+    },
+    "./outdent-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/outdent-ltr.vue"
+    },
+    "./outdent-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/outdent-rtl.vue"
+    },
+    "./outline": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/outline.vue"
+    },
+    "./outline-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/outline-ltr.vue"
+    },
+    "./outline-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/outline-rtl.vue"
+    },
+    "./page-settings": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/page-settings.vue"
+    },
+    "./palette-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/palette-ltr.vue"
+    },
+    "./palette-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/palette-rtl.vue"
+    },
+    "./paste-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/paste-ltr.vue"
+    },
+    "./paste-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/paste-rtl.vue"
+    },
+    "./pause": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pause.vue"
+    },
+    "./picture-in-picture": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/picture-in-picture.vue"
+    },
+    "./play": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/play.vue"
+    },
+    "./power": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/power.vue"
+    },
+    "./previous-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/previous-ltr.vue"
+    },
+    "./previous-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/previous-rtl.vue"
+    },
+    "./printer": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/printer.vue"
+    },
+    "./push-pin": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/push-pin.vue"
+    },
+    "./puzzle-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/puzzle-ltr.vue"
+    },
+    "./puzzle-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/puzzle-rtl.vue"
+    },
+    "./qr-code": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/qr-code.vue"
+    },
+    "./quotes-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/quotes-ltr.vue"
+    },
+    "./quotes-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/quotes-rtl.vue"
+    },
+    "./recent-changes-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/recent-changes-ltr.vue"
+    },
+    "./recent-changes-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/recent-changes-rtl.vue"
+    },
+    "./redo-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/redo-ltr.vue"
+    },
+    "./redo-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/redo-rtl.vue"
+    },
+    "./reference": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/reference.vue"
+    },
+    "./reference-existing-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/reference-existing-ltr.vue"
+    },
+    "./reference-existing-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/reference-existing-rtl.vue"
+    },
+    "./reference-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/reference-ltr.vue"
+    },
+    "./reference-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/reference-rtl.vue"
+    },
+    "./references-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/references-ltr.vue"
+    },
+    "./references-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/references-rtl.vue"
+    },
+    "./reload": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/reload.vue"
+    },
+    "./restart": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/restart.vue"
+    },
+    "./restore": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/restore.vue"
+    },
+    "./robot": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/robot.vue"
+    },
+    "./rotate": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rotate.vue"
+    },
+    "./sandbox": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sandbox.vue"
+    },
+    "./search": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/search.vue"
+    },
+    "./search-case-sensitive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/search-case-sensitive.vue"
+    },
+    "./search-diacritics": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/search-diacritics.vue"
+    },
+    "./search-regular-expression": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/search-regular-expression.vue"
+    },
+    "./settings": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/settings.vue"
+    },
+    "./share": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/share.vue"
+    },
+    "./share-android": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/share-android.vue"
+    },
+    "./share-ios": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/share-ios.vue"
+    },
+    "./signature-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/signature-ltr.vue"
+    },
+    "./signature-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/signature-rtl.vue"
+    },
+    "./smaller": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/smaller.vue"
+    },
+    "./smaller-text": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/smaller-text.vue"
+    },
+    "./sort-vertical": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sort-vertical.vue"
+    },
+    "./special-character": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/special-character.vue"
+    },
+    "./special-pages-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/special-pages-ltr.vue"
+    },
+    "./special-pages-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/special-pages-rtl.vue"
+    },
+    "./speech-bubble-add-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/speech-bubble-add-ltr.vue"
+    },
+    "./speech-bubble-add-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/speech-bubble-add-rtl.vue"
+    },
+    "./speech-bubble-alert-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/speech-bubble-alert-ltr.vue"
+    },
+    "./speech-bubble-alert-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/speech-bubble-alert-rtl.vue"
+    },
+    "./speech-bubble-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/speech-bubble-ltr.vue"
+    },
+    "./speech-bubble-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/speech-bubble-rtl.vue"
+    },
+    "./speech-bubbles-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/speech-bubbles-ltr.vue"
+    },
+    "./speech-bubbles-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/speech-bubbles-rtl.vue"
+    },
+    "./star": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/star.vue"
+    },
+    "./sticker": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sticker.vue"
+    },
+    "./stop": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stop.vue"
+    },
+    "./strikethrough-a": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/strikethrough-a.vue"
+    },
+    "./strikethrough-s": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/strikethrough-s.vue"
+    },
+    "./strikethrough-y": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/strikethrough-y.vue"
+    },
+    "./subscript-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/subscript-ltr.vue"
+    },
+    "./subscript-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/subscript-rtl.vue"
+    },
+    "./subtitle": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/subtitle.vue"
+    },
+    "./subtract": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/subtract.vue"
+    },
+    "./success": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/success.vue"
+    },
+    "./suggested-investigations": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/suggested-investigations.vue"
+    },
+    "./superscript-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/superscript-ltr.vue"
+    },
+    "./superscript-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/superscript-rtl.vue"
+    },
+    "./table": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/table.vue"
+    },
+    "./table-add-column-after-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/table-add-column-after-ltr.vue"
+    },
+    "./table-add-column-after-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/table-add-column-after-rtl.vue"
+    },
+    "./table-add-column-before-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/table-add-column-before-ltr.vue"
+    },
+    "./table-add-column-before-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/table-add-column-before-rtl.vue"
+    },
+    "./table-add-row-after": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/table-add-row-after.vue"
+    },
+    "./table-add-row-before": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/table-add-row-before.vue"
+    },
+    "./table-caption": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/table-caption.vue"
+    },
+    "./table-merge-cells": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/table-merge-cells.vue"
+    },
+    "./table-move-column-after-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/table-move-column-after-ltr.vue"
+    },
+    "./table-move-column-after-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/table-move-column-after-rtl.vue"
+    },
+    "./table-move-column-before-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/table-move-column-before-ltr.vue"
+    },
+    "./table-move-column-before-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/table-move-column-before-rtl.vue"
+    },
+    "./table-move-row-after": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/table-move-row-after.vue"
+    },
+    "./table-move-row-before": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/table-move-row-before.vue"
+    },
+    "./tabs-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tabs-ltr.vue"
+    },
+    "./tabs-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tabs-rtl.vue"
+    },
+    "./tag-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tag-ltr.vue"
+    },
+    "./tag-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tag-rtl.vue"
+    },
+    "./template-add-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/template-add-ltr.vue"
+    },
+    "./template-add-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/template-add-rtl.vue"
+    },
+    "./text-dir-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/text-dir-ltr.vue"
+    },
+    "./text-dir-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/text-dir-rtl.vue"
+    },
+    "./text-flow-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/text-flow-ltr.vue"
+    },
+    "./text-flow-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/text-flow-rtl.vue"
+    },
+    "./text-style": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/text-style.vue"
+    },
+    "./text-summary-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/text-summary-ltr.vue"
+    },
+    "./text-summary-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/text-summary-rtl.vue"
+    },
+    "./three-dimensional": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/three-dimensional.vue"
+    },
+    "./trash": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/trash.vue"
+    },
+    "./tray": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tray.vue"
+    },
+    "./un-block": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/un-block.vue"
+    },
+    "./un-flag-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/un-flag-ltr.vue"
+    },
+    "./un-flag-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/un-flag-rtl.vue"
+    },
+    "./un-link": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/un-link.vue"
+    },
+    "./un-lock": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/un-lock.vue"
+    },
+    "./un-star": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/un-star.vue"
+    },
+    "./underline-a": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/underline-a.vue"
+    },
+    "./underline-u": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/underline-u.vue"
+    },
+    "./undo-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/undo-ltr.vue"
+    },
+    "./undo-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/undo-rtl.vue"
+    },
+    "./universal-design": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/universal-design.vue"
+    },
+    "./up-triangle": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/up-triangle.vue"
+    },
+    "./update-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/update-ltr.vue"
+    },
+    "./update-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/update-rtl.vue"
+    },
+    "./upload": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/upload.vue"
+    },
+    "./user-active": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/user-active.vue"
+    },
+    "./user-add-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/user-add-ltr.vue"
+    },
+    "./user-add-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/user-add-rtl.vue"
+    },
+    "./user-anonymous": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/user-anonymous.vue"
+    },
+    "./user-avatar": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/user-avatar.vue"
+    },
+    "./user-avatar-outline": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/user-avatar-outline.vue"
+    },
+    "./user-blocked": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/user-blocked.vue"
+    },
+    "./user-chat-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/user-chat-ltr.vue"
+    },
+    "./user-chat-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/user-chat-rtl.vue"
+    },
+    "./user-contributions-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/user-contributions-ltr.vue"
+    },
+    "./user-contributions-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/user-contributions-rtl.vue"
+    },
+    "./user-group-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/user-group-ltr.vue"
+    },
+    "./user-group-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/user-group-rtl.vue"
+    },
+    "./user-mentor-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/user-mentor-ltr.vue"
+    },
+    "./user-mentor-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/user-mentor-rtl.vue"
+    },
+    "./user-pages-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/user-pages-ltr.vue"
+    },
+    "./user-pages-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/user-pages-rtl.vue"
+    },
+    "./user-rights-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/user-rights-ltr.vue"
+    },
+    "./user-rights-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/user-rights-rtl.vue"
+    },
+    "./user-talk-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/user-talk-ltr.vue"
+    },
+    "./user-talk-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/user-talk-rtl.vue"
+    },
+    "./user-temporary-location-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/user-temporary-location-ltr.vue"
+    },
+    "./user-temporary-location-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/user-temporary-location-rtl.vue"
+    },
+    "./user-temporary-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/user-temporary-ltr.vue"
+    },
+    "./user-temporary-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/user-temporary-rtl.vue"
+    },
+    "./vertical-ellipsis": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vertical-ellipsis.vue"
+    },
+    "./view-compact": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/view-compact.vue"
+    },
+    "./view-details-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/view-details-ltr.vue"
+    },
+    "./view-details-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/view-details-rtl.vue"
+    },
+    "./vision-simulator": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vision-simulator.vue"
+    },
+    "./volume-down-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/volume-down-ltr.vue"
+    },
+    "./volume-down-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/volume-down-rtl.vue"
+    },
+    "./volume-off-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/volume-off-ltr.vue"
+    },
+    "./volume-off-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/volume-off-rtl.vue"
+    },
+    "./volume-up-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/volume-up-ltr.vue"
+    },
+    "./volume-up-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/volume-up-rtl.vue"
+    },
+    "./watchlist-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/watchlist-ltr.vue"
+    },
+    "./watchlist-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/watchlist-rtl.vue"
+    },
+    "./wiki-text": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wiki-text.vue"
+    },
+    "./window": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/window.vue"
+    },
+    "./window-ltr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/window-ltr.vue"
+    },
+    "./window-rtl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/window-rtl.vue"
+    },
+    "./zoom-in": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/z/zoom-in.vue"
+    },
+    "./zoom-out": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/z/zoom-out.vue"
+    },
+    "./draggable": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/draggable.vue"
+    },
+    "./*": "./*"
+  },
+  "dependencies": {
+    "@iconify/css-vue": "^1.0.0"
+  },
+  "repository": "github:iconify/icons-vue#ooui"
+}

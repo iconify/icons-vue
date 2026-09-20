@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/simple-icons",
   "type": "module",
-  "version": "1.0.46",
+  "version": "1.0.47",
   "homepage": "https://icon-sets.iconify.design/simple-icons/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "CC0-1.0",
@@ -5097,6 +5097,10 @@
     "./godotengine": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/godotengine.vue"
+    },
+    "./godox": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/godox.vue"
     },
     "./gofundme": {
       "types": "./types/dd0bq22g.d.ts",

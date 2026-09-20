@@ -1,0 +1,8 @@
+.jmi_rmt5q {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M20 4L9 15m12 4H3m6-4l-5-5");
+}

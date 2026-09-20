@@ -1,0 +1,8 @@
+.t8w8_ccbs {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M17 12H7m12 6H5M21 6H3");
+}

@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="yysqazbvq"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="token-branded:act" /></template>
+<style>
+.yysqazbvq {
+  fill: var(--svg-color--767dff, #767dff);
+  d: path("M14.007 3.563c.139 0 .276.037.395.11c.12.072.22.177.289.302l6.209 11.55a.84.84 0 0 1 0 .797l-1.98 3.703a.8.8 0 0 1-.288.302a.76.76 0 0 1-.396.11H5.764a.76.76 0 0 1-.396-.11a.8.8 0 0 1-.288-.302L3.1 16.322a.84.84 0 0 1 0-.797l6.2-11.55a.8.8 0 0 1 .289-.302a.76.76 0 0 1 .395-.11zM12 8.157l-4.185 7.78h8.37z");
+}
+
+</style>

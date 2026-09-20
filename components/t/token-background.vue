@@ -1,0 +1,37 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ft5dv1b6b"><g clip-path="url(#SVGHcSWxdhd)"><path class="l50trlb6b"/><path clip-rule="evenodd" class="endcocbdy"/><path clip-rule="evenodd" class="otjmuwbnf"/></g><defs><clipPath id="SVGHcSWxdhd"><path class="py7ktqbvf"/></clipPath></defs></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="token-branded:token-background" /></template>
+<style>
+.endcocbdy {
+  fill: var(--svg-color--fff, #fff);
+  fill-rule: evenodd;
+  d: path("M16.85 16.85a6.859 6.859 0 1 1-9.7-9.7a6.859 6.859 0 0 1 9.7 9.7m-2.926-3.169c.884-.19 1.748-.291 2.593-.32c.385-.009.766.068 1.118.223c.097.039.097.088.014.141a8.1 8.1 0 0 1-2.783 1.146c-.486.098-.515.263-.063.496c.442.228.84.5 1.185.82q.125.116-.049.137c-1.292.16-2.37-.248-3.468-.884c-.092-.049-.145-.03-.165.072c-.107.506-.388 1.662-.88 1.895a.06.06 0 0 1-.067-.01a.05.05 0 0 1 0-.063a3.9 3.9 0 0 0 .694-1.822a.11.11 0 0 0-.048-.106a.12.12 0 0 0-.117-.01c-1.19.602-2.283 1.098-3.672.937a.1.1 0 0 1-.082-.068a.1.1 0 0 1 .024-.097c.327-.302.7-.553 1.103-.743q.803-.38-.068-.549a7.5 7.5 0 0 1-2.866-1.185a.082.082 0 0 1 .024-.15c1.185-.355 2.555-.098 3.764.15c.166.034.185 0 .054-.112a9.8 9.8 0 0 1-2.686-3.672q-.33-.803.413-.36a11.4 11.4 0 0 1 3.172 2.77q.168.219.097-.05a3.8 3.8 0 0 1-.136-1.52q.06-.382.115-.755c.162-1.078.316-2.11.71-3.198a.35.35 0 0 1 .166-.195a.116.116 0 0 1 .16.059c.325.777.573 1.573.743 2.409c.142.686.133 1.405.125 2.12c-.004.312-.008.623.001.93q.008.196.131.049a11.6 11.6 0 0 1 3.44-2.817q.365-.192.213.194a11.5 11.5 0 0 1-1.991 3.26a3.3 3.3 0 0 1-.909.762a.1.1 0 0 0-.048.073v.024q.016.028.039.02");
+}
+
+.ft5dv1b6b {
+  fill: none;
+}
+
+.l50trlb6b {
+  fill: var(--svg-color--62850b, #62850b);
+  d: path("M24 0H0v24h24z");
+}
+
+.otjmuwbnf {
+  fill: var(--svg-color--fff, #fff);
+  fill-rule: evenodd;
+  d: path("M17.657 17.657A8 8 0 1 1 6.343 6.342a8 8 0 0 1 11.314 11.315m-.44-.44A7.378 7.378 0 1 1 6.783 6.783a7.378 7.378 0 0 1 10.434 10.434");
+}
+
+.py7ktqbvf {
+  fill: var(--svg-color--fff, #fff);
+  d: path("M0 0h24v24H0z");
+}
+
+</style>

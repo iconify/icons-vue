@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="s520ubb4g"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="token-branded:gamefi" /></template>
+<style>
+.s520ubb4g {
+  fill: var(--svg-color--b9fb01, #b9fb01);
+  d: path("M3 5.01L4.992 3L8.4 6.444l.012-.006l1.986 2.01v.012l-1.986 2.01l-.012-.006l-3.408 3.444L3 11.898l3.414-3.444zm18 7.092l-1.992-2.01l-3.408 3.444l-.012-.006l-1.986 2.01v.012l1.986 2.01l.012-.006L19.008 21L21 18.99l-3.414-3.444zm-7.2 6.888L11.82 21L8.4 17.556L4.992 21L3 18.99l3.414-3.444l-.012-.006L8.4 13.53l.006.006l.012-.006l1.986 2.01v.006zM18.798 3l1.992 2.01l-3.408 3.444l.006.006l-1.992 2.01l-.006-.006l-.012.006l-1.986-2.01l.006-.006L9.984 5.01L11.97 3l3.414 3.444L18.792 3z");
+}
+
+</style>

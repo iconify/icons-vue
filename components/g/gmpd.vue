@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="r8s5js61e"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="token-branded:gmpd" /></template>
+<style>
+.r8s5js61e {
+  fill: var(--svg-color--ffb800, #ffb800);
+  d: path("M21 7.615H7.343L3 9h6.655l-3.092 7.384H17.64l2.123-5.077h-6.406l-.582 1.385h4.833L16.638 15H8.724l2.51-6h9.185z");
+}
+
+</style>

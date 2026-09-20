@@ -1,0 +1,35 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ft5dv1b6b"><g clip-path="url(#SVGHcSWxdhd)"><path class="yw4a99blc"/><path class="k1wi2tbnv"/><path class="zzk_qac1q"/></g><defs><clipPath id="SVGHcSWxdhd"><path class="py7ktqbvf"/></clipPath></defs></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="token-branded:kex-background" /></template>
+<style>
+.ft5dv1b6b {
+  fill: none;
+}
+
+.k1wi2tbnv {
+  fill: var(--svg-color--fff, #fff);
+  d: path("M5.2 8.9c-.31.17-.7.14-.7-.22V7.195L10.12 4v1.485c0 .36-.25.8-.58.97L5.2 8.905zm8.1 10.36c.31-.176.31-.48 0-.65l-4.474-2.55a1.33 1.33 0 0 0-1.14 0l-1.295.745L12.01 20l1.295-.74zm4.8-12.81c-.32-.165-.6-.035-.6.33v5.1c0 .36.26.8.6.965l1.35.745V7.195l-1.35-.74z");
+}
+
+.py7ktqbvf {
+  fill: var(--svg-color--fff, #fff);
+  d: path("M0 0h24v24H0z");
+}
+
+.yw4a99blc {
+  fill: var(--svg-color--344ae6, #344ae6);
+  d: path("M24 0H0v24h24z");
+}
+
+.zzk_qac1q {
+  fill: var(--svg-color--fff, #fff);
+  d: path("M4.5 7.2L10.12 4l5.055 2.875c.31.17.31.475 0 .645l-4.48 2.55c-.305.17-.83.17-1.135 0L4.5 7.195zM6 10.9c0-.365.265-.5.615-.325l4.77 2.595a1.25 1.25 0 0 1 .615.98V20l-6-3.25zm8.565 5.56c-.3.175-.565.04-.565-.32v-5.1c0-.36.245-.8.565-.97L19.5 7.195v6.395z");
+}
+
+</style>

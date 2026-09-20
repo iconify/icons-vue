@@ -1,0 +1,37 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ft5dv1b6b"><path class="rf5jb6wsb"/><path class="h0jwlej6y"/><path fill="url(#SVGfWL5Tcwj)" class="u2h-xobrj"/><defs><linearGradient id="SVGfWL5Tcwj" x1="12" x2="12" y1="3" y2="21" gradientUnits="userSpaceOnUse"><stop class="f9j1pub1a"/><stop offset="1" class="aeh1xlsmk"/></linearGradient></defs></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="token-branded:cusdc" /></template>
+<style>
+.aeh1xlsmk {
+  stop-color: var(--svg-color--9388fd, #9388fd);
+}
+
+.f9j1pub1a {
+  stop-color: var(--svg-color--27d3a2, #27d3a2);
+}
+
+.ft5dv1b6b {
+  fill: none;
+}
+
+.h0jwlej6y {
+  fill: var(--svg-color--283947, #283947);
+  d: path("M12.794 8.824h1.06v.582a1.89 1.89 0 0 1 1.445 1.44h-.916c0-.476-.567-.815-1.06-.815c-.492 0-1.058.339-1.058.746c0 .408.678.593 1.482.747c1.705.328 1.694 1.165 1.694 1.525v.037c0 .301-.28 1.307-1.588 1.519v.572h-1.059v-.583a2.11 2.11 0 0 1-1.588-1.535h.916c0 .339.355.91 1.202.91s1.059-.476 1.059-.815s0-.677-1.34-.884c-1.344-.201-1.694-1.016-1.694-1.424c0-.36.217-1.255 1.445-1.45z");
+}
+
+.rf5jb6wsb {
+  fill: var(--svg-color--657786, #657786);
+  d: path("M12.054 7.235a4.92 4.92 0 0 0-3.495 4.764c0 2.277 1.483 4.188 3.495 4.765v-.916A4.06 4.06 0 0 1 9.406 12c0-1.784 1.112-3.303 2.647-3.849zm2.54 8.613A4.06 4.06 0 0 0 17.243 12c0-1.784-1.112-3.303-2.647-3.849v-.915A4.92 4.92 0 0 1 18.09 12c0 2.277-1.482 4.188-3.494 4.765z");
+}
+
+.u2h-xobrj {
+  d: path("M19.676 5.065A9.9 9.9 0 0 0 13.588 3c-5.114 0-9.265 4.03-9.265 9s4.151 9 9.265 9a9.43 9.43 0 0 0 6.088-2.202l-1.005-1.218a7.86 7.86 0 0 1-5.083 1.832c-4.235 0-7.676-3.32-7.676-7.412s3.44-7.412 7.676-7.412c1.864 0 3.749.636 5.083 1.705z");
+}
+
+</style>

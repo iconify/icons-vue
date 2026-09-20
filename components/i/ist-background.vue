@@ -1,0 +1,47 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ft5dv1b6b"><g clip-path="url(#SVGHcSWxdhd)"><path fill="url(#SVGtRG3fefk)" class="r4i437pya"/><path class="crzqfmb2f"/><path class="rk0l8z9oc"/><path class="lyutunbyy"/></g><defs><linearGradient id="SVGtRG3fefk" x1="14.84" x2="5.285" y1="5.953" y2="11.247" gradientUnits="userSpaceOnUse"><stop class="caubetbuc"/><stop offset="1" class="pthg5sbxi"/></linearGradient><clipPath id="SVGHcSWxdhd"><path class="py7ktqbvf"/></clipPath></defs></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="token-branded:ist-background" /></template>
+<style>
+.caubetbuc {
+  stop-color: var(--svg-color--6b54fe, #6b54fe);
+}
+
+.crzqfmb2f {
+  fill: var(--svg-color--fff, #fff);
+  d: path("M16.4 8.276c0 2.36-1.968 4.276-4.4 4.276a4.4 4.4 0 0 1-2.172-.56l.732-.972c.432.208.92.328 1.44.328c1.768 0 3.2-1.376 3.2-3.076C15.2 6.576 13.768 5.2 12 5.2S8.8 6.576 8.8 8.272c0 .404.08.792.228 1.144l-.988.724a4.2 4.2 0 0 1-.44-1.864C7.6 5.916 9.568 4 12 4s4.4 1.916 4.4 4.276");
+}
+
+.ft5dv1b6b {
+  fill: none;
+}
+
+.lyutunbyy {
+  fill: var(--svg-color--fff, #fff);
+  d: path("M8.12 11.096a4.3 4.3 0 0 0-.52 2.056v2.496a4.3 4.3 0 0 0 .924 2.668l.896-.72a3.32 3.32 0 0 1-.62-1.948v-2.496c0-.496.104-.964.296-1.384z");
+}
+
+.pthg5sbxi {
+  stop-color: var(--svg-color--fa81cf, #fa81cf);
+}
+
+.py7ktqbvf {
+  fill: var(--svg-color--fff, #fff);
+  d: path("M0 0h24v24H0z");
+}
+
+.r4i437pya {
+  d: path("M24 0H0v24h24z");
+}
+
+.rk0l8z9oc {
+  fill: var(--svg-color--fff, #fff);
+  d: path("M7.6 13.152c0-2.4 1.968-4.352 4.4-4.352c.82 0 1.592.224 2.248.612l-.752.948A3.1 3.1 0 0 0 12 10c-1.82 0-3.2 1.352-3.2 3.152v2.496c0 1.8 1.38 3.152 3.2 3.152s3.2-1.352 3.2-3.152v-2.496c0-.464-.04-.732-.216-1.132l.992-.736c.272.568.424 1.2.424 1.868v2.496C16.4 18.052 14.432 20 12 20s-4.4-1.948-4.4-4.352z");
+}
+
+</style>

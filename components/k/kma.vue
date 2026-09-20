@@ -1,0 +1,32 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ft5dv1b6b"><path fill="url(#SVG890GOdpu)" clip-rule="evenodd" class="s750lcc9o"/><defs><linearGradient id="SVG890GOdpu" x1="12.843" x2="12.28" y1="2.154" y2="21.009" gradientUnits="userSpaceOnUse"><stop class="aw298xfqg"/><stop offset=".44" class="bc_mz_03x"/><stop offset=".91" class="spdzuzbte"/></linearGradient></defs></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="token-branded:kma" /></template>
+<style>
+.aw298xfqg {
+  stop-color: var(--svg-color--f8a322, #f8a322);
+}
+
+.bc_mz_03x {
+  stop-color: var(--svg-color--ae5172, #ae5172);
+}
+
+.ft5dv1b6b {
+  fill: none;
+}
+
+.s750lcc9o {
+  fill-rule: evenodd;
+  d: path("M5.526 4.687c-.079 2.11-.185 2.786-.337 3.754c-.068.416-.141.89-.226 1.554c0 3.703 3.693 3.697 4.75 3.697h.057c.557 0 .822.417.822.845c0 .36-.225.844-.647.844c-6.147 0-6.67-4.317-6.67-5.73c0-.473.112-1.193.225-1.97c.09-.54.175-1.114.236-1.655c.124-.889.113-1.682.113-2.099v-.146c0-.636.259-.81.687-.777c.534.011.675.011.973.006l1.098-.006h3.732c5.245 0 5.307 4.497 5.307 7.03c0 .518-.315.827-.833.827c-.833 0-.844-.98-.844-1.812c0-3.861-1.88-4.278-4.092-4.362zm7.317 4.784A.85.85 0 0 0 12 8.627a.85.85 0 0 0-.844.844a.85.85 0 0 0 .844.844a.85.85 0 0 0 .844-.844m-3.658 1.407a.85.85 0 0 1 .844.844a.844.844 0 0 1-1.689 0a.85.85 0 0 1 .845-.844m9.85-3.377a1.688 1.688 0 0 1 .512 3.298c-.186 1.047-1.019 4.002-4.458 4.019h-.839s.085 4.475-4.305 5.02a1.69 1.69 0 0 1-3.293-.517c.028-.946.771-1.689 1.688-1.689c.597 0 1.126.316 1.43.788c.53-.079 3.073-.658 3.073-4.53v-.265c.017-.394.27-.495.507-.495c.18 0 .354.056.4.078c0 0 3.354 1.351 4.406-2.578a1.69 1.69 0 0 1 .879-3.129m0 1.126a.563.563 0 1 1 0 1.125a.563.563 0 0 1 0-1.125M8.903 19.32a.563.563 0 0 0-.563-.563c-.31 0-.534.225-.562.563a.563.563 0 1 0 1.125 0");
+}
+
+.spdzuzbte {
+  stop-color: var(--svg-color--6804be, #6804be);
+}
+
+</style>

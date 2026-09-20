@@ -1,0 +1,30 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ft5dv1b6b"><g clip-path="url(#SVGHcSWxdhd)"><path class="g-jmpp1db"/><path class="nyge4zbct"/></g><defs><clipPath id="SVGHcSWxdhd"><path class="py7ktqbvf"/></clipPath></defs></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="token-branded:nkn-background" /></template>
+<style>
+.ft5dv1b6b {
+  fill: none;
+}
+
+.g-jmpp1db {
+  fill: var(--svg-color--24397d, #24397d);
+  d: path("M24 0H0v24h24z");
+}
+
+.nyge4zbct {
+  fill: var(--svg-color--fff, #fff);
+  d: path("M7.182 8.686c1.356-1.172 4.725-2.603 7.339 1.066c-1.402 1.187-4.846 2.638-7.34-1.066M9.249 20c-1.181-1.352-2.653-4.726.936-7.43c1.202 1.402 2.694 4.857-.936 7.43m3.024-5.016c.135-1.803 1.502-5.217 5.922-4.506c-.155 1.842-1.562 5.327-5.922 4.506M13.64 4c-.631 1.111-1.172 3.665 1.697 4.981c.595-1.166 1.086-3.795-1.697-4.981m-1.337 12.12c.325 1.237 1.717 3.44 4.67 2.343c-.385-1.251-1.862-3.47-4.67-2.343m-7.81-2.558c1.102.64 3.635 1.197 4.946-1.692c-1.151-.601-3.754-1.111-4.94 1.692zM9.57 4.451c-.07.89.38 2.633 2.738 2.518c0-.896-.536-2.654-2.738-2.513zm6.237 10.948c.571.681 2.103 1.597 3.7-.155c-.62-.64-2.233-1.507-3.7.155M4.974 17.537c.876.085 2.608-.346 2.533-2.723c-.891-.02-2.638.5-2.533 2.723");
+}
+
+.py7ktqbvf {
+  fill: var(--svg-color--fff, #fff);
+  d: path("M0 0h24v24H0z");
+}
+
+</style>

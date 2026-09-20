@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="zayr-ob-g"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="token-branded:dexe" /></template>
+<style>
+.zayr-ob-g {
+  fill: var(--svg-color--fff, #fff);
+  d: path("m14.736 5.934l-2.394 2.385a.48.48 0 0 1-.684 0l-2.39-2.385l-3.424-.684l5.004 4.99c.63.64 1.76.545 2.398-.09l4.91-4.9zm-.486 10.521v-3.384c0-.256.329-.617.594-.617h3.312L21 10.65h-6.948c-.882 0-1.602.86-1.602 1.755v6.345l1.8-2.3zM9.174 12.45H5.849L3 10.65h6.822c.882 0 1.728.733 1.728 1.633v6.467l-1.8-2.304V13.07c0-.261-.315-.621-.576-.621");
+}
+
+</style>

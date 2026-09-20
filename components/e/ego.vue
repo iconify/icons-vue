@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="l3ucj7b9d"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="token-branded:ego" /></template>
+<style>
+.l3ucj7b9d {
+  fill: var(--svg-color--ff5d01, #ff5d01);
+  d: path("M12 21A9 9 0 1 0 3.283 9.75h1.76a7.312 7.312 0 0 1 13.709-.562h-1.879a5.626 5.626 0 0 0-10.03.562h5.721v1.688h-6.16a5.7 5.7 0 0 0 .084 1.687H19.23A7.314 7.314 0 0 1 8.317 18.32a7.3 7.3 0 0 1-3.066-3.508h-1.8A9 9 0 0 0 12 21m-8.932-7.875h1.705a7.4 7.4 0 0 1-.062-1.687H3.023a9 9 0 0 0 .045 1.687m8.933 4.5a5.63 5.63 0 0 0 4.871-2.812H7.13A5.63 5.63 0 0 0 12 17.625");
+}
+
+</style>

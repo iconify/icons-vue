@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="puq3-dbsk"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="token-branded:nvir" /></template>
+<style>
+.puq3-dbsk {
+  fill: var(--svg-color--044aef, #044aef);
+  d: path("M3 16.5h1.35v-4.131c0-1.584 1.35-3.07 2.925-3.07s2.925 1.49 2.925 3.07v1.88h1.35v-1.966c0-2.385-1.845-4.333-4.109-4.333h-.333C4.845 7.95 3 9.894 3 12.283zm7.2 0v-1.35h1.35v1.35zm.9-8.55h1.835l2.862 6.178a.22.22 0 0 0 .184.122q.133.001.185-.113l2.133-4.387l1.575.675l-2.497 5.224a1.49 1.49 0 0 1-1.36.85a1.48 1.48 0 0 1-1.354-.85zm8.325-.45l-.675 1.35l1.575.675l.675-1.35z");
+}
+
+</style>

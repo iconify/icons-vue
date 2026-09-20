@@ -1,0 +1,31 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="kods6rrxo"><path class="calzh5pfd"/><path class="uwdeifbrq"/><path class="rbzs7qg1d"/><path class="lz148d02l"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="token-branded:drep" /></template>
+<style>
+.calzh5pfd {
+  d: path("M3 19.873L5.48 9.186h2.723l.63-2.813h2.723l.512-2.2c7.987-.584 9.242 4.388 8.876 6.948c-1.176 6.829-7.105 8.752-10.519 8.752z");
+}
+
+.kods6rrxo {
+  fill: var(--svg-color--014a7f, #014a7f);
+}
+
+.lz148d02l {
+  d: path("M7.636 16.499L9.11 10.31h2.604c.72 0 1.958-.073 1.88.844c-.085.995-1.289 1.187-1.88 1.158h-2.08l-.254 1.08h1.856l.827 2.937c-.264.084-.664.169-.827.169z");
+}
+
+.rbzs7qg1d {
+  d: path("M13.423 7.5h-3.73l-.365 1.688h3.82c.765 0 1.9.4 1.8 1.783c-.113 1.48-1.598 2.245-2.33 2.441l.8 2.453c1.198-.461 3.538-2.194 3.639-4.753S14.548 7.5 13.417 7.5z");
+}
+
+.uwdeifbrq {
+  d: path("M19.623 9.402c-.9-3.882-4.788-4.371-6.621-4.152l-.287 1.125c5.54.118 5.833 4.135 5.248 6.059c-1.316 3.841-5.546 5.192-7.234 5.192h-4.5l1.705-7.313H6.359L4.457 18.75H9.75c3.038 0 4.714-.788 5.57-1.272c1.861-1.057 5.208-4.19 4.308-8.077z");
+}
+
+</style>

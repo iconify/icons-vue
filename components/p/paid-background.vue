@@ -1,0 +1,52 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ft5dv1b6b"><g clip-path="url(#SVGHcSWxdhd)"><path fill="url(#SVGuLNvoeKh)" class="r4i437pya"/><path class="wi2lzacoz"/><path class="v3udr0poe"/><path class="m_4ad6bqg"/><path class="mqtilqtzr"/></g><defs><linearGradient id="SVGuLNvoeKh" x1="11.524" x2="15.579" y1="11.489" y2="18.059" gradientUnits="userSpaceOnUse"><stop class="ih1wjzr2h"/><stop offset="1" class="lq9lvnbri"/></linearGradient><clipPath id="SVGHcSWxdhd"><path class="py7ktqbvf"/></clipPath></defs></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="token-branded:paid-background" /></template>
+<style>
+.ft5dv1b6b {
+  fill: none;
+}
+
+.ih1wjzr2h {
+  stop-color: var(--svg-color--074c7d, #074c7d);
+}
+
+.lq9lvnbri {
+  stop-color: var(--svg-color--5d0b5d, #5d0b5d);
+}
+
+.m_4ad6bqg {
+  fill: var(--svg-color--fff, #fff);
+  d: path("M9.333 10.4h1.066a2.134 2.134 0 0 1 2.134 2.133v.533H13.6v-.533a3.2 3.2 0 0 0-3.2-3.2H9.333a3.2 3.2 0 0 0-3.2 3.2V16.8a3.2 3.2 0 0 0 3.2 3.2h1.066a3.2 3.2 0 0 0 3.02-2.134h-1.174a2.13 2.13 0 0 1-1.845 1.067H9.333A2.133 2.133 0 0 1 7.199 16.8v-4.267A2.134 2.134 0 0 1 9.333 10.4");
+}
+
+.mqtilqtzr {
+  fill: var(--svg-color--fff, #fff);
+  d: path("M18.4 11.654c.33.373.533.875.533 1.413v1.067a2.133 2.133 0 0 1-2.133 2.133h-4.267a2.133 2.133 0 0 1-2.133-2.133v-.213l-1.067-.854v1.067a3.2 3.2 0 0 0 3.2 3.2H16.8a3.2 3.2 0 0 0 3.2-3.2v-1.067a3.2 3.2 0 0 0-1.6-2.773z");
+}
+
+.py7ktqbvf {
+  fill: var(--svg-color--fff, #fff);
+  d: path("M0 0h24v24H0z");
+}
+
+.r4i437pya {
+  d: path("M24 0H0v24h24z");
+}
+
+.v3udr0poe {
+  fill: var(--svg-color--fff, #fff);
+  d: path("M13.066 5.067h1.067A2.133 2.133 0 0 1 16.266 7.2v4.267a2.133 2.133 0 0 1-2.133 2.133h-1.067a2.133 2.133 0 0 1-2.133-2.133H9.866a3.2 3.2 0 0 0 3.2 3.2h1.067a3.2 3.2 0 0 0 3.2-3.2V7.2a3.2 3.2 0 0 0-3.2-3.2h-1.067a3.2 3.2 0 0 0-2.773 1.6h1.36c.373-.33.874-.533 1.413-.533");
+}
+
+.wi2lzacoz {
+  fill: var(--svg-color--fff, #fff);
+  d: path("M13.6 9.335V10.4l-.005.171l.378 1.814c.45-.564.694-1.264.694-1.985V9.335a3.2 3.2 0 0 0-3.2-3.2H7.2a3.2 3.2 0 0 0-3.2 3.2V10.4a3.2 3.2 0 0 0 1.6 2.774v-1.36a2.14 2.14 0 0 1-.533-1.414V9.335A2.133 2.133 0 0 1 7.2 7.2h4.267A2.134 2.134 0 0 1 13.6 9.335");
+}
+
+</style>

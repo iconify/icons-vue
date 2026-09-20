@@ -1,0 +1,42 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ft5dv1b6b"><g clip-path="url(#SVGHcSWxdhd)"><path fill="url(#SVGKDPn7dSy)" class="r4i437pya"/><path clip-rule="evenodd" class="buq1z-w9h"/></g><defs><linearGradient id="SVGKDPn7dSy" x1="4.889" x2="19.778" y1="11.396" y2="11.52" gradientUnits="userSpaceOnUse"><stop class="wkog1vb0f"/><stop offset=".81" class="g8k3ldr6g"/><stop offset="1" class="m3hkpd8jr"/></linearGradient><clipPath id="SVGHcSWxdhd"><path class="py7ktqbvf"/></clipPath></defs></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="token-branded:neuroni-background" /></template>
+<style>
+.buq1z-w9h {
+  fill: var(--svg-color--fff, #fff);
+  fill-rule: evenodd;
+  d: path("M13.72 4L12 4.978L10.28 4L8.373 5.058v.915l-1.72.934v2.022L4.89 9.91v4.165l1.764.977v2l1.72.96v.956L10.28 20l1.72-.969l1.72.969l1.906-1.036v-.955l1.72-.96v-2l1.765-.978v-4.16l-1.765-.978V6.911l-1.72-.938v-.915zm-1.867 1.209l-1.578-.893l-1.622.902v.755l1.765.934v2a.57.57 0 0 1-.178 1.11a.57.57 0 0 1-.57-.564c0-.28.2-.51.468-.56V7.071l-1.485-.787V7.44a.573.573 0 0 1-.138 1.12a.57.57 0 0 1-.577-.564a.58.58 0 0 1 .435-.556V6.284l-1.444.787v1.862l1.724.978v4.16l-1.724.978v1.84l1.444.8v-1.12a.57.57 0 0 1-.435-.556a.575.575 0 0 1 1.15 0a.58.58 0 0 1-.435.556v1.124l1.48-.804v-1.8a.568.568 0 0 1 .116-1.125c.315 0 .573.254.573.57a.564.564 0 0 1-.409.541v1.974l-1.764.96v.796l1.622.88l1.578-.89V14.01h.275v4.782l1.596.898l1.622-.88v-.8l-1.764-.956V15.08a.57.57 0 0 1-.41-.542c0-.316.258-.57.579-.57a.567.567 0 0 1 .111 1.125v1.796l1.484.804V16.57a.57.57 0 0 1-.436-.556a.575.575 0 0 1 1.152 0a.58.58 0 0 1-.436.556v1.124l1.444-.804v-1.84l-1.724-.978v-4.16l1.724-.978V7.067l-1.444-.787v1.156a.574.574 0 0 1-.138 1.12a.57.57 0 0 1-.578-.565a.58.58 0 0 1 .436-.555V6.28l-1.476.787v1.822c.267.044.467.28.467.56a.574.574 0 0 1-1.146 0c0-.258.168-.471.4-.547v-2l1.764-.933v-.756l-1.622-.902l-1.6.907V10h-.271V5.21zm5.356 3.96l1.626.902v1.84l-1.169.667a.577.577 0 0 0-1.004.373a.572.572 0 0 0 1.02.359a.58.58 0 0 0 .113-.483l1.04-.6v1.684l-1.626.898l-1.582-.898v-1.844l1.19-.711a.577.577 0 0 0 .992-.396a.575.575 0 1 0-1.13.156l-1.052.63v-1.675zm-12.045.902l1.627-.902l1.582.902v1.676l-1.053-.631a.6.6 0 0 0 .018-.156a.574.574 0 0 0-1.147 0c0 .316.258.569.578.569c.16 0 .31-.067.413-.178l1.191.716v1.844l-1.582.898l-1.627-.898v-1.689l1.04.6a.57.57 0 0 0 .56.698a.57.57 0 0 0 .645-.569a.573.573 0 0 0-.645-.569a.56.56 0 0 0-.43.196l-1.17-.671v-1.84zm5.058 3.262v-2.666l3.111 1.809v-1.81h.445v2.667l-3.112-1.79v1.79z");
+}
+
+.ft5dv1b6b {
+  fill: none;
+}
+
+.g8k3ldr6g {
+  stop-color: var(--svg-color--329fb3, #329fb3);
+}
+
+.m3hkpd8jr {
+  stop-color: var(--svg-color--83d3d7, #83d3d7);
+}
+
+.py7ktqbvf {
+  fill: var(--svg-color--fff, #fff);
+  d: path("M0 0h24v24H0z");
+}
+
+.r4i437pya {
+  d: path("M24 0H0v24h24z");
+}
+
+.wkog1vb0f {
+  stop-color: var(--svg-color--350b69, #350b69);
+}
+
+</style>

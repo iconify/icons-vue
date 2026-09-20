@@ -1,0 +1,52 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ft5dv1b6b"><g clip-path="url(#SVGHcSWxdhd)"><path class="mumfproca"/><path fill="url(#SVGBhIhQcSs)" class="ku35pia5h"/><path class="sz2hw0b7h"/><path class="jrrin2a8p"/><path class="egrcohdua"/></g><defs><linearGradient id="SVGBhIhQcSs" x1="18.464" x2="6.992" y1="5.717" y2="16.88" gradientUnits="userSpaceOnUse"><stop class="szpiwfbgw"/><stop offset="1" class="a81a8_bvt"/></linearGradient><clipPath id="SVGHcSWxdhd"><path class="py7ktqbvf"/></clipPath></defs></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="token-branded:csix-background" /></template>
+<style>
+.a81a8_bvt {
+  stop-color: var(--svg-color--ff2905, #ff2905);
+}
+
+.egrcohdua {
+  fill: var(--svg-color--f9a14c, #f9a14c);
+  d: path("m12.464 10.602l-.363.459s-.373-.79-1.082-1.483z");
+}
+
+.ft5dv1b6b {
+  fill: none;
+}
+
+.jrrin2a8p {
+  fill: var(--svg-color--ffeddc, #ffeddc);
+  d: path("M19.237 18.346a17.9 17.9 0 0 1-5.69.246c-.875-.107-4.054-.72-4.054-3.168c0-2.064 1.963-2.544 3.712-.982c0 0 0-.816-.469-1.562a2.65 2.65 0 0 0-2.325-1.227a2.85 2.85 0 0 0-2.454 1.696s-.32-1.339.518-2.224c0 0-2.934.73-2.416 3.99c.037.245.266 1.295.954 2.186c.96 1.248 2.134 2.08 4.123 2.496q.56.122 1.232.203H16a4 4 0 0 0 3.237-1.654");
+}
+
+.ku35pia5h {
+  d: path("M20 8a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h8a4 4 0 0 0 4-4z");
+}
+
+.mumfproca {
+  fill: var(--svg-color--000, #000);
+  d: path("M24 0H0v24h24z");
+}
+
+.py7ktqbvf {
+  fill: var(--svg-color--fff, #fff);
+  d: path("M0 0h24v24H0z");
+}
+
+.sz2hw0b7h {
+  fill: var(--svg-color--fff, #fff);
+  d: path("M18.88 18.773c-1.296.426-2.853.352-3.675.288c-3.733-.283-5.109-1.52-5.6-2.592c-.501-1.11-.245-2.294.534-2.87c1.76-1.296 3.066.843 3.066.843a1.95 1.95 0 0 0 1.355-1.557a1.9 1.9 0 0 0-.224-1.302c-.33-.544-.853-.826-.853-.826c.426-1.824-2.208-2.768-3.648-3.286a10 10 0 0 1-.576-.213a4.95 4.95 0 0 1-1.936-1.653c-.342 1.226.773 2.533.773 2.533c-.939-.816-3.456-1.141-3.952-1.2A4 4 0 0 0 4 8v8a4 4 0 0 0 4 4h8c1.13 0 2.155-.469 2.88-1.226");
+}
+
+.szpiwfbgw {
+  stop-color: var(--svg-color--ff9133, #ff9133);
+}
+
+</style>

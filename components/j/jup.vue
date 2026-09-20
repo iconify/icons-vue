@@ -1,0 +1,47 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ft5dv1b6b"><path fill="url(#SVGnjcQcY7x)" class="k55q91bca"/><path fill="url(#SVG42cbMdsZ)" class="rf55t0bgg"/><path fill="url(#SVGc063ZcIW)" class="s98tww1uc"/><path fill="url(#SVGprenhc8K)" class="awgpf7dwe"/><path fill="url(#SVGYpQ0me3Y)" class="rqixo7b0u"/><path fill="url(#SVGrZORcQ0g)" class="qlssc_srv"/><defs><linearGradient id="SVGnjcQcY7x" x1="31.514" x2="-11.852" y1="-44.073" y2="1.318" gradientUnits="userSpaceOnUse"><stop offset="0" class="gdisd3b2w"/><stop offset="1" class="yk0jt_bsy"/></linearGradient><linearGradient id="SVG42cbMdsZ" x1="22.308" x2="-1.561" y1="-15.359" y2="11.673" gradientUnits="userSpaceOnUse"><stop offset="0" class="gdisd3b2w"/><stop offset="1" class="yk0jt_bsy"/></linearGradient><linearGradient id="SVGc063ZcIW" x1="11.502" x2="-11.828" y1="12.343" y2="38.055" gradientUnits="userSpaceOnUse"><stop offset="0" class="gdisd3b2w"/><stop offset="1" class="yk0jt_bsy"/></linearGradient><linearGradient id="SVGprenhc8K" x1="16.445" x2="1.436" y1="1.484" y2="19.792" gradientUnits="userSpaceOnUse"><stop offset="0" class="gdisd3b2w"/><stop offset="1" class="yk0jt_bsy"/></linearGradient><linearGradient id="SVGYpQ0me3Y" x1="18.777" x2="1.508" y1="-4.563" y2="16.538" gradientUnits="userSpaceOnUse"><stop offset="0" class="gdisd3b2w"/><stop offset="1" class="yk0jt_bsy"/></linearGradient><linearGradient id="SVGrZORcQ0g" x1="14.986" x2="7.18" y1="6.9" y2="20.843" gradientUnits="userSpaceOnUse"><stop offset="0" class="gdisd3b2w"/><stop offset="1" class="yk0jt_bsy"/></linearGradient></defs></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="token-branded:jup" /></template>
+<style>
+.awgpf7dwe {
+  d: path("M18.124 14.337c-1.011-1.617-2.744-3.166-4.88-4.36c-2.134-1.193-4.39-1.875-6.35-1.92c-1.723-.04-3.016.443-3.547 1.323l-.01.015q-.072.247-.127.496c.741-.281 1.6-.438 2.556-.456c2.124-.038 4.5.616 6.695 1.842c2.193 1.227 3.962 2.892 4.98 4.686c.455.808.74 1.604.853 2.365q.196-.17.385-.351l.008-.017c.531-.881.326-2.201-.563-3.623");
+}
+
+.ft5dv1b6b {
+  fill: none;
+}
+
+.gdisd3b2w {
+  stop-color: var(--svg-color--c7f284, #c7f284);
+}
+
+.k55q91bca {
+  d: path("M4.723 16.919a9.05 9.05 0 0 0 2.837 2.478a9.4 9.4 0 0 0 3.64 1.143c-.66-.957-1.62-1.837-2.82-2.507c-1.198-.67-2.468-1.037-3.658-1.115");
+}
+
+.qlssc_srv {
+  d: path("M19.805 11.63c-1.023-1.615-2.771-3.168-4.922-4.37s-4.414-1.894-6.38-1.95c-1.498-.041-2.658.308-3.26.969c2.499-.408 5.794.277 8.988 2.063s5.446 4.203 6.315 6.493c.298-.83.038-1.973-.741-3.205");
+}
+
+.rf55t0bgg {
+  d: path("M9.993 15.365c-2.31-1.292-4.81-1.62-6.598-1.04q.259.827.68 1.589c1.554-.035 3.25.371 4.83 1.254c1.578.883 2.786 2.1 3.525 3.418a9.6 9.6 0 0 0 1.771-.218c-.361-1.784-1.899-3.711-4.208-5.003");
+}
+
+.rqixo7b0u {
+  d: path("M11.62 12.67c-3.27-1.83-6.883-2.116-8.62-.84q.005.6.095 1.194a7.5 7.5 0 0 1 1.57-.28c1.942-.14 4.082.38 6.025 1.467c1.942 1.086 3.473 2.619 4.308 4.31c.231.464.407.951.525 1.452a9 9 0 0 0 1.125-.511c.29-2.085-1.758-4.964-5.028-6.793");
+}
+
+.s98tww1uc {
+  d: path("M21 10.122a8.7 8.7 0 0 0-1.562-3.178a9.05 9.05 0 0 0-2.73-2.337a9.4 9.4 0 0 0-3.46-1.125a9.5 9.5 0 0 0-3.643.268c1.976.233 4.17.947 6.322 2.15S19.811 8.584 21 10.122");
+}
+
+.yk0jt_bsy {
+  stop-color: var(--svg-color--00bef0, #00bef0);
+}
+
+</style>

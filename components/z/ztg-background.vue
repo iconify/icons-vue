@@ -1,0 +1,25 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ft5dv1b6b"><path class="mumfproca"/><path class="uqzwtnb-f"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="token-branded:ztg-background" /></template>
+<style>
+.ft5dv1b6b {
+  fill: none;
+}
+
+.mumfproca {
+  fill: var(--svg-color--000, #000);
+  d: path("M24 0H0v24h24z");
+}
+
+.uqzwtnb-f {
+  fill: var(--svg-color--fff, #fff);
+  d: path("M20 12.5H4c.045.695.175 1.365.385 2H11l.5-.5h8.26c.125-.485.21-.985.24-1.5m-15.21 3a8 8 0 0 0 .95 1.5h3.25l.51-.5h9.135c.215-.32.41-.65.58-1zM17.3 18H6.7a7.98 7.98 0 0 0 5.3 2c2.03 0 3.89-.755 5.3-2m-3.55-7l-.5.5H4a8 8 0 0 1 .385-2h15.23c.16.48.275.985.34 1.5zm5.195-3a8 8 0 0 0-1.125-1.5H6.18a8 8 0 0 0-1.39 2h10.715l.5-.5zM7.325 5.5h9.35A8 8 0 0 0 12 4c-1.745 0-3.36.555-4.675 1.5");
+}
+
+</style>

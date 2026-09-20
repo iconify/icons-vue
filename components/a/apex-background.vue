@@ -1,0 +1,35 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ft5dv1b6b"><g clip-path="url(#SVGHcSWxdhd)"><path class="wr7zw2i4f"/><path class="v42ub8bwh"/><path class="s2g0aspry"/></g><defs><clipPath id="SVGHcSWxdhd"><path class="py7ktqbvf"/></clipPath></defs></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="token-branded:apex-background" /></template>
+<style>
+.ft5dv1b6b {
+  fill: none;
+}
+
+.py7ktqbvf {
+  fill: var(--svg-color--fff, #fff);
+  d: path("M0 0h24v24H0z");
+}
+
+.s2g0aspry {
+  fill: var(--svg-color--000, #000);
+  d: path("M18.056 13.807a1 1 0 0 0-.033-.108l-2.854-7.61a3.28 3.28 0 0 0-1.855-1.846a3.5 3.5 0 0 0-2.562 0h-.005a3.27 3.27 0 0 0-1.86 1.85l-2.792 7.253a2.52 2.52 0 0 0 .824 3.046a.7.7 0 0 1 .122.109l.061.056l3.127 2.76a2.72 2.72 0 0 0 3.607 0l3.127-2.76q.16-.144.302-.306a2.65 2.65 0 0 0 .852-1.884c0-.193-.024-.376-.061-.56m-4.521 4.04c-.42.33-.956.75-1.54.75s-1.12-.42-1.54-.75a.23.23 0 0 1-.094-.188a.24.24 0 0 1 .094-.188a2.504 2.504 0 0 1 3.085 0a.235.235 0 0 1 0 .376zm2.355-2.175l-1.536 1.474a.37.37 0 0 1-.48.028a3.1 3.1 0 0 0-1.879-.697a3.1 3.1 0 0 0-1.883.697a.37.37 0 0 1-.217.075a.36.36 0 0 1-.254-.103L8.1 15.672a.334.334 0 0 1 .014-.504c1.074-.904 2.44-1.28 3.88-1.28c1.446 0 2.811.376 3.885 1.28a.337.337 0 0 1 .01.504m-.01-3.89c-1.074.91-2.44 1.634-3.885 1.634s-2.806-.725-3.88-1.634a.333.333 0 0 1-.014-.504l1.535-1.473a.37.37 0 0 1 .48-.029c.532.415 1.187.815 1.88.815c.691 0 1.346-.4 1.883-.815a.364.364 0 0 1 .47.029l1.54 1.473a.34.34 0 0 1-.009.504");
+}
+
+.v42ub8bwh {
+  fill: var(--svg-color--000, #000);
+  d: path("m12.936 14.504l-.029.004a2.56 2.56 0 0 1-1.827 0c-.08-.028-.141.062-.085.113c.255.236.603.382.999.382c.368.005.725-.13.998-.377c.047-.047.01-.122-.052-.122z");
+}
+
+.wr7zw2i4f {
+  fill: var(--svg-color--fed702, #fed702);
+  d: path("M24 0H0v24h24z");
+}
+
+</style>

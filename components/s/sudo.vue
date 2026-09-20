@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="agkugs66p"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="token-branded:sudo" /></template>
+<style>
+.agkugs66p {
+  fill: var(--svg-color--b9b9ff, #b9b9ff);
+  d: path("M4.77 6.25H3l2.145 5.705L3 17.75h1.77l2.125-5.795zm14.46 0H21l-2.145 5.705L21 17.75h-1.77l-2.13-5.795zm-3.845 4.5H13.86c0-.5-.74-1-1.715-1s-1.875.21-1.875 1.315c0 1.1 1.035.92 3.25 1.425c1.77.405 1.98 1.625 1.98 2.365c0 1.05-.445 2.395-3.355 2.395c-3.09 0-3.715-1.76-3.64-2.5h1.67c0 .885.915 1.5 1.97 1.5c1.05 0 1.91-.5 1.91-1.4c0-.895-.72-1.105-3.11-1.49c-1.91-.305-2.235-1.66-2.16-2.295c-.075-.775.47-2.315 3.245-2.315s3.395 1.3 3.355 2");
+}
+
+</style>

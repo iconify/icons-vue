@@ -1,0 +1,17 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path clip-rule="evenodd" class="ozij9bmzt"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="token-branded:sender" /></template>
+<style>
+.ozij9bmzt {
+  fill: var(--svg-color--2e79df, #2e79df);
+  fill-rule: evenodd;
+  d: path("M14.81 10.457q.399.146.724.382a2.48 2.48 0 0 1 .92 1.283q.08.263.103.542c.11 1.304-.687 2.821-2.105 3.948l-.064.05a7 7 0 0 1-.793.536L7.1 21a4.7 4.7 0 0 1 .964-3.604c.348-.438.78-.82 1.29-1.117l3.793-2.221a1.97 1.97 0 0 0 .943-1.36c.078-.437.01-.903-.226-1.317a1.92 1.92 0 0 0-1.948-.953l.069-.032A6 6 0 0 1 13 10.231c.659-.047 1.278.029 1.81.226M16.9 3a4.7 4.7 0 0 1-.965 3.604c-.348.438-.78.82-1.29 1.117l-3.793 2.221a1.97 1.97 0 0 0-.943 1.36c-.078.437-.01.903.226 1.317a1.92 1.92 0 0 0 1.948.953l-.069.032a6 6 0 0 1-1.014.165c-.659.047-1.278-.029-1.81-.226a3 3 0 0 1-.724-.382a2.48 2.48 0 0 1-.92-1.283a2.6 2.6 0 0 1-.103-.542c-.11-1.304.687-2.821 2.105-3.948l.064-.05q.371-.287.793-.536z");
+}
+
+</style>

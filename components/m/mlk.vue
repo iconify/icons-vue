@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="f8fdgkb9g"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="token-branded:mlk" /></template>
+<style>
+.f8fdgkb9g {
+  fill: var(--svg-color--5dbab8, #5dbab8);
+  d: path("M19.126 6.565L13.278 3.33a2.62 2.62 0 0 0-2.544 0L4.881 6.565a2.63 2.63 0 0 0-1.352 2.286v6.297c0 .951.52 1.823 1.352 2.286l5.847 3.237a2.62 2.62 0 0 0 2.544 0l5.847-3.237a2.62 2.62 0 0 0 1.352-2.286V8.851a2.62 2.62 0 0 0-1.345-2.286m-9.244 8.651c0 .865-.72 1.549-1.588 1.549s-1.588-.684-1.588-1.55v-5.36c0-.866.72-1.561 1.588-1.561s1.588.695 1.588 1.56zM12 12.53a1.594 1.594 0 0 1-1.588-1.588c0-.871.713-1.588 1.588-1.588s1.588.717 1.588 1.588S12.875 12.53 12 12.53m5.294 2.687c0 .865-.72 1.549-1.588 1.549s-1.588-.684-1.588-1.55v-5.36c0-.866.72-1.561 1.588-1.561s1.588.695 1.588 1.56z");
+}
+
+</style>

@@ -1,0 +1,32 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ft5dv1b6b"><path fill="url(#SVGCLQHGw9T)" class="vb7n012lj"/><path class="nuj8d-ttr"/><defs><linearGradient id="SVGCLQHGw9T" x1="7.5" x2="16.5" y1="4.205" y2="19.795" gradientUnits="userSpaceOnUse"><stop class="v0l1u0q9q"/><stop offset="1" class="tekpau5op"/></linearGradient></defs></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="token-branded:eure" /></template>
+<style>
+.ft5dv1b6b {
+  fill: none;
+}
+
+.nuj8d-ttr {
+  fill: var(--svg-color--fff, #fff);
+  d: path("m16.646 15.05l-1.253-.72a.12.12 0 0 0-.087-.012a.11.11 0 0 0-.07.055q-.161.299-.397.54a3.1 3.1 0 0 1-1.532.865a3.7 3.7 0 0 1-.817.098a3 3 0 0 1-1.395-.33a3.5 3.5 0 0 1-1.08-.868a4 4 0 0 1-.388-.564l-.147-.261h3.181a.114.114 0 0 0 .114-.114v-.991a.114.114 0 0 0-.114-.114H9.126l-.017-.156a4.6 4.6 0 0 1-.006-.953l.016-.158h3.542a.114.114 0 0 0 .114-.114v-.991a.114.114 0 0 0-.114-.114H9.446l.137-.258q.144-.274.332-.522c.283-.37.641-.675 1.051-.896c.423-.23.925-.348 1.491-.348q.405.003.8.09c.274.06.54.158.79.288c.467.248.855.623 1.122 1.08a.11.11 0 0 0 .098.056a.1.1 0 0 0 .065-.02l1.163-.801a.114.114 0 0 0 .034-.152a4.2 4.2 0 0 0-1.465-1.443c-.71-.427-1.566-.645-2.544-.645c-.83 0-1.578.156-2.226.465A5.18 5.18 0 0 0 7.6 9.996V10l-.01.03l-.042.117H5.1a.114.114 0 0 0-.114.114v.99a.114.114 0 0 0 .114.114h2.18l-.013.188a5.4 5.4 0 0 0 .014.886l.019.194H5.1a.114.114 0 0 0-.114.114v.99a.114.114 0 0 0 .114.114h2.512l.045.111c.248.63.605 1.213 1.053 1.722c.46.52 1.015.946 1.635 1.258a4.55 4.55 0 0 0 2.081.478a5.6 5.6 0 0 0 1.326-.166q.666-.162 1.274-.482A4.7 4.7 0 0 0 16.089 16c.24-.233.444-.502.6-.797a.114.114 0 0 0-.043-.152");
+}
+
+.tekpau5op {
+  stop-color: var(--svg-color--0072aa, #0072aa);
+}
+
+.v0l1u0q9q {
+  stop-color: var(--svg-color--0095d7, #0095d7);
+}
+
+.vb7n012lj {
+  d: path("M12 21a9 9 0 1 0 0-18a9 9 0 0 0 0 18");
+}
+
+</style>

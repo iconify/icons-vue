@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="qim14k5qe"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="token-branded:get" /></template>
+<style>
+.qim14k5qe {
+  fill: var(--svg-color--01c696, #01c696);
+  d: path("M12.563 10.875V9.187L9.75 12l2.813 2.813v-1.688h5.099l-5.405 5.227L5.724 12l6.532-6.352l3.461 3.365c.212.206.499.321.798.321s.586-.115.798-.32a1.08 1.08 0 0 0 0-1.552l-4.258-4.14A1.15 1.15 0 0 0 12.256 3a1.14 1.14 0 0 0-.797.321L3.33 11.224a1.08 1.08 0 0 0-.331.777c0 .29.119.569.33.775l8.129 7.903c.211.206.499.321.797.321c.3 0 .587-.115.799-.321l7.438-7.232c.308-.293.507-.67.507-1.111c0-.442-.199-.819-.517-1.12c-.21-.201-.493-.341-.788-.341z");
+}
+
+</style>

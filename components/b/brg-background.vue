@@ -1,0 +1,35 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ft5dv1b6b"><g clip-path="url(#SVGHcSWxdhd)"><path class="e9boodb_l"/><path class="tjtb60w-u"/><path class="kbjdr8big"/></g><defs><clipPath id="SVGHcSWxdhd"><path class="py7ktqbvf"/></clipPath></defs></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="token-branded:brg-background" /></template>
+<style>
+.e9boodb_l {
+  fill: var(--svg-color--f7b718, #f7b718);
+  d: path("M24 0H0v24h24z");
+}
+
+.ft5dv1b6b {
+  fill: none;
+}
+
+.kbjdr8big {
+  fill: var(--svg-color--fff, #fff);
+  d: path("M6.588 17.365A2.623 2.623 0 0 0 9.2 20h3.162c2.438 0 4.024-1.53 4.687-3.53c.424-1.275.414-2.573.085-3.858a4.8 4.8 0 0 1-1.633 1.74v.377c-.15 1.666-1.807 3.389-3.501 3.389H8.47v-3.21a3.78 3.78 0 0 1 3.892-3.85c.65 0 1.21.208 1.741.566c.236-.095.932-1.036.932-1.742a5.16 5.16 0 0 0-2.673-.79a5.8 5.8 0 0 0-5.774 5.816z");
+}
+
+.py7ktqbvf {
+  fill: var(--svg-color--fff, #fff);
+  d: path("M0 0h24v24H0z");
+}
+
+.tjtb60w-u {
+  fill: var(--svg-color--fff, #fff);
+  d: path("M9.2 4a2.62 2.62 0 0 0-2.612 2.635v2.457c0 .753.555 2.484.555 2.484a4.2 4.2 0 0 1 1.327-1.534v-4.16H12c1.793 0 3.501 1.765 3.501 3.577c0 1.74-1.336 3.27-3.139 3.27c-.828 0-1.694-.376-2.136-.588c-.565.33-1.073 1.27-1.073 1.741c.828.466 2.193.941 3.21.941c2.785 0 5.049-2.192 5.049-5.007v-.724c0-2.814-2.26-5.092-5.05-5.092z");
+}
+
+</style>

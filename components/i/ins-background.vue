@@ -1,0 +1,30 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ft5dv1b6b"><g clip-path="url(#SVGHcSWxdhd)"><path class="iw8oyteqm"/><path class="vaoogibdu"/></g><defs><clipPath id="SVGHcSWxdhd"><path class="py7ktqbvf"/></clipPath></defs></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="token-branded:ins-background" /></template>
+<style>
+.ft5dv1b6b {
+  fill: none;
+}
+
+.iw8oyteqm {
+  fill: var(--svg-color--be5095, #be5095);
+  d: path("M24 0H0v24h24z");
+}
+
+.py7ktqbvf {
+  fill: var(--svg-color--fff, #fff);
+  d: path("M0 0h24v24H0z");
+}
+
+.vaoogibdu {
+  fill: var(--svg-color--fff, #fff);
+  d: path("M4.073 19.418v.58h.585l1.886-2.035v-.582H5.96zM9.564 20l.928-2.053v-.566h-.604l-.929 2.053V20zm10.435-4.772v-.601l-1.975-1.061h-.569v.6l1.975 1.061zm0-5.855v-.601h-.569l-1.975 1.062v.6h.569zM8.959 4v.566l.929 2.051h.604v-.565L9.563 4zm10.968.582V4h-.586l-1.885 2.036v.581h.585zm-5.643 5.132h-.571v.572h.571zm-.776 7.667v.566L14.437 20h.604v-.566l-.929-2.051zM15.04 4h-.603l-.929 2.052v.566h.604l.929-2.052zm4.887 15.999v-.581l-1.886-2.037h-.586v.582L19.341 20zM4.001 14.628v.6h.568l1.976-1.06v-.6h-.569zM4.073 4v.582L5.96 6.617h.585v-.58L4.658 4zm5.64 10.286h.571v-.572h-.571zM4.001 8.772v.6l1.975 1.062h.569v-.6L4.569 8.772zm5.712 1.514h.571v-.572h-.571zm4.571 3.428h-.571v.572h.571z");
+}
+
+</style>

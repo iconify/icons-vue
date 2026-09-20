@@ -1,0 +1,41 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ft5dv1b6b"><g clip-path="url(#SVGHcSWxdhd)"><path class="mumfproca"/><path class="iccqwt9oz"/><path clip-rule="evenodd" class="ax72ytlat"/><path class="l2cpqk8-j"/></g><defs><clipPath id="SVGHcSWxdhd"><path class="py7ktqbvf"/></clipPath></defs></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="token-branded:umami-background" /></template>
+<style>
+.ax72ytlat {
+  fill: var(--svg-color--fff, #fff);
+  fill-rule: evenodd;
+  d: path("M12 4.505c-5.906 0-7.995 2.953-7.995 4.722V11h15.99V9.227c0-1.769-2.748-4.722-7.995-4.722m-1.43.59c-1.713 0-5.196 1.064-5.42 5.316h1.423c.1-1.279 1.03-4.132 3.998-5.316");
+}
+
+.ft5dv1b6b {
+  fill: none;
+}
+
+.iccqwt9oz {
+  fill: var(--svg-color--fff, #fff);
+  d: path("M5.504 15.997H4.005v1.749c0 1.4 1.334 1.749 1.999 1.749h11.992c1.6 0 1.999-1.36 1.999-2.039v-1.459h-9.994v.875c0 .29-.315.874-1 .874c-.684 0-.998-.584-.998-.874v-.875h-.5v1.999c0 .75-.43 1-1 1c-.454 0-.999-.25-.999-.96zM4.005 12.25c0-.414.385-.749.854-.749h14.287c.47 0 .854.335.854.75c0 .414-.385.75-.854.75H4.854c-.47 0-.854-.336-.854-.75z");
+}
+
+.l2cpqk8-j {
+  fill: var(--svg-color--fff, #fff);
+  d: path("M4.005 14.563v-1.564c.285.315 1.03.94 1.714.94c.854 0 1.18-.94 2.034-.94s1.104.94 1.678.94c.57 0 .42-.94 1.57-.94c1.149 0 .999.94 1.853.94c.86 0 .215-.94 1.644-.94c1.43 0 .93.94 1.784.94c.86 0 .285-.94 1.714-.94c1.144 0 1.144 1.25 1.999 1.25v1.248c-1.144 0-1.25-.999-1.999-.999s-.57 1-1.714 1c-1.14 0-.93-1-1.784-1s-.5 1-1.644 1c-1.139 0-.999-1-1.853-1c-.855 0-.43 1-1.57 1c-1.144 0-.824-1-1.678-1c-.855 0-.895 1-2.034 1a2.1 2.1 0 0 1-1.714-.94z");
+}
+
+.mumfproca {
+  fill: var(--svg-color--000, #000);
+  d: path("M24 0H0v24h24z");
+}
+
+.py7ktqbvf {
+  fill: var(--svg-color--fff, #fff);
+  d: path("M0 0h24v24H0z");
+}
+
+</style>

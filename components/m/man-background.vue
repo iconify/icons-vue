@@ -1,0 +1,31 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ft5dv1b6b"><g clip-path="url(#SVGHcSWxdhd)"><path class="gjjdkab0y"/><path clip-rule="evenodd" class="sweg6cbba"/></g><defs><clipPath id="SVGHcSWxdhd"><path class="py7ktqbvf"/></clipPath></defs></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="token-branded:man-background" /></template>
+<style>
+.ft5dv1b6b {
+  fill: none;
+}
+
+.gjjdkab0y {
+  fill: var(--svg-color--375980, #375980);
+  d: path("M24 0H0v24h24z");
+}
+
+.py7ktqbvf {
+  fill: var(--svg-color--fff, #fff);
+  d: path("M0 0h24v24H0z");
+}
+
+.sweg6cbba {
+  fill: var(--svg-color--fff, #fff);
+  fill-rule: evenodd;
+  d: path("M8 17a2 2 0 0 0-1.5-1.937V6.72l4.9 5.29l-.176.17C10.154 13.218 8.953 14.38 9 16c.035 1.165.76 3.025 3 3s3-1.705 3-3c0-1.815-1.165-2.9-2.39-3.99a50 50 0 0 1 1.474-1.462c.243-.236.421-.408.446-.438l.003-.004c.094-.114.369-.45.092-.79c-.225-.276-.565-.17-.72-.09L12 11.025c-1.7-1.786-5.085-5.4-5.345-5.7c-.25-.29-.465-.336-.54-.326c-.45.02-.61.39-.615.57v9.493A2 2 0 1 0 8 17m9.5-8.063v9.503c.015.195.13.58.515.56c.38-.02.485-.38.485-.56V8.937a2 2 0 1 0-1 0M18.75 7a.75.75 0 1 1-1.5 0a.75.75 0 0 1 1.5 0M10 15.875c0-1.08 1.3-2.275 2-2.875c.665.61 2 1.925 2 2.875c0 1.255-.685 2.075-2.015 2.125C10.66 18.05 10 16.95 10 15.875M6 17.75a.75.75 0 1 0 0-1.5a.75.75 0 0 0 0 1.5");
+}
+
+</style>

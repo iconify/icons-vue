@@ -1,0 +1,30 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ft5dv1b6b"><g clip-path="url(#SVGHcSWxdhd)"><path class="mumfproca"/><path class="bdtjobbfk"/></g><defs><clipPath id="SVGHcSWxdhd"><path class="py7ktqbvf"/></clipPath></defs></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="token-branded:auction-background" /></template>
+<style>
+.bdtjobbfk {
+  fill: var(--svg-color--fff, #fff);
+  d: path("M6.5 5c0-.55.46-1 1.03-1h3.44c.57 0 1.03.45 1.03 1s-.46 1-1.03 1H7.53C6.96 6 6.5 5.55 6.5 5m10.935.99a.99.99 0 0 1-.61 1.28L7.89 10.465a1.04 1.04 0 0 1-1.325-.595a.99.99 0 0 1 .61-1.28l8.935-3.195a1.04 1.04 0 0 1 1.325.595m0 8.14a.99.99 0 0 1-.61 1.28L7.89 18.605a1.04 1.04 0 0 1-1.325-.595a.99.99 0 0 1 .61-1.28l8.935-3.195a1.04 1.04 0 0 1 1.325.595M12 19c0-.55.46-1 1.03-1h3.44c.57 0 1.03.45 1.03 1s-.46 1-1.03 1h-3.44c-.57 0-1.03-.45-1.03-1m5.43-9.025a.99.99 0 0 1-.59 1.29L7.9 14.6a1.04 1.04 0 0 1-1.33-.575a.99.99 0 0 1 .59-1.29L16.1 9.4c.53-.2 1.125.06 1.33.575");
+}
+
+.ft5dv1b6b {
+  fill: none;
+}
+
+.mumfproca {
+  fill: var(--svg-color--000, #000);
+  d: path("M24 0H0v24h24z");
+}
+
+.py7ktqbvf {
+  fill: var(--svg-color--fff, #fff);
+  d: path("M0 0h24v24H0z");
+}
+
+</style>

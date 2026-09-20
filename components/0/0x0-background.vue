@@ -1,0 +1,35 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ft5dv1b6b"><g clip-path="url(#SVGHcSWxdhd)"><path class="mumfproca"/><path class="nd972pz1v"/><path class="t0kdp3bfc"/></g><defs><clipPath id="SVGHcSWxdhd"><path class="py7ktqbvf"/></clipPath></defs></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="token-branded:0x0-background" /></template>
+<style>
+.ft5dv1b6b {
+  fill: none;
+}
+
+.mumfproca {
+  fill: var(--svg-color--000, #000);
+  d: path("M24 0H0v24h24z");
+}
+
+.nd972pz1v {
+  fill: var(--svg-color--d3d2d3, #d3d2d3);
+  d: path("M11.53 4.57a2.092 2.092 0 0 0-3.453 2.073a2.228 2.228 0 0 0-2.76 3.118a2.483 2.483 0 0 0 .037 4.399a2.227 2.227 0 0 0 2.723 3.179a2.073 2.073 0 0 0 1.997 2.66a2.06 2.06 0 0 0 1.455-.578v-2.247h-.598a.943.943 0 0 1-1.758-.471a.942.942 0 0 1 1.758-.471h.179c.235 0 .42-.188.42-.42v-2.877a.471.471 0 0 0-.943 0v.942a.47.47 0 0 1-.47.471h-1.07a.942.942 0 1 1 0-.942h.127a.47.47 0 0 0 .471-.471v-1.884a.47.47 0 0 0-.47-.471h-.128a.943.943 0 1 1 0-.942h1.07a.47.47 0 0 1 .47.471v.942a.47.47 0 1 0 .942 0V8.173a.417.417 0 0 0-.42-.419h-.178a.942.942 0 1 1 0-.942h.598z");
+}
+
+.py7ktqbvf {
+  fill: var(--svg-color--fff, #fff);
+  d: path("M0 0h24v24H0z");
+}
+
+.t0kdp3bfc {
+  fill: var(--svg-color--00cbc4, #00cbc4);
+  d: path("M12.47 4.57a2.091 2.091 0 0 1 3.453 2.073a2.228 2.228 0 0 1 2.76 3.118a2.484 2.484 0 0 1 .943 3.493a2.5 2.5 0 0 1-.98.906a2.228 2.228 0 0 1-2.723 3.179a2.072 2.072 0 0 1-1.997 2.66a2.06 2.06 0 0 1-1.455-.578v-2.247h.598a.943.943 0 1 0 0-.942h-.18a.417.417 0 0 1-.418-.42v-2.877a.472.472 0 0 1 .942 0v.942a.47.47 0 0 0 .47.471h1.07a.942.942 0 1 0 0-.942h-.127a.47.47 0 0 1-.471-.471v-1.884a.47.47 0 0 1 .47-.471h.128a.943.943 0 1 0 0-.942h-1.07a.47.47 0 0 0-.47.471v.942a.47.47 0 1 1-.942 0V8.173c0-.235.188-.419.419-.419h.179a.942.942 0 1 0 0-.942h-.598z");
+}
+
+</style>

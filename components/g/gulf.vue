@@ -1,0 +1,31 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="dueq4m8hu"><path class="oswv7yb-t"/><path class="b08w9rbge"/><path class="bnt02bc4y"/><path class="xmocy_k_c"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="token-branded:gulf" /></template>
+<style>
+.b08w9rbge {
+  d: path("M11.5 5.5h.5V7h-.5zm0 13h.5V21h-.5zm1-13h.5V7h-.5zm0 13.5h.5v2h-.5zm6-10.725L18.135 8l-.92 1H15v.5h2.44zm-13 4L5.865 12l.92 1H9v.5H6.56zm14-1.05l-.37.275l-.93-1H15V10h3.425zm-15 4l.37.275l.93-1H9V14H5.575z");
+}
+
+.bnt02bc4y {
+  d: path("m18.5 12.225l-.37.275l-.93-1h-2.7V11h2.925zm-13 4l.37.275l.93-1h2.7V15H6.575z");
+}
+
+.dueq4m8hu {
+  fill: var(--svg-color--47c9e3, #47c9e3);
+}
+
+.oswv7yb-t {
+  d: path("M12.5 5a1 1 0 1 0 0-2a1 1 0 0 0 0 2m-3 1.825v1.35c0 .18.155.325.35.325h1.626c1.214 0 2.024.715 2.024 1.85V11h-1.4A4.05 4.05 0 0 0 8 15c0 2.21 1.835 4 4.1 4h1.55c.195 0 .35-.15.35-.35v-3.3a.36.36 0 0 0-.365-.35h-1.91c-.125 0-.225.11-.225.24v1.02c0 .13.1.24.225.24h.775v.5h-.445a2.033 2.033 0 0 1-2.07-2c0-1.1.93-2 2.07-2h3.16c.155 0 .285-.14.285-.31V10.3c0-2.085-1.815-3.8-4.05-3.8h-1.6c-.195 0-.35.15-.35.325");
+}
+
+.xmocy_k_c {
+  d: path("m17.5 13.225l-.4.275l-.986-1H14V12h2.355zm-11 4l.4.275l.984-1H10V16H7.644z");
+}
+
+</style>

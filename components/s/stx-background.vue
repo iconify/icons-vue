@@ -1,0 +1,30 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ft5dv1b6b"><g clip-path="url(#SVGHcSWxdhd)"><path class="z015gmbut"/><path class="lufsh6b_p"/></g><defs><clipPath id="SVGHcSWxdhd"><path class="py7ktqbvf"/></clipPath></defs></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="token-branded:stx-background" /></template>
+<style>
+.ft5dv1b6b {
+  fill: none;
+}
+
+.lufsh6b_p {
+  fill: var(--svg-color--fff, #fff);
+  d: path("M9.738 9.581A2.42 2.42 0 0 0 7.319 12a3.16 3.16 0 0 1-3.163 3.163H4v-.745h.156A2.42 2.42 0 0 0 6.575 12a3.16 3.16 0 0 1 3.163-3.163h3.75A3.16 3.16 0 0 1 16.651 12v.182a2.98 2.98 0 0 1-2.98 2.98v-.744a2.24 2.24 0 0 0 2.236-2.236V12a2.42 2.42 0 0 0-2.419-2.419zM16.65 12a3.16 3.16 0 0 1 3.163-3.163H20v.744h-.186a2.418 2.418 0 1 0 0 4.837H20v.745h-.186A3.16 3.16 0 0 1 16.651 12m-5.581-.186v3.349h.744v-3.35z");
+}
+
+.py7ktqbvf {
+  fill: var(--svg-color--fff, #fff);
+  d: path("M0 0h24v24H0z");
+}
+
+.z015gmbut {
+  fill: var(--svg-color--7023eb, #7023eb);
+  d: path("M24 0H0v24h24z");
+}
+
+</style>

@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="uztzpjbix"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="token-branded:rei" /></template>
+<style>
+.uztzpjbix {
+  fill: var(--svg-color--2116e5, #2116e5);
+  d: path("M13.51 11.32c0 .376-.339.68-.755.68H10.49v-1.357h2.265c.417 0 .754.303.754.678M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-5.698 1.851c.754-.62 1.23-1.51 1.23-2.5c0-1.874-1.69-3.393-3.775-3.393H7.471v8.088h3.02v-1.31h2.288l.789 1.307h2.962z");
+}
+
+</style>

@@ -1,0 +1,17 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path clip-rule="evenodd" class="c4b9rxxtb"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="token-branded:torn" /></template>
+<style>
+.c4b9rxxtb {
+  fill: var(--svg-color--92ffbe, #92ffbe);
+  fill-rule: evenodd;
+  d: path("M6.902 7.542C8.03 6 11.325 3.242 15.463 4.548c4.14 1.307 5.416 5.12 5.537 6.864c-.252-1.297-1.535-4.013-4.65-4.503c1.688 1.232 4.637 4.756 2.919 8.995c-1.719 4.238-5.256 5.16-6.81 5.093c1.257-.1 3.926-1.147 4.548-4.545c-.861 1.21-3.378 3.567-6.558 3.311c-3.976-.32-6.946-3.014-7.449-6.76c.206 1.188 1.408 3.659 4.57 4.042c-1.272-.783-3.724-3.348-3.36-7.33c.458-4.98 5.096-6.647 7.153-6.715c-1.413.224-4.283 1.445-4.461 4.542M12 15.176a3.175 3.175 0 1 0 0-6.35a3.175 3.175 0 0 0 0 6.35");
+}
+
+</style>

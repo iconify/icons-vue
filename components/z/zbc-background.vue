@@ -1,0 +1,41 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ft5dv1b6b"><g clip-path="url(#SVGHcSWxdhd)"><path fill="url(#SVGUWxDhewO)" class="r4i437pya"/><path class="ag6fbhbfj"/></g><defs><linearGradient id="SVGUWxDhewO" x1="3.993" x2="18.823" y1="9.227" y2="10.732" gradientUnits="userSpaceOnUse"><stop class="xa-hxfbxg"/><stop offset=".82" class="dup7kxhwp"/><stop offset="1" class="cmh4pjbiz"/></linearGradient><clipPath id="SVGHcSWxdhd"><path class="py7ktqbvf"/></clipPath></defs></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="token-branded:zbc-background" /></template>
+<style>
+.ag6fbhbfj {
+  fill: var(--svg-color--fff, #fff);
+  d: path("M4.308 13.034c-.707-.764-.111-2.009.911-1.92l13.76 1.222c.898.08 1.338 1.156.76 1.867l-2.582 3.164l-.289-.244l.285.244a1.11 1.11 0 0 1-.854.41H9.153a1.1 1.1 0 0 1-.814-.36l-4.03-4.388zm.845-1.156c-.338-.03-.534.383-.303.636l4.031 4.387a.38.38 0 0 0 .272.12h7.146a.38.38 0 0 0 .285-.134l2.587-3.169c.19-.235.044-.595-.254-.622L5.153 11.874zm1.728-4.541C7.1 6.54 7.975 6.06 8.828 6.274l8.52 2.138a1.12 1.12 0 0 1 .876 1.067v.089c0 .653-.61 1.164-1.312 1.098l-8.83-.885c-.956-.093-1.6-.951-1.365-1.822zm1.738-.352c-.427-.106-.862.134-.969.534l-.169.622c-.115.436.205.862.685.911l8.83.88c.232.022.436-.146.436-.364v-.09a.37.37 0 0 0-.293-.355L8.62 6.99z");
+}
+
+.cmh4pjbiz {
+  stop-color: var(--svg-color--6a66b2, #6a66b2);
+}
+
+.dup7kxhwp {
+  stop-color: var(--svg-color--a274bf, #a274bf);
+}
+
+.ft5dv1b6b {
+  fill: none;
+}
+
+.py7ktqbvf {
+  fill: var(--svg-color--fff, #fff);
+  d: path("M0 0h24v24H0z");
+}
+
+.r4i437pya {
+  d: path("M24 0H0v24h24z");
+}
+
+.xa-hxfbxg {
+  stop-color: var(--svg-color--45c1cb, #45c1cb);
+}
+
+</style>

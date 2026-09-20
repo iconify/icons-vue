@@ -1,0 +1,52 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ft5dv1b6b"><path clip-rule="evenodd" class="bne7rrifs"/><path clip-rule="evenodd" class="t2_nn0csc"/><path fill="url(#SVGqCGk2b6F)" clip-rule="evenodd" class="wwwm9eida"/><path clip-rule="evenodd" class="iuxmlr5yd"/><path clip-rule="evenodd" class="g-pmzob0v"/><defs><linearGradient id="SVGqCGk2b6F" x1="20.903" x2="-13.607" y1="3.792" y2="13.742" gradientUnits="userSpaceOnUse"><stop class="l996otjri"/><stop offset="1" class="ag4da7bfb"/></linearGradient></defs></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="token-branded:starknet" /></template>
+<style>
+.ag4da7bfb {
+  stop-color: var(--svg-color--d672ef, #d672ef);
+}
+
+.bne7rrifs {
+  fill: var(--svg-color--0c0c4f, #0c0c4f);
+  fill-rule: evenodd;
+  d: path("M3 12a9 9 0 1 0 18 0a9 9 0 0 0-18 0");
+}
+
+.ft5dv1b6b {
+  fill: none;
+}
+
+.g-pmzob0v {
+  fill: var(--svg-color--ec796b, #ec796b);
+  fill-rule: evenodd;
+  d: path("M15.541 15.885a1.026 1.026 0 1 0 2.051 0a1.026 1.026 0 0 0-2.051 0");
+}
+
+.iuxmlr5yd {
+  fill: var(--svg-color--fafafa, #fafafa);
+  fill-rule: evenodd;
+  d: path("M18.931 9.48c-.305-.77-.873-1.419-1.635-1.898a4.02 4.02 0 0 0-2.853-.509c-.515.1-1.014.292-1.452.547a6 6 0 0 0-1.165.89a9 9 0 0 0-.474.509l-.395.503l-.61.81c-.776 1.042-1.613 2.263-2.986 2.625c-1.348.355-1.933.04-2.756-.09c.15.389.337.766.59 1.098c.248.338.54.656.905.929c.184.13.378.26.594.37c.214.105.446.199.693.269a4 4 0 0 0 1.581.11a4.8 4.8 0 0 0 1.497-.468a6.3 6.3 0 0 0 1.196-.783a9.6 9.6 0 0 0 1.699-1.867q.344-.487.634-.984l.227-.392q.105-.174.212-.338c.289-.432.571-.778.914-1.039c.339-.266.81-.463 1.439-.51c.627-.046 1.35.04 2.145.219");
+}
+
+.l996otjri {
+  stop-color: var(--svg-color--ec796b, #ec796b);
+}
+
+.t2_nn0csc {
+  fill: var(--svg-color--fafafa, #fafafa);
+  fill-rule: evenodd;
+  d: path("m8.029 9.88l.222-.686a.45.45 0 0 1 .296-.29l.69-.213a.102.102 0 0 0 0-.195l-.686-.222a.45.45 0 0 1-.29-.295l-.213-.69c-.029-.095-.164-.096-.194-.001l-.222.686a.45.45 0 0 1-.296.291l-.69.212a.102.102 0 0 0-.001.195l.686.222a.45.45 0 0 1 .292.296l.211.689c.03.095.164.097.195.002");
+}
+
+.wwwm9eida {
+  fill-rule: evenodd;
+  d: path("M18.931 9.481c-.284-.318-.728-.497-1.16-.57a4 4 0 0 0-1.32.012c-.868.147-1.657.507-2.346.95c-.357.218-.662.47-.978.727c-.152.13-.29.268-.435.404l-.395.393a16 16 0 0 1-1.26 1.195c-.411.337-.795.593-1.174.771c-.378.18-.783.286-1.31.303c-.523.018-1.142-.076-1.803-.232c-.665-.155-1.364-.376-2.145-.566a6.4 6.4 0 0 0 1.21 2.034c.532.6 1.198 1.146 2.052 1.506a4.97 4.97 0 0 0 2.89.3c.993-.191 1.864-.65 2.568-1.181a9.2 9.2 0 0 0 1.758-1.783c.133-.176.203-.274.299-.411l.266-.394c.184-.244.353-.52.535-.762c.359-.505.712-1.01 1.123-1.475c.206-.236.424-.461.681-.678c.129-.106.268-.21.421-.303c.156-.1.32-.18.523-.24");
+}
+
+</style>

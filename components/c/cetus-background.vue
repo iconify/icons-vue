@@ -1,0 +1,35 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ft5dv1b6b"><g clip-path="url(#SVGHcSWxdhd)"><path class="zofzhuq1q"/><path class="icvxne-uy"/><path class="rv_exheya"/></g><defs><clipPath id="SVGHcSWxdhd"><path class="py7ktqbvf"/></clipPath></defs></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="token-branded:cetus-background" /></template>
+<style>
+.ft5dv1b6b {
+  fill: none;
+}
+
+.icvxne-uy {
+  fill: var(--svg-color--fff, #fff);
+  d: path("M19.5 11.5c0 4.036-3.36 7.116-7.5 7.116q-.586-.001-1.15-.085c-1.565 1.41-4.21 1.52-5.41 1.455l1.12-3.65a7.2 7.2 0 0 1-2.06-5.02C4.5 7.27 7.86 4 12 4c3.65 0 6.685 2.535 7.36 5.895c-.83-.115-1.91-.47-2.2-1.33c-.225.5-1.07 1.44-2.735 1.395c.25-.41.385-.885.385-1.395A2.774 2.774 0 0 0 12 5.825a2.775 2.775 0 0 0-2.815 2.74C9.19 10.08 10.45 11.501 12 11.501z");
+}
+
+.py7ktqbvf {
+  fill: var(--svg-color--fff, #fff);
+  d: path("M0 0h24v24H0z");
+}
+
+.rv_exheya {
+  fill: var(--svg-color--fff, #fff);
+  d: path("M16.97 11.5c-.87 4.17-4.65 7.116-9.19 7.116q-.96 0-1.866-.18l-.48 1.55c1.205.065 3.85-.05 5.41-1.455q.57.084 1.155.085c4.14 0 7.5-3.08 7.5-7.115zm.185-2.935c.015-.025-.01.03 0 0c.295.86 1.375 1.216 2.2 1.33a7.3 7.3 0 0 0-3.32-4.75c.59 1.06 1 2.165 1.12 3.42");
+}
+
+.zofzhuq1q {
+  fill: var(--svg-color--68ffd8, #68ffd8);
+  d: path("M24 0H0v24h24z");
+}
+
+</style>

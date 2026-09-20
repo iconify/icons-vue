@@ -1,0 +1,50 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ft5dv1b6b"><path fill="url(#SVGfioaH6ne)" class="ma_6dj7fx"/><path class="bgbv2wb1r"/><path clip-rule="evenodd" class="isef2ovgj"/><defs><linearGradient id="SVGfioaH6ne" x1="13.895" x2="6.698" y1="3.392" y2="22.061" gradientUnits="userSpaceOnUse"><stop offset=".01"/><stop offset=".22" class="uk-5eqz3w"/><stop offset=".38" class="h91yt3bry"/><stop offset=".48" class="bbz6czbfw"/><stop offset=".6" class="zmh8wlgbf"/><stop offset=".81" class="h91yt3bry"/><stop offset="1" class="hv2dprbyh"/></linearGradient></defs></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="token-branded:fer" /></template>
+<style>
+.bbz6czbfw {
+  stop-color: var(--svg-color--4f4b4c, #4f4b4c);
+}
+
+.bgbv2wb1r {
+  fill: var(--svg-color--000, #000);
+  d: path("M10.851 6.705h4.823c.582 0 1.09.472 1.09 1.086c0 .609-.508 1.032-1.09 1.032h-4.6c-.62 0-1.721.323-1.721 1.324c0 .794.667 1.323 1.25 1.323h4.012c.53 0 1.09.387 1.09 1.043c0 .572-.465 1.075-1.09 1.075H10.55c-.238 0-.338.08-.37.116c-.207.265-.408.53-.572.794c-.175.276-.254.434-.254.509v2.276c0 .577-.413 1.07-1.006 1.07c-.582 0-1.112-.477-1.112-1.07v-2.276c0-.493.17-.932.35-1.276s.402-.662.566-.895c.186-.265.117-.545-.047-.794c-.43-.662-.869-1.101-.869-2.187c0-1.932 1.81-3.15 3.616-3.15");
+}
+
+.ft5dv1b6b {
+  fill: none;
+}
+
+.h91yt3bry {
+  stop-color: var(--svg-color--413d3e, #413d3e);
+}
+
+.hv2dprbyh {
+  stop-color: var(--svg-color--b3b3b3, #b3b3b3);
+}
+
+.isef2ovgj {
+  fill: var(--svg-color--000, #000);
+  fill-rule: evenodd;
+  d: path("M12 20.47a8.47 8.47 0 1 0 0-16.94a8.47 8.47 0 0 0 0 16.94m0 .53a9 9 0 1 0 0-18a9 9 0 0 0 0 18");
+}
+
+.ma_6dj7fx {
+  d: path("M6.97 9.862c0-2.134 1.986-3.42 3.881-3.42h4.823c.72 0 1.355.582 1.355 1.35c0 .778-.65 1.297-1.355 1.297h-4.6c-.27 0-.652.074-.959.249c-.296.174-.497.428-.497.81a1.06 1.06 0 0 0 .984 1.059h4.013c.64 0 1.355.47 1.355 1.307c0 .715-.582 1.34-1.355 1.34H10.55c-.11 0-.159.02-.174.031q-.398.505-.726 1.06l-.031.073v2.266c0 .699-.509 1.334-1.271 1.334a1.376 1.376 0 0 1-1.377-1.334v-2.276c0-.556.191-1.033.376-1.398c.17-.323.382-.63.535-.852a.2.2 0 0 1 .053-.07a.33.33 0 0 0 .058-.232a.64.64 0 0 0-.106-.27l-.19-.27c-.36-.53-.726-1.048-.726-2.054m3.881-2.89C9.136 6.971 7.5 8.12 7.5 9.861c0 .83.27 1.223.625 1.736l.2.297c.096.148.175.317.197.508a.83.83 0 0 1-.16.582l-.042.074a7 7 0 0 0-.502.795c-.17.328-.318.72-.318 1.154v2.276c0 .434.397.805.847.805c.423 0 .741-.35.741-.805v-2.276c0-.064.016-.117.027-.16l.063-.137q.065-.142.201-.354c.175-.276.387-.551.588-.816c.095-.122.291-.217.582-.217h4.066a.817.817 0 0 0 .826-.81c0-.476-.402-.778-.826-.778h-4.013a1.583 1.583 0 0 1-1.514-1.588a1.43 1.43 0 0 1 .762-1.266c.375-.208.795-.32 1.223-.323h4.606c.455 0 .82-.323.82-.767c0-.46-.38-.82-.825-.82z");
+}
+
+.uk-5eqz3w {
+  stop-color: var(--svg-color--ecebe9, #ecebe9);
+}
+
+.zmh8wlgbf {
+  stop-color: var(--svg-color--bebfbf, #bebfbf);
+}
+
+</style>

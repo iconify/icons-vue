@@ -1,0 +1,30 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ft5dv1b6b"><g clip-path="url(#SVGHcSWxdhd)"><path class="z6c8agbuk"/><path class="za-1evbmx"/></g><defs><clipPath id="SVGHcSWxdhd"><path class="py7ktqbvf"/></clipPath></defs></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="token-branded:cvc-background" /></template>
+<style>
+.ft5dv1b6b {
+  fill: none;
+}
+
+.py7ktqbvf {
+  fill: var(--svg-color--fff, #fff);
+  d: path("M0 0h24v24H0z");
+}
+
+.z6c8agbuk {
+  fill: var(--svg-color--ff6b4d, #ff6b4d);
+  d: path("M24 0H0v24h24z");
+}
+
+.za-1evbmx {
+  fill: var(--svg-color--fff, #fff);
+  d: path("M13.415 18.5c2.525 0 4.77-2.03 5.085-4.465V14H20a6.65 6.65 0 0 1-6.585 6h-2.8C6.965 20 4 17.04 4 13.4v-2.8C4 6.96 6.97 4 10.615 4h2.8A6.65 6.65 0 0 1 20 10h-1.5c-.315-2.435-2.56-4.5-5.085-4.5h-2.8A5.225 5.225 0 0 0 5.5 10.6v2.8c0 2.73 2.375 5.1 5.115 5.1zM12 9c.825 0 1.5.705 1.5 1.575c0 .61-.33 1.14-.81 1.4l.555 2.525h-2.49l.555-2.525a1.59 1.59 0 0 1-.81-1.4A1.54 1.54 0 0 1 12 9");
+}
+
+</style>

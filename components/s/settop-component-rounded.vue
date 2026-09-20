@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="eajjm_bwa"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:settop-component-rounded" /></template>
+<style>
+.eajjm_bwa {
+  fill: currentColor;
+  d: path("M4.616 16q-.667 0-1.141-.475T3 14.385v-4.77q0-.666.475-1.14T4.615 8h14.77q.666 0 1.14.475T21 9.615v4.77q0 .666-.475 1.14t-1.14.475zM6 12.5h3.923q.213 0 .356-.144t.144-.357t-.144-.356t-.356-.143H6q-.213 0-.356.144t-.144.357t.144.356T6 12.5m8.578.075q.23-.234.23-.578q0-.345-.233-.575q-.234-.23-.578-.23q-.345 0-.575.234q-.23.233-.23.577q0 .345.234.575q.233.23.577.23q.345 0 .575-.233m3 0q.23-.234.23-.578q0-.345-.233-.575q-.234-.23-.578-.23q-.345 0-.575.234q-.23.233-.23.577q0 .345.233.575q.234.23.578.23q.345 0 .575-.233");
+}
+
+</style>

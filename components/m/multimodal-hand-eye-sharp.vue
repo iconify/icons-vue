@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="noxxl9r6v"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:multimodal-hand-eye-sharp" /></template>
+<style>
+.noxxl9r6v {
+  fill: currentColor;
+  d: path("m6.652 21.48l-5.09-5.076l1.004-1.054l2.78.652V7.5h1v7.308h1.77v-4.27h1v4.27h1.769v-2.885h1v2.885h1.769v-.5h1v3.673q0 1.457-1.021 2.478t-2.48 1.022zm9.482-11.557q-1.832 0-3.382-.94T10.269 6.46q.933-1.58 2.483-2.52T16.135 3t3.382.94T22 6.463q-.933 1.58-2.483 2.52q-1.55.941-3.383.941m1.256-2.205q.514-.513.514-1.256t-.513-1.256q-.513-.514-1.256-.514t-1.256.513t-.513 1.256t.512 1.256t1.256.514t1.257-.513m-1.963-.547q-.294-.291-.294-.707t.291-.71q.292-.292.707-.292q.416 0 .71.29t.293.707t-.292.71t-.706.293t-.709-.291");
+}
+
+</style>

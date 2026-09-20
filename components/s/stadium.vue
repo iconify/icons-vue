@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="lq90v6k0p"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:stadium" /></template>
+<style>
+.lq90v6k0p {
+  fill: currentColor;
+  d: path("M4.462 7V3.616l3.384 1.692zm12.692 0V3.616l3.384 1.692zm-5.923-.846V2.769l3.385 1.693zM9.5 21.24q-1.434-.106-2.646-.327t-2.094-.536t-1.378-.712q-.498-.399-.498-.858v-8.231q0-.529.682-.98t1.897-.787t2.887-.534T12 8.077t3.65.199t2.887.535t1.897.786t.681.98v8.23q0 .46-.497.859t-1.378.712t-2.094.536t-2.646.326v-4.432h-5zm2.5-9.164q2.483 0 4.649-.393t3.236-1.038q-.327-.529-2.39-1.049T12 9.077t-5.494.52t-2.39 1.05q1.068.644 3.014 1.037t4.87.393");
+}
+
+</style>

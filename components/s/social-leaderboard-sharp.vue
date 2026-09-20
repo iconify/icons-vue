@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="yz8ccdcdi"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:social-leaderboard-sharp" /></template>
+<style>
+.yz8ccdcdi {
+  fill: currentColor;
+  d: path("M7.475 20q-1.852 0-3.163-1.311T3 15.525q0-1.823 1.274-3.126t3.097-1.343q.192 0 .385.029q.192.029.384.067L4.846 4.539h4.77L12 9.308l2.385-4.77h4.769l-3.27 6.545q.174-.039.357-.058q.182-.02.375-.02q1.836.047 3.11 1.35T21 15.5q0 1.877-1.311 3.189T16.5 20q-.283 0-.578-.032q-.295-.031-.558-.12q1.182-.515 1.659-1.751T17.5 15.5q0-2.302-1.599-3.901T12 10t-3.901 1.599T6.5 15.5q0 1.373.44 2.642q.44 1.27 1.69 1.706q-.282.089-.567.12T7.475 20m1.338-1.312Q7.5 17.375 7.5 15.5t1.313-3.187T12 11t3.188 1.313T16.5 15.5t-1.312 3.188T12 20t-3.187-1.312m1.625-.9L12 16.6l1.562 1.189l-.585-1.93l1.562-1.113h-1.93L12 12.712l-.61 2.034H9.462l1.562 1.114z");
+}
+
+</style>

@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="zsl6q3all"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:face-rounded" /></template>
+<style>
+.zsl6q3all {
+  fill: currentColor;
+  d: path("M8.113 13.888Q7.75 13.525 7.75 13t.363-.888T9 11.75t.888.363t.362.887t-.363.888T9 14.25t-.888-.363m6 0q-.362-.362-.362-.887t.363-.888t.887-.362t.888.363t.362.887t-.363.888t-.887.362t-.888-.363M12 20q3.35 0 5.675-2.325T20 12q0-.6-.075-1.162T19.65 9.75q-.525.125-1.05.188T17.5 10q-2.275 0-4.3-.975T9.75 6.3q-.8 1.95-2.287 3.388T4 11.85V12q0 3.35 2.325 5.675T12 20m.003 1q-1.867 0-3.51-.708q-1.643-.709-2.859-1.923t-1.925-2.857T3 12.003t.709-3.51T5.63 5.634t2.857-1.925T11.997 3t3.51.709t2.859 1.922t1.925 2.857t.709 3.509t-.708 3.51t-1.924 2.859t-2.856 1.925t-3.509.709");
+}
+
+</style>

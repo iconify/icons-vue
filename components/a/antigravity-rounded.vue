@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="kc5b82b-w"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:antigravity-rounded" /></template>
+<style>
+.kc5b82b-w {
+  fill: currentColor;
+  d: path("M12.006 3.02q1.736-.02 2.682 1.303q.945 1.323 1.648 2.985q.612 1.46 1.212 3.288q.6 1.829 1.256 3.683q.65 1.779 1.387 3.342q.736 1.564 1.703 2.643q.123.148.118.323t-.13.284q-.142.129-.31.135t-.31-.117q-1.745-1.627-2.933-3.434q-1.189-1.807-2.296-3.02q-.85-.95-1.823-1.51q-.972-.56-2.204-.54q-1.233-.02-2.205.54t-1.822 1.51q-1.108 1.213-2.296 3.02T2.75 20.889q-.14.123-.31.117t-.311-.135q-.123-.11-.129-.284t.117-.323q.967-1.06 1.704-2.633t1.387-3.352q.655-1.854 1.255-3.683t1.212-3.288q.704-1.662 1.649-2.985t2.682-1.304");
+}
+
+</style>

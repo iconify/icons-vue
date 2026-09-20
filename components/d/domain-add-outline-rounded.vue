@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="p6ij9_vkv"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:domain-add-outline-rounded" /></template>
+<style>
+.p6ij9_vkv {
+  fill: currentColor;
+  d: path("M3.77 20.154q-.441 0-.74-.3t-.3-.738V4.192q0-.44.3-.739q.299-.3.74-.3h6.922q.44 0 .74.3q.299.299.299.74v2.96h8.5q.44 0 .74.3q.298.299.298.74v6.769q0 .212-.144.356t-.356.144t-.356-.144t-.144-.356V8.154h-8.538v3h2.385v1H11.73v3h2.385v1H11.73v3H16q.213 0 .356.144t.144.356t-.144.356t-.356.144zm-.04-1h3v-3h-3zm0-4h3v-3h-3zm0-4h3v-3h-3zm0-4h3v-3h-3zm4 12h3v-3h-3zm0-4h3v-3h-3zm0-4h3v-3h-3zm0-4h3v-3h-3zM20.414 22.01q-.144-.144-.144-.356v-1.5h-1.5q-.212 0-.356-.144t-.144-.357t.144-.356t.356-.143h1.5v-1.5q0-.213.144-.356q.144-.144.357-.144t.356.144t.143.356v1.5h1.5q.213 0 .357.144t.143.357t-.143.356t-.357.143h-1.5v1.5q0 .212-.144.356t-.356.144t-.356-.144M16.5 12.154v-1h1v1zm0 4v-1h1v1z");
+}
+
+</style>

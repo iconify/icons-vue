@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="de_ct_o6u"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:play-for-work-outline-rounded" /></template>
+<style>
+.de_ct_o6u {
+  fill: currentColor;
+  d: path("M8.642 17.713q-1.415-1.288-1.605-3.194q-.031-.207.11-.363Q7.286 14 7.5 14t.357.126t.18.303q.16 1.54 1.291 2.555T12 18t2.672-1.016t1.292-2.555q.036-.177.18-.303T16.5 14t.354.156q.14.155.11.363q-.191 1.906-1.606 3.194Q13.942 19 12 19t-3.358-1.287m2.858-4.64v-6.38q0-.214.143-.357T12 6.192t.357.144t.143.356v6.381l1.746-1.746q.146-.146.344-.153q.199-.007.364.159q.16.165.162.353q.003.189-.162.354l-2.388 2.389q-.132.13-.268.183t-.298.054t-.298-.053t-.267-.184L9.046 12.04q-.14-.141-.15-.342t.15-.366q.166-.166.357-.166t.357.166z");
+}
+
+</style>

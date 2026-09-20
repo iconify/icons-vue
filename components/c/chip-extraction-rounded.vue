@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="nn9un75wx"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:chip-extraction-rounded" /></template>
+<style>
+.nn9un75wx {
+  fill: currentColor;
+  d: path("M6.85 16.75q1.85 1.985 4.59 2.22q.208.03.355.176t.147.354q0 .214-.17.354t-.409.11q-3.124-.252-5.244-2.53T4 12q0-3.111 2.078-5.399t5.184-2.565q.263-.03.462.098q.199.127.199.366q0 .208-.137.354q-.138.146-.345.177Q8.7 5.266 6.85 7.25T5 12t1.85 4.75m11.537-4.25H10q-.213 0-.357-.143T9.5 12t.143-.357T10 11.5h8.367l-2.72-2.74q-.147-.146-.147-.348t.146-.347T16 7.92t.354.147l3.369 3.368q.243.243.243.566t-.243.566l-3.37 3.368q-.145.147-.353.144t-.354-.15q-.146-.145-.146-.353t.146-.354z");
+}
+
+</style>

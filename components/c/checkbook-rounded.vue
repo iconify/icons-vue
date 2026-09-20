@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="gvrsu_upz"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:checkbook-rounded" /></template>
+<style>
+.gvrsu_upz {
+  fill: currentColor;
+  d: path("m20.208 13.812l-5.966 5.965q-.074.073-.167.11t-.192.036h-.306q-.108 0-.188-.08t-.081-.19v-.305q0-.1.036-.192t.11-.167l5.965-5.966zM3 16.385v-8.77q0-.666.475-1.14T4.615 6h14.77q.666 0 1.14.475T21 7.615v.327q0 .43-.194.734t-.575.613h-.04q-.093 0-.176.034q-.084.035-.148.098l-3.6 3.6q-.217.217-.517.348t-.633.131H7q-.213 0-.356.144t-.144.357t.144.356T7 14.5h6.82q.27 0 .368.252t-.096.444l-2.325 2.325q-.217.218-.517.348t-.633.131H4.615q-.666 0-1.14-.475T3 16.386M7 10.5h4q.213 0 .356-.144t.144-.357t-.144-.356T11 9.5H7q-.213 0-.356.144t-.144.357t.144.356T7 10.5m13.77 2.712l-.79-.789l.783-.782q.109-.108.24-.108q.13 0 .235.106l.316.315q.105.108.105.238t-.108.238z");
+}
+
+</style>

@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="gcbcc2bla"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:night-shelter-rounded" /></template>
+<style>
+.gcbcc2bla {
+  fill: currentColor;
+  d: path("M6.616 20q-.667 0-1.141-.475T5 18.386v-8.077q0-.384.172-.727t.474-.565l5.385-4.058q.423-.324.966-.324t.972.324l5.385 4.057q.303.222.474.566q.172.343.172.727v8.077q0 .666-.475 1.14t-1.14.475zm2-3.808h6.769v.856q0 .171.12.293q.122.12.303.12t.302-.12q.12-.122.12-.302v-2.962q0-.698-.496-1.195q-.497-.497-1.195-.497h-2.154q-.344 0-.576.232t-.232.575v2.154H8.616v-3.384q0-.181-.122-.302q-.121-.121-.302-.121t-.301.12q-.122.122-.122.303v5.077q0 .18.122.302q.12.12.301.12t.302-.12q.122-.122.122-.293zm2.233-1.576q.305-.308.305-.753q0-.446-.308-.75t-.752-.305t-.75.307t-.305.753t.307.75t.753.305t.75-.308");
+}
+
+</style>

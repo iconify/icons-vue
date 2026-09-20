@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="w955qob1o"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:face-4" /></template>
+<style>
+.w955qob1o {
+  fill: currentColor;
+  d: path("M8.113 15.888Q7.75 15.525 7.75 15t.363-.888T9 13.75t.888.363t.362.887t-.363.888T9 16.25t-.888-.363m6 0q-.362-.362-.362-.887t.363-.888t.887-.362t.888.363t.362.887t-.363.888t-.887.362t-.888-.363M12 22q3.35 0 5.675-2.325T20 14q0-.6-.075-1.162t-.275-1.088q-.525.125-1.05.188T17.5 12q-2.275 0-4.3-.975T9.75 8.3q-.8 1.95-2.287 3.388T4 13.85V14q0 3.35 2.325 5.675T12 22m-3.507.291q-1.643-.708-2.859-1.923T3.709 17.51T3 14q0-.394.033-.782t.117-.749q-1.171-.63-1.872-1.785T.577 8.129q0-2.075 1.45-3.525t3.525-1.45q1.268 0 2.332.59t1.739 1.579q.573-.162 1.171-.242T12 5q1.868 0 3.51.709t2.858 1.923t1.923 2.856t.709 3.509t-.708 3.51t-1.924 2.859t-2.856 1.925t-3.509.709t-3.51-.709");
+}
+
+</style>

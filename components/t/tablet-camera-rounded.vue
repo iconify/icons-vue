@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="t5cw86btl"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:tablet-camera-rounded" /></template>
+<style>
+.t5cw86btl {
+  fill: currentColor;
+  d: path("M18.5 19V6h-13v13H3.616q-.667 0-1.142-.475T2 17.386V6.615q0-.666.475-1.14T3.614 5h16.77q.666 0 1.14.475T22 6.615v10.77q0 .666-.475 1.14t-1.14.475zm-9.054 2q-.533 0-.912-.376q-.38-.375-.38-.912V16.31q0-.531.376-.911t.912-.38h.856l.856-.865h1.7l.85.865h.851q.532 0 .911.376q.38.376.38.913v3.401q0 .532-.376.911q-.376.38-.912.38zm3.609-1.945q.445-.445.445-1.058t-.445-1.045T12 16.519t-1.055.433t-.445 1.045t.445 1.058T12 19.5t1.055-.445");
+}
+
+</style>

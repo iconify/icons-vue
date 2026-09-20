@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="pe-7wnfox"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:tools-pliers-wire-stripper-outline" /></template>
+<style>
+.pe-7wnfox {
+  fill: currentColor;
+  d: path("M8.077 20.904q-.346-.673-.567-2.046t-.221-2.816q0-2.013.453-3.5Q8.196 11.053 9 10V6.27L11.5 2h1L15 6.27V10q.829 1.054 1.27 2.541q.442 1.488.442 3.501q0 1.423-.212 2.806t-.558 2.056q-.78-.248-1.146-.986q-.365-.737-.36-1.587q0-.606.138-1.312t.137-1.373q0-1.45-.7-2.752T12 10.384q-1.304 1.247-2.008 2.51q-.704 1.264-.704 2.637q0 .744.15 1.479q.15.734.156 1.36q0 .83-.368 1.551t-1.149.983m3.297-13.268q-.258-.25-.258-.617q0-.255.125-.471t.375-.34V3.775L10 6.55V9h4V6.55l-1.616-2.775v2.433q.25.125.375.34t.125.471q0 .368-.258.617q-.259.249-.626.249t-.626-.25m1.01-3.86h-.768zm-.768 0h.769z");
+}
+
+</style>

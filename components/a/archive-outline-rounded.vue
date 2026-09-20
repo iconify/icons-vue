@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="oy5bwwb-p"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:archive-outline-rounded" /></template>
+<style>
+.oy5bwwb-p {
+  fill: currentColor;
+  d: path("M11.643 10.72q-.143.143-.143.357v4.2l-1.746-1.746q-.14-.14-.344-.15t-.364.15t-.16.354t.16.354l2.389 2.388q.242.242.565.242t.566-.242l2.388-2.388q.14-.141.15-.345t-.15-.363t-.354-.16t-.354.16L12.5 15.277v-4.2q0-.213-.143-.357T12 10.577t-.357.143M5 7.808v10.577q0 .269.173.442t.443.173h12.769q.269 0 .442-.173t.173-.442V7.808zM5.77 20q-.672 0-1.221-.549T4 18.231V7.486q0-.292.093-.55t.28-.475l1.558-1.87q.217-.293.543-.442T7.173 4h9.616q.372 0 .708.149t.553.441l1.577 1.91q.187.217.28.485q.093.267.093.56V18.23q0 .671-.549 1.22t-1.22.549zM5.38 6.808H18.6L17.27 5.21q-.097-.096-.222-.153T16.788 5H7.192q-.134 0-.26.058t-.22.154zM12 13.404");
+}
+
+</style>

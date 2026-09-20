@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="m55metbbf"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:spa-rounded" /></template>
+<style>
+.m55metbbf {
+  fill: currentColor;
+  d: path("M11.754 20.867q-3.562-.573-5.746-3.026T3.473 11.56q-.025-.18.034-.324q.058-.145.17-.257q.111-.112.257-.158q.145-.046.318.004q3.671.567 5.877 2.91t2.423 6.384q.025.168-.043.313t-.186.257q-.112.111-.257.16t-.312.018M12 14.683q-.427-.781-1.247-1.69T9.096 11.6q.046-1.442.714-3.316q.669-1.875 1.66-3.328q.11-.143.246-.214q.136-.07.284-.07t.29.07t.235.22q.99 1.46 1.664 3.344t.715 3.332q-.84.45-1.704 1.415q-.863.964-1.2 1.63m1.604 5.902q-.05-1.218-.318-2.52q-.269-1.304-.74-2.28q.806-1.824 2.707-3.197t4.52-1.763q.173-.05.316-.001t.253.16t.17.254t.034.316q-.296 3.467-2.062 5.7q-1.767 2.235-4.88 3.33");
+}
+
+</style>

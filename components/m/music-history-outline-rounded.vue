@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="dhmc7s41w"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:music-history-outline-rounded" /></template>
+<style>
+.dhmc7s41w {
+  fill: currentColor;
+  d: path("M9.437 15.355q-.571-.568-.571-1.39t.567-1.394t1.39-.571q.333 0 .63.106q.299.106.547.298V8.476q0-.157.121-.278t.283-.121h2.333q.155 0 .277.121q.12.121.12.283v.654q0 .161-.118.282q-.118.122-.275.122h-1.972v4.423q0 .824-.564 1.392t-1.38.569t-1.388-.568m10.854.152q-.708 1.643-1.923 2.859t-2.858 1.925T12 21q-1.784 0-3.363-.646t-2.79-1.786t-1.966-2.675t-.864-3.32q-.011-.244.13-.372q.14-.128.322-.14t.36.096t.188.382q.202 3.178 2.503 5.332T12 20.025q3.35 0 5.675-2.325T20 12.025T17.675 6.35T12 4.025q-2.436 0-4.365 1.28q-1.927 1.28-2.881 3.349h2.4q.212 0 .356.144t.144.357t-.144.356t-.356.143h-3.34q-.354 0-.584-.232T3 8.846V5.5q0-.213.144-.356T3.501 5t.356.144T4 5.5v2.48q1.087-2.228 3.21-3.604T12 3q1.868 0 3.51.709t2.858 1.922t1.923 2.857t.709 3.509t-.709 3.51");
+}
+
+</style>

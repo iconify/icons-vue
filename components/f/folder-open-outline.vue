@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="xpvvds8ho"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:folder-open-outline" /></template>
+<style>
+.xpvvds8ho {
+  fill: currentColor;
+  d: path("M4.5 19q-.633 0-1.066-.434Q3 18.133 3 17.5V6.616q0-.633.491-1.125Q3.983 5 4.615 5h4.981l2 2h7.789q.517 0 .903.28t.539.72h-9.633l-2-2H4.615q-.269 0-.442.173T4 6.616v10.769q0 .211.106.346t.279.23l2.265-7.576h16.216l-2.268 7.556q-.142.476-.545.768q-.403.291-.9.291zm.927-1h14.112l1.972-6.616H7.4zm0 0L7.4 11.385zM4 8V6z");
+}
+
+</style>

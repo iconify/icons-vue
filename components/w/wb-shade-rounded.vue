@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="nyd8zojyk"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:wb-shade-rounded" /></template>
+<style>
+.nyd8zojyk {
+  fill: currentColor;
+  d: path("m19.25 19.23l-5.308-5.307v-.377q0-.271.252-.368t.445.095l5.261 5.262q.192.192.095.444q-.096.252-.368.252zm-5.308-.807V17l2.231 2.23H14.75q-.343 0-.575-.231t-.233-.576m-9.23 0V9.615h-.339q-.272 0-.368-.252q-.097-.252.095-.444l3.277-3.277q.242-.242.565-.242q.324 0 .566.242l3.277 3.277q.192.192.095.444t-.369.252h-.338v8.808q0 .343-.232.576q-.233.232-.576.232h-4.85q-.344 0-.574-.233q-.23-.232-.23-.575m1.693-3.884H9.48V9.615H6.404z");
+}
+
+</style>

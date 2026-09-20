@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="prk_h7a1k"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:app-blocking-outline-sharp" /></template>
+<style>
+.prk_h7a1k {
+  fill: currentColor;
+  d: path("M12.039 15.692q1.534 0 2.613-1.078q1.079-1.08 1.079-2.614t-1.079-2.613t-2.613-1.08q-1.535 0-2.614 1.08Q8.346 10.466 8.346 12t1.079 2.614t2.614 1.078m0-.884q-1.166 0-1.987-.822q-.821-.82-.821-1.986q0-.454.133-.857q.132-.403.397-.793l3.928 3.927q-.391.265-.794.398t-.856.133m2.277-1.158l-3.927-3.927q.39-.265.793-.398t.857-.133q1.165 0 1.986.822q.821.82.821 1.986q0 .454-.113.847q-.114.394-.417.803M6 22V2h12.077v4.83H19v3.686h-.923V22zm1-1h10.077V3H7zm0 0V3z");
+}
+
+</style>

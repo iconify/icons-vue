@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="rcq78bbgh"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:folder-check-2-outline" /></template>
+<style>
+.rcq78bbgh {
+  fill: currentColor;
+  d: path("M4 18V6v5.935v-.627zm.616 1q-.691 0-1.153-.462T3 17.384V6.616q0-.691.463-1.153T4.615 5h4.981l2 2h7.789q.69 0 1.153.463T21 8.616v3.87q-.238-.17-.479-.302q-.24-.132-.521-.25V8.617q0-.27-.173-.443T19.385 8h-8.19l-2-2h-4.58q-.269 0-.442.173T4 6.616v10.769q0 .269.173.442t.443.173h6.326q.02.256.037.506t.09.494zm11.986.712l3.34-3.335l-.626-.627l-2.714 2.702L15.3 17.15l-.627.633zm3.541-4.855q1.165 1.164 1.165 2.835t-1.165 2.836t-2.835 1.164t-2.836-1.164t-1.164-2.836q0-1.67 1.164-2.835q1.165-1.165 2.836-1.165t2.835 1.165");
+}
+
+</style>

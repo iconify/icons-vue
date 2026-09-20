@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="rq5ik8rae"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:thermostat-arrow-up-outline-rounded" /></template>
+<style>
+.rq5ik8rae {
+  fill: currentColor;
+  d: path("M5.318 18.836Q4.154 17.67 4.154 16q0-1.046.525-1.959t1.475-1.503V6q0-.846.577-1.423T8.154 4t1.423.577T10.154 6v6.539q.95.59 1.475 1.502T12.154 16q0 1.671-1.164 2.836Q9.825 20 8.153 20t-2.836-1.164M5.154 16h6q0-.744-.4-1.436T9.609 13.33L9.154 13V6q0-.425-.288-.712T8.154 5t-.713.288T7.154 6v7l-.454.33q-.748.541-1.147 1.234q-.4.692-.4 1.436m13.732-9.084l-1.37 1.368q-.16.16-.354.16t-.353-.16t-.16-.353t.16-.354l2.011-2.011q.242-.243.565-.243q.324 0 .566.243l2.011 2.011q.16.165.16.357t-.165.35t-.357.163t-.351-.162L19.884 6.92V18.5q0 .214-.143.357t-.356.143t-.357-.143t-.143-.357z");
+}
+
+</style>

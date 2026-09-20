@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="h00jy6r0h"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:chat-paste-go-2-rounded" /></template>
+<style>
+.h00jy6r0h {
+  fill: currentColor;
+  d: path("M19.367 17.5H15q-.213 0-.356-.144t-.144-.357t.144-.356T15 16.5h4.367l-1.72-1.74q-.135-.147-.141-.348t.14-.347t.35-.146t.358.146l2.369 2.37q.243.242.243.565t-.243.566l-2.37 2.369q-.152.146-.357.146t-.35-.147t-.14-.347t.14-.347zm-13.578 0l-1.6 1.599q-.185.185-.437.089q-.252-.097-.252-.369V6.116q0-.667.475-1.141t1.14-.475h11.77q.666 0 1.14.475t.475 1.14v4.331q0 .249-.164.404q-.165.156-.407.15q-1.237.027-2.274.378q-1.038.35-1.982 1.295q-.938.944-1.292 1.982T12 16.929q.006.242-.16.407t-.394.164z");
+}
+
+</style>

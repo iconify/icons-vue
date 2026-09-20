@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="mcel8cwde"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:add-moderator-rounded" /></template>
+<style>
+.mcel8cwde {
+  fill: currentColor;
+  d: path("M16.616 17.385v1.73q0 .154.115.27q.115.115.269.115t.27-.115t.114-.27v-1.73h1.731q.154 0 .27-.112q.115-.111.115-.273t-.115-.273t-.27-.111h-1.73v-1.731q0-.154-.116-.27q-.115-.115-.269-.115t-.27.116q-.114.115-.114.269v1.73h-1.731q-.154 0-.27.112q-.115.111-.115.273t.116.273t.269.112zM17 21q-1.671 0-2.835-1.164Q13 18.67 13 17t1.165-2.835T17 13t2.836 1.165T21 17t-1.164 2.836T17 21M5 11.104V6.817q0-.514.293-.926q.292-.412.757-.597l5.385-2q.292-.106.565-.106t.566.106l5.384 2q.464.186.757.597q.293.412.293.926v3.57q0 .356-.279.576t-.646.153q-.258-.068-.534-.092Q17.264 11 17 11q-2.496 0-4.248 1.752T11 17q0 .627.14 1.274q.139.647.45 1.326q.187.398-.108.716t-.693.15q-1.147-.512-2.08-1.293q-.932-.78-1.703-1.865q-.948-1.322-1.477-2.902Q5 12.827 5 11.104");
+}
+
+</style>

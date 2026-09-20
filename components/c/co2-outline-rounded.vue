@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="mjib8ywww"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:co2-outline-rounded" /></template>
+<style>
+.mjib8ywww {
+  fill: currentColor;
+  d: path("M11.077 14.692q-.31 0-.54-.23t-.23-.539v-3.846q0-.31.23-.54t.54-.23h2.846q.31 0 .54.23t.23.54v3.846q0 .31-.23.54t-.54.23zm.115-.884h2.616v-3.616h-2.616zm6.116 3.442v-1.866q0-.309.23-.539t.539-.23h2.23v-1.423h-2.563q-.184 0-.31-.126t-.126-.316q0-.184.126-.313q.125-.13.316-.13h2.673q.31 0 .54.23t.23.54v1.539q0 .309-.23.539t-.54.23h-2.23v1.423h2.557q.185 0 .314.129q.128.129.128.313q0 .19-.128.316q-.13.126-.314.126h-3q-.19 0-.316-.126t-.126-.316M4.077 14.692q-.31 0-.54-.23t-.23-.539v-3.846q0-.31.23-.54t.54-.23h2.846q.31 0 .54.23t.23.54v.833q0 .165-.13.291q-.128.126-.313.126q-.19 0-.316-.126t-.126-.317v-.692H4.192v3.616h2.616v-.692q0-.185.126-.314t.316-.129q.185 0 .314.129q.128.129.128.314v.807q0 .31-.23.54t-.539.23z");
+}
+
+</style>

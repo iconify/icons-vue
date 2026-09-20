@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="hqyy2vbjf"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:rotate-90-degrees-ccw-outline-rounded" /></template>
+<style>
+.hqyy2vbjf {
+  fill: currentColor;
+  d: path("M13 21.5q-1.079 0-2.12-.226t-1.988-.749q-.183-.092-.24-.287q-.058-.196.034-.378q.093-.183.295-.259t.384.022q.823.467 1.742.672T13 20.5q3.137 0 5.318-2.182T20.5 13t-2.194-5.318T12.975 5.5h-1.386l1.746 1.746q.14.14.14.344t-.14.344t-.335.15t-.334-.13l-2.389-2.388q-.125-.125-.18-.265T10.04 5t.055-.301t.181-.264l2.37-2.389q.14-.14.344-.14t.344.14t.15.344t-.131.344L11.589 4.5h1.386q3.558 0 6.041 2.471T21.5 13q0 3.539-2.48 6.02T13 21.5m-6.51-4.305q-.136-.053-.267-.184l-3.446-3.445q-.13-.132-.184-.268q-.052-.136-.052-.298t.052-.298t.184-.267l3.446-3.447q.13-.13.268-.183q.136-.053.298-.053t.298.053t.267.184l3.446 3.445q.13.132.184.268q.053.137.053.298t-.053.298t-.184.268l-3.446 3.446q-.131.13-.268.183q-.136.053-.298.053t-.298-.053m.299-1.045L9.939 13l-3.15-3.15L3.639 13zm0-3.15");
+}
+
+</style>

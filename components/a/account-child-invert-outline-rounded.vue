@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="p1lizhbum"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:account-child-invert-outline-rounded" /></template>
+<style>
+.p1lizhbum {
+  fill: currentColor;
+  d: path("M12 3.5q1.039 0 1.789.75t.75 1.789t-.75 1.788t-1.789.75t-1.789-.75t-.75-1.789t.75-1.788T12 3.5m.003 5.923q.985 0 1.95.237q.964.236 1.736.64q.796.417 1.284.959q.489.541.489 1.187v4.877q0 .688-.404 1.225q-.405.537-1.06.537q-.29 0-.501-.211q-.212-.21-.212-.659v-.419q0-.797-1.106-1.3q-1.105-.504-2.179-.504q-.821 0-1.627.265t-1.26.718q-.18.18-.095.435q.086.255.363.336q.723.206 1.468.268t1.455.067q.446 0 .766.32t.32.774t-.32.774t-.774.32q-.817 0-1.804-.142t-1.873-.49t-1.483-.911t-.597-1.403v-4.877q0-.645.488-1.187q.489-.542 1.26-.959q.776-.404 1.753-.64q.977-.237 1.963-.237M12 14.5q.698 0 1.195-.497t.497-1.195t-.497-1.195T12 11.116t-1.195.497t-.497 1.195t.497 1.195T12 14.5");
+}
+
+</style>

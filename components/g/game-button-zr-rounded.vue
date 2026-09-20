@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="s-129dg9b"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:game-button-zr-rounded" /></template>
+<style>
+.s-129dg9b {
+  fill: currentColor;
+  d: path("M7.33 15.154h3.641q.182 0 .298-.115t.116-.296t-.116-.299t-.298-.117H8.042l3.187-4.594l.062-.436q0-.15-.101-.253q-.1-.102-.251-.102h-3.41q-.182 0-.298.115t-.116.297q0 .18.116.298t.298.117h2.704l-3.187 4.606l-.061.436q0 .139.104.241q.103.102.242.102m6.283-2.468h1.175l1.432 2.275q.062.087.156.14t.196.053q.251 0 .369-.219q.118-.218-.036-.427l-1.294-2.04q.623-.218.937-.647t.315-1.057q0-.921-.564-1.371t-1.727-.45h-1.008q-.343 0-.575.231q-.232.233-.232.576v4.979q0 .173.126.299q.125.126.3.126t.302-.131t.127-.3zm0-.761V9.758h.938q.708 0 1.07.277q.36.277.36.784q0 .531-.365.818q-.366.288-1.013.288zM21 6.596v9.116q0 1.356-.977 2.322t-2.35.966H6.327q-1.372 0-2.35-.966T3 15.712V6.596q0-.666.475-1.14t1.14-.475h14.77q.666 0 1.14.474T21 6.596");
+}
+
+</style>

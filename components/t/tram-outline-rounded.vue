@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="ppjdscc6w"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:tram-outline-rounded" /></template>
+<style>
+.ppjdscc6w {
+  fill: currentColor;
+  d: path("M5 17.116V8q0-1.829 1.856-2.386T11.462 5l.75-1.5H7.519q-.19 0-.316-.126t-.126-.316t.126-.317t.316-.126h8.962q.19 0 .316.126t.126.317t-.126.316t-.316.126h-3.193l-.75 1.5q2.802.056 4.632.61Q19 6.167 19 8v9.116q0 1.205-.84 2.045q-.839.839-2.044.839l1.192 1.192q.233.233.113.52t-.45.288q-.098 0-.183-.034q-.086-.033-.153-.1L14.769 20H9.231l-1.865 1.866q-.068.067-.153.1q-.086.034-.184.034q-.325 0-.447-.287q-.122-.288.11-.52L7.885 20q-1.206 0-2.045-.84Q5 18.322 5 17.117M16.116 14H6h12zm-3.323 3.293q.323-.322.323-.793t-.323-.793q-.322-.323-.793-.323t-.793.323q-.323.322-.323.793t.323.793q.322.323.793.323t.793-.323M11.99 7.54h5.93H6.092zM6 13h12V8.539H6zm1.885 6h8.23q.785 0 1.335-.55t.55-1.335V14H6v3.116q0 .784.55 1.334t1.335.55m4.104-13q-3.1 0-4.377.401t-1.52 1.138H17.92q-.242-.754-1.53-1.147T11.989 6");
+}
+
+</style>

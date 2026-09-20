@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="k_0rq7k_w"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:dentistry-rounded" /></template>
+<style>
+.k_0rq7k_w {
+  fill: currentColor;
+  d: path("M16.808 3.125q1.246.02 2.123.887t.877 2.113q0 .237-.028.66t-.103 1.005l-1.394 10.076q-.067.584-.517.934q-.449.35-1.033.35q-.402 0-.707-.221t-.534-.537l-2.963-4.034q-.108-.139-.24-.224q-.131-.086-.314-.086q-.177 0-.554.36l-2.888 3.91q-.254.326-.584.579t-.732.253q-.584 0-1.02-.362q-.437-.363-.505-.947L4.323 7.79q-.075-.581-.103-1.005t-.028-.661q0-1.246.877-2.123t2.123-.877q.727 0 1.246.238t1.018.512t1.091.513T12 4.625q.88 0 1.482-.238t1.1-.512t1.012-.513t1.214-.237");
+}
+
+</style>

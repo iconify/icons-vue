@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="uo7j1urdk"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:question-mark-sharp" /></template>
+<style>
+.uo7j1urdk {
+  fill: currentColor;
+  d: path("M11.33 15.539q0-1.372.421-2.288q.42-.916 1.73-2.062q.91-.824 1.37-1.563t.46-1.666q0-1.333-.918-2.22q-.918-.886-2.509-.886q-1.294 0-2.062.602T8.587 6.954L7.51 6.45q.641-1.273 1.714-2.016q1.073-.742 2.66-.742q2.22 0 3.422 1.27t1.2 2.974q0 1.097-.479 2.003q-.48.907-1.4 1.724q-1.378 1.214-1.737 1.98q-.358.766-.358 1.895zM11.886 21q-.402 0-.701-.299q-.3-.299-.3-.701t.3-.701t.7-.299t.702.299t.299.701t-.3.701t-.7.299");
+}
+
+</style>

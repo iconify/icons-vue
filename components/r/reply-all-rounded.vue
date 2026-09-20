@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="cfi9mllrn"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:reply-all-rounded" /></template>
+<style>
+.cfi9mllrn {
+  fill: currentColor;
+  d: path("m4.421 11l4.246 4.246q.146.146.153.344q.007.199-.159.364q-.165.16-.353.162q-.189.003-.354-.162l-4.388-4.389q-.131-.13-.184-.267q-.053-.136-.053-.298t.053-.298t.184-.267l4.388-4.389q.14-.14.341-.15t.367.15q.165.165.165.357t-.165.357zm4.616.5l3.746 3.746q.146.146.153.344q.006.199-.159.364q-.165.16-.354.162t-.354-.162l-4.388-4.389q-.131-.13-.184-.267q-.053-.136-.053-.298t.053-.298t.184-.267l4.388-4.389q.14-.14.341-.15q.202-.01.367.15q.165.165.165.357t-.165.357l-3.74 3.74H16.5q1.864 0 3.182 1.318T21 15v2.5q0 .214-.143.357T20.5 18t-.357-.143T20 17.5V15q0-1.442-1.029-2.471T16.5 11.5z");
+}
+
+</style>

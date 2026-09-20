@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="pacdiiajh"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:format-h2-outline-rounded" /></template>
+<style>
+.pacdiiajh {
+  fill: currentColor;
+  d: path("M4.143 16.356Q4 16.213 4 16V8q0-.213.144-.356t.357-.144t.356.144T5 8v3.5h5V8q0-.213.144-.356t.357-.144t.356.144T11 8v8q0 .213-.144.356t-.357.144t-.356-.144T10 16v-3.5H5V16q0 .213-.144.356t-.357.144t-.356-.144m9.665.144q-.344 0-.576-.232T13 15.692v-2.576q0-.667.475-1.141t1.14-.475h3.77q.269 0 .442-.173t.173-.442v-1.77q0-.269-.173-.442t-.442-.173H13.5q-.213 0-.356-.144T13 7.999t.144-.356t.356-.143h4.885q.666 0 1.14.475T20 9.115v1.77q0 .666-.475 1.14t-1.14.475h-3.77q-.269 0-.442.173t-.173.443V15.5h5.5q.213 0 .356.144t.144.357t-.144.356t-.356.143z");
+}
+
+</style>

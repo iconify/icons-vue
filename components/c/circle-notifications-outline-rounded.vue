@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="r-hpjpw4y"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:circle-notifications-outline-rounded" /></template>
+<style>
+.r-hpjpw4y {
+  fill: currentColor;
+  d: path("M12.851 17.543q.36-.341.418-.85h-2.538q.058.509.418.85t.851.341t.851-.34M10 13.922v-3.154q0-.825.588-1.412T12 8.769t1.413.588t.587 1.412v3.154zM12.003 21q-1.866 0-3.51-.708q-1.643-.709-2.859-1.924t-1.925-2.856T3 12.003t.709-3.51Q4.417 6.85 5.63 5.634t2.857-1.925T11.997 3t3.51.709q1.643.708 2.859 1.922t1.925 2.857t.709 3.509t-.708 3.51t-1.924 2.859t-2.856 1.925t-3.509.709M12 20q3.35 0 5.675-2.325T20 12t-2.325-5.675T12 4T6.325 6.325T4 12t2.325 5.675T12 20m-3.615-4.846h7.23q.262 0 .439-.177t.177-.438t-.177-.439t-.438-.177h-.385v-2.715q0-1.275-.672-2.317q-.672-1.041-1.867-1.314v-.808q0-.31-.191-.52T12 6.039t-.501.21t-.191.52v.808q-1.194.273-1.867 1.295q-.672 1.022-.672 2.297v2.754h-.385q-.261 0-.438.177t-.177.439t.177.438t.438.177");
+}
+
+</style>

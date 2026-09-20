@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="nm0j5sbfw"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:inbox-customize-outline-sharp" /></template>
+<style>
+.nm0j5sbfw {
+  fill: currentColor;
+  d: path("M5 18h7.056q.156.28.313.521q.158.24.367.479H4V3h16v6.842q-.244-.148-.484-.247q-.241-.099-.516-.174V4H5v9.616h4.2q.225.694.77 1.194t1.251.7q.021.269.054.522q.033.252.089.522q-.881-.137-1.602-.644t-1.185-1.295H5zm0 0h7.056zm11.794 1.23l-.108-.864q-.55-.125-.927-.33q-.378-.205-.73-.597l-.816.334l-.538-.815l.708-.577q-.185-.512-.185-1.016t.185-1.034l-.708-.596l.539-.816l.815.335q.333-.373.74-.588t.918-.339l.107-.865h1l.108.865q.511.106.908.33q.398.224.75.597l.815-.335l.539.815l-.708.597q.203.55.194 1.044t-.213 1.006l.726.577l-.538.815l-.815-.334q-.352.373-.73.587q-.378.215-.928.34l-.108.865zm2.018-2.366q.636-.635.636-1.518t-.636-1.518t-1.518-.636t-1.518.636t-.636 1.518q0 .883.636 1.518q.636.636 1.518.636t1.519-.636");
+}
+
+</style>

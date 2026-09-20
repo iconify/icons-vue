@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="fjixv4b1i"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:id-card-2-outline" /></template>
+<style>
+.fjixv4b1i {
+  fill: currentColor;
+  d: path("m7.45 12.427l3.102-3.102l-.627-.633l-2.5 2.5l-1.35-1.35l-.627.608zm-1.95 2.88H10v-.884H5.5zm6.116 0h6.615v-.165q0-.875-.879-1.354t-2.429-.48t-2.429.48t-.879 1.354zm4.374-4.048q.433-.434.433-1.067t-.433-1.066t-1.067-.434t-1.066.434t-.434 1.066t.434 1.067t1.066.433t1.067-.433M4.615 19q-.69 0-1.153-.462T3 17.384V6.616q0-.691.463-1.153T4.615 5h14.77q.69 0 1.152.463T21 6.616v10.769q0 .69-.463 1.153T19.385 19zm0-1h14.77q.23 0 .423-.192t.192-.424V6.616q0-.231-.192-.424T19.385 6H4.615q-.23 0-.423.192T4 6.616v10.769q0 .23.192.423t.423.192M4 18V6z");
+}
+
+</style>

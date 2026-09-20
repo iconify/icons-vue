@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="l374lmhfn"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:admin-meds-outline-sharp" /></template>
+<style>
+.l374lmhfn {
+  fill: currentColor;
+  d: path("M11.639 15.789q-.731.711-1.723.701t-1.705-.702q-.692-.711-.702-1.7q-.009-.99.702-1.702l4.15-4.175q.712-.711 1.723-.711t1.724.712t.702 1.7t-.702 1.702zM8.9 15.074q.575.575 1.188.413t.837-.388l1.721-1.746l-2-2L8.9 13.075q-.425.425-.425 1t.425 1m6.2-6.15q-.575-.575-1.187-.413t-.838.388l-1.721 1.746l2 2l1.746-1.721q.425-.425.425-1t-.425-1M4 20V4h6.316q-.137-.766.366-1.383Q11.184 2 12 2q.835 0 1.338.617T13.685 4H20v16zm1-1h14V5H5zm7.538-14.77q.212-.213.212-.538t-.212-.537T12 2.942t-.537.213t-.213.537t.213.538t.537.212t.538-.212M5 19V5z");
+}
+
+</style>

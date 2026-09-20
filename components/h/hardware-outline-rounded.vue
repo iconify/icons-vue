@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="so-bftblw"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:hardware-outline-rounded" /></template>
+<style>
+.so-bftblw {
+  fill: currentColor;
+  d: path("M11.039 20q-.31 0-.54-.23t-.23-.54V7H6.931q-.379 0-.592-.312t-.056-.67q.479-.931 1.389-1.475Q8.582 4 9.654 4H13.5q.31 0 .54.23t.23.54v2.115l2.588-2.589q.142-.142.304-.219Q17.325 4 17.51 4h.086q.233 0 .395.143t.163.357v5.77q0 .213-.163.356t-.395.143h-.087q-.184 0-.347-.077t-.304-.219l-2.589-2.589v11.347q0 .31-.23.54q-.23.229-.539.229zm.23-1h2v-6.48h-2zm0-7.5h2V5H9.654q-.65 0-1.235.253T7.41 6h3.86zm1 .5");
+}
+
+</style>

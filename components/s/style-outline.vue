@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="ad_xtzbgm"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:style-outline" /></template>
+<style>
+.ad_xtzbgm {
+  fill: currentColor;
+  d: path("m4.321 20.3l-.196-.08q-.794-.345-1.066-1.145q-.273-.8.077-1.556l1.185-2.554zm4.77 1.585q-.825 0-1.413-.588t-.587-1.412v-3.962l1.919 5.312q.075.194.15.347t.2.302zm3.88-.908q-.396.165-.78-.046q-.385-.212-.55-.627l-4.45-12.2q-.166-.396.03-.784q.196-.387.593-.547l7.55-2.75q.396-.165.761.046t.53.627l4.45 12.162q.166.415-.001.812t-.583.557zM11.88 9.713q.287-.288.287-.713t-.287-.712T11.167 8t-.712.288t-.288.712t.288.713t.712.287t.713-.288M12.617 20l7.55-2.75L15.717 5l-7.55 2.75zM8.167 7.75L15.717 5z");
+}
+
+</style>

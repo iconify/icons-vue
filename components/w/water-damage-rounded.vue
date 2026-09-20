@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="iivcaeb7m"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:water-damage-rounded" /></template>
+<style>
+.iivcaeb7m {
+  fill: currentColor;
+  d: path("M7.616 19q-.672 0-1.144-.472T6 17.385v-7.67L3 11.94q-.171.115-.363.094q-.19-.021-.325-.198q-.135-.171-.111-.36t.195-.323l8.629-6.438q.435-.33.975-.33t.975.33l8.648 6.432q.171.135.195.323t-.11.366q-.135.176-.323.195q-.189.018-.366-.097L18 9.696v7.689q0 .67-.472 1.143q-.472.472-1.143.472zm5.45-3.934q.434-.433.434-1.066q0-.483-.26-.995q-.26-.513-1.24-1.928q-1.02 1.512-1.26 1.976T10.5 14q0 .633.434 1.066q.433.434 1.066.434t1.066-.434");
+}
+
+</style>

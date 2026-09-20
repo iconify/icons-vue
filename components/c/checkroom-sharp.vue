@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="jb2ap6bzj"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:checkroom-sharp" /></template>
+<style>
+.jb2ap6bzj {
+  fill: currentColor;
+  d: path("M3.5 19q-.213 0-.356-.142T3 18.508q0-.124.052-.232t.156-.172L11.5 11.98v-1.789q0-.212.148-.356t.358-.144q.76 0 1.31-.546q.55-.547.55-1.306q0-.76-.539-1.3Q12.789 6 12.019 6q-.76 0-1.312.533q-.553.533-.553 1.294h-1q0-1.18.832-2.004Q10.82 5 12.02 5t2.023.82t.823 2.02q0 1.06-.668 1.84q-.668.782-1.697.959v1.342l8.312 6.123q.104.062.155.168t.052.23q0 .212-.143.355T20.52 19zm1.539-1H18.98L12 12.866z");
+}
+
+</style>

@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="hv1on0bkd"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:tibia-alt-sharp" /></template>
+<style>
+.hv1on0bkd {
+  fill: currentColor;
+  d: path("M10.927 22q-.554-1.31-.744-2.656t-.193-2.496t.094-2t.112-1.18q0-.122-.029-.212t-.163-.116q-.166-.029-.83-.139t-1.592-.417t-2.019-.835t-2.127-1.391l5.037-6.706l6.598 3.002q1.35.61 2.14 1.834Q18 9.915 18 11.426V22zm2.689-3.256q.205 0 .376-.1t.258-.25q.112.15.273.25t.362.1q.328 0 .549-.23q.22-.23.22-.539q0-.329-.22-.549t-.55-.22h-.192v-4.437h.192q.33 0 .55-.23t.22-.539q0-.329-.22-.549t-.55-.22q-.2 0-.361.087t-.273.238q-.087-.15-.258-.238q-.17-.087-.377-.087q-.31 0-.539.22t-.23.549q0 .31.23.54t.54.23h.192v4.436h-.192q-.31 0-.54.22t-.23.549q0 .31.23.54t.54.23");
+}
+
+</style>

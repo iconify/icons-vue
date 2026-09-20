@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="szb_8kbja"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:library-add-rounded" /></template>
+<style>
+.szb_8kbja {
+  fill: currentColor;
+  d: path("M13.857 13.356Q14 13.213 14 13v-2.5h2.5q.213 0 .356-.144T17 9.999t-.144-.356T16.5 9.5H14V7q0-.213-.144-.356t-.357-.144t-.356.144T13 7v2.5h-2.5q-.213 0-.356.144t-.144.357t.144.356t.356.143H13V13q0 .213.144.356t.357.144t.356-.144M8.116 17q-.691 0-1.153-.462T6.5 15.385V4.615q0-.69.463-1.153T8.116 3h10.769q.69 0 1.153.462t.462 1.153v10.77q0 .69-.462 1.152T18.884 17zm-3 3q-.691 0-1.153-.462T3.5 18.385V7.115q0-.212.144-.356t.357-.143t.356.143t.143.357v11.269q0 .23.192.423t.423.192h11.27q.212 0 .356.144t.143.357t-.143.356t-.357.143z");
+}
+
+</style>

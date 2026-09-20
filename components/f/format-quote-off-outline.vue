@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="s3ruek6gf"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:format-quote-off-outline" /></template>
+<style>
+.s3ruek6gf {
+  fill: currentColor;
+  d: path("m19.371 20.792l-8.65-8.65l-2.99 5.166H6.585l2.396-4.173q-.173.096-.404.134t-.461.039q-1.4 0-2.354-.972q-.954-.971-.954-2.336q0-.79.328-1.448t.895-1.1L3.208 4.629l.708-.713l16.169 16.169zm-1.548-5.794l-4.092-4.092q-.077-.223-.115-.443T13.577 10q0-1.42.954-2.363t2.353-.945q1.365 0 2.337.954q.971.954.971 2.347q0 .486-.118.906t-.336.793zm-9.707-2.806q.534 0 .992-.255t.736-.671L6.85 8.27q-.415.279-.671.737T5.923 10q0 .914.64 1.553q.639.64 1.553.64m10.322-.64q.639-.64.639-1.553t-.64-1.553t-1.553-.64t-1.552.64q-.64.64-.64 1.553t.64 1.553t1.552.64q.914 0 1.553-.64M16.885 10");
+}
+
+</style>

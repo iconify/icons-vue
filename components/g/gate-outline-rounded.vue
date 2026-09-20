@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="n-uekbc7t"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:gate-outline-rounded" /></template>
+<style>
+.n-uekbc7t {
+  fill: currentColor;
+  d: path("M4.028 15.74q-.143-.143-.143-.355v-6.77q0-.212.144-.356t.356-.143t.356.143t.144.357v6.769q0 .212-.144.356t-.357.144t-.356-.144m3.193 1.836q-.338 0-.568-.233q-.23-.234-.23-.578V9.462q0-1.266.893-2.153q.892-.886 2.146-.886h5.077q1.265 0 2.152.886q.886.887.886 2.152v7.305q0 .344-.23.578t-.568.233zm12.038-1.836q-.143-.144-.143-.356v-6.77q0-.212.143-.356q.144-.143.357-.143t.356.143t.144.357v6.769q0 .212-.144.356t-.357.144t-.356-.144m-11.836.836H11.5V12.5h-1.192q-.213 0-.356-.144t-.144-.357t.144-.356t.356-.143H11.5V7.423H9.461q-.84 0-1.44.599q-.598.599-.598 1.44zm5.077 0h4.077V9.461q0-.84-.599-1.44q-.599-.598-1.44-.598H12.5V11.5h1.192q.213 0 .356.144t.144.357t-.144.356t-.356.143H12.5z");
+}
+
+</style>

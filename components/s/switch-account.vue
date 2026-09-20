@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="fgx9tfb4z"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:switch-account" /></template>
+<style>
+.fgx9tfb4z {
+  fill: currentColor;
+  d: path("M15.77 10.733q.73-.729.73-1.77t-.728-1.77t-1.77-.731t-1.771.728t-.731 1.77t.729 1.77t1.769.732t1.771-.729M8.616 17q-.667 0-1.141-.475T7 15.386V4.615q0-.666.475-1.14T8.615 3h10.77q.666 0 1.14.475T21 4.615v10.77q0 .666-.475 1.14t-1.14.475zm-4 4q-.667 0-1.141-.475T3 19.386V7h1v12.385q0 .269.173.442t.443.173H17v1zm3.961-5h10.846q-1.05-1.175-2.451-1.818q-1.402-.644-2.969-.644t-2.971.644T8.577 16");
+}
+
+</style>

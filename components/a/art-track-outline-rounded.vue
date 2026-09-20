@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="fcnp1rd5h"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:art-track-outline-rounded" /></template>
+<style>
+.fcnp1rd5h {
+  fill: currentColor;
+  d: path("M3.385 18q-.69 0-1.153-.462t-.463-1.153v-8.77q0-.69.463-1.152T3.384 6h8.77q.69 0 1.153.463t.462 1.153v8.769q0 .69-.462 1.153T12.154 18zm0-1h8.769q.23 0 .423-.192q.192-.193.192-.424V7.616q0-.231-.192-.424T12.154 7h-8.77q-.23 0-.422.192t-.193.423v8.77q0 .23.193.423t.423.192m3.884-2.616l-1.077-1.42q-.13-.162-.323-.16q-.192.004-.323.165l-.855 1.154q-.143.212-.019.429t.367.217H10.5q.242 0 .354-.217t-.031-.429l-1.33-1.81q-.132-.161-.324-.161t-.323.162zm9.874 3.473Q17 17.714 17 17.5v-11q0-.213.143-.357T17.5 6t.357.143T18 6.5v11q0 .214-.143.357T17.5 18t-.357-.143m4.231 0q-.143-.143-.143-.357v-11q0-.213.143-.357T21.731 6t.356.143t.144.357v11q0 .214-.144.357t-.356.143t-.357-.143M2.769 17V7z");
+}
+
+</style>

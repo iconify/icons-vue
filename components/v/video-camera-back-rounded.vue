@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="m62zu_bex"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:video-camera-back-rounded" /></template>
+<style>
+.m62zu_bex {
+  fill: currentColor;
+  d: path("M6.948 15.73h7.066q.248 0 .356-.216q.109-.218-.033-.43l-1.945-2.597q-.055-.081-.146-.122q-.09-.04-.177-.04t-.177.04t-.146.121L9.92 14.764q-.056.081-.136.122t-.167.04t-.177-.04t-.147-.121l-.942-1.11q-.056-.081-.146-.109t-.177-.028t-.167.038t-.137.118l-1.079 1.412q-.161.211-.053.428q.109.218.357.218M5.096 19q-.69 0-1.153-.462t-.462-1.153V6.615q0-.69.462-1.152T5.096 5h10.77q.69 0 1.152.463t.463 1.153v4.653l2.342-2.342q.192-.192.444-.096t.252.369v5.6q0 .273-.252.37q-.252.095-.444-.097l-2.342-2.342v4.654q0 .69-.463 1.153T15.866 19z");
+}
+
+</style>

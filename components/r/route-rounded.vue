@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="vn0knwbkn"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:route-rounded" /></template>
+<style>
+.vn0knwbkn {
+  fill: currentColor;
+  d: path("M6.521 19.479Q5.5 18.458 5.5 17V8.479q-.875-.325-1.437-.991T3.5 6.006q0-1.044.729-1.775q.728-.731 1.769-.731t1.771.731t.731 1.776q0 .814-.562 1.48T6.5 8.48V17q0 1.031.736 1.766q.735.734 1.768.734t1.764-.734T11.5 17V7q0-1.458 1.021-2.479T15 3.5t2.479 1.021T18.5 7v8.521q.875.325 1.438.991t.562 1.481q0 1.045-.728 1.776q-.729.731-1.77.731t-1.771-.731t-.731-1.775q0-.815.563-1.494t1.437-.979V7q0-1.031-.735-1.766q-.736-.734-1.769-.734t-1.764.735T12.5 7v10q0 1.458-1.021 2.479T9 20.5t-2.479-1.021");
+}
+
+</style>

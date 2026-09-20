@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="zdmitjb1p"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:cinematic-blur-rounded" /></template>
+<style>
+.zdmitjb1p {
+  fill: currentColor;
+  d: path("M4.616 4L5.74 6.25q.175.35.5.55t.7.2q.75 0 1.15-.638t.05-1.312L7.616 4h2l1.125 2.25q.175.35.5.55t.7.2q.75 0 1.15-.638t.05-1.312L12.616 4h2l1.125 2.25q.175.35.5.55t.7.2q.75 0 1.15-.638t.05-1.312L17.616 4h1.769q.69 0 1.153.463T21 5.616v12.769q0 .69-.462 1.153T19.385 20H4.615q-.69 0-1.152-.462T3 18.384V5.616q0-.691.463-1.153T4.615 4m4.839 13.116h5.092q.306 0 .483-.225t.075-.499q-.108-.238-.296-.426q-.189-.189-.446-.33q-.493-.272-1.074-.396T12 15.115t-1.288.124t-1.073.397q-.258.14-.447.329q-.188.188-.296.426q-.127.23.06.476q.186.248.498.248m3.612-4.05q.434-.433.434-1.066t-.434-1.066T12 10.5t-1.066.434T10.5 12t.434 1.066T12 13.5t1.066-.434");
+}
+
+</style>

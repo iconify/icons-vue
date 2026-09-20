@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="p2d5sjblf"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:mic-external-on-rounded" /></template>
+<style>
+.p2d5sjblf {
+  fill: currentColor;
+  d: path("M5.416 7.462q-.26-.33-.396-.714q-.135-.385-.135-.787q0-1.041.728-1.77q.729-.73 1.77-.73t1.77.73t.732 1.77q0 .402-.136.787q-.135.385-.395.713zm4.778 13.077q-1.363 0-2.336-.972t-.973-2.336h-.043q-.303 0-.534-.212t-.273-.515l-.723-7.077q-.05-.363.197-.626q.247-.262.61-.262H8.65q.364 0 .61.262q.248.262.198.626l-.723 7.077q-.042.303-.273.515t-.535.212h-.042q0 .96.674 1.633q.674.674 1.633.674q.96 0 1.634-.678q.674-.677.674-1.63V6.77q0-1.365.971-2.337t2.335-.972t2.336.972q.974.972.974 2.336v13.27q0 .212-.144.356t-.357.143t-.356-.143t-.144-.357V6.77q0-.952-.674-1.63t-1.633-.678t-1.634.678t-.674 1.63v10.462q0 1.364-.971 2.336t-2.335.971");
+}
+
+</style>

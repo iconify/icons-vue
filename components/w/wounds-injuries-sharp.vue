@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="jwujy2kyu"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:wounds-injuries-sharp" /></template>
+<style>
+.jwujy2kyu {
+  fill: currentColor;
+  d: path("m3.785 20.904l-.689-.688l2.45-2.47L3 17.07l.256-.963l2.54.677l-.671-2.546l.964-.256l.676 2.546l4.272-4.271l-2.547-.677l.256-.963l2.54.67l-.67-2.54l.963-.256l.677 2.546l4.271-4.27l-2.546-.677l.256-.964l2.546.671l-.677-2.54l.963-.256l.677 2.546l2.47-2.45l.688.689l-2.45 2.469L21 6.93l-.256.963l-2.54-.677l.671 2.547l-.963.255l-.677-2.546l-4.271 4.271l2.545.677l-.255.964l-2.54-.671l.67 2.54l-.963.256l-.677-2.546l-4.271 4.27l2.546.678l-.255.963l-2.547-.671l.677 2.54l-.963.256l-.677-2.546z");
+}
+
+</style>

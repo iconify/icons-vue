@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="usqcvk1iq"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:health-and-beauty" /></template>
+<style>
+.usqcvk1iq {
+  fill: currentColor;
+  d: path("M16.539 21q-.213 0-.357-.144t-.143-.357t.143-.356t.357-.143h3.5v-2.77h-3.5q-.213 0-.357-.143q-.143-.144-.143-.357t.143-.356t.357-.143h3.5v-2.77h-3.5q-.213 0-.357-.143q-.143-.144-.143-.357t.143-.356t.357-.143h3.5v-2.77h-3.5q-.213 0-.357-.144q-.143-.143-.143-.356t.143-.356t.357-.144h3.5V5.923h-3.5q-.213 0-.357-.144q-.143-.144-.143-.356q0-.213.143-.357t.357-.143h3.653q.69 0 1.153.463t.463 1.153v12.846q0 .69-.463 1.153T20.192 21zM5.653 21l-3.462-9.577l4.77-2.846V3h2v5.577l4.769 2.846L10.269 21z");
+}
+
+</style>

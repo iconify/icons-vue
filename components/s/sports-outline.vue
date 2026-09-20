@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="hb4cau8qj"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:sports-outline" /></template>
+<style>
+.hb4cau8qj {
+  fill: currentColor;
+  d: path("M10.02 17.885q-2.02 0-3.453-1.433T5.134 13q0-.346.054-.691q.054-.346.123-.563q-.105.05-.223.056t-.213.006q-.81 0-1.352-.547t-.542-1.338t.524-1.338t1.324-.547q.69 0 1.209.405t.639 1.015q.633-.635 1.532-.989t1.81-.354h11v2h-6.115V13q0 2.035-1.425 3.46q-1.424 1.425-3.46 1.425m-4.441-7.25q.288-.287.288-.712t-.288-.712t-.712-.288t-.713.288t-.288.712t.288.713t.713.287t.712-.288m7.108 5.03q1.102-1.105 1.102-2.668t-1.104-2.664t-2.667-1.102t-2.665 1.105t-1.102 2.667t1.105 2.664t2.667 1.102t2.665-1.104m-1.524-1.525q.472-.476.472-1.144t-.476-1.14t-1.143-.472t-1.14.476t-.472 1.143t.475 1.14t1.144.472t1.14-.475M10.019 13");
+}
+
+</style>

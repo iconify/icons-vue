@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="ibl5ujbsj"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:emoji-transportation" /></template>
+<style>
+.ibl5ujbsj {
+  fill: currentColor;
+  d: path("M10.116 20.196v-5.542l1.361-3.889q.048-.12.151-.193q.103-.072.299-.072h7.146q.17 0 .286.072t.164.194l1.362 3.888v5.542q0 .177-.121.298t-.299.121h-.161q-.178 0-.299-.12t-.12-.299v-1.273h-8.77v1.273q0 .177-.12.298t-.299.121h-.161q-.178 0-.299-.12q-.12-.122-.12-.299m1.23-6.35h8.308l-.854-2.461h-6.6zm1.857 3.088q.259-.259.259-.626t-.259-.626t-.626-.259t-.626.259t-.259.626t.259.626t.626.258t.626-.258m5.846 0q.259-.259.259-.626t-.259-.626t-.626-.259t-.626.259t-.258.626t.258.626t.626.258t.626-.258M6.346 12.616v-1.539h1.539v1.539zm4-5V6.077h1.539v1.539zm-4 9v-1.539h1.539v1.539zm0 4v-1.539h1.539v1.539zm-3.23 0V7.846h4v-5h8V8.27h-1V3.846h-6v5h-4v11.77z");
+}
+
+</style>

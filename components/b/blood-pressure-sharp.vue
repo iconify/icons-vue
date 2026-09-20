@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="rflsm-txg"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:blood-pressure-sharp" /></template>
+<style>
+.rflsm-txg {
+  fill: currentColor;
+  d: path("M14.165 19.836Q13 18.67 13 17t1.165-2.835T17 13t2.836 1.165T21 17t-1.164 2.836T17 21t-2.835-1.164m3.035-2.509l1.929-1.91l-.546-.546l-1.91 1.929zM3 11.5V5h18v7.042q-.846-.698-1.874-1.062T17 10.615q-1.008 0-1.909.286q-.9.286-1.675.826l-1.978-3.946q-.067-.115-.182-.173T11 7.55t-.265.058t-.193.173L7 14.89l-1.567-3.11q-.067-.135-.18-.208T5 11.5zM3 19v-6.5h1.683l1.86 3.739q.066.14.179.2q.112.061.278.061q.14 0 .253-.06q.113-.061.18-.202l3.548-7.104l1.623 3.247q-.92.873-1.454 2.062T10.616 17q0 .506.075 1.009q.076.502.253.991z");
+}
+
+</style>

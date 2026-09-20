@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="zm0vy8khw"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:passport-sharp" /></template>
+<style>
+.zm0vy8khw {
+  fill: currentColor;
+  d: path("M8.5 18.192h7v-.884h-7zm6.71-4.491q1.328-1.318 1.328-3.201T15.21 7.29T12 5.962T8.799 7.29Q7.481 8.617 7.481 10.5t1.318 3.201T12 15.019t3.21-1.318m-3.21.336q-.412-.602-.666-1.384q-.253-.782-.328-1.71h1.988q-.075.928-.328 1.71q-.254.782-.666 1.384m-1.127-.075q-.984-.318-1.66-1.123t-.844-1.897h1.752q.031.722.218 1.476t.534 1.544m2.139 0q.367-.731.592-1.496q.225-.764.275-1.524h1.752q-.189 1.09-.892 1.897q-.704.805-1.727 1.123m-4.643-3.904q.189-1.148.921-1.983q.733-.835 1.737-1.094q-.406.615-.63 1.399q-.226.783-.276 1.678zm2.637 0q.075-.987.328-1.778q.254-.791.666-1.374q.411.582.665 1.374q.254.791.33 1.778zm2.873 0q-.031-.856-.246-1.63q-.216-.774-.64-1.447q1.06.26 1.784 1.094q.723.835.854 1.983zM5 21V3h14v18z");
+}
+
+</style>

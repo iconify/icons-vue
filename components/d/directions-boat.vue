@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="xjct7zwxv"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:directions-boat" /></template>
+<style>
+.xjct7zwxv {
+  fill: currentColor;
+  d: path("M4.262 21H4v-1h.262q1.046 0 2.037-.301t1.976-.876q.854.552 1.74.845q.885.294 1.946.294t1.948-.294t1.739-.845q.979.575 1.976.876t2.043.301H20v1h-.333q-1.033 0-2.032-.225t-1.97-.694q-.903.455-1.834.684t-1.87.23t-1.866-.23q-.928-.229-1.832-.684q-.97.469-1.97.694T4.262 21m5.777-4.058q-.885-.634-1.808-1.673q-.848.945-1.513 1.429t-1.46.8l-1.49-5.306q-.087-.31.065-.592q.151-.283.461-.388l1.225-.4V6.616q0-.672.472-1.144Q6.464 5 7.135 5h3.038V3h3.616v2h3.038q.671 0 1.143.472t.472 1.143v4.197l1.225.4q.31.105.462.388t.065.592l-1.49 5.306q-.796-.315-1.46-.8q-.665-.484-1.513-1.429q-.923 1.039-1.808 1.673q-.884.635-1.942.635t-1.942-.635M6.48 10.517l5.48-1.67l5.481 1.67V6H6.481z");
+}
+
+</style>

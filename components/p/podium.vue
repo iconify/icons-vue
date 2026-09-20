@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="kakzk3b0y"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:podium" /></template>
+<style>
+.kakzk3b0y {
+  fill: currentColor;
+  d: path("M4.942 14.5L4.077 9h2.48q.155-1.014.81-1.783t1.652-1.07Q9 6.106 9 6.05v-.096q.017-.621.448-1.038q.43-.416 1.052-.416q.633 0 1.066.434Q12 5.367 12 6t-.434 1.066q-.433.434-1.066.434q-.306 0-.571-.116q-.265-.117-.483-.336q-.715.2-1.222.725T7.564 9h12.359l-.865 5.5h-2.983l.06-.687q.086-.898-.515-1.577q-.6-.678-1.518-.678H9.898q-.917 0-1.518.679q-.601.678-.514 1.576l.059.687zm4.368 5.058l-.56-5.837q-.05-.511.29-.895t.858-.384h4.204q.517 0 .857.384q.341.383.291.895l-.56 5.837z");
+}
+
+</style>

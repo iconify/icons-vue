@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="x6tyft70v"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:motion-photos-auto-outline" /></template>
+<style>
+.x6tyft70v {
+  fill: currentColor;
+  d: path("M8.877 15.154h.889l.75-2.05h2.969l.75 2.05h.938l-2.742-7.27h-.862zm1.884-2.854L11.95 9h.1l1.189 3.3zm-2.267 7.999q-1.642-.701-2.858-1.916q-1.215-1.216-1.926-2.849Q3 13.902 3 12.04q0-.902.167-1.776t.497-1.715l.78.78q-.219.65-.331 1.317T4 12q0 3.35 2.325 5.675T12 20t5.675-2.325T20 12t-2.325-5.675T12 4q-.675 0-1.332.112t-1.3.332l-.776-.775q.789-.315 1.606-.492T11.885 3q1.882 0 3.544.701t2.896 1.926t1.955 2.867T21 12t-.71 3.506q-.711 1.642-1.926 2.857q-1.216 1.216-2.858 1.926Q13.864 21 12 21t-3.506-.701M5.303 6.543q-.264-.264-.264-.62t.264-.62t.62-.264t.62.264t.265.62t-.265.62t-.62.265t-.62-.265M12 12");
+}
+
+</style>

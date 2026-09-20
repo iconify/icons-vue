@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="gc-7h2cjq"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:fiber-pin-outline" /></template>
+<style>
+.gc-7h2cjq {
+  fill: currentColor;
+  d: path("M5.385 14.692h.884v-2.076h2.423q.445 0 .761-.317q.316-.316.316-.76v-1.154q0-.444-.316-.761q-.316-.316-.76-.316H5.384zm5.98 0h.885V9.308h-.885zm2.866 0h.827V10.77l2.704 3.923h.854V9.308h-.827v3.923l-2.655-3.923h-.903zm-7.962-2.961v-1.539h2.308q.115 0 .212.097q.095.096.095.211v.923q0 .116-.096.212t-.211.096zM4.615 19q-.69 0-1.153-.462T3 17.384V6.616q0-.691.463-1.153T4.615 5h14.77q.69 0 1.152.463T21 6.616v10.769q0 .69-.463 1.153T19.385 19zm0-1h14.77q.23 0 .423-.192t.192-.424V6.616q0-.231-.192-.424T19.385 6H4.615q-.23 0-.423.192T4 6.616v10.769q0 .23.192.423t.423.192M4 18V6z");
+}
+
+</style>

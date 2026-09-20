@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="xz-4qrsnm"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:schema-outline-rounded" /></template>
+<style>
+.xz-4qrsnm {
+  fill: currentColor;
+  d: path("M4.885 21.077v-2.154q0-.44.299-.74q.299-.298.739-.298H7v-3.77H5.923q-.44 0-.74-.299q-.298-.299-.298-.739v-2.154q0-.44.299-.74q.299-.298.739-.298H7v-3.77H5.923q-.44 0-.74-.299q-.298-.299-.298-.739V2.923q0-.44.299-.74q.299-.298.739-.298h3.154q.44 0 .74.299q.299.299.299.739v2.154q0 .44-.3.74q-.299.299-.739.299H8v3.769h1.077q.44 0 .74.299q.299.299.299.739v.577h4.769v-.577q0-.44.299-.74q.299-.298.739-.298h3.154q.44 0 .74.299q.299.299.299.739v2.154q0 .44-.3.74q-.299.299-.739.299h-3.154q-.44 0-.74-.3q-.298-.299-.298-.739V12.5h-4.77v.577q0 .44-.299.74q-.299.299-.739.299H8v3.769h1.077q.44 0 .74.299q.299.299.299.739v2.154q0 .44-.3.74q-.299.299-.739.299H5.923q-.44 0-.74-.3q-.298-.299-.298-.739m1 .039h3.23v-2.231h-3.23zm0-8h3.23v-2.231h-3.23zm10 0h3.23v-2.231h-3.23zm-10-8h3.23V2.885h-3.23zM7.5 20");
+}
+
+</style>

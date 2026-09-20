@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="c8ucvefwb"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:bungalow-rounded" /></template>
+<style>
+.c8ucvefwb {
+  fill: currentColor;
+  d: path("M8.808 20q-.348 0-.578-.23T8 19.192v-5.988l-.94 1.502q-.11.177-.308.216t-.375-.07t-.22-.308t.068-.375l5.079-8.184q.13-.193.308-.283q.177-.09.388-.09t.379.09t.298.283l5.098 8.184q.11.177.058.375t-.23.308t-.374.067t-.308-.219L16 13.223v5.97q0 .348-.23.577t-.578.23H12.77v-3q0-.31-.22-.54t-.55-.23q-.31 0-.54.23t-.23.54v3zm3.732-6.23q.23-.23.23-.54q0-.309-.23-.539t-.54-.23t-.54.23t-.23.54t.23.54T12 14t.54-.23");
+}
+
+</style>

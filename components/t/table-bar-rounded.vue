@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="nk4o7obyj"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:table-bar-rounded" /></template>
+<style>
+.nk4o7obyj {
+  fill: currentColor;
+  d: path("m7 18.36l1.077-2.687q.129-.287.389-.47q.259-.184.576-.184H11.5v-4.813q-3.421-.067-5.74-.856T3.443 7.5q0-1.142 2.483-1.927Q8.408 4.789 12 4.789q3.598 0 6.078.784q2.48.785 2.48 1.927q0 1.08-2.328 1.86q-2.328.779-5.73.846v4.813h2.458q.311 0 .574.184t.391.47L17 18.36q.104.238-.04.449q-.143.21-.412.21q-.16 0-.27-.082q-.109-.083-.176-.224l-1.071-2.694H8.969l-1.09 2.695q-.067.14-.167.223t-.26.082q-.27 0-.413-.21q-.143-.211-.039-.45");
+}
+
+</style>

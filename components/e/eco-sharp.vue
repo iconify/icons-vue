@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="dymp-et0b"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:eco-sharp" /></template>
+<style>
+.dymp-et0b {
+  fill: currentColor;
+  d: path("M11.25 21q-.96 0-1.893-.255t-1.809-.759q.53-2.409 1.789-4.505t3.129-3.712q-2.174 1.266-3.773 3.181t-2.168 4.346q-.12-.094-.216-.181q-.097-.088-.217-.207q-1.001-1.04-1.547-2.318Q4 15.314 4 13.95q0-1.508.589-2.875t1.653-2.433q1.775-1.775 4.539-2.31t8.146-.209q.373 5.244-.188 8.055q-.562 2.81-2.331 4.58q-1.052 1.09-2.392 1.666T11.25 21");
+}
+
+</style>

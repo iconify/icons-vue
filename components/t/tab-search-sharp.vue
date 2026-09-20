@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="bcc1rqbyf"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:tab-search-sharp" /></template>
+<style>
+.bcc1rqbyf {
+  fill: currentColor;
+  d: path("M3 19V5h18v6.839q-.702-.793-1.638-1.273t-1.977-.572H20V6h-7v3.994h2.77q-2.12.202-3.57 1.8q-1.45 1.597-1.45 3.802q0 .94.295 1.802T11.883 19zm18.292 2l-2.661-2.642q-.454.286-.977.464T16.577 19q-1.413 0-2.418-1.005t-1.005-2.418t1.005-2.418t2.418-1.005t2.418 1.005T20 15.577q0 .554-.159 1.087q-.158.532-.503.967L22 20.292zm-2.998-3.706q.706-.706.706-1.717t-.706-1.717t-1.717-.706t-1.718.706t-.705 1.717t.705 1.717q.707.706 1.718.706t1.717-.706");
+}
+
+</style>

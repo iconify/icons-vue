@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="lt6n6mbca"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:aq-sharp" /></template>
+<style>
+.lt6n6mbca {
+  fill: currentColor;
+  d: path("m18.44 17.016l-.592-.899q-.437.225-.898.347t-.967.122q-1.72 0-2.906-1.186t-1.187-2.906q0-1.713 1.187-2.903q1.186-1.189 2.88-1.189t2.869 1.199T20 12.494q0 .923-.38 1.737t-1.087 1.411l.592.899zM4 16.406l2.998-7.823h1.004l3.042 7.823h-.973l-.723-1.948H5.696l-.729 1.948zm11.958-.658q.369 0 .72-.084q.35-.085.69-.268L16.432 14l.69-.47l.923 1.386q.502-.476.775-1.095t.273-1.327q0-1.336-.903-2.295t-2.233-.959t-2.247.95t-.915 2.304t.915 2.305q.916.949 2.247.949m-9.966-2.071h3.073L7.56 9.711h-.1z");
+}
+
+</style>

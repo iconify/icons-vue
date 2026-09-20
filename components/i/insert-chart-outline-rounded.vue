@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="x0zoudtoo"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:insert-chart-outline-rounded" /></template>
+<style>
+.x0zoudtoo {
+  fill: currentColor;
+  d: path("M5.616 20q-.691 0-1.153-.462T4 18.384V5.616q0-.691.463-1.153T5.616 4h12.769q.69 0 1.153.463T20 5.616v12.769q0 .69-.462 1.153T18.384 20zm0-1h12.769q.23 0 .423-.192t.192-.424V5.616q0-.231-.192-.424T18.384 5H5.616q-.231 0-.424.192T5 5.616v12.769q0 .23.192.423t.423.192M5 5v14zm2.874 5.643q-.143.143-.143.357v5q0 .214.143.357t.357.143t.357-.143T8.73 16v-5q0-.213-.144-.357T8.23 10.5t-.357.143m3.77-3Q11.5 7.787 11.5 8v8q0 .214.143.357T12 16.5t.357-.143T12.5 16V8q0-.213-.143-.357T12 7.5t-.357.143m3.77 6q-.144.143-.144.357v2q0 .214.144.357t.356.143t.357-.143t.143-.357v-2q0-.213-.143-.357t-.357-.143t-.357.143");
+}
+
+</style>

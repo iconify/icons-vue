@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="q9_uducxx"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:nordic-walking-outline" /></template>
+<style>
+.q9_uducxx {
+  fill: currentColor;
+  d: path("m4.442 22.5l1.789-8.192h.89L5.333 22.5zm3.212 0l2.8-14.446L7.5 9.273V12.5h-1V8.608l4.57-1.9q.686-.281 1.263-.14t.944.701l.98 1.581q.65 1.05 1.754 1.764q1.103.713 2.489.847v1q-1.554-.095-2.924-.946t-2.326-2.38l-.889 4.519l2.139 2.058V22.5h-1v-5.673l-2.908-2.789L8.677 22.5zM13.5 5.192q-.69 0-1.191-.5q-.501-.501-.501-1.192t.5-1.191q.502-.501 1.192-.501t1.191.5q.501.502.501 1.192t-.5 1.191q-.502.501-1.192.501M17.808 22.5v-8.192h.884V22.5z");
+}
+
+</style>

@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="k436knbxi"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:all-out-rounded" /></template>
+<style>
+.k436knbxi {
+  fill: currentColor;
+  d: path("M7 20H5.616q-.667 0-1.141-.475T4 18.386V17q0-.213.144-.356t.357-.144t.356.144T5 17v1.385q0 .269.173.442t.443.173H7q.213 0 .356.144t.144.357t-.144.356T7 20m11.385 0H17q-.213 0-.356-.144t-.144-.357t.144-.356T17 19h1.385q.269 0 .442-.173t.173-.442V17q0-.213.144-.356t.357-.144t.356.144T20 17v1.385q0 .666-.475 1.14t-1.14.475M7.752 16.248Q6 14.496 6 12t1.752-4.248T12 6t4.248 1.752T18 12t-1.752 4.248T12 18t-4.248-1.752M4 5.616q0-.667.475-1.141T5.615 4H7q.213 0 .356.144t.144.357t-.144.356T7 5H5.616q-.27 0-.443.173T5 5.616V7q0 .213-.144.356t-.357.144t-.356-.144T4 7zm15.143 1.74Q19 7.213 19 7V5.616q0-.27-.173-.443T18.385 5H17q-.213 0-.356-.144t-.144-.357t.144-.356T17 4h1.385q.666 0 1.14.475T20 5.615V7q0 .213-.144.356t-.357.144t-.356-.144");
+}
+
+</style>

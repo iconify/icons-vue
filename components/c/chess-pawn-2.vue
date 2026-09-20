@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="iimyr0bpk"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:chess-pawn-2" /></template>
+<style>
+.iimyr0bpk {
+  fill: currentColor;
+  d: path("M5 21q.135-2.196 1.452-3.93q1.317-1.735 3.39-2.403q-.973-.552-1.523-1.514t-.55-2.095q0-1.312.72-2.375q.72-1.064 1.934-1.547q-.385-.336-.586-.79q-.202-.454-.202-.962q0-.98.692-1.673q.692-.692 1.673-.692t1.673.692t.693 1.673q0 .508-.202.962t-.587.79q1.214.483 1.934 1.547q.72 1.063.72 2.375q0 1.132-.553 2.095q-.553.962-1.526 1.514q2.073.667 3.393 2.402T19 21z");
+}
+
+</style>

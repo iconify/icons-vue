@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="bdmmtyb2w"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:simulation-outline" /></template>
+<style>
+.bdmmtyb2w {
+  fill: currentColor;
+  d: path("M8.616 16.385v-.48q0-.926.936-1.492T12 13.846t2.448.567t.937 1.493v.479zm2.193-3.886q-.501-.501-.501-1.191t.5-1.192q.502-.5 1.192-.5t1.191.5t.501 1.192q0 .69-.5 1.191Q12.69 13 12 13t-1.191-.501m-7.79-3.78v8.15q.215.46.965.832t1.824.555V9.83q-.973-.183-1.668-.46q-.696-.279-1.12-.652m17.96-.006q-.424.373-1.116.651t-1.672.461v8.43q1.074-.182 1.824-.554t.965-.832zM6.809 19.536q-2.26-.293-3.495-.954t-1.294-1.6V7.404q0-1.195 2.51-1.796q2.512-.602 7.47-.602t7.47.602q2.51.602 2.51 1.796v9.577q-.057.938-1.292 1.6t-3.496.954V8.977q1.449-.258 2.398-.651t1.316-.899q-.787-.713-3.05-1.07T12 6q-3.67 0-6.029.386q-2.36.385-2.877 1.041q.31.512 1.259.902t2.455.648zM3.019 8.719v9.152zm17.962-.005v9.157z");
+}
+
+</style>

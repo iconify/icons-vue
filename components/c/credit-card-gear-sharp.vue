@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="xmpasc-9m"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:credit-card-gear-sharp" /></template>
+<style>
+.xmpasc-9m {
+  fill: currentColor;
+  d: path("m17.035 20.808l-.108-.885q-.473-.106-.89-.32q-.416-.215-.748-.588l-.835.335l-.539-.815l.689-.577q-.165-.517-.165-1.035t.165-1.034l-.688-.577l.538-.816l.834.335q.314-.373.74-.588t.899-.32l.108-.884h1l.107.884q.474.106.9.32q.425.215.739.588l.835-.335l.538.816l-.688.577q.165.517.165 1.034q0 .518-.165 1.035l.688.577l-.538.815l-.835-.334q-.333.373-.75.587q-.415.214-.889.32l-.107.885zm2.028-2.357q.626-.626.626-1.528t-.626-1.528t-1.528-.626t-1.528.626t-.626 1.528t.626 1.528t1.527.626q.903 0 1.529-.626M3 19V5h18v6.287q-.238-.153-.479-.278q-.24-.124-.521-.222v-1.98H4v2.385h10.385q-1.552.797-2.509 2.324q-.957 1.528-.957 3.407q0 .55.089 1.072q.088.522.26 1.005z");
+}
+
+</style>

@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="sd21q7lzx"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:key-off-rounded" /></template>
+<style>
+.sd21q7lzx {
+  fill: currentColor;
+  d: path("m19.479 20.9l-7.163-7.163h-.885q-.396 1.215-1.589 2.104q-1.192.89-2.842.89q-2 0-3.366-1.366Q2.27 14 2.27 12q0-1.766 1.092-3.016q1.091-1.25 2.672-1.53L3.1 4.52q-.14-.14-.14-.341t.14-.366q.146-.166.357-.156q.21.01.357.156l16.373 16.378q.14.14.153.342q.012.2-.153.366q-.16.14-.364.14t-.344-.14m2.216-8.608q-.053.137-.183.268l-1.523 1.542q-.093.092-.236.167t-.291.075q-.206 0-.33-.043t-.236-.135l-1.108-.916l-.998.716l-3.465-3.466h6.91q.161 0 .31.056t.274.18l.687.687q.13.13.186.27t.056.301t-.053.298M7 13.846q.729 0 1.25-.49t.573-1.189q0-.23-.216-.572t-.539-.663t-.663-.539t-.572-.216q-.724.052-1.201.582T5.154 12q0 .77.538 1.308T7 13.846");
+}
+
+</style>

@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="e15im8bpy"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:garage-check-outline-sharp" /></template>
+<style>
+.e15im8bpy {
+  fill: currentColor;
+  d: path("M4 20V4v7.839v-.628zm2-8.746v5.792q0 .196.129.325t.325.129h.092q.196 0 .325-.129T7 17.046V15.5h4.29q.087-.28.188-.518q.1-.238.241-.482H7v-3h8.42q.638-.196 1.284-.258q.646-.061 1.296.006l-1.496-4.294q-.068-.215-.24-.335q-.172-.119-.387-.119H8.123q-.215 0-.387.12q-.172.118-.24.334zm1.304-.754l1.046-3h7.3l1.046 3zm1.85 3.04q.23-.23.23-.54t-.23-.54t-.538-.23t-.54.23t-.23.54t.23.54t.54.23t.539-.23m7.453 6.076l3.357-3.358l-.557-.558l-2.8 2.8l-1.4-1.4l-.558.558zm3.535-4.855q1.165 1.164 1.165 2.835t-1.165 2.836t-2.835 1.164t-2.836-1.164t-1.164-2.836t1.164-2.835t2.836-1.165q1.67 0 2.835 1.165M3 21V3h18v9.39q-.238-.17-.479-.302q-.24-.132-.521-.25V4H4v16h7.396q.098.28.23.521q.132.24.284.479z");
+}
+
+</style>

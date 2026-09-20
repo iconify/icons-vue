@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="hpc17d85y"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:battery-charging-90-rounded" /></template>
+<style>
+.hpc17d85y {
+  fill: currentColor;
+  d: path("M8.692 21q-.343 0-.575-.232t-.233-.576V5.288q0-.343.233-.575t.575-.232h1.616v-.673q0-.344.232-.576T11.116 3h1.769q.343 0 .575.232t.232.576v.673h1.62q.344 0 .574.232t.23.575v6.421q0 .213-.133.367q-.133.155-.35.205q-.916.202-1.7.668q-.785.466-1.386 1.14q-.687.769-1.079 1.75t-.391 2.103q0 .565.098 1.092t.294 1.016q.143.348-.048.649q-.19.301-.538.301zm.192-13.154h6.232V5.461H8.885zm7.693 11h-.858q-.223 0-.341-.195t-.001-.407l1.676-3.021q.083-.127.227-.096t.143.197v1.83h.858q.223 0 .341.195t.001.406l-1.676 3.022q-.084.127-.227.096t-.143-.197z");
+}
+
+</style>

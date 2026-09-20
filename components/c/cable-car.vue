@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="cgf1cublf"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:cable-car" /></template>
+<style>
+.cgf1cublf {
+  fill: currentColor;
+  d: path("M7.75 19.77V19H4v-1h1V6H4V5h2.998l.618-1.23h8.75L17.002 5H20v1h-1v12h1v1h-3.75v.77zm5.043-3.717q.323-.313.323-.78q0-.466-.327-.793t-.793-.326t-.79.326q-.321.327-.321.794q0 .466.326.779t.793.312t.79-.312M6 11.462h3.404v-3.77q0-.705-.493-1.198Q8.418 6 7.714 6t-1.21.494T6 7.692zm4.289 0h3.403v-3.77q0-.705-.493-1.198Q12.708 6 12.003 6t-1.209.494t-.504 1.198zm4.307 0H18v-3.77q0-.705-.505-1.198Q16.99 6 16.286 6t-1.197.494t-.493 1.198z");
+}
+
+</style>

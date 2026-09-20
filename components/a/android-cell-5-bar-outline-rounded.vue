@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="qn1ry2bgo"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:android-cell-5-bar-outline-rounded" /></template>
+<style>
+.qn1ry2bgo {
+  fill: currentColor;
+  d: path("M2 18.154v-3.02q0-.352.248-.599t.6-.246t.599.246t.245.6v3.019q0 .353-.247.6q-.247.246-.601.246t-.599-.247t-.245-.6m4.577 0V13.27q0-.352.247-.6q.248-.246.601-.246t.599.247t.245.6v4.884q0 .352-.247.6T7.42 19t-.599-.247t-.245-.6m4.577 0V10.5q0-.353.247-.6q.248-.246.601-.246t.599.247t.245.599v7.654q0 .352-.247.6t-.601.246t-.599-.247t-.245-.6m4.577 0V8.636q0-.353.247-.6t.601-.246t.599.246t.245.6v9.519q0 .353-.247.6q-.248.246-.601.246t-.599-.247t-.245-.6m4.577 0V5.847q0-.352.247-.6q.248-.246.601-.246t.599.247t.245.6v12.307q0 .353-.248.6t-.6.246t-.599-.247q-.245-.246-.245-.6");
+}
+
+</style>

@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="i5zls4nyy"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols-light:google-tv-remote-rounded" /></template>
+<style>
+.i5zls4nyy {
+  fill: currentColor;
+  d: path("M11.293 6.707Q11 6.414 11 6t.293-.707T12 5t.707.293T13 6t-.293.707T12 7t-.707-.293M9.088 20.413Q7.885 19.21 7.885 17.5V6.116q0-1.71 1.203-2.913T12 2t2.913 1.203q1.202 1.203 1.202 2.913V17.5q0 1.71-1.202 2.913T12 21.616t-2.912-1.203M14.13 8.13Q15 7.26 15 6t-.87-2.13T12 3t-2.13.87T9 6t.87 2.13T12 9t2.13-.87m-2.975 7.179q.23-.23.23-.54t-.23-.54t-.54-.229t-.539.23t-.23.54q0 .309.23.539t.54.23t.539-.23m0-2.731q.23-.23.23-.54t-.23-.539t-.54-.23t-.539.23t-.23.54q0 .309.23.539t.54.23t.539-.23m2.769 0q.23-.23.23-.54t-.23-.539t-.54-.23q-.309 0-.539.23t-.23.54t.23.539t.54.23t.539-.23m0 2.73q.23-.23.23-.539t-.23-.54t-.54-.229q-.309 0-.539.23t-.23.54t.23.539t.54.23t.539-.23m-2.77 2.73q.23-.23.23-.539t-.23-.54t-.538-.23t-.54.23t-.23.54t.23.54t.54.23t.539-.23m2.769 0q.23-.23.23-.54t-.23-.54t-.54-.23t-.539.23t-.23.54t.23.54t.54.23t.539-.23");
+}
+
+</style>

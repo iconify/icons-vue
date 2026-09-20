@@ -1,0 +1,291 @@
+{
+  "name": "@iconify-vue/nonicons",
+  "type": "module",
+  "version": "1.0.4",
+  "homepage": "https://icon-sets.iconify.design/nonicons/",
+  "bugs": "https://github.com/iconify/icons-vue/issues",
+  "license": "MIT",
+  "exports": {
+    "./angular-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/angular-16.vue"
+    },
+    "./babel-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/babel-16.vue"
+    },
+    "./biome-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/biome-16.vue"
+    },
+    "./c-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/c-16.vue"
+    },
+    "./c-plusplus-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/c-plusplus-16.vue"
+    },
+    "./c-sharp-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/c-sharp-16.vue"
+    },
+    "./capacitor-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/capacitor-16.vue"
+    },
+    "./class-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/class-16.vue"
+    },
+    "./constant-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/constant-16.vue"
+    },
+    "./css-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/css-16.vue"
+    },
+    "./dart-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dart-16.vue"
+    },
+    "./docker-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/docker-16.vue"
+    },
+    "./elixir-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/elixir-16.vue"
+    },
+    "./elm-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/elm-16.vue"
+    },
+    "./error-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/error-16.vue"
+    },
+    "./eslint-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/eslint-16.vue"
+    },
+    "./field-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/field-16.vue"
+    },
+    "./go-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/go-16.vue"
+    },
+    "./graphql-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/graphql-16.vue"
+    },
+    "./html-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/html-16.vue"
+    },
+    "./interface-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/interface-16.vue"
+    },
+    "./ionic-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/ionic-16.vue"
+    },
+    "./java-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/java-16.vue"
+    },
+    "./javascript-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/javascript-16.vue"
+    },
+    "./json-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/json-16.vue"
+    },
+    "./keyword-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/keyword-16.vue"
+    },
+    "./kotlin-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kotlin-16.vue"
+    },
+    "./kubernetes-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kubernetes-16.vue"
+    },
+    "./layout-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/layout-16.vue"
+    },
+    "./loading-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/loading-16.vue"
+    },
+    "./lua-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lua-16.vue"
+    },
+    "./next-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/next-16.vue"
+    },
+    "./nginx-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nginx-16.vue"
+    },
+    "./node-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/node-16.vue"
+    },
+    "./not-found-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/not-found-16.vue"
+    },
+    "./npm-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/npm-16.vue"
+    },
+    "./perl-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/perl-16.vue"
+    },
+    "./php-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/php-16.vue"
+    },
+    "./prettier-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/prettier-16.vue"
+    },
+    "./prisma-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/prisma-16.vue"
+    },
+    "./python-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/python-16.vue"
+    },
+    "./r-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/r-16.vue"
+    },
+    "./react-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/react-16.vue"
+    },
+    "./rust-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rust-16.vue"
+    },
+    "./scala-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/scala-16.vue"
+    },
+    "./snippet-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/snippet-16.vue"
+    },
+    "./struct-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/struct-16.vue"
+    },
+    "./svelte-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/svelte-16.vue"
+    },
+    "./swift-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/swift-16.vue"
+    },
+    "./template-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/template-16.vue"
+    },
+    "./terraform-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/terraform-16.vue"
+    },
+    "./tmux-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tmux-16.vue"
+    },
+    "./toml-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/toml-16.vue"
+    },
+    "./turborepo-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/turborepo-16.vue"
+    },
+    "./type-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/type-16.vue"
+    },
+    "./typescript-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/typescript-16.vue"
+    },
+    "./variable-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/variable-16.vue"
+    },
+    "./vim-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vim-16.vue"
+    },
+    "./vim-command-mode-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vim-command-mode-16.vue"
+    },
+    "./vim-insert-mode-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vim-insert-mode-16.vue"
+    },
+    "./vim-normal-mode-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vim-normal-mode-16.vue"
+    },
+    "./vim-replace-mode-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vim-replace-mode-16.vue"
+    },
+    "./vim-select-mode-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vim-select-mode-16.vue"
+    },
+    "./vim-terminal-mode-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vim-terminal-mode-16.vue"
+    },
+    "./vim-visual-mode-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vim-visual-mode-16.vue"
+    },
+    "./vscode-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vscode-16.vue"
+    },
+    "./vue-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vue-16.vue"
+    },
+    "./yaml-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yaml-16.vue"
+    },
+    "./yarn-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yarn-16.vue"
+    },
+    "./*": "./*"
+  },
+  "dependencies": {
+    "@iconify/css-vue": "^1.0.0"
+  },
+  "repository": "github:iconify/icons-vue#nonicons"
+}

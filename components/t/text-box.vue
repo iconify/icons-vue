@@ -1,0 +1,10 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/m/mbwhfm2cv.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":22,"height":22};
+const content = `<path class="mbwhfm2cv"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="memory:text-box" /></template>

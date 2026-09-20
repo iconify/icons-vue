@@ -1,0 +1,8 @@
+.c-ameepbt {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M18 19V5m-2.828 2L18 4.172L20.828 7M4 12h9m-9 7h9M4 5h7");
+}

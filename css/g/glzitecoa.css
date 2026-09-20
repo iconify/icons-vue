@@ -1,0 +1,7 @@
+.glzitecoa {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M4 8h16M7.5 12h1m3 0h1m3 0h1m-9 4h1m3 0h1M5 20h14a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1Z");
+}

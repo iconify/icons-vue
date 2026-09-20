@@ -1,0 +1,8 @@
+.afpisrply {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M15 17v-.5a1.5 1.5 0 0 0-1.5-1.5h-3A1.5 1.5 0 0 0 9 16.5v.5m1-15l2 4l2-4m-1 9a1 1 0 1 1-2 0a1 1 0 0 1 2 0m5-6H6a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1");
+}

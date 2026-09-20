@@ -1,0 +1,8 @@
+.f8_z80bha {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M21 4.7L12 20L3 4.7m13.706 0L12 12.7l-4.706-8");
+}

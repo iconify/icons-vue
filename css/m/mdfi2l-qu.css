@@ -1,0 +1,8 @@
+.mdfi2l-qu {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--3px, 3px);
+  d: path("M8 12h6m-6 0V6h6a3 3 0 1 1 0 6m-6 0v6h6a3 3 0 1 0 0-6m-2-6V4m0 16v-2");
+}

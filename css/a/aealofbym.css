@@ -1,0 +1,7 @@
+.aealofbym {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M15 9h-5a1.5 1.5 0 1 0 0 3h4a1.5 1.5 0 0 1 0 3H9m3-8v10");
+}

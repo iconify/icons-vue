@@ -1,0 +1,8 @@
+.x-ccf1npc {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--3px, 3px);
+  d: path("M4 5v14h16m0-7.002l.036 3l-5.475-5.475l-3.536 3.535L7.49 9.523");
+}

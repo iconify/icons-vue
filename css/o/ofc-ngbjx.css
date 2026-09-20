@@ -1,0 +1,8 @@
+.ofc-ngbjx {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--3px, 3px);
+  d: path("M4 12h3l2.5-8L14 20l3-8h3");
+}

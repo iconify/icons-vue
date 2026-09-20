@@ -1,0 +1,8 @@
+.sdhkrgbat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--3px, 3px);
+  d: path("M6 17v-6m0 0V5a1 1 0 0 1 1-1h4.5a3.5 3.5 0 1 1 0 7zm3 0l6 6m0 0l3 3m-3-3l-3 3m3-3l3-3");
+}

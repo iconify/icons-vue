@@ -1,0 +1,8 @@
+.dg_scyb_f {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--3px, 3px);
+  d: path("M5 12h15m-10 5.657L4.343 12L10 6.343");
+}

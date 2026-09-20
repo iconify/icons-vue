@@ -1,0 +1,8 @@
+.zolteabtf {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M18 5V4H6v2l7 6l-7 6v2h12v-1");
+}

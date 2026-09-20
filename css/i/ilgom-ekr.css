@@ -1,0 +1,7 @@
+.ilgom-ekr {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M4 10a3 3 0 1 0 6 0a3 3 0 0 0-6 0Zm0 0c0-6.5 11-7.5 15.5-2m.5 6a3 3 0 1 0-6 0a3 3 0 0 0 6 0Zm0 0c0 6.5-11 7.5-15.5 2");
+}

@@ -1,0 +1,7 @@
+.joklieben {
+  fill: var(--svg-color--adc4d9, #adc4d9);
+  stroke: var(--svg-color--45413c, #45413c);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M45.5 35.92a1 1 0 0 1-.5.87l-3 1.71V26l3 1.71a1 1 0 0 1 .5.87Zm-43 0a1 1 0 0 0 .5.87l3 1.71V26l-3 1.71a1 1 0 0 0-.5.87Z");
+}

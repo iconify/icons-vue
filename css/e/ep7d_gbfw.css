@@ -1,0 +1,7 @@
+.ep7d_gbfw {
+  fill: var(--svg-color--ffe500, #ffe500);
+  stroke: var(--svg-color--45413c, #45413c);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M10 9.5h6a.53.53 0 0 1 .53.53v3.47h0h-7h0V10a.53.53 0 0 1 .47-.5");
+}

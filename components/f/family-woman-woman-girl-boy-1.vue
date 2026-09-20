@@ -1,0 +1,67 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/z/zbe0o-29t.css';
+import '../../css/q/qcvo78btv.css';
+import '../../css/e/e8robpbuk.css';
+import '../../css/c/cj27_1bfn.css';
+import '../../css/d/dv1psbb_v.css';
+import '../../css/q/ql3sg9ljs.css';
+import '../../css/o/oz02ombrx.css';
+import '../../css/u/uqd8yc_ou.css';
+import '../../css/r/r63mi1q0i.css';
+import '../../css/c/c_qx6gbiv.css';
+import '../../css/y/yn_2n5a7g.css';
+import '../../css/f/fege0lbby.css';
+import '../../css/y/y954jvblm.css';
+import '../../css/g/gayefw-mm.css';
+import '../../css/m/mi5jysb0b.css';
+import '../../css/s/srrxxf3lk.css';
+import '../../css/h/h6xgmkb0e.css';
+import '../../css/r/r8_vm-bmi.css';
+import '../../css/q/qeh74ybwu.css';
+import '../../css/y/yhfhw1bpg.css';
+import '../../css/x/xgq0jdbhd.css';
+import '../../css/c/c8ppj2b-r.css';
+import '../../css/c/cy5t0lb3q.css';
+import '../../css/c/c9phsobye.css';
+import '../../css/p/pi2h0joum.css';
+import '../../css/k/k_t9d4_st.css';
+import '../../css/v/vf42t_jzt.css';
+import '../../css/t/tjen39bmd.css';
+import '../../css/d/d05o4abxz.css';
+import '../../css/s/sbhsfsi0v.css';
+import '../../css/q/qq469b6_x.css';
+import '../../css/n/n285smbqc.css';
+import '../../css/s/sedxi245y.css';
+import '../../css/g/g-a2uqe-h.css';
+import '../../css/i/i58bcrbod.css';
+import '../../css/k/k-7y2cbui.css';
+import '../../css/j/juqt_zp2c.css';
+import '../../css/q/qfpkpf88o.css';
+import '../../css/v/vksiu8bkf.css';
+import '../../css/z/zr87a77rm.css';
+import '../../css/o/okjnx1bav.css';
+import '../../css/u/unl3x5biv.css';
+import '../../css/r/rf2d7b-op.css';
+import '../../css/l/lk7ug0bpj.css';
+import '../../css/z/z-w8k-bei.css';
+import '../../css/b/bnugcub6t.css';
+import '../../css/t/tk7619jch.css';
+import '../../css/e/ehfhqhbzh.css';
+import '../../css/w/w_qahpb8h.css';
+import '../../css/f/f08o6gium.css';
+import '../../css/n/nmocvkbfm.css';
+import '../../css/g/gke8idi6n.css';
+import '../../css/t/t9hizmbde.css';
+import '../../css/q/qpd6wvb9g.css';
+import '../../css/a/assfzubqc.css';
+import '../../css/g/gvkjly-0x.css';
+import '../../css/k/kww01wblm.css';
+import '../../css/f/fvec-mbpl.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="zbe0o-29t"/><path class="qcvo78btv"/><path class="e8robpbuk"/><path class="cj27_1bfn"/><path class="dv1psbb_v"/><path class="ql3sg9ljs"/><path class="oz02ombrx"/><path class="uqd8yc_ou"/><path class="r63mi1q0i"/><path class="c_qx6gbiv"/><path class="yn_2n5a7g"/><path class="fege0lbby"/><path class="y954jvblm"/><path class="gayefw-mm"/><path class="mi5jysb0b"/><path class="srrxxf3lk"/><path class="h6xgmkb0e"/><path class="r8_vm-bmi"/><path class="qeh74ybwu"/><path class="yhfhw1bpg"/><path class="xgq0jdbhd"/><path class="c8ppj2b-r"/><path class="cy5t0lb3q"/><path class="c9phsobye"/><path class="pi2h0joum"/><path class="k_t9d4_st"/><path class="vf42t_jzt"/><path class="tjen39bmd"/><path class="d05o4abxz"/><path class="sbhsfsi0v"/><path class="qq469b6_x"/><path class="n285smbqc"/><path class="sedxi245y"/><path class="g-a2uqe-h"/><path class="i58bcrbod"/><path class="k-7y2cbui"/><path class="juqt_zp2c"/><path class="qfpkpf88o"/><path class="vksiu8bkf"/><path class="zr87a77rm"/><path class="okjnx1bav"/><path class="unl3x5biv"/><path class="rf2d7b-op"/><path class="lk7ug0bpj"/><path class="z-w8k-bei"/><path class="bnugcub6t"/><path class="tk7619jch"/><path class="ehfhqhbzh"/><path class="w_qahpb8h"/><path class="f08o6gium"/><path class="nmocvkbfm"/><path class="gke8idi6n"/><path class="t9hizmbde"/><path class="qpd6wvb9g"/><path class="assfzubqc"/><path class="gvkjly-0x"/><path class="kww01wblm"/><path class="fvec-mbpl"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="streamline-emojis:family-woman-woman-girl-boy-1" /></template>

@@ -1,0 +1,7 @@
+.serii-led {
+  fill: var(--svg-color--ffe500, #ffe500);
+  stroke: var(--svg-color--45413c, #45413c);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("m23.76 19.42l2.81-2.41l.4 2.81l2.41-.4l-.8 2.41l4.01.8l-4.01 2.41l3.21 5.22l-6.02-3.21l-2.41 5.61l-1.2-6.01l-3.21.8l1.2-2.41l-3.61-.4l3.21-2.01l-1.2-2.81h2.81v-3.21z");
+}

@@ -1,0 +1,7 @@
+.lhbm-blck {
+  fill: var(--svg-color--daedf7, #daedf7);
+  stroke: var(--svg-color--45413c, #45413c);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M17.07 26.89h13.85v3.78H17.07Zm3.15 3.78h7.56v2.52a1.26 1.26 0 0 1-1.26 1.26h-5a1.26 1.26 0 0 1-1.26-1.26v-2.52h0Z");
+}

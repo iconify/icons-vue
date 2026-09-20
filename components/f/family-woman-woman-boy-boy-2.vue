@@ -1,0 +1,61 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/j/jk7za92an.css';
+import '../../css/y/y_dt2li7i.css';
+import '../../css/e/e8robpbuk.css';
+import '../../css/c/cj27_1bfn.css';
+import '../../css/d/dv1psbb_v.css';
+import '../../css/q/ql3sg9ljs.css';
+import '../../css/x/xxi07uhat.css';
+import '../../css/c/c84uo0ksw.css';
+import '../../css/y/yn_2n5a7g.css';
+import '../../css/f/fege0lbby.css';
+import '../../css/y/y954jvblm.css';
+import '../../css/g/gayefw-mm.css';
+import '../../css/p/pahi9ir0x.css';
+import '../../css/s/sut_0qbes.css';
+import '../../css/g/g93_vz54a.css';
+import '../../css/r/r8_vm-bmi.css';
+import '../../css/q/qeh74ybwu.css';
+import '../../css/q/qwxl33baf.css';
+import '../../css/x/xgq0jdbhd.css';
+import '../../css/n/no64tpf4m.css';
+import '../../css/p/pie2g0h5m.css';
+import '../../css/k/k_t9d4_st.css';
+import '../../css/v/vf42t_jzt.css';
+import '../../css/t/tjen39bmd.css';
+import '../../css/d/d05o4abxz.css';
+import '../../css/x/xxt_u1v2c.css';
+import '../../css/q/qq469b6_x.css';
+import '../../css/n/n285smbqc.css';
+import '../../css/s/sedxi245y.css';
+import '../../css/g/g-a2uqe-h.css';
+import '../../css/d/dkknsfbkd.css';
+import '../../css/l/lqq952h4f.css';
+import '../../css/j/juqt_zp2c.css';
+import '../../css/i/izd11fxjd.css';
+import '../../css/x/xtoxfa4zw.css';
+import '../../css/z/zr87a77rm.css';
+import '../../css/q/q59l84bvf.css';
+import '../../css/u/unl3x5biv.css';
+import '../../css/d/dnd41wbik.css';
+import '../../css/l/lk7ug0bpj.css';
+import '../../css/p/pzbi_5btp.css';
+import '../../css/x/x3432c4wn.css';
+import '../../css/t/t8od7x0yi.css';
+import '../../css/k/k26nxtb8z.css';
+import '../../css/e/ehfhqhbzh.css';
+import '../../css/r/rwv3vybdu.css';
+import '../../css/t/t43n2bbii.css';
+import '../../css/f/fu5gzzbsr.css';
+import '../../css/h/hygc9gflx.css';
+import '../../css/g/gvkjly-0x.css';
+import '../../css/t/t-sl1ccbz.css';
+import '../../css/r/rwsuabj6s.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="jk7za92an"/><path class="y_dt2li7i"/><path class="e8robpbuk"/><path class="cj27_1bfn"/><path class="dv1psbb_v"/><path class="ql3sg9ljs"/><path class="xxi07uhat"/><path class="c84uo0ksw"/><path class="yn_2n5a7g"/><path class="fege0lbby"/><path class="y954jvblm"/><path class="gayefw-mm"/><path class="pahi9ir0x"/><path class="sut_0qbes"/><path class="g93_vz54a"/><path class="r8_vm-bmi"/><path class="qeh74ybwu"/><path class="qwxl33baf"/><path class="xgq0jdbhd"/><path class="no64tpf4m"/><path class="pie2g0h5m"/><path class="k_t9d4_st"/><path class="vf42t_jzt"/><path class="tjen39bmd"/><path class="d05o4abxz"/><path class="xxt_u1v2c"/><path class="qq469b6_x"/><path class="n285smbqc"/><path class="sedxi245y"/><path class="g-a2uqe-h"/><path class="dkknsfbkd"/><path class="lqq952h4f"/><path class="juqt_zp2c"/><path class="izd11fxjd"/><path class="xtoxfa4zw"/><path class="zr87a77rm"/><path class="q59l84bvf"/><path class="unl3x5biv"/><path class="dnd41wbik"/><path class="lk7ug0bpj"/><path class="pzbi_5btp"/><path class="x3432c4wn"/><path class="t8od7x0yi"/><path class="k26nxtb8z"/><path class="ehfhqhbzh"/><path class="rwv3vybdu"/><path class="t43n2bbii"/><path class="fu5gzzbsr"/><path class="hygc9gflx"/><path class="gvkjly-0x"/><path class="t-sl1ccbz"/><path class="rwsuabj6s"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="streamline-emojis:family-woman-woman-boy-boy-2" /></template>

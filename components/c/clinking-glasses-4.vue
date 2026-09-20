@@ -1,0 +1,30 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/j/je4_r3brt.css';
+import '../../css/h/h2sd9acok.css';
+import '../../css/x/x7gku_drw.css';
+import '../../css/g/gm5_c4spa.css';
+import '../../css/f/f9-_o_u8m.css';
+import '../../css/k/kc188l36o.css';
+import '../../css/c/chewjij1d.css';
+import '../../css/w/wox7s9iic.css';
+import '../../css/b/b29aiutyc.css';
+import '../../css/l/ljoq4jbpb.css';
+import '../../css/t/tammnq4uk.css';
+import '../../css/h/hyz31s1rj.css';
+import '../../css/q/q7i6j1b8i.css';
+import '../../css/l/lyroai7er.css';
+import '../../css/v/v3534cckr.css';
+import '../../css/g/g52tt1zwy.css';
+import '../../css/x/xii11lbgm.css';
+import '../../css/h/h0g59_bhh.css';
+import '../../css/j/j9kc6ubop.css';
+import '../../css/i/i1i56xbws.css';
+import '../../css/w/w3i_gkflf.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="je4_r3brt"/><path class="h2sd9acok"/><path class="x7gku_drw"/><path class="gm5_c4spa"/><path class="f9-_o_u8m"/><path class="kc188l36o"/><path class="chewjij1d"/><path class="wox7s9iic"/><path class="b29aiutyc"/><path class="ljoq4jbpb"/><path class="tammnq4uk"/><path class="hyz31s1rj"/><path class="q7i6j1b8i"/><path class="lyroai7er"/><path class="v3534cckr"/><path class="g52tt1zwy"/><path class="xii11lbgm"/><path class="h0g59_bhh"/><path class="j9kc6ubop"/><path class="i1i56xbws"/><path class="w3i_gkflf"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="streamline-emojis:clinking-glasses-4" /></template>

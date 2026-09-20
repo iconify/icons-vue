@@ -1,0 +1,10 @@
+.kvfik_buy {
+  cx: 12px;
+  cy: 10px;
+  r: 6.5px;
+  fill: currentColor;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}

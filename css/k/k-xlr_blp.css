@@ -1,0 +1,7 @@
+.k-xlr_blp {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("m3 10.25l2.25 2.25M3 10.25L5.25 8M3 10.25h4.1c2.24 0 3.36 0 4.216.436a4 4 0 0 1 1.748 1.748c.436.856.436 1.976.436 4.216V17");
+}

@@ -1,0 +1,8 @@
+.dld_scckh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M2 3h20m-2.111 0v11a2.003 2.003 0 0 1-2 2H6.11a2 2 0 0 1-1.847-1.233A2 2 0 0 1 4.111 14V3M7 21l5-5l5 5");
+}

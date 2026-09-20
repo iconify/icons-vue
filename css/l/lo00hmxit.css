@@ -1,0 +1,8 @@
+.lo00hmxit {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M2 8.667h20m-20 0V16.5A3.5 3.5 0 0 0 5.5 20h13.004A3.496 3.496 0 0 0 22 16.5V8.668m-20 0V7.5A3.5 3.5 0 0 1 5.5 4h13A3.5 3.5 0 0 1 22 7.5v1.167M5.333 15.333h4.445");
+}

@@ -1,0 +1,1615 @@
+{
+  "name": "@iconify-vue/skill-icons",
+  "type": "module",
+  "version": "1.0.5",
+  "homepage": "https://icon-sets.iconify.design/skill-icons/",
+  "bugs": "https://github.com/iconify/icons-vue/issues",
+  "license": "MIT",
+  "exports": {
+    "./ableton-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/ableton-dark.vue"
+    },
+    "./ableton-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/ableton-light.vue"
+    },
+    "./activitypub-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/activitypub-dark.vue"
+    },
+    "./activitypub-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/activitypub-light.vue"
+    },
+    "./actix-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/actix-dark.vue"
+    },
+    "./actix-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/actix-light.vue"
+    },
+    "./adonis": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/adonis.vue"
+    },
+    "./aftereffects": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/aftereffects.vue"
+    },
+    "./aiscript-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/aiscript-dark.vue"
+    },
+    "./aiscript-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/aiscript-light.vue"
+    },
+    "./alpinejs-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/alpinejs-dark.vue"
+    },
+    "./alpinejs-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/alpinejs-light.vue"
+    },
+    "./anaconda-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/anaconda-dark.vue"
+    },
+    "./anaconda-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/anaconda-light.vue"
+    },
+    "./androidstudio-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/androidstudio-dark.vue"
+    },
+    "./androidstudio-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/androidstudio-light.vue"
+    },
+    "./angular-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/angular-dark.vue"
+    },
+    "./angular-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/angular-light.vue"
+    },
+    "./ansible": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/ansible.vue"
+    },
+    "./apollo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/apollo.vue"
+    },
+    "./apple-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/apple-dark.vue"
+    },
+    "./apple-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/apple-light.vue"
+    },
+    "./appwrite": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/appwrite.vue"
+    },
+    "./arch-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arch-dark.vue"
+    },
+    "./arch-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arch-light.vue"
+    },
+    "./arduino": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arduino.vue"
+    },
+    "./astro": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/astro.vue"
+    },
+    "./atom": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/atom.vue"
+    },
+    "./audition": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/audition.vue"
+    },
+    "./autocad-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/autocad-dark.vue"
+    },
+    "./autocad-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/autocad-light.vue"
+    },
+    "./aws-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/aws-dark.vue"
+    },
+    "./aws-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/aws-light.vue"
+    },
+    "./azul": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/azul.vue"
+    },
+    "./azure-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/azure-dark.vue"
+    },
+    "./azure-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/azure-light.vue"
+    },
+    "./babel": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/babel.vue"
+    },
+    "./bash-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bash-dark.vue"
+    },
+    "./bash-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bash-light.vue"
+    },
+    "./bevy-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bevy-dark.vue"
+    },
+    "./bevy-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bevy-light.vue"
+    },
+    "./bitbucket-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bitbucket-dark.vue"
+    },
+    "./bitbucket-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bitbucket-light.vue"
+    },
+    "./blender-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/blender-dark.vue"
+    },
+    "./blender-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/blender-light.vue"
+    },
+    "./bootstrap": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bootstrap.vue"
+    },
+    "./bsd-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bsd-dark.vue"
+    },
+    "./bsd-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bsd-light.vue"
+    },
+    "./bun-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bun-dark.vue"
+    },
+    "./bun-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bun-light.vue"
+    },
+    "./c": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/c.vue"
+    },
+    "./cassandra-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cassandra-dark.vue"
+    },
+    "./cassandra-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cassandra-light.vue"
+    },
+    "./clion-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/clion-dark.vue"
+    },
+    "./clion-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/clion-light.vue"
+    },
+    "./clojure-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/clojure-dark.vue"
+    },
+    "./clojure-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/clojure-light.vue"
+    },
+    "./cloudflare-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloudflare-dark.vue"
+    },
+    "./cloudflare-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloudflare-light.vue"
+    },
+    "./cmake-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cmake-dark.vue"
+    },
+    "./cmake-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cmake-light.vue"
+    },
+    "./codepen-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/codepen-dark.vue"
+    },
+    "./codepen-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/codepen-light.vue"
+    },
+    "./coffeescript-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/coffeescript-dark.vue"
+    },
+    "./coffeescript-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/coffeescript-light.vue"
+    },
+    "./cpp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cpp.vue"
+    },
+    "./crystal-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/crystal-dark.vue"
+    },
+    "./crystal-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/crystal-light.vue"
+    },
+    "./cs": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cs.vue"
+    },
+    "./css": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/css.vue"
+    },
+    "./cypress-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cypress-dark.vue"
+    },
+    "./cypress-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cypress-light.vue"
+    },
+    "./d3-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/d3-dark.vue"
+    },
+    "./d3-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/d3-light.vue"
+    },
+    "./dart-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dart-dark.vue"
+    },
+    "./dart-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dart-light.vue"
+    },
+    "./debian-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/debian-dark.vue"
+    },
+    "./debian-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/debian-light.vue"
+    },
+    "./deno-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/deno-dark.vue"
+    },
+    "./deno-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/deno-light.vue"
+    },
+    "./devto-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/devto-dark.vue"
+    },
+    "./devto-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/devto-light.vue"
+    },
+    "./discord": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/discord.vue"
+    },
+    "./discordbots": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/discordbots.vue"
+    },
+    "./discordjs-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/discordjs-dark.vue"
+    },
+    "./discordjs-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/discordjs-light.vue"
+    },
+    "./django": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/django.vue"
+    },
+    "./docker": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/docker.vue"
+    },
+    "./dotnet": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dotnet.vue"
+    },
+    "./dynamodb-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dynamodb-dark.vue"
+    },
+    "./dynamodb-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dynamodb-light.vue"
+    },
+    "./eclipse-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/eclipse-dark.vue"
+    },
+    "./eclipse-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/eclipse-light.vue"
+    },
+    "./elasticsearch-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/elasticsearch-dark.vue"
+    },
+    "./elasticsearch-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/elasticsearch-light.vue"
+    },
+    "./electron": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/electron.vue"
+    },
+    "./elixir-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/elixir-dark.vue"
+    },
+    "./elixir-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/elixir-light.vue"
+    },
+    "./elysia-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/elysia-dark.vue"
+    },
+    "./elysia-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/elysia-light.vue"
+    },
+    "./emacs": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/emacs.vue"
+    },
+    "./ember": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/ember.vue"
+    },
+    "./emotion-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/emotion-dark.vue"
+    },
+    "./emotion-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/emotion-light.vue"
+    },
+    "./expressjs-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/expressjs-dark.vue"
+    },
+    "./expressjs-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/expressjs-light.vue"
+    },
+    "./fastapi": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fastapi.vue"
+    },
+    "./fediverse-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fediverse-dark.vue"
+    },
+    "./fediverse-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fediverse-light.vue"
+    },
+    "./figma-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/figma-dark.vue"
+    },
+    "./figma-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/figma-light.vue"
+    },
+    "./flask-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/flask-dark.vue"
+    },
+    "./flask-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/flask-light.vue"
+    },
+    "./flutter-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/flutter-dark.vue"
+    },
+    "./flutter-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/flutter-light.vue"
+    },
+    "./forth": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/forth.vue"
+    },
+    "./fortran": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fortran.vue"
+    },
+    "./gamemakerstudio": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gamemakerstudio.vue"
+    },
+    "./gatsby": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gatsby.vue"
+    },
+    "./gcp-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gcp-dark.vue"
+    },
+    "./gcp-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gcp-light.vue"
+    },
+    "./gherkin-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gherkin-dark.vue"
+    },
+    "./gherkin-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gherkin-light.vue"
+    },
+    "./git": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/git.vue"
+    },
+    "./github-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/github-dark.vue"
+    },
+    "./github-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/github-light.vue"
+    },
+    "./githubactions-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/githubactions-dark.vue"
+    },
+    "./githubactions-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/githubactions-light.vue"
+    },
+    "./gitlab-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gitlab-dark.vue"
+    },
+    "./gitlab-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gitlab-light.vue"
+    },
+    "./gmail-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gmail-dark.vue"
+    },
+    "./gmail-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gmail-light.vue"
+    },
+    "./godot-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/godot-dark.vue"
+    },
+    "./godot-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/godot-light.vue"
+    },
+    "./golang": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/golang.vue"
+    },
+    "./gradle-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gradle-dark.vue"
+    },
+    "./gradle-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gradle-light.vue"
+    },
+    "./grafana-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/grafana-dark.vue"
+    },
+    "./grafana-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/grafana-light.vue"
+    },
+    "./graphql-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/graphql-dark.vue"
+    },
+    "./graphql-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/graphql-light.vue"
+    },
+    "./gtk-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gtk-dark.vue"
+    },
+    "./gtk-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gtk-light.vue"
+    },
+    "./gulp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gulp.vue"
+    },
+    "./haskell-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/haskell-dark.vue"
+    },
+    "./haskell-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/haskell-light.vue"
+    },
+    "./haxe-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/haxe-dark.vue"
+    },
+    "./haxe-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/haxe-light.vue"
+    },
+    "./haxeflixel-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/haxeflixel-dark.vue"
+    },
+    "./haxeflixel-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/haxeflixel-light.vue"
+    },
+    "./heroku": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/heroku.vue"
+    },
+    "./hibernate-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hibernate-dark.vue"
+    },
+    "./hibernate-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hibernate-light.vue"
+    },
+    "./html": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/html.vue"
+    },
+    "./htmx-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/htmx-dark.vue"
+    },
+    "./htmx-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/htmx-light.vue"
+    },
+    "./idea-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/idea-dark.vue"
+    },
+    "./idea-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/idea-light.vue"
+    },
+    "./illustrator": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/illustrator.vue"
+    },
+    "./instagram": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/instagram.vue"
+    },
+    "./ipfs-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/ipfs-dark.vue"
+    },
+    "./ipfs-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/ipfs-light.vue"
+    },
+    "./java-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/java-dark.vue"
+    },
+    "./java-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/java-light.vue"
+    },
+    "./javascript": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/javascript.vue"
+    },
+    "./jenkins-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jenkins-dark.vue"
+    },
+    "./jenkins-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jenkins-light.vue"
+    },
+    "./jest": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jest.vue"
+    },
+    "./jquery": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jquery.vue"
+    },
+    "./julia-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/julia-dark.vue"
+    },
+    "./julia-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/julia-light.vue"
+    },
+    "./kafka": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kafka.vue"
+    },
+    "./kali-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kali-dark.vue"
+    },
+    "./kali-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kali-light.vue"
+    },
+    "./kotlin-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kotlin-dark.vue"
+    },
+    "./kotlin-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kotlin-light.vue"
+    },
+    "./ktor-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/ktor-dark.vue"
+    },
+    "./ktor-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/ktor-light.vue"
+    },
+    "./kubernetes": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kubernetes.vue"
+    },
+    "./laravel-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/laravel-dark.vue"
+    },
+    "./laravel-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/laravel-light.vue"
+    },
+    "./latex-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/latex-dark.vue"
+    },
+    "./latex-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/latex-light.vue"
+    },
+    "./less-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/less-dark.vue"
+    },
+    "./less-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/less-light.vue"
+    },
+    "./linkedin": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/linkedin.vue"
+    },
+    "./linux-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/linux-dark.vue"
+    },
+    "./linux-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/linux-light.vue"
+    },
+    "./lit-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lit-dark.vue"
+    },
+    "./lit-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lit-light.vue"
+    },
+    "./lua-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lua-dark.vue"
+    },
+    "./lua-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lua-light.vue"
+    },
+    "./markdown-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/markdown-dark.vue"
+    },
+    "./markdown-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/markdown-light.vue"
+    },
+    "./mastodon-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mastodon-dark.vue"
+    },
+    "./mastodon-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mastodon-light.vue"
+    },
+    "./materialui-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/materialui-dark.vue"
+    },
+    "./materialui-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/materialui-light.vue"
+    },
+    "./matlab-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/matlab-dark.vue"
+    },
+    "./matlab-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/matlab-light.vue"
+    },
+    "./maven-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/maven-dark.vue"
+    },
+    "./maven-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/maven-light.vue"
+    },
+    "./mint-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mint-dark.vue"
+    },
+    "./mint-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mint-light.vue"
+    },
+    "./misskey-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/misskey-dark.vue"
+    },
+    "./misskey-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/misskey-light.vue"
+    },
+    "./mongodb": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mongodb.vue"
+    },
+    "./mysql-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mysql-dark.vue"
+    },
+    "./mysql-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mysql-light.vue"
+    },
+    "./neovim-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/neovim-dark.vue"
+    },
+    "./neovim-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/neovim-light.vue"
+    },
+    "./nestjs-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nestjs-dark.vue"
+    },
+    "./nestjs-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nestjs-light.vue"
+    },
+    "./netlify-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/netlify-dark.vue"
+    },
+    "./netlify-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/netlify-light.vue"
+    },
+    "./nextjs-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nextjs-dark.vue"
+    },
+    "./nextjs-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nextjs-light.vue"
+    },
+    "./nginx": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nginx.vue"
+    },
+    "./nim-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nim-dark.vue"
+    },
+    "./nim-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nim-light.vue"
+    },
+    "./nix-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nix-dark.vue"
+    },
+    "./nix-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nix-light.vue"
+    },
+    "./nodejs-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nodejs-dark.vue"
+    },
+    "./nodejs-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nodejs-light.vue"
+    },
+    "./notion-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/notion-dark.vue"
+    },
+    "./notion-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/notion-light.vue"
+    },
+    "./npm-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/npm-dark.vue"
+    },
+    "./npm-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/npm-light.vue"
+    },
+    "./nuxtjs-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nuxtjs-dark.vue"
+    },
+    "./nuxtjs-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nuxtjs-light.vue"
+    },
+    "./obsidian-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/obsidian-dark.vue"
+    },
+    "./obsidian-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/obsidian-light.vue"
+    },
+    "./ocaml": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/ocaml.vue"
+    },
+    "./octave-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/octave-dark.vue"
+    },
+    "./octave-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/octave-light.vue"
+    },
+    "./opencv-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/opencv-dark.vue"
+    },
+    "./opencv-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/opencv-light.vue"
+    },
+    "./openshift": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/openshift.vue"
+    },
+    "./openstack-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/openstack-dark.vue"
+    },
+    "./openstack-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/openstack-light.vue"
+    },
+    "./p5js": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/p5js.vue"
+    },
+    "./perl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/perl.vue"
+    },
+    "./photoshop": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/photoshop.vue"
+    },
+    "./php-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/php-dark.vue"
+    },
+    "./php-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/php-light.vue"
+    },
+    "./phpstorm-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/phpstorm-dark.vue"
+    },
+    "./phpstorm-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/phpstorm-light.vue"
+    },
+    "./pinia-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pinia-dark.vue"
+    },
+    "./pinia-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pinia-light.vue"
+    },
+    "./pkl-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pkl-dark.vue"
+    },
+    "./pkl-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pkl-light.vue"
+    },
+    "./plan9-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/plan9-dark.vue"
+    },
+    "./plan9-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/plan9-light.vue"
+    },
+    "./planetscale-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/planetscale-dark.vue"
+    },
+    "./planetscale-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/planetscale-light.vue"
+    },
+    "./pnpm-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pnpm-dark.vue"
+    },
+    "./pnpm-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pnpm-light.vue"
+    },
+    "./postgresql-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/postgresql-dark.vue"
+    },
+    "./postgresql-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/postgresql-light.vue"
+    },
+    "./postman": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/postman.vue"
+    },
+    "./powershell-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/powershell-dark.vue"
+    },
+    "./powershell-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/powershell-light.vue"
+    },
+    "./premiere": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/premiere.vue"
+    },
+    "./prisma": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/prisma.vue"
+    },
+    "./processing-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/processing-dark.vue"
+    },
+    "./processing-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/processing-light.vue"
+    },
+    "./prometheus": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/prometheus.vue"
+    },
+    "./pug-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pug-dark.vue"
+    },
+    "./pug-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pug-light.vue"
+    },
+    "./pycharm-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pycharm-dark.vue"
+    },
+    "./pycharm-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pycharm-light.vue"
+    },
+    "./python-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/python-dark.vue"
+    },
+    "./python-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/python-light.vue"
+    },
+    "./pytorch-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pytorch-dark.vue"
+    },
+    "./pytorch-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pytorch-light.vue"
+    },
+    "./qt-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/qt-dark.vue"
+    },
+    "./qt-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/qt-light.vue"
+    },
+    "./r-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/r-dark.vue"
+    },
+    "./r-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/r-light.vue"
+    },
+    "./rabbitmq-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rabbitmq-dark.vue"
+    },
+    "./rabbitmq-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rabbitmq-light.vue"
+    },
+    "./rails": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rails.vue"
+    },
+    "./raspberrypi-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/raspberrypi-dark.vue"
+    },
+    "./raspberrypi-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/raspberrypi-light.vue"
+    },
+    "./react-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/react-dark.vue"
+    },
+    "./react-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/react-light.vue"
+    },
+    "./reactivex-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/reactivex-dark.vue"
+    },
+    "./reactivex-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/reactivex-light.vue"
+    },
+    "./redhat-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/redhat-dark.vue"
+    },
+    "./redhat-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/redhat-light.vue"
+    },
+    "./redis-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/redis-dark.vue"
+    },
+    "./redis-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/redis-light.vue"
+    },
+    "./redux": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/redux.vue"
+    },
+    "./regex-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/regex-dark.vue"
+    },
+    "./regex-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/regex-light.vue"
+    },
+    "./remix-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/remix-dark.vue"
+    },
+    "./remix-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/remix-light.vue"
+    },
+    "./replit-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/replit-dark.vue"
+    },
+    "./replit-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/replit-light.vue"
+    },
+    "./rider-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rider-dark.vue"
+    },
+    "./rider-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rider-light.vue"
+    },
+    "./robloxstudio": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/robloxstudio.vue"
+    },
+    "./rocket": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rocket.vue"
+    },
+    "./rollupjs-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rollupjs-dark.vue"
+    },
+    "./rollupjs-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rollupjs-light.vue"
+    },
+    "./ros-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/ros-dark.vue"
+    },
+    "./ros-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/ros-light.vue"
+    },
+    "./ruby": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/ruby.vue"
+    },
+    "./rust": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rust.vue"
+    },
+    "./sass": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sass.vue"
+    },
+    "./scala-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/scala-dark.vue"
+    },
+    "./scala-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/scala-light.vue"
+    },
+    "./scikitlearn-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/scikitlearn-dark.vue"
+    },
+    "./scikitlearn-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/scikitlearn-light.vue"
+    },
+    "./selenium": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/selenium.vue"
+    },
+    "./sentry": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sentry.vue"
+    },
+    "./sequelize-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sequelize-dark.vue"
+    },
+    "./sequelize-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sequelize-light.vue"
+    },
+    "./sketchup-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sketchup-dark.vue"
+    },
+    "./sketchup-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sketchup-light.vue"
+    },
+    "./solidity": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/solidity.vue"
+    },
+    "./solidjs-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/solidjs-dark.vue"
+    },
+    "./solidjs-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/solidjs-light.vue"
+    },
+    "./spotify-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/spotify-dark.vue"
+    },
+    "./spotify-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/spotify-light.vue"
+    },
+    "./spring-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/spring-dark.vue"
+    },
+    "./spring-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/spring-light.vue"
+    },
+    "./sqlite": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sqlite.vue"
+    },
+    "./stackoverflow-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stackoverflow-dark.vue"
+    },
+    "./stackoverflow-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stackoverflow-light.vue"
+    },
+    "./styledcomponents": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/styledcomponents.vue"
+    },
+    "./sublime-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sublime-dark.vue"
+    },
+    "./sublime-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sublime-light.vue"
+    },
+    "./supabase-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/supabase-dark.vue"
+    },
+    "./supabase-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/supabase-light.vue"
+    },
+    "./svelte": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/svelte.vue"
+    },
+    "./svg-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/svg-dark.vue"
+    },
+    "./svg-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/svg-light.vue"
+    },
+    "./swift": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/swift.vue"
+    },
+    "./symfony-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/symfony-dark.vue"
+    },
+    "./symfony-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/symfony-light.vue"
+    },
+    "./tailwindcss-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tailwindcss-dark.vue"
+    },
+    "./tailwindcss-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tailwindcss-light.vue"
+    },
+    "./tauri-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tauri-dark.vue"
+    },
+    "./tauri-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tauri-light.vue"
+    },
+    "./tensorflow-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tensorflow-dark.vue"
+    },
+    "./tensorflow-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tensorflow-light.vue"
+    },
+    "./terraform-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/terraform-dark.vue"
+    },
+    "./terraform-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/terraform-light.vue"
+    },
+    "./threejs-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/threejs-dark.vue"
+    },
+    "./threejs-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/threejs-light.vue"
+    },
+    "./twitter": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/twitter.vue"
+    },
+    "./typescript": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/typescript.vue"
+    },
+    "./ubuntu-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/ubuntu-dark.vue"
+    },
+    "./ubuntu-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/ubuntu-light.vue"
+    },
+    "./unity-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/unity-dark.vue"
+    },
+    "./unity-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/unity-light.vue"
+    },
+    "./unrealengine": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/unrealengine.vue"
+    },
+    "./v-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/v-dark.vue"
+    },
+    "./v-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/v-light.vue"
+    },
+    "./vala": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vala.vue"
+    },
+    "./vercel-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vercel-dark.vue"
+    },
+    "./vercel-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vercel-light.vue"
+    },
+    "./verilog": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/verilog.vue"
+    },
+    "./vim-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vim-dark.vue"
+    },
+    "./vim-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vim-light.vue"
+    },
+    "./visualstudio-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/visualstudio-dark.vue"
+    },
+    "./visualstudio-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/visualstudio-light.vue"
+    },
+    "./vite-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vite-dark.vue"
+    },
+    "./vite-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vite-light.vue"
+    },
+    "./vitest-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vitest-dark.vue"
+    },
+    "./vitest-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vitest-light.vue"
+    },
+    "./vscode-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vscode-dark.vue"
+    },
+    "./vscode-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vscode-light.vue"
+    },
+    "./vscodium-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vscodium-dark.vue"
+    },
+    "./vscodium-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vscodium-light.vue"
+    },
+    "./vuejs-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vuejs-dark.vue"
+    },
+    "./vuejs-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vuejs-light.vue"
+    },
+    "./vuetify-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vuetify-dark.vue"
+    },
+    "./vuetify-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vuetify-light.vue"
+    },
+    "./webassembly": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/webassembly.vue"
+    },
+    "./webflow": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/webflow.vue"
+    },
+    "./webpack-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/webpack-dark.vue"
+    },
+    "./webpack-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/webpack-light.vue"
+    },
+    "./webstorm-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/webstorm-dark.vue"
+    },
+    "./webstorm-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/webstorm-light.vue"
+    },
+    "./windicss-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/windicss-dark.vue"
+    },
+    "./windicss-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/windicss-light.vue"
+    },
+    "./windows-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/windows-dark.vue"
+    },
+    "./windows-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/windows-light.vue"
+    },
+    "./wordpress": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wordpress.vue"
+    },
+    "./workers-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/workers-dark.vue"
+    },
+    "./workers-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/workers-light.vue"
+    },
+    "./xd": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/x/xd.vue"
+    },
+    "./yarn-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yarn-dark.vue"
+    },
+    "./yarn-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yarn-light.vue"
+    },
+    "./yew-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yew-dark.vue"
+    },
+    "./yew-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yew-light.vue"
+    },
+    "./zig-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/z/zig-dark.vue"
+    },
+    "./zig-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/z/zig-light.vue"
+    },
+    "./*": "./*"
+  },
+  "dependencies": {
+    "@iconify/css-vue": "^1.0.0"
+  },
+  "repository": "github:iconify/icons-vue#skill-icons"
+}

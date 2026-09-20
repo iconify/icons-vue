@@ -1,0 +1,8 @@
+.kdkb1-t-r {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M10 16H7a4 4 0 0 1 0-8h3m6 4H8m6 4h3a4 4 0 0 0 0-8h-3");
+}

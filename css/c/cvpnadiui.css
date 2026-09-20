@@ -1,0 +1,5 @@
+.cvpnadiui {
+  stroke: currentColor;
+  stroke-width: var(--svg-stroke-width--1-2px, 1.2px);
+  d: path("M9 5a2 2 0 0 1 2-2h2a2 2 0 1 1 0 4h-2a2 2 0 0 1-2-2Z");
+}

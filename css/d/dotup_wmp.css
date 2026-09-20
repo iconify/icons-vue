@@ -1,0 +1,6 @@
+.dotup_wmp {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-2px, 1.2px);
+  d: path("M16 2v4c0 .943 0 1.414-.293 1.707S14.943 8 14 8h-4c-.943 0-1.414 0-1.707-.293S8 6.943 8 6V2m1 12h6");
+}

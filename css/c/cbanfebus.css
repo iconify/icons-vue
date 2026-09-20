@@ -1,0 +1,6 @@
+.cbanfebus {
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-width: var(--svg-stroke-width--1-2px, 1.2px);
+  d: path("M5 13v4c0 1.657 3.134 3 7 3s7-1.343 7-3v-4");
+}

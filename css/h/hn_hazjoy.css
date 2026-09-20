@@ -1,0 +1,6 @@
+.hn_hazjoy {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M8 5L6 9m10-4l2 4");
+}

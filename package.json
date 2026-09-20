@@ -1,0 +1,2563 @@
+{
+  "name": "@iconify-vue/nrk",
+  "type": "module",
+  "version": "1.0.7",
+  "homepage": "https://icon-sets.iconify.design/nrk/",
+  "bugs": "https://github.com/iconify/icons-vue/issues",
+  "license": "CC-BY-4.0",
+  "exports": {
+    "./360": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/3/360.vue"
+    },
+    "./404": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/4/404.vue"
+    },
+    "./accessibility": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/accessibility.vue"
+    },
+    "./accessibility-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/accessibility-expressive.vue"
+    },
+    "./ai": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/ai.vue"
+    },
+    "./ai-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/ai-expressive.vue"
+    },
+    "./ai-solid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/ai-solid.vue"
+    },
+    "./ai-solid-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/ai-solid-expressive.vue"
+    },
+    "./airplay": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/airplay.vue"
+    },
+    "./airplay-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/airplay-expressive.vue"
+    },
+    "./airplay-solid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/airplay-solid.vue"
+    },
+    "./airplay-solid-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/airplay-solid-expressive.vue"
+    },
+    "./alarm-clock": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/alarm-clock.vue"
+    },
+    "./antenna": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/antenna.vue"
+    },
+    "./antenna-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/antenna-expressive.vue"
+    },
+    "./arrange-list": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arrange-list.vue"
+    },
+    "./arrow-circle-clockwise": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arrow-circle-clockwise.vue"
+    },
+    "./arrow-circle-clockwise-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arrow-circle-clockwise-expressive.vue"
+    },
+    "./arrow-circle-counterclockwise": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arrow-circle-counterclockwise.vue"
+    },
+    "./arrow-circle-counterclockwise-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arrow-circle-counterclockwise-expressive.vue"
+    },
+    "./arrow-circle-perspective-counterclockwise": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arrow-circle-perspective-counterclockwise.vue"
+    },
+    "./arrow-circle-perspective-counterclockwise-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arrow-circle-perspective-counterclockwise-expressive.vue"
+    },
+    "./arrow-down": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arrow-down.vue"
+    },
+    "./arrow-down-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arrow-down-expressive.vue"
+    },
+    "./arrow-dropdown": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arrow-dropdown.vue"
+    },
+    "./arrow-left": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arrow-left.vue"
+    },
+    "./arrow-left-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arrow-left-expressive.vue"
+    },
+    "./arrow-left-long": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arrow-left-long.vue"
+    },
+    "./arrow-left-long-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arrow-left-long-expressive.vue"
+    },
+    "./arrow-nested": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arrow-nested.vue"
+    },
+    "./arrow-right": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arrow-right.vue"
+    },
+    "./arrow-right-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arrow-right-expressive.vue"
+    },
+    "./arrow-right-long": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arrow-right-long.vue"
+    },
+    "./arrow-right-long-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arrow-right-long-expressive.vue"
+    },
+    "./arrow-turn-right-down": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arrow-turn-right-down.vue"
+    },
+    "./arrow-turn-right-down-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arrow-turn-right-down-expressive.vue"
+    },
+    "./arrow-turn-up-right": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arrow-turn-up-right.vue"
+    },
+    "./arrow-turn-up-right-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arrow-turn-up-right-expressive.vue"
+    },
+    "./arrow-up": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arrow-up.vue"
+    },
+    "./arrow-up-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arrow-up-expressive.vue"
+    },
+    "./arrow-uturn-left": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arrow-uturn-left.vue"
+    },
+    "./arrow-uturn-left-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arrow-uturn-left-expressive.vue"
+    },
+    "./arrowhead-down": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arrowhead-down.vue"
+    },
+    "./arrowhead-down-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arrowhead-down-expressive.vue"
+    },
+    "./arrowhead-up": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arrowhead-up.vue"
+    },
+    "./arrowhead-up-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arrowhead-up-expressive.vue"
+    },
+    "./arrows-circle-counterclockwise": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arrows-circle-counterclockwise.vue"
+    },
+    "./arrows-circle-counterclockwise-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arrows-circle-counterclockwise-expressive.vue"
+    },
+    "./arrows-contract": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arrows-contract.vue"
+    },
+    "./arrows-contract-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arrows-contract-expressive.vue"
+    },
+    "./arrows-expand": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arrows-expand.vue"
+    },
+    "./arrows-expand-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arrows-expand-expressive.vue"
+    },
+    "./arrows-up-down": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arrows-up-down.vue"
+    },
+    "./arrows-up-down-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arrows-up-down-expressive.vue"
+    },
+    "./article": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/article.vue"
+    },
+    "./audio-description": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/audio-description.vue"
+    },
+    "./audio-description-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/audio-description-expressive.vue"
+    },
+    "./back": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/back.vue"
+    },
+    "./backward": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/backward.vue"
+    },
+    "./backward-end": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/backward-end.vue"
+    },
+    "./backward-end-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/backward-end-expressive.vue"
+    },
+    "./backward-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/backward-expressive.vue"
+    },
+    "./bar-graph": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bar-graph.vue"
+    },
+    "./bar-graph-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bar-graph-expressive.vue"
+    },
+    "./bell": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bell.vue"
+    },
+    "./bell-active": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bell-active.vue"
+    },
+    "./bell-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bell-expressive.vue"
+    },
+    "./bell-solid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bell-solid.vue"
+    },
+    "./bell-solid-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bell-solid-expressive.vue"
+    },
+    "./bluetooth": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bluetooth.vue"
+    },
+    "./bluetooth-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bluetooth-expressive.vue"
+    },
+    "./bookmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bookmark.vue"
+    },
+    "./bookmark-active": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bookmark-active.vue"
+    },
+    "./bookmark-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bookmark-expressive.vue"
+    },
+    "./bookmark-solid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bookmark-solid.vue"
+    },
+    "./bookmark-solid-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bookmark-solid-expressive.vue"
+    },
+    "./broadcast": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/broadcast.vue"
+    },
+    "./bullet-point": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bullet-point.vue"
+    },
+    "./bullet-point-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bullet-point-expressive.vue"
+    },
+    "./bullet-square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bullet-square.vue"
+    },
+    "./bulleted-list": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bulleted-list.vue"
+    },
+    "./calendar": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/calendar.vue"
+    },
+    "./calendar-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/calendar-expressive.vue"
+    },
+    "./camera": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/camera.vue"
+    },
+    "./camera-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/camera-expressive.vue"
+    },
+    "./category": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/category.vue"
+    },
+    "./category-active": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/category-active.vue"
+    },
+    "./check": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/check.vue"
+    },
+    "./check-active": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/check-active.vue"
+    },
+    "./check-radio-unchecked": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/check-radio-unchecked.vue"
+    },
+    "./checkbox": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/checkbox.vue"
+    },
+    "./checkbox-active": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/checkbox-active.vue"
+    },
+    "./checkbox-checked-solid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/checkbox-checked-solid.vue"
+    },
+    "./checkbox-checked-solid-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/checkbox-checked-solid-expressive.vue"
+    },
+    "./checkbox-unchecked": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/checkbox-unchecked.vue"
+    },
+    "./checkbox-unchecked-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/checkbox-unchecked-expressive.vue"
+    },
+    "./checkmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/checkmark.vue"
+    },
+    "./checkmark-circle-checked": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/checkmark-circle-checked.vue"
+    },
+    "./checkmark-circle-checked-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/checkmark-circle-checked-expressive.vue"
+    },
+    "./checkmark-circle-checked-solid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/checkmark-circle-checked-solid.vue"
+    },
+    "./checkmark-circle-checked-solid-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/checkmark-circle-checked-solid-expressive.vue"
+    },
+    "./checkmark-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/checkmark-expressive.vue"
+    },
+    "./chevron-down": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chevron-down.vue"
+    },
+    "./chevron-down-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chevron-down-expressive.vue"
+    },
+    "./chevron-left": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chevron-left.vue"
+    },
+    "./chevron-left-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chevron-left-expressive.vue"
+    },
+    "./chevron-right": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chevron-right.vue"
+    },
+    "./chevron-right-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chevron-right-expressive.vue"
+    },
+    "./chevron-up": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chevron-up.vue"
+    },
+    "./chevron-up-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chevron-up-expressive.vue"
+    },
+    "./chromecast": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chromecast.vue"
+    },
+    "./chromecast-1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chromecast-1.vue"
+    },
+    "./chromecast-1-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chromecast-1-expressive.vue"
+    },
+    "./chromecast-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chromecast-2.vue"
+    },
+    "./chromecast-2-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chromecast-2-expressive.vue"
+    },
+    "./chromecast-3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chromecast-3.vue"
+    },
+    "./chromecast-3-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chromecast-3-expressive.vue"
+    },
+    "./chromecast-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chromecast-expressive.vue"
+    },
+    "./chromecast-solid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chromecast-solid.vue"
+    },
+    "./chromecast-solid-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chromecast-solid-expressive.vue"
+    },
+    "./circle-in-circle": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/circle-in-circle.vue"
+    },
+    "./circle-in-circle-solid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/circle-in-circle-solid.vue"
+    },
+    "./clock": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/clock.vue"
+    },
+    "./clock-alarm": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/clock-alarm.vue"
+    },
+    "./clock-alarm-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/clock-alarm-expressive.vue"
+    },
+    "./clock-and-dot": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/clock-and-dot.vue"
+    },
+    "./clock-and-dot-solid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/clock-and-dot-solid.vue"
+    },
+    "./clock-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/clock-expressive.vue"
+    },
+    "./clock-timer": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/clock-timer.vue"
+    },
+    "./clock-timer-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/clock-timer-expressive.vue"
+    },
+    "./close": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/close.vue"
+    },
+    "./close-active": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/close-active.vue"
+    },
+    "./code": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/code.vue"
+    },
+    "./code-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/code-expressive.vue"
+    },
+    "./comment": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/comment.vue"
+    },
+    "./cutlery": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cutlery.vue"
+    },
+    "./cutlery-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cutlery-expressive.vue"
+    },
+    "./dialogue": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dialogue.vue"
+    },
+    "./dice-1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dice-1.vue"
+    },
+    "./dice-1-active": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dice-1-active.vue"
+    },
+    "./dice-1-solid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dice-1-solid.vue"
+    },
+    "./dice-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dice-2.vue"
+    },
+    "./dice-2-active": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dice-2-active.vue"
+    },
+    "./dice-2-solid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dice-2-solid.vue"
+    },
+    "./dice-3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dice-3.vue"
+    },
+    "./dice-3-active": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dice-3-active.vue"
+    },
+    "./dice-3-solid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dice-3-solid.vue"
+    },
+    "./dice-4": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dice-4.vue"
+    },
+    "./dice-4-active": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dice-4-active.vue"
+    },
+    "./dice-4-solid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dice-4-solid.vue"
+    },
+    "./dice-5": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dice-5.vue"
+    },
+    "./dice-5-active": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dice-5-active.vue"
+    },
+    "./dice-5-solid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dice-5-solid.vue"
+    },
+    "./dice-6": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dice-6.vue"
+    },
+    "./dice-6-active": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dice-6-active.vue"
+    },
+    "./dice-6-solid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dice-6-solid.vue"
+    },
+    "./document": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/document.vue"
+    },
+    "./document-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/document-expressive.vue"
+    },
+    "./dot-radiowaves": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dot-radiowaves.vue"
+    },
+    "./dot-radiowaves-circle-solid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dot-radiowaves-circle-solid.vue"
+    },
+    "./dot-radiowaves-circle-solid-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dot-radiowaves-circle-solid-expressive.vue"
+    },
+    "./dot-radiowaves-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dot-radiowaves-expressive.vue"
+    },
+    "./download": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/download.vue"
+    },
+    "./download-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/download-expressive.vue"
+    },
+    "./downloaded": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/downloaded.vue"
+    },
+    "./drag-horizontal": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/drag-horizontal.vue"
+    },
+    "./drag-horizontal-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/drag-horizontal-expressive.vue"
+    },
+    "./duration": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/duration.vue"
+    },
+    "./ear": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/ear.vue"
+    },
+    "./ear-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/ear-expressive.vue"
+    },
+    "./edit": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/edit.vue"
+    },
+    "./ellipsis": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/ellipsis.vue"
+    },
+    "./ellipsis-active": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/ellipsis-active.vue"
+    },
+    "./ellipsis-circle-solid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/ellipsis-circle-solid.vue"
+    },
+    "./ellipsis-circle-solid-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/ellipsis-circle-solid-expressive.vue"
+    },
+    "./ellipsis-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/ellipsis-expressive.vue"
+    },
+    "./ellipsis-vertical": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/ellipsis-vertical.vue"
+    },
+    "./ellipsis-vertical-circle-solid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/ellipsis-vertical-circle-solid.vue"
+    },
+    "./ellipsis-vertical-circle-solid-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/ellipsis-vertical-circle-solid-expressive.vue"
+    },
+    "./ellipsis-vertical-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/ellipsis-vertical-expressive.vue"
+    },
+    "./envelope": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/envelope.vue"
+    },
+    "./envelope-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/envelope-expressive.vue"
+    },
+    "./exclamation-mark-triangle": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/exclamation-mark-triangle.vue"
+    },
+    "./exclamation-mark-triangle-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/exclamation-mark-triangle-expressive.vue"
+    },
+    "./eye": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/eye.vue"
+    },
+    "./eye-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/eye-expressive.vue"
+    },
+    "./eye-slash": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/eye-slash.vue"
+    },
+    "./eye-slash-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/eye-slash-expressive.vue"
+    },
+    "./face-grinning": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/face-grinning.vue"
+    },
+    "./face-grinning-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/face-grinning-expressive.vue"
+    },
+    "./face-grinning-solid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/face-grinning-solid.vue"
+    },
+    "./face-grinning-solid-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/face-grinning-solid-expressive.vue"
+    },
+    "./face-smiling": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/face-smiling.vue"
+    },
+    "./face-smiling-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/face-smiling-expressive.vue"
+    },
+    "./face-smiling-solid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/face-smiling-solid.vue"
+    },
+    "./face-smiling-solid-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/face-smiling-solid-expressive.vue"
+    },
+    "./forward": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/forward.vue"
+    },
+    "./forward-end": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/forward-end.vue"
+    },
+    "./forward-end-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/forward-end-expressive.vue"
+    },
+    "./forward-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/forward-expressive.vue"
+    },
+    "./fullscreen": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fullscreen.vue"
+    },
+    "./fullscreen-active": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fullscreen-active.vue"
+    },
+    "./gallery": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gallery.vue"
+    },
+    "./game-controller": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/game-controller.vue"
+    },
+    "./game-controller-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/game-controller-expressive.vue"
+    },
+    "./geo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/geo.vue"
+    },
+    "./geo-active": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/geo-active.vue"
+    },
+    "./geopoint": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/geopoint.vue"
+    },
+    "./geopoint-active": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/geopoint-active.vue"
+    },
+    "./glasses": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/glasses.vue"
+    },
+    "./glasses-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/glasses-expressive.vue"
+    },
+    "./glasses-solid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/glasses-solid.vue"
+    },
+    "./glasses-solid-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/glasses-solid-expressive.vue"
+    },
+    "./globe": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/globe.vue"
+    },
+    "./globe-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/globe-expressive.vue"
+    },
+    "./go-backward-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/go-backward-15.vue"
+    },
+    "./go-backward-15-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/go-backward-15-expressive.vue"
+    },
+    "./go-backward-30": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/go-backward-30.vue"
+    },
+    "./go-backward-30-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/go-backward-30-expressive.vue"
+    },
+    "./go-backward-5": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/go-backward-5.vue"
+    },
+    "./go-backward-5-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/go-backward-5-expressive.vue"
+    },
+    "./go-forward-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/go-forward-15.vue"
+    },
+    "./go-forward-15-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/go-forward-15-expressive.vue"
+    },
+    "./go-forward-30": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/go-forward-30.vue"
+    },
+    "./go-forward-30-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/go-forward-30-expressive.vue"
+    },
+    "./go-forward-5": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/go-forward-5.vue"
+    },
+    "./go-forward-5-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/go-forward-5-expressive.vue"
+    },
+    "./hardware-camera": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hardware-camera.vue"
+    },
+    "./hardware-computer": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hardware-computer.vue"
+    },
+    "./hardware-game": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hardware-game.vue"
+    },
+    "./hardware-headphones": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hardware-headphones.vue"
+    },
+    "./hardware-laptop": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hardware-laptop.vue"
+    },
+    "./hardware-microphone": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hardware-microphone.vue"
+    },
+    "./hardware-microphone-active": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hardware-microphone-active.vue"
+    },
+    "./hardware-mobile": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hardware-mobile.vue"
+    },
+    "./hardware-printer": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hardware-printer.vue"
+    },
+    "./hardware-radio": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hardware-radio.vue"
+    },
+    "./hardware-smart-speaker": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hardware-smart-speaker.vue"
+    },
+    "./hardware-smart-watch": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hardware-smart-watch.vue"
+    },
+    "./hardware-speaker": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hardware-speaker.vue"
+    },
+    "./hardware-tablet": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hardware-tablet.vue"
+    },
+    "./hardware-tv": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hardware-tv.vue"
+    },
+    "./hardware-watch": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hardware-watch.vue"
+    },
+    "./headphones": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/headphones.vue"
+    },
+    "./headphones-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/headphones-expressive.vue"
+    },
+    "./heart": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/heart.vue"
+    },
+    "./heart-active": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/heart-active.vue"
+    },
+    "./heart-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/heart-expressive.vue"
+    },
+    "./heart-solid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/heart-solid.vue"
+    },
+    "./heart-solid-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/heart-solid-expressive.vue"
+    },
+    "./help": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/help.vue"
+    },
+    "./hide": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hide.vue"
+    },
+    "./home": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/home.vue"
+    },
+    "./home-active": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/home-active.vue"
+    },
+    "./hourglass": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hourglass.vue"
+    },
+    "./hourglass-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hourglass-expressive.vue"
+    },
+    "./house": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/house.vue"
+    },
+    "./house-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/house-expressive.vue"
+    },
+    "./house-solid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/house-solid.vue"
+    },
+    "./house-solid-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/house-solid-expressive.vue"
+    },
+    "./image-stack": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/image-stack.vue"
+    },
+    "./image-stack-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/image-stack-expressive.vue"
+    },
+    "./image-tiny": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/image-tiny.vue"
+    },
+    "./image-tiny-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/image-tiny-expressive.vue"
+    },
+    "./info": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/info.vue"
+    },
+    "./info-circle": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/info-circle.vue"
+    },
+    "./info-circle-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/info-circle-expressive.vue"
+    },
+    "./jumpto": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jumpto.vue"
+    },
+    "./jumpto-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jumpto-expressive.vue"
+    },
+    "./laptop": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/laptop.vue"
+    },
+    "./laptop-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/laptop-expressive.vue"
+    },
+    "./latest-news": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/latest-news.vue"
+    },
+    "./latest-news-active": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/latest-news-active.vue"
+    },
+    "./lightning-bolt-outline": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lightning-bolt-outline.vue"
+    },
+    "./lightning-bolt-outline-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lightning-bolt-outline-expressive.vue"
+    },
+    "./lightning-bolt-solid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lightning-bolt-solid.vue"
+    },
+    "./lightning-bolt-solid-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lightning-bolt-solid-expressive.vue"
+    },
+    "./link": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/link.vue"
+    },
+    "./link-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/link-expressive.vue"
+    },
+    "./link-tiny": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/link-tiny.vue"
+    },
+    "./link-tiny-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/link-tiny-expressive.vue"
+    },
+    "./list": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/list.vue"
+    },
+    "./list-active": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/list-active.vue"
+    },
+    "./list-arrow-to-bottom": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/list-arrow-to-bottom.vue"
+    },
+    "./list-arrow-to-bottom-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/list-arrow-to-bottom-expressive.vue"
+    },
+    "./list-arrow-to-top": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/list-arrow-to-top.vue"
+    },
+    "./list-arrow-to-top-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/list-arrow-to-top-expressive.vue"
+    },
+    "./list-bullet": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/list-bullet.vue"
+    },
+    "./list-bullet-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/list-bullet-expressive.vue"
+    },
+    "./list-check": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/list-check.vue"
+    },
+    "./list-check-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/list-check-expressive.vue"
+    },
+    "./list-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/list-expressive.vue"
+    },
+    "./list-play": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/list-play.vue"
+    },
+    "./list-play-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/list-play-expressive.vue"
+    },
+    "./list-plus": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/list-plus.vue"
+    },
+    "./list-plus-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/list-plus-expressive.vue"
+    },
+    "./list-strong": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/list-strong.vue"
+    },
+    "./list-strong-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/list-strong-expressive.vue"
+    },
+    "./list-xmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/list-xmark.vue"
+    },
+    "./list-xmark-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/list-xmark-expressive.vue"
+    },
+    "./live-activity": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/live-activity.vue"
+    },
+    "./live-activity-active": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/live-activity-active.vue"
+    },
+    "./lock": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lock.vue"
+    },
+    "./lock-active": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lock-active.vue"
+    },
+    "./lock-closed": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lock-closed.vue"
+    },
+    "./lock-closed-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lock-closed-expressive.vue"
+    },
+    "./lock-closed-solid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lock-closed-solid.vue"
+    },
+    "./lock-closed-solid-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lock-closed-solid-expressive.vue"
+    },
+    "./lock-open": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lock-open.vue"
+    },
+    "./lock-open-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lock-open-expressive.vue"
+    },
+    "./lock-open-solid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lock-open-solid.vue"
+    },
+    "./lock-open-solid-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lock-open-solid-expressive.vue"
+    },
+    "./logout": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/logout.vue"
+    },
+    "./logout-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/logout-expressive.vue"
+    },
+    "./longread": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/longread.vue"
+    },
+    "./longread-active": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/longread-active.vue"
+    },
+    "./lyn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lyn.vue"
+    },
+    "./magazine": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/magazine.vue"
+    },
+    "./magazine-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/magazine-expressive.vue"
+    },
+    "./magazine-solid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/magazine-solid.vue"
+    },
+    "./magazine-solid-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/magazine-solid-expressive.vue"
+    },
+    "./magnifying-glass": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/magnifying-glass.vue"
+    },
+    "./magnifying-glass-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/magnifying-glass-expressive.vue"
+    },
+    "./magnifying-glass-strong": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/magnifying-glass-strong.vue"
+    },
+    "./magnifying-glass-strong-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/magnifying-glass-strong-expressive.vue"
+    },
+    "./mat": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mat.vue"
+    },
+    "./media-404-notfound": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-404-notfound.vue"
+    },
+    "./media-agelimit-12": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-agelimit-12.vue"
+    },
+    "./media-agelimit-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-agelimit-15.vue"
+    },
+    "./media-agelimit-18": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-agelimit-18.vue"
+    },
+    "./media-agelimit-6": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-agelimit-6.vue"
+    },
+    "./media-agelimit-9": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-agelimit-9.vue"
+    },
+    "./media-agelimit-a": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-agelimit-a.vue"
+    },
+    "./media-airplay": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-airplay.vue"
+    },
+    "./media-airplay-active": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-airplay-active.vue"
+    },
+    "./media-beam-note": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-beam-note.vue"
+    },
+    "./media-bluetooth": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-bluetooth.vue"
+    },
+    "./media-chromecast": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-chromecast.vue"
+    },
+    "./media-chromecast-1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-chromecast-1.vue"
+    },
+    "./media-chromecast-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-chromecast-2.vue"
+    },
+    "./media-chromecast-3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-chromecast-3.vue"
+    },
+    "./media-chromecast-active": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-chromecast-active.vue"
+    },
+    "./media-completed": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-completed.vue"
+    },
+    "./media-direkte": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-direkte.vue"
+    },
+    "./media-direkte-golive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-direkte-golive.vue"
+    },
+    "./media-direkte-notlive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-direkte-notlive.vue"
+    },
+    "./media-direktetv": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-direktetv.vue"
+    },
+    "./media-direktetv-active": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-direktetv-active.vue"
+    },
+    "./media-ffw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-ffw.vue"
+    },
+    "./media-ffw-15sec": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-ffw-15sec.vue"
+    },
+    "./media-ffw-30sec": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-ffw-30sec.vue"
+    },
+    "./media-ffw-5sec": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-ffw-5sec.vue"
+    },
+    "./media-index-quaver-tiny": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-index-quaver-tiny.vue"
+    },
+    "./media-jumpto": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-jumpto.vue"
+    },
+    "./media-media-complete": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-media-complete.vue"
+    },
+    "./media-media-incomplete": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-media-incomplete.vue"
+    },
+    "./media-next": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-next.vue"
+    },
+    "./media-ny": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-ny.vue"
+    },
+    "./media-pause": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-pause.vue"
+    },
+    "./media-picture-in-picture": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-picture-in-picture.vue"
+    },
+    "./media-picture-in-picture-active": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-picture-in-picture-active.vue"
+    },
+    "./media-play": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-play.vue"
+    },
+    "./media-play-fail": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-play-fail.vue"
+    },
+    "./media-playlist": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-playlist.vue"
+    },
+    "./media-playlist-add": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-playlist-add.vue"
+    },
+    "./media-playlist-add-later": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-playlist-add-later.vue"
+    },
+    "./media-playlist-add-next": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-playlist-add-next.vue"
+    },
+    "./media-playlist-added": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-playlist-added.vue"
+    },
+    "./media-playlist-remove": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-playlist-remove.vue"
+    },
+    "./media-previous": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-previous.vue"
+    },
+    "./media-programguide": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-programguide.vue"
+    },
+    "./media-programguide-active": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-programguide-active.vue"
+    },
+    "./media-quaver": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-quaver.vue"
+    },
+    "./media-quaver-active": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-quaver-active.vue"
+    },
+    "./media-quaver-off": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-quaver-off.vue"
+    },
+    "./media-rwd": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-rwd.vue"
+    },
+    "./media-rwd-15sec": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-rwd-15sec.vue"
+    },
+    "./media-rwd-30sec": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-rwd-30sec.vue"
+    },
+    "./media-rwd-5sec": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-rwd-5sec.vue"
+    },
+    "./media-soundwave": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-soundwave.vue"
+    },
+    "./media-speed-0-8x": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-speed-0-8x.vue"
+    },
+    "./media-speed-1-25x": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-speed-1-25x.vue"
+    },
+    "./media-speed-1-5x": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-speed-1-5x.vue"
+    },
+    "./media-speed-1x": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-speed-1x.vue"
+    },
+    "./media-speed-2x": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-speed-2x.vue"
+    },
+    "./media-stop": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-stop.vue"
+    },
+    "./media-subtitles": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-subtitles.vue"
+    },
+    "./media-subtitles-active": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-subtitles-active.vue"
+    },
+    "./media-subtitles-unavailable": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-subtitles-unavailable.vue"
+    },
+    "./media-theater": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-theater.vue"
+    },
+    "./media-theater-active": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-theater-active.vue"
+    },
+    "./media-tilgjengelighet-geoblocked": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-tilgjengelighet-geoblocked.vue"
+    },
+    "./media-tilgjengelighet-ikkelengertilgjengelig": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-tilgjengelighet-ikkelengertilgjengelig.vue"
+    },
+    "./media-tilgjengelighet-kommer": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-tilgjengelighet-kommer.vue"
+    },
+    "./media-tilgjengelighet-snartutilgjengelig": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-tilgjengelighet-snartutilgjengelig.vue"
+    },
+    "./media-video": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-video.vue"
+    },
+    "./media-volume-1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-volume-1.vue"
+    },
+    "./media-volume-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-volume-2.vue"
+    },
+    "./media-volume-3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-volume-3.vue"
+    },
+    "./media-volume-muted": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/media-volume-muted.vue"
+    },
+    "./mening": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mening.vue"
+    },
+    "./microphone": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/microphone.vue"
+    },
+    "./microphone-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/microphone-expressive.vue"
+    },
+    "./microphone-solid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/microphone-solid.vue"
+    },
+    "./microphone-solid-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/microphone-solid-expressive.vue"
+    },
+    "./minus": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/minus.vue"
+    },
+    "./minus-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/minus-expressive.vue"
+    },
+    "./mobile-check": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mobile-check.vue"
+    },
+    "./mobile-check-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mobile-check-expressive.vue"
+    },
+    "./monitor": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/monitor.vue"
+    },
+    "./monitor-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/monitor-expressive.vue"
+    },
+    "./more": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/more.vue"
+    },
+    "./more-active": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/more-active.vue"
+    },
+    "./multiplier-0-8": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/multiplier-0-8.vue"
+    },
+    "./multiplier-1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/multiplier-1.vue"
+    },
+    "./multiplier-1-25": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/multiplier-1-25.vue"
+    },
+    "./multiplier-1-5": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/multiplier-1-5.vue"
+    },
+    "./multiplier-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/multiplier-2.vue"
+    },
+    "./music-note": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/music-note.vue"
+    },
+    "./music-note-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/music-note-expressive.vue"
+    },
+    "./music-note-slash": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/music-note-slash.vue"
+    },
+    "./music-note-slash-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/music-note-slash-expressive.vue"
+    },
+    "./music-note-solid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/music-note-solid.vue"
+    },
+    "./music-note-solid-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/music-note-solid-expressive.vue"
+    },
+    "./music-note-tiny": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/music-note-tiny.vue"
+    },
+    "./music-note-tiny-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/music-note-tiny-expressive.vue"
+    },
+    "./music-notes": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/music-notes.vue"
+    },
+    "./music-notes-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/music-notes-expressive.vue"
+    },
+    "./new-chat": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/new-chat.vue"
+    },
+    "./note-1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/note-1.vue"
+    },
+    "./note-1-off": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/note-1-off.vue"
+    },
+    "./note-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/note-2.vue"
+    },
+    "./nrksuper-avatar": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nrksuper-avatar.vue"
+    },
+    "./nrksuper-avatar-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nrksuper-avatar-expressive.vue"
+    },
+    "./nrksuper-poop-sad": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nrksuper-poop-sad.vue"
+    },
+    "./offline": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/offline.vue"
+    },
+    "./online": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/online.vue"
+    },
+    "./open-external": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/open-external.vue"
+    },
+    "./open-external-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/open-external-expressive.vue"
+    },
+    "./open-in-new": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/open-in-new.vue"
+    },
+    "./parasol": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/parasol.vue"
+    },
+    "./parasol-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/parasol-expressive.vue"
+    },
+    "./pause": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pause.vue"
+    },
+    "./pause-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pause-expressive.vue"
+    },
+    "./pencil-line": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pencil-line.vue"
+    },
+    "./pencil-line-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pencil-line-expressive.vue"
+    },
+    "./person": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/person.vue"
+    },
+    "./person-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/person-expressive.vue"
+    },
+    "./phone": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/phone.vue"
+    },
+    "./phone-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/phone-expressive.vue"
+    },
+    "./picture-in-picture-enter": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/picture-in-picture-enter.vue"
+    },
+    "./picture-in-picture-enter-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/picture-in-picture-enter-expressive.vue"
+    },
+    "./picture-in-picture-exit": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/picture-in-picture-exit.vue"
+    },
+    "./picture-in-picture-exit-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/picture-in-picture-exit-expressive.vue"
+    },
+    "./pin": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pin.vue"
+    },
+    "./pin-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pin-expressive.vue"
+    },
+    "./pin-solid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pin-solid.vue"
+    },
+    "./pin-solid-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pin-solid-expressive.vue"
+    },
+    "./play": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/play.vue"
+    },
+    "./play-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/play-expressive.vue"
+    },
+    "./play-rectangle": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/play-rectangle.vue"
+    },
+    "./play-rectangle-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/play-rectangle-expressive.vue"
+    },
+    "./play-slash": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/play-slash.vue"
+    },
+    "./play-slash-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/play-slash-expressive.vue"
+    },
+    "./plus": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/plus.vue"
+    },
+    "./plus-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/plus-expressive.vue"
+    },
+    "./poll": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/poll.vue"
+    },
+    "./printer": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/printer.vue"
+    },
+    "./printer-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/printer-expressive.vue"
+    },
+    "./progress": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/progress.vue"
+    },
+    "./question-mark-circle": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/question-mark-circle.vue"
+    },
+    "./question-mark-circle-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/question-mark-circle-expressive.vue"
+    },
+    "./questionmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/questionmark.vue"
+    },
+    "./quiz": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/quiz.vue"
+    },
+    "./quote": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/quote.vue"
+    },
+    "./quote-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/quote-expressive.vue"
+    },
+    "./radio": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/radio.vue"
+    },
+    "./radio-active": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/radio-active.vue"
+    },
+    "./radio-button-checked": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/radio-button-checked.vue"
+    },
+    "./radio-button-unchecked": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/radio-button-unchecked.vue"
+    },
+    "./radio-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/radio-expressive.vue"
+    },
+    "./radio-solid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/radio-solid.vue"
+    },
+    "./radio-solid-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/radio-solid-expressive.vue"
+    },
+    "./rectangle-contract": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rectangle-contract.vue"
+    },
+    "./rectangle-contract-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rectangle-contract-expressive.vue"
+    },
+    "./rectangle-expand": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rectangle-expand.vue"
+    },
+    "./rectangle-expand-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rectangle-expand-expressive.vue"
+    },
+    "./rectangle-landscape-to-portrait": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rectangle-landscape-to-portrait.vue"
+    },
+    "./rectangle-landscape-to-portrait-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rectangle-landscape-to-portrait-expressive.vue"
+    },
+    "./rectangle-portrait-to-landscape": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rectangle-portrait-to-landscape.vue"
+    },
+    "./rectangle-portrait-to-landscape-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rectangle-portrait-to-landscape-expressive.vue"
+    },
+    "./refresh": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/refresh.vue"
+    },
+    "./refresh-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/refresh-expressive.vue"
+    },
+    "./reload": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/reload.vue"
+    },
+    "./reload-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/reload-expressive.vue"
+    },
+    "./reorder": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/reorder.vue"
+    },
+    "./rotate": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rotate.vue"
+    },
+    "./search": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/search.vue"
+    },
+    "./search-active": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/search-active.vue"
+    },
+    "./settings": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/settings.vue"
+    },
+    "./settings-active": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/settings-active.vue"
+    },
+    "./settings-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/settings-expressive.vue"
+    },
+    "./settings-solid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/settings-solid.vue"
+    },
+    "./settings-solid-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/settings-solid-expressive.vue"
+    },
+    "./shapes-unordered": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/shapes-unordered.vue"
+    },
+    "./shapes-unordered-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/shapes-unordered-expressive.vue"
+    },
+    "./show": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/show.vue"
+    },
+    "./sign-language": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sign-language.vue"
+    },
+    "./sign-language-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sign-language-expressive.vue"
+    },
+    "./sleep": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sleep.vue"
+    },
+    "./smart-speaker": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/smart-speaker.vue"
+    },
+    "./smart-speaker-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/smart-speaker-expressive.vue"
+    },
+    "./smart-watch": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/smart-watch.vue"
+    },
+    "./smart-watch-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/smart-watch-expressive.vue"
+    },
+    "./some-email": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/some-email.vue"
+    },
+    "./some-email-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/some-email-expressive.vue"
+    },
+    "./some-embed": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/some-embed.vue"
+    },
+    "./some-facebook": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/some-facebook.vue"
+    },
+    "./some-google": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/some-google.vue"
+    },
+    "./some-instagram": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/some-instagram.vue"
+    },
+    "./some-pinterest": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/some-pinterest.vue"
+    },
+    "./some-share": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/some-share.vue"
+    },
+    "./some-share-ios": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/some-share-ios.vue"
+    },
+    "./some-snapchat": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/some-snapchat.vue"
+    },
+    "./some-tommelned": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/some-tommelned.vue"
+    },
+    "./some-tommelned-active": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/some-tommelned-active.vue"
+    },
+    "./some-tommelopp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/some-tommelopp.vue"
+    },
+    "./some-tommelopp-active": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/some-tommelopp-active.vue"
+    },
+    "./some-twitter": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/some-twitter.vue"
+    },
+    "./some-youtube": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/some-youtube.vue"
+    },
+    "./soundwave": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/soundwave.vue"
+    },
+    "./soundwave-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/soundwave-expressive.vue"
+    },
+    "./speaker": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/speaker.vue"
+    },
+    "./speaker-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/speaker-expressive.vue"
+    },
+    "./speech-bubble-exclamation-mark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/speech-bubble-exclamation-mark.vue"
+    },
+    "./speech-bubble-exclamation-mark-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/speech-bubble-exclamation-mark-expressive.vue"
+    },
+    "./speech-bubble-inactive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/speech-bubble-inactive.vue"
+    },
+    "./speech-bubble-inactive-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/speech-bubble-inactive-expressive.vue"
+    },
+    "./speech-bubble-line": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/speech-bubble-line.vue"
+    },
+    "./speech-bubble-line-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/speech-bubble-line-expressive.vue"
+    },
+    "./speech-bubble-plus": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/speech-bubble-plus.vue"
+    },
+    "./speech-bubble-plus-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/speech-bubble-plus-expressive.vue"
+    },
+    "./speech-bubble-quote": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/speech-bubble-quote.vue"
+    },
+    "./speech-bubble-quote-active": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/speech-bubble-quote-active.vue"
+    },
+    "./speech-bubble-quote-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/speech-bubble-quote-expressive.vue"
+    },
+    "./speech-bubble-quote-solid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/speech-bubble-quote-solid.vue"
+    },
+    "./speech-bubble-quote-solid-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/speech-bubble-quote-solid-expressive.vue"
+    },
+    "./speech-bubble-subtitles": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/speech-bubble-subtitles.vue"
+    },
+    "./speech-bubble-subtitles-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/speech-bubble-subtitles-expressive.vue"
+    },
+    "./speech-bubble-subtitles-solid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/speech-bubble-subtitles-solid.vue"
+    },
+    "./speech-bubble-subtitles-solid-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/speech-bubble-subtitles-solid-expressive.vue"
+    },
+    "./speech-bubbles": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/speech-bubbles.vue"
+    },
+    "./speech-bubbles-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/speech-bubbles-expressive.vue"
+    },
+    "./spinner": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/spinner.vue"
+    },
+    "./spoken-subtitles": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/spoken-subtitles.vue"
+    },
+    "./spoken-subtitles-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/spoken-subtitles-expressive.vue"
+    },
+    "./square-and-arrow-up": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/square-and-arrow-up.vue"
+    },
+    "./square-and-arrow-up-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/square-and-arrow-up-expressive.vue"
+    },
+    "./squares-2x2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/squares-2x2.vue"
+    },
+    "./squares-2x2-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/squares-2x2-expressive.vue"
+    },
+    "./squares-2x2-solid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/squares-2x2-solid.vue"
+    },
+    "./squares-2x2-solid-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/squares-2x2-solid-expressive.vue"
+    },
+    "./star": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/star.vue"
+    },
+    "./star-active": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/star-active.vue"
+    },
+    "./star-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/star-expressive.vue"
+    },
+    "./star-solid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/star-solid.vue"
+    },
+    "./star-solid-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/star-solid-expressive.vue"
+    },
+    "./stop": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stop.vue"
+    },
+    "./stop-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stop-expressive.vue"
+    },
+    "./sun-horizon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sun-horizon.vue"
+    },
+    "./sun-horizon-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sun-horizon-expressive.vue"
+    },
+    "./super-emoji-poop-angry": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/super-emoji-poop-angry.vue"
+    },
+    "./tablet": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tablet.vue"
+    },
+    "./tablet-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tablet-expressive.vue"
+    },
+    "./tag-ny": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tag-ny.vue"
+    },
+    "./target": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/target.vue"
+    },
+    "./target-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/target-expressive.vue"
+    },
+    "./target-solid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/target-solid.vue"
+    },
+    "./target-solid-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/target-solid-expressive.vue"
+    },
+    "./thumbs-down": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/thumbs-down.vue"
+    },
+    "./thumbs-down-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/thumbs-down-expressive.vue"
+    },
+    "./thumbs-down-solid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/thumbs-down-solid.vue"
+    },
+    "./thumbs-down-solid-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/thumbs-down-solid-expressive.vue"
+    },
+    "./thumbs-up": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/thumbs-up.vue"
+    },
+    "./thumbs-up-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/thumbs-up-expressive.vue"
+    },
+    "./thumbs-up-solid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/thumbs-up-solid.vue"
+    },
+    "./thumbs-up-solid-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/thumbs-up-solid-expressive.vue"
+    },
+    "./tilgjengelighet": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tilgjengelighet.vue"
+    },
+    "./tilgjengelighet-horbarhet": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tilgjengelighet-horbarhet.vue"
+    },
+    "./tilgjengelighet-lydtekst": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tilgjengelighet-lydtekst.vue"
+    },
+    "./tilgjengelighet-synstolking": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tilgjengelighet-synstolking.vue"
+    },
+    "./tilgjengelighet-tegnspraak": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tilgjengelighet-tegnspraak.vue"
+    },
+    "./trash": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/trash.vue"
+    },
+    "./trash-active": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/trash-active.vue"
+    },
+    "./trashcan": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/trashcan.vue"
+    },
+    "./trashcan-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/trashcan-expressive.vue"
+    },
+    "./trashcan-solid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/trashcan-solid.vue"
+    },
+    "./trashcan-solid-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/trashcan-solid-expressive.vue"
+    },
+    "./tv": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tv.vue"
+    },
+    "./tv-dot": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tv-dot.vue"
+    },
+    "./tv-dot-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tv-dot-expressive.vue"
+    },
+    "./tv-dot-solid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tv-dot-solid.vue"
+    },
+    "./tv-dot-solid-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tv-dot-solid-expressive.vue"
+    },
+    "./tv-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tv-expressive.vue"
+    },
+    "./unlock": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/unlock.vue"
+    },
+    "./unlock-active": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/unlock-active.vue"
+    },
+    "./upload": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/upload.vue"
+    },
+    "./upload-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/upload-expressive.vue"
+    },
+    "./user-avatar": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/user-avatar.vue"
+    },
+    "./user-avatar-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/user-avatar-expressive.vue"
+    },
+    "./user-loggedin": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/user-loggedin.vue"
+    },
+    "./user-loggedin-active": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/user-loggedin-active.vue"
+    },
+    "./user-notloggedin": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/user-notloggedin.vue"
+    },
+    "./user-notloggedin-active": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/user-notloggedin-active.vue"
+    },
+    "./volume-1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/volume-1.vue"
+    },
+    "./volume-1-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/volume-1-expressive.vue"
+    },
+    "./volume-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/volume-2.vue"
+    },
+    "./volume-2-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/volume-2-expressive.vue"
+    },
+    "./volume-3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/volume-3.vue"
+    },
+    "./volume-3-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/volume-3-expressive.vue"
+    },
+    "./volume-x": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/volume-x.vue"
+    },
+    "./volume-x-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/volume-x-expressive.vue"
+    },
+    "./warning": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/warning.vue"
+    },
+    "./watch": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/watch.vue"
+    },
+    "./watch-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/watch-expressive.vue"
+    },
+    "./wifi": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wifi.vue"
+    },
+    "./wifi-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wifi-expressive.vue"
+    },
+    "./wifi-slash": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wifi-slash.vue"
+    },
+    "./wifi-slash-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wifi-slash-expressive.vue"
+    },
+    "./xmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/x/xmark.vue"
+    },
+    "./xmark-circle-checked": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/x/xmark-circle-checked.vue"
+    },
+    "./xmark-circle-checked-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/x/xmark-circle-checked-expressive.vue"
+    },
+    "./xmark-circle-checked-solid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/x/xmark-circle-checked-solid.vue"
+    },
+    "./xmark-circle-checked-solid-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/x/xmark-circle-checked-solid-expressive.vue"
+    },
+    "./xmark-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/x/xmark-expressive.vue"
+    },
+    "./zz": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/z/zz.vue"
+    },
+    "./zz-expressive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/z/zz-expressive.vue"
+    },
+    "./*": "./*"
+  },
+  "dependencies": {
+    "@iconify/css-vue": "^1.0.0"
+  },
+  "repository": "github:iconify/icons-vue#nrk"
+}

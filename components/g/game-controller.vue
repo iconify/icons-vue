@@ -1,0 +1,13 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/c/cuyn6tgcc.css';
+import '../../css/y/ya9kw7fhk.css';
+import '../../css/r/r0_ieedtm.css';
+import '../../css/a/ak916kbnl.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="cuyn6tgcc"><path class="ya9kw7fhk"/><path clip-rule="evenodd" class="r0_ieedtm"/><path clip-rule="evenodd" class="ak916kbnl"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="nrk:game-controller" /></template>

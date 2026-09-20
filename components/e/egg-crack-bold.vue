@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":256,"height":256};
+const content = `<path class="s2n2k61ym"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="ph:egg-crack-bold" /></template>
+<style>
+.s2n2k61ym {
+  fill: currentColor;
+  d: path("M190 57.34C171.06 29 147.88 12 128 12S84.94 29 66 57.34C46.94 86 36 120.46 36 152a92 92 0 0 0 184 0c0-31.54-10.94-66-30-94.66M128 220a68.07 68.07 0 0 1-68-68c0-61.12 46.19-116 68-116c7.59 0 18.13 6.65 28.64 17.88L119.05 96a12 12 0 0 0 6 19.63l20.9 5.23l-5.76 28.78a12 12 0 0 0 9.42 14.12a12 12 0 0 0 2.39.24a12 12 0 0 0 11.76-9.65l8-40a12 12 0 0 0-8.86-14l-12.74-3.19l21.4-24C185.2 94.34 196 122.44 196 152a68.07 68.07 0 0 1-68 68");
+}
+
+</style>

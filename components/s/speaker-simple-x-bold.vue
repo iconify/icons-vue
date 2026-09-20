@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":256,"height":256};
+const content = `<path class="xxiyvmdxj"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="ph:speaker-simple-x-bold" /></template>
+<style>
+.xxiyvmdxj {
+  fill: currentColor;
+  d: path("M165.27 21.22a12 12 0 0 0-12.64 1.31L83.88 76H40a20 20 0 0 0-20 20v64a20 20 0 0 0 20 20h43.88l68.75 53.47A12 12 0 0 0 172 224V32a12 12 0 0 0-6.73-10.78M148 199.47l-52.63-40.94A12 12 0 0 0 88 156H44v-56h44a12 12 0 0 0 7.37-2.53L148 56.54Zm108.49-55.95a12 12 0 0 1-17 17L224 145l-15.51 15.52a12 12 0 0 1-17-17L207 128l-15.52-15.51a12 12 0 0 1 17-17L224 111l15.51-15.51a12 12 0 0 1 17 17L241 128Z");
+}
+
+</style>

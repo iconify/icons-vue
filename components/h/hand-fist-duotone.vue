@@ -1,0 +1,24 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":256,"height":256};
+const content = `<g class="cuyn6tgcc"><path class="uhargibpp"/><path class="x1ewpfb6x"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="ph:hand-fist-duotone" /></template>
+<style>
+.cuyn6tgcc {
+  fill: currentColor;
+}
+
+.uhargibpp {
+  d: path("M224 112v16a96 96 0 0 1-192 0V88a24 24 0 0 1 48 0V64a24 24 0 0 1 48 0a24 24 0 0 1 48 0v24h24a24 24 0 0 1 24 24");
+  opacity: var(--svg-opacity--0-2, 0.2);
+}
+
+.x1ewpfb6x {
+  d: path("M200 80h-16V64a32 32 0 0 0-56-21.13a32 32 0 0 0-55.79 17.55A32 32 0 0 0 24 88v40a104 104 0 0 0 208 0v-16a32 32 0 0 0-32-32m-48-32a16 16 0 0 1 16 16v16h-32V64a16 16 0 0 1 16-16M88 64a16 16 0 0 1 32 0v40a16 16 0 0 1-32 0ZM40 88a16 16 0 0 1 32 0v16a16 16 0 0 1-32 0Zm176 40a88 88 0 0 1-175.92 3.75A31.93 31.93 0 0 0 80 125.13a31.93 31.93 0 0 0 44.58 3.35a32.2 32.2 0 0 0 11.8 11.44A47.88 47.88 0 0 0 120 176a8 8 0 0 0 16 0a32 32 0 0 1 32-32a8 8 0 0 0 0-16h-16a16 16 0 0 1-16-16V96h64a16 16 0 0 1 16 16Z");
+}
+
+</style>

@@ -1,0 +1,24 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":256,"height":256};
+const content = `<g class="cuyn6tgcc"><path class="amkltif_z"/><path class="cokjhxjic"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="ph:bezier-curve-duotone" /></template>
+<style>
+.amkltif_z {
+  d: path("M152 80a24 24 0 1 1-24-24a24 24 0 0 1 24 24M40 152a24 24 0 1 0 24 24a24 24 0 0 0-24-24m176 0a24 24 0 1 0 24 24a24 24 0 0 0-24-24");
+  opacity: var(--svg-opacity--0-2, 0.2);
+}
+
+.cokjhxjic {
+  d: path("M221.07 144.41A96.68 96.68 0 0 0 181 88h59a8 8 0 0 0 0-16h-81a32 32 0 0 0-62 0H16a8 8 0 0 0 0 16h59a96.68 96.68 0 0 0-40.07 56.41A32 32 0 1 0 51.08 146A80.6 80.6 0 0 1 99 93.44a32 32 0 0 0 58.06 0A80.6 80.6 0 0 1 204.92 146a32 32 0 1 0 16.15-1.57ZM56 176a16 16 0 1 1-16-16a16 16 0 0 1 16 16m72-80a16 16 0 1 1 16-16a16 16 0 0 1-16 16m88 96a16 16 0 1 1 16-16a16 16 0 0 1-16 16");
+}
+
+.cuyn6tgcc {
+  fill: currentColor;
+}
+
+</style>

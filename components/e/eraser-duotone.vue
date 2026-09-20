@@ -1,0 +1,24 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":256,"height":256};
+const content = `<g class="cuyn6tgcc"><path class="negei1bmu"/><path class="ja4_2fpws"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="ph:eraser-duotone" /></template>
+<style>
+.cuyn6tgcc {
+  fill: currentColor;
+}
+
+.ja4_2fpws {
+  d: path("M225 80.4L183.6 39a24 24 0 0 0-33.94 0L31 157.66a24 24 0 0 0 0 33.94l30.06 30.06a8 8 0 0 0 5.68 2.34H216a8 8 0 0 0 0-16h-84.7l93.7-93.66a24 24 0 0 0 0-33.94M108.68 208H70.05l-27.72-27.72a8 8 0 0 1 0-11.31L96 115.31L148.69 168Zm105-105L160 156.69L107.31 104L161 50.34a8 8 0 0 1 11.32 0l41.38 41.38a8 8 0 0 1 0 11.31Z");
+}
+
+.negei1bmu {
+  d: path("m160 168l-48 48H66.75l-30.06-30.06a16 16 0 0 1 0-22.63L96 104Z");
+  opacity: var(--svg-opacity--0-2, 0.2);
+}
+
+</style>

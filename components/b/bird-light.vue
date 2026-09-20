@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":256,"height":256};
+const content = `<path class="pq_h8bqiw"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="ph:bird-light" /></template>
+<style>
+.pq_h8bqiw {
+  fill: currentColor;
+  d: path("M174 68a10 10 0 1 1-10-10a10 10 0 0 1 10 10m64 12a6 6 0 0 1-2.67 5L214 99.21V120a102.12 102.12 0 0 1-102 102H24a14 14 0 0 1-10.93-22.75l.07-.09L98 97.35V76.89c0-32.32 25.89-58.74 57.72-58.89h.28a58 58 0 0 1 55.51 41.13L235.33 75a6 6 0 0 1 2.67 5m-16.82 0L203 67.88a6 6 0 0 1-2.48-3.48A46 46 0 0 0 156 30h-.23C130.53 30.12 110 51.16 110 76.89v22.63a6 6 0 0 1-1.39 3.85L22.43 206.78A2 2 0 0 0 24 210h27.86l71.53-85.84a6 6 0 0 1 9.22 7.68L67.48 210H112a90.1 90.1 0 0 0 90-90V96a6 6 0 0 1 2.67-5Z");
+}
+
+</style>

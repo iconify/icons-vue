@@ -1,0 +1,24 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":256,"height":256};
+const content = `<g class="cuyn6tgcc"><path class="vfpvt_k6u"/><path class="vuz3b9mrp"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="ph:swatches-duotone" /></template>
+<style>
+.cuyn6tgcc {
+  fill: currentColor;
+}
+
+.vfpvt_k6u {
+  d: path("m135.88 43.11l-25 143.14a35.71 35.71 0 0 1-41.34 29.2a36 36 0 0 1-28.95-41.71l25-143.13a8 8 0 0 1 9.19-6.49l54.67 9.73a8 8 0 0 1 6.43 9.26");
+  opacity: var(--svg-opacity--0-2, 0.2);
+}
+
+.vuz3b9mrp {
+  d: path("M88 180a12 12 0 1 1-12-12a12 12 0 0 1 12 12m152-23.81V208a16 16 0 0 1-16 16H76a46.4 46.4 0 0 1-7.94-.68a44 44 0 0 1-35.43-50.95l25-143.13a15.94 15.94 0 0 1 18.47-13L130.84 26a16 16 0 0 1 12.92 18.52l-12.08 69L199.49 89a16 16 0 0 1 20.45 9.52L239 150.69a18.4 18.4 0 0 1 1 5.5m-137 28.68l25-143.13L73.46 32l-25 143.1a28 28 0 0 0 22.44 32.47A27.3 27.3 0 0 0 91.46 203A27.84 27.84 0 0 0 103 184.87M116.78 195L224 156.11L204.92 104l-76.42 27.7l-9.78 55.92a44.6 44.6 0 0 1-1.94 7.38M224 173.12L127.74 208H224Z");
+}
+
+</style>

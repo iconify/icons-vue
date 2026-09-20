@@ -1,0 +1,24 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":256,"height":256};
+const content = `<g class="cuyn6tgcc"><path class="vh9v3e9_r"/><path class="bmu1zevuw"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="ph:feather-duotone" /></template>
+<style>
+.bmu1zevuw {
+  d: path("M221.28 34.75a64 64 0 0 0-90.49 0L60.69 104A15.9 15.9 0 0 0 56 115.31v73.38l-29.66 29.65a8 8 0 0 0 11.32 11.32L67.32 200h73.38a15.92 15.92 0 0 0 11.3-4.68l69.23-70a64 64 0 0 0 .05-90.57m-79.21 11.31A48 48 0 0 1 211.79 112h-56.46l34.35-34.34a8 8 0 0 0-11.32-11.32L120 124.69V67.87ZM72 115.35l32-31.67v57l-32 32ZM140.7 184H83.32l56-56h56.74Z");
+}
+
+.cuyn6tgcc {
+  fill: currentColor;
+}
+
+.vh9v3e9_r {
+  d: path("m215.8 119.6l-69.26 70.06a8 8 0 0 1-5.65 2.34H64.2v-76.69a8 8 0 0 1 2.34-5.65l45.66-45.14V144l24-24Z");
+  opacity: var(--svg-opacity--0-2, 0.2);
+}
+
+</style>

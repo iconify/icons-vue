@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":256,"height":256};
+const content = `<path class="nyi41nb_e"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="ph:folder-simple-lock-light" /></template>
+<style>
+.nyi41nb_e {
+  fill: currentColor;
+  d: path("M230 88v16a6 6 0 0 1-12 0V88a2 2 0 0 0-2-2h-85.33a14 14 0 0 1-8.4-2.8L94.53 62.4a2 2 0 0 0-1.2-.4H40a2 2 0 0 0-2 2v136a2 2 0 0 0 2 2h72a6 6 0 0 1 0 12H40a14 14 0 0 1-14-14V64a14 14 0 0 1 14-14h53.33a14 14 0 0 1 8.4 2.8l27.74 20.8a2 2 0 0 0 1.2.4H216a14 14 0 0 1 14 14m0 80v40a6 6 0 0 1-6 6h-72a6 6 0 0 1-6-6v-40a6 6 0 0 1 6-6h10v-6a26 26 0 0 1 52 0v6h10a6 6 0 0 1 6 6m-56-6h28v-6a14 14 0 0 0-28 0Zm44 12h-60v28h60Z");
+}
+
+</style>

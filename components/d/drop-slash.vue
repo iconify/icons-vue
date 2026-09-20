@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":256,"height":256};
+const content = `<path class="a_nq84bxg"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="ph:drop-slash" /></template>
+<style>
+.a_nq84bxg {
+  fill: currentColor;
+  d: path("M53.92 34.62a8 8 0 1 0-11.84 10.76l22.64 24.91C48.32 95 40 119.78 40 144a88 88 0 0 0 149.21 63.22l12.87 14.16a8 8 0 1 0 11.84-10.76ZM128 216a72.08 72.08 0 0 1-72-72c0-19.93 6.68-40.57 19.86-61.46l102.57 112.82A71.84 71.84 0 0 1 128 216M90 50.51a8 8 0 0 1-.27-11.31a248 248 0 0 1 33.68-29.75a8 8 0 0 1 9.18 0C136 11.83 216 68.7 216 144a88 88 0 0 1-3.15 23.4a8 8 0 0 1-7.71 5.88A7.8 7.8 0 0 1 203 173a8 8 0 0 1-5.59-9.83A72.6 72.6 0 0 0 200 144c0-57.24-55.48-105-72-118a252 252 0 0 0-26.66 24.23a8 8 0 0 1-11.34.28");
+}
+
+</style>

@@ -1,0 +1,24 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":256,"height":256};
+const content = `<g class="cuyn6tgcc"><path class="yihv3actd"/><path class="dg9pyqbbx"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="ph:triangle-dashed-duotone" /></template>
+<style>
+.cuyn6tgcc {
+  fill: currentColor;
+}
+
+.dg9pyqbbx {
+  d: path("M160 216a8 8 0 0 1-8 8h-48a8 8 0 0 1 0-16h48a8 8 0 0 1 8 8m76.8-27.91l-4.66-8.09a8 8 0 0 0-13.86 8l4.65 8.09a7.59 7.59 0 0 1 0 7.72a8.5 8.5 0 0 1-7.48 4.2H192a8 8 0 0 0 0 16h23.45a24.34 24.34 0 0 0 21.33-12.19a23.51 23.51 0 0 0 .02-23.73M64 208H40.55a8.5 8.5 0 0 1-7.48-4.2a7.59 7.59 0 0 1 0-7.72l4.65-8.08a8 8 0 1 0-13.86-8l-4.66 8.08a23.51 23.51 0 0 0 0 23.72A24.34 24.34 0 0 0 40.55 224H64a8 8 0 0 0 0-16m138.18-56a8 8 0 0 0 6.93-12l-23-40a8 8 0 0 0-13.86 8l23 40a8 8 0 0 0 6.93 4M149.35 36.22a24.76 24.76 0 0 0-42.7 0L93 60a8 8 0 1 0 13.86 8l13.7-23.78a8.75 8.75 0 0 1 15 0L149.18 68a8 8 0 0 0 6.94 4a7.9 7.9 0 0 0 4-1.07A8 8 0 0 0 163 60Zm-68.5 60.85A8 8 0 0 0 69.93 100l-23 40a8 8 0 0 0 13.87 8l23-40a8 8 0 0 0-2.95-10.93");
+}
+
+.yihv3actd {
+  d: path("M215.46 216H40.54c-12.62 0-20.54-13.21-14.41-23.91l87.46-151.87c6.3-11 22.52-11 28.82 0l87.46 151.87c6.13 10.7-1.79 23.91-14.41 23.91");
+  opacity: var(--svg-opacity--0-2, 0.2);
+}
+
+</style>

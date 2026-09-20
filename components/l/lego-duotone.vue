@@ -1,0 +1,24 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":256,"height":256};
+const content = `<g class="cuyn6tgcc"><path class="ost3gia9s"/><path class="brc8kcc8f"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="ph:lego-duotone" /></template>
+<style>
+.brc8kcc8f {
+  d: path("M243.58 72.84L197.29 49.7C191.54 39.24 177.21 32 160 32c-22.43 0-40 12.3-40 28a20.8 20.8 0 0 0 1.06 6.53l-19.52 9.76A53.7 53.7 0 0 0 80 72c-22.43 0-40 12.3-40 28a20.8 20.8 0 0 0 1.06 6.53l-28.64 14.31A8 8 0 0 0 8 128v64a8 8 0 0 0 4.42 7.16l64 32a8 8 0 0 0 7.16 0l160-80A8 8 0 0 0 248 144V80a8 8 0 0 0-4.42-7.16M80 151.06L33.89 128L51 119.45c7.24 5.29 17.48 8.55 29 8.55c22.43 0 40-12.3 40-28a21.77 21.77 0 0 0-4.35-12.88L131 79.45c7.24 5.29 17.48 8.55 29 8.55c18.38 0 33.49-8.26 38.35-19.88L222.11 80ZM160 48c13.74 0 24 6.34 24 12s-10.26 12-24 12s-24-6.34-24-12s10.26-12 24-12M80 88c13.74 0 24 6.34 24 12s-10.26 12-24 12c-9.67 0-17.61-3.14-21.47-7a8 8 0 0 0-.84-.93A6.62 6.62 0 0 1 56 100c0-5.66 10.26-12 24-12m-56 52.94l48 24v46.12l-48-24Zm64 70.12v-46.12l144-72v46.12Z");
+}
+
+.cuyn6tgcc {
+  fill: currentColor;
+}
+
+.ost3gia9s {
+  d: path("M240 80v64L80 224v-64Z");
+  opacity: var(--svg-opacity--0-2, 0.2);
+}
+
+</style>

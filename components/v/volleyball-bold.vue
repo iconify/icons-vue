@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":256,"height":256};
+const content = `<path class="v6m8debhh"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="ph:volleyball-bold" /></template>
+<style>
+.v6m8debhh {
+  fill: currentColor;
+  d: path("M128 20a108 108 0 1 0 108 108A108.12 108.12 0 0 0 128 20M96.83 50a83.5 83.5 0 0 1 17.92-5a84 84 0 0 1 46.51 71h-26.33Zm38.1 90h76.2a83.4 83.4 0 0 1-4.69 18a84.07 84.07 0 0 1-84.68 4.79Zm76.2-24h-25.84a107.4 107.4 0 0 0-14.4-49.71a108.7 108.7 0 0 0-11.39-16.14A84.21 84.21 0 0 1 211.13 116M76.07 62.05L89 84.39a107.44 107.44 0 0 0-35.85 37.32a109 109 0 0 0-8.28 18a83.65 83.65 0 0 1 31.2-77.66M62.79 180.87A84 84 0 0 1 101 105.2l13.14 22.8l-38.07 66a84.7 84.7 0 0 1-13.28-13.13m34 25.11l12.92-22.37A107.4 107.4 0 0 0 160 196a109 109 0 0 0 19.59-1.78A83.72 83.72 0 0 1 96.83 206Z");
+}
+
+</style>

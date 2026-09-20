@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":256,"height":256};
+const content = `<path class="d7dvh-fgp"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="ph:visor-bold" /></template>
+<style>
+.d7dvh-fgp {
+  fill: currentColor;
+  d: path("M188 104a12 12 0 0 1-12 12H80a12 12 0 0 1 0-24h96a12 12 0 0 1 12 12m67.91 27.63A76.29 76.29 0 0 1 182.43 204h-1.69c-14.44 0-29.37-5.78-45.58-17.64a12.08 12.08 0 0 0-14.32 0C104 198.68 88.56 204.44 73.57 204A76.29 76.29 0 0 1 .09 131.63A76 76 0 0 1 76 52h104a76 76 0 0 1 75.91 79.63M217.62 92.1A51.56 51.56 0 0 0 180 76H76a52 52 0 0 0-51.94 54.51A52.19 52.19 0 0 0 74.32 180c9.42.29 20-4 32.35-13a36 36 0 0 1 42.66 0c12.36 9 22.91 13.29 32.35 13a52.19 52.19 0 0 0 50.26-49.48a51.63 51.63 0 0 0-14.32-38.42");
+}
+
+</style>

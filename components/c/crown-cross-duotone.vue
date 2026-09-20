@@ -1,0 +1,24 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":256,"height":256};
+const content = `<g class="cuyn6tgcc"><path class="n5ijox6ue"/><path class="nuc883bqt"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="ph:crown-cross-duotone" /></template>
+<style>
+.cuyn6tgcc {
+  fill: currentColor;
+}
+
+.n5ijox6ue {
+  d: path("M232 116c0 52-48 68-48 68v24a8 8 0 0 1-8 8H80a8 8 0 0 1-8-8v-24s-48-16-48-68a52 52 0 0 1 52-52c28.72 0 52 19.28 52 48c0-28.72 23.28-48 52-48a52 52 0 0 1 52 52");
+  opacity: var(--svg-opacity--0-2, 0.2);
+}
+
+.nuc883bqt {
+  d: path("M180 56c-17.74 0-33.21 6.48-44 17.16V40h16a8 8 0 0 0 0-16h-16V8a8 8 0 0 0-16 0v16h-16a8 8 0 0 0 0 16h16v33.16C109.21 62.48 93.74 56 76 56a60.07 60.07 0 0 0-60 60c0 29.86 14.54 48.85 26.73 59.52A90.5 90.5 0 0 0 64 189.34V208a16 16 0 0 0 16 16h96a16 16 0 0 0 16-16v-18.66a90.5 90.5 0 0 0 21.27-13.82C225.46 164.85 240 145.86 240 116a60.07 60.07 0 0 0-60-60m1.47 120.41A8 8 0 0 0 176 184v24H80v-24a8 8 0 0 0-5.47-7.59C74.1 176.27 32 161.7 32 116a44.05 44.05 0 0 1 44-44c25.5 0 44 16.82 44 40v64a8 8 0 0 0 16 0v-64c0-23.18 18.5-40 44-40a44.05 44.05 0 0 1 44 44c0 45.4-40.82 59.83-42.53 60.41");
+}
+
+</style>

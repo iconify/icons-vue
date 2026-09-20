@@ -1,0 +1,24 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":256,"height":256};
+const content = `<g class="cuyn6tgcc"><path class="rek2ccbks"/><path class="gdinfzbba"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="ph:spade-duotone" /></template>
+<style>
+.cuyn6tgcc {
+  fill: currentColor;
+}
+
+.gdinfzbba {
+  d: path("M131.58 16.85a8 8 0 0 0-7.16 0C120.32 18.9 24 67.84 24 136a56 56 0 0 0 74.15 53l-9.81 32.7A8 8 0 0 0 96 232h64a8 8 0 0 0 7.66-10.3l-9.81-32.7A56 56 0 0 0 232 136c0-68.16-96.32-117.1-100.42-119.15M176 176a40 40 0 0 1-26.29-9.85a8 8 0 0 0-12.92 8.33L149.25 216h-42.5l12.46-41.52a8 8 0 0 0-12.92-8.33A40 40 0 0 1 40 136c0-29.88 24.41-56.55 44.89-73.66A279 279 0 0 1 128 33.06a279 279 0 0 1 43.11 29.28c37.1 31 44.89 57.17 44.89 73.66a40 40 0 0 1-40 40");
+}
+
+.rek2ccbks {
+  d: path("M224 136a48 48 0 0 1-79.55 36.18L160 224H96l15.55-51.82A48 48 0 0 1 32 136c0-64 96-112 96-112s96 48 96 112");
+  opacity: var(--svg-opacity--0-2, 0.2);
+}
+
+</style>

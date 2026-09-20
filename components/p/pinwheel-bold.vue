@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":256,"height":256};
+const content = `<path class="c0so_sapa"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="ph:pinwheel-bold" /></template>
+<style>
+.c0so_sapa {
+  fill: currentColor;
+  d: path("m232.49 215.52l-44-44a64 64 0 0 0 35.59-81a12 12 0 0 0-15.38-7.17l-35.61 13a64 64 0 0 0-82.5-80.46a12 12 0 0 0-7.17 15.38l13 35.61a64 64 0 0 0-80.49 82.55a12 12 0 0 0 15.38 7.17l35.61-13a63.94 63.94 0 0 0 82.55 80.49a12 12 0 0 0 7.17-15.38l-12.95-35.59a63.5 63.5 0 0 0 15.7 3.16l56.17 56.17a12 12 0 0 0 17-17ZM129.38 39.78a40 40 0 0 1 7.43 68L110.7 36.05a39.8 39.8 0 0 1 18.68 3.73m-93.33 89.54a40 40 0 0 1 71.75-26.11Zm74.59 70.92a40 40 0 0 1-7.43-68L129.32 204a39.8 39.8 0 0 1-18.68-3.76m36.45-51.51a39.86 39.86 0 0 1-14.87-11.92L204 110.7a40 40 0 0 1-56.88 38Z");
+}
+
+</style>

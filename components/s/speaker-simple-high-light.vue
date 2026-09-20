@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":256,"height":256};
+const content = `<path class="czd_0_7-a"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="ph:speaker-simple-high-light" /></template>
+<style>
+.czd_0_7-a {
+  fill: currentColor;
+  d: path("M162.64 26.61a6 6 0 0 0-6.32.65L85.94 82H40a14 14 0 0 0-14 14v64a14 14 0 0 0 14 14h45.94l70.38 54.74A6 6 0 0 0 166 224V32a6 6 0 0 0-3.36-5.39M154 211.73l-62.32-48.47A6 6 0 0 0 88 162H40a2 2 0 0 1-2-2V96a2 2 0 0 1 2-2h48a6 6 0 0 0 3.68-1.26L154 44.27ZM206 104v48a6 6 0 0 1-12 0v-48a6 6 0 0 1 12 0m32-16v80a6 6 0 0 1-12 0V88a6 6 0 0 1 12 0");
+}
+
+</style>

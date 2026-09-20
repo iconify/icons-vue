@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":256,"height":256};
+const content = `<path class="mcoxskbrr"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="ph:vignette-bold" /></template>
+<style>
+.mcoxskbrr {
+  fill: currentColor;
+  d: path("M216 36H40a20 20 0 0 0-20 20v144a20 20 0 0 0 20 20h176a20 20 0 0 0 20-20V56a20 20 0 0 0-20-20m-4 160H44V60h168ZM81.43 166.05C94 175.05 110.56 180 128 180s34-4.95 46.57-13.95C188.19 156.32 196 142.45 196 128s-7.81-28.32-21.43-38C162 81 145.44 76 128 76s-34 5-46.57 14C67.81 99.68 60 113.55 60 128s7.81 28.32 21.43 38.05M128 100c23.85 0 44 12.82 44 28s-20.15 28-44 28s-44-12.82-44-28s20.15-28 44-28");
+}
+
+</style>

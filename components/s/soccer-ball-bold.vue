@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":256,"height":256};
+const content = `<path class="url3m3t5z"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="ph:soccer-ball-bold" /></template>
+<style>
+.url3m3t5z {
+  fill: currentColor;
+  d: path("M128 20a108 108 0 1 0 108 108A108.12 108.12 0 0 0 128 20m71.88 151.42h-24L166.1 158l11.3-32.94l15.75-5.06l18.6 14.26a83.4 83.4 0 0 1-11.87 37.16M44.25 134.21L62.85 120l15.75 5.11L89.9 158l-9.75 13.42h-24a83.4 83.4 0 0 1-11.9-37.21m67.6 13.79l-9.54-27.77L128 102.56l25.69 17.67l-9.54 27.77Zm80.66-73.73l-6.78 22.85l-15.81 5.14L140 81.69V65.46l21.22-14.59a84.3 84.3 0 0 1 31.29 23.4m-97.73-23.4L116 65.46v16.23l-29.92 20.57l-15.81-5.14l-6.78-22.85a84.3 84.3 0 0 1 31.29-23.4m13.58 158.79l-8.62-24.37l9.65-13.29h37.22l9.65 13.29l-8.62 24.37a83.6 83.6 0 0 1-39.28 0");
+}
+
+</style>

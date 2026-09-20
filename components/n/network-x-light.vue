@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":256,"height":256};
+const content = `<path class="wtol7-tfn"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="ph:network-x-light" /></template>
+<style>
+.wtol7-tfn {
+  fill: currentColor;
+  d: path("M232 114h-98V86h10a14 14 0 0 0 14-14V40a14 14 0 0 0-14-14h-32a14 14 0 0 0-14 14v32a14 14 0 0 0 14 14h10v28H24a6 6 0 0 0 0 12h34v36H48a14 14 0 0 0-14 14v32a14 14 0 0 0 14 14h32a14 14 0 0 0 14-14v-32a14 14 0 0 0-14-14H70v-36h116v18a6 6 0 0 0 12 0v-18h34a6 6 0 0 0 0-12M110 72V40a2 2 0 0 1 2-2h32a2 2 0 0 1 2 2v32a2 2 0 0 1-2 2h-32a2 2 0 0 1-2-2M82 176v32a2 2 0 0 1-2 2H48a2 2 0 0 1-2-2v-32a2 2 0 0 1 2-2h32a2 2 0 0 1 2 2m138.24-3.76L200.48 192l19.76 19.76a6 6 0 1 1-8.48 8.48L192 200.48l-19.76 19.76a6 6 0 0 1-8.48-8.48L183.52 192l-19.76-19.76a6 6 0 0 1 8.48-8.48L192 183.52l19.76-19.76a6 6 0 0 1 8.48 8.48");
+}
+
+</style>

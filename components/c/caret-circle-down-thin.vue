@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":256,"height":256};
+const content = `<path class="smdf5jbao"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="ph:caret-circle-down-thin" /></template>
+<style>
+.smdf5jbao {
+  fill: currentColor;
+  d: path("M128 28a100 100 0 1 0 100 100A100.11 100.11 0 0 0 128 28m0 192a92 92 0 1 1 92-92a92.1 92.1 0 0 1-92 92m42.83-110.83a4 4 0 0 1 0 5.66l-40 40a4 4 0 0 1-5.66 0l-40-40a4 4 0 0 1 5.66-5.66L128 146.34l37.17-37.17a4 4 0 0 1 5.66 0");
+}
+
+</style>

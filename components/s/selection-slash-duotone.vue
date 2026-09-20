@@ -1,0 +1,24 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":256,"height":256};
+const content = `<g class="cuyn6tgcc"><path class="bg35r-f3d"/><path class="fs1rpebtb"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="ph:selection-slash-duotone" /></template>
+<style>
+.bg35r-f3d {
+  d: path("M216 40v176H40V40Z");
+  opacity: var(--svg-opacity--0-2, 0.2);
+}
+
+.cuyn6tgcc {
+  fill: currentColor;
+}
+
+.fs1rpebtb {
+  d: path("M104 40a8 8 0 0 1 8-8h32a8 8 0 0 1 0 16h-32a8 8 0 0 1-8-8m40 168h-32a8 8 0 0 0 0 16h32a8 8 0 0 0 0-16m64-176h-24a8 8 0 0 0 0 16h24v24a8 8 0 0 0 16 0V48a16 16 0 0 0-16-16m8 72a8 8 0 0 0-8 8v32a8 8 0 0 0 16 0v-32a8 8 0 0 0-8-8M40 152a8 8 0 0 0 8-8v-32a8 8 0 0 0-16 0v32a8 8 0 0 0 8 8m32 56H48v-24a8 8 0 0 0-16 0v24a16 16 0 0 0 16 16h24a8 8 0 0 0 0-16M53.92 34.62a8 8 0 1 0-11.84 10.76l160 176a8 8 0 1 0 11.84-10.76Z");
+}
+
+</style>

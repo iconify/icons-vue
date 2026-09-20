@@ -1,0 +1,24 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":256,"height":256};
+const content = `<g class="cuyn6tgcc"><path class="gi-xp52qz"/><path class="ad1__73yc"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="ph:police-car-duotone" /></template>
+<style>
+.ad1__73yc {
+  d: path("M240 104h-11.36l-27.39-47.94A16 16 0 0 0 187.36 48H68.64a16 16 0 0 0-13.89 8.06L27.36 104H16a8 8 0 0 0 0 16h8v80a16 16 0 0 0 16 16h24a16 16 0 0 0 16-16v-16h96v16a16 16 0 0 0 16 16h24a16 16 0 0 0 16-16v-80h8a8 8 0 0 0 0-16M68.64 64h118.72l22.85 40H45.79ZM64 200H40v-16h24Zm128 0v-16h24v16Zm24-32H40v-48h176ZM56 144a8 8 0 0 1 8-8h16a8 8 0 0 1 0 16H64a8 8 0 0 1-8-8m112 0a8 8 0 0 1 8-8h16a8 8 0 0 1 0 16h-16a8 8 0 0 1-8-8M96 24a8 8 0 0 1 8-8h48a8 8 0 0 1 0 16h-48a8 8 0 0 1-8-8");
+}
+
+.cuyn6tgcc {
+  fill: currentColor;
+}
+
+.gi-xp52qz {
+  d: path("M184 176h40v24a8 8 0 0 1-8 8h-24a8 8 0 0 1-8-8ZM32 200a8 8 0 0 0 8 8h24a8 8 0 0 0 8-8v-24H32ZM194.3 60a8 8 0 0 0-6.94-4H68.64a8 8 0 0 0-6.94 4L32 112h192Z");
+  opacity: var(--svg-opacity--0-2, 0.2);
+}
+
+</style>

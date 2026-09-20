@@ -1,0 +1,24 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":256,"height":256};
+const content = `<g class="cuyn6tgcc"><path class="y7wm0cblh"/><path class="ym8uj8_1y"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="ph:hoodie-duotone" /></template>
+<style>
+.cuyn6tgcc {
+  fill: currentColor;
+}
+
+.y7wm0cblh {
+  d: path("m231.72 131.51l-21.44 78.59a8 8 0 0 1-7.71 5.9H176a8 8 0 0 1-8-8v-24H88v24a8 8 0 0 1-8 8H53.43a8 8 0 0 1-7.71-5.9l-21.44-78.59a8 8 0 0 1 1.06-6.51L72 55l56 33l56-33l46.66 70a8 8 0 0 1 1.06 6.51");
+  opacity: var(--svg-opacity--0-2, 0.2);
+}
+
+.ym8uj8_1y {
+  d: path("M237.31 120.53L183 39.12A16 16 0 0 0 169.73 32H86.27A16 16 0 0 0 73 39.12l-54.31 81.41a16 16 0 0 0-2.13 13.09L38 212.21A16 16 0 0 0 53.43 224H80a16 16 0 0 0 16-16v-16h64v16a16 16 0 0 0 16 16h26.57A16 16 0 0 0 218 212.21l21.44-78.59a16 16 0 0 0-2.13-13.09M80 176V69l24 14.15V136a8 8 0 0 0 16 0V92.57l3.94 2.32a8 8 0 0 0 8.12 0l3.94-2.32V128a8 8 0 0 0 16 0V83.14L176 69v107Zm89.73-128l2.92 4.39L128 78.71L83.35 52.39L86.27 48ZM80 208H53.43L32 129.41l32-48V176a16 16 0 0 0 16 16Zm122.57 0H176v-16a16 16 0 0 0 16-16V81.41l32 48Z");
+}
+
+</style>

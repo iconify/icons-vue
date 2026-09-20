@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":256,"height":256};
+const content = `<path class="zaprk7_8h"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="ph:unite-bold" /></template>
+<style>
+.zaprk7_8h {
+  fill: currentColor;
+  d: path("M178 78A84 84 0 1 0 78 178A84 84 0 1 0 178 78m42 82a61 61 0 0 1-.38 6.65l-44-44a83.3 83.3 0 0 0 4-19.34A60.09 60.09 0 0 1 220 160m-74-30.94L126.94 110a59.57 59.57 0 0 1 28.9-9.81a59.57 59.57 0 0 1-9.84 28.87m-36-2.12L129.06 146a59.57 59.57 0 0 1-28.9 9.81a59.57 59.57 0 0 1 9.84-28.87m42.7-50.6a83.3 83.3 0 0 0-19.34 4l-44-44A61 61 0 0 1 96 36a60.09 60.09 0 0 1 56.67 40.34ZM64.19 45.16l46.73 46.73a85 85 0 0 0-19 19l-46.76-46.7a60.45 60.45 0 0 1 19.03-19.03M36 96a61 61 0 0 1 .38-6.65l44 44a83.3 83.3 0 0 0-4 19.34A60.09 60.09 0 0 1 36 96m67.33 83.66a83.3 83.3 0 0 0 19.34-4l44 44a61 61 0 0 1-6.67.34a60.09 60.09 0 0 1-56.67-40.34m88.48 31.18l-46.73-46.73a85 85 0 0 0 19-19l46.73 46.73a60.45 60.45 0 0 1-19 19");
+}
+
+</style>

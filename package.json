@@ -1,0 +1,591 @@
+{
+  "name": "@iconify-vue/medical-icon",
+  "type": "module",
+  "version": "1.0.4",
+  "homepage": "https://icon-sets.iconify.design/medical-icon/",
+  "bugs": "https://github.com/iconify/icons-vue/issues",
+  "license": "MIT",
+  "exports": {
+    "./accessibility": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/accessibility.vue"
+    },
+    "./administration": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/administration.vue"
+    },
+    "./alternative-complementary": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/alternative-complementary.vue"
+    },
+    "./ambulance": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/ambulance.vue"
+    },
+    "./anesthesia": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/anesthesia.vue"
+    },
+    "./billing": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/billing.vue"
+    },
+    "./cardiology": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cardiology.vue"
+    },
+    "./care-staff-area": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/care-staff-area.vue"
+    },
+    "./cath-lab": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cath-lab.vue"
+    },
+    "./chapel": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chapel.vue"
+    },
+    "./coffee-shop": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/coffee-shop.vue"
+    },
+    "./dental": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dental.vue"
+    },
+    "./dermatology": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dermatology.vue"
+    },
+    "./diabetes-education": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/diabetes-education.vue"
+    },
+    "./drinking-fountain": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/drinking-fountain.vue"
+    },
+    "./ear-nose-throat": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/ear-nose-throat.vue"
+    },
+    "./elevators": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/elevators.vue"
+    },
+    "./emergency": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/emergency.vue"
+    },
+    "./family-practice": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/family-practice.vue"
+    },
+    "./fire-extinguisher": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fire-extinguisher.vue"
+    },
+    "./first-aid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/first-aid.vue"
+    },
+    "./genetics": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/genetics.vue"
+    },
+    "./gift-shop": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gift-shop.vue"
+    },
+    "./health-education": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/health-education.vue"
+    },
+    "./health-services": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/health-services.vue"
+    },
+    "./hearing-assistance": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hearing-assistance.vue"
+    },
+    "./hospital": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hospital.vue"
+    },
+    "./i-accessibility": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/i-accessibility.vue"
+    },
+    "./i-administration": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/i-administration.vue"
+    },
+    "./i-alternative-complementary": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/i-alternative-complementary.vue"
+    },
+    "./i-ambulance": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/i-ambulance.vue"
+    },
+    "./i-anesthesia": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/i-anesthesia.vue"
+    },
+    "./i-billing": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/i-billing.vue"
+    },
+    "./i-cardiology": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/i-cardiology.vue"
+    },
+    "./i-care-staff-area": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/i-care-staff-area.vue"
+    },
+    "./i-cath-lab": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/i-cath-lab.vue"
+    },
+    "./i-chapel": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/i-chapel.vue"
+    },
+    "./i-coffee-shop": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/i-coffee-shop.vue"
+    },
+    "./i-dental": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/i-dental.vue"
+    },
+    "./i-dermatology": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/i-dermatology.vue"
+    },
+    "./i-diabetes-education": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/i-diabetes-education.vue"
+    },
+    "./i-drinking-fountain": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/i-drinking-fountain.vue"
+    },
+    "./i-ear-nose-throat": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/i-ear-nose-throat.vue"
+    },
+    "./i-elevators": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/i-elevators.vue"
+    },
+    "./i-emergency": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/i-emergency.vue"
+    },
+    "./i-family-practice": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/i-family-practice.vue"
+    },
+    "./i-fire-extinguisher": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/i-fire-extinguisher.vue"
+    },
+    "./i-first-aid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/i-first-aid.vue"
+    },
+    "./i-genetics": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/i-genetics.vue"
+    },
+    "./i-gift-shop": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/i-gift-shop.vue"
+    },
+    "./i-health-education": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/i-health-education.vue"
+    },
+    "./i-health-services": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/i-health-services.vue"
+    },
+    "./i-hearing-assistance": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/i-hearing-assistance.vue"
+    },
+    "./i-hospital": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/i-hospital.vue"
+    },
+    "./i-imaging-alternative-ct": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/i-imaging-alternative-ct.vue"
+    },
+    "./i-imaging-alternative-mri": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/i-imaging-alternative-mri.vue"
+    },
+    "./i-imaging-alternative-mri-two": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/i-imaging-alternative-mri-two.vue"
+    },
+    "./i-imaging-alternative-pet": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/i-imaging-alternative-pet.vue"
+    },
+    "./i-imaging-root-category": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/i-imaging-root-category.vue"
+    },
+    "./i-immunizations": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/i-immunizations.vue"
+    },
+    "./i-infectious-diseases": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/i-infectious-diseases.vue"
+    },
+    "./i-information-us": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/i-information-us.vue"
+    },
+    "./i-inpatient": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/i-inpatient.vue"
+    },
+    "./i-intensive-care": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/i-intensive-care.vue"
+    },
+    "./i-internal-medicine": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/i-internal-medicine.vue"
+    },
+    "./i-interpreter-services": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/i-interpreter-services.vue"
+    },
+    "./i-kidney": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/i-kidney.vue"
+    },
+    "./i-labor-delivery": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/i-labor-delivery.vue"
+    },
+    "./i-laboratory": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/i-laboratory.vue"
+    },
+    "./i-mammography": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/i-mammography.vue"
+    },
+    "./i-medical-library": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/i-medical-library.vue"
+    },
+    "./i-medical-records": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/i-medical-records.vue"
+    },
+    "./i-mental-health": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/i-mental-health.vue"
+    },
+    "./i-mri-pet": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/i-mri-pet.vue"
+    },
+    "./i-neurology": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/i-neurology.vue"
+    },
+    "./i-no-smoking": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/i-no-smoking.vue"
+    },
+    "./i-nursery": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/i-nursery.vue"
+    },
+    "./i-nutrition": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/i-nutrition.vue"
+    },
+    "./i-oncology": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/i-oncology.vue"
+    },
+    "./i-ophthalmology": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/i-ophthalmology.vue"
+    },
+    "./i-outpatient": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/i-outpatient.vue"
+    },
+    "./i-pathology": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/i-pathology.vue"
+    },
+    "./i-pediatrics": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/i-pediatrics.vue"
+    },
+    "./i-pharmacy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/i-pharmacy.vue"
+    },
+    "./i-physical-therapy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/i-physical-therapy.vue"
+    },
+    "./i-radiology": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/i-radiology.vue"
+    },
+    "./i-registration": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/i-registration.vue"
+    },
+    "./i-respiratory": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/i-respiratory.vue"
+    },
+    "./i-restaurant": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/i-restaurant.vue"
+    },
+    "./i-restrooms": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/i-restrooms.vue"
+    },
+    "./i-smoking": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/i-smoking.vue"
+    },
+    "./i-social-services": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/i-social-services.vue"
+    },
+    "./i-stairs": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/i-stairs.vue"
+    },
+    "./i-surgery": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/i-surgery.vue"
+    },
+    "./i-text-telephone": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/i-text-telephone.vue"
+    },
+    "./i-ultrasound": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/i-ultrasound.vue"
+    },
+    "./i-volume-control": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/i-volume-control.vue"
+    },
+    "./i-waiting-area": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/i-waiting-area.vue"
+    },
+    "./i-womens-health": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/i-womens-health.vue"
+    },
+    "./imaging-alternative-ct": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/imaging-alternative-ct.vue"
+    },
+    "./imaging-alternative-mri": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/imaging-alternative-mri.vue"
+    },
+    "./imaging-alternative-mri-two": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/imaging-alternative-mri-two.vue"
+    },
+    "./imaging-alternative-pet": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/imaging-alternative-pet.vue"
+    },
+    "./imaging-root-category": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/imaging-root-category.vue"
+    },
+    "./immunizations": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/immunizations.vue"
+    },
+    "./infectious-diseases": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/infectious-diseases.vue"
+    },
+    "./information-us": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/information-us.vue"
+    },
+    "./inpatient": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/inpatient.vue"
+    },
+    "./intensive-care": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/intensive-care.vue"
+    },
+    "./internal-medicine": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/internal-medicine.vue"
+    },
+    "./interpreter-services": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/interpreter-services.vue"
+    },
+    "./kidney": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kidney.vue"
+    },
+    "./labor-delivery": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/labor-delivery.vue"
+    },
+    "./laboratory": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/laboratory.vue"
+    },
+    "./mammography": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mammography.vue"
+    },
+    "./medical-library": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/medical-library.vue"
+    },
+    "./medical-records": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/medical-records.vue"
+    },
+    "./mental-health": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mental-health.vue"
+    },
+    "./mri-pet": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mri-pet.vue"
+    },
+    "./neurology": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/neurology.vue"
+    },
+    "./no-smoking": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/no-smoking.vue"
+    },
+    "./nursery": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nursery.vue"
+    },
+    "./nutrition": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nutrition.vue"
+    },
+    "./oncology": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/oncology.vue"
+    },
+    "./ophthalmology": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/ophthalmology.vue"
+    },
+    "./outpatient": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/outpatient.vue"
+    },
+    "./pathology": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pathology.vue"
+    },
+    "./pediatrics": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pediatrics.vue"
+    },
+    "./pharmacy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pharmacy.vue"
+    },
+    "./physical-therapy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/physical-therapy.vue"
+    },
+    "./radiology": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/radiology.vue"
+    },
+    "./registration": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/registration.vue"
+    },
+    "./respiratory": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/respiratory.vue"
+    },
+    "./restaurant": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/restaurant.vue"
+    },
+    "./restrooms": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/restrooms.vue"
+    },
+    "./smoking": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/smoking.vue"
+    },
+    "./social-services": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/social-services.vue"
+    },
+    "./stairs": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stairs.vue"
+    },
+    "./surgery": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/surgery.vue"
+    },
+    "./text-telephone": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/text-telephone.vue"
+    },
+    "./ultrasound": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/ultrasound.vue"
+    },
+    "./volume-control": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/volume-control.vue"
+    },
+    "./waiting-area": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/waiting-area.vue"
+    },
+    "./womens-health": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/womens-health.vue"
+    },
+    "./*": "./*"
+  },
+  "dependencies": {
+    "@iconify/css-vue": "^1.0.0"
+  },
+  "repository": "github:iconify/icons-vue#medical-icon"
+}

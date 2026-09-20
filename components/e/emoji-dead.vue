@@ -1,0 +1,10 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/a/ae5fvobma.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="ae5fvobma"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="mdi:emoji-dead" /></template>

@@ -1,0 +1,10 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/l/lpgukv11j.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="lpgukv11j"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="mdi:arrow-top-circle-outline" /></template>

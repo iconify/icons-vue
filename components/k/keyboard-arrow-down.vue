@@ -1,0 +1,10 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/d/dm_k6g8zb.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="dm_k6g8zb"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="mdi:keyboard-arrow-down" /></template>

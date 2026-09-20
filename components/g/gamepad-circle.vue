@@ -1,0 +1,10 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/x/xyf8v3b2k.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="xyf8v3b2k"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="mdi:gamepad-circle" /></template>

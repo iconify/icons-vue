@@ -1,0 +1,10 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/o/o27hubbgt.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="o27hubbgt"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="mdi:invoice-new-outline" /></template>

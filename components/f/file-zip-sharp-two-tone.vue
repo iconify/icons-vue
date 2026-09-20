@@ -1,0 +1,12 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/g/gp_8x1bzb.css';
+import '../../css/v/vpyvtnijy.css';
+import '../../css/j/jpasm5-jw.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="gp_8x1bzb"><path class="vpyvtnijy"/><path class="jpasm5-jw"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:file-zip-sharp-two-tone" /></template>

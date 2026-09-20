@@ -1,0 +1,12 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/n/nrj6p8qat.css';
+import '../../css/b/b1z4meb2q.css';
+import '../../css/u/upl6tcnav.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="nrj6p8qat"><path class="b1z4meb2q"/><path class="upl6tcnav"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:square-align-offset-top-duotone" /></template>

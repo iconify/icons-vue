@@ -1,0 +1,14 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/n/nrj6p8qat.css';
+import '../../css/b/bwnpao7ft.css';
+import '../../css/k/kw294vebg.css';
+import '../../css/r/r0knw1b4v.css';
+import '../../css/b/btfg0oi0n.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="nrj6p8qat"><path class="bwnpao7ft"/><path class="kw294vebg"/><path class="r0knw1b4v"/><path class="btfg0oi0n"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:square-percent-two-tone" /></template>

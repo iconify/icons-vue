@@ -1,0 +1,12 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/g/gp_8x1bzb.css';
+import '../../css/e/e9ewmybae.css';
+import '../../css/g/gn4znuuld.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="gp_8x1bzb"><path class="e9ewmybae"/><path class="gn4znuuld"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:circle-chevron-left-sharp-duotone" /></template>

@@ -1,0 +1,7 @@
+.lpedskbkl {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M6 4L18 12L6 20L6 4Z");
+}

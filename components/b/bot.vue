@@ -1,0 +1,12 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/n/nrj6p8qat.css';
+import '../../css/n/ngggukbff.css';
+import '../../css/s/sp3ujwwyq.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="nrj6p8qat"><path class="ngggukbff"/><path class="sp3ujwwyq"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:bot" /></template>

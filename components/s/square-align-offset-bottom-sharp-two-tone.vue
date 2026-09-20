@@ -1,0 +1,13 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/g/gp_8x1bzb.css';
+import '../../css/q/qvtm19pcu.css';
+import '../../css/a/abjx4fbtp.css';
+import '../../css/r/rnu_b9b5a.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="gp_8x1bzb"><path class="qvtm19pcu"/><path class="abjx4fbtp"/><path class="rnu_b9b5a"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:square-align-offset-bottom-sharp-two-tone" /></template>

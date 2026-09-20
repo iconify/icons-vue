@@ -1,0 +1,13 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/n/nrj6p8qat.css';
+import '../../css/i/ikio23b7i.css';
+import '../../css/p/pek8tr53z.css';
+import '../../css/o/oabjryw0h.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="nrj6p8qat"><path class="ikio23b7i"/><path class="pek8tr53z"/><path class="oabjryw0h"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:git-branch-plus-two-tone" /></template>

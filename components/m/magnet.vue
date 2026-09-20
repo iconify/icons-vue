@@ -1,0 +1,10 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/q/qjhfi1b1h.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":25,"height":24};
+const content = `<path class="qjhfi1b1h"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="lineicons:magnet" /></template>

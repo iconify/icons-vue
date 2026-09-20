@@ -1,0 +1,21 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":32,"height":32};
+const content = `<path class="sniljyq1v"/><path class="ie4mfabfi"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="vscode-icons:file-type-eslint2" /></template>
+<style>
+.ie4mfabfi {
+  fill: var(--svg-color--8080f2, #8080f2);
+  d: path("M21.72 25.915H10.28L4.554 16l5.726-9.915h11.44L27.446 16zm-9.426-3.491h7.413L23.419 16l-3.712-6.424h-7.414L8.593 16l3.7 6.424Z");
+}
+
+.sniljyq1v {
+  fill: var(--svg-color--4b32c3, #4b32c3);
+  d: path("M13.027 30L2.39 20.422l2.979-14L18.973 2l10.637 9.578l-2.979 14zM7.883 18.642l6.342 5.7l8.112-2.642l1.781-8.344l-6.343-5.712L9.663 10.3z");
+}
+
+</style>

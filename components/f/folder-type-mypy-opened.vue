@@ -1,0 +1,31 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":32,"height":32};
+const content = `<path class="b69rm_9vp"/><path class="ptoytlc-g"/><path class="jw91py0qw"/><path class="nr7zdeb9z"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="vscode-icons:folder-type-mypy-opened" /></template>
+<style>
+.b69rm_9vp {
+  fill: var(--svg-color--1c5287, #1c5287);
+  d: path("M27.4 5.5h-9.2l-2.1 4.2H4.3v16.8h25.2v-21Zm0 18.7H6.6V11.8h20.8Zm0-14.5h-8.2l1-2.1h7.1v2.1Z");
+}
+
+.jw91py0qw {
+  fill: var(--svg-color--2a6db2, #2a6db2);
+  d: path("M20.44 11.04c-4.82 0-4.53 2.1-4.53 2.1l.01 2.15h4.6v.66H14.1s-3.1-.36-3.1 4.5c0 4.87 2.7 4.7 2.7 4.7h1.6v-2.26s-.09-2.7 2.64-2.7h4.57s2.56.05 2.56-2.47v-4.16s.4-2.52-4.64-2.52zm-2.54 1.45a.83.83 0 1 1 0 1.66a.83.83 0 0 1 0-1.66");
+}
+
+.nr7zdeb9z {
+  fill: var(--svg-color--d2d2d2, #d2d2d2);
+  d: path("M20.57 29.93c4.82 0 4.53-2.1 4.53-2.1l-.01-2.16h-4.6v-.65h6.42s3.09.35 3.09-4.51c0-4.87-2.7-4.7-2.7-4.7h-1.6v2.27s.09 2.69-2.64 2.69h-4.57s-2.56-.04-2.56 2.47v4.17s-.4 2.52 4.64 2.52m2.54-1.46a.83.83 0 1 1 0-1.65a.83.83 0 0 1 0 1.65");
+}
+
+.ptoytlc-g {
+  fill: var(--svg-color--1c5287, #1c5287);
+  d: path("M25.7 13.7H.5l3.8 12.8h25.2z");
+}
+
+</style>

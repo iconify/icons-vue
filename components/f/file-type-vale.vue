@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":32,"height":32};
+const content = `<path class="icwekq_mi"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="vscode-icons:file-type-vale" /></template>
+<style>
+.icwekq_mi {
+  fill: var(--svg-color--82cb15, #82cb15);
+  d: path("m22.73 4.02l-2.76 5.59c-1.23 2.5-2.24 4.6-2.24 4.66s.7 1.55 1.56 3.29c.87 1.73 1.6 3.25 1.65 3.38c.08.18.11.2.23.1q.12-.12.14-.19c0-.04 1.24-2.59 2.76-5.67l4.37-8.83c.89-1.8 1.59-3.28 1.56-3.33c-.02-.03-1.55-.06-3.4-.06h-3.36zM2 11l.42.78c.24.4.43.78.43.81s1.26 2.63 2.81 5.75c4.26 8.6 5.1 10.3 5.1 10.43c0 .06.11.15.24.2c.31.12 6.45.12 6.63 0c.12-.08.13-.13.03-.26c-.06-.1-.28-.5-.49-.92c-.38-.8-3.13-6.35-6.34-12.86a66 66 0 0 0-2-3.88C8.74 10.98 2 10.94 2 11");
+}
+
+</style>

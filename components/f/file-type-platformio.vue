@@ -1,0 +1,51 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":32,"height":32};
+const content = `<path class="tx1tsessp"/><path class="o9uqnwbwu"/><path class="pc3-6xb4y"/><path class="ru26bobxy"/><path class="mof-rpbha"/><path class="zkhaekbvl"/><path class="zmtp20b8n"/><path class="ux3ynybtc"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="vscode-icons:file-type-platformio" /></template>
+<style>
+.mof-rpbha {
+  fill: var(--svg-color--f17b36, #f17b36);
+  d: path("m11.61 8.008l-.823-2.995a1.62 1.62 0 0 0 .784-1.378a1.691 1.691 0 0 0-3.381 0a1.66 1.66 0 0 0 1.682 1.634l.825 3C7.485 9.3 4 11.558 4 16.491C4.071 23.622 13.759 30 15.989 30V7.4a19 19 0 0 0-4.379.608");
+}
+
+.o9uqnwbwu {
+  fill: var(--svg-color--fff, #fff);
+  d: path("M19.008 22.6c-1.9-2.94-1.1-9.783 3.873-10.761a3.24 3.24 0 0 1 3.524 2.579c1.241 4.082-6.064 9.795-7.397 8.182");
+}
+
+.pc3-6xb4y {
+  fill: var(--svg-color--d06e35, #d06e35);
+  d: path("M21.992 16.3a1.49 1.49 0 1 0 1.54 1.489a1.517 1.517 0 0 0-1.54-1.489");
+}
+
+.ru26bobxy {
+  fill: var(--svg-color--fff, #fff);
+  d: path("M22.452 17.674a.376.376 0 1 1 .389-.376a.383.383 0 0 1-.389.375Z");
+}
+
+.tx1tsessp {
+  fill: var(--svg-color--d06e35, #d06e35);
+  d: path("m21.357 8.222l.843-2.937a1.656 1.656 0 0 0 1.539-1.627a1.691 1.691 0 0 0-3.381 0a1.62 1.62 0 0 0 .821 1.4L20.35 7.94a18.6 18.6 0 0 0-4.361-.54l-.37.16v22.321l.37.119c2.23 0 11.987-6.516 12.011-13.509c0-5.01-3.444-7.259-6.643-8.269");
+}
+
+.ux3ynybtc {
+  fill: var(--svg-color--fff, #fff);
+  d: path("M9.77 17.719a.376.376 0 1 1 .389-.376a.38.38 0 0 1-.388.376Z");
+}
+
+.zkhaekbvl {
+  fill: var(--svg-color--fff, #fff);
+  d: path("M13.31 22.6c-1.333 1.616-8.639-4.1-7.4-8.182a3.24 3.24 0 0 1 3.53-2.579c4.972.978 5.776 7.821 3.873 10.764Z");
+}
+
+.zmtp20b8n {
+  fill: var(--svg-color--f17b36, #f17b36);
+  d: path("M10.23 16.345a1.49 1.49 0 1 0 1.54 1.489a1.517 1.517 0 0 0-1.54-1.489");
+}
+
+</style>

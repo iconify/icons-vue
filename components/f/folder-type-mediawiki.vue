@@ -1,0 +1,118 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":32,"height":32};
+const content = `<g class="kuf42lb8e"><path class="w6drdgbsu"/><path fill="url(#SVGe9lhheno)" transform="translate(12.355 11.205)scale(.75162)" class="djemz3c2o"/><path fill="url(#SVGe9lhheno)" transform="translate(12.355 11.205)scale(.75162)" class="lhv_wfbij"/><path fill="url(#SVGe9lhheno)" transform="translate(12.355 11.205)scale(.75162)" class="fmkciq1zi"/><path fill="url(#SVGe9lhheno)" transform="translate(12.355 11.205)scale(.75162)" class="ddexrvbhh"/><path fill="url(#SVGe9lhheno)" transform="translate(12.355 11.205)scale(.75162)" class="j0ta01b3e"/><path fill="url(#SVGe9lhheno)" transform="translate(12.355 11.205)scale(.75162)" class="h8hd8rcre"/><path fill="url(#SVGe9lhheno)" transform="translate(12.355 11.205)scale(.75162)" class="a3cd8ed8g"/><path fill="url(#SVGe9lhheno)" transform="translate(12.355 11.205)scale(.75162)" class="mee9p2b2k"/><path fill="url(#SVGe9lhheno)" transform="translate(12.355 11.205)scale(.75162)" class="kcw_sibrh"/><path fill="url(#SVGe9lhheno)" transform="translate(12.355 11.205)scale(.75162)" class="zyk1y6brx"/><path fill="url(#SVGe9lhheno)" transform="translate(12.355 11.205)scale(.75162)" class="v180v122c"/><path fill="url(#SVGe9lhheno)" transform="translate(12.355 11.205)scale(.75162)" class="t8byyqb8q"/><path fill="url(#SVGe9lhheno)" transform="translate(12.355 11.205)scale(.75162)" class="udn6d6bch"/><path fill="url(#SVGe9lhheno)" transform="translate(12.355 11.205)scale(.75162)" class="vg5cgec_i"/><path fill="url(#SVGe9lhheno)" transform="translate(12.355 11.205)scale(.75162)" class="jfj2jmbql"/><path fill="url(#SVGe9lhheno)" transform="translate(12.355 11.205)scale(.75162)" class="j42rc_iui"/><defs><linearGradient id="SVGe9lhheno" x1="0" x2="1" y1="0" y2="0" gradientTransform="matrix(25 -25 25 25 0 25)" gradientUnits="userSpaceOnUse"><stop offset="0" class="uf-sk8bni"/><stop offset=".5" class="hp_ij2ozl"/><stop offset="1" class="mj_y3gbmd"/></linearGradient></defs></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="vscode-icons:folder-type-mediawiki" /></template>
+<style>
+.a3cd8ed8g {
+  fill-rule: nonzero;
+  d: path("M10.531 21.93a3.87 3.87 0 0 0 1.069-2.692a3.02 3.02 0 0 0-.841-1.958a.92.92 0 0 0-.642-.248A2.98 2.98 0 0 0 7.6 18.567c-.914 1.683-.594 3.443.06 5.348a8 8 0 0 0 2.871-1.985");
+}
+
+.ddexrvbhh {
+  fill-rule: nonzero;
+  d: path("M2.956 14.307a3.83 3.83 0 0 0 2.885-.035a3 3 0 0 0 1.479-1.529a.93.93 0 0 0-.02-.691A2.98 2.98 0 0 0 4.926 10.3c-1.9-.2-3.394.766-4.9 2.1a7.95 7.95 0 0 0 2.93 1.907");
+}
+
+.djemz3c2o {
+  fill-rule: nonzero;
+  d: path("M7.068 4.359A3.87 3.87 0 0 0 8.2 7.024a3 3 0 0 0 1.973.787a.92.92 0 0 0 .628-.281a3 3 0 0 0 .7-2.876C10.97 2.815 9.5 1.8 7.7.915a8 8 0 0 0-.632 3.444");
+}
+
+.fmkciq1zi {
+  fill-rule: nonzero;
+  d: path("M2.959 10.524A3.83 3.83 0 0 0 5.638 11.6a3 3 0 0 0 1.949-.844a.93.93 0 0 0 .246-.645A3 3 0 0 0 6.306 7.58c-1.675-.919-3.428-.6-5.324.06a8 8 0 0 0 1.977 2.884");
+}
+
+.h8hd8rcre {
+  fill-rule: nonzero;
+  d: path("M7.054 20.479A3.85 3.85 0 0 0 9.07 18.4a3.02 3.02 0 0 0-.031-2.132a.93.93 0 0 0-.5-.476a2.97 2.97 0 0 0-2.914.449c-1.486 1.2-1.86 2.953-1.982 4.964a7.9 7.9 0 0 0 3.411-.726");
+}
+
+.hp_ij2ozl {
+  stop-color: var(--svg-color--red, red);
+  stop-opacity: 0.65;
+}
+
+.j0ta01b3e {
+  fill-rule: nonzero;
+  d: path("M4.394 17.8a3.83 3.83 0 0 0 2.653-1.141a3.02 3.02 0 0 0 .784-1.981a.93.93 0 0 0-.28-.631a2.97 2.97 0 0 0-2.863-.706c-1.831.54-2.844 2.013-3.722 3.824a7.9 7.9 0 0 0 3.428.635");
+}
+
+.j42rc_iui {
+  fill-rule: nonzero;
+  d: path("M10.548 2.915a3.87 3.87 0 0 0 .035 2.9A3 3 0 0 0 12.105 7.3a.92.92 0 0 0 .687-.018a3 3 0 0 0 1.745-2.387c.2-1.906-.763-3.409-2.093-4.918a8 8 0 0 0-1.896 2.938");
+}
+
+.jfj2jmbql {
+  fill-rule: nonzero;
+  d: path("M14.313 2.918a3.87 3.87 0 0 0-1.072 2.692c.032.733.331 1.429.84 1.958a.92.92 0 0 0 .642.248a2.98 2.98 0 0 0 2.522-1.536c.914-1.683.594-3.443-.06-5.348a7.95 7.95 0 0 0-2.872 1.986");
+}
+
+.kcw_sibrh {
+  fill-rule: nonzero;
+  d: path("M17.776 20.489a3.86 3.86 0 0 0-1.136-2.665a3 3 0 0 0-1.973-.788a.92.92 0 0 0-.628.281a3 3 0 0 0-.7 2.876c.538 1.839 2 2.857 3.807 3.739a8 8 0 0 0 .63-3.443");
+}
+
+.kuf42lb8e {
+  fill-rule: evenodd;
+  stroke-linejoin: round;
+  stroke-miterlimit: 2;
+}
+
+.lhv_wfbij {
+  fill-rule: nonzero;
+  d: path("M4.4 7.031a3.85 3.85 0 0 0 2.068 2.025c.687.25 1.443.239 2.122-.031a.92.92 0 0 0 .473-.5A3 3 0 0 0 8.617 5.6C7.42 4.1 5.678 3.728 3.676 3.607A8 8 0 0 0 4.4 7.031");
+}
+
+.mee9p2b2k {
+  fill-rule: nonzero;
+  d: path("M14.3 21.933a3.87 3.87 0 0 0-.035-2.9a3 3 0 0 0-1.522-1.486a.92.92 0 0 0-.687.018a3 3 0 0 0-1.745 2.387c-.2 1.906.763 3.409 2.093 4.918a8 8 0 0 0 1.896-2.937");
+}
+
+.mj_y3gbmd {
+  stop-color: var(--svg-color--fffc00, #fffc00);
+  stop-opacity: 0.65;
+}
+
+.t8byyqb8q {
+  fill-rule: nonzero;
+  d: path("M21.888 10.541a3.82 3.82 0 0 0-2.888.035a3 3 0 0 0-1.479 1.529a.93.93 0 0 0 .018.691a2.98 2.98 0 0 0 2.376 1.753c1.9.2 3.394-.767 4.9-2.1a7.95 7.95 0 0 0-2.927-1.908");
+}
+
+.udn6d6bch {
+  fill-rule: nonzero;
+  d: path("M20.451 7.046c-.998.02-1.95.43-2.651 1.141a3 3 0 0 0-.784 1.982a.93.93 0 0 0 .28.631a2.97 2.97 0 0 0 2.863.706c1.831-.54 2.844-2.013 3.722-3.824a7.9 7.9 0 0 0-3.43-.636");
+}
+
+.uf-sk8bni {
+  stop-color: var(--svg-color--0a00b2, #0a00b2);
+  stop-opacity: 0.65;
+}
+
+.v180v122c {
+  fill-rule: nonzero;
+  d: path("M21.885 14.324a3.83 3.83 0 0 0-2.679-1.077a3 3 0 0 0-1.949.844a.93.93 0 0 0-.246.645a3 3 0 0 0 1.528 2.533c1.675.919 3.428.6 5.324-.06a8 8 0 0 0-1.978-2.885");
+}
+
+.vg5cgec_i {
+  fill-rule: nonzero;
+  d: path("M17.791 4.369a3.85 3.85 0 0 0-2.016 2.074a3.02 3.02 0 0 0 .031 2.132a.93.93 0 0 0 .5.476a2.97 2.97 0 0 0 2.912-.451C20.7 7.4 21.079 5.649 21.2 3.638a7.9 7.9 0 0 0-3.409.731");
+}
+
+.w6drdgbsu {
+  fill: var(--svg-color--c09553, #c09553);
+  fill-rule: nonzero;
+  d: path("M29.6 5.5H18.2l-2.1 4.2H4.4v16.8h25.2zm-2.1 4.2h-8.2l1.1-2.1h7.1z");
+}
+
+.zyk1y6brx {
+  fill-rule: nonzero;
+  d: path("M20.441 17.817a3.85 3.85 0 0 0-2.065-2.025a2.98 2.98 0 0 0-2.122.031a.92.92 0 0 0-.473.5a3 3 0 0 0 .447 2.927c1.2 1.493 2.94 1.869 4.942 1.991a8 8 0 0 0-.729-3.424");
+}
+
+</style>

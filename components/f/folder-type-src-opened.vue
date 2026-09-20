@@ -1,0 +1,26 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":32,"height":32};
+const content = `<path class="q549e42tk"/><path class="e8pu83vbb"/><path class="cdoselo_i"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="vscode-icons:folder-type-src-opened" /></template>
+<style>
+.cdoselo_i {
+  fill: var(--svg-color--06cc14, #06cc14);
+  d: path("M19.146 30.989a1 1 0 0 1-.207-.025a1.04 1.04 0 0 1-.726-1.213l2.709-14.431a1.04 1.04 0 0 1 .444-.683a.9.9 0 0 1 .7-.122a1.043 1.043 0 0 1 .727 1.213L20.077 30.16a1.03 1.03 0 0 1-.442.681a.9.9 0 0 1-.489.148m5.432-2.045h-.068a.93.93 0 0 1-.668-.377a1.1 1.1 0 0 1 .1-1.419l4.658-4.553l-4.638-4.239a1.1 1.1 0 0 1-.141-1.416a.94.94 0 0 1 .661-.4a.9.9 0 0 1 .709.237l5.47 5a1.1 1.1 0 0 1 .144 1.416a1 1 0 0 1-.142.163l-5.447 5.324a.92.92 0 0 1-.638.264m-8.155.003a.9.9 0 0 1-.639-.267l-5.452-5.327a1 1 0 0 1-.132-.153a1.094 1.094 0 0 1 .141-1.414l5.471-5a.88.88 0 0 1 .7-.238a.94.94 0 0 1 .665.4a1.1 1.1 0 0 1-.14 1.417L12.4 22.6l4.659 4.551a1.09 1.09 0 0 1 .1 1.419a.93.93 0 0 1-.669.377Z");
+}
+
+.e8pu83vbb {
+  fill: var(--svg-color--2a8243, #2a8243);
+  d: path("M25.7 13.7H.5l3.8 12.8h25.2z");
+}
+
+.q549e42tk {
+  fill: var(--svg-color--2a8243, #2a8243);
+  d: path("M27.4 5.5h-9.2l-2.1 4.2H4.3v16.8h25.2v-21Zm0 18.7H6.6V11.8h20.8Zm0-14.5h-8.2l1-2.1h7.1v2.1Z");
+}
+
+</style>

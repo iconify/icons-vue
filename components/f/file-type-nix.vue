@@ -1,0 +1,23 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":32,"height":32};
+const content = `<path class="k0kp_hqwz"/><path class="rl-ncx62n"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="vscode-icons:file-type-nix" /></template>
+<style>
+.k0kp_hqwz {
+  fill: var(--svg-color--7ebae4, #7ebae4);
+  fill-rule: evenodd;
+  d: path("M13 11.115L6.183 23.76L4.59 20.87l1.839-3.387l-3.651-.01L2 16.029l.8-1.477l5.2.018l1.868-3.447Zm.527 10.108h13.64l-1.541 2.922l-3.658-.011l1.817 3.389l-.779 1.449h-1.593l-2.584-4.825l-3.722-.008Zm7.94-5.541l-6.82-12.645l3.134-.032L19.6 6.4l1.834-3.379h1.557l.795 1.479l-2.612 4.807l1.854 3.455Z");
+}
+
+.rl-ncx62n {
+  fill: var(--svg-color--5277c3, #5277c3);
+  fill-rule: evenodd;
+  d: path("m10.542 16.324l6.821 12.645l-3.134.031l-1.821-3.4l-1.834 3.38H9.016l-.8-1.476l2.615-4.804l-1.855-3.457Zm7.922-5.573H4.823l1.542-2.922l3.658.011l-1.816-3.389L8.986 3h1.592l2.584 4.825l3.722.008ZM19 20.888l6.817-12.644l1.593 2.89l-1.839 3.386l3.651.01l.778 1.449l-.8 1.477l-5.2-.018l-1.868 3.447Z");
+}
+
+</style>

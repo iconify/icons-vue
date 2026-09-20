@@ -1,0 +1,33 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":32,"height":32};
+const content = `<path class="p17bf6bvm"/><circle class="zw3ushb0o"/><path class="yit1shbrh"/><path class="wx-s7vbmk"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="vscode-icons:file-type-tauri" /></template>
+<style>
+.p17bf6bvm {
+  fill: var(--svg-color--ffc131, #ffc131);
+  d: path("M20.923 12.167A2.677 2.677 0 1 1 18.236 9.5h.02a2.667 2.667 0 0 1 2.667 2.667");
+}
+
+.wx-s7vbmk {
+  fill: var(--svg-color--24c8db, #24c8db);
+  d: path("M8.208 11.255a10.2 10.2 0 0 1 3.55-1.444a7.1 7.1 0 0 0-.4 3.239a7.17 7.17 0 1 0 8.222 10.96a12.2 12.2 0 0 0 3.911-1.123A10.208 10.208 0 1 1 8.208 11.255M23.349 21");
+}
+
+.yit1shbrh {
+  fill: var(--svg-color--ffc131, #ffc131);
+  d: path("M23.791 20.731a10.4 10.4 0 0 1-3.52 1.434a7.2 7.2 0 0 0 .351-3.229a7.17 7.17 0 1 0-8.182-10.97a12 12 0 0 0-3.911 1.143a10.2 10.2 0 1 1 15.262 11.622M8.649 10.974l2.5.3a7.7 7.7 0 0 1 .321-1.424a10.2 10.2 0 0 0-2.821 1.124");
+}
+
+.zw3ushb0o {
+  cx: 13.763px;
+  cy: 19.818px;
+  r: 2.667px;
+  fill: var(--svg-color--24c8db, #24c8db);
+}
+
+</style>

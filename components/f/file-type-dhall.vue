@@ -1,0 +1,17 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":32,"height":32};
+const content = `<path class="c81gi3brw"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="vscode-icons:file-type-dhall" /></template>
+<style>
+.c81gi3brw {
+  fill: var(--svg-color--b7b7b7, #b7b7b7);
+  fill-rule: evenodd;
+  d: path("M16 2.07A13.93 13.93 0 1 1 2 16A13.93 13.93 0 0 1 16 2.07m-2.72 20.25a1.49 1.49 0 1 1-1 1.83a1.49 1.49 0 0 1 1-1.83m8-15.68a.53.53 0 0 1 .38.66a.52.52 0 0 1-.65.38l-.5-.13a42.7 42.7 0 0 0-.37 7.07C18.06 16.45 14.39 22 14.39 22l1.93-7.18a1 1 0 0 0 .89-.65a.91.91 0 0 0-1.75-.47a1 1 0 0 0 .45 1L14 21.85a68 68 0 0 0-1.34-9.25a34.3 34.3 0 0 0 3.21-6.31l-.5-.13A.55.55 0 0 1 15 5.5a.53.53 0 0 1 .66-.38l5.68 1.52Z");
+}
+
+</style>

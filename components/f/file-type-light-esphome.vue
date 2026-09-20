@@ -1,0 +1,38 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":32,"height":32};
+const content = `<path class="d123v_bjm"/><path class="tnhm4achk"/><path class="hxyht7thg"/><path class="w-0iezqlg"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="vscode-icons:file-type-light-esphome" /></template>
+<style>
+.d123v_bjm {
+  fill: none;
+  stroke: var(--svg-color--000, #000);
+  stroke-width: var(--svg-stroke-width--1-032px, 1.032px);
+  d: path("M26.54 8.146v-1.6a1.027 1.027 0 1 1 2.017 0v1.6m-5.4 0v-1.6a1.016 1.016 0 0 1 .989-1.027a.99.99 0 0 1 1.027.95v1.678m-5.441 0v-1.6a1.027 1.027 0 1 1 2.017 0v1.6m-5.4 0v-1.6a1.027 1.027 0 1 1 2.017 0v1.6m-5.441 0v-1.6a1.027 1.027 0 1 1 2.017 0v1.6m-5.441 0v-1.6a1.027 1.027 0 1 1 2.055 0v1.6M28.557 23.29v1.75a1.027 1.027 0 1 1-2.017 0v-1.75m-1.37 0v1.75a1.027 1.027 0 1 1-2.017 0v-1.75m-1.408 0v1.75a1.027 1.027 0 1 1-2.017 0v-1.75m-1.37 0v1.75a1.027 1.027 0 1 1-2.017 0v-1.75m-1.446 0v1.75a1.027 1.027 0 1 1-2.017 0v-1.75m-1.37.076v1.712a1.027 1.027 0 1 1-2.017 0v-1.712");
+}
+
+.hxyht7thg {
+  d: path("M22.354 15.452v-1.9h-.684v1.218l-2.587-2.587l-4.376 4.376h1.1v2.968h6.545v-2.972h1.1Z");
+}
+
+.tnhm4achk {
+  fill: none;
+  stroke: var(--svg-color--000, #000);
+  stroke-width: var(--svg-stroke-width--1-032px, 1.032px);
+  d: path("M29.089 8.146H9a.38.38 0 0 0-.381.381v14.459a.41.41 0 0 0 .381.342h20.089a.41.41 0 0 0 .381-.381V8.488a.41.41 0 0 0-.381-.381Z");
+}
+
+.w-0iezqlg {
+  fill: none;
+  stroke: var(--svg-color--000, #000);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-032px, 1.032px);
+  d: path("M8.542 22.453H2.53v-1.522h4.528v-1.446H2.53v-1.522h4.528v-1.484H2.53v-1.484h4.528v-1.446H2.53V8.983");
+}
+
+</style>

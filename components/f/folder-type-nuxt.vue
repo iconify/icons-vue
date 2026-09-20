@@ -1,0 +1,26 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":32,"height":32};
+const content = `<path class="fzp2dn9du"/><g clip-path="url(#SVGHByoEeTK)"><path class="afkdrspjq"/></g><defs><clipPath id="SVGHByoEeTK"><path class="qx6m8obgw"/></clipPath></defs>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="vscode-icons:folder-type-nuxt" /></template>
+<style>
+.afkdrspjq {
+  fill: var(--svg-color--00dc82, #00dc82);
+  d: path("M20.376 27.816h8.863a1.6 1.6 0 0 0 1.389-.792a1.56 1.56 0 0 0 0-1.58l-5.953-10.168a1.6 1.6 0 0 0-.587-.579a1.62 1.62 0 0 0-1.603 0a1.6 1.6 0 0 0-.587.58l-1.522 2.6l-2.976-5.086a1.6 1.6 0 0 0-.587-.58a1.62 1.62 0 0 0-1.604 0a1.6 1.6 0 0 0-.587.58L7.215 25.443a1.56 1.56 0 0 0 0 1.582c.14.24.343.44.587.579s.52.212.801.212h5.564c2.204 0 3.83-.955 4.949-2.818l2.715-4.638l1.455-2.482l4.366 7.455h-5.82zm-6.3-2.485l-3.882-.001l5.82-9.94l2.904 4.97l-1.944 3.322c-.743 1.208-1.587 1.649-2.898 1.649");
+}
+
+.fzp2dn9du {
+  fill: var(--svg-color--0483a8, #0483a8);
+  d: path("M27.5 5.5h-9.3l-2.1 4.2H4.4v16.8h25.2v-21zm0 4.2h-8.2l1.1-2.1h7.1z");
+}
+
+.qx6m8obgw {
+  fill: var(--svg-color--fff, #fff);
+  d: path("M7 12h24v16H7z");
+}
+
+</style>

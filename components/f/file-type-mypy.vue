@@ -1,0 +1,21 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":32,"height":32};
+const content = `<path class="pz3nbrb4r"/><path class="y8t2pob0r"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="vscode-icons:file-type-mypy" /></template>
+<style>
+.pz3nbrb4r {
+  fill: var(--svg-color--2a6db2, #2a6db2);
+  d: path("M15.9 2.07c-7.1 0-6.67 3.09-6.67 3.09l.01 3.19h6.79v.96H6.55S2 8.79 2 15.96c0 7.18 3.97 6.92 3.97 6.92h2.37v-3.33s-.13-3.97 3.9-3.97h6.73s3.78.06 3.78-3.65V5.8s.58-3.72-6.85-3.72zm-3.74 2.15a1.22 1.22 0 1 1 0 2.44a1.22 1.22 0 0 1 0-2.44");
+}
+
+.y8t2pob0r {
+  fill: var(--svg-color--d2d2d2, #d2d2d2);
+  d: path("M16.1 29.93c7.1 0 6.67-3.09 6.67-3.09l-.01-3.19h-6.79v-.96h9.48s4.55.52 4.55-6.65c0-7.18-3.97-6.92-3.97-6.92h-2.37v3.33s.13 3.97-3.9 3.97h-6.73s-3.78-.06-3.78 3.65v6.14s-.58 3.72 6.85 3.72m3.74-2.15a1.22 1.22 0 1 1 0-2.44a1.22 1.22 0 0 1 0 2.44");
+}
+
+</style>

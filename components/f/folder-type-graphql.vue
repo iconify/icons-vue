@@ -1,0 +1,24 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":32,"height":32};
+const content = `<path class="vg26byb5t"/><path class="frw5wffpw"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="vscode-icons:folder-type-graphql" /></template>
+<style>
+.frw5wffpw {
+  fill: var(--svg-color--e535ab, #e535ab);
+  stroke: var(--svg-color--e535ab, #e535ab);
+  stroke-miterlimit: 10;
+  stroke-width: var(--svg-stroke-width--0-083px, 0.083px);
+  d: path("M30.932 25.457a1.84 1.84 0 0 1-2.965.3l-4.212 2.432a1.837 1.837 0 1 1-3.506.059l-4.237-2.446a1.838 1.838 0 1 1-1.764-3.054v-4.9a1.838 1.838 0 1 1 1.762-3.051l4.239-2.447a1.837 1.837 0 1 1 3.522 0l4.238 2.447a1.838 1.838 0 1 1 1.764 3.049v4.9a1.837 1.837 0 0 1 1.158 2.7Zm-7.6-12.341l-.049.049l5.548 9.609l.071-.019v-4.9a1.835 1.835 0 0 1-1.322-2.285l-4.248-2.453Zm-2.641 0l-4.247 2.452a1.835 1.835 0 0 1-1.321 2.288v4.9l.072.019l5.548-9.609Zm1.834.487a1.86 1.86 0 0 1-1.025 0l-5.548 9.607a1.83 1.83 0 0 1 .517.894h11.085a1.84 1.84 0 0 1 .517-.9Zm.845 13.934l4.22-2.437q-.019-.06-.034-.121h-11.09l-.019.071l4.241 2.45a1.84 1.84 0 0 1 2.682.037Z");
+}
+
+.vg26byb5t {
+  fill: var(--svg-color--ef86cd, #ef86cd);
+  d: path("M27.5 5.5h-9.3l-2.1 4.2H4.4v16.8h25.2v-21Zm0 4.2h-8.2l1.1-2.1h7.1Z");
+}
+
+</style>

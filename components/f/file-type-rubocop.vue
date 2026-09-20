@@ -1,0 +1,26 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":32,"height":32};
+const content = `<path class="jwx3yx-kn"/><path class="i90qnxd_h"/><path class="qx7w9nbat"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="vscode-icons:file-type-rubocop" /></template>
+<style>
+.i90qnxd_h {
+  fill: var(--svg-color--ec1c24, #ec1c24);
+  d: path("M23.55 17.6H8.35a1.3 1.3 0 1 1 0-2.6h15.3a1.324 1.324 0 0 1 1.3 1.3a1.49 1.49 0 0 1-1.4 1.3");
+}
+
+.jwx3yx-kn {
+  fill: var(--svg-color--c5c5c5, #c5c5c5);
+  d: path("M27.05 13.9V13a1.793 1.793 0 0 0-1.8-1.8H6.65a1.793 1.793 0 0 0-1.8 1.8v.9a1.53 1.53 0 0 0-.7 1.2v2.4a1.39 1.39 0 0 0 .7 1.2v.9a1.793 1.793 0 0 0 1.8 1.8h18.7a1.793 1.793 0 0 0 1.8-1.8v-.9a1.53 1.53 0 0 0 .7-1.2v-2.4a1.74 1.74 0 0 0-.8-1.2M15.95 2a9.925 9.925 0 0 0-9.8 8.6h19.6a9.925 9.925 0 0 0-9.8-8.6m-2.9 22h5.8l.6.7l.9-.7l-.9-1.1h-7l-.9 1.1l.9.7z");
+}
+
+.qx7w9nbat {
+  fill: var(--svg-color--c5c5c5, #c5c5c5);
+  d: path("M23.05 22v3.8a1.967 1.967 0 0 1-1.9 1.9h-1a.86.86 0 0 1-.6-.3l-1.2-1.6a.6.6 0 0 0-.6-.3h-3.6a.76.76 0 0 0-.5.2l-1.3 1.6a.6.6 0 0 1-.6.3h-1a1.967 1.967 0 0 1-1.9-1.9V22h-2.3v3.8a4.225 4.225 0 0 0 4.2 4.2h10.4a4.225 4.225 0 0 0 4.2-4.2V22Z");
+}
+
+</style>

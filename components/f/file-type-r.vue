@@ -1,0 +1,35 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":32,"height":32};
+const content = `<defs><linearGradient id="SVGKqV9jdVi" x1="-134.811" x2="-134.772" y1="-103.284" y2="-103.323" gradientTransform="matrix(721.094 0 0 -482.937 97213.595 -49874.512)" gradientUnits="userSpaceOnUse"><stop offset="0" class="um8s5qwhf"/><stop offset="1" class="p0r0rf-gr"/></linearGradient><linearGradient id="SVG5aLaoevq" x1="-135.378" x2="-135.339" y1="-102.985" y2="-103.024" gradientTransform="matrix(398 0 0 -406.124 53893 -41812.836)" gradientUnits="userSpaceOnUse"><stop offset="0" class="cg5gvobvc"/><stop offset="1" class="znv-7ornv"/></linearGradient></defs><path fill="url(#SVGKqV9jdVi)" class="s79qm2ozo"/><path fill="url(#SVG5aLaoevq)" class="i3zk05q0s"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="vscode-icons:file-type-r" /></template>
+<style>
+.cg5gvobvc {
+  stop-color: var(--svg-color--276dc3, #276dc3);
+}
+
+.i3zk05q0s {
+  d: path("M23.321 19.726a11 11 0 0 1 1.34.5a2.6 2.6 0 0 1 .68.485a1.8 1.8 0 0 1 .311.447l3.339 5.63h-5.4l-2.524-4.74a6 6 0 0 0-.835-1.145a.88.88 0 0 0-.641-.291h-1.28v6.173h-4.776V11.026h9.591s4.374.074 4.374 4.235s-4.179 4.465-4.179 4.465m-2.077-5.28h-2.891v2.681h2.893a1.323 1.323 0 0 0 1.34-1.364a1.247 1.247 0 0 0-1.342-1.316Z");
+}
+
+.p0r0rf-gr {
+  stop-color: var(--svg-color--84838b, #84838b);
+}
+
+.s79qm2ozo {
+  d: path("M16 23.956c-7.732 0-14-4.2-14-9.376S8.268 5.2 16 5.2s14 4.2 14 9.38s-6.268 9.376-14 9.376M18.143 8.87C12.266 8.87 7.5 11.74 7.5 15.28s4.764 6.41 10.641 6.41s10.214-1.962 10.214-6.41s-4.335-6.41-10.212-6.41");
+}
+
+.um8s5qwhf {
+  stop-color: var(--svg-color--cbced0, #cbced0);
+}
+
+.znv-7ornv {
+  stop-color: var(--svg-color--165caa, #165caa);
+}
+
+</style>

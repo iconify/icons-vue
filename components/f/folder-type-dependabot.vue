@@ -1,0 +1,26 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":32,"height":32};
+const content = `<path class="i99u_tk-k"/><path class="vye7w_b9l"/><path class="smcge4b0z"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="vscode-icons:folder-type-dependabot" /></template>
+<style>
+.i99u_tk-k {
+  fill: var(--svg-color--5981aa, #5981aa);
+  d: path("M27.4 5.5h-9.3L16 9.7H4.3v16.8h25.2v-21Zm0 4.2h-8.2l1.1-2.1h7.1Z");
+}
+
+.smcge4b0z {
+  fill: var(--svg-color--fff, #fff);
+  d: path("M27.042 21h-.417v-2.5a.625.625 0 0 0-.625-.625h-3.125v-2.292a.21.21 0 0 0-.209-.208h-1.458a.21.21 0 0 0-.208.208v1.459a.21.21 0 0 0 .208.208h1.042v.625h-5a.625.625 0 0 0-.625.625V21h-.417a.21.21 0 0 0-.208.209v2.083a.21.21 0 0 0 .208.208h.417v1.25a.624.624 0 0 0 .625.625H26a.625.625 0 0 0 .625-.625V23.5h.417a.21.21 0 0 0 .208-.208v-2.083a.21.21 0 0 0-.208-.209m-6.221.491l-1.31 1.31a.25.25 0 0 1-.356 0l-.79-.789a.254.254 0 0 1 0-.357l.269-.268a.25.25 0 0 1 .356 0l.343.342l.863-.863a.25.25 0 0 1 .357 0l.268.268a.25.25 0 0 1 0 .357m4.167 0l-1.31 1.31a.253.253 0 0 1-.357 0l-.789-.789a.253.253 0 0 1 0-.357l.268-.268a.25.25 0 0 1 .357 0l.343.342l.863-.863a.25.25 0 0 1 .356 0l.269.268a.253.253 0 0 1 0 .357");
+}
+
+.vye7w_b9l {
+  fill: var(--svg-color--0366d6, #0366d6);
+  d: path("m12.971 16.36l7.778-5.1a1.6 1.6 0 0 1 1.752 0l7.777 5.1A1.6 1.6 0 0 1 31 17.7v6.6a1.6 1.6 0 0 1-.722 1.336l-7.777 5.1a1.6 1.6 0 0 1-1.752 0l-7.778-5.1a1.6 1.6 0 0 1-.721-1.336v-6.6a1.6 1.6 0 0 1 .721-1.34");
+}
+
+</style>

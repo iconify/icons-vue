@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":32,"height":32};
+const content = `<path class="dxw48oy6i"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="vscode-icons:file-type-procfile" /></template>
+<style>
+.dxw48oy6i {
+  fill: var(--svg-color--6762a6, #6762a6);
+  d: path("M19.257 30V14.687s1-3.664-12.268 1.5c-.024.066-.024-14.16-.024-14.16L11.3 2v9.114s12.135-4.779 12.135 3.625V30zm2.47-22.484h-4.6a28.4 28.4 0 0 0 3.153-5.49h4.753a22.8 22.8 0 0 1-3.309 5.49ZM7.043 29.974v-8.72l4.361 4.36z");
+}
+
+</style>

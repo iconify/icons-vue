@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":32,"height":32};
+const content = `<path class="zoytd3bwr"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="vscode-icons:file-type-bicep" /></template>
+<style>
+.zoytd3bwr {
+  fill: var(--svg-color--32b0e7, #32b0e7);
+  d: path("M24.556 19.111H11.333l3.111-7.778h5.134L20.667 9H16l-1.556-2.333L16 4.333h4.667L19.578 2h-5.134l-3.422 4.667L12.422 9L3.089 20.667A5.38 5.38 0 0 0 2 23.778a4.7 4.7 0 0 0 3.889 4.666S22.222 30 24.556 30a5.445 5.445 0 0 0 0-10.889m-17.889 7a2.334 2.334 0 1 1 0-4.667a2.334 2.334 0 0 1 0 4.667m17.889 1.556a3.112 3.112 0 1 1 3.111-3.111a3.12 3.12 0 0 1-3.111 3.111");
+}
+
+</style>

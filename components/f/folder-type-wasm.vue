@@ -1,0 +1,26 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":32,"height":32};
+const content = `<path class="exdcnkb3l"/><path class="pvf-b3but"/><path class="pp87r2b7s"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="vscode-icons:folder-type-wasm" /></template>
+<style>
+.exdcnkb3l {
+  fill: var(--svg-color--7e4bbd, #7e4bbd);
+  d: path("M27.417 5.5H18.19l-2.083 4.2H4.5v16.8h25v-21Zm0 4.2h-8.135l1.091-2.1h7.044Z");
+}
+
+.pp87r2b7s {
+  fill: var(--svg-color--fff, #fff);
+  d: path("M16.181 21.703h1.193l.816 4.335h.015l.978-4.335h1.116l.884 4.39h.017l.928-4.39h1.17l-1.52 6.373h-1.184l-.877-4.337h-.023l-.939 4.337H17.55zm8.462 0h1.88l1.87 6.373h-1.232l-.406-1.418h-2.143l-.313 1.418h-1.198zm.715 1.571l-.52 2.339h1.62l-.596-2.342z");
+}
+
+.pvf-b3but {
+  fill: var(--svg-color--654ff0, #654ff0);
+  d: path("M23.06 12v.097a2.063 2.063 0 1 1-4.127 0V12H12v18h18V12z");
+}
+
+</style>

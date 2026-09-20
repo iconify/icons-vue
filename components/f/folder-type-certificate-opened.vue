@@ -1,0 +1,26 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":32,"height":32};
+const content = `<path class="yf0n_x-mg"/><path class="b965vgz1j"/><path class="a4_dvmbxg"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="vscode-icons:folder-type-certificate-opened" /></template>
+<style>
+.a4_dvmbxg {
+  fill: var(--svg-color--af9347, #af9347);
+  d: path("M23.08 12.751A4.26 4.26 0 0 0 18.834 17v3.54h-2.123v9.207h12.743v-9.21h-2.123V17a4.26 4.26 0 0 0-4.251-4.249m0 1.417a2.823 2.823 0 0 1 2.833 2.811v3.562h-5.666V17a2.82 2.82 0 0 1 2.807-2.836h.005Z");
+}
+
+.b965vgz1j {
+  fill: var(--svg-color--836e35, #836e35);
+  d: path("M25.9 14H.3l3.8 13h25.6z");
+}
+
+.yf0n_x-mg {
+  fill: var(--svg-color--836e35, #836e35);
+  d: path("M27.9 6h-9.7l-2 4H5v17h25V6Zm.1 18H7V12h21Zm.1-14h-7.8l1-2H28Z");
+}
+
+</style>

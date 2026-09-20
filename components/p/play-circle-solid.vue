@@ -1,0 +1,10 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/x/xu-8-1byn.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":32,"height":32};
+const content = `<path class="xu-8-1byn"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="la:play-circle-solid" /></template>

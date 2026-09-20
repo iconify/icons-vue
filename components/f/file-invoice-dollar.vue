@@ -1,0 +1,10 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/d/dpok98bjd.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":32,"height":32};
+const content = `<path class="dpok98bjd"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="la:file-invoice-dollar" /></template>

@@ -1,0 +1,10 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/j/j-9_lojyo.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":32,"height":32};
+const content = `<path class="j-9_lojyo"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="la:text-width-solid" /></template>

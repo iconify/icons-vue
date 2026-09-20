@@ -1,0 +1,199 @@
+{
+  "name": "@iconify-vue/svg-spinners",
+  "type": "module",
+  "version": "1.0.4",
+  "homepage": "https://icon-sets.iconify.design/svg-spinners/",
+  "bugs": "https://github.com/iconify/icons-vue/issues",
+  "license": "MIT",
+  "exports": {
+    "./12-dots-scale-rotate": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/1/12-dots-scale-rotate.vue"
+    },
+    "./180-ring": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/1/180-ring.vue"
+    },
+    "./180-ring-with-bg": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/1/180-ring-with-bg.vue"
+    },
+    "./270-ring": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/2/270-ring.vue"
+    },
+    "./270-ring-with-bg": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/2/270-ring-with-bg.vue"
+    },
+    "./3-dots-bounce": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/3/3-dots-bounce.vue"
+    },
+    "./3-dots-fade": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/3/3-dots-fade.vue"
+    },
+    "./3-dots-move": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/3/3-dots-move.vue"
+    },
+    "./3-dots-rotate": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/3/3-dots-rotate.vue"
+    },
+    "./3-dots-scale": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/3/3-dots-scale.vue"
+    },
+    "./3-dots-scale-middle": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/3/3-dots-scale-middle.vue"
+    },
+    "./6-dots-rotate": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/6/6-dots-rotate.vue"
+    },
+    "./6-dots-scale": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/6/6-dots-scale.vue"
+    },
+    "./6-dots-scale-middle": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/6/6-dots-scale-middle.vue"
+    },
+    "./8-dots-rotate": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/8/8-dots-rotate.vue"
+    },
+    "./90-ring": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/9/90-ring.vue"
+    },
+    "./90-ring-with-bg": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/9/90-ring-with-bg.vue"
+    },
+    "./bars-fade": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bars-fade.vue"
+    },
+    "./bars-rotate-fade": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bars-rotate-fade.vue"
+    },
+    "./bars-scale": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bars-scale.vue"
+    },
+    "./bars-scale-fade": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bars-scale-fade.vue"
+    },
+    "./bars-scale-middle": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bars-scale-middle.vue"
+    },
+    "./blocks-scale": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/blocks-scale.vue"
+    },
+    "./blocks-shuffle-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/blocks-shuffle-2.vue"
+    },
+    "./blocks-shuffle-3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/blocks-shuffle-3.vue"
+    },
+    "./blocks-wave": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/blocks-wave.vue"
+    },
+    "./bouncing-ball": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bouncing-ball.vue"
+    },
+    "./clock": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/clock.vue"
+    },
+    "./dot-revolve": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dot-revolve.vue"
+    },
+    "./eclipse": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/eclipse.vue"
+    },
+    "./eclipse-half": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/eclipse-half.vue"
+    },
+    "./gooey-balls-1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gooey-balls-1.vue"
+    },
+    "./gooey-balls-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gooey-balls-2.vue"
+    },
+    "./pulse": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pulse.vue"
+    },
+    "./pulse-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pulse-2.vue"
+    },
+    "./pulse-3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pulse-3.vue"
+    },
+    "./pulse-multiple": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pulse-multiple.vue"
+    },
+    "./pulse-ring": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pulse-ring.vue"
+    },
+    "./pulse-rings-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pulse-rings-2.vue"
+    },
+    "./pulse-rings-3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pulse-rings-3.vue"
+    },
+    "./pulse-rings-multiple": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pulse-rings-multiple.vue"
+    },
+    "./ring-resize": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/ring-resize.vue"
+    },
+    "./tadpole": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tadpole.vue"
+    },
+    "./wifi": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wifi.vue"
+    },
+    "./wifi-fade": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wifi-fade.vue"
+    },
+    "./wind-toy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wind-toy.vue"
+    },
+    "./*": "./*"
+  },
+  "dependencies": {
+    "@iconify/css-vue": "^1.0.0"
+  },
+  "repository": "github:iconify/icons-vue#svg-spinners"
+}

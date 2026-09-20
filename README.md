@@ -37,7 +37,7 @@ So new versions of some packages cannot be published, old versions cannot be unp
 
 The only solution is to move off NPM.
 
-This is why these packages are published to GitHub instead of NPM.
+This is why these packages are published to Git repository instead of NPM.
 
 NPM client can install packages from a branch of a Git repository, where it retrieves metadata only for the latest commit in a branch, so no more huge metadata regardless of how many versions have been published.
 

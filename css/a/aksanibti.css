@@ -1,0 +1,8 @@
+.aksanibti {
+  fill: none;
+  stroke: var(--svg-color--186648, #186648);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M41 47c3.348-1.738 6-6.228 6-11a13 13 0 0 0-1.066-5M31 47c-3.348-1.738-6-6.228-6-11a13 13 0 0 1 1.066-5");
+}

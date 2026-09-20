@@ -1,0 +1,9 @@
+.h_q3o-bkg {
+  fill: none;
+  stroke: var(--svg-color--000, #000);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("m17.5 17.5l37 37m0-37l-37 37");
+}

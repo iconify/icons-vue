@@ -1,0 +1,8 @@
+.jkozvacze {
+  fill: var(--svg-color--d22f27, #d22f27);
+  stroke: var(--svg-color--d22f27, #d22f27);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M35.875 54.656L37.188 65l2.78-12.094zm-6.044-10.594l-3.845 6.872l6.762-3.778m-2.904-22.953l-.687-6.266l2.812 5.438m20.711 1.541l7.843-6.005l-6.63 8.025l6.381-1.972l-5.804 4.418m-7.492-6.18l2.077-3.58l-1.127 4.508");
+}

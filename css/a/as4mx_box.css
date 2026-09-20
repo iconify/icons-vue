@@ -1,0 +1,8 @@
+.as4mx_box {
+  fill: none;
+  stroke: var(--svg-color--000, #000);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("m43.26 17.36l17.69-6.65m.02 17.89l-15.64-5.89m0-3.06l16.56-1.13");
+}

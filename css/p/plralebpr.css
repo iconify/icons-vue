@@ -1,0 +1,7 @@
+.plralebpr {
+  fill: var(--svg-color--d0cfce, #d0cfce);
+  stroke: var(--svg-color--d0cfce, #d0cfce);
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M36 34h6v11h-6z");
+}

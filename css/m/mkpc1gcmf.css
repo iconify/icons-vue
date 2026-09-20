@@ -1,0 +1,7 @@
+.mkpc1gcmf {
+  fill: var(--svg-color--fcea2b, #fcea2b);
+  stroke: var(--svg-color--fcea2b, #fcea2b);
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M37 37h5v21h-5zm-1-14h8v14h-8z");
+}

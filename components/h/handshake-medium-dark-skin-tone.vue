@@ -1,0 +1,18 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/k/k9og6dg-m.css';
+import '../../css/g/g_7pjsi-u.css';
+import '../../css/e/eztqw9biy.css';
+import '../../css/i/ivvkq775s.css';
+import '../../css/f/f5nnzq2hq.css';
+import '../../css/j/jn8qy4bru.css';
+import '../../css/h/hft1hkb9e.css';
+import '../../css/y/yrs9i8buv.css';
+import '../../css/x/xrps05jrn.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":72,"height":72};
+const content = `<defs><path id="SVGwsY65bTD" class="k9og6dg-m"/><path id="SVG50pTSdAf" class="g_7pjsi-u"/></defs><g class="eztqw9biy"><path class="ivvkq775s"/><path class="f5nnzq2hq"/><use href="#SVGwsY65bTD"/><use href="#SVG50pTSdAf"/></g><g class="jn8qy4bru"><path class="hft1hkb9e"/><path class="yrs9i8buv"/><path class="xrps05jrn"/><use href="#SVGwsY65bTD"/><use href="#SVG50pTSdAf"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="openmoji:handshake-medium-dark-skin-tone" /></template>

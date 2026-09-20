@@ -1,0 +1,9 @@
+.nahlbrvea {
+  fill: none;
+  stroke: var(--svg-color--000, #000);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M36 14.712V27.5m8.989 6.49l11.824-2.663m-15.222 13.29l6.047 9.296m-17.244-9.307l-6.051 9.307m2.658-19.894l-11.837-2.646");
+}

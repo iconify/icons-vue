@@ -1,0 +1,7 @@
+.if56bndaq {
+  stroke: var(--svg-color--000, #000);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--0-1px, 0.1px);
+  d: path("m5 17l31 19V17zm31 19l31-19v19zm0 0l31 19H36zM5 36h31L5 55z");
+}

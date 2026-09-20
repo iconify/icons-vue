@@ -1,0 +1,7 @@
+.sfanizbyl {
+  fill: var(--svg-color--fcea2b, #fcea2b);
+  stroke: var(--svg-color--fcea2b, #fcea2b);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M8 36a28 28 0 0 0 28 28V8A28 28 0 0 0 8 36");
+}

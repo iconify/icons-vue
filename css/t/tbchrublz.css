@@ -1,0 +1,9 @@
+.tbchrublz {
+  fill: none;
+  stroke: var(--svg-color--000, #000);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M44.806 44.888v7.245H26.929l.002-7.245m22.366.784v12.195m-27.032-12.11v12.11m10.339-1.089h-5.675M46.976 20.54s1.25-11.28-10.045-11.314h-1.803C23.833 9.26 25.083 20.54 25.083 20.54");
+}

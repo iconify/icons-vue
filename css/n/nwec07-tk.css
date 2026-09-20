@@ -1,0 +1,9 @@
+.nwec07-tk {
+  fill: var(--svg-color--ea5a47, #ea5a47);
+  stroke: var(--svg-color--ea5a47, #ea5a47);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M34.4 46.5c.9-1.7 2.3-3.1 4.2-4c4.9-2.5 10.8-.5 13.3 4.4s.5 10.8-4.4 13.3s-10.8.5-13.3-4.4");
+}

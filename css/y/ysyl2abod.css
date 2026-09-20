@@ -1,0 +1,8 @@
+.ysyl2abod {
+  fill: none;
+  stroke: var(--svg-color--000, #000);
+  stroke-linecap: round;
+  stroke-miterlimit: 10;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M53.38 20.805c8.092 9.6 6.871 23.941-2.728 32.034s-23.94 6.872-32.033-2.727c-7.242-8.59-7.123-21.181.28-29.633");
+}

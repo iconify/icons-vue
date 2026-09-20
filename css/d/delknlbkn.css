@@ -1,0 +1,9 @@
+.delknlbkn {
+  fill: none;
+  stroke: var(--svg-color--000, #000);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M50.384 47.207c-1.74 1.45-3.545 2.013-3.826 2.095c1.277 3.9 1.531 7.334.856 9.363M23.741 31.407c4.081-1.403 9.826.106 12.418 4.545c2.525-4.21 7.887-5.739 11.822-4.717m-22.26 28.341c-.71-2.819-.848-5.519.32-10.836c-.222-.045-2.222-.485-4.122-1.928");
+}

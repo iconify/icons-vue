@@ -1,0 +1,9 @@
+.hutky_bqr {
+  fill: none;
+  stroke: var(--svg-color--000, #000);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M22.33 60.62c.15-.32.28-.58.38-.78c0 0 0-.01.01-.02v-.01c.01-.01.02-.02.02-.04l.06-.12c.01-.03.03-.06.05-.1c0-.01.01-.03.02-.04c0-.01 0-.02.01-.02c.02-.05.04-.09.06-.13");
+}

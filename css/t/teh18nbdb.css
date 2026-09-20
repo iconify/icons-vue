@@ -1,0 +1,8 @@
+.teh18nbdb {
+  fill: var(--svg-color--f1b31c, #f1b31c);
+  stroke: var(--svg-color--f1b31c, #f1b31c);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M44 41c3 0 3-2 7-2l5 2c-1-2 2-3 1-6H42s-3 2-3 5h3Z");
+}

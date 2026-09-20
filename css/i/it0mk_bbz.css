@@ -1,0 +1,8 @@
+.it0mk_bbz {
+  fill: var(--svg-color--fff, #fff);
+  stroke: var(--svg-color--fff, #fff);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-8px, 1.8px);
+  d: path("M29.992 54.879v14h11v-14");
+}

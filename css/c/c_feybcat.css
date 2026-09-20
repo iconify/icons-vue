@@ -1,0 +1,8 @@
+.c_feybcat {
+  fill: none;
+  stroke: var(--svg-color--000, #000);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M21.264 27.629a7.17 7.17 0 0 1 4.47-2.607a7.08 7.08 0 0 1 4.339.765M41 27.077a7.17 7.17 0 0 0 4.91 1.637A7.08 7.08 0 0 0 50 27.077M24 41c-.256-.205-.48 8 5 8c5 0 4-8 9-5.6");
+}

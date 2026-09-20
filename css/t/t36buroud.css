@@ -1,0 +1,9 @@
+.t36buroud {
+  fill: none;
+  stroke: var(--svg-color--000, #000);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M16.894 33.722s12.866 6.918 13.252 6.625c-12.845 12.737-14.549-3.86-13.252-6.625M10 54.16l9.36-5.2m-5.2 10.4l9.36-5.2");
+}

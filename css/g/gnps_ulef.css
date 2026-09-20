@@ -1,0 +1,9 @@
+.gnps_ulef {
+  fill: none;
+  stroke: var(--svg-color--000, #000);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M26.739 11.761v8.48s6.72-.27 9.19 2.63m9.19-11.11v8.48s-6.72-.27-9.19 2.63m14.38-11.11l-15.13-2.52l-13.88 2.52");
+}

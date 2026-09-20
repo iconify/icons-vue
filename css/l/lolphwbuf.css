@@ -1,0 +1,8 @@
+.lolphwbuf {
+  fill: none;
+  stroke: var(--svg-color--000, #000);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M38.995 37.938c-1-2-5-2-6 0");
+}

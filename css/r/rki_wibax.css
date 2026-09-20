@@ -1,0 +1,9 @@
+.rki_wibax {
+  fill: none;
+  stroke: var(--svg-color--000, #000);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M25.026 24.986c.2-1.03.49-2.01.86-2.93v-.01m20.4.24c.23.62.43 1.27.59 1.94c.07.25.13.51.18.77c.21 1.08.32 2.21.32 3.36c0 7.83-5.08 14.18-11.34 14.18s-11.34-6.35-11.34-14.18q0-1.74.33-3.36");
+}

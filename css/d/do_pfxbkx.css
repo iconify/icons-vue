@@ -1,0 +1,7 @@
+.do_pfxbkx {
+  fill: var(--svg-color--fff, #fff);
+  stroke: var(--svg-color--fff, #fff);
+  stroke-miterlimit: 10;
+  stroke-width: var(--svg-stroke-width--1-8px, 1.8px);
+  d: path("M32.499 57.778V35.887h6.735v21.891a3.38 3.38 0 0 1-3.368 3.368a3.36 3.36 0 0 1-2.378-.99a3.36 3.36 0 0 1-.99-2.378z");
+}

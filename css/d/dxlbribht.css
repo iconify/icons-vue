@@ -1,0 +1,9 @@
+.dxlbribht {
+  fill: none;
+  stroke: var(--svg-color--000, #000);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M12 41s4-6 7-5s2 5 5 5s2-5 6-5c0 0 1.156.312 3 4c2 4 3.735-3.367 5-4c2-1 2.52.279 5 4c2 3 5-4 7-4");
+}

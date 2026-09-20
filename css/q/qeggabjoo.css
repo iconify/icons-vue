@@ -1,0 +1,9 @@
+.qeggabjoo {
+  fill: none;
+  stroke: var(--svg-color--000, #000);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M17 17.009h16v9.95H17zM37 19h7m-7 4h7m-21-2h4");
+}

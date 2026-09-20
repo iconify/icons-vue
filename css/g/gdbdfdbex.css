@@ -1,0 +1,8 @@
+.gdbdfdbex {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M4 6h7m-7 6h7m-7 6h9m2-9l3-3l3 3m-3-3v12");
+}

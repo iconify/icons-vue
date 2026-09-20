@@ -1,0 +1,8 @@
+.e4hwofa_w {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M20 5v14L8 12zM4 5v14");
+}

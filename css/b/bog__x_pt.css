@@ -1,0 +1,8 @@
+.bog__x_pt {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M4 20h16M8 16V8a4 4 0 1 1 8 0v8m-8-6h8");
+}

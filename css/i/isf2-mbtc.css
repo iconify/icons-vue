@@ -1,0 +1,8 @@
+.isf2-mbtc {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M8 4L4 6v5l4 2l4-2V6zm4 7l4 2l4-2V6l-4-2l-4 2m-4 7v5l4 2l4-2v-5");
+}

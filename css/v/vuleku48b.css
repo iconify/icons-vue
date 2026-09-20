@@ -1,0 +1,8 @@
+.vuleku48b {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M5 12h.5m3 0H10m3 0h6m-6 6l6-6m-6-6l6 6");
+}

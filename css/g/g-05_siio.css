@@ -1,0 +1,8 @@
+.g-05_siio {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M12 5v.5m0 3V10m0 3v6m4-4l-4 4m-4-4l4 4");
+}

@@ -1,0 +1,13 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/n/nrj6p8qat.css';
+import '../../css/z/zbs_fwc2n.css';
+import '../../css/v/vzg_utb6x.css';
+import '../../css/p/pjkl_zqkk.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="nrj6p8qat"><path class="zbs_fwc2n"/><path class="vzg_utb6x"/><path class="pjkl_zqkk"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="tabler:box-multiple-3" /></template>

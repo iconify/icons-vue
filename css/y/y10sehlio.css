@@ -1,0 +1,8 @@
+.y10sehlio {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M7 20V4m10 0v16m3-16H4");
+}

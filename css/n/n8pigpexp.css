@@ -1,0 +1,8 @@
+.n8pigpexp {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("m1.5 19l18-18m-15 21l18-18M18 15l3 4m2-4l-4.5 8M1 1l6 6M1 7l6-6");
+}

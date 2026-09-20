@@ -1,0 +1,8 @@
+.aamwa-sar {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M6 18v-3m4 3v-6m4 6V9m4 9V6");
+}

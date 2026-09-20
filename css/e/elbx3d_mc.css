@@ -1,0 +1,8 @@
+.elbx3d_mc {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M3 21v-1a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v1M6 15a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2m-3-9l-3 3l-3-3m3 3V3");
+}

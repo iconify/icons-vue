@@ -1,0 +1,8 @@
+.suj-smbnp {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("m16 9l3 5.063M2 9l6 6m-6 0l6-6m14 0l-4.8 9M10 12h4m-2-2v4");
+}

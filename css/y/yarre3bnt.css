@@ -1,0 +1,8 @@
+.yarre3bnt {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M6 12a6 6 0 1 0 12 0a6 6 0 1 0-12 0m1 0h11");
+}

@@ -1,0 +1,8 @@
+.xd_nprblr {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M16 21h-4m2 0V11m0-5V3m4 3H8L6 8.5L8 11h10z");
+}

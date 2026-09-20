@@ -1,0 +1,8 @@
+.rot91g7vu {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M7 16V8m4 0v8m-4-4h4m3 0h4m-2-2v4");
+}

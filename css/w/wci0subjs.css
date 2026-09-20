@@ -1,0 +1,8 @@
+.wci0subjs {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M22 5h-5v5h-5v5H7v5H2");
+}

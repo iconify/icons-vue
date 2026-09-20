@@ -1,0 +1,8 @@
+.ex2cisb-e {
+  fill: none;
+  stroke: var(--svg-color--2dd4bf, #2dd4bf);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--7px, 7px);
+  d: path("M374 444h50q20 0 20-20v-50");
+}

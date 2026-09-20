@@ -1,0 +1,18 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/d/da2thzb3o.css';
+import '../../css/f/ft5dv1b6b.css';
+import '../../css/z/z-chwtb1w.css';
+import '../../css/j/j18ku8b7m.css';
+import '../../css/b/bgcq0hb2a.css';
+import '../../css/g/g_v7kfbck.css';
+import '../../css/a/acufvbclq.css';
+import '../../css/y/ywe14dtzh.css';
+import '../../css/h/hefv1v8yi.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":296,"height":298};
+const content = `<mask id="SVGU5zy4dsu" width="296" height="298" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path class="da2thzb3o"/></mask><g class="ft5dv1b6b"><g mask="url(#SVGU5zy4dsu)"><g filter="url(#SVG1KOLkbwC)"><ellipse class="z-chwtb1w"/></g><g filter="url(#SVGXASGIdyq)"><ellipse class="j18ku8b7m"/></g><g filter="url(#SVGLvRrqeoG)"><ellipse class="bgcq0hb2a"/></g><g filter="url(#SVGxzEcwcSI)"><path class="g_v7kfbck"/></g><g filter="url(#SVGDM3yibyc)"><path class="acufvbclq"/></g><g filter="url(#SVGEKXRtcuY)"><path class="ywe14dtzh"/></g><g filter="url(#SVGxDXJydkM)"><path class="hefv1v8yi"/></g></g><defs><filter id="SVG1KOLkbwC" width="464" height="390" x="-69" y="-46" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_69_17998" stdDeviation="18"/></filter><filter id="SVGXASGIdyq" width="265" height="273" x="-99" y="6" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_69_17998" stdDeviation="32"/></filter><filter id="SVGLvRrqeoG" width="265" height="273" x="-113" y="12" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_69_17998" stdDeviation="32"/></filter><filter id="SVGxzEcwcSI" width="299.5" height="329" x="-41.5" y="-130" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_69_17998" stdDeviation="32"/></filter><filter id="SVGDM3yibyc" width="299.5" height="329" x="-45" y="-153" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_69_17998" stdDeviation="32"/></filter><filter id="SVGEKXRtcuY" width="299.5" height="329" x="-41" y="91" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_69_17998" stdDeviation="32"/></filter><filter id="SVGxDXJydkM" width="299.5" height="329" x="-39" y="132" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_69_17998" stdDeviation="32"/></filter></defs></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="thesvg-color:gemini" /></template>

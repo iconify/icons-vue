@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":28,"height":28};
+const content = `<path class="k-x06295f"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:animal-cat-28-filled" /></template>
+<style>
+.k-x06295f {
+  fill: currentColor;
+  d: path("M17.802 26H6.455a4.456 4.456 0 0 1-3.257-7.499l1.38-1.48a3.88 3.88 0 0 0-.092-5.392L3.13 10.274a.75.75 0 0 1 1.06-1.06l1.355 1.354a5.38 5.38 0 0 1 .129 7.477l-1.38 1.48a2.958 2.958 0 0 0 2.16 4.975h.988c-.006-.37-.006-.852.013-1.413c.044-1.311.19-3.074.603-4.849c.412-1.765 1.103-3.603 2.277-5.013c1.063-1.276 2.51-2.184 4.427-2.371V5.669A3.67 3.67 0 0 1 18.43 2a1.48 1.48 0 0 1 1.479 1.48v.952h2.152c1.1 0 2.123.57 2.703 1.506l.753 1.216c1.29 2.082-.156 4.761-2.57 4.857v11.415A2.574 2.574 0 0 1 20.376 26h-1.074v-2.574a4.397 4.397 0 0 0-4.396-4.399h-1.52a.75.75 0 0 0 0 1.5h1.52c1.6 0 2.897 1.298 2.897 2.899z");
+}
+
+</style>

@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":16,"height":16};
+const content = `<path class="b7-nb6bpn"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:mail-warning-16-filled" /></template>
+<style>
+.b7-nb6bpn {
+  fill: currentColor;
+  d: path("M5.079 10.533c.23.818.972 1.467 1.93 1.467H13v1a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8.337zM7.269 5l-2.05 4.104q-.075.15-.123.303L1 7.2V7a2 2 0 0 1 2-2zM6.106 9.552l3.496-6.998a1 1 0 0 1 1.79 0l3.5 6.998A1 1 0 0 1 13.998 11H7.002a1 1 0 0 1-.895-1.448m4.39-5.557a.5.5 0 0 0-.5.5v3.002a.5.5 0 0 0 1.001 0V4.495a.5.5 0 0 0-.5-.5m.501 5.504a.5.5 0 1 0-1 0a.5.5 0 0 0 1 0");
+}
+
+</style>

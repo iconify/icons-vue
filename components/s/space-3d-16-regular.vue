@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":16,"height":16};
+const content = `<path class="tf84-043b"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:space-3d-16-regular" /></template>
+<style>
+.tf84-043b {
+  fill: currentColor;
+  d: path("M2 4.5A2.5 2.5 0 0 1 4.5 2h7A2.5 2.5 0 0 1 14 4.5v7a2.5 2.5 0 0 1-2.5 2.5h-7A2.5 2.5 0 0 1 2 11.5zM3 11v.5A1.5 1.5 0 0 0 4.5 13h.14l.666-2zm2.64-1l.666-2H5.268l-1.334 2zm.72 1l-.666 2h4.612l-.666-2zm2.946-1L8.64 8H7.36l-.666 2zm1.388 1l.666 2h.14a1.5 1.5 0 0 0 1.5-1.5V11zm1.372-1l-1.334-2H9.694l.666 2zM13 4.5A1.5 1.5 0 0 0 11.5 3h-7A1.5 1.5 0 0 0 3 4.5V7h10zM3 9.599L4.066 8H3zm10 0V8h-1.066z");
+}
+
+</style>

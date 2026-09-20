@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":16,"height":16};
+const content = `<path class="ztbb74aeb"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:link-edit-16-regular" /></template>
+<style>
+.ztbb74aeb {
+  fill: currentColor;
+  d: path("M10.499 3h-1l-.09.008a.5.5 0 0 0 .09.992h1l.164.005c.81.053 1.516.492 1.933 1.135a2.6 2.6 0 0 1 1.069-.133A3.5 3.5 0 0 0 10.499 3m.487 3.39l-.61.611L5.498 7a.5.5 0 0 1-.09-.992L5.5 6l5 .003a.5.5 0 0 1 .487.388m2.15-.363a1.55 1.55 0 0 0-.8.427l-3.28 3.28l-1.007 1.008a2.8 2.8 0 0 0-.73 1.29l-.304 1.21a.61.61 0 0 0 .74.74l1.21-.303a2.8 2.8 0 0 0 1.29-.73l4.288-4.288a1.56 1.56 0 0 0-1.407-2.634M6.499 3h-1l-.192.005A3.5 3.5 0 0 0 5.5 9.998h1l.09-.008A.5.5 0 0 0 6.5 9h-1l-.164-.006A2.5 2.5 0 0 1 5.5 4h1l.09-.008A.5.5 0 0 0 6.5 3");
+}
+
+</style>

@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":12,"height":12};
+const content = `<path class="qkrf49b3p"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:person-board-12-filled" /></template>
+<style>
+.qkrf49b3p {
+  fill: currentColor;
+  d: path("M1 3a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2zm4 1.25a1 1 0 1 0 0-2a1 1 0 0 0 0 2m0 3c1.5 0 2-.75 2-1.5A.75.75 0 0 0 6.25 5h-2.5a.75.75 0 0 0-.75.75c0 .75.5 1.5 2 1.5M3.268 10A2 2 0 0 0 5 11h2a4 4 0 0 0 4-4V5a2 2 0 0 0-1-1.732V7a3 3 0 0 1-3 3z");
+}
+
+</style>

@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":20,"height":20};
+const content = `<path class="hmqpnkmsc"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:mail-off-20-filled" /></template>
+<style>
+.hmqpnkmsc {
+  fill: currentColor;
+  d: path("M2.854 2.146a.5.5 0 1 0-.708.708l1.355 1.354a2.5 2.5 0 0 0-1.486 2.015L10 10.92l.134-.079l.73.73l-.61.36a.5.5 0 0 1-.507 0L2 7.373V14.5A2.5 2.5 0 0 0 4.5 17h11q.362-.001.695-.098l.951.952a.5.5 0 0 0 .708-.708zm9.791 8.378l5.093 5.092c.168-.336.262-.715.262-1.116V7.373zM6.121 4l5.794 5.794l6.07-3.571A2.5 2.5 0 0 0 15.5 4z");
+}
+
+</style>

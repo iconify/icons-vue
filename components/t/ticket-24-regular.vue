@@ -1,0 +1,17 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="h6tinzbze"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:ticket-24-regular" /></template>
+<style>
+.h6tinzbze {
+  d: path("M20.25 5c.966 0 1.75.784 1.75 1.75v2.26c0 .39-.3.716-.688.748a2.25 2.25 0 0 0 0 4.484a.75.75 0 0 1 .688.748v2.26A1.75 1.75 0 0 1 20.25 19H3.75A1.75 1.75 0 0 1 2 17.25v-2.26c0-.39.3-.716.689-.748a2.25 2.25 0 0 0 0-4.484A.75.75 0 0 1 2 9.01V6.75C2 5.784 2.784 5 3.75 5h16.5zm.25 3.385V6.75a.25.25 0 0 0-.25-.25H3.75a.25.25 0 0 0-.25.25v1.635a3.752 3.752 0 0 1 0 7.23v1.635c0 .138.112.25.25.25h16.5a.25.25 0 0 0 .25-.25v-1.635a3.752 3.752 0 0 1-.189-7.173l.19-.057z");
+  fill: currentColor;
+  fill-rule: nonzero;
+}
+
+</style>

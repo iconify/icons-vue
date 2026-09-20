@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":28,"height":28};
+const content = `<path class="cttwlobeu"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:person-arrow-back-28-filled" /></template>
+<style>
+.cttwlobeu {
+  fill: currentColor;
+  d: path("M13 20.5c0 2.029.805 3.869 2.114 5.219c-.97.183-2.013.281-3.114.281c-5.79 0-10-2.567-10-6.285V19a3 3 0 0 1 3-3h9.5a7.47 7.47 0 0 0-1.5 4.5M12 2a6 6 0 1 1 0 12a6 6 0 0 1 0-12m15 18.5a6.5 6.5 0 1 1-13 0a6.5 6.5 0 0 1 13 0m-8.146-2.646a.5.5 0 0 0-.708-.708l-2 2a.5.5 0 0 0 0 .708l2 2a.5.5 0 0 0 .708-.708L17.707 20h2.543A2.75 2.75 0 0 1 23 22.75V23a.5.5 0 0 0 1 0v-.25A3.75 3.75 0 0 0 20.25 19h-2.543z");
+}
+
+</style>

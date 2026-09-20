@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":16,"height":16};
+const content = `<path class="y6f2vnbdh"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:table-lock-16-regular" /></template>
+<style>
+.y6f2vnbdh {
+  fill: currentColor;
+  d: path("M2 4.5A2.5 2.5 0 0 1 4.5 2h7A2.5 2.5 0 0 1 14 4.5v1.841A2.997 2.997 0 0 0 9.264 6H6v4h1v1H6v2h1v1H4.5A2.5 2.5 0 0 1 2 11.5zM5 11H3v.5A1.5 1.5 0 0 0 4.5 13H5zm0-5H3v4h2zm1-1h4V3H6zM5 3h-.5A1.5 1.5 0 0 0 3 4.5V5h2zm8 2v-.5A1.5 1.5 0 0 0 11.5 3H11v2zM9.5 8v1H9a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1v-4a1 1 0 0 0-1-1h-.5V8a2 2 0 1 0-4 0m1 1V8a1 1 0 1 1 2 0v1zm1 2.25a.75.75 0 1 1 0 1.5a.75.75 0 0 1 0-1.5");
+}
+
+</style>

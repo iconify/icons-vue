@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":16,"height":16};
+const content = `<path class="d7ae-acuc"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:poll-off-16-regular" /></template>
+<style>
+.d7ae-acuc {
+  fill: currentColor;
+  d: path("M6 6.707L1.146 1.854a.5.5 0 1 1 .708-.708l13 13a.5.5 0 0 1-.708.708l-.13-.13A2 2 0 0 1 11 13v-1.294l-1-1V13a2 2 0 1 1-4 0zm3 3l-2-2V13a1 1 0 1 0 2 0zm3 3V13a1 1 0 0 0 1.259.966zM9 3v3.879l1 1V3a2 2 0 1 0-4 0v.879l1 1V3a1 1 0 0 1 2 0m2 5.879l1 1V7a1 1 0 1 1 2 0v4.879l1 1V7a2 2 0 1 0-4 0zM3 7a2 2 0 0 0-2 2v4a2 2 0 1 0 4 0V9a2 2 0 0 0-2-2m1 6a1 1 0 1 1-2 0V9a1 1 0 0 1 2 0z");
+}
+
+</style>

@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":20,"height":20};
+const content = `<path class="qi7b706wo"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:calendar-pattern-20-filled" /></template>
+<style>
+.qi7b706wo {
+  fill: currentColor;
+  d: path("M5.75 3h8.5A2.75 2.75 0 0 1 17 5.75v8.5A2.75 2.75 0 0 1 14.25 17h-8.5A2.75 2.75 0 0 1 3 14.25v-8.5A2.75 2.75 0 0 1 5.75 3M4.5 5.75V7h11V5.75c0-.69-.56-1.25-1.25-1.25h-8.5c-.69 0-1.25.56-1.25 1.25M14.707 8l-4 4h2.586L15.5 9.793V8zm-1.414 0h-2.586l-4 4h2.586zm-8 4l4-4H6.707L4.5 10.207V12zM4.5 8.793L5.293 8H4.5zM14.707 12h.793v-.793z");
+}
+
+</style>

@@ -1,0 +1,27 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<g class="cuyn6tgcc"><path class="e2ncrub9f"/><path class="y0_j_oxbj"/><path class="o5jrctlyi"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:form-multiple-48-filled" /></template>
+<style>
+.cuyn6tgcc {
+  fill: currentColor;
+}
+
+.e2ncrub9f {
+  d: path("M16.5 25.5a2 2 0 1 1-4 0a2 2 0 0 1 4 0");
+}
+
+.o5jrctlyi {
+  d: path("M15.25 42.5a5.74 5.74 0 0 1-4.747-2.504q.123.004.247.004h21.5A7.75 7.75 0 0 0 40 32.25v-21.5q0-.123-.004-.247A5.74 5.74 0 0 1 42.5 15.25v17c0 5.66-4.59 10.25-10.25 10.25z");
+}
+
+.y0_j_oxbj {
+  d: path("M10.75 5A5.75 5.75 0 0 0 5 10.75v21.5A5.75 5.75 0 0 0 10.75 38h21.5A5.75 5.75 0 0 0 38 32.25v-21.5A5.75 5.75 0 0 0 32.25 5zM19 25.5a4.5 4.5 0 1 1-9 0a4.5 4.5 0 0 1 9 0m-9-10.25c0-.69.56-1.25 1.25-1.25h20.5a1.25 1.25 0 1 1 0 2.5h-20.5c-.69 0-1.25-.56-1.25-1.25m12.25 9.25h9.5a1.25 1.25 0 1 1 0 2.5h-9.5a1.25 1.25 0 1 1 0-2.5");
+}
+
+</style>

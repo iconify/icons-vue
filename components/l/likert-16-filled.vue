@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":16,"height":16};
+const content = `<path class="aghue91zz"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:likert-16-filled" /></template>
+<style>
+.aghue91zz {
+  fill: currentColor;
+  d: path("M4 13V8.5H1v2A2.5 2.5 0 0 0 3.5 13zm1 0h7.5a2.5 2.5 0 0 0 2.5-2.5v-2H5zm2.5-2.25a.75.75 0 1 1-1.5 0a.75.75 0 0 1 1.5 0m2 0a.75.75 0 1 1-1.5 0a.75.75 0 0 1 1.5 0m2 0a.75.75 0 1 1-1.5 0a.75.75 0 0 1 1.5 0m2 0a.75.75 0 1 1-1.5 0a.75.75 0 0 1 1.5 0M15 7.5v-2A2.5 2.5 0 0 0 12.5 3H5v4.5zM6.75 6a.75.75 0 1 1 0-1.5a.75.75 0 0 1 0 1.5m2 0a.75.75 0 1 1 0-1.5a.75.75 0 0 1 0 1.5m2 0a.75.75 0 1 1 0-1.5a.75.75 0 0 1 0 1.5m2 0a.75.75 0 1 1 0-1.5a.75.75 0 0 1 0 1.5M4 3h-.5A2.5 2.5 0 0 0 1 5.5v2h3z");
+}
+
+</style>

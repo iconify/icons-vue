@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":20,"height":20};
+const content = `<path class="hu9lhdz7y"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:building-checkmark-20-regular" /></template>
+<style>
+.hu9lhdz7y {
+  fill: currentColor;
+  d: path("M6.75 6.5a.75.75 0 1 0 0-1.5a.75.75 0 0 0 0 1.5m.75 2.25a.75.75 0 1 1-1.5 0a.75.75 0 0 1 1.5 0m-.75 3.75a.75.75 0 1 0 0-1.5a.75.75 0 0 0 0 1.5m3.75-6.75a.75.75 0 1 1-1.5 0a.75.75 0 0 1 1.5 0M9.75 9.5a.75.75 0 1 0 0-1.5a.75.75 0 0 0 0 1.5m-.342 2.918a5.4 5.4 0 0 1 .752-1.296a.75.75 0 1 0-.752 1.296M7.5 14h1.522a5.6 5.6 0 0 0 0 1H8v2h1.5v-.206c.2.436.456.84.757 1.206H4.5a.5.5 0 0 1-.5-.5v-14A1.5 1.5 0 0 1 5.5 2h6A1.5 1.5 0 0 1 13 3.5V8h1.5a1.5 1.5 0 0 1 1.47 1.199A5.5 5.5 0 0 0 14.5 9h-2a.5.5 0 0 1-.5-.5v-5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0-.5.5V17h2v-2.5a.5.5 0 0 1 .5-.5m11.5.5a4.5 4.5 0 1 1-9 0a4.5 4.5 0 0 1 9 0m-2.146-1.854a.5.5 0 0 0-.708 0L13.5 15.293l-.646-.647a.5.5 0 0 0-.708.708l1 1a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0 0-.708");
+}
+
+</style>

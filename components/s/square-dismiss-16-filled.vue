@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":16,"height":16};
+const content = `<path class="ti73opa1u"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:square-dismiss-16-filled" /></template>
+<style>
+.ti73opa1u {
+  fill: currentColor;
+  d: path("M4.5 2A2.5 2.5 0 0 0 2 4.5v7A2.5 2.5 0 0 0 4.5 14h1.757A5.5 5.5 0 0 1 14 6.257V4.5A2.5 2.5 0 0 0 11.5 2zm6 13a4.5 4.5 0 1 0 0-9a4.5 4.5 0 0 0 0 9m1.854-6.354a.5.5 0 0 1 0 .708L11.207 10.5l1.147 1.146a.5.5 0 0 1-.708.708L10.5 11.207l-1.146 1.147a.5.5 0 0 1-.708-.708L9.793 10.5L8.646 9.354a.5.5 0 1 1 .708-.708L10.5 9.793l1.146-1.147a.5.5 0 0 1 .708 0");
+}
+
+</style>

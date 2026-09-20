@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="m2ylmmi9x"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:clock-alarm-24-filled" /></template>
+<style>
+.m2ylmmi9x {
+  fill: currentColor;
+  d: path("M9.103 3.476a4 4 0 1 0-5.627 5.627A9 9 0 0 0 3 12c0 2.215.8 4.244 2.128 5.812L3.22 19.72a.75.75 0 1 0 1.06 1.06l1.908-1.908A8.96 8.96 0 0 0 12 21c2.215 0 4.244-.8 5.812-2.128l1.908 1.908a.75.75 0 1 0 1.06-1.06l-1.908-1.908A8.96 8.96 0 0 0 21 12a9 9 0 0 0-.476-2.897a4 4 0 1 0-5.627-5.627A9 9 0 0 0 12 3a9 9 0 0 0-2.897.476M6 3.5a2.5 2.5 0 0 1 1.648.62A9.04 9.04 0 0 0 4.12 7.648A2.5 2.5 0 0 1 6 3.5m10.352.62a2.5 2.5 0 0 1 3.528 3.528a9.04 9.04 0 0 0-3.528-3.528M11.25 7a.75.75 0 0 1 .75.75V12h2.75a.75.75 0 0 1 0 1.5h-3.5a.75.75 0 0 1-.75-.75v-5a.75.75 0 0 1 .75-.75");
+}
+
+</style>

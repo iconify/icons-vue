@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="vejscccsi"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:f-stop-24-regular" /></template>
+<style>
+.vejscccsi {
+  fill: currentColor;
+  d: path("M13.195 6.528a3.25 3.25 0 0 1 4.268-2.524l.592.205a.75.75 0 1 0 .49-1.418l-.59-.205a4.75 4.75 0 0 0-6.238 3.69l-.722 4.224H6.75a.75.75 0 0 0 0 1.5h3.99l-.783 4.584c-.376 2.202-2.812 3.377-4.77 2.3l-.075-.041a.75.75 0 0 0-.723 1.314l.075.042c2.862 1.574 6.422-.144 6.971-3.363L12.261 12h3.99a.75.75 0 0 0 0-1.5h-3.734z");
+}
+
+</style>

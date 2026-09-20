@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="cwpyjcc-h"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:phone-header-arrow-up-24-regular" /></template>
+<style>
+.cwpyjcc-h {
+  fill: currentColor;
+  d: path("M15.75 2A2.25 2.25 0 0 1 18 4.25v15.5A2.25 2.25 0 0 1 15.75 22h-7.5A2.25 2.25 0 0 1 6 19.75V4.25A2.25 2.25 0 0 1 8.25 2zm0 1.5h-7.5a.75.75 0 0 0-.75.75v15.5c0 .414.336.75.75.75h7.5a.75.75 0 0 0 .75-.75V4.25a.75.75 0 0 0-.75-.75m-1 1.5a.75.75 0 0 1 0 1.5h-5.5a.75.75 0 0 1 0-1.5zm-2 5.535l1.275 1.25a.75.75 0 1 0 1.05-1.07l-2.55-2.5a.75.75 0 0 0-1.06.01l-2.45 2.5a.75.75 0 1 0 1.071 1.05l1.164-1.187v3.662a.75.75 0 0 0 1.5 0z");
+}
+
+</style>

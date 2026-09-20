@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":20,"height":20};
+const content = `<path class="foybid0tu"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:calendar-multiple-20-regular" /></template>
+<style>
+.foybid0tu {
+  fill: currentColor;
+  d: path("M16 4.5A2.5 2.5 0 0 0 13.5 2h-9A2.5 2.5 0 0 0 2 4.5v9A2.5 2.5 0 0 0 4.5 16h9a2.5 2.5 0 0 0 2.5-2.5zM3 6h12v7.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 3 13.5zm1.5-3h9A1.5 1.5 0 0 1 15 4.5V5H3v-.5A1.5 1.5 0 0 1 4.5 3M5 17c.456.607 1.182 1 2 1h6.5a4.5 4.5 0 0 0 4.5-4.5v-7c0-.818-.393-1.544-1-2v9a3.5 3.5 0 0 1-3.5 3.5z");
+}
+
+</style>

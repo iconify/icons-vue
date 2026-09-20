@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":20,"height":20};
+const content = `<path class="nxaz77b9c"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:arrow-sync-checkmark-20-regular" /></template>
+<style>
+.nxaz77b9c {
+  fill: currentColor;
+  d: path("M11.414 3.635a.5.5 0 0 0 0-.707L9.293.807a.5.5 0 0 0-.707.707l.997.997a7.5 7.5 0 0 0-4.075 13.495a.5.5 0 0 0 .6-.8a6.5 6.5 0 0 1 5.29-11.554zM8.586 16.363l.016-.016q.613.135 1.264.15l-.006.006l.074-.004a6.5 6.5 0 0 0 3.959-11.706a.5.5 0 1 1 .6-.8q.424.317.81.703a7.5 7.5 0 0 1-4.886 12.791l.997.997a.5.5 0 1 1-.707.707l-2.121-2.12a.5.5 0 0 1 0-.708m3.768-8.218a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L9 10.792l2.646-2.647a.5.5 0 0 1 .708 0M5 10a5 5 0 1 1 10 0a5 5 0 0 1-10 0m5-4a4 4 0 1 0 0 8a4 4 0 0 0 0-8");
+}
+
+</style>

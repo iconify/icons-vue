@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="zhe0kobcb"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:layout-add-below-24-filled" /></template>
+<style>
+.zhe0kobcb {
+  fill: currentColor;
+  d: path("M20.25 19.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1 0-1.5zM17.75 3A3.25 3.25 0 0 1 21 6.25v8a.75.75 0 0 1-.75.75H3.75a.75.75 0 0 1-.75-.75v-8A3.25 3.25 0 0 1 6.25 3z");
+}
+
+</style>

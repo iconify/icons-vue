@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":16,"height":16};
+const content = `<path class="v5h054b1j"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:vehicle-truck-profile-16-regular" /></template>
+<style>
+.v5h054b1j {
+  fill: currentColor;
+  d: path("M2 3.75C2 2.784 2.784 2 3.75 2h5.5c.967 0 1.75.784 1.75 1.75V4h.382a1.5 1.5 0 0 1 1.342.83l1.118 2.235a1.5 1.5 0 0 1 .158.671V11a1.5 1.5 0 0 1-1.5 1.5h-.563a2 2 0 0 1-3.874 0H6.937a2 2 0 0 1-3.907-.155A1.75 1.75 0 0 1 2 10.75zm6.063 7.75A2 2 0 0 1 10 10V3.75A.75.75 0 0 0 9.25 3h-5.5a.75.75 0 0 0-.75.75v7c0 .175.06.336.16.464a2 2 0 0 1 3.777.286zM11 10.268a2 2 0 0 1 .937 1.232h.563a.5.5 0 0 0 .5-.5V8h-2zM11 7h1.691l-.862-1.724A.5.5 0 0 0 11.382 5H11zm-6 4a1 1 0 1 0 0 2a1 1 0 0 0 0-2m4 1a1 1 0 1 0 2 0a1 1 0 0 0-2 0");
+}
+
+</style>

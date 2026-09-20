@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":20,"height":20};
+const content = `<path class="lgvquvblo"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:document-landscape-split-hint-20-regular" /></template>
+<style>
+.lgvquvblo {
+  fill: currentColor;
+  d: path("M3 6a1 1 0 0 1 1-1h.5a.5.5 0 0 0 0-1H4a2 2 0 0 0-2 2v.5a.5.5 0 0 0 1 0zm6.5-2a.5.5 0 0 0-.5.5v11a.5.5 0 0 0 .5.5H16a2 2 0 0 0 2-2V9.414a1.5 1.5 0 0 0-.44-1.06l-3.914-3.915A1.5 1.5 0 0 0 12.586 4zm.5 11V5h2v3.5a1.5 1.5 0 0 0 1.5 1.5H17v4a1 1 0 0 1-1 1zm3.5-6a.5.5 0 0 1-.5-.5V5.207L16.793 9zM3 14a1 1 0 0 0 1 1h.5a.5.5 0 0 1 0 1H4a2 2 0 0 1-2-2v-.5a.5.5 0 0 1 1 0zm0-5.5a.5.5 0 0 0-1 0v3a.5.5 0 0 0 1 0zm3-4a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5M6.5 15a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1z");
+}
+
+</style>

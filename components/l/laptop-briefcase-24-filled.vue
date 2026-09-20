@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="o9mi06c3g"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:laptop-briefcase-24-filled" /></template>
+<style>
+.o9mi06c3g {
+  fill: currentColor;
+  d: path("M4 6.25A2.25 2.25 0 0 1 6.25 4h11.5A2.25 2.25 0 0 1 20 6.25v2.854A2.8 2.8 0 0 0 19.25 9h-3.5A2.75 2.75 0 0 0 13 11.75v.3a2.5 2.5 0 0 0-2 2.45V16H6.25A2.25 2.25 0 0 1 4 13.75zM2.75 19H11v-1.5H2.75a.75.75 0 0 0 0 1.5M14 13h-.5a1.5 1.5 0 0 0-1.5 1.5v5a1.5 1.5 0 0 0 1.5 1.5h8a1.5 1.5 0 0 0 1.5-1.5v-5a1.5 1.5 0 0 0-1.5-1.5H21v-1.25A1.75 1.75 0 0 0 19.25 10h-3.5A1.75 1.75 0 0 0 14 11.75zm1.5-1.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25V13h-4z");
+}
+
+</style>

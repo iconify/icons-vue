@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":16,"height":16};
+const content = `<path class="e5_bcnbmo"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:screenshot-record-16-filled" /></template>
+<style>
+.e5_bcnbmo {
+  fill: currentColor;
+  d: path("M4.5 2A2.5 2.5 0 0 0 2 4.5v7A2.5 2.5 0 0 0 4.5 14h2.1a5.5 5.5 0 0 1-.578-2H5.25C4.56 12 4 11.44 4 10.75V9.5a.5.5 0 0 1 1 0v1.25c0 .138.112.25.25.25h.772A5.5 5.5 0 0 1 11 6.022V5.25a.25.25 0 0 0-.25-.25H9.5a.5.5 0 0 1 0-1h1.25c.69 0 1.25.56 1.25 1.25v.772c.715.065 1.39.266 2 .578V4.5A2.5 2.5 0 0 0 11.5 2zm.75 3a.25.25 0 0 0-.25.25V6.5a.5.5 0 0 1-1 0V5.25C4 4.56 4.56 4 5.25 4H6.5a.5.5 0 0 1 0 1zm6.25 3a3.5 3.5 0 1 1 0 7a3.5 3.5 0 0 1 0-7m0 8a4.5 4.5 0 1 0 0-9a4.5 4.5 0 0 0 0 9m2.5-4.5a2.5 2.5 0 1 1-5 0a2.5 2.5 0 0 1 5 0");
+}
+
+</style>

@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":16,"height":16};
+const content = `<path class="s17m7iqhl"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:code-vb-rectangle-16-filled" /></template>
+<style>
+.s17m7iqhl {
+  fill: currentColor;
+  d: path("M12.25 3h-9.5C1.785 3 1 3.785 1 4.75v7.5c0 .965.785 1.75 1.75 1.75h9.5c.965 0 1.75-.785 1.75-1.75v-7.5C14 3.785 13.215 3 12.25 3M7.468 6.676l-1.5 4A.51.51 0 0 1 5.5 11a.5.5 0 0 1-.468-.324l-1.5-4a.5.5 0 0 1 .012-.382a.502.502 0 0 1 .924.03L5.5 9.076l1.032-2.752a.5.5 0 0 1 .645-.292a.5.5 0 0 1 .292.644zm3.688 3.345A1.5 1.5 0 0 1 9.749 11h-1.25a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 .5-.5h1a1.5 1.5 0 0 1 1.227 2.361a1.49 1.49 0 0 1 .429 1.659zM9.75 9H9v1h.75a.5.5 0 1 0 0-1m.104-1.146A.5.5 0 0 0 9.5 7H9v1h.5c.133 0 .26-.053.354-.146");
+}
+
+</style>

@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":16,"height":16};
+const content = `<path class="s_fb2-bnp"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:document-mention-16-filled" /></template>
+<style>
+.s_fb2-bnp {
+  fill: currentColor;
+  d: path("M8 1v3.5A1.5 1.5 0 0 0 9.5 6H13v7.5a1.5 1.5 0 0 1-1.5 1.5h-4a2.5 2.5 0 0 0 2.5-2.5v-1a5.5 5.5 0 0 0-7-5.293V2.5A1.5 1.5 0 0 1 4.5 1zm1 .25V4.5a.5.5 0 0 0 .5.5h3.25zM4.5 8a3.5 3.5 0 1 0 0 7h1a.5.5 0 0 1 0 1h-1A4.5 4.5 0 1 1 9 11.5v.75a1.75 1.75 0 0 1-3.167 1.027c-.407.447-.966.723-1.583.723C3.007 14 2 12.88 2 11.5S3.007 9 4.25 9c.465 0 .897.157 1.256.425A.5.5 0 0 1 6.5 9.5v2.75a.75.75 0 0 0 1.5 0v-.75A3.5 3.5 0 0 0 4.5 8m-.25 5c.594 0 1.25-.57 1.25-1.5S4.844 10 4.25 10S3 10.57 3 11.5S3.656 13 4.25 13");
+}
+
+</style>

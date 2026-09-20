@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":20,"height":20};
+const content = `<path class="qu7txmb7d"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:text-header-4-20-regular" /></template>
+<style>
+.qu7txmb7d {
+  fill: currentColor;
+  d: path("M15.715 4.231c.446-.471 1.289-.17 1.289.524V12h1.498a.5.5 0 0 1 0 1h-1.498v2.5a.5.5 0 0 1-1 0V13h-4.315a1 1 0 0 1-.83-1.558l4.772-7.107zM9.5 4a.5.5 0 0 1 .5.5v11a.5.5 0 0 1-1 0V10H3v5.5a.5.5 0 0 1-1 0v-11a.5.5 0 0 1 1 0V9h6V4.5a.5.5 0 0 1 .5-.5m2.19 8.001h4.314V5.575z");
+}
+
+</style>

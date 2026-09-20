@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="sdpph3bhm"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:desktop-cursor-24-regular" /></template>
+<style>
+.sdpph3bhm {
+  fill: currentColor;
+  d: path("M6.75 22a.75.75 0 0 1-.102-1.493l.102-.007h1.749v-2.498H4.25a2.25 2.25 0 0 1-2.245-2.096L2 15.752V5.25a2.25 2.25 0 0 1 2.096-2.245L4.25 3h15.499a2.25 2.25 0 0 1 2.245 2.096l.005.154v10.502c0 .372-.09.723-.25 1.032l-1.25-1.386V5.25a.75.75 0 0 0-.648-.743l-.102-.007H4.25a.75.75 0 0 0-.743.648L3.5 5.25v10.502c0 .38.282.694.648.743l.102.007h9.753v1.5H9.997l.001 2.498H14V22zm8.736-9.95a.75.75 0 0 1 .826.198l6.365 7.058a.75.75 0 0 1-.738 1.23l-3.537-.878l-2.03 3.014a.75.75 0 0 1-1.372-.42l.005-9.502a.75.75 0 0 1 .48-.7");
+}
+
+</style>

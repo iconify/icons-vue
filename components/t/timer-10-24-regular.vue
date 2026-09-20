@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="p1_3mrbnb"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:timer-10-24-regular" /></template>
+<style>
+.p1_3mrbnb {
+  fill: currentColor;
+  d: path("M12 5a8.5 8.5 0 0 1 8.376 7.046a4.3 4.3 0 0 0-1.517.048a7 7 0 1 0-6.359 8.389v1.502A8.5 8.5 0 1 1 12 5m.75 7.405V8.75l-.007-.102a.75.75 0 0 0-1.493.102v4.5l.006.089c.208-.341.532-.613.94-.75zm6.397-7.291l.083.06l1.158.964a.75.75 0 0 1-.877 1.212l-.082-.06l-1.159-.964a.75.75 0 0 1 .877-1.212M14.25 2.5a.75.75 0 0 1 .102 1.493L14.25 4h-4.5a.75.75 0 0 1-.102-1.493L9.75 2.5zm.438 10.642a.75.75 0 0 1 .312.608v8.5a.75.75 0 0 1-1.5 0v-7.46l-.513.172a.75.75 0 0 1-.474-1.423l1.5-.5a.75.75 0 0 1 .675.103M16.5 16.25a3.25 3.25 0 0 1 6.5 0v3.5a3.25 3.25 0 0 1-6.5 0zm3.25-1.75A1.75 1.75 0 0 0 18 16.25v3.5a1.75 1.75 0 1 0 3.5 0v-3.5a1.75 1.75 0 0 0-1.75-1.75");
+}
+
+</style>

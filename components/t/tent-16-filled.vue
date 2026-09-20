@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":16,"height":16};
+const content = `<path class="rryjixboh"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:tent-16-filled" /></template>
+<style>
+.rryjixboh {
+  fill: currentColor;
+  d: path("M8.405 1.353a.5.5 0 0 0-.768 0c-1.041 1.25-3.102 2.738-4.288 3.4a.5.5 0 0 0-.251.368L2.15 12h-.664a.5.5 0 0 0 0 1H14.5a.5.5 0 0 0 0-1h-.607l-.948-6.879a.5.5 0 0 0-.252-.368c-1.185-.662-3.246-2.15-4.288-3.4M5.944 12c.696-1.027 1.41-2.338 2.059-4.342c.59 1.815 1.246 3.108 2.06 4.342z");
+}
+
+</style>

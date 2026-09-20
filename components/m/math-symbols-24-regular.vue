@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="nl4b6-beu"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:math-symbols-24-regular" /></template>
+<style>
+.nl4b6-beu {
+  fill: currentColor;
+  d: path("M6.25 2a.75.75 0 0 1 .75.75V5.5h2.75a.75.75 0 0 1 0 1.5H7v2.75a.75.75 0 0 1-1.5 0V7H2.75a.75.75 0 0 1 0-1.5H5.5V2.75A.75.75 0 0 1 6.25 2m8 3.5a.75.75 0 0 0 0 1.5h7a.75.75 0 0 0 0-1.5zm-.75 12.25a.75.75 0 0 1 .75-.75h7a.75.75 0 0 1 0 1.5h-7a.75.75 0 0 1-.75-.75M17.75 16a1 1 0 1 0 0-2a1 1 0 0 0 0 2m1 5a1 1 0 1 1-2 0a1 1 0 0 1 2 0M2.22 14.28a.75.75 0 1 1 1.06-1.06l2.97 2.97l2.97-2.97a.75.75 0 1 1 1.06 1.06l-2.97 2.97l2.97 2.97a.75.75 0 1 1-1.06 1.06l-2.97-2.97l-2.97 2.97a.75.75 0 0 1-1.06-1.06l2.97-2.97z");
+}
+
+</style>

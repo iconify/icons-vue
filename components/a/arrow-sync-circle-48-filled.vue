@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="c7x6apx6x"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:arrow-sync-circle-48-filled" /></template>
+<style>
+.c7x6apx6x {
+  fill: currentColor;
+  d: path("M4 24C4 12.954 12.954 4 24 4s20 8.954 20 20s-8.954 20-20 20S4 35.046 4 24m31-7.75a1.25 1.25 0 1 0-2.5 0v2.48A9.99 9.99 0 0 0 24 14a9.99 9.99 0 0 0-8 3.998a1.25 1.25 0 0 0 2 1.502a7.503 7.503 0 0 1 13.074 2H27.25a1.25 1.25 0 1 0 0 2.5h6.5c.69 0 1.25-.56 1.25-1.25zM14.25 33c.69 0 1.25-.56 1.25-1.25v-2.48A9.99 9.99 0 0 0 24 34a9.99 9.99 0 0 0 8-3.998a1.25 1.25 0 0 0-2-1.502a7.503 7.503 0 0 1-13.074-2h3.824a1.25 1.25 0 1 0 0-2.5h-6.5c-.69 0-1.25.56-1.25 1.25v6.5c0 .69.56 1.25 1.25 1.25");
+}
+
+</style>

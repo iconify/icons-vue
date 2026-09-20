@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="j_t8lkb1d"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:arrow-paragraph-24-regular" /></template>
+<style>
+.j_t8lkb1d {
+  fill: currentColor;
+  d: path("M21.25 2a.75.75 0 0 1 .75.75v4a2.75 2.75 0 0 1-2.75 2.75h-5.69l2.72 2.72a.75.75 0 1 1-1.06 1.06l-4-4a.75.75 0 0 1 0-1.06l4-4a.75.75 0 1 1 1.06 1.06L13.56 8h5.69c.69 0 1.25-.56 1.25-1.25v-4a.75.75 0 0 1 .75-.75M7.72 11.22a.75.75 0 0 0 0 1.06L10.44 15H2.75a.75.75 0 0 0 0 1.5h7.69l-2.72 2.72a.75.75 0 1 0 1.06 1.06l4-4a.75.75 0 0 0 0-1.06l-4-4a.75.75 0 0 0-1.06 0");
+}
+
+</style>

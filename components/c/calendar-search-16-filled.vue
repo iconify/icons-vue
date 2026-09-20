@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":16,"height":16};
+const content = `<path class="vzkoe3bzp"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:calendar-search-16-filled" /></template>
+<style>
+.vzkoe3bzp {
+  fill: currentColor;
+  d: path("M14 11.5V6H3.5a4.5 4.5 0 0 1 4.061 6.44L9.121 14H11.5a2.5 2.5 0 0 0 2.5-2.5m0-7A2.5 2.5 0 0 0 11.5 2h-7A2.5 2.5 0 0 0 2 4.5V5h12zM3.5 14c.786 0 1.512-.26 2.096-.697l2.55 2.55a.5.5 0 1 0 .708-.707l-2.55-2.55A3.5 3.5 0 1 0 3.5 14m0-1a2.5 2.5 0 1 1 0-5a2.5 2.5 0 0 1 0 5");
+}
+
+</style>

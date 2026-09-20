@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="szohfzb1s"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:pin-off-24-regular" /></template>
+<style>
+.szohfzb1s {
+  fill: currentColor;
+  d: path("M3.28 2.22a.75.75 0 0 0-1.06 1.06l5.905 5.905L4.81 10.33a1.25 1.25 0 0 0-.476 2.065L7.439 15.5L3 19.94V21h1.06l4.44-4.44l3.105 3.105a1.25 1.25 0 0 0 2.065-.476l1.145-3.313l5.905 5.904a.75.75 0 0 0 1.06-1.06zm10.355 12.476l-1.252 3.626l-6.705-6.705l3.626-1.252zm6.048-3.876l-3.787 1.894l1.118 1.118l3.34-1.67a2.75 2.75 0 0 0 .714-4.404l-4.825-4.826a2.75 2.75 0 0 0-4.405.715l-1.67 3.34l1.118 1.117l1.894-3.787a1.25 1.25 0 0 1 2.002-.325l4.826 4.826a1.25 1.25 0 0 1-.325 2.002");
+}
+
+</style>

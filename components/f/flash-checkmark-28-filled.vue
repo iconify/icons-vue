@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":28,"height":28};
+const content = `<path class="pcd0b04yu"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:flash-checkmark-28-filled" /></template>
+<style>
+.pcd0b04yu {
+  fill: currentColor;
+  d: path("M8.408 2.852A1.33 1.33 0 0 1 9.65 2h8.515c.927 0 1.571.922 1.252 1.792L17.326 9.5h4.837c1.178 0 1.777 1.416.957 2.262l-1.312 1.352a7.5 7.5 0 0 0-8.652 8.916l-3.37 3.473c-1.14 1.175-3.106.117-2.753-1.482l1.66-7.521H5.918a1.917 1.917 0 0 1-1.787-2.61zM27 20.5a6.5 6.5 0 1 1-13 0a6.5 6.5 0 0 1 13 0m-2.646-2.854a.5.5 0 0 0-.708 0L19 22.293l-1.646-1.647a.5.5 0 0 0-.708.708l2 2a.5.5 0 0 0 .708 0l5-5a.5.5 0 0 0 0-.708");
+}
+
+</style>

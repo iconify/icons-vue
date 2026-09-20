@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":28,"height":28};
+const content = `<path class="gqunyvbdq"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:calendar-add-28-filled" /></template>
+<style>
+.gqunyvbdq {
+  fill: currentColor;
+  d: path("M25 14.5v-5H3v12.25A3.25 3.25 0 0 0 6.25 25h8.25A7.5 7.5 0 0 1 25 14.5m0-8.25A3.25 3.25 0 0 0 21.75 3H6.25A3.25 3.25 0 0 0 3 6.25V8h22zm2 14.25a6.5 6.5 0 1 1-13 0a6.5 6.5 0 0 1 13 0m-6-4a.5.5 0 0 0-1 0V20h-3.5a.5.5 0 0 0 0 1H20v3.5a.5.5 0 0 0 1 0V21h3.5a.5.5 0 0 0 0-1H21z");
+}
+
+</style>

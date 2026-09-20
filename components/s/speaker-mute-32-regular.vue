@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":32,"height":32};
+const content = `<path class="d4n5yab4t"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:speaker-mute-32-regular" /></template>
+<style>
+.d4n5yab4t {
+  fill: currentColor;
+  d: path("M18 5.604c0-1.114-1.346-1.672-2.134-.884l-4.694 4.694A2 2 0 0 1 9.757 10H6a4 4 0 0 0-4 4v4a4 4 0 0 0 4 4h3.757a2 2 0 0 1 1.415.586l4.694 4.694c.788.788 2.134.23 2.134-.884zm-5.414 5.225L16 7.414v17.172l-3.414-3.414A4 4 0 0 0 9.757 20H6a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h3.757a4 4 0 0 0 2.829-1.171m10.121 1.464a1 1 0 0 0-1.414 1.414L23.586 16l-2.293 2.293a1 1 0 0 0 1.414 1.414L25 17.414l2.293 2.293a1 1 0 0 0 1.414-1.414L26.414 16l2.293-2.293a1 1 0 0 0-1.414-1.414L25 14.586z");
+}
+
+</style>

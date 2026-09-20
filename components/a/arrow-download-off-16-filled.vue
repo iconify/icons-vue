@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":16,"height":16};
+const content = `<path class="jpvjilb4f"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:arrow-download-off-16-filled" /></template>
+<style>
+.jpvjilb4f {
+  fill: currentColor;
+  d: path("M9.802 10.509L8.53 11.78a.75.75 0 0 1-.976.073l-.084-.073l-3.536-3.535a.75.75 0 0 1 .977-1.133l.084.072L7.25 9.44V7.957L1.146 1.854a.5.5 0 1 1 .708-.708l13 13a.5.5 0 0 1-.708.708l-.919-.92a.75.75 0 0 1-.625.56l-.102.006h-9a.75.75 0 0 1-.102-1.493L3.5 13h8.793zm1.414-1.414l-1.061-1.061l.85-.85a.75.75 0 0 1 .977-.072l.084.072a.75.75 0 0 1 .072.977l-.072.084zM7.25 1.75v3.379l1.5 1.5V1.75l-.007-.102A.75.75 0 0 0 8 1l-.102.007a.75.75 0 0 0-.648.743");
+}
+
+</style>

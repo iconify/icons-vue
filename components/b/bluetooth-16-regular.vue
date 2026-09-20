@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":16,"height":16};
+const content = `<path class="irx2819kc"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:bluetooth-16-regular" /></template>
+<style>
+.irx2819kc {
+  fill: currentColor;
+  d: path("M7.285 1.049a.5.5 0 0 1 .53.063l4 3.25a.5.5 0 0 1 0 .776L8.293 8l3.522 2.862a.5.5 0 0 1 0 .776l-4 3.25A.5.5 0 0 1 7 14.5V9.05l-3.185 2.588a.5.5 0 0 1-.63-.776L6.707 8L3.185 5.138a.5.5 0 1 1 .63-.776L7 6.95V1.5a.5.5 0 0 1 .285-.451M8 9.05v4.4l2.707-2.2zm0-2.1l2.707-2.2L8 2.55z");
+}
+
+</style>

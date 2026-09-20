@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="y52kbo7iu"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:comment-edit-24-filled" /></template>
+<style>
+.y52kbo7iu {
+  fill: currentColor;
+  d: path("M2 6.25A3.25 3.25 0 0 1 5.25 3h13.5A3.25 3.25 0 0 1 22 6.25v4.674a3.286 3.286 0 0 0-4.607.038l-5.903 5.903a3.7 3.7 0 0 0-.97 1.712l-.394 1.578L8 21.75c-.824.618-2 .03-2-1V18h-.75A3.25 3.25 0 0 1 2 14.75zm16.1 5.42l-5.903 5.902a2.7 2.7 0 0 0-.706 1.247l-.458 1.831a1.087 1.087 0 0 0 1.319 1.318l1.83-.457a2.7 2.7 0 0 0 1.248-.707l5.902-5.902A2.286 2.286 0 0 0 18.1 11.67");
+}
+
+</style>

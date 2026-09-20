@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="xw6-0zsdk"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:arrow-undo-48-filled" /></template>
+<style>
+.xw6-0zsdk {
+  fill: currentColor;
+  d: path("M6.998 5.5a1.5 1.5 0 1 1 3 0v11.485l7.901-8.062c5.572-6.3 14.95-6.161 19.93-.67c5 5.514 3.376 13.309.028 17.222l-.008.01l-2.259 2.544l-2.537 2.537l-4.247 4.16l-8.242 8.33l-.005.005l-.497.496a1.5 1.5 0 1 1-2.12-2.122l.49-.49l.006-.006l8.252-8.34l4.253-4.165l2.463-2.463l2.18-2.456c2.635-3.09 3.742-9.144.02-13.247c-3.738-4.123-11.05-4.37-15.482.667l-.026.03L12.224 19h11.274a1.5 1.5 0 1 1 0 3h-15a1.5 1.5 0 0 1-1.5-1.5z");
+}
+
+</style>

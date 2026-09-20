@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="d11_sib4n"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:text-sort-ascending-24-filled" /></template>
+<style>
+.d11_sib4n {
+  fill: currentColor;
+  d: path("M7.979 2.673a1 1 0 0 0-1.89 0l-2.793 8.069a1 1 0 1 0 1.89.654l.411-1.19H8.47l.412 1.19a1 1 0 0 0 1.89-.654zm-1.69 5.534l.745-2.15l.744 2.15zM3.75 14a1 1 0 0 1 1-1H10a1 1 0 0 1 .8 1.6L6.75 20H10a1 1 0 1 1 0 2H4.75a1 1 0 0 1-.8-1.6L8 15H4.75a1 1 0 0 1-1-1M17.5 2a1 1 0 0 1 1 1v15.586l1.793-1.793a1 1 0 0 1 1.414 1.414l-3.5 3.5a1 1 0 0 1-1.414 0l-3.5-3.5a1 1 0 0 1 1.414-1.414l1.793 1.793V3a1 1 0 0 1 1-1");
+}
+
+</style>

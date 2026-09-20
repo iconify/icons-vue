@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":12,"height":12};
+const content = `<path class="l0_cd823z"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:attach-12-filled" /></template>
+<style>
+.l0_cd823z {
+  fill: currentColor;
+  d: path("M8.977 2.806a1.69 1.69 0 0 0-2.304.082L3.28 6.28a.75.75 0 1 1-1.06-1.06l3.392-3.392a3.192 3.192 0 1 1 4.458 4.569l-4.724 4.496A1.923 1.923 0 0 1 2.66 8.14l4.243-4.244a.75.75 0 1 1 1.06 1.061l-4.24 4.244a.423.423 0 0 0 .59.605L9.035 5.31a1.69 1.69 0 0 0-.058-2.504");
+}
+
+</style>

@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":16,"height":16};
+const content = `<path class="s97t8-anh"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:person-warning-16-regular" /></template>
+<style>
+.s97t8-anh {
+  fill: currentColor;
+  d: path("m6.772 12.996l-.483.968C3.58 13.684 2 11.818 2 10v-.5A1.5 1.5 0 0 1 3.5 8h5.767l-.5 1H3.5a.5.5 0 0 0-.5.5v.5c0 1.395 1.348 2.906 3.772 2.996M7 1.5A2.75 2.75 0 1 1 7 7a2.75 2.75 0 0 1 0-5.5m0 1A1.75 1.75 0 1 0 7 6a1.75 1.75 0 0 0 0-3.5m3.603 5.054l-3.496 6.998A1 1 0 0 0 8.002 16h6.996a1 1 0 0 0 .895-1.448l-3.5-6.999a1 1 0 0 0-1.79 0m1.395 1.941v3.002a.5.5 0 1 1-1 0V9.495a.5.5 0 1 1 1 0m-.5 5.504a.5.5 0 1 1 0-1a.5.5 0 0 1 0 1");
+}
+
+</style>

@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":28,"height":28};
+const content = `<path class="todfsmb6e"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:send-beaker-28-regular" /></template>
+<style>
+.todfsmb6e {
+  fill: currentColor;
+  d: path("M2.044 3.326c-.275-1.03.783-1.91 1.746-1.451l21.498 10.249c.779.371.918 1.348.419 1.936q-.22-.06-.457-.06H22.6l1.569-.748l-20.535-9.79l2.418 9.04H17.25a.75.75 0 0 1 0 1.5H6.05l-2.417 9.04l12.822-6.113c.32.35.781.571 1.294.571H18v.355L3.79 24.629c-.963.46-2.021-.42-1.746-1.451L4.7 13.252zM16.998 15.75a.75.75 0 0 1 .75-.75h7.5a.75.75 0 1 1 0 1.5h-1.25v3.802a2 2 0 0 0 .262.99l.688 1.208h-6.895l.683-1.2a2 2 0 0 0 .262-.989V16.5h-1.25a.75.75 0 0 1-.75-.75m.201 8.25l-1 1.758A1.5 1.5 0 0 0 17.502 28H25.5a1.5 1.5 0 0 0 1.303-2.242l-1-1.758z");
+}
+
+</style>

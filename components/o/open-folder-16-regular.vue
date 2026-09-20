@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":16,"height":16};
+const content = `<path class="s8_njv-cg"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:open-folder-16-regular" /></template>
+<style>
+.s8_njv-cg {
+  fill: currentColor;
+  d: path("M2 5a3 3 0 0 1 3-3h6a3 3 0 0 1 3 3v2.5a.5.5 0 0 1-1 0V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h3.5a.5.5 0 0 1 0 1H5a3 3 0 0 1-3-3zm4.507 1A.5.5 0 0 0 6 6.5v4a.5.5 0 0 0 1 0V7.707l5.146 5.147a.5.5 0 0 0 .708-.708L7.707 7H10.5a.5.5 0 0 0 0-1z");
+}
+
+</style>

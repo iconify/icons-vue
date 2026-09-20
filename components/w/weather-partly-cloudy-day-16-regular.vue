@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":16,"height":16};
+const content = `<path class="zbm2ss45r"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:weather-partly-cloudy-day-16-regular" /></template>
+<style>
+.zbm2ss45r {
+  fill: currentColor;
+  d: path("M8.999 7a2.5 2.5 0 0 0-2.5 2.5v.5H5.5a1.5 1.5 0 0 0 0 3h7a1.5 1.5 0 0 0 0-3h-1l-.001-.5a2.5 2.5 0 0 0-2.5-2.5M5.535 9a3.5 3.5 0 0 1 6.929 0h.036a2.5 2.5 0 0 1 0 5h-7a2.5 2.5 0 0 1 0-5zm3.252-6.18a.5.5 0 1 0-.883-.47l-.426.803a.5.5 0 0 0 .883.47zm-3.772-.747a.5.5 0 1 0-.957.293l.267.87a.5.5 0 0 0 .956-.293zM6 4c.916 0 1.735.41 2.285 1.056q-.584.094-1.107.328A2 2 0 0 0 4.386 8.18a3.5 3.5 0 0 0-.9.456A3 3 0 0 1 6 4m-4.18.214a.5.5 0 1 0-.47.883l.803.426a.5.5 0 0 0 .47-.883zm.416 4.463a.5.5 0 0 0-.293-.956l-.87.266a.5.5 0 1 0 .293.956z");
+}
+
+</style>

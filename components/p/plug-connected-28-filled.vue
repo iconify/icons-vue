@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":28,"height":28};
+const content = `<path class="qtf3h-bln"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:plug-connected-28-filled" /></template>
+<style>
+.qtf3h-bln {
+  fill: currentColor;
+  d: path("M12.31 5.794a2.75 2.75 0 0 0 0 3.89l6.01 6.01a2.75 2.75 0 0 0 3.89 0l.743-.744a7 7 0 0 0 .502-9.342l2.326-2.328a.75.75 0 1 0-1.062-1.06l-2.324 2.328a7 7 0 0 0-9.341.502zm3.384 12.522a2.75 2.75 0 0 1 0 3.889l-.744.744a7 7 0 0 1-9.34.503l-2.325 2.327a.75.75 0 1 1-1.062-1.06l2.326-2.328a7 7 0 0 1 .502-9.341l.744-.745a2.75 2.75 0 0 1 3.889 0z");
+}
+
+</style>

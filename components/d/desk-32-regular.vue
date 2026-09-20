@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":32,"height":32};
+const content = `<path class="l6wm5ev5h"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:desk-32-regular" /></template>
+<style>
+.l6wm5ev5h {
+  fill: currentColor;
+  d: path("M26.75 4A3.25 3.25 0 0 1 30 7.25V27a1 1 0 1 1-2 0V12H16v12.75A3.25 3.25 0 0 1 12.75 28h-7.5A3.25 3.25 0 0 1 2 24.75V7.25A3.25 3.25 0 0 1 5.25 4zM4 24.75c0 .69.56 1.25 1.25 1.25h7.5c.69 0 1.25-.56 1.25-1.25V12H4zM11 15a1 1 0 1 1 0 2H7a1 1 0 1 1 0-2zM5.25 6C4.56 6 4 6.56 4 7.25V10h24V7.25C28 6.56 27.44 6 26.75 6z");
+}
+
+</style>

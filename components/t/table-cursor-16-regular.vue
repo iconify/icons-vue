@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":16,"height":16};
+const content = `<path class="s_hpsrbbw"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:table-cursor-16-regular" /></template>
+<style>
+.s_hpsrbbw {
+  fill: currentColor;
+  d: path("M2 4.5A2.5 2.5 0 0 1 4.5 2h7A2.5 2.5 0 0 1 14 4.5v5.344l-1-.99V6h-2v.871l-.44-.435a1.5 1.5 0 0 0-.56-.35V6H6v4h2.003v1H6v2h2.001v1H4.5A2.5 2.5 0 0 1 2 11.5zM5 11H3v.5A1.5 1.5 0 0 0 4.5 13H5zm0-5H3v4h2zm1-1h4V3H6zM5 3h-.5A1.5 1.5 0 0 0 3 4.5V5h2zm8 2v-.5A1.5 1.5 0 0 0 11.5 3H11v2zM9.856 7.146a.5.5 0 0 0-.852.355L9 15.499a.5.5 0 0 0 .9.301l1.994-2.647l3.497.777a.5.5 0 0 0 .46-.844z");
+}
+
+</style>

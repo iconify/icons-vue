@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":20,"height":20};
+const content = `<path class="j-gp91w0i"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:reward-20-regular" /></template>
+<style>
+.j-gp91w0i {
+  fill: currentColor;
+  d: path("M15.528 3.001a1.5 1.5 0 0 1 1.5 1.5v1.396a2.5 2.5 0 0 1-1.363 2.226l-4.188 2.14a3.54 3.54 0 1 1-2.924 0l-4.189-2.14a2.5 2.5 0 0 1-1.356-2.04l-.007-.186V4.5a1.5 1.5 0 0 1 1.5-1.5zm-5.513 7.948a2.54 2.54 0 1 0 0 5.078a2.54 2.54 0 0 0 0-5.079M12.553 4H7.475v4.588L9.788 9.77a.5.5 0 0 0 .455 0l2.311-1.182zM6.474 4H4.501a.5.5 0 0 0-.5.5v1.396l.007.14a1.5 1.5 0 0 0 .811 1.195l1.655.846zm9.054 0h-1.975v4.077l1.657-.846a1.5 1.5 0 0 0 .818-1.335V4.5a.5.5 0 0 0-.5-.5");
+}
+
+</style>

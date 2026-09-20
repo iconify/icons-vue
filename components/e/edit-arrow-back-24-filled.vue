@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="yb7kajb4d"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:edit-arrow-back-24-filled" /></template>
+<style>
+.yb7kajb4d {
+  fill: currentColor;
+  d: path("M16.5 23a5.5 5.5 0 1 0 0-11a5.5 5.5 0 0 0 0 11m-1.146-8.354a.5.5 0 0 1 0 .708l-.647.646h2.043A3.25 3.25 0 0 1 20 19.25v.25a.5.5 0 0 1-1 0v-.25A2.25 2.25 0 0 0 16.75 17h-2.043l.647.646a.5.5 0 0 1-.708.708l-1.5-1.5a.5.5 0 0 1 0-.708l1.5-1.5a.5.5 0 0 1 .708 0m.537-11.598a3.578 3.578 0 1 1 5.061 5.06L20.06 9L15 3.94zM13.94 5l-10 9.999a3.1 3.1 0 0 0-.825 1.477L2.02 21.077a.75.75 0 0 0 .904.903l4.601-1.095a3.1 3.1 0 0 0 1.477-.826l1.151-1.15a6.5 6.5 0 0 1 7.754-7.756L19 10.06z");
+}
+
+</style>

@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":16,"height":16};
+const content = `<path class="fow4a_pze"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:home-heart-16-regular" /></template>
+<style>
+.fow4a_pze {
+  fill: currentColor;
+  d: path("M8.687 1.262a1 1 0 0 0-1.374 0L2.469 5.84A1.5 1.5 0 0 0 2 6.931v5.57A1.5 1.5 0 0 0 3.5 14h4.412l-.992-1H3.5a.5.5 0 0 1-.5-.5V6.93a.5.5 0 0 1 .156-.363L8 1.988l4.249 4.017a3.56 3.56 0 0 1 1.61.293a1.5 1.5 0 0 0-.328-.457zM14 7.536a2.55 2.55 0 0 0-3.377.22l-.123.124l-.123-.123a2.547 2.547 0 0 0-3.626 0a2.597 2.597 0 0 0 0 3.653l3.43 3.457a.45.45 0 0 0 .637 0l3.431-3.457A2.598 2.598 0 0 0 14 7.536");
+}
+
+</style>

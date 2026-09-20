@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":16,"height":16};
+const content = `<path class="aegfjub0u"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:sport-cricket-bat-16-regular" /></template>
+<style>
+.aegfjub0u {
+  fill: currentColor;
+  d: path("M11.739 1.448a2 2 0 0 1 2.813 2.813l-.138.152l-2.972 2.973a1.5 1.5 0 0 0-.44 1.06v.07l-.009.173c-.04.4-.216.777-.504 1.064l-4.734 4.735a1.75 1.75 0 0 1-2.474 0L1.513 12.72a1.75 1.75 0 0 1 0-2.475l4.734-4.734a1.75 1.75 0 0 1 1.238-.513h.067c.398 0 .78-.158 1.06-.44l2.974-2.973zM8.896 5.603a2.5 2.5 0 0 1-1.344.395h-.067a.75.75 0 0 0-.53.22L2.22 10.952a.75.75 0 0 0 0 1.061l1.768 1.768a.75.75 0 0 0 1.06 0l4.734-4.735a.75.75 0 0 0 .22-.53v-.07c0-.48.14-.945.394-1.343zm4.811-3.31a1 1 0 0 0-1.338-.069l-.076.068L9.646 4.94l1.414 1.414l2.647-2.647l.069-.076a1 1 0 0 0-.069-1.338");
+}
+
+</style>

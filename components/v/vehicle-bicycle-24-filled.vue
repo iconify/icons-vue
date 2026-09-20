@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="annm3zuir"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:vehicle-bicycle-24-filled" /></template>
+<style>
+.annm3zuir {
+  fill: currentColor;
+  d: path("M13 2a1 1 0 1 0 0 2h1.187l.625 3H9V6a1 1 0 0 0-1.001-1H5a1 1 0 0 0 0 2h2v.86l-.902 3.158a4.5 4.5 0 1 0 4.9 4.354l4.471-5.216l.252 1.21a4.501 4.501 0 1 0 1.968-.362l-1.71-8.208A1 1 0 0 0 15 2zm3.145 11.399l.376 1.805a1 1 0 0 0 1.958-.408l-.358-1.718a2.501 2.501 0 1 1-1.976.32m-5.836-.296a4.5 4.5 0 0 0-2.21-1.81L8.754 9h5.072zm-2.763.126a2.5 2.5 0 0 1 .954.771H7.326zm-2.078-.007l-.43 1.503A1 1 0 0 0 6 16h2.95a2.5 2.5 0 1 1-3.482-2.778");
+}
+
+</style>

@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="flp68nbkd"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:weather-partly-cloudy-night-24-filled" /></template>
+<style>
+.flp68nbkd {
+  fill: currentColor;
+  d: path("M13.002 8.013c3.168 0 4.966 2.097 5.227 4.63h.08a3.687 3.687 0 0 1 3.692 3.683a3.687 3.687 0 0 1-3.692 3.682H7.694a3.687 3.687 0 0 1-3.692-3.682a3.687 3.687 0 0 1 3.692-3.683h.08c.263-2.55 2.06-4.63 5.228-4.63M6.589 4.005a5.06 5.06 0 0 1 2.263.674a5.06 5.06 0 0 1 2.208 2.595c-1.984.562-3.404 2.001-3.994 3.946l-.069.246l-.058.238l-.206.038a4.67 4.67 0 0 0-2.804 1.815a5.06 5.06 0 0 1-1.797-1.599a.75.75 0 0 1 .366-1.132c1.643-.588 2.527-1.25 3.034-2.216c.552-1.055.654-2.174.287-3.677a.75.75 0 0 1 .77-.928");
+}
+
+</style>

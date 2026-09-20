@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":32,"height":32};
+const content = `<path class="h7zkc2bgy"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:expand-up-right-32-regular" /></template>
+<style>
+.h7zkc2bgy {
+  fill: currentColor;
+  d: path("M5 7.5A2.5 2.5 0 0 1 7.5 5H13a1 1 0 1 0 0-2H7.5A4.5 4.5 0 0 0 3 7.5v17A4.5 4.5 0 0 0 7.5 29h17a4.5 4.5 0 0 0 4.5-4.5V19a1 1 0 1 0-2 0v5.5a2.5 2.5 0 0 1-2.5 2.5H16v-7.23A3.77 3.77 0 0 0 12.23 16H5zM5 18h7.23c.978 0 1.77.792 1.77 1.77V27H7.5A2.5 2.5 0 0 1 5 24.5zM18 4a1 1 0 0 1 1-1h9a1 1 0 0 1 1 1v9a1 1 0 1 1-2 0V6.414l-7.293 7.293a1 1 0 0 1-1.414-1.414L25.586 5H19a1 1 0 0 1-1-1");
+}
+
+</style>

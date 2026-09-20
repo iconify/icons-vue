@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":16,"height":16};
+const content = `<path class="nrfm9l1mc"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:data-usage-checkmark-16-filled" /></template>
+<style>
+.nrfm9l1mc {
+  fill: currentColor;
+  d: path("M1 2.75C1 1.784 1.784 1 2.75 1h8.5c.966 0 1.75.784 1.75 1.75v3.457A5.5 5.5 0 0 0 11.5 6a5.5 5.5 0 0 0-1.5.207V4.5a.5.5 0 0 0-1 0v2.1c-.563.288-1.07.67-1.5 1.125V7.5a.5.5 0 0 0-1 0v1.706A5.5 5.5 0 0 0 6 11.5a5.5 5.5 0 0 0 .207 1.5H2.75A1.75 1.75 0 0 1 1 11.25zM5 5.5a.5.5 0 0 0-1 0v4a.5.5 0 0 0 1 0zm11 6a4.5 4.5 0 1 1-9 0a4.5 4.5 0 0 1 9 0m-2.854-1.854L10.5 12.293l-.646-.647a.5.5 0 0 0-.708.708l1 1a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708");
+}
+
+</style>

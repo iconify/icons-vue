@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="e7s536b6k"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:cloud-beaker-24-filled" /></template>
+<style>
+.e7s536b6k {
+  fill: currentColor;
+  d: path("M6.08 9.02A6.001 6.001 0 0 1 18 10h-2.25a1.75 1.75 0 0 0-.25 3.482v1.713a1 1 0 0 1-.132.496L14.051 18H6.5a4.5 4.5 0 0 1-.42-8.98M16.5 12.5h-.75a.75.75 0 0 1 0-1.5h5.5a.75.75 0 0 1 0 1.5h-.75v2.697a2 2 0 0 0 .263.992l.463.811h-5.453l.464-.814c.172-.302.263-.643.263-.991zm-2.3 7.257L15.201 18h6.595l1.002 1.757A1.5 1.5 0 0 1 21.497 22h-5.995a1.5 1.5 0 0 1-1.303-2.243");
+}
+
+</style>

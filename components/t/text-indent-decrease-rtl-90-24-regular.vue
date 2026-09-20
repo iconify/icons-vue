@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="b4sxvyb9n"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:text-indent-decrease-rtl-90-24-regular" /></template>
+<style>
+.b4sxvyb9n {
+  fill: currentColor;
+  d: path("M7.25 5.5a.75.75 0 0 1 .75.75v9a.75.75 0 0 1-1.5 0v-9a.75.75 0 0 1 .75-.75m5-3a.75.75 0 0 1 .75.75v12a.75.75 0 0 1-1.5 0v-12a.75.75 0 0 1 .75-.75m5 3a.75.75 0 0 1 .75.75v9a.75.75 0 0 1-1.5 0v-9a.75.75 0 0 1 .75-.75m-2.397 13.696a.75.75 0 0 0-1.133-.976l-1.47 1.47l-1.47-1.47l-.084-.073a.75.75 0 0 0-.976 1.133l2 2l.084.073a.75.75 0 0 0 .976-.073l2-2z");
+}
+
+</style>

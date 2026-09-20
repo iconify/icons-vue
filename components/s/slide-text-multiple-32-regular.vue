@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":32,"height":32};
+const content = `<path class="zbz_02uaw"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:slide-text-multiple-32-regular" /></template>
+<style>
+.zbz_02uaw {
+  fill: currentColor;
+  d: path("M8 9a1 1 0 1 0 0 2h7a1 1 0 1 0 0-2zm-1 5a1 1 0 0 1 1-1h12a1 1 0 1 1 0 2H8a1 1 0 0 1-1-1m1 3a1 1 0 1 0 0 2h8a1 1 0 1 0 0-2zM2 8.5A4.5 4.5 0 0 1 6.5 4h15A4.5 4.5 0 0 1 26 8.5v11a4.5 4.5 0 0 1-4.5 4.5h-15A4.5 4.5 0 0 1 2 19.5zM6.5 6A2.5 2.5 0 0 0 4 8.5v11A2.5 2.5 0 0 0 6.5 22h15a2.5 2.5 0 0 0 2.5-2.5v-11A2.5 2.5 0 0 0 21.5 6zM28 21a5 5 0 0 1-5 5H7.101A6.98 6.98 0 0 0 12 28h11a7 7 0 0 0 7-7v-7a6.98 6.98 0 0 0-2-4.899z");
+}
+
+</style>

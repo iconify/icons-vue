@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="owxab-1tg"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:accessibility-question-mark-24-filled" /></template>
+<style>
+.owxab-1tg {
+  fill: currentColor;
+  d: path("M12 6.5A2.25 2.25 0 1 0 12 2a2.25 2.25 0 0 0 0 4.5M6.15 4.178a2.266 2.266 0 0 0-2.96 1.184a2.24 2.24 0 0 0 1.18 2.954L7.394 9.6a1 1 0 0 1 .61.92v3.04l-1.88 5.457a2.25 2.25 0 1 0 4.256 1.465l.145-.422a6.5 6.5 0 0 1 5.479-9.041v-.5a1 1 0 0 1 .609-.921l3.019-1.282a2.24 2.24 0 0 0 1.18-2.954a2.266 2.266 0 0 0-2.96-1.184l-1.607.682c-.34.144-.578.423-.694.73a3.794 3.794 0 0 1-7.099 0a1.28 1.28 0 0 0-.695-.73zM11 17.5a5.5 5.5 0 1 1 11 0a5.5 5.5 0 0 1-11 0m4.75 3.25a.75.75 0 1 0 1.5 0a.75.75 0 0 0-1.5 0M14.5 16a.5.5 0 1 0 1 0a1 1 0 1 1 2 0c0 .37-.082.58-.366.898l-.116.125l-.264.27C16.212 17.86 16 18.27 16 19a.5.5 0 1 0 1 0c0-.37.083-.58.366-.898l.116-.125l.264-.27c.543-.567.754-.977.754-1.707a2 2 0 0 0-4 0");
+}
+
+</style>

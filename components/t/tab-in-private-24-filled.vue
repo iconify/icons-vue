@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="uk8r0tb4s"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:tab-in-private-24-filled" /></template>
+<style>
+.uk8r0tb4s {
+  fill: currentColor;
+  d: path("M5.75 3h12.5A2.75 2.75 0 0 1 21 5.75v12.5A2.75 2.75 0 0 1 18.25 21H5.75A2.75 2.75 0 0 1 3 18.25V5.75A2.75 2.75 0 0 1 5.75 3M5 5.75v.543L6.293 5H5.75a.75.75 0 0 0-.75.75m0 1.957v2.586L10.293 5H7.707zM11.707 5L5 11.707v2.586L14.293 5zm4 0L5 15.707v2.543l.001.042l13.29-13.29L18.25 5zM19 5.708L5.71 18.998q.02.002.041.002h2.543L19 8.293V5.75zm.001 4L9.707 19h2.586L19 12.293zm0 4L13.707 19h2.586L19 16.293zm0 4L17.707 19h.543a.75.75 0 0 0 .75-.75z");
+}
+
+</style>

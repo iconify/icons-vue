@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":16,"height":16};
+const content = `<path class="qqzas4p-g"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:square-arrow-forward-16-regular" /></template>
+<style>
+.qqzas4p-g {
+  fill: currentColor;
+  d: path("M2 4.5A2.5 2.5 0 0 1 4.5 2h7A2.5 2.5 0 0 1 14 4.5v1.757a5.5 5.5 0 0 0-1-.657V4.5A1.5 1.5 0 0 0 11.5 3h-7A1.5 1.5 0 0 0 3 4.5v7A1.5 1.5 0 0 0 4.5 13h1.1q.276.538.657 1H4.5A2.5 2.5 0 0 1 2 11.5zM10.5 15a4.5 4.5 0 1 1 0-9a4.5 4.5 0 0 1 0 9m.896-6.396l.897.896H10.75A2.75 2.75 0 0 0 8 12.25v.25a.5.5 0 0 0 1 0v-.25c0-.966.784-1.75 1.75-1.75h1.543l-.897.896a.5.5 0 0 0 .708.708l1.752-1.753a.5.5 0 0 0-.002-.705l-1.75-1.75a.5.5 0 0 0-.708.708");
+}
+
+</style>

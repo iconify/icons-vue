@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="phfzltfqr"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:arrow-rotate-clockwise-24-regular" /></template>
+<style>
+.phfzltfqr {
+  fill: currentColor;
+  d: path("M12 3a9 9 0 0 1 4.977 16.5h1.773a.75.75 0 0 1 .102 1.493L18.75 21h-4a.75.75 0 0 1-.743-.648L14 20.25v-4a.75.75 0 0 1 1.493-.102l.007.102l.001 2.385A7.501 7.501 0 0 0 12 4.5A7.5 7.5 0 0 0 4.5 12A.75.75 0 0 1 3 12a9 9 0 0 1 9-9m0 6.25a2.75 2.75 0 1 1 0 5.5a2.75 2.75 0 0 1 0-5.5m0 1.5a1.25 1.25 0 1 0 0 2.5a1.25 1.25 0 0 0 0-2.5");
+}
+
+</style>

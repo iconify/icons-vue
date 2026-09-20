@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="azk93e9-a"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:beaker-add-24-regular" /></template>
+<style>
+.azk93e9-a {
+  fill: currentColor;
+  d: path("M8 4.5h1v6.238c0 .375-.094.744-.273 1.074l-3.585 6.603A1.75 1.75 0 0 0 6.68 21h5.341a6.5 6.5 0 0 1-.708-1.5H6.68a.25.25 0 0 1-.22-.37l1.971-3.63h2.882a6.5 6.5 0 0 1 .708-1.5H9.246l.8-1.473a3.75 3.75 0 0 0 .454-1.789V4.5h3v6.238c0 .492.096.977.282 1.43a6.5 6.5 0 0 1 1.333-.717a2.3 2.3 0 0 1-.116-.713V4.5h1A.75.75 0 0 0 16 3H8a.75.75 0 0 0 0 1.5m9.5 7.5a5.5 5.5 0 1 1 0 11a5.5 5.5 0 0 1 0-11m.5 8.503V18h2.503a.5.5 0 1 0 0-1H18v-2.5a.5.5 0 1 0-1 0V17h-2.504a.5.5 0 0 0 0 1H17v2.503a.5.5 0 1 0 1 0");
+}
+
+</style>

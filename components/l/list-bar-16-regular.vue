@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":16,"height":16};
+const content = `<path class="krhnp3lyu"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:list-bar-16-regular" /></template>
+<style>
+.krhnp3lyu {
+  fill: currentColor;
+  d: path("M3.75 2A1.75 1.75 0 0 0 2 3.75v1c0 .49.201.932.525 1.25C2.201 6.318 2 6.76 2 7.25v1.5c0 .49.201.932.525 1.25c-.324.318-.525.76-.525 1.25v1c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0 0 14 12.25v-1c0-.49-.201-.932-.525-1.25c.324-.318.525-.76.525-1.25v-1.5c0-.49-.201-.932-.525-1.25c.324-.318.525-.76.525-1.25v-1A1.75 1.75 0 0 0 12.25 2zM3 11.25a.75.75 0 0 1 .75-.75H5V13H3.75a.75.75 0 0 1-.75-.75zM6 13v-2.5h6.25a.75.75 0 0 1 .75.75v1a.75.75 0 0 1-.75.75zm0-3.5v-3h6.25a.75.75 0 0 1 .75.75v1.5a.75.75 0 0 1-.75.75zm0-4V3h6.25a.75.75 0 0 1 .75.75v1a.75.75 0 0 1-.75.75zM5 3v2.5H3.75A.75.75 0 0 1 3 4.75v-1A.75.75 0 0 1 3.75 3zm0 3.5v3H3.75A.75.75 0 0 1 3 8.75v-1.5a.75.75 0 0 1 .75-.75z");
+}
+
+</style>

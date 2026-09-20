@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":16,"height":16};
+const content = `<path class="fu3gsfbnf"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:table-switch-16-regular" /></template>
+<style>
+.fu3gsfbnf {
+  fill: currentColor;
+  d: path("M6.854.146a.5.5 0 1 0-.708.708L7.293 2H5a3 3 0 0 0-3 3v2.293L.854 6.146a.5.5 0 1 0-.708.708l2 2a.5.5 0 0 0 .708 0l2-2a.5.5 0 1 0-.708-.708L3 7.293V5a2 2 0 0 1 2-2h2.293L6.146 4.146a.5.5 0 1 0 .708.708l2-2a.5.5 0 0 0 0-.708zM2 10v1.5A2.5 2.5 0 0 0 4.5 14h7a2.5 2.5 0 0 0 2.5-2.5v-7A2.5 2.5 0 0 0 11.5 2H10v3H8.121l-.56.56c-.293.293-.677.44-1.06.44H10v4H6V6.5c0 .384-.146.768-.44 1.06L5 8.122V10zm4 3v-2h4v2zm-1-2v2h-.5A1.5 1.5 0 0 1 3 11.5V11zm8-5v4h-2V6zm0 5v.5a1.5 1.5 0 0 1-1.5 1.5H11v-2zm0-6h-2V3h.5A1.5 1.5 0 0 1 13 4.5z");
+}
+
+</style>

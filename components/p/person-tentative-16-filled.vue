@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":16,"height":16};
+const content = `<path class="ft35ibbxw"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:person-tentative-16-filled" /></template>
+<style>
+.ft35ibbxw {
+  fill: currentColor;
+  d: path("M6.327 6.917A5.5 5.5 0 0 1 9.626 5.07a2.75 2.75 0 1 0-3.299 1.848M5 10.5c0-.9.216-1.75.6-2.5H3.5A1.5 1.5 0 0 0 2 9.5v.5c0 1.803 1.555 3.653 4.222 3.957A5.48 5.48 0 0 1 5 10.5M10.5 6q.143 0 .284.009L6.01 10.784A4.5 4.5 0 0 1 10.5 6m-3.516 7.309a4.5 4.5 0 0 1-.74-1.345l5.61-5.61a.5.5 0 0 0 .087-.118c.501.17.963.424 1.368.748zm7.773-4.273a4.5 4.5 0 0 0-.741-1.345l-6.325 6.325c.405.324.867.579 1.368.748a.5.5 0 0 1 .087-.118zm-4.541 5.955q.141.009.284.009a4.5 4.5 0 0 0 4.491-4.784z");
+}
+
+</style>

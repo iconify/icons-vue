@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="ycbiwu0um"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:color-line-24-regular" /></template>
+<style>
+.ycbiwu0um {
+  fill: currentColor;
+  d: path("M4.38 14.003A2.5 2.5 0 0 0 2 16.5v3A2.5 2.5 0 0 0 4.5 22h15a2.5 2.5 0 0 0 2.5-2.5v-3a2.5 2.5 0 0 0-2.5-2.5h-5.954l-1.316 1.314a3 3 0 0 1-.203.186H19.5a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-15a1 1 0 0 1-1-1v-3a1 1 0 0 1 .504-.869a2 2 0 0 1 .092-.744zM18.649 2.944a3.22 3.22 0 0 1-.002 4.551l-7.123 7.111a2.25 2.25 0 0 1-.942.563l-4.294 1.289a1 1 0 0 1-1.239-1.265l1.362-4.228c.11-.34.298-.65.552-.902l7.132-7.122a3.22 3.22 0 0 1 4.554.003m-3.494 1.059l-7.133 7.121a.75.75 0 0 0-.184.301l-1.07 3.322l3.382-1.015a.75.75 0 0 0 .315-.187l7.121-7.11a1.718 1.718 0 1 0-2.43-2.432");
+}
+
+</style>

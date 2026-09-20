@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":20,"height":20};
+const content = `<path class="a9bzjcc9f"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:airplane-landing-20-filled" /></template>
+<style>
+.a9bzjcc9f {
+  fill: currentColor;
+  d: path("m11.883 6l-1.03-2.147C10.16 2.414 8 2.906 8 4.503v.742L10.768 6zm-1.115 1a1 1 0 0 1-.263-.035L6 5.736V4.204c0-1.222-1.615-1.662-2.234-.608L2.24 6.19a1.75 1.75 0 0 0 .965 2.55l3.411 1.117l-1.672 1.527c-1.178 1.076-.085 3.003 1.442 2.545l6.612-1.984l3.03.992a1.5 1.5 0 0 0 1.967-1.426V11a4 4 0 0 0-4-4zM2 17.5a.5.5 0 0 1 .5-.5h15a.5.5 0 0 1 0 1h-15a.5.5 0 0 1-.5-.5");
+}
+
+</style>

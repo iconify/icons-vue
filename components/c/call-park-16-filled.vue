@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":16,"height":16};
+const content = `<path class="op8m1k1gp"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:call-park-16-filled" /></template>
+<style>
+.op8m1k1gp {
+  fill: currentColor;
+  d: path("M10.5 2a.5.5 0 0 0-.5.5v5a.5.5 0 0 0 1 0V6h1a2 2 0 1 0 0-4zM12 5h-1V3h1a1 1 0 1 1 0 2M4.374 2.12a1.75 1.75 0 0 1 2.196.886l.567 1.19a1.5 1.5 0 0 1-.249 1.658L5.572 7.291q.023.092.06.213c.086.28.226.65.445 1.025a4.6 4.6 0 0 0 .848 1.046l1.877-.489a1.5 1.5 0 0 1 1.462.414l.775.809a1.75 1.75 0 0 1-.062 2.483l-.296.28c-1.126 1.063-2.88 1.29-4.135.247c-.94-.782-2.068-1.88-2.918-3.213c-.94-1.477-1.38-3.23-1.588-4.55c-.237-1.506.72-2.83 2.071-3.337z");
+}
+
+</style>

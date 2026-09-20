@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="k5kolzdxc"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:games-48-regular" /></template>
+<style>
+.k5kolzdxc {
+  fill: currentColor;
+  d: path("M16.25 18c.69 0 1.25.56 1.25 1.25V23h3.25a1.25 1.25 0 1 1 0 2.5H17.5v3.25a1.25 1.25 0 0 1-2.5 0V25.5h-3.75a1.25 1.25 0 0 1 0-2.5H15v-3.75c0-.69.56-1.25 1.25-1.25M32 27.5a2.5 2.5 0 1 1-5 0a2.5 2.5 0 0 1 5 0m1.5-4.5a2.5 2.5 0 1 0 0-5a2.5 2.5 0 0 0 0 5M4 24c0-7.732 6.268-14 14-14h12c7.732 0 14 6.268 14 14s-6.268 14-14 14H18c-7.732 0-14-6.268-14-14m14-11.5c-6.351 0-11.5 5.149-11.5 11.5S11.649 35.5 18 35.5h12c6.351 0 11.5-5.149 11.5-11.5S36.351 12.5 30 12.5z");
+}
+
+</style>

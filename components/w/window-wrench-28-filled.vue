@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":28,"height":28};
+const content = `<path class="rgnrigb2u"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:window-wrench-28-filled" /></template>
+<style>
+.rgnrigb2u {
+  fill: currentColor;
+  d: path("M6.75 3h14.5C23.304 3 25 4.749 25 6.75v7.75h-.054c-.207-.654-.961-1.271-1.4-1.384L23.5 13.1V9.5h-19v11.75a2.25 2.25 0 0 0 2.25 2.25h6.65A3 3 0 0 0 13 25H6.75A3.75 3.75 0 0 1 3 21.25V6.75C3 4.712 4.72 3 6.75 3M14 25a2 2 0 0 0 3.414 1.413l3.649-3.647a4.5 4.5 0 0 0 5.89-4.92c-.054-.367-.495-.476-.758-.213l-1.78 1.781a2 2 0 1 1-2.83-2.828l1.782-1.781c.262-.263.154-.704-.213-.758a4.5 4.5 0 0 0-4.92 5.89l-3.648 3.648c-.391.39-.586.903-.586 1.415");
+}
+
+</style>

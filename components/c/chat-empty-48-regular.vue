@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="atw9c_qeo"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:chat-empty-48-regular" /></template>
+<style>
+.atw9c_qeo {
+  fill: currentColor;
+  d: path("M24 6.5C14.335 6.5 6.5 14.335 6.5 24c0 3.188.851 6.173 2.338 8.745c.17.293.213.642.12.968l-2.116 7.442l7.44-2.116a1.25 1.25 0 0 1 .968.12A17.4 17.4 0 0 0 24 41.5c9.665 0 17.5-7.835 17.5-17.5S33.665 6.5 24 6.5M4 24C4 12.954 12.954 4 24 4s20 8.954 20 20s-8.954 20-20 20c-3.45 0-6.698-.874-9.533-2.414L6.23 43.928c-1.319.375-2.537-.844-2.162-2.162l2.342-8.238A19.9 19.9 0 0 1 4 24");
+}
+
+</style>

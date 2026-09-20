@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":20,"height":20};
+const content = `<path class="uewj-wk_z"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:server-link-20-filled" /></template>
+<style>
+.uewj-wk_z {
+  fill: currentColor;
+  d: path("M7.5 2A2.5 2.5 0 0 0 5 4.5v11A2.5 2.5 0 0 0 7.5 18h1.837A3.5 3.5 0 0 1 9 16.5c0-.537.12-1.045.337-1.5H7.5a.5.5 0 0 1 0-1h2.55c.632-.619 1.496-1 2.45-1H15V4.5A2.5 2.5 0 0 0 12.5 2zm5 11h-5a.5.5 0 0 1 0-1h5a.5.5 0 0 1 0 1M7 5.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m5.5 8.5a2.5 2.5 0 0 0 0 5h.5a.5.5 0 0 0 0-1h-.5a1.5 1.5 0 0 1 0-3h.5a.5.5 0 0 0 0-1zm3.5 0a.5.5 0 0 0 0 1h.5a1.5 1.5 0 0 1 0 3H16a.5.5 0 0 0 0 1h.5a2.5 2.5 0 0 0 0-5zm-4 2.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5");
+}
+
+</style>

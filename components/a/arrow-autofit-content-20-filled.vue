@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":20,"height":20};
+const content = `<path class="rvmvd5d5i"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:arrow-autofit-content-20-filled" /></template>
+<style>
+.rvmvd5d5i {
+  fill: currentColor;
+  d: path("M5.354 3.646a.5.5 0 0 1 0 .708L4.707 5H7.5a.5.5 0 0 1 0 1H4.707l.647.646a.5.5 0 1 1-.708.708l-1.5-1.5a.5.5 0 0 1 0-.708l1.5-1.5a.5.5 0 0 1 .708 0M5.5 9A2.5 2.5 0 0 0 3 11.5v3A2.5 2.5 0 0 0 5.5 17h9a2.5 2.5 0 0 0 2.5-2.5v-3A2.5 2.5 0 0 0 14.5 9zm.5 3.5h8a.5.5 0 0 1 0 1H6a.5.5 0 0 1 0-1m8.646-8.146a.5.5 0 0 1 .708-.708l1.5 1.5a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708-.708L15.293 6H12.5a.5.5 0 0 1 0-1h2.793z");
+}
+
+</style>

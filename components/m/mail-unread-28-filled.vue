@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":28,"height":28};
+const content = `<path class="kopig08oa"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:mail-unread-28-filled" /></template>
+<style>
+.kopig08oa {
+  fill: currentColor;
+  d: path("M23.973 8.968A3.5 3.5 0 1 0 20.035 5l-.001.01q-.033.24-.034.49a3.5 3.5 0 0 0 3.973 3.468M18.525 5H6.25l-.184.005A3.25 3.25 0 0 0 3 8.25v.184l11 5.72l7.683-3.995A5 5 0 0 1 18.525 5m-4.179 10.665l10.108-5.256q.279-.054.546-.138v9.479a3.25 3.25 0 0 1-3.065 3.245L21.75 23H6.25a3.25 3.25 0 0 1-3.245-3.066L3 19.75v-9.626l10.654 5.541a.75.75 0 0 0 .692 0");
+}
+
+</style>

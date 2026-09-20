@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="frh4zlb1y"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:mic-prohibited-48-filled" /></template>
+<style>
+.frh4zlb1y {
+  fill: currentColor;
+  d: path("M14 12a8 8 0 1 1 16 0v10.996a13.03 13.03 0 0 0-7.65 8.997A8 8 0 0 1 14 24zm8.002 23.25H22c-6.351 0-11.5-5.149-11.5-11.5a1.25 1.25 0 1 0-2.5 0c0 7.225 5.473 13.172 12.5 13.92v5.08a1.25 1.25 0 1 0 2.5 0v-2.741a13 13 0 0 1-.998-4.759M35 46c-6.075 0-11-4.925-11-11s4.925-11 11-11s11 4.925 11 11s-4.925 11-11 11m0-2a9 9 0 0 0 7.032-14.618l-12.65 12.65A8.96 8.96 0 0 0 35 44m-7.032-3.382l12.65-12.65a9 9 0 0 0-12.65 12.65");
+}
+
+</style>

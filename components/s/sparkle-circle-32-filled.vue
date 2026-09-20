@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":32,"height":32};
+const content = `<path class="c-pafnp0h"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:sparkle-circle-32-filled" /></template>
+<style>
+.c-pafnp0h {
+  fill: currentColor;
+  d: path("M16 2C8.268 2 2 8.268 2 16s6.268 14 14 14s14-6.268 14-14S23.732 2 16 2m-3.796 6.917c.432-1.222 2.16-1.223 2.592-.001l.63 1.78c.146.41.47.733.88.878l1.778.63c1.221.432 1.221 2.16 0 2.592l-1.778.63c-.41.144-.734.467-.88.878l-.63 1.78c-.432 1.222-2.16 1.221-2.592 0l-.628-1.779a1.44 1.44 0 0 0-.88-.88l-1.78-.629c-1.221-.432-1.222-2.16 0-2.592l1.78-.63c.411-.145.735-.469.88-.88zm9.121 8.666l.401 1.132a.92.92 0 0 0 .56.56l1.131.4c.777.275.777 1.375 0 1.65l-1.131.4a.92.92 0 0 0-.56.56l-.401 1.132c-.275.777-1.375.777-1.65 0l-.4-1.132a.92.92 0 0 0-.56-.56l-1.132-.4c-.777-.275-.777-1.375 0-1.65l1.133-.4a.92.92 0 0 0 .56-.56l.4-1.132c.274-.777 1.374-.777 1.649 0");
+}
+
+</style>

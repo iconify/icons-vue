@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="meqqec7sb"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:text-direction-horizontal-left-24-regular" /></template>
+<style>
+.meqqec7sb {
+  fill: currentColor;
+  d: path("m20.947 12.97l-3.753-9.496a.75.75 0 0 0-1.345-.104l-.05.105l-3.747 9.5a.75.75 0 0 0 1.352.643l.043-.092l.997-2.526h4.113l.995 2.52a.75.75 0 0 0 .876.454l.098-.031a.75.75 0 0 0 .452-.876zm-4.45-7.178L17.964 9.5h-2.928zM12 7.75a.75.75 0 0 1-.75.75H5.56l.72.72a.75.75 0 1 1-1.06 1.06l-2-2a.75.75 0 0 1 0-1.06l2-2a.75.75 0 0 1 1.06 1.06L5.56 7h5.69a.75.75 0 0 1 .75.75m9 9.5a.75.75 0 0 1-.75.75H5.56l.72.72a.75.75 0 1 1-1.06 1.06l-2-2a.75.75 0 0 1 0-1.06l2-2a.75.75 0 0 1 1.06 1.06l-.72.72h14.69a.75.75 0 0 1 .75.75");
+}
+
+</style>

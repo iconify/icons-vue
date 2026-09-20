@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":20,"height":20};
+const content = `<path class="a_w_gsogs"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:barcode-scanner-20-filled" /></template>
+<style>
+.a_w_gsogs {
+  fill: currentColor;
+  d: path("M2 5.75A2.75 2.75 0 0 1 4.75 3h.75a.75.75 0 0 1 0 1.5h-.75c-.69 0-1.25.56-1.25 1.25v.75a.75.75 0 0 1-1.5 0zm11.75-2A.75.75 0 0 1 14.5 3h.75A2.75 2.75 0 0 1 18 5.75v.75a.75.75 0 0 1-1.5 0v-.75c0-.69-.56-1.25-1.25-1.25h-.75a.75.75 0 0 1-.75-.75m-11 9a.75.75 0 0 1 .75.75v.75c0 .69.56 1.25 1.25 1.25h.75a.75.75 0 0 1 0 1.5h-.75A2.75 2.75 0 0 1 2 14.25v-.75a.75.75 0 0 1 .75-.75m14.5 0a.75.75 0 0 1 .75.75v.75A2.75 2.75 0 0 1 15.25 17h-.75a.75.75 0 0 1 0-1.5h.75c.69 0 1.25-.56 1.25-1.25v-.75a.75.75 0 0 1 .75-.75M5.5 6a.75.75 0 0 1 .75.75v6.5a.75.75 0 0 1-1.5 0v-6.5A.75.75 0 0 1 5.5 6m3.75.75a.75.75 0 0 0-1.5 0v6.5a.75.75 0 0 0 1.5 0zM11.5 6a.75.75 0 0 1 .75.75v6.5a.75.75 0 0 1-1.5 0v-6.5A.75.75 0 0 1 11.5 6m3.75.75a.75.75 0 0 0-1.5 0v6.5a.75.75 0 0 0 1.5 0z");
+}
+
+</style>

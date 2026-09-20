@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":16,"height":16};
+const content = `<path class="yldxsmwya"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:book-toolbox-16-regular" /></template>
+<style>
+.yldxsmwya {
+  fill: currentColor;
+  d: path("M8 2v-.5A1.5 1.5 0 0 1 9.5 0h2A1.5 1.5 0 0 1 13 1.5V2h.5A1.5 1.5 0 0 1 15 3.5V5h-2v-.5a.5.5 0 0 0-1 0V5H9v-.5a.5.5 0 0 0-1 0V5H6V3.5A1.5 1.5 0 0 1 7.5 2zm1-.5V2h3v-.5a.5.5 0 0 0-.5-.5h-2a.5.5 0 0 0-.5.5M13 6h2v1.5A1.5 1.5 0 0 1 13.5 9h-6A1.5 1.5 0 0 1 6 7.5V6h2v.5a.5.5 0 0 0 1 0V6h3v.5a.5.5 0 0 0 1 0zm-1 5.997V10h1v2.497a.5.5 0 0 1-.5.5H4V13a1 1 0 0 0 1 1h7.5a.5.5 0 0 1 0 1H5a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h2.05l-.008.042A2.5 2.5 0 0 0 5.5 2H5a1 1 0 0 0-1 1v8.997z");
+}
+
+</style>

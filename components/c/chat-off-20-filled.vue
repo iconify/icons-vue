@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":20,"height":20};
+const content = `<path class="roxvur97r"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:chat-off-20-filled" /></template>
+<style>
+.roxvur97r {
+  fill: currentColor;
+  d: path("M4 4.708L2.147 2.854a.5.5 0 1 1 .708-.708l1.854 1.855L16 15.292l1.855 1.854a.5.5 0 0 1-.708.708l-1.854-1.855A7.97 7.97 0 0 1 10 18a8 8 0 0 1-3.613-.86l-.121-.065l-3.645.91a.5.5 0 0 1-.62-.441v-.082l.014-.083l.91-3.644l-.063-.12a8 8 0 0 1-.83-2.887l-.025-.382L2 10a7.97 7.97 0 0 1 2-5.292m6.968 6.967L10.293 11H7.5l-.09.008a.5.5 0 0 0 0 .984L7.5 12h3l.09-.008a.5.5 0 0 0 .378-.317M8.293 9l-.968-.968a.5.5 0 0 0 .085.96L7.5 9zM12.5 9h-1.379l5.497 5.496A8 8 0 0 0 5.504 3.382L10.12 8h2.38l.09.008a.5.5 0 0 1 0 .984z");
+}
+
+</style>

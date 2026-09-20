@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="y0dqdbcvs"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:xbox-controller-error-24-filled" /></template>
+<style>
+.y0dqdbcvs {
+  fill: currentColor;
+  d: path("M9.807 4.508a2.58 2.58 0 0 0-1.639-.206l-1.182.226a2.85 2.85 0 0 0-2.004 1.5c-1.367 2.672-2.4 4.862-2.8 6.729c-.41 1.926-.16 3.575 1.08 5.076c.821.996 2.23.794 2.963-.036c.56-.632 1.195-1.364 1.818-2.086a2.15 2.15 0 0 1 1.63-.749h1.51a6.503 6.503 0 0 1 10.226-3.655c-.523-1.532-1.362-3.269-2.39-5.28a2.85 2.85 0 0 0-2.004-1.5l-1.183-.225a2.58 2.58 0 0 0-1.639.206q-.215.107-.439.23a2.34 2.34 0 0 1-1.113.296h-1.282c-.376 0-.757-.104-1.113-.297a15 15 0 0 0-.44-.23M12 10a1 1 0 1 1 0-2a1 1 0 0 1 0 2m11 6.5a5.5 5.5 0 1 1-11 0a5.5 5.5 0 0 1 11 0M17.5 13a.5.5 0 0 0-.5.5v4a.5.5 0 1 0 1 0v-4a.5.5 0 0 0-.5-.5m0 7.125a.625.625 0 1 0 0-1.25a.625.625 0 0 0 0 1.25");
+}
+
+</style>

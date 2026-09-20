@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="e89whacnz"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:lightbulb-checkmark-24-filled" /></template>
+<style>
+.e89whacnz {
+  fill: currentColor;
+  d: path("M23 6.5a5.5 5.5 0 1 1-11 0a5.5 5.5 0 0 1 11 0m-2.146-2.354a.5.5 0 0 0-.708 0L16.5 7.793l-1.646-1.647a.5.5 0 0 0-.708.708l2 2a.5.5 0 0 0 .708 0l4-4a.5.5 0 0 0 0-.708M17.5 13q.36 0 .71-.038q-.658 1.11-1.725 2.13a.25.25 0 0 0-.071.125l-.528 2.283H8.114l-.526-2.283a.25.25 0 0 0-.071-.125c-1.83-1.747-2.767-3.704-2.767-5.84a7.25 7.25 0 0 1 8.02-7.21A6.5 6.5 0 0 0 17.5 13m-1.962 6l-.29 1.258a2.25 2.25 0 0 1-2.02 1.736l-.173.006h-2.111a2.25 2.25 0 0 1-2.147-1.576l-.046-.168L8.461 19z");
+}
+
+</style>

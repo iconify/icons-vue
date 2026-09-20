@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":32,"height":32};
+const content = `<path class="tojiugxei"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:speaker-1-32-filled" /></template>
+<style>
+.tojiugxei {
+  fill: currentColor;
+  d: path("M15.355 4.464C16.257 3.397 18 4.035 18 5.433v21.135c0 1.397-1.742 2.035-2.645.969l-4.086-4.829A2 2 0 0 0 9.743 22H6a4 4 0 0 1-4-4v-4a4 4 0 0 1 4-4h3.743a2 2 0 0 0 1.526-.708zm7.469 4.97a1 1 0 1 0-1.648 1.133c1.285 1.87 1.887 3.675 1.887 5.433s-.602 3.564-1.887 5.434a1 1 0 0 0 1.648 1.133c1.465-2.13 2.238-4.325 2.238-6.567s-.773-4.436-2.238-6.566");
+}
+
+</style>

@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":16,"height":16};
+const content = `<path class="m2q_a5bth"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:data-bar-vertical-arrow-down-16-regular" /></template>
+<style>
+.m2q_a5bth {
+  fill: currentColor;
+  d: path("M12 2.5a1.5 1.5 0 0 0-3 0v4.1a5.5 5.5 0 0 1 1-.393V2.5a.5.5 0 0 1 1 0v3.522a5.6 5.6 0 0 1 1 0zm-4 3v1.757a5.5 5.5 0 0 0-1 1.08V5.5a.5.5 0 0 0-1 0v6c0 .509.07 1.002.199 1.47A1.5 1.5 0 0 1 5 11.5v-6a1.5 1.5 0 1 1 3 0M2.5 7A1.5 1.5 0 0 1 4 8.5v3a1.5 1.5 0 0 1-3 0v-3A1.5 1.5 0 0 1 2.5 7M3 8.5a.5.5 0 0 0-1 0v3a.5.5 0 0 0 1 0zm13 3a4.5 4.5 0 1 1-9 0a4.5 4.5 0 0 1 9 0m-4.854 2.353l.003.003a.5.5 0 0 0 .705-.002l2-2a.5.5 0 0 0-.708-.708L12 12.293V9.5a.5.5 0 0 0-1 0v2.793l-1.146-1.147a.5.5 0 0 0-.708.708z");
+}
+
+</style>

@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":20,"height":20};
+const content = `<path class="t9wn8wbmw"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:pair-20-regular" /></template>
+<style>
+.t9wn8wbmw {
+  fill: currentColor;
+  d: path("M2 3.5a1.5 1.5 0 0 0 1 1.415v6.17A1.5 1.5 0 1 0 4.915 13H7v2.085A1.5 1.5 0 1 0 8.915 17h6.17A1.5 1.5 0 1 0 17 15.085v-6.17A1.5 1.5 0 1 0 15.085 7H13V4.915A1.5 1.5 0 1 0 11.085 3h-6.17A1.5 1.5 0 0 0 2 3.5M8.915 16A1.5 1.5 0 0 0 8 15.085V13h3.085A1.5 1.5 0 1 0 13 11.085V8h2.085c.151.426.489.764.915.915v6.17a1.5 1.5 0 0 0-.915.915zM4 11.085v-6.17c.426-.151.764-.489.915-.915h6.17c.151.426.489.764.915.915V7H8.915A1.5 1.5 0 1 0 7 8.915V12H4.915A1.5 1.5 0 0 0 4 11.085m8 0a1.5 1.5 0 0 0-.915.915H8V8.915c.426-.151.764-.489.915-.915H12z");
+}
+
+</style>

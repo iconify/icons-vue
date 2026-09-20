@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="d7zcc1fww"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:video-play-pause-24-regular" /></template>
+<style>
+.d7zcc1fww {
+  fill: currentColor;
+  d: path("M12 7.75c0-.966.784-1.75 1.75-1.75h1.5c.966 0 1.75.784 1.75 1.75v8.5A1.75 1.75 0 0 1 15.25 18h-1.5A1.75 1.75 0 0 1 12 16.25v-4.13a1.73 1.73 0 0 1-.84 1.417l-6.5 3.952C3.493 18.197 2 17.358 2 15.993V8.004c0-1.372 1.507-2.21 2.673-1.486l6.502 4.037c.526.327.8.862.825 1.408zm1.75-.25a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h1.5a.25.25 0 0 0 .25-.25v-8.5a.25.25 0 0 0-.25-.25zm4.25.25c0-.966.784-1.75 1.75-1.75h1.5c.966 0 1.75.784 1.75 1.75v8.5A1.75 1.75 0 0 1 21.25 18h-1.5A1.75 1.75 0 0 1 18 16.25zm1.75-.25a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h1.5a.25.25 0 0 0 .25-.25v-8.5a.25.25 0 0 0-.25-.25zM3.5 8.004v7.99a.25.25 0 0 0 .38.213l6.502-3.952a.25.25 0 0 0 .002-.426L3.882 7.792a.25.25 0 0 0-.382.212");
+}
+
+</style>

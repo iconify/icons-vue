@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":28,"height":28};
+const content = `<path class="rzqrblr9j"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:calendar-arrow-counterclockwise-28-regular" /></template>
+<style>
+.rzqrblr9j {
+  fill: currentColor;
+  d: path("M6.25 3A3.25 3.25 0 0 0 3 6.25v3.69l-.72-.72a.75.75 0 0 0-1.06 1.06l2 2a.75.75 0 0 0 1.06 0l2-2a.75.75 0 1 0-1.06-1.06l-.72.72V6.25c0-.966.784-1.75 1.75-1.75h15.5c.966 0 1.75.784 1.75 1.75V8H6a1 1 0 0 0-.1.006c.397.034.784.203 1.087.507c.278.278.443.626.495.987H23.5v12.25a1.75 1.75 0 0 1-1.75 1.75H6.25a1.75 1.75 0 0 1-1.75-1.75v-7a.75.75 0 0 0-1.5 0v7A3.25 3.25 0 0 0 6.25 25h15.5A3.25 3.25 0 0 0 25 21.75V6.25A3.25 3.25 0 0 0 21.75 3zm3.748 15.751a1.25 1.25 0 1 0-2.5 0a1.25 1.25 0 0 0 2.5 0m5.255 0a1.25 1.25 0 1 0-2.5 0a1.25 1.25 0 0 0 2.5 0m-5.255-5a1.25 1.25 0 1 0-2.5 0a1.25 1.25 0 0 0 2.5 0m5.255 0a1.25 1.25 0 1 0-2.5 0a1.25 1.25 0 0 0 2.5 0m5.254 0a1.25 1.25 0 1 0-2.5 0a1.25 1.25 0 0 0 2.5 0");
+}
+
+</style>

@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":20,"height":20};
+const content = `<path class="yq9917bbu"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:mail-list-20-filled" /></template>
+<style>
+.yq9917bbu {
+  fill: currentColor;
+  d: path("M11.5 2a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1zm0 2a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1zm0 2a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1zm-7-2h5.585a1.5 1.5 0 0 0 .297 1.5A1.5 1.5 0 0 0 11.5 8h3.464L10 10.92L2.015 6.223A2.5 2.5 0 0 1 4.5 4m5.754 7.931L16.934 8h.566q.264-.001.5-.085V14.5a2.5 2.5 0 0 1-2.5 2.5h-11A2.5 2.5 0 0 1 2 14.5V7.373l7.747 4.558a.5.5 0 0 0 .507 0");
+}
+
+</style>

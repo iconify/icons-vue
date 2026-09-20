@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":28,"height":28};
+const content = `<path class="r4y1y3z8s"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:table-delete-row-28-filled" /></template>
+<style>
+.r4y1y3z8s {
+  fill: currentColor;
+  d: path("M3 4a1 1 0 0 1 1-1h5.5v6H6.75A3.75 3.75 0 0 1 3 5.25zm14 5h-6V3h6zm4.25 0H18.5V3H24a1 1 0 0 1 1 1v1.25A3.75 3.75 0 0 1 21.25 9M25 22.75A3.75 3.75 0 0 0 21.25 19H18.5v6H24a1 1 0 0 0 1-1zM17 19h-6v6h6zM6.75 19H9.5v6H4a1 1 0 0 1-1-1v-1.25A3.75 3.75 0 0 1 6.75 19m-4-5.75h7.727l.072.076l.674.674l-.674.674l-.072.076H2.75a.75.75 0 0 1 0-1.5m14.45.076q.039-.037.073-.076h7.977a.75.75 0 0 1 0 1.5h-7.977l-.072-.076l-.674-.674zm-4.67-1.856a.75.75 0 1 0-1.06 1.06L12.94 14l-1.47 1.47a.75.75 0 1 0 1.06 1.06L14 15.06l1.47 1.47a.75.75 0 1 0 1.06-1.06L15.06 14l1.47-1.47a.75.75 0 1 0-1.06-1.06L14 12.94z");
+}
+
+</style>

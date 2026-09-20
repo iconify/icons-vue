@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="pg12esc0x"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:align-straighten-24-regular" /></template>
+<style>
+.pg12esc0x {
+  fill: currentColor;
+  d: path("M3.078 9.04a3.25 3.25 0 0 1 2.47-3.876l9.413-2.087a3.25 3.25 0 0 1 3.876 2.47l1.043 4.703h-1.537l-.97-4.38a1.75 1.75 0 0 0-2.088-1.329L5.872 6.628a1.75 1.75 0 0 0-1.33 2.087l.34 1.535H3.346zm16.041 4.71h1.537l.268 1.21a3.25 3.25 0 0 1-2.47 3.876l-9.413 2.087a3.25 3.25 0 0 1-3.876-2.47L4.122 13.75h1.536l.971 4.379a1.75 1.75 0 0 0 2.087 1.33l9.414-2.087a1.75 1.75 0 0 0 1.33-2.088zM1 12a.75.75 0 0 1 .75-.75h2.5a.75.75 0 0 1 0 1.5h-2.5A.75.75 0 0 1 1 12m6 0a.75.75 0 0 1 .75-.75h2.5a.75.75 0 0 1 0 1.5h-2.5A.75.75 0 0 1 7 12m6.75-.75a.75.75 0 0 0 0 1.5h2.5a.75.75 0 0 0 0-1.5zM19 12a.75.75 0 0 1 .75-.75h2.5a.75.75 0 0 1 0 1.5h-2.5A.75.75 0 0 1 19 12");
+}
+
+</style>

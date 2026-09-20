@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":16,"height":16};
+const content = `<path class="mtitqkmoy"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:task-list-square-rtl-16-filled" /></template>
+<style>
+.mtitqkmoy {
+  fill: currentColor;
+  d: path("M2 4.5A2.5 2.5 0 0 1 4.5 2h7A2.5 2.5 0 0 1 14 4.5v7a2.5 2.5 0 0 1-2.5 2.5h-7A2.5 2.5 0 0 1 2 11.5zm2.25 6a.5.5 0 0 0 .5.5H7a.5.5 0 0 0 0-1H4.75a.5.5 0 0 0-.5.5m.5-4.5a.5.5 0 0 0 0 1H7a.5.5 0 0 0 0-1zm6.852 3.146a.5.5 0 0 0-.707 0l-1.147 1.147l-.394-.395a.5.5 0 0 0-.708.707l.748.749a.5.5 0 0 0 .708 0l1.5-1.5a.5.5 0 0 0 0-.708m0-3.292a.5.5 0 1 0-.707-.708L9.748 6.293l-.394-.395a.5.5 0 1 0-.708.708l.748.748a.5.5 0 0 0 .708 0z");
+}
+
+</style>

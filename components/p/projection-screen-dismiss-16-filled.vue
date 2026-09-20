@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":16,"height":16};
+const content = `<path class="tx-kx0_zr"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:projection-screen-dismiss-16-filled" /></template>
+<style>
+.tx-kx0_zr {
+  fill: currentColor;
+  d: path("M15 5.5a4.5 4.5 0 1 1-9 0a4.5 4.5 0 0 1 9 0m-2.646-1.146a.5.5 0 0 0-.708-.708L10.5 4.793L9.354 3.646a.5.5 0 1 0-.708.708L9.793 5.5L8.646 6.646a.5.5 0 1 0 .708.708L10.5 6.207l1.146 1.147a.5.5 0 0 0 .708-.708L11.207 5.5zM10.5 11q.552 0 1.075-.105A2.5 2.5 0 0 1 9.5 12h-2v2h2a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1h2v-2h-2A2.5 2.5 0 0 1 2 9.5V5a1 1 0 0 1 0-2h3.6a5.5 5.5 0 0 0 4.9 8");
+}
+
+</style>

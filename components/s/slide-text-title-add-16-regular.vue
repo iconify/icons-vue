@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":16,"height":16};
+const content = `<path class="ggggwf2do"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:slide-text-title-add-16-regular" /></template>
+<style>
+.ggggwf2do {
+  fill: currentColor;
+  d: path("M3 2a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h3.022a5.6 5.6 0 0 1 0-1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v2.6q.538.276 1 .657V4a2 2 0 0 0-2-2zm8.5 4q.252 0 .5.022V6a1 1 0 0 0-1-1H5a1 1 0 0 0 0 2h3.337c.895-.63 1.986-1 3.163-1m4.5 5.5a4.5 4.5 0 1 1-9 0a4.5 4.5 0 0 1 9 0m-4-2a.5.5 0 0 0-1 0V11H9.5a.5.5 0 0 0 0 1H11v1.5a.5.5 0 0 0 1 0V12h1.5a.5.5 0 0 0 0-1H12z");
+}
+
+</style>

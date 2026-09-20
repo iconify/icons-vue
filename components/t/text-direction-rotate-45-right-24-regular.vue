@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="ds77kjbpc"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:text-direction-rotate-45-right-24-regular" /></template>
+<style>
+.ds77kjbpc {
+  fill: currentColor;
+  d: path("M21.25 10.5a.75.75 0 0 0-.75.75v1.19l-4.22-4.22a.75.75 0 1 0-1.06 1.06l4.22 4.22h-1.19a.75.75 0 0 0 0 1.5h3a.75.75 0 0 0 .75-.75v-3a.75.75 0 0 0-.75-.75m-5.322-7.429a.75.75 0 0 0-1-.999l-9.498 4.5a.75.75 0 1 0 .642 1.356l2.575-1.22l2.645 2.645l-1.22 2.576a.75.75 0 0 0 1.356.642zm-3.954 4.843l-1.887-1.888l3.586-1.699zM15 18.25a.75.75 0 0 0-1.5 0v1.19L3.28 9.22a.75.75 0 1 0-1.06 1.06L12.44 20.5h-1.19a.75.75 0 0 0 0 1.5h3a.75.75 0 0 0 .75-.75z");
+}
+
+</style>

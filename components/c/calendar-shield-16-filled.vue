@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":16,"height":16};
+const content = `<path class="tk5m7ubom"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:calendar-shield-16-filled" /></template>
+<style>
+.tk5m7ubom {
+  fill: currentColor;
+  d: path("M11.5 6H2v5.5A2.5 2.5 0 0 0 4.5 14h3.076A5.4 5.4 0 0 1 7 11.517V9.194c0-.808.626-1.375 1.293-1.471c.855-.124 1.633-.761 2.102-1.254A1.52 1.52 0 0 1 11.5 6M14 4.5A2.5 2.5 0 0 0 11.5 2h-7A2.5 2.5 0 0 0 2 4.5V5h12zm-2.12 2.66c.508.532 1.484 1.379 2.684 1.552a.5.5 0 0 1 .436.482v2.323c0 3.122-2.784 4.255-3.386 4.463a.34.34 0 0 1-.228 0C10.785 15.772 8 14.64 8 11.517V9.194a.5.5 0 0 1 .436-.482c1.2-.173 2.175-1.02 2.683-1.553a.535.535 0 0 1 .762 0");
+}
+
+</style>

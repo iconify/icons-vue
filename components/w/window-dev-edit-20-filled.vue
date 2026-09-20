@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":20,"height":20};
+const content = `<path class="ysxknsukz"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:window-dev-edit-20-filled" /></template>
+<style>
+.ysxknsukz {
+  fill: currentColor;
+  d: path("M6 3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h4.221l.212-.845q.02-.078.043-.155H6a2 2 0 0 1-2-2V7h12v2.944l.103-.103c.266-.266.571-.47.897-.609V6a3 3 0 0 0-3-3zm3.104 5.146a.5.5 0 0 1 0 .708L6.957 11l2.147 2.146a.5.5 0 0 1-.708.708l-2.5-2.5a.5.5 0 0 1 0-.708l2.5-2.5a.5.5 0 0 1 .708 0m2.5 0a.5.5 0 0 0-.708.708L13.043 11l-2.147 2.146a.5.5 0 0 0 .708.708l2.5-2.5a.5.5 0 0 0 0-.708zm.376 7.231l4.83-4.83a1.87 1.87 0 1 1 2.644 2.646l-4.83 4.829a2.2 2.2 0 0 1-1.02.578l-1.498.374a.89.89 0 0 1-1.079-1.078l.375-1.498a2.2 2.2 0 0 1 .578-1.02");
+}
+
+</style>

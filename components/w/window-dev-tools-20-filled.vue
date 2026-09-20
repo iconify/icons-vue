@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":20,"height":20};
+const content = `<path class="w-9m2-bar"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:window-dev-tools-20-filled" /></template>
+<style>
+.w-9m2-bar {
+  fill: currentColor;
+  d: path("M3 6a3 3 0 0 1 3-3h8a3 3 0 0 1 3 3v2.03a4.5 4.5 0 0 0-1-.004V7H4v7a2 2 0 0 0 2 2h3.492a2.5 2.5 0 0 0-.443 1H6a3 3 0 0 1-3-3zm10.044 3.587l-1.44-1.44a.5.5 0 0 0-.708.707l1.578 1.577q.232-.447.57-.844m-3.94-.733a.5.5 0 1 0-.708-.708l-2.5 2.5a.5.5 0 0 0 0 .708l2.5 2.5a.5.5 0 0 0 .708-.708L6.957 11zm7.788.17c.366.042.471.48.21.742l-.975.975a1.507 1.507 0 1 0 2.132 2.132l.975-.975c.261-.261.7-.156.742.21a3.518 3.518 0 0 1-4.676 3.723l-2.726 2.727a1.507 1.507 0 1 1-2.132-2.132l2.726-2.726a3.518 3.518 0 0 1 3.724-4.676");
+}
+
+</style>

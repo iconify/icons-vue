@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":16,"height":16};
+const content = `<path class="j6oju_b6w"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:desktop-mac-16-filled" /></template>
+<style>
+.j6oju_b6w {
+  fill: currentColor;
+  d: path("M2.01 3.796Q2 3.896 2 4v6a2 2 0 0 0 2 2h2v.5a.5.5 0 0 1-.5.5H5a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1h-.5a.5.5 0 0 1-.5-.5V12h2a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H4a2 2 0 0 0-1.99 1.796M9 12v.5q.001.264.085.5h-2.17q.084-.236.085-.5V12zm3-1H4a1 1 0 0 1-1-1h10a1 1 0 0 1-1 1");
+}
+
+</style>

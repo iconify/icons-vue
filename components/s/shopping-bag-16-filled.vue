@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":16,"height":16};
+const content = `<path class="wqb5kogau"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:shopping-bag-16-filled" /></template>
+<style>
+.wqb5kogau {
+  fill: currentColor;
+  d: path("M5 5V3a2 2 0 0 1 3-1.732A2 2 0 0 1 11 3v2h.5A1.5 1.5 0 0 1 13 6.5v7a1.5 1.5 0 0 1-3 0V3a1 1 0 0 0-1.25-.969c.16.287.25.618.25.969v10.5c0 .563.186 1.082.5 1.5H5a2 2 0 0 1-2-2V6.5A1.5 1.5 0 0 1 4.5 5zm2-3a1 1 0 0 0-1 1v2h2V3a1 1 0 0 0-1-1");
+}
+
+</style>

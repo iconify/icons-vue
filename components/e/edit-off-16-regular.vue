@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":16,"height":16};
+const content = `<path class="ioykdmvvv"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:edit-off-16-regular" /></template>
+<style>
+.ioykdmvvv {
+  fill: currentColor;
+  d: path("M5.793 6.5L1.146 1.854a.5.5 0 1 1 .708-.708l13 13a.5.5 0 0 1-.708.708L9.5 10.207l-3.136 3.136a2.95 2.95 0 0 1-1.354.772l-3.386.87a.5.5 0 0 1-.608-.61l.869-3.385c.131-.513.398-.98.772-1.355zm3 3L6.5 7.207l-3.136 3.136a1.95 1.95 0 0 0-.51.896l-.66 2.566l2.567-.659a1.95 1.95 0 0 0 .896-.51zm3.25-3.25l-1.836 1.836l.707.707l3.322-3.322a2.621 2.621 0 0 0-3.707-3.707L7.207 5.086l.707.707L9.75 3.957zm-.807-3.779a1.621 1.621 0 1 1 2.293 2.293l-.779.779l-2.293-2.293z");
+}
+
+</style>

@@ -1,0 +1,20 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ft5dv1b6b"><path class="giyfe-b7f"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:text-direction-rotate-270-ac-24-filled" /></template>
+<style>
+.ft5dv1b6b {
+  fill: none;
+}
+
+.giyfe-b7f {
+  d: path("M19.707 6.707a1 1 0 0 0 0-1.414l-2-2a1 1 0 0 0-1.414 0l-2 2a1 1 0 0 0 1.414 1.414L16 6.414V20a1 1 0 1 0 2 0V6.414l.293.293a1 1 0 0 0 1.414 0zm-9-1.414a1 1 0 0 1-1.414 1.414L9 6.414V8a1 1 0 0 1-2 0V6.414l-.293.293a1 1 0 0 1-1.414-1.414l2-2a1 1 0 0 1 1.414 0l2 2zM4 12a1 1 0 1 0 0 2h9.25a1 1 0 1 0 0-2H9v-1a1 1 0 1 0-2 0v1H4zm0 8a1 1 0 1 0 2 0v-3h.25c.895 0 1.87.184 2.586.642C9.49 18.061 10 18.745 10 20a1 1 0 1 0 2 0c0-1.945-.864-3.26-2.086-4.042C8.756 15.216 7.354 15 6.25 15H5a1 1 0 0 0-1 1v4z");
+  fill: currentColor;
+}
+
+</style>

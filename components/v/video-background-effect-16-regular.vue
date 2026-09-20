@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":16,"height":16};
+const content = `<path class="uw3-qrb0o"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:video-background-effect-16-regular" /></template>
+<style>
+.uw3-qrb0o {
+  fill: currentColor;
+  d: path("M3.293 3h1.414L1 6.707V5.293zM1 8.793v1.414l4.152-4.152a3 3 0 0 1 1.903-1.903L8.207 3H6.793zm4.204-.704l-4.118 4.118c.127.323.384.58.707.707l2.232-2.232a2 2 0 0 1 1.657-1.657l.055-.055a3 3 0 0 1-.533-.88m6.52 1.895a2 2 0 0 0-.708-.707L15 5.293v1.414zM12 13h.207L15 10.207V8.793l-3 3zM9.97 4.737a3 3 0 0 0-.88-.533L10.292 3h1.414zm1.022 2.478a3 3 0 0 0-.172-1.242l2.972-2.972c.38.012.719.195.94.475zM8 6a1 1 0 1 0 0 2a1 1 0 0 0 0-2M6 7a2 2 0 1 1 4 0a2 2 0 0 1-4 0m0 3a1 1 0 0 0-1 1v2h1v-2h4v2h1v-2a1 1 0 0 0-1-1z");
+}
+
+</style>

@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":28,"height":28};
+const content = `<path class="zz123uboa"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:clipboard-paste-28-regular" /></template>
+<style>
+.zz123uboa {
+  fill: currentColor;
+  d: path("M15 2a2.5 2.5 0 0 1 2.45 2h1.8A2.75 2.75 0 0 1 22 6.75v.5a.75.75 0 0 1-1.5 0v-.5c0-.69-.56-1.25-1.25-1.25h-1.96A2.5 2.5 0 0 1 15 7h-4a2.5 2.5 0 0 1-2.29-1.5H6.75c-.69 0-1.25.56-1.25 1.25v16.5c0 .69.56 1.25 1.25 1.25h3.5a.75.75 0 0 1 0 1.5h-3.5A2.75 2.75 0 0 1 4 23.25V6.75A2.75 2.75 0 0 1 6.75 4h1.8A2.5 2.5 0 0 1 11 2zm7.25 7A2.75 2.75 0 0 1 25 11.75v11.5A2.75 2.75 0 0 1 22.25 26h-7.5A2.75 2.75 0 0 1 12 23.25v-11.5A2.75 2.75 0 0 1 14.75 9zm-7.5 1.5c-.69 0-1.25.56-1.25 1.25v11.5c0 .69.56 1.25 1.25 1.25h7.5c.69 0 1.25-.56 1.25-1.25v-11.5c0-.69-.56-1.25-1.25-1.25zM11 3.5a1 1 0 0 0 0 2h4a1 1 0 0 0 0-2z");
+}
+
+</style>

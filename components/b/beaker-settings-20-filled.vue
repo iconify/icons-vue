@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":20,"height":20};
+const content = `<path class="a427rz0xn"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:beaker-settings-20-filled" /></template>
+<style>
+.a427rz0xn {
+  fill: currentColor;
+  d: path("M5.5 3.5A.5.5 0 0 1 6 3h8a.5.5 0 0 1 0 1h-.996v4.684q0 .258.038.511A5.5 5.5 0 0 0 9.6 12H5.685l.89-1.653a3.5 3.5 0 0 0 .42-1.66V4H6a.5.5 0 0 1-.5-.5m3.5 11a5.5 5.5 0 0 1 .207-1.5h-4.06l-.965 1.79a1.5 1.5 0 0 0 1.32 2.212H9.6A5.5 5.5 0 0 1 9 14.5m3.065-3.058a2 2 0 0 1-1.43 2.478l-.461.118a4.7 4.7 0 0 0 .01 1.016l.35.083a2 2 0 0 1 1.455 2.519l-.126.422q.387.307.835.518l.325-.344a2 2 0 0 1 2.91.002l.337.358q.439-.203.821-.498l-.156-.556a2 2 0 0 1 1.43-2.479l.461-.117a4.7 4.7 0 0 0-.01-1.017l-.349-.082a2 2 0 0 1-1.456-2.52l.126-.421a4.3 4.3 0 0 0-.834-.519l-.325.344a2 2 0 0 1-2.91-.001l-.337-.358a4.3 4.3 0 0 0-.822.497zM14.5 15.5a1 1 0 1 1 0-2a1 1 0 0 1 0 2");
+}
+
+</style>

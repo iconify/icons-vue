@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="l_egdha0p"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:arrow-split-24-regular" /></template>
+<style>
+.l_egdha0p {
+  fill: currentColor;
+  d: path("M12 3a.75.75 0 0 1 .75.75V9.5h2.496a2.75 2.75 0 0 1 2.75 2.75v6.192l1.725-1.723a.75.75 0 1 1 1.06 1.062l-3.005 3a.75.75 0 0 1-1.06 0l-3-3a.75.75 0 1 1 1.06-1.061l1.72 1.72v-6.19c0-.69-.56-1.25-1.25-1.25H8.751c-.69 0-1.25.56-1.25 1.25v6.19l1.72-1.72a.75.75 0 0 1 1.06 1.06l-3 3a.75.75 0 0 1-1.06 0l-3.001-3a.75.75 0 1 1 1.06-1.06L6 18.44v-6.19A2.75 2.75 0 0 1 8.75 9.5h2.5V3.75A.75.75 0 0 1 12 3");
+}
+
+</style>

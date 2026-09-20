@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":16,"height":16};
+const content = `<path class="mxx-tnbfr"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:layer-diagonal-16-filled" /></template>
+<style>
+.mxx-tnbfr {
+  fill: currentColor;
+  d: path("M3 10.915v-4.29a2.5 2.5 0 0 1 1.452-2.27l4.5-2.077l.03-.013a1.5 1.5 0 0 0-2.073-1.142L2.515 3.006A2.5 2.5 0 0 0 1 5.304V9.5a1.5 1.5 0 0 0 2 1.414m3 1.996V8.645a2.5 2.5 0 0 1 1.515-2.298l4.483-1.922A1.5 1.5 0 0 0 9.91 3.123l-5 2.143A1.5 1.5 0 0 0 4 6.644v4.853a1.5 1.5 0 0 0 2 1.414m6.91-7.788A1.5 1.5 0 0 1 15 6.502v4.826a1.5 1.5 0 0 1-.903 1.376l-5 2.169A1.5 1.5 0 0 1 7 13.497V8.644c0-.6.358-1.143.91-1.38z");
+}
+
+</style>

@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":20,"height":20};
+const content = `<path class="liohvgm3d"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:picture-in-picture-20-regular" /></template>
+<style>
+.liohvgm3d {
+  fill: currentColor;
+  d: path("M2 5.75A2.75 2.75 0 0 1 4.75 3h10.5A2.75 2.75 0 0 1 18 5.75V10h-1V5.75A1.75 1.75 0 0 0 15.25 4H4.75A1.75 1.75 0 0 0 3 5.75v6.5c0 .966.784 1.75 1.75 1.75H9v1H4.75A2.75 2.75 0 0 1 2 12.25zM11.5 11a1.5 1.5 0 0 0-1.5 1.5v4a1.5 1.5 0 0 0 1.5 1.5h6a1.5 1.5 0 0 0 1.5-1.5v-4a1.5 1.5 0 0 0-1.5-1.5z");
+}
+
+</style>

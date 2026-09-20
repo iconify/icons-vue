@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":28,"height":28};
+const content = `<path class="gg6-8041z"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:call-rectangle-landscape-28-filled" /></template>
+<style>
+.gg6-8041z {
+  fill: currentColor;
+  d: path("M5.75 4A3.75 3.75 0 0 0 2 7.75v12.5A3.75 3.75 0 0 0 5.75 24h16.5A3.75 3.75 0 0 0 26 20.25V7.75A3.75 3.75 0 0 0 22.25 4zm2.723 7.151C9.913 10.431 11.868 10 14 10s4.087.431 5.527 1.151c1.41.705 2.473 1.772 2.473 3.099l-.001.036l-.136 1.857a2 2 0 0 1-2.228 1.84l-1.632-.192a2 2 0 0 1-1.72-1.558l-.435-1.982c-.03-.133-.095-.194-.145-.213c-.306-.123-.873-.288-1.703-.288s-1.397.165-1.703.288c-.05.02-.116.08-.145.213l-.435 1.983a2 2 0 0 1-1.72 1.557l-1.632.192a2 2 0 0 1-2.228-1.84l-.136-1.857L6 14.25c0-1.327 1.063-2.394 2.473-3.099");
+}
+
+</style>

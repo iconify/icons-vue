@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="d4ru_on9g"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:clock-pause-24-filled" /></template>
+<style>
+.d4ru_on9g {
+  fill: currentColor;
+  d: path("M16.25 12.5h-4a.75.75 0 0 1-.75-.75v-6a.75.75 0 0 1 1.5 0V11h3.25a.75.75 0 0 1 0 1.5M13 1C7.478 1 3 5.478 3 11q0 .501.049.991a6.5 6.5 0 0 1 8.96 8.96q.49.05.991.049c5.522 0 10-4.478 10-10S18.522 1 13 1m-1 16.5a5.5 5.5 0 1 1-11 0a5.5 5.5 0 0 1 11 0m-7.5 3A.5.5 0 0 0 5 20v-5a.5.5 0 0 0-1 0v5a.5.5 0 0 0 .5.5m4 0A.5.5 0 0 0 9 20v-5a.5.5 0 0 0-1 0v5a.5.5 0 0 0 .5.5");
+}
+
+</style>

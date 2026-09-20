@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":16,"height":16};
+const content = `<path class="pkbd045ge"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:protocol-handler-16-regular" /></template>
+<style>
+.pkbd045ge {
+  fill: currentColor;
+  d: path("M3.585 4.414L1.414 6.585a2 2 0 0 0 0 2.829l2.171 2.172a2 2 0 0 0 2.829 0l2.171-2.172a2 2 0 0 0 0-2.829L6.414 4.414a2 2 0 0 0-2.829 0M2.121 7.293L4.293 5.12a1 1 0 0 1 1.414 0l2.171 2.172a1 1 0 0 1 0 1.414l-2.171 2.171a1 1 0 0 1-1.414 0L2.12 8.707a1 1 0 0 1 0-1.414m7.464 4.292l-.878-.878l.586-.586q.06-.06.117-.125l.883.882a1 1 0 0 0 1.414 0l2.171-2.171a1 1 0 0 0 0-1.414l-2.17-2.173a1 1 0 0 0-1.414 0l-.883.882a3 3 0 0 0-.117-.125l-.586-.585l.878-.88a2 2 0 0 1 2.829 0l2.172 2.172a2 2 0 0 1 0 2.829l-2.172 2.172a2 2 0 0 1-2.829 0");
+}
+
+</style>

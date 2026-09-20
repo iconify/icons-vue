@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":12,"height":12};
+const content = `<path class="pgm05syfh"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:cube-12-regular" /></template>
+<style>
+.pgm05syfh {
+  fill: currentColor;
+  d: path("M5.816 2.035a.5.5 0 0 1 .368 0l3.5 1.384a.5.5 0 0 1 .316.465v4.23a.5.5 0 0 1-.316.466l-3.5 1.383a.5.5 0 0 1-.368 0l-3.5-1.383A.5.5 0 0 1 2 8.115V3.884a.5.5 0 0 1 .316-.465zm.735-.93a1.5 1.5 0 0 0-1.102 0l-3.5 1.384A1.5 1.5 0 0 0 1 3.884v4.23a1.5 1.5 0 0 0 .949 1.396l3.5 1.383a1.5 1.5 0 0 0 1.102 0l3.5-1.383A1.5 1.5 0 0 0 11 8.115V3.884a1.5 1.5 0 0 0-.949-1.395zm-2.865 2.93a.5.5 0 0 0-.372.93l2.186.874V8a.5.5 0 0 0 1 0V5.839l2.186-.875a.5.5 0 1 0-.372-.928L6 4.96z");
+}
+
+</style>

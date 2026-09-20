@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":32,"height":32};
+const content = `<path class="dgz3ncbra"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:poll-32-light" /></template>
+<style>
+.dgz3ncbra {
+  fill: currentColor;
+  d: path("M15.5 3A3.5 3.5 0 0 1 19 6.5v19a3.5 3.5 0 1 1-7 0v-19A3.5 3.5 0 0 1 15.5 3m0 1A2.5 2.5 0 0 0 13 6.5v19a2.5 2.5 0 0 0 5 0v-19A2.5 2.5 0 0 0 15.5 4M29 12.5v13a3.5 3.5 0 1 1-7 0v-13a3.5 3.5 0 1 1 7 0M25.5 10a2.5 2.5 0 0 0-2.5 2.5v13a2.5 2.5 0 0 0 5 0v-13a2.5 2.5 0 0 0-2.5-2.5M9 25.5v-7a3.5 3.5 0 1 0-7 0v7a3.5 3.5 0 1 0 7 0m-6-7a2.5 2.5 0 0 1 5 0v7a2.5 2.5 0 0 1-5 0z");
+}
+
+</style>

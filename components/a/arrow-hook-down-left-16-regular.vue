@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":16,"height":16};
+const content = `<path class="ai1n5e70d"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:arrow-hook-down-left-16-regular" /></template>
+<style>
+.ai1n5e70d {
+  fill: currentColor;
+  d: path("M5 4.5a.5.5 0 0 1 .5-.5h3c1.136 0 2.024.43 2.624 1.105c.591.666.876 1.538.876 2.395s-.285 1.73-.876 2.395C10.524 10.569 9.636 11 8.5 11H4.707l1.147 1.146a.5.5 0 0 1-.708.708l-2-2a.5.5 0 0 1 0-.708l2-2a.5.5 0 1 1 .708.708L4.707 10H8.5c.864 0 1.476-.32 1.876-.77c.409-.46.624-1.087.624-1.73s-.215-1.27-.624-1.73C9.976 5.32 9.364 5 8.5 5h-3a.5.5 0 0 1-.5-.5");
+}
+
+</style>

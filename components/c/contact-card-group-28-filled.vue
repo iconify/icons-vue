@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":28,"height":28};
+const content = `<path class="lgwq5gbom"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:contact-card-group-28-filled" /></template>
+<style>
+.lgwq5gbom {
+  fill: currentColor;
+  d: path("M2.004 7.75v12.5A3.75 3.75 0 0 0 5.754 24H22.25A3.75 3.75 0 0 0 26 20.25V7.75A3.75 3.75 0 0 0 22.25 4H5.755a3.75 3.75 0 0 0-3.75 3.75M17 12.25a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 0 1.5h-3.5a.75.75 0 0 1-.75-.75m.75 2.75h3.5a.75.75 0 0 1 0 1.5h-3.5a.75.75 0 1 1 0-1.5M15 12a1.5 1.5 0 1 1-3 0a1.5 1.5 0 0 1 3 0m-8 2.5h3.5a1 1 0 0 1 1 1v1s0 2-2.75 2s-2.75-2-2.75-2v-1a1 1 0 0 1 1-1m3.5-2.75a1.75 1.75 0 1 1-3.5 0a1.75 1.75 0 0 1 3.5 0m3 5.75h-1.215a3 3 0 0 0 .205-.816a2 2 0 0 0 .01-.15V15.5c0-.364-.098-.706-.268-1H14.5a1 1 0 0 1 1 1a2 2 0 0 1-2 2");
+}
+
+</style>

@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":16,"height":16};
+const content = `<path class="rig9aibws"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:square-dovetail-joint-16-regular" /></template>
+<style>
+.rig9aibws {
+  fill: currentColor;
+  d: path("M11.5 2h-7A2.5 2.5 0 0 0 2 4.5v7A2.5 2.5 0 0 0 4.5 14h7a2.5 2.5 0 0 0 2.5-2.5v-7A2.5 2.5 0 0 0 11.5 2M3 11.5v-7A1.5 1.5 0 0 1 4.5 3H6v3.5a.5.5 0 0 0 .658.474L9 6.194v3.612l-2.342-.78A.5.5 0 0 0 6 9.5V13H4.5A1.5 1.5 0 0 1 3 11.5m10 0a1.5 1.5 0 0 1-1.5 1.5H7v-2.806l2.342.78A.5.5 0 0 0 10 10.5v-5a.5.5 0 0 0-.658-.474L7 5.806V3h4.5A1.5 1.5 0 0 1 13 4.5z");
+}
+
+</style>

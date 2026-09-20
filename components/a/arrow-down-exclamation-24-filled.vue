@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="ql_ue14ht"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:arrow-down-exclamation-24-filled" /></template>
+<style>
+.ql_ue14ht {
+  fill: currentColor;
+  d: path("M18 2.75a.75.75 0 0 0-1.5 0v16.69l-2.22-2.22a.75.75 0 1 0-1.06 1.06l3.5 3.5a.75.75 0 0 0 1.06 0l3.5-3.5a.75.75 0 1 0-1.06-1.06L18 19.44zM3.125 5.877a3.875 3.875 0 1 1 7.75 0c0 2.95-1.204 6.564-1.81 8.204a2.185 2.185 0 0 1-2.062 1.418a2.19 2.19 0 0 1-2.065-1.423c-.606-1.647-1.813-5.28-1.813-8.199M4.5 19.502a2.501 2.501 0 1 1 5.002 0a2.501 2.501 0 0 1-5.002 0");
+}
+
+</style>

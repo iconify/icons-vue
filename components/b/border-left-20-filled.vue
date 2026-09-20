@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":20,"height":20};
+const content = `<path class="e844l6bna"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:border-left-20-filled" /></template>
+<style>
+.e844l6bna {
+  fill: currentColor;
+  d: path("M16.25 8a.75.75 0 0 1 .75.75v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 .75-.75M3 11.27V14c0 1.29.814 2.39 1.957 2.814v-.003a.75.75 0 0 0 .586-1.381l-.01-.004l-.067-.024A1.5 1.5 0 0 1 4.5 14V6a1.5 1.5 0 0 1 .95-1.396a.75.75 0 1 0-.492-1.413v-.005A3 3 0 0 0 3 6zm11.551-6.666a1.5 1.5 0 0 1 .878.939a.75.75 0 0 0 1.38-.586h.005a3 3 0 0 0-1.77-1.77v.004a.75.75 0 1 0-.493 1.413m.846 9.944a1.5 1.5 0 0 1-.846.85a.75.75 0 1 0 .492 1.413v.004a3 3 0 0 0 1.77-1.77h-.004a.75.75 0 1 0-1.412-.497M8.75 3a.75.75 0 0 0 0 1.5h2.5a.75.75 0 0 0 0-1.5zM8 16.25a.75.75 0 0 1 .75-.75h2.5a.75.75 0 0 1 0 1.5h-2.5a.75.75 0 0 1-.75-.75");
+}
+
+</style>

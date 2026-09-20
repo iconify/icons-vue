@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="ulxf_nbif"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:textbox-vertical-24-regular" /></template>
+<style>
+.ulxf_nbif {
+  fill: currentColor;
+  d: path("M21 18.25A2.75 2.75 0 0 1 18.25 21H5.75A2.75 2.75 0 0 1 3 18.25V5.75A2.75 2.75 0 0 1 5.75 3h12.5A2.75 2.75 0 0 1 21 5.75zm-1.5 0V5.75c0-.69-.56-1.25-1.25-1.25H5.75c-.69 0-1.25.56-1.25 1.25v12.5c0 .69.56 1.25 1.25 1.25h12.5c.69 0 1.25-.56 1.25-1.25m-7-4v-7.5l-.007-.102A.75.75 0 0 0 11 6.75v7.5l.007.102a.75.75 0 0 0 1.493-.102m-4-7.5v10.5a.75.75 0 0 1-1.493.102L7 17.25V6.75a.75.75 0 0 1 1.493-.102zm8 10.5V6.75l-.007-.102A.75.75 0 0 0 15 6.75v10.5l.007.102a.75.75 0 0 0 1.493-.102");
+}
+
+</style>

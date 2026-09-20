@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="fmpf62tql"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:note-48-regular" /></template>
+<style>
+.fmpf62tql {
+  fill: currentColor;
+  d: path("M12.25 6A6.25 6.25 0 0 0 6 12.25v23.5A6.25 6.25 0 0 0 12.25 42h13.679a6.25 6.25 0 0 0 4.42-1.83l9.82-9.822A6.25 6.25 0 0 0 42 25.928V12.25A6.25 6.25 0 0 0 35.75 6zM8.5 12.25a3.75 3.75 0 0 1 3.75-3.75h23.5a3.75 3.75 0 0 1 3.75 3.75V26h-7.25A6.25 6.25 0 0 0 26 32.25v7.25H12.25a3.75 3.75 0 0 1-3.75-3.75zm20 26.23v-6.23a3.75 3.75 0 0 1 3.75-3.75h6.23l-.078.08l-9.821 9.822z");
+}
+
+</style>

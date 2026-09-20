@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":32,"height":32};
+const content = `<path class="f-2ampodu"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:laptop-briefcase-32-regular" /></template>
+<style>
+.f-2ampodu {
+  fill: currentColor;
+  d: path("M7.25 6A3.25 3.25 0 0 0 4 9.25v9.5A3.25 3.25 0 0 0 7.25 22h7.25v-2H7.25C6.56 20 6 19.44 6 18.75v-9.5C6 8.56 6.56 8 7.25 8h17.5c.69 0 1.25.56 1.25 1.25v3.285a3.5 3.5 0 0 1 2 1.015v-4.3A3.25 3.25 0 0 0 24.75 6zM3 24h11.5v2H3a1 1 0 1 1 0-2m16.5-8v1.5h-1.25a2.25 2.25 0 0 0-2.236 2H16v7.25A2.25 2.25 0 0 0 18.25 29h10.5A2.25 2.25 0 0 0 31 26.75V19.5h-.014a2.25 2.25 0 0 0-2.236-2H27.5V16a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2m2-.5h4a.5.5 0 0 1 .5.5v1.5h-5V16a.5.5 0 0 1 .5-.5");
+}
+
+</style>

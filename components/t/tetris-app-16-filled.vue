@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":16,"height":16};
+const content = `<path class="td-ldibqm"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:tetris-app-16-filled" /></template>
+<style>
+.td-ldibqm {
+  fill: currentColor;
+  d: path("M6 2.75A.75.75 0 0 1 6.75 2H9v3H6zM2.75 6a.75.75 0 0 0-.75.75v1.5c0 .414.336.75.75.75H5V6zM9 6H6v3h2.25A.75.75 0 0 0 9 8.25zm3.25-4H10v3h2.25a.75.75 0 0 0 .75-.75v-1.5a.75.75 0 0 0-.75-.75M3 11.75a.75.75 0 0 1 .75-.75H6v3H3.75a.75.75 0 0 1-.75-.75zm7-.75H7v3h3zm1 0h3v2.25a.75.75 0 0 1-.75.75H11zm.75-4a.75.75 0 0 0-.75.75V10h3V7.75a.75.75 0 0 0-.75-.75z");
+}
+
+</style>

@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="a9scrgb7v"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:add-starburst-48-filled" /></template>
+<style>
+.a9scrgb7v {
+  fill: currentColor;
+  d: path("M22.815 2.58a1.5 1.5 0 0 1 2.368 0l3.388 4.356l5.113-2.078a1.5 1.5 0 0 1 2.05 1.184l.756 5.467l5.467.756a1.5 1.5 0 0 1 1.184 2.05l-2.078 5.113l4.356 3.388a1.5 1.5 0 0 1 0 2.368l-4.356 3.388l2.078 5.113a1.5 1.5 0 0 1-1.184 2.05l-5.467.757l-.756 5.466a1.5 1.5 0 0 1-2.05 1.184l-5.113-2.078l-3.388 4.356a1.5 1.5 0 0 1-2.368 0l-3.388-4.356l-5.112 2.078a1.5 1.5 0 0 1-2.051-1.184l-.756-5.466l-5.467-.757a1.5 1.5 0 0 1-1.184-2.05l2.078-5.113l-4.356-3.388a1.5 1.5 0 0 1 0-2.368l4.356-3.388l-2.078-5.113a1.5 1.5 0 0 1 1.184-2.05l5.467-.756l.756-5.467a1.5 1.5 0 0 1 2.05-1.184l5.113 2.078zm2.435 12.67a1.25 1.25 0 1 0-2.5 0v7.5h-7.5a1.25 1.25 0 1 0 0 2.5h7.5v7.5a1.25 1.25 0 1 0 2.5 0v-7.5h7.5a1.25 1.25 0 1 0 0-2.5h-7.5z");
+}
+
+</style>

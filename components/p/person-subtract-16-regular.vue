@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":16,"height":16};
+const content = `<path class="aaw5u41_b"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:person-subtract-16-regular" /></template>
+<style>
+.aaw5u41_b {
+  fill: currentColor;
+  d: path("M6.222 13.957C3.555 13.653 2 11.803 2 10v-.5A1.5 1.5 0 0 1 3.5 8h2.1a5.5 5.5 0 0 0-.393 1H3.5a.5.5 0 0 0-.5.5v.5c0 1.128.882 2.333 2.502 2.8c.192.416.435.804.72 1.157m3.404-8.888a2.75 2.75 0 1 0-3.299 1.848a5.5 5.5 0 0 1 1.078-.964Q7.209 5.999 7 6a1.75 1.75 0 1 1 1.241-.516a5.5 5.5 0 0 1 1.385-.415M10.5 15a4.5 4.5 0 1 0 0-9a4.5 4.5 0 0 0 0 9m-2.121-5h4.242a.5.5 0 1 1 0 1H8.38a.5.5 0 0 1 0-1");
+}
+
+</style>

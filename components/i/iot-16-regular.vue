@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":16,"height":16};
+const content = `<path class="br235gw7q"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:iot-16-regular" /></template>
+<style>
+.br235gw7q {
+  fill: currentColor;
+  d: path("M10 3.5a.5.5 0 1 1 1 0a.5.5 0 0 1-1 0m.5-1.5a1.5 1.5 0 0 0-1.124 2.494l-.623 1.121a2.5 2.5 0 0 0-2.132.3l-.767-.769a1.5 1.5 0 1 0-.707.707l.767.768a2.49 2.49 0 0 0-.299 2.132l-1.121.623a1.5 1.5 0 1 0 .486.874l1.122-.623a2.5 2.5 0 0 0 2.199.855l.278.834A1.5 1.5 0 1 0 9.528 11l-.279-.834c.532-.307.94-.804 1.131-1.399l.659.074a1.5 1.5 0 1 0 .11-.994l-.66-.073a2.5 2.5 0 0 0-.862-1.672l.624-1.123Q10.37 5 10.5 5a1.5 1.5 0 0 0 0-3m-6 2a.5.5 0 1 1 0 1a.5.5 0 0 1 0-1m-1 6a.5.5 0 1 1 0 1a.5.5 0 0 1 0-1M9 12.5a.5.5 0 1 1 1 0a.5.5 0 0 1-1 0M12.5 8a.5.5 0 1 1 0 1a.5.5 0 0 1 0-1M8 6.5a1.5 1.5 0 1 1 0 3a1.5 1.5 0 0 1 0-3");
+}
+
+</style>

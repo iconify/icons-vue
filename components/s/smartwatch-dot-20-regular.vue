@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":20,"height":20};
+const content = `<path class="ie3xnrb_v"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:smartwatch-dot-20-regular" /></template>
+<style>
+.ie3xnrb_v {
+  fill: currentColor;
+  d: path("M16.5 2a2.5 2.5 0 1 1 0 5a2.5 2.5 0 0 1 0-5m-2.993.685A2 2 0 0 0 12 2H8a2 2 0 0 0-2 2v1.268A2 2 0 0 0 5 7v6a2 2 0 0 0 1 1.732V16a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2v-1.268A2 2 0 0 0 15 13v-2a1 1 0 0 0 1-1V9a1 1 0 0 0-1-1v-.337a3.5 3.5 0 0 1-1.001-.715L14 7v6a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h6q.198.001.372.071A3.5 3.5 0 0 1 13 4.5c0-.665.185-1.286.507-1.815M13 4.5V5H7V4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1zM7 15h6v1a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1z");
+}
+
+</style>

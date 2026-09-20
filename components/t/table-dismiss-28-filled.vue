@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":28,"height":28};
+const content = `<path class="b46pm9b_l"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:table-dismiss-28-filled" /></template>
+<style>
+.b46pm9b_l {
+  fill: currentColor;
+  d: path("M3 6.75A3.75 3.75 0 0 1 6.75 3H9.5v6.5H3zM3 11v6h6.5v-6zm0 7.5v2.75A3.75 3.75 0 0 0 6.75 25H9.5v-6.5zm8 6.5h3.5a7.47 7.47 0 0 1-1.5-4.5c0-.693.094-1.363.27-2H11zm14-14v3.5a7.47 7.47 0 0 0-4.5-1.5c-.693 0-1.363.094-2 .27V11zm-8 0v2.865A7.54 7.54 0 0 0 13.865 17H11v-6zm8-1.5V6.75A3.75 3.75 0 0 0 21.25 3H18.5v6.5zM17 3h-6v6.5h6zm10 17.5a6.5 6.5 0 1 1-13 0a6.5 6.5 0 0 1 13 0m-9.146-3.354a.5.5 0 0 0-.708.708l2.647 2.646l-2.647 2.646a.5.5 0 0 0 .708.708l2.646-2.647l2.646 2.647a.5.5 0 0 0 .708-.708L21.207 20.5l2.647-2.646a.5.5 0 0 0-.708-.708L20.5 19.793z");
+}
+
+</style>

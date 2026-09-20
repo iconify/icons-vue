@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":20,"height":20};
+const content = `<path class="r9icrdbrx"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:navigation-unread-20-regular" /></template>
+<style>
+.r9icrdbrx {
+  fill: currentColor;
+  d: path("M17.994 4.42Q18 4.336 18 4.25a2.25 2.25 0 1 0-.048.464l.002-.01q.029-.14.04-.284M2.5 4h10.01a3.3 3.3 0 0 0 .077 1H2.5a.5.5 0 0 1 0-1M2 9.5a.5.5 0 0 1 .5-.5h15a.5.5 0 0 1 0 1h-15a.5.5 0 0 1-.5-.5m.5 4.5a.5.5 0 0 0 0 1h15a.5.5 0 0 0 0-1z");
+}
+
+</style>

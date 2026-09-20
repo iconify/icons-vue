@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="vvyyegbzs"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:document-add-48-regular" /></template>
+<style>
+.vvyyegbzs {
+  fill: currentColor;
+  d: path("M10.5 8.25c0-.966.784-1.75 1.75-1.75H24v8.75A3.75 3.75 0 0 0 27.75 19h9.75v20.75a1.75 1.75 0 0 1-1.75 1.75H24.26a13 13 0 0 1-1.88 2.5h13.37A4.25 4.25 0 0 0 40 39.75V18.414a2.25 2.25 0 0 0-.659-1.59L27.177 4.658A2.25 2.25 0 0 0 25.586 4H12.25A4.25 4.25 0 0 0 8 8.25v14.746a13 13 0 0 1 2.5-.756zm24.982 8.25H27.75c-.69 0-1.25-.56-1.25-1.25V7.518zM24 35c0 6.075-4.925 11-11 11S2 41.075 2 35s4.925-11 11-11s11 4.925 11 11m-10-7a1 1 0 1 0-2 0v6H6a1 1 0 1 0 0 2h6v6a1 1 0 1 0 2 0v-6h6a1 1 0 1 0 0-2h-6z");
+}
+
+</style>

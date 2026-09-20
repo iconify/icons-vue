@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":20,"height":20};
+const content = `<path class="go-a_hqvj"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:font-space-tracking-out-20-filled" /></template>
+<style>
+.go-a_hqvj {
+  fill: currentColor;
+  d: path("M6 2a.75.75 0 0 1 .7.482l3.25 8.495a.75.75 0 0 1-1.401.536l-.772-2.018H4.222l-.772 2.018a.75.75 0 0 1-1.401-.536l3.25-8.495A.75.75 0 0 1 6 2M4.796 7.995h2.407L6 4.849zm9.886 5.261a.75.75 0 0 1 1.058-.07l2 1.748a.75.75 0 0 1 0 1.129l-2 1.751a.75.75 0 1 1-.988-1.128l.498-.436H4.744l.498.435a.75.75 0 1 1-.988 1.13l-2-1.749a.75.75 0 0 1 0-1.129l2-1.751a.75.75 0 0 1 .988 1.128l-.497.436H15.25l-.498-.435a.75.75 0 0 1-.071-1.059m.018-1.738a.75.75 0 0 1-1.401 0l-3.25-8.495a.75.75 0 1 1 1.401-.536L14 9.15l2.55-6.664a.75.75 0 1 1 1.4.536z");
+}
+
+</style>

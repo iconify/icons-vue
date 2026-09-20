@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":16,"height":16};
+const content = `<path class="ip-zyqv8a"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:person-square-16-filled" /></template>
+<style>
+.ip-zyqv8a {
+  fill: currentColor;
+  d: path("M4.5 2h7A2.5 2.5 0 0 1 14 4.5v7a2.5 2.5 0 0 1-2.5 2.5h-7A2.5 2.5 0 0 1 2 11.5v-7A2.5 2.5 0 0 1 4.5 2m5.25 6h-3.5c-.69 0-1.288.565-1.17 1.246c.187 1.086.816 2.254 2.92 2.254s2.733-1.168 2.92-2.254C11.038 8.566 10.44 8 9.75 8M8 7a1.5 1.5 0 1 0 0-3a1.5 1.5 0 0 0 0 3");
+}
+
+</style>

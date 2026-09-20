@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":16,"height":16};
+const content = `<path class="fz_woe0ed"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:inking-tool-16-regular" /></template>
+<style>
+.fz_woe0ed {
+  fill: currentColor;
+  d: path("M2 1.5a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 2.5 5h.252l3.262 6.451a1 1 0 0 0 .576.498c-.122.624-.111 1.233.021 1.74c.168.639.604 1.311 1.394 1.311s1.226-.672 1.393-1.31c.133-.509.144-1.12.02-1.745a1 1 0 0 0 .566-.494L13.247 5h.253A1.5 1.5 0 0 0 15 3.5v-2a.5.5 0 0 0-1 0v2a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5zM3.873 5h8.253l-3.034 6H6.907zm3.729 7h.806c.129.547.122 1.059.023 1.436c-.127.486-.332.564-.426.564s-.299-.078-.426-.564c-.099-.377-.106-.889.023-1.436");
+}
+
+</style>

@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="v02nts1rp"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:premium-24-filled" /></template>
+<style>
+.v02nts1rp {
+  fill: currentColor;
+  d: path("M18 3a1 1 0 0 1 .832.445l.062.108l3 6a1 1 0 0 1-.067 1.01l-.084.106l-8.973 9.973a.99.99 0 0 1-.886.351l-.113-.019a.98.98 0 0 1-.532-.322L2.257 10.67a1 1 0 0 1-.204-.991l.053-.125l3-6a1 1 0 0 1 .77-.545L6 3zm-3.424 8H9.423L12 17.342zm4.177 0h-2.018l-1.661 4.088zM7.264 11H5.246l3.678 4.087zm1.358-6H6.618l-2 4h2.704zm4.651 0h-2.547L9.427 9h5.145zm4.108 0h-2.004l1.3 4h2.704z");
+}
+
+</style>

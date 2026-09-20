@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":28,"height":28};
+const content = `<path class="li246zb9h"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:hand-point-28-filled" /></template>
+<style>
+.li246zb9h {
+  fill: currentColor;
+  d: path("M13 2a3 3 0 0 0-3 3v8.085l-1.14-.518a5.486 5.486 0 0 0-6.603 1.631c-.504.65-.228 1.571.49 1.881c7.212 3.116 9.074 5.921 9.82 7.942c.455 1.23 1.67 2.155 3.092 1.952l5.498-.784a2.75 2.75 0 0 0 2.277-2.049l1.387-5.483a5.75 5.75 0 0 0-4.914-7.122L16 10.085V5a3 3 0 0 0-3-3");
+}
+
+</style>

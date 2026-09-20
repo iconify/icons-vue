@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="kuj2vma6x"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:service-bell-24-filled" /></template>
+<style>
+.kuj2vma6x {
+  fill: currentColor;
+  d: path("M10 4a2 2 0 1 1 4 0v1.24a8.24 8.24 0 0 1 6.25 8.008a.75.75 0 0 1-.75.75h-15a.75.75 0 0 1-.75-.75c0-3.86 2.668-7.098 6.25-7.999zm3.25 3.5a.75.75 0 0 0 0 1.5c1.253 0 2.143.618 2.886 1.68a.75.75 0 0 0 1.229-.86c-.93-1.33-2.229-2.32-4.115-2.32M2 17a2 2 0 0 1 2-2h16a2 2 0 1 1 0 4H4a2 2 0 0 1-2-2");
+}
+
+</style>

@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":16,"height":16};
+const content = `<path class="c_qedseyl"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:star-off-16-regular" /></template>
+<style>
+.c_qedseyl {
+  fill: currentColor;
+  d: path("M12.358 13.065a.9.9 0 0 1-1.315.883L8.001 12.35l-3.042 1.6A.9.9 0 0 1 3.653 13l.58-3.387l-2.46-2.399a.9.9 0 0 1 .499-1.535l2.356-.342l-3.482-3.482a.5.5 0 1 1 .708-.708l13 13a.5.5 0 0 1-.708.708zm-1.222-1.222L5.511 6.218l-2.895.42L4.97 8.933a.9.9 0 0 1 .258.796l-.555 3.24l2.91-1.53a.9.9 0 0 1 .837 0l2.91 1.53zm2.25-5.205l-2.343 2.284l.732.732l-.007-.042l2.461-2.399a.9.9 0 0 0-.499-1.535l-3.4-.494l-1.522-3.082a.9.9 0 0 0-1.614 0L6.212 4.09l.747.746L8 2.726l1.455 2.947a.9.9 0 0 0 .677.493z");
+}
+
+</style>

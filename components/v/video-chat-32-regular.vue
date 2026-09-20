@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":32,"height":32};
+const content = `<path class="zfg4ggb9o"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:video-chat-32-regular" /></template>
+<style>
+.zfg4ggb9o {
+  fill: currentColor;
+  d: path("M6.5 6A4.5 4.5 0 0 0 2 10.5v5.775a9 9 0 0 1 2-1.571V10.5A2.5 2.5 0 0 1 6.5 8h11a2.5 2.5 0 0 1 2.5 2.5v11a2.5 2.5 0 0 1-2.5 2.5h-.124a9 9 0 0 1-.582 2h.706a4.5 4.5 0 0 0 4.5-4.5v-.487l4.468 3.084c1.492 1.03 3.528-.037 3.528-1.851V9.754c0-1.814-2.036-2.882-3.528-1.852L22 10.987V10.5A4.5 4.5 0 0 0 17.5 6zM22 13.418l5.604-3.87a.25.25 0 0 1 .392.206v12.492a.25.25 0 0 1-.392.206L22 18.582zM8.5 30a7.5 7.5 0 1 0-6.629-3.988l-.853 3.37a.5.5 0 0 0 .608.607l3.365-.859A7.5 7.5 0 0 0 8.5 30M5 21.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 0 1.5h-5.5a.75.75 0 0 1-.75-.75M5.75 25a.75.75 0 0 1 0-1.5h3.5a.75.75 0 0 1 0 1.5z");
+}
+
+</style>

@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":16,"height":16};
+const content = `<path class="zpj5j_j-o"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:flashlight-16-regular" /></template>
+<style>
+.zpj5j_j-o {
+  fill: currentColor;
+  d: path("M12 1.5a.5.5 0 1 0-1 0v1a.5.5 0 0 0 1 0zm2.853-.354a.5.5 0 0 0-.707 0l-1 1a.5.5 0 1 0 .707.708l1-1a.5.5 0 0 0 0-.708m-8 8.708a.5.5 0 1 0-.707-.707l-1 1a.5.5 0 1 0 .707.707zm1.708-8a1.5 1.5 0 0 0-2.122 0L5.146 3.146A.5.5 0 0 0 5 3.5v3.793l-3.647 3.646a1.5 1.5 0 0 0 0 2.122l1.586 1.585a1.5 1.5 0 0 0 2.122 0L8.707 11H12.5a.5.5 0 0 0 .353-.146l1.293-1.293a1.5 1.5 0 0 0 0-2.122zm-1.415.707a.5.5 0 0 1 .707 0l5.586 5.585a.5.5 0 0 1 0 .708l-.94.939L6.208 3.5zM6 4.707L11.293 10H8.5a.5.5 0 0 0-.354.146L4.353 13.94a.5.5 0 0 1-.707 0l-1.585-1.585a.5.5 0 0 1 0-.708l3.792-3.792A.5.5 0 0 0 6 7.5zM13.5 5h1a.5.5 0 1 0 0-1h-1a.5.5 0 0 0 0 1");
+}
+
+</style>

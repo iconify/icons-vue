@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":16,"height":16};
+const content = `<path class="ww06sacns"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:arrow-hook-down-right-16-filled" /></template>
+<style>
+.ww06sacns {
+  fill: currentColor;
+  d: path("M4.462 5.087C5.117 4.412 6.068 4 7.25 4h3a.75.75 0 0 1 0 1.5h-3c-.818 0-1.367.276-1.712.631A1.96 1.96 0 0 0 5 7.5c0 .51.185 1.004.538 1.369c.345.355.894.631 1.712.631h3.19l-.72-.72a.75.75 0 0 1 1.06-1.06l2 2a.75.75 0 0 1 0 1.06l-2 2a.75.75 0 1 1-1.06-1.06l.72-.72H7.25c-1.182 0-2.133-.412-2.788-1.087A3.46 3.46 0 0 1 3.5 7.5c0-.866.315-1.746.962-2.413");
+}
+
+</style>

@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":28,"height":28};
+const content = `<path class="v6_4jzbto"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:prohibited-28-regular" /></template>
+<style>
+.v6_4jzbto {
+  fill: currentColor;
+  d: path("M14 2c6.627 0 12 5.373 12 12s-5.373 12-12 12S2 20.627 2 14S7.373 2 14 2m7.936 5.124L7.124 21.936A10.46 10.46 0 0 0 14 24.5c5.799 0 10.5-4.701 10.5-10.5c0-2.63-.967-5.034-2.564-6.876M14 3.5C8.201 3.5 3.5 8.201 3.5 14c0 2.63.967 5.034 2.564 6.876L20.876 6.064A10.46 10.46 0 0 0 14 3.5");
+}
+
+</style>

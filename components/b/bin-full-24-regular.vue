@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="zj6hvsbll"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:bin-full-24-regular" /></template>
+<style>
+.zj6hvsbll {
+  fill: currentColor;
+  d: path("M17.38 2.345a.75.75 0 0 1-.224 1.036l-11.852 7.62H9.5v-.75c0-.967.784-1.75 1.75-1.75h3.25v-.75c0-.967.784-1.75 1.75-1.75h3c.966 0 1.75.783 1.75 1.75V11h.25a.75.75 0 0 1 .75.75v7A3.25 3.25 0 0 1 18.75 22H5.25A3.25 3.25 0 0 1 2 18.75v-7a.75.75 0 0 1 .344-.632l14-9a.75.75 0 0 1 1.037.226M19.5 11V7.75a.25.25 0 0 0-.25-.25h-3a.25.25 0 0 0-.25.25V11zm-5 0v-1h-3.25a.25.25 0 0 0-.25.25V11zm-11 1.5v6.25c0 .967.784 1.75 1.75 1.75h13.5a1.75 1.75 0 0 0 1.75-1.75V12.5z");
+}
+
+</style>

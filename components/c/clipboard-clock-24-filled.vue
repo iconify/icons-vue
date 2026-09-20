@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="f57zy7blc"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:clipboard-clock-24-filled" /></template>
+<style>
+.f57zy7blc {
+  fill: currentColor;
+  d: path("M11.375 13.62c0 .345.28.625.625.625l.063-.003l.062.003h1.25a.625.625 0 0 0 0-1.25h-.75V11.37a.625.625 0 0 0-1.25 0zM13.75 2h-3.5a2.25 2.25 0 0 0-2.236 2H6.25A2.25 2.25 0 0 0 4 6.25v13.5A2.25 2.25 0 0 0 6.25 22h11.5A2.25 2.25 0 0 0 20 19.75V6.25A2.25 2.25 0 0 0 17.75 4h-1.764a2.25 2.25 0 0 0-2.236-2m-3.5 1.5h3.5a.75.75 0 0 1 0 1.5h-3.5a.75.75 0 0 1 0-1.5M12 8.25a4.75 4.75 0 1 1 0 9.5a4.75 4.75 0 0 1 0-9.5");
+}
+
+</style>

@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="rnim3vb4l"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:gas-pump-24-filled" /></template>
+<style>
+.rnim3vb4l {
+  fill: currentColor;
+  d: path("M6.75 3A2.75 2.75 0 0 0 4 5.75V20.5h-.25a.75.75 0 0 0 0 1.5h13.5a.75.75 0 0 0 0-1.5H17v-1.803a2.745 2.745 0 0 0 4-2.442v-5.838a2.75 2.75 0 0 0-.55-1.65L19.35 7.3a.75.75 0 0 0-1.2.9l1.1 1.467c.162.216.25.48.25.75v5.838a1.245 1.245 0 1 1-2.49 0V14.5a1 1 0 0 0-.01-.121V5.75A2.75 2.75 0 0 0 14.25 3zM7 6.75A.75.75 0 0 1 7.75 6h5.5a.75.75 0 0 1 .75.75v3.5a.75.75 0 0 1-.75.75h-5.5a.75.75 0 0 1-.75-.75z");
+}
+
+</style>

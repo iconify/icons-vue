@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":28,"height":28};
+const content = `<path class="rs0wihppl"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:guest-28-filled" /></template>
+<style>
+.rs0wihppl {
+  fill: currentColor;
+  d: path("M20.25 2A2.75 2.75 0 0 1 23 4.75v18.5A2.75 2.75 0 0 1 20.25 26H7.75A2.75 2.75 0 0 1 5 23.25V4.75A2.75 2.75 0 0 1 7.75 2zM12 5.75c0 .414.336.75.75.75h2.5a.75.75 0 0 0 0-1.5h-2.5a.75.75 0 0 0-.75.75m-1.25 6a3.25 3.25 0 1 0 6.5 0a3.25 3.25 0 0 0-6.5 0m.09 4.25a2.34 2.34 0 0 0-2.34 2.34c0 1.4.644 2.48 1.69 3.18c1.013.68 2.363.98 3.81.98s2.797-.3 3.81-.98c1.046-.7 1.69-1.78 1.69-3.18A2.34 2.34 0 0 0 17.16 16z");
+}
+
+</style>

@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":28,"height":28};
+const content = `<path class="yj7iqlb6g"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:building-factory-28-filled" /></template>
+<style>
+.yj7iqlb6g {
+  fill: currentColor;
+  d: path("M2.937 4.15A2.25 2.25 0 0 1 5.185 2h2.13a2.25 2.25 0 0 1 2.248 2.15l.867 19.5A2.25 2.25 0 0 1 8.182 26H4.318a2.25 2.25 0 0 1-2.247-2.35zM10.527 26a3.24 3.24 0 0 0 .902-2.394L10.89 11.5l5.856-5.307A.75.75 0 0 1 18 6.75v5.558l6.747-6.114A.75.75 0 0 1 26 6.75v16.5A2.75 2.75 0 0 1 23.25 26zM22 24.5v-6.25c0-.69-.56-1.25-1.25-1.25h-4.5c-.69 0-1.25.56-1.25 1.25v6.25z");
+}
+
+</style>

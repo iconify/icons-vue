@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="qy0diqcuj"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:table-cells-split-24-regular" /></template>
+<style>
+.qy0diqcuj {
+  fill: currentColor;
+  d: path("M12.5 10H11v4h1.5zM3 6.25A3.25 3.25 0 0 1 6.25 3h11.5A3.25 3.25 0 0 1 21 6.25v11.5A3.25 3.25 0 0 1 17.75 21H6.25A3.25 3.25 0 0 1 3 17.75zM6.25 4.5A1.75 1.75 0 0 0 4.5 6.25V7.5H11v-3zm13.25 12h-7v3h5.25a1.75 1.75 0 0 0 1.75-1.75zm0-10.25a1.75 1.75 0 0 0-1.75-1.75H12.5v3h7zM4.5 16.5v1.25c0 .966.784 1.75 1.75 1.75H11v-3zm0-1.5h15V9h-15z");
+}
+
+</style>

@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":28,"height":28};
+const content = `<path class="k390s-ksh"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:calendar-checkmark-center-28-filled" /></template>
+<style>
+.k390s-ksh {
+  fill: currentColor;
+  d: path("M25 21.75A3.25 3.25 0 0 1 21.75 25H6.25A3.25 3.25 0 0 1 3 21.75V9.5h22zm-5.97-8.53a.75.75 0 0 0-1.06 0l-5.47 5.47l-2.47-2.47l-.056-.052A.75.75 0 0 0 8.97 17.28l3 3a.75.75 0 0 0 1.06 0l6-6a.75.75 0 0 0 0-1.06M21.75 3A3.25 3.25 0 0 1 25 6.25V8H3V6.25A3.25 3.25 0 0 1 6.25 3z");
+}
+
+</style>

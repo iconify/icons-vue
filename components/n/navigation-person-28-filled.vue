@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":28,"height":28};
+const content = `<path class="gox9dsfud"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:navigation-person-28-filled" /></template>
+<style>
+.gox9dsfud {
+  fill: currentColor;
+  d: path("M2.003 6a1 1 0 0 1 1-1h22a1 1 0 1 1 0 2h-22a1 1 0 0 1-1-1M2 22a1 1 0 0 1 1-1h16.046a3.05 3.05 0 0 0-2.862 2H3a1 1 0 0 1-1-1m20.5-8a4 4 0 0 1 2.636.99A1 1 0 0 0 25 13H3a1 1 0 1 0 0 2h16.854c.705-.622 1.632-1 2.646-1m3 4a3 3 0 1 1-6 0a3 3 0 0 1 6 0m2.5 6.25c0 1.868-1.571 3.75-5.5 3.75S17 26.125 17 24.25v-.205c0-1.13.916-2.045 2.046-2.045h6.909c1.13 0 2.045.915 2.045 2.045z");
+}
+
+</style>

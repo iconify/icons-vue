@@ -1,0 +1,23 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="cuyn6tgcc"><path class="tlfou2bkt"/><path class="zjdr4feib"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:calendar-assistant-24-filled" /></template>
+<style>
+.cuyn6tgcc {
+  fill: currentColor;
+}
+
+.tlfou2bkt {
+  d: path("M21 8.5v3.522A6.5 6.5 0 0 0 12.022 21H6.25A3.25 3.25 0 0 1 3 17.75V8.5zM17.75 3A3.25 3.25 0 0 1 21 6.25V7H3v-.75A3.25 3.25 0 0 1 6.25 3z");
+}
+
+.zjdr4feib {
+  d: path("M17.5 23a5.5 5.5 0 1 0 0-11a5.5 5.5 0 0 0 0 11m-.404-9h1.433a.5.5 0 0 1 .468.676L18.5 16h.634a.47.47 0 0 1 .394.726l-2.625 4.038a.518.518 0 0 1-.926-.446L16.75 18h-.778a.5.5 0 0 1-.469-.676l1.125-3a.5.5 0 0 1 .468-.324");
+}
+
+</style>

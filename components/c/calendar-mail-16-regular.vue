@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":16,"height":16};
+const content = `<path class="e5_mv2saq"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:calendar-mail-16-regular" /></template>
+<style>
+.e5_mv2saq {
+  fill: currentColor;
+  d: path("M1 3.5A2.5 2.5 0 0 1 3.5 1h5A2.5 2.5 0 0 1 11 3.5V6h-1V4H2v4.5A1.5 1.5 0 0 0 3.5 10H4v1h-.5A2.5 2.5 0 0 1 1 8.5zM3.5 2a1.5 1.5 0 0 0-1.415 1h7.83A1.5 1.5 0 0 0 8.5 2zM5 8.5A1.5 1.5 0 0 1 6.5 7h7A1.5 1.5 0 0 1 15 8.5v5a1.5 1.5 0 0 1-1.5 1.5h-7A1.5 1.5 0 0 1 5 13.5zM6.5 8a.5.5 0 0 0-.5.5v.441l4 2l4-2V8.5a.5.5 0 0 0-.5-.5zM6 13.5a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 .5-.5v-3.441l-3.776 1.888a.5.5 0 0 1-.448 0L6 10.06z");
+}
+
+</style>

@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="gzwpr0bil"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:checkmark-lock-24-filled" /></template>
+<style>
+.gzwpr0bil {
+  fill: currentColor;
+  d: path("M12 2c5.523 0 10 4.477 10 10q0 .64-.078 1.26A3.501 3.501 0 0 0 15 14v.05a2.5 2.5 0 0 0-2 2.45v5q0 .229.04.447A10 10 0 0 1 12 22C6.477 22 2 17.523 2 12S6.477 2 12 2m3.22 6.97l-4.47 4.47l-1.97-1.97a.75.75 0 0 0-1.06 1.06l2.5 2.5a.75.75 0 0 0 1.06 0l5-5a.75.75 0 1 0-1.06-1.06m3.28 2.53A2.5 2.5 0 0 1 21 14v1h.542A1.5 1.5 0 0 1 23 16.5v5a1.5 1.5 0 0 1-1.5 1.5h-6a1.5 1.5 0 0 1-1.5-1.5v-5a1.5 1.5 0 0 1 1.5-1.5h.5v-1a2.5 2.5 0 0 1 2.5-2.5m-.393 8.42q.182.078.393.08a1 1 0 1 0-.393-.08M17.5 14v1h2v-1a1 1 0 1 0-2 0");
+}
+
+</style>

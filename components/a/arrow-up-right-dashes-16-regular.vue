@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":16,"height":16};
+const content = `<path class="yf5xu1bws"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:arrow-up-right-dashes-16-regular" /></template>
+<style>
+.yf5xu1bws {
+  fill: currentColor;
+  d: path("M7.5 2a.5.5 0 0 0 0 1h4.793l-2.147 2.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6a.5.5 0 0 0-.5-.5zm1.354 5.854a.5.5 0 1 0-.708-.708l-2 2a.5.5 0 1 0 .708.708zm-4 4a.5.5 0 0 0-.708-.708l-2 2a.5.5 0 0 0 .708.708z");
+}
+
+</style>

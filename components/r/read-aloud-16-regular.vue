@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":16,"height":16};
+const content = `<path class="qs3f6rb8e"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:read-aloud-16-regular" /></template>
+<style>
+.qs3f6rb8e {
+  fill: currentColor;
+  d: path("M10.032 1.325a.5.5 0 0 1 .644-.293l.003.001l.004.002l.013.005a2 2 0 0 1 .19.083c.123.059.294.147.498.27c.406.245.944.632 1.48 1.202C13.945 3.744 15 5.615 15 8.5a.5.5 0 0 1-1 0c0-2.614-.945-4.244-1.864-5.22a6 6 0 0 0-1.27-1.032a5 5 0 0 0-.539-.279h-.003l-.001-.001a.5.5 0 0 1-.291-.643m-3.068 1.99a.5.5 0 0 0-.928 0l-4 10a.5.5 0 1 0 .928.37L4.04 11h4.923l1.074 2.686a.5.5 0 1 0 .928-.372zM8.562 10H4.439L6.5 4.847zm1.662-6.447a.5.5 0 0 0-.45.893l.01.006l.048.027q.068.038.191.125c.164.115.383.293.603.54c.436.491.874 1.253.874 2.356a.5.5 0 0 0 1 0c0-1.396-.562-2.385-1.126-3.02a4.6 4.6 0 0 0-1.034-.863l-.08-.045l-.024-.012l-.007-.004l-.003-.002zs.158.09-.001-.001m-.45.893l.002.001Z");
+}
+
+</style>

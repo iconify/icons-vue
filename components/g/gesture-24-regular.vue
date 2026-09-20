@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="sovw6dbbm"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:gesture-24-regular" /></template>
+<style>
+.sovw6dbbm {
+  fill: currentColor;
+  d: path("M3.75 17.5a.75.75 0 1 1 0 1.5a.75.75 0 0 1 0-1.5M6.749 4.005h10.505a.75.75 0 0 1 .101 1.493l-.102.007h-6.502L20.524 9.3a.75.75 0 0 1 .16 1.313l-.095.057L6.1 17.928a.75.75 0 0 1-.76-1.29l.088-.051l12.976-6.5L6.477 5.454c-.74-.288-.575-1.351.167-1.443zh10.505zM19.75 4a.75.75 0 1 1 0 1.5a.75.75 0 0 1 0-1.5");
+}
+
+</style>

@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="b7r7h8bvf"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:clothes-hanger-24-filled" /></template>
+<style>
+.b7r7h8bvf {
+  fill: currentColor;
+  d: path("M12 4.5a1.5 1.5 0 0 0-1.376.9a1 1 0 0 1-1.832-.8q.165-.376.408-.7a3.5 3.5 0 1 1 4.294 5.266a1.3 1.3 0 0 0-.414.293c-.08.092-.08.137-.08.142c0 .037.02.072.052.09l7.543 4.19A2.731 2.731 0 0 1 19.27 19H4.743a2.743 2.743 0 0 1-1.37-5.12L9 10.635a1 1 0 0 1 1 1.732l-5.628 3.247A.743.743 0 0 0 4.743 17H19.27a.731.731 0 0 0 .355-1.37l-7.543-4.191A2.1 2.1 0 0 1 11 9.602c0-1.208.984-1.935 1.64-2.244A1.5 1.5 0 0 0 12 4.5");
+}
+
+</style>

@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="ppnos9b1e"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:text-position-line-24-filled" /></template>
+<style>
+.ppnos9b1e {
+  fill: currentColor;
+  d: path("M3.75 3.75a1 1 0 0 0 0 2h16.5a1 1 0 1 0 0-2zm3.25 5A2.25 2.25 0 0 0 4.75 11v4.75a1 1 0 1 1-2 0V11a4.25 4.25 0 0 1 8.5 0v4.75a1 1 0 1 1-2 0V11A2.25 2.25 0 0 0 7 8.75m6.75 5.5a1 1 0 1 0 0 2h6.5a1 1 0 1 0 0-2zm-10 3.5a1 1 0 1 0 0 2h16.5a1 1 0 1 0 0-2z");
+}
+
+</style>

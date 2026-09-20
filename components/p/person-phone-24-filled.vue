@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="zrlrgzbla"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:person-phone-24-filled" /></template>
+<style>
+.zrlrgzbla {
+  fill: currentColor;
+  d: path("M14 21.372V14H4.253a2.25 2.25 0 0 0-2.25 2.249v.92c0 .572.18 1.13.511 1.596C4.056 20.929 6.58 22 10 22c1.51 0 2.847-.209 4-.629M10 2.005a5 5 0 1 1 0 10a5 5 0 0 1 0-10M21.255 10c.966 0 1.75.784 1.75 1.75v9.5a1.75 1.75 0 0 1-1.75 1.75H16.75A1.75 1.75 0 0 1 15 21.25v-9.5c0-.966.784-1.75 1.75-1.75zm-2.002 8.997h-.5l-.102.007a.75.75 0 0 0 .102 1.493h.5l.101-.007a.75.75 0 0 0-.101-1.493");
+}
+
+</style>

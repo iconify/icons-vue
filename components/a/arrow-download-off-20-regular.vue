@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":20,"height":20};
+const content = `<path class="l5668accs"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:arrow-download-off-20-regular" /></template>
+<style>
+.l5668accs {
+  fill: currentColor;
+  d: path("M2.854 2.146a.5.5 0 1 0-.708.708l7.351 7.35l-.001 4.083l-3.646-3.64l-.069-.059a.5.5 0 0 0-.637.766L9.6 15.806a.5.5 0 0 0 .395.194l.106-.01a.5.5 0 0 0 .255-.137l2.393-2.396l4.396 4.397a.5.5 0 0 0 .708-.708zm9.187 10.602l-1.545 1.547l.001-3.09zm2.121-.707l-.707-.707l.686-.687a.5.5 0 0 1 .638-.059l.07.058a.5.5 0 0 1 .058.638l-.058.07zM9.498 7.377l1 1L10.5 2.5l-.008-.09a.5.5 0 0 0-.992.09zM15.5 17a.5.5 0 0 1 .09.992L15.5 18h-11a.5.5 0 0 1-.09-.992L4.5 17z");
+}
+
+</style>

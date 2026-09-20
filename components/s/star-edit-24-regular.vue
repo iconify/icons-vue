@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="s05cnvbcu"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:star-edit-24-regular" /></template>
+<style>
+.s05cnvbcu {
+  fill: currentColor;
+  d: path("M13.209 3.102c-.495-1.003-1.926-1.003-2.421 0L8.43 7.88l-5.273.766c-1.107.16-1.55 1.522-.748 2.303l3.815 3.719l-.9 5.25c-.19 1.104.968 1.945 1.959 1.424l2.944-1.548l.304-1.217q.105-.416.299-.795l-3.976 2.09l.862-5.028a1.35 1.35 0 0 0-.388-1.195l-3.654-3.562l5.05-.734c.44-.064.82-.34 1.016-.739l2.258-4.575l2.259 4.575a1.35 1.35 0 0 0 1.016.739l4.45.647a3.27 3.27 0 0 1 2.052.724c.529-.792.072-1.932-.935-2.078l-5.273-.766zM18.1 11.67l-5.896 5.902a2.7 2.7 0 0 0-.706 1.248l-.457 1.83a1.086 1.086 0 0 0 1.317 1.319l1.829-.458a2.7 2.7 0 0 0 1.246-.706l5.896-5.903a2.287 2.287 0 0 0 0-3.232a2.28 2.28 0 0 0-3.229 0");
+}
+
+</style>

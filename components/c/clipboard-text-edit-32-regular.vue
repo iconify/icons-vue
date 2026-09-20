@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":32,"height":32};
+const content = `<path class="b2zvalgas"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:clipboard-text-edit-32-regular" /></template>
+<style>
+.b2zvalgas {
+  fill: currentColor;
+  d: path("M10 13a1 1 0 0 1 1-1h10a1 1 0 1 1 0 2H11a1 1 0 0 1-1-1m1 4a1 1 0 1 0 0 2h5a1 1 0 1 0 0-2zm-1 6a1 1 0 0 1 1-1h6.858l-1.983 2H11a1 1 0 0 1-1-1m3.937 5H8.5A1.5 1.5 0 0 1 7 26.5v-19A1.5 1.5 0 0 1 8.5 6h1.67A3 3 0 0 0 13 8h6a3 3 0 0 0 2.83-2h1.67A1.5 1.5 0 0 1 25 7.5v7.544a4.4 4.4 0 0 1 2-.545V7.5A3.5 3.5 0 0 0 23.5 4h-1.67A3 3 0 0 0 19 2h-6a3 3 0 0 0-2.83 2H8.5A3.5 3.5 0 0 0 5 7.5v19A3.5 3.5 0 0 0 8.5 30h5q0-.309.082-.63zM13 4h6a1 1 0 1 1 0 2h-6a1 1 0 1 1 0-2m16.144 16.924l-8.61 8.543a2.8 2.8 0 0 1-1.269.721l-3.02.778a1 1 0 0 1-1.216-1.22l.79-3.05a2.66 2.66 0 0 1 .686-1.206l8.567-8.64a2.88 2.88 0 0 1 4.144.057a2.88 2.88 0 0 1-.072 4.017");
+}
+
+</style>

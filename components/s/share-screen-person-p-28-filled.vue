@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":28,"height":28};
+const content = `<path class="md8bg0bse"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:share-screen-person-p-28-filled" /></template>
+<style>
+.md8bg0bse {
+  fill: currentColor;
+  d: path("M2 7.75A3.75 3.75 0 0 1 5.75 4h16.5A3.75 3.75 0 0 1 26 7.75v9a.25.25 0 0 1-.25.25a.263.263 0 0 1-.258-.25A4 4 0 1 0 18.854 20h-.808A3.045 3.045 0 0 0 15 23.045v.205q0 .377.066.75H5.75A3.75 3.75 0 0 1 2 20.25zm6 2v8.5a.75.75 0 0 0 1.5 0V16h2a3.5 3.5 0 1 0 0-7H8.75a.75.75 0 0 0-.75.75m1.5 4.75h2a2 2 0 1 0 0-4h-2zm15 2.5a3 3 0 1 1-6 0a3 3 0 0 1 6 0m2.5 6.25c0 1.868-1.571 3.75-5.5 3.75S16 25.125 16 23.25v-.205c0-1.13.916-2.045 2.046-2.045h6.909c1.13 0 2.045.915 2.045 2.045z");
+}
+
+</style>

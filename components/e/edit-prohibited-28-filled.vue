@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":28,"height":28};
+const content = `<path class="niid7ccxm"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:edit-prohibited-28-filled" /></template>
+<style>
+.niid7ccxm {
+  fill: currentColor;
+  d: path("M19.289 3.15a3.932 3.932 0 1 1 5.56 5.56l-1.54 1.54l-5.56-5.56zm-2.6 2.6L4.502 17.937c-.44.44-.76.986-.928 1.586l-1.547 5.525a.75.75 0 0 0 .924.924l5.524-1.547a3.6 3.6 0 0 0 1.587-.928l2.002-2.002a7.5 7.5 0 0 1 8.43-8.43l1.754-1.754zM19.5 27a6.5 6.5 0 1 0 0-13a6.5 6.5 0 0 0 0 13m0-1.5a4.98 4.98 0 0 1-2.965-.974l6.991-6.991A5 5 0 0 1 19.5 25.5m2.965-9.026l-6.991 6.991a5 5 0 0 1 6.991-6.991");
+}
+
+</style>

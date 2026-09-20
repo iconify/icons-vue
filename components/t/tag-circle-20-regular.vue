@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":20,"height":20};
+const content = `<path class="kjp1webrd"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:tag-circle-20-regular" /></template>
+<style>
+.kjp1webrd {
+  fill: currentColor;
+  d: path("M7.5 7A1.5 1.5 0 0 0 6 8.5v3A1.5 1.5 0 0 0 7.5 13h4.058c.4 0 .789-.137 1.1-.39l1.786-1.444a1.5 1.5 0 0 0 0-2.332L12.658 7.39a1.75 1.75 0 0 0-1.1-.39zM7 8.5a.5.5 0 0 1 .5-.5h4.058a.75.75 0 0 1 .471.167l1.786 1.444a.5.5 0 0 1 0 .778l-1.786 1.444a.75.75 0 0 1-.471.167H7.5a.5.5 0 0 1-.5-.5zM10 2a8 8 0 1 0 0 16a8 8 0 0 0 0-16m-7 8a7 7 0 1 1 14 0a7 7 0 0 1-14 0");
+}
+
+</style>

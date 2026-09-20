@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":20,"height":20};
+const content = `<path class="ofnwrx1az"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:font-space-tracking-in-20-regular" /></template>
+<style>
+.ofnwrx1az {
+  fill: currentColor;
+  d: path("M12.992 12.004a.5.5 0 0 0 .466-.32l3.508-9.02a.5.5 0 1 0-.931-.363l-3.043 7.823L9.95 2.301a.5.5 0 1 0-.932.363l3.508 9.02a.5.5 0 0 0 .466.32M7.47 2.3a.5.5 0 0 0-.932 0L4.204 8.305l-.009.021l-1.165 2.996a.5.5 0 1 0 .932.363l1.046-2.688H9l1.046 2.688a.5.5 0 1 0 .932-.363L9.832 8.375a.5.5 0 0 0-.044-.114zm1.142 5.696H5.397l1.607-4.135zm-2.118 5.125a.5.5 0 1 0-.65.76l1.306 1.12H3.496a.5.5 0 0 0 0 1h3.651l-1.304 1.12a.5.5 0 1 0 .651.759l2.33-2.002a.5.5 0 0 0 0-.759zm7.713 4.705a.5.5 0 0 1-.706.054l-2.33-1.998a.5.5 0 0 1 0-.759l2.33-2.002a.5.5 0 1 1 .652.759L12.848 15H16.5a.5.5 0 1 1 0 1h-3.654l1.306 1.121a.5.5 0 0 1 .055.705");
+}
+
+</style>

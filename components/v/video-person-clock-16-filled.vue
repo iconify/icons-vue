@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":16,"height":16};
+const content = `<path class="vcv8_gbof"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:video-person-clock-16-filled" /></template>
+<style>
+.vcv8_gbof {
+  fill: currentColor;
+  d: path("M9 5a2 2 0 1 1-4 0a2 2 0 0 1 4 0M1.75 1A1.75 1.75 0 0 0 0 2.75v6.5C0 10.216.784 11 1.75 11h4.272a5.5 5.5 0 0 1 1.235-3H5a1 1 0 0 0-1 1v1H1.75A.75.75 0 0 1 1 9.25v-6.5A.75.75 0 0 1 1.75 2h10.5a.75.75 0 0 1 .75.75v3.457q.524.149 1 .393V2.75A1.75 1.75 0 0 0 12.25 1zM16 11.5a4.5 4.5 0 1 1-9 0a4.5 4.5 0 0 1 9 0M11.5 9a.5.5 0 0 0-.5.5v2a.5.5 0 0 0 .5.5H13a.5.5 0 0 0 0-1h-1V9.5a.5.5 0 0 0-.5-.5");
+}
+
+</style>

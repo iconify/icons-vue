@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":16,"height":16};
+const content = `<path class="mqqvaybqh"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:desktop-arrow-down-16-regular" /></template>
+<style>
+.mqqvaybqh {
+  fill: currentColor;
+  d: path("M15 5.5a4.5 4.5 0 1 1-9 0a4.5 4.5 0 0 1 9 0m-4.854 2.353l.003.003a.5.5 0 0 0 .348.144h.006a.5.5 0 0 0 .35-.146l2-2a.5.5 0 0 0-.707-.708L11 6.293V3.5a.5.5 0 0 0-1 0v2.793L8.854 5.146a.5.5 0 1 0-.708.708zM12 10.997a1 1 0 0 0 .89-.542q.6-.29 1.11-.712v.254a2 2 0 0 1-2 2h-1.997V13h1.5a.5.5 0 1 1 0 1H4.505A.505.505 0 0 1 4 13.5c0-.276.23-.5.506-.5h1.499L6 11.997H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h2.257A5.5 5.5 0 0 0 5.6 3H4a1 1 0 0 0-1 1v5.997a1 1 0 0 0 1 1zm-2.997 1H7L7.005 13h1.998z");
+}
+
+</style>

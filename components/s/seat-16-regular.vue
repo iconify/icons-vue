@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":16,"height":16};
+const content = `<path class="uleumb5gh"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:seat-16-regular" /></template>
+<style>
+.uleumb5gh {
+  fill: currentColor;
+  d: path("M4.5 2A2.5 2.5 0 0 0 2 4.5v7.75c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0 0 14 12.25V4.5A2.5 2.5 0 0 0 11.5 2zM13 7.5a2.5 2.5 0 0 0-1.5-.5c-.744 0-1.412.325-1.87.84a1.997 1.997 0 0 0-3.26 0A2.5 2.5 0 0 0 4.5 7c-.563 0-1.082.186-1.5.5v-3A1.5 1.5 0 0 1 4.5 3h7A1.5 1.5 0 0 1 13 4.5zm-3 2a1.5 1.5 0 0 1 3 0v2.75a.75.75 0 0 1-.75.75H10zM9 9v4H7V9a1 1 0 0 1 2 0m-5.25 4a.75.75 0 0 1-.75-.75V9.5a1.5 1.5 0 1 1 3 0V13z");
+}
+
+</style>

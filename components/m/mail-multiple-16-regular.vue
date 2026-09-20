@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":16,"height":16};
+const content = `<path class="q8-gkl7hk"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:mail-multiple-16-regular" /></template>
+<style>
+.q8-gkl7hk {
+  fill: currentColor;
+  d: path("M1 10V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2m10-7H3a1 1 0 0 0-1 1v.74l5 2.692l5-2.692V4a1 1 0 0 0-1-1M6.763 8.44L2 5.876V10a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V5.876L7.237 8.44a.5.5 0 0 1-.474 0M5 14a2 2 0 0 1-1.732-1H11a3 3 0 0 0 3-3V4.268A2 2 0 0 1 15 6v4a4 4 0 0 1-4 4z");
+}
+
+</style>

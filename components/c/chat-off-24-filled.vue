@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="gux7gdgga"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:chat-off-24-filled" /></template>
+<style>
+.gux7gdgga {
+  fill: currentColor;
+  d: path("M3.28 2.22a.75.75 0 1 0-1.06 1.06l2.198 2.2A9.96 9.96 0 0 0 2 12a9.96 9.96 0 0 0 1.145 4.65l-1.116 4.29a.85.85 0 0 0 1.036 1.036l4.29-1.117A9.96 9.96 0 0 0 12 22c2.491 0 4.77-.911 6.52-2.418l2.2 2.198a.75.75 0 0 0 1.06-1.06zm10.14 12.26l-.066.012l-.102.007H8.75l-.102-.007a.75.75 0 0 1 0-1.486L8.75 13h3.19zM9.94 11H8.75l-.102-.007a.75.75 0 0 1-.161-1.445zm5.31 0h-1.068l6.3 6.3A9.95 9.95 0 0 0 22 12c0-5.523-4.477-10-10-10a9.95 9.95 0 0 0-5.3 1.518L12.682 9.5h2.568l.102.007a.75.75 0 0 1 0 1.486z");
+}
+
+</style>

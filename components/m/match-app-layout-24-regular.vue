@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="ut_olkb8c"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:match-app-layout-24-regular" /></template>
+<style>
+.ut_olkb8c {
+  fill: currentColor;
+  d: path("M9.282 8c.966 0 1.75.784 1.75 1.75v4.5A1.75 1.75 0 0 1 9.282 16H3.75A1.75 1.75 0 0 1 2 14.25v-4.5a1.75 1.75 0 0 1 1.606-1.744L3.75 8zM20.25 8c.966 0 1.75.784 1.75 1.75v4.5A1.75 1.75 0 0 1 20.25 16h-5.532a1.75 1.75 0 0 1-1.75-1.75v-4.5c0-.966.784-1.75 1.75-1.75zM9.282 9.5H3.75l-.057.007a.25.25 0 0 0-.193.243v4.5c0 .138.112.25.25.25h5.532a.25.25 0 0 0 .25-.25v-4.5a.25.25 0 0 0-.25-.25m10.968 0h-5.532a.25.25 0 0 0-.25.25v4.5c0 .138.112.25.25.25h5.532a.25.25 0 0 0 .25-.25v-4.5a.25.25 0 0 0-.25-.25");
+}
+
+</style>

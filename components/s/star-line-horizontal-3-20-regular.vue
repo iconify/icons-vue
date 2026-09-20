@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":20,"height":20};
+const content = `<path class="zopcbib4e"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:star-line-horizontal-3-20-regular" /></template>
+<style>
+.zopcbib4e {
+  fill: currentColor;
+  d: path("M9.104 2.9a1 1 0 0 1 1.794 0L12.922 7H17.5a.5.5 0 1 1 0 1h-4.58a1 1 0 0 1-.896-.557L10 3.342L8.07 7.253a1 1 0 0 1-.753.547L3 8.428l3.124 3.044a1 1 0 0 1 .287.885l-.737 4.3l4.093-2.153a.5.5 0 0 1 .466.886L6.14 17.542a1 1 0 0 1-1.45-1.055l.737-4.299l-3.124-3.044a1 1 0 0 1 .554-1.706l4.317-.627zM12 10.5a.5.5 0 0 1 .5-.5h5a.5.5 0 1 1 0 1h-5a.5.5 0 0 1-.5-.5m.5 2.5a.5.5 0 1 0 0 1h5a.5.5 0 0 0 0-1z");
+}
+
+</style>

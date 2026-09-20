@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":12,"height":12};
+const content = `<path class="nmhchcbml"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:glance-horizontal-12-filled" /></template>
+<style>
+.nmhchcbml {
+  fill: currentColor;
+  d: path("M2.5 6A1.5 1.5 0 0 1 1 4.5v-2A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v2A1.5 1.5 0 0 1 5.5 6zm4 5A1.5 1.5 0 0 1 5 9.5v-1A1.5 1.5 0 0 1 6.5 7h3A1.5 1.5 0 0 1 11 8.5v1A1.5 1.5 0 0 1 9.5 11zM8 4.5a1.5 1.5 0 1 0 3 0v-2a1.5 1.5 0 0 0-3 0zM2.5 11A1.5 1.5 0 0 1 1 9.5v-1a1.5 1.5 0 1 1 3 0v1A1.5 1.5 0 0 1 2.5 11");
+}
+
+</style>

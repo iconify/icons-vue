@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="ray2i9bow"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:text-indent-decrease-rtl-24-filled" /></template>
+<style>
+.ray2i9bow {
+  fill: currentColor;
+  d: path("M5.5 7a1 1 0 0 0 1 1H15l.117-.007A1 1 0 0 0 15 6H6.5l-.117.007A1 1 0 0 0 5.5 7m-2 6.001L15 13l.117-.007A1 1 0 0 0 15 11l-11.5.001l-.117.007A1 1 0 0 0 3.5 13m2 4a1 1 0 0 0 1 1H15l.117-.007A1 1 0 0 0 15 16H6.5l-.117.007A1 1 0 0 0 5.5 17m14.113-2.21a1 1 0 0 1-1.32-1.497L19.586 12l-1.293-1.293l-.083-.094a1 1 0 0 1 1.497-1.32l2 2l.083.094a1 1 0 0 1-.083 1.32l-2 2z");
+}
+
+</style>

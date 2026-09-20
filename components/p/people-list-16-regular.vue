@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":16,"height":16};
+const content = `<path class="vpsuq4blh"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:people-list-16-regular" /></template>
+<style>
+.vpsuq4blh {
+  fill: currentColor;
+  d: path("M7.5 9c.194 0 .382.03.56.081a1.5 1.5 0 0 0 .025.919H2.5a1 1 0 0 0-1 1c0 .508.304.992.932 1.375S3.966 13 5 13s1.94-.242 2.568-.625c.205-.124.372-.263.508-.406c.065.198.17.379.306.531a1.5 1.5 0 0 0-.363.77C7.208 13.742 6.142 14 5 14c-1.175 0-2.27-.272-3.089-.77C1.091 12.73.5 11.965.5 11a2 2 0 0 1 2-2zm7 4a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1zm0-2a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1zm0-2a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1zM5 2.5A2.75 2.75 0 1 1 5 8a2.75 2.75 0 0 1 0-5.5m7.231 1.009a2.253 2.253 0 0 1 2.023 2.24l-.012.23A2.253 2.253 0 0 1 12.022 8h-.04l-.21-.01a2.25 2.25 0 0 1-2.01-2.011l-.012-.23a2.25 2.25 0 0 1 2.252-2.252zm-.229.988a1.252 1.252 0 1 0 0 2.504a1.252 1.252 0 0 0 0-2.504M5 3.5A1.75 1.75 0 1 0 5 7a1.75 1.75 0 0 0 0-3.5");
+}
+
+</style>

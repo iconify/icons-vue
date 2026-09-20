@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":20,"height":20};
+const content = `<path class="q1rgp1d1j"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:drive-train-20-regular" /></template>
+<style>
+.q1rgp1d1j {
+  fill: currentColor;
+  d: path("M3 4a2 2 0 1 1 4 0v1h1.585a1.5 1.5 0 0 1 2.83 0H13V4a2 2 0 1 1 4 0v3a2 2 0 1 1-4 0V6h-1.585a1.5 1.5 0 0 1-.915.915v6.17c.426.151.764.489.915.915H13v-1a2 2 0 1 1 4 0v3a2 2 0 1 1-4 0v-1h-1.585a1.5 1.5 0 0 1-2.83 0H7v1a2 2 0 1 1-4 0v-3a2 2 0 1 1 4 0v1h1.585c.151-.426.489-.764.915-.915v-6.17A1.5 1.5 0 0 1 8.585 6H7v1a2 2 0 1 1-4 0zm2-1a1 1 0 0 0-1 1v3a1 1 0 0 0 2 0V4a1 1 0 0 0-1-1m10 0a1 1 0 0 0-1 1v3a1 1 0 1 0 2 0V4a1 1 0 0 0-1-1M5 12a1 1 0 0 0-1 1v3a1 1 0 1 0 2 0v-3a1 1 0 0 0-1-1m9 1v3a1 1 0 1 0 2 0v-3a1 1 0 1 0-2 0");
+}
+
+</style>

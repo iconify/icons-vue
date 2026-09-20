@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":16,"height":16};
+const content = `<path class="bux3fvzcw"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:document-table-16-filled" /></template>
+<style>
+.bux3fvzcw {
+  fill: currentColor;
+  d: path("M6 9.25A.25.25 0 0 1 6.25 9H7v1H6zM6 11h1v1h-.75a.25.25 0 0 1-.25-.25zm4 .75V11H8v1h1.75a.25.25 0 0 0 .25-.25M8 9v1h2v-.75A.25.25 0 0 0 9.75 9zm0-4.5V1H4.5A1.5 1.5 0 0 0 3 2.5v11A1.5 1.5 0 0 0 4.5 15h7a1.5 1.5 0 0 0 1.5-1.5V6H9.5A1.5 1.5 0 0 1 8 4.5M5 9.25C5 8.56 5.56 8 6.25 8h3.5c.69 0 1.25.56 1.25 1.25v2.5c0 .69-.56 1.25-1.25 1.25h-3.5C5.56 13 5 12.44 5 11.75zM9 4.5V1.25L12.75 5H9.5a.5.5 0 0 1-.5-.5");
+}
+
+</style>

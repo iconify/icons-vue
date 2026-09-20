@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":16,"height":16};
+const content = `<path class="najk91b1h"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:road-cone-16-regular" /></template>
+<style>
+.najk91b1h {
+  fill: currentColor;
+  d: path("M7.462 1a1 1 0 0 0-.97.757L3.43 14H1.5a.5.5 0 0 0 0 1h13a.5.5 0 0 0 0-1h-1.931L9.509 1.757A1 1 0 0 0 8.538 1zm4.076 13H4.462l.625-2.5H9.25a.5.5 0 0 0 0-1H5.337l.5-2H8.5a.5.5 0 0 0 0-1H6.087L7.462 2h1.076z");
+}
+
+</style>

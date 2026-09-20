@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":20,"height":20};
+const content = `<path class="c4lq0yq5s"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:weather-squalls-20-filled" /></template>
+<style>
+.c4lq0yq5s {
+  fill: currentColor;
+  d: path("M6.073 5.812A3.498 3.498 0 0 1 13 6.499A3.5 3.5 0 0 1 9.5 10H2.75a.75.75 0 1 1 0-1.5H9.5a2.001 2.001 0 0 0 .002-4c-.952 0-1.772.672-1.958 1.606l-.059.291a.75.75 0 0 1-1.47-.294zm7.287 3.542A2.45 2.45 0 0 1 18 10.449v.051a2.5 2.5 0 0 1-2.5 2.5h-.916a2.378 2.378 0 0 1-2.212 3.25a2.38 2.38 0 0 1-1.98-1.056l-.015-.024a.75.75 0 1 1 1.246-.834l.016.024c.163.243.439.39.733.39a.875.875 0 1 0 .003-1.75H2.75a.75.75 0 0 1 0-1.5H15.5a1 1 0 0 0 1-1v-.05a.95.95 0 0 0-1.799-.425l-.03.06a.75.75 0 1 1-1.342-.67z");
+}
+
+</style>

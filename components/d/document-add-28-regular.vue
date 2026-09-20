@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":28,"height":28};
+const content = `<path class="ckg3o5jwl"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:document-add-28-regular" /></template>
+<style>
+.ckg3o5jwl {
+  fill: currentColor;
+  d: path("M22.45 23.6a.9.9 0 0 1-.9.9h-7.704A7.5 7.5 0 0 1 12.6 26h8.95a2.4 2.4 0 0 0 2.4-2.4V11.395a2.4 2.4 0 0 0-.703-1.697l-6.994-6.994c-.052-.052-.11-.096-.167-.14l-.056-.043a2.4 2.4 0 0 0-1.004-.474A2.4 2.4 0 0 0 14.555 2H6.4A2.4 2.4 0 0 0 4 4.401v9.465a7.5 7.5 0 0 1 1.5-.596V4.401c0-.497.404-.901.9-.901h7.55V10a2 2 0 0 0 2 2l6.5-.001zm-7-19.577l6.478 6.476l-5.978.001a.5.5 0 0 1-.5-.5zM14 20.5a6.5 6.5 0 1 1-13 0a6.5 6.5 0 0 1 13 0m-6-4a.5.5 0 0 0-1 0V20H3.5a.5.5 0 0 0 0 1H7v3.5a.5.5 0 1 0 1 0V21h3.5a.5.5 0 1 0 0-1H8z");
+}
+
+</style>

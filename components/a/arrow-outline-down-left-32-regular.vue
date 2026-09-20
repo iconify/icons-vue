@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":32,"height":32};
+const content = `<path class="s7q500bpt"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:arrow-outline-down-left-32-regular" /></template>
+<style>
+.s7q500bpt {
+  fill: currentColor;
+  d: path("M17.793 2.878a3 3 0 0 1 4.243 0l7.09 7.09a3 3 0 0 1 0 4.243l-6.902 6.902l1.749 1.748c2.122 2.122.765 5.755-2.228 5.967L5.212 29.996a3 3 0 0 1-3.204-3.204l1.167-16.53c.21-2.993 3.844-4.35 5.965-2.23l1.75 1.75zm2.829 1.415a1 1 0 0 0-1.415 0l-7.61 7.61a1 1 0 0 1-1.414 0L7.726 9.447c-.909-.909-2.466-.327-2.556.956l-1.167 16.53A1 1 0 0 0 5.07 28l16.533-1.167c1.283-.09 1.864-1.648.955-2.557l-2.456-2.456a1 1 0 0 1 0-1.414l7.608-7.61a1 1 0 0 0 0-1.413z");
+}
+
+</style>

@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":20,"height":20};
+const content = `<path class="s1h6xcc0z"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:people-swap-20-filled" /></template>
+<style>
+.s1h6xcc0z {
+  fill: currentColor;
+  d: path("M10 6.75a3.25 3.25 0 1 1-6.5 0a3.25 3.25 0 0 1 6.5 0m1.352 4.776L9.44 13.44a1.5 1.5 0 0 0 0 2.122l.647.646C9.321 16.674 8.25 17 6.75 17C1.5 17 1.5 13 1.5 13a2 2 0 0 1 2-2H10c.521 0 .996.2 1.352.526M14.5 10a2.5 2.5 0 1 0 0-5a2.5 2.5 0 0 0 0 5m-1.646 2.854a.5.5 0 0 0-.708-.708l-2 2a.5.5 0 0 0 0 .708l2 2a.5.5 0 0 0 .708-.708L11.707 15h5.586l-1.147 1.146a.5.5 0 0 0 .708.708l2-2a.5.5 0 0 0 0-.708l-2-2a.5.5 0 0 0-.708.708L17.293 14h-5.586z");
+}
+
+</style>

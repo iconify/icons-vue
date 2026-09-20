@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":20,"height":20};
+const content = `<path class="rh1dvpk-z"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:laptop-settings-20-regular" /></template>
+<style>
+.rh1dvpk-z {
+  fill: currentColor;
+  d: path("M3 7a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v2.6a5.5 5.5 0 0 0-1-.393V7a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v5a1 1 0 0 0 1 1h4.207a5.5 5.5 0 0 0-.185 1H5a2 2 0 0 1-2-2zm6.207 9a5.5 5.5 0 0 1-.185-1H2.5a.5.5 0 0 0 0 1zm2.858-4.558a2 2 0 0 1-1.43 2.478l-.462.118a4.7 4.7 0 0 0 .01 1.016l.35.083a2 2 0 0 1 1.456 2.519l-.127.423q.388.306.835.517l.325-.344a2 2 0 0 1 2.91.002l.337.358q.44-.203.822-.498l-.156-.556a2 2 0 0 1 1.43-2.478l.46-.118a4.7 4.7 0 0 0-.01-1.017l-.348-.082a2 2 0 0 1-1.456-2.52l.126-.421a4.3 4.3 0 0 0-.835-.519l-.325.344a2 2 0 0 1-2.91-.001l-.337-.358a4.3 4.3 0 0 0-.821.497zm2.434 4.058a1 1 0 1 1 0-2a1 1 0 0 1 0 2");
+}
+
+</style>

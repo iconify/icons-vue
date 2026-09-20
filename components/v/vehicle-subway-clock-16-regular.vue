@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":16,"height":16};
+const content = `<path class="sodzv7hjg"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:vehicle-subway-clock-16-regular" /></template>
+<style>
+.sodzv7hjg {
+  fill: currentColor;
+  d: path("M9 4.5a4.5 4.5 0 1 1-9 0a4.5 4.5 0 0 1 9 0M4.5 2a.5.5 0 0 0-.5.5v2a.5.5 0 0 0 .5.5H6a.5.5 0 0 0 0-1H5V2.5a.5.5 0 0 0-.5-.5m2.35 7.474c-.57.27-1.193.444-1.85.504V10a1 1 0 1 0 1.85-.526M9.4 7a5.5 5.5 0 0 1-.657 1H13v2.5a1.5 1.5 0 0 1-1.5 1.5h-7A1.5 1.5 0 0 1 3 10.5v-.707A5.5 5.5 0 0 1 2 9.4v1.1A2.5 2.5 0 0 0 4.5 13h.617l-1.865 1.066a.5.5 0 1 0 .496.868L7.133 13h1.734l3.385 1.934a.5.5 0 1 0 .496-.868L10.883 13h.617a2.5 2.5 0 0 0 2.5-2.5v-6A2.5 2.5 0 0 0 11.5 2H9.4q.244.476.393 1H11.5A1.5 1.5 0 0 1 13 4.5V7zm.6 4a1 1 0 1 0 0-2a1 1 0 0 0 0 2");
+}
+
+</style>

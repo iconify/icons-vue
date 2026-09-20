@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":28,"height":28};
+const content = `<path class="jqeoapbwi"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:phone-chat-28-regular" /></template>
+<style>
+.jqeoapbwi {
+  fill: currentColor;
+  d: path("M7 4.75A2.75 2.75 0 0 1 9.75 2h8.5A2.75 2.75 0 0 1 21 4.75v8.266a7.6 7.6 0 0 0-1.5.05V4.75c0-.69-.56-1.25-1.25-1.25h-8.5c-.69 0-1.25.56-1.25 1.25v18.5c0 .69.56 1.25 1.25 1.25h3.77l-.44 1.5H9.75A2.75 2.75 0 0 1 7 23.25zM27 20.5a6.5 6.5 0 0 1-9.647 5.688l-2.717.791a.5.5 0 0 1-.62-.62l.795-2.713a6.5 6.5 0 1 1 12.19-3.146M18 19a.5.5 0 0 0 0 1h5a.5.5 0 1 0 0-1zm-.5 2.5a.5.5 0 0 0 .5.5h2.5a.5.5 0 1 0 0-1H18a.5.5 0 0 0-.5.5");
+}
+
+</style>

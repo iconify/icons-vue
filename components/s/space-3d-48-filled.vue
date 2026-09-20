@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="d8he9dblm"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:space-3d-48-filled" /></template>
+<style>
+.d8he9dblm {
+  fill: currentColor;
+  d: path("M6 12.25A6.25 6.25 0 0 1 12.25 6h23.5A6.25 6.25 0 0 1 42 12.25V31h-1.765l-4.882-7H39.5V12.25a3.75 3.75 0 0 0-3.75-3.75h-23.5a3.75 3.75 0 0 0-3.75 3.75V24h4.147l-4.882 7H6zM37.187 31h-6.505l-2.19-7h3.814zm-9.125 0h-8.124l2.19-7h3.744zm.782 2.5h-9.688l-2.463 7.873l-.003.008l-.198.619h15.006l-.193-.632zM19.508 24l-2.19 7h-6.505l4.881-7zm-2.972 9.5H6v2.25A6.25 6.25 0 0 0 12.25 42h1.618l.439-1.373l.002-.008zM42 33.5H31.464l2.229 7.127l.003.009L34.11 42h1.639A6.25 6.25 0 0 0 42 35.75z");
+}
+
+</style>

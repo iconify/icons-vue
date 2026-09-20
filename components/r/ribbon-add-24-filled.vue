@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="vgzc0cb0c"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:ribbon-add-24-filled" /></template>
+<style>
+.vgzc0cb0c {
+  fill: currentColor;
+  d: path("M23 6.5a5.5 5.5 0 1 0-11 0a5.5 5.5 0 0 0 11 0m-5 .501l.001 2.504a.5.5 0 1 1-1 0V7.001h-2.505a.5.5 0 0 1 0-1H17V3.5a.5.5 0 1 1 1 0V6h2.497a.5.5 0 0 1 0 1.001zm-7-.5c0-1.653.617-3.162 1.633-4.31A7 7 0 0 0 4 9.002a7 7 0 0 0 12.773 3.96A6.5 6.5 0 0 1 11 6.502m5.002 8.746L16 21.249a.75.75 0 0 1-1.182.613L11 19.174l-3.817 2.688a.75.75 0 0 1-1.181-.613l-.002-6a7.97 7.97 0 0 0 5 1.753a7.97 7.97 0 0 0 5.002-1.757");
+}
+
+</style>

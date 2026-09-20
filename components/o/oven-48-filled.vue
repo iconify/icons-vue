@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="ac0ktccsd"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:oven-48-filled" /></template>
+<style>
+.ac0ktccsd {
+  fill: currentColor;
+  d: path("M12 6a6 6 0 0 0-6 6v5.5h36V12a6 6 0 0 0-6-6zm6 6.25a2 2 0 1 1-4 0a2 2 0 0 1 4 0m8 0a2 2 0 1 1-4 0a2 2 0 0 1 4 0m6-2a2 2 0 1 1 0 4a2 2 0 0 1 0-4M6 20v16a6 6 0 0 0 6 6h24a6 6 0 0 0 6-6V20zm6.75 3.5h22.5c.967 0 1.75.784 1.75 1.75v10A1.75 1.75 0 0 1 35.25 37h-22.5A1.75 1.75 0 0 1 11 35.25v-10c0-.966.784-1.75 1.75-1.75");
+}
+
+</style>

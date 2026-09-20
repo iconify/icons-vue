@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":28,"height":28};
+const content = `<path class="e5z0y3bpy"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:mail-multiple-28-filled" /></template>
+<style>
+.e5z0y3bpy {
+  fill: currentColor;
+  d: path("M23 9.608v8.142a3.25 3.25 0 0 1-3.066 3.245L19.75 21H6.25a3.25 3.25 0 0 1-3.245-3.066L3 17.75V9.608l9.652 5.056a.75.75 0 0 0 .696 0zM6.25 5h13.5a3.25 3.25 0 0 1 3.234 2.924L13 13.154l-9.984-5.23a3.25 3.25 0 0 1 3.048-2.919zm-.238 17a3.25 3.25 0 0 0 2.739 1.5h11.5c2.9 0 5.25-2.35 5.25-5.25v-7.5a3.25 3.25 0 0 0-1.5-2.74v10.24A3.75 3.75 0 0 1 20.25 22z");
+}
+
+</style>

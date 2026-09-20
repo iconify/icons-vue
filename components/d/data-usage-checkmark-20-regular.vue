@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":20,"height":20};
+const content = `<path class="eknvnxbrr"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:data-usage-checkmark-20-regular" /></template>
+<style>
+.eknvnxbrr {
+  fill: currentColor;
+  d: path("M9 9a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .722.448q.113-.384.278-.742V9.5A.5.5 0 0 0 9 9m-5 6h5.022q.047.516.185 1H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v5.207a5.5 5.5 0 0 0-1-.185V4a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1m9-9.5v3.707q-.524.149-1 .393V5.5a.5.5 0 0 1 1 0m-8 2a.5.5 0 0 1 1 0v5a.5.5 0 0 1-1 0zm14 7a4.5 4.5 0 1 1-9 0a4.5 4.5 0 0 1 9 0m-2.854-1.854L13.5 15.293l-.646-.647a.5.5 0 0 0-.708.708l1 1a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708");
+}
+
+</style>

@@ -1,0 +1,6 @@
+.pm_kizbua {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M9.5 6.25h-3c-.69 0-1.25.56-1.25 1.25v10c0 .69.56 1.25 1.25 1.25h10c.69 0 1.25-.56 1.25-1.25v-3m-6.25-2l7.25-7.25m-6.25 0h6.25v6.25");
+}

@@ -1,16 +1,12 @@
 # @iconify-vue/devicon
 
-Icon set prefix: **devicon**
+**Devicon**
 
-Icon set name: **Devicon**
+Author: [konpa](https://github.com/devicons/devicon/tree/master)
 
-Author: **konpa**
+License: [MIT](https://github.com/devicons/devicon/blob/master/LICENSE)
 
-License: **[MIT](https://github.com/devicons/devicon/blob/master/LICENSE)**
-
-Repository: **https://github.com/devicons/devicon/tree/master**
-
-Browse all icons: **[Preview Devicon](https://icon-sets.iconify.design/devicon/)**
+Browse all icons: [preview Devicon on Iconify](https://icon-sets.iconify.design/devicon/)
 
 ## Installation
 

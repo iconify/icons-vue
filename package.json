@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/devicon",
   "type": "module",
-  "version": "1.0.24",
+  "version": "1.0.25",
   "homepage": "https://icon-sets.iconify.design/devicon/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -561,6 +561,10 @@
     "./claude": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/claude.vue"
+    },
+    "./claudecode": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/claudecode.vue"
     },
     "./clickhouse": {
       "types": "./types/dd0bq22g.d.ts",

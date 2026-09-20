@@ -1,0 +1,7 @@
+.fy_rgeben {
+  stroke: var(--svg-color--092f63, #092f63);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+  d: path("M10.5 19.5v-6h-6l13-6.2z");
+}

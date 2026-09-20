@@ -1,0 +1,7 @@
+.ccure16uv {
+  stroke: var(--svg-color--092f63, #092f63);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+  d: path("m8 16.5l-1.5 1V19L8 20l1.5-1v-1.5z");
+}

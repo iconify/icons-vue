@@ -1,0 +1,7 @@
+.zeyazuban {
+  stroke: var(--svg-color--092f63, #092f63);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+  d: path("m20.5 16l-5 3.5h-7l-5-3.5");
+}

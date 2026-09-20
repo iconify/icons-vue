@@ -1,0 +1,7 @@
+.dxt32-bgs {
+  stroke: var(--svg-color--092f63, #092f63);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+  d: path("M16 3L18.5.5L23 1l.5 4.5L21 8m-5-5L13.5.5l-7 10h-2");
+}

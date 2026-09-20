@@ -1,0 +1,2419 @@
+{
+  "name": "@iconify-vue/wi",
+  "type": "module",
+  "version": "1.0.4",
+  "homepage": "https://icon-sets.iconify.design/wi/",
+  "bugs": "https://github.com/iconify/icons-vue/issues",
+  "license": "OFL-1.1",
+  "exports": {
+    "./alien": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/alien.vue"
+    },
+    "./aliens": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/aliens.vue"
+    },
+    "./barometer": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/barometer.vue"
+    },
+    "./celsius": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/celsius.vue"
+    },
+    "./cloud": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloud.vue"
+    },
+    "./cloud-down": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloud-down.vue"
+    },
+    "./cloud-refresh": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloud-refresh.vue"
+    },
+    "./cloud-up": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloud-up.vue"
+    },
+    "./cloudy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloudy.vue"
+    },
+    "./cloudy-gusts": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloudy-gusts.vue"
+    },
+    "./cloudy-windy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloudy-windy.vue"
+    },
+    "./day-cloudy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/day-cloudy.vue"
+    },
+    "./day-cloudy-gusts": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/day-cloudy-gusts.vue"
+    },
+    "./day-cloudy-high": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/day-cloudy-high.vue"
+    },
+    "./day-cloudy-windy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/day-cloudy-windy.vue"
+    },
+    "./day-fog": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/day-fog.vue"
+    },
+    "./day-hail": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/day-hail.vue"
+    },
+    "./day-haze": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/day-haze.vue"
+    },
+    "./day-light-wind": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/day-light-wind.vue"
+    },
+    "./day-lightning": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/day-lightning.vue"
+    },
+    "./day-rain": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/day-rain.vue"
+    },
+    "./day-rain-mix": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/day-rain-mix.vue"
+    },
+    "./day-rain-wind": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/day-rain-wind.vue"
+    },
+    "./day-showers": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/day-showers.vue"
+    },
+    "./day-sleet": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/day-sleet.vue"
+    },
+    "./day-sleet-storm": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/day-sleet-storm.vue"
+    },
+    "./day-snow": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/day-snow.vue"
+    },
+    "./day-snow-thunderstorm": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/day-snow-thunderstorm.vue"
+    },
+    "./day-snow-wind": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/day-snow-wind.vue"
+    },
+    "./day-sprinkle": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/day-sprinkle.vue"
+    },
+    "./day-storm-showers": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/day-storm-showers.vue"
+    },
+    "./day-sunny": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/day-sunny.vue"
+    },
+    "./day-sunny-overcast": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/day-sunny-overcast.vue"
+    },
+    "./day-thunderstorm": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/day-thunderstorm.vue"
+    },
+    "./day-windy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/day-windy.vue"
+    },
+    "./degrees": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/degrees.vue"
+    },
+    "./direction-down": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/direction-down.vue"
+    },
+    "./direction-down-left": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/direction-down-left.vue"
+    },
+    "./direction-down-right": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/direction-down-right.vue"
+    },
+    "./direction-left": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/direction-left.vue"
+    },
+    "./direction-right": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/direction-right.vue"
+    },
+    "./direction-up": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/direction-up.vue"
+    },
+    "./direction-up-left": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/direction-up-left.vue"
+    },
+    "./direction-up-right": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/direction-up-right.vue"
+    },
+    "./dust": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dust.vue"
+    },
+    "./earthquake": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/earthquake.vue"
+    },
+    "./fahrenheit": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fahrenheit.vue"
+    },
+    "./fire": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fire.vue"
+    },
+    "./flood": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/flood.vue"
+    },
+    "./fog": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fog.vue"
+    },
+    "./gale-warning": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gale-warning.vue"
+    },
+    "./hail": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hail.vue"
+    },
+    "./horizon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/horizon.vue"
+    },
+    "./horizon-alt": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/horizon-alt.vue"
+    },
+    "./hot": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hot.vue"
+    },
+    "./humidity": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/humidity.vue"
+    },
+    "./hurricane": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hurricane.vue"
+    },
+    "./hurricane-warning": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hurricane-warning.vue"
+    },
+    "./lightning": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lightning.vue"
+    },
+    "./lunar-eclipse": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lunar-eclipse.vue"
+    },
+    "./meteor": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/meteor.vue"
+    },
+    "./moon-alt-first-quarter": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-alt-first-quarter.vue"
+    },
+    "./moon-alt-full": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-alt-full.vue"
+    },
+    "./moon-alt-new": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-alt-new.vue"
+    },
+    "./moon-alt-third-quarter": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-alt-third-quarter.vue"
+    },
+    "./moon-alt-waning-crescent-1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-alt-waning-crescent-1.vue"
+    },
+    "./moon-alt-waning-crescent-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-alt-waning-crescent-2.vue"
+    },
+    "./moon-alt-waning-crescent-3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-alt-waning-crescent-3.vue"
+    },
+    "./moon-alt-waning-crescent-4": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-alt-waning-crescent-4.vue"
+    },
+    "./moon-alt-waning-crescent-5": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-alt-waning-crescent-5.vue"
+    },
+    "./moon-alt-waning-crescent-6": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-alt-waning-crescent-6.vue"
+    },
+    "./moon-alt-waning-gibbous-1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-alt-waning-gibbous-1.vue"
+    },
+    "./moon-alt-waning-gibbous-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-alt-waning-gibbous-2.vue"
+    },
+    "./moon-alt-waning-gibbous-3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-alt-waning-gibbous-3.vue"
+    },
+    "./moon-alt-waning-gibbous-4": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-alt-waning-gibbous-4.vue"
+    },
+    "./moon-alt-waning-gibbous-5": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-alt-waning-gibbous-5.vue"
+    },
+    "./moon-alt-waning-gibbous-6": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-alt-waning-gibbous-6.vue"
+    },
+    "./moon-alt-waxing-crescent-1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-alt-waxing-crescent-1.vue"
+    },
+    "./moon-alt-waxing-crescent-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-alt-waxing-crescent-2.vue"
+    },
+    "./moon-alt-waxing-crescent-3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-alt-waxing-crescent-3.vue"
+    },
+    "./moon-alt-waxing-crescent-4": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-alt-waxing-crescent-4.vue"
+    },
+    "./moon-alt-waxing-crescent-5": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-alt-waxing-crescent-5.vue"
+    },
+    "./moon-alt-waxing-crescent-6": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-alt-waxing-crescent-6.vue"
+    },
+    "./moon-alt-waxing-gibbous-1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-alt-waxing-gibbous-1.vue"
+    },
+    "./moon-alt-waxing-gibbous-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-alt-waxing-gibbous-2.vue"
+    },
+    "./moon-alt-waxing-gibbous-3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-alt-waxing-gibbous-3.vue"
+    },
+    "./moon-alt-waxing-gibbous-4": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-alt-waxing-gibbous-4.vue"
+    },
+    "./moon-alt-waxing-gibbous-5": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-alt-waxing-gibbous-5.vue"
+    },
+    "./moon-alt-waxing-gibbous-6": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-alt-waxing-gibbous-6.vue"
+    },
+    "./moon-first-quarter": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-first-quarter.vue"
+    },
+    "./moon-full": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-full.vue"
+    },
+    "./moon-new": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-new.vue"
+    },
+    "./moon-third-quarter": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-third-quarter.vue"
+    },
+    "./moon-waning-crescent-1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-waning-crescent-1.vue"
+    },
+    "./moon-waning-crescent-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-waning-crescent-2.vue"
+    },
+    "./moon-waning-crescent-3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-waning-crescent-3.vue"
+    },
+    "./moon-waning-crescent-4": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-waning-crescent-4.vue"
+    },
+    "./moon-waning-crescent-5": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-waning-crescent-5.vue"
+    },
+    "./moon-waning-crescent-6": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-waning-crescent-6.vue"
+    },
+    "./moon-waning-gibbous-1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-waning-gibbous-1.vue"
+    },
+    "./moon-waning-gibbous-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-waning-gibbous-2.vue"
+    },
+    "./moon-waning-gibbous-3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-waning-gibbous-3.vue"
+    },
+    "./moon-waning-gibbous-4": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-waning-gibbous-4.vue"
+    },
+    "./moon-waning-gibbous-5": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-waning-gibbous-5.vue"
+    },
+    "./moon-waning-gibbous-6": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-waning-gibbous-6.vue"
+    },
+    "./moon-waxing-6": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-waxing-6.vue"
+    },
+    "./moon-waxing-crescent-1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-waxing-crescent-1.vue"
+    },
+    "./moon-waxing-crescent-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-waxing-crescent-2.vue"
+    },
+    "./moon-waxing-crescent-3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-waxing-crescent-3.vue"
+    },
+    "./moon-waxing-crescent-4": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-waxing-crescent-4.vue"
+    },
+    "./moon-waxing-crescent-5": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-waxing-crescent-5.vue"
+    },
+    "./moon-waxing-crescent-6": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-waxing-crescent-6.vue"
+    },
+    "./moon-waxing-gibbous-1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-waxing-gibbous-1.vue"
+    },
+    "./moon-waxing-gibbous-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-waxing-gibbous-2.vue"
+    },
+    "./moon-waxing-gibbous-3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-waxing-gibbous-3.vue"
+    },
+    "./moon-waxing-gibbous-4": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-waxing-gibbous-4.vue"
+    },
+    "./moon-waxing-gibbous-5": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-waxing-gibbous-5.vue"
+    },
+    "./moon-waxing-gibbous-6": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-waxing-gibbous-6.vue"
+    },
+    "./moonrise": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moonrise.vue"
+    },
+    "./moonset": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moonset.vue"
+    },
+    "./na": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/na.vue"
+    },
+    "./night-alt-cloudy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/night-alt-cloudy.vue"
+    },
+    "./night-alt-cloudy-gusts": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/night-alt-cloudy-gusts.vue"
+    },
+    "./night-alt-cloudy-high": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/night-alt-cloudy-high.vue"
+    },
+    "./night-alt-cloudy-windy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/night-alt-cloudy-windy.vue"
+    },
+    "./night-alt-hail": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/night-alt-hail.vue"
+    },
+    "./night-alt-lightning": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/night-alt-lightning.vue"
+    },
+    "./night-alt-partly-cloudy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/night-alt-partly-cloudy.vue"
+    },
+    "./night-alt-rain": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/night-alt-rain.vue"
+    },
+    "./night-alt-rain-mix": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/night-alt-rain-mix.vue"
+    },
+    "./night-alt-rain-wind": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/night-alt-rain-wind.vue"
+    },
+    "./night-alt-showers": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/night-alt-showers.vue"
+    },
+    "./night-alt-sleet": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/night-alt-sleet.vue"
+    },
+    "./night-alt-sleet-storm": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/night-alt-sleet-storm.vue"
+    },
+    "./night-alt-snow": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/night-alt-snow.vue"
+    },
+    "./night-alt-snow-thunderstorm": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/night-alt-snow-thunderstorm.vue"
+    },
+    "./night-alt-snow-wind": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/night-alt-snow-wind.vue"
+    },
+    "./night-alt-sprinkle": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/night-alt-sprinkle.vue"
+    },
+    "./night-alt-storm-showers": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/night-alt-storm-showers.vue"
+    },
+    "./night-alt-thunderstorm": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/night-alt-thunderstorm.vue"
+    },
+    "./night-clear": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/night-clear.vue"
+    },
+    "./night-cloudy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/night-cloudy.vue"
+    },
+    "./night-cloudy-gusts": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/night-cloudy-gusts.vue"
+    },
+    "./night-cloudy-high": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/night-cloudy-high.vue"
+    },
+    "./night-cloudy-windy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/night-cloudy-windy.vue"
+    },
+    "./night-fog": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/night-fog.vue"
+    },
+    "./night-hail": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/night-hail.vue"
+    },
+    "./night-lightning": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/night-lightning.vue"
+    },
+    "./night-partly-cloudy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/night-partly-cloudy.vue"
+    },
+    "./night-rain": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/night-rain.vue"
+    },
+    "./night-rain-mix": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/night-rain-mix.vue"
+    },
+    "./night-rain-wind": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/night-rain-wind.vue"
+    },
+    "./night-showers": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/night-showers.vue"
+    },
+    "./night-sleet": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/night-sleet.vue"
+    },
+    "./night-sleet-storm": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/night-sleet-storm.vue"
+    },
+    "./night-snow": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/night-snow.vue"
+    },
+    "./night-snow-thunderstorm": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/night-snow-thunderstorm.vue"
+    },
+    "./night-snow-wind": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/night-snow-wind.vue"
+    },
+    "./night-sprinkle": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/night-sprinkle.vue"
+    },
+    "./night-storm-showers": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/night-storm-showers.vue"
+    },
+    "./night-thunderstorm": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/night-thunderstorm.vue"
+    },
+    "./rain": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rain.vue"
+    },
+    "./rain-mix": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rain-mix.vue"
+    },
+    "./rain-wind": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rain-wind.vue"
+    },
+    "./raindrop": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/raindrop.vue"
+    },
+    "./raindrops": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/raindrops.vue"
+    },
+    "./refresh": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/refresh.vue"
+    },
+    "./refresh-alt": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/refresh-alt.vue"
+    },
+    "./sandstorm": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sandstorm.vue"
+    },
+    "./showers": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/showers.vue"
+    },
+    "./sleet": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sleet.vue"
+    },
+    "./small-craft-advisory": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/small-craft-advisory.vue"
+    },
+    "./smog": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/smog.vue"
+    },
+    "./smoke": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/smoke.vue"
+    },
+    "./snow": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/snow.vue"
+    },
+    "./snow-wind": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/snow-wind.vue"
+    },
+    "./snowflake-cold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/snowflake-cold.vue"
+    },
+    "./solar-eclipse": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/solar-eclipse.vue"
+    },
+    "./sprinkle": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sprinkle.vue"
+    },
+    "./stars": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stars.vue"
+    },
+    "./storm-showers": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/storm-showers.vue"
+    },
+    "./storm-warning": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/storm-warning.vue"
+    },
+    "./strong-wind": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/strong-wind.vue"
+    },
+    "./sunrise": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sunrise.vue"
+    },
+    "./sunset": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sunset.vue"
+    },
+    "./thermometer": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/thermometer.vue"
+    },
+    "./thermometer-exterior": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/thermometer-exterior.vue"
+    },
+    "./thermometer-internal": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/thermometer-internal.vue"
+    },
+    "./thunderstorm": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/thunderstorm.vue"
+    },
+    "./time-1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/time-1.vue"
+    },
+    "./time-10": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/time-10.vue"
+    },
+    "./time-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/time-11.vue"
+    },
+    "./time-12": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/time-12.vue"
+    },
+    "./time-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/time-2.vue"
+    },
+    "./time-3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/time-3.vue"
+    },
+    "./time-4": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/time-4.vue"
+    },
+    "./time-5": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/time-5.vue"
+    },
+    "./time-6": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/time-6.vue"
+    },
+    "./time-7": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/time-7.vue"
+    },
+    "./time-8": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/time-8.vue"
+    },
+    "./time-9": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/time-9.vue"
+    },
+    "./tornado": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tornado.vue"
+    },
+    "./train": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/train.vue"
+    },
+    "./tsunami": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tsunami.vue"
+    },
+    "./umbrella": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/umbrella.vue"
+    },
+    "./volcano": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/volcano.vue"
+    },
+    "./wind-beaufort-0": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wind-beaufort-0.vue"
+    },
+    "./wind-beaufort-1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wind-beaufort-1.vue"
+    },
+    "./wind-beaufort-10": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wind-beaufort-10.vue"
+    },
+    "./wind-beaufort-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wind-beaufort-11.vue"
+    },
+    "./wind-beaufort-12": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wind-beaufort-12.vue"
+    },
+    "./wind-beaufort-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wind-beaufort-2.vue"
+    },
+    "./wind-beaufort-3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wind-beaufort-3.vue"
+    },
+    "./wind-beaufort-4": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wind-beaufort-4.vue"
+    },
+    "./wind-beaufort-5": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wind-beaufort-5.vue"
+    },
+    "./wind-beaufort-6": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wind-beaufort-6.vue"
+    },
+    "./wind-beaufort-7": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wind-beaufort-7.vue"
+    },
+    "./wind-beaufort-8": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wind-beaufort-8.vue"
+    },
+    "./wind-beaufort-9": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wind-beaufort-9.vue"
+    },
+    "./wind-deg": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wind-deg.vue"
+    },
+    "./wind-direction": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wind-direction.vue"
+    },
+    "./wind-direction-e": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wind-direction-e.vue"
+    },
+    "./wind-direction-n": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wind-direction-n.vue"
+    },
+    "./wind-direction-ne": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wind-direction-ne.vue"
+    },
+    "./wind-direction-nw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wind-direction-nw.vue"
+    },
+    "./wind-direction-s": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wind-direction-s.vue"
+    },
+    "./wind-direction-se": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wind-direction-se.vue"
+    },
+    "./wind-direction-sw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wind-direction-sw.vue"
+    },
+    "./wind-direction-w": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wind-direction-w.vue"
+    },
+    "./windy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/windy.vue"
+    },
+    "./forecast-io-clear-day": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/forecast-io-clear-day.vue"
+    },
+    "./forecast-io-clear-night": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/forecast-io-clear-night.vue"
+    },
+    "./forecast-io-cloudy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/forecast-io-cloudy.vue"
+    },
+    "./forecast-io-fog": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/forecast-io-fog.vue"
+    },
+    "./forecast-io-hail": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/forecast-io-hail.vue"
+    },
+    "./forecast-io-partly-cloudy-day": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/forecast-io-partly-cloudy-day.vue"
+    },
+    "./forecast-io-partly-cloudy-night": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/forecast-io-partly-cloudy-night.vue"
+    },
+    "./forecast-io-rain": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/forecast-io-rain.vue"
+    },
+    "./forecast-io-sleet": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/forecast-io-sleet.vue"
+    },
+    "./forecast-io-snow": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/forecast-io-snow.vue"
+    },
+    "./forecast-io-thunderstorm": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/forecast-io-thunderstorm.vue"
+    },
+    "./forecast-io-tornado": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/forecast-io-tornado.vue"
+    },
+    "./forecast-io-wind": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/forecast-io-wind.vue"
+    },
+    "./moon-0": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-0.vue"
+    },
+    "./moon-1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-1.vue"
+    },
+    "./moon-10": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-10.vue"
+    },
+    "./moon-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-11.vue"
+    },
+    "./moon-12": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-12.vue"
+    },
+    "./moon-13": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-13.vue"
+    },
+    "./moon-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-14.vue"
+    },
+    "./moon-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-15.vue"
+    },
+    "./moon-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-16.vue"
+    },
+    "./moon-17": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-17.vue"
+    },
+    "./moon-18": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-18.vue"
+    },
+    "./moon-19": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-19.vue"
+    },
+    "./moon-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-2.vue"
+    },
+    "./moon-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-20.vue"
+    },
+    "./moon-21": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-21.vue"
+    },
+    "./moon-22": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-22.vue"
+    },
+    "./moon-23": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-23.vue"
+    },
+    "./moon-24": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-24.vue"
+    },
+    "./moon-25": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-25.vue"
+    },
+    "./moon-26": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-26.vue"
+    },
+    "./moon-27": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-27.vue"
+    },
+    "./moon-3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-3.vue"
+    },
+    "./moon-4": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-4.vue"
+    },
+    "./moon-5": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-5.vue"
+    },
+    "./moon-6": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-6.vue"
+    },
+    "./moon-7": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-7.vue"
+    },
+    "./moon-8": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-8.vue"
+    },
+    "./moon-9": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moon-9.vue"
+    },
+    "./owm-200": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-200.vue"
+    },
+    "./owm-201": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-201.vue"
+    },
+    "./owm-202": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-202.vue"
+    },
+    "./owm-210": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-210.vue"
+    },
+    "./owm-211": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-211.vue"
+    },
+    "./owm-212": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-212.vue"
+    },
+    "./owm-221": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-221.vue"
+    },
+    "./owm-230": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-230.vue"
+    },
+    "./owm-231": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-231.vue"
+    },
+    "./owm-232": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-232.vue"
+    },
+    "./owm-300": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-300.vue"
+    },
+    "./owm-301": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-301.vue"
+    },
+    "./owm-302": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-302.vue"
+    },
+    "./owm-310": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-310.vue"
+    },
+    "./owm-311": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-311.vue"
+    },
+    "./owm-312": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-312.vue"
+    },
+    "./owm-313": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-313.vue"
+    },
+    "./owm-314": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-314.vue"
+    },
+    "./owm-321": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-321.vue"
+    },
+    "./owm-500": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-500.vue"
+    },
+    "./owm-501": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-501.vue"
+    },
+    "./owm-502": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-502.vue"
+    },
+    "./owm-503": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-503.vue"
+    },
+    "./owm-504": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-504.vue"
+    },
+    "./owm-511": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-511.vue"
+    },
+    "./owm-520": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-520.vue"
+    },
+    "./owm-521": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-521.vue"
+    },
+    "./owm-522": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-522.vue"
+    },
+    "./owm-531": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-531.vue"
+    },
+    "./owm-600": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-600.vue"
+    },
+    "./owm-601": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-601.vue"
+    },
+    "./owm-602": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-602.vue"
+    },
+    "./owm-611": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-611.vue"
+    },
+    "./owm-612": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-612.vue"
+    },
+    "./owm-615": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-615.vue"
+    },
+    "./owm-616": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-616.vue"
+    },
+    "./owm-620": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-620.vue"
+    },
+    "./owm-621": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-621.vue"
+    },
+    "./owm-622": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-622.vue"
+    },
+    "./owm-701": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-701.vue"
+    },
+    "./owm-711": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-711.vue"
+    },
+    "./owm-721": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-721.vue"
+    },
+    "./owm-731": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-731.vue"
+    },
+    "./owm-741": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-741.vue"
+    },
+    "./owm-761": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-761.vue"
+    },
+    "./owm-762": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-762.vue"
+    },
+    "./owm-771": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-771.vue"
+    },
+    "./owm-781": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-781.vue"
+    },
+    "./owm-800": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-800.vue"
+    },
+    "./owm-801": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-801.vue"
+    },
+    "./owm-802": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-802.vue"
+    },
+    "./owm-803": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-803.vue"
+    },
+    "./owm-804": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-804.vue"
+    },
+    "./owm-900": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-900.vue"
+    },
+    "./owm-901": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-901.vue"
+    },
+    "./owm-902": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-902.vue"
+    },
+    "./owm-903": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-903.vue"
+    },
+    "./owm-904": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-904.vue"
+    },
+    "./owm-905": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-905.vue"
+    },
+    "./owm-906": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-906.vue"
+    },
+    "./owm-957": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-957.vue"
+    },
+    "./owm-day-200": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-day-200.vue"
+    },
+    "./owm-day-201": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-day-201.vue"
+    },
+    "./owm-day-202": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-day-202.vue"
+    },
+    "./owm-day-210": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-day-210.vue"
+    },
+    "./owm-day-211": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-day-211.vue"
+    },
+    "./owm-day-212": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-day-212.vue"
+    },
+    "./owm-day-221": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-day-221.vue"
+    },
+    "./owm-day-230": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-day-230.vue"
+    },
+    "./owm-day-231": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-day-231.vue"
+    },
+    "./owm-day-232": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-day-232.vue"
+    },
+    "./owm-day-300": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-day-300.vue"
+    },
+    "./owm-day-301": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-day-301.vue"
+    },
+    "./owm-day-302": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-day-302.vue"
+    },
+    "./owm-day-310": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-day-310.vue"
+    },
+    "./owm-day-311": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-day-311.vue"
+    },
+    "./owm-day-312": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-day-312.vue"
+    },
+    "./owm-day-313": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-day-313.vue"
+    },
+    "./owm-day-314": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-day-314.vue"
+    },
+    "./owm-day-321": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-day-321.vue"
+    },
+    "./owm-day-500": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-day-500.vue"
+    },
+    "./owm-day-501": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-day-501.vue"
+    },
+    "./owm-day-502": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-day-502.vue"
+    },
+    "./owm-day-503": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-day-503.vue"
+    },
+    "./owm-day-504": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-day-504.vue"
+    },
+    "./owm-day-511": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-day-511.vue"
+    },
+    "./owm-day-520": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-day-520.vue"
+    },
+    "./owm-day-521": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-day-521.vue"
+    },
+    "./owm-day-522": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-day-522.vue"
+    },
+    "./owm-day-531": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-day-531.vue"
+    },
+    "./owm-day-600": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-day-600.vue"
+    },
+    "./owm-day-601": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-day-601.vue"
+    },
+    "./owm-day-602": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-day-602.vue"
+    },
+    "./owm-day-611": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-day-611.vue"
+    },
+    "./owm-day-612": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-day-612.vue"
+    },
+    "./owm-day-615": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-day-615.vue"
+    },
+    "./owm-day-616": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-day-616.vue"
+    },
+    "./owm-day-620": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-day-620.vue"
+    },
+    "./owm-day-621": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-day-621.vue"
+    },
+    "./owm-day-622": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-day-622.vue"
+    },
+    "./owm-day-701": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-day-701.vue"
+    },
+    "./owm-day-711": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-day-711.vue"
+    },
+    "./owm-day-721": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-day-721.vue"
+    },
+    "./owm-day-731": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-day-731.vue"
+    },
+    "./owm-day-741": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-day-741.vue"
+    },
+    "./owm-day-761": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-day-761.vue"
+    },
+    "./owm-day-762": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-day-762.vue"
+    },
+    "./owm-day-781": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-day-781.vue"
+    },
+    "./owm-day-800": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-day-800.vue"
+    },
+    "./owm-day-801": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-day-801.vue"
+    },
+    "./owm-day-802": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-day-802.vue"
+    },
+    "./owm-day-803": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-day-803.vue"
+    },
+    "./owm-day-804": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-day-804.vue"
+    },
+    "./owm-day-900": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-day-900.vue"
+    },
+    "./owm-day-902": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-day-902.vue"
+    },
+    "./owm-day-903": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-day-903.vue"
+    },
+    "./owm-day-904": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-day-904.vue"
+    },
+    "./owm-day-906": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-day-906.vue"
+    },
+    "./owm-day-957": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-day-957.vue"
+    },
+    "./owm-night-200": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-night-200.vue"
+    },
+    "./owm-night-201": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-night-201.vue"
+    },
+    "./owm-night-202": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-night-202.vue"
+    },
+    "./owm-night-210": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-night-210.vue"
+    },
+    "./owm-night-211": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-night-211.vue"
+    },
+    "./owm-night-212": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-night-212.vue"
+    },
+    "./owm-night-221": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-night-221.vue"
+    },
+    "./owm-night-230": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-night-230.vue"
+    },
+    "./owm-night-231": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-night-231.vue"
+    },
+    "./owm-night-232": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-night-232.vue"
+    },
+    "./owm-night-300": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-night-300.vue"
+    },
+    "./owm-night-301": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-night-301.vue"
+    },
+    "./owm-night-302": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-night-302.vue"
+    },
+    "./owm-night-310": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-night-310.vue"
+    },
+    "./owm-night-311": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-night-311.vue"
+    },
+    "./owm-night-312": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-night-312.vue"
+    },
+    "./owm-night-313": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-night-313.vue"
+    },
+    "./owm-night-314": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-night-314.vue"
+    },
+    "./owm-night-321": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-night-321.vue"
+    },
+    "./owm-night-500": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-night-500.vue"
+    },
+    "./owm-night-501": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-night-501.vue"
+    },
+    "./owm-night-502": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-night-502.vue"
+    },
+    "./owm-night-503": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-night-503.vue"
+    },
+    "./owm-night-504": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-night-504.vue"
+    },
+    "./owm-night-511": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-night-511.vue"
+    },
+    "./owm-night-520": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-night-520.vue"
+    },
+    "./owm-night-521": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-night-521.vue"
+    },
+    "./owm-night-522": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-night-522.vue"
+    },
+    "./owm-night-531": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-night-531.vue"
+    },
+    "./owm-night-600": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-night-600.vue"
+    },
+    "./owm-night-601": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-night-601.vue"
+    },
+    "./owm-night-602": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-night-602.vue"
+    },
+    "./owm-night-611": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-night-611.vue"
+    },
+    "./owm-night-612": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-night-612.vue"
+    },
+    "./owm-night-615": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-night-615.vue"
+    },
+    "./owm-night-616": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-night-616.vue"
+    },
+    "./owm-night-620": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-night-620.vue"
+    },
+    "./owm-night-621": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-night-621.vue"
+    },
+    "./owm-night-622": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-night-622.vue"
+    },
+    "./owm-night-701": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-night-701.vue"
+    },
+    "./owm-night-711": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-night-711.vue"
+    },
+    "./owm-night-721": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-night-721.vue"
+    },
+    "./owm-night-731": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-night-731.vue"
+    },
+    "./owm-night-741": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-night-741.vue"
+    },
+    "./owm-night-761": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-night-761.vue"
+    },
+    "./owm-night-762": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-night-762.vue"
+    },
+    "./owm-night-781": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-night-781.vue"
+    },
+    "./owm-night-800": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-night-800.vue"
+    },
+    "./owm-night-801": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-night-801.vue"
+    },
+    "./owm-night-802": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-night-802.vue"
+    },
+    "./owm-night-803": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-night-803.vue"
+    },
+    "./owm-night-804": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-night-804.vue"
+    },
+    "./owm-night-900": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-night-900.vue"
+    },
+    "./owm-night-902": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-night-902.vue"
+    },
+    "./owm-night-903": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-night-903.vue"
+    },
+    "./owm-night-904": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-night-904.vue"
+    },
+    "./owm-night-906": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-night-906.vue"
+    },
+    "./owm-night-957": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owm-night-957.vue"
+    },
+    "./wmo4680-0": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-0.vue"
+    },
+    "./wmo4680-00": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-00.vue"
+    },
+    "./wmo4680-01": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-01.vue"
+    },
+    "./wmo4680-02": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-02.vue"
+    },
+    "./wmo4680-03": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-03.vue"
+    },
+    "./wmo4680-04": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-04.vue"
+    },
+    "./wmo4680-05": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-05.vue"
+    },
+    "./wmo4680-1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-1.vue"
+    },
+    "./wmo4680-10": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-10.vue"
+    },
+    "./wmo4680-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-11.vue"
+    },
+    "./wmo4680-12": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-12.vue"
+    },
+    "./wmo4680-18": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-18.vue"
+    },
+    "./wmo4680-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-2.vue"
+    },
+    "./wmo4680-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-20.vue"
+    },
+    "./wmo4680-21": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-21.vue"
+    },
+    "./wmo4680-22": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-22.vue"
+    },
+    "./wmo4680-23": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-23.vue"
+    },
+    "./wmo4680-24": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-24.vue"
+    },
+    "./wmo4680-25": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-25.vue"
+    },
+    "./wmo4680-26": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-26.vue"
+    },
+    "./wmo4680-27": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-27.vue"
+    },
+    "./wmo4680-28": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-28.vue"
+    },
+    "./wmo4680-29": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-29.vue"
+    },
+    "./wmo4680-3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-3.vue"
+    },
+    "./wmo4680-30": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-30.vue"
+    },
+    "./wmo4680-31": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-31.vue"
+    },
+    "./wmo4680-32": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-32.vue"
+    },
+    "./wmo4680-33": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-33.vue"
+    },
+    "./wmo4680-34": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-34.vue"
+    },
+    "./wmo4680-35": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-35.vue"
+    },
+    "./wmo4680-4": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-4.vue"
+    },
+    "./wmo4680-40": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-40.vue"
+    },
+    "./wmo4680-41": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-41.vue"
+    },
+    "./wmo4680-42": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-42.vue"
+    },
+    "./wmo4680-43": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-43.vue"
+    },
+    "./wmo4680-44": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-44.vue"
+    },
+    "./wmo4680-45": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-45.vue"
+    },
+    "./wmo4680-46": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-46.vue"
+    },
+    "./wmo4680-47": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-47.vue"
+    },
+    "./wmo4680-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-48.vue"
+    },
+    "./wmo4680-5": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-5.vue"
+    },
+    "./wmo4680-50": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-50.vue"
+    },
+    "./wmo4680-51": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-51.vue"
+    },
+    "./wmo4680-52": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-52.vue"
+    },
+    "./wmo4680-53": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-53.vue"
+    },
+    "./wmo4680-54": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-54.vue"
+    },
+    "./wmo4680-55": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-55.vue"
+    },
+    "./wmo4680-56": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-56.vue"
+    },
+    "./wmo4680-57": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-57.vue"
+    },
+    "./wmo4680-58": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-58.vue"
+    },
+    "./wmo4680-60": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-60.vue"
+    },
+    "./wmo4680-61": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-61.vue"
+    },
+    "./wmo4680-62": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-62.vue"
+    },
+    "./wmo4680-63": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-63.vue"
+    },
+    "./wmo4680-64": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-64.vue"
+    },
+    "./wmo4680-65": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-65.vue"
+    },
+    "./wmo4680-66": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-66.vue"
+    },
+    "./wmo4680-67": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-67.vue"
+    },
+    "./wmo4680-68": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-68.vue"
+    },
+    "./wmo4680-70": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-70.vue"
+    },
+    "./wmo4680-71": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-71.vue"
+    },
+    "./wmo4680-72": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-72.vue"
+    },
+    "./wmo4680-73": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-73.vue"
+    },
+    "./wmo4680-74": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-74.vue"
+    },
+    "./wmo4680-75": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-75.vue"
+    },
+    "./wmo4680-76": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-76.vue"
+    },
+    "./wmo4680-77": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-77.vue"
+    },
+    "./wmo4680-78": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-78.vue"
+    },
+    "./wmo4680-80": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-80.vue"
+    },
+    "./wmo4680-81": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-81.vue"
+    },
+    "./wmo4680-82": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-82.vue"
+    },
+    "./wmo4680-83": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-83.vue"
+    },
+    "./wmo4680-84": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-84.vue"
+    },
+    "./wmo4680-85": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-85.vue"
+    },
+    "./wmo4680-86": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-86.vue"
+    },
+    "./wmo4680-87": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-87.vue"
+    },
+    "./wmo4680-89": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-89.vue"
+    },
+    "./wmo4680-90": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-90.vue"
+    },
+    "./wmo4680-91": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-91.vue"
+    },
+    "./wmo4680-92": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-92.vue"
+    },
+    "./wmo4680-93": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-93.vue"
+    },
+    "./wmo4680-94": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-94.vue"
+    },
+    "./wmo4680-95": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-95.vue"
+    },
+    "./wmo4680-96": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-96.vue"
+    },
+    "./wmo4680-99": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wmo4680-99.vue"
+    },
+    "./wu-chanceflurries": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wu-chanceflurries.vue"
+    },
+    "./wu-chancerain": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wu-chancerain.vue"
+    },
+    "./wu-chancesleat": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wu-chancesleat.vue"
+    },
+    "./wu-chancesnow": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wu-chancesnow.vue"
+    },
+    "./wu-chancetstorms": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wu-chancetstorms.vue"
+    },
+    "./wu-clear": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wu-clear.vue"
+    },
+    "./wu-cloudy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wu-cloudy.vue"
+    },
+    "./wu-flurries": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wu-flurries.vue"
+    },
+    "./wu-hazy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wu-hazy.vue"
+    },
+    "./wu-mostlycloudy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wu-mostlycloudy.vue"
+    },
+    "./wu-mostlysunny": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wu-mostlysunny.vue"
+    },
+    "./wu-partlycloudy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wu-partlycloudy.vue"
+    },
+    "./wu-partlysunny": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wu-partlysunny.vue"
+    },
+    "./wu-rain": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wu-rain.vue"
+    },
+    "./wu-sleat": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wu-sleat.vue"
+    },
+    "./wu-snow": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wu-snow.vue"
+    },
+    "./wu-sunny": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wu-sunny.vue"
+    },
+    "./wu-tstorms": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wu-tstorms.vue"
+    },
+    "./wu-unknown": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wu-unknown.vue"
+    },
+    "./yahoo-0": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yahoo-0.vue"
+    },
+    "./yahoo-1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yahoo-1.vue"
+    },
+    "./yahoo-10": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yahoo-10.vue"
+    },
+    "./yahoo-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yahoo-11.vue"
+    },
+    "./yahoo-12": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yahoo-12.vue"
+    },
+    "./yahoo-13": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yahoo-13.vue"
+    },
+    "./yahoo-14": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yahoo-14.vue"
+    },
+    "./yahoo-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yahoo-15.vue"
+    },
+    "./yahoo-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yahoo-16.vue"
+    },
+    "./yahoo-17": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yahoo-17.vue"
+    },
+    "./yahoo-18": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yahoo-18.vue"
+    },
+    "./yahoo-19": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yahoo-19.vue"
+    },
+    "./yahoo-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yahoo-2.vue"
+    },
+    "./yahoo-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yahoo-20.vue"
+    },
+    "./yahoo-21": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yahoo-21.vue"
+    },
+    "./yahoo-22": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yahoo-22.vue"
+    },
+    "./yahoo-23": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yahoo-23.vue"
+    },
+    "./yahoo-24": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yahoo-24.vue"
+    },
+    "./yahoo-25": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yahoo-25.vue"
+    },
+    "./yahoo-26": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yahoo-26.vue"
+    },
+    "./yahoo-27": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yahoo-27.vue"
+    },
+    "./yahoo-28": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yahoo-28.vue"
+    },
+    "./yahoo-29": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yahoo-29.vue"
+    },
+    "./yahoo-3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yahoo-3.vue"
+    },
+    "./yahoo-30": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yahoo-30.vue"
+    },
+    "./yahoo-31": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yahoo-31.vue"
+    },
+    "./yahoo-32": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yahoo-32.vue"
+    },
+    "./yahoo-3200": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yahoo-3200.vue"
+    },
+    "./yahoo-33": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yahoo-33.vue"
+    },
+    "./yahoo-34": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yahoo-34.vue"
+    },
+    "./yahoo-35": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yahoo-35.vue"
+    },
+    "./yahoo-36": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yahoo-36.vue"
+    },
+    "./yahoo-37": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yahoo-37.vue"
+    },
+    "./yahoo-38": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yahoo-38.vue"
+    },
+    "./yahoo-39": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yahoo-39.vue"
+    },
+    "./yahoo-4": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yahoo-4.vue"
+    },
+    "./yahoo-40": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yahoo-40.vue"
+    },
+    "./yahoo-41": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yahoo-41.vue"
+    },
+    "./yahoo-42": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yahoo-42.vue"
+    },
+    "./yahoo-43": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yahoo-43.vue"
+    },
+    "./yahoo-44": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yahoo-44.vue"
+    },
+    "./yahoo-45": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yahoo-45.vue"
+    },
+    "./yahoo-46": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yahoo-46.vue"
+    },
+    "./yahoo-47": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yahoo-47.vue"
+    },
+    "./yahoo-5": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yahoo-5.vue"
+    },
+    "./yahoo-6": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yahoo-6.vue"
+    },
+    "./yahoo-7": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yahoo-7.vue"
+    },
+    "./yahoo-8": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yahoo-8.vue"
+    },
+    "./yahoo-9": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yahoo-9.vue"
+    },
+    "./*": "./*"
+  },
+  "dependencies": {
+    "@iconify/css-vue": "^1.0.0"
+  },
+  "repository": "github:iconify/icons-vue#wi"
+}

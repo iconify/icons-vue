@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="hj_xczbfs"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:sentiment-content" /></template>
+<style>
+.hj_xczbfs {
+  fill: currentColor;
+  d: path("M9 15.5h6V14H9zm-.9 5.713q-1.825-.788-3.175-2.138T2.788 15.9T2 12t.788-3.9t2.137-3.175T8.1 2.788T12 2t3.9.788t3.175 2.137T21.213 8.1T22 12t-.788 3.9t-2.137 3.175t-3.175 2.138T12 22t-3.9-.788M8.5 8.5q-.8 0-1.487.45T5.875 10.1l1.25.825q.25-.375.6-.638t.775-.262t.775.263t.6.612l1.25-.825q-.45-.675-1.137-1.125T8.5 8.5m7 0q-.8 0-1.487.45t-1.138 1.15l1.25.825q.25-.35.6-.612t.775-.263t.788.25t.587.625l1.25-.825q-.45-.7-1.137-1.15T15.5 8.5");
+}
+
+</style>

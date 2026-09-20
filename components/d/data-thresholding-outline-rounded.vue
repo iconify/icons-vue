@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="p3_7dcboi"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:data-thresholding-outline-rounded" /></template>
+<style>
+.p3_7dcboi {
+  fill: currentColor;
+  d: path("M5 21q-.825 0-1.412-.587T3 19V5q0-.825.588-1.412T5 3h14q.825 0 1.413.588T21 5v14q0 .825-.587 1.413T19 21zm12.275-2H19v-1.725zM5.85 19h1.825l3-3H12.8l-3 3h1.6l3-3h2.125l-3 3h1.625l3-3H19V5H5v12.725L6.725 16H8.85zm4.825-8L8.35 13.3q-.275.275-.688.288T6.95 13.3q-.275-.275-.275-.7t.275-.7l3.025-3.025q.3-.3.7-.3t.7.3l1.3 1.3L15.65 7.2q.275-.275.688-.287t.712.287q.275.275.275.7t-.275.7l-3.675 3.7q-.3.3-.7.3t-.7-.3zM5 19V5z");
+}
+
+</style>

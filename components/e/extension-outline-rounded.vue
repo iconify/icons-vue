@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="my18rdbxs"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:extension-outline-rounded" /></template>
+<style>
+.my18rdbxs {
+  fill: currentColor;
+  d: path("M5 19h13v-3.975q0-.275.138-.525t.412-.375l.575-.275q.4-.2.638-.55t.237-.8q0-.425-.238-.788t-.637-.562l-.55-.25q-.275-.125-.425-.363T18 10V6h-3.925q-.375 0-.662-.238t-.338-.612l-.125-.85q-.075-.55-.487-.925T11.5 3q-.575 0-.987.375t-.488.925l-.125.85q-.05.375-.337.613T8.9 6H5v2.15q1.4.525 2.2 1.7T8 12.5q0 1.5-.8 2.675t-2.2 1.7zm0 2q-.85 0-1.425-.575T3 19v-3.125q0-.275.2-.488t.475-.262q.975-.2 1.65-.913T6 12.5q0-.975-.675-1.675T3.675 9.9Q3.4 9.825 3.2 9.612T3 9.125V6q0-.825.588-1.412T5 4h3.05q.175-1.275 1.15-2.137T11.5 1q1.3 0 2.275.863T14.95 4H18q.825 0 1.413.588T20 6v3.35q.9.45 1.45 1.3T22 12.5q0 1.025-.55 1.875T20 15.65V19q0 .85-.587 1.425T18 21zm7.5-8.5");
+}
+
+</style>

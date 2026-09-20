@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="u2y1lp86r"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:person-heart-sharp" /></template>
+<style>
+.u2y1lp86r {
+  fill: currentColor;
+  d: path("M9.175 10.825Q8 9.65 8 8t1.175-2.825T12 4t2.825 1.175T16 8t-1.175 2.825T12 12t-2.825-1.175M4 20v-2.8q0-.85.438-1.562T5.6 14.55q1.55-.775 3.15-1.162T12 13h.35q-.275.475-.413.988T11.8 15.05q0 .75.263 1.488t.912 1.387l2.1 2.075zm13.9 0l-3.5-3.5q-.325-.325-.462-.7t-.138-.75q0-.8.575-1.425T15.85 13q.7 0 1.1.325t.95.875q.5-.5.913-.85T19.95 13q.925 0 1.488.638T22 15.074q0 .375-.15.75t-.45.675z");
+}
+
+</style>

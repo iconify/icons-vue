@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="trsyg_bcx"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:bid-landscape-disabled-rounded" /></template>
+<style>
+.trsyg_bcx {
+  fill: currentColor;
+  d: path("M18.2 21H5q-.825 0-1.412-.587T3 19V5.8L1.1 3.9q-.3-.3-.3-.712t.3-.713t.713-.3t.712.3l19 19q.3.3.3.7t-.3.7t-.712.3t-.713-.3zM21 5v10.675q0 .675-.612.938T19.3 16.4l-3.05-3.05l2.5-2.825q.325-.35.25-.737t-.35-.663t-.662-.288t-.738.363l-2.425 2.725L7.6 4.7q-.475-.475-.213-1.088T8.325 3H19q.825 0 1.413.588T21 5M9 12.95l3.475 3.475q.25.25.575.238t.55-.263l-5.45-5.45L5.3 13.8q-.35.35-.312.75t.312.675t.675.313t.75-.313z");
+}
+
+</style>

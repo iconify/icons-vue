@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="l61oocb1x"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:add-triangle-outline-rounded" /></template>
+<style>
+.l61oocb1x {
+  fill: currentColor;
+  d: path("M3.6 20q-.875 0-1.3-.75t0-1.5l8.4-14.5q.225-.375.575-.562T12 2.5t.725.188t.575.562l8.4 14.5q.425.75 0 1.5t-1.3.75zm.875-2h15.05L12 5zM11 14.5v1q0 .425.288.713T12 16.5t.713-.288T13 15.5v-1h1q.425 0 .713-.288T15 13.5t-.288-.712T14 12.5h-1v-1q0-.425-.288-.712T12 10.5t-.712.288T11 11.5v1h-1q-.425 0-.712.288T9 13.5t.288.713t.712.287zm1-1");
+}
+
+</style>

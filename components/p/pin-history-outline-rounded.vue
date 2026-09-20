@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="kq94udb_v"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:pin-history-outline-rounded" /></template>
+<style>
+.kq94udb_v {
+  fill: currentColor;
+  d: path("m14 13.5l-3-3V6h2v3.675l2.4 2.425zM4 10.025h2q0 .9.238 1.738t.737 1.562q.7 1.05 1.6 1.925t1.775 1.775q.45.475.838.95t.787.975q.35-.5.763-.975t.837-.95q.875-.9 1.788-1.762T17 13.325q.5-.725.75-1.575t.25-1.725q0-2.5-1.763-4.262T11.976 4q-1.275 0-2.437.525T7.55 6H9v2H4V3h2v1.725Q7.125 3.4 8.688 2.7t3.287-.7q3.35 0 5.688 2.338T20 10.025q0 1.2-.35 2.325t-1 2.1q-.9 1.35-2.075 2.45t-2.225 2.3q-.4.475-.737.95t-.613 1l-.175.35q-.125.25-.35.375T12 22q-.275 0-.5-.137t-.35-.363l-.175-.35q-.275-.525-.6-1.012T9.65 19.2Q8.6 17.95 7.4 16.888T5.325 14.45q-.7-.95-1.012-2.087T4 10.025");
+}
+
+</style>

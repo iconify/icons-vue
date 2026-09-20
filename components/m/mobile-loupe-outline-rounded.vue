@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="bxsw4_ykj"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:mobile-loupe-outline-rounded" /></template>
+<style>
+.bxsw4_ykj {
+  fill: currentColor;
+  d: path("M7 21V3v5.025V8zm5.713-15.288Q13 5.425 13 5t-.288-.712T12 4t-.712.288T11 5t.288.713T12 6t.713-.288M7 23q-.825 0-1.412-.587T5 21V3q0-.825.588-1.412T7 1h10q.825 0 1.413.588T19 3v3.975q0 .425-.288.713T18 7.975t-.712-.287T17 6.975V3H7v18h2.025q.425 0 .713.288t.287.712t-.288.713t-.712.287zm9.5 0q-2.725 0-4.637-1.937T10 16.4q.05-2.6 1.925-4.475T16.4 10q2.725-.05 4.663 1.863T23 16.5V21q0 .825-.587 1.413T21 23zm3.188-3.312Q21 18.375 21 16.5t-1.312-3.187T16.5 12t-3.187 1.313T12 16.5t1.313 3.188T16.5 21t3.188-1.312M15.75 17.25h-1.375q-.325 0-.537-.213t-.213-.537t.213-.537t.537-.213h1.375v-1.5q0-.325.213-.537t.537-.213t.538.213t.212.537v1.5h1.375q.325 0 .538.213t.212.537t-.213.538t-.537.212H17.25v1.5q0 .325-.213.538t-.537.212t-.537-.213t-.213-.537z");
+}
+
+</style>

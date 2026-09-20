@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="j84xftbar"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:ring-volume-rounded" /></template>
+<style>
+.j84xftbar {
+  fill: currentColor;
+  d: path("M11.288 6.713Q11 6.425 11 6V3q0-.425.288-.712T12 2t.713.288T13 3v3q0 .425-.288.713T12 7t-.712-.288M16.9 9.1q-.275-.3-.287-.7t.287-.7l2.125-2.125q.3-.3.713-.288t.712.313q.275.3.288.7t-.288.7l-2.125 2.125q-.3.3-.712.288T16.9 9.1m-9.8 0q-.3.3-.712.313t-.713-.288L3.55 7q-.3-.3-.287-.7t.287-.7q.3-.3.713-.312t.712.287L7.1 7.7q.3.3.288.7t-.288.7M3.4 20.4l-2.3-2.25q-.3-.3-.3-.7t.3-.7q2.2-2.375 5.075-3.562T12 12t5.813 1.188T22.9 16.75q.3.3.3.7t-.3.7l-2.3 2.25q-.275.275-.638.3t-.662-.2l-2.9-2.2q-.2-.15-.3-.35t-.1-.45v-2.85q-.95-.3-1.95-.475T12 14t-2.05.175T8 14.65v2.85q0 .25-.1.45t-.3.35l-2.9 2.2q-.3.225-.663.2t-.637-.3");
+}
+
+</style>

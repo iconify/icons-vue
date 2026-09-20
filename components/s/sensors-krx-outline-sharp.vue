@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="eajpgbe9m"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:sensors-krx-outline-sharp" /></template>
+<style>
+.eajpgbe9m {
+  fill: currentColor;
+  d: path("M3.7 17.575q-.8-1.2-1.25-2.613T2 12q0-1.575.45-2.975t1.25-2.6l1.675 1.1q-.65.95-1.012 2.088T4 12t.363 2.375t1.012 2.075zm4.05-1.325Q6 14.5 6 12t1.75-4.25T12 6t4.25 1.75T18 12t-1.75 4.25T12 18t-4.25-1.75m7.075-1.425Q16 13.65 16 12t-1.175-2.825T12 8T9.175 9.175T8 12t1.175 2.825T12 16t2.825-1.175m5.45 2.75l-1.65-1.125q.65-.95 1.013-2.075T20 12t-.363-2.387t-1.012-2.088l1.65-1.1q.8 1.2 1.263 2.6T22 12q0 1.55-.462 2.963t-1.263 2.612M12 12");
+}
+
+</style>

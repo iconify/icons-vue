@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="az8j-mbjx"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:toast-outline-sharp" /></template>
+<style>
+.az8j-mbjx {
+  fill: currentColor;
+  d: path("M6 18h12v-2H6zm-3 3V3h18v18zm2-2h14V5H5zm0 0V5z");
+}
+
+</style>

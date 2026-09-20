@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="bw9_n_baa"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:ecg-heart-sharp" /></template>
+<style>
+.bw9_n_baa {
+  fill: currentColor;
+  d: path("M16.125 3q2.5 0 4.188 1.85T22 9.25q0 .45-.05.888t-.175.862h-6.25L13.85 8.45h-1.8l-1.35 4.3L9.525 11h-7.3q-.125-.425-.175-.862T2 9.275Q2 6.7 3.675 4.85T7.85 3q1.2 0 2.263.475T12 4.8q.8-.85 1.863-1.325T16.125 3m-4.15 18.95L3.7 13.625q-.15-.15-.275-.3T3.175 13H8.45l1.725 2.575h1.775l1.35-4.325L14.45 13h6.35l-.25.3l-.25.3z");
+}
+
+</style>

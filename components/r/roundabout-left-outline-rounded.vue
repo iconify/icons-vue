@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="ra8nmedee"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:roundabout-left-outline-rounded" /></template>
+<style>
+.ra8nmedee {
+  fill: currentColor;
+  d: path("M15 20v-5.1q0-.725.475-1.275t1.2-.675q1.425-.225 2.375-1.338T20 9q0-1.65-1.175-2.825T16 5q-1.5 0-2.613.95T12.05 8.325q-.125.725-.675 1.2T10.1 10H5.825l.9.9q.3.3.288.7t-.313.7q-.3.275-.7.288t-.7-.288L2.7 9.7q-.15-.15-.213-.325T2.426 9t.063-.375T2.7 8.3l2.6-2.6q.275-.275.688-.287T6.7 5.7q.275.275.275.7t-.275.7l-.875.9h4.25q.35-2.15 2.013-3.575T16 3q2.5 0 4.25 1.75T22 9q0 2.25-1.425 3.913T17 14.925V20q0 .425-.288.713T16 21t-.712-.288T15 20");
+}
+
+</style>

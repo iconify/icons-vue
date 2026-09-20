@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="tvmw2ibbk"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:table-convert-sharp" /></template>
+<style>
+.tvmw2ibbk {
+  fill: currentColor;
+  d: path("M13 16h8v5h-8zm0-2V9h8v5zM3 7V3h18v4zm0 15v-2h2.55q-1.2-.575-1.937-1.7t-.738-2.55q0-1.975 1.388-3.363T7.625 11v2q-1.125 0-1.937.8t-.813 1.95q0 .975.6 1.725t1.525.95V16h2v6z");
+}
+
+</style>

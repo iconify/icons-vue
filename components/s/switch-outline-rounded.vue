@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="vphdpebod"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:switch-outline-rounded" /></template>
+<style>
+.vphdpebod {
+  fill: currentColor;
+  d: path("M6 22q-.825 0-1.412-.587T4 20V4q0-.825.588-1.412T6 2h12q.825 0 1.413.588T20 4v16q0 .825-.587 1.413T18 22zm0-2h12V4H6zm3-3h6q.425 0 .713-.288T16 16V8q0-.425-.288-.712T15 7H9q-.425 0-.712.288T8 8v8q0 .425.288.713T9 17m1-2v-4h4v4zm2-8.75q.325 0 .538-.213t.212-.537t-.213-.537T12 4.75t-.537.213t-.213.537t.213.538t.537.212m0 13q.325 0 .538-.213t.212-.537t-.213-.537T12 17.75t-.537.213t-.213.537t.213.538t.537.212M12 12");
+}
+
+</style>

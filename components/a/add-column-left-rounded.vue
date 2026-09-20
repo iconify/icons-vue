@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="h2lv6tbnd"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:add-column-left-rounded" /></template>
+<style>
+.h2lv6tbnd {
+  fill: currentColor;
+  d: path("M4.288 14.713Q4 14.425 4 14v-1H3q-.425 0-.712-.288T2 12t.288-.712T3 11h1v-1q0-.425.288-.712T5 9t.713.288T6 10v1h1q.425 0 .713.288T8 12t-.288.713T7 13H6v1q0 .425-.288.713T5 15t-.712-.288M14 21V3h6q.825 0 1.413.588T22 5v14q0 .825-.587 1.413T20 21zm-8 0q-.825 0-1.412-.587T4 19v-1.1q0-.4.3-.663T5 17q2.075 0 3.538-1.45T10 12T8.537 8.45T5 7q-.4 0-.7-.25T4 6.1V5q0-.825.588-1.412T6 3h6v18z");
+}
+
+</style>

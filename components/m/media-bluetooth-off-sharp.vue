@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="hsdcqbb1s"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:media-bluetooth-off-sharp" /></template>
+<style>
+.hsdcqbb1s {
+  fill: currentColor;
+  d: path("m19.8 22.6l-4-4l-.6.6l-.85-.85l.6-.6L11 13.8V17q0 1.65-1.175 2.825T7 21t-2.825-1.175T3 17t1.175-2.825T7 13q.575 0 1.062.138T9 13.55V11.8L1.4 4.2l1.4-1.4l18.4 18.4zm1.4-4.25l-6.8-6.75l.8-.8l2.75 2.75V9h.6L22 12.4L19.4 15l2.6 2.55zm-2.05-4.8l1.15-1.15l-1.15-1.1zM11 8.15l-2-2V3h6v4h-4z");
+}
+
+</style>

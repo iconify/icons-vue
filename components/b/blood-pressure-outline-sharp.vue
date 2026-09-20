@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="c733go2lq"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:blood-pressure-outline-sharp" /></template>
+<style>
+.c733go2lq {
+  fill: currentColor;
+  d: path("M2 9V6q0-.825.588-1.412T4 4h16q.825 0 1.413.588T22 6v5.5h-2V6H4v3zm8.675 11H4q-.825 0-1.412-.587T2 18v-3h2v3h6.075q.075.525.225 1.025t.375.975m2.787.538Q12 19.075 12 17t1.463-3.537T17 12t3.538 1.463T22 17t-1.463 3.538T17 22t-3.537-1.463M17.2 17.5l2.275-2.275l-.7-.7L16.5 16.8zM2 13v-2h3.6L7 13.775L10.35 7h1.275l1.95 3.9q-.45.275-.862.575t-.763.675l-.95-1.9L7.625 17h-1.25l-2-4z");
+}
+
+</style>

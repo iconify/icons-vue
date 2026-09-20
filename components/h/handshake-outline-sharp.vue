@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="l8dbqbb_i"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:handshake-outline-sharp" /></template>
+<style>
+.l8dbqbb_i {
+  fill: currentColor;
+  d: path("m11.85 23l-9.875-9.875l7.55-7.55l3.65 3.65l.7-.7l-5.35-5.35L1.7 10l.975.975L1.25 12.4l-2.35-2.35L8.575.375l3.1 3.1l3.1-3.1l9.85 9.85zm.025-2.8l9.925-9.975l-7.05-7.05l-1.675 1.675l3.65 3.65l-3.55 3.55l-3.65-3.65L4.8 13.125l.725.725l3.725-3.725l1.4 1.4l-3.725 3.725l.7.7l3.725-3.725l1.425 1.425l-3.725 3.725l.7.7l3.725-3.725l1.4 1.4l-3.725 3.725zm-2.9-12.825");
+}
+
+</style>

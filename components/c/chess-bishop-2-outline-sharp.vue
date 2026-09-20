@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="atmzn7mwo"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:chess-bishop-2-outline-sharp" /></template>
+<style>
+.atmzn7mwo {
+  fill: currentColor;
+  d: path("M6 18q-1.025-1.275-1.513-2.95T4 11.175q0-1.85 1.625-3.738t4.6-3.537q-.125-.2-.175-.437T10 3q0-.825.588-1.412T12 1t1.413.588T14 3q0 .2-.05.413t-.15.412q3.125 1.65 4.662 3.488T20 11.175q0 2.425-.462 4.025T18 18zm1.025-2h10q.5-.875.738-2.037T18 11.175q0-.75-.387-1.525t-1.138-1.537t-1.862-1.5t-2.563-1.438q-1.4.675-2.512 1.438t-1.9 1.537T6.425 9.7T6 11.175q0 1.5.25 2.688T7.025 16M4 22v-3h16v3zm7-8h2v-2h2v-2h-2V8h-2v2H9v2h2zm1 2");
+}
+
+</style>

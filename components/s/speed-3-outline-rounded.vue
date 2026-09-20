@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="uhl7_nbrk"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:speed-3-outline-rounded" /></template>
+<style>
+.uhl7_nbrk {
+  fill: currentColor;
+  d: path("M12.825 15.8q.75-.35 1.113-1.2t-.163-1.6q-1.1-1.575-2.212-3.062T9.3 6.95q-.275-.35-.687-.162t-.313.637q.4 1.825.85 3.625t1 3.65q.25.875 1.038 1.163t1.637-.063m-7.7 4.2q-.525 0-1.012-.238t-.738-.712q-.7-1.15-1.025-2.437T2.025 14q0-1.725.588-3.463t1.862-3.112q.375-.425.8-.412t.7.262t.35.625t-.225.725q-.95 1.05-1.512 2.475T4.025 14q0 1.025.263 2.038T5.125 18H18.9q.525-.9.813-1.925T20 14q0-1.875-.812-3.475T17.025 7.8q-1.05-.875-2.375-1.35T11.95 6q-.4 0-.712-.262t-.363-.663t.15-.725t.6-.35q1.825-.075 3.563.525T18.35 6.3q1.675 1.4 2.663 3.375T22 14q0 1.4-.35 2.663t-1 2.387q-.275.475-.75.713t-1 .237zm6.9-6.025");
+}
+
+</style>

@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="n26n8fbnp"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:earbud-case-outline" /></template>
+<style>
+.n26n8fbnp {
+  fill: currentColor;
+  d: path("M7 21q-1.65 0-2.825-1.175T3 17V7q0-1.65 1.175-2.825T7 3h10q1.65 0 2.825 1.175T21 7v10q0 1.65-1.175 2.825T17 21zm-2-9v5q0 .825.588 1.413T7 19h10q.825 0 1.413-.587T19 17v-5h-2v2q0 .825-.587 1.413T15 16H9q-.825 0-1.412-.587T7 14v-2zm4 0v2h6v-2zm-4-2h14V7q0-.825-.587-1.412T17 5H7q-.825 0-1.412.588T5 7z");
+}
+
+</style>

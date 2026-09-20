@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="dgird-b2k"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:resize-outline-rounded" /></template>
+<style>
+.dgird-b2k {
+  fill: currentColor;
+  d: path("M3.288 4.713Q3 4.425 3 4t.288-.712T4 3t.713.288T5 4t-.288.713T4 5t-.712-.288m4 0Q7 4.426 7 4t.288-.712T8 3t.713.288T9 4t-.288.713T8 5t-.712-.288m4 0Q11 4.426 11 4t.288-.712T12 3t.713.288T13 4t-.288.713T12 5t-.712-.288m-8 4Q3 8.426 3 8t.288-.712T4 7t.713.288T5 8t-.288.713T4 9t-.712-.288m0 4Q3 12.426 3 12t.288-.712T4 11t.713.288T5 12t-.288.713T4 13t-.712-.288m16 0Q19 12.426 19 12t.288-.712T20 11t.713.288T21 12t-.288.713T20 13t-.712-.288m0 4Q19 16.426 19 16t.288-.712T20 15t.713.288T21 16t-.288.713T20 17t-.712-.288m-8 4Q11 20.426 11 20t.288-.712T12 19t.713.288T13 20t-.288.713T12 21t-.712-.288m4 0Q15 20.426 15 20t.288-.712T16 19t.713.288T17 20t-.288.713T16 21t-.712-.288m4 0Q19 20.426 19 20t.288-.712T20 19t.713.288T21 20t-.288.713T20 21t-.712-.288M19 8V5h-3q-.425 0-.712-.288T15 4t.288-.712T16 3h3q.825 0 1.413.588T21 5v3q0 .425-.288.713T20 9t-.712-.288T19 8M3 19v-3q0-.425.288-.712T4 15t.713.288T5 16v3h3q.425 0 .713.288T9 20t-.288.713T8 21H5q-.825 0-1.412-.587T3 19");
+}
+
+</style>

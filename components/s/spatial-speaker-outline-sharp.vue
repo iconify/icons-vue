@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="hprluwbnq"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:spatial-speaker-outline-sharp" /></template>
+<style>
+.hprluwbnq {
+  fill: currentColor;
+  d: path("M9 22q-3.35 0-5.675-2.325T1 14h2q0 2.5 1.75 4.25T9 20zm0-3.5q-1.875 0-3.187-1.312T4.5 14h2q0 1.05.725 1.775T9 16.5zM8 15V3h8v12zm2-2h4V5h-4zm5 5.5v-2q1.05 0 1.775-.725T17.5 14h2q0 1.875-1.312 3.188T15 18.5m0 3.5v-2q2.5 0 4.25-1.75T21 14h2q0 3.35-2.325 5.675T15 22m-5-9h4z");
+}
+
+</style>

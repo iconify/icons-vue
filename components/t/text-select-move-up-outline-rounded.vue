@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="g-fta3vtj"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:text-select-move-up-outline-rounded" /></template>
+<style>
+.g-fta3vtj {
+  fill: currentColor;
+  d: path("M20 21H4q-.425 0-.712-.288T3 20t.288-.712T4 19h16q.425 0 .713.288T21 20t-.288.713T20 21m-9-10.175l-.9.9Q9.825 12 9.413 12t-.713-.3q-.275-.275-.275-.7t.275-.7l2.6-2.6q.3-.3.7-.3t.7.3l2.6 2.6q.275.275.287.688t-.287.712q-.275.275-.7.275t-.7-.275l-.9-.875V16q0 .425-.287.713T12 17t-.712-.288T11 16zM20 5H4q-.425 0-.712-.288T3 4t.288-.712T4 3h16q.425 0 .713.288T21 4t-.288.713T20 5");
+}
+
+</style>

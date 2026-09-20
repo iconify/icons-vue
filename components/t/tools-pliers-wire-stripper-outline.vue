@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="q-aazz5vw"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:tools-pliers-wire-stripper-outline" /></template>
+<style>
+.q-aazz5vw {
+  fill: currentColor;
+  d: path("M7 23q-.5-1-.75-2.45T6 17.6q0-2.475.55-4.088T8 11V6l3-5h2l3 5v5q.925.9 1.463 2.513T18 17.6q0 1.5-.25 2.95T17 23q-1.05-.325-1.675-1.187t-.6-1.963q0-.625.138-1.35T15 17.05q0-1.45-.788-3.05T12 11q-1.4 1.4-2.2 3T9 17.05q0 .725.15 1.45t.175 1.35q0 1.1-.637 1.975T7 23m4.288-15.288Q11 7.425 11 7q0-.275.125-.5t.375-.35V4.025L10 6.55V9h4V6.55l-1.5-2.525V6.15q.25.125.375.35T13 7q0 .425-.288.712T12 8t-.712-.288M12.5 4.026h-1zm-1 0h1z");
+}
+
+</style>

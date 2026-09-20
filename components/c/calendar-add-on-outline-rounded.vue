@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="qnf3g2b4v"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:calendar-add-on-outline-rounded" /></template>
+<style>
+.qnf3g2b4v {
+  fill: currentColor;
+  d: path("M17 19h-2q-.425 0-.712-.288T14 18t.288-.712T15 17h2v-2q0-.425.288-.712T18 14t.713.288T19 15v2h2q.425 0 .713.288T22 18t-.288.713T21 19h-2v2q0 .425-.288.713T18 22t-.712-.288T17 21zM5 20q-.825 0-1.412-.587T3 18V6q0-.825.588-1.412T5 4h1V3q0-.425.288-.712T7 2t.713.288T8 3v1h6V3q0-.425.288-.712T15 2t.713.288T16 3v1h1q.825 0 1.413.588T19 6v5q0 .425-.288.713T18 12t-.712-.288T17 11v-1H5v8h6q.425 0 .713.288T12 19t-.288.713T11 20zM5 8h12V6H5zm0 0V6z");
+}
+
+</style>

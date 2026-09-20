@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="pvatkg5uv"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:graph-8-outline" /></template>
+<style>
+.pvatkg5uv {
+  fill: currentColor;
+  d: path("M7 22q-1.25 0-2.125-.875T4 19q0-.975.563-1.75T6 16.175v-8.35q-.875-.3-1.437-1.075T4 5q0-1.25.875-2.125T7 2t2.125.875T10 5q0 .975-.562 1.75T8 7.825V12q.625-.475 1.388-.737T11 11h2q1.25 0 2.125-.875T16 8v-.175q-.875-.3-1.437-1.075T14 5q0-1.25.875-2.125T17 2t2.125.875T20 5q0 .975-.562 1.75T18 7.825V8q0 2.075-1.463 3.538T13 13h-2q-1.25 0-2.125.875T8 16v.175q.875.3 1.438 1.075T10 19q0 1.25-.875 2.125T7 22M7 6q.425 0 .713-.288T8 5t-.288-.712T7 4t-.712.288T6 5t.288.713T7 6m10 0q.425 0 .713-.288T18 5t-.288-.712T17 4t-.712.288T16 5t.288.713T17 6M7 20q.425 0 .713-.288T8 19t-.288-.712T7 18t-.712.288T6 19t.288.713T7 20m0-1");
+}
+
+</style>

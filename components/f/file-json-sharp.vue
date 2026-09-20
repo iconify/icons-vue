@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="ecx3aacjw"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:file-json-sharp" /></template>
+<style>
+.ecx3aacjw {
+  fill: currentColor;
+  d: path("M4.5 15h2.25l.75-.75V9H6v4.75H5V12.5H3.75v1.75zm4.425 0h2l.75-.75v-2l-.75-.75h-1.5v-1.25h1v.5h1.25v-1l-.75-.75h-2l-.75.75v2l.75.75h1.5v1.25h-1v-.5h-1.25v1zm4.65-1.5v-3h1v3zm-.5 1.5h2l.75-.75v-4.5l-.75-.75h-2l-.75.75v4.5zm3.425 0h1.25v-2.625l1 2.625H20V9h-1.25v2.625L17.75 9H16.5zM1 20V4h22v16z");
+}
+
+</style>

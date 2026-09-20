@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="co5g0folk"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:water-orp-sharp" /></template>
+<style>
+.co5g0folk {
+  fill: currentColor;
+  d: path("M6.5 22v-6H11v6zM8 20.5h1.5v-3H8zm4 1.5v-6h5v3.9h-.9L17 22h-1.5l-.85-2H13.5v2zm6 0v-6h5v4h-3.5v2zm-4.5-3.5h2v-1h-2zm6 0h2v-1h-2zm-15 1.35q-1.175-1.125-1.838-2.675T2 13.8q0-2.5 1.988-5.437T10 2q4.025 3.425 6.013 6.363T18 13.8v.2H4.5z");
+}
+
+</style>

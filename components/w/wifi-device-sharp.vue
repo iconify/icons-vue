@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="ysim0ebyn"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:wifi-device-sharp" /></template>
+<style>
+.ysim0ebyn {
+  fill: currentColor;
+  d: path("M3 3v18h18V3zm4.275 8.525L5.9 10.15q1.05-1.275 2.713-1.963T12 7.5q1.675 0 3.35.688t2.725 1.962L16.7 11.525q-.875-.95-2.087-1.487T12 9.5t-2.613.538t-2.112 1.487m2.85 2.85L8.7 12.95q.65-.7 1.513-1.075t1.812-.375t1.787.375T15.3 12.95l-1.4 1.425q-.35-.375-.863-.625T12 13.5t-1.025.25t-.85.625m1.163 2.338Q11 16.425 11 16t.288-.712T12 15t.713.288T13 16t-.288.713T12 17t-.712-.288");
+}
+
+</style>

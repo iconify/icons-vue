@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="cz96-xbtp"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:faucet-sharp" /></template>
+<style>
+.cz96-xbtp {
+  fill: currentColor;
+  d: path("M2 15v-2h5v-1H4v-2h5v3h2V6.1q0-1.725 1.2-2.912T15.125 2q1.15 0 2.125.6t1.5 1.65l1.15 2.3l-1.8.9l-1.15-2.3q-.275-.525-.775-.837T15.1 4q-.875 0-1.487.613T13 6.1V13h2v-3h5v2h-3v1h5v2zm2 6v-5h16v5z");
+}
+
+</style>

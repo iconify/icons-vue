@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="inln-abox"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:code-xml-rounded" /></template>
+<style>
+.inln-abox {
+  fill: currentColor;
+  d: path("M3.825 12L6.7 14.875q.275.3.288.713T6.7 16.3t-.7.3t-.7-.3l-3.6-3.6q-.3-.3-.3-.7t.3-.7l3.6-3.6q.3-.3.7-.3t.7.3t.3.713t-.3.712zm5.088 7.513q-.188-.363-.063-.763l4.4-14.1q.125-.4.488-.588T14.5 4t.588.488t.062.762l-4.4 14.1q-.125.4-.488.588T9.5 20t-.587-.488M20.175 12L17.3 9.125q-.3-.3-.3-.712t.3-.713t.7-.3t.7.3l3.6 3.6q.3.3.3.7t-.3.7l-3.6 3.6q-.3.3-.7.3t-.7-.3t-.3-.712t.3-.713z");
+}
+
+</style>

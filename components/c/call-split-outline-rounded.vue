@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="wftii3xuj"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:call-split-outline-rounded" /></template>
+<style>
+.wftii3xuj {
+  fill: currentColor;
+  d: path("M6 7.4V9q0 .425-.288.713T5 10t-.712-.288T4 9V5q0-.425.288-.712T5 4h4q.425 0 .713.288T10 5t-.288.713T9 6H7.4l5.025 5.025q.275.275.425.638t.15.762V19q0 .425-.287.713T12 20t-.712-.288T11 19v-6.6zm12 0l-2.45 2.475q-.3.3-.712.3t-.713-.3t-.3-.725t.3-.725L16.6 6H15q-.425 0-.712-.288T14 5t.288-.712T15 4h4q.425 0 .713.288T20 5v4q0 .425-.288.713T19 10t-.712-.288T18 9z");
+}
+
+</style>

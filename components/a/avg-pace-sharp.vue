@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="iyq3srbya"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:avg-pace-sharp" /></template>
+<style>
+.iyq3srbya {
+  fill: currentColor;
+  d: path("M14.363 4.638Q14 4.275 14 3.75t.363-.888t.887-.362t.888.363t.362.887t-.363.888T15.25 5t-.888-.363m0 16.5Q14 20.776 14 20.25t.363-.888t.887-.362t.888.363t.362.887t-.363.888t-.887.362t-.888-.363m4-13Q18 7.775 18 7.25t.363-.888T19.25 6t.888.363t.362.887t-.363.888t-.887.362t-.888-.363m0 9.5Q18 17.276 18 16.75t.363-.888t.887-.362t.888.363t.362.887t-.363.888t-.887.362t-.888-.363m1.5-4.75Q19.5 12.526 19.5 12t.363-.888t.887-.362t.888.363T22 12t-.363.888t-.887.362t-.888-.363M12 22q-2.075 0-3.9-.788t-3.175-2.137T2.788 15.9T2 12t.788-3.9t2.137-3.175T8.1 2.788T12 2v2Q8.65 4 6.325 6.325T4 12t2.325 5.675T12 20zm-1.412-8.587Q10 12.825 10 12q0-.125.013-.262t.062-.263L8 9.4L9.4 8l2.075 2.075q.1-.025.525-.075q.825 0 1.413.588T14 12t-.587 1.413T12 14t-1.412-.587");
+}
+
+</style>

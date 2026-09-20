@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="v0kx5ua1r"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:wifi-channel-outline" /></template>
+<style>
+.v0kx5ua1r {
+  fill: currentColor;
+  d: path("M3 21q.275-2.175.763-4.762T5 11.6q.65-1.725 1.4-2.662T8 8q.5 0 1 .35t.975 1.075t.888 1.75t.737 2.4q.325-2.575.75-4.537t.975-3.313t1.213-2.037T16 3q1.075 0 1.925 1.275T19.4 7.9q.775 2.9 1.125 6.5T21 21h-2q-.45-2.2-1.4-4.1T16 15t-1.612 1.9T13 21h-2q-.2-1.8-.537-3.537T9.7 14.224t-.85-2.587T8 10.125q-.425.425-.85 1.5T6.3 14.2t-.762 3.238T5 21zm10.5-6.5q.575-.725 1.2-1.112T16 13t1.3.388t1.2 1.112q-.225-1.9-.513-3.488t-.612-2.837t-.675-2.05T16 5.05q-.35.275-.7 1.075t-.675 2.05t-.612 2.838T13.5 14.5");
+}
+
+</style>

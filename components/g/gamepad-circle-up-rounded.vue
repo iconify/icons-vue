@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="xlus_xzpg"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:gamepad-circle-up-rounded" /></template>
+<style>
+.xlus_xzpg {
+  fill: currentColor;
+  d: path("M9.525 7.975Q8.5 6.95 8.5 5.5t1.025-2.475T12 2t2.475 1.025T15.5 5.5t-1.025 2.475T12 9T9.525 7.975m0 13Q8.5 19.95 8.5 18.5t1.025-2.475T12 15t2.475 1.025T15.5 18.5t-1.025 2.475T12 22t-2.475-1.025m3.538-1.412q.437-.438.437-1.063t-.437-1.062T12 17t-1.062.438T10.5 18.5t.438 1.063T12 20t1.063-.437M18.5 15.5q-1.45 0-2.475-1.025T15 12t1.025-2.475T18.5 8.5t2.475 1.025T22 12t-1.025 2.475T18.5 15.5m0-2q.625 0 1.063-.437T20 12t-.437-1.062T18.5 10.5t-1.062.438T17 12t.438 1.063t1.062.437m-13 2q-1.45 0-2.475-1.025T2 12t1.025-2.475T5.5 8.5t2.475 1.025T9 12t-1.025 2.475T5.5 15.5m0-2q.625 0 1.063-.437T7 12t-.437-1.062T5.5 10.5t-1.062.438T4 12t.438 1.063T5.5 13.5");
+}
+
+</style>

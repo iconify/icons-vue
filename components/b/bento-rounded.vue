@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="ej9328bqa"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:bento-rounded" /></template>
+<style>
+.ej9328bqa {
+  fill: currentColor;
+  d: path("M16 11V5h4q.825 0 1.413.588T22 7v4zM4 19q-.825 0-1.412-.587T2 17V7q0-.825.588-1.412T4 5h10v14zm4-5.5q.625 0 1.063-.437T9.5 12t-.437-1.062T8 10.5t-1.062.438T6.5 12t.438 1.063T8 13.5m8 5.5v-6h6v4q0 .825-.587 1.413T20 19z");
+}
+
+</style>

@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="p6xajsevz"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:health-metrics-outline" /></template>
+<style>
+.p6xajsevz {
+  fill: currentColor;
+  d: path("M7 22v-5H2V7h5V2h10v5h5v10h-5v5zM4 11h5q.25 0 .475.125t.35.325l.875 1.3l1.35-4.05q.1-.3.362-.5T13 8q.25 0 .475.125t.35.325l1.7 2.55H20V9h-5V4H9v5H4zm5 9h6v-5h5v-2h-5q-.25 0-.475-.125t-.375-.325l-.85-1.3l-1.35 4.05q-.1.3-.375.5t-.6.2q-.25 0-.475-.125t-.35-.325L8.45 13H4v2h5zm3-8");
+}
+
+</style>

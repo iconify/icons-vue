@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="cestn-bqc"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:file-save-off-outline-rounded" /></template>
+<style>
+.cestn-bqc {
+  fill: currentColor;
+  d: path("m20.9 18.1l-1.4-1.425l.4-.4q.3-.3.7-.287t.7.312q.275.3.288.7t-.288.7zM19 16.175l-2-2V14q0-.425.288-.712T18 13t.713.288T19 14zM19.175 22L6 8.825V18h5q.425 0 .713.288T12 19t-.288.713T11 20H6q-.825 0-1.412-.587T4 18V6.825L1.4 4.2q-.275-.275-.287-.687T1.4 2.8q.275-.275.7-.275t.7.275l18.9 18.9q.125.125.213.325t.087.4V23q0 .425-.288.713T21 24h-6q-.425 0-.712-.288T14 23t.288-.712T15 22zM17 9v1q0 .425.288.713T18 11t.713-.288T19 10V8.825q0-.4-.15-.763t-.425-.637l-4.85-4.85q-.275-.275-.637-.425T12.175 2H7q-.425 0-.712.288T6 3t.288.713T7 4h5v3.5q0 .625.438 1.063T13.5 9zm-4.025 1.15");
+}
+
+</style>

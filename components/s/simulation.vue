@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="siukz19dg"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:simulation" /></template>
+<style>
+.siukz19dg {
+  fill: currentColor;
+  d: path("M8 17v-.575q0-1.1 1.1-1.763T12 14t2.9.663t1.1 1.762V17zm2.588-4.587Q10 11.825 10 11t.588-1.412T12 9t1.413.588T14 11t-.587 1.413T12 13t-1.412-.587M7 20.15q-2.875-.35-4.437-1.175T1 17V7q0-1.425 2.838-2.2T12 4.025t8.163.775T23 7v10q0 1.15-1.562 1.975T17 20.15v-12q1.275-.2 2.263-.488t1.412-.562Q19.6 6.675 17 6.338T12 6t-5 .338t-3.675.762q.425.3 1.413.575T7 8.15z");
+}
+
+</style>

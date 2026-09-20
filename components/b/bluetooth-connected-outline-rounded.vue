@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="vmp98tb5m"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:bluetooth-connected-outline-rounded" /></template>
+<style>
+.vmp98tb5m {
+  fill: currentColor;
+  d: path("M3.938 13.063Q3.5 12.625 3.5 12t.438-1.062T5 10.5t1.063.438T6.5 12t-.437 1.063T5 13.5t-1.062-.437m14 0Q17.5 12.625 17.5 12t.438-1.062T19 10.5t1.063.438T20.5 12t-.437 1.063T19 13.5t-1.062-.437M11 20.575V14.4l-3.9 3.9q-.275.275-.7.275t-.7-.275t-.275-.7t.275-.7l4.9-4.9l-4.9-4.9q-.275-.275-.275-.7t.275-.7t.7-.275t.7.275L11 9.6V3.425q0-.45.3-.737T12 2.4q.2 0 .375.075t.325.225L17 7q.15.15.213.325t.062.375t-.062.375T17 8.4L13.4 12l3.6 3.6q.15.15.213.325t.062.375t-.062.375T17 17l-4.3 4.3q-.15.15-.325.225T12 21.6q-.4 0-.7-.288t-.3-.737M13 9.6l1.9-1.9L13 5.85zm0 8.55l1.9-1.85l-1.9-1.9z");
+}
+
+</style>

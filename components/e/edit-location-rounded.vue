@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="tf41m7bnn"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:edit-location-rounded" /></template>
+<style>
+.tf41m7bnn {
+  fill: currentColor;
+  d: path("M13.85 9.575L12.425 8.15L8.8 11.75q-.15.15-.225.338t-.075.387V13q0 .2.15.35t.35.15h.525q.2 0 .388-.075t.337-.225zm.725-.725l.7-.7q.125-.125.125-.262t-.125-.263l-.9-.9q-.125-.125-.262-.125t-.263.125l-.7.7zM11.3 21.2q-.35-.125-.625-.375Q9.05 19.325 7.8 17.9t-2.087-2.762t-1.275-2.575T4 10.2q0-3.75 2.413-5.975T12 2t5.588 2.225T20 10.2q0 1.125-.437 2.363t-1.275 2.575T16.2 17.9t-2.875 2.925q-.275.25-.625.375t-.7.125t-.7-.125");
+}
+
+</style>

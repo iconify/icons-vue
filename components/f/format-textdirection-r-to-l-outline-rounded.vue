@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="fs68fyb9w"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:format-textdirection-r-to-l-outline-rounded" /></template>
+<style>
+.fs68fyb9w {
+  fill: currentColor;
+  d: path("M11 4v10q0 .425-.288.713T10 15t-.712-.288T9 14v-4q-1.65 0-2.825-1.175T5 6t1.175-2.825T9 2h7q.425 0 .713.287T17 3t-.288.713T16 4h-1v10q0 .425-.288.713T14 15t-.712-.288T13 14V4zM6.8 19l.9.9q.275.275.275.7t-.275.7t-.7.275t-.7-.275l-2.6-2.6q-.3-.3-.3-.7t.3-.7l2.6-2.6q.275-.275.7-.275t.7.275t.275.7t-.275.7l-.9.9H20q.425 0 .713.288T21 18t-.288.713T20 19zM9 8V4q-.825 0-1.412.588T7 6t.588 1.413T9 8m0-2");
+}
+
+</style>

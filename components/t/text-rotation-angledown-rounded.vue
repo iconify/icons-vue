@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="iudo3daao"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:text-rotation-angledown-rounded" /></template>
+<style>
+.iudo3daao {
+  fill: currentColor;
+  d: path("M11.6 19L3 10.4q-.275-.275-.275-.7T3 9t.7-.275t.7.275l8.6 8.6V17q0-.425.288-.712T14 16t.713.288T15 17v3q0 .425-.288.713T14 21h-3q-.425 0-.712-.288T10 20t.288-.712T11 19zm.3-10.7l-2.1.975q-.25.125-.512.087t-.463-.237q-.35-.35-.262-.8t.512-.65l8.95-4.05q.275-.125.55-.075t.475.25l.5.5q.2.2.25.475t-.075.55l-4.1 8.975q-.2.425-.65.5t-.775-.25q-.2-.2-.25-.475t.075-.55l1.025-2.075zm1.55-.75l2.3 2.35l2.1-4.35l-.05-.05z");
+}
+
+</style>

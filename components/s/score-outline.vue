@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="ahmph-bhs"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:score-outline" /></template>
+<style>
+.ahmph-bhs {
+  fill: currentColor;
+  d: path("M5 21q-.825 0-1.412-.587T3 19V5q0-.825.588-1.412T5 3h14q.825 0 1.413.588T21 5v14q0 .825-.587 1.413T19 21zm4-8.5l4 4l6-6V5H5v11.5zm3-.5V6h1.5v6zm3.5 0l-2-3l2-3h1.7l-2 3l2 3zM7 12V8.25h2.5V7.5H7V6h4v3.75H8.5v.75H11V12zm2 3l-4 4h14v-6l-6 6zm-4 4V5z");
+}
+
+</style>

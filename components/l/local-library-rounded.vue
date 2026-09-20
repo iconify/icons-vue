@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="u8v-yabex"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:local-library-rounded" /></template>
+<style>
+.u8v-yabex {
+  fill: currentColor;
+  d: path("M3 17.15V10q0-.8.588-1.35t1.387-.5q1.975.3 3.763 1.163T12 11.55q1.475-1.375 3.263-2.238t3.762-1.162q.8-.05 1.388.5T21 10v7.15q0 .8-.525 1.363t-1.325.612q-1.6.25-3.1.825t-2.8 1.525q-.275.225-.587.337t-.663.113t-.663-.112t-.587-.338q-1.3-.95-2.8-1.525t-3.1-.825q-.8-.05-1.325-.612T3 17.15m6.175-9.325Q8 6.65 8 5t1.175-2.825T12 1t2.825 1.175T16 5t-1.175 2.825T12 9T9.175 7.825");
+}
+
+</style>

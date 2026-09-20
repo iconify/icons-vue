@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="vxji6kbfm"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:measuring-tape-outline-sharp" /></template>
+<style>
+.vxji6kbfm {
+  fill: currentColor;
+  d: path("M5 20v-8.5q0-3.55 2.475-6.025T13.5 3t6.025 2.475T22 11.5t-2.475 6.025T13.5 20zm2-2h6.5q2.7 0 4.6-1.9t1.9-4.6t-1.9-4.6T13.5 5T8.9 6.9T7 11.5zm8.975-4.025Q17 12.95 17 11.5t-1.025-2.475T13.5 8t-2.475 1.025T10 11.5t1.025 2.475T13.5 15t2.475-1.025m-3.537-1.412Q12 12.125 12 11.5t.438-1.062T13.5 10t1.063.438T15 11.5t-.437 1.063T13.5 13t-1.062-.437M2 20v-5h2v5zm11.5-8.5");
+}
+
+</style>

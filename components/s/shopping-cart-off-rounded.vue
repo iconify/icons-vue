@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="bo2g2fp0l"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:shopping-cart-off-rounded" /></template>
+<style>
+.bo2g2fp0l {
+  fill: currentColor;
+  d: path("m15.825 13l-9-9H19.95q.575 0 .888.488t.012 1.062l-3.55 6.4q-.275.5-.712.775t-.763.275M7 22q-.825 0-1.412-.587T5 20t.588-1.412T7 18t1.413.588T9 20t-.587 1.413T7 22m12.8.6L14.15 17H7.6q-1.1 0-1.675-.937T5.85 14.1l1.05-2.15L5.1 7.9L1.4 4.2q-.275-.275-.275-.7t.275-.7t.7-.275t.7.275l18.4 18.4q.275.275.288.688t-.288.712q-.275.275-.7.275t-.7-.275m-4.212-1.187Q15 20.825 15 20t.588-1.412T17 18t1.413.588T19 20t-.587 1.413T17 22t-1.412-.587");
+}
+
+</style>

@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="r2awepb5g"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:sports-golf-sharp" /></template>
+<style>
+.r2awepb5g {
+  fill: currentColor;
+  d: path("M7.038 13.963Q5 11.925 5 9t2.038-4.962T12 2t4.963 2.038T19 9t-2.037 4.963T12 16t-4.962-2.037m3.674-5.25Q11 8.425 11 8t-.288-.712T10 7t-.712.288T9 8t.288.713T10 9t.713-.288m4 0Q15 8.426 15 8t-.288-.712T14 7t-.712.288T13 8t.288.713T14 9t.713-.288m-2-2Q13 6.426 13 6t-.288-.712T12 5t-.712.288T11 6t.288.713T12 7t.713-.288M11 22v-1q0-.825-.587-1.412T9 19H7v-2h10v2h-2q-.825 0-1.412.588T13 21v1z");
+}
+
+</style>

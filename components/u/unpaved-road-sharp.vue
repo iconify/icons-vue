@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="tvvyrlk8x"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:unpaved-road-sharp" /></template>
+<style>
+.tvvyrlk8x {
+  fill: currentColor;
+  d: path("M9.438 18.938Q9 18.875 9 18.5q0-.425.438-.712T10.5 17.5t1.063.288t.437.712q0 .375-.437.438T10.5 19t-1.062-.062m8 2Q17 20.875 17 20.5q0-.425.438-.712T18.5 19.5t1.063.288t.437.712q0 .375-.437.438T18.5 21t-1.062-.062m-5 0Q12 20.875 12 20.5q0-.425.438-.712T13.5 19.5t1.063.288t.437.712q0 .375-.437.438T13.5 21t-1.062-.062m-8 0Q4 20.875 4 20.5q0-.425.438-.712T5.5 19.5t1.063.288T7 20.5q0 .375-.437.438T5.5 21t-1.062-.062m4 1Q8 21.875 8 21.5q0-.425.438-.712T9.5 20.5t1.063.288t.437.712q0 .375-.437.438T9.5 22t-1.062-.062M6 16v2H3V9l2.45-7h13.1L21 9v9h-3v-2zm-.2-9h12.4l-1.05-3H6.85zm1.7 6q.625 0 1.063-.437T9 11.5t-.437-1.062T7.5 10t-1.062.438T6 11.5t.438 1.063T7.5 13m9 0q.625 0 1.063-.437T18 11.5t-.437-1.062T16.5 10t-1.062.438T15 11.5t.438 1.063T16.5 13");
+}
+
+</style>

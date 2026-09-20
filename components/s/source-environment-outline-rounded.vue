@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="jqe1-abby"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:source-environment-outline-rounded" /></template>
+<style>
+.jqe1-abby {
+  fill: currentColor;
+  d: path("M2 20V5.25q0-.25.1-.45t.3-.35l4-3q.275-.2.6-.2t.6.2l4 3q.2.15.3.35t.1.45V7h9q.425 0 .713.288T22 8v12q0 .425-.288.713T21 21H3q-.425 0-.712-.288T2 20m2-1h2v-2H4zm0-4h2v-2H4zm0-4h2V9H4zm0-4h2V5H4zm4 0h2V5H8zm0 12h12V9H8zm7-8h2q.425 0 .713.288T18 12t-.288.713T17 13h-2q-.425 0-.712-.288T14 12t.288-.712T15 11m0 4h2q.425 0 .713.288T18 16t-.288.713T17 17h-2q-.425 0-.712-.288T14 16t.288-.712T15 15m-3.287-2.287Q11.425 13 11 13t-.712-.288T10 12t.288-.712T11 11t.713.288T12 12t-.288.713m-1.424 4Q10 16.425 10 16t.288-.712T11 15t.713.288T12 16t-.288.713T11 17t-.712-.288");
+}
+
+</style>

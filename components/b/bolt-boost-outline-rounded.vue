@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="r_npiub0o"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:bolt-boost-outline-rounded" /></template>
+<style>
+.r_npiub0o {
+  fill: currentColor;
+  d: path("M13.113 21.063q-.088-.138-.063-.338L14 14H9.95q-.625 0-.9-.55t.075-1.05l6.925-9.475q.125-.15.288-.188t.312.013t.238.187t.062.338L16 10h4.05q.625 0 .9.55t-.075 1.05l-6.925 9.475q-.125.15-.287.188t-.313-.013t-.237-.187M4 18q-.425 0-.712-.288T3 17t.288-.712T4 16h6.55q.5 0 .75.313t.25.687t-.25.688t-.75.312zm-1-5q-.425 0-.712-.288T2 12t.288-.712T3 11h2.75q.5 0 .75.313t.25.687t-.25.688t-.75.312zm2-5q-.425 0-.712-.288T4 7t.288-.712T5 6h4.375q.5 0 .75.313t.25.687t-.25.688t-.75.312z");
+}
+
+</style>

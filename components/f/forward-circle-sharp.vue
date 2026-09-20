@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="ck5g5mbdr"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:forward-circle-sharp" /></template>
+<style>
+.ck5g5mbdr {
+  fill: currentColor;
+  d: path("M12 17q2.075 0 3.538-1.463T17 12h-1.5q0 1.45-1.025 2.475T12 15.5t-2.475-1.025T8.5 12t1.025-2.475T12 8.5h.075L10.85 9.75l1.05 1.075l3-3l-3-3L10.825 5.9l1.1 1.1q-2.05.05-3.488 1.5T7 12q0 2.075 1.463 3.538T12 17m0 5q-2.075 0-3.9-.788t-3.175-2.137T2.788 15.9T2 12t.788-3.9t2.137-3.175T8.1 2.788T12 2t3.9.788t3.175 2.137T21.213 8.1T22 12t-.788 3.9t-2.137 3.175t-3.175 2.138T12 22");
+}
+
+</style>

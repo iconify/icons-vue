@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="x1mlcz5yr"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:grocery-outline-sharp" /></template>
+<style>
+.x1mlcz5yr {
+  fill: currentColor;
+  d: path("M16 22q-2.5 0-4.25-1.75T10 16t1.75-4.25T16 10t4.25 1.75T22 16t-1.75 4.25T16 22m0-2q1.65 0 2.825-1.175T20 16t-1.175-2.825T16 12t-2.825 1.175T12 16t1.175 2.825T16 20M2 20V9.95L4.15 5H3V2h9v3h-1.15l1.65 3.8q-.475.25-.9.525t-.8.625L8.7 5H6.3L4 10.4V18h4.25q.125.525.337 1.038T9.1 20zM16 9q-1.05 0-1.775-.725T13.5 6.5t.725-1.775T16 4zq0-1.05.725-1.775T18.5 6.5t1.775.725T21 9zm0 7");
+}
+
+</style>

@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="o5mktwb9k"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:battery-android-share-outline-rounded" /></template>
+<style>
+.o5mktwb9k {
+  fill: currentColor;
+  d: path("M4 18q-1.25 0-2.125-.875T1 15V9q0-1.25.875-2.125T4 6h11.175q.425 0 .713.288t.287.712t-.288.713t-.712.287H4q-.425 0-.712.288T3 9v6q0 .425.288.713T4 16h6q.425 0 .713.288T11 17t-.288.713T10 18zm-1-2V8zm11.713-.288Q15 15.426 15 15v-2h4.175l-.875.875q-.3.3-.3.7t.3.7t.713.3t.712-.3L22.3 12.7q.3-.3.3-.7t-.3-.7l-2.6-2.6q-.275-.275-.687-.287T18.3 8.7q-.275.275-.275.7t.275.7l.875.9H15q-.825 0-1.412.588T13 13v2q0 .425.288.713T14 16t.713-.288");
+}
+
+</style>

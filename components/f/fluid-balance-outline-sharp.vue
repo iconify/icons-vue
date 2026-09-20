@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="lkrc3pbhq"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:fluid-balance-outline-sharp" /></template>
+<style>
+.lkrc3pbhq {
+  fill: currentColor;
+  d: path("M2 20V4h20v2H4v12h8v2zm2-2V6zm18 5h-5v-3.1q-1.725-.35-2.863-1.712T13 15V8h10v7q0 1.825-1.137 3.188T19 19.9V21h3zm-2.25-9H21v-4h-6v2h.75q.825 0 1.563.375T18.55 13.4q.2.3.525.45t.675.15M18 18q.975 0 1.75-.562T20.825 16H19.75q-.825 0-1.562-.363T16.95 14.6q-.225-.275-.537-.437T15.75 14H15v1q0 1.275.863 2.138T18 18M6 11h5V9H6zm0 4h5v-2H6z");
+}
+
+</style>

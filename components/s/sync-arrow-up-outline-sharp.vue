@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="v3raabetx"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:sync-arrow-up-outline-sharp" /></template>
+<style>
+.v3raabetx {
+  fill: currentColor;
+  d: path("M2 19.5v-2h1.425q-1.175-1.05-1.8-2.488T1 12q0-2.675 1.675-4.737T7 4.65V6.7q-1.8.5-2.9 1.963T3 11.975q0 1.25.525 2.338T5 16.2v-1.7h2v5zm8-.15V17.3q1.8-.5 2.9-1.963t1.1-3.312q0-1.25-.525-2.337T12 7.8v1.7h-2v-5h5v2h-1.425q1.175 1.05 1.8 2.488T16 12q0 2.675-1.675 4.738T10 19.35m8.5.65V7.8l-1.1 1.1L16 7.5L19.5 4L23 7.5l-1.425 1.4L20.5 7.825V20z");
+}
+
+</style>

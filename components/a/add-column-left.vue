@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="uhhnk2ezv"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:add-column-left" /></template>
+<style>
+.uhhnk2ezv {
+  fill: currentColor;
+  d: path("M14 21V3h8v18zM4 21v-4.1q.25.05.488.075T5 17q2.075 0 3.538-1.45T10 12T8.537 8.45T5 7q-.275 0-.513.025T4 7.1V3h8v18zm0-6v-2H2v-2h2V9h2v2h2v2H6v2z");
+}
+
+</style>

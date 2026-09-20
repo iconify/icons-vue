@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="hesmd-brm"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:car-defrost-mid-low-left-outline-sharp" /></template>
+<style>
+.hesmd-brm {
+  fill: currentColor;
+  d: path("M19.5 23L16 19.5l1.4-1.4l1.1 1.075V16h2v3.175l1.1-1.1L23 19.5zm-5-5L11 14.5l3.5-3.5l1.4 1.4l-1.075 1.1H18v2h-3.175l1.1 1.1zm-4.6-7L6.975 3.275q1.65-1.1 3.75-1.687T14.975 1q2.25 0 4.388.613T23 3.274L20.1 11q-1.25-.375-2.537-.562t-2.588-.188q-1.275 0-2.562.2T9.9 11m.925-1.775q.375-.1.763-.175t.787-.125q-.1-.4-.088-.775t.113-.75h-.65l1.5-2.5l1.5 2.5H14l-.1.25q-.1.25-.1.512t.1.613q.275-.025.538-.025h.974q.213 0 .438.025q-.05-.35-.05-.688t.1-.687h-.65l1.5-2.5l1.5 2.5h-.75l-.1.25q-.1.275-.088.562t.138.713q.425.05.875.125t.875.175l1.975-5.275q-1.45-.725-2.988-1.087T14.976 2.5q-1.625 0-3.2.363T8.85 3.95zM12.275 23l-2.9-5H2.5l-1.4-6.975q-.25-1.2.525-2.113T3.6 8q.85 0 1.513.55t.937 1.425L7.5 15h2.475L14 22zM3 7q-.825 0-1.412-.587T1 5t.588-1.412T3 3t1.413.588T5 5t-.587 1.413T3 7");
+}
+
+</style>

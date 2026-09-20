@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="iupny026a"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:av-timer-outline-rounded" /></template>
+<style>
+.iupny026a {
+  fill: currentColor;
+  d: path("M8.513 20.288q-1.638-.713-2.863-1.938t-1.937-2.863T3 12q0-1.95.75-3.65t2.1-2.925q.3-.275.713-.263t.687.288l5.45 5.45q.275.275.275.7t-.275.7t-.7.275t-.7-.275L6.6 7.6q-.75.9-1.175 2.013T5 12q0 2.9 2.05 4.95T12 19t4.95-2.05T19 12q0-2.675-1.713-4.612T13 5.1V6q0 .425-.288.713T12 7t-.712-.288T11 6V4q0-.425.288-.712T12 3q1.85 0 3.488.713T18.35 5.65t1.938 2.863T21 12t-.712 3.488t-1.938 2.862t-2.863 1.938T12 21t-3.488-.712m-2.225-7.575Q6 12.425 6 12t.288-.712T7 11t.713.288T8 12t-.288.713T7 13t-.712-.288m5 5Q11 17.426 11 17t.288-.712T12 16t.713.288T13 17t-.288.713T12 18t-.712-.288m5-5Q16 12.425 16 12t.288-.712T17 11t.713.288T18 12t-.288.713T17 13t-.712-.288");
+}
+
+</style>

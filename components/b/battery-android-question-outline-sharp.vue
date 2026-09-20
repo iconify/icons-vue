@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="nuaw914vl"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:battery-android-question-outline-sharp" /></template>
+<style>
+.nuaw914vl {
+  fill: currentColor;
+  d: path("M3 16V8zm15.15 2H1V6h16.025q-.5.4-.875.9T15.525 8H3v8h14q.05.625.363 1.138t.787.862m2.563-1.787Q21 15.924 21 15.5t-.288-.712T20 14.5t-.712.288T19 15.5t.288.713t.712.287t.713-.288M19.3 13.45h1.425v-.525q0-.25.125-.475q.15-.325.388-.55t.487-.475q.425-.425.713-.925t.287-1.075q0-1.05-.812-1.737T20 7q-.95 0-1.7.55T17.3 9l1.275.525q.15-.5.538-.825T20 8.375q.525 0 .913.3t.387.8q0 .425-.25.763t-.55.612q-.275.275-.562.538t-.463.612q-.15.35-.162.713t-.013.737");
+}
+
+</style>

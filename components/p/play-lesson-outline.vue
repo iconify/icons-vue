@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="j3nayd7mc"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:play-lesson-outline" /></template>
+<style>
+.j3nayd7mc {
+  fill: currentColor;
+  d: path("M11.3 20q.15.5.413 1.038t.537.962H5q-.825 0-1.412-.587T3 20V4q0-.825.588-1.412T5 2h12q.825 0 1.413.588T19 4v7.1q-.45-.05-1-.05t-1 .05V4h-5v7L9.5 9.5L7 11V4H5v16zm3.163 1.538Q13 20.075 13 18t1.463-3.537T18 13t3.538 1.463T23 18t-1.463 3.538T18 23t-3.537-1.463M16.75 20.5l4-2.5l-4-2.5zM7 4h5zm4.3 0H5h12h-6z");
+}
+
+</style>

@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="v8nz-n1ak"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:nest-found-savings-outline-rounded" /></template>
+<style>
+.v8nz-n1ak {
+  fill: currentColor;
+  d: path("M9 20H5q-.825 0-1.412-.587T3 18V4q0-.825.588-1.412T5 2h14q.825 0 1.413.588T21 4v14q0 .825-.587 1.413T19 20h-4l-2.3 2.3q-.3.3-.7.3t-.7-.3zm-4-2h4.8l2.2 2.2l2.2-2.2H19V4H5zm7-2q2.15 0 3.575-1.5T17 11V7q0-.425-.288-.712T16 6h-4Q9.975 6 8.488 7.425T7 11q0 .75.213 1.425t.587 1.25l-.4.4q-.3.3-.3.7t.3.7t.688.288t.712-.288l.375-.35q.6.425 1.313.65T12 16m0-2q-.375 0-.712-.1t-.638-.25l2.6-2.6q.3-.3.3-.712t-.3-.713t-.7-.3t-.7.3l-2.6 2.6q-.125-.275-.187-.587T9 11q0-1.3.9-2.15T12 8h3v3q0 1.25-.875 2.125T12 14m-.4-2.725");
+}
+
+</style>

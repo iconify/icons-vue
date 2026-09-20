@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="da_24hbhe"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:credit-card-heart-sharp" /></template>
+<style>
+.da_24hbhe {
+  fill: currentColor;
+  d: path("M17.9 20.5L14.4 17q-.325-.325-.462-.7t-.138-.75q0-.8.575-1.425t1.475-.625q.7 0 1.1.325t.95.875q.5-.5.913-.85t1.137-.35q.925 0 1.488.638T22 15.574q0 .375-.15.75T21.4 17zM2 20V4h20v7.325q-.45-.325-.95-.575T20 10.325V8H4v4h9q-.975.95-1.537 2.238T10.9 17q0 .8.175 1.563t.5 1.437z");
+}
+
+</style>

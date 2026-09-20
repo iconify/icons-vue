@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="kr-6e9gmf"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:voice-chat-off-outline-sharp" /></template>
+<style>
+.kr-6e9gmf {
+  fill: currentColor;
+  d: path("M20.7 17.85L18.85 16H20V4H6.85l-2-2H22v15.85zm-.2 5.45L15.15 18H6l-4 4V4.8L.7 3.5l1.4-1.4l19.8 19.8zM4 6.8v10.325L5.15 16h8.05zM6 11V9h1.5v2zm2.5 2V8.5L10 10v3zm2.75 2v-3.75l1.5 1.5V15zm1.5-5.1l-1.5-1.5V5h1.5zm2.75 2.75l-1.5-1.5V7h1.5zm1-1.65V9H18v2z");
+}
+
+</style>

@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="s-gj7fbii"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:font-download-outline-rounded" /></template>
+<style>
+.s-gj7fbii {
+  fill: currentColor;
+  d: path("M9.6 14.95h4.8l.875 2.425q.1.275.35.45t.55.175q.5 0 .813-.413t.112-.912l-3.8-10.05q-.125-.275-.375-.45T12.375 6h-.75q-.3 0-.55.175t-.375.45l-3.8 10.05q-.2.475.1.9t.8.425q.325 0 .563-.175t.362-.475zm.6-1.75l1.75-4.95h.1l1.75 4.95zM4 22q-.825 0-1.412-.587T2 20V4q0-.825.588-1.412T4 2h16q.825 0 1.413.588T22 4v16q0 .825-.587 1.413T20 22zm0-2h16V4H4zM4 4v16z");
+}
+
+</style>

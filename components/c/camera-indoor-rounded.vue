@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="joswm5bzw"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:camera-indoor-rounded" /></template>
+<style>
+.joswm5bzw {
+  fill: currentColor;
+  d: path("M6 21q-.825 0-1.412-.587T4 19v-9q0-.475.213-.9t.587-.7l6-4.5q.525-.4 1.2-.4t1.2.4l6 4.5q.375.275.588.7T20 10v9q0 .825-.588 1.413T18 21zm3-4h4q.425 0 .713-.288T14 16v-1l1.275.675q.25.125.488-.025t.237-.425v-2.45q0-.275-.238-.425t-.487-.025L14 13v-1q0-.425-.288-.713T13 11H9q-.425 0-.712.288T8 12v4q0 .425.288.713T9 17");
+}
+
+</style>

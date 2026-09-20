@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="etxlwd-kn"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:extension-rounded" /></template>
+<style>
+.etxlwd-kn {
+  fill: currentColor;
+  d: path("M5 21q-.85 0-1.425-.575T3 19v-3.125q0-.275.2-.488t.475-.262q.975-.2 1.65-.913T6 12.5q0-.975-.675-1.675T3.675 9.9Q3.4 9.825 3.2 9.612T3 9.125V6q0-.825.588-1.412T5 4h3.05q.175-1.275 1.15-2.137T11.5 1q1.3 0 2.275.863T14.95 4H18q.825 0 1.413.588T20 6v3.35q.9.45 1.45 1.3T22 12.5q0 1.025-.55 1.875T20 15.65V19q0 .85-.587 1.425T18 21z");
+}
+
+</style>

@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="wr_nmabks"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:decimal-decrease-sharp" /></template>
+<style>
+.wr_nmabks {
+  fill: currentColor;
+  d: path("m16 22l-4-4l4-4l1.4 1.4l-1.575 1.6H22v2h-6.175l1.575 1.6zM2 13v-3h3v3zm5.025-1.025Q6 10.95 6 9.5v-4q0-1.45 1.025-2.475T9.5 2t2.475 1.025T13 5.5v4q0 1.45-1.025 2.475T9.5 13t-2.475-1.025m3.538-1.412Q11 10.125 11 9.5v-4q0-.625-.437-1.062T9.5 4t-1.062.438T8 5.5v4q0 .625.438 1.063T9.5 11t1.063-.437");
+}
+
+</style>

@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="el_ut4beq"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:spellcheck-rounded" /></template>
+<style>
+.el_ut4beq {
+  fill: currentColor;
+  d: path("m14.1 19.2l4.95-4.95q.275-.275.7-.275t.7.275t.275.7t-.275.7l-4.925 4.925q-.3.3-.675.45t-.75.15t-.75-.15t-.675-.45L10.55 18.45q-.275-.275-.275-.7t.275-.7t.7-.275t.7.275zm-7.75-6.5l-.925 2.625q-.125.3-.375.488T4.475 16q-.55 0-.85-.45t-.1-.95l4.05-10.875Q7.7 3.4 7.988 3.2t.637-.2h.8q.35 0 .638.2t.412.525l4.05 10.85q.2.525-.113.975t-.887.45q-.35 0-.625-.2t-.4-.525l-.9-2.575zm.7-1.9h3.9l-1.9-5.4h-.1z");
+}
+
+</style>

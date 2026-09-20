@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="dahm8xbxj"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:text-select-end-rounded" /></template>
+<style>
+.dahm8xbxj {
+  fill: currentColor;
+  d: path("M11.288 20.713Q11 20.425 11 20t.288-.712T12 19t.713.288T13 20t-.288.713T12 21t-.712-.288m-4 0Q7 20.426 7 20t.288-.712T8 19t.713.288T9 20t-.288.713T8 21t-.712-.288m-4 0Q3 20.426 3 20t.288-.712T4 19t.713.288T5 20t-.288.713T4 21t-.712-.288m0-4Q3 16.426 3 16t.288-.712T4 15t.713.288T5 16t-.288.713T4 17t-.712-.288m0-4Q3 12.425 3 12t.288-.712T4 11t.713.288T5 12t-.288.713T4 13t-.712-.288m0-4Q3 8.426 3 8t.288-.712T4 7t.713.288T5 8t-.288.713T4 9t-.712-.288m8-4Q11 4.426 11 4t.288-.712T12 3t.713.288T13 4t-.288.713T12 5t-.712-.288m-4 0Q7 4.426 7 4t.288-.712T8 3t.713.288T9 4t-.288.713T8 5t-.712-.288m-4 0Q3 4.426 3 4t.288-.712T4 3t.713.288T5 4t-.288.713T4 5t-.712-.288M16 21q-.425 0-.712-.288T15 20t.288-.712T16 19h1V5h-1q-.425 0-.712-.288T15 4t.288-.712T16 3h4q.425 0 .713.288T21 4t-.288.713T20 5h-1v14h1q.425 0 .713.288T21 20t-.288.713T20 21z");
+}
+
+</style>

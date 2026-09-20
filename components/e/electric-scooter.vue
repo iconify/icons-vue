@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="lzxyxjvea"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:electric-scooter" /></template>
+<style>
+.lzxyxjvea {
+  fill: currentColor;
+  d: path("M5 18q-1.25 0-2.125-.875T2 15t.875-2.125T5 12q.975 0 1.738.563T7.8 14h5.3q.275-1.7 1.413-2.975T17.3 9.25L15.9 3H12V1h3.9q.675 0 1.238.438t.712 1.112l1.9 8.45H19q-1.65 0-2.825 1.175T15 15v1H7.8q-.3.875-1.062 1.438T5 18m11.875-.875Q16 16.25 16 15t.875-2.125T19 12t2.125.875T22 15t-.875 2.125T19 18t-2.125-.875M13 23l-6-3h4v-2l6 3h-4z");
+}
+
+</style>

@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="w7dbo3umk"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:cardio-load" /></template>
+<style>
+.w7dbo3umk {
+  fill: currentColor;
+  d: path("m12 21l-3.2-2.85q-1.8-1.625-3.088-2.9t-2.124-2.4t-1.225-2.175t-.388-2.2q0-2.35 1.575-3.912T7.475 3q1.3 0 2.475.55T12 5.1q.875-1 2.05-1.55T16.525 3q2.35 0 3.925 1.563t1.575 3.912q0 1.15-.387 2.2t-1.225 2.175t-2.125 2.4t-3.088 2.9zm-5.175-7.5h10.35q.4-.425.725-.788t.6-.712h-13q.275.35.6.713t.725.787M12 18.3q.9-.8 1.688-1.487t1.437-1.313h-6.25q.65.625 1.438 1.313T12 18.3");
+}
+
+</style>

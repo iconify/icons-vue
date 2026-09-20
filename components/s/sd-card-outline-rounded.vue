@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="ogottbedh"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:sd-card-outline-rounded" /></template>
+<style>
+.ogottbedh {
+  fill: currentColor;
+  d: path("M10.713 10.713Q11 10.425 11 10V8q0-.425-.288-.712T10 7t-.712.288T9 8v2q0 .425.288.713T10 11t.713-.288m3 0Q14 10.426 14 10V8q0-.425-.288-.712T13 7t-.712.288T12 8v2q0 .425.288.713T13 11t.713-.288m3 0Q17 10.426 17 10V8q0-.425-.288-.712T16 7t-.712.288T15 8v2q0 .425.288.713T16 11t.713-.288M6 22q-.825 0-1.412-.587T4 20V8.825q0-.4.15-.762t.425-.638l4.85-4.85q.275-.275.638-.425t.762-.15H18q.825 0 1.413.588T20 4v16q0 .825-.587 1.413T18 22zm0-2h12V4h-7.15L6 8.85zm0 0h12z");
+}
+
+</style>

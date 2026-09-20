@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="usa0nkg9s"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:book-4-rounded" /></template>
+<style>
+.usa0nkg9s {
+  fill: currentColor;
+  d: path("M8.713 15.713Q9 15.425 9 15V5q0-.425-.288-.712T8 4t-.712.288T7 5v10q0 .425.288.713T8 16t.713-.288M6 22q-1.25 0-2.125-.875T3 19V5q0-1.25.875-2.125T6 2h9q.825 0 1.413.588T17 4v12q0 .825-.587 1.413T15 18H6q-.425 0-.712.288T5 19t.288.713T6 20h13V5q0-.425.288-.712T20 4t.713.288T21 5v15q0 .825-.587 1.413T19 22z");
+}
+
+</style>

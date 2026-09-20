@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="ix3d_jbsv"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:game-trigger-left-rounded" /></template>
+<style>
+.ix3d_jbsv {
+  fill: currentColor;
+  d: path("M8.775 14.25V9.175q0-.275-.213-.475t-.487-.2t-.475.2t-.2.475V14.5q0 .425.287.713t.713.287h2.85q.275 0 .45-.175t.175-.45t-.175-.45t-.45-.175zm5.325-4.5v5.075q0 .275.213.475t.487.2t.475-.2t.2-.475V9.75h1.5q.275 0 .45-.175t.175-.45t-.175-.45t-.45-.175H12.6q-.275 0-.45.175t-.175.45t.175.45t.45.175zM2 18V8q0-1.65 1.175-2.825T6 4h12q1.65 0 2.825 1.175T22 8v10q0 .825-.587 1.413T20 20H4q-.825 0-1.412-.587T2 18");
+}
+
+</style>

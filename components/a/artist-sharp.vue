@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="scoxft5ac"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:artist-sharp" /></template>
+<style>
+.scoxft5ac {
+  fill: currentColor;
+  d: path("M15.725 19.275Q15 18.55 15 17.5t.725-1.775T17.5 15q.2 0 .45.038t.55.162V10H22v2h-2v5.5q0 1.05-.725 1.775T17.5 20t-1.775-.725m-7.55-8.45Q7 9.65 7 8t1.175-2.825T11 4t2.825 1.175T15 8t-1.175 2.825T11 12t-2.825-1.175M3 20v-2.8q0-.875.438-1.575T4.6 14.55q1.55-.775 3.15-1.162T11 13q1.05 0 2.088.163t2.087.487q-1.65 1-2.05 2.863t.65 3.487z");
+}
+
+</style>

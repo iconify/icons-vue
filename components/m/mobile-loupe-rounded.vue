@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="qt_m-yh9z"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:mobile-loupe-rounded" /></template>
+<style>
+.qt_m-yh9z {
+  fill: currentColor;
+  d: path("M8 16.375q-.025 1.275.363 2.6t1.162 2.375q.4.525.15 1.088T8.85 23H7q-.825 0-1.412-.587T5 21V3q0-.825.588-1.412T7 1h10q.825 0 1.413.588T19 3v4.175q0 .45-.363.738t-.812.187q-.35-.05-.725-.075T16.375 8q-3.4.05-5.863 2.5T8 16.375M16.5 23q-2.725 0-4.637-1.937T10 16.4q.05-2.6 1.925-4.475T16.4 10q2.725-.05 4.663 1.863T23 16.5V21q0 .825-.587 1.413T21 23zm-.75-5.75h-1.375q-.325 0-.537-.213t-.213-.537t.213-.537t.537-.213h1.375v-1.5q0-.325.213-.537t.537-.213t.538.213t.212.537v1.5h1.375q.325 0 .538.213t.212.537t-.213.538t-.537.212H17.25v1.5q0 .325-.213.538t-.537.212t-.537-.213t-.213-.537zM12.713 5.713Q13 5.425 13 5t-.288-.712T12 4t-.712.288T11 5t.288.713T12 6t.713-.288m6.975 13.976Q21 18.375 21 16.5t-1.312-3.187T16.5 12t-3.187 1.313T12 16.5t1.313 3.188T16.5 21t3.188-1.312");
+}
+
+</style>

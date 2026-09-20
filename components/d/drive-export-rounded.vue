@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="pnb93l7fx"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:drive-export-rounded" /></template>
+<style>
+.pnb93l7fx {
+  fill: currentColor;
+  d: path("m20 19.4l-2.4 2.4q-.275.275-.687.288T16.2 21.8q-.275-.275-.275-.7t.275-.7l2.375-2.4H17q-.425 0-.712-.288T16 17t.288-.712T17 16h4q.425 0 .713.288T22 17v4q0 .425-.288.713T21 22t-.712-.288T20 21zM6.775 21Q5.55 21 4.5 20.4t-1.65-1.65t-.6-2.25t.6-2.25L3.575 13H8.25l4.6 8zM4.75 11L8.1 5.25Q8.7 4.2 9.75 3.6T12 3t2.25.6t1.65 1.65l1 1.725L14.6 11zm9.925 3.875l3.4-5.925l2.5 4.3q-1.575-.425-3.162 0t-2.738 1.625");
+}
+
+</style>

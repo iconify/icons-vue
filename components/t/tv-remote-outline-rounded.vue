@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="y3rxfjk-f"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:tv-remote-outline-rounded" /></template>
+<style>
+.y3rxfjk-f {
+  fill: currentColor;
+  d: path("M9 21h6v-5q-.625.475-1.388.738T12 17t-1.612-.262T9 16zm5.125-6.875Q15 13.25 15 12t-.875-2.125T12 9t-2.125.875T9 12t.875 2.125T12 15t2.125-.875M9 8q.625-.475 1.388-.737T12 7t1.613.263T15 8V3H9zm0 15q-.825 0-1.412-.587T7 21V3q0-.825.588-1.412T9 1h6q.825 0 1.413.588T17 3v18q0 .825-.587 1.413T15 23zm1.938-9.937Q10.5 12.625 10.5 12t.438-1.062T12 10.5t1.063.438T13.5 12t-.437 1.063T12 13.5t-1.062-.437m1.774-7.35Q13 5.424 13 5t-.288-.712T12 4t-.712.288T11 5t.288.713T12 6t.713-.288M12 7");
+}
+
+</style>

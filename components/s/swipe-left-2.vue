@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="kv-p4kbzv"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:swipe-left-2" /></template>
+<style>
+.kv-p4kbzv {
+  fill: currentColor;
+  d: path("M11.825 22q-.6 0-1.15-.225t-.975-.65L4.6 16l.75-.775q.4-.4.938-.537t1.062.012l1.65.475V7q0-.425.288-.712T10 6t.713.288T11 7v7h1V5q0-.425.288-.712T13 4t.713.288T14 5v9h1v-2q0-.425.288-.712T16 11t.713.288T17 12v2h1q0-.425.288-.712T19 13t.713.288T20 14v4q0 1.65-1.175 2.825T16 22zM2 7V2h1.5v2.025q1.8-1.475 3.975-2.25T12 1q3.65 0 6.45 1.675T22 7h-1.575q-.95-2.1-3.213-3.3T12 2.5q-2.2 0-4.225.775T4.1 5.5H7V7z");
+}
+
+</style>

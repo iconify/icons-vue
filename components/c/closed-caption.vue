@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="coqv_vf_n"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:closed-caption" /></template>
+<style>
+.coqv_vf_n {
+  fill: currentColor;
+  d: path("M5 20q-.825 0-1.412-.587T3 18V6q0-.825.588-1.412T5 4h14q.825 0 1.413.588T21 6v12q0 .825-.587 1.413T19 20zm2-5h3q.425 0 .713-.288T11 14v-1H9.5v.5h-2v-3h2v.5H11v-1q0-.425-.288-.712T10 9H7q-.425 0-.712.288T6 10v4q0 .425.288.713T7 15m7 0h3q.425 0 .713-.288T18 14v-1h-1.5v.5h-2v-3h2v.5H18v-1q0-.425-.288-.712T17 9h-3q-.425 0-.712.288T13 10v4q0 .425.288.713T14 15");
+}
+
+</style>

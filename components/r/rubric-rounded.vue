@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="ymyk3c0pe"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:rubric-rounded" /></template>
+<style>
+.ymyk3c0pe {
+  fill: currentColor;
+  d: path("M4 19V5q0-.825.588-1.412T6 3h12q.825 0 1.413.588T20 5v6q0 .825-.587 1.413T18 13H6v2h4q.425 0 .713.288T11 16t-.288.713T10 17H6v2h4q.425 0 .713.288T11 20t-.288.713T10 21H6q-.825 0-1.412-.587T4 19m11.4-.8l2.85-2.85q.275-.275.7-.275t.7.275t.275.7t-.275.7L16.1 20.3q-.3.3-.7.3t-.7-.3l-1.4-1.4q-.275-.275-.275-.7t.275-.7t.7-.275t.7.275zM6 11h5V9H6zm7 0h5V9h-5zM6 7h5V5H6zm7 0h5V5h-5z");
+}
+
+</style>

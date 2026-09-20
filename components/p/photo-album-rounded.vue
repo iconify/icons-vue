@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="hb1-oabbn"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:photo-album-rounded" /></template>
+<style>
+.hb1-oabbn {
+  fill: currentColor;
+  d: path("M6 22q-.825 0-1.412-.587T4 20V4q0-.825.588-1.412T6 2h12q.825 0 1.413.588T20 4v16q0 .825-.587 1.413T18 22zm5-5l-1.225-1.625q-.15-.2-.413-.2t-.412.2l-1.375 1.85q-.175.25-.037.513t.437.262H16q.3 0 .438-.262T16.4 17.2l-2.375-3.15q-.15-.2-.4-.2t-.4.2zm0-13v6.125q0 .3.238.438t.512-.013l1.225-.725q.25-.15.513-.15t.512.15l1.225.725q.275.15.525.013t.25-.438V4z");
+}
+
+</style>

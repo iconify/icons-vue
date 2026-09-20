@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="fqhpx_epc"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:lte-plus-mobiledata-badge" /></template>
+<style>
+.fqhpx_epc {
+  fill: currentColor;
+  d: path("M4 16h4v-2H6V8H4zm5.5 0h2v-6H13V8H8v2h1.5zm4.5 0h4v-2h-2v-1h1.5v-2H16v-1h2V8h-4zM3 21q-.825 0-1.412-.587T1 19V5q0-.825.588-1.412T3 3h18q.825 0 1.413.588T23 5v6.25h-1.25V10h-1.5v1.25H19v1.5h1.25V14h1.5v-1.25H23V19q0 .825-.587 1.413T21 21z");
+}
+
+</style>

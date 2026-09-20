@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="wlgevvb0y"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:sos" /></template>
+<style>
+.wlgevvb0y {
+  fill: currentColor;
+  d: path("M10.5 17q-.825 0-1.412-.587T8.5 15V9q0-.825.588-1.412T10.5 7h3q.825 0 1.413.588T15.5 9v6q0 .825-.587 1.413T13.5 17zM1 17v-2h4v-2H3q-.825 0-1.412-.587T1 11V9q0-.825.588-1.412T3 7h4v2H3v2h2q.825 0 1.413.588T7 13v2q0 .825-.587 1.413T5 17zm16 0v-2h4v-2h-2q-.825 0-1.412-.587T17 11V9q0-.825.588-1.412T19 7h4v2h-4v2h2q.825 0 1.413.588T23 13v2q0 .825-.587 1.413T21 17zm-6.5-2h3V9h-3z");
+}
+
+</style>

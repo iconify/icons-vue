@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="lu0hfcksw"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:follow-the-signs" /></template>
+<style>
+.lu0hfcksw {
+  fill: currentColor;
+  d: path("M9.5 5.5q-.825 0-1.412-.587T7.5 3.5t.588-1.412T9.5 1.5t1.413.588T11.5 3.5t-.587 1.413T9.5 5.5M3 23L5.75 8.9L4 9.65V13H2V8.3l5.25-2.15q.675-.275 1.375-.062T9.7 6.95l.95 1.6q.675 1.1 1.812 1.775T15 11v2q-1.65 0-3.062-.7T9.55 10.4l-.6 3L11 15.45V23H9v-6l-2.15-2l-1.75 8zm13.75 0V9H13V2h9v7h-3.75v14zm1.275-15.025L20.5 5.5l-2.475-2.475L16.95 4.1l.65.65h-3.1v1.5h3.1l-.65.65z");
+}
+
+</style>

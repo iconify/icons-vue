@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="etaq96axt"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:add-photo-alternate-rounded" /></template>
+<style>
+.etaq96axt {
+  fill: currentColor;
+  d: path("M5 21q-.825 0-1.412-.587T3 19V5q0-.825.588-1.412T5 3h7.45q.5 0 .763.438t.062.937q-.125.4-.2.8T13 6q0 2.075 1.463 3.538T18 11q.425 0 .825-.075t.8-.2q.5-.175.938.075t.437.75V19q0 .825-.587 1.413T19 21zm1-4h12l-3.75-5l-3 4L9 13zm11.288-8.287Q17 8.425 17 8V7h-1q-.425 0-.712-.288T15 6t.288-.712T16 5h1V4q0-.425.288-.712T18 3t.713.288T19 4v1h1q.425 0 .713.288T21 6t-.288.713T20 7h-1v1q0 .425-.288.713T18 9t-.712-.288");
+}
+
+</style>

@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="rjxiftbsl"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:recent-actors-outline-sharp" /></template>
+<style>
+.rjxiftbsl {
+  fill: currentColor;
+  d: path("M1 19V5h14v14zm2-3.65q1.1-.65 2.35-1T8 14t2.65.35t2.35 1V7H3zM8 16q-1.025 0-2 .25T4.15 17h7.7q-.875-.5-1.85-.75T8 16m-1.937-3.562q-.813-.813-.813-1.938t.813-1.937T8 7.75t1.938.813t.812 1.937t-.812 1.938T8 13.25t-1.937-.812M8 11.4q.375 0 .638-.262T8.9 10.5t-.262-.638T8 9.6t-.638.263t-.262.637t.263.638T8 11.4m9 7.6V5h2v14zm4 0V5h2v14zM8 17");
+}
+
+</style>

@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="rhv2_sb9c"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:self-care-sharp" /></template>
+<style>
+.rhv2_sb9c {
+  fill: currentColor;
+  d: path("M16 23q-.425 0-.712-.288T15 22t.288-.712T16 21h3v-1h-3q-.425 0-.712-.288T15 19t.288-.712T16 18h3v-1h-3q-.425 0-.712-.288T15 16t.288-.712T16 15h3v-1h-3q-.425 0-.712-.288T15 13t.288-.712T16 12h3v-1h-3q-.425 0-.712-.288T15 10t.288-.712T16 9h3V8h-3q-.425 0-.712-.288T15 7t.288-.712T16 6h4q.825 0 1.413.588T22 8v13q0 .825-.587 1.413T20 23zm-5.175-9.625Q12 11.75 12 9.5t-1.175-3.875T8 4T5.175 5.625T4 9.5t1.175 3.875T8 15t2.825-1.625M8 23q-1.2 0-1.975-.888t-.6-2.087l.4-3.525q-1.7-.825-2.762-2.713T2 9.5q0-3.125 1.75-5.312T8 2t4.25 2.188T14 9.5q0 2.4-1.062 4.288T10.175 16.5l.4 3.525q.175 1.2-.6 2.088T8 23");
+}
+
+</style>

@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="l5yz5bbvx"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:weather-snowy-sharp" /></template>
+<style>
+.l5yz5bbvx {
+  fill: currentColor;
+  d: path("M5.613 18.638q-.363-.363-.363-.888t.363-.888t.887-.362t.888.363t.362.887t-.363.888T6.5 19t-.888-.363m3 3q-.362-.362-.362-.887t.363-.888t.887-.362t.888.363t.362.887t-.363.888T9.5 22t-.888-.363m3-3q-.362-.362-.362-.887t.363-.888t.887-.362t.888.363t.362.887t-.363.888T12.5 19t-.888-.363m6 0q-.362-.362-.362-.887t.363-.888t.887-.362t.888.363t.362.887t-.363.888T18.5 19t-.888-.363m-3 3q-.362-.362-.362-.887t.363-.888t.887-.362t.888.363t.362.887t-.363.888T15.5 22t-.888-.363M7.5 15q-2.275 0-3.887-1.612T2 9.5q0-2.075 1.375-3.625t3.4-1.825q.8-1.425 2.188-2.238T12 1q2.25 0 3.913 1.438t2.012 3.587q1.725.15 2.9 1.425T22 10.5q0 1.875-1.312 3.188T17.5 15z");
+}
+
+</style>

@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="eb18oubmq"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:wifi-home-outline" /></template>
+<style>
+.eb18oubmq {
+  fill: currentColor;
+  d: path("M4 20v-9.375L2.2 12L1 10.4L12 2l11 8.4l-1.2 1.575l-1.8-1.35l-8-6.1L6 9.1V18h5q0 .5.075 1t.225 1zm13 3h-4v-1.5h1.425q-.65-.675-1.037-1.575T13 18q0-1.8 1.138-3.175T17 13.1v1.55q-1.1.325-1.8 1.238T14.5 18q0 .725.263 1.35t.737 1.1V19H17zm2-.1v-1.55q1.125-.35 1.813-1.263T21.5 18q0-.725-.262-1.35t-.738-1.1V17H19v-4h4v1.5h-1.425q.65.675 1.038 1.575T23 18q0 1.8-1.137 3.175T19 22.9");
+}
+
+</style>

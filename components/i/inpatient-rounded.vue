@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="tnx6rwbrw"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:inpatient-rounded" /></template>
+<style>
+.tnx6rwbrw {
+  fill: currentColor;
+  d: path("M4 22q-.825 0-1.412-.587T2 20V4q0-.825.588-1.412T4 2h9q.825 0 1.413.588T15 4v16q0 .825-.587 1.413T13 22zm0-11.475q.45-.275.95-.4T6 10h5q.55 0 1.05.125t.95.4V4H4zm3.088-2.113Q6.5 7.825 6.5 7t.588-1.412T8.5 5t1.413.588T10.5 7t-.587 1.413T8.5 9t-1.412-.587M7.5 17v1q0 .425.288.713T8.5 19t.713-.288T9.5 18v-1h1q.425 0 .713-.288T11.5 16t-.288-.712T10.5 15h-1v-1q0-.425-.288-.712T8.5 13t-.712.288T7.5 14v1h-1q-.425 0-.712.288T5.5 16t.288.713T6.5 17zm12.4-2.2q-.3.3-.712.3t-.713-.3L16.4 12.7q-.3-.3-.3-.7t.3-.7l2.075-2.1q.3-.3.713-.3t.712.3t.3.713t-.3.712l-.4.375h2.175q.425 0 .713.288t.287.712t-.288.713t-.712.287H19.5l.4.375q.3.3.3.713t-.3.712");
+}
+
+</style>

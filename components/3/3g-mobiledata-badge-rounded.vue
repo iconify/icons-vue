@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="pdp194e1b"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:3g-mobiledata-badge-rounded" /></template>
+<style>
+.pdp194e1b {
+  fill: currentColor;
+  d: path("M3 21q-.825 0-1.412-.587T1 19V5q0-.825.588-1.412T3 3h18q.825 0 1.413.588T23 5v14q0 .825-.587 1.413T21 21zm11-4h3q.825 0 1.413-.587T19 15v-3q0-.425-.288-.712T18 11h-1q-.425 0-.712.288T16 12t.288.713T17 13v2h-3V9h5q0-.825-.587-1.412T17 7h-3q-.825 0-1.412.588T12 9v6q0 .825.588 1.413T14 17m-5 0q.825 0 1.413-.587T11 15v-1.5q0-.625-.437-1.062T9.5 12q.625 0 1.063-.437T11 10.5V9q0-.825-.587-1.412T9 7H6q-.425 0-.712.288T5 8t.288.713T6 9h3v2H6q-.425 0-.712.288T5 12t.288.713T6 13h3v2H6q-.425 0-.712.288T5 16t.288.713T6 17z");
+}
+
+</style>

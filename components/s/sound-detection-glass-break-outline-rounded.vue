@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="y15ix5bxn"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:sound-detection-glass-break-outline-rounded" /></template>
+<style>
+.y15ix5bxn {
+  fill: currentColor;
+  d: path("M5 21q-.825 0-1.412-.587T3 19V5q0-.825.588-1.412T5 3h14q.825 0 1.413.588T21 5v14q0 .825-.587 1.413T19 21zm4.5-10.7q.375 0 .75.15t.675.45l2.575 2.575L19 7.3V5H5v9l3.075-3.1q.3-.3.663-.45t.762-.15m3.925 5.25q-.375 0-.75-.137T12 14.975l-2.5-2.5L5 17v2h14v-8.7l-4.1 4.6q-.3.35-.675.5t-.8.15");
+}
+
+</style>

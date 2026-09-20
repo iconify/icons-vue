@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="oesks29rb"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:hvac-outline-sharp" /></template>
+<style>
+.oesks29rb {
+  fill: currentColor;
+  d: path("M16.25 16.25Q18 14.5 18 12t-1.75-4.25T12 6T7.75 7.75T6 12t1.75 4.25T12 18t4.25-1.75m-5.65-.513q-.675-.262-1.225-.737h5.25q-.55.475-1.225.738T12 16t-1.4-.262M8.55 14q-.2-.35-.325-.725T8.05 12.5h7.9q-.05.4-.175.775T15.45 14zm-.5-2.5q.05-.4.175-.775T8.55 10h6.9q.2.35.325.725t.175.775zM9.375 9q.55-.475 1.225-.737T12 8t1.4.262T14.625 9zM3 21V3h18v18zm2-2h14V5H5zm0 0V5z");
+}
+
+</style>

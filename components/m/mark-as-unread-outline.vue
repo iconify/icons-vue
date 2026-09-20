@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="ad0irs2nr"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:mark-as-unread-outline" /></template>
+<style>
+.ad0irs2nr {
+  fill: currentColor;
+  d: path("M4 17q-.825 0-1.412-.587T2 15V7.15q0-.375.213-.737T2.8 5.85L10.5 2l7.55 3.85q.3.15.513.475T18.85 7h-2.925L10.5 4.25L4 7.475zm3 4q-.825 0-1.412-.587T5 19v-9q0-.825.588-1.412T7 8h13q.825 0 1.413.588T22 10v9q0 .825-.587 1.413T20 21zm6.5-5.65L7 12v7h13v-7zm0-2L20 10H7zM20 10H7z");
+}
+
+</style>

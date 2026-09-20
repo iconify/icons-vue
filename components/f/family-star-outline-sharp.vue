@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="tk5enpuxx"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:family-star-outline-sharp" /></template>
+<style>
+.tk5enpuxx {
+  fill: currentColor;
+  d: path("M14.138 15.288q.937-.713 1.362-1.838h-7q.425 1.125 1.363 1.838T12 16t2.138-.712m-3.576-3.726Q11 11.126 11 10.5t-.437-1.062T9.5 9t-1.062.438T8 10.5t.438 1.063T9.5 12t1.063-.437m5 0Q16 11.125 16 10.5t-.437-1.062T14.5 9t-1.062.438T13 10.5t.438 1.063T14.5 12t1.063-.437M7.625 6.4L12 .725L16.375 6.4l6.85 2.3l-4.325 6.125l.175 6.825L12 19.675L4.925 21.65L5.1 14.8L.8 8.7zM8.85 8.125L4 9.725L7.1 14.2L7 18.975l5-1.375l5 1.4l-.1-4.8L20 9.775l-4.85-1.65L12 4zM12 11.5");
+}
+
+</style>

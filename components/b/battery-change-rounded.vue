@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="y3s_hluch"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:battery-change-rounded" /></template>
+<style>
+.y3s_hluch {
+  fill: currentColor;
+  d: path("M8 22q-.425 0-.712-.288T7 21V5q0-.425.288-.712T8 4h2V3q0-.425.288-.712T11 2h2q.425 0 .713.288T14 3v1h2q.425 0 .713.288T17 5v16q0 .425-.288.713T16 22zm2-7.275q0 .575.213 1.088t.612.912l.225.225q.275.275.688.275t.712-.275q.3-.3.3-.712t-.3-.713l-.225-.225q-.125-.125-.175-.262T12 14.75q0-.175.05-.312t.175-.263l.95-.95q.4-.4.613-.9t.212-1.05q0-.575-.212-1.087t-.613-.913l-.25-.25q-.3-.3-.7-.288t-.7.313q-.275.3-.288.7t.288.7l.225.225q.125.125.188.262t.062.313q0 .15-.062.288t-.188.262l-.925.95q-.4.4-.612.9T10 14.725");
+}
+
+</style>

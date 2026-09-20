@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="kmk_t3b3i"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:monorail-outline" /></template>
+<style>
+.kmk_t3b3i {
+  fill: currentColor;
+  d: path("M11 17h2v3h5v2H6v-2h5zM8 2h8q1.65 0 2.825 1.175T20 6v9.5q0 1.475-1.025 2.488T16.5 19H14v-3h-4v3H7.5q-1.475 0-2.488-1.012T4 15.5V6q0-1.65 1.163-2.825T8 2M6 12v3.5q0 .65.425 1.075T7.5 17H8v-3h8v3h.5q.625 0 1.063-.425T18 15.5V12zm0-5v3h12V7zm2-3q-.575 0-1.012.275T6.275 5h11.45q-.275-.45-.725-.725T16 4zm-2 8h12zm2-7h9.725h-11.45z");
+}
+
+</style>

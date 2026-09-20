@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="h4ibhsbix"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:storm-rounded" /></template>
+<style>
+.h4ibhsbix {
+  fill: currentColor;
+  d: path("M19.2 22q-.375 0-.587-.325t-.088-.725q.425-1.325.575-2.675t.05-2.725q-.975 2.075-2.912 3.262T12 20q-2.1 0-3.8-.987t-2.9-2.638t-1.85-3.787T2.8 8.15q0-1.3.138-2.562t.487-2.513q.125-.475.5-.775T4.8 2q.375 0 .588.325t.087.725q-.4 1.325-.562 2.675T4.85 8.45q.975-2.075 2.913-3.262T12 4q2.1 0 3.8.988t2.9 2.637t1.85 3.788t.65 4.437q0 1.3-.137 2.563t-.488 2.512q-.125.475-.5.775t-.875.3m-4.375-7.175Q16 13.65 16 12t-1.175-2.825T12 8T9.175 9.175T8 12t1.175 2.825T12 16t2.825-1.175m-4.237-1.412Q10 12.825 10 12t.588-1.412T12 10t1.413.588T14 12t-.587 1.413T12 14t-1.412-.587");
+}
+
+</style>

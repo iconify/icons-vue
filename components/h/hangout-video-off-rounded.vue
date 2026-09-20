@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="ybko3smkm"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:hangout-video-off-rounded" /></template>
+<style>
+.ybko3smkm {
+  fill: currentColor;
+  d: path("M4 20q-.825 0-1.412-.587T2 18V6q0-.825.588-1.412T4 4l.6.6v2.8L1.4 4.2q-.275-.275-.275-.7t.275-.7t.7-.275t.7.275l18.4 18.4q.275.275.288.688t-.288.712q-.275.275-.7.275t-.7-.275L17.15 20zm17.75-1.1L18 15.15v-5.6q0-.475-.425-.675t-.8.075L14 11.15v-2.1q0-.425-.288-.713T13 8.05h-2.1L6.85 4H20q.825 0 1.413.588T22 6v12q0 .225-.062.45t-.188.45M7 16h6.15L6 8.85V15q0 .425.288.713T7 16");
+}
+
+</style>

@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="cblzh1bmu"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:clock-arrow-down-rounded" /></template>
+<style>
+.cblzh1bmu {
+  fill: currentColor;
+  d: path("M3.188 17.313Q1 15.125 1 12t2.188-5.312T8.5 4.5t5.313 2.188T16 12t-2.187 5.313T8.5 19.5t-5.312-2.187M9.5 11.675V9q0-.425-.288-.712T8.5 8t-.712.288T7.5 9v3.075q0 .2.075.388t.225.337l2 2q.275.275.7.275t.7-.275t.275-.7t-.275-.7zm9.3 7.625L16.5 17q-.275-.3-.275-.712t.3-.688t.713-.287t.687.287l.575.575V5q0-.425.288-.712T19.5 4t.713.288T20.5 5v11.2l.6-.6q.275-.275.7-.275t.7.275t.275.7t-.275.7l-2.3 2.3q-.3.3-.7.3t-.7-.3");
+}
+
+</style>

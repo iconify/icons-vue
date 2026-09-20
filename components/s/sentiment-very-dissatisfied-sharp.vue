@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="ltkfz_odh"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:sentiment-very-dissatisfied-sharp" /></template>
+<style>
+.ltkfz_odh {
+  fill: currentColor;
+  d: path("M8.913 14.463Q7.525 15.425 6.9 17h10.2q-.625-1.575-2.013-2.537T12 13.5t-3.088.963M7.8 12l1.1-1.05L9.95 12L11 10.95L9.95 9.9L11 8.8L9.95 7.75L8.9 8.8L7.8 7.75L6.75 8.8L7.8 9.9l-1.05 1.05zm6.25 0l1.05-1.05L16.2 12l1.05-1.05L16.2 9.9l1.05-1.1l-1.05-1.05l-1.1 1.05l-1.05-1.05L13 8.8l1.05 1.1L13 10.95zM8.1 21.213q-1.825-.788-3.175-2.138T2.788 15.9T2 12t.788-3.9t2.137-3.175T8.1 2.788T12 2t3.9.788t3.175 2.137T21.213 8.1T22 12t-.788 3.9t-2.137 3.175t-3.175 2.138T12 22t-3.9-.788");
+}
+
+</style>

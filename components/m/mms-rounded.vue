@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="xngh3mqby"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:mms-rounded" /></template>
+<style>
+.xngh3mqby {
+  fill: currentColor;
+  d: path("M7 14h10q.3 0 .45-.275t-.05-.525l-2.75-3.675q-.15-.2-.4-.2t-.4.2L11.25 13L9.4 10.525q-.15-.2-.4-.2t-.4.2l-2 2.675q-.2.25-.05.525T7 14m-1 4l-2.3 2.3q-.475.475-1.088.213T2 19.575V4q0-.825.588-1.412T4 2h16q.825 0 1.413.588T22 4v12q0 .825-.587 1.413T20 18z");
+}
+
+</style>

@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="tz9ehlvyh"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:nutrition-rounded" /></template>
+<style>
+.tz9ehlvyh {
+  fill: currentColor;
+  d: path("M7.038 18.963Q5 16.925 5 14q0-2.35 1.388-4.212t3.637-2.513q-.825-.2-1.437-.712T7.6 5.325T7.075 3.75t-.05-1.725q1.025-.125 1.95.125t1.675.8t1.238 1.325t.587 1.75q.325-.775.788-1.463T14.3 3.3q.275-.275.7-.275t.7.275t.275.7t-.275.7q-.55.55-.975 1.213T14.1 7.325q2.2.7 3.55 2.538T19 14q0 2.925-2.037 4.963T12 21t-4.962-2.037");
+}
+
+</style>

@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="o5rbexyuy"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:car-rental-outline-sharp" /></template>
+<style>
+.o5rbexyuy {
+  fill: currentColor;
+  d: path("M8 7q-1.25 0-2.125-.875T5 4t.875-2.125T8 1q.95 0 1.725.563T10.85 3H19v2h-1v2h-2V5h-5.15q-.35.875-1.125 1.438T8 7m.713-2.287Q9 4.425 9 4t-.288-.712T8 3t-.712.288T7 4t.288.713T8 5t.713-.288m1 12.5Q10 16.926 10 16.5t-.288-.712T9 15.5t-.712.288T8 16.5t.288.713T9 17.5t.713-.288m6 0Q16 16.926 16 16.5t-.288-.712T15 15.5t-.712.288T14 16.5t.288.713t.712.287t.713-.288M5 22v-7.4L6.925 9h10.15L19 14.6V22h-2v-2H7v2zm2.65-9h8.7l-.7-2h-7.3zM7 15v3zm0 3h10v-3H7z");
+}
+
+</style>

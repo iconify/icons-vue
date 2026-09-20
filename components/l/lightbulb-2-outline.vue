@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="l6b83nbek"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:lightbulb-2-outline" /></template>
+<style>
+.l6b83nbek {
+  fill: currentColor;
+  d: path("M10 18q-.825 0-1.412-.587T8 16v-1.25q-1.425-.975-2.212-2.5T5 9q0-2.925 2.038-4.962T12 2t4.963 2.038T19 9q0 1.725-.788 3.238T16 14.75V16q0 .825-.587 1.413T14 18zm0-2h4v-2.3l.85-.6q1.025-.7 1.588-1.787T17 9q0-2.075-1.463-3.537T12 4T8.463 5.463T7 9q0 1.225.563 2.313T9.15 13.1l.85.6zm0 6q-.425 0-.712-.288T9 21v-1h6v1q0 .425-.288.713T14 22zm2-13");
+}
+
+</style>

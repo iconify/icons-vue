@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="g5-s5k29m"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:file-map-outline" /></template>
+<style>
+.g5-s5k29m {
+  fill: currentColor;
+  d: path("M5 21q-.825 0-1.412-.587T3 19V5q0-.825.588-1.412T5 3h14q.825 0 1.413.588T21 5v14q0 .825-.587 1.413T19 21zm0-2h14V5H5zm7-1q2.425-2.05 3.613-3.812t1.187-3.263q0-2.275-1.45-3.6T12 6T8.65 7.325t-1.45 3.6q0 1.5 1.188 3.263T12 18m-.888-6.113q-.362-.362-.362-.887t.363-.888T12 9.75t.888.363t.362.887t-.363.888t-.887.362t-.888-.363M5 19V5z");
+}
+
+</style>

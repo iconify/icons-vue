@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="ilfi1wj3t"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:windshield-defrost-auto" /></template>
+<style>
+.ilfi1wj3t {
+  fill: currentColor;
+  d: path("M8.425 15.825L7.05 15.2l.325-.675q.125-.275.088-.525t-.138-.5t-.225-.513t-.225-.537l-1.3.25q-.65.125-1.3.275L1 4.5q2.075-1.2 4.338-1.85T10 2t4.675.65t4.35 1.85l-3.275 8.475q-.975-.225-1.7-.362t-1.375-.238q.125.35.263.7t.187.7t.025.687t-.175.688l-.3.675L11.3 15.2l.325-.675q.15-.325.1-.6t-.175-.55t-.263-.575t-.237-.625q-.675-.05-1.338-.038t-1.337.088q.125.375.263.75t.212.725t.063.713t-.188.737zM5.5 10.65q.275-.05.575-.1t.575-.1q.05-.375.15-.737T7.025 9h-1l1.8-3l1.8 3H8.6q-.1.275-.213.6t-.187.65q.675-.05 1.363-.075t1.362 0q.05-.3.15-.587t.2-.588h-1.05l1.8-3l1.8 3h-.975q-.1.3-.212.625t-.188.65q.525.05 1.038.138t1.012.212L16.525 5.4Q15 4.675 13.35 4.337T10 4t-3.35.338T3.475 5.4zM9 22q-.825 0-1.412-.587T7 20v-3h2v3h12v-9h-2V9h2q.825 0 1.413.588T23 11v9q0 .825-.587 1.413T21 22z");
+}
+
+</style>

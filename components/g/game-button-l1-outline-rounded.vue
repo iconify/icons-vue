@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="nprfyfhkg"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:game-button-l1-outline-rounded" /></template>
+<style>
+.nprfyfhkg {
+  fill: currentColor;
+  d: path("M14.55 10.3v4.525q0 .275.2.475t.475.2t.475-.2t.2-.475v-6.05q0-.125-.062-.2T15.65 8.5h-.575q-.05 0-.15.05L13 9.925q-.2.15-.238.4t.113.45t.4.238t.45-.113zm-5.025 3.95V9.175q0-.275-.213-.475t-.487-.2t-.475.2t-.2.475V14.5q0 .425.288.713t.712.287H12q.275 0 .45-.175t.175-.45t-.175-.45t-.45-.175zM22 6v10q0 1.65-1.175 2.825T18 20H6q-1.65 0-2.825-1.175T2 16V6q0-.825.588-1.412T4 4h16q.825 0 1.413.588T22 6m-2 0H4v10q0 .825.588 1.413T6 18h12q.825 0 1.413-.587T20 16zm0 0H4z");
+}
+
+</style>

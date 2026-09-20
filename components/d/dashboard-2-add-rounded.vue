@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="lp4lze32m"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:dashboard-2-add-rounded" /></template>
+<style>
+.lp4lze32m {
+  fill: currentColor;
+  d: path("M3 20h5q.425 0 .713-.288T9 19v-5q0-.425-.288-.712T8 13H3q-.425 0-.712.288T2 14v5q0 .425.288.713T3 20m0-9h8q.425 0 .713-.288T12 10V5q0-.425-.288-.712T11 4H3q-.425 0-.712.288T2 5v5q0 .425.288.713T3 11m9 9h9q.425 0 .713-.288T22 19v-5q0-.425-.288-.712T21 13h-9q-.425 0-.712.288T11 14v5q0 .425.288.713T12 20m6-9q-2.075 0-3.537-1.463T13 6t1.463-3.537T18 1t3.538 1.463T23 6t-1.463 3.538T18 11m-.5-4.5v2q0 .2.15.35T18 9t.35-.15t.15-.35v-2h2q.2 0 .35-.15T21 6t-.15-.35t-.35-.15h-2v-2q0-.2-.15-.35T18 3t-.35.15t-.15.35v2h-2q-.2 0-.35.15T15 6t.15.35t.35.15z");
+}
+
+</style>

@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="pmufg4bmd"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:important-devices" /></template>
+<style>
+.pmufg4bmd {
+  fill: currentColor;
+  d: path("M17 21q-.425 0-.712-.288T16 20v-7.95q0-.425.288-.712T17 11.05h4q.425 0 .713.288t.287.712V20q0 .425-.288.713T21 21zm0-2h4v-5.95h-4zm-8.3-5.25L11 12l2.3 1.75l-.85-2.85l2.3-1.85H11.9l-.9-2.8l-.9 2.8H7.25l2.3 1.85zM8 21v-2h2v-2H4q-.825 0-1.412-.587T2 15V5q0-.825.588-1.412T4 3h14q.825 0 1.413.588T20 5v4.05h-3q-1.25 0-2.125.875T14 12.05V17h-2v2h2v2z");
+}
+
+</style>

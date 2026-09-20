@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="hf5mzbbwf"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:contract-delete-outline-sharp" /></template>
+<style>
+.hf5mzbbwf {
+  fill: currentColor;
+  d: path("m19 19.425l-2.125 2.1l-1.4-1.4l2.1-2.125l-2.1-2.125l1.4-1.4l2.125 2.1l2.125-2.1l1.4 1.4l-2.1 2.125l2.1 2.125l-1.4 1.4zM6 22q-1.25 0-2.125-.875T3 19v-3h3V2h15v10.375q-.475-.175-.975-.262T19 12.025V4H8v12h5.35q-.175.475-.262.975T13 18H5v1q0 .425.288.713T6 20h7.35q.2.575.5 1.075t.7.925zM9 9V7h9v2zm0 3v-2h9v2zm4.35 8H5z");
+}
+
+</style>

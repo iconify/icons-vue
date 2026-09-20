@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="ejw-zix7c"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:2k-plus-outline" /></template>
+<style>
+.ejw-zix7c {
+  fill: currentColor;
+  d: path("M16.5 14h1v-1.5H19v-1h-1.5V10h-1v1.5H15v1h1.5zM11 15h1.5v-2.25L14.25 15h1.825l-2.325-3l2.325-3H14.25l-1.75 2.25V9H11zm-5 0h4v-1.5H7.5v-1H9q.425 0 .713-.288T10 11.5V10q0-.425-.288-.712T9 9H6v1.5h2.5v1H7q-.425 0-.712.288T6 12.5zm-1 6q-.825 0-1.412-.587T3 19V5q0-.825.588-1.412T5 3h14q.825 0 1.413.588T21 5v14q0 .825-.587 1.413T19 21zm0-2h14V5H5zM5 5v14z");
+}
+
+</style>

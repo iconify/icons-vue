@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="cwwtnubgy"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:payment-arrow-down-outline-rounded" /></template>
+<style>
+.cwwtnubgy {
+  fill: currentColor;
+  d: path("M12 11q-1.25 0-2.125-.875T9 8t.875-2.125T12 5t2.125.875T15 8t-.875 2.125T12 11m-7 3q-.825 0-1.412-.587T3 12V4q0-.825.588-1.412T5 2h14q.825 0 1.413.588T21 4v8q0 .825-.587 1.413T19 14zm2-2h10q0-.825.588-1.412T19 10V6q-.825 0-1.412-.587T17 4H7q0 .825-.587 1.413T5 6v4q.825 0 1.413.588T7 12m-2 0V4zm6 6.2l-.9-.9q-.275-.275-.7-.275t-.7.275t-.275.7t.275.7l2.6 2.6q.15.15.325.213t.375.062t.375-.062t.325-.213l2.6-2.6q.275-.275.275-.7t-.275-.7t-.7-.275t-.7.275l-.9.9V16q0-.425-.288-.712T12 15t-.712.288T11 16z");
+}
+
+</style>

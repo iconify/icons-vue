@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="bjemujb8r"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:note-stack-sharp" /></template>
+<style>
+.bjemujb8r {
+  fill: currentColor;
+  d: path("M7 22V6.975h15V17l-5 5zm13-6h-4v4zM4.3 19.075L1.675 4.3L16.45 1.675L17.05 5H5v13.95z");
+}
+
+</style>

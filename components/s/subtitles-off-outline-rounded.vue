@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="gys8j4xlr"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:subtitles-off-outline-rounded" /></template>
+<style>
+.gys8j4xlr {
+  fill: currentColor;
+  d: path("M4 20q-.825 0-1.412-.587T2 18V6q0-.825.588-1.412T4 4l2 2H4v12h11.15l-2-2H7q-.425 0-.712-.288T6 15t.288-.712T7 14h4.15l-9.8-9.85q-.275-.275-.288-.687t.288-.713q.275-.275.7-.275t.7.275l18.5 18.5q.275.275.288.688t-.288.712q-.275.275-.7.275t-.7-.275L17.15 20zM22 6v10.75q0 .5-.312.75t-.688.25q-.425 0-.712-.3T20 16.725V6H9.275q-.5 0-.75-.312T8.275 5q0-.425.288-.712T9.275 4H20q.825 0 1.413.588T22 6m-5 6h-1.725q-.5 0-.75-.312t-.25-.688t.25-.687t.75-.313H17q.425 0 .713.288T18 11t-.288.713T17 12m-10.712-.288Q6 11.426 6 11t.288-.712T7 10t.713.288T8 11t-.288.713T7 12t-.712-.288");
+}
+
+</style>

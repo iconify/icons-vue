@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="dh3nm_yeq"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:youtube-searched-for" /></template>
+<style>
+.dh3nm_yeq {
+  fill: currentColor;
+  d: path("M20.55 20.45L14.8 14.7q-.8.65-1.775.975T11 16t-2-.312t-1.75-.888l1.45-1.45q.5.3 1.075.475T11 14q1.875 0 3.187-1.312T15.5 9.5t-1.312-3.187T11 5Q9.275 5 8.012 6.163T6.55 9.05L7.8 7.8l1.4 1.4l-3.7 3.7l-3.7-3.7l1.4-1.4l1.35 1.3q.15-2.575 2-4.337T11 3q2.725 0 4.613 1.888T17.5 9.5q0 1.05-.325 2.05T16.2 13.3l5.75 5.75z");
+}
+
+</style>

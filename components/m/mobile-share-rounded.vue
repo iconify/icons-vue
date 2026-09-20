@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="l302gpbir"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:mobile-share-rounded" /></template>
+<style>
+.l302gpbir {
+  fill: currentColor;
+  d: path("m12.15 13l-.375.4q-.275.3-.275.7t.3.7q.275.275.7.275t.7-.275l2.1-2.1q.15-.15.212-.325t.063-.375t-.062-.375t-.213-.325l-2.1-2.1q-.275-.275-.7-.275t-.725.3Q11.5 9.5 11.5 9.9t.275.7l.375.4H10q-.825 0-1.412.588T8 13v2q0 .425.288.713T9 16t.713-.288T10 15v-2zM7 23q-.825 0-1.412-.587T5 21V3q0-.825.588-1.412T7 1h10q.825 0 1.413.588T19 3v3.1q.45.175.725.55T20 7.5v2q0 .475-.275.85T19 10.9V21q0 .825-.587 1.413T17 23z");
+}
+
+</style>

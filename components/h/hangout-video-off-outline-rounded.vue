@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="w_tvrbgkb"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:hangout-video-off-outline-rounded" /></template>
+<style>
+.w_tvrbgkb {
+  fill: currentColor;
+  d: path("M10.9 8.05H13q.425 0 .713.288T14 9.05v2.1zm3.1 3.1l2.775-2.2q.375-.275.8-.075T18 9.55v5.6zm7.75 7.75q.125-.225.188-.45T22 18V6q0-.825-.587-1.412T20 4H6.85l2 2H20v11.15zM4 4l2 2H4v12h11.15l-2-2H7q-.425 0-.712-.288T6 15V8.85L1.4 4.2q-.275-.275-.287-.687T1.4 2.8q.275-.275.7-.275t.7.275l18.4 18.4q.275.275.288.688t-.288.712q-.275.275-.7.275t-.7-.275L17.15 20H4q-.825 0-1.412-.587T2 18V6q0-.825.588-1.412T4 4m5.6 8.45");
+}
+
+</style>

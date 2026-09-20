@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="ib4d_ccfm"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:track-changes-outline-sharp" /></template>
+<style>
+.ib4d_ccfm {
+  fill: currentColor;
+  d: path("M8.1 21.213q-1.825-.788-3.175-2.138T2.788 15.9T2 12t.788-3.9t2.137-3.175T8.1 2.788T12 2h1v8.275q.45.275.725.713T14 12q0 .825-.587 1.413T12 14t-1.412-.587T10 12q0-.575.275-1.025t.725-.7v-2.15q-1.3.35-2.15 1.413T8 12q0 1.65 1.175 2.825T12 16t2.825-1.175T16 12q0-.9-.363-1.662T14.65 9l1.425-1.425q.875.825 1.4 1.963T18 12q0 2.5-1.75 4.25T12 18t-4.25-1.75T6 12q0-2.25 1.425-3.912T11 6.075V4.05q-2.975.375-4.988 2.625T4 12q0 3.35 2.325 5.675T12 20t5.675-2.325T20 12q0-1.725-.675-3.225t-1.85-2.6L18.9 4.75q1.425 1.375 2.263 3.238T22 12q0 2.075-.788 3.9t-2.137 3.175t-3.175 2.138T12 22t-3.9-.788");
+}
+
+</style>

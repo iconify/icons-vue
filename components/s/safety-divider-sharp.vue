@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="libsh1bds"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:safety-divider-sharp" /></template>
+<style>
+.libsh1bds {
+  fill: currentColor;
+  d: path("M11 19V5h2v14zM1 16v-.575q0-.6.325-1.1t.9-.75q.65-.275 1.338-.425T5 13t1.438.15t1.337.425q.575.25.9.75t.325 1.1V16zm14 0v-.575q0-.6.325-1.1t.9-.75q.65-.275 1.337-.425T19 13t1.437.15t1.338.425q.575.25.9.75t.325 1.1V16zM5 12q-.825 0-1.412-.587T3 10t.588-1.412T5 8t1.413.588T7 10t-.587 1.413T5 12m14 0q-.825 0-1.412-.587T17 10t.588-1.412T19 8t1.413.588T21 10t-.587 1.413T19 12");
+}
+
+</style>

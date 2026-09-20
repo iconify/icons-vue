@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="bk83i-h7j"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:bluetooth-drive-sharp" /></template>
+<style>
+.bk83i-h7j {
+  fill: currentColor;
+  d: path("M6.5 16q.625 0 1.063-.437T8 14.5t-.437-1.062T6.5 13t-1.062.438T5 14.5t.438 1.063T6.5 16m9 0q.625 0 1.063-.437T17 14.5t-.437-1.062T15.5 13t-1.062.438T14 14.5t.438 1.063T15.5 16M2 21v-9l2.45-7H15v2H5.85L4.8 10H15v2h5v9h-3v-2H5v2zm16.65-10V7.2l-2.3 2.3l-.7-.7l2.8-2.8l-2.8-2.8l.7-.7l2.3 2.3V1h.5L22 3.9L19.85 6L22 8.15L19.15 11zm1-6.2l.95-.9l-.95-.95zm0 4.3l.95-.95l-.95-.95z");
+}
+
+</style>

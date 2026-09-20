@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="e5pogc3qd"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:battery-android-alert-rounded" /></template>
+<style>
+.e5pogc3qd {
+  fill: currentColor;
+  d: path("M4 18q-1.25 0-2.125-.875T1 15V9q0-1.25.875-2.125T4 6h13q.425 0 .713.288T18 7v9q0 .2.013.363t.062.337q.125.5-.1.9t-.65.4zm16.288-1.787Q20 15.924 20 15.5t.288-.712T21 14.5t.713.288t.287.712t-.288.713T21 16.5t-.712-.288m0-3.5Q20 12.425 20 12V8q0-.425.288-.712T21 7t.713.288T22 8v4q0 .425-.288.713T21 13t-.712-.288");
+}
+
+</style>

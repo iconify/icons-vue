@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="ouwfpib_r"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:home-and-garden-sharp" /></template>
+<style>
+.ouwfpib_r {
+  fill: currentColor;
+  d: path("M4 20v-9.375L2.2 12l-1.175-1.575l11-8.425L23 10.425l-.4.525q-1.125-.775-2.475-.925t-2.625.35q-1.5-.575-3.088-.262t-2.787 1.512t-1.513 2.788t.263 3.087q-.25.6-.325 1.225T10.025 20zm13.5 2.375q-1.05.725-2.312.613t-2.163-1.013t-1.012-2.162t.612-2.313q-.725-1.05-.612-2.312t1.012-2.163t2.163-1.012t2.312.612q1.05-.725 2.313-.612t2.162 1.012t1.013 2.163t-.613 2.312q.725 1.05.613 2.313t-1.013 2.162t-2.162 1.013t-2.313-.613m.888-3.988q.362-.362.362-.887t-.363-.888t-.887-.362t-.888.363t-.362.887t.363.888t.887.362t.888-.363");
+}
+
+</style>

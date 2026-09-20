@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="wobhdacke"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:doorbell" /></template>
+<style>
+.wobhdacke {
+  fill: currentColor;
+  d: path("M12.713 17.213Q13 16.925 13 16.5h-2q0 .425.288.713T12 17.5t.713-.288M8 16h8v-1h-1v-2.35q0-1.1-.6-2T12.75 9.5v-.25q0-.325-.213-.537T12 8.5t-.537.213t-.213.537v.25q-1.05.25-1.65 1.15t-.6 2V15H8zm-4 5V9l8-6l8 6v12z");
+}
+
+</style>

@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="cz925wp5t"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:motion-photos-on-outline" /></template>
+<style>
+.cz925wp5t {
+  fill: currentColor;
+  d: path("M8.1 21.213q-1.825-.788-3.175-2.138T2.788 15.9T2 12q0-1.075.225-2.113t.65-2.012l1.55 1.55q-.2.65-.312 1.287T4 12q0 3.35 2.325 5.675T12 20t5.675-2.325T20 12t-2.325-5.675T12 4q-.675 0-1.312.112t-1.263.313L7.9 2.9q1-.45 2-.675T12 2q2.075 0 3.9.787t3.175 2.138T21.213 8.1T22 12t-.788 3.9t-2.137 3.175t-3.175 2.138T12 22t-3.9-.788M4.438 6.562Q4 6.125 4 5.5t.438-1.062T5.5 4t1.063.438T7 5.5t-.437 1.063T5.5 7t-1.062-.437M12 12");
+}
+
+</style>

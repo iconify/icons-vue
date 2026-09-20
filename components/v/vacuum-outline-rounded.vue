@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="tnxm9hbup"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:vacuum-outline-rounded" /></template>
+<style>
+.tnxm9hbup {
+  fill: currentColor;
+  d: path("M1.875 21.125Q1 20.25 1 19t.875-2.125T4 16t2.125.875T7 19t-.875 2.125T4 22t-2.125-.875m2.838-1.412Q5 19.425 5 19t-.288-.712T4 18t-.712.288T3 19t.288.713T4 20t.713-.288M13 13v7q0 .825-.587 1.413T11 22H9.5q-.425 0-.712-.288T8.5 21t.288-.712T9.5 20H11v-7q0-.825-.587-1.412T9 11H4v2q0 .425-.288.713T3 14t-.712-.288T2 13v-2q0-.825.588-1.412T4 9h1V5.6q0-1.925 1.338-3.262T9.6 1q1.4 0 2.55.763t1.7 2.037L20.675 20H22q.425 0 .713.288T23 21t-.288.713T22 22h-5q-.425 0-.712-.288T16 21t.288-.712T17 20h1.5L12.025 4.6q-.3-.725-.962-1.162T9.6 3q-1.1 0-1.85.75T7 5.6V9h2q1.65 0 2.825 1.175T13 13m-5.5 2.5");
+}
+
+</style>

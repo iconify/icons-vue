@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="ge5f6ibcp"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:power-plug-off-rounded" /></template>
+<style>
+.ge5f6ibcp {
+  fill: currentColor;
+  d: path("M10.5 21q-.425 0-.712-.288T9.5 20v-2l-2.925-2.925q-.275-.275-.425-.637T6 13.675V9q0-.6.275-1.125t.8-.8v2.8L2.1 4.9q-.275-.275-.275-.7t.275-.7t.7-.275t.7.275l17 17q.275.275.275.7t-.275.7t-.7.275t-.7-.275l-4.25-4.25l-.35.35v2q0 .425-.287.713T13.5 21zm6.65-6.7L8 5.15V4q0-.425.288-.712T9 3t.713.288T10 4v3h4V4q0-.425.288-.712T15 3t.713.288T16 4v4l-1-1h1q.825 0 1.413.588T18 9v3.625q0 .4-.15.763t-.425.637z");
+}
+
+</style>

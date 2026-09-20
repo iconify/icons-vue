@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="lk9urrbqn"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:gfit-health" /></template>
+<style>
+.lk9urrbqn {
+  fill: currentColor;
+  d: path("m4.225 12.55l-.9-.875q-.625-.625-.963-1.438q-.337-.812-.337-1.737q0-1.9 1.313-3.2Q4.65 4 6.525 4q.85 0 1.675.337q.825.338 1.475.988l.9.875ZM12 20.3l-6.375-6.325l8.7-8.65q.65-.65 1.488-.988Q16.65 4 17.5 4q1.85 0 3.163 1.3Q21.975 6.6 22 8.5q0 .85-.35 1.7t-.975 1.475Z");
+}
+
+</style>

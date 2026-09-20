@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="iyitq0sqi"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:mobile-lock-landscape-rounded" /></template>
+<style>
+.iyitq0sqi {
+  fill: currentColor;
+  d: path("M3 19q-.825 0-1.412-.587T1 17V7q0-.825.588-1.412T3 5h3.1q.175-.45.55-.725T7.5 4h2q.475 0 .85.275T10.9 5H21q.825 0 1.413.588T23 7v10q0 .825-.587 1.413T21 19zm7-3h4q.425 0 .713-.288T15 15v-3q0-.425-.288-.712T14 11v-1q0-.825-.587-1.412T12 8t-1.412.588T10 10v1q-.425 0-.712.288T9 12v3q0 .425.288.713T10 16m1-5v-1q0-.425.288-.712T12 9t.713.288T13 10v1z");
+}
+
+</style>

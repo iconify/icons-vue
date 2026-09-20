@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="ys4l2i4pp"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:rss-feed-outline" /></template>
+<style>
+.ys4l2i4pp {
+  fill: currentColor;
+  d: path("M3.588 20.413Q3 19.825 3 19t.588-1.412T5 17t1.413.588T7 19t-.587 1.413T5 21t-1.412-.587M17 21q0-2.925-1.1-5.462t-3-4.438t-4.437-3T3 7V4q3.55 0 6.625 1.325t5.4 3.65t3.65 5.4T20 21zm-6 0q0-1.675-.625-3.113T8.65 15.35t-2.537-1.725T3 13v-3q2.3 0 4.288.863t3.487 2.362t2.363 3.488T14 21z");
+}
+
+</style>

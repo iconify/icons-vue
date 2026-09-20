@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="exn3rgaot"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:udon-sharp" /></template>
+<style>
+.exn3rgaot {
+  fill: currentColor;
+  d: path("M5.5 12h1V8h-1zm0-5.5h1V5.25l-1 .1zM8 12h1V8H8zm0-5.5h1V4.95l-1 .125zM21.55 15H2.45q-.225-.725-.338-1.463T2 12h2V4l18-2v1.5L10.5 4.8v1.7H22V8H10.5v4H22q0 .8-.112 1.538T21.55 15M12 22q-2.8 0-5.087-1.362T3.324 17h17.35q-1.3 2.275-3.588 3.638T12 22");
+}
+
+</style>

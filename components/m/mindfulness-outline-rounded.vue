@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="yzppptbgf"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:mindfulness-outline-rounded" /></template>
+<style>
+.yzppptbgf {
+  fill: currentColor;
+  d: path("M12.713 13.713Q13 13.425 13 13V8q0-.425-.288-.712T12 7t-.712.288T11 8v5q0 .425.288.713T12 14t.713-.288m3-1.5Q16 11.926 16 11.5V9q0-.425-.288-.712T15 8t-.712.288T14 9v2.5q0 .425.288.713T15 12.5t.713-.288m-6-.5Q10 11.426 10 11V9q0-.425-.288-.712T9 8t-.712.288T8 9v2q0 .425.288.713T9 12t.713-.288M6 17.7q-1.425-1.3-2.212-3.037T3 11q0-3.75 2.625-6.375T12 2q3.125 0 5.538 1.838t3.137 4.787l1.3 5.125q.125.475-.175.863T21 15h-2v3q0 .825-.587 1.413T17 20h-2v1q0 .425-.288.713T14 22t-.712-.288T13 21v-2q0-.425.288-.712T14 18h3v-4q0-.425.288-.712T18 13h1.7l-.95-3.875q-.575-2.275-2.45-3.7T12 4Q9.1 4 7.05 6.025T5 10.95q0 1.5.613 2.85t1.737 2.4l.65.6V21q0 .425-.288.713T7 22t-.712-.288T6 21zm6.35-4.7");
+}
+
+</style>

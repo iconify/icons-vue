@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="p5asibb7y"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:fitness-center-rounded" /></template>
+<style>
+.p5asibb7y {
+  fill: currentColor;
+  d: path("M7.05 8.45L4.2 11.3q-.275.275-.687.288T2.8 11.3q-.275-.275-.287-.687t.262-.713l.725-.75l-.7-.7q-.3-.3-.3-.7t.3-.7l1.4-1.4l-.725-.75Q3.2 4.625 3.2 4.213t.3-.713q.275-.275.688-.287t.712.262l.75.725l1.4-1.4q.3-.3.7-.3t.7.3l.7.7l.75-.725q.275-.275.688-.275t.712.3q.275.275.275.7t-.275.7L8.45 7.05l8.5 8.5l2.85-2.85q.275-.275.688-.287t.712.287q.275.275.288.688t-.263.712l-.725.75l.7.7q.3.3.3.7t-.3.7l-1.4 1.4l.725.75q.275.275.275.687t-.3.713q-.275.275-.687.288t-.713-.263l-.75-.725l-1.4 1.4q-.3.3-.7.3t-.7-.3l-.7-.7l-.75.725q-.275.275-.687.275t-.713-.3q-.275-.275-.275-.7t.275-.7l2.85-2.85z");
+}
+
+</style>

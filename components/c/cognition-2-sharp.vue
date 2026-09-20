@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="mal2b1xak"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:cognition-2-sharp" /></template>
+<style>
+.mal2b1xak {
+  fill: currentColor;
+  d: path("M6 22v-4.3q-1.425-1.3-2.212-3.037T3 11q0-3.75 2.625-6.375T12 2q3.125 0 5.538 1.838t3.137 4.787l1.6 6.375H19v5h-4v2zm3.5-7q1.05 0 1.775-.725l4-4Q16 9.55 16 8.5t-.725-1.775T13.5 6t-1.775.725Q10.8 6.4 9.9 6.575t-1.525.8t-.8 1.525t.15 1.825Q7 11.45 7 12.5t.725 1.775T9.5 15");
+}
+
+</style>

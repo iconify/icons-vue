@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="wugnbbc7d"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:coffee-maker" /></template>
+<style>
+.wugnbbc7d {
+  fill: currentColor;
+  d: path("M6 22q-.825 0-1.412-.587T4 20V4q0-.825.588-1.412T6 2h14v2h-2v2q0 .425-.288.713T17 7H9q-.425 0-.712-.288T8 6V4H6v16h4.05q-.95-.675-1.5-1.713T8 16v-5h10v5q0 1.25-.55 2.288T15.95 20H20v2zm7.713-12.288Q14 9.425 14 9t-.288-.712T13 8t-.712.288T12 9t.288.713T13 10t.713-.288");
+}
+
+</style>

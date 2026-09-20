@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="v6qydu_bp"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:car-defrost-mid-low-right" /></template>
+<style>
+.v6qydu_bp {
+  fill: currentColor;
+  d: path("M4.5 23L1 19.5l1.4-1.425l1.1 1.1V16h2v3.175L6.6 18.1L8 19.5zm5-5l-1.425-1.4l1.1-1.1H6v-2h3.175L8.1 12.4L9.5 11l3.5 3.5zm-5.575-7L1 3.275q1.65-1.1 3.75-1.687T9 1q2.25 0 4.388.613t3.637 1.662L14.125 11q-1.25-.375-2.537-.562T9 10.25q-1.275 0-2.562.2T3.925 11m.925-1.775q.375-.1.763-.175t.787-.125q-.1-.4-.088-.775t.113-.75h-.65l1.5-2.5l1.5 2.5h-.75l-.1.25q-.1.25-.1.512t.1.613q.275-.025.537-.025h.975q.213 0 .438.025q-.05-.35-.05-.688t.1-.687h-.65l1.5-2.5l1.5 2.5h-.75l-.1.25q-.1.275-.088.562t.138.713q.425.05.875.125t.875.175L15.2 3.95q-1.45-.725-2.987-1.087T9 2.5q-1.625 0-3.2.363T2.875 3.95zM11.725 23L10 22l3.45-6q.275-.475.738-.737T15.2 15h1.3l1.45-5.025q.275-.875.938-1.425T20.4 8q1.2 0 1.975.912t.525 2.113L21.825 16.4q-.125.7-.687 1.15T19.85 18h-5.225zM21 7q-.825 0-1.412-.587T19 5t.588-1.412T21 3t1.413.588T23 5t-.587 1.413T21 7");
+}
+
+</style>

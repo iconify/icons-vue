@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="e53o9s13k"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:wheelchair-pickup-outline-sharp" /></template>
+<style>
+.e53o9s13k {
+  fill: currentColor;
+  d: path("M6.5 6q-.825 0-1.412-.587T4.5 4t.588-1.412T6.5 2t1.413.588T8.5 4t-.587 1.413T6.5 6M5 22v-7H3V7h7v3.95q-1.575.9-2.537 2.5T6.5 17q0 1.425.525 2.688T8.5 21.9v.1zm8.5 0q-2.075 0-3.537-1.463T8.5 17q0-1.675.988-2.963T12 12.25v2.175q-.675.4-1.088 1.075T10.5 17q0 1.25.875 2.125T13.5 20t2.125-.875T16.5 17h2q0 2.075-1.463 3.538T13.5 22m7.425-2.3L18.45 16H13V8h2v6h4.55l3.05 4.6z");
+}
+
+</style>

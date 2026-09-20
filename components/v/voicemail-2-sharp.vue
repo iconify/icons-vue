@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="sxkp84bng"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:voicemail-2-sharp" /></template>
+<style>
+.sxkp84bng {
+  fill: currentColor;
+  d: path("M16 15q1.25 0 2.125-.875T19 12t-.875-2.125T16 9t-2.125.875T13 12q0 .275.038.513t.137.487h-2.35q.1-.25.138-.488T11 12q0-1.25-.875-2.125T8 9t-2.125.875T5 12t.875 2.125T8 15zm-8.712-2.287Q7 12.425 7 12t.288-.712T8 11t.713.288T9 12t-.288.713T8 13t-.712-.288m8 0Q15 12.426 15 12t.288-.712T16 11t.713.288T17 12t-.288.713T16 13t-.712-.288M2 20V4h20v16z");
+}
+
+</style>

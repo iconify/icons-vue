@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="ywjl9-bqx"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:luggage-rounded" /></template>
+<style>
+.ywjl9-bqx {
+  fill: currentColor;
+  d: path("M7 21q-.825 0-1.412-.587T5 19V8q0-.825.588-1.412T7 6h2V4q0-.825.588-1.412T11 2h2q.825 0 1.413.588T15 4v2h2q.825 0 1.413.588T19 8v11q0 .825-.587 1.413T17 21q0 .425-.288.713T16 22t-.712-.288T15 21H9q0 .425-.288.713T8 22t-.712-.288T7 21M9.288 9.288Q9 9.575 9 10v7q0 .425.288.713T10 18t.713-.288T11 17v-7q0-.425-.288-.712T10 9t-.712.288m4 0Q13 9.575 13 10v7q0 .425.288.713T14 18t.713-.288T15 17v-7q0-.425-.288-.712T14 9t-.712.288M11 6h2V4h-2z");
+}
+
+</style>

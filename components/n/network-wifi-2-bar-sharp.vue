@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="zd44jhbcc"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:network-wifi-2-bar-sharp" /></template>
+<style>
+.zd44jhbcc {
+  fill: currentColor;
+  d: path("M12 21L0 9q2.4-2.45 5.5-3.725T12 4q3.425 0 6.525 1.275T24 9zm-4.525-7.375q.95-.7 2.1-1.088T12 12.15t2.425.388t2.1 1.087L21.1 9.05q-1.95-1.475-4.262-2.262T12 6t-4.837.788T2.9 9.05z");
+}
+
+</style>

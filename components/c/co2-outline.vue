@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="hzeu1272w"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:co2-outline" /></template>
+<style>
+.hzeu1272w {
+  fill: currentColor;
+  d: path("M11 15q-.425 0-.712-.288T10 14v-4q0-.425.288-.712T11 9h3q.425 0 .713.288T15 10v4q0 .425-.288.713T14 15zm.5-1.5h2v-3h-2zM4 15q-.425 0-.712-.288T3 14v-4q0-.425.288-.712T4 9h3q.425 0 .713.288T8 10v1H6.5v-.5h-2v3h2V13H8v1q0 .425-.288.713T7 15zm13 3v-2.5q0-.425.288-.712T18 14.5h2v-1h-3V12h3.5q.425 0 .713.288T21.5 13v1.5q0 .425-.288.713t-.712.287h-2v1h3V18z");
+}
+
+</style>

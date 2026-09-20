@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="o_bb0jb3a"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:flowsheet-outline-rounded" /></template>
+<style>
+.o_bb0jb3a {
+  fill: currentColor;
+  d: path("M4 10v8V6zm10 11q.425 0 .713-.288T15 20t-.288-.712T14 19t-.712.288T13 20t.288.713T14 21m6-10q.425 0 .713-.288T21 10t-.288-.712T20 9t-.712.288T19 10t.288.713T20 11m-10 0q.425 0 .713-.288T11 10t-.288-.712T10 9H7q-.425 0-.712.288T6 10t.288.713T7 11zm0 4q.425 0 .713-.288T11 14t-.288-.712T10 13H7q-.425 0-.712.288T6 14t.288.713T7 15zm-6 5q-.825 0-1.412-.587T2 18V6q0-.825.588-1.412T4 4h17q.425 0 .713.288T22 5t-.288.713T21 6H4v12h4q.425 0 .713.288T9 19t-.288.713T8 20zm7.875 2.125Q11 21.25 11 20q0-.975.563-1.75T13 17.175V15q0-.425.288-.712T14 14h5v-1.175q-.875-.3-1.437-1.075T17 10q0-1.25.875-2.125T20 7t2.125.875T23 10q0 .975-.562 1.75T21 12.825V15q0 .425-.288.713T20 16h-5v1.175q.875.3 1.438 1.075T17 20q0 1.25-.875 2.125T14 23t-2.125-.875");
+}
+
+</style>

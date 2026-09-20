@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="semxr9mmk"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:all-match-outline" /></template>
+<style>
+.semxr9mmk {
+  fill: currentColor;
+  d: path("m2 20l6-8l-6-8h13q.475 0 .9.213t.7.587L22 12l-.125.175q-.675-.45-1.463-.737t-1.637-.388L15 6H6l4.5 6L6 18h5q0 .525.075 1.025T11.3 20zm15.275.25l3.475-3.45l-1.05-1.05l-2.425 2.375l-.975-.975l-1.05 1.075zM18 23q-2.075 0-3.537-1.463T13 18t1.463-3.537T18 13t3.538 1.463T23 18t-1.463 3.538T18 23");
+}
+
+</style>

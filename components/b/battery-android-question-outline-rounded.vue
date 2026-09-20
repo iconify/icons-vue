@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="gcld82bbw"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:battery-android-question-outline-rounded" /></template>
+<style>
+.gcld82bbw {
+  fill: currentColor;
+  d: path("M3 16V8zm1 2q-1.25 0-2.125-.875T1 15V9q0-1.25.875-2.125T4 6h11.025q.5 0 .75.313t.25.687t-.25.688t-.75.312H4q-.425 0-.712.288T3 9v6q0 .425.288.713T4 16h12.425q.5 0 .738.313T17.4 17t-.237.688t-.738.312zm16.713-1.787Q21 15.924 21 15.5t-.288-.712T20 14.5t-.712.288T19 15.5t.288.713t.712.287t.713-.288M20 8.375q.525 0 .913.3t.387.8q0 .425-.25.763t-.55.612q-.5.475-.812.825t-.313 1.075q0 .3.175.5t.475.2q.275 0 .475-.213t.25-.487q.075-.425.388-.738l.587-.587q.425-.425.713-.925t.287-1.075q0-1.05-.812-1.737T20 7q-.75 0-1.4.363t-1.025.987q-.15.25-.038.525t.388.4t.525-.012t.45-.363q.2-.25.487-.387T20 8.375");
+}
+
+</style>

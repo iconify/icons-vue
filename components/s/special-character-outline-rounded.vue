@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="ur_0uibum"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:special-character-outline-rounded" /></template>
+<style>
+.ur_0uibum {
+  fill: currentColor;
+  d: path("M8.1 6.6q-1.6 1.6-1.6 3.9q0 1.575.825 2.9t2.25 2.025q.6.3 1.013.813T11 17.4v2.1q0 .625-.437 1.063T9.5 21h-5q-.625 0-1.062-.437T3 19.5t.438-1.062T4.5 18H8q-2.1-1.125-3.3-3.125T3.5 10.5q0-3.55 2.475-6.025T12 2t6.025 2.475T20.5 10.5q0 2.375-1.2 4.375T16 18h3.5q.625 0 1.063.438T21 19.5t-.437 1.063T19.5 21h-5q-.625 0-1.062-.437T13 19.5v-2.1q0-.65.413-1.162t1.012-.813q1.425-.7 2.25-2.025t.825-2.9q0-2.3-1.6-3.9T12 5T8.1 6.6");
+}
+
+</style>

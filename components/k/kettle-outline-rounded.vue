@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="dh8fg71wv"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:kettle-outline-rounded" /></template>
+<style>
+.dh8fg71wv {
+  fill: currentColor;
+  d: path("M6 17V6L4.2 3.6q-.375-.5-.1-1.05T5 2h10.775q.925 0 1.575.65T18 4.225V5h2q.825 0 1.413.588T22 7v5q0 .825-.587 1.413T20 14h-2v3q0 .825-.587 1.413T16 19H8q-.825 0-1.412-.587T6 17m2 0h8V4H7l1 1.3zm10-5h2V7h-2zm-5.562-6.562Q12 5.875 12 6.5v8q0 .625.438 1.063T13.5 16t1.063-.437T15 14.5v-8q0-.625-.437-1.062T13.5 5t-1.062.438M4 22q-.425 0-.712-.288T3 21t.288-.712T4 20h16q.425 0 .713.288T21 21t-.288.713T20 22zm7.5-11.5");
+}
+
+</style>

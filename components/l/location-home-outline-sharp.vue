@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="x4myk4b0j"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:location-home-outline-sharp" /></template>
+<style>
+.x4myk4b0j {
+  fill: currentColor;
+  d: path("m12 3l8 6v12H4V9zm2.125 11.125Q15 13.25 15 12t-.875-2.125T12 9t-2.125.875T9 12t.875 2.125T12 15t2.125-.875m-2.838-1.412Q11 12.425 11 12t.288-.712T12 11t.713.288T13 12t-.288.713T12 13t-.712-.288M12 18q-1.025 0-2 .25T8.15 19h7.7q-.875-.5-1.85-.75T12 18m-6-8v8q1.3-.975 2.825-1.487T12 16t3.175.513T18 18v-8l-6-4.5zm6 2");
+}
+
+</style>

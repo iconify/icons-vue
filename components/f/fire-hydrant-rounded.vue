@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="mci70-b7k"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:fire-hydrant-rounded" /></template>
+<style>
+.mci70-b7k {
+  fill: currentColor;
+  d: path("M6 20v-3H5q-.825 0-1.412-.587T3 15v-2q0-.825.588-1.412T5 11h1V8H5q-.425 0-.712-.288T4 7t.288-.712T5 6h1.35q.625-1.75 2.163-2.875T12 2t3.488 1.125T17.65 6H19q.425 0 .713.288T20 7t-.288.713T19 8h-1v3h1q.825 0 1.413.588T21 13v2q0 .825-.587 1.413T19 17h-1v3h1q.425 0 .713.288T20 21t-.288.713T19 22H5q-.425 0-.712-.288T4 21t.288-.712T5 20zm8.475-3.525Q15.5 15.45 15.5 14t-1.025-2.475T12 10.5t-2.475 1.025T8.5 14t1.025 2.475T12 17.5t2.475-1.025m-3.537-1.412Q10.5 14.625 10.5 14t.438-1.062T12 12.5t1.063.438T13.5 14t-.437 1.063T12 15.5t-1.062-.437");
+}
+
+</style>

@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="v24qabcli"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:rowing-sharp" /></template>
+<style>
+.v24qabcli {
+  fill: currentColor;
+  d: path("m18 24l-3-3v-1.5l-7.1-7.1q-.225.05-.45.075T7 12.5v-2.2q1.25.05 2.55-.537t2.1-1.463l1.4-1.55q.325-.375.763-.562T14.75 6q.95 0 1.6.65t.65 1.6V14q0 .65-.238 1.188t-.662.962l-3.6-3.55v-2.3q-.5.425-1.075.775T10.2 11.7l6.3 6.3H18l3 3zM5.5 20.5L4 19l4.5-4.5L11 17H9zm8.088-16.088Q13 3.825 13 3t.588-1.412T15 1t1.413.588T17 3t-.587 1.413T15 5t-1.412-.587");
+}
+
+</style>

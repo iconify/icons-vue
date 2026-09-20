@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="py4dunb4e"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:multicooker-outline-rounded" /></template>
+<style>
+.py4dunb4e {
+  fill: currentColor;
+  d: path("M8 5V4q0-.825.588-1.412T10 2h4q.825 0 1.413.588T16 4v1h3q.825 0 1.413.588T21 7v12q0 .825-.587 1.413T19 21H5q-.825 0-1.412-.587T3 19V7q0-.825.588-1.412T5 5zM5 19h14v-9h-2v2q0 .825-.587 1.413T15 14H9q-.825 0-1.412-.587T7 12v-2H5zm2.288-1.287Q7 17.425 7 17t.288-.712T8 16t.713.288T9 17t-.288.713T8 18t-.712-.288m4 0Q11 17.426 11 17t.288-.712T12 16t.713.288T13 17t-.288.713T12 18t-.712-.288m4 0Q15 17.426 15 17t.288-.712T16 16t.713.288T17 17t-.288.713T16 18t-.712-.288M9 12h6v-2H9zM5 8h14V7H5zm5-3h4V4h-4z");
+}
+
+</style>

@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="lwsw0cbxj"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:sports-rounded" /></template>
+<style>
+.lwsw0cbxj {
+  fill: currentColor;
+  d: path("M11 19q-2.5 0-4.25-1.75T5 13q0-.275.025-.55t.075-.55q-.125.05-.3.075T4.5 12q-1.05 0-1.775-.725T2 9.5t.688-1.775T4.425 7q.825 0 1.488.462T6.85 8.65q.825-.75 1.888-1.2T11 7h10q.425 0 .713.288T22 8v2q0 .425-.288.713T21 11h-4v2q0 2.5-1.75 4.25T11 19m-5.787-8.787Q5.5 9.925 5.5 9.5t-.288-.712T4.5 8.5t-.712.288T3.5 9.5t.288.713t.712.287t.713-.288m7.2 4.2Q13 13.826 13 13t-.587-1.412T11 11t-1.412.588T9 13t.588 1.413T11 15t1.413-.587");
+}
+
+</style>

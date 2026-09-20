@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="p7j8ei-iv"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:car-fan-low-right" /></template>
+<style>
+.p7j8ei-iv {
+  fill: currentColor;
+  d: path("M10.725 23L9 22l3.45-6q.275-.475.738-.737T14.2 15h2.3l1.45-5.025q.25-.875.925-1.425T20.4 8q1.2 0 1.963.912t.537 2.113L21.825 16.4q-.125.7-.687 1.15T19.85 18h-6.225zM21 7q-.825 0-1.412-.587T19 5t.588-1.412T21 3t1.413.588T23 5t-.587 1.413T21 7M7 12L2 7l1.4-1.425l2.6 2.6V2h2v6.175L10.6 5.6L12 7z");
+}
+
+</style>

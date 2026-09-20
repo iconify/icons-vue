@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="yzzj411bg"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:insert-page-break-rounded" /></template>
+<style>
+.yzzj411bg {
+  fill: currentColor;
+  d: path("M6 22q-.825 0-1.412-.587T4 20v-2q0-.425.288-.712T5 17h14q.425 0 .713.288T20 18v2q0 .825-.587 1.413T18 22zm7-18v4q0 .425.288.713T14 9h4zM4 4q0-.825.588-1.412T6 2h7.175q.4 0 .763.15t.637.425l4.85 4.85q.275.275.425.638t.15.762V10q0 .425-.288.713T19 11H5q-.425 0-.712-.288T4 10zm6 11q-.425 0-.712-.288T9 14t.288-.712T10 13h4q.425 0 .713.288T15 14t-.288.713T14 15zm8 0q-.425 0-.712-.288T17 14t.288-.712T18 13h4q.425 0 .713.288T23 14t-.288.713T22 15zM2 15q-.425 0-.712-.288T1 14t.288-.712T2 13h4q.425 0 .713.288T7 14t-.288.713T6 15z");
+}
+
+</style>

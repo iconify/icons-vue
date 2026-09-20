@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="aajuvtb4d"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:table-large" /></template>
+<style>
+.aajuvtb4d {
+  fill: currentColor;
+  d: path("M5 22q1.25 0 2.125-.875T8 19v-1H6v1q0 .425-.288.713T5 20t-.712-.288T4 19v-1H2v1q0 1.25.875 2.125T5 22m7 0q1.25 0 2.125-.875T15 19v-1h-2v1q0 .425-.288.713T12 20t-.712-.288T11 19v-1H9v1q0 1.25.875 2.125T12 22m7 0q1.25 0 2.125-.875T22 19v-1h-2v1q0 .425-.288.713T19 20t-.712-.288T18 19v-1h-2v1q0 1.25.875 2.125T19 22M2 16V8h20v8zM5 2q1.25 0 2.125.875T8 5v1H6V5q0-.425-.288-.712T5 4t-.712.288T4 5v1H2V5q0-1.25.875-2.125T5 2m7 0q1.25 0 2.125.875T15 5v1h-2V5q0-.425-.288-.712T12 4t-.712.288T11 5v1H9V5q0-1.25.875-2.125T12 2m7 0q1.25 0 2.125.875T22 5v1h-2V5q0-.425-.288-.712T19 4t-.712.288T18 5v1h-2V5q0-1.25.875-2.125T19 2");
+}
+
+</style>

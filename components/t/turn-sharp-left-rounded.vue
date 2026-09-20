@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="wei1lob3a"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:turn-sharp-left-rounded" /></template>
+<style>
+.wei1lob3a {
+  fill: currentColor;
+  d: path("M16 20v-5H8q-.825 0-1.412-.587T6 13V6.8l-.9.9q-.275.275-.7.275T3.7 7.7T3.425 7t.275-.7l2.6-2.6q.3-.3.7-.3t.7.3l2.6 2.6q.275.275.275.7t-.275.7t-.7.275t-.7-.275L8 6.8V13h8q.825 0 1.413.588T18 15v5q0 .425-.288.713T17 21t-.712-.288T16 20");
+}
+
+</style>

@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="otm5w8g0d"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:wall-art-rounded" /></template>
+<style>
+.otm5w8g0d {
+  fill: currentColor;
+  d: path("M4 22q-.825 0-1.412-.587T2 20V8q0-.825.588-1.412T4 6h4l3.3-3.3q.3-.3.7-.3t.7.3L16 6h4q.825 0 1.413.588T22 8v12q0 .825-.587 1.413T20 22zm7.25-5L9.4 14.525q-.15-.2-.4-.2t-.4.2l-2 2.675q-.2.25-.05.525T7 18h10q.3 0 .45-.275t-.05-.525l-2.75-3.675q-.15-.2-.4-.2t-.4.2zm7.313-4.437Q19 12.125 19 11.5t-.437-1.062T17.5 10t-1.062.438T16 11.5t.438 1.063T17.5 13t1.063-.437M10.1 6h3.8L12 4.1z");
+}
+
+</style>

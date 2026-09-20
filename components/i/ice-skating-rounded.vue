@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="dhhf0xcik"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:ice-skating-rounded" /></template>
+<style>
+.dhhf0xcik {
+  fill: currentColor;
+  d: path("M3 22q-.425 0-.712-.288T2 21t.288-.712T3 20h3v-2H5q-.825 0-1.412-.587T3 16V5q0-.825.588-1.412T5 3h4q.825 0 1.413.588T11 5v1H8.5q-.2 0-.35.15T8 6.5t.15.35t.35.15h2.55v1H8.5q-.2 0-.35.15T8 8.5t.15.35t.35.15h2.9q.35.575.888.975t1.187.6l2.625.725q1.3.35 2.1 1.412t.8 2.413V16q0 .825-.587 1.412T17 18h-1v2h2q1.25 0 2.125-.875T21 17q0-.425.288-.712T22 16t.713.288T23 17q0 2.075-1.463 3.538T18 22zm5-2h6v-2H8z");
+}
+
+</style>

@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="nipxo6vdm"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:y-circle-rounded" /></template>
+<style>
+.nipxo6vdm {
+  fill: currentColor;
+  d: path("M11.2 13.4v3.775q0 .35.238.588t.587.237t.588-.238t.237-.587v-3.8L15.725 8.7q.2-.35.1-.638t-.375-.437t-.575-.112t-.5.387L12 11.85L9.7 7.9q-.2-.35-.525-.4t-.6.125t-.387.475t.112.65zm-3.1 7.813q-1.825-.788-3.175-2.138T2.788 15.9T2 12t.788-3.9t2.137-3.175T8.1 2.788T12 2t3.9.788t3.175 2.137T21.213 8.1T22 12t-.788 3.9t-2.137 3.175t-3.175 2.138T12 22t-3.9-.788");
+}
+
+</style>

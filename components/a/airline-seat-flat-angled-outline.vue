@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="rm4l94mbe"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:airline-seat-flat-angled-outline" /></template>
+<style>
+.rm4l94mbe {
+  fill: currentColor;
+  d: path("m9.05 12.725l2.4-6.575l8.45 3.075q1.575.575 2.275 2.063t.125 3.062l-1.025 2.825zm3.6-4q-.2.5-.363.938t-.337.937l-.325.925zM1.45 13.15l.675-1.875l18.8 6.85L20.25 20zm2.75-2.475Q3.325 9.8 3.325 8.55T4.2 6.425t2.125-.875t2.125.875t.875 2.125t-.875 2.125t-2.125.875t-2.125-.875m2.838-1.412q.287-.288.287-.713t-.288-.712t-.712-.288t-.712.288t-.288.712t.288.713t.712.287t.713-.288m4.587 2.263l8.45 3.1l.35-.95q.275-.8-.062-1.55T19.225 11.1L12.65 8.725zm-5.3-2.95");
+}
+
+</style>

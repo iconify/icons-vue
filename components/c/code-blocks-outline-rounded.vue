@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="k9lpe62ml"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:code-blocks-outline-rounded" /></template>
+<style>
+.k9lpe62ml {
+  fill: currentColor;
+  d: path("m8.825 12l1.475-1.475q.3-.3.3-.7t-.3-.7t-.712-.3t-.713.3L6.7 11.3q-.15.15-.213.325T6.425 12t.062.375t.213.325l2.175 2.175q.3.3.713.3t.712-.3t.3-.7t-.3-.7zm6.35 0L13.7 13.475q-.3.3-.3.7t.3.7t.713.3t.712-.3L17.3 12.7q.15-.15.213-.325t.062-.375t-.062-.375t-.213-.325l-2.175-2.175q-.15-.15-.337-.225t-.376-.075t-.375.075t-.337.225q-.3.3-.3.7t.3.7zM5 21q-.825 0-1.412-.587T3 19V5q0-.825.588-1.412T5 3h14q.825 0 1.413.588T21 5v14q0 .825-.587 1.413T19 21zm0-2h14V5H5zM5 5v14z");
+}
+
+</style>

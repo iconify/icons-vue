@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="n5uqjjbzp"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:light-group-outline-rounded" /></template>
+<style>
+.n5uqjjbzp {
+  fill: currentColor;
+  d: path("M4 22q-.425 0-.712-.288T3 21t.288-.712T4 20h6q.425 0 .713.288T11 21t-.288.713T10 22zm13-1q-.825 0-1.412-.587T15 19h-3q-.425 0-.712-.275t-.288-.7q-.05-2.25 1.4-3.912T16 12.1V3q0-.425.288-.712T17 2t.713.288T18 3v9.1q2.175.35 3.613 2.013T23 18.025q0 .425-.288.7T22 19h-3q0 .825-.575 1.413T17 21M6.288 18.713Q6 18.425 6 18v-7H2q-.5 0-.8-.387t-.175-.863l1.875-7q.1-.325.363-.537T3.875 2h6.25q.35 0 .613.213t.362.537l1.875 7q.125.475-.175.863T12 11H8v7q0 .425-.288.713T7 19t-.712-.288M13.1 17h7.8q-.3-1.35-1.4-2.175T17 14q-1.375 0-2.475.825T13.1 17M3.3 9h7.4L9.375 4H4.65zM17 15.5");
+}
+
+</style>

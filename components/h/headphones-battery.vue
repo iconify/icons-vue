@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="pg19cxf1u"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:headphones-battery" /></template>
+<style>
+.pg19cxf1u {
+  fill: currentColor;
+  d: path("M6 18H4q-.825 0-1.412-.587T2 16v-4q0-2.5 1.75-4.25T8 6t4.25 1.75T14 12v4q0 .825-.587 1.413T12 18h-2v-5h2.5v-1q0-1.875-1.312-3.187T8 7.5T4.813 8.813T3.5 12v1H6zM18 7V6h2v1h1q.425 0 .713.288T22 8v9q0 .425-.288.713T21 18h-4q-.425 0-.712-.288T16 17V8q0-.425.288-.712T17 7z");
+}
+
+</style>

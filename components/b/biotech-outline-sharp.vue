@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="wlpupnk6j"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:biotech-outline-sharp" /></template>
+<style>
+.wlpupnk6j {
+  fill: currentColor;
+  d: path("M5 21v-2h5v-2q-2.075 0-3.537-1.463T5 12q0-1.525.838-2.775T8.1 7.4q.2-.85.888-1.375T10.55 5.5L10 3.95l.95-.35l-.35-.9l1.9-.7l.3.95l.95-.35l2.75 7.5l-.95.35l.35.95l-1.9.7l-.3-.95l-.95.35l-.6-1.65q-.375.35-.862.525t-.988.125q-.55-.05-1.025-.338T8.45 9.45q-.675.4-1.062 1.075T7 12q0 1.25.875 2.125T10 15h8v2h-5v2h6v2zm8.65-11.45l.9-.35l-1.7-4.7l-.95.35zm-2.437-.838Q11.5 8.425 11.5 8t-.288-.712T10.5 7t-.712.288T9.5 8t.288.713T10.5 9t.713-.288M10.5 8");
+}
+
+</style>

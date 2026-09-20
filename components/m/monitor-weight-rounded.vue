@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="j4j3h8nav"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:monitor-weight-rounded" /></template>
+<style>
+.j4j3h8nav {
+  fill: currentColor;
+  d: path("M12 12q1.25 0 2.125-.875T15 9t-.875-2.125T12 6t-2.125.875T9 9t.875 2.125T12 12m-1.85-2.65Q10 9.2 10 9t.15-.35t.35-.15t.35.15T11 9t-.15.35t-.35.15t-.35-.15m1.5 0Q11.5 9.2 11.5 9t.15-.35t.35-.15t.35.15t.15.35t-.15.35t-.35.15t-.35-.15m1.5 0Q13 9.2 13 9t.15-.35t.35-.15t.35.15T14 9t-.15.35t-.35.15t-.35-.15M5 21q-.825 0-1.412-.587T3 19V5q0-.825.588-1.412T5 3h14q.825 0 1.413.588T21 5v14q0 .825-.587 1.413T19 21z");
+}
+
+</style>

@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="scu6znlgt"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:shield-card-rounded" /></template>
+<style>
+.scu6znlgt {
+  fill: currentColor;
+  d: path("M13 22q-.825 0-1.412-.587T11 20v-5q0-.825.588-1.412T13 13h8q.825 0 1.413.588T23 15v5q0 .825-.587 1.413T21 22zm0-2h8v-2h-8zm0-4h8v-1h-8zm-9-4.9V6.375q0-.625.363-1.125t.937-.725l6.25-2.35q.2-.075.45-.075t.45.075l6.25 2.35q.575.225.938.725T20 6.375V10q0 .425-.288.713T19 11h-6q-1.65 0-2.825 1.175T9 15v3.575q.025.65-.55.913t-1.05-.163Q5.825 17.75 4.912 15.6T4 11.1");
+}
+
+</style>

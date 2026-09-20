@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="p3j540vqo"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:key-vertical-rounded" /></template>
+<style>
+.p3j540vqo {
+  fill: currentColor;
+  d: path("M14.125 9.125Q15 8.25 15 7t-.875-2.125T12 4t-2.125.875T9 7t.875 2.125T12 10t2.125-.875M11.65 22.563q-.175-.063-.325-.188l-2.575-2.25q-.15-.125-.238-.288t-.112-.362t.038-.387t.187-.338L10 17l-1.3-1.3q-.15-.15-.213-.325T8.426 15t.062-.375t.213-.325L10 13v-.35q-1.8-.625-2.9-2.175T6 7q0-2.5 1.75-4.25T12 1t4.25 1.75T18 7q0 2.025-1.15 3.538T14 12.65v7.95q0 .2-.075.388t-.225.337l-1.025 1.025q-.125.125-.288.2t-.362.075t-.375-.063");
+}
+
+</style>

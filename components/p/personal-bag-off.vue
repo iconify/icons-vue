@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="f6x5boblh"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:personal-bag-off" /></template>
+<style>
+.f6x5boblh {
+  fill: currentColor;
+  d: path("M12 2q1.275 0 2.138.938T15 5.15v.55q1.775.825 2.888 2.5T19 12v4.15l-10-10V5q0-1.25.875-2.125T12 2m-.712 2.288Q11 4.575 11 5v.1q.275-.05.5-.075T12 5t.5.025t.5.075V5q0-.425-.288-.712T12 4t-.712.288M19.8 22.6L16.175 19H19v1q0 .825-.587 1.413T17 22H7q-.825 0-1.412-.587T5 20v-8q0-.9.213-1.737T5.85 8.7L1.4 4.2l1.4-1.4l18.4 18.4zM9.15 12H8v2h3.15z");
+}
+
+</style>

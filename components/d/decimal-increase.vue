@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="ga5sw2b8l"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:decimal-increase" /></template>
+<style>
+.ga5sw2b8l {
+  fill: currentColor;
+  d: path("m18 22l-1.4-1.4l1.575-1.6H12v-2h6.175L16.6 15.4L18 14l4 4zM2 13v-3h3v3zm5.025-1.025Q6 10.95 6 9.5v-4q0-1.45 1.025-2.475T9.5 2t2.475 1.025T13 5.5v4q0 1.45-1.025 2.475T9.5 13t-2.475-1.025m9 0Q15 10.95 15 9.5v-4q0-1.45 1.025-2.475T18.5 2t2.475 1.025T22 5.5v4q0 1.45-1.025 2.475T18.5 13t-2.475-1.025m-5.462-1.412Q11 10.125 11 9.5v-4q0-.625-.437-1.062T9.5 4t-1.062.438T8 5.5v4q0 .625.438 1.063T9.5 11t1.063-.437m9 0Q20 10.125 20 9.5v-4q0-.625-.437-1.062T18.5 4t-1.062.438T17 5.5v4q0 .625.438 1.063T18.5 11t1.063-.437");
+}
+
+</style>

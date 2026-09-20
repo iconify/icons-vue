@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="e4_dcobmi"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:nest-hello-doorbell-outline-sharp" /></template>
+<style>
+.e4_dcobmi {
+  fill: currentColor;
+  d: path("M8.463 20.538Q7 19.075 7 17V7q0-2.075 1.463-3.537T12 2t3.538 1.463T17 7v10q0 2.075-1.463 3.538T12 22t-3.537-1.463m5.662-1.412Q15 18.25 15 17V7q0-1.25-.875-2.125T12 4t-2.125.875T9 7v10q0 1.25.875 2.125T12 20t2.125-.875m-.712-9.712Q14 8.825 14 8t-.587-1.412T12 6t-1.412.588T10 8t.588 1.413T12 10t1.413-.587m0 8Q14 16.825 14 16t-.587-1.412T12 14t-1.412.588T10 16t.588 1.413T12 18t1.413-.587m-2.126-.7Q11 16.425 11 16t.288-.712T12 15t.713.288T13 16t-.288.713T12 17t-.712-.288");
+}
+
+</style>

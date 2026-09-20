@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="kfbg_zzih"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:folder-eye-outline-sharp" /></template>
+<style>
+.kfbg_zzih {
+  fill: currentColor;
+  d: path("M2 20V4h8l2 2h10v8.05q-.45-.35-.95-.575T20 13V8h-8.825l-2-2H4v12h3v2zm14 3q-2.275 0-4.2-1.2T9 18.5q.875-2.1 2.8-3.3T16 14t4.2 1.2t2.8 3.3q-.875 2.1-2.8 3.3T16 23m2.688-2.65q1.262-.65 2.062-1.85q-.8-1.2-2.062-1.85T16 16t-2.687.65t-2.063 1.85q.8 1.2 2.063 1.85T16 21t2.688-.65m-3.75-.788q-.438-.437-.438-1.062t.438-1.062T16 17t1.063.438t.437 1.062t-.437 1.063T16 20t-1.062-.437M4 18V6v6.925V12z");
+}
+
+</style>

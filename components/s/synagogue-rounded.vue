@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="lx659n1ob"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:synagogue-rounded" /></template>
+<style>
+.lx659n1ob {
+  fill: currentColor;
+  d: path("M19 8V7q0-.825.588-1.412T21 5t1.413.588T23 7v1zM1 8V7q0-.825.588-1.412T3 5t1.413.588T5 7v1zm0 11V9h4v12H3q-.825 0-1.412-.587T1 19m5 2V8l4.725-3.925q.275-.225.6-.35T12 3.6t.675.125t.6.35L18 8v13h-3q-.425 0-.712-.288T14 20v-4q0-.825-.587-1.412T12 14t-1.412.588T10 16v4q0 .425-.288.713T9 21zm13 0V9h4v10q0 .825-.587 1.413T21 21zm-5.937-9.937q.437-.438.437-1.063t-.437-1.062T12 8.5t-1.062.438T10.5 10t.438 1.063T12 11.5t1.063-.437");
+}
+
+</style>

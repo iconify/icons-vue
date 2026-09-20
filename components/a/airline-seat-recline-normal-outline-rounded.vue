@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="ps96kebrr"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:airline-seat-recline-normal-outline-rounded" /></template>
+<style>
+.ps96kebrr {
+  fill: currentColor;
+  d: path("M14 20H8q-.825 0-1.412-.587T6 18V8q0-.425.288-.712T7 7t.713.288T8 8v10h6q.425 0 .713.288T15 19t-.288.713T14 20M11.5 6q-.825 0-1.412-.587T9.5 4t.588-1.412T11.5 2t1.413.588T13.5 4t-.587 1.413T11.5 6M16 21v-4h-5q-.825 0-1.412-.587T9 15V9.5q0-1.05.725-1.775T11.5 7t1.775.725T14 9.5V14h2q.825 0 1.413.588T18 16v5q0 .425-.288.713T17 22t-.712-.288T16 21");
+}
+
+</style>

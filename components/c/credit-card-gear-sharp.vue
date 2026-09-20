@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="ka-g0q_nt"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:credit-card-gear-sharp" /></template>
+<style>
+.ka-g0q_nt {
+  fill: currentColor;
+  d: path("m16.9 22l-.3-1.5q-.3-.125-.562-.262T15.5 19.9l-1.45.45l-1-1.7l1.15-1q-.05-.325-.05-.65t.05-.65l-1.15-1l1-1.7l1.45.45q.275-.2.538-.337t.562-.263l.3-1.5h2l.3 1.5q.3.125.563.263t.537.337l1.45-.45l1 1.7l-1.15 1q.05.325.05.65t-.05.65l1.15 1l-1 1.7l-1.45-.45q-.275.2-.537.338t-.563.262l-.3 1.5zm2.413-3.588q.587-.587.587-1.412t-.587-1.412T17.9 15t-1.412.588T15.9 17t.588 1.413T17.9 19t1.413-.587M2 20V4h20v7.325q-.45-.325-.95-.575T20 10.325V8H4v4h9q-.975.95-1.537 2.238T10.9 17q0 .8.175 1.563t.5 1.437z");
+}
+
+</style>

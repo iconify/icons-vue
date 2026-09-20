@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="b-58jgbgn"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:car-fan-mid-left-outline" /></template>
+<style>
+.b-58jgbgn {
+  fill: currentColor;
+  d: path("m13.275 23l-2.9-5H4.15q-.725 0-1.287-.45t-.688-1.15L1.1 11.025q-.225-1.2.538-2.113T3.6 8q.85 0 1.525.55t.925 1.425L7.5 15h2.3q.55 0 1.013.263t.737.737L15 22zM3 7q-.825 0-1.412-.587T1 5t.588-1.412T3 3t1.413.588T5 5t-.587 1.413T3 7m14 5l-5-5l5-5l1.425 1.4l-2.6 2.6H22v2h-6.175l2.575 2.6z");
+}
+
+</style>

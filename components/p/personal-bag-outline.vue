@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="o3r-gacal"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:personal-bag-outline" /></template>
+<style>
+.o3r-gacal {
+  fill: currentColor;
+  d: path("M7 22q-.825 0-1.412-.587T5 20v-8q0-2.125 1.113-3.8T9 5.7V5q0-1.25.875-2.125T12 2t2.125.875T15 5v.7q1.775.825 2.888 2.5T19 12v8q0 .825-.587 1.413T17 22zm0-2h10v-8q0-2.075-1.463-3.537T12 7T8.463 8.463T7 12zm8.713-4.288Q16 15.425 16 15v-3H8v2h6v1q0 .425.288.713T15 16t.713-.288M11 5.1q.275-.05.5-.075T12 5t.5.025t.5.075V5q0-.425-.288-.712T12 4t-.712.288T11 5zM7 20h10z");
+}
+
+</style>

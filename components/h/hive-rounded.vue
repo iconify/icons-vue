@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="ntrna5bls"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:hive-rounded" /></template>
+<style>
+.ntrna5bls {
+  fill: currentColor;
+  d: path("M16.275 11.5h3.35l1.15-2.025q.275-.45.275-.975t-.275-.975l-.575-1q-.275-.475-.737-.75T18.45 5.5h-2.175l-1.7 3zm-5.95 3.5h3.35l1.7-3l-1.7-3h-3.35l-1.7 3zm0-7h3.35l1.7-3l-1.125-1.975q-.275-.475-.737-.75T12.5 2h-1q-.55 0-1.012.275t-.738.75L8.625 5zm-.975.5l-1.625-3H5.55q-.55 0-1.012.275t-.738.75l-.575 1q-.275.45-.275.975t.275.975l1.15 2.025h3.35zm0 7l-1.625-3h-3.35l-1.15 2.025q-.275.45-.275.975t.275.975l.575 1q.275.475.738.75t1.012.275h2.175zm.975.5l-1.7 3l1.225 2.025q.275.45.725.713t.975.262h.95q.55 0 1.012-.275t.738-.75L15.375 19l-1.7-3zm5.95 2.5h2.175q.55 0 1.013-.275t.737-.75l.575-1q.275-.45.275-.975t-.275-.975l-1.15-2.025h-3.35l-1.7 3z");
+}
+
+</style>

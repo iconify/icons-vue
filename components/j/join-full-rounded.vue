@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="zl8p-g26k"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:join-full-rounded" /></template>
+<style>
+.zl8p-g26k {
+  fill: currentColor;
+  d: path("M12 17.45q-.2 0-.363-.063t-.312-.187q-1.075-.95-1.7-2.363T9 12q0-1.425.625-2.838T11.3 6.8q.15-.125.325-.2T12 6.525q.2 0 .363.075t.312.2q1.075.95 1.7 2.362T15 12q0 1.425-.625 2.838T12.7 17.2q-.125.125-.312.188T12 17.45ZM16 19q-.675 0-1.313-.125T13.45 18.5q1.4-.925 2.225-2.9T16.5 12q0-1.625-.825-3.6T13.45 5.5q.6-.25 1.238-.375T16 5q2.925 0 4.963 2.038T23 12q0 2.925-2.038 4.963T16 19Zm-8 0q-2.925 0-4.963-2.038T1 12q0-2.925 2.038-4.963T8 5q.675 0 1.313.125t1.237.375q-1.4.925-2.225 2.9T7.5 12q0 1.625.825 3.6t2.225 2.9q-.6.25-1.238.375T8 19Z");
+}
+
+</style>

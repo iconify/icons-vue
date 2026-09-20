@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="m-l3p6bis"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:deck-rounded" /></template>
+<style>
+.m-l3p6bis {
+  fill: currentColor;
+  d: path("M11 21V9H3.575Q3.2 9 3.1 8.65t.2-.55l8.125-5.7q.275-.2.575-.2t.575.2L20.7 8.1q.3.2.2.55t-.475.35H13v12q0 .425-.288.713T12 22t-.712-.288T11 21m-8 0v-4.25l-.625-3.425q-.075-.425.15-.75t.65-.4q.4-.075.738.163t.412.637L4.9 16H8q.425 0 .713.288T9 17v4q0 .425-.288.713T8 22t-.712-.288T7 21v-3H5v3q0 .425-.288.713T4 22t-.712-.288T3 21m12 0v-4q0-.425.288-.712T16 16h3.1l.575-3.025q.075-.4.4-.638t.75-.162t.65.4t.15.75L21 16.75V21q0 .425-.288.713T20 22t-.712-.288T19 21v-3h-2v3q0 .425-.288.713T16 22t-.712-.288T15 21");
+}
+
+</style>

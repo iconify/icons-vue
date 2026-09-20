@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="jlo-qfbja"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:clock-arrow-up-outline" /></template>
+<style>
+.jlo-qfbja {
+  fill: currentColor;
+  d: path("M3.188 17.313Q1 15.125 1 12t2.188-5.312T8.5 4.5t5.313 2.188T16 12t-2.187 5.313T8.5 19.5t-5.312-2.187M18.5 20V7.8l-1.1 1.1L16 7.5L19.5 4L23 7.5l-1.425 1.4L20.5 7.825V20zm-6.1-4.1Q14 14.3 14 12t-1.6-3.9t-3.9-1.6t-3.9 1.6T3 12t1.6 3.9t3.9 1.6t3.9-1.6m-1.9-.4l1.4-1.4l-2.4-2.425V8h-2v4.5zm-2-3.5");
+}
+
+</style>

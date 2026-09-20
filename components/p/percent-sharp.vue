@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="h4upgcmcv"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:percent-sharp" /></template>
+<style>
+.h4upgcmcv {
+  fill: currentColor;
+  d: path("M7.5 11q-1.45 0-2.475-1.025T4 7.5t1.025-2.475T7.5 4t2.475 1.025T11 7.5T9.975 9.975T7.5 11m0-2q.625 0 1.063-.437T9 7.5t-.437-1.062T7.5 6t-1.062.438T6 7.5t.438 1.063T7.5 9m9 11q-1.45 0-2.475-1.025T13 16.5t1.025-2.475T16.5 13t2.475 1.025T20 16.5t-1.025 2.475T16.5 20m1.063-2.437Q18 17.125 18 16.5t-.437-1.062T16.5 15t-1.062.438T15 16.5t.438 1.063T16.5 18t1.063-.437M5.4 20L4 18.6L18.6 4L20 5.4z");
+}
+
+</style>

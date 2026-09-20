@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="a96dj_b4r"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:mosque" /></template>
+<style>
+.a96dj_b4r {
+  fill: currentColor;
+  d: path("M6.95 8.05q-.525 0-.737-.213T6 7.1q0-1 .475-1.85t1.275-1.4L12 1l4.25 2.85q.8.55 1.275 1.4T18 7.1q0 .525-.213.738t-.737.212zM1 21V8.725Q.55 8.45.275 8.013T0 7t.6-1.4T2 4q.8.775 1.4 1.6T4 7t-.275 1.013T3 8.724V13h2v-2q0-.625.4-1.2t1.15-.75h10.9q.75.175 1.15.75T19 11v2h2V8.725q-.45-.275-.725-.712T20 7t.6-1.4T22 4q.8.775 1.4 1.6T24 7t-.275 1.013t-.725.712V21h-9v-4q0-.825-.587-1.412T12 15t-1.412.588T10 17v4z");
+}
+
+</style>

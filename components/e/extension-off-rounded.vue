@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="xdxx88blc"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:extension-off-rounded" /></template>
+<style>
+.xdxx88blc {
+  fill: currentColor;
+  d: path("M20 17.15L6.85 4h1.2q.175-1.275 1.15-2.137T11.5 1q1.3 0 2.275.863T14.95 4H18q.825 0 1.413.588T20 6v3.35q.9.45 1.45 1.3T22 12.5q0 1.025-.55 1.875T20 15.65zM5 21q-.85 0-1.425-.575T3 19v-3.125q0-.275.2-.488t.475-.262q.975-.2 1.65-.913T6 12.5q0-.975-.675-1.675T3.675 9.9Q3.4 9.825 3.2 9.612T3 9.125V4l17 17zm16.2 1.6q-.3.3-.712.3t-.713-.3L1.375 4.225q-.3-.3-.3-.712t.3-.713t.713-.3t.712.3l18.4 18.4q.3.3.3.7t-.3.7");
+}
+
+</style>

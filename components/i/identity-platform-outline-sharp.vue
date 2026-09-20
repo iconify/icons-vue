@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="z01dogcis"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:identity-platform-outline-sharp" /></template>
+<style>
+.z01dogcis {
+  fill: currentColor;
+  d: path("M9.525 11.975Q8.5 10.95 8.5 9.5t1.025-2.475T12 6t2.475 1.025T15.5 9.5t-1.025 2.475T12 13t-2.475-1.025m3.538-1.412q.437-.438.437-1.063t-.437-1.062T12 8t-1.062.438T10.5 9.5t.438 1.063T12 11t1.063-.437M12 22.5L3 17V7l9-5.5L21 7v10zm0-2.325l3.675-2.275q-.85-.45-1.787-.675T12 17t-1.888.225t-1.787.675zm-5.6-3.45q1.25-.85 2.675-1.287T12 15t2.925.438t2.675 1.287L19 15.9V8.125L12 3.85L5 8.125V15.9zM12 12");
+}
+
+</style>

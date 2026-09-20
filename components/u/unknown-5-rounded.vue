@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="nm88tbc9i"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:unknown-5-rounded" /></template>
+<style>
+.nm88tbc9i {
+  fill: currentColor;
+  d: path("M5 12q-.425 0-.712-.288T4 11t.288-.712T5 10h6q.425 0 .713.288T12 11t-.288.713T11 12zm7-8q-.425 0-.712-.288T11 3t.288-.712T12 2q2.075 0 3.888.788t3.174 2.15t2.15 3.175t.788 3.875t-.787 3.887t-2.15 3.188t-3.175 2.15T12 22q-2 0-3.838-.737T4.9 19.1q-.125-.125-.213-.312T4.6 18.4q0-.425.288-.712T5.6 17.4q.2 0 .388.088t.312.212q1.175 1.1 2.65 1.7T12 20q3.325 0 5.663-2.337T20 12t-2.337-5.663T12 4");
+}
+
+</style>

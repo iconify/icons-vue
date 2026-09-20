@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="xgkgclwbc"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:detector-sharp" /></template>
+<style>
+.xgkgclwbc {
+  fill: currentColor;
+  d: path("M7.788 20.175q-2.013-.825-3.563-2.4L5.65 16.35q1.275 1.275 2.925 1.963t3.45.687t3.438-.675t2.912-1.95l1.4 1.4q-1.575 1.575-3.575 2.4T12 21t-4.212-.825M12 17q-1.4 0-2.675-.525T7.05 14.95l1.4-1.4q.725.725 1.638 1.088T12 15t1.913-.363t1.637-1.087l1.4 1.4q-1 1-2.275 1.525T12 17M8.1 8l.3 1h7.2l.3-1zm-1.15 3L6 8H3V3h18v5h-3l-1.15 3z");
+}
+
+</style>

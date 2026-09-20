@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="fmvkakb5t"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:speed-4" /></template>
+<style>
+.fmvkakb5t {
+  fill: currentColor;
+  d: path("M11.175 15.8q.8.35 1.613.038T13.85 14.7q.725-2.425 1.313-4.85t1.062-4.9q-1.575 1.975-3.062 3.975T10.225 13q-.5.725-.2 1.575t1.15 1.225M5.125 20q-.55 0-1.012-.238t-.738-.712q-.7-1.2-1.05-2.512t-.35-2.688q.025-2 .85-3.787t2.2-3.138T8.2 4.788T12 4q2.075 0 3.888.788t3.174 2.15t2.15 3.175T22 14q0 1.35-.35 2.625t-1 2.425q-.275.475-.75.713t-1 .237z");
+}
+
+</style>

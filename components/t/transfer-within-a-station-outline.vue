@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="osx2oib-h"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:transfer-within-a-station-outline" /></template>
+<style>
+.osx2oib-h {
+  fill: currentColor;
+  d: path("M3 23L5.8 8.9L4 9.6V13H2V8.3l5.05-2.15q.725-.3 1.475-.062T9.7 7l1 1.6q.675 1.075 1.788 1.738T15 11v2q-1.65 0-3.088-.687T9.5 10.5l-.6 3l2.1 2V23H9v-6l-2.1-2l-1.8 8zM8.088 4.912Q7.5 4.325 7.5 3.5t.588-1.412T9.5 1.5t1.413.588T11.5 3.5t-.587 1.413T9.5 5.5t-1.412-.587M19.5 23l-1.05-1.05l.7-.7H14v-1.5h5.15l-.7-.7L19.5 18l2.5 2.5zm-3-4.25l-2.5-2.5l2.5-2.5l1.05 1.05l-.7.7H22V17h-5.15l.7.7z");
+}
+
+</style>

@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="fum6qcbon"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:diagnosis-sharp" /></template>
+<style>
+.fum6qcbon {
+  fill: currentColor;
+  d: path("M8 19h8v-2H8zm0-3h8v-2H8zm4-3.7q1.65-1.5 2.825-2.662T16 7.2q0-.9-.65-1.55T13.8 5q-.525 0-1.013.213T12 5.8q-.3-.375-.788-.587T10.2 5q-.9 0-1.55.65T8 7.2q0 1.275 1.138 2.4T12 12.3M4 22V2h16v20z");
+}
+
+</style>

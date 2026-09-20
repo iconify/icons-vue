@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="jyb6a9wfa"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:approval-delegation-outline-sharp" /></template>
+<style>
+.jyb6a9wfa {
+  fill: currentColor;
+  d: path("M13.925 11.05L9.675 6.8L11.1 5.4l2.825 2.825l5.675-5.65l1.4 1.4zM15 22.5l-7-1.95V22H2V11h7.95L18 14v2h5v4zM4 20h2v-7H4zm10.95.4l5.95-1.85V18h-7.075L10.7 16.95l.6-1.9l2.925.95H16v-.65L9.6 13H8v5.5z");
+}
+
+</style>

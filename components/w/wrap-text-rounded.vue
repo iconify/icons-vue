@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="mtf2gcceg"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:wrap-text-rounded" /></template>
+<style>
+.mtf2gcceg {
+  fill: currentColor;
+  d: path("M5 12.5q-.425 0-.712-.288T4 11.5t.288-.712T5 10.5h12.25q1.575 0 2.663 1.088T21 14.25t-1.088 2.663T17.25 18h-2.4l.55.55q.3.3.288.7t-.288.7q-.3.3-.712.313t-.713-.288L11.7 17.7q-.15-.15-.212-.325T11.425 17t.063-.375t.212-.325l2.275-2.275q.3-.3.713-.3t.712.3q.275.3.288.713t-.288.712l-.55.55h2.4q.725 0 1.238-.513T19 14.25t-.513-1.237t-1.237-.513zM5 18q-.425 0-.712-.288T4 17t.288-.712T5 16h3q.425 0 .713.288T9 17t-.288.713T8 18zM5 7q-.425 0-.712-.288T4 6t.288-.712T5 5h14q.425 0 .713.288T20 6t-.288.713T19 7z");
+}
+
+</style>

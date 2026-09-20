@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="kqeuqxvau"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:airplanemode-inactive-sharp" /></template>
+<style>
+.kqeuqxvau {
+  fill: currentColor;
+  d: path("m22 17l-3.525-1.425L10 7.15V4q0-.825.588-1.412T12 2t1.413.588T14 4v4.4l8 5.6zm-10 3.5L7 22v-2.5l3-2.1v-3.6L2 17v-3l5.4-3.8l-6-6l1.4-1.4l18.4 18.4l-1.4 1.4l-5.8-5.8v.6l3 2.1V22z");
+}
+
+</style>

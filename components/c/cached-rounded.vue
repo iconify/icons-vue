@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="aasd81bzi"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:cached-rounded" /></template>
+<style>
+.aasd81bzi {
+  fill: currentColor;
+  d: path("M12.05 20q-3.35 0-5.7-2.325T4 12v-.175l-.9.9Q2.825 13 2.4 13t-.7-.275t-.275-.7t.275-.7l2.6-2.6q.3-.3.7-.3t.7.3l2.6 2.6q.275.275.275.7t-.275.7t-.7.275t-.7-.275l-.9-.9V12q0 2.5 1.763 4.25T12.05 18q.4 0 .788-.05t.762-.175q.425-.125.8.025t.575.525q.2.4.038.787t-.588.513q-.575.2-1.175.288t-1.2.087m-.1-14q-.4 0-.787.05t-.763.175q-.425.125-.812-.025T9 5.675t-.038-.762t.563-.513q.6-.2 1.2-.3T11.95 4q3.35 0 5.7 2.325T20 12v.175l.9-.9q.275-.275.7-.275t.7.275t.275.7t-.275.7l-2.6 2.6q-.3.3-.7.3t-.7-.3l-2.6-2.6q-.275-.275-.275-.7t.275-.7t.7-.275t.7.275l.9.9V12q0-2.5-1.763-4.25T11.95 6");
+}
+
+</style>

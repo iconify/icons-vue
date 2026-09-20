@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="ascrzh5gc"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:pinch-zoom-in" /></template>
+<style>
+.ascrzh5gc {
+  fill: currentColor;
+  d: path("M1.55 12.5L.5 11.45L3.425 8.5H1V7h5v5H4.5V9.575zM7 6V1h1.5v2.45L11.425.5L12.5 1.575L9.55 4.5H12V6zm7.825 17q-.6 0-1.15-.225t-.975-.65L7.6 17l.75-.775q.4-.4.938-.537t1.062.012l1.65.475V8q0-.425.288-.712T13 7t.713.288T14 8v7h1v-3q0-.425.288-.712T16 11t.713.288T17 12v3h1v-2q0-.425.288-.712T19 12t.713.288T20 13v2h1q0-.425.288-.712T22 14t.713.288T23 15v4q0 1.65-1.175 2.825T19 23z");
+}
+
+</style>

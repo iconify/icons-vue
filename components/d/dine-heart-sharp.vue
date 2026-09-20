@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="nuojol5mb"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:dine-heart-sharp" /></template>
+<style>
+.nuojol5mb {
+  fill: currentColor;
+  d: path("M12 11q-1.7-1.55-2.775-2.613T7.55 6.55t-.825-1.362T6.5 4q0-1.25.875-2.125T9.525 1q.7 0 1.35.313T12 2.15q.475-.525 1.125-.837T14.475 1q1.275 0 2.15.875T17.5 4q0 .6-.225 1.188T16.45 6.55t-1.675 1.838T12 11M3 22v-3h-.975L1 8h2l.725 8H10v3H9v3H7.5v-3h-3v3zm8 0v-8H5v-2h14v2h-6v8zm4 0v-3h-1v-3h6.3l.725-8H23l-1 11h-1v3h-1.5v-3h-3v3z");
+}
+
+</style>

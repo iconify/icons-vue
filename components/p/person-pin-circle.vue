@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="g2f7lpbse"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:person-pin-circle" /></template>
+<style>
+.g2f7lpbse {
+  fill: currentColor;
+  d: path("M14.525 14.313q1.125-.688 1.775-1.813q-.875-.725-1.975-1.112T12 11t-2.325.388T7.7 12.5q.65 1.125 1.775 1.813T12 15t2.525-.687M12 10q.825 0 1.413-.587T14 8t-.587-1.412T12 6t-1.412.588T10 8t.588 1.413T12 10m0 12q-4.025-3.425-6.012-6.362T4 10.2q0-3.75 2.413-5.975T12 2t5.588 2.225T20 10.2q0 2.5-1.987 5.438T12 22");
+}
+
+</style>

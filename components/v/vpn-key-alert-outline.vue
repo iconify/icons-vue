@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="dxz_owboj"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:vpn-key-alert-outline" /></template>
+<style>
+.dxz_owboj {
+  fill: currentColor;
+  d: path("M15 18v-3h-2.8q-.8 1.35-2.175 2.175T7 18q-2.5 0-4.25-1.75T1 12t1.75-4.25T7 6q1.65 0 3.025.825T12.2 9H19v2h-8.15q-.2-.975-1.2-1.987T7 8T4.175 9.175T3 12t1.175 2.825T7 16t2.65-1.012T10.85 13H17v3h2v2zm-8-4q.825 0 1.413-.587T9 12t-.587-1.412T7 10t-1.412.588T5 12t.588 1.413T7 14m14.288 3.713Q21 17.425 21 17t.288-.712T22 16t.713.288T23 17t-.288.713T22 18t-.712-.288M21 14V9h2v5z");
+}
+
+</style>

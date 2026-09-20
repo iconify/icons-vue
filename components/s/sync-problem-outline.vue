@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="v73btubav"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:sync-problem-outline" /></template>
+<style>
+.v73btubav {
+  fill: currentColor;
+  d: path("M3 20v-2h2.75l-.4-.35q-1.3-1.15-1.825-2.625T3 12.05q0-2.775 1.662-4.938T9 4.25v2.1Q7.2 7 6.1 8.563T5 12.05q0 1.125.425 2.188T6.75 16.2l.25.25V14h2v6zm8.288-3.287Q11 16.425 11 16t.288-.712T12 15t.713.288T13 16t-.288.713T12 17t-.712-.288M11 13V7h2v6zm4 6.75v-2.1q1.8-.65 2.9-2.212T19 11.95q0-1.125-.425-2.187T17.25 7.8L17 7.55V10h-2V4h6v2h-2.75l.4.35q1.225 1.225 1.788 2.663T21 11.95q0 2.775-1.662 4.938T15 19.75");
+}
+
+</style>

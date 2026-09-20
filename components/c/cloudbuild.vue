@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="realcnbxi"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:cloudbuild" /></template>
+<style>
+.realcnbxi {
+  fill: currentColor;
+  d: path("M9.375 15.025L8 14.25v-4.5l4-2.25l1.35.675ZM12 16.5l-1.3-.75l4-6.9l1.3.65v4.75Zm5.25-8.05L12 5.575L6.775 8.45L2.75 6.075L12 1l9.25 5.075ZM11 23l-9-5V7.375l4 2.35v5.925l5 2.75Zm2 0v-4.575l5-2.775v-5.9l4-2.375V18Z");
+}
+
+</style>

@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="q_q-bc17u"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:ward-rounded" /></template>
+<style>
+.q_q-bc17u {
+  fill: currentColor;
+  d: path("M4.288 21.713Q4 21.425 4 21V4H3q-.425 0-.712-.288T2 3t.288-.712T3 2h2q.425 0 .713.288T6 3v18q0 .425-.288.713T5 22t-.712-.288M9 22q-.825 0-1.412-.587T7 20V4q0-.825.588-1.412T9 2h9q.825 0 1.413.588T20 4v16q0 .825-.587 1.413T18 22zm0-11.475q.45-.275.95-.4T11 10h5q.55 0 1.05.125t.95.4V4H9zm3.088-2.113Q11.5 7.825 11.5 7t.588-1.412T13.5 5t1.413.588T15.5 7t-.587 1.413T13.5 9t-1.412-.587M12.5 17v1q0 .425.288.713T13.5 19t.713-.288T14.5 18v-1h1q.425 0 .713-.288T16.5 16t-.288-.712T15.5 15h-1v-1q0-.425-.288-.712T13.5 13t-.712.288T12.5 14v1h-1q-.425 0-.712.288T10.5 16t.288.713t.712.287z");
+}
+
+</style>

@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="qb1g0_bqt"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:science-off-rounded" /></template>
+<style>
+.qb1g0_bqt {
+  fill: currentColor;
+  d: path("m15 12.175l-6-6V5H8q-.425 0-.712-.287T7 4t.288-.712T8 3h8q.425 0 .713.288T17 4t-.288.713T16 5h-1zm4.1 9.725l-.9-.9H5q-1.275 0-1.812-1.137t.262-2.113l5.2-6.3L2.1 4.9q-.275-.275-.275-.7t.275-.7t.7-.275t.7.275l17 17q.275.275.275.7t-.275.7t-.7.275t-.7-.275");
+}
+
+</style>

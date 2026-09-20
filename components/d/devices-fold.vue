@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="hulov-b1b"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:devices-fold" /></template>
+<style>
+.hulov-b1b {
+  fill: currentColor;
+  d: path("M12 21q-.825 0-1.412-.587T10 19V4.275q0-.6.325-1.088t.875-.737l3-1.3q1-.425 1.9.163T17 3h3q.825 0 1.413.588T22 5v14q0 .825-.587 1.413T20 21zm2.675-2H20V5h-3v11.675q0 .6-.325 1.113t-.875.737zM2 5V3h2v2zm0 16v-2h2v2zm0-4v-2h2v2zm0-4v-2h2v2zm0-4V7h2v2zm4-4V3h2v2zm0 16v-2h2v2z");
+}
+
+</style>

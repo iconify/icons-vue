@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="wq491hw8f"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:family-restroom-outline-sharp" /></template>
+<style>
+.wq491hw8f {
+  fill: currentColor;
+  d: path("M18 6q-.825 0-1.412-.587T16 4t.588-1.412T18 2t1.413.588T20 4t-.587 1.413T18 6m-1 16V10.95h-1.825L16.5 7h3l3 9H20v6zm-5.562-10.937Q11 10.625 11 10t.438-1.062T12.5 8.5t1.063.438T14 10t-.437 1.063t-1.063.437t-1.062-.437M5.5 6q-.825 0-1.412-.587T3.5 4t.588-1.412T5.5 2t1.413.588T7.5 4t-.587 1.413T5.5 6m-2 16v-7H2V7h7v8H7.5v7zm7.5 0v-4h-1v-5.5h5V18h-1v4z");
+}
+
+</style>

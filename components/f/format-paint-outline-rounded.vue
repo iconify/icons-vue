@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="ic93vccyv"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:format-paint-outline-rounded" /></template>
+<style>
+.ic93vccyv {
+  fill: currentColor;
+  d: path("M11 22q-.825 0-1.412-.587T9 20v-4H6q-.825 0-1.412-.587T4 14V7q0-1.65 1.175-2.825T8 3h11q.425 0 .713.288T20 4v10q0 .825-.587 1.413T18 16h-3v4q0 .825-.587 1.413T13 22zM6 10h12V5h-1v3q0 .425-.288.713T16 9t-.712-.288T15 8V5h-1v1q0 .425-.288.713T13 7t-.712-.288T12 6V5H8q-.825 0-1.412.588T6 7zm0 4h12v-2H6zm0 0v-2z");
+}
+
+</style>

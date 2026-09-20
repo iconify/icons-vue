@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="gmut-9qop"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:hard-drive-outline" /></template>
+<style>
+.gmut-9qop {
+  fill: currentColor;
+  d: path("M4 17h16v-6H4zm14.063-1.937q.437-.438.437-1.063t-.437-1.062T17 12.5t-1.062.438T15.5 14t.438 1.063T17 15.5t1.063-.437M22 9h-2.825l-2-2H6.825l-2 2H2l3.425-3.425q.275-.275.638-.425T6.825 5h10.35q.4 0 .763.15t.637.425zM4 19q-.825 0-1.412-.587T2 17V9h20v8q0 .825-.587 1.413T20 19z");
+}
+
+</style>

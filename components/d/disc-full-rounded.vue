@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="t4sx0bcsf"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:disc-full-rounded" /></template>
+<style>
+.t4sx0bcsf {
+  fill: currentColor;
+  d: path("M15.188 15.188Q16.5 13.875 16.5 12t-1.312-3.187T12 7.5T8.813 8.813T7.5 12t1.313 3.188T12 16.5t3.188-1.312m-3.9-2.476Q11 12.426 11 12t.288-.712T12 11t.713.288T13 12t-.288.713T12 13t-.712-.288m9 5Q20 17.426 20 17v-6q0-.425.288-.712T21 10t.713.288T22 11v6q0 .425-.288.713T21 18t-.712-.288m0 4Q20 21.426 20 21t.288-.712T21 20t.713.288T22 21t-.288.713T21 22t-.712-.288M12 22q-2.075 0-3.9-.788t-3.175-2.137T2.788 15.9T2 12t.788-3.9t2.137-3.175T8.1 2.788T12 2q2.575 0 4.775 1.213t3.575 3.312q.325.475.025.975t-.9.5H19q-.425 0-.712.288T18 9v10.275q0 .35-.162.638t-.438.487q-1.225.775-2.6 1.188T12 22");
+}
+
+</style>

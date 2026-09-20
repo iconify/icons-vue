@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="k-ly5fwob"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:splitscreen-add-outline" /></template>
+<style>
+.k-ly5fwob {
+  fill: currentColor;
+  d: path("M5 19v-4v.1v-.1zm0 2q-.825 0-1.412-.587T3 19v-4q0-.825.588-1.412T5 13h14q.825 0 1.413.588T21 15H5v4h10v2zm0-10q-.825 0-1.412-.587T3 9V5q0-.825.588-1.412T5 3h14q.825 0 1.413.588T21 5v4q0 .825-.587 1.413T19 11zm0-2h14V5H5zm0 0V5zm14 14v-2h-2v-2h2v-2h2v2h2v2h-2v2z");
+}
+
+</style>

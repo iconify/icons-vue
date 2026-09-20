@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="gy_4luh7c"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:keyboard-tab-outline-rounded" /></template>
+<style>
+.gy_4luh7c {
+  fill: currentColor;
+  d: path("M20.288 17.713Q20 17.425 20 17V7q0-.425.288-.712T21 6t.713.288T22 7v10q0 .425-.288.713T21 18t-.712-.288M14.175 13H3q-.425 0-.712-.288T2 12t.288-.712T3 11h11.175L11.3 8.1q-.275-.275-.288-.687T11.3 6.7q.275-.275.7-.275t.7.275l4.6 4.6q.15.15.213.325t.062.375t-.062.375t-.213.325l-4.6 4.6q-.275.275-.687.275T11.3 17.3q-.3-.3-.3-.712t.3-.713z");
+}
+
+</style>

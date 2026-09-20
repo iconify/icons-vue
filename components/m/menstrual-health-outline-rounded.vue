@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="l6czprbeb"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:menstrual-health-outline-rounded" /></template>
+<style>
+.l6czprbeb {
+  fill: currentColor;
+  d: path("M8.1 21.213q-1.825-.788-3.175-2.138T2.788 15.9T2 12V4.5q0-.625.55-.9t1.05.1l4.45 3.325q.65-.925 1.413-1.95T11.175 2.9q.325-.4.825-.4t.825.4q.95 1.15 1.713 2.163t1.412 1.962L20.4 3.7q.5-.375 1.05-.1t.55.9V12q0 2.075-.787 3.9t-2.138 3.175t-3.175 2.138T12 22t-3.9-.788M5 15q0-1.425.463-2.937T6.975 8.75L4 6.5V12q0 1.1.288 2.113T5.075 16q-.05-.25-.062-.488T5 15m10.538 3.538Q17 17.075 17 15q0-1.65-1.125-4.175T12 5q-2.75 3.35-3.875 5.85T7 15q0 2.075 1.463 3.538T12 20t3.538-1.463M19 15q0 .275-.012.513t-.063.487q.5-.875.788-1.888T20 12V6.5l-2.975 2.225q1.05 1.8 1.513 3.313T19 15");
+}
+
+</style>

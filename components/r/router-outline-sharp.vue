@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="nwta4ab0l"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:router-outline-sharp" /></template>
+<style>
+.nwta4ab0l {
+  fill: currentColor;
+  d: path("M3 21v-8h12V9h2v4h4v8zm2-2h14v-4H5zm9.25-10.75L12.8 6.8q.65-.6 1.45-.95T16 5.5t1.75.35t1.45.95l-1.45 1.45q-.35-.35-.788-.55T16 7.5t-.963.2t-.787.55m-2.5-2.5l-1.4-1.4q1.1-1.1 2.55-1.725T16 2t3.1.625t2.55 1.725l-1.4 1.4q-.825-.825-1.912-1.287T16 4t-2.337.463T11.75 5.75M5 19v-4zm1-1h2v-2H6zm3.5 0h2v-2h-2zm3.5 0h2v-2h-2z");
+}
+
+</style>

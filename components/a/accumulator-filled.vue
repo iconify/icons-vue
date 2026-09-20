@@ -1,0 +1,13 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/c/cuyn6tgcc.css';
+import '../../css/e/eb2wkrbqz.css';
+import '../../css/v/v70sv_b8n.css';
+import '../../css/c/c41kgs53a.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="cuyn6tgcc"><path class="eb2wkrbqz"/><path class="v70sv_b8n"/><path clip-rule="evenodd" class="c41kgs53a"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="reicon:accumulator-filled" /></template>

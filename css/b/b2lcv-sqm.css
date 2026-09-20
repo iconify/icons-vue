@@ -1,0 +1,8 @@
+.b2lcv-sqm {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M10 3L8 21m8-18l-2 18M3.5 9h18m-19 6h18");
+}

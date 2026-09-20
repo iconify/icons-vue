@@ -1,0 +1,8 @@
+.lim_l8bmc {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M12 4.5H3m9 5H3m18 5H3m18 5H3");
+}

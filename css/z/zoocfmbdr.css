@@ -1,0 +1,8 @@
+.zoocfmbdr {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("m6 6l6 6l6-6M6 12l6 6l6-6");
+}

@@ -1,0 +1,8 @@
+.dmdfxvbdb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M19 11V5h-6m6 0L5 19m0-6v6h6");
+}

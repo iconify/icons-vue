@@ -1,0 +1,8 @@
+.nnl_rbnua {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M8.75 13.875v-3.75a3.125 3.125 0 1 1 6.25 0v3.75a3.125 3.125 0 1 1-6.25 0");
+}

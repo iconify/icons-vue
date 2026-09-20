@@ -1,0 +1,8 @@
+.kp5macclx {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M12 15v-.667M17 15v-.667M7 15v-.667m5-4.666V9m5 .667V9M7 9.667V9");
+}

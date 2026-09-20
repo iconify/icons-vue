@@ -1,0 +1,8 @@
+.ro1ry2bid {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M20.5 10v4m-4-8v12M12 3v18M7.5 6v12m-4-8v4");
+}

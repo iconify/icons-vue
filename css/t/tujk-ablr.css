@@ -1,0 +1,8 @@
+.tujk-ablr {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M20 10h-6V4M4 14h6v6M20 4l-6 6m-4 4l-6 6");
+}

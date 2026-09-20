@@ -9,23 +9,35 @@ Due to NPM issues, these packages cannot be published to NPM.
 ### Large package.json
 
 Each package exports many icons, some have tens of thousands of exports.
+
 Dumping so many files to a root directory is not feasible. It leads to installation errors on some file systems, usually on Windows.
+
 Alternative is to split components into multiple sub-directories and add `exports` field to `package.json`, which is how these packages are generated.
+
 That leads to large `package.json` files, which works without issues with all modern tools.
+
 
 ### NPM issue
 
 NPM stores metadata for each published package in a single file. That includes entire contents of `package.json`, including `exports` field, for all versions of that package.
+
 When a package has many versions, each with large `exports` field, that quickly leads to massive metadata.
+
 NPM has a limit of 100mb per package. When that limit is hit, NPM prevents new versions from being published, while also preventing developer from unpublishing old versions of that package.
+
 
 ### Solution
 
 So new versions of some packages cannot be published, old versions cannot be unpublished. It is a mess that cannot be solved on NPM.
+
 The only solution is to move off NPM.
+
 This is why these packages are published to GitHub instead of NPM.
+
 NPM client can install packages from a branch of a Git repository, where it retrieves metadata only for the latest commit in a branch, so no more huge metadata regardless of how many versions have been published.
+
 Each icon set is published in a separate branch of this repository, which makes it easy to maintain many icon sets without creating multiple repositories.
+
 
 ## Installation
 

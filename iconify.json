@@ -1,0 +1,28 @@
+{
+	"prefix": "oui",
+	"info": {
+		"name": "OpenSearch UI",
+		"total": 437,
+		"version": "2.0.0",
+		"author": {
+			"name": "OpenSearch Contributors",
+			"url": "https://github.com/opensearch-project/oui"
+		},
+		"license": {
+			"title": "Apache 2.0",
+			"spdx": "Apache-2.0",
+			"url": "https://github.com/opensearch-project/oui/blob/main/LICENSE.txt"
+		},
+		"samples": [
+			"word-wrap-disabled",
+			"annotation",
+			"token-rank-feature",
+			"shard",
+			"apps",
+			"token-histogram"
+		],
+		"category": "UI Other / Mixed Grid",
+		"palette": false
+	},
+	"lastModified": 1752557097
+}

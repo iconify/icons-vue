@@ -1,0 +1,10 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/j/j1fyd2gnx.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":15,"height":15};
+const content = `<path class="j1fyd2gnx"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="pinhead:two-tall-rectangles-top-left" /></template>

@@ -1,0 +1,10 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/l/lnvtnnk5e.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":15,"height":15};
+const content = `<path class="lnvtnnk5e"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="pinhead:ethernet-port-in-rounded-square" /></template>

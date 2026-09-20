@@ -1,0 +1,8 @@
+.r8j-lcrbr {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M5 10.25h7m0 0h7m-7 0v-7m0 7v7m-7 3.5h14");
+}

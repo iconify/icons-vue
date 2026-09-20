@@ -1,0 +1,12 @@
+.liotcnavo {
+  width: 18.5px;
+  height: 14.5px;
+  x: 2.75px;
+  y: 4.75px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  rx: 4px;
+}

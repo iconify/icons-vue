@@ -1,0 +1,11 @@
+.ak_npccsm {
+  width: 17px;
+  height: 17px;
+  x: 3.5px;
+  y: 3.5px;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  rx: 5.5px;
+}

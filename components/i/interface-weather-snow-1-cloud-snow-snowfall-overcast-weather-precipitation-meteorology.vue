@@ -1,0 +1,11 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/x/xattv9ben.css';
+import '../../css/l/lnzfgtbbp.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":14,"height":14};
+const content = `<path class="xattv9ben"/><path class="lnzfgtbbp"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="streamline:interface-weather-snow-1-cloud-snow-snowfall-overcast-weather-precipitation-meteorology" /></template>

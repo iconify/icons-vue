@@ -1,0 +1,10 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/c/cz2h6vkvf.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":14,"height":14};
+const content = `<path clip-rule="evenodd" class="cz2h6vkvf"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="streamline:volume-mute-remix" /></template>

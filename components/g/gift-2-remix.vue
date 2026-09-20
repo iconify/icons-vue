@@ -1,0 +1,10 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/a/ay_yyhbch.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":14,"height":14};
+const content = `<path clip-rule="evenodd" class="ay_yyhbch"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="streamline:gift-2-remix" /></template>

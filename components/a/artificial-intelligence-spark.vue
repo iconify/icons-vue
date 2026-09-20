@@ -1,0 +1,13 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/y/y9tr6bcfx.css';
+import '../../css/x/xhfxg030t.css';
+import '../../css/a/am53vrbsi.css';
+import '../../css/y/yhxertb1n.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":14,"height":14};
+const content = `<g class="y9tr6bcfx"><path class="xhfxg030t"/><path class="am53vrbsi"/><path class="yhxertb1n"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="streamline:artificial-intelligence-spark" /></template>

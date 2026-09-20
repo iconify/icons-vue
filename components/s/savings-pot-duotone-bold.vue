@@ -1,0 +1,42 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="s0phu2bbs"><path class="fb6xkzb1k"/><path class="g_k4bub3x"/><path class="guw4_4ovg"/><path class="ikiprn9sq"/><path class="ul0m4fbfe"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="iconmind:savings-pot-duotone-bold" /></template>
+<style>
+.fb6xkzb1k {
+  fill: currentColor;
+  d: path("M6 9h12v10a3 3 0 0 1 -3 3H9a3 3 0 0 1 -3 -3Z");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+.g_k4bub3x {
+  d: path("M6 9h12v10a3 3 0 0 1 -3 3H9a3 3 0 0 1 -3 -3Z");
+}
+
+.guw4_4ovg {
+  d: path("M8 9V4h8v5");
+}
+
+.ikiprn9sq {
+  d: path("M9 14h6");
+}
+
+.s0phu2bbs {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2-5px, 2.5px);
+}
+
+.ul0m4fbfe {
+  d: path("M9 17.5h6");
+}
+
+</style>

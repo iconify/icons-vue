@@ -1,0 +1,39 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="hntgybcog"><path class="li5x4yeoz"/><path class="it83nbbll"/><path class="lgr612izs"/><path class="naf5gjb6k"/><path class="dxdpz6gbz"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="iconmind:gradient-fill-outline-thin" /></template>
+<style>
+.dxdpz6gbz {
+  d: path("M17 12a1 1 0 1 0 2 0 1 1 0 1 0 -2 0");
+}
+
+.hntgybcog {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.it83nbbll {
+  d: path("M5 12a1 1 0 1 0 2 0 1 1 0 1 0 -2 0");
+}
+
+.lgr612izs {
+  d: path("M8 12a1 1 0 1 0 2 0 1 1 0 1 0 -2 0");
+}
+
+.li5x4yeoz {
+  d: path("M3 9a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v6a2 2 0 0 1 -2 2H5a2 2 0 0 1 -2 -2Z");
+}
+
+.naf5gjb6k {
+  d: path("M12 12a1 1 0 1 0 2 0 1 1 0 1 0 -2 0");
+}
+
+</style>

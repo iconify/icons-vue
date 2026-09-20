@@ -1,0 +1,43 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="hntgybcog"><path class="jq9hovbrs"/><path class="yomctlb4k"/><path class="kpspt_bpo"/><path class="a7ec6yb3q"/><path class="y5y9-x5ge"/><path class="e3dol68is"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="iconmind:speech-align-outline-thin" /></template>
+<style>
+.a7ec6yb3q {
+  d: path("M9 11v3");
+}
+
+.e3dol68is {
+  d: path("M15 11v3");
+}
+
+.hntgybcog {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.jq9hovbrs {
+  d: path("M14 4h5a3 3 0 0 1 3 3v7a3 3 0 0 1 -3 3H5a3 3 0 0 1 -3 -3V7a3 3 0 0 1 3 -3h5");
+}
+
+.kpspt_bpo {
+  d: path("M7 8h10");
+}
+
+.y5y9-x5ge {
+  d: path("M12 11v3");
+}
+
+.yomctlb4k {
+  d: path("M7 17v4l4 -4");
+}
+
+</style>

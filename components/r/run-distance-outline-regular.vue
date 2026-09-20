@@ -1,0 +1,27 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="nrj6p8qat"><path class="y60rjib_g"/><path class="fvc8noqew"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="iconmind:run-distance-outline-regular" /></template>
+<style>
+.fvc8noqew {
+  d: path("M16 3h4v4h-4");
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.y60rjib_g {
+  d: path("m2 21 5 -5v-4l5 -5h4");
+}
+
+</style>

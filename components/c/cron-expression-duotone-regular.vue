@@ -1,0 +1,50 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="nrj6p8qat"><path class="tu3bv3eig"/><path class="yoftwf7ei"/><path class="u0f6w1z_e"/><path class="p3wll6__i"/><path class="lt5vylzgx"/><path class="ca7cldnps"/><path class="i1q2tccms"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="iconmind:cron-expression-duotone-regular" /></template>
+<style>
+.ca7cldnps {
+  d: path("M12 18v2.5");
+}
+
+.i1q2tccms {
+  d: path("M18 18v2.5");
+}
+
+.lt5vylzgx {
+  d: path("M6 18v2.5");
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.p3wll6__i {
+  d: path("M12 9h3.5");
+}
+
+.tu3bv3eig {
+  fill: currentColor;
+  d: path("M6 9a6 6 0 1 0 12 0A6 6 0 1 0 6 9");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+.u0f6w1z_e {
+  d: path("M12 6v3");
+}
+
+.yoftwf7ei {
+  d: path("M6 9a6 6 0 1 0 12 0A6 6 0 1 0 6 9");
+}
+
+</style>

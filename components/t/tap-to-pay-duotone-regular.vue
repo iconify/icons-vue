@@ -1,0 +1,49 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="nrj6p8qat"><path class="f-t_rcb_j"/><path class="m0p17bc4l"/><path class="k6fi9qmtq"/><path class="ozi-k-boi"/><path class="m7goar83z"/><path class="cen-7fbaj"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="iconmind:tap-to-pay-duotone-regular" /></template>
+<style>
+.cen-7fbaj {
+  d: path("M8.24 13.63a4 4 0 0 1 7.5 0");
+}
+
+.f-t_rcb_j {
+  fill: currentColor;
+  d: path("M2 5a2 2 0 0 1 2 -2h16a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2H4a2 2 0 0 1 -2 -2Z");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+.k6fi9qmtq {
+  d: path("M2 5a2 2 0 0 1 2 -2h16a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2H4a2 2 0 0 1 -2 -2Z");
+}
+
+.m0p17bc4l {
+  fill: currentColor;
+  d: path("M10 15a2 2 0 1 0 4 0 2 2 0 1 0 -4 0");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+.m7goar83z {
+  d: path("M10 15a2 2 0 1 0 4 0 2 2 0 1 0 -4 0");
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.ozi-k-boi {
+  d: path("M3 7h18");
+}
+
+</style>

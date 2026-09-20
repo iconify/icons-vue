@@ -1,0 +1,60 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="hntgybcog"><path class="t5vp54bmb"/><path class="pb2hesbox"/><path class="wpszn4b8h"/><path class="ybjmfcoaj"/><path class="icp673bbo"/><path class="m80f-vb-j"/><path class="zb0anhelb"/><path class="a-97alb2g"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="iconmind:conformed-dimension-duotone-thin" /></template>
+<style>
+.a-97alb2g {
+  d: path("M15.5 17a2 2 0 0 1 2 -2H20a2 2 0 0 1 2 2v3a2 2 0 0 1 -2 2h-2.5a2 2 0 0 1 -2 -2Z");
+}
+
+.hntgybcog {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.icp673bbo {
+  d: path("M12 9v3");
+}
+
+.m80f-vb-j {
+  d: path("M5 15v-3h14v3");
+}
+
+.pb2hesbox {
+  fill: currentColor;
+  d: path("M2 17a2 2 0 0 1 2 -2h2.5a2 2 0 0 1 2 2v3a2 2 0 0 1 -2 2H4a2 2 0 0 1 -2 -2Z");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+.t5vp54bmb {
+  fill: currentColor;
+  d: path("M7 4a2 2 0 0 1 2 -2h6a2 2 0 0 1 2 2v3a2 2 0 0 1 -2 2H9a2 2 0 0 1 -2 -2Z");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+.wpszn4b8h {
+  fill: currentColor;
+  d: path("M15.5 17a2 2 0 0 1 2 -2H20a2 2 0 0 1 2 2v3a2 2 0 0 1 -2 2h-2.5a2 2 0 0 1 -2 -2Z");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+.ybjmfcoaj {
+  d: path("M7 4a2 2 0 0 1 2 -2h6a2 2 0 0 1 2 2v3a2 2 0 0 1 -2 2H9a2 2 0 0 1 -2 -2Z");
+}
+
+.zb0anhelb {
+  d: path("M2 17a2 2 0 0 1 2 -2h2.5a2 2 0 0 1 2 2v3a2 2 0 0 1 -2 2H4a2 2 0 0 1 -2 -2Z");
+}
+
+</style>

@@ -1,0 +1,35 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="s0phu2bbs"><path class="mi_rhabsp"/><path class="pm0e7ny3b"/><path class="tbo01n9ke"/><path class="s88iiwf1g"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="iconmind:villa-outline-bold" /></template>
+<style>
+.mi_rhabsp {
+  d: path("m2 11 6 -6 6 6");
+}
+
+.pm0e7ny3b {
+  d: path("M4 11v8h8v-8");
+}
+
+.s0phu2bbs {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2-5px, 2.5px);
+}
+
+.s88iiwf1g {
+  d: path("m15 19 2 -2 2 2 2 -2");
+}
+
+.tbo01n9ke {
+  d: path("m15 14 2 -2 2 2 2 -2");
+}
+
+</style>

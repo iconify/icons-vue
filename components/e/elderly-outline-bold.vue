@@ -1,0 +1,35 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="s0phu2bbs"><path class="xvse_9aut"/><path class="kjs-2gbxx"/><path class="cvlyf4b3z"/><path class="ryja2j08k"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="iconmind:elderly-outline-bold" /></template>
+<style>
+.cvlyf4b3z {
+  d: path("m4 20 5 -5 5 5");
+}
+
+.kjs-2gbxx {
+  d: path("M9 8v6");
+}
+
+.ryja2j08k {
+  d: path("M18 20V9a2 2 0 0 0 -4 0");
+}
+
+.s0phu2bbs {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2-5px, 2.5px);
+}
+
+.xvse_9aut {
+  d: path("M6 5a3 3 0 1 0 6 0 3 3 0 1 0 -6 0");
+}
+
+</style>

@@ -1,0 +1,45 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="s0phu2bbs"><path class="m8c8atiya"/><path class="w_sg42bwq"/><path class="n0n63pb2v"/><path class="shd7-wbsb"/><path class="lw-jkob5l"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="iconmind:gold-set-duotone-bold" /></template>
+<style>
+.lw-jkob5l {
+  d: path("M12 6.5v4");
+}
+
+.m8c8atiya {
+  fill: currentColor;
+  d: path("M4 15v4h16v-4");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+.n0n63pb2v {
+  d: path("M4 15v4h16v-4");
+}
+
+.s0phu2bbs {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2-5px, 2.5px);
+}
+
+.shd7-wbsb {
+  d: path("M9 8.5a3 3 0 1 0 6 0 3 3 0 1 0 -6 0");
+}
+
+.w_sg42bwq {
+  fill: currentColor;
+  d: path("M9 8.5a3 3 0 1 0 6 0 3 3 0 1 0 -6 0");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+</style>

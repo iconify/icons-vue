@@ -1,0 +1,69 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="nrj6p8qat"><path class="oatw5zbso"/><path class="zy0kitbji"/><path class="iamc1vbbt"/><path class="knapatbhl"/><path class="gn7sogbxx"/><path class="v_swcusij"/><path class="gjq7qdjci"/><path class="wm3wqu-9e"/><path class="lf7-wkbzn"/><path class="zllo9xxih"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="iconmind:agent-broadcast-duotone-regular" /></template>
+<style>
+.gjq7qdjci {
+  d: path("M15.25 6.37a6.5 6.5 0 0 1 0 11.26");
+}
+
+.gn7sogbxx {
+  stroke-width: var(--svg-stroke-width--5px, 5px);
+  d: path("M7 20.66A10 10 0 0 1 7 3.34");
+  opacity: var(--svg-opacity--0-2, 0.2);
+}
+
+.iamc1vbbt {
+  stroke-width: var(--svg-stroke-width--5px, 5px);
+  d: path("M8.75 17.63a6.5 6.5 0 0 1 0 -11.26");
+  opacity: var(--svg-opacity--0-2, 0.2);
+}
+
+.knapatbhl {
+  stroke-width: var(--svg-stroke-width--5px, 5px);
+  d: path("M17 3.34a10 10 0 0 1 0 17.32");
+  opacity: var(--svg-opacity--0-2, 0.2);
+}
+
+.lf7-wkbzn {
+  d: path("M17 3.34a10 10 0 0 1 0 17.32");
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.oatw5zbso {
+  stroke-width: var(--svg-stroke-width--5px, 5px);
+  d: path("M13.27 9.28a3 3 0 1 1 -2.54 0");
+  opacity: var(--svg-opacity--0-2, 0.2);
+}
+
+.v_swcusij {
+  d: path("M13.27 9.28a3 3 0 1 1 -2.54 0");
+}
+
+.wm3wqu-9e {
+  d: path("M8.75 17.63a6.5 6.5 0 0 1 0 -11.26");
+}
+
+.zllo9xxih {
+  d: path("M7 20.66A10 10 0 0 1 7 3.34");
+}
+
+.zy0kitbji {
+  stroke-width: var(--svg-stroke-width--5px, 5px);
+  d: path("M15.25 6.37a6.5 6.5 0 0 1 0 11.26");
+  opacity: var(--svg-opacity--0-2, 0.2);
+}
+
+</style>

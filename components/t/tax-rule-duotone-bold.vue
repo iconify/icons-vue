@@ -1,0 +1,64 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="s0phu2bbs"><path class="r0-aom3qb"/><path class="jv2lmwb1w"/><path class="w9fsbztja"/><path class="nnzlfsekh"/><path class="teszqoqtj"/><path class="zqsgc7abe"/><path class="ib3hnj95a"/><path class="miofc3chu"/><path class="jusug-b0m"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="iconmind:tax-rule-duotone-bold" /></template>
+<style>
+.ib3hnj95a {
+  d: path("M8.5 9.5a1 1 0 1 0 2 0 1 1 0 1 0 -2 0");
+}
+
+.jusug-b0m {
+  d: path("M13.5 14.5a1 1 0 1 0 2 0 1 1 0 1 0 -2 0");
+}
+
+.jv2lmwb1w {
+  fill: currentColor;
+  d: path("M8.5 9.5a1 1 0 1 0 2 0 1 1 0 1 0 -2 0");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+.miofc3chu {
+  d: path("m9 15 6 -6");
+}
+
+.nnzlfsekh {
+  d: path("M2 8a2 2 0 0 1 2 -2h16a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2H4a2 2 0 0 1 -2 -2Z");
+}
+
+.r0-aom3qb {
+  fill: currentColor;
+  d: path("M2 8a2 2 0 0 1 2 -2h16a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2H4a2 2 0 0 1 -2 -2Z");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+.s0phu2bbs {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2-5px, 2.5px);
+}
+
+.teszqoqtj {
+  d: path("M5.5 10.5v3");
+}
+
+.w9fsbztja {
+  fill: currentColor;
+  d: path("M13.5 14.5a1 1 0 1 0 2 0 1 1 0 1 0 -2 0");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+.zqsgc7abe {
+  d: path("M18.5 10.5v3");
+}
+
+</style>

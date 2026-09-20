@@ -1,0 +1,45 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="s0phu2bbs"><path class="om4nqzzie"/><path class="ic9-itc-b"/><path class="gmxu-8k0q"/><path class="g42ybfbuj"/><path class="mu9p8ibhw"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="iconmind:pairwise-compare-duotone-bold" /></template>
+<style>
+.g42ybfbuj {
+  d: path("M14 7a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v6a2 2 0 0 1 -2 2h-4a2 2 0 0 1 -2 -2Z");
+}
+
+.gmxu-8k0q {
+  d: path("M2 7a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v6a2 2 0 0 1 -2 2H4a2 2 0 0 1 -2 -2Z");
+}
+
+.ic9-itc-b {
+  fill: currentColor;
+  d: path("M14 7a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v6a2 2 0 0 1 -2 2h-4a2 2 0 0 1 -2 -2Z");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+.mu9p8ibhw {
+  d: path("m3 18 2 2 3.5 -3.5");
+}
+
+.om4nqzzie {
+  fill: currentColor;
+  d: path("M2 7a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v6a2 2 0 0 1 -2 2H4a2 2 0 0 1 -2 -2Z");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+.s0phu2bbs {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2-5px, 2.5px);
+}
+
+</style>

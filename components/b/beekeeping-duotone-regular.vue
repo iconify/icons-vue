@@ -1,0 +1,56 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="nrj6p8qat"><path class="c27-atbzb"/><path class="xktt2fzpr"/><path class="sr_2gtezx"/><path class="bkiaatbvd"/><path class="n75imzbwr"/><path class="jkuojibnm"/><path class="bih55pzif"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="iconmind:beekeeping-duotone-regular" /></template>
+<style>
+.bih55pzif {
+  d: path("M11 3a1 1 0 1 0 2 0 1 1 0 1 0 -2 0");
+}
+
+.bkiaatbvd {
+  d: path("M5 5h14v4H5Z");
+}
+
+.c27-atbzb {
+  fill: currentColor;
+  d: path("M5 5h14v4H5Z");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+.jkuojibnm {
+  d: path("M3 20h18");
+}
+
+.n75imzbwr {
+  d: path("M5 12h14v4H5Z");
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.sr_2gtezx {
+  fill: currentColor;
+  d: path("M11 3a1 1 0 1 0 2 0 1 1 0 1 0 -2 0");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+.xktt2fzpr {
+  fill: currentColor;
+  d: path("M5 12h14v4H5Z");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+</style>

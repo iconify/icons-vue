@@ -1,0 +1,35 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="s0phu2bbs"><path class="dm_ar8wjk"/><path class="b5p141rkx"/><path class="u9jggobpf"/><path class="cre86eeda"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="iconmind:rubric-outline-bold" /></template>
+<style>
+.b5p141rkx {
+  d: path("M11 7.5h10");
+}
+
+.cre86eeda {
+  d: path("M11 15.5h10");
+}
+
+.dm_ar8wjk {
+  d: path("m3 7 2 2 3 -3");
+}
+
+.s0phu2bbs {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2-5px, 2.5px);
+}
+
+.u9jggobpf {
+  d: path("m3 15 2 2 3 -3");
+}
+
+</style>

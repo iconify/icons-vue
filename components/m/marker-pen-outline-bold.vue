@@ -1,0 +1,31 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="s0phu2bbs"><path class="yigkywbyn"/><path class="ry5l7ebuo"/><path class="ot37jibbb"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="iconmind:marker-pen-outline-bold" /></template>
+<style>
+.ot37jibbb {
+  d: path("m10 16 4 -4");
+}
+
+.ry5l7ebuo {
+  d: path("m5 17 3 -3 4 4 -3 3Z");
+}
+
+.s0phu2bbs {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2-5px, 2.5px);
+}
+
+.yigkywbyn {
+  d: path("m8 14 8 -8 4 4 -8 8Z");
+}
+
+</style>

@@ -1,0 +1,42 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="hntgybcog"><path class="s-z5c8bxf"/><path class="gs2u-ebtp"/><path class="ldyahhf1z"/><path class="a6z1jcjqs"/><path class="b6cdzhbpu"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="iconmind:travel-insurance-duotone-thin" /></template>
+<style>
+.a6z1jcjqs {
+  d: path("M8 16a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v3a2 2 0 0 1 -2 2h-4a2 2 0 0 1 -2 -2Z");
+}
+
+.b6cdzhbpu {
+  d: path("M10 14v-2.5h4V14");
+}
+
+.gs2u-ebtp {
+  d: path("M4.5 8.5a7.5 7.5 0 0 1 15 0");
+}
+
+.hntgybcog {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.ldyahhf1z {
+  d: path("M4.5 8.5h15");
+}
+
+.s-z5c8bxf {
+  fill: currentColor;
+  d: path("M8 16a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v3a2 2 0 0 1 -2 2h-4a2 2 0 0 1 -2 -2Z");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+</style>

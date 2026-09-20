@@ -1,0 +1,59 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="hntgybcog"><path class="fa8lp8ket"/><path class="ukyojkvtr"/><path class="mzjqjtrpb"/><path class="mp3xgab1v"/><path class="to02llleg"/><path class="jroakeb3a"/><path class="pty_wsbvs"/><path class="lnqk7fb0y"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="iconmind:rest-endpoint-duotone-thin" /></template>
+<style>
+.fa8lp8ket {
+  stroke-width: var(--svg-stroke-width--4-5px, 4.5px);
+  d: path("M7 4H3v16h4");
+  opacity: var(--svg-opacity--0-2, 0.2);
+}
+
+.hntgybcog {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.jroakeb3a {
+  d: path("M17 4h4v16h-4");
+}
+
+.lnqk7fb0y {
+  d: path("M8 15h5");
+}
+
+.mp3xgab1v {
+  stroke-width: var(--svg-stroke-width--4-5px, 4.5px);
+  d: path("M8 15h5");
+  opacity: var(--svg-opacity--0-2, 0.2);
+}
+
+.mzjqjtrpb {
+  stroke-width: var(--svg-stroke-width--4-5px, 4.5px);
+  d: path("M8 9h8");
+  opacity: var(--svg-opacity--0-2, 0.2);
+}
+
+.pty_wsbvs {
+  d: path("M8 9h8");
+}
+
+.to02llleg {
+  d: path("M7 4H3v16h4");
+}
+
+.ukyojkvtr {
+  stroke-width: var(--svg-stroke-width--4-5px, 4.5px);
+  d: path("M17 4h4v16h-4");
+  opacity: var(--svg-opacity--0-2, 0.2);
+}
+
+</style>

@@ -1,0 +1,35 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="hntgybcog"><path class="olxc00wjs"/><path class="m7goar83z"/><path class="z_j864liq"/><path class="be-du29wl"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="iconmind:goal-milestone-outline-thin" /></template>
+<style>
+.be-du29wl {
+  d: path("M12 2.5h5V6h-5");
+}
+
+.hntgybcog {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.m7goar83z {
+  d: path("M10 15a2 2 0 1 0 4 0 2 2 0 1 0 -4 0");
+}
+
+.olxc00wjs {
+  d: path("M6 15a6 6 0 1 0 12 0 6 6 0 1 0 -12 0");
+}
+
+.z_j864liq {
+  d: path("M12 2v7");
+}
+
+</style>

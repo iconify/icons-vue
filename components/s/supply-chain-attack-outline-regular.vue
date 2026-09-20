@@ -1,0 +1,35 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="nrj6p8qat"><path class="g00uv-b-x"/><path class="koh8ckbdb"/><path class="k2mg4f2ls"/><path class="r2sn4nhez"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="iconmind:supply-chain-attack-outline-regular" /></template>
+<style>
+.g00uv-b-x {
+  d: path("M4 5h9a2 2 0 0 1 2 2v3h3.5l2.5 2.5V15a2 2 0 0 1 -2 2H4a2 2 0 0 1 -2 -2V7a2 2 0 0 1 2 -2");
+}
+
+.k2mg4f2ls {
+  d: path("M15 19a2 2 0 1 0 4 0 2 2 0 1 0 -4 0");
+}
+
+.koh8ckbdb {
+  d: path("M5 19a2 2 0 1 0 4 0 2 2 0 1 0 -4 0");
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.r2sn4nhez {
+  d: path("M10.5 7.5 8 10h2.5L8 12.5");
+}
+
+</style>

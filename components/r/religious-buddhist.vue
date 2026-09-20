@@ -1,0 +1,10 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/r/rcri1bbkf.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":15,"height":15};
+const content = `<path class="rcri1bbkf"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="maki:religious-buddhist" /></template>

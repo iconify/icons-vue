@@ -1,0 +1,2431 @@
+{
+  "name": "@iconify-vue/maki",
+  "type": "module",
+  "version": "1.0.4",
+  "homepage": "https://icon-sets.iconify.design/maki/",
+  "bugs": "https://github.com/iconify/icons-vue/issues",
+  "license": "CC0-1.0",
+  "exports": {
+    "./aerialway": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/aerialway.vue"
+    },
+    "./aerialway-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/aerialway-11.vue"
+    },
+    "./airfield": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/airfield.vue"
+    },
+    "./airfield-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/airfield-11.vue"
+    },
+    "./airport": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/airport.vue"
+    },
+    "./airport-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/airport-11.vue"
+    },
+    "./alcohol-shop": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/alcohol-shop.vue"
+    },
+    "./alcohol-shop-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/alcohol-shop-11.vue"
+    },
+    "./american-football": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/american-football.vue"
+    },
+    "./american-football-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/american-football-11.vue"
+    },
+    "./amusement-park": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/amusement-park.vue"
+    },
+    "./amusement-park-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/amusement-park-11.vue"
+    },
+    "./animal-shelter": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/animal-shelter.vue"
+    },
+    "./aquarium": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/aquarium.vue"
+    },
+    "./aquarium-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/aquarium-11.vue"
+    },
+    "./arrow": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arrow.vue"
+    },
+    "./art-gallery": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/art-gallery.vue"
+    },
+    "./art-gallery-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/art-gallery-11.vue"
+    },
+    "./attraction": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/attraction.vue"
+    },
+    "./attraction-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/attraction-11.vue"
+    },
+    "./bakery": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bakery.vue"
+    },
+    "./bakery-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bakery-11.vue"
+    },
+    "./bakery-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bakery-15.vue"
+    },
+    "./bank": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bank.vue"
+    },
+    "./bank-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bank-11.vue"
+    },
+    "./bank-jp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bank-jp.vue"
+    },
+    "./bank-jp-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bank-jp-11.vue"
+    },
+    "./bar": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bar.vue"
+    },
+    "./bar-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bar-11.vue"
+    },
+    "./barrier": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/barrier.vue"
+    },
+    "./barrier-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/barrier-11.vue"
+    },
+    "./baseball": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/baseball.vue"
+    },
+    "./baseball-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/baseball-11.vue"
+    },
+    "./basketball": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/basketball.vue"
+    },
+    "./basketball-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/basketball-11.vue"
+    },
+    "./bbq": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bbq.vue"
+    },
+    "./bbq-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bbq-11.vue"
+    },
+    "./beach": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/beach.vue"
+    },
+    "./beach-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/beach-11.vue"
+    },
+    "./beer": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/beer.vue"
+    },
+    "./beer-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/beer-11.vue"
+    },
+    "./bicycle": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bicycle.vue"
+    },
+    "./bicycle-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bicycle-11.vue"
+    },
+    "./bicycle-share": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bicycle-share.vue"
+    },
+    "./bicycle-share-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bicycle-share-11.vue"
+    },
+    "./blood-bank": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/blood-bank.vue"
+    },
+    "./blood-bank-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/blood-bank-11.vue"
+    },
+    "./bowling-alley": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bowling-alley.vue"
+    },
+    "./bowling-alley-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bowling-alley-11.vue"
+    },
+    "./bridge": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bridge.vue"
+    },
+    "./bridge-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bridge-11.vue"
+    },
+    "./building": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/building.vue"
+    },
+    "./building-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/building-11.vue"
+    },
+    "./building-alt1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/building-alt1.vue"
+    },
+    "./building-alt1-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/building-alt1-11.vue"
+    },
+    "./bus": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bus.vue"
+    },
+    "./bus-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bus-11.vue"
+    },
+    "./cafe": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cafe.vue"
+    },
+    "./cafe-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cafe-11.vue"
+    },
+    "./campsite": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/campsite.vue"
+    },
+    "./campsite-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/campsite-11.vue"
+    },
+    "./car": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/car.vue"
+    },
+    "./car-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/car-11.vue"
+    },
+    "./car-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/car-15.vue"
+    },
+    "./car-rental": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/car-rental.vue"
+    },
+    "./car-rental-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/car-rental-11.vue"
+    },
+    "./car-rental-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/car-rental-15.vue"
+    },
+    "./car-repair": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/car-repair.vue"
+    },
+    "./car-repair-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/car-repair-11.vue"
+    },
+    "./car-repair-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/car-repair-15.vue"
+    },
+    "./casino": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/casino.vue"
+    },
+    "./casino-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/casino-11.vue"
+    },
+    "./castle": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/castle.vue"
+    },
+    "./castle-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/castle-11.vue"
+    },
+    "./castle-jp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/castle-jp.vue"
+    },
+    "./castle-jp-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/castle-jp-11.vue"
+    },
+    "./caution": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/caution.vue"
+    },
+    "./cemetery": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cemetery.vue"
+    },
+    "./cemetery-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cemetery-11.vue"
+    },
+    "./cemetery-jp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cemetery-jp.vue"
+    },
+    "./cemetery-jp-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cemetery-jp-11.vue"
+    },
+    "./charging-station": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/charging-station.vue"
+    },
+    "./charging-station-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/charging-station-11.vue"
+    },
+    "./cinema": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cinema.vue"
+    },
+    "./cinema-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cinema-11.vue"
+    },
+    "./circle": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/circle.vue"
+    },
+    "./circle-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/circle-11.vue"
+    },
+    "./circle-stroked": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/circle-stroked.vue"
+    },
+    "./circle-stroked-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/circle-stroked-11.vue"
+    },
+    "./city": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/city.vue"
+    },
+    "./city-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/city-11.vue"
+    },
+    "./clothing-store": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/clothing-store.vue"
+    },
+    "./clothing-store-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/clothing-store-11.vue"
+    },
+    "./college": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/college.vue"
+    },
+    "./college-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/college-11.vue"
+    },
+    "./college-jp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/college-jp.vue"
+    },
+    "./college-jp-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/college-jp-11.vue"
+    },
+    "./commercial": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/commercial.vue"
+    },
+    "./commercial-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/commercial-11.vue"
+    },
+    "./communications-tower": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/communications-tower.vue"
+    },
+    "./communications-tower-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/communications-tower-11.vue"
+    },
+    "./confectionery": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/confectionery.vue"
+    },
+    "./confectionery-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/confectionery-11.vue"
+    },
+    "./construction": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/construction.vue"
+    },
+    "./convenience": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/convenience.vue"
+    },
+    "./convenience-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/convenience-11.vue"
+    },
+    "./cricket": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cricket.vue"
+    },
+    "./cricket-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cricket-11.vue"
+    },
+    "./cross": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cross.vue"
+    },
+    "./cross-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cross-11.vue"
+    },
+    "./dam": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dam.vue"
+    },
+    "./dam-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dam-11.vue"
+    },
+    "./danger": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/danger.vue"
+    },
+    "./danger-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/danger-11.vue"
+    },
+    "./defibrillator": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/defibrillator.vue"
+    },
+    "./defibrillator-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/defibrillator-11.vue"
+    },
+    "./dentist": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dentist.vue"
+    },
+    "./dentist-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dentist-11.vue"
+    },
+    "./diamond": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/diamond.vue"
+    },
+    "./doctor": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/doctor.vue"
+    },
+    "./doctor-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/doctor-11.vue"
+    },
+    "./dog-park": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dog-park.vue"
+    },
+    "./dog-park-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dog-park-11.vue"
+    },
+    "./drinking-water": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/drinking-water.vue"
+    },
+    "./drinking-water-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/drinking-water-11.vue"
+    },
+    "./drinking-water-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/drinking-water-15.vue"
+    },
+    "./elevator": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/elevator.vue"
+    },
+    "./embassy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/embassy.vue"
+    },
+    "./embassy-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/embassy-11.vue"
+    },
+    "./emergency-phone": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/emergency-phone.vue"
+    },
+    "./emergency-phone-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/emergency-phone-11.vue"
+    },
+    "./entrance": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/entrance.vue"
+    },
+    "./entrance-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/entrance-11.vue"
+    },
+    "./entrance-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/entrance-15.vue"
+    },
+    "./entrance-alt1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/entrance-alt1.vue"
+    },
+    "./entrance-alt1-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/entrance-alt1-11.vue"
+    },
+    "./farm": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/farm.vue"
+    },
+    "./farm-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/farm-11.vue"
+    },
+    "./fast-food": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fast-food.vue"
+    },
+    "./fast-food-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fast-food-11.vue"
+    },
+    "./fence": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fence.vue"
+    },
+    "./fence-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fence-11.vue"
+    },
+    "./ferry": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/ferry.vue"
+    },
+    "./ferry-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/ferry-11.vue"
+    },
+    "./ferry-jp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/ferry-jp.vue"
+    },
+    "./fire-station": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fire-station.vue"
+    },
+    "./fire-station-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fire-station-11.vue"
+    },
+    "./fire-station-jp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fire-station-jp.vue"
+    },
+    "./fire-station-jp-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fire-station-jp-11.vue"
+    },
+    "./fitness-centre": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fitness-centre.vue"
+    },
+    "./fitness-centre-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fitness-centre-11.vue"
+    },
+    "./florist": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/florist.vue"
+    },
+    "./florist-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/florist-11.vue"
+    },
+    "./fuel": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fuel.vue"
+    },
+    "./fuel-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fuel-11.vue"
+    },
+    "./furniture": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/furniture.vue"
+    },
+    "./furniture-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/furniture-11.vue"
+    },
+    "./furniture-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/furniture-15.vue"
+    },
+    "./gaming": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gaming.vue"
+    },
+    "./gaming-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gaming-11.vue"
+    },
+    "./garden": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/garden.vue"
+    },
+    "./garden-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/garden-11.vue"
+    },
+    "./garden-centre": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/garden-centre.vue"
+    },
+    "./garden-centre-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/garden-centre-11.vue"
+    },
+    "./gate": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gate.vue"
+    },
+    "./gift": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gift.vue"
+    },
+    "./gift-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gift-11.vue"
+    },
+    "./globe": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/globe.vue"
+    },
+    "./globe-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/globe-11.vue"
+    },
+    "./globe-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/globe-15.vue"
+    },
+    "./golf": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/golf.vue"
+    },
+    "./golf-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/golf-11.vue"
+    },
+    "./grocery": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/grocery.vue"
+    },
+    "./grocery-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/grocery-11.vue"
+    },
+    "./hairdresser": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hairdresser.vue"
+    },
+    "./hairdresser-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hairdresser-11.vue"
+    },
+    "./harbor": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/harbor.vue"
+    },
+    "./harbor-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/harbor-11.vue"
+    },
+    "./hardware": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hardware.vue"
+    },
+    "./hardware-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hardware-11.vue"
+    },
+    "./heart": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/heart.vue"
+    },
+    "./heart-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/heart-11.vue"
+    },
+    "./heliport": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/heliport.vue"
+    },
+    "./heliport-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/heliport-11.vue"
+    },
+    "./highway-rest-area": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/highway-rest-area.vue"
+    },
+    "./historic": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/historic.vue"
+    },
+    "./home": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/home.vue"
+    },
+    "./home-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/home-11.vue"
+    },
+    "./horse-riding": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/horse-riding.vue"
+    },
+    "./horse-riding-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/horse-riding-11.vue"
+    },
+    "./hospital": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hospital.vue"
+    },
+    "./hospital-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hospital-11.vue"
+    },
+    "./hospital-jp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hospital-jp.vue"
+    },
+    "./hospital-jp-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hospital-jp-11.vue"
+    },
+    "./hot-spring": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hot-spring.vue"
+    },
+    "./ice-cream": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/ice-cream.vue"
+    },
+    "./ice-cream-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/ice-cream-11.vue"
+    },
+    "./ice-cream-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/ice-cream-15.vue"
+    },
+    "./industry": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/industry.vue"
+    },
+    "./industry-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/industry-11.vue"
+    },
+    "./information": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/information.vue"
+    },
+    "./information-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/information-11.vue"
+    },
+    "./jewelry-store": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jewelry-store.vue"
+    },
+    "./jewelry-store-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jewelry-store-11.vue"
+    },
+    "./karaoke": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/karaoke.vue"
+    },
+    "./karaoke-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/karaoke-11.vue"
+    },
+    "./karaoke-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/karaoke-15.vue"
+    },
+    "./landmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/landmark.vue"
+    },
+    "./landmark-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/landmark-11.vue"
+    },
+    "./landmark-jp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/landmark-jp.vue"
+    },
+    "./landmark-jp-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/landmark-jp-11.vue"
+    },
+    "./landuse": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/landuse.vue"
+    },
+    "./landuse-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/landuse-11.vue"
+    },
+    "./laundry": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/laundry.vue"
+    },
+    "./laundry-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/laundry-11.vue"
+    },
+    "./library": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/library.vue"
+    },
+    "./library-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/library-11.vue"
+    },
+    "./library-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/library-15.vue"
+    },
+    "./lift-gate": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lift-gate.vue"
+    },
+    "./lighthouse": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lighthouse.vue"
+    },
+    "./lighthouse-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lighthouse-11.vue"
+    },
+    "./lighthouse-jp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lighthouse-jp.vue"
+    },
+    "./lodging": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lodging.vue"
+    },
+    "./lodging-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lodging-11.vue"
+    },
+    "./logging": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/logging.vue"
+    },
+    "./logging-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/logging-11.vue"
+    },
+    "./marae": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/marae.vue"
+    },
+    "./marker": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/marker.vue"
+    },
+    "./marker-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/marker-11.vue"
+    },
+    "./marker-stroked": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/marker-stroked.vue"
+    },
+    "./marker-stroked-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/marker-stroked-11.vue"
+    },
+    "./mobile-phone": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mobile-phone.vue"
+    },
+    "./mobile-phone-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mobile-phone-11.vue"
+    },
+    "./monument": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/monument.vue"
+    },
+    "./monument-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/monument-11.vue"
+    },
+    "./monument-jp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/monument-jp.vue"
+    },
+    "./mountain": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mountain.vue"
+    },
+    "./mountain-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mountain-11.vue"
+    },
+    "./museum": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/museum.vue"
+    },
+    "./museum-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/museum-11.vue"
+    },
+    "./museum-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/museum-15.vue"
+    },
+    "./music": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/music.vue"
+    },
+    "./music-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/music-11.vue"
+    },
+    "./natural": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/natural.vue"
+    },
+    "./natural-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/natural-11.vue"
+    },
+    "./nightclub": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nightclub.vue"
+    },
+    "./observation-tower": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/observation-tower.vue"
+    },
+    "./optician": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/optician.vue"
+    },
+    "./optician-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/optician-11.vue"
+    },
+    "./paint": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/paint.vue"
+    },
+    "./paint-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/paint-11.vue"
+    },
+    "./park": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/park.vue"
+    },
+    "./park-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/park-11.vue"
+    },
+    "./park-alt1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/park-alt1.vue"
+    },
+    "./park-alt1-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/park-alt1-11.vue"
+    },
+    "./parking": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/parking.vue"
+    },
+    "./parking-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/parking-11.vue"
+    },
+    "./parking-garage": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/parking-garage.vue"
+    },
+    "./parking-garage-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/parking-garage-11.vue"
+    },
+    "./parking-paid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/parking-paid.vue"
+    },
+    "./pharmacy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pharmacy.vue"
+    },
+    "./pharmacy-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pharmacy-11.vue"
+    },
+    "./picnic-site": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/picnic-site.vue"
+    },
+    "./picnic-site-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/picnic-site-11.vue"
+    },
+    "./pitch": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pitch.vue"
+    },
+    "./pitch-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pitch-11.vue"
+    },
+    "./place-of-worship": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/place-of-worship.vue"
+    },
+    "./place-of-worship-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/place-of-worship-11.vue"
+    },
+    "./playground": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/playground.vue"
+    },
+    "./playground-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/playground-11.vue"
+    },
+    "./police": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/police.vue"
+    },
+    "./police-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/police-11.vue"
+    },
+    "./police-jp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/police-jp.vue"
+    },
+    "./police-jp-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/police-jp-11.vue"
+    },
+    "./post": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/post.vue"
+    },
+    "./post-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/post-11.vue"
+    },
+    "./post-jp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/post-jp.vue"
+    },
+    "./post-jp-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/post-jp-11.vue"
+    },
+    "./prison": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/prison.vue"
+    },
+    "./prison-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/prison-11.vue"
+    },
+    "./racetrack": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/racetrack.vue"
+    },
+    "./racetrack-boat": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/racetrack-boat.vue"
+    },
+    "./racetrack-cycling": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/racetrack-cycling.vue"
+    },
+    "./racetrack-horse": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/racetrack-horse.vue"
+    },
+    "./rail": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rail.vue"
+    },
+    "./rail-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rail-11.vue"
+    },
+    "./rail-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rail-light.vue"
+    },
+    "./rail-light-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rail-light-11.vue"
+    },
+    "./rail-metro": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rail-metro.vue"
+    },
+    "./rail-metro-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rail-metro-11.vue"
+    },
+    "./ranger-station": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/ranger-station.vue"
+    },
+    "./ranger-station-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/ranger-station-11.vue"
+    },
+    "./recycling": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/recycling.vue"
+    },
+    "./recycling-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/recycling-11.vue"
+    },
+    "./religious-buddhist": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/religious-buddhist.vue"
+    },
+    "./religious-buddhist-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/religious-buddhist-11.vue"
+    },
+    "./religious-christian": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/religious-christian.vue"
+    },
+    "./religious-christian-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/religious-christian-11.vue"
+    },
+    "./religious-jewish": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/religious-jewish.vue"
+    },
+    "./religious-jewish-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/religious-jewish-11.vue"
+    },
+    "./religious-muslim": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/religious-muslim.vue"
+    },
+    "./religious-muslim-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/religious-muslim-11.vue"
+    },
+    "./religious-shinto": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/religious-shinto.vue"
+    },
+    "./religious-shinto-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/religious-shinto-11.vue"
+    },
+    "./residential-community": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/residential-community.vue"
+    },
+    "./residential-community-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/residential-community-11.vue"
+    },
+    "./restaurant": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/restaurant.vue"
+    },
+    "./restaurant-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/restaurant-11.vue"
+    },
+    "./restaurant-bbq": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/restaurant-bbq.vue"
+    },
+    "./restaurant-noodle": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/restaurant-noodle.vue"
+    },
+    "./restaurant-noodle-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/restaurant-noodle-11.vue"
+    },
+    "./restaurant-pizza": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/restaurant-pizza.vue"
+    },
+    "./restaurant-pizza-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/restaurant-pizza-11.vue"
+    },
+    "./restaurant-seafood": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/restaurant-seafood.vue"
+    },
+    "./restaurant-seafood-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/restaurant-seafood-11.vue"
+    },
+    "./restaurant-sushi": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/restaurant-sushi.vue"
+    },
+    "./road-accident": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/road-accident.vue"
+    },
+    "./roadblock": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/roadblock.vue"
+    },
+    "./roadblock-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/roadblock-11.vue"
+    },
+    "./rocket": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rocket.vue"
+    },
+    "./rocket-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rocket-11.vue"
+    },
+    "./school": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/school.vue"
+    },
+    "./school-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/school-11.vue"
+    },
+    "./school-jp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/school-jp.vue"
+    },
+    "./school-jp-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/school-jp-11.vue"
+    },
+    "./scooter": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/scooter.vue"
+    },
+    "./scooter-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/scooter-11.vue"
+    },
+    "./shelter": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/shelter.vue"
+    },
+    "./shelter-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/shelter-11.vue"
+    },
+    "./shoe": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/shoe.vue"
+    },
+    "./shoe-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/shoe-11.vue"
+    },
+    "./shoe-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/shoe-15.vue"
+    },
+    "./shop": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/shop.vue"
+    },
+    "./shop-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/shop-11.vue"
+    },
+    "./skateboard": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/skateboard.vue"
+    },
+    "./skateboard-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/skateboard-11.vue"
+    },
+    "./skiing": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/skiing.vue"
+    },
+    "./skiing-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/skiing-11.vue"
+    },
+    "./slaughterhouse": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/slaughterhouse.vue"
+    },
+    "./slaughterhouse-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/slaughterhouse-11.vue"
+    },
+    "./slipway": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/slipway.vue"
+    },
+    "./slipway-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/slipway-11.vue"
+    },
+    "./snowmobile": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/snowmobile.vue"
+    },
+    "./snowmobile-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/snowmobile-11.vue"
+    },
+    "./soccer": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/soccer.vue"
+    },
+    "./soccer-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/soccer-11.vue"
+    },
+    "./square": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/square.vue"
+    },
+    "./square-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/square-11.vue"
+    },
+    "./square-stroked": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/square-stroked.vue"
+    },
+    "./square-stroked-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/square-stroked-11.vue"
+    },
+    "./stadium": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stadium.vue"
+    },
+    "./stadium-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stadium-11.vue"
+    },
+    "./star": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/star.vue"
+    },
+    "./star-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/star-11.vue"
+    },
+    "./star-stroked": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/star-stroked.vue"
+    },
+    "./star-stroked-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/star-stroked-11.vue"
+    },
+    "./suitcase": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/suitcase.vue"
+    },
+    "./suitcase-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/suitcase-11.vue"
+    },
+    "./sushi-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sushi-11.vue"
+    },
+    "./swimming": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/swimming.vue"
+    },
+    "./swimming-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/swimming-11.vue"
+    },
+    "./table-tennis": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/table-tennis.vue"
+    },
+    "./table-tennis-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/table-tennis-11.vue"
+    },
+    "./taxi": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/taxi.vue"
+    },
+    "./teahouse": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/teahouse.vue"
+    },
+    "./teahouse-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/teahouse-11.vue"
+    },
+    "./telephone": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/telephone.vue"
+    },
+    "./telephone-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/telephone-11.vue"
+    },
+    "./tennis": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tennis.vue"
+    },
+    "./tennis-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tennis-11.vue"
+    },
+    "./terminal": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/terminal.vue"
+    },
+    "./theatre": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/theatre.vue"
+    },
+    "./theatre-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/theatre-11.vue"
+    },
+    "./toilet": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/toilet.vue"
+    },
+    "./toilet-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/toilet-11.vue"
+    },
+    "./toll": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/toll.vue"
+    },
+    "./town": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/town.vue"
+    },
+    "./town-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/town-11.vue"
+    },
+    "./town-hall": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/town-hall.vue"
+    },
+    "./town-hall-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/town-hall-11.vue"
+    },
+    "./town-hall-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/town-hall-15.vue"
+    },
+    "./triangle": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/triangle.vue"
+    },
+    "./triangle-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/triangle-11.vue"
+    },
+    "./triangle-stroked": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/triangle-stroked.vue"
+    },
+    "./triangle-stroked-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/triangle-stroked-11.vue"
+    },
+    "./tunnel": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tunnel.vue"
+    },
+    "./veterinary": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/veterinary.vue"
+    },
+    "./veterinary-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/veterinary-11.vue"
+    },
+    "./veterinary-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/veterinary-15.vue"
+    },
+    "./viewpoint": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/viewpoint.vue"
+    },
+    "./viewpoint-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/viewpoint-11.vue"
+    },
+    "./village": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/village.vue"
+    },
+    "./village-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/village-11.vue"
+    },
+    "./volcano": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/volcano.vue"
+    },
+    "./volcano-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/volcano-11.vue"
+    },
+    "./volleyball": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/volleyball.vue"
+    },
+    "./volleyball-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/volleyball-11.vue"
+    },
+    "./warehouse": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/warehouse.vue"
+    },
+    "./warehouse-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/warehouse-11.vue"
+    },
+    "./waste-basket": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/waste-basket.vue"
+    },
+    "./waste-basket-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/waste-basket-11.vue"
+    },
+    "./watch": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/watch.vue"
+    },
+    "./watch-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/watch-11.vue"
+    },
+    "./watch-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/watch-15.vue"
+    },
+    "./water": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/water.vue"
+    },
+    "./water-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/water-11.vue"
+    },
+    "./waterfall": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/waterfall.vue"
+    },
+    "./waterfall-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/waterfall-11.vue"
+    },
+    "./watermill": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/watermill.vue"
+    },
+    "./watermill-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/watermill-11.vue"
+    },
+    "./wetland": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wetland.vue"
+    },
+    "./wetland-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wetland-11.vue"
+    },
+    "./wheelchair": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wheelchair.vue"
+    },
+    "./wheelchair-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wheelchair-11.vue"
+    },
+    "./windmill": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/windmill.vue"
+    },
+    "./windmill-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/windmill-11.vue"
+    },
+    "./zoo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/z/zoo.vue"
+    },
+    "./zoo-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/z/zoo-11.vue"
+    },
+    "./aerialway-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/aerialway-15.vue"
+    },
+    "./airfield-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/airfield-15.vue"
+    },
+    "./airport-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/airport-15.vue"
+    },
+    "./alcohol-shop-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/alcohol-shop-15.vue"
+    },
+    "./america-football-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/america-football-11.vue"
+    },
+    "./america-football-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/america-football-15.vue"
+    },
+    "./american-football-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/american-football-15.vue"
+    },
+    "./amusement-park-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/amusement-park-15.vue"
+    },
+    "./aquarium-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/aquarium-15.vue"
+    },
+    "./art-gallery-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/art-gallery-15.vue"
+    },
+    "./attraction-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/attraction-15.vue"
+    },
+    "./bank-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bank-15.vue"
+    },
+    "./bank-jp-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bank-jp-15.vue"
+    },
+    "./bar-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bar-15.vue"
+    },
+    "./barrier-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/barrier-15.vue"
+    },
+    "./baseball-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/baseball-15.vue"
+    },
+    "./basketball-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/basketball-15.vue"
+    },
+    "./bbq-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bbq-15.vue"
+    },
+    "./beach-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/beach-15.vue"
+    },
+    "./beer-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/beer-15.vue"
+    },
+    "./bicycle-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bicycle-15.vue"
+    },
+    "./bicycle-share-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bicycle-share-15.vue"
+    },
+    "./blood-bank-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/blood-bank-15.vue"
+    },
+    "./bowling-alley-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bowling-alley-15.vue"
+    },
+    "./bridge-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bridge-15.vue"
+    },
+    "./buddhism-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/buddhism-11.vue"
+    },
+    "./buddhism-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/buddhism-15.vue"
+    },
+    "./building-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/building-15.vue"
+    },
+    "./building-alt1-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/building-alt1-15.vue"
+    },
+    "./bus-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bus-15.vue"
+    },
+    "./cafe-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cafe-15.vue"
+    },
+    "./campsite-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/campsite-15.vue"
+    },
+    "./casino-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/casino-15.vue"
+    },
+    "./castle-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/castle-15.vue"
+    },
+    "./castle-jp-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/castle-jp-15.vue"
+    },
+    "./cemetery-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cemetery-15.vue"
+    },
+    "./cemetery-jp-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cemetery-jp-15.vue"
+    },
+    "./charging-station-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/charging-station-15.vue"
+    },
+    "./cinema-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cinema-15.vue"
+    },
+    "./circle-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/circle-15.vue"
+    },
+    "./circle-stroked-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/circle-stroked-15.vue"
+    },
+    "./city-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/city-15.vue"
+    },
+    "./clothing-store-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/clothing-store-15.vue"
+    },
+    "./college-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/college-15.vue"
+    },
+    "./college-jp-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/college-jp-15.vue"
+    },
+    "./commercial-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/commercial-15.vue"
+    },
+    "./communications-tower-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/communications-tower-15.vue"
+    },
+    "./confectionary-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/confectionary-11.vue"
+    },
+    "./confectionary-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/confectionary-15.vue"
+    },
+    "./confectionery-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/confectionery-15.vue"
+    },
+    "./convenience-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/convenience-15.vue"
+    },
+    "./convenience-store-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/convenience-store-11.vue"
+    },
+    "./convenience-store-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/convenience-store-15.vue"
+    },
+    "./cricket-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cricket-15.vue"
+    },
+    "./cross-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cross-15.vue"
+    },
+    "./dam-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dam-15.vue"
+    },
+    "./danger-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/danger-15.vue"
+    },
+    "./defibrillator-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/defibrillator-15.vue"
+    },
+    "./dentist-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dentist-15.vue"
+    },
+    "./doctor-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/doctor-15.vue"
+    },
+    "./dog-park-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dog-park-15.vue"
+    },
+    "./embassy-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/embassy-15.vue"
+    },
+    "./emergency-phone-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/emergency-phone-15.vue"
+    },
+    "./entrance-alt1-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/entrance-alt1-15.vue"
+    },
+    "./farm-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/farm-15.vue"
+    },
+    "./fast-food-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fast-food-15.vue"
+    },
+    "./fence-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fence-15.vue"
+    },
+    "./ferry-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/ferry-15.vue"
+    },
+    "./fire-station-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fire-station-15.vue"
+    },
+    "./fire-station-jp-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fire-station-jp-15.vue"
+    },
+    "./fitness-center-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fitness-center-11.vue"
+    },
+    "./fitness-center-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fitness-center-15.vue"
+    },
+    "./fitness-centre-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fitness-centre-15.vue"
+    },
+    "./florist-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/florist-15.vue"
+    },
+    "./fuel-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fuel-15.vue"
+    },
+    "./gaming-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gaming-15.vue"
+    },
+    "./garden-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/garden-15.vue"
+    },
+    "./garden-center-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/garden-center-11.vue"
+    },
+    "./garden-center-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/garden-center-15.vue"
+    },
+    "./garden-centre-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/garden-centre-15.vue"
+    },
+    "./gift-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gift-15.vue"
+    },
+    "./golf-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/golf-15.vue"
+    },
+    "./grocery-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/grocery-15.vue"
+    },
+    "./hairdresser-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hairdresser-15.vue"
+    },
+    "./harbor-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/harbor-15.vue"
+    },
+    "./hardware-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hardware-15.vue"
+    },
+    "./heart-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/heart-15.vue"
+    },
+    "./heliport-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/heliport-15.vue"
+    },
+    "./home-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/home-15.vue"
+    },
+    "./horse-riding-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/horse-riding-15.vue"
+    },
+    "./hospital-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hospital-15.vue"
+    },
+    "./hospital-jp-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hospital-jp-15.vue"
+    },
+    "./industry-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/industry-15.vue"
+    },
+    "./information-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/information-15.vue"
+    },
+    "./jewelry-11": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jewelry-11.vue"
+    },
+    "./jewelry-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jewelry-15.vue"
+    },
+    "./jewelry-store-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jewelry-store-15.vue"
+    },
+    "./landmark-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/landmark-15.vue"
+    },
+    "./landmark-jp-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/landmark-jp-15.vue"
+    },
+    "./landuse-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/landuse-15.vue"
+    },
+    "./laundry-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/laundry-15.vue"
+    },
+    "./lighthouse-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lighthouse-15.vue"
+    },
+    "./lodging-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lodging-15.vue"
+    },
+    "./logging-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/logging-15.vue"
+    },
+    "./marker-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/marker-15.vue"
+    },
+    "./marker-stroked-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/marker-stroked-15.vue"
+    },
+    "./mobile-phone-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mobile-phone-15.vue"
+    },
+    "./monument-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/monument-15.vue"
+    },
+    "./mountain-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mountain-15.vue"
+    },
+    "./music-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/music-15.vue"
+    },
+    "./natural-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/natural-15.vue"
+    },
+    "./optician-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/optician-15.vue"
+    },
+    "./paint-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/paint-15.vue"
+    },
+    "./park-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/park-15.vue"
+    },
+    "./park-alt1-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/park-alt1-15.vue"
+    },
+    "./parking-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/parking-15.vue"
+    },
+    "./parking-garage-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/parking-garage-15.vue"
+    },
+    "./pharmacy-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pharmacy-15.vue"
+    },
+    "./picnic-site-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/picnic-site-15.vue"
+    },
+    "./pitch-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pitch-15.vue"
+    },
+    "./place-of-worship-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/place-of-worship-15.vue"
+    },
+    "./playground-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/playground-15.vue"
+    },
+    "./police-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/police-15.vue"
+    },
+    "./police-jp-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/police-jp-15.vue"
+    },
+    "./post-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/post-15.vue"
+    },
+    "./post-jp-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/post-jp-15.vue"
+    },
+    "./prison-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/prison-15.vue"
+    },
+    "./rail-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rail-15.vue"
+    },
+    "./rail-light-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rail-light-15.vue"
+    },
+    "./rail-metro-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rail-metro-15.vue"
+    },
+    "./ranger-station-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/ranger-station-15.vue"
+    },
+    "./recycling-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/recycling-15.vue"
+    },
+    "./religious-buddhist-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/religious-buddhist-15.vue"
+    },
+    "./religious-christian-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/religious-christian-15.vue"
+    },
+    "./religious-jewish-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/religious-jewish-15.vue"
+    },
+    "./religious-muslim-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/religious-muslim-15.vue"
+    },
+    "./religious-shinto-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/religious-shinto-15.vue"
+    },
+    "./residential-community-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/residential-community-15.vue"
+    },
+    "./restaurant-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/restaurant-15.vue"
+    },
+    "./restaurant-noodle-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/restaurant-noodle-15.vue"
+    },
+    "./restaurant-pizza-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/restaurant-pizza-15.vue"
+    },
+    "./restaurant-seafood-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/restaurant-seafood-15.vue"
+    },
+    "./roadblock-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/roadblock-15.vue"
+    },
+    "./rocket-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rocket-15.vue"
+    },
+    "./school-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/school-15.vue"
+    },
+    "./school-jp-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/school-jp-15.vue"
+    },
+    "./scooter-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/scooter-15.vue"
+    },
+    "./shelter-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/shelter-15.vue"
+    },
+    "./shop-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/shop-15.vue"
+    },
+    "./skateboard-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/skateboard-15.vue"
+    },
+    "./skiing-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/skiing-15.vue"
+    },
+    "./slaughterhouse-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/slaughterhouse-15.vue"
+    },
+    "./slipway-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/slipway-15.vue"
+    },
+    "./snowmobile-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/snowmobile-15.vue"
+    },
+    "./soccer-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/soccer-15.vue"
+    },
+    "./square-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/square-15.vue"
+    },
+    "./square-stroked-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/square-stroked-15.vue"
+    },
+    "./stadium-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stadium-15.vue"
+    },
+    "./star-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/star-15.vue"
+    },
+    "./star-stroked-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/star-stroked-15.vue"
+    },
+    "./suitcase-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/suitcase-15.vue"
+    },
+    "./sushi-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sushi-15.vue"
+    },
+    "./swimming-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/swimming-15.vue"
+    },
+    "./table-tennis-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/table-tennis-15.vue"
+    },
+    "./teahouse-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/teahouse-15.vue"
+    },
+    "./telephone-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/telephone-15.vue"
+    },
+    "./tennis-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tennis-15.vue"
+    },
+    "./theatre-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/theatre-15.vue"
+    },
+    "./toilet-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/toilet-15.vue"
+    },
+    "./toll-booth": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/toll-booth.vue"
+    },
+    "./town-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/town-15.vue"
+    },
+    "./triangle-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/triangle-15.vue"
+    },
+    "./triangle-stroked-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/triangle-stroked-15.vue"
+    },
+    "./viewpoint-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/viewpoint-15.vue"
+    },
+    "./village-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/village-15.vue"
+    },
+    "./volcano-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/volcano-15.vue"
+    },
+    "./volleyball-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/volleyball-15.vue"
+    },
+    "./warehouse-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/warehouse-15.vue"
+    },
+    "./waste-basket-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/waste-basket-15.vue"
+    },
+    "./water-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/water-15.vue"
+    },
+    "./waterfall-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/waterfall-15.vue"
+    },
+    "./watermill-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/watermill-15.vue"
+    },
+    "./wetland-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wetland-15.vue"
+    },
+    "./wheelchair-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wheelchair-15.vue"
+    },
+    "./windmill-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/windmill-15.vue"
+    },
+    "./zoo-15": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/z/zoo-15.vue"
+    },
+    "./*": "./*"
+  },
+  "dependencies": {
+    "@iconify/css-vue": "^1.0.0"
+  },
+  "repository": "github:iconify/icons-vue#maki"
+}

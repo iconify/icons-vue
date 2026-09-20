@@ -1,0 +1,20 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/i/ipq1z-bjh.css';
+import '../../css/l/lt7j86jjt.css';
+import '../../css/c/cz_7jaczd.css';
+import '../../css/l/l6md27rub.css';
+import '../../css/f/fz9rjimkc.css';
+import '../../css/l/lgwh98i9y.css';
+import '../../css/l/lq7a-_8su.css';
+import '../../css/q/qi4ad9bta.css';
+import '../../css/i/i0kw3he6n.css';
+import '../../css/p/pkibk1t_y.css';
+import '../../css/n/n_csmurbe.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ipq1z-bjh"><path class="lt7j86jjt"/><path class="cz_7jaczd"/><path class="l6md27rub"/><path class="fz9rjimkc"/><path class="lgwh98i9y"/><path class="lq7a-_8su"/><path class="qi4ad9bta"/><path class="i0kw3he6n"/><path class="pkibk1t_y"/><path class="n_csmurbe"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:sunset-linear" /></template>

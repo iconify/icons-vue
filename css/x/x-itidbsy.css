@@ -1,0 +1,8 @@
+.x-itidbsy {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M10 18L4 12L10 6M4 12H14.5M20 12H17.5");
+}

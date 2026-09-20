@@ -1,0 +1,12 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/k/k2u665ban.css';
+import '../../css/s/szel5gblr.css';
+import '../../css/g/gb-hbngty.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="k2u665ban"><path class="szel5gblr"/><path class="gb-hbngty"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="streamline-sharp-color:new-folder" /></template>

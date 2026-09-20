@@ -1,0 +1,8 @@
+.bmkkycbbd {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M6 8h12M6 12h12M6 16h12");
+}

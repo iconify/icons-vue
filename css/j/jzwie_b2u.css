@@ -1,0 +1,8 @@
+.jzwie_b2u {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M20 4L4 20M4 7h3m3 0H7m0 0V4m0 3v3m7 7h6");
+}

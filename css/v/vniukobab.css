@@ -1,0 +1,7 @@
+.vniukobab {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M14 8H9m2 4H9");
+}

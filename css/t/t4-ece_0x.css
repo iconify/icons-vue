@@ -1,0 +1,7 @@
+.t4-ece_0x {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M8 10V7a4 4 0 0 1 4-4v0a4 4 0 0 1 4 4v3");
+}

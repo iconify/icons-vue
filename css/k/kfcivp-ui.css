@@ -1,0 +1,8 @@
+.kfcivp-ui {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M5 19h14M12 5L5 15h14z");
+}

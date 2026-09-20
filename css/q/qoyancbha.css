@@ -1,0 +1,7 @@
+.qoyancbha {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M9 18v-8m12 7V7M9 10V6l12-3v4M9 10l12-3");
+}

@@ -1,0 +1,77 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":128,"height":128};
+const content = `<path class="pr9dr3bfb"/><ellipse class="v05uwabhx"/><path class="fb0u12btc"/><path class="bf_9tcbwt"/><path class="ige5v93ce"/><path class="x2wq593ti"/><path class="q39iusaag"/><path class="m2vfqogue"/><path class="oc9k9cj0z"/><path class="pt-ct34yl"/><defs><path id="SVGTclfDz1H" class="iajsmq_0l"/></defs><use href="#SVGTclfDz1H" class="u46is_brm"/><path class="c32uc_iic"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="noto-v1:person-tipping-hand" /></template>
+<style>
+.bf_9tcbwt {
+  fill: var(--svg-color--e49800, #e49800);
+  d: path("M50.52 90.25h-9.08v9.59c0 4.34 3.7 7.86 8.26 7.86h1.65c4.56 0 8.26-3.52 8.26-7.86v-9.59z");
+}
+
+.c32uc_iic {
+  fill: var(--svg-color--fbc11b, #fbc11b);
+  d: path("M90.91 71.9c4.46-.13 7.42-.86 13.41-2.48c0 0 10.44-3.55 17.36-4.59c1.51-.23 2.08-2.58.45-3.3c-3.79-1.2-15.65 1.36-15.65 1.36c.49-3.17-3.51-3.35-5.75-2.82L90.4 62.46c-5.98 1.37-5.14 9.66.51 9.44");
+}
+
+.fb0u12btc {
+  fill: var(--svg-color--651fff, #651fff);
+  d: path("M7 118.09v9.89h87.14v-9.89c0-15.17-21.39-22.87-43.24-22.84c-21.71.03-43.9 6.78-43.9 22.84");
+}
+
+.iajsmq_0l {
+  d: path("m104.43 128l-2.28-55.89c-.03-.92-.75-1.68-1.67-1.74l-13.09-.78c-.96-.07-1.8.63-1.91 1.59L76.71 128z");
+}
+
+.ige5v93ce {
+  fill: var(--svg-color--fbc11b, #fbc11b);
+  d: path("M50.46 13.57c-24.35 0-30.72 18.87-30.72 45.39c0 26.51 18.89 34.6 30.72 34.6s30.72-8.09 30.72-34.6s-6.37-45.39-30.72-45.39");
+}
+
+.m2vfqogue {
+  fill: var(--svg-color--e49500, #e49500);
+  d: path("M54.98 70.27c-1.57.44-3.2.66-4.46.66s-2.89-.22-4.46-.66c-.67-.19-.94.45-.69.87c.5.88 2.5 2.64 5.15 2.64s4.65-1.77 5.15-2.64c.24-.43-.02-1.06-.69-.87");
+}
+
+.oc9k9cj0z {
+  fill: var(--svg-color--6d4c41, #6d4c41);
+  d: path("M59.64 34.43c-3.23 3.11-19.29 17.58-41.42 21.35V26.11S27.77 7.16 50.69 7.16s32.47 19.43 32.47 19.43v29.19S68.14 50.02 60.6 34.61a.6.6 0 0 0-.96-.18");
+}
+
+.pr9dr3bfb {
+  fill: var(--svg-color--6d4c41, #6d4c41);
+  d: path("M15.08 113.53C8.57 91.19 8.57 45.39 8.57 45.39l84-.33s0 41.49-4.88 68.19z");
+}
+
+.pt-ct34yl {
+  d: path("M21.92 119.54h3V128h-3zM76.71 128h-3.5l4.1-17.76c.36-1.82 1.24-2.55 2.53-2.55z");
+  opacity: var(--svg-opacity--0-54, 0.54);
+}
+
+.q39iusaag {
+  fill: var(--svg-color--444, #444);
+  d: path("M40.07 60.73c0 2.84-1.9 5.15-4.26 5.15c-2.35 0-4.27-2.3-4.27-5.15s1.91-5.15 4.27-5.15c2.36-.01 4.26 2.3 4.26 5.15m21 0c0 2.84 1.9 5.15 4.27 5.15c2.35 0 4.26-2.3 4.26-5.15s-1.91-5.15-4.26-5.15c-2.37-.01-4.27 2.3-4.27 5.15");
+}
+
+.u46is_brm {
+  fill: var(--svg-color--651fff, #651fff);
+}
+
+.v05uwabhx {
+  cx: 50.57px;
+  cy: 46.11px;
+  fill: var(--svg-color--6d4c41, #6d4c41);
+  rx: 42px;
+  ry: 39.5px;
+}
+
+.x2wq593ti {
+  fill: var(--svg-color--513f35, #513f35);
+  d: path("M59.8 78.11H41.34c-1.06 0-1.51.71-.81 1.78c.98 1.49 4.61 4.36 10.04 4.36s9.06-2.87 10.04-4.36c.7-1.07.25-1.78-.81-1.78");
+}
+
+</style>

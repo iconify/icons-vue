@@ -1,0 +1,49 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":128,"height":128};
+const content = `<path class="dxh_r1b1w"/><path class="odyli_bzr"/><path class="uca6jbbfx"/><path class="fkiro9bhk"/><defs><path id="SVGYAmVIegx" class="h4xfb3buo"/></defs><use href="#SVGYAmVIegx" class="r_da3ubjp"/><clipPath id="SVG9kR54jgf"><use href="#SVGYAmVIegx"/></clipPath><path clip-path="url(#SVG9kR54jgf)" class="a0tnbf97g"/><path class="l-kgl7b_m"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="noto-v1:desktop-computer" /></template>
+<style>
+.a0tnbf97g {
+  fill: var(--svg-color--eceff1, #eceff1);
+  d: path("M50.91 12.52L34.47 67.61L9 67.33V13.07z");
+}
+
+.dxh_r1b1w {
+  fill: var(--svg-color--b0bec5, #b0bec5);
+  d: path("M43 84.48H31.24c-2.29 0-4.16 1.74-4.16 3.88v2.63h50.15v-2.63c0-2.13-1.88-3.88-4.17-3.88H61v-6.69l36.96.01c3.13 0 5.7-2.57 5.7-5.7l.01-60.86c0-3.14-2.57-5.71-5.7-5.71L6.36 5.51c-3.14 0-5.71 2.57-5.71 5.7L.63 72.08c0 3.14 2.57 5.71 5.71 5.71l36.86.01zm47.95 12.65l-76.64-.02c-1.07 0-2.12.85-2.33 1.9l-4.94 21.96c-.21 1.04 1.01 1.47 2.08 1.47l86.99.02c1.06 0 2.1-.43 1.89-1.47l-4.73-21.97c-.22-1.03-1.26-1.89-2.32-1.89");
+}
+
+.fkiro9bhk {
+  fill: var(--svg-color--78909c, #78909c);
+  d: path("M43 78h18v3H43zM7.04 120.99h90.97v2H7.04zm117.99-6.7s-4.4 4.09-10.33.01c-5.52-3.8-8.62-11.22-8.89-11.93c-.03.02 2.99 1.33 5.54 3.59c1.52 1.34 4.33 5.07 7.4 6.99c2.57 1.61 5.49 1.6 6.28 1.34");
+}
+
+.h4xfb3buo {
+  d: path("M15.25 62.61c-2.23 0-4.11-1.8-4.11-4.12v-39.4c0-2.33 1.89-4.42 4.11-4.42h73.48c2.21 0 4.13 2.09 4.13 4.42v39.4c0 2.33-1.92 4.12-4.13 4.12z");
+}
+
+.l-kgl7b_m {
+  fill: var(--svg-color--78909c, #78909c);
+  d: path("M90 19v39H14V19zm.11-5H13.85C11.54 14 9 15.96 9 18.33v40.22C9 60.93 11.54 63 13.85 63H90.1c2.3 0 4.9-2.07 4.9-4.45V18.33c0-2.38-2.37-4.33-4.66-4.33z");
+}
+
+.odyli_bzr {
+  fill: var(--svg-color--fff, #fff);
+  d: path("m18.71 102.68l68.39.01c1.07 0 1.94.87 1.94 1.94s-.87 1.94-1.94 1.94l-68.39-.01c-1.06 0-1.94-.87-1.94-1.94c0-1.08.88-1.94 1.94-1.94m70.25 13.24l-72.11-.02c-1.07 0-1.94-.87-1.94-1.94s.87-1.94 1.94-1.94l72.11.02c1.06 0 1.93.87 1.93 1.94c.01 1.07-.86 1.94-1.93 1.94");
+}
+
+.r_da3ubjp {
+  fill: var(--svg-color--78909c, #78909c);
+}
+
+.uca6jbbfx {
+  fill: var(--svg-color--b0bec5, #b0bec5);
+  d: path("M125.01 114.29c-4.42 3.55-10.57 1.6-14.56-4.35c-3.98-5.96-6.84-9.03-3.23-11.45s9.26-2.04 15.41 2.59c4.72 3.55 5.78 10.49 2.38 13.21");
+}
+
+</style>

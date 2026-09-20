@@ -1,0 +1,105 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":128,"height":128};
+const content = `<path class="gg_cvbcka"/><path class="oat3jdi1c"/><g class="x4al5tbox"><linearGradient id="SVGoiKancGF" x1="39.785" x2="45.023" y1="96.861" y2="96.861" gradientUnits="userSpaceOnUse"><stop offset="0" class="vc--wpv5i"/><stop offset="1"/></linearGradient><path fill="url(#SVGoiKancGF)" class="bj4e05ccz"/></g><path class="rm_vxtb5u"/><path class="lun8ysxss"/><g class="x4al5tbox"><linearGradient id="SVG7NuCBd4u" x1="-2246.335" x2="-2241.097" y1="96.861" y2="96.861" gradientTransform="matrix(-1 0 0 1 -2158.12 0)" gradientUnits="userSpaceOnUse"><stop offset="0" class="vc--wpv5i"/><stop offset="1"/></linearGradient><path fill="url(#SVG7NuCBd4u)" class="kw93mb9fx"/></g><path class="ny3g1qb8x"/><path class="ht0e38onc"/><ellipse class="c084npdlz"/><path class="sa13bmbda"/><path class="oyde7yrhz"/><path class="l661irb9d"/><path class="ocauswb7r"/><path class="oaxc_xbgz"/><path class="d_pyckb2j"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="noto-v1:pregnant-woman-medium-light-skin-tone" /></template>
+<style>
+.bj4e05ccz {
+  stroke: var(--svg-color--000, #000);
+  stroke-miterlimit: 10;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M45.02 81.94c0 13.14-5.24 19.16-5.24 29.84");
+}
+
+.c084npdlz {
+  cx: 64px;
+  cy: 28.2px;
+  fill: var(--svg-color--bfa055, #bfa055);
+  rx: 23.22px;
+  ry: 20.87px;
+}
+
+.d_pyckb2j {
+  fill: none;
+  stroke: var(--svg-color--000, #000);
+  stroke-miterlimit: 10;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M50.61 95.27c8.33-5.97 18.45-5.97 26.78 0");
+  opacity: var(--svg-opacity--0-3, 0.3);
+}
+
+.gg_cvbcka {
+  fill: var(--svg-color--bfa055, #bfa055);
+  d: path("M40.72 28.34s0 27.93 3.6 40.91c1.77 6.4 3.98 10.43 9.29 6.44l20.6-.21c5.3 4.05 9.1.17 10.25-6.41c2.7-15.52 2.7-40.75 2.7-40.75H40.72z");
+}
+
+.ht0e38onc {
+  fill: var(--svg-color--c48e6a, #c48e6a);
+  d: path("M63.94 67.3a6.3 6.3 0 0 1-6.3-6.3v-5.39h12.6V61a6.3 6.3 0 0 1-6.3 6.3");
+}
+
+.kw93mb9fx {
+  stroke: var(--svg-color--000, #000);
+  stroke-miterlimit: 10;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M82.98 81.94c0 13.14 5.24 19.16 5.24 29.84");
+}
+
+.l661irb9d {
+  fill: var(--svg-color--bfa055, #bfa055);
+  d: path("M69.45 24.55c-1.9 1.82-11.33 10.32-24.32 12.54V19.67S50.74 8.54 64.2 8.54s19.07 11.41 19.07 11.41v17.14s-8.82-3.38-13.25-12.43c-.11-.22-.4-.28-.57-.11");
+}
+
+.lun8ysxss {
+  fill: var(--svg-color--a800ff, #a800ff);
+  d: path("M72.83 61.36c6.81 1.56 12.32 2.5 15.75 7.66c3.86 5.8 3.19 11.73 4.69 17.27c2.31 8.53 4.04 12.92 2.14 23.65c-.17.96-1.12 1.8-2.08 2.04c-1.64.33-3.71 0-6.1-.2c-.33 4.95-1.94 12.1-4.79 16.22H62l2-67.96c3.46.12 5.51.58 8.83 1.32");
+}
+
+.ny3g1qb8x {
+  fill: var(--svg-color--e0bb95, #e0bb95);
+  d: path("M92.95 111.01c-.01 2.67-.49 4.37-2.21 7.64c.12.02-3.38 5.91-6.92 8.8c-1.25 1.02-2.79.19-1.98-.84c2.56-2.77 5.07-7.58 4.84-7.65c-1.87-.17-1.32-2.51-.83-3.76c.79-1.92 1.17-2.83 1.51-4.8c.32-2.2 5.42-1.64 5.59.61");
+}
+
+.oat3jdi1c {
+  fill: var(--svg-color--a800ff, #a800ff);
+  d: path("M55.17 61.36c-6.81 1.56-12.32 2.5-15.75 7.66c-3.86 5.8-3.19 11.73-4.69 17.27c-2.31 8.53-4.04 12.92-2.14 23.65c.17.96 1.12 1.8 2.08 2.04c1.64.33 3.71 0 6.1-.2c.33 4.95 1.94 12.1 4.79 16.22H66l-2-67.96c-3.46.12-5.51.58-8.83 1.32");
+}
+
+.oaxc_xbgz {
+  fill: var(--svg-color--c48e6a, #c48e6a);
+  d: path("M66.62 45.54c-.92.26-1.88.39-2.62.39s-1.69-.13-2.62-.39c-.39-.11-.55.26-.41.51c.29.51 1.47 1.55 3.02 1.55s2.73-1.04 3.02-1.55c.16-.25 0-.62-.39-.51");
+}
+
+.ocauswb7r {
+  fill: var(--svg-color--513f35, #513f35);
+  d: path("M69.42 49.81H58.6c-.62 0-.89.42-.48 1.04c.57.88 2.71 2.56 5.89 2.56s5.32-1.68 5.89-2.56c.4-.63.14-1.04-.48-1.04");
+}
+
+.oyde7yrhz {
+  fill: var(--svg-color--5d4037, #5d4037);
+  d: path("M57.84 39.61c0 1.67-1.12 3.02-2.5 3.02s-2.5-1.35-2.5-3.02s1.12-3.02 2.5-3.02c1.39-.01 2.5 1.34 2.5 3.02m12.32 0c0 1.67 1.12 3.02 2.5 3.02s2.5-1.35 2.5-3.02s-1.12-3.02-2.5-3.02c-1.38-.01-2.5 1.34-2.5 3.02");
+}
+
+.rm_vxtb5u {
+  fill: var(--svg-color--e0bb95, #e0bb95);
+  d: path("M35.05 111.01c.01 2.67.49 4.37 2.21 7.64c-.12.02 3.38 5.91 6.92 8.8c1.25 1.02 2.79.19 1.98-.84c-2.56-2.77-5.07-7.58-4.84-7.65c1.87-.17 1.32-2.51.83-3.76c-.79-1.92-1.17-2.83-1.51-4.8c-.32-2.2-5.42-1.64-5.59.61");
+}
+
+.sa13bmbda {
+  fill: var(--svg-color--e0bb95, #e0bb95);
+  d: path("M64 12.36c-14.28 0-18.01 11.07-18.01 26.61c0 15.55 11.07 20.29 18.01 20.29s18.01-4.74 18.01-20.29S78.28 12.36 64 12.36");
+}
+
+.vc--wpv5i {
+  stop-color: var(--svg-color--fff, #fff);
+}
+
+.x4al5tbox {
+  opacity: var(--svg-opacity--0-54, 0.54);
+}
+
+</style>

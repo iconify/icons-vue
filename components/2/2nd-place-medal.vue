@@ -1,0 +1,50 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":128,"height":128};
+const content = `<defs><path id="SVG3rMndcyG" class="ht3z8-bqi"/></defs><clipPath id="SVGBOv6peZo"><use href="#SVG3rMndcyG"/></clipPath><g clip-path="url(#SVGBOv6peZo)"><path class="piryx2bhd"/><path class="gvhv2wb_p"/><path class="k-d9-gbnn"/><path class="bp24gnb2e"/><path class="l36ojeb9s"/><path class="fxce4bmpx"/><path class="vz66gzb9e"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="noto-v1:2nd-place-medal" /></template>
+<style>
+.bp24gnb2e {
+  fill: var(--svg-color--ceced2, #ceced2);
+  d: path("M96.15 95.9c0 17.66-14.31 31.97-31.97 31.97c-17.65 0-31.97-14.31-31.97-31.97s14.31-31.97 31.97-31.97S96.15 78.25 96.15 95.9");
+}
+
+.fxce4bmpx {
+  fill: var(--svg-color--006ca2, #006ca2);
+  d: path("M77.06 61.8H51.48L19.52 0h25.57z");
+}
+
+.gvhv2wb_p {
+  fill: var(--svg-color--2f2f2f, #2f2f2f);
+  d: path("M65.33 30.9L52.55 55.62l3.2 6.18h19.17l3.2-6.18z");
+}
+
+.ht3z8-bqi {
+  d: path("M0 0h128v128H0z");
+}
+
+.k-d9-gbnn {
+  fill: var(--svg-color--ceced2, #ceced2);
+  d: path("M76.97 76.72H51.39V61.8h25.57v14.92zm0-21.31H51.39c-3.53 0-6.39 2.86-6.39 6.39v14.92c0 3.53 2.86 6.39 6.39 6.39h25.57c3.53 0 6.39-2.86 6.39-6.39V61.8a6.374 6.374 0 0 0-6.38-6.39");
+}
+
+.l36ojeb9s {
+  fill: var(--svg-color--fff, #fff);
+  d: path("M42.75 88.12c-.42 0-.84-.08-1.24-.26c-1.54-.66-2.28-2.45-1.68-4.01c.01-.02.02-.05.02-.07c.01-.05.01-.04.04-.08a22.77 22.77 0 0 1 15.87-13.36c.35-.08.72.09.88.42s.07.72-.22.95c-4.67 3.71-8.4 8.71-10.78 14.46c0 .01-.01.02-.01.02c0 .01 0 .01-.01.02c-.33.77-.94 1.36-1.72 1.67c-.36.17-.76.24-1.15.24");
+}
+
+.piryx2bhd {
+  fill: var(--svg-color--006ca2, #006ca2);
+  d: path("M49.35 61.8h25.57L106.89 0H81.32z");
+}
+
+.vz66gzb9e {
+  fill: var(--svg-color--77a2ad, #77a2ad);
+  d: path("M73.66 103.88H62.93c1.69-1.03 4.64-3.08 8-6.44c3.15-3.14 4.2-8.87.44-12.64c-2.18-2.17-4.66-3.28-7.37-3.28c-5.99 0-10.99 5.3-11.2 5.52c-.13.14-.16.36-.05.53l2.7 4.41c.07.11.19.19.32.2c.13.02.26-.02.36-.12c.03-.03 3.29-3.05 6.15-3.05c1.15 0 2.05.48 2.75 1.48c.57.81.74 1.71.52 2.73c-1.09 4.88-10.72 10.4-10.82 10.46a.45.45 0 0 0-.22.38v5.77c0 .25.2.44.44.44h18.72c.24 0 .44-.2.44-.44v-5.52a.45.45 0 0 0-.45-.43");
+}
+
+</style>

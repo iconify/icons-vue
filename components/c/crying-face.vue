@@ -1,0 +1,26 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":128,"height":128};
+const content = `<path class="axfluubhb"/><path class="w5vm3cb2k"/><path class="m2co7achy"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="noto-v1:crying-face" /></template>
+<style>
+.axfluubhb {
+  fill: var(--svg-color--fcc21b, #fcc21b);
+  d: path("M64 9.64C1.69 9.64.21 79.5.21 93.33S28.77 118.36 64 118.36c35.24 0 63.79-11.21 63.79-25.03c0-13.83-1.47-83.69-63.79-83.69");
+}
+
+.m2co7achy {
+  fill: var(--svg-color--fff, #fff);
+  d: path("M105.64 84.1c-1.55-2.5-3.31-7.87-3.57-9.57c-.46-2.94-1.7-8.28-2.6-12.74c-.24-1.21-.23-2.88 1.29-2.96c1.21-.04 3.12.69 4.24 1.07c3.29 1.12 6.74 3.04 9.6 4.97c5.22 3.57 8.75 9.3 8.05 15.78c-.53 4.78-5.02 7.94-9.08 7.75c-2.92-.14-6.48-1.98-7.93-4.3");
+}
+
+.w5vm3cb2k {
+  fill: var(--svg-color--2f2f2f, #2f2f2f);
+  d: path("M42.21 62.3c-4.49.04-8.17-4.27-8.22-9.62c-.05-5.37 3.55-9.75 8.04-9.79c4.48-.04 8.17 4.27 8.22 9.64c.05 5.35-3.55 9.72-8.04 9.77m44.11 0c4.48-.01 8.11-4.36 8.1-9.71c-.01-5.37-3.66-9.7-8.14-9.69c-4.49.01-8.13 4.36-8.12 9.73c.02 5.35 3.67 9.68 8.16 9.67m8.94 33.47c-.75 0-1.5-.28-2.08-.84c-15.27-14.69-43.08-14.69-58.35 0a3 3 0 0 1-4.24-.08a3 3 0 0 1 .08-4.24c17.45-16.79 49.23-16.79 66.67 0a3 3 0 0 1 .08 4.24c-.59.62-1.38.92-2.16.92");
+}
+
+</style>

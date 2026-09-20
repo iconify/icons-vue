@@ -1,0 +1,24 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":128,"height":128};
+const content = `<path class="i0wvvjbdu"/><path class="lbp-gobyr"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="noto-v1:black-heart" /></template>
+<style>
+.i0wvvjbdu {
+  d: path("M90.38 20.11c-11.87 0-22.04 6.52-26.38 16.07c-4.34-9.55-14.51-16.07-26.38-16.07C21.84 20.11 9 31.94 9 46.48C9 66.7 23.86 76.31 38.22 85.59c9.1 5.88 18.5 11.96 23.66 20.66a2.14 2.14 0 0 0 2.07 1.63h.1c.76 0 1.44-.45 1.82-1.11c.07-.12.13-.25.17-.38c5.14-8.78 14.59-14.89 23.74-20.8C104.14 76.31 119 66.7 119 46.48c0-14.54-12.84-26.37-28.62-26.37");
+}
+
+.lbp-gobyr {
+  fill: none;
+  stroke: var(--svg-color--e1e1e0, #e1e1e0);
+  stroke-linecap: round;
+  stroke-miterlimit: 10;
+  stroke-width: var(--svg-stroke-width--6px, 6px);
+  d: path("M34.11 30.15c-5.75 1.03-9.92 4.39-11.91 9.34");
+}
+
+</style>

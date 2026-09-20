@@ -1,0 +1,36 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":128,"height":128};
+const content = `<path class="mcv_hbcsu"/><path class="m1ba5kbfu"/><path class="qifwdrb6p"/><path class="t8owr_b_o"/><path class="ur4vbqiim"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="noto-v1:drooling-face" /></template>
+<style>
+.m1ba5kbfu {
+  fill: var(--svg-color--2f2f2f, #2f2f2f);
+  d: path("M41.9 68c-4.5 0-8.2-4.3-8.2-9.6c0-5.4 3.6-9.7 8-9.8c4.5 0 8.2 4.3 8.2 9.6c.1 5.4-3.5 9.8-8 9.8M86 68c4.5 0 8.1-4.4 8.1-9.7c0-5.4-3.7-9.7-8.1-9.7c-4.5 0-8.1 4.4-8.1 9.7c0 5.4 3.6 9.7 8.1 9.7");
+}
+
+.mcv_hbcsu {
+  fill: var(--svg-color--fcc21b, #fcc21b);
+  d: path("M64 9.6C1.7 9.6.2 79.5.2 93.3s28.6 25 63.8 25s63.8-11.2 63.8-25S126.3 9.6 64 9.6");
+}
+
+.qifwdrb6p {
+  fill: var(--svg-color--ed6c30, #ed6c30);
+  d: path("M85.3 88.3c-1.6-4-9.7-10.3-20.6-10.5h-.4c-10.8.2-18.8 6.6-20.5 10.5c-1.7 4-.2 6.7 4.3 6.7h33c4.4 0 5.9-2.7 4.2-6.7");
+}
+
+.t8owr_b_o {
+  fill: var(--svg-color--fff, #fff);
+  d: path("M84.8 93.9s0-.7-1.1-1c-1.5-.4-3.7 1.2-7 1.1s-7.8-.9-10.7-.9c-3.3-.1-3.4 1.9-3.4 1.9h18.1c2.3 0 3.3-.4 4.1-1.1");
+}
+
+.ur4vbqiim {
+  fill: var(--svg-color--fff, #fff);
+  d: path("M69.1 95c4.2.8 6 2 6 7.1c0 2.2-.3 4.9 0 7.1c.4 2.4 2.1 2.9 3.3 2.7c2.9-.5 1.9-5.4 2.3-10.8c.3-4.1 3.5-4.3 4.1-7.1z");
+}
+
+</style>

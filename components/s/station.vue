@@ -1,0 +1,39 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":128,"height":128};
+const content = `<path class="smgjc5bfq"/><defs><path id="SVGiOY9PcYF" class="tj0hc3bvy"/></defs><use href="#SVGiOY9PcYF" class="j71m3fb1u"/><path class="bxw8m2xyj"/><path class="kid6m4qbo"/><path class="uw4l1wjfm"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="noto-v1:station" /></template>
+<style>
+.bxw8m2xyj {
+  fill: var(--svg-color--40c0e7, #40c0e7);
+  d: path("M88.26 62.9c0 4.96-4.02 8.99-8.99 8.99h-41c-4.96 0-8.98-4.03-8.98-8.99V51.53c0-4.97 4.03-8.99 8.98-8.99h41c4.97 0 8.99 4.02 8.99 8.99z");
+}
+
+.j71m3fb1u {
+  fill: var(--svg-color--fcc21b, #fcc21b);
+}
+
+.kid6m4qbo {
+  fill: var(--svg-color--fff, #fff);
+  d: path("M41.56 99.59c0 3.34-2.72 6.04-6.05 6.04c-3.36 0-6.06-2.71-6.06-6.04c0-3.34 2.7-6.05 6.06-6.05c3.33 0 6.05 2.71 6.05 6.05m34.44 0c0 3.34 2.71 6.04 6.05 6.04c3.33 0 6.05-2.71 6.05-6.04c0-3.34-2.72-6.05-6.05-6.05c-3.34 0-6.05 2.71-6.05 6.05");
+}
+
+.smgjc5bfq {
+  fill: var(--svg-color--2f2f2f, #2f2f2f);
+  d: path("M44.08 124.37c0 2-1.63 3.63-3.63 3.63s-3.62-1.63-3.62-3.63V110.4c0-2 1.62-3.64 3.62-3.64c2.01 0 3.63 1.63 3.63 3.64zm29.4 0c0 2 1.62 3.63 3.63 3.63c2 0 3.64-1.63 3.64-3.63V110.4c0-2-1.63-3.64-3.64-3.64s-3.63 1.63-3.63 3.64z");
+}
+
+.tj0hc3bvy {
+  d: path("M95.62 99.57c0 9.22-7.46 16.67-16.67 16.67H38.6c-9.2 0-16.67-7.46-16.67-16.67V53.65c0-9.21 7.47-16.67 16.67-16.67h40.34c9.21 0 16.67 7.46 16.67 16.67v45.92z");
+}
+
+.uw4l1wjfm {
+  fill: var(--svg-color--78a3ad, #78a3ad);
+  d: path("M127.89 100.05v-65.1c0-1.78-.9-3.42-2.39-4.37L80.11 1.35C77.7-.2 74.49.5 72.93 2.9c-1.55 2.42-.86 5.63 1.56 7.18l43.01 27.69v58.11h-12.22c-2.84 0-5.16 2.32-5.16 5.15V127H128v-25.97c0-.33-.05-.66-.11-.98");
+}
+
+</style>

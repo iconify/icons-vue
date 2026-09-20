@@ -1,0 +1,12 @@
+.wdlgln {
+  d: path('M12 6h7c0.55 0 1 0.45 1 1v8c0 0.55 -0.45 1 -1 1h-14c-0.55 0 -1 -0.45 -1 -1v-9Z');
+  fill: currentColor;
+}
+
+@media not (prefers-reduced-motion) {
+  .wdlgln {
+    stroke-dasharray: 54;
+    fill-opacity: 0;
+    animation: 0.6s linear forwards so-from-54, 0.4s linear 0.8s forwards fill-to-1;
+  }
+}

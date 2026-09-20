@@ -1,0 +1,11 @@
+.avyd9d {
+  d: path('M21 3h-6M21 3v6');
+}
+
+@media not (prefers-reduced-motion) {
+  .avyd9d {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 0.7s forwards so-to-0;
+  }
+}

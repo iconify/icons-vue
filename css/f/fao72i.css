@@ -1,0 +1,11 @@
+.fao72i {
+  d: path('M3 14v-9h18v14h-18v-5');
+  stroke-width: 2px;
+}
+
+@media not (prefers-reduced-motion) {
+  .fao72i {
+    stroke-dasharray: 66;
+    animation: 0.6s linear forwards so-from-66;
+  }
+}

@@ -1,0 +1,11 @@
+.s70b4t {
+  cx: 14px;
+  cy: 9px;
+  r: 2.5px;
+}
+
+@media not (prefers-reduced-motion) {
+  .s70b4t {
+    animation: 0s forwards r-to-0px, 0.2s linear 0.65s forwards r-to-2_5px;
+  }
+}

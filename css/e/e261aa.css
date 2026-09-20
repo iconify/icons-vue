@@ -1,0 +1,9 @@
+.e261aa {
+  d: path('M10.5 10h3v3h2.5l-4 4l-4 -4h2.5Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .e261aa {
+    animation: 0s forwards d-es1ygv, 0.4s linear 0.85s forwards d-wrh7yw, 1.5s linear 1.25s infinite d-escncg;
+  }
+}

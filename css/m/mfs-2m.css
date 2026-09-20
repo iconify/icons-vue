@@ -1,0 +1,10 @@
+.mfs-2m {
+  d: path('M12 4h1.5M12 4h-1.5M12 4v1.5M12 4v-1.5');
+}
+
+@media not (prefers-reduced-motion) {
+  .mfs-2m {
+    stroke-dashoffset: 4;
+    animation: 6s linear 3.36s infinite so-_lg20b;
+  }
+}

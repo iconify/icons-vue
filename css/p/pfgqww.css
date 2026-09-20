@@ -1,0 +1,11 @@
+.pfgqww {
+  fill: #fff;
+  fill-opacity: 0.3;
+  d: path('M18 7c-2 0 -3 2 -5 2c-2 0 -3 -2 -5 -2c-2 0 -3 2 -5 2c-2 0 -3 -2 -5 -2c-2 0 -3 2 -5 2v15h25Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .pfgqww {
+    animation: 0s forwards fill-to-0, 3s linear infinite tr-g4nv7i, 0.15s linear 0.8s forwards fill-to-0_3;
+  }
+}

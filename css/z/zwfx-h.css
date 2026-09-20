@@ -1,0 +1,11 @@
+.zwfx-h {
+  d: path('M10.5 13.5l-7.5 7.5');
+}
+
+@media not (prefers-reduced-motion) {
+  .zwfx-h {
+    stroke-dasharray: 14;
+    stroke-dashoffset: 14;
+    animation: 0.2s linear 0.5s forwards so-to-0;
+  }
+}

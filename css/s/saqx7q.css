@@ -1,0 +1,11 @@
+.saqx7q {
+  d: path('M16 23h0.01');
+}
+
+@media not (prefers-reduced-motion) {
+  .saqx7q {
+    stroke-dasharray: 4;
+    stroke-dashoffset: 4;
+    animation: 0.2s linear 1s forwards so-to-0;
+  }
+}

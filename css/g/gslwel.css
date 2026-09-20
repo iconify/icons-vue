@@ -1,0 +1,11 @@
+.gslwel {
+  d: path('M9.5 8.5l-2 -1');
+}
+
+@media not (prefers-reduced-motion) {
+  .gslwel {
+    stroke-dasharray: 6;
+    stroke-dashoffset: 6;
+    animation: 0.2s linear 1.1s forwards so-to-0;
+  }
+}

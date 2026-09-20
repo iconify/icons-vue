@@ -1,0 +1,11 @@
+.rk72je {
+  d: path('M12 7v10');
+}
+
+@media not (prefers-reduced-motion) {
+  .rk72je {
+    stroke-dasharray: 12;
+    stroke-dashoffset: 12;
+    animation: 0.2s linear 1.3s forwards so-to-0;
+  }
+}

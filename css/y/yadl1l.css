@@ -1,0 +1,11 @@
+.yadl1l {
+  cx: 12px;
+  cy: 3.5px;
+  r: 1.5px;
+}
+
+@media not (prefers-reduced-motion) {
+  .yadl1l {
+    animation: 2.4s linear infinite fill-wpinsp;
+  }
+}

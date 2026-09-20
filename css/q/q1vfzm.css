@@ -1,0 +1,11 @@
+.q1vfzm {
+  d: path('M19 15v6');
+}
+
+@media not (prefers-reduced-motion) {
+  .q1vfzm {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 1.1s forwards so-to-0;
+  }
+}

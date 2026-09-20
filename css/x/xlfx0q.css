@@ -1,0 +1,12 @@
+.xlfx0q {
+  stroke: currentColor;
+  d: path('M16 19l1.75 1.75l3.75 -3.75');
+}
+
+@media not (prefers-reduced-motion) {
+  .xlfx0q {
+    stroke-dasharray: 10;
+    stroke-dashoffset: 10;
+    animation: 0.2s linear 1s forwards so-to-0;
+  }
+}

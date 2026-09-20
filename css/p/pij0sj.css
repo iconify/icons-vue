@@ -1,0 +1,11 @@
+.pij0sj {
+  d: path('M3.5 5c0 -0.83 0.67 -1.5 1.5 -1.5c0.83 0 1.5 0.67 1.5 1.5c0 0.83 -0.67 1.5 -1.5 1.5c-0.83 0 -1.5 -0.67 -1.5 -1.5Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .pij0sj {
+    stroke-dasharray: 12;
+    stroke-dashoffset: 12;
+    animation: 0s forwards fill-to-0, 0.2s linear 0.3s forwards so-to-0, 0.15s linear 1.5s forwards fill-to-0_3;
+  }
+}

@@ -1,0 +1,10 @@
+.uu-53j {
+  d: path('M7.5 10.5c0 0 0.83 6.93 1 8.5c0.17 1.57 1.5 2 2.5 2l2 0c1.5 0 2.88 -1.14 3 -2c0.13 -0.86 1 -12 1 -12');
+}
+
+@media not (prefers-reduced-motion) {
+  .uu-53j {
+    stroke-dasharray: 32;
+    animation: 0.4s linear forwards so-from-32;
+  }
+}

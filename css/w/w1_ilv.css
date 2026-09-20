@@ -1,0 +1,11 @@
+.w1_ilv {
+  d: path('M8 10h3.5l3.5 -3.5v10.5l-3.5 -3.5h-3.5Z');
+  stroke: #fff;
+}
+
+@media not (prefers-reduced-motion) {
+  .w1_ilv {
+    stroke-dasharray: 34;
+    animation: 0.4s linear forwards so-from-34;
+  }
+}

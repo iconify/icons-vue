@@ -1,0 +1,11 @@
+.c_4_ni {
+  d: path('M10 8v8');
+}
+
+@media not (prefers-reduced-motion) {
+  .c_4_ni {
+    stroke-dasharray: 10;
+    stroke-dashoffset: 10;
+    animation: 0.2s linear 1.8s forwards so-to-0;
+  }
+}

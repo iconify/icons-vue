@@ -1,0 +1,11 @@
+.ruuz6o {
+  d: path('M8 10h8');
+}
+
+@media not (prefers-reduced-motion) {
+  .ruuz6o {
+    stroke-dasharray: 10;
+    stroke-dashoffset: 10;
+    animation: 0.2s linear 0.8s forwards so-to-0;
+  }
+}

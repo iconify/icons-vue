@@ -1,0 +1,11 @@
+.r7cc1y {
+  d: path('M12 7v10');
+}
+
+@media not (prefers-reduced-motion) {
+  .r7cc1y {
+    stroke-dasharray: 12;
+    stroke-dashoffset: 12;
+    animation: 0.2s linear 1.05s forwards so-to-0;
+  }
+}

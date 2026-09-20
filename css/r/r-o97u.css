@@ -1,0 +1,10 @@
+.r-o97u {
+  d: path('M19 11h1.5M19 11h-1.5M19 11v1.5M19 11v-1.5');
+}
+
+@media not (prefers-reduced-motion) {
+  .r-o97u {
+    stroke-dashoffset: 4;
+    animation: 6s linear 5.89s infinite so-_lg20b;
+  }
+}

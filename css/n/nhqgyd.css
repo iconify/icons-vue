@@ -1,0 +1,11 @@
+.nhqgyd {
+  d: path('M17 7l-10 10');
+}
+
+@media not (prefers-reduced-motion) {
+  .nhqgyd {
+    stroke-dasharray: 18;
+    stroke-dashoffset: 18;
+    animation: 0.5s linear 0.5s forwards so-to-0;
+  }
+}

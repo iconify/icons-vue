@@ -1,0 +1,11 @@
+.z28l-c {
+  d: path('M4 15h16');
+}
+
+@media not (prefers-reduced-motion) {
+  .z28l-c {
+    stroke-dasharray: 18;
+    stroke-dashoffset: 18;
+    animation: 0.3s linear 0.5s forwards so-to-0;
+  }
+}

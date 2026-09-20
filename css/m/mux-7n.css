@@ -1,0 +1,12 @@
+.mux-7n {
+  cx: 7px;
+  cy: 12px;
+  r: 3px;
+  fill: currentColor;
+}
+
+@media not (prefers-reduced-motion) {
+  .mux-7n {
+    animation: 0.2s linear forwards cx-from-17px;
+  }
+}

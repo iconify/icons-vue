@@ -1,0 +1,12 @@
+.l4o95v {
+  d: path('M12 7c2.76 0 5 2.24 5 5c0 2.76 -2.24 5 -5 5c-2.76 0 -5 -2.24 -5 -5c0 -2.76 2.24 -5 5 -5Z');
+  stroke-width: 5px;
+  stroke: #fff;
+}
+
+@media not (prefers-reduced-motion) {
+  .l4o95v {
+    stroke-dasharray: 34;
+    animation: 0.4s linear forwards so-from-34, 0s 0.4s forwards fade-to-0;
+  }
+}

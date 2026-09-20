@@ -1,0 +1,11 @@
+.nj20st {
+  d: path('M12 21v0.01');
+}
+
+@media not (prefers-reduced-motion) {
+  .nj20st {
+    stroke-dasharray: 4;
+    stroke-dashoffset: 4;
+    animation: 0.2s linear 0.6s forwards so-to-0;
+  }
+}

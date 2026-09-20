@@ -1,0 +1,11 @@
+.f2pddx {
+  d: path('M18.5 18.5l0.5 0.5M18.5 5.5l0.5 -0.5M5.5 5.5l-0.5 -0.5M5.5 18.5l-0.5 0.5');
+}
+
+@media not (prefers-reduced-motion) {
+  .f2pddx {
+    opacity: 0;
+    transform-origin: 12px 12px;
+    animation: 30s linear infinite tr-2c6-rw, 0s 0.9s forwards fade-to-1, 0.2s linear 0.9s forwards d-s9ijad;
+  }
+}

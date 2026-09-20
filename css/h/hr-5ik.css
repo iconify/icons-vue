@@ -1,0 +1,11 @@
+.hr-5ik {
+  d: path('M8 5h12');
+}
+
+@media not (prefers-reduced-motion) {
+  .hr-5ik {
+    stroke-dasharray: 14;
+    stroke-dashoffset: 14;
+    animation: 0.2s linear 0.1s forwards so-to-0;
+  }
+}

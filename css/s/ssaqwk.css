@@ -1,0 +1,10 @@
+.ssaqwk {
+  d: path('M5 5h14');
+}
+
+@media not (prefers-reduced-motion) {
+  .ssaqwk {
+    stroke-dasharray: 16;
+    animation: 0.3s linear forwards so-from-16;
+  }
+}

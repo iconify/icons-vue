@@ -1,0 +1,11 @@
+.otlizu {
+  d: path('M11 17h2');
+}
+
+@media not (prefers-reduced-motion) {
+  .otlizu {
+    stroke-dasharray: 4;
+    stroke-dashoffset: 4;
+    animation: 0.2s linear 0.5s forwards so-to-0;
+  }
+}

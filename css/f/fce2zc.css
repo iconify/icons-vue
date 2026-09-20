@@ -1,0 +1,11 @@
+.fce2zc {
+  d: path('M8 12l3 3l5 -5');
+  fill: none;
+}
+
+@media not (prefers-reduced-motion) {
+  .fce2zc {
+    stroke-dasharray: 14;
+    animation: 0.2s linear forwards so-from-14;
+  }
+}

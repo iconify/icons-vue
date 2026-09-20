@@ -1,0 +1,11 @@
+.g5y2dq {
+  d: path('M18 3v6');
+}
+
+@media not (prefers-reduced-motion) {
+  .g5y2dq {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 0.9s forwards so-to-0;
+  }
+}

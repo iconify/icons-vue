@@ -1,0 +1,10 @@
+.vlmmxw {
+  d: path('M13 3l6 6v12h-14v-18h8');
+}
+
+@media not (prefers-reduced-motion) {
+  .vlmmxw {
+    stroke-dasharray: 64;
+    animation: 0.6s linear forwards so-from-64;
+  }
+}

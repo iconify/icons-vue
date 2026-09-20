@@ -1,0 +1,11 @@
+.dnm6ad {
+  d: path('M19 17v4h-14v-18h7');
+}
+
+@media not (prefers-reduced-motion) {
+  .dnm6ad {
+    stroke-dasharray: 46;
+    stroke-dashoffset: 46;
+    animation: 0.5s linear 0.3s forwards so-to-0;
+  }
+}

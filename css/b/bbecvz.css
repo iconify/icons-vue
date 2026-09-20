@@ -1,0 +1,12 @@
+.bbecvz {
+  d: path('M10 8h2M10 8v2M14 16h-2M14 16v-2');
+  fill: none;
+}
+
+@media not (prefers-reduced-motion) {
+  .bbecvz {
+    stroke-dasharray: 4;
+    stroke-dashoffset: 4;
+    animation: 0.2s linear 1.15s forwards so-to-0;
+  }
+}

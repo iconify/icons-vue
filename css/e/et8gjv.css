@@ -1,0 +1,10 @@
+.et8gjv {
+  d: path('M11 5h-6v14h14v-6');
+}
+
+@media not (prefers-reduced-motion) {
+  .et8gjv {
+    stroke-dasharray: 42;
+    animation: 0.5s linear forwards so-from-42;
+  }
+}

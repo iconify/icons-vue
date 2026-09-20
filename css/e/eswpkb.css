@@ -1,0 +1,11 @@
+.eswpkb {
+  d: path('M12 4l9.25 16h-18.5Z');
+  fill: none;
+}
+
+@media not (prefers-reduced-motion) {
+  .eswpkb {
+    opacity: 0;
+    animation: 0s 0.4s forwards fade-to-1, 0.2s linear 0.4s forwards d-z2xg2d;
+  }
+}

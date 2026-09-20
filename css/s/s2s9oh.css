@@ -1,0 +1,10 @@
+.s2s9oh {
+  d: path('M5 17h16');
+}
+
+@media not (prefers-reduced-motion) {
+  .s2s9oh {
+    stroke-dasharray: 18;
+    animation: 0.3s linear forwards so-from-18;
+  }
+}

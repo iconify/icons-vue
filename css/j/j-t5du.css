@@ -1,0 +1,11 @@
+.j-t5du {
+  d: path('M18 15l3 -3M18 15l-3 -3');
+}
+
+@media not (prefers-reduced-motion) {
+  .j-t5du {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 0.2s forwards so-to-0;
+  }
+}

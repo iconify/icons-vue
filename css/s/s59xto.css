@@ -1,0 +1,12 @@
+.s59xto {
+  stroke-width: 6px;
+  fill: #000;
+  stroke: #000;
+}
+
+@media not (prefers-reduced-motion) {
+  .s59xto {
+    opacity: 0;
+    animation: 0s 1.3s forwards fade-to-1;
+  }
+}

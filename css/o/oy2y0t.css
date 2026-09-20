@@ -1,0 +1,13 @@
+.oy2y0t {
+  fill: #000;
+  stroke-width: 4px;
+  stroke: #000;
+}
+
+@media not (prefers-reduced-motion) {
+  .oy2y0t {
+    stroke-dasharray: 48;
+    fill-opacity: 0;
+    animation: 0.6s linear forwards so-from-48, 0.15s linear 0.7s forwards fill-to-1;
+  }
+}

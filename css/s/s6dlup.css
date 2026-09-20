@@ -1,0 +1,11 @@
+.s6dlup {
+  d: path('M12 23h0.01');
+}
+
+@media not (prefers-reduced-motion) {
+  .s6dlup {
+    stroke-dasharray: 4;
+    stroke-dashoffset: 4;
+    animation: 0.2s linear 1.65s forwards so-to-0;
+  }
+}

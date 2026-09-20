@@ -1,0 +1,11 @@
+.ggrt7r {
+  r: 2px;
+  cx: 12px;
+  cy: 12px;
+}
+
+@media not (prefers-reduced-motion) {
+  .ggrt7r {
+    animation: 0s forwards r-to-0px, 0.2s linear 0.8s forwards r-to-2px;
+  }
+}

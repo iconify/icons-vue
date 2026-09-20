@@ -1,0 +1,10 @@
+.sclttp {
+  d: path('M3 9h9c2.76 0 5 2.24 5 5v6');
+}
+
+@media not (prefers-reduced-motion) {
+  .sclttp {
+    stroke-dasharray: 26;
+    animation: 0.6s linear forwards so-from-26;
+  }
+}

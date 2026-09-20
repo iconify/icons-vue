@@ -1,0 +1,12 @@
+.je4ser {
+  cx: 9.71px;
+  cy: 13.04px;
+  r: 1.04px;
+}
+
+@media not (prefers-reduced-motion) {
+  .je4ser {
+    opacity: 0;
+    animation: 0.4s linear 1.8s forwards fade-to-1;
+  }
+}

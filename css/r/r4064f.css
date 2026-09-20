@@ -1,0 +1,11 @@
+.r4064f {
+  d: path('M9 10l6 6');
+}
+
+@media not (prefers-reduced-motion) {
+  .r4064f {
+    stroke-dasharray: 12;
+    stroke-dashoffset: 12;
+    animation: 0.2s linear 0.9s forwards so-to-0;
+  }
+}

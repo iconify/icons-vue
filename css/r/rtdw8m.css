@@ -1,0 +1,11 @@
+.rtdw8m {
+  d: path('M2 13.5l4 4l10.75 -10.75');
+  stroke: #fff;
+}
+
+@media not (prefers-reduced-motion) {
+  .rtdw8m {
+    stroke-dasharray: 24;
+    animation: 0.5s linear forwards so-from-24;
+  }
+}

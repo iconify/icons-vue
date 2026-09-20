@@ -1,0 +1,11 @@
+.jip9fo {
+  d: path('M5 19h14');
+}
+
+@media not (prefers-reduced-motion) {
+  .jip9fo {
+    stroke-dasharray: 16;
+    stroke-dashoffset: 16;
+    animation: 0.3s linear 0.5s forwards so-to-0;
+  }
+}

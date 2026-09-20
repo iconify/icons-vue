@@ -1,0 +1,12 @@
+.duz44e {
+  stroke: currentColor;
+  d: path('M16 19l1.75 1.75l3.75 -3.75');
+}
+
+@media not (prefers-reduced-motion) {
+  .duz44e {
+    stroke-dasharray: 10;
+    stroke-dashoffset: 10;
+    animation: 0.2s linear 0.8s forwards so-to-0;
+  }
+}

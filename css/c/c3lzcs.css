@@ -1,0 +1,11 @@
+.c3lzcs {
+  d: path('M16 18h6');
+}
+
+@media not (prefers-reduced-motion) {
+  .c3lzcs {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 1.4s forwards so-to-0;
+  }
+}

@@ -1,0 +1,11 @@
+.rp-3po {
+  d: path('M12 7l4 4M12 7l-4 4');
+}
+
+@media not (prefers-reduced-motion) {
+  .rp-3po {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 0.9s forwards so-to-0;
+  }
+}

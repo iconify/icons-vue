@@ -1,0 +1,11 @@
+.fdo-5q {
+  d: path('M16 16l5 5');
+}
+
+@media not (prefers-reduced-motion) {
+  .fdo-5q {
+    stroke-dasharray: 10;
+    stroke-dashoffset: 10;
+    animation: 0.2s linear 1.5s forwards so-to-0;
+  }
+}

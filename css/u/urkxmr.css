@@ -1,0 +1,10 @@
+.urkxmr {
+  d: path('M8 13h8v7h-8Z');
+  fill: #000;
+}
+
+@media not (prefers-reduced-motion) {
+  .urkxmr {
+    animation: 0s forwards d-3t3e2u, 0.6s linear 0.8s forwards d-qldk7p;
+  }
+}

@@ -1,0 +1,14 @@
+.kmz6kf {
+  d: path('M5 5l7 0l7 0M5 12h14M5 19l7 0l7 0');
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: currentColor;
+  stroke-width: 2px;
+  fill: none;
+}
+
+@media not (prefers-reduced-motion) {
+  .kmz6kf {
+    animation: 0.4s linear forwards d-jarxnk;
+  }
+}

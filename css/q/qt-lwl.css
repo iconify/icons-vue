@@ -1,0 +1,11 @@
+.qt-lwl {
+  d: path('M10 6h8');
+}
+
+@media not (prefers-reduced-motion) {
+  .qt-lwl {
+    stroke-dasharray: 10;
+    stroke-dashoffset: 10;
+    animation: 0.2s linear 0.7s forwards so-to-0;
+  }
+}

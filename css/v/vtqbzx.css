@@ -1,0 +1,11 @@
+.vtqbzx {
+  d: path('M18 12l-5 -5M18 12l-5 5');
+}
+
+@media not (prefers-reduced-motion) {
+  .vtqbzx {
+    stroke-dasharray: 10;
+    stroke-dashoffset: 10;
+    animation: 0.4s linear 0.4s forwards so-to-0;
+  }
+}

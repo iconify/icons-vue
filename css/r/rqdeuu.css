@@ -1,0 +1,11 @@
+.rqdeuu {
+  d: path('M5 19h14');
+}
+
+@media not (prefers-reduced-motion) {
+  .rqdeuu {
+    stroke-dasharray: 16;
+    stroke-dashoffset: 16;
+    animation: 0.3s linear 0.7s forwards so-to-0;
+  }
+}

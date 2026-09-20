@@ -1,0 +1,11 @@
+.tskgbc {
+  d: path('M5 13l3 -3M5 13l3 3M14 4l3 3M14 4l-3 3');
+}
+
+@media not (prefers-reduced-motion) {
+  .tskgbc {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 0.5s forwards so-to-0;
+  }
+}

@@ -1,0 +1,11 @@
+.hy9wxw {
+  d: path('M19 15v6');
+}
+
+@media not (prefers-reduced-motion) {
+  .hy9wxw {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 0.9s forwards so-to-0;
+  }
+}

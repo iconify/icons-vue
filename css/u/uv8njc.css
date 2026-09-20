@@ -1,0 +1,11 @@
+.uv8njc {
+  d: path('M8 13h4');
+}
+
+@media not (prefers-reduced-motion) {
+  .uv8njc {
+    stroke-dasharray: 6;
+    stroke-dashoffset: 6;
+    animation: 0.2s linear 1.4s forwards so-to-0;
+  }
+}

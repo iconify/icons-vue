@@ -1,0 +1,12 @@
+.c27iog {
+  d: path('M18 11h4');
+  fill: none;
+}
+
+@media not (prefers-reduced-motion) {
+  .c27iog {
+    stroke-dasharray: 6;
+    stroke-dashoffset: 6;
+    animation: 0.2s linear 1.1s forwards so-to-0;
+  }
+}

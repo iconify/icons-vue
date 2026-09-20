@@ -1,0 +1,10 @@
+.i7ci2f {
+  d: path('M5 12l7 -7M5 12l7 7');
+}
+
+@media not (prefers-reduced-motion) {
+  .i7ci2f {
+    stroke-dasharray: 12;
+    animation: 0.4s linear forwards so-from-12;
+  }
+}

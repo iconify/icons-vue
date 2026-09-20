@@ -1,0 +1,10 @@
+.d7me0u {
+  d: path('M4 5h0.01');
+}
+
+@media not (prefers-reduced-motion) {
+  .d7me0u {
+    stroke-dasharray: 4;
+    animation: 0.2s linear forwards so-from-4;
+  }
+}

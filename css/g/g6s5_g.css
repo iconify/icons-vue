@@ -1,0 +1,11 @@
+.g6s5_g {
+  d: path('M21 3h-8M3 21v-8M21 3v8M3 21h8');
+}
+
+@media not (prefers-reduced-motion) {
+  .g6s5_g {
+    stroke-dasharray: 10;
+    stroke-dashoffset: 10;
+    animation: 0.2s linear 0.5s forwards so-to-0;
+  }
+}

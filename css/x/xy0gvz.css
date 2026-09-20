@@ -1,0 +1,11 @@
+.xy0gvz {
+  d: path('M12 3c0 0 3.27 2.81 5.34 6.5l-11.34 8.91c-0.79 -1.17 -1 -2.5 -1 -3.41c0 -6 7 -12 7 -12Z');
+  fill-opacity: 0.3;
+  fill: currentColor;
+}
+
+@media not (prefers-reduced-motion) {
+  .xy0gvz {
+    animation: 0s forwards fill-to-0, 0.15s linear 0.6s forwards fill-to-0_3;
+  }
+}

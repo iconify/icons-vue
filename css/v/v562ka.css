@@ -1,0 +1,11 @@
+.v562ka {
+  d: path('M19.78 4.22c4.29 4.3 4.29 11.26 0 15.56');
+}
+
+@media not (prefers-reduced-motion) {
+  .v562ka {
+    stroke-dasharray: 20;
+    stroke-dashoffset: 20;
+    animation: 0.3s linear 1s forwards so-to-0;
+  }
+}

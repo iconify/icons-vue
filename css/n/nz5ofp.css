@@ -1,0 +1,11 @@
+.nz5ofp {
+  d: path('M7 13h10');
+}
+
+@media not (prefers-reduced-motion) {
+  .nz5ofp {
+    stroke-dasharray: 12;
+    stroke-dashoffset: 12;
+    animation: 0.2s linear 1.1s forwards so-to-0;
+  }
+}

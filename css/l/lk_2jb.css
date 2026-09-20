@@ -1,0 +1,11 @@
+.lk_2jb {
+  d: path('M12 9l3 3M12 9l-3 3');
+}
+
+@media not (prefers-reduced-motion) {
+  .lk_2jb {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 1.35s forwards so-to-0;
+  }
+}

@@ -1,0 +1,10 @@
+.uq3u2s {
+  d: path('M3 16l4 -3l3 2l6 -5l5 4v5h-18Z');
+  fill-opacity: 0.3;
+}
+
+@media not (prefers-reduced-motion) {
+  .uq3u2s {
+    animation: 0s forwards fill-to-0, 0.15s linear 1.2s forwards fill-to-0_3;
+  }
+}

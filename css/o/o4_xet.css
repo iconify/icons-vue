@@ -1,0 +1,11 @@
+.o4_xet {
+  d: path('M3 15h17');
+}
+
+@media not (prefers-reduced-motion) {
+  .o4_xet {
+    stroke-dasharray: 20;
+    stroke-dashoffset: 20;
+    animation: 0.3s linear 0.3s forwards so-to-0;
+  }
+}

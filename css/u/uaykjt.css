@@ -1,0 +1,12 @@
+.uaykjt {
+  stroke-width: 2px;
+  d: path('M12 9.42c4.42 0 8 2.37 8 5.29c0 2.92 -3.58 5.29 -8 5.29c-4.42 0 -8 -2.37 -8 -5.29c0 -2.92 3.58 -5.29 8 -5.29Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .uaykjt {
+    stroke-dasharray: 46;
+    fill-opacity: 0;
+    animation: 0.6s linear forwards so-from-46, 0.4s linear 0.6s forwards fill-to-1;
+  }
+}

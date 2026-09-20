@@ -1,0 +1,12 @@
+.h38x3a {
+  cx: 16.18px;
+  cy: 7.01px;
+  r: 1.04px;
+}
+
+@media not (prefers-reduced-motion) {
+  .h38x3a {
+    opacity: 0;
+    animation: 6s linear 2.6s infinite cx-zbnciw, 0s 2.8s forwards fade-to-1;
+  }
+}

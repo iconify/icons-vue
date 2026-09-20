@@ -1,0 +1,11 @@
+.t1cz8g {
+  d: path('M21 17l-4 4');
+}
+
+@media not (prefers-reduced-motion) {
+  .t1cz8g {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 1.45s forwards so-to-0;
+  }
+}

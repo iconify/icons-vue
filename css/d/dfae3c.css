@@ -1,0 +1,11 @@
+.dfae3c {
+  d: path('M12 11l-7 7M12 11l7 7');
+}
+
+@media not (prefers-reduced-motion) {
+  .dfae3c {
+    stroke-dasharray: 12;
+    stroke-dashoffset: 12;
+    animation: 0.4s linear 0.4s forwards so-to-0;
+  }
+}

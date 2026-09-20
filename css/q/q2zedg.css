@@ -1,0 +1,11 @@
+.q2zedg {
+  d: path('M12 8v4');
+}
+
+@media not (prefers-reduced-motion) {
+  .q2zedg {
+    stroke-dasharray: 6;
+    stroke-dashoffset: 6;
+    animation: 0.2s linear 1.8s forwards so-to-0;
+  }
+}

@@ -1,0 +1,10 @@
+.gnjcyx {
+  d: path('M10 19v-7l7 -7');
+}
+
+@media not (prefers-reduced-motion) {
+  .gnjcyx {
+    stroke-dasharray: 20;
+    animation: 0.5s linear forwards so-from-20;
+  }
+}

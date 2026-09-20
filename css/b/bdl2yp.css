@@ -1,0 +1,11 @@
+.bdl2yp {
+  d: path('M21 17l-4 4');
+}
+
+@media not (prefers-reduced-motion) {
+  .bdl2yp {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 1.55s forwards so-to-0;
+  }
+}

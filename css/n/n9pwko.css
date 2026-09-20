@@ -1,0 +1,10 @@
+.n9pwko {
+  d: path('M18 12h1.5M18 12h-1.5M18 12v1.5M18 12v-1.5');
+}
+
+@media not (prefers-reduced-motion) {
+  .n9pwko {
+    stroke-dashoffset: 4;
+    animation: 6s linear 3.08s infinite so-_lg20b;
+  }
+}

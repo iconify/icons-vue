@@ -1,0 +1,11 @@
+.u50o9y {
+  d: path('M11 10h-6');
+}
+
+@media not (prefers-reduced-motion) {
+  .u50o9y {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 0.8s forwards so-to-0;
+  }
+}

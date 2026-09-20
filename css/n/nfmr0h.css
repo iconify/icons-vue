@@ -1,0 +1,10 @@
+.nfmr0h {
+  d: path('M8 12l3 3l5 -5');
+}
+
+@media not (prefers-reduced-motion) {
+  .nfmr0h {
+    stroke-dasharray: 14;
+    animation: 0.2s linear forwards so-to-14;
+  }
+}

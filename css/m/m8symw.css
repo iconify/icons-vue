@@ -1,0 +1,10 @@
+.m8symw {
+  d: path('M7.2 16v-3.2h-1.6v3.2h-1.6v-6.4c0 -0.42 0.17 -0.83 0.47 -1.13c0.3 -0.3 0.71 -0.47 1.13 -0.47h1.6c0.88 0 1.6 0.72 1.6 1.6v6.4h-1.6ZM7.2 11.2v-1.6h-1.6v1.6h1.6Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .m8symw {
+    opacity: 0;
+    animation: 0.2s linear 2s forwards fade-to-1;
+  }
+}

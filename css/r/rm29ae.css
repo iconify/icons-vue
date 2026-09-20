@@ -1,0 +1,11 @@
+.rm29ae {
+  d: path('M4 15h0.01');
+}
+
+@media not (prefers-reduced-motion) {
+  .rm29ae {
+    stroke-dasharray: 4;
+    stroke-dashoffset: 4;
+    animation: 0.2s linear 0.6s forwards so-to-0;
+  }
+}

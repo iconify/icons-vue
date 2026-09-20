@@ -1,0 +1,11 @@
+.col_6u {
+  d: path('M5 12l5 5M5 12l5 -5');
+}
+
+@media not (prefers-reduced-motion) {
+  .col_6u {
+    stroke-dasharray: 10;
+    stroke-dashoffset: 10;
+    animation: 0.2s linear 0.3s forwards so-to-0;
+  }
+}

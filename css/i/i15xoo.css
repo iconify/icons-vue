@@ -1,0 +1,10 @@
+.i15xoo {
+  d: path('M7 20v-11c0 -2.76 2.24 -5 5 -5c2.76 0 5 2.24 5 5v7');
+}
+
+@media not (prefers-reduced-motion) {
+  .i15xoo {
+    stroke-dasharray: 36;
+    animation: 0.5s linear forwards so-from-36;
+  }
+}

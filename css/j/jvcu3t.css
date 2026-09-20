@@ -1,0 +1,12 @@
+.jvcu3t {
+  d: path('M7 14l2 2M7 14l2 -2M15 14l-2 2M15 14l-2 -2');
+  fill: none;
+}
+
+@media not (prefers-reduced-motion) {
+  .jvcu3t {
+    opacity: 0;
+    stroke-dasharray: 6;
+    animation: 6s linear infinite d-t2yz9y, 0s 0.85s forwards fade-to-1, 0.4s linear 0.85s forwards so-from-6;
+  }
+}

@@ -1,0 +1,10 @@
+.rfiktw {
+  d: path('M12 10l-5 -5M12 10l5 -5');
+}
+
+@media not (prefers-reduced-motion) {
+  .rfiktw {
+    stroke-dasharray: 10;
+    animation: 0.4s linear forwards so-from-10;
+  }
+}

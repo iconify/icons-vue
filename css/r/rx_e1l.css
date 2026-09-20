@@ -1,0 +1,15 @@
+.rx_e1l {
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: currentColor;
+  stroke-width: 2px;
+  d: path('M6 10h3.5l3.5 -3.5v10.5l-3.5 -3.5h-3.5Z');
+  fill: none;
+}
+
+@media not (prefers-reduced-motion) {
+  .rx_e1l {
+    stroke-dasharray: 34;
+    animation: 0.4s linear forwards so-from-34;
+  }
+}

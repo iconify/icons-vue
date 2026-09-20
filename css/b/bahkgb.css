@@ -1,0 +1,18 @@
+.bahkgb {
+  d: path('M22 12h-22');
+  transform: rotate(-45deg);
+  transform-origin: 12px 12px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: currentColor;
+  stroke-width: 2px;
+  fill: none;
+}
+
+@media not (prefers-reduced-motion) {
+  .bahkgb {
+    stroke-dasharray: 24;
+    stroke-dashoffset: 24;
+    animation: 5s linear infinite d-fif_ok, 0.3s linear 0.5s forwards so-to-0;
+  }
+}

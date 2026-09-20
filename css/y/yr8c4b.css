@@ -1,0 +1,11 @@
+.yr8c4b {
+  d: path('M16 11h0.01');
+}
+
+@media not (prefers-reduced-motion) {
+  .yr8c4b {
+    stroke-dasharray: 4;
+    stroke-dashoffset: 4;
+    animation: 0.2s linear 1.6s forwards so-to-0;
+  }
+}

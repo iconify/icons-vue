@@ -1,0 +1,12 @@
+.hw-7wb {
+  d: path('M12 17h-7v-10h14v10Z');
+  fill: currentColor;
+}
+
+@media not (prefers-reduced-motion) {
+  .hw-7wb {
+    stroke-dasharray: 50;
+    fill-opacity: 0;
+    animation: 0.6s linear forwards so-from-50, 0.4s linear 1s forwards fill-to-1;
+  }
+}

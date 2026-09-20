@@ -1,0 +1,11 @@
+.qr9n7p {
+  d: path('M12 13v-6');
+}
+
+@media not (prefers-reduced-motion) {
+  .qr9n7p {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 1.7s forwards so-to-0;
+  }
+}

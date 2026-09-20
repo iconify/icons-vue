@@ -1,0 +1,10 @@
+.snke8u {
+  cx: 15px;
+  cy: 8px;
+}
+
+@media not (prefers-reduced-motion) {
+  .snke8u {
+    animation: 0s forwards r-to-0px, 0.2s linear 1.4s forwards r-to-2px;
+  }
+}

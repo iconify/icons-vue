@@ -1,0 +1,12 @@
+.l1irms {
+  transform: rotate(45deg);
+  transform-origin: 12px 12px;
+}
+
+@media not (prefers-reduced-motion) {
+  .l1irms {
+    stroke-dasharray: 28;
+    stroke-dashoffset: 28;
+    animation: 0.4s linear 1.15s forwards so-to-0;
+  }
+}

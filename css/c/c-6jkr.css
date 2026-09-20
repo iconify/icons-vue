@@ -1,0 +1,11 @@
+.c-6jkr {
+  d: path('M15 12h6');
+}
+
+@media not (prefers-reduced-motion) {
+  .c-6jkr {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 0.4s forwards so-to-0;
+  }
+}

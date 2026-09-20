@@ -1,0 +1,11 @@
+.sg2ped {
+  d: path('M14 8v8');
+}
+
+@media not (prefers-reduced-motion) {
+  .sg2ped {
+    stroke-dasharray: 10;
+    stroke-dashoffset: 10;
+    animation: 0.2s linear 2s forwards so-to-0;
+  }
+}

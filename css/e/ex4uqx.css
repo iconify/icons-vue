@@ -1,0 +1,10 @@
+.ex4uqx {
+  cx: 6px;
+  cy: 9px;
+}
+
+@media not (prefers-reduced-motion) {
+  .ex4uqx {
+    animation: 0s forwards r-to-0px, 0.2s linear 1.7s forwards r-to-2px;
+  }
+}

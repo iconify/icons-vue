@@ -1,0 +1,10 @@
+.aotban {
+  d: path('M14 20.5c0 0 -6 -7 -6 -11.5c0 -3.31 2.69 -6 6 -6c3.31 0 6 2.69 6 6c0 4.5 -6 11.5 -6 11.5Z');
+  fill-opacity: 0.3;
+}
+
+@media not (prefers-reduced-motion) {
+  .aotban {
+    animation: 0s forwards fill-to-0, 0.4s linear forwards d-h46djy, 0.15s linear 0.4s forwards fill-to-0_3;
+  }
+}

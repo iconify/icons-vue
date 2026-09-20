@@ -1,0 +1,11 @@
+.cn_flp {
+  d: path('M7 11v-1c0 -2.5 2 -5 5 -5M17 11v-1c0 -2.5 -2 -5 -5 -5');
+}
+
+@media not (prefers-reduced-motion) {
+  .cn_flp {
+    stroke-dasharray: 12;
+    stroke-dashoffset: 12;
+    animation: 0.4s linear 0.5s forwards so-to-0;
+  }
+}

@@ -1,0 +1,10 @@
+.nxuu_a {
+  d: path('M12.37 13.37l-4.13 -7.85c0.29 -0.17 0.59 -0.32 0.89 -0.44c0 0 0.39 -2.69 0.39 -2.69c0.03 -0.17 0.19 -0.39 0.37 -0.38c0 0 4.14 0 4.14 0c0.2 0 0.42 0.17 0.46 0.35c0 0 0.37 2.72 0.37 2.72c0.31 0.12 0.61 0.27 0.9 0.44Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .nxuu_a {
+    opacity: 0;
+    animation: 0s 0.4s forwards fade-to-1, 0.2s linear 0.4s forwards d-voy_sq;
+  }
+}

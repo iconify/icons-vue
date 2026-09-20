@@ -1,0 +1,12 @@
+.glst3p {
+  d: path('M10 12l3 -3M10 12l3 3');
+  fill: none;
+}
+
+@media not (prefers-reduced-motion) {
+  .glst3p {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.4s linear 0.7s forwards so-to-0;
+  }
+}

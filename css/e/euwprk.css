@@ -1,0 +1,10 @@
+.euwprk {
+  d: path('M12 17h-8v-14h16v14Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .euwprk {
+    stroke-dasharray: 62;
+    animation: 0.6s linear forwards so-from-62;
+  }
+}

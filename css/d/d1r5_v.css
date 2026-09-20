@@ -1,0 +1,11 @@
+.d1r5_v {
+  d: path('M4 11c2.39 0 4.68 0.95 6.36 2.64c1.69 1.68 2.64 3.97 2.64 6.36');
+}
+
+@media not (prefers-reduced-motion) {
+  .d1r5_v {
+    stroke-dasharray: 18;
+    stroke-dashoffset: 18;
+    animation: 0.3s linear 0.2s forwards so-to-0;
+  }
+}

@@ -1,0 +1,11 @@
+.z5rc8u {
+  d: path('M12 15h9M12 15h-9');
+}
+
+@media not (prefers-reduced-motion) {
+  .z5rc8u {
+    stroke-dasharray: 12;
+    stroke-dashoffset: 12;
+    animation: 0.2s linear 0.4s forwards so-to-0;
+  }
+}

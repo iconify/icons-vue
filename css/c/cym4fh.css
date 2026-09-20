@@ -1,0 +1,11 @@
+.cym4fh {
+  d: path('M21 19h-5');
+}
+
+@media not (prefers-reduced-motion) {
+  .cym4fh {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 0.8s forwards so-to-0;
+  }
+}

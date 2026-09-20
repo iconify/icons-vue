@@ -1,0 +1,10 @@
+.celmyq {
+  d: path('M5 12h14');
+}
+
+@media not (prefers-reduced-motion) {
+  .celmyq {
+    stroke-dasharray: 16;
+    animation: 0.5s linear forwards so-from-16;
+  }
+}

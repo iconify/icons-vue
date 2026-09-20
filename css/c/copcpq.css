@@ -1,0 +1,11 @@
+.copcpq {
+  d: path('M9 17v-3');
+}
+
+@media not (prefers-reduced-motion) {
+  .copcpq {
+    stroke-dasharray: 6;
+    stroke-dashoffset: 6;
+    animation: 0.2s linear 0.9s forwards so-to-0;
+  }
+}

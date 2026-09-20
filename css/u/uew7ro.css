@@ -1,0 +1,11 @@
+.uew7ro {
+  d: path('M6 16l7.5 -4');
+}
+
+@media not (prefers-reduced-motion) {
+  .uew7ro {
+    stroke-dasharray: 12;
+    stroke-dashoffset: 12;
+    animation: 0.2s linear 1.4s forwards so-to-0;
+  }
+}

@@ -1,0 +1,11 @@
+.fhjy5e {
+  d: path('M9 13h6');
+}
+
+@media not (prefers-reduced-motion) {
+  .fhjy5e {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 0.8s forwards so-to-0;
+  }
+}

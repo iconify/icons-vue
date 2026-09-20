@@ -1,0 +1,11 @@
+.b46h1j {
+  d: path('M17 12l-4 4M17 12l-4 -4');
+}
+
+@media not (prefers-reduced-motion) {
+  .b46h1j {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 0.9s forwards so-to-0;
+  }
+}

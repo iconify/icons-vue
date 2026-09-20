@@ -1,0 +1,12 @@
+.q-e4-b {
+  d: path('M10.5 16v-8h3c0.55 0 1 0.45 1 1v2c0 0.55 -0.45 1 -1 1h-3');
+  stroke: #000;
+}
+
+@media not (prefers-reduced-motion) {
+  .q-e4-b {
+    stroke-dasharray: 22;
+    stroke-dashoffset: 22;
+    animation: 0.5s linear 1.8s forwards so-to-0;
+  }
+}

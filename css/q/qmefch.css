@@ -1,0 +1,10 @@
+.qmefch {
+  cx: 13px;
+  cy: 15px;
+}
+
+@media not (prefers-reduced-motion) {
+  .qmefch {
+    animation: 0s forwards r-to-0px, 0.2s linear 0.85s forwards r-to-1px;
+  }
+}

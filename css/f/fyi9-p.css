@@ -1,0 +1,10 @@
+.fyi9-p {
+  d: path('M18.5 18.5l0.5 0.5M18.5 5.5l0.5 -0.5M5.5 5.5l-0.5 -0.5M5.5 18.5l-0.5 0.5');
+}
+
+@media not (prefers-reduced-motion) {
+  .fyi9-p {
+    opacity: 0;
+    animation: 0s 0.7s forwards fade-to-1, 0.2s linear 0.7s forwards d-s9ijad;
+  }
+}

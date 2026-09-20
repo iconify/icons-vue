@@ -1,0 +1,11 @@
+.msxztt {
+  d: path('M7 21l-4 -4M7 21l4 -4');
+}
+
+@media not (prefers-reduced-motion) {
+  .msxztt {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.4s linear 0.6s forwards so-to-0;
+  }
+}

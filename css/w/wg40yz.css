@@ -1,0 +1,11 @@
+.wg40yz {
+  d: path('M12 14v0.01');
+}
+
+@media not (prefers-reduced-motion) {
+  .wg40yz {
+    stroke-dasharray: 4;
+    stroke-dashoffset: 4;
+    animation: 0.2s linear 1.6s forwards so-to-0;
+  }
+}

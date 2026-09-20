@@ -1,0 +1,11 @@
+.hda8uf {
+  d: path('M12 8.75l1.18 -5.64l5.03 1.07');
+}
+
+@media not (prefers-reduced-motion) {
+  .hda8uf {
+    stroke-dasharray: 14;
+    stroke-dashoffset: 14;
+    animation: 6s linear 2s infinite d-kmm1mz, 0.2s linear 2s forwards so-to-0;
+  }
+}

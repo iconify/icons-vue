@@ -1,0 +1,10 @@
+.hptb_v {
+  d: path('M3.94 9.73c1.24 0 2.24 1 2.24 2.24c0 1.24 -1 2.24 -2.24 2.24c-1.24 0 -2.24 -1 -2.24 -2.24c0 -1.24 1 -2.24 2.24 -2.24ZM20.06 9.73c1.24 0 2.24 1 2.24 2.24c0 1.24 -1 2.24 -2.24 2.24c-1.24 0 -2.24 -1 -2.24 -2.24c0 -1.24 1 -2.24 2.24 -2.24Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .hptb_v {
+    opacity: 0;
+    animation: 0s 1s forwards fade-to-1, 0.2s linear 1s forwards d-ma61vw;
+  }
+}

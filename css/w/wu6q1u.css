@@ -1,0 +1,11 @@
+.wu6q1u {
+  d: path('M19 15v6');
+}
+
+@media not (prefers-reduced-motion) {
+  .wu6q1u {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 1.6s forwards so-to-0;
+  }
+}

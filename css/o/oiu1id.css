@@ -1,0 +1,11 @@
+.oiu1id {
+  d: path('M17 5h-4M17 5v4');
+}
+
+@media not (prefers-reduced-motion) {
+  .oiu1id {
+    stroke-dasharray: 6;
+    stroke-dashoffset: 6;
+    animation: 0.2s linear 0.5s forwards so-to-0;
+  }
+}

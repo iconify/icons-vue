@@ -1,0 +1,11 @@
+.p7uddg {
+  d: path('M12 11v6');
+}
+
+@media not (prefers-reduced-motion) {
+  .p7uddg {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 1.25s forwards so-to-0;
+  }
+}

@@ -1,0 +1,11 @@
+.m2hv7f {
+  d: path('M8 12h-5M16 12h5M12 16v5');
+}
+
+@media not (prefers-reduced-motion) {
+  .m2hv7f {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 0.3s forwards so-to-0;
+  }
+}

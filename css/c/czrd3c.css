@@ -1,0 +1,10 @@
+.czrd3c {
+  d: path('M8 12l3 3l5 -5');
+}
+
+@media not (prefers-reduced-motion) {
+  .czrd3c {
+    stroke-dasharray: 14;
+    animation: 0.2s linear forwards so-from-14;
+  }
+}

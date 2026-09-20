@@ -1,0 +1,10 @@
+.e9-zai {
+  d: path('M12 21h8v-9c0 -1.1 -0.9 -2 -2 -2h-6M12 21h-8v-9c0 -1.1 0.9 -2 2 -2h6');
+}
+
+@media not (prefers-reduced-motion) {
+  .e9-zai {
+    stroke-dasharray: 30;
+    animation: 0.4s linear forwards so-from-30;
+  }
+}

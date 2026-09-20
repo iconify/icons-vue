@@ -1,0 +1,11 @@
+.ks7-qg {
+  d: path('M12 5.5c3.59 0 6.5 2.91 6.5 6.5c0 3.59 -2.91 6.5 -6.5 6.5c-3.59 0 -6.5 -2.91 -6.5 -6.5c0 -3.59 2.91 -6.5 6.5 -6.5Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .ks7-qg {
+    stroke-dasharray: 44;
+    stroke-dashoffset: 44;
+    animation: 0.5s linear 0.3s forwards so-to-0, 0s 0.8s forwards fade-to-0;
+  }
+}

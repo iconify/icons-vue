@@ -1,0 +1,11 @@
+.yw4ckz {
+  cx: 11px;
+  r: 6.5px;
+  cy: 7.5px;
+}
+
+@media not (prefers-reduced-motion) {
+  .yw4ckz {
+    animation: 0.4s linear forwards cx-from-7_5px, 0.4s linear forwards r-from-5_5px;
+  }
+}

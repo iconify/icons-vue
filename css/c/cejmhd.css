@@ -1,0 +1,11 @@
+.cejmhd {
+  d: path('M20 10h-10');
+}
+
+@media not (prefers-reduced-motion) {
+  .cejmhd {
+    stroke-dasharray: 12;
+    stroke-dashoffset: 12;
+    animation: 0.2s linear 0.3s forwards so-to-0;
+  }
+}

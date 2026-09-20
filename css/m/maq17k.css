@@ -1,0 +1,10 @@
+.maq17k {
+  d: path('M3 12c0 -4.97 4.03 -9 9 -9c4.97 0 9 4.03 9 9c0 4.97 -4.03 9 -9 9c-4.97 0 -9 -4.03 -9 -9Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .maq17k {
+    stroke-dasharray: 60;
+    animation: 0.6s linear forwards so-from-60;
+  }
+}

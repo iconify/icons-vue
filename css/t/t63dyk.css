@@ -1,0 +1,12 @@
+.t63dyk {
+  cx: 11px;
+  cy: 17.5px;
+  r: 1.5px;
+}
+
+@media not (prefers-reduced-motion) {
+  .t63dyk {
+    opacity: 0;
+    animation: 0.1s linear 1.2s forwards fade-to-1;
+  }
+}

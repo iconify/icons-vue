@@ -1,0 +1,11 @@
+.dy_5ci {
+  d: path('M2 12.5l7 1');
+}
+
+@media not (prefers-reduced-motion) {
+  .dy_5ci {
+    stroke-dasharray: 10;
+    stroke-dashoffset: 10;
+    animation: 0.3s linear 0.4s forwards so-to-0;
+  }
+}

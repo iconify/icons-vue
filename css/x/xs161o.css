@@ -1,0 +1,10 @@
+.xs161o {
+  d: path('M11 9h6v10h-6.5l-2 -2h-2.5v-6.5l1.5 -1.5Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .xs161o {
+    stroke-dasharray: 42;
+    animation: 0.5s linear forwards so-from-42;
+  }
+}

@@ -1,0 +1,12 @@
+.bpk4qx {
+  stroke: currentColor;
+  d: path('M16 19h6');
+}
+
+@media not (prefers-reduced-motion) {
+  .bpk4qx {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 0.8s forwards so-to-0;
+  }
+}

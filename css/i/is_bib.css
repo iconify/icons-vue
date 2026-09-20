@@ -1,0 +1,9 @@
+.is_bib {
+  d: path('M6 3.5c0 -0.75 0.75 -1.5 1.5 -1.5h3.5v20h-5Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .is_bib {
+    animation: 0.4s linear forwards d-g-t0ye;
+  }
+}

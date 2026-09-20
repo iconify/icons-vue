@@ -1,0 +1,11 @@
+.uu-jvr {
+  d: path('M12 14l3 3M12 14l3 -3');
+}
+
+@media not (prefers-reduced-motion) {
+  .uu-jvr {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 1.3s forwards so-to-0;
+  }
+}

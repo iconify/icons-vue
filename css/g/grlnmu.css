@@ -1,0 +1,12 @@
+.grlnmu {
+  stroke: #000;
+  d: path('M0 11h24');
+}
+
+@media not (prefers-reduced-motion) {
+  .grlnmu {
+    stroke-dasharray: 26;
+    stroke-dashoffset: 26;
+    animation: 0.4s linear 1.1s forwards so-to-0;
+  }
+}

@@ -1,0 +1,11 @@
+.q_42zy {
+  d: path('M12 13l3 -3M12 13l-3 -3');
+}
+
+@media not (prefers-reduced-motion) {
+  .q_42zy {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 1.65s forwards so-to-0;
+  }
+}

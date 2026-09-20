@@ -1,0 +1,10 @@
+.fhjn7n {
+  d: path('M4 7h16');
+}
+
+@media not (prefers-reduced-motion) {
+  .fhjn7n {
+    stroke-dasharray: 18;
+    animation: 0.3s linear forwards so-from-18;
+  }
+}

@@ -1,0 +1,11 @@
+.jw542b {
+  d: path('M19 16l2 2M19 16l-2 2');
+}
+
+@media not (prefers-reduced-motion) {
+  .jw542b {
+    stroke-dasharray: 6;
+    stroke-dashoffset: 6;
+    animation: 0.2s linear 1.6s forwards so-to-0;
+  }
+}

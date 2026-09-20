@@ -1,0 +1,11 @@
+.sxex9y {
+  d: path('M15 6h2v12h-2Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .sxex9y {
+    stroke-dasharray: 30;
+    stroke-dashoffset: 30;
+    animation: 0.4s linear 0.4s forwards so-to-0;
+  }
+}

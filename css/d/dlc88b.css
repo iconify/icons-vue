@@ -1,0 +1,11 @@
+.dlc88b {
+  d: path('M12 7l3 3M12 7l-3 3');
+}
+
+@media not (prefers-reduced-motion) {
+  .dlc88b {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 1.65s forwards so-to-0;
+  }
+}

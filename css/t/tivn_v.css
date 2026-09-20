@@ -1,0 +1,11 @@
+.tivn_v {
+  d: path('M17 17l4 4');
+}
+
+@media not (prefers-reduced-motion) {
+  .tivn_v {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 1.1s forwards so-to-0;
+  }
+}

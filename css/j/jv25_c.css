@@ -1,0 +1,12 @@
+.jv25_c {
+  cx: 9px;
+  cy: 9px;
+  r: 2.5px;
+  fill: #000;
+}
+
+@media not (prefers-reduced-motion) {
+  .jv25_c {
+    animation: 0s forwards r-to-0px, 0.2s linear 1.1s forwards r-to-2_5px;
+  }
+}

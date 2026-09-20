@@ -1,0 +1,10 @@
+.e63hbv {
+  d: path('M2 6v15c0 0.55 0.45 1 1 1h15');
+}
+
+@media not (prefers-reduced-motion) {
+  .e63hbv {
+    opacity: 0;
+    animation: 0s 1.4s forwards fade-to-1, 0.2s linear 1.4s forwards d-pfv47w;
+  }
+}

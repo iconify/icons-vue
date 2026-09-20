@@ -1,0 +1,11 @@
+.ddx_6x {
+  d: path('M7 17v-4l10 -10l4 4l-10 10h-4');
+}
+
+@media not (prefers-reduced-motion) {
+  .ddx_6x {
+    stroke-dasharray: 44;
+    stroke-dashoffset: 44;
+    animation: 0.5s linear 0.3s forwards so-to-0;
+  }
+}

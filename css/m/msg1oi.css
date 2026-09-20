@@ -1,0 +1,11 @@
+.msg1oi {
+  d: path('M12 11v6');
+}
+
+@media not (prefers-reduced-motion) {
+  .msg1oi {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 1.5s forwards so-to-0;
+  }
+}

@@ -1,0 +1,11 @@
+.q9r29g {
+  d: path('M14 12h-9');
+}
+
+@media not (prefers-reduced-motion) {
+  .q9r29g {
+    stroke-dasharray: 12;
+    stroke-dashoffset: 12;
+    animation: 0.2s linear 0.5s forwards so-to-0;
+  }
+}

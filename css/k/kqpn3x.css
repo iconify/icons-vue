@@ -1,0 +1,11 @@
+.kqpn3x {
+  d: path('M19 16v6');
+}
+
+@media not (prefers-reduced-motion) {
+  .kqpn3x {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 1.55s forwards so-to-0;
+  }
+}

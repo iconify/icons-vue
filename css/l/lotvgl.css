@@ -1,0 +1,12 @@
+.lotvgl {
+  d: path('M6 19h12');
+  fill: none;
+}
+
+@media not (prefers-reduced-motion) {
+  .lotvgl {
+    stroke-dasharray: 14;
+    stroke-dashoffset: 14;
+    animation: 0.2s linear 0.5s forwards so-to-0;
+  }
+}

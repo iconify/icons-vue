@@ -1,0 +1,10 @@
+.l3xoro {
+  d: path('M3 21l18 0');
+}
+
+@media not (prefers-reduced-motion) {
+  .l3xoro {
+    stroke-dasharray: 20;
+    animation: 0.3s linear forwards so-from-20;
+  }
+}

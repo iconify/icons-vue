@@ -1,0 +1,11 @@
+.zt5c4z {
+  d: path('M12 15l-8 -5v8h16v-8l-8 5Z');
+  fill: currentColor;
+}
+
+@media not (prefers-reduced-motion) {
+  .zt5c4z {
+    fill-opacity: 0;
+    animation: 0.4s linear 0.9s forwards fill-to-1;
+  }
+}

@@ -1,0 +1,12 @@
+.ajozcb {
+  d: path('M10 21h4');
+  fill: none;
+}
+
+@media not (prefers-reduced-motion) {
+  .ajozcb {
+    stroke-dasharray: 6;
+    stroke-dashoffset: 6;
+    animation: 0.2s linear 0.5s forwards so-to-0;
+  }
+}

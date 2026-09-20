@@ -1,0 +1,12 @@
+.p9klny {
+  d: path('M12 22.25h8.75M12 22.25h-8.75');
+  opacity: 0.33;
+  stroke-width: 1.5px;
+}
+
+@media not (prefers-reduced-motion) {
+  .p9klny {
+    stroke-dasharray: 12;
+    animation: 0.4s linear forwards so-from-12;
+  }
+}

@@ -1,0 +1,12 @@
+.p9atcd {
+  transform: rotate(45deg);
+  transform-origin: 12px 12px;
+}
+
+@media not (prefers-reduced-motion) {
+  .p9atcd {
+    stroke-dasharray: 28;
+    stroke-dashoffset: 28;
+    animation: 0.4s linear 1.7s forwards so-to-0;
+  }
+}

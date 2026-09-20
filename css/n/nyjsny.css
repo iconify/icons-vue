@@ -1,0 +1,11 @@
+.nyjsny {
+  d: path('M18.5 14c2.48 0 4.5 2.02 4.5 4.5c0 2.48 -2.02 4.5 -4.5 4.5c-2.48 0 -4.5 -2.02 -4.5 -4.5c0 -2.48 2.02 -4.5 4.5 -4.5Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .nyjsny {
+    stroke-dasharray: 32;
+    stroke-dashoffset: 32;
+    animation: 0.4s linear 0.8s forwards so-to-0;
+  }
+}

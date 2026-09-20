@@ -1,0 +1,11 @@
+.tmucss {
+  d: path('M12 7v6');
+}
+
+@media not (prefers-reduced-motion) {
+  .tmucss {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 1.2s forwards so-to-0;
+  }
+}

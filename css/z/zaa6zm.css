@@ -1,0 +1,11 @@
+.zaa6zm {
+  d: path('M12 3l-4 4M12 21l-4 -4M12 3l4 4M12 21l4 -4');
+}
+
+@media not (prefers-reduced-motion) {
+  .zaa6zm {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.4s linear 0.4s forwards so-to-0;
+  }
+}

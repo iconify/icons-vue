@@ -1,0 +1,11 @@
+.mgcd_x {
+  cx: 9px;
+  cy: 9px;
+  r: 2.5px;
+}
+
+@media not (prefers-reduced-motion) {
+  .mgcd_x {
+    animation: 0s forwards r-to-0px, 0.2s linear 0.85s forwards r-to-2_5px;
+  }
+}

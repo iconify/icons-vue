@@ -1,0 +1,11 @@
+.aunkjo {
+  d: path('M3 9l3 -3M3 9l3 3');
+}
+
+@media not (prefers-reduced-motion) {
+  .aunkjo {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 0.5s forwards so-to-0;
+  }
+}

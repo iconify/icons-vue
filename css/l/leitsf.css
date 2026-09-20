@@ -1,0 +1,12 @@
+.leitsf {
+  cx: 16.5px;
+  cy: 14.5px;
+  r: 1.5px;
+}
+
+@media not (prefers-reduced-motion) {
+  .leitsf {
+    opacity: 0;
+    animation: 0.1s linear 1.4s forwards fade-to-1;
+  }
+}

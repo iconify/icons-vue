@@ -1,0 +1,10 @@
+.tsuhuq {
+  fill: #000;
+  d: path('M4 2h16v5h-16v12h16v-24h-16Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .tsuhuq {
+    animation: 0s forwards d-gxzt2d, 0.6s linear 1s forwards d--ye3im;
+  }
+}

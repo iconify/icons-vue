@@ -1,0 +1,11 @@
+.kf9r7q {
+  d: path('M12 20h7M12 20h-7');
+}
+
+@media not (prefers-reduced-motion) {
+  .kf9r7q {
+    stroke-dasharray: 10;
+    stroke-dashoffset: 10;
+    animation: 0.2s linear 0.4s forwards so-to-0;
+  }
+}

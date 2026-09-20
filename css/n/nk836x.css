@@ -1,0 +1,11 @@
+.nk836x {
+  fill-opacity: 0.3;
+  d: path('M7 16.82c-2.41 -1.25 -4 -3.39 -4 -5.82c0 -3.87 4.03 -7 9 -7c4.97 0 9 3.13 9 7c0 3.87 -4.03 7 -9 7c-1.85 0 -3.57 -0.43 -5 -1.18Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .nk836x {
+    stroke-dasharray: 54;
+    animation: 0s forwards fill-to-0, 0.6s linear forwards so-from-54, 0.15s linear 1.4s forwards fill-to-0_3;
+  }
+}

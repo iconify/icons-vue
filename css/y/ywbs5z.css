@@ -1,0 +1,11 @@
+.ywbs5z {
+  d: path('M17 4h3c0.55 0 1 0.45 1 1v3c0 0.55 -0.45 1 -1 1h-3');
+}
+
+@media not (prefers-reduced-motion) {
+  .ywbs5z {
+    stroke-dasharray: 16;
+    stroke-dashoffset: 16;
+    animation: 0.3s linear 1s forwards so-to-0;
+  }
+}

@@ -1,0 +1,15 @@
+.eo47_w {
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: currentColor;
+  stroke-width: 2px;
+  d: path('M12 12l7 7M12 12l-7 -7M12 12l-7 7M12 12l7 -7');
+  fill: none;
+}
+
+@media not (prefers-reduced-motion) {
+  .eo47_w {
+    stroke-dasharray: 12;
+    animation: 0.4s linear forwards so-from-12;
+  }
+}

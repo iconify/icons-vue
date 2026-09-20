@@ -1,0 +1,11 @@
+.tiaq0c {
+  d: path('M12 13l3 -3M12 13l-3 -3');
+}
+
+@media not (prefers-reduced-motion) {
+  .tiaq0c {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 1.9s forwards so-to-0;
+  }
+}

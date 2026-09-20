@@ -1,0 +1,11 @@
+.u_cjuu {
+  d: path('M16.5 15.5l5 5');
+}
+
+@media not (prefers-reduced-motion) {
+  .u_cjuu {
+    stroke-dasharray: 10;
+    stroke-dashoffset: 10;
+    animation: 0.2s linear 0.9s forwards so-to-0;
+  }
+}

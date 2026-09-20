@@ -1,0 +1,11 @@
+.embhcw {
+  d: path('M7 17h7');
+}
+
+@media not (prefers-reduced-motion) {
+  .embhcw {
+    stroke-dasharray: 10;
+    stroke-dashoffset: 10;
+    animation: 0.2s linear 1.3s forwards so-to-0;
+  }
+}

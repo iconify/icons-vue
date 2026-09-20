@@ -1,0 +1,10 @@
+.k__vmq {
+  d: path('M12 3c4.97 0 9 4.03 9 9c0 4.97 -4.03 9 -9 9c-4.97 0 -9 -4.03 -9 -9c0 -4.97 4.03 -9 9 -9');
+}
+
+@media not (prefers-reduced-motion) {
+  .k__vmq {
+    stroke-dasharray: 60;
+    animation: 0.6s linear forwards so-from-60;
+  }
+}

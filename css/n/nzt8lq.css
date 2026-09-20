@@ -1,0 +1,12 @@
+.nzt8lq {
+  stroke: currentColor;
+  d: path('M16 19h6');
+}
+
+@media not (prefers-reduced-motion) {
+  .nzt8lq {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 1.25s forwards so-to-0;
+  }
+}

@@ -1,0 +1,10 @@
+.oa8lri {
+  d: path('M12 3c4.97 0 9 4.03 9 9c0 4.97 -4.03 9 -9 9');
+}
+
+@media not (prefers-reduced-motion) {
+  .oa8lri {
+    stroke-dasharray: 32;
+    animation: 0.6s linear forwards so-from-32;
+  }
+}

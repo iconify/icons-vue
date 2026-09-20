@@ -1,0 +1,11 @@
+.l48m1g {
+  d: path('M9 19c-1.41 0 -2.84 -0.56 -3.69 -1.19c-0.84 -0.63 -1.09 -1.66 -2.31 -2.31');
+}
+
+@media not (prefers-reduced-motion) {
+  .l48m1g {
+    stroke-dasharray: 10;
+    stroke-dashoffset: 10;
+    animation: 0.2s linear 0.7s forwards so-to-0;
+  }
+}

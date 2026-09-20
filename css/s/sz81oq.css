@@ -1,0 +1,11 @@
+.sz81oq {
+  d: path('M14.5 8.5l2 -1');
+}
+
+@media not (prefers-reduced-motion) {
+  .sz81oq {
+    stroke-dasharray: 6;
+    stroke-dashoffset: 6;
+    animation: 0.2s linear 0.8s forwards so-to-0;
+  }
+}

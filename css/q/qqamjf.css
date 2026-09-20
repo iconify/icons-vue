@@ -1,0 +1,11 @@
+.qqamjf {
+  d: path('M19 12h-9');
+}
+
+@media not (prefers-reduced-motion) {
+  .qqamjf {
+    stroke-dasharray: 12;
+    stroke-dashoffset: 12;
+    animation: 0.2s linear 0.3s forwards so-to-0;
+  }
+}

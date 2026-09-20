@@ -1,0 +1,10 @@
+.nzfymf {
+  d: path('M6 9h13');
+}
+
+@media not (prefers-reduced-motion) {
+  .nzfymf {
+    stroke-dasharray: 16;
+    animation: 0.3s linear forwards so-from-16;
+  }
+}

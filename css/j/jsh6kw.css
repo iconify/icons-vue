@@ -1,0 +1,11 @@
+.jsh6kw {
+  d: path('M20 11v0.01');
+}
+
+@media not (prefers-reduced-motion) {
+  .jsh6kw {
+    stroke-dasharray: 4;
+    stroke-dashoffset: 4;
+    animation: 0.2s linear 0.9s forwards so-to-0;
+  }
+}

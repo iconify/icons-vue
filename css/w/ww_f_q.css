@@ -1,0 +1,13 @@
+.ww_f_q {
+  fill: none;
+  transform: rotate(45deg);
+  transform-origin: 12px 12px;
+}
+
+@media not (prefers-reduced-motion) {
+  .ww_f_q {
+    stroke-dasharray: 28;
+    stroke-dashoffset: 28;
+    animation: 0.4s linear 1.5s forwards so-to-0;
+  }
+}

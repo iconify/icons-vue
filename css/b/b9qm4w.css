@@ -1,0 +1,10 @@
+.b9qm4w {
+  d: path('M5 15.5c1 1 2.5 2 4 2.5c-2 2 -5 3 -7 3c2 -2 3 -3.5 3 -5.5Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .b9qm4w {
+    opacity: 0;
+    animation: 0s 0.7s forwards fade-to-1, 0.2s linear 0.7s forwards d-ssqjbr;
+  }
+}

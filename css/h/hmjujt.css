@@ -1,0 +1,11 @@
+.hmjujt {
+  d: path('M16 16l5 5');
+}
+
+@media not (prefers-reduced-motion) {
+  .hmjujt {
+    stroke-dasharray: 10;
+    stroke-dashoffset: 10;
+    animation: 0.2s linear 1.7s forwards so-to-0;
+  }
+}

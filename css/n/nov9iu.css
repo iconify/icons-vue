@@ -1,0 +1,10 @@
+.nov9iu {
+  d: path('M19 5h-14');
+}
+
+@media not (prefers-reduced-motion) {
+  .nov9iu {
+    stroke-dasharray: 16;
+    animation: 0.3s linear forwards so-from-16;
+  }
+}

@@ -1,0 +1,12 @@
+.bqwbxe {
+  cx: 12px;
+  cy: 12px;
+  fill: currentColor;
+  r: 4px;
+}
+
+@media not (prefers-reduced-motion) {
+  .bqwbxe {
+    animation: 0s forwards r-to-0px, 0.2s linear 0.9s forwards r-to-4px;
+  }
+}

@@ -1,0 +1,11 @@
+.w1ln1g {
+  d: path('M16 23h0.01');
+}
+
+@media not (prefers-reduced-motion) {
+  .w1ln1g {
+    stroke-dasharray: 4;
+    stroke-dashoffset: 4;
+    animation: 0.2s linear 2.2s forwards so-to-0;
+  }
+}

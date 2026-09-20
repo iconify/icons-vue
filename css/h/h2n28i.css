@@ -1,0 +1,10 @@
+.h2n28i {
+  cx: 12px;
+  cy: 13px;
+}
+
+@media not (prefers-reduced-motion) {
+  .h2n28i {
+    animation: 0s forwards r-to-0px, 0.2s linear 0.8s forwards r-to-2px;
+  }
+}

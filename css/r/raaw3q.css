@@ -1,0 +1,11 @@
+.raaw3q {
+  d: path('M21 19l-2 2M21 19l-2 -2');
+}
+
+@media not (prefers-reduced-motion) {
+  .raaw3q {
+    stroke-dasharray: 6;
+    stroke-dashoffset: 6;
+    animation: 0.2s linear 1s forwards so-to-0;
+  }
+}

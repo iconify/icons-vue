@@ -1,0 +1,11 @@
+.g7wwud {
+  d: path('M6 8l6 -5l6 5v12h-12v-12Z');
+  fill-opacity: 0.3;
+  fill: currentColor;
+}
+
+@media not (prefers-reduced-motion) {
+  .g7wwud {
+    animation: 0s forwards fill-to-0, 0.15s linear 1.2s forwards fill-to-0_3;
+  }
+}

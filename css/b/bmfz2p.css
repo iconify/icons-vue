@@ -1,0 +1,11 @@
+.bmfz2p {
+  fill-opacity: 0.3;
+  d: path('M9 20.5c0 0 -6 -7 -6 -11.5c0 -3.31 2.69 -6 6 -6c3.31 0 6 2.69 6 6c0 4.5 -6 11.5 -6 11.5Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .bmfz2p {
+    stroke-dasharray: 48;
+    animation: 0s forwards fill-to-0, 0.6s linear forwards so-from-48, 0.15s linear 0.6s forwards fill-to-0_3;
+  }
+}

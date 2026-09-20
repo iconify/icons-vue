@@ -1,0 +1,11 @@
+.w2ru-a {
+  d: path('M15 11l-6 6');
+}
+
+@media not (prefers-reduced-motion) {
+  .w2ru-a {
+    stroke-dasharray: 12;
+    stroke-dashoffset: 12;
+    animation: 0.2s linear 1.1s forwards so-to-0;
+  }
+}

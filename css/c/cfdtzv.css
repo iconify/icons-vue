@@ -1,0 +1,11 @@
+.cfdtzv {
+  fill: #000;
+  d: path('M10 8.5l6 3.5l-6 3.5Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .cfdtzv {
+    opacity: 0;
+    animation: 0s 1.1s forwards fade-to-1, 0.2s linear 1.1s forwards d--8d_6b;
+  }
+}

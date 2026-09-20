@@ -1,0 +1,10 @@
+.olsaeu {
+  d: path('M12 4h2v6h2.5l-4.5 4.5M12 4h-2v6h-2.5l4.5 4.5');
+}
+
+@media not (prefers-reduced-motion) {
+  .olsaeu {
+    stroke-dasharray: 20;
+    animation: 1.5s linear infinite d-vro9sl, 0.5s linear forwards so-from-20;
+  }
+}

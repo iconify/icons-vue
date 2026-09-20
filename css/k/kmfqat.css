@@ -1,0 +1,11 @@
+.kmfqat {
+  d: path('M12 4l3 3M12 4l-3 3');
+}
+
+@media not (prefers-reduced-motion) {
+  .kmfqat {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 0.5s forwards so-to-0;
+  }
+}

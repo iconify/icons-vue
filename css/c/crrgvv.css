@@ -1,0 +1,12 @@
+.crrgvv {
+  d: path('M16 18h6');
+  fill: none;
+}
+
+@media not (prefers-reduced-motion) {
+  .crrgvv {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 1.15s forwards so-to-0;
+  }
+}

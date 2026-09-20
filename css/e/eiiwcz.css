@@ -1,0 +1,11 @@
+.eiiwcz {
+  d: path('M3 12l4 4M21 12l-4 4M3 12l4 -4M21 12l-4 -4');
+}
+
+@media not (prefers-reduced-motion) {
+  .eiiwcz {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.4s linear 0.4s forwards so-to-0;
+  }
+}

@@ -1,0 +1,11 @@
+.u2yb_n {
+  d: path('M18 11h4');
+}
+
+@media not (prefers-reduced-motion) {
+  .u2yb_n {
+    stroke-dasharray: 6;
+    stroke-dashoffset: 6;
+    animation: 0.2s linear 1.1s forwards so-to-0;
+  }
+}

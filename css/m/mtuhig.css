@@ -1,0 +1,12 @@
+.mtuhig {
+  d: path('M12 12h-5.5');
+}
+
+@media not (prefers-reduced-motion) {
+  .mtuhig {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    transform-origin: 12px 12px;
+    animation: 15s linear infinite tr--p7flf, 0.2s linear 1.3s forwards so-to-0;
+  }
+}

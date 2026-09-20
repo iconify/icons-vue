@@ -1,0 +1,10 @@
+.g4y8tr {
+  d: path('M12 6c3.31 0 6 2.69 6 6c0 3.31 -2.69 6 -6 6c-3.31 0 -6 -2.69 -6 -6c0 -3.31 2.69 -6 6 -6Z');
+  fill: currentColor;
+}
+
+@media not (prefers-reduced-motion) {
+  .g4y8tr {
+    animation: 0.6s linear forwards d-ash02h;
+  }
+}

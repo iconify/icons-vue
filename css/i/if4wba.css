@@ -1,0 +1,11 @@
+.if4wba {
+  d: path('M10 5l-2 14');
+}
+
+@media not (prefers-reduced-motion) {
+  .if4wba {
+    stroke-dasharray: 18;
+    stroke-dashoffset: 18;
+    animation: 0.3s linear 0.7s forwards so-to-0;
+  }
+}

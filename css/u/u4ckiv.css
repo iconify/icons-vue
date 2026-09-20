@@ -1,0 +1,11 @@
+.u4ckiv {
+  d: path('M15 13v0.01M17 15v0.01');
+}
+
+@media not (prefers-reduced-motion) {
+  .u4ckiv {
+    stroke-dasharray: 4;
+    stroke-dashoffset: 4;
+    animation: 0.2s linear 1.4s forwards so-to-0;
+  }
+}

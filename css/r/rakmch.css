@@ -1,0 +1,10 @@
+.rakmch {
+  d: path('M11 20h8M11 20h-8');
+}
+
+@media not (prefers-reduced-motion) {
+  .rakmch {
+    stroke-dasharray: 10;
+    animation: 0.4s linear forwards so-from-10;
+  }
+}

@@ -1,0 +1,11 @@
+.fri20d {
+  d: path('M9 14h6');
+}
+
+@media not (prefers-reduced-motion) {
+  .fri20d {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 0.9s forwards so-to-0;
+  }
+}

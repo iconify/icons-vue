@@ -1,0 +1,11 @@
+.ty0iaf {
+  d: path('M14 20h6');
+}
+
+@media not (prefers-reduced-motion) {
+  .ty0iaf {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 1s forwards so-to-0;
+  }
+}

@@ -1,0 +1,11 @@
+.cu0zwu {
+  d: path('M20 3v4');
+}
+
+@media not (prefers-reduced-motion) {
+  .cu0zwu {
+    stroke-dasharray: 6;
+    stroke-dashoffset: 6;
+    animation: 0.2s linear 0.7s forwards so-to-0, 3s linear 0.9s infinite sw-cnj-zb;
+  }
+}

@@ -1,0 +1,11 @@
+.jgfkix {
+  d: path('M9.5 17l5 -2.5');
+}
+
+@media not (prefers-reduced-motion) {
+  .jgfkix {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 1.6s forwards so-to-0;
+  }
+}

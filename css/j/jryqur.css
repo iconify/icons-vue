@@ -1,0 +1,12 @@
+.jryqur {
+  d: path('M12 10l4 7h-8Z');
+  fill: #fff;
+  fill-opacity: 0.3;
+}
+
+@media not (prefers-reduced-motion) {
+  .jryqur {
+    stroke-dasharray: 28;
+    animation: 0s forwards fill-to-0, 0.4s linear forwards so-from-28, 0.15s linear 1s forwards fill-to-0_3;
+  }
+}

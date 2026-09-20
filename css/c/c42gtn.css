@@ -1,0 +1,11 @@
+.c42gtn {
+  d: path('M8 15h8');
+}
+
+@media not (prefers-reduced-motion) {
+  .c42gtn {
+    stroke-dasharray: 10;
+    stroke-dashoffset: 10;
+    animation: 0.2s linear 1.5s forwards so-to-0;
+  }
+}

@@ -1,0 +1,14 @@
+.lq_9ci {
+  d: path('M-1 13h26');
+  transform: rotate(45deg);
+  transform-origin: 12px 12px;
+  stroke: currentColor;
+}
+
+@media not (prefers-reduced-motion) {
+  .lq_9ci {
+    stroke-dasharray: 28;
+    stroke-dashoffset: 28;
+    animation: 0s forwards d-jqytza, 6s linear infinite d-qnzcbl, 0.4s linear 0.85s forwards so-to-0;
+  }
+}

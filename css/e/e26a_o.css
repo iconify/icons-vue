@@ -1,0 +1,11 @@
+.e26a_o {
+  d: path('M16 23h0.01');
+}
+
+@media not (prefers-reduced-motion) {
+  .e26a_o {
+    stroke-dasharray: 4;
+    stroke-dashoffset: 4;
+    animation: 0.2s linear 1.5s forwards so-to-0;
+  }
+}

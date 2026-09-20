@@ -1,0 +1,10 @@
+.zxx5oi {
+  d: path('M14 18h-9v-12h18v12Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .zxx5oi {
+    stroke-dasharray: 62;
+    animation: 0.6s linear forwards so-from-62;
+  }
+}

@@ -1,0 +1,11 @@
+.ycqeef {
+  d: path('M8 7h8');
+}
+
+@media not (prefers-reduced-motion) {
+  .ycqeef {
+    stroke-dasharray: 10;
+    stroke-dashoffset: 10;
+    animation: 0.2s linear 1.2s forwards so-to-0;
+  }
+}

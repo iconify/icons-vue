@@ -1,0 +1,11 @@
+.g-mogd {
+  d: path('M16 8h4M16 8v-4');
+}
+
+@media not (prefers-reduced-motion) {
+  .g-mogd {
+    stroke-dasharray: 6;
+    stroke-dashoffset: 6;
+    animation: 0.2s linear 0.9s forwards so-to-0;
+  }
+}

@@ -1,0 +1,12 @@
+.wn01kw {
+  d: path('M12 10l4 7h-8Z');
+  fill: #fff;
+}
+
+@media not (prefers-reduced-motion) {
+  .wn01kw {
+    stroke-dasharray: 28;
+    fill-opacity: 0;
+    animation: 0.4s linear forwards so-from-28, 0.4s linear 1s forwards fill-to-1;
+  }
+}

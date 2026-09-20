@@ -1,0 +1,11 @@
+.l_ywrm {
+  d: path('M12 20v-6');
+}
+
+@media not (prefers-reduced-motion) {
+  .l_ywrm {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 1.15s forwards so-to-0;
+  }
+}

@@ -1,0 +1,14 @@
+.qyz9dq {
+  d: path('M1 11h22');
+  stroke: #000;
+  transform: rotate(45deg);
+  transform-origin: 13px 12px;
+}
+
+@media not (prefers-reduced-motion) {
+  .qyz9dq {
+    stroke-dasharray: 24;
+    stroke-dashoffset: 24;
+    animation: 0.3s linear 1.2s forwards so-to-0;
+  }
+}

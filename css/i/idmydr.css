@@ -1,0 +1,11 @@
+.idmydr {
+  d: path('M14 6l4 4');
+}
+
+@media not (prefers-reduced-motion) {
+  .idmydr {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 0.8s forwards so-to-0;
+  }
+}

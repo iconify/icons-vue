@@ -1,0 +1,11 @@
+.zo85jt {
+  d: path('M4 5h16');
+}
+
+@media not (prefers-reduced-motion) {
+  .zo85jt {
+    stroke-dasharray: 18;
+    stroke-dashoffset: 18;
+    animation: 0.3s linear 0.5s forwards so-to-0;
+  }
+}

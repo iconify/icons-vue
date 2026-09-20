@@ -1,0 +1,10 @@
+.psjrum {
+  d: path('M2 12c0 -5.52 4.48 -10 10 -10c5.52 0 10 4.48 10 10c0 5.52 -4.48 10 -10 10c-5.52 0 -10 -4.48 -10 -10Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .psjrum {
+    stroke-dasharray: 66;
+    animation: 0.6s linear forwards so-from-66;
+  }
+}

@@ -1,0 +1,10 @@
+.cqe3vs {
+  d: path('M12 11l4 4h-2.5v3h-3v-3h-2.5Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .cqe3vs {
+    opacity: 0;
+    animation: 0s 1.1s forwards fade-to-1, 0.2s linear 1.1s forwards d-cv4o0j;
+  }
+}

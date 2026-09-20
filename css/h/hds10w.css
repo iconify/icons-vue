@@ -1,0 +1,11 @@
+.hds10w {
+  d: path('M7.5 13.5l4 4l10.75 -10.75');
+}
+
+@media not (prefers-reduced-motion) {
+  .hds10w {
+    stroke-dasharray: 24;
+    stroke-dashoffset: 24;
+    animation: 0.3s linear 0.5s forwards so-to-0;
+  }
+}

@@ -1,0 +1,11 @@
+.rgp_dg {
+  d: path('M22 6v4');
+}
+
+@media not (prefers-reduced-motion) {
+  .rgp_dg {
+    stroke-dasharray: 6;
+    stroke-dashoffset: 6;
+    animation: 3s linear 0.9s infinite sw-cnj-zb, 0.2s linear 0.9s forwards so-to-0;
+  }
+}

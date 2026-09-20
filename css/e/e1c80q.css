@@ -1,0 +1,10 @@
+.e1c80q {
+  d: path('M17 11h1.5M17 11h-1.5M17 11v1.5M17 11v-1.5');
+}
+
+@media not (prefers-reduced-motion) {
+  .e1c80q {
+    stroke-dashoffset: 4;
+    animation: 6s linear 1.77s infinite so-_lg20b;
+  }
+}

@@ -1,0 +1,10 @@
+.k3detq {
+  d: path('M21 5l-19 7.5');
+}
+
+@media not (prefers-reduced-motion) {
+  .k3detq {
+    stroke-dasharray: 24;
+    animation: 0.4s linear forwards so-from-24;
+  }
+}

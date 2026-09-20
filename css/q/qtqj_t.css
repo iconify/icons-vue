@@ -1,0 +1,10 @@
+.qtqj_t {
+  d: path('M3 9l3 3l-3 3');
+}
+
+@media not (prefers-reduced-motion) {
+  .qtqj_t {
+    stroke-dasharray: 12;
+    animation: 0.2s linear forwards so-from-12;
+  }
+}

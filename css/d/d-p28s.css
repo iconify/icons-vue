@@ -1,0 +1,11 @@
+.d-p28s {
+  d: path('M16 16l5 5');
+}
+
+@media not (prefers-reduced-motion) {
+  .d-p28s {
+    stroke-dasharray: 10;
+    stroke-dashoffset: 10;
+    animation: 0.2s linear 1.4s forwards so-to-0;
+  }
+}

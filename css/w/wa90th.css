@@ -1,0 +1,11 @@
+.wa90th {
+  d: path('M3 19h18');
+}
+
+@media not (prefers-reduced-motion) {
+  .wa90th {
+    stroke-dasharray: 20;
+    stroke-dashoffset: 20;
+    animation: 0.3s linear 0.7s forwards so-to-0;
+  }
+}

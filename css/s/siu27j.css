@@ -1,0 +1,11 @@
+.siu27j {
+  d: path('M19.5 18l-3 -3M19.5 18l-3 3');
+}
+
+@media not (prefers-reduced-motion) {
+  .siu27j {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 1.3s forwards so-to-0;
+  }
+}

@@ -1,0 +1,13 @@
+.uh4u4q {
+  cx: 17px;
+  cy: 12px;
+  r: 3px;
+  fill: currentColor;
+}
+
+@media not (prefers-reduced-motion) {
+  .uh4u4q {
+    opacity: 0;
+    animation: 0.2s linear 0.6s forwards fade-to-1;
+  }
+}

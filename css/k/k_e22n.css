@@ -1,0 +1,11 @@
+.k_e22n {
+  d: path('M10 7l4 4M10 7l4 -4M14 17l-4 4M14 17l-4 -4');
+}
+
+@media not (prefers-reduced-motion) {
+  .k_e22n {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 0.4s forwards so-to-0;
+  }
+}

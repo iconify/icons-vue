@@ -1,0 +1,9 @@
+.dg1ljc {
+  d: path('M18 -4c5.52 0 10 4.48 10 10c0 5.52 -4.48 10 -10 10c-5.52 0 -10 -4.48 -10 -10c0 -5.52 4.48 -10 10 -10Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .dg1ljc {
+    animation: 0.4s linear forwards d-4w6zvc, 0s 0.4s forwards fade-to-0;
+  }
+}

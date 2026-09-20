@@ -1,0 +1,11 @@
+.koxtat {
+  d: path('M19 16l2 2M19 16l-2 2');
+}
+
+@media not (prefers-reduced-motion) {
+  .koxtat {
+    stroke-dasharray: 6;
+    stroke-dashoffset: 6;
+    animation: 0.2s linear 1s forwards so-to-0;
+  }
+}

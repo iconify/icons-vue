@@ -1,0 +1,11 @@
+.biyq5e {
+  d: path('M14 12l-3 -3M14 12l-3 3');
+}
+
+@media not (prefers-reduced-motion) {
+  .biyq5e {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.4s linear 0.7s forwards so-to-0;
+  }
+}

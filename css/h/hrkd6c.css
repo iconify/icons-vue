@@ -1,0 +1,10 @@
+.hrkd6c {
+  d: path('M8 8h8M8 12h8M8 16h5M4 5v14c0 0.55 0.45 1 1 1h14');
+  fill: none;
+}
+
+@media not (prefers-reduced-motion) {
+  .hrkd6c {
+    animation: 0.4s linear forwards d-r5jj3y;
+  }
+}

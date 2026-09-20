@@ -1,0 +1,10 @@
+.r-ddil {
+  d: path('M5 5l14 14');
+}
+
+@media not (prefers-reduced-motion) {
+  .r-ddil {
+    stroke-dasharray: 22;
+    animation: 0.5s linear forwards so-from-22;
+  }
+}

@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/d/d-nk0j.css';
+import '../../css/i/iw1iew.css';
+import '../../css/a/ajozcb.css';
+import '../../css/f/fill-to-0.css';
+import '../../css/s/so-from-46.css';
+import '../../css/f/fill-to-0_3.css';
+import '../../css/s/so-to-0.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="d-nk0j iw1iew"/><path class="ajozcb iw1iew"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="line-md:lightbulb-twotone" /></template>

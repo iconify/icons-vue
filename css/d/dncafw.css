@@ -1,0 +1,12 @@
+.dncafw {
+  d: path('M12 12l4 4M12 12l-4 -4M12 12l-4 4M12 12l4 -4');
+  fill: none;
+}
+
+@media not (prefers-reduced-motion) {
+  .dncafw {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 0.85s forwards so-to-0;
+  }
+}

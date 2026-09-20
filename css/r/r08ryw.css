@@ -1,0 +1,11 @@
+.r08ryw {
+  d: path('M7 6v-3');
+  opacity: 0.33;
+}
+
+@media not (prefers-reduced-motion) {
+  .r08ryw {
+    stroke-dasharray: 6;
+    animation: 0s forwards fade-to-0, 0s 0.9s forwards fade-to-0_33, 0.2s linear 0.9s forwards so-from-6;
+  }
+}

@@ -1,0 +1,12 @@
+.jbrwta {
+  cx: 11.5px;
+  cy: 11.5px;
+  r: 1.5px;
+}
+
+@media not (prefers-reduced-motion) {
+  .jbrwta {
+    opacity: 0;
+    animation: 0.1s linear 1.25s forwards fade-to-1;
+  }
+}

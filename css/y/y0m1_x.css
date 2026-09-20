@@ -1,0 +1,11 @@
+.y0m1_x {
+  d: path('M17 17l4 4');
+}
+
+@media not (prefers-reduced-motion) {
+  .y0m1_x {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 1.3s forwards so-to-0;
+  }
+}

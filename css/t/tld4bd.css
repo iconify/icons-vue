@@ -1,0 +1,11 @@
+.tld4bd {
+  d: path('M12 4v-2M20 12h2M12 20v2M4 12h-2');
+}
+
+@media not (prefers-reduced-motion) {
+  .tld4bd {
+    opacity: 0;
+    transform-origin: 12px 12px;
+    animation: 0s 0.7s forwards fade-to-1, 0.2s linear 0.7s forwards d-pjbx7p, 30s linear 0.7s infinite tr-2c6-rw;
+  }
+}

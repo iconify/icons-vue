@@ -1,0 +1,11 @@
+.eq1s0x {
+  d: path('M8 12l4.5 -2.5');
+}
+
+@media not (prefers-reduced-motion) {
+  .eq1s0x {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 1.2s forwards so-to-0;
+  }
+}

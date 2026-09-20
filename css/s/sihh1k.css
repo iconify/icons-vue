@@ -1,0 +1,10 @@
+.sihh1k {
+  d: path('M16 19v-8c0 -0.55 -0.45 -1 -1 -1h-11');
+}
+
+@media not (prefers-reduced-motion) {
+  .sihh1k {
+    stroke-dasharray: 24;
+    animation: 0.5s linear forwards so-from-24;
+  }
+}

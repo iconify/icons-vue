@@ -1,0 +1,13 @@
+.fe2s5o {
+  fill: #fff;
+  d: path('M3 19.5v-15.5c0 -0.55 0.45 -1 1 -1h16c0.55 0 1 0.45 1 1v12c0 0.55 -0.45 1 -1 1h-14.5Z');
+  fill-opacity: 0.3;
+  stroke: #fff;
+}
+
+@media not (prefers-reduced-motion) {
+  .fe2s5o {
+    stroke-dasharray: 70;
+    animation: 0s forwards fill-to-0, 0.6s linear forwards so-from-70, 0.15s linear 0.7s forwards fill-to-0_3;
+  }
+}

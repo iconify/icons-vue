@@ -1,0 +1,10 @@
+.m9j5ub {
+  d: path('M17 21l0 -10.5M7 3l0 10.5');
+}
+
+@media not (prefers-reduced-motion) {
+  .m9j5ub {
+    stroke-dasharray: 14;
+    animation: 0.4s linear forwards so-from-14;
+  }
+}

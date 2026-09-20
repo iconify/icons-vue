@@ -1,0 +1,12 @@
+.u4ocbk {
+  cx: 6.5px;
+  cy: 10.5px;
+  r: 1.5px;
+}
+
+@media not (prefers-reduced-motion) {
+  .u4ocbk {
+    opacity: 0;
+    animation: 0.1s linear 1.3s forwards fade-to-1;
+  }
+}

@@ -1,0 +1,12 @@
+.qq8e1s {
+  cx: 11px;
+  cy: 16.5px;
+  r: 1.5px;
+}
+
+@media not (prefers-reduced-motion) {
+  .qq8e1s {
+    opacity: 0;
+    animation: 0.1s linear 0.95s forwards fade-to-1;
+  }
+}

@@ -1,0 +1,11 @@
+.gvulyl {
+  d: path('M15 12l3 3M9 12l-3 3M15 12l3 -3M9 12l-3 -3');
+}
+
+@media not (prefers-reduced-motion) {
+  .gvulyl {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 0.6s forwards so-to-0;
+  }
+}

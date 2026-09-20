@@ -1,0 +1,14 @@
+.xro_uz {
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path('M5 5l7 7l7 -7M12 12h0M5 19l7 -7l7 7');
+  stroke: currentColor;
+  stroke-width: 2px;
+  fill: none;
+}
+
+@media not (prefers-reduced-motion) {
+  .xro_uz {
+    animation: 0.4s linear forwards d-xntmfl;
+  }
+}

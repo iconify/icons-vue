@@ -1,0 +1,10 @@
+.uo00fr {
+  cx: 15px;
+  cy: 8px;
+}
+
+@media not (prefers-reduced-motion) {
+  .uo00fr {
+    animation: 0s forwards r-to-0px, 0.2s linear 1.65s forwards r-to-2px;
+  }
+}

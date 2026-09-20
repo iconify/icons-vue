@@ -1,0 +1,9 @@
+.jdu_bz {
+  d: path('M12 12h0');
+}
+
+@media not (prefers-reduced-motion) {
+  .jdu_bz {
+    animation: 0.4s linear forwards d-aqgbfy, 0s 0.4s forwards fade-to-0;
+  }
+}

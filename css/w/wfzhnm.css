@@ -1,0 +1,14 @@
+.wfzhnm {
+  d: path('M-1 13h26');
+  transform: rotate(45deg);
+  transform-origin: 12px 12px;
+  stroke: currentColor;
+}
+
+@media not (prefers-reduced-motion) {
+  .wfzhnm {
+    stroke-dasharray: 28;
+    stroke-dashoffset: 28;
+    animation: 0s forwards d-jqytza, 6s linear infinite d-qnzcbl, 0.4s linear 1.15s forwards so-to-0;
+  }
+}

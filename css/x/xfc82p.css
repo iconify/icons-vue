@@ -1,0 +1,11 @@
+.xfc82p {
+  r: 1px;
+  transform: rotate(115deg);
+  transform-origin: 12px 12px;
+}
+
+@media not (prefers-reduced-motion) {
+  .xfc82p {
+    animation: 0s forwards r-to-0px, 0.2s linear 1s forwards r-to-1px;
+  }
+}

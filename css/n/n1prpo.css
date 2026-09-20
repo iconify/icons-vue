@@ -1,0 +1,11 @@
+.n1prpo {
+  d: path('M19 16v5');
+}
+
+@media not (prefers-reduced-motion) {
+  .n1prpo {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 1.4s forwards so-to-0;
+  }
+}

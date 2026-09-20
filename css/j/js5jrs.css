@@ -1,0 +1,12 @@
+.js5jrs {
+  stroke: #000;
+  d: path('M12 9.91l0.76 -3.64l3.24 0.71');
+}
+
+@media not (prefers-reduced-motion) {
+  .js5jrs {
+    stroke-dasharray: 10;
+    stroke-dashoffset: 10;
+    animation: 6s linear 2.6s infinite d-b-o5lf, 0.2s linear 2.6s forwards so-to-0;
+  }
+}

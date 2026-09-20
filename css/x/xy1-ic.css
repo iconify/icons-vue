@@ -1,0 +1,14 @@
+.xy1-ic {
+  stroke: currentColor;
+  d: path('M0 13h24');
+  transform: rotate(45deg);
+  transform-origin: 12px 12px;
+}
+
+@media not (prefers-reduced-motion) {
+  .xy1-ic {
+    stroke-dasharray: 26;
+    stroke-dashoffset: 26;
+    animation: 0s forwards d-_ufr0f, 6s linear infinite d-_hat9q, 0.4s linear 0.6s forwards so-to-0;
+  }
+}

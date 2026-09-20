@@ -1,0 +1,11 @@
+.jmnoxq {
+  cx: 12px;
+  cy: 12px;
+  r: 3px;
+}
+
+@media not (prefers-reduced-motion) {
+  .jmnoxq {
+    animation: 0.2s linear forwards r-from-0px;
+  }
+}

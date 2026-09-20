@@ -1,0 +1,10 @@
+.bxli5t {
+  d: path('M12 14l-5 5M12 14l5 5');
+}
+
+@media not (prefers-reduced-motion) {
+  .bxli5t {
+    stroke-dasharray: 10;
+    animation: 0.4s linear forwards so-from-10;
+  }
+}

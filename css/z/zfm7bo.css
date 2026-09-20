@@ -1,0 +1,10 @@
+.zfm7bo {
+  cx: 14px;
+  cy: 18px;
+}
+
+@media not (prefers-reduced-motion) {
+  .zfm7bo {
+    animation: 0s forwards r-to-0px, 0.2s linear 1.7s forwards r-to-1px;
+  }
+}

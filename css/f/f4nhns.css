@@ -1,0 +1,9 @@
+.f4nhns {
+  d: path('M22 -6c4.42 0 8 3.58 8 8c0 4.42 -3.58 8 -8 8c-4.42 0 -8 -3.58 -8 -8c0 -4.42 3.58 -8 8 -8Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .f4nhns {
+    animation: 0.4s linear forwards d-c5-itz, 0s 0.4s forwards fade-to-0;
+  }
+}

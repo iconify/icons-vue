@@ -1,0 +1,10 @@
+.cvhqyp {
+  d: path('M11 10l3 3l2 -2l0 7l-7 0l2 -2l-3 -3Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .cvhqyp {
+    opacity: 0;
+    animation: 0s 0.8s forwards fade-to-1, 0.2s linear 0.8s forwards d-aact-g;
+  }
+}

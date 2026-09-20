@@ -1,0 +1,10 @@
+.oz-qin {
+  d: path('M12 12h-8.5M12 12h8.5');
+}
+
+@media not (prefers-reduced-motion) {
+  .oz-qin {
+    stroke-dasharray: 12;
+    animation: 0.4s linear forwards so-from-12;
+  }
+}

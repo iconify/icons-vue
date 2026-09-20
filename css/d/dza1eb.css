@@ -1,0 +1,11 @@
+.dza1eb {
+  d: path('M12 3c4.97 0 9 4.03 9 9');
+}
+
+@media not (prefers-reduced-motion) {
+  .dza1eb {
+    stroke-dasharray: 18;
+    transform-origin: 12px 12px;
+    animation: 0.3s linear forwards so-from-18, 1.5s linear infinite tr-2c6-rw;
+  }
+}

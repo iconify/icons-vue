@@ -1,0 +1,11 @@
+.kq5nag {
+  d: path('M19 16l2 2M19 16l-2 2');
+}
+
+@media not (prefers-reduced-motion) {
+  .kq5nag {
+    stroke-dasharray: 6;
+    stroke-dashoffset: 6;
+    animation: 0.2s linear 1.5s forwards so-to-0;
+  }
+}

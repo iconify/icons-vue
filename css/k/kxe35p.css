@@ -1,0 +1,11 @@
+.kxe35p {
+  d: path('M8 6l10 6l-10 6Z');
+  stroke: #fff;
+}
+
+@media not (prefers-reduced-motion) {
+  .kxe35p {
+    stroke-dasharray: 38;
+    animation: 0.5s linear forwards so-from-38;
+  }
+}

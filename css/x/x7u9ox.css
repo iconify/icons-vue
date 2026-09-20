@@ -1,0 +1,11 @@
+.x7u9ox {
+  d: path('M12 13l-8 -5l8 -5l8 5l-8 5Z');
+  fill-opacity: 0.3;
+  fill: currentColor;
+}
+
+@media not (prefers-reduced-motion) {
+  .x7u9ox {
+    animation: 0s forwards fill-to-0, 0.15s linear 0.9s forwards fill-to-0_3;
+  }
+}

@@ -1,0 +1,11 @@
+.hx30lc {
+  d: path('M17 4h3v3l-11 11l-3 -3l11 -11Z');
+  fill-opacity: 0.3;
+  fill: currentColor;
+}
+
+@media not (prefers-reduced-motion) {
+  .hx30lc {
+    animation: 0s forwards fill-to-0, 0.15s linear 1s forwards fill-to-0_3;
+  }
+}

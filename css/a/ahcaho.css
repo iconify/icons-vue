@@ -1,0 +1,12 @@
+.ahcaho {
+  d: path('M3 19h18');
+  fill: none;
+}
+
+@media not (prefers-reduced-motion) {
+  .ahcaho {
+    stroke-dasharray: 20;
+    stroke-dashoffset: 20;
+    animation: 0.3s linear 0.7s forwards so-to-0;
+  }
+}

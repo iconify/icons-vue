@@ -1,0 +1,12 @@
+.gzedbu {
+  stroke: #000;
+  d: path('M0 11h24');
+}
+
+@media not (prefers-reduced-motion) {
+  .gzedbu {
+    stroke-dasharray: 26;
+    stroke-dashoffset: 26;
+    animation: 0.4s linear 0.7s forwards so-to-0;
+  }
+}

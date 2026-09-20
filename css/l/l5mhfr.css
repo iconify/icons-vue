@@ -1,0 +1,11 @@
+.l5mhfr {
+  d: path('M3 12l7 7M3 12l7 -7');
+}
+
+@media not (prefers-reduced-motion) {
+  .l5mhfr {
+    stroke-dasharray: 12;
+    stroke-dashoffset: 12;
+    animation: 0.2s linear 0.7s forwards so-to-0;
+  }
+}

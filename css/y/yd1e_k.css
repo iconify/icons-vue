@@ -1,0 +1,10 @@
+.yd1e_k {
+  d: path('M12 5h1.5M12 5h-1.5M12 5v1.5M12 5v-1.5');
+}
+
+@media not (prefers-reduced-motion) {
+  .yd1e_k {
+    stroke-dashoffset: 4;
+    animation: 6s linear 1.2s infinite so-_lg20b;
+  }
+}

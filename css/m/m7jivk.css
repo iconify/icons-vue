@@ -1,0 +1,12 @@
+.m7jivk {
+  cx: 12px;
+  cy: 12px;
+  r: 3px;
+  fill: currentColor;
+}
+
+@media not (prefers-reduced-motion) {
+  .m7jivk {
+    animation: 0s forwards r-to-0px, 6s linear infinite r-cqmtvg;
+  }
+}

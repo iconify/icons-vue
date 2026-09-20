@@ -1,0 +1,11 @@
+.y6diac {
+  d: path('M16 19h5');
+}
+
+@media not (prefers-reduced-motion) {
+  .y6diac {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 1.3s forwards so-to-0;
+  }
+}

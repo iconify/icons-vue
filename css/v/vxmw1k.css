@@ -1,0 +1,11 @@
+.vxmw1k {
+  d: path('M9 13h4');
+}
+
+@media not (prefers-reduced-motion) {
+  .vxmw1k {
+    stroke-dasharray: 6;
+    stroke-dashoffset: 6;
+    animation: 0.2s linear 0.9s forwards so-to-0;
+  }
+}

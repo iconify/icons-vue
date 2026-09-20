@@ -1,0 +1,11 @@
+.xua9zv {
+  d: path('M8 20h12');
+}
+
+@media not (prefers-reduced-motion) {
+  .xua9zv {
+    stroke-dasharray: 14;
+    stroke-dashoffset: 14;
+    animation: 0.2s linear 1s forwards so-to-0;
+  }
+}

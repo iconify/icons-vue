@@ -1,0 +1,12 @@
+.ntj7kf {
+  r: 2.5px;
+  cx: 12px;
+  cy: 9px;
+  fill: currentColor;
+}
+
+@media not (prefers-reduced-motion) {
+  .ntj7kf {
+    animation: 0s forwards r-to-0px, 0.2s linear 0.4s forwards r-to-2_5px;
+  }
+}

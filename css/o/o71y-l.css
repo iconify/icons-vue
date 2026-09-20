@@ -1,0 +1,12 @@
+.o71y-l {
+  d: path('M12 21h3M12 21h-3');
+  fill: none;
+}
+
+@media not (prefers-reduced-motion) {
+  .o71y-l {
+    stroke-dasharray: 6;
+    stroke-dashoffset: 6;
+    animation: 0.4s linear 0.8s forwards so-to-0;
+  }
+}

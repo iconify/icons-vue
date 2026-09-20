@@ -1,0 +1,11 @@
+.enuurg {
+  d: path('M21 14h-2v6.5');
+}
+
+@media not (prefers-reduced-motion) {
+  .enuurg {
+    stroke-dasharray: 12;
+    stroke-dashoffset: 12;
+    animation: 0.2s linear 1.3s forwards so-to-0;
+  }
+}

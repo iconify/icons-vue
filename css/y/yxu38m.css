@@ -1,0 +1,10 @@
+.yxu38m {
+  d: path('M7 6h2v12h-2Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .yxu38m {
+    stroke-dasharray: 30;
+    animation: 0.4s linear forwards so-from-30;
+  }
+}

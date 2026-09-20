@@ -1,0 +1,11 @@
+.ysmgkm {
+  d: path('M12 15.5l-9 2.5');
+}
+
+@media not (prefers-reduced-motion) {
+  .ysmgkm {
+    stroke-dasharray: 12;
+    stroke-dashoffset: 12;
+    animation: 0.2s linear 1s forwards so-to-0;
+  }
+}

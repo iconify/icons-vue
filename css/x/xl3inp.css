@@ -1,0 +1,10 @@
+.xl3inp {
+  d: path('M2 12l7 -7M2 12l7 7');
+}
+
+@media not (prefers-reduced-motion) {
+  .xl3inp {
+    stroke-dasharray: 12;
+    animation: 0.4s linear forwards so-from-12;
+  }
+}

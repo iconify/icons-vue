@@ -1,0 +1,11 @@
+.teqz3l {
+  d: path('M10 10v10');
+}
+
+@media not (prefers-reduced-motion) {
+  .teqz3l {
+    stroke-dasharray: 12;
+    stroke-dashoffset: 12;
+    animation: 0.2s linear 0.5s forwards so-to-0;
+  }
+}

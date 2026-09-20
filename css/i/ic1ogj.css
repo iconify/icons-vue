@@ -1,0 +1,11 @@
+.ic1ogj {
+  d: path('M12 9v6');
+}
+
+@media not (prefers-reduced-motion) {
+  .ic1ogj {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 0.9s forwards so-to-0;
+  }
+}

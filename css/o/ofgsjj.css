@@ -1,0 +1,11 @@
+.ofgsjj {
+  d: path('M12 8.5l3.5 3.5M12 8.5l-3.5 3.5');
+}
+
+@media not (prefers-reduced-motion) {
+  .ofgsjj {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 1.05s forwards so-to-0;
+  }
+}

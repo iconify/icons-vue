@@ -1,0 +1,11 @@
+.z6ly7z {
+  d: path('M8 15h12');
+}
+
+@media not (prefers-reduced-motion) {
+  .z6ly7z {
+    stroke-dasharray: 14;
+    stroke-dashoffset: 14;
+    animation: 0.2s linear 0.7s forwards so-to-0;
+  }
+}

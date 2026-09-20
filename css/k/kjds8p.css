@@ -1,0 +1,11 @@
+.kjds8p {
+  cx: 7px;
+  cy: 12px;
+  r: 3px;
+}
+
+@media not (prefers-reduced-motion) {
+  .kjds8p {
+    animation: 0.2s linear forwards cx-from-17px;
+  }
+}

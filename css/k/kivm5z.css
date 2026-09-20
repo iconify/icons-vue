@@ -1,0 +1,11 @@
+.kivm5z {
+  d: path('M8 13h4');
+}
+
+@media not (prefers-reduced-motion) {
+  .kivm5z {
+    stroke-dasharray: 6;
+    stroke-dashoffset: 6;
+    animation: 0.2s linear 0.9s forwards so-to-0;
+  }
+}

@@ -1,0 +1,11 @@
+.qfm0ur {
+  d: path('M16 5l-2 14');
+}
+
+@media not (prefers-reduced-motion) {
+  .qfm0ur {
+    stroke-dasharray: 18;
+    stroke-dashoffset: 18;
+    animation: 0.3s linear 1s forwards so-to-0;
+  }
+}

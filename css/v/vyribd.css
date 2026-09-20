@@ -1,0 +1,9 @@
+.vyribd {
+  d: path('M6 12v-20h26v26h-20c3.31 0 6 -2.69 6 -6c0 -3.31 -2.69 -6 -6 -6c-3.31 0 -6 2.69 -6 6Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .vyribd {
+    animation: 0.4s linear forwards d--va99v, 0s 0.4s forwards fade-to-0;
+  }
+}

@@ -1,0 +1,11 @@
+.h3s6cp {
+  d: path('M17 17l4 4');
+}
+
+@media not (prefers-reduced-motion) {
+  .h3s6cp {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 1.35s forwards so-to-0;
+  }
+}

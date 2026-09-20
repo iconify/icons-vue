@@ -1,0 +1,10 @@
+.gos8dj {
+  d: path('M12 5l0 13.5');
+}
+
+@media not (prefers-reduced-motion) {
+  .gos8dj {
+    stroke-dasharray: 16;
+    animation: 0.3s linear forwards so-from-16;
+  }
+}

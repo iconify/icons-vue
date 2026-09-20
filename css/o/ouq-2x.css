@@ -1,0 +1,10 @@
+.ouq-2x {
+  d: path('M5 12h13.5');
+}
+
+@media not (prefers-reduced-motion) {
+  .ouq-2x {
+    stroke-dasharray: 16;
+    animation: 0.3s linear forwards so-from-16;
+  }
+}

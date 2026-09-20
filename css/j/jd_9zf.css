@@ -1,0 +1,11 @@
+.jd_9zf {
+  d: path('M8 12h7');
+}
+
+@media not (prefers-reduced-motion) {
+  .jd_9zf {
+    stroke-dasharray: 10;
+    stroke-dashoffset: 10;
+    animation: 0.2s linear 0.6s forwards so-to-0;
+  }
+}

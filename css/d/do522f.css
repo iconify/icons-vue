@@ -1,0 +1,11 @@
+.do522f {
+  cx: 12px;
+  cy: 11.5px;
+  r: 1.5px;
+}
+
+@media not (prefers-reduced-motion) {
+  .do522f {
+    animation: 0s forwards r-to-0px, 0.2s linear 1.1s forwards r-to-1_5px;
+  }
+}

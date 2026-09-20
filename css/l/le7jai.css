@@ -1,0 +1,16 @@
+.le7jai {
+  fill: #fff;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path('M12 3c4.97 0 9 4.03 9 9c0 4.97 -4.03 9 -9 9c-4.97 0 -9 -4.03 -9 -9c0 -4.97 4.03 -9 9 -9Z');
+  stroke-width: 2px;
+  stroke: #fff;
+}
+
+@media not (prefers-reduced-motion) {
+  .le7jai {
+    stroke-dasharray: 60;
+    fill-opacity: 0;
+    animation: 0.6s linear forwards so-from-60, 0.4s linear 0.6s forwards fill-to-1;
+  }
+}

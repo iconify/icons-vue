@@ -1,0 +1,11 @@
+.muedyo {
+  d: path('M9 18l9 -9l-3 -3l-9 9l3 3Z');
+  fill-opacity: 0.3;
+  fill: currentColor;
+}
+
+@media not (prefers-reduced-motion) {
+  .muedyo {
+    animation: 0s forwards fill-to-0, 0.15s linear 1s forwards fill-to-0_3;
+  }
+}

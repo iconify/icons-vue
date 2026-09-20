@@ -1,0 +1,11 @@
+.bnsnku {
+  stroke-width: 2px;
+  d: path('M12 3h7v18h-14v-18h7Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .bnsnku {
+    stroke-dasharray: 66;
+    animation: 0.6s linear forwards so-from-66;
+  }
+}

@@ -1,0 +1,11 @@
+.vsl3op {
+  cx: 14px;
+  cy: 9px;
+  r: 2.5px;
+}
+
+@media not (prefers-reduced-motion) {
+  .vsl3op {
+    animation: 0s forwards r-to-0px, 0.2s linear 0.4s forwards r-to-2_5px;
+  }
+}

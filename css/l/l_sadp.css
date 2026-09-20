@@ -1,0 +1,12 @@
+.l_sadp {
+  cx: 6.5px;
+  cy: 10.5px;
+  r: 1.5px;
+}
+
+@media not (prefers-reduced-motion) {
+  .l_sadp {
+    opacity: 0;
+    animation: 0.1s linear 1.05s forwards fade-to-1;
+  }
+}

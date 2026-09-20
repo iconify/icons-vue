@@ -1,0 +1,11 @@
+.sydjzg {
+  d: path('M14.5 9.5h1');
+}
+
+@media not (prefers-reduced-motion) {
+  .sydjzg {
+    stroke-dasharray: 4;
+    stroke-dashoffset: 4;
+    animation: 0.2s linear 0.8s forwards so-to-0;
+  }
+}

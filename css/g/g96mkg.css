@@ -1,0 +1,10 @@
+.g96mkg {
+  d: path('M11.5 5c0 -0.83 0.67 -1.5 1.5 -1.5h6c0.83 0 1.5 0.67 1.5 1.5c0 0.83 -0.67 1.5 -1.5 1.5h-6c-0.83 0 -1.5 -0.67 -1.5 -1.5Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .g96mkg {
+    stroke-dasharray: 24;
+    animation: 0.3s linear forwards so-from-24;
+  }
+}

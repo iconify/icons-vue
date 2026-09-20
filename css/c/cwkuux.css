@@ -1,0 +1,10 @@
+.cwkuux {
+  d: path('M8 -8c0 2 -2 2 -2 4s2 2 2 4s-2 2 -2 4s2 2 2 4M12 -8c0 2 -2 2 -2 4s2 2 2 4s-2 2 -2 4s2 2 2 4M16 -8c0 2 -2 2 -2 4s2 2 2 4s-2 2 -2 4s2 2 2 4');
+  stroke: #fff;
+}
+
+@media not (prefers-reduced-motion) {
+  .cwkuux {
+    animation: 3s linear infinite d-2eh0tx;
+  }
+}

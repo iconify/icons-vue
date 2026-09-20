@@ -1,0 +1,11 @@
+.ik3hfv {
+  d: path('M16 19h5');
+}
+
+@media not (prefers-reduced-motion) {
+  .ik3hfv {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 0.8s forwards so-to-0;
+  }
+}

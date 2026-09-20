@@ -1,0 +1,11 @@
+.i447pf {
+  d: path('M14 18h-9v-12h18v12Z');
+  fill-opacity: 0.3;
+}
+
+@media not (prefers-reduced-motion) {
+  .i447pf {
+    stroke-dasharray: 62;
+    animation: 0s forwards fill-to-0, 0.6s linear forwards so-from-62, 0.15s linear 1.2s forwards fill-to-0_3;
+  }
+}

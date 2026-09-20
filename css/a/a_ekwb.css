@@ -1,0 +1,10 @@
+.a_ekwb {
+  d: path('M15 7h-11.5M9 17h11.5');
+}
+
+@media not (prefers-reduced-motion) {
+  .a_ekwb {
+    stroke-dasharray: 14;
+    animation: 0.4s linear forwards so-from-14;
+  }
+}

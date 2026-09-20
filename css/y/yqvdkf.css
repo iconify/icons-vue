@@ -1,0 +1,12 @@
+.yqvdkf {
+  cx: 9.5px;
+  cy: 6.5px;
+  r: 1.5px;
+}
+
+@media not (prefers-reduced-motion) {
+  .yqvdkf {
+    opacity: 0;
+    animation: 0.1s linear 0.85s forwards fade-to-1;
+  }
+}

@@ -1,0 +1,11 @@
+.krj35h {
+  d: path('M19 16v6');
+}
+
+@media not (prefers-reduced-motion) {
+  .krj35h {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 1s forwards so-to-0;
+  }
+}

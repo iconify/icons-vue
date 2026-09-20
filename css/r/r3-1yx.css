@@ -1,0 +1,10 @@
+.r3-1yx {
+  cx: 11px;
+  cy: 17px;
+}
+
+@media not (prefers-reduced-motion) {
+  .r3-1yx {
+    animation: 0s forwards r-to-0px, 0.2s linear 1.5s forwards r-to-1px;
+  }
+}

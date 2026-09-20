@@ -1,0 +1,10 @@
+.yo13rm {
+  d: path('M16 5v-1c0 -0.55 -0.45 -1 -1 -1h-9c-0.55 0 -1 0.45 -1 1v16c0 0.55 0.45 1 1 1h9c0.55 0 1 -0.45 1 -1v-1');
+}
+
+@media not (prefers-reduced-motion) {
+  .yo13rm {
+    stroke-dasharray: 46;
+    animation: 0.5s linear forwards so-from-46;
+  }
+}

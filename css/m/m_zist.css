@@ -1,0 +1,10 @@
+.m_zist {
+  d: path('M19 21h-17c-0.55 0 -1 -0.45 -1 -1v-13');
+}
+
+@media not (prefers-reduced-motion) {
+  .m_zist {
+    opacity: 0;
+    animation: 0s 0.8s forwards fade-to-1, 0.2s linear 0.8s forwards d-zqdz1o;
+  }
+}

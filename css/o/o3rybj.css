@@ -1,0 +1,10 @@
+.o3rybj {
+  d: path('M17.5 17.53c-3.29 -1.9 -5.5 -5.46 -5.5 -9.53v-4M12 20v-16');
+}
+
+@media not (prefers-reduced-motion) {
+  .o3rybj {
+    stroke-dasharray: 18;
+    animation: 0.5s linear forwards so-from-18;
+  }
+}

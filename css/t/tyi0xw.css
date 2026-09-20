@@ -1,0 +1,11 @@
+.tyi0xw {
+  d: path('M16.5 20.5l5 -5');
+}
+
+@media not (prefers-reduced-motion) {
+  .tyi0xw {
+    stroke-dasharray: 10;
+    stroke-dashoffset: 10;
+    animation: 0.2s linear 1.6s forwards so-to-0;
+  }
+}

@@ -1,0 +1,11 @@
+.h5uz_v {
+  d: path('M12 5c0 0 5 6 5 9c0 2.76 -2.24 5 -5 5c-2.76 0 -5 -2.24 -5 -5c0 -3 5 -9 5 -9Z');
+  fill-opacity: 0.3;
+  fill: currentColor;
+}
+
+@media not (prefers-reduced-motion) {
+  .h5uz_v {
+    animation: 0s forwards fill-to-0, 0.15s linear 0.5s forwards fill-to-0_3;
+  }
+}

@@ -1,0 +1,11 @@
+.lz7_an {
+  d: path('M22 8v4');
+}
+
+@media not (prefers-reduced-motion) {
+  .lz7_an {
+    stroke-dasharray: 6;
+    stroke-dashoffset: 6;
+    animation: 0.2s linear 1.8s forwards so-to-0;
+  }
+}

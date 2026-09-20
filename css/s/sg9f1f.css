@@ -1,0 +1,11 @@
+.sg9f1f {
+  cx: 12px;
+  cy: 8.142857142857142px;
+  r: 2.5px;
+}
+
+@media not (prefers-reduced-motion) {
+  .sg9f1f {
+    animation: 0s forwards r-to-0px, 0.2s linear 0.5s forwards r-to-2_5px;
+  }
+}

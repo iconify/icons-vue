@@ -1,0 +1,10 @@
+.q9f3-p {
+  d: path('M12 12l0 -8.5M12 12l0 8.5');
+}
+
+@media not (prefers-reduced-motion) {
+  .q9f3-p {
+    stroke-dasharray: 12;
+    animation: 0.4s linear forwards so-from-12;
+  }
+}

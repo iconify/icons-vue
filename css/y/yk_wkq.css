@@ -1,0 +1,11 @@
+.yk_wkq {
+  d: path('M4 10v10');
+}
+
+@media not (prefers-reduced-motion) {
+  .yk_wkq {
+    stroke-dasharray: 12;
+    stroke-dashoffset: 12;
+    animation: 0.2s linear 0.2s forwards so-to-0;
+  }
+}

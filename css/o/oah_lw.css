@@ -1,0 +1,10 @@
+.oah_lw {
+  cx: 13px;
+  cy: 6px;
+}
+
+@media not (prefers-reduced-motion) {
+  .oah_lw {
+    animation: 0s forwards r-to-0px, 0.2s linear 1.05s forwards r-to-1px;
+  }
+}

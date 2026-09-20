@@ -1,0 +1,10 @@
+.k88ffy {
+  d: path('M12 6c3.31 0 6 2.69 6 6c0 3.31 -2.69 6 -6 6c-3.31 0 -6 -2.69 -6 -6v-2.5');
+}
+
+@media not (prefers-reduced-motion) {
+  .k88ffy {
+    stroke-dasharray: 34;
+    animation: 0.4s linear forwards so-from-34;
+  }
+}

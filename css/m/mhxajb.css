@@ -1,0 +1,13 @@
+.mhxajb {
+  cx: 4px;
+  cy: 4px;
+  r: 2px;
+  fill: currentColor;
+}
+
+@media not (prefers-reduced-motion) {
+  .mhxajb {
+    opacity: 0;
+    animation: 0.2s linear forwards fade-to-1;
+  }
+}

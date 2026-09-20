@@ -1,0 +1,11 @@
+.oss4_x {
+  fill: #fff;
+}
+
+@media not (prefers-reduced-motion) {
+  .oss4_x {
+    stroke-dasharray: 40;
+    fill-opacity: 0;
+    animation: 0.5s linear forwards so-from-40, 0.4s linear 2.2s forwards fill-to-1;
+  }
+}

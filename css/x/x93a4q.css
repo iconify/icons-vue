@@ -1,0 +1,12 @@
+.x93a4q {
+  cx: 17px;
+  fill: #000;
+  cy: 12px;
+  r: 3px;
+}
+
+@media not (prefers-reduced-motion) {
+  .x93a4q {
+    animation: 0.2s linear forwards cx-from-7px;
+  }
+}

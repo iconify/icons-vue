@@ -1,0 +1,10 @@
+.li_bep {
+  d: path('M19 12l-7 -7M19 12l-7 7');
+}
+
+@media not (prefers-reduced-motion) {
+  .li_bep {
+    stroke-dasharray: 12;
+    animation: 0.4s linear forwards so-from-12;
+  }
+}

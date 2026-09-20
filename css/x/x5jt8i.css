@@ -1,0 +1,11 @@
+.x5jt8i {
+  d: path('M15 6h6');
+}
+
+@media not (prefers-reduced-motion) {
+  .x5jt8i {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 0.7s forwards so-to-0;
+  }
+}

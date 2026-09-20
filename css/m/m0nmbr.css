@@ -1,0 +1,10 @@
+.m0nmbr {
+  cx: 13px;
+  cy: 6px;
+}
+
+@media not (prefers-reduced-motion) {
+  .m0nmbr {
+    animation: 0s forwards r-to-0px, 0.2s linear 1.3s forwards r-to-1px;
+  }
+}

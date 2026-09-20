@@ -1,0 +1,10 @@
+.fuzxbl {
+  d: path('M12 21h5M12 21h-5M12 21v-4');
+}
+
+@media not (prefers-reduced-motion) {
+  .fuzxbl {
+    stroke-dasharray: 8;
+    animation: 0.4s linear forwards so-from-8;
+  }
+}

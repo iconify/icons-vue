@@ -1,0 +1,11 @@
+.f2j1_e {
+  d: path('M12 16v-7.5');
+}
+
+@media not (prefers-reduced-motion) {
+  .f2j1_e {
+    stroke-dasharray: 10;
+    stroke-dashoffset: 10;
+    animation: 0.2s linear 0.85s forwards so-to-0;
+  }
+}

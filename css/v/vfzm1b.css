@@ -1,0 +1,11 @@
+.vfzm1b {
+  d: path('M4 18h15.5');
+}
+
+@media not (prefers-reduced-motion) {
+  .vfzm1b {
+    stroke-dasharray: 18;
+    stroke-dashoffset: 18;
+    animation: 0.3s linear 1s forwards so-to-0;
+  }
+}

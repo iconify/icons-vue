@@ -1,0 +1,11 @@
+.gjd-ug {
+  d: path('M12 20l-5 -5M12 20l5 -5');
+}
+
+@media not (prefers-reduced-motion) {
+  .gjd-ug {
+    stroke-dasharray: 10;
+    stroke-dashoffset: 10;
+    animation: 0.4s linear 0.8s forwards so-to-0;
+  }
+}

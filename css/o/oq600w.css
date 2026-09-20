@@ -1,0 +1,10 @@
+.oq600w {
+  d: path('M5 21h14');
+}
+
+@media not (prefers-reduced-motion) {
+  .oq600w {
+    stroke-dasharray: 16;
+    animation: 0.3s linear forwards so-from-16;
+  }
+}

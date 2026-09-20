@@ -1,0 +1,13 @@
+.m0seso {
+  stroke-width: 6px;
+  d: path('M21 14h-2v6.5h2ZM19 20.5c0 0.83 -0.67 1.5 -1.5 1.5c-0.83 0 -1.5 -0.67 -1.5 -1.5c0 -0.83 0.67 -1.5 1.5 -1.5c0.83 0 1.5 0.67 1.5 1.5Z');
+  fill: #000;
+  stroke: #000;
+}
+
+@media not (prefers-reduced-motion) {
+  .m0seso {
+    opacity: 0;
+    animation: 0s 0.8s forwards fade-to-1;
+  }
+}

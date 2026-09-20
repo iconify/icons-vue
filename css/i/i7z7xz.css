@@ -1,0 +1,11 @@
+.i7z7xz {
+  d: path('M10 20.5c0 0 -6 -7 -6 -11.5c0 -3.31 2.69 -6 6 -6c3.31 0 6 2.69 6 6c0 4.5 -6 11.5 -6 11.5Z');
+  fill-opacity: 0.3;
+}
+
+@media not (prefers-reduced-motion) {
+  .i7z7xz {
+    transform-origin: 10px 20.5px;
+    animation: 0s forwards fill-to-0, 0.4s linear forwards d-e0pf-z, 3s linear infinite tr-7ecuqx, 0.15s linear 0.4s forwards fill-to-0_3;
+  }
+}

@@ -1,0 +1,11 @@
+.bc6pfq {
+  d: path('M8 15h8');
+}
+
+@media not (prefers-reduced-motion) {
+  .bc6pfq {
+    stroke-dasharray: 10;
+    stroke-dashoffset: 10;
+    animation: 0.2s linear 1s forwards so-to-0;
+  }
+}

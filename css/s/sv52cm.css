@@ -1,0 +1,12 @@
+.sv52cm {
+  fill: #fff;
+  d: path('M12 17h-7v-10h14v10Z');
+  fill-opacity: 0.3;
+}
+
+@media not (prefers-reduced-motion) {
+  .sv52cm {
+    stroke-dasharray: 50;
+    animation: 0s forwards fill-to-0, 0.6s linear forwards so-from-50, 0.15s linear 1s forwards fill-to-0_3;
+  }
+}

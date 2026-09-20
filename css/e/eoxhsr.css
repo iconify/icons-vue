@@ -1,0 +1,12 @@
+.eoxhsr {
+  cx: 11.5px;
+  cy: 12.5px;
+  r: 1.5px;
+}
+
+@media not (prefers-reduced-motion) {
+  .eoxhsr {
+    opacity: 0;
+    animation: 0.1s linear 1.25s forwards fade-to-1;
+  }
+}

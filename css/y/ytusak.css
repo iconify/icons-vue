@@ -1,0 +1,10 @@
+.ytusak {
+  d: path('M10 14l-6.5 6.5M14 10l6.5 -6.5');
+}
+
+@media not (prefers-reduced-motion) {
+  .ytusak {
+    stroke-dasharray: 12;
+    animation: 0.4s linear forwards so-from-12;
+  }
+}

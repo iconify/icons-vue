@@ -1,0 +1,10 @@
+.bbw7vs {
+  d: path('M13 4h1.5M13 4h-1.5M13 4v1.5M13 4v-1.5');
+}
+
+@media not (prefers-reduced-motion) {
+  .bbw7vs {
+    stroke-dashoffset: 4;
+    animation: 6s linear 4.72s infinite so-_lg20b;
+  }
+}

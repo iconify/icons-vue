@@ -1,0 +1,12 @@
+.knponl {
+  cx: 16.25px;
+  cy: 19.36px;
+  r: 1.5px;
+}
+
+@media not (prefers-reduced-motion) {
+  .knponl {
+    opacity: 0;
+    animation: 0s 1s forwards fade-to-1, 2.4s linear 1s infinite fill-wpinsp;
+  }
+}

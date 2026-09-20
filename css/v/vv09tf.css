@@ -1,0 +1,12 @@
+.vv09tf {
+  fill: #fff;
+  d: path('M11 9h6v10h-6.5l-2 -2h-2.5v-6.5l1.5 -1.5Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .vv09tf {
+    stroke-dasharray: 42;
+    fill-opacity: 0;
+    animation: 0.5s linear forwards so-from-42, 0.4s linear 1.7s forwards fill-to-1;
+  }
+}

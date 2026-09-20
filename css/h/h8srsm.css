@@ -1,0 +1,11 @@
+.h8srsm {
+  d: path('M14 12l7 -7M14 12l7 7');
+}
+
+@media not (prefers-reduced-motion) {
+  .h8srsm {
+    stroke-dasharray: 12;
+    stroke-dashoffset: 12;
+    animation: 0.4s linear 0.8s forwards so-to-0;
+  }
+}

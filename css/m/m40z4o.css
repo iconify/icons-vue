@@ -1,0 +1,10 @@
+.m40z4o {
+  d: path('M12 5h7M12 5h-7');
+}
+
+@media not (prefers-reduced-motion) {
+  .m40z4o {
+    stroke-dasharray: 10;
+    animation: 0.2s linear forwards so-from-10;
+  }
+}

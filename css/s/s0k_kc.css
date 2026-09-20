@@ -1,0 +1,11 @@
+.s0k_kc {
+  d: path('M12 11v6');
+}
+
+@media not (prefers-reduced-motion) {
+  .s0k_kc {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 1s forwards so-to-0;
+  }
+}

@@ -1,0 +1,11 @@
+.lb7yev {
+  d: path('M16 16l5 5');
+}
+
+@media not (prefers-reduced-motion) {
+  .lb7yev {
+    stroke-dasharray: 10;
+    stroke-dashoffset: 10;
+    animation: 0.2s linear 1.6s forwards so-to-0;
+  }
+}

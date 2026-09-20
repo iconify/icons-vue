@@ -1,0 +1,12 @@
+.uu4isr {
+  cx: 14.29px;
+  cy: 13.04px;
+  r: 1.04px;
+}
+
+@media not (prefers-reduced-motion) {
+  .uu4isr {
+    opacity: 0;
+    animation: 0.4s linear 2.2s forwards fade-to-1;
+  }
+}

@@ -1,0 +1,11 @@
+.eaj3ug {
+  d: path('M12 7v10');
+}
+
+@media not (prefers-reduced-motion) {
+  .eaj3ug {
+    stroke-dasharray: 12;
+    stroke-dashoffset: 12;
+    animation: 0.2s linear 0.8s forwards so-to-0;
+  }
+}

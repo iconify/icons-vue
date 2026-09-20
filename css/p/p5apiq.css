@@ -1,0 +1,12 @@
+.p5apiq {
+  cx: 11px;
+  cy: 16.5px;
+  r: 1.5px;
+}
+
+@media not (prefers-reduced-motion) {
+  .p5apiq {
+    opacity: 0;
+    animation: 0.1s linear 1.2s forwards fade-to-1;
+  }
+}

@@ -1,0 +1,11 @@
+.xus5wf {
+  d: path('M11.5 19c0 -0.83 0.67 -1.5 1.5 -1.5h6c0.83 0 1.5 0.67 1.5 1.5c0 0.83 -0.67 1.5 -1.5 1.5h-6c-0.83 0 -1.5 -0.67 -1.5 -1.5Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .xus5wf {
+    stroke-dasharray: 24;
+    stroke-dashoffset: 24;
+    animation: 0.3s linear 0.8s forwards so-to-0;
+  }
+}

@@ -1,0 +1,10 @@
+.j9jt5s {
+  d: path('M12 5h1.5M12 5h-1.5M12 5v1.5M12 5v-1.5');
+}
+
+@media not (prefers-reduced-motion) {
+  .j9jt5s {
+    stroke-dashoffset: 4;
+    animation: 6s linear 1.35s infinite so-_lg20b;
+  }
+}

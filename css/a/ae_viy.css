@@ -1,0 +1,10 @@
+.ae_viy {
+  d: path('M12 19h-5c-2.5 0 -4 -2 -4 -4c0 -2 1.5 -4 4 -4c1 0 1.5 0.5 1.5 0.5M12 19h5c2.5 0 4 -2 4 -4c0 -2 -1.5 -4 -4 -4c-1 0 -1.5 0.5 -1.5 0.5');
+}
+
+@media not (prefers-reduced-motion) {
+  .ae_viy {
+    stroke-dasharray: 22;
+    animation: 0.5s linear forwards so-from-22;
+  }
+}

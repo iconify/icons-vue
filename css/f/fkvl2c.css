@@ -1,0 +1,10 @@
+.fkvl2c {
+  d: path('M21 7h-10.5M3 17h10.5');
+}
+
+@media not (prefers-reduced-motion) {
+  .fkvl2c {
+    stroke-dasharray: 14;
+    animation: 0.4s linear forwards so-from-14;
+  }
+}

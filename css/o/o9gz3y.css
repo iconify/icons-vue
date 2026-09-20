@@ -1,0 +1,12 @@
+.o9gz3y {
+  d: path('M6 7h2M6 7v2M18 13h-2M18 13v-2');
+  stroke: #000;
+}
+
+@media not (prefers-reduced-motion) {
+  .o9gz3y {
+    stroke-dasharray: 4;
+    stroke-dashoffset: 4;
+    animation: 0.2s linear 1.7s forwards so-to-0;
+  }
+}

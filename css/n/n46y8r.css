@@ -1,0 +1,10 @@
+.n46y8r {
+  d: path('M18.5 11c4.14 0 7.5 3.36 7.5 7.5c0 4.14 -3.36 7.5 -7.5 7.5c-4.14 0 -7.5 -3.36 -7.5 -7.5c0 -4.14 3.36 -7.5 7.5 -7.5Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .n46y8r {
+    opacity: 0;
+    animation: 0s 1.5s forwards fade-to-1;
+  }
+}

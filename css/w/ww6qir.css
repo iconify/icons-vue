@@ -1,0 +1,13 @@
+.ww6qir {
+  fill: #fff;
+  d: path('M2 12c0 -5.52 4.48 -10 10 -10c5.52 0 10 4.48 10 10c0 5.52 -4.48 10 -10 10c-5.52 0 -10 -4.48 -10 -10Z');
+  stroke: #fff;
+}
+
+@media not (prefers-reduced-motion) {
+  .ww6qir {
+    stroke-dasharray: 66;
+    fill-opacity: 0;
+    animation: 0.6s linear forwards so-from-66, 0.4s linear 0.6s forwards fill-to-1;
+  }
+}

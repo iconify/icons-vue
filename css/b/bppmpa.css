@@ -1,0 +1,18 @@
+.bppmpa {
+  transform: rotate(-45deg);
+  transform-origin: 12px 12px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: currentColor;
+  stroke-width: 2px;
+  fill: none;
+  d: path('M23 12h-22');
+}
+
+@media not (prefers-reduced-motion) {
+  .bppmpa {
+    stroke-dasharray: 24;
+    stroke-dashoffset: 24;
+    animation: 0.3s linear 0.5s forwards so-to-0;
+  }
+}

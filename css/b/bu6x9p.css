@@ -1,0 +1,11 @@
+.bu6x9p {
+  fill: currentColor;
+  d: path('M14 6l4 4l3 -3l-4 -4Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .bu6x9p {
+    fill-opacity: 0;
+    animation: 0.4s linear 1s forwards fill-to-1;
+  }
+}

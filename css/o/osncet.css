@@ -1,0 +1,12 @@
+.osncet {
+  cx: 6.5px;
+  cy: 10.5px;
+  r: 1.5px;
+}
+
+@media not (prefers-reduced-motion) {
+  .osncet {
+    opacity: 0;
+    animation: 0.1s linear 0.8s forwards fade-to-1;
+  }
+}

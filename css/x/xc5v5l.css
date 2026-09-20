@@ -1,0 +1,11 @@
+.xc5v5l {
+  d: path('M19 12l-5 5M19 12l-5 -5');
+}
+
+@media not (prefers-reduced-motion) {
+  .xc5v5l {
+    stroke-dasharray: 10;
+    stroke-dashoffset: 10;
+    animation: 0.2s linear 0.3s forwards so-to-0;
+  }
+}

@@ -1,0 +1,11 @@
+.kgi5dy {
+  d: path('M8 11h0.01');
+}
+
+@media not (prefers-reduced-motion) {
+  .kgi5dy {
+    stroke-dasharray: 4;
+    stroke-dashoffset: 4;
+    animation: 0.2s linear 0.9s forwards so-to-0;
+  }
+}

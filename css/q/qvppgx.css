@@ -1,0 +1,12 @@
+.qvppgx {
+  d: path('M10 14c4 0 7 2 7 3v2h-14v-2c0 -1 3 -3 7 -3Z');
+  stroke: #fff;
+}
+
+@media not (prefers-reduced-motion) {
+  .qvppgx {
+    stroke-dasharray: 38;
+    stroke-dashoffset: 38;
+    animation: 0.5s linear 0.5s forwards so-to-0;
+  }
+}

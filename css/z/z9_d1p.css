@@ -1,0 +1,11 @@
+.z9_d1p {
+  d: path('M12 3c4.97 0 9 4.03 9 9c0 4.97 -4.03 9 -9 9c-4.97 0 -9 -4.03 -9 -9c0 -4.97 4.03 -9 9 -9Z');
+  opacity: 0.3;
+}
+
+@media not (prefers-reduced-motion) {
+  .z9_d1p {
+    stroke-dasharray: 60;
+    animation: 1.2s linear forwards so-from-60;
+  }
+}

@@ -1,0 +1,10 @@
+.c2d1ay {
+  d: path('M10 8.5l6 3.5l-6 3.5Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .c2d1ay {
+    opacity: 0;
+    animation: 0s 0.85s forwards fade-to-1, 0.2s linear 0.85s forwards d--8d_6b;
+  }
+}

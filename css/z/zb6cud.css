@@ -1,0 +1,10 @@
+.zb6cud {
+  d: path('M8.76 17.63c-0.41 -0.23 -0.8 -0.51 -1.14 -0.83c0 0 -2.62 1.08 -2.63 1.06c0 0 -1.56 -2.7 -1.56 -2.7c-0.01 -0.03 2.22 -1.75 2.22 -1.75c-0.1 -0.45 -0.15 -0.93 -0.15 -1.41');
+}
+
+@media not (prefers-reduced-motion) {
+  .zb6cud {
+    opacity: 0;
+    animation: 0s 0.8s forwards fade-to-1, 0.2s linear 0.8s forwards d-94acaa;
+  }
+}

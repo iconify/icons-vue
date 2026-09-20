@@ -1,0 +1,11 @@
+.g_t0ty {
+  d: path('M4.22 4.22c-4.29 4.3 -4.29 11.26 0 15.56');
+}
+
+@media not (prefers-reduced-motion) {
+  .g_t0ty {
+    stroke-dasharray: 20;
+    stroke-dashoffset: 20;
+    animation: 0.3s linear 0.7s forwards so-to-0;
+  }
+}

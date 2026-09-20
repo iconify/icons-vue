@@ -1,0 +1,11 @@
+.thgw6f {
+  d: path('M14 13l2 2l-2 2');
+}
+
+@media not (prefers-reduced-motion) {
+  .thgw6f {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 1.1s forwards so-to-0;
+  }
+}

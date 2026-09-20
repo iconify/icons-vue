@@ -1,0 +1,11 @@
+.vmy1_d {
+  d: path('M12 7l0 13.5');
+}
+
+@media not (prefers-reduced-motion) {
+  .vmy1_d {
+    stroke-dasharray: 16;
+    stroke-dashoffset: 16;
+    animation: 0.3s linear 0.4s forwards so-to-0;
+  }
+}

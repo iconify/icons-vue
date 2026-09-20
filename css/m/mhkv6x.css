@@ -1,0 +1,12 @@
+.mhkv6x {
+  d: path('M9.72 15.6c0 0 0.61 0.69 2.28 0.69c1.67 -0 2.28 -0.69 2.28 -0.69');
+  stroke: currentColor;
+}
+
+@media not (prefers-reduced-motion) {
+  .mhkv6x {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 2.6s forwards so-to-0;
+  }
+}

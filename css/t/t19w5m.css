@@ -1,0 +1,13 @@
+.t19w5m {
+  fill: #fff;
+  d: path('M15.5 21.5c-10.5 2.5 -12.5 -2.5 -12.5 -8.5v-3c0 -6 2.5 -7 7 -7h4c4.5 0 7 1.5 7 5.5v4c0 6.5 -10 4 -13.5 4c-1 0 -1.5 7 8 5Z');
+  stroke: #fff;
+}
+
+@media not (prefers-reduced-motion) {
+  .t19w5m {
+    stroke-dasharray: 82;
+    fill-opacity: 0;
+    animation: 0.6s linear forwards so-from-82, 0.4s linear 0.6s forwards fill-to-1;
+  }
+}

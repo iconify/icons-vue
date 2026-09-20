@@ -1,0 +1,12 @@
+.ttmu6b {
+  cx: 16.25px;
+  cy: 4.64px;
+  r: 1.5px;
+}
+
+@media not (prefers-reduced-motion) {
+  .ttmu6b {
+    opacity: 0;
+    animation: 0s 0.2s forwards fade-to-1, 2.4s linear 0.2s infinite fill-wpinsp;
+  }
+}

@@ -1,0 +1,11 @@
+.z1niil {
+  d: path('M12 20v-6');
+}
+
+@media not (prefers-reduced-motion) {
+  .z1niil {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 0.9s forwards so-to-0;
+  }
+}

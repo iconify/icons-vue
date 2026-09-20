@@ -1,0 +1,11 @@
+.pr8x2o {
+  d: path('M19 21l2 -2M19 21l-2 -2');
+}
+
+@media not (prefers-reduced-motion) {
+  .pr8x2o {
+    stroke-dasharray: 6;
+    stroke-dashoffset: 6;
+    animation: 0.2s linear 1.6s forwards so-to-0;
+  }
+}

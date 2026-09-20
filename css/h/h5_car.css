@@ -1,0 +1,11 @@
+.h5_car {
+  d: path('M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28Z');
+  fill-opacity: 0.3;
+  fill: currentColor;
+}
+
+@media not (prefers-reduced-motion) {
+  .h5_car {
+    animation: 0s forwards fill-to-0, 0.15s linear 0.5s forwards fill-to-0_3;
+  }
+}

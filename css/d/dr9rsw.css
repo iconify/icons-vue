@@ -1,0 +1,12 @@
+.dr9rsw {
+  r: 2.5px;
+  fill: #000;
+  cx: 12px;
+  cy: 9px;
+}
+
+@media not (prefers-reduced-motion) {
+  .dr9rsw {
+    animation: 0s forwards r-to-0px, 0.2s linear 0.9s forwards r-to-2_5px;
+  }
+}

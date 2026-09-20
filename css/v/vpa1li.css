@@ -1,0 +1,10 @@
+.vpa1li {
+  d: path('M12 18c3.13 0 5.33 -2.88 5 -3.5c-0.33 -0.63 -1.5 1.5 -5 1.5c-3.5 0 -4.69 -2.13 -5 -1.5c-0.31 0.63 1.88 3.5 5 3.5Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .vpa1li {
+    opacity: 0;
+    animation: 0.2s linear 1s forwards fade-to-1;
+  }
+}

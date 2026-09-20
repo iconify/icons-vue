@@ -1,0 +1,11 @@
+.i2xipy {
+  d: path('M6 8l6 -5l6 5v12h-12v-12Z');
+  fill: currentColor;
+}
+
+@media not (prefers-reduced-motion) {
+  .i2xipy {
+    fill-opacity: 0;
+    animation: 0.4s linear 1.2s forwards fill-to-1;
+  }
+}

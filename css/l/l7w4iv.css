@@ -1,0 +1,11 @@
+.l7w4iv {
+  d: path('M12 21v1M21 12h1M12 3v-1M3 12h-1');
+}
+
+@media not (prefers-reduced-motion) {
+  .l7w4iv {
+    opacity: 0;
+    transform-origin: 12px 12px;
+    animation: 30s linear infinite tr-2c6-rw, 0s 0.4s forwards fade-to-1, 0.2s linear 0.4s forwards d-9_o5mj;
+  }
+}

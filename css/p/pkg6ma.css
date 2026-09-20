@@ -1,0 +1,10 @@
+.pkg6ma {
+  d: path('M21 12h-17.5');
+}
+
+@media not (prefers-reduced-motion) {
+  .pkg6ma {
+    stroke-dasharray: 20;
+    animation: 0.3s linear forwards so-from-20;
+  }
+}

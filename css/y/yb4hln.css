@@ -1,0 +1,14 @@
+.yb4hln {
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path('M13 15l-5 3l0 -12l5 3l0 0M13 9l5 3l0 0l-5 3l0 0');
+  stroke: currentColor;
+  stroke-width: 2px;
+  fill: none;
+}
+
+@media not (prefers-reduced-motion) {
+  .yb4hln {
+    animation: 0.6s linear forwards d-d0cg1x;
+  }
+}

@@ -1,0 +1,11 @@
+.j-nn7d {
+  d: path('M8 10h12');
+}
+
+@media not (prefers-reduced-motion) {
+  .j-nn7d {
+    stroke-dasharray: 14;
+    stroke-dashoffset: 14;
+    animation: 0.2s linear 0.4s forwards so-to-0;
+  }
+}

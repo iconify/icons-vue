@@ -1,0 +1,11 @@
+.d69gsm {
+  d: path('M16 19l2 2M16 19l2 -2');
+}
+
+@media not (prefers-reduced-motion) {
+  .d69gsm {
+    stroke-dasharray: 6;
+    stroke-dashoffset: 6;
+    animation: 0.2s linear 1.35s forwards so-to-0;
+  }
+}

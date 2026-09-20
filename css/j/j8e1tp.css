@@ -1,0 +1,11 @@
+.j8e1tp {
+  d: path('M9 11l6 6');
+}
+
+@media not (prefers-reduced-motion) {
+  .j8e1tp {
+    stroke-dasharray: 12;
+    stroke-dashoffset: 12;
+    animation: 0.2s linear 0.9s forwards so-to-0;
+  }
+}

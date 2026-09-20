@@ -1,0 +1,11 @@
+.gvalnz {
+  d: path('M13 12l-7 -7M13 12l-7 7');
+}
+
+@media not (prefers-reduced-motion) {
+  .gvalnz {
+    stroke-dasharray: 12;
+    stroke-dashoffset: 12;
+    animation: 0.4s linear 0.4s forwards so-to-0;
+  }
+}

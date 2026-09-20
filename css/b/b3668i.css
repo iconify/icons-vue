@@ -1,0 +1,13 @@
+.b3668i {
+  fill: #fff;
+  d: path('M5 4h14l-5 6.5v9.5l-4 -4v-5.5Z');
+  fill-opacity: 0.3;
+  stroke: #fff;
+}
+
+@media not (prefers-reduced-motion) {
+  .b3668i {
+    stroke-dasharray: 54;
+    animation: 0s forwards fill-to-0, 0.6s linear forwards so-from-54, 0.15s linear 0.7s forwards fill-to-0_3;
+  }
+}

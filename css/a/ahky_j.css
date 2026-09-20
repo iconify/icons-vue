@@ -1,0 +1,11 @@
+.ahky_j {
+  cx: 12px;
+  cy: 12px;
+  r: 4px;
+}
+
+@media not (prefers-reduced-motion) {
+  .ahky_j {
+    animation: 0s forwards r-to-0px, 0.2s linear 1.15s forwards r-to-4px;
+  }
+}

@@ -1,0 +1,10 @@
+.wv2k7z {
+  d: path('M15.5 14c0 0 -1.5 2 -3.5 2c-2 0 -3.5 -2 -3.5 -2c0 0 -1.5 2 -3.5 2h-1v5h16v-5h-1c-2 0 -3.5 -2 -3.5 -2Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .wv2k7z {
+    fill-opacity: 0;
+    animation: 0.4s linear 1.2s forwards fill-to-1;
+  }
+}

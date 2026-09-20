@@ -1,0 +1,12 @@
+.fv36qy {
+  d: path('M9 17l-2.5 2.5l-4 0l4.5 -4.5Z');
+  fill-opacity: 0.3;
+  fill: currentColor;
+}
+
+@media not (prefers-reduced-motion) {
+  .fv36qy {
+    opacity: 0;
+    animation: 0s forwards fill-to-0, 0s 0.5s forwards fade-to-1, 0.3s linear 0.5s forwards d-9jpx1r, 0.15s linear 0.8s forwards fill-to-0_3;
+  }
+}

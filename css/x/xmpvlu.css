@@ -1,0 +1,11 @@
+.xmpvlu {
+  d: path('M16 19h5');
+}
+
+@media not (prefers-reduced-motion) {
+  .xmpvlu {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 1.4s forwards so-to-0;
+  }
+}

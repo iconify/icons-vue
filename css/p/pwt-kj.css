@@ -1,0 +1,10 @@
+.pwt-kj {
+  d: path('M20 5h-13');
+}
+
+@media not (prefers-reduced-motion) {
+  .pwt-kj {
+    stroke-dasharray: 16;
+    animation: 0.3s linear forwards so-from-16;
+  }
+}

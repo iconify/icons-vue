@@ -1,0 +1,10 @@
+.xa0t5z {
+  cx: 11px;
+  cy: 4px;
+}
+
+@media not (prefers-reduced-motion) {
+  .xa0t5z {
+    animation: 0s forwards r-to-0px, 0.2s linear 1.25s forwards r-to-2px;
+  }
+}

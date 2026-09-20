@@ -1,0 +1,11 @@
+.tjkf8t {
+  d: path('M19 16v6');
+}
+
+@media not (prefers-reduced-motion) {
+  .tjkf8t {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 1.6s forwards so-to-0;
+  }
+}

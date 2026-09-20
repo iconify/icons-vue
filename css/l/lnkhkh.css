@@ -1,0 +1,11 @@
+.lnkhkh {
+  d: path('M5 3h7.5v5.5h6.5v12.5h-14v-18Z');
+  fill-opacity: 0.3;
+  fill: currentColor;
+}
+
+@media not (prefers-reduced-motion) {
+  .lnkhkh {
+    animation: 0s forwards fill-to-0, 0.15s linear 1.3s forwards fill-to-0_3;
+  }
+}

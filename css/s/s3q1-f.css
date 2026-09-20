@@ -1,0 +1,9 @@
+.s3q1-f {
+  d: path('M5 5l14 14M5 19l14 -14');
+}
+
+@media not (prefers-reduced-motion) {
+  .s3q1-f {
+    animation: 0.4s linear forwards d-1kwl8z;
+  }
+}

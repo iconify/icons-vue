@@ -1,0 +1,11 @@
+.dzrx5u {
+  d: path('M21 12h-13.5');
+}
+
+@media not (prefers-reduced-motion) {
+  .dzrx5u {
+    stroke-dasharray: 16;
+    stroke-dashoffset: 16;
+    animation: 0.3s linear 0.4s forwards so-to-0;
+  }
+}

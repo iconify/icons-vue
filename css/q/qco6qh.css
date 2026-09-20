@@ -1,0 +1,10 @@
+.qco6qh {
+  d: path('M10 5h0.01');
+}
+
+@media not (prefers-reduced-motion) {
+  .qco6qh {
+    stroke-dasharray: 4;
+    animation: 0.2s linear forwards so-from-4;
+  }
+}

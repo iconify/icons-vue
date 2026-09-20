@@ -1,0 +1,12 @@
+.c46nzl {
+  transform: rotate(45deg);
+  transform-origin: 12px 12px;
+}
+
+@media not (prefers-reduced-motion) {
+  .c46nzl {
+    stroke-dasharray: 26;
+    stroke-dashoffset: 26;
+    animation: 0.4s linear 1s forwards so-to-0;
+  }
+}

@@ -1,0 +1,12 @@
+.lbh4ck {
+  cx: 7.75px;
+  cy: 4.64px;
+  r: 1.5px;
+}
+
+@media not (prefers-reduced-motion) {
+  .lbh4ck {
+    opacity: 0;
+    animation: 0s 2.2s forwards fade-to-1, 2.4s linear 2.2s infinite fill-wpinsp;
+  }
+}

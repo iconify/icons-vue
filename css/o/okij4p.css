@@ -1,0 +1,11 @@
+.okij4p {
+  d: path('M12 15l3 -3M12 15l-3 -3');
+}
+
+@media not (prefers-reduced-motion) {
+  .okij4p {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 1.35s forwards so-to-0;
+  }
+}

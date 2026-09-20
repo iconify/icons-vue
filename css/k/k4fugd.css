@@ -1,0 +1,11 @@
+.k4fugd {
+  d: path('M22 6v4');
+}
+
+@media not (prefers-reduced-motion) {
+  .k4fugd {
+    stroke-dasharray: 6;
+    stroke-dashoffset: 6;
+    animation: 0.2s linear 0.9s forwards so-to-0;
+  }
+}

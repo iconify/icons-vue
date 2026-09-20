@@ -1,0 +1,11 @@
+.xi0c9c {
+  d: path('M14 8v8');
+}
+
+@media not (prefers-reduced-motion) {
+  .xi0c9c {
+    stroke-dasharray: 10;
+    stroke-dashoffset: 10;
+    animation: 0.2s linear 1.5s forwards so-to-0;
+  }
+}

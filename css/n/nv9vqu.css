@@ -1,0 +1,10 @@
+.nv9vqu {
+  d: path('M2.5 11.5h19M2.5 18.5h19');
+}
+
+@media not (prefers-reduced-motion) {
+  .nv9vqu {
+    stroke-dasharray: 22;
+    animation: 0.3s linear forwards so-from-22;
+  }
+}

@@ -1,0 +1,11 @@
+.pj6lml {
+  d: path('M13.5 3l5.5 5.5');
+  fill: none;
+}
+
+@media not (prefers-reduced-motion) {
+  .pj6lml {
+    opacity: 0;
+    animation: 0s 0.6s forwards fade-to-1;
+  }
+}

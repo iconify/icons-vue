@@ -1,0 +1,10 @@
+.sh6w8v {
+  d: path('M12 12l-8.5 8.5M12 12l8.5 -8.5');
+}
+
+@media not (prefers-reduced-motion) {
+  .sh6w8v {
+    stroke-dasharray: 16;
+    animation: 0.5s linear forwards so-from-16;
+  }
+}

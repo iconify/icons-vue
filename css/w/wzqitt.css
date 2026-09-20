@@ -1,0 +1,12 @@
+.wzqitt {
+  cx: 18.45px;
+  cy: 4.23px;
+  r: 1.61px;
+}
+
+@media not (prefers-reduced-motion) {
+  .wzqitt {
+    opacity: 0;
+    animation: 0s 2.2s forwards fade-to-1;
+  }
+}

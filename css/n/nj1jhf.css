@@ -1,0 +1,10 @@
+.nj1jhf {
+  d: path('M14 19v-7l-7 -7');
+}
+
+@media not (prefers-reduced-motion) {
+  .nj1jhf {
+    stroke-dasharray: 20;
+    animation: 0.5s linear forwards so-from-20;
+  }
+}

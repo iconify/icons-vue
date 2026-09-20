@@ -1,0 +1,11 @@
+.qe03jo {
+  d: path('M11 12l7 -7M11 12l7 7');
+}
+
+@media not (prefers-reduced-motion) {
+  .qe03jo {
+    stroke-dasharray: 12;
+    stroke-dashoffset: 12;
+    animation: 0.4s linear 0.4s forwards so-to-0;
+  }
+}

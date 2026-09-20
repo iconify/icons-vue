@@ -1,0 +1,10 @@
+.ywsv3c {
+  d: path('M6 14h-4M2 11v6');
+}
+
+@media not (prefers-reduced-motion) {
+  .ywsv3c {
+    opacity: 0;
+    animation: 0s 0.8s forwards fade-to-1, 0.2s linear 0.8s forwards d-vq39db;
+  }
+}

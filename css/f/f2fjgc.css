@@ -1,0 +1,11 @@
+.f2fjgc {
+  d: path('M20 4l-4 4');
+}
+
+@media not (prefers-reduced-motion) {
+  .f2fjgc {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 0.9s forwards so-to-0;
+  }
+}

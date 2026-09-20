@@ -1,0 +1,10 @@
+.yqwu-f {
+  d: path('M12 8v13');
+}
+
+@media not (prefers-reduced-motion) {
+  .yqwu-f {
+    stroke-dasharray: 16;
+    animation: 0.6s linear forwards so-from-16;
+  }
+}

@@ -1,0 +1,11 @@
+.pprfug {
+  d: path('M18.67 5.35c-1 -1 -2.26 -1.73 -3.67 -2.1M18.67 5.35c0.99 1 1.72 2.25 2.08 3.65');
+}
+
+@media not (prefers-reduced-motion) {
+  .pprfug {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 2.7s linear 1s infinite so-88gdib;
+  }
+}

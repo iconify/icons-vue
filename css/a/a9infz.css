@@ -1,0 +1,11 @@
+.a9infz {
+  d: path('M12 3v2');
+}
+
+@media not (prefers-reduced-motion) {
+  .a9infz {
+    stroke-dasharray: 4;
+    transform-origin: 12px 3px;
+    animation: 0.2s linear forwards so-from-4, 6s linear infinite tr-6vhkny;
+  }
+}

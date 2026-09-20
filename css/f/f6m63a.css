@@ -1,0 +1,11 @@
+.f6m63a {
+  d: path('M16 4l4 4');
+}
+
+@media not (prefers-reduced-motion) {
+  .f6m63a {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 0.7s forwards so-to-0;
+  }
+}

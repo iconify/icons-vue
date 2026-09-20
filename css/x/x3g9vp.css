@@ -1,0 +1,11 @@
+.x3g9vp {
+  d: path('M3 5l2 2l4 -4');
+}
+
+@media not (prefers-reduced-motion) {
+  .x3g9vp {
+    stroke-dasharray: 12;
+    stroke-dashoffset: 12;
+    animation: 0.2s linear 0.2s forwards so-to-0;
+  }
+}

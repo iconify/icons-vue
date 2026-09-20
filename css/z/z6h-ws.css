@@ -1,0 +1,11 @@
+.z6h-ws {
+  d: path('M16 19l2 2M16 19l2 -2');
+}
+
+@media not (prefers-reduced-motion) {
+  .z6h-ws {
+    stroke-dasharray: 6;
+    stroke-dashoffset: 6;
+    animation: 0.2s linear 1.6s forwards so-to-0;
+  }
+}

@@ -1,0 +1,12 @@
+.qf4zap {
+  d: path('M10.76 13.24c-2.34 -2.34 -2.34 -6.14 0 -8.49c2.34 -2.34 6.14 -2.34 8.49 0c2.34 2.34 2.34 6.14 0 8.49c-2.34 2.34 -6.14 2.34 -8.49 0Z');
+  fill-opacity: 0.3;
+  fill: currentColor;
+}
+
+@media not (prefers-reduced-motion) {
+  .qf4zap {
+    stroke-dasharray: 40;
+    animation: 0s forwards fill-to-0, 0.5s linear forwards so-from-40, 0.15s linear 0.7s forwards fill-to-0_3;
+  }
+}

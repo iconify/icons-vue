@@ -1,0 +1,14 @@
+.aqb-fd {
+  d: path('M1 13h22');
+  transform: rotate(45deg);
+  transform-origin: 12px 12px;
+  stroke: currentColor;
+}
+
+@media not (prefers-reduced-motion) {
+  .aqb-fd {
+    stroke-dasharray: 24;
+    stroke-dashoffset: 24;
+    animation: 0s forwards d-2dk93e, 6s linear infinite d-l5brra, 0.3s linear 1.1s forwards so-to-0;
+  }
+}

@@ -1,0 +1,11 @@
+.tv0h4f {
+  d: path('M16 18h6');
+}
+
+@media not (prefers-reduced-motion) {
+  .tv0h4f {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 0.9s forwards so-to-0;
+  }
+}

@@ -1,0 +1,11 @@
+.zoysdu {
+  d: path('M19 5l-14 14');
+}
+
+@media not (prefers-reduced-motion) {
+  .zoysdu {
+    stroke-dasharray: 22;
+    stroke-dashoffset: 22;
+    animation: 0.5s linear 0.5s forwards so-to-0;
+  }
+}

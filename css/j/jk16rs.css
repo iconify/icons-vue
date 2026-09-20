@@ -1,0 +1,11 @@
+.jk16rs {
+  d: path('M21 17l-4 4');
+}
+
+@media not (prefers-reduced-motion) {
+  .jk16rs {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 1.4s forwards so-to-0;
+  }
+}

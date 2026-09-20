@@ -1,0 +1,11 @@
+.wzg25p {
+  d: path('M10 4h4M10 9v7M14 9v7');
+}
+
+@media not (prefers-reduced-motion) {
+  .wzg25p {
+    stroke-dasharray: 10;
+    stroke-dashoffset: 10;
+    animation: 0.2s linear 0.8s forwards so-to-0;
+  }
+}

@@ -1,0 +1,11 @@
+.pfsmgv {
+  d: path('M12 7v2');
+}
+
+@media not (prefers-reduced-motion) {
+  .pfsmgv {
+    stroke-dasharray: 4;
+    stroke-dashoffset: 4;
+    animation: 0.2s linear 0.7s forwards so-to-0;
+  }
+}

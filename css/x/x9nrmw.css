@@ -1,0 +1,10 @@
+.x9nrmw {
+  d: path('M9.5 9c0 -0.52 -0.48 -1 -1 -1c-0.52 0 -1 0.48 -1 1v1.44c0 0.52 0.48 1.06 1 1.06c0.52 0 1 -0.48 1 -1v-1.5Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .x9nrmw {
+    opacity: 0;
+    animation: 0.2s linear 0.7s forwards fade-to-1;
+  }
+}

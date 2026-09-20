@@ -1,0 +1,12 @@
+.n-cg9g {
+  cx: 11.5px;
+  cy: 11.5px;
+  r: 1.5px;
+}
+
+@media not (prefers-reduced-motion) {
+  .n-cg9g {
+    opacity: 0;
+    animation: 0.1s linear 1s forwards fade-to-1;
+  }
+}

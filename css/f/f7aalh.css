@@ -1,0 +1,10 @@
+.f7aalh {
+  d: path('M1 14v-12h18');
+}
+
+@media not (prefers-reduced-motion) {
+  .f7aalh {
+    stroke-dasharray: 32;
+    animation: 0.6s linear forwards so-from-32;
+  }
+}

@@ -1,0 +1,11 @@
+.er1d7w {
+  d: path('M12 21h9M12 21h-9');
+}
+
+@media not (prefers-reduced-motion) {
+  .er1d7w {
+    stroke-dasharray: 12;
+    stroke-dashoffset: 12;
+    animation: 0.2s linear 1s forwards so-to-0;
+  }
+}

@@ -1,0 +1,10 @@
+.b1gn-q {
+  d: path('M12 21v1M21 12h1M12 3v-1M3 12h-1');
+}
+
+@media not (prefers-reduced-motion) {
+  .b1gn-q {
+    opacity: 0;
+    animation: 0s 1s forwards fade-to-1, 0.2s linear 1s forwards d-9_o5mj;
+  }
+}

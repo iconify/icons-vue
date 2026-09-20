@@ -1,0 +1,11 @@
+.n0tjee {
+  d: path('M10 14h5');
+}
+
+@media not (prefers-reduced-motion) {
+  .n0tjee {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 1.1s forwards so-to-0;
+  }
+}

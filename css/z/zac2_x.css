@@ -1,0 +1,10 @@
+.zac2_x {
+  d: path('M12 5h1.5M12 5h-1.5M12 5v1.5M12 5v-1.5');
+}
+
+@media not (prefers-reduced-motion) {
+  .zac2_x {
+    stroke-dashoffset: 4;
+    animation: 0.2s linear 1.2s forwards so-to-0;
+  }
+}

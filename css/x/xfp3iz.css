@@ -1,0 +1,11 @@
+.xfp3iz {
+  d: path('M10.5 16v-8h3c0.55 0 1 0.45 1 1v2c0 0.55 -0.45 1 -1 1h-3');
+}
+
+@media not (prefers-reduced-motion) {
+  .xfp3iz {
+    stroke-dasharray: 22;
+    stroke-dashoffset: 22;
+    animation: 0.5s linear 1.3s forwards so-to-0;
+  }
+}

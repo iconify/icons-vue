@@ -1,0 +1,11 @@
+.bbh2_b {
+  d: path('M10 13l-2 2l2 2');
+}
+
+@media not (prefers-reduced-motion) {
+  .bbh2_b {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 0.9s forwards so-to-0;
+  }
+}

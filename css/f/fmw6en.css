@@ -1,0 +1,11 @@
+.fmw6en {
+  d: path('M12 9v6');
+}
+
+@media not (prefers-reduced-motion) {
+  .fmw6en {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 1.15s forwards so-to-0;
+  }
+}

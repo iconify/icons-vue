@@ -1,0 +1,11 @@
+.v9c8xb {
+  fill: #fff;
+  fill-opacity: 0.3;
+}
+
+@media not (prefers-reduced-motion) {
+  .v9c8xb {
+    stroke-dasharray: 40;
+    animation: 0s forwards fill-to-0, 0.5s linear forwards so-from-40, 0.15s linear 2.2s forwards fill-to-0_3;
+  }
+}

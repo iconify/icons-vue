@@ -1,0 +1,11 @@
+.i33l9a {
+  fill: #fff;
+  d: path('M18 7c-2 0 -3 2 -5 2c-2 0 -3 -2 -5 -2c-2 0 -3 2 -5 2c-2 0 -3 -2 -5 -2c-2 0 -3 2 -5 2v15h25Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .i33l9a {
+    fill-opacity: 0;
+    animation: 0.4s linear 0.9s forwards fill-to-1;
+  }
+}

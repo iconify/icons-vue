@@ -1,0 +1,10 @@
+.rhg2sy {
+  d: path('M20 5h1.5M20 5h-1.5M20 5v1.5M20 5v-1.5');
+}
+
+@media not (prefers-reduced-motion) {
+  .rhg2sy {
+    stroke-dashoffset: 4;
+    animation: 0.2s linear 1.55s forwards so-to-0;
+  }
+}

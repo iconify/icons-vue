@@ -1,0 +1,15 @@
+.l0hqxm {
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path('M12 3c4.97 0 9 4.03 9 9c0 4.97 -4.03 9 -9 9c-4.97 0 -9 -4.03 -9 -9c0 -4.97 4.03 -9 9 -9Z');
+  stroke-width: 2px;
+  fill: none;
+  stroke: #fff;
+}
+
+@media not (prefers-reduced-motion) {
+  .l0hqxm {
+    stroke-dasharray: 60;
+    animation: 0.6s linear forwards so-from-60;
+  }
+}

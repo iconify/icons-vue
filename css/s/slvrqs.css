@@ -1,0 +1,12 @@
+.slvrqs {
+  transform: rotate(45deg);
+  transform-origin: 12px 12px;
+}
+
+@media not (prefers-reduced-motion) {
+  .slvrqs {
+    stroke-dasharray: 26;
+    stroke-dashoffset: 26;
+    animation: 0.4s linear 1.4s forwards so-to-0;
+  }
+}

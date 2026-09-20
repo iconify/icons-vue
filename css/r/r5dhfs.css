@@ -1,0 +1,11 @@
+.r5dhfs {
+  stroke: currentColor;
+  fill-opacity: 0.3;
+}
+
+@media not (prefers-reduced-motion) {
+  .r5dhfs {
+    stroke-dasharray: 40;
+    animation: 0s forwards fill-to-0, 0.5s linear forwards so-from-40, 0.15s linear 1.4s forwards fill-to-0_3;
+  }
+}

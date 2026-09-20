@@ -1,0 +1,11 @@
+.ksflva {
+  d: path('M21 3l-6 6');
+}
+
+@media not (prefers-reduced-motion) {
+  .ksflva {
+    stroke-dasharray: 12;
+    stroke-dashoffset: 12;
+    animation: 0.2s linear 0.9s forwards so-to-0;
+  }
+}

@@ -1,0 +1,10 @@
+.a-wxtk {
+  cx: 11px;
+  cy: 17px;
+}
+
+@media not (prefers-reduced-motion) {
+  .a-wxtk {
+    animation: 0s forwards r-to-0px, 0.2s linear 1.25s forwards r-to-1px;
+  }
+}

@@ -1,0 +1,10 @@
+.axscvx {
+  d: path('M10 5c1.66 0 3 1.34 3 3c0 1.66 -1.34 3 -3 3c-1.66 0 -3 -1.34 -3 -3c0 -1.66 1.34 -3 3 -3Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .axscvx {
+    stroke-dasharray: 22;
+    animation: 0s forwards fill-to-0, 0.5s linear forwards so-from-22, 0.15s linear 1.6s forwards fill-to-0_3;
+  }
+}

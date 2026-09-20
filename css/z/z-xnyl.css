@@ -1,0 +1,12 @@
+.z-xnyl {
+  fill: #fff;
+  d: path('M12 4h2v6h2.5l-4.5 4.5M12 4h-2v6h-2.5l4.5 4.5');
+}
+
+@media not (prefers-reduced-motion) {
+  .z-xnyl {
+    stroke-dasharray: 20;
+    fill-opacity: 0;
+    animation: 0.5s linear forwards so-from-20, 0.4s linear 0.7s forwards fill-to-1;
+  }
+}

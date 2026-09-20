@@ -1,0 +1,15 @@
+.g4tcjx {
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path('M12 5h9c0.55 0 1 0.45 1 1v12c0 0.55 -0.45 1 -1 1h-18c-0.55 0 -1 -0.45 -1 -1v-12c0 -0.55 0.45 -1 1 -1Z');
+  stroke: currentColor;
+  stroke-width: 2px;
+  fill-opacity: 0.3;
+}
+
+@media not (prefers-reduced-motion) {
+  .g4tcjx {
+    stroke-dasharray: 70;
+    animation: 0s forwards fill-to-0, 0.6s linear forwards so-from-70, 0.15s linear 0.9s forwards fill-to-0_3;
+  }
+}

@@ -1,0 +1,11 @@
+.oyeo5a {
+  d: path('M9 17h3');
+}
+
+@media not (prefers-reduced-motion) {
+  .oyeo5a {
+    stroke-dasharray: 6;
+    stroke-dashoffset: 6;
+    animation: 0.2s linear 1s forwards so-to-0;
+  }
+}

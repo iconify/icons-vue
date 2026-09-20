@@ -1,0 +1,10 @@
+.fzr6uv {
+  d: path('M12 17h-7v-10h14v10Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .fzr6uv {
+    stroke-dasharray: 50;
+    animation: 0.6s linear forwards so-from-50;
+  }
+}

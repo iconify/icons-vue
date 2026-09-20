@@ -1,0 +1,12 @@
+.e3-och {
+  d: path('M1 13h22');
+  stroke: currentColor;
+}
+
+@media not (prefers-reduced-motion) {
+  .e3-och {
+    stroke-dasharray: 24;
+    stroke-dashoffset: 24;
+    animation: 0.3s linear 1.2s forwards so-to-0;
+  }
+}

@@ -1,0 +1,11 @@
+.s9nboe {
+  d: path('M12 13h8c0.55 0 1 -0.45 1 -1c0 -4.97 -4.03 -9 -9 -9M12 13h-8c-0.55 0 -1 -0.45 -1 -1c0 -4.97 4.03 -9 9 -9');
+}
+
+@media not (prefers-reduced-motion) {
+  .s9nboe {
+    stroke-dasharray: 26;
+    stroke-dashoffset: 26;
+    animation: 0.6s linear 0.4s forwards so-to-0;
+  }
+}

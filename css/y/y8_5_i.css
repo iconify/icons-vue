@@ -1,0 +1,11 @@
+.y8_5_i {
+  d: path('M8 12h8');
+}
+
+@media not (prefers-reduced-motion) {
+  .y8_5_i {
+    stroke-dasharray: 10;
+    stroke-dashoffset: 10;
+    animation: 0.2s linear 0.9s forwards so-to-0;
+  }
+}

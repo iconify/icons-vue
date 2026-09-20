@@ -1,0 +1,10 @@
+.a3y69p {
+  d: path('M3 15h9c2.76 0 5 -2.24 5 -5v-6');
+}
+
+@media not (prefers-reduced-motion) {
+  .a3y69p {
+    stroke-dasharray: 26;
+    animation: 0.6s linear forwards so-from-26;
+  }
+}

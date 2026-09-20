@@ -1,0 +1,13 @@
+.o90p-m {
+  cy: 15px;
+  transform: rotate(-45deg);
+  transform-origin: 12px 12px;
+  cx: 12px;
+  r: 5.5px;
+}
+
+@media not (prefers-reduced-motion) {
+  .o90p-m {
+    animation: 0s forwards cy-to-9px, 0.5s linear 0.9s forwards cy-to-15px;
+  }
+}

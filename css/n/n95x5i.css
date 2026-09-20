@@ -1,0 +1,12 @@
+.n95x5i {
+  stroke: currentColor;
+  d: path('M16 19h6');
+}
+
+@media not (prefers-reduced-motion) {
+  .n95x5i {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 1.2s forwards so-to-0;
+  }
+}

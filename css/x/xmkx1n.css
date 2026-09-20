@@ -1,0 +1,11 @@
+.xmkx1n {
+  d: path('M10 3l-2 18');
+}
+
+@media not (prefers-reduced-motion) {
+  .xmkx1n {
+    stroke-dasharray: 22;
+    stroke-dashoffset: 22;
+    animation: 0.3s linear 0.7s forwards so-to-0;
+  }
+}

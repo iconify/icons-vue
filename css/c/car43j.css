@@ -1,0 +1,11 @@
+.car43j {
+  d: path('M15 9v1');
+}
+
+@media not (prefers-reduced-motion) {
+  .car43j {
+    stroke-dasharray: 4;
+    stroke-dashoffset: 4;
+    animation: 0.2s linear 1.3s forwards so-to-0;
+  }
+}

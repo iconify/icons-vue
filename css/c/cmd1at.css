@@ -1,0 +1,12 @@
+.cmd1at {
+  cx: 9px;
+  cy: 9px;
+  r: 2.5px;
+  fill: currentColor;
+}
+
+@media not (prefers-reduced-motion) {
+  .cmd1at {
+    animation: 0s forwards r-to-0px, 0.2s linear 0.6s forwards r-to-2_5px;
+  }
+}

@@ -1,0 +1,12 @@
+.tcge7x {
+  transform: rotate(45deg);
+  transform-origin: 12px 12px;
+}
+
+@media not (prefers-reduced-motion) {
+  .tcge7x {
+    stroke-dasharray: 26;
+    stroke-dashoffset: 26;
+    animation: 0.4s linear 0.5s forwards so-to-0;
+  }
+}

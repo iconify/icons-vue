@@ -1,0 +1,13 @@
+.h61i-j {
+  fill: #000;
+  stroke-width: 4px;
+}
+
+@media not (prefers-reduced-motion) {
+  .h61i-j {
+    stroke-dasharray: 48;
+    fill-opacity: 0;
+    transform-origin: 14px 20.5px;
+    animation: 0.6s linear forwards so-from-48, 3s linear infinite tr-7ecuqx, 0.15s linear 0.7s forwards fill-to-1;
+  }
+}

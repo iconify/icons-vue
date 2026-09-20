@@ -1,0 +1,11 @@
+.aqo_mf {
+  d: path('M20 3v4');
+}
+
+@media not (prefers-reduced-motion) {
+  .aqo_mf {
+    stroke-dasharray: 6;
+    stroke-dashoffset: 6;
+    animation: 0.2s linear 0.7s forwards so-to-0;
+  }
+}

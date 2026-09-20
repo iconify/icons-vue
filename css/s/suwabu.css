@@ -1,0 +1,11 @@
+.suwabu {
+  d: path('M19 19h-14');
+}
+
+@media not (prefers-reduced-motion) {
+  .suwabu {
+    stroke-dasharray: 16;
+    stroke-dashoffset: 16;
+    animation: 0.3s linear 0.5s forwards so-to-0;
+  }
+}

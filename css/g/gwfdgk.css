@@ -1,0 +1,10 @@
+.gwfdgk {
+  fill-opacity: 0.3;
+  d: path('M5 5l7 0.2l7 -0.2l3 10l-3 3.4h-14l-3.5 -3.4l3.5 -10Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .gwfdgk {
+    animation: 0s forwards fill-to-0, 0.15s linear 1.8s forwards fill-to-0_3;
+  }
+}

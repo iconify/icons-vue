@@ -1,0 +1,13 @@
+.p-0kvr {
+  cx: 17px;
+  cy: 7px;
+  r: 1.5px;
+  fill: currentColor;
+}
+
+@media not (prefers-reduced-motion) {
+  .p-0kvr {
+    opacity: 0;
+    animation: 0.2s linear 1.3s forwards fade-to-1;
+  }
+}

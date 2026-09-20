@@ -1,0 +1,12 @@
+.mh5zti {
+  fill: #fff;
+  d: path('M12 15h2v-6h2.5l-4.5 -4.5M12 15h-2v-6h-2.5l4.5 -4.5');
+  fill-opacity: 0.3;
+}
+
+@media not (prefers-reduced-motion) {
+  .mh5zti {
+    stroke-dasharray: 20;
+    animation: 0s forwards fill-to-0, 0.5s linear forwards so-from-20, 0.15s linear 0.7s forwards fill-to-0_3;
+  }
+}

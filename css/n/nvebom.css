@@ -1,0 +1,11 @@
+.nvebom {
+  d: path('M3 12h13.5');
+}
+
+@media not (prefers-reduced-motion) {
+  .nvebom {
+    stroke-dasharray: 16;
+    stroke-dashoffset: 16;
+    animation: 0.3s linear 0.4s forwards so-to-0;
+  }
+}

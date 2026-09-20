@@ -1,0 +1,10 @@
+.kc1v7n {
+  d: path('M9.5 5c0 -0.83 0.67 -1.5 1.5 -1.5h8c0.83 0 1.5 0.67 1.5 1.5c0 0.83 -0.67 1.5 -1.5 1.5h-8c-0.83 0 -1.5 -0.67 -1.5 -1.5Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .kc1v7n {
+    stroke-dasharray: 28;
+    animation: 0s forwards fill-to-0, 0.4s linear forwards so-from-28, 0.15s linear 1.5s forwards fill-to-0_3;
+  }
+}

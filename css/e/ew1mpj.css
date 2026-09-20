@@ -1,0 +1,10 @@
+.ew1mpj {
+  d: path('M14 12l5 -5M14 12l5 5');
+}
+
+@media not (prefers-reduced-motion) {
+  .ew1mpj {
+    stroke-dasharray: 10;
+    animation: 0.4s linear forwards so-from-10;
+  }
+}

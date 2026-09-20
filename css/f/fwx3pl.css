@@ -1,0 +1,15 @@
+.fwx3pl {
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: currentColor;
+  stroke-width: 2px;
+  d: path('M12 18c0 0 -5.14 -6 -5.14 -9.86c0 -2.84 2.3 -5.14 5.14 -5.14c2.84 0 5.14 2.3 5.14 5.14c0 3.86 -5.14 9.86 -5.14 9.86Z');
+  fill-opacity: 0.3;
+}
+
+@media not (prefers-reduced-motion) {
+  .fwx3pl {
+    stroke-dasharray: 42;
+    animation: 0s forwards fill-to-0, 0.5s linear forwards so-from-42, 0.15s linear 0.5s forwards fill-to-0_3;
+  }
+}

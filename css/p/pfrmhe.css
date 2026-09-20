@@ -1,0 +1,11 @@
+.pfrmhe {
+  d: path('M7 12l7 7M7 12l7 -7');
+}
+
+@media not (prefers-reduced-motion) {
+  .pfrmhe {
+    stroke-dasharray: 12;
+    stroke-dashoffset: 12;
+    animation: 0.2s linear 0.7s forwards so-to-0;
+  }
+}

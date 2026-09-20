@@ -1,0 +1,10 @@
+.khtx_s {
+  d: path('M13 4l7 0c0.55 0 1 0.45 1 1v14c0 0.55 -0.45 1 -1 1h-7');
+}
+
+@media not (prefers-reduced-motion) {
+  .khtx_s {
+    stroke-dasharray: 34;
+    animation: 0.4s linear forwards so-from-34;
+  }
+}

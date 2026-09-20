@@ -1,0 +1,11 @@
+.ff411i {
+  d: path('M12 17l7 -7M12 17l-7 -7');
+}
+
+@media not (prefers-reduced-motion) {
+  .ff411i {
+    stroke-dasharray: 12;
+    stroke-dashoffset: 12;
+    animation: 0.2s linear 0.7s forwards so-to-0;
+  }
+}

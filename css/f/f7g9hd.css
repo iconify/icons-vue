@@ -1,0 +1,12 @@
+.f7g9hd {
+  fill: #fff;
+  d: path('M12 15h2v-6h2.5l-4.5 -4.5M12 15h-2v-6h-2.5l4.5 -4.5');
+}
+
+@media not (prefers-reduced-motion) {
+  .f7g9hd {
+    stroke-dasharray: 20;
+    fill-opacity: 0;
+    animation: 1.5s linear infinite d-viliiy, 0.5s linear forwards so-from-20, 0.4s linear 0.7s forwards fill-to-1;
+  }
+}

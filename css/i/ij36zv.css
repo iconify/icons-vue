@@ -1,0 +1,11 @@
+.ij36zv {
+  d: path('M16 19h6');
+}
+
+@media not (prefers-reduced-motion) {
+  .ij36zv {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 1.35s forwards so-to-0;
+  }
+}

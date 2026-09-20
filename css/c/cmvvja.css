@@ -1,0 +1,10 @@
+.cmvvja {
+  d: path('M19 4h1.5M19 4h-1.5M19 4v1.5M19 4v-1.5');
+}
+
+@media not (prefers-reduced-motion) {
+  .cmvvja {
+    stroke-dashoffset: 4;
+    animation: 6s linear 4.45s infinite so-_lg20b;
+  }
+}

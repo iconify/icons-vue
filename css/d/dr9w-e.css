@@ -1,0 +1,10 @@
+.dr9w-e {
+  d: path('M21 9l-3 3l3 3');
+}
+
+@media not (prefers-reduced-motion) {
+  .dr9w-e {
+    stroke-dasharray: 12;
+    animation: 0.2s linear forwards so-from-12;
+  }
+}

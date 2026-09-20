@@ -1,0 +1,10 @@
+.zz4num {
+  d: path('M17 11h1.5M17 11h-1.5M17 11v1.5M17 11v-1.5');
+}
+
+@media not (prefers-reduced-motion) {
+  .zz4num {
+    stroke-dashoffset: 4;
+    animation: 6s linear 2.27s infinite so-_lg20b;
+  }
+}

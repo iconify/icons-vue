@@ -1,0 +1,13 @@
+.qxdeko {
+  cx: 7.5px;
+  cy: 9.5px;
+  r: 1.5px;
+  fill: currentColor;
+}
+
+@media not (prefers-reduced-motion) {
+  .qxdeko {
+    opacity: 0;
+    animation: 0.2s linear 1s forwards fade-to-1;
+  }
+}

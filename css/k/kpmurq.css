@@ -1,0 +1,15 @@
+.kpmurq {
+  d: path('M5 12h14');
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: currentColor;
+  stroke-width: 2px;
+  fill: none;
+}
+
+@media not (prefers-reduced-motion) {
+  .kpmurq {
+    stroke-dasharray: 16;
+    animation: 0.5s linear forwards so-from-16;
+  }
+}

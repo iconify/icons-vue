@@ -1,0 +1,12 @@
+.d7uv-j {
+  fill: #fff;
+  d: path('M9 7h11c0.55 0 1 0.45 1 1v11c0 0.55 -0.45 1 -1 1h-16c-0.55 0 -1 -0.45 -1 -1v-11c0 -0.55 0.45 -1 1 -1Z');
+  fill-opacity: 0.3;
+}
+
+@media not (prefers-reduced-motion) {
+  .d7uv-j {
+    stroke-dasharray: 64;
+    animation: 0s forwards fill-to-0, 0.6s linear forwards so-from-64, 0.15s linear 1s forwards fill-to-0_3;
+  }
+}

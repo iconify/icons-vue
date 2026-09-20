@@ -1,0 +1,12 @@
+.eqywjg {
+  cx: 12px;
+  cy: 12px;
+  r: 1px;
+}
+
+@media not (prefers-reduced-motion) {
+  .eqywjg {
+    opacity: 0;
+    animation: 0s 1.1s forwards fade-to-1, 0.2s linear 1.1s forwards r-from-0px;
+  }
+}

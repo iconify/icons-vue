@@ -1,0 +1,10 @@
+.t5zxbs {
+  d: path('M9 17l-2.5 2.5l-4 0l4.5 -4.5Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .t5zxbs {
+    opacity: 0;
+    animation: 0s 0.5s forwards fade-to-1, 0.3s linear 0.5s forwards d-9jpx1r;
+  }
+}

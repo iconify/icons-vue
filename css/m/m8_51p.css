@@ -1,0 +1,11 @@
+.m8_51p {
+  r: 1px;
+  transform: rotate(165deg);
+  transform-origin: 12px 12px;
+}
+
+@media not (prefers-reduced-motion) {
+  .m8_51p {
+    animation: 0s forwards r-to-0px, 0.2s linear 1.05s forwards r-to-1px;
+  }
+}

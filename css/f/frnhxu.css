@@ -1,0 +1,11 @@
+.frnhxu {
+  d: path('M8.63 15.31c2.18 -0.58 4.49 -0.34 6.5 0.69');
+}
+
+@media not (prefers-reduced-motion) {
+  .frnhxu {
+    stroke-dasharray: 10;
+    stroke-dashoffset: 10;
+    animation: 0.2s linear 1.1s forwards so-to-0;
+  }
+}

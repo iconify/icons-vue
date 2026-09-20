@@ -1,0 +1,11 @@
+.nl5zqf {
+  d: path('M5.5 16c5 2.5 8 2.5 13 0');
+}
+
+@media not (prefers-reduced-motion) {
+  .nl5zqf {
+    stroke-dasharray: 16;
+    stroke-dashoffset: 16;
+    animation: 0.5s linear 0.7s forwards so-to-0;
+  }
+}

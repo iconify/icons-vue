@@ -1,0 +1,11 @@
+.ko-d_q {
+  d: path('M14.5 8.5l2 -1');
+}
+
+@media not (prefers-reduced-motion) {
+  .ko-d_q {
+    stroke-dasharray: 6;
+    stroke-dashoffset: 6;
+    animation: 0.2s linear 1.3s forwards so-to-0;
+  }
+}

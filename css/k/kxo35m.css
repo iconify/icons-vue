@@ -1,0 +1,10 @@
+.kxo35m {
+  d: path('M18.5 11.99c0.01 0.47 -0.04 0.95 -0.15 1.4c0 0 2.25 1.73 2.23 1.75c0 0 -1.56 2.7 -1.56 2.7c-0.02 0.02 -2.63 -1.05 -2.63 -1.05c-0.34 0.31 -0.73 0.59 -1.15 0.83');
+}
+
+@media not (prefers-reduced-motion) {
+  .kxo35m {
+    opacity: 0;
+    animation: 0s 0.8s forwards fade-to-1, 0.2s linear 0.8s forwards d-rpt8pf;
+  }
+}

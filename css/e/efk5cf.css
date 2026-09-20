@@ -1,0 +1,10 @@
+.efk5cf {
+  d: path('M12 3h7v8');
+}
+
+@media not (prefers-reduced-motion) {
+  .efk5cf {
+    stroke-dasharray: 18;
+    animation: 0.3s linear forwards so-from-18;
+  }
+}

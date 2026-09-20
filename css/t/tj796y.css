@@ -1,0 +1,11 @@
+.tj796y {
+  d: path('M7 12h10');
+}
+
+@media not (prefers-reduced-motion) {
+  .tj796y {
+    stroke-dasharray: 12;
+    stroke-dashoffset: 12;
+    animation: 0.2s linear 0.3s forwards so-to-0;
+  }
+}

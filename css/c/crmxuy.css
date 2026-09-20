@@ -1,0 +1,11 @@
+.crmxuy {
+  d: path('M7 12h13.5');
+}
+
+@media not (prefers-reduced-motion) {
+  .crmxuy {
+    stroke-dasharray: 16;
+    stroke-dashoffset: 16;
+    animation: 0.3s linear 0.4s forwards so-to-0;
+  }
+}

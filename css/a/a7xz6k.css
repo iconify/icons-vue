@@ -1,0 +1,11 @@
+.a7xz6k {
+  d: path('M12 15h6M12 15h-6M12 20h6M12 20h-6');
+}
+
+@media not (prefers-reduced-motion) {
+  .a7xz6k {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 0.4s forwards so-to-0;
+  }
+}

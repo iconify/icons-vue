@@ -1,0 +1,11 @@
+.u4rzfv {
+  d: path('M16 19h6');
+}
+
+@media not (prefers-reduced-motion) {
+  .u4rzfv {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 1.1s forwards so-to-0;
+  }
+}

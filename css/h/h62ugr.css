@@ -1,0 +1,11 @@
+.h62ugr {
+  d: path('M3 19l2 2l4 -4');
+}
+
+@media not (prefers-reduced-motion) {
+  .h62ugr {
+    stroke-dasharray: 12;
+    stroke-dashoffset: 12;
+    animation: 0.2s linear 1s forwards so-to-0;
+  }
+}

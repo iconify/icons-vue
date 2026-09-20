@@ -1,0 +1,10 @@
+.qr6ndy {
+  d: path('M19 11h1.5M19 11h-1.5M19 11v1.5M19 11v-1.5');
+}
+
+@media not (prefers-reduced-motion) {
+  .qr6ndy {
+    stroke-dashoffset: 4;
+    animation: 6s linear 5.39s infinite so-_lg20b;
+  }
+}

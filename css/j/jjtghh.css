@@ -1,0 +1,11 @@
+.jjtghh {
+  d: path('M18.12 18.12c-1.17 1.17 -3.07 1.17 -4.24 0c-1.17 -1.17 -1.17 -3.07 0 -4.24c1.17 -1.17 3.07 -1.17 4.24 0c1.17 1.17 1.17 3.07 0 4.24Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .jjtghh {
+    stroke-dasharray: 22;
+    stroke-dashoffset: 22;
+    animation: 0s forwards fill-to-0, 0.3s linear 1.1s forwards so-to-0, 0.15s linear 1.7s forwards fill-to-0_3;
+  }
+}

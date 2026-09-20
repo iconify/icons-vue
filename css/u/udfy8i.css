@@ -1,0 +1,11 @@
+.udfy8i {
+  d: path('M2 10l10 -8l10 8');
+}
+
+@media not (prefers-reduced-motion) {
+  .udfy8i {
+    stroke-dasharray: 28;
+    stroke-dashoffset: 28;
+    animation: 0.4s linear 0.6s forwards so-to-0;
+  }
+}

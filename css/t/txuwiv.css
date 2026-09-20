@@ -1,0 +1,11 @@
+.txuwiv {
+  d: path('M12 2l0 6.5M12 22l0 -6.5');
+}
+
+@media not (prefers-reduced-motion) {
+  .txuwiv {
+    stroke-dasharray: 10;
+    stroke-dashoffset: 10;
+    animation: 0.2s linear 0.4s forwards so-to-0;
+  }
+}

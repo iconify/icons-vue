@@ -1,0 +1,11 @@
+.ds-pxa {
+  cx: 17px;
+  cy: 12px;
+  r: 3px;
+}
+
+@media not (prefers-reduced-motion) {
+  .ds-pxa {
+    animation: 0.2s linear forwards cx-from-7px;
+  }
+}

@@ -1,0 +1,11 @@
+.f1724o {
+  fill-opacity: 0.3;
+  fill: currentColor;
+  d: path('M14 6l4 4l3 -3l-4 -4Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .f1724o {
+    animation: 0s forwards fill-to-0, 0.15s linear 1s forwards fill-to-0_3;
+  }
+}

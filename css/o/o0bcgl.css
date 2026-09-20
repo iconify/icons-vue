@@ -1,0 +1,12 @@
+.o0bcgl {
+  d: path('M18.12 18.12l2.83 2.83');
+  fill: none;
+}
+
+@media not (prefers-reduced-motion) {
+  .o0bcgl {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 1.4s forwards so-to-0;
+  }
+}

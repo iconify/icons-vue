@@ -1,0 +1,13 @@
+.pyx2zp {
+  fill: #fff;
+  d: path('M3 12c0 -4.97 4.03 -9 9 -9c4.97 0 9 4.03 9 9c0 4.97 -4.03 9 -9 9c-4.97 0 -9 -4.03 -9 -9Z');
+  stroke: #fff;
+}
+
+@media not (prefers-reduced-motion) {
+  .pyx2zp {
+    stroke-dasharray: 60;
+    fill-opacity: 0;
+    animation: 0.6s linear forwards so-from-60, 0.4s linear 0.6s forwards fill-to-1;
+  }
+}

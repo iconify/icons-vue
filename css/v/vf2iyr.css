@@ -1,0 +1,11 @@
+.vf2iyr {
+  d: path('M12 23h0.01');
+}
+
+@media not (prefers-reduced-motion) {
+  .vf2iyr {
+    stroke-dasharray: 4;
+    stroke-dashoffset: 4;
+    animation: 0.2s linear 1.4s forwards so-to-0;
+  }
+}

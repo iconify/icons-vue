@@ -1,0 +1,11 @@
+.gdztes {
+  d: path('M19 5h-14');
+}
+
+@media not (prefers-reduced-motion) {
+  .gdztes {
+    stroke-dasharray: 16;
+    stroke-dashoffset: 16;
+    animation: 0.3s linear 0.2s forwards so-to-0;
+  }
+}

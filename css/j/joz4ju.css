@@ -1,0 +1,11 @@
+.joz4ju {
+  d: path('M12 23h0.01');
+}
+
+@media not (prefers-reduced-motion) {
+  .joz4ju {
+    stroke-dasharray: 4;
+    stroke-dashoffset: 4;
+    animation: 0.2s linear 0.9s forwards so-to-0;
+  }
+}

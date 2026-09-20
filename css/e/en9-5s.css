@@ -1,0 +1,12 @@
+.en9-5s {
+  cx: 9.5px;
+  cy: 7.5px;
+  r: 1.5px;
+}
+
+@media not (prefers-reduced-motion) {
+  .en9-5s {
+    opacity: 0;
+    animation: 0.1s linear 1.1s forwards fade-to-1;
+  }
+}

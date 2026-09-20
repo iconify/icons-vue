@@ -1,0 +1,10 @@
+.n_g2ks {
+  d: path('M4 5h13');
+}
+
+@media not (prefers-reduced-motion) {
+  .n_g2ks {
+    stroke-dasharray: 16;
+    animation: 0.3s linear forwards so-from-16;
+  }
+}

@@ -1,0 +1,10 @@
+.ct9-oq {
+  d: path('M17 20v-5c0 -0.55 -0.45 -1 -1 -1h-8c-0.55 0 -1 -0.45 -1 -1v-9');
+}
+
+@media not (prefers-reduced-motion) {
+  .ct9-oq {
+    stroke-dasharray: 28;
+    animation: 0.6s linear forwards so-from-28;
+  }
+}

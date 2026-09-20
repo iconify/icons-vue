@@ -1,0 +1,13 @@
+.jt6fjs {
+  d: path('M12 5c-3.31 0 -6 2.69 -6 6l0 6c-1 0 -2 1 -2 2h8M12 5c3.31 0 6 2.69 6 6l0 6c1 0 2 1 2 2h-8');
+  fill: currentColor;
+}
+
+@media not (prefers-reduced-motion) {
+  .jt6fjs {
+    stroke-dasharray: 30;
+    stroke-dashoffset: 30;
+    fill-opacity: 0;
+    animation: 0.4s linear 0.2s forwards so-to-0, 0.4s linear 0.9s forwards fill-to-1;
+  }
+}

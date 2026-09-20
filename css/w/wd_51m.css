@@ -1,0 +1,12 @@
+.wd_51m {
+  cx: 12px;
+  cy: 12px;
+  fill: #000;
+  r: 1px;
+}
+
+@media not (prefers-reduced-motion) {
+  .wd_51m {
+    animation: 0s forwards r-to-0px, 0.3s linear 0.85s forwards r-to-1px;
+  }
+}

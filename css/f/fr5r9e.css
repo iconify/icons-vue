@@ -1,0 +1,11 @@
+.fr5r9e {
+  d: path('M16 21l6 -6');
+}
+
+@media not (prefers-reduced-motion) {
+  .fr5r9e {
+    stroke-dasharray: 12;
+    stroke-dashoffset: 12;
+    animation: 0.2s linear 0.9s forwards so-to-0;
+  }
+}

@@ -1,0 +1,11 @@
+.rw5kru {
+  d: path('M16 3l-2 18');
+}
+
+@media not (prefers-reduced-motion) {
+  .rw5kru {
+    stroke-dasharray: 22;
+    stroke-dashoffset: 22;
+    animation: 0.3s linear 1s forwards so-to-0;
+  }
+}

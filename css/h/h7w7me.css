@@ -1,0 +1,11 @@
+.h7w7me {
+  d: path('M21 19h-5');
+}
+
+@media not (prefers-reduced-motion) {
+  .h7w7me {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 0.9s forwards so-to-0;
+  }
+}

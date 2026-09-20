@@ -1,0 +1,11 @@
+.tv0bue {
+  d: path('M4 20h13');
+}
+
+@media not (prefers-reduced-motion) {
+  .tv0bue {
+    stroke-dasharray: 16;
+    stroke-dashoffset: 16;
+    animation: 0.3s linear 0.8s forwards so-to-0;
+  }
+}

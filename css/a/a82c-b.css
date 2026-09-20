@@ -1,0 +1,11 @@
+.a82c-b {
+  d: path('M12 15v6');
+}
+
+@media not (prefers-reduced-motion) {
+  .a82c-b {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 0.9s forwards so-to-0;
+  }
+}

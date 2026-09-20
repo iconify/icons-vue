@@ -1,0 +1,11 @@
+.aznzqi {
+  d: path('M7 16l-3 -3M7 16l3 -3');
+}
+
+@media not (prefers-reduced-motion) {
+  .aznzqi {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 0.5s forwards so-to-0;
+  }
+}

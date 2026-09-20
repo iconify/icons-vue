@@ -1,0 +1,11 @@
+.hh6w2l {
+  d: path('M8 14h-6');
+}
+
+@media not (prefers-reduced-motion) {
+  .hh6w2l {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 1s forwards so-to-0;
+  }
+}

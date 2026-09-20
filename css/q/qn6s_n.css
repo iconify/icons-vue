@@ -1,0 +1,11 @@
+.qn6s_n {
+  d: path('M10 10h8');
+}
+
+@media not (prefers-reduced-motion) {
+  .qn6s_n {
+    stroke-dasharray: 10;
+    stroke-dashoffset: 10;
+    animation: 0.2s linear 0.9s forwards so-to-0;
+  }
+}

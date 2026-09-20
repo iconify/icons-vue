@@ -1,0 +1,12 @@
+.qi810h {
+  cx: 6.5px;
+  cy: 11.5px;
+  r: 1.5px;
+}
+
+@media not (prefers-reduced-motion) {
+  .qi810h {
+    opacity: 0;
+    animation: 0.1s linear 1.05s forwards fade-to-1;
+  }
+}

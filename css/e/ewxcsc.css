@@ -1,0 +1,11 @@
+.ewxcsc {
+  d: path('M12 16v0.01');
+}
+
+@media not (prefers-reduced-motion) {
+  .ewxcsc {
+    stroke-dasharray: 4;
+    stroke-dashoffset: 4;
+    animation: 0.2s linear 1.5s forwards so-to-0;
+  }
+}

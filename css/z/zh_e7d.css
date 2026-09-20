@@ -1,0 +1,11 @@
+.zh_e7d {
+  d: path('M21 17l-4 4');
+}
+
+@media not (prefers-reduced-motion) {
+  .zh_e7d {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 1s forwards so-to-0;
+  }
+}

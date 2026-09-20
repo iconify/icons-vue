@@ -1,0 +1,11 @@
+.d-ws9p {
+  d: path('M4 10h0.01');
+}
+
+@media not (prefers-reduced-motion) {
+  .d-ws9p {
+    stroke-dasharray: 4;
+    stroke-dashoffset: 4;
+    animation: 0.2s linear 0.3s forwards so-to-0;
+  }
+}

@@ -1,0 +1,12 @@
+.xk-4ss {
+  stroke: #000;
+  d: path('M8.47 17.52c0 0 0.94 1.06 3.53 1.06c2.58 0 3.53 -1.06 3.53 -1.06');
+}
+
+@media not (prefers-reduced-motion) {
+  .xk-4ss {
+    stroke-dasharray: 10;
+    stroke-dashoffset: 10;
+    animation: 0.2s linear 2s forwards so-to-0;
+  }
+}

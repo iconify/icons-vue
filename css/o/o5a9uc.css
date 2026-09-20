@@ -1,0 +1,12 @@
+.o5a9uc {
+  d: path('M10.5 13.5l-7.5 7.5');
+  fill: none;
+}
+
+@media not (prefers-reduced-motion) {
+  .o5a9uc {
+    stroke-dasharray: 14;
+    stroke-dashoffset: 14;
+    animation: 0.2s linear 0.5s forwards so-to-0;
+  }
+}

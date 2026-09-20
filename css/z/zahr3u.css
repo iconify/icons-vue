@@ -1,0 +1,11 @@
+.zahr3u {
+  d: path('M12 13v0.01');
+}
+
+@media not (prefers-reduced-motion) {
+  .zahr3u {
+    stroke-dasharray: 4;
+    stroke-dashoffset: 4;
+    animation: 0.2s linear 0.9s forwards so-to-0;
+  }
+}

@@ -1,0 +1,11 @@
+.grztfs {
+  d: path('M14 18h-9v-12h18v12Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .grztfs {
+    stroke-dasharray: 62;
+    fill-opacity: 0;
+    animation: 0.6s linear forwards so-from-62, 0.4s linear 1.2s forwards fill-to-1;
+  }
+}

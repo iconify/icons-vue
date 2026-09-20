@@ -1,0 +1,10 @@
+.qmaqso {
+  cx: 13px;
+  cy: 6px;
+}
+
+@media not (prefers-reduced-motion) {
+  .qmaqso {
+    animation: 0s forwards r-to-0px, 0.2s linear 0.8s forwards r-to-1px;
+  }
+}

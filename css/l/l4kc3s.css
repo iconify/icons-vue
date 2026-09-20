@@ -1,0 +1,16 @@
+.l4kc3s {
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path('M8 10h3.5l3.5 -3.5v10.5l-3.5 -3.5h-3.5Z');
+  stroke: currentColor;
+  stroke-width: 2px;
+  fill-opacity: 0.3;
+  fill: currentColor;
+}
+
+@media not (prefers-reduced-motion) {
+  .l4kc3s {
+    stroke-dasharray: 34;
+    animation: 0s forwards fill-to-0, 0.4s linear forwards so-from-34, 0.15s linear 0.4s forwards fill-to-0_3;
+  }
+}

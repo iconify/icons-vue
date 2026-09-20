@@ -1,0 +1,11 @@
+.ufkpih {
+  d: path('M7 12h10');
+}
+
+@media not (prefers-reduced-motion) {
+  .ufkpih {
+    stroke-dasharray: 12;
+    stroke-dashoffset: 12;
+    animation: 0.2s linear 0.85s forwards so-to-0;
+  }
+}

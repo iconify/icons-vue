@@ -1,0 +1,10 @@
+.x5ao8m {
+  d: path('M12 3v2');
+}
+
+@media not (prefers-reduced-motion) {
+  .x5ao8m {
+    stroke-dasharray: 4;
+    animation: 0.2s linear forwards so-from-4;
+  }
+}

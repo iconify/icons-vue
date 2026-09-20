@@ -1,0 +1,12 @@
+.xe-kkt {
+  cx: 16.18px;
+  cy: 7.01px;
+  r: 1.04px;
+}
+
+@media not (prefers-reduced-motion) {
+  .xe-kkt {
+    opacity: 0;
+    animation: 0s 2.8s forwards fade-to-1;
+  }
+}

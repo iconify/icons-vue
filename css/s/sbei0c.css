@@ -1,0 +1,11 @@
+.sbei0c {
+  d: path('M22 12h-6.5M2 12h6.5');
+}
+
+@media not (prefers-reduced-motion) {
+  .sbei0c {
+    stroke-dasharray: 10;
+    stroke-dashoffset: 10;
+    animation: 0.2s linear 0.4s forwards so-to-0;
+  }
+}

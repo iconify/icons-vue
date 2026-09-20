@@ -1,0 +1,11 @@
+.xf_gao {
+  d: path('M12 3c4.97 0 9 4.03 9 9c0 4.97 -4.03 9 -9 9c-4.97 0 -9 -4.03 -9 -9c0 -4.97 4.03 -9 9 -9Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .xf_gao {
+    stroke-dasharray: 60;
+    stroke-dashoffset: 60;
+    animation: 0.6s linear 0.5s forwards so-to-0;
+  }
+}

@@ -1,0 +1,11 @@
+.okiwoc {
+  d: path('M6 19h12');
+}
+
+@media not (prefers-reduced-motion) {
+  .okiwoc {
+    stroke-dasharray: 14;
+    stroke-dashoffset: 14;
+    animation: 0.2s linear 0.5s forwards so-to-0;
+  }
+}

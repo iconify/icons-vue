@@ -1,0 +1,10 @@
+.crwepn {
+  d: path('M12 17h-10v-14h20v14Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .crwepn {
+    stroke-dasharray: 70;
+    animation: 0.6s linear forwards so-from-70;
+  }
+}

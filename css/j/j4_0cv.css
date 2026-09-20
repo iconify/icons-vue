@@ -1,0 +1,11 @@
+.j4_0cv {
+  d: path('M7 12h9.5');
+}
+
+@media not (prefers-reduced-motion) {
+  .j4_0cv {
+    stroke-dasharray: 12;
+    stroke-dashoffset: 12;
+    animation: 0.2s linear 0.7s forwards so-to-0;
+  }
+}

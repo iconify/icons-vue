@@ -1,0 +1,10 @@
+.p19e3a {
+  d: path('M12 5c-3.87 0 -7 3.13 -7 7c0 3.87 3.13 7 7 7c3.87 0 7 -3.13 7 -7');
+}
+
+@media not (prefers-reduced-motion) {
+  .p19e3a {
+    stroke-dasharray: 36;
+    animation: 0.5s linear forwards so-from-36;
+  }
+}

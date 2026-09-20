@@ -1,0 +1,10 @@
+.e7xr4w {
+  d: path('M12 6h7c0.55 0 1 0.45 1 1v8c0 0.55 -0.45 1 -1 1h-14c-0.55 0 -1 -0.45 -1 -1v-9Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .e7xr4w {
+    stroke-dasharray: 54;
+    animation: 0.6s linear forwards so-from-54;
+  }
+}

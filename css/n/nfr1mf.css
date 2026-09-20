@@ -1,0 +1,11 @@
+.nfr1mf {
+  d: path('M16 19h6');
+}
+
+@media not (prefers-reduced-motion) {
+  .nfr1mf {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 1.3s forwards so-to-0;
+  }
+}

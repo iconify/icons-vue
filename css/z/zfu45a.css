@@ -1,0 +1,11 @@
+.zfu45a {
+  d: path('M19 16v6');
+}
+
+@media not (prefers-reduced-motion) {
+  .zfu45a {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 1.8s forwards so-to-0;
+  }
+}

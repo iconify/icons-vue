@@ -1,0 +1,10 @@
+.dzccmg {
+  d: path('M12 3l0 17.5');
+}
+
+@media not (prefers-reduced-motion) {
+  .dzccmg {
+    stroke-dasharray: 20;
+    animation: 0.3s linear forwards so-from-20;
+  }
+}

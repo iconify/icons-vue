@@ -1,0 +1,11 @@
+.pb256f {
+  d: path('M21 17l-4 4');
+}
+
+@media not (prefers-reduced-motion) {
+  .pb256f {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 1.6s forwards so-to-0;
+  }
+}

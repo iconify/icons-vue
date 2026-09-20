@@ -1,0 +1,13 @@
+.zgc40e {
+  fill: none;
+  transform: rotate(45deg);
+  transform-origin: 12px 12px;
+}
+
+@media not (prefers-reduced-motion) {
+  .zgc40e {
+    stroke-dasharray: 26;
+    stroke-dashoffset: 26;
+    animation: 0.4s linear 1.9s forwards so-to-0;
+  }
+}

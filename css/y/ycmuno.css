@@ -1,0 +1,11 @@
+.ycmuno {
+  d: path('M3 3h8M21 21v-8M3 3v8M21 21h-8');
+}
+
+@media not (prefers-reduced-motion) {
+  .ycmuno {
+    stroke-dasharray: 10;
+    stroke-dashoffset: 10;
+    animation: 0.2s linear 0.5s forwards so-to-0;
+  }
+}

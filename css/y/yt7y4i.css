@@ -1,0 +1,10 @@
+.yt7y4i {
+  d: path('M3 3l18 0');
+}
+
+@media not (prefers-reduced-motion) {
+  .yt7y4i {
+    stroke-dasharray: 20;
+    animation: 0.3s linear forwards so-from-20;
+  }
+}

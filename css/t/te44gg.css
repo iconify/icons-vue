@@ -1,0 +1,11 @@
+.te44gg {
+  d: path('M6 4h4v2h4v-2h4v16h-12v-16Z');
+  fill-opacity: 0.3;
+  fill: currentColor;
+}
+
+@media not (prefers-reduced-motion) {
+  .te44gg {
+    animation: 0s forwards fill-to-0, 0.15s linear 0.9s forwards fill-to-0_3;
+  }
+}

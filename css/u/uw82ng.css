@@ -1,0 +1,11 @@
+.uw82ng {
+  d: path('M5 5h14');
+}
+
+@media not (prefers-reduced-motion) {
+  .uw82ng {
+    stroke-dasharray: 16;
+    stroke-dashoffset: 16;
+    animation: 0.3s linear 0.2s forwards so-to-0;
+  }
+}

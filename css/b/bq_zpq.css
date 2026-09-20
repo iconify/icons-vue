@@ -1,0 +1,13 @@
+.bq_zpq {
+  fill: none;
+  transform: rotate(45deg);
+  transform-origin: 12px 12px;
+}
+
+@media not (prefers-reduced-motion) {
+  .bq_zpq {
+    stroke-dasharray: 26;
+    stroke-dashoffset: 26;
+    animation: 0.4s linear 1.65s forwards so-to-0;
+  }
+}

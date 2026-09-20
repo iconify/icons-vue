@@ -1,0 +1,11 @@
+.ricadr {
+  d: path('M10 12h9');
+}
+
+@media not (prefers-reduced-motion) {
+  .ricadr {
+    stroke-dasharray: 12;
+    stroke-dashoffset: 12;
+    animation: 0.2s linear 0.5s forwards so-to-0;
+  }
+}

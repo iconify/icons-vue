@@ -1,0 +1,11 @@
+.yx-83k {
+  stroke-width: 1.5px;
+  d: path('M12 22.25h8.75M12 22.25h-8.75');
+}
+
+@media not (prefers-reduced-motion) {
+  .yx-83k {
+    stroke-dasharray: 12;
+    animation: 0.4s linear forwards so-from-12;
+  }
+}

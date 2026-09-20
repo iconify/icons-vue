@@ -1,0 +1,11 @@
+.j4akdb {
+  d: path('M3 7l4 4M3 7l4 -4M21 17l-4 4M21 17l-4 -4');
+}
+
+@media not (prefers-reduced-motion) {
+  .j4akdb {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 0.4s forwards so-to-0;
+  }
+}

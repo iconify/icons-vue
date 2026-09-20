@@ -1,0 +1,10 @@
+.v3q0ew {
+  stroke: currentColor;
+}
+
+@media not (prefers-reduced-motion) {
+  .v3q0ew {
+    stroke-dasharray: 40;
+    animation: 0.5s linear forwards so-from-40;
+  }
+}

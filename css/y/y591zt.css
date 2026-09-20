@@ -1,0 +1,11 @@
+.y591zt {
+  d: path('M4 12v-7c0 -0.55 0.45 -1 1 -1h14c0.55 0 1 0.45 1 1v14c0 0.55 -0.45 1 -1 1h-14c-0.55 0 -1 -0.45 -1 -1Z');
+  fill-opacity: 0.3;
+  fill: currentColor;
+}
+
+@media not (prefers-reduced-motion) {
+  .y591zt {
+    animation: 0.2s linear forwards fill-from-0;
+  }
+}

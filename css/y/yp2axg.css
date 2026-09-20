@@ -1,0 +1,11 @@
+.yp2axg {
+  d: path('M8 12l3 3l5 -5');
+  fill: none;
+}
+
+@media not (prefers-reduced-motion) {
+  .yp2axg {
+    stroke-dasharray: 14;
+    animation: 0.2s linear 0.2s forwards so-to-14;
+  }
+}

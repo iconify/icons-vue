@@ -1,0 +1,11 @@
+.f2o4kw {
+  d: path('M14.5 3.5v3h-5v-3');
+}
+
+@media not (prefers-reduced-motion) {
+  .f2o4kw {
+    stroke-dasharray: 14;
+    stroke-dashoffset: 14;
+    animation: 0.2s linear 0.7s forwards so-to-0;
+  }
+}

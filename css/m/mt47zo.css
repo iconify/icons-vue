@@ -1,0 +1,11 @@
+.mt47zo {
+  d: path('M10 12h4');
+}
+
+@media not (prefers-reduced-motion) {
+  .mt47zo {
+    stroke-dasharray: 6;
+    stroke-dashoffset: 6;
+    animation: 0.2s linear 2.2s forwards so-to-0;
+  }
+}

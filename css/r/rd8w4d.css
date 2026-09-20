@@ -1,0 +1,11 @@
+.rd8w4d {
+  d: path('M22 16v0.01');
+}
+
+@media not (prefers-reduced-motion) {
+  .rd8w4d {
+    stroke-dasharray: 4;
+    stroke-dashoffset: 4;
+    animation: 0.2s linear 2s forwards so-to-0;
+  }
+}

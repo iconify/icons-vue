@@ -1,0 +1,11 @@
+.c9cwbe {
+  d: path('M17 21l4 -4M17 21l-4 -4');
+}
+
+@media not (prefers-reduced-motion) {
+  .c9cwbe {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.4s linear 0.6s forwards so-to-0;
+  }
+}

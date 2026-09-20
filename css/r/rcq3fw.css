@@ -1,0 +1,11 @@
+.rcq3fw {
+  stroke: currentColor;
+}
+
+@media not (prefers-reduced-motion) {
+  .rcq3fw {
+    stroke-dasharray: 48;
+    transform-origin: 14px 20.5px;
+    animation: 0s forwards fill-to-0, 0.6s linear forwards so-from-48, 3s linear infinite tr-7ecuqx, 0.15s linear 0.7s forwards fill-to-0_3;
+  }
+}

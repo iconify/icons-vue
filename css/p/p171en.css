@@ -1,0 +1,12 @@
+.p171en {
+  d: path('M8 9h2M8 9v2M16 15h-2M16 15v-2');
+  fill: none;
+}
+
+@media not (prefers-reduced-motion) {
+  .p171en {
+    stroke-dasharray: 4;
+    stroke-dashoffset: 4;
+    animation: 0.2s linear 1.15s forwards so-to-0;
+  }
+}

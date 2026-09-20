@@ -1,0 +1,12 @@
+.nilocg {
+  d: path('M14 12l-3 -3M14 12l-3 3');
+  fill: none;
+}
+
+@media not (prefers-reduced-motion) {
+  .nilocg {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.4s linear 0.7s forwards so-to-0;
+  }
+}

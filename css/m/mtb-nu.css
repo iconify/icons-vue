@@ -1,0 +1,11 @@
+.mtb-nu {
+  d: path('M16.5 20.5l5 -5');
+}
+
+@media not (prefers-reduced-motion) {
+  .mtb-nu {
+    stroke-dasharray: 10;
+    stroke-dashoffset: 10;
+    animation: 0.2s linear 1.35s forwards so-to-0;
+  }
+}

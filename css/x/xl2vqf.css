@@ -1,0 +1,11 @@
+.xl2vqf {
+  d: path('M12 22l2 -2M12 22l-2 -2');
+}
+
+@media not (prefers-reduced-motion) {
+  .xl2vqf {
+    stroke-dasharray: 6;
+    stroke-dashoffset: 6;
+    animation: 0.2s linear 1.1s forwards so-to-0;
+  }
+}

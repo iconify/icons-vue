@@ -1,0 +1,13 @@
+.i4emph {
+  d: path('M7 12h10');
+  stroke: #000;
+  fill: none;
+}
+
+@media not (prefers-reduced-motion) {
+  .i4emph {
+    stroke-dasharray: 12;
+    stroke-dashoffset: 12;
+    animation: 0.2s linear 1.1s forwards so-to-0;
+  }
+}

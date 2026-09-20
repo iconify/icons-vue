@@ -1,0 +1,11 @@
+.x7axda {
+  d: path('M12 18l-5 -5M12 18l5 -5');
+}
+
+@media not (prefers-reduced-motion) {
+  .x7axda {
+    stroke-dasharray: 10;
+    stroke-dashoffset: 10;
+    animation: 0.4s linear 0.4s forwards so-to-0;
+  }
+}

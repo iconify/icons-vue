@@ -1,0 +1,12 @@
+.r6-a4j {
+  cx: 14px;
+  cy: 9px;
+  r: 2.5px;
+  fill: #fff;
+}
+
+@media not (prefers-reduced-motion) {
+  .r6-a4j {
+    animation: 0s forwards r-to-0px, 0.2s linear 0.4s forwards r-to-2_5px;
+  }
+}

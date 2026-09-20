@@ -1,0 +1,10 @@
+.d-uxzh {
+  d: path('M3 21h18');
+}
+
+@media not (prefers-reduced-motion) {
+  .d-uxzh {
+    stroke-dasharray: 20;
+    animation: 0.3s linear forwards so-from-20;
+  }
+}

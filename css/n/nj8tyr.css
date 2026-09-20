@@ -1,0 +1,11 @@
+.nj8tyr {
+  d: path('M12 8v4');
+}
+
+@media not (prefers-reduced-motion) {
+  .nj8tyr {
+    stroke-dasharray: 6;
+    stroke-dashoffset: 6;
+    animation: 0.2s linear 1.3s forwards so-to-0;
+  }
+}

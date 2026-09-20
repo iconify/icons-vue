@@ -1,0 +1,12 @@
+.lfe-tv {
+  stroke-width: 3px;
+  d: path('M4 2.5v19');
+  stroke-linejoin: round;
+  fill: none;
+}
+
+@media not (prefers-reduced-motion) {
+  .lfe-tv {
+    animation: 0.4s linear forwards d-vg0s0b;
+  }
+}

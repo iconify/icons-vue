@@ -1,0 +1,11 @@
+.xx5a5k {
+  d: path('M20.5 12l-3.5 -3.5M20.5 12l-3.5 3.5');
+}
+
+@media not (prefers-reduced-motion) {
+  .xx5a5k {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 0.7s forwards so-to-0;
+  }
+}

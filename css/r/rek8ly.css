@@ -1,0 +1,9 @@
+.rek8ly {
+  d: path('M13.5 2h5v8.5c0 0.75 -0.75 1.5 -1.5 1.5h-3.5Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .rek8ly {
+    animation: 0s forwards d-u2wfvb, 0.2s linear 0.5s forwards d-tpcgta;
+  }
+}

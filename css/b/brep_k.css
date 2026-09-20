@@ -1,0 +1,11 @@
+.brep_k {
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+@media not (prefers-reduced-motion) {
+  .brep_k {
+    stroke-dasharray: 48;
+    animation: 0.6s linear forwards so-from-48;
+  }
+}

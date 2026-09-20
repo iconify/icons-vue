@@ -1,0 +1,11 @@
+.wb185e {
+  d: path('M12 13v0.01');
+}
+
+@media not (prefers-reduced-motion) {
+  .wb185e {
+    stroke-dasharray: 4;
+    stroke-dashoffset: 4;
+    animation: 0.2s linear 1.4s forwards so-to-0;
+  }
+}

@@ -1,0 +1,10 @@
+.fpn3re {
+  d: path('M12 5h1.5M12 5h-1.5M12 5v1.5M12 5v-1.5');
+}
+
+@media not (prefers-reduced-motion) {
+  .fpn3re {
+    stroke-dashoffset: 4;
+    animation: 6s linear 1.1s infinite so-_lg20b;
+  }
+}

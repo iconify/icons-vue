@@ -1,0 +1,11 @@
+.xr5e4w {
+  d: path('M21 19h-5');
+}
+
+@media not (prefers-reduced-motion) {
+  .xr5e4w {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 1.4s forwards so-to-0;
+  }
+}

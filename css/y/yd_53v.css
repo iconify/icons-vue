@@ -1,0 +1,13 @@
+.yd_53v {
+  transform: rotate(135deg);
+  transform-origin: 12px 12px;
+  fill: none;
+}
+
+@media not (prefers-reduced-motion) {
+  .yd_53v {
+    stroke-dasharray: 28;
+    stroke-dashoffset: 28;
+    animation: 0.4s linear 0.95s forwards so-to-0;
+  }
+}

@@ -1,0 +1,10 @@
+.w20zkn {
+  d: path('M12 5h6M12 5h-6');
+}
+
+@media not (prefers-reduced-motion) {
+  .w20zkn {
+    stroke-dasharray: 8;
+    animation: 0.2s linear forwards so-from-8;
+  }
+}

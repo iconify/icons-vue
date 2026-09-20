@@ -1,0 +1,11 @@
+.ll91xo {
+  fill: #fff;
+  fill-opacity: 0.3;
+  d: path('M18 7c-2 0 -3 2 -5 2c-2 0 -3 -2 -5 -2c-2 0 -3 2 -5 2c-2 0 -3 -2 -5 -2c-2 0 -3 2 -5 2v15h25Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .ll91xo {
+    animation: 0s forwards fill-to-0, 0.15s linear 0.9s forwards fill-to-0_3;
+  }
+}

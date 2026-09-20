@@ -1,0 +1,11 @@
+.c-b7rz {
+  d: path('M4 16h1c2 0 3.5 -2 3.5 -2c0 0 1.5 2 3.5 2c2 0 3.5 -2 3.5 -2c0 0 1.5 2 3.5 2h1');
+}
+
+@media not (prefers-reduced-motion) {
+  .c-b7rz {
+    stroke-dasharray: 22;
+    stroke-dashoffset: 22;
+    animation: 0.3s linear 0.7s forwards so-to-0;
+  }
+}

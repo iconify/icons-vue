@@ -1,0 +1,11 @@
+.zl4c-b {
+  d: path('M8 4c1.1 -0.57 2 -1 4 -1c2 0 4.5 0.5 4.5 3');
+}
+
+@media not (prefers-reduced-motion) {
+  .zl4c-b {
+    stroke-dasharray: 14;
+    stroke-dashoffset: 14;
+    animation: 0.2s linear 0.8s forwards so-to-0;
+  }
+}

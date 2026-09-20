@@ -1,0 +1,10 @@
+.n37p8h {
+  d: path('M12 21v1M21 12h1M12 3v-1M3 12h-1M18.5 18.5l0.5 0.5M18.5 5.5l0.5 -0.5M5.5 5.5l-0.5 -0.5M5.5 18.5l-0.5 0.5');
+  fill: none;
+}
+
+@media not (prefers-reduced-motion) {
+  .n37p8h {
+    animation: 0.4s linear forwards fade-to-0;
+  }
+}

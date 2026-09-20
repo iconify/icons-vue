@@ -1,0 +1,11 @@
+.ggwg4n {
+  r: 2.5px;
+  cx: 12px;
+  cy: 9px;
+}
+
+@media not (prefers-reduced-motion) {
+  .ggwg4n {
+    animation: 0s forwards r-to-0px, 0.2s linear 0.65s forwards r-to-2_5px;
+  }
+}

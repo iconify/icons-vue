@@ -1,0 +1,11 @@
+.b02jgg {
+  fill-opacity: 0.3;
+  d: path('M5 8.5l7 -5.5l7 5.5v12.5h-4v-8l-1 -1h-4l-1 1v8h-4v-12.5Z');
+  fill: currentColor;
+}
+
+@media not (prefers-reduced-motion) {
+  .b02jgg {
+    animation: 0s forwards fill-to-0, 0.15s linear 1.5s forwards fill-to-0_3;
+  }
+}

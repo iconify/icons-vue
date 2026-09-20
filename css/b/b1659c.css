@@ -1,0 +1,10 @@
+.b1659c {
+  d: path('M9 13l2 2l4 -4');
+}
+
+@media not (prefers-reduced-motion) {
+  .b1659c {
+    stroke-dasharray: 12;
+    animation: 0.2s linear forwards so-from-12;
+  }
+}

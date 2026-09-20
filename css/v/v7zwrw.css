@@ -1,0 +1,11 @@
+.v7zwrw {
+  d: path('M12 10h5M12 10h-5');
+}
+
+@media not (prefers-reduced-motion) {
+  .v7zwrw {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 0.2s forwards so-to-0;
+  }
+}

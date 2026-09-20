@@ -1,0 +1,11 @@
+.egallk {
+  d: path('M19 16v5');
+}
+
+@media not (prefers-reduced-motion) {
+  .egallk {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 1.15s forwards so-to-0;
+  }
+}

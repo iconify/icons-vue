@@ -1,0 +1,10 @@
+.z0w32v {
+  d: path('M12 9.71c3.22 0 5.83 1.82 5.83 4.06c0 2.24 -2.61 4.06 -5.83 4.06c-3.22 0 -5.83 -1.82 -5.83 -4.06c0 -2.24 2.61 -4.06 5.83 -4.06Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .z0w32v {
+    opacity: 0;
+    animation: 0.4s linear 1.2s forwards fade-to-1;
+  }
+}

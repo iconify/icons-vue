@@ -1,0 +1,12 @@
+.lp7sht {
+  d: path('M12 14l-3 -3M12 14l3 -3');
+  fill: none;
+}
+
+@media not (prefers-reduced-motion) {
+  .lp7sht {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.4s linear 0.7s forwards so-to-0;
+  }
+}

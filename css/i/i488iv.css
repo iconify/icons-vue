@@ -1,0 +1,12 @@
+.i488iv {
+  cx: 11.5px;
+  cy: 11.5px;
+  r: 1.5px;
+}
+
+@media not (prefers-reduced-motion) {
+  .i488iv {
+    opacity: 0;
+    animation: 0.1s linear 1.5s forwards fade-to-1;
+  }
+}

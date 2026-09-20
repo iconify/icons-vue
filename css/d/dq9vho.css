@@ -1,0 +1,11 @@
+.dq9vho {
+  d: path('M19 19h-14');
+}
+
+@media not (prefers-reduced-motion) {
+  .dq9vho {
+    stroke-dasharray: 16;
+    stroke-dashoffset: 16;
+    animation: 0.3s linear 0.7s forwards so-to-0;
+  }
+}

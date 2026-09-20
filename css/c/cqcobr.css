@@ -1,0 +1,11 @@
+.cqcobr {
+  d: path('M7 5h4M7 5v4');
+}
+
+@media not (prefers-reduced-motion) {
+  .cqcobr {
+    stroke-dasharray: 6;
+    stroke-dashoffset: 6;
+    animation: 0.2s linear 0.5s forwards so-to-0;
+  }
+}

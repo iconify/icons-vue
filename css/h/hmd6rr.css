@@ -1,0 +1,10 @@
+.hmd6rr {
+  d: path('M3 19.5v-15.5c0 -0.55 0.45 -1 1 -1h16c0.55 0 1 0.45 1 1v12c0 0.55 -0.45 1 -1 1h-14.5Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .hmd6rr {
+    stroke-dasharray: 70;
+    animation: 0.6s linear forwards so-from-70;
+  }
+}

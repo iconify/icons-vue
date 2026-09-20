@@ -1,0 +1,11 @@
+.cb6m_x {
+  d: path('M16.5 20.5l5 -5');
+}
+
+@media not (prefers-reduced-motion) {
+  .cb6m_x {
+    stroke-dasharray: 10;
+    stroke-dashoffset: 10;
+    animation: 0.2s linear 1.1s forwards so-to-0;
+  }
+}

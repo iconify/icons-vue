@@ -1,0 +1,11 @@
+.xopa8c {
+  r: 2.5px;
+  cx: 12px;
+  cy: 9px;
+}
+
+@media not (prefers-reduced-motion) {
+  .xopa8c {
+    animation: 0s forwards r-to-0px, 0.2s linear 0.95s forwards r-to-2_5px;
+  }
+}

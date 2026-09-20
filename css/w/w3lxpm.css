@@ -1,0 +1,11 @@
+.w3lxpm {
+  d: path('M16.5 15.5l5 5');
+}
+
+@media not (prefers-reduced-motion) {
+  .w3lxpm {
+    stroke-dasharray: 10;
+    stroke-dashoffset: 10;
+    animation: 0.2s linear 1.15s forwards so-to-0;
+  }
+}

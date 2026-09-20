@@ -1,0 +1,15 @@
+.w2k0jn {
+  d: path('M5.64 19.36c-3.52 -3.51 -3.52 -9.21 0 -12.72c3.51 -3.52 9.21 -3.52 12.72 -0c3.52 3.51 3.52 9.21 0 12.72');
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 2px;
+  fill: none;
+  stroke: #fff;
+}
+
+@media not (prefers-reduced-motion) {
+  .w2k0jn {
+    stroke-dasharray: 46;
+    animation: 0.5s linear forwards so-from-46;
+  }
+}

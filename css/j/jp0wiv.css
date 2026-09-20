@@ -1,0 +1,11 @@
+.jp0wiv {
+  d: path('M19 16l2 2M19 16l-2 2');
+}
+
+@media not (prefers-reduced-motion) {
+  .jp0wiv {
+    stroke-dasharray: 6;
+    stroke-dashoffset: 6;
+    animation: 0.2s linear 1.35s forwards so-to-0;
+  }
+}

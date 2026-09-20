@@ -1,0 +1,13 @@
+.j7kitb {
+  d: path('M13.5 3l5.5 5.5v11.5c0 0.55 -0.45 1 -1 1h-12c-0.55 0 -1 -0.45 -1 -1v-16c0 -0.55 0.45 -1 1 -1Z');
+  fill: #fff;
+  stroke: #fff;
+}
+
+@media not (prefers-reduced-motion) {
+  .j7kitb {
+    stroke-dasharray: 62;
+    fill-opacity: 0;
+    animation: 0.6s linear forwards so-from-62, 0.4s linear 0.6s forwards fill-to-1;
+  }
+}

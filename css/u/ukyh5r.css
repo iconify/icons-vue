@@ -1,0 +1,11 @@
+.ukyh5r {
+  d: path('M7 8.91c1.38 -0.59 2.9 -0.91 4.5 -0.91c2.41 0 4.65 0.74 6.5 2');
+}
+
+@media not (prefers-reduced-motion) {
+  .ukyh5r {
+    stroke-dasharray: 14;
+    stroke-dashoffset: 14;
+    animation: 0.2s linear 1.5s forwards so-to-0;
+  }
+}

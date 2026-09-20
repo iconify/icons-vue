@@ -1,0 +1,9 @@
+.pwo2or {
+  d: path('M12 2c5.52 0 10 4.48 10 10c0 5.52 -4.48 10 -10 10c-5.52 0 -10 -4.48 -10 -10c0 -5.52 4.48 -10 10 -10Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .pwo2or {
+    animation: 0.4s linear forwards d-jssiii, 0s 0.4s forwards fade-to-0;
+  }
+}

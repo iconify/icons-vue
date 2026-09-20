@@ -1,0 +1,11 @@
+.wi9aei {
+  d: path('M12 7v2');
+}
+
+@media not (prefers-reduced-motion) {
+  .wi9aei {
+    stroke-dasharray: 4;
+    stroke-dashoffset: 4;
+    animation: 0.2s linear 1.2s forwards so-to-0;
+  }
+}

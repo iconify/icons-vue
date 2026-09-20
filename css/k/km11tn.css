@@ -1,0 +1,9 @@
+.km11tn {
+  d: path('M12 6.67l8 5.33l-8 5.34Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .km11tn {
+    animation: 0.4s linear forwards d-y0k17z;
+  }
+}

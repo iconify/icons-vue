@@ -1,0 +1,11 @@
+.s7te_w {
+  d: path('M21 17l-4 4');
+}
+
+@media not (prefers-reduced-motion) {
+  .s7te_w {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 1.5s forwards so-to-0;
+  }
+}

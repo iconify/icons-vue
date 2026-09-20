@@ -1,0 +1,9 @@
+.d_veic {
+  d: path('M13.5 17h5v3.5c0 0.75 -0.75 1.5 -1.5 1.5h-3.5Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .d_veic {
+    animation: 0s forwards d-y53qgi, 0.2s linear 0.8s forwards d-ysi9rn;
+  }
+}

@@ -1,0 +1,12 @@
+.hzf00h {
+  d: path('M1 13h22');
+  stroke: currentColor;
+}
+
+@media not (prefers-reduced-motion) {
+  .hzf00h {
+    stroke-dasharray: 24;
+    stroke-dashoffset: 24;
+    animation: 0.3s linear 0.95s forwards so-to-0;
+  }
+}

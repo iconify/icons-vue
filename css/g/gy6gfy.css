@@ -1,0 +1,11 @@
+.gy6gfy {
+  d: path('M21 19l-2 2M21 19l-2 -2');
+}
+
+@media not (prefers-reduced-motion) {
+  .gy6gfy {
+    stroke-dasharray: 6;
+    stroke-dashoffset: 6;
+    animation: 0.2s linear 1.6s forwards so-to-0;
+  }
+}

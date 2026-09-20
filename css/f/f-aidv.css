@@ -1,0 +1,12 @@
+.f-aidv {
+  d: path('M11 9h6v10h-6.5l-2 -2h-2.5v-6.5l1.5 -1.5Z');
+  fill-opacity: 0.3;
+  fill: currentColor;
+}
+
+@media not (prefers-reduced-motion) {
+  .f-aidv {
+    stroke-dasharray: 42;
+    animation: 0s forwards fill-to-0, 0.5s linear forwards so-from-42, 0.15s linear 1.3s forwards fill-to-0_3;
+  }
+}

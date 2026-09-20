@@ -1,0 +1,15 @@
+.k1n9xp {
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path('M5 4h14l-5 6.5v9.5l-4 -4v-5.5Z');
+  stroke: currentColor;
+  stroke-width: 2px;
+  fill: none;
+}
+
+@media not (prefers-reduced-motion) {
+  .k1n9xp {
+    stroke-dasharray: 54;
+    animation: 0.6s linear forwards so-from-54;
+  }
+}

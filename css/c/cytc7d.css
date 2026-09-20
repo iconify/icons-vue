@@ -1,0 +1,11 @@
+.cytc7d {
+  d: path('M12 4v-2M20 12h2M12 20v2M4 12h-2');
+  fill: none;
+}
+
+@media not (prefers-reduced-motion) {
+  .cytc7d {
+    opacity: 0;
+    animation: 0s 0.95s forwards fade-to-1, 0.2s linear 0.95s forwards d-pjbx7p;
+  }
+}

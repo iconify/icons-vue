@@ -1,0 +1,11 @@
+.eexehd {
+  d: path('M15 17v0.01');
+}
+
+@media not (prefers-reduced-motion) {
+  .eexehd {
+    stroke-dasharray: 4;
+    stroke-dashoffset: 4;
+    animation: 0.2s linear 1.5s forwards so-to-0;
+  }
+}

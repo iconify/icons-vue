@@ -1,0 +1,15 @@
+.nduyem {
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path('M8 12l7 -7M8 12l7 7');
+  stroke: currentColor;
+  stroke-width: 2px;
+  fill: none;
+}
+
+@media not (prefers-reduced-motion) {
+  .nduyem {
+    stroke-dasharray: 12;
+    animation: 0.4s linear forwards so-from-12;
+  }
+}

@@ -1,0 +1,10 @@
+.bmy0qq {
+  d: path('M20 5h1.5M20 5h-1.5M20 5v1.5M20 5v-1.5');
+}
+
+@media not (prefers-reduced-motion) {
+  .bmy0qq {
+    stroke-dashoffset: 4;
+    animation: 0.2s linear 1.3s forwards so-to-0;
+  }
+}

@@ -1,0 +1,11 @@
+.ukb1kp {
+  d: path('M21 19l-2 2M21 19l-2 -2');
+}
+
+@media not (prefers-reduced-motion) {
+  .ukb1kp {
+    stroke-dasharray: 6;
+    stroke-dashoffset: 6;
+    animation: 0.2s linear 1.35s forwards so-to-0;
+  }
+}

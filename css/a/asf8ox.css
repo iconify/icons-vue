@@ -1,0 +1,11 @@
+.asf8ox {
+  d: path('M12 11c-2.21 0 -4 -1.79 -4 -4c0 -2.21 1.79 -4 4 -4c2.21 0 4 1.79 4 4c0 2.21 -1.79 4 -4 4Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .asf8ox {
+    stroke-dasharray: 28;
+    stroke-dashoffset: 28;
+    animation: 0.4s linear 0.4s forwards so-to-0;
+  }
+}

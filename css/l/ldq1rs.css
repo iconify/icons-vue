@@ -1,0 +1,10 @@
+.ldq1rs {
+  d: path('M21 3v18');
+}
+
+@media not (prefers-reduced-motion) {
+  .ldq1rs {
+    stroke-dasharray: 20;
+    animation: 0.3s linear forwards so-from-20;
+  }
+}

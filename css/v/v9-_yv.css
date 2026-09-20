@@ -1,0 +1,11 @@
+.v9-_yv {
+  d: path('M4 6h16c1.26 1.67 2 3.75 2 6c0 2.25 -0.74 4.33 -2 6h-16c-1.26 -1.67 -2 -3.75 -2 -6c0 -2.25 0.74 -4.33 2 -6Z');
+  fill: #000;
+}
+
+@media not (prefers-reduced-motion) {
+  .v9-_yv {
+    opacity: 0;
+    animation: 0.2s linear 1.3s forwards fade-to-1;
+  }
+}

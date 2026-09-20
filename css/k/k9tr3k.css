@@ -1,0 +1,10 @@
+.k9tr3k {
+  d: path('M8 16l3 -3l-2 -2l7 0l0 7l-2 -2l-3 3Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .k9tr3k {
+    opacity: 0;
+    animation: 0s 0.8s forwards fade-to-1, 0.2s linear 0.8s forwards d-2fyhzg;
+  }
+}

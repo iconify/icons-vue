@@ -1,0 +1,11 @@
+.wfr8hk {
+  d: path('M16 19l2 2M16 19l2 -2');
+}
+
+@media not (prefers-reduced-motion) {
+  .wfr8hk {
+    stroke-dasharray: 6;
+    stroke-dashoffset: 6;
+    animation: 0.2s linear 1.5s forwards so-to-0;
+  }
+}

@@ -1,0 +1,11 @@
+.vh78wu {
+  d: path('M20 4h-4M20 4v4');
+}
+
+@media not (prefers-reduced-motion) {
+  .vh78wu {
+    stroke-dasharray: 6;
+    stroke-dashoffset: 6;
+    animation: 0.2s linear 0.9s forwards so-to-0;
+  }
+}

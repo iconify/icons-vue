@@ -1,0 +1,11 @@
+.f282tn {
+  d: path('M12 5h9c0.55 0 1 0.45 1 1v12c0 0.55 -0.45 1 -1 1h-18c-0.55 0 -1 -0.45 -1 -1v-12c0 -0.55 0.45 -1 1 -1Z');
+  stroke: #fff;
+}
+
+@media not (prefers-reduced-motion) {
+  .f282tn {
+    stroke-dasharray: 70;
+    animation: 0.6s linear forwards so-from-70;
+  }
+}

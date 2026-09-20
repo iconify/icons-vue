@@ -1,0 +1,11 @@
+.l6__3g {
+  d: path('M6 7h2M6 7v2M18 13h-2M18 13v-2');
+}
+
+@media not (prefers-reduced-motion) {
+  .l6__3g {
+    stroke-dasharray: 4;
+    stroke-dashoffset: 4;
+    animation: 0.2s linear 1.2s forwards so-to-0;
+  }
+}

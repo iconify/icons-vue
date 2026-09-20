@@ -1,0 +1,10 @@
+.gu4rsu {
+  d: path('M11.5 5c0 -0.83 0.67 -1.5 1.5 -1.5h6c0.83 0 1.5 0.67 1.5 1.5c0 0.83 -0.67 1.5 -1.5 1.5h-6c-0.83 0 -1.5 -0.67 -1.5 -1.5Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .gu4rsu {
+    stroke-dasharray: 24;
+    animation: 0s forwards fill-to-0, 0.3s linear forwards so-from-24, 0.15s linear 1.2s forwards fill-to-0_3;
+  }
+}

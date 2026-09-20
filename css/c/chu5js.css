@@ -1,0 +1,12 @@
+.chu5js {
+  r: 2.5px;
+  fill: #fff;
+  cx: 12px;
+  cy: 9px;
+}
+
+@media not (prefers-reduced-motion) {
+  .chu5js {
+    animation: 0s forwards r-to-0px, 0.2s linear 0.4s forwards r-to-2_5px;
+  }
+}

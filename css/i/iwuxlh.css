@@ -1,0 +1,11 @@
+.iwuxlh {
+  d: path('M22 8v4');
+}
+
+@media not (prefers-reduced-motion) {
+  .iwuxlh {
+    stroke-dasharray: 6;
+    stroke-dashoffset: 6;
+    animation: 0.2s linear 1.4s forwards so-to-0;
+  }
+}

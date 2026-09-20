@@ -1,0 +1,10 @@
+.if5-bf {
+  cx: 12px;
+  cy: 13px;
+}
+
+@media not (prefers-reduced-motion) {
+  .if5-bf {
+    animation: 0s forwards r-to-0px, 0.2s linear 1.05s forwards r-to-2px;
+  }
+}

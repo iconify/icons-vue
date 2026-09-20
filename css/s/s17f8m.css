@@ -1,0 +1,11 @@
+.s17f8m {
+  d: path('M12 8v2');
+}
+
+@media not (prefers-reduced-motion) {
+  .s17f8m {
+    stroke-dasharray: 4;
+    stroke-dashoffset: 4;
+    animation: 0.2s linear 1.4s forwards so-to-0;
+  }
+}

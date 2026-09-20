@@ -1,0 +1,11 @@
+.fcgi3h {
+  d: path('M19 16l2 2M19 16l-2 2');
+}
+
+@media not (prefers-reduced-motion) {
+  .fcgi3h {
+    stroke-dasharray: 6;
+    stroke-dashoffset: 6;
+    animation: 0.2s linear 1.1s forwards so-to-0;
+  }
+}

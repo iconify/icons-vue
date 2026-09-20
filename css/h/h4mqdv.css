@@ -1,0 +1,10 @@
+.h4mqdv {
+  d: path('M4 9h17');
+}
+
+@media not (prefers-reduced-motion) {
+  .h4mqdv {
+    stroke-dasharray: 20;
+    animation: 0.3s linear forwards so-from-20;
+  }
+}

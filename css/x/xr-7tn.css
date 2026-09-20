@@ -1,0 +1,10 @@
+.xr-7tn {
+  d: path('M18.5 11c4.14 0 7.5 3.36 7.5 7.5c0 4.14 -3.36 7.5 -7.5 7.5c-4.14 0 -7.5 -3.36 -7.5 -7.5c0 -4.14 3.36 -7.5 7.5 -7.5Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .xr-7tn {
+    opacity: 0;
+    animation: 0s 1.1s forwards fade-to-1;
+  }
+}

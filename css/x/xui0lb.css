@@ -1,0 +1,10 @@
+.xui0lb {
+  cx: 11px;
+  cy: 4px;
+}
+
+@media not (prefers-reduced-motion) {
+  .xui0lb {
+    animation: 0s forwards r-to-0px, 0.2s linear 1s forwards r-to-2px;
+  }
+}

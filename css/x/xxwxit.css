@@ -1,0 +1,11 @@
+.xxwxit {
+  d: path('M23 16v0.01');
+}
+
+@media not (prefers-reduced-motion) {
+  .xxwxit {
+    stroke-dasharray: 4;
+    stroke-dashoffset: 4;
+    animation: 0.2s linear 1.1s forwards so-to-0;
+  }
+}

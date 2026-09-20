@@ -1,0 +1,11 @@
+.lo698u {
+  d: path('M18.5 20l-9.5 -6.5');
+}
+
+@media not (prefers-reduced-motion) {
+  .lo698u {
+    stroke-dasharray: 14;
+    stroke-dashoffset: 14;
+    animation: 0.3s linear 0.4s forwards so-to-0;
+  }
+}

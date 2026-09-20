@@ -1,0 +1,11 @@
+.znhgjx {
+  d: path('M7 12l4 4M7 12l4 -4');
+}
+
+@media not (prefers-reduced-motion) {
+  .znhgjx {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 0.9s forwards so-to-0;
+  }
+}

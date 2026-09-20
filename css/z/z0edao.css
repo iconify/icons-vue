@@ -1,0 +1,11 @@
+.z0edao {
+  d: path('M21 14h-8.5');
+}
+
+@media not (prefers-reduced-motion) {
+  .z0edao {
+    stroke-dasharray: 12;
+    stroke-dashoffset: 12;
+    animation: 0.2s linear 1.1s forwards so-to-0;
+  }
+}

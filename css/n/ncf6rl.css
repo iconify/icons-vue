@@ -1,0 +1,11 @@
+.ncf6rl {
+  r: 1px;
+  transform: rotate(65deg);
+  transform-origin: 12px 12px;
+}
+
+@media not (prefers-reduced-motion) {
+  .ncf6rl {
+    animation: 0s forwards r-to-0px, 0.2s linear 0.95s forwards r-to-1px;
+  }
+}

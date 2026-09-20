@@ -1,0 +1,11 @@
+.rjrx6c {
+  d: path('M15 3l6 6');
+}
+
+@media not (prefers-reduced-motion) {
+  .rjrx6c {
+    stroke-dasharray: 12;
+    stroke-dashoffset: 12;
+    animation: 0.2s linear 0.7s forwards so-to-0;
+  }
+}

@@ -1,0 +1,11 @@
+.jb6ooz {
+  d: path('M12 11h0.01');
+}
+
+@media not (prefers-reduced-motion) {
+  .jb6ooz {
+    stroke-dasharray: 4;
+    stroke-dashoffset: 4;
+    animation: 0.2s linear 1s forwards so-to-0;
+  }
+}

@@ -1,0 +1,11 @@
+.g-qcdm {
+  r: 1px;
+  transform: rotate(15deg);
+  transform-origin: 12px 12px;
+}
+
+@media not (prefers-reduced-motion) {
+  .g-qcdm {
+    animation: 0s forwards r-to-0px, 0.2s linear 0.9s forwards r-to-1px;
+  }
+}

@@ -1,0 +1,10 @@
+.pun1do {
+  d: path('M3 16l4 -3l3 2l6 -5l5 4v5h-18Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .pun1do {
+    fill-opacity: 0;
+    animation: 0.4s linear 1.2s forwards fill-to-1;
+  }
+}

@@ -1,0 +1,11 @@
+.ah9y-h {
+  d: path('M12 13v-6');
+}
+
+@media not (prefers-reduced-motion) {
+  .ah9y-h {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 1.45s forwards so-to-0;
+  }
+}

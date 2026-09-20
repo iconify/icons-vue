@@ -1,0 +1,10 @@
+.xfr74k {
+  d: path('M12 19h-7v-11M12 19h7v-11');
+}
+
+@media not (prefers-reduced-motion) {
+  .xfr74k {
+    stroke-dasharray: 20;
+    animation: 0.5s linear forwards so-from-20;
+  }
+}

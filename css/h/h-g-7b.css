@@ -1,0 +1,12 @@
+.h-g-7b {
+  cx: 12px;
+  cy: 20.5px;
+  r: 1.5px;
+}
+
+@media not (prefers-reduced-motion) {
+  .h-g-7b {
+    opacity: 0;
+    animation: 0s 1.2s forwards fade-to-1, 2.4s linear 1.2s infinite fill-wpinsp;
+  }
+}

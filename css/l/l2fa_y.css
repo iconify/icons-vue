@@ -1,0 +1,12 @@
+.l2fa_y {
+  d: path('M14 14c0 1.1 -0.9 2 -2 2c-1.1 0 -2 -0.9 -2 -2c0 -1.1 2 -10 2 -10c0 0 2 8.9 2 10Z');
+  transform: rotate(45deg);
+  transform-origin: 12px 14px;
+}
+
+@media not (prefers-reduced-motion) {
+  .l2fa_y {
+    opacity: 0;
+    animation: 0s forwards tr-sjojgf, 0s 0.6s forwards fade-to-1, 0.2s linear 0.6s forwards d-32p-1w, 6s linear 0.8s infinite tr-3bcueo;
+  }
+}

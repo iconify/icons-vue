@@ -1,0 +1,10 @@
+.fftggp {
+  cx: 14px;
+  cy: 18px;
+}
+
+@media not (prefers-reduced-motion) {
+  .fftggp {
+    animation: 0s forwards r-to-0px, 0.2s linear 1.45s forwards r-to-1px;
+  }
+}

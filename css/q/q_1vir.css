@@ -1,0 +1,11 @@
+.q_1vir {
+  d: path('M12 16v4.5');
+}
+
+@media not (prefers-reduced-motion) {
+  .q_1vir {
+    opacity: 0;
+    stroke-dasharray: 8;
+    animation: 0s 1.3s forwards fade-to-1, 0.2s linear 1.3s forwards so-from-8;
+  }
+}

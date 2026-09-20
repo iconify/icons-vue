@@ -1,0 +1,12 @@
+.qq3t6k {
+  cx: 12px;
+  cy: 12px;
+  r: 3px;
+  fill: currentColor;
+}
+
+@media not (prefers-reduced-motion) {
+  .qq3t6k {
+    animation: 0.2s linear forwards r-from-0px;
+  }
+}

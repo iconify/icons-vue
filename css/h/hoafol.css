@@ -1,0 +1,11 @@
+.hoafol {
+  d: path('M18 2.5v8');
+}
+
+@media not (prefers-reduced-motion) {
+  .hoafol {
+    stroke-dasharray: 10;
+    stroke-dashoffset: 20;
+    animation: 0.1s linear 0.5s forwards so-to-10;
+  }
+}

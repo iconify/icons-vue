@@ -1,0 +1,11 @@
+.yp_npy {
+  d: path('M12 8.75l1.18 -5.64l5.03 1.07');
+}
+
+@media not (prefers-reduced-motion) {
+  .yp_npy {
+    stroke-dasharray: 14;
+    stroke-dashoffset: 14;
+    animation: 0.2s linear 2s forwards so-to-0;
+  }
+}

@@ -1,0 +1,11 @@
+.j05t1v {
+  d: path('M19 13l-3 -3M19 13l-3 3M10 4l-3 3M10 4l3 3');
+}
+
+@media not (prefers-reduced-motion) {
+  .j05t1v {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 0.5s forwards so-to-0;
+  }
+}

@@ -1,0 +1,11 @@
+.cibe9a {
+  d: path('M5 4h14l-5 6.5v9.5l-4 -4v-5.5Z');
+  stroke: #fff;
+}
+
+@media not (prefers-reduced-motion) {
+  .cibe9a {
+    stroke-dasharray: 54;
+    animation: 0.6s linear forwards so-from-54;
+  }
+}

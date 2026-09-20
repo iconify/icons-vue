@@ -1,0 +1,13 @@
+.gnah6j {
+  d: path('M8 6l10 6l-10 6Z');
+  fill: #fff;
+  stroke: #fff;
+}
+
+@media not (prefers-reduced-motion) {
+  .gnah6j {
+    stroke-dasharray: 38;
+    fill-opacity: 0;
+    animation: 0.5s linear forwards so-from-38, 0.4s linear 0.5s forwards fill-to-1;
+  }
+}

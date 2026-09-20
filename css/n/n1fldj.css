@@ -1,0 +1,11 @@
+.n1fldj {
+  d: path('M8 23h0.01');
+}
+
+@media not (prefers-reduced-motion) {
+  .n1fldj {
+    stroke-dasharray: 4;
+    stroke-dashoffset: 4;
+    animation: 0.2s linear 1.1s forwards so-to-0;
+  }
+}

@@ -1,0 +1,10 @@
+.umd-9o {
+  d: path('M3 3v18');
+}
+
+@media not (prefers-reduced-motion) {
+  .umd-9o {
+    stroke-dasharray: 20;
+    animation: 0.3s linear forwards so-from-20;
+  }
+}

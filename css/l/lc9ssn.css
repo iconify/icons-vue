@@ -1,0 +1,12 @@
+.lc9ssn {
+  d: path('M7 12h10');
+  fill: none;
+}
+
+@media not (prefers-reduced-motion) {
+  .lc9ssn {
+    stroke-dasharray: 12;
+    stroke-dashoffset: 12;
+    animation: 0.2s linear 0.85s forwards so-to-0;
+  }
+}

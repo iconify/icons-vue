@@ -1,0 +1,11 @@
+.q5p-eg {
+  d: path('M10 15c0 -2.76 2.24 -5 5 -5c2.76 0 5 2.24 5 5v5');
+}
+
+@media not (prefers-reduced-motion) {
+  .q5p-eg {
+    stroke-dasharray: 24;
+    stroke-dashoffset: 24;
+    animation: 0.3s linear 0.7s forwards so-to-0;
+  }
+}

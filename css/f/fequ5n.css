@@ -1,0 +1,10 @@
+.fequ5n {
+  d: path('M9 13l2 2l4 -4');
+}
+
+@media not (prefers-reduced-motion) {
+  .fequ5n {
+    stroke-dasharray: 12;
+    animation: 0.2s linear forwards so-to-12;
+  }
+}

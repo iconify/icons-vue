@@ -1,0 +1,11 @@
+.blypte {
+  d: path('M20 10l-3 -3M20 10l-3 3');
+}
+
+@media not (prefers-reduced-motion) {
+  .blypte {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 0.5s forwards so-to-0;
+  }
+}

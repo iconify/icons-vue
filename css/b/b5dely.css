@@ -1,0 +1,10 @@
+.b5dely {
+  d: path('M19.61 12.25l1.64 -1.25l-2.06 -0.05l-0.69 -1.95l-0.69 1.95l-2.06 0.05l1.64 1.25l-0.59 1.98l1.7 -1.17l1.7 1.17l-0.59 -1.98Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .b5dely {
+    opacity: 0;
+    animation: 0.4s linear 1.35s forwards fade-to-1;
+  }
+}

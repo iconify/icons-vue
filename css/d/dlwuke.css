@@ -1,0 +1,11 @@
+.dlwuke {
+  d: path('M12 3l7 7M12 3l-7 7');
+}
+
+@media not (prefers-reduced-motion) {
+  .dlwuke {
+    stroke-dasharray: 12;
+    stroke-dashoffset: 12;
+    animation: 0.2s linear 0.3s forwards so-to-0;
+  }
+}

@@ -1,0 +1,11 @@
+.n84zbz {
+  d: path('M8 12l3 3l5 -5');
+}
+
+@media not (prefers-reduced-motion) {
+  .n84zbz {
+    stroke-dasharray: 14;
+    stroke-dashoffset: 14;
+    animation: 0.2s linear 0.2s forwards so-to-0;
+  }
+}

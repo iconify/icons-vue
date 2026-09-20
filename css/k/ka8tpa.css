@@ -1,0 +1,11 @@
+.ka8tpa {
+  d: path('M11 18h-6');
+}
+
+@media not (prefers-reduced-motion) {
+  .ka8tpa {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 1.2s forwards so-to-0;
+  }
+}

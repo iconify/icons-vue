@@ -1,0 +1,10 @@
+.nd6led {
+  opacity: 0.6;
+}
+
+@media not (prefers-reduced-motion) {
+  .nd6led {
+    stroke-dasharray: 14;
+    animation: 0s forwards fade-to-0, 0s 0.5s forwards fade-to-0_6, 0.4s linear 0.5s forwards so-from-14;
+  }
+}

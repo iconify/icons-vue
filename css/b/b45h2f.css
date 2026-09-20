@@ -1,0 +1,12 @@
+.b45h2f {
+  cx: 14px;
+  cy: 9px;
+  r: 2.5px;
+  fill: #fff;
+}
+
+@media not (prefers-reduced-motion) {
+  .b45h2f {
+    animation: 0s forwards r-to-0px, 0.2s linear 0.7s forwards r-to-2_5px;
+  }
+}

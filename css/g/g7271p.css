@@ -1,0 +1,11 @@
+.g7271p {
+  d: path('M8 10h-6');
+}
+
+@media not (prefers-reduced-motion) {
+  .g7271p {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 0.8s forwards so-to-0;
+  }
+}

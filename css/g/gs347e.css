@@ -1,0 +1,11 @@
+.gs347e {
+  d: path('M6 9l-3 3M6 9l3 3');
+}
+
+@media not (prefers-reduced-motion) {
+  .gs347e {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 0.4s forwards so-to-0;
+  }
+}

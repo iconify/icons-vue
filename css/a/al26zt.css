@@ -1,0 +1,11 @@
+.al26zt {
+  d: path('M14 13l-8 -5l8 -5l8 5l-8 5Z');
+  fill: currentColor;
+}
+
+@media not (prefers-reduced-motion) {
+  .al26zt {
+    fill-opacity: 0;
+    animation: 0.4s linear 0.9s forwards fill-to-1;
+  }
+}

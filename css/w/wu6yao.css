@@ -1,0 +1,11 @@
+.wu6yao {
+  d: path('M14 22h3M14 22h-3');
+}
+
+@media not (prefers-reduced-motion) {
+  .wu6yao {
+    stroke-dasharray: 6;
+    stroke-dashoffset: 6;
+    animation: 0.4s linear 0.8s forwards so-to-0;
+  }
+}

@@ -1,0 +1,10 @@
+.q_hzxa {
+  d: path('M19 4h1.5M19 4h-1.5M19 4v1.5M19 4v-1.5');
+}
+
+@media not (prefers-reduced-motion) {
+  .q_hzxa {
+    stroke-dashoffset: 4;
+    animation: 6s linear 4.05s infinite so-_lg20b;
+  }
+}

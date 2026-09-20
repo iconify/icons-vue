@@ -1,0 +1,11 @@
+.my4abk {
+  d: path('M5.5 12.01c-0.01 -0.47 0.04 -0.95 0.15 -1.4c0 0 -2.25 -1.73 -2.23 -1.75c0 0 1.56 -2.7 1.56 -2.7c0.02 -0.02 2.63 1.05 2.63 1.05c0.34 -0.31 0.73 -0.59 1.15 -0.83');
+}
+
+@media not (prefers-reduced-motion) {
+  .my4abk {
+    opacity: 0;
+    transform-origin: 12px 12px;
+    animation: 30s linear infinite tr-2c6-rw, 0s 0.8s forwards fade-to-1, 0.2s linear 0.8s forwards d-bs9b8x;
+  }
+}

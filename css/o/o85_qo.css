@@ -1,0 +1,12 @@
+.o85_qo {
+  stroke: currentColor;
+  d: path('M16 19h6');
+}
+
+@media not (prefers-reduced-motion) {
+  .o85_qo {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 1.15s forwards so-to-0;
+  }
+}

@@ -1,0 +1,13 @@
+.p_i_8c {
+  d: path('M8 6l10 6l-10 6Z');
+  fill: #fff;
+  fill-opacity: 0.3;
+  stroke: #fff;
+}
+
+@media not (prefers-reduced-motion) {
+  .p_i_8c {
+    stroke-dasharray: 38;
+    animation: 0s forwards fill-to-0, 0.5s linear forwards so-from-38, 0.15s linear 0.5s forwards fill-to-0_3;
+  }
+}

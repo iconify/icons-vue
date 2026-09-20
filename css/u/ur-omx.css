@@ -1,0 +1,13 @@
+.ur-omx {
+  stroke: currentColor;
+  d: path('M16 18h6');
+  fill: none;
+}
+
+@media not (prefers-reduced-motion) {
+  .ur-omx {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 1.4s forwards so-to-0;
+  }
+}

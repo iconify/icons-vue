@@ -1,0 +1,13 @@
+.joqq5r {
+  stroke: currentColor;
+  d: path('M16 19l1.75 1.75l3.75 -3.75');
+  fill: none;
+}
+
+@media not (prefers-reduced-motion) {
+  .joqq5r {
+    stroke-dasharray: 10;
+    stroke-dashoffset: 10;
+    animation: 0.2s linear 1.35s forwards so-to-0;
+  }
+}

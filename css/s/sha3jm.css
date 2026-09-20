@@ -1,0 +1,11 @@
+.sha3jm {
+  cx: 12px;
+  cy: 12px;
+  r: 3px;
+}
+
+@media not (prefers-reduced-motion) {
+  .sha3jm {
+    animation: 0s forwards r-to-0px, 6s linear infinite r-cqmtvg;
+  }
+}

@@ -1,0 +1,11 @@
+.pnypmy {
+  d: path('M10 14h4v6h-4Z');
+  fill-opacity: 0.3;
+  fill: currentColor;
+}
+
+@media not (prefers-reduced-motion) {
+  .pnypmy {
+    animation: 0s forwards fill-to-0, 0.15s linear 1.4s forwards fill-to-0_3;
+  }
+}

@@ -1,0 +1,13 @@
+.rszdda {
+  d: path('M12 12h-5.5');
+  transform: rotate(165deg);
+  transform-origin: 12px 12px;
+}
+
+@media not (prefers-reduced-motion) {
+  .rszdda {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0s forwards tr-g4nb9z, 0.2s linear 1.3s forwards so-to-0, 0.8s linear 1.5s forwards tr-hy2u1f;
+  }
+}

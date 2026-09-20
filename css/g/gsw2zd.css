@@ -1,0 +1,10 @@
+.gsw2zd {
+  d: path('M8 12l3 3l5 -5');
+}
+
+@media not (prefers-reduced-motion) {
+  .gsw2zd {
+    stroke-dasharray: 14;
+    animation: 0.2s linear 0.2s forwards so-to-14;
+  }
+}

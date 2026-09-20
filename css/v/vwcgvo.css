@@ -1,0 +1,10 @@
+.vwcgvo {
+  d: path('M12 3v13');
+}
+
+@media not (prefers-reduced-motion) {
+  .vwcgvo {
+    stroke-dasharray: 16;
+    animation: 0.5s linear forwards so-from-16;
+  }
+}

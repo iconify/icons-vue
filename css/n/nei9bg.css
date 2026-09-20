@@ -1,0 +1,11 @@
+.nei9bg {
+  d: path('M6 7h2M6 7v2M18 13h-2M18 13v-2');
+}
+
+@media not (prefers-reduced-motion) {
+  .nei9bg {
+    stroke-dasharray: 4;
+    stroke-dashoffset: 4;
+    animation: 0.2s linear 1.45s forwards so-to-0;
+  }
+}

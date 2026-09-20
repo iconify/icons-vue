@@ -1,0 +1,12 @@
+.dg35tf {
+  cx: 17px;
+  cy: 12px;
+  r: 3px;
+  fill: currentColor;
+}
+
+@media not (prefers-reduced-motion) {
+  .dg35tf {
+    animation: 0.2s linear forwards cx-from-7px;
+  }
+}

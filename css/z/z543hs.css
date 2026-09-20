@@ -1,0 +1,12 @@
+.z543hs {
+  transform: rotate(45deg);
+  transform-origin: 13px 12px;
+}
+
+@media not (prefers-reduced-motion) {
+  .z543hs {
+    stroke-dasharray: 24;
+    stroke-dashoffset: 24;
+    animation: 0.3s linear 1.2s forwards so-to-0;
+  }
+}

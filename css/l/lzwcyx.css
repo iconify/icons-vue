@@ -1,0 +1,11 @@
+.lzwcyx {
+  d: path('M21 17l-4 4');
+}
+
+@media not (prefers-reduced-motion) {
+  .lzwcyx {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 1.8s forwards so-to-0;
+  }
+}

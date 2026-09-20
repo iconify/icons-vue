@@ -1,0 +1,11 @@
+.t0wiei {
+  d: path('M18.12 18.12l2.83 2.83');
+}
+
+@media not (prefers-reduced-motion) {
+  .t0wiei {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 1.4s forwards so-to-0;
+  }
+}

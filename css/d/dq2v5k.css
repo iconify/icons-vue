@@ -1,0 +1,10 @@
+.dq2v5k {
+  d: path('M12 20h5c0.5 0 1 -0.5 1 -1v-14M12 20h-5c-0.5 0 -1 -0.5 -1 -1v-14');
+}
+
+@media not (prefers-reduced-motion) {
+  .dq2v5k {
+    stroke-dasharray: 24;
+    animation: 0.5s linear forwards so-from-24;
+  }
+}

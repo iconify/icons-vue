@@ -1,0 +1,10 @@
+.l4nbke {
+  d: path('M12 5h1.5M12 5h-1.5M12 5v1.5M12 5v-1.5');
+}
+
+@media not (prefers-reduced-motion) {
+  .l4nbke {
+    stroke-dashoffset: 4;
+    animation: 6s linear 0.4s infinite so-_lg20b;
+  }
+}

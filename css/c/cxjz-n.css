@@ -1,0 +1,10 @@
+.cxjz-n {
+  d: path('M21 5l-2.5 15M21 5l-12 8.5');
+}
+
+@media not (prefers-reduced-motion) {
+  .cxjz-n {
+    stroke-dasharray: 18;
+    animation: 0.4s linear forwards so-from-18;
+  }
+}

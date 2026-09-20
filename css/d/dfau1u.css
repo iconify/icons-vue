@@ -1,0 +1,12 @@
+.dfau1u {
+  cx: 11.5px;
+  cy: 12.5px;
+  r: 1.5px;
+}
+
+@media not (prefers-reduced-motion) {
+  .dfau1u {
+    opacity: 0;
+    animation: 0.1s linear 1.5s forwards fade-to-1;
+  }
+}

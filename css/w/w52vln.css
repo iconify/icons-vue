@@ -1,0 +1,12 @@
+.w52vln {
+  d: path('M8 12l3 3l5 -5');
+  fill: none;
+}
+
+@media not (prefers-reduced-motion) {
+  .w52vln {
+    stroke-dasharray: 14;
+    stroke-dashoffset: 14;
+    animation: 0.2s linear 0.85s forwards so-to-0;
+  }
+}

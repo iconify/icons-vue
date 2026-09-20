@@ -1,0 +1,11 @@
+.feujeb {
+  d: path('M21 17l-4 4');
+}
+
+@media not (prefers-reduced-motion) {
+  .feujeb {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 1.2s forwards so-to-0;
+  }
+}

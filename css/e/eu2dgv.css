@@ -1,0 +1,12 @@
+.eu2dgv {
+  cx: 9.5px;
+  cy: 6.5px;
+  r: 1.5px;
+}
+
+@media not (prefers-reduced-motion) {
+  .eu2dgv {
+    opacity: 0;
+    animation: 0.1s linear 1.1s forwards fade-to-1;
+  }
+}

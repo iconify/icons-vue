@@ -1,0 +1,11 @@
+.lddddc {
+  d: path('M15 17v-5');
+}
+
+@media not (prefers-reduced-motion) {
+  .lddddc {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 1.3s forwards so-to-0;
+  }
+}

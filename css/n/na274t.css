@@ -1,0 +1,11 @@
+.na274t {
+  d: path('M5 12h9');
+}
+
+@media not (prefers-reduced-motion) {
+  .na274t {
+    stroke-dasharray: 12;
+    stroke-dashoffset: 12;
+    animation: 0.2s linear 0.3s forwards so-to-0;
+  }
+}

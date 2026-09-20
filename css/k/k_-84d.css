@@ -1,0 +1,11 @@
+.k_-84d {
+  d: path('M19 16v5');
+}
+
+@media not (prefers-reduced-motion) {
+  .k_-84d {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 0.8s forwards so-to-0;
+  }
+}

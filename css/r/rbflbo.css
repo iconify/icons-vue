@@ -1,0 +1,12 @@
+.rbflbo {
+  d: path('M17 13c0 2.76 -2.24 5 -5 5c-2.76 0 -5 -2.24 -5 -5c0 -2.76 5 -15 5 -15c0 0 5 12.24 5 15Z');
+  transform: rotate(65deg);
+  transform-origin: 12px 13px;
+  fill: #000;
+}
+
+@media not (prefers-reduced-motion) {
+  .rbflbo {
+    animation: 0s forwards d-6w1d6t, 0s forwards tr-sjojgf, 0.2s linear 0.5s forwards d-b9332p, 0.3s linear 0.7s forwards tr-29mcvx;
+  }
+}

@@ -1,0 +1,11 @@
+.ie016v {
+  d: path('M10.2 10.2l6.8 -3.2l-3.2 6.8l-6.8 3.2Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .ie016v {
+    transform: rotate(-180deg);
+    transform-origin: 12px 12px;
+    animation: 0s forwards d-tcc6vx, 0.3s linear 0.85s forwards d-67r94s, 0.5s linear 0.85s forwards tr-g4nb9z;
+  }
+}

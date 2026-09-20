@@ -1,0 +1,11 @@
+.czadwe {
+  d: path('M12 10v4');
+}
+
+@media not (prefers-reduced-motion) {
+  .czadwe {
+    stroke-dasharray: 6;
+    stroke-dashoffset: 6;
+    animation: 3s linear 0.7s infinite sw-cnj-zb, 0.2s linear 0.7s forwards so-to-0;
+  }
+}

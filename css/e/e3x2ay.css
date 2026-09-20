@@ -1,0 +1,12 @@
+.e3x2ay {
+  fill: #000;
+  cx: 7px;
+  cy: 12px;
+  r: 3px;
+}
+
+@media not (prefers-reduced-motion) {
+  .e3x2ay {
+    animation: 0.2s linear forwards cx-from-17px;
+  }
+}

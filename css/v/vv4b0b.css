@@ -1,0 +1,10 @@
+.vv4b0b {
+  d: path('M9 12h6v1h-6ZM9 14h6v1h-6ZM9 16h6v1h-6ZM9 18h6v1h-6Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .vv4b0b {
+    opacity: 0;
+    animation: 0s forwards d-uuj0hq, 0s 1.3s forwards fade-to-1, 0.6s linear 1.3s forwards d-h58jtn, 0.4s linear 1.9s infinite d-tn42uz;
+  }
+}

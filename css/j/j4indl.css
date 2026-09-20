@@ -1,0 +1,12 @@
+.j4indl {
+  cx: 16.5px;
+  cy: 13.5px;
+  r: 1.5px;
+}
+
+@media not (prefers-reduced-motion) {
+  .j4indl {
+    opacity: 0;
+    animation: 0.1s linear 1.4s forwards fade-to-1;
+  }
+}

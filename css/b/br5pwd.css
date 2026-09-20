@@ -1,0 +1,11 @@
+.br5pwd {
+  d: path('M12 10.5l-9 2.5');
+}
+
+@media not (prefers-reduced-motion) {
+  .br5pwd {
+    stroke-dasharray: 12;
+    stroke-dashoffset: 12;
+    animation: 0.2s linear 0.8s forwards so-to-0;
+  }
+}

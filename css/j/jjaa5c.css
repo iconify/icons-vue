@@ -1,0 +1,11 @@
+.jjaa5c {
+  d: path('M14 5h6');
+}
+
+@media not (prefers-reduced-motion) {
+  .jjaa5c {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 0.1s forwards so-to-0;
+  }
+}

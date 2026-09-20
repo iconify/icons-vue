@@ -1,0 +1,10 @@
+.hrlpcp {
+  d: path('M14 14l6.5 6.5M10 10l-6.5 -6.5');
+}
+
+@media not (prefers-reduced-motion) {
+  .hrlpcp {
+    stroke-dasharray: 12;
+    animation: 0.4s linear forwards so-from-12;
+  }
+}

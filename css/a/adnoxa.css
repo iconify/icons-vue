@@ -1,0 +1,15 @@
+.adnoxa {
+  d: path('M8 6l10 6l-10 6Z');
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: currentColor;
+  stroke-width: 2px;
+  fill: none;
+}
+
+@media not (prefers-reduced-motion) {
+  .adnoxa {
+    stroke-dasharray: 38;
+    animation: 0.5s linear forwards so-from-38;
+  }
+}

@@ -1,0 +1,14 @@
+.rkazsz {
+  stroke: #000;
+  d: path('M0 11h24');
+  transform: rotate(45deg);
+  transform-origin: 13px 12px;
+}
+
+@media not (prefers-reduced-motion) {
+  .rkazsz {
+    stroke-dasharray: 26;
+    stroke-dashoffset: 26;
+    animation: 0.4s linear 0.95s forwards so-to-0;
+  }
+}

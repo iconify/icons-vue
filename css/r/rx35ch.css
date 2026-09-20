@@ -1,0 +1,12 @@
+.rx35ch {
+  cx: 15.55px;
+  cy: 13.59px;
+  r: 1.61px;
+}
+
+@media not (prefers-reduced-motion) {
+  .rx35ch {
+    opacity: 0;
+    animation: 0.4s linear 1.6s forwards fade-to-1;
+  }
+}

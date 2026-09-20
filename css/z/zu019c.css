@@ -1,0 +1,10 @@
+.zu019c {
+  d: path('M10 12l-5 -5M10 12l-5 5');
+}
+
+@media not (prefers-reduced-motion) {
+  .zu019c {
+    stroke-dasharray: 10;
+    animation: 0.4s linear forwards so-from-10;
+  }
+}

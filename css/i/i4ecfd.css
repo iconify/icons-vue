@@ -1,0 +1,11 @@
+.i4ecfd {
+  d: path('M19 21v-5');
+}
+
+@media not (prefers-reduced-motion) {
+  .i4ecfd {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 1.15s forwards so-to-0;
+  }
+}

@@ -1,0 +1,10 @@
+.f3rx7t {
+  d: path('M3 12l18 0');
+}
+
+@media not (prefers-reduced-motion) {
+  .f3rx7t {
+    stroke-dasharray: 20;
+    animation: 0.3s linear forwards so-from-20;
+  }
+}

@@ -1,0 +1,11 @@
+.fyy_6k {
+  d: path('M17 10l-4 4M17 10l4 4M7 14l-4 -4M7 14l4 -4');
+}
+
+@media not (prefers-reduced-motion) {
+  .fyy_6k {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 0.4s forwards so-to-0;
+  }
+}

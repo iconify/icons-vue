@@ -1,0 +1,10 @@
+.c6evfd {
+  d: path('M18 12h1.5M18 12h-1.5M18 12v1.5M18 12v-1.5');
+}
+
+@media not (prefers-reduced-motion) {
+  .c6evfd {
+    stroke-dashoffset: 4;
+    animation: 6s linear 3.88s infinite so-_lg20b;
+  }
+}

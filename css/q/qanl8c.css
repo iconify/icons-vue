@@ -1,0 +1,10 @@
+.qanl8c {
+  d: path('M10 20h4v2h-4Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .qanl8c {
+    opacity: 0;
+    animation: 0s 1.2s forwards fade-to-1, 0.2s linear 1.2s forwards d-o0luwi;
+  }
+}

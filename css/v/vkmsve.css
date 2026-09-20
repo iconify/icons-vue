@@ -1,0 +1,11 @@
+.vkmsve {
+  d: path('M3.5 12c0 -0.83 0.67 -1.5 1.5 -1.5c0.83 0 1.5 0.67 1.5 1.5c0 0.83 -0.67 1.5 -1.5 1.5c-0.83 0 -1.5 -0.67 -1.5 -1.5ZM10.5 12c0 -0.83 0.67 -1.5 1.5 -1.5c0.83 0 1.5 0.67 1.5 1.5c0 0.83 -0.67 1.5 -1.5 1.5c-0.83 0 -1.5 -0.67 -1.5 -1.5ZM17.5 12c0 -0.83 0.67 -1.5 1.5 -1.5c0.83 0 1.5 0.67 1.5 1.5c0 0.83 -0.67 1.5 -1.5 1.5c-0.83 0 -1.5 -0.67 -1.5 -1.5Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .vkmsve {
+    stroke-dasharray: 12;
+    stroke-dashoffset: 12;
+    animation: 0s forwards fill-to-0, 0.2s linear 0.2s forwards so-to-0, 0.15s linear 0.85s forwards fill-to-0_3;
+  }
+}

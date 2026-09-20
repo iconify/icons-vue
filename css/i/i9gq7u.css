@@ -1,0 +1,11 @@
+.i9gq7u {
+  d: path('M21 3h-6M3 21v-6M21 3v6M3 21h6');
+}
+
+@media not (prefers-reduced-motion) {
+  .i9gq7u {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 0.4s forwards so-to-0;
+  }
+}

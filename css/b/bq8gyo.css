@@ -1,0 +1,13 @@
+.bq8gyo {
+  stroke: currentColor;
+  d: path('M16 19h6');
+  fill: none;
+}
+
+@media not (prefers-reduced-motion) {
+  .bq8gyo {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 1.6s forwards so-to-0;
+  }
+}

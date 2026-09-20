@@ -1,0 +1,11 @@
+.h15w-v {
+  d: path('M8 11h0.01');
+}
+
+@media not (prefers-reduced-motion) {
+  .h15w-v {
+    stroke-dasharray: 4;
+    stroke-dashoffset: 4;
+    animation: 0.2s linear 1.4s forwards so-to-0;
+  }
+}

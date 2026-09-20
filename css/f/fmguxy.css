@@ -1,0 +1,10 @@
+.fmguxy {
+  d: path('M17 15l0 -11.5M7 9l0 11.5');
+}
+
+@media not (prefers-reduced-motion) {
+  .fmguxy {
+    stroke-dasharray: 14;
+    animation: 0.4s linear forwards so-from-14;
+  }
+}

@@ -1,0 +1,16 @@
+.butieh {
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path('M12.8 16.28c0 -2.76 0 -5.52 0 -8.27c0.14 -0.09 0.32 -0.13 0.47 -0.18c0.41 -0.1 0.84 -0.14 1.26 -0.15c0.58 0 1.16 0.12 1.7 0.35c0.38 0.16 0.73 0.37 1.06 0.63c0.74 0.59 1.28 1.43 1.51 2.36c0.09 0.41 0.18 0.82 0.27 1.23c0.33 -0.1 0.66 -0.19 1 -0.29c0.24 -0.08 0.5 -0.11 0.76 -0.1c0.55 0.02 1.09 0.26 1.48 0.66c0.49 0.5 0.72 1.24 0.6 1.93c-0.07 0.39 -0.27 0.76 -0.54 1.05c-0.44 0.49 -1.09 0.77 -1.74 0.78c-2.61 0 -5.22 0 -7.83 0Z');
+  stroke: currentColor;
+  stroke-width: 2px;
+}
+
+@media not (prefers-reduced-motion) {
+  .butieh {
+    stroke-dasharray: 36;
+    stroke-dashoffset: 36;
+    fill-opacity: 0;
+    animation: 0.5s linear 0.7s forwards so-to-0, 0.4s linear 1.3s forwards fill-to-1;
+  }
+}

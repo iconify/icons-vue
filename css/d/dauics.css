@@ -1,0 +1,10 @@
+.dauics {
+  d: path('M8 16l3 -3l-2 -2l7 0l0 7l-2 -2l-3 3Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .dauics {
+    opacity: 0;
+    animation: 0s 1.1s forwards fade-to-1, 0.2s linear 1.1s forwards d-2fyhzg;
+  }
+}

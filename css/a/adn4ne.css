@@ -1,0 +1,10 @@
+.adn4ne {
+  d: path('M13 4h1.5M13 4h-1.5M13 4v1.5M13 4v-1.5');
+}
+
+@media not (prefers-reduced-motion) {
+  .adn4ne {
+    stroke-dashoffset: 4;
+    animation: 6s linear 4.42s infinite so-_lg20b;
+  }
+}

@@ -1,0 +1,11 @@
+.uim3-m {
+  d: path('M21 19h-5');
+}
+
+@media not (prefers-reduced-motion) {
+  .uim3-m {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 1.3s forwards so-to-0;
+  }
+}

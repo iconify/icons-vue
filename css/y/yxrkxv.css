@@ -1,0 +1,13 @@
+.yxrkxv {
+  fill: #fff;
+  d: path('M12 4c4.42 0 8 3.58 8 8c0 4.42 -3.58 8 -8 8c-4.42 0 -8 -3.58 -8 -8c0 -4.42 3.58 -8 8 -8');
+  stroke: #fff;
+}
+
+@media not (prefers-reduced-motion) {
+  .yxrkxv {
+    stroke-dasharray: 54;
+    fill-opacity: 0;
+    animation: 0.6s linear forwards so-from-54, 0.4s linear 1.3s forwards fill-to-1;
+  }
+}

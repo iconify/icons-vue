@@ -1,0 +1,11 @@
+.erpyod {
+  d: path('M13 11l7 -7');
+}
+
+@media not (prefers-reduced-motion) {
+  .erpyod {
+    stroke-dasharray: 12;
+    stroke-dashoffset: 12;
+    animation: 0.2s linear 0.5s forwards so-to-0;
+  }
+}

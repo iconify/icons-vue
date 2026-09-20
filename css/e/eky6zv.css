@@ -1,0 +1,11 @@
+.eky6zv {
+  d: path('M16 15l6 6');
+}
+
+@media not (prefers-reduced-motion) {
+  .eky6zv {
+    stroke-dasharray: 12;
+    stroke-dashoffset: 12;
+    animation: 0.2s linear 0.7s forwards so-to-0;
+  }
+}

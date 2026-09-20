@@ -1,0 +1,11 @@
+.osy4ff {
+  d: path('M12 17l4 -4M12 17l-4 -4');
+}
+
+@media not (prefers-reduced-motion) {
+  .osy4ff {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 0.9s forwards so-to-0;
+  }
+}

@@ -1,0 +1,12 @@
+.nbeutd {
+  d: path('M15 12h6');
+  fill: none;
+}
+
+@media not (prefers-reduced-motion) {
+  .nbeutd {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 0.4s forwards so-to-0;
+  }
+}

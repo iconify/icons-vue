@@ -1,0 +1,13 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/v/v375sbb6a.css';
+import '../../css/n/n1mjunbsu.css';
+import '../../css/c/cuyn6tgcc.css';
+import '../../css/t/t_ev7s-sv.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<defs><mask id="SVGyonP9cuH"><path d="M7 19h11c2.21 0 4 -1.79 4 -4c0 -2.21 -1.79 -4 -4 -4h-1v-1c0 -2.76 -2.24 -5 -5 -5c-2.42 0 -4.44 1.72 -4.9 4h-0.1c-2.76 0 -5 2.24 -5 5c0 2.76 2.24 5 5 5Z" class="v375sbb6a"><animate attributeName="d" dur="12s" keyTimes="0;0.25;0.5;0.75;1" repeatCount="indefinite" values="M7 19h11c2.21 0 4 -1.79 4 -4c0 -2.21 -1.79 -4 -4 -4h-1v-1c0 -2.76 -2.24 -5 -5 -5c-2.42 0 -4.44 1.72 -4.9 4h-0.1c-2.76 0 -5 2.24 -5 5c0 2.76 2.24 5 5 5Z;M6 19h12c2.21 0 4 -1.79 4 -4c0 -2.21 -1.79 -4 -4 -4h0v-1c0 -2.76 -2.24 -5 -5 -5c-2.42 0 -4.44 1.72 -4.9 4h-2.1c-2.76 0 -5 2.24 -5 5c0 2.76 2.24 5 5 5Z;M6 19h11c2.21 0 4 -1.79 4 -4c0 -2.21 -1.79 -4 -4 -4h0v-1c0 -2.76 -2.24 -5 -5 -5c-2.42 0 -4.44 1.72 -4.9 4h-1.1c-2.76 0 -5 2.24 -5 5c0 2.76 2.24 5 5 5Z;M7 19h10c2.21 0 4 -1.79 4 -4c0 -2.21 -1.79 -4 -4 -4h0v-1c0 -2.76 -2.24 -5 -5 -5c-2.42 0 -4.44 1.72 -4.9 4h-0.1c-2.76 0 -5 2.24 -5 5c0 2.76 2.24 5 5 5Z;M7 19h11c2.21 0 4 -1.79 4 -4c0 -2.21 -1.79 -4 -4 -4h-1v-1c0 -2.76 -2.24 -5 -5 -5c-2.42 0 -4.44 1.72 -4.9 4h-0.1c-2.76 0 -5 2.24 -5 5c0 2.76 2.24 5 5 5Z"/><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.6s" values="60;0"/></path><path d="M6 11h12v0h-12Z" class="n1mjunbsu"><animate fill="freeze" attributeName="d" begin="0.6s" dur="0.2s" to="M6 11h12v4h-12Z"/><animate fill="freeze" attributeName="d" begin="0.8s" dur="0.6s" values="M6 11h12v4h-12Z;M6 11h12v11h-12Z"/></path><path d="M8 13h8v0h-8Z"><animate fill="freeze" attributeName="d" begin="0.8s" dur="0.6s" to="M8 13h8v7h-8Z"/></path></mask></defs><g class="cuyn6tgcc"><path mask="url(#SVGyonP9cuH)" class="t_ev7s-sv"/><path d="M9 12h6v1h-6ZM9 12h6v1h-6ZM9 12h6v1h-6ZM9 12h6v1h-6Z" opacity="0"><set fill="freeze" attributeName="opacity" begin="0.8s" to="1"/><animate fill="freeze" attributeName="d" begin="0.8s" dur="0.6s" keyTimes="0;0.33;0.66;1" values="M9 12h6v1h-6ZM9 12h6v1h-6ZM9 12h6v1h-6ZM9 12h6v1h-6Z;M9 12h6v1h-6ZM9 12h6v1h-6ZM9 12h6v1h-6ZM9 14h6v1h-6Z;M9 12h6v1h-6ZM9 12h6v1h-6ZM9 14h6v1h-6ZM9 16h6v1h-6Z;M9 12h6v1h-6ZM9 14h6v1h-6ZM9 16h6v1h-6ZM9 18h6v1h-6Z"/><animate attributeName="d" begin="1.4s" dur="0.4s" repeatCount="indefinite" values="M9 12h6v1h-6ZM9 14h6v1h-6ZM9 16h6v1h-6ZM9 18h6v1h-6Z;M9 14h6v1h-6ZM9 16h6v1h-6ZM9 18h6v1h-6ZM9 20h6v1h-6Z"/></path></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="line-md:cloud-print-outline-loop" /></template>

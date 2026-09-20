@@ -1,0 +1,9 @@
+.l3-heb {
+  d: path('M5 12h14');
+}
+
+@media not (prefers-reduced-motion) {
+  .l3-heb {
+    animation: 0.4s linear forwards d-szjhyc;
+  }
+}

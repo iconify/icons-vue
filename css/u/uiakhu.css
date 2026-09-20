@@ -1,0 +1,11 @@
+.uiakhu {
+  d: path('M9 10h3');
+}
+
+@media not (prefers-reduced-motion) {
+  .uiakhu {
+    stroke-dasharray: 6;
+    stroke-dashoffset: 6;
+    animation: 0.2s linear 0.9s forwards so-to-0;
+  }
+}

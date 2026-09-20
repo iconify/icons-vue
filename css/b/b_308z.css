@@ -1,0 +1,11 @@
+.b_308z {
+  d: path('M4 20h0.01');
+}
+
+@media not (prefers-reduced-motion) {
+  .b_308z {
+    stroke-dasharray: 4;
+    stroke-dashoffset: 4;
+    animation: 0.2s linear 0.9s forwards so-to-0;
+  }
+}

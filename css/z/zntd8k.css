@@ -1,0 +1,11 @@
+.zntd8k {
+  d: path('M6 14l11 -11l4 4l-11 11l-4 -4Z');
+  stroke-width: 2px;
+}
+
+@media not (prefers-reduced-motion) {
+  .zntd8k {
+    stroke-dasharray: 46;
+    animation: 0.5s linear forwards so-from-46;
+  }
+}

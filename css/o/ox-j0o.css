@@ -1,0 +1,11 @@
+.ox-j0o {
+  d: path('M18.5 11c4.14 0 7.5 3.36 7.5 7.5c0 4.14 -3.36 7.5 -7.5 7.5c-4.14 0 -7.5 -3.36 -7.5 -7.5c0 -4.14 3.36 -7.5 7.5 -7.5Z');
+  fill: #000;
+}
+
+@media not (prefers-reduced-motion) {
+  .ox-j0o {
+    opacity: 0;
+    animation: 0s 1s forwards fade-to-1;
+  }
+}

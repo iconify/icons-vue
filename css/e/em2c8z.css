@@ -1,0 +1,9 @@
+.em2c8z {
+  d: path('M12 4c4.42 0 8 3.58 8 8c0 4.42 -3.58 8 -8 8c-4.42 0 -8 -3.58 -8 -8c0 -4.42 3.58 -8 8 -8Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .em2c8z {
+    animation: 0.4s linear forwards d-lqhkfo, 0s 0.4s forwards fade-to-0;
+  }
+}

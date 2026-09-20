@@ -1,0 +1,11 @@
+.nctkey {
+  d: path('M9 18l3 3M9 18l3 -3');
+}
+
+@media not (prefers-reduced-motion) {
+  .nctkey {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 0.3s forwards so-to-0;
+  }
+}

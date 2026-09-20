@@ -1,0 +1,11 @@
+.m0_dsb {
+  d: path('M9 12l5 -5M9 12l5 5');
+}
+
+@media not (prefers-reduced-motion) {
+  .m0_dsb {
+    stroke-dasharray: 10;
+    stroke-dashoffset: 10;
+    animation: 0.4s linear 0.4s forwards so-to-0;
+  }
+}

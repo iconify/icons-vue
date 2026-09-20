@@ -1,0 +1,10 @@
+.wbmebo {
+  d: path('M21 21h-18v-2c0 -1 1 -2 2 -2h14c1 0 2 1 2 2v2Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .wbmebo {
+    stroke-dasharray: 46;
+    animation: 0.5s linear forwards so-from-46;
+  }
+}

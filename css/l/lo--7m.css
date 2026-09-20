@@ -1,0 +1,11 @@
+.lo--7m {
+  d: path('M9 12h11.5');
+}
+
+@media not (prefers-reduced-motion) {
+  .lo--7m {
+    stroke-dasharray: 14;
+    stroke-dashoffset: 14;
+    animation: 0.2s linear 0.5s forwards so-to-0;
+  }
+}

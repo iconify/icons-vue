@@ -1,0 +1,10 @@
+.jo671t {
+  d: path('M7 7l10 10');
+}
+
+@media not (prefers-reduced-motion) {
+  .jo671t {
+    stroke-dasharray: 18;
+    animation: 0.5s linear forwards so-from-18;
+  }
+}

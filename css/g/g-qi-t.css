@@ -1,0 +1,11 @@
+.g-qi-t {
+  d: path('M21 14h-2v6.5');
+}
+
+@media not (prefers-reduced-motion) {
+  .g-qi-t {
+    stroke-dasharray: 12;
+    stroke-dashoffset: 12;
+    animation: 0.2s linear 0.8s forwards so-to-0;
+  }
+}

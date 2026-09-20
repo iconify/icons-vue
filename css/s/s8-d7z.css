@@ -1,0 +1,11 @@
+.s8-d7z {
+  d: path('M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28l-5.29 3.28l1.49 -6.04l-4.76 -4.02l6.21 -0.46Z');
+  fill: currentColor;
+}
+
+@media not (prefers-reduced-motion) {
+  .s8-d7z {
+    fill-opacity: 0;
+    animation: 0.4s linear 0.5s forwards fill-to-1;
+  }
+}

@@ -1,0 +1,11 @@
+.gvj_ce {
+  d: path('M9 14h6');
+}
+
+@media not (prefers-reduced-motion) {
+  .gvj_ce {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 1.7s forwards so-to-0;
+  }
+}

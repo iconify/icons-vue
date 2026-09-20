@@ -1,0 +1,11 @@
+.qmc18a {
+  d: path('M12 21h9M12 21h-9');
+}
+
+@media not (prefers-reduced-motion) {
+  .qmc18a {
+    stroke-dasharray: 12;
+    stroke-dashoffset: 12;
+    animation: 0.2s linear 1.5s forwards so-to-0;
+  }
+}

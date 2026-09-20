@@ -1,0 +1,10 @@
+.idzzlt {
+  d: path('M12 19l0 -13.5');
+}
+
+@media not (prefers-reduced-motion) {
+  .idzzlt {
+    stroke-dasharray: 16;
+    animation: 0.3s linear forwards so-from-16;
+  }
+}

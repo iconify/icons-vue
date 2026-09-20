@@ -1,0 +1,14 @@
+.rgeonx {
+  stroke: currentColor;
+  d: path('M0 13h22');
+  transform: rotate(45deg);
+  transform-origin: 13px 12px;
+}
+
+@media not (prefers-reduced-motion) {
+  .rgeonx {
+    stroke-dasharray: 24;
+    stroke-dashoffset: 24;
+    animation: 6s linear infinite d-l5brra, 0.3s linear 1.2s forwards so-to-0;
+  }
+}

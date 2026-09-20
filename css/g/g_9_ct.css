@@ -1,0 +1,10 @@
+.g_9_ct {
+  d: path('M12 19l4 -4h-2.5v-3h-3v3h-2.5Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .g_9_ct {
+    opacity: 0;
+    animation: 0s 0.8s forwards fade-to-1, 0.2s linear 0.8s forwards d-fbzv8s;
+  }
+}

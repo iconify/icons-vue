@@ -1,0 +1,11 @@
+.ju1zuh {
+  d: path('M4 12l5 -5M4 12l5 5');
+}
+
+@media not (prefers-reduced-motion) {
+  .ju1zuh {
+    stroke-dasharray: 10;
+    stroke-dashoffset: 10;
+    animation: 0.4s linear 0.8s forwards so-to-0;
+  }
+}

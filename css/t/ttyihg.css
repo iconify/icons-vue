@@ -1,0 +1,11 @@
+.ttyihg {
+  d: path('M8 9h2M8 9v2M16 15h-2M16 15v-2');
+}
+
+@media not (prefers-reduced-motion) {
+  .ttyihg {
+    stroke-dasharray: 4;
+    stroke-dashoffset: 4;
+    animation: 0.2s linear 0.9s forwards so-to-0;
+  }
+}

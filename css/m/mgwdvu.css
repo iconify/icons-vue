@@ -1,0 +1,10 @@
+.mgwdvu {
+  cx: 9px;
+  cy: 12px;
+}
+
+@media not (prefers-reduced-motion) {
+  .mgwdvu {
+    animation: 0s forwards r-to-0px, 0.2s linear 1.3s forwards r-to-1_5px;
+  }
+}

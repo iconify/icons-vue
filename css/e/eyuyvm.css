@@ -1,0 +1,10 @@
+.eyuyvm {
+  d: path('M17 11h1.5M17 11h-1.5M17 11v1.5M17 11v-1.5');
+}
+
+@media not (prefers-reduced-motion) {
+  .eyuyvm {
+    stroke-dashoffset: 4;
+    animation: 0.2s linear 1s forwards so-to-0;
+  }
+}

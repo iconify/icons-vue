@@ -1,0 +1,11 @@
+.x27gon {
+  d: path('M12 13l2 2M12 13l-2 2');
+}
+
+@media not (prefers-reduced-motion) {
+  .x27gon {
+    stroke-dasharray: 6;
+    stroke-dashoffset: 6;
+    animation: 0.2s linear 1.35s forwards so-to-0;
+  }
+}

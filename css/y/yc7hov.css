@@ -1,0 +1,10 @@
+.yc7hov {
+  d: path('M4.5 21.5h15');
+}
+
+@media not (prefers-reduced-motion) {
+  .yc7hov {
+    stroke-dasharray: 18;
+    animation: 0.3s linear forwards so-from-18;
+  }
+}

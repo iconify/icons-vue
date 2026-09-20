@@ -1,0 +1,12 @@
+.djbuks {
+  cx: 16.5px;
+  cy: 14.5px;
+  r: 1.5px;
+}
+
+@media not (prefers-reduced-motion) {
+  .djbuks {
+    opacity: 0;
+    animation: 0.1s linear 0.9s forwards fade-to-1;
+  }
+}

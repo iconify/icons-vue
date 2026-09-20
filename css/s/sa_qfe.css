@@ -1,0 +1,10 @@
+.sa_qfe {
+  d: path('M12 9c1.66 0 3 1.34 3 3c0 1.66 -1.34 3 -3 3c-1.66 0 -3 -1.34 -3 -3c0 -1.66 1.34 -3 3 -3Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .sa_qfe {
+    stroke-dasharray: 22;
+    animation: 0.3s linear forwards so-from-22;
+  }
+}

@@ -1,0 +1,11 @@
+.jwh-bb {
+  d: path('M12 10h8');
+}
+
+@media not (prefers-reduced-motion) {
+  .jwh-bb {
+    stroke-dasharray: 10;
+    stroke-dashoffset: 10;
+    animation: 0.2s linear 0.4s forwards so-to-0;
+  }
+}

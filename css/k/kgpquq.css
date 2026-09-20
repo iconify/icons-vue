@@ -1,0 +1,15 @@
+.kgpquq {
+  d: path('M12 5c9 0 9 0 9 7c0 7 0 7 -9 7c-9 0 -9 0 -9 -7c0 -7 0 -7 9 -7Z');
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: currentColor;
+  stroke-width: 2px;
+  fill: none;
+}
+
+@media not (prefers-reduced-motion) {
+  .kgpquq {
+    stroke-dasharray: 60;
+    animation: 0.6s linear forwards so-from-60;
+  }
+}

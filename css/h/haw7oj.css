@@ -1,0 +1,10 @@
+.haw7oj {
+  d: path('M3 21v-1c0 -2.21 1.79 -4 4 -4h4c2.21 0 4 1.79 4 4v1');
+}
+
+@media not (prefers-reduced-motion) {
+  .haw7oj {
+    stroke-dasharray: 22;
+    animation: 0.3s linear forwards so-from-22;
+  }
+}

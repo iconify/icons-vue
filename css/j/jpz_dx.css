@@ -1,0 +1,11 @@
+.jpz_dx {
+  d: path('M12 10h6M12 10h-6');
+}
+
+@media not (prefers-reduced-motion) {
+  .jpz_dx {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 0.2s forwards so-to-0;
+  }
+}

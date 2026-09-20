@@ -1,0 +1,11 @@
+.dm-51m {
+  d: path('M12 10v-2');
+}
+
+@media not (prefers-reduced-motion) {
+  .dm-51m {
+    stroke-dasharray: 4;
+    stroke-dashoffset: 4;
+    animation: 0.2s linear 0.5s forwards so-to-0;
+  }
+}

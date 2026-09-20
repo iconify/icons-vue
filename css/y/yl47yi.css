@@ -1,0 +1,11 @@
+.yl47yi {
+  d: path('M11 14h-6');
+}
+
+@media not (prefers-reduced-motion) {
+  .yl47yi {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 8;
+    animation: 0.2s linear 1s forwards so-to-0;
+  }
+}

@@ -1,0 +1,11 @@
+.zakmsc {
+  d: path('M10 8h2M10 8v2M14 16h-2M14 16v-2');
+}
+
+@media not (prefers-reduced-motion) {
+  .zakmsc {
+    stroke-dasharray: 4;
+    stroke-dashoffset: 4;
+    animation: 0.2s linear 0.9s forwards so-to-0;
+  }
+}

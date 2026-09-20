@@ -1,0 +1,10 @@
+.b92-iz {
+  fill: none;
+  d: path('M10 6h8M10 10h8M10 14h5M2 6v15c0 0.55 0.45 1 1 1h15');
+}
+
+@media not (prefers-reduced-motion) {
+  .b92-iz {
+    animation: 0.4s linear forwards d-5rxztz;
+  }
+}

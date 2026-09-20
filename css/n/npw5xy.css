@@ -1,0 +1,12 @@
+.npw5xy {
+  d: path('M21 21h-18v-2c0 -1 1 -2 2 -2h14c1 0 2 1 2 2v2Z');
+  fill-opacity: 0.3;
+  fill: currentColor;
+}
+
+@media not (prefers-reduced-motion) {
+  .npw5xy {
+    stroke-dasharray: 46;
+    animation: 0s forwards fill-to-0, 0.5s linear forwards so-from-46, 0.15s linear 1.8s forwards fill-to-0_3;
+  }
+}

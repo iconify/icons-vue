@@ -1,0 +1,11 @@
+.pl-mjc {
+  d: path('M23 8v4');
+}
+
+@media not (prefers-reduced-motion) {
+  .pl-mjc {
+    stroke-dasharray: 6;
+    stroke-dashoffset: 6;
+    animation: 0.2s linear 0.9s forwards so-to-0;
+  }
+}

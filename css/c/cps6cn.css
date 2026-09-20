@@ -1,0 +1,9 @@
+.cps6cn {
+  d: path('M10.5 16h3v-3h2.5l-4 -4l-4 4h2.5Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .cps6cn {
+    animation: 0s forwards d-6uh96y, 0.4s linear 0.85s forwards d-t2f-vz, 1.5s linear 1.25s infinite d-46g2pq;
+  }
+}

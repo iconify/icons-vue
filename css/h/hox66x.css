@@ -1,0 +1,11 @@
+.hox66x {
+  d: path('M9 9v1');
+}
+
+@media not (prefers-reduced-motion) {
+  .hox66x {
+    stroke-dasharray: 4;
+    stroke-dashoffset: 4;
+    animation: 0.2s linear 1.1s forwards so-to-0;
+  }
+}

@@ -1,0 +1,10 @@
+.chf8aj {
+  d: path('M20 5h1.5M20 5h-1.5M20 5v1.5M20 5v-1.5');
+}
+
+@media not (prefers-reduced-motion) {
+  .chf8aj {
+    stroke-dashoffset: 4;
+    animation: 0.2s linear 1.8s forwards so-to-0;
+  }
+}

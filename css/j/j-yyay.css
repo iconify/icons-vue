@@ -1,0 +1,10 @@
+.j-yyay {
+  cx: 9px;
+  cy: 7px;
+}
+
+@media not (prefers-reduced-motion) {
+  .j-yyay {
+    animation: 0s forwards r-to-0px, 0.2s linear 1.1s forwards r-to-2px;
+  }
+}

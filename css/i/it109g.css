@@ -1,0 +1,10 @@
+.it109g {
+  d: path('M12 21l0 -17.5');
+}
+
+@media not (prefers-reduced-motion) {
+  .it109g {
+    stroke-dasharray: 20;
+    animation: 0.3s linear forwards so-from-20;
+  }
+}

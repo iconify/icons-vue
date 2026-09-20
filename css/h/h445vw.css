@@ -1,0 +1,10 @@
+.h445vw {
+  d: path('M12 7h8c0.55 0 1 0.45 1 1v10c0 0.55 -0.45 1 -1 1h-16c-0.55 0 -1 -0.45 -1 -1v-11Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .h445vw {
+    stroke-dasharray: 62;
+    animation: 0.6s linear forwards so-from-62;
+  }
+}

@@ -1,0 +1,10 @@
+.t6cvhn {
+  d: path('M3 12h17.5');
+}
+
+@media not (prefers-reduced-motion) {
+  .t6cvhn {
+    stroke-dasharray: 20;
+    animation: 0.3s linear forwards so-from-20;
+  }
+}

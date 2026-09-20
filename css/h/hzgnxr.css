@@ -1,0 +1,9 @@
+.hzgnxr {
+  d: path('M6 11h12v11h-12Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .hzgnxr {
+    animation: 0s forwards d-eq6hjf, 0.2s linear 0.85s forwards d-h32jkf, 0.6s linear 1.05s forwards d-6r6z8f;
+  }
+}

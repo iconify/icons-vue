@@ -1,0 +1,9 @@
+.h-zezz {
+  d: path('M1 2h2.5l15 20h-2.5ZM5.5 2h2.5l15 20h-2.5Z');
+}
+
+@media not (prefers-reduced-motion) {
+  .h-zezz {
+    animation: 0.4s linear forwards d-nfa2oq;
+  }
+}

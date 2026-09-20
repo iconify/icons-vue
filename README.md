@@ -1,16 +1,12 @@
 # @iconify-vue/devicon-plain
 
-Icon set prefix: **devicon-plain**
+**Devicon Plain**
 
-Icon set name: **Devicon Plain**
+Author: [konpa](https://github.com/devicons/devicon/tree/master)
 
-Author: **konpa**
+License: [MIT](https://github.com/devicons/devicon/blob/master/LICENSE)
 
-License: **[MIT](https://github.com/devicons/devicon/blob/master/LICENSE)**
-
-Repository: **https://github.com/devicons/devicon/tree/master**
-
-Browse all icons: **[Preview Devicon Plain](https://icon-sets.iconify.design/devicon-plain/)**
+Browse all icons: [preview Devicon Plain on Iconify](https://icon-sets.iconify.design/devicon-plain/)
 
 ## Installation
 

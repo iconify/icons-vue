@@ -1,0 +1,9 @@
+.q30oaffoq {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M4 12h12M4 8h16M4 16h8");
+}

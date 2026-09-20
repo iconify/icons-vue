@@ -1,0 +1,8 @@
+.gi8prk_nz {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M21 12H3m18 0l-4-4m4 4l-4 4M3 12l4-4m-4 4l4 4");
+}

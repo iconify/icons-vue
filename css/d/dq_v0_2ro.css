@@ -1,0 +1,8 @@
+.dq_v0_2ro {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("m9 8l-4 4l4 4m6 0l4-4l-4-4");
+}

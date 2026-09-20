@@ -1,0 +1,8 @@
+.hgrld-brg {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-miterlimit: 10;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M12 12h8M4 8h16m-8 8h8");
+}

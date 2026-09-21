@@ -57,6 +57,7 @@ npm install gitlab:iconify-icons/vue#{prefix}
 ```
 
 where {prefix} is icon set prefix.
+
 For example, for `mdi` icon set, installation command is:
 
 ```bash

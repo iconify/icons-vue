@@ -48,12 +48,12 @@ Each icon set is published in a separate branch of this repository, which makes 
 ## Installation
 
 ```bash
-npm install github:iconify/icons-vue#{prefix}
+npm install gitlab:iconify-icons/vue#{prefix}
 ```
 
 or
 ```bash
-npm install gitlab:iconify-icons/vue#{prefix}
+npm install github:iconify/icons-vue#{prefix}
 ```
 
 where {prefix} is icon set prefix.
@@ -61,12 +61,12 @@ where {prefix} is icon set prefix.
 For example, for `mdi` icon set, installation command is:
 
 ```bash
-npm install github:iconify/icons-vue#mdi
+npm install gitlab:iconify-icons/vue#mdi
 ```
 
 or
 ```bash
-npm install gitlab:iconify-icons/vue#mdi
+npm install github:iconify/icons-vue#mdi
 ```
 
 
@@ -82,8 +82,8 @@ There are 222 branches in this repository, one for each icon set.
 
 ### Material
 
-- [#material-symbols](https://github.com/iconify/icons-vue/tree/material-symbols): **Material Symbols** (15642 icons, Apache 2.0)
-- [#material-symbols-light](https://github.com/iconify/icons-vue/tree/material-symbols-light): **Material Symbols Light** (15707 icons, Apache 2.0)
+- [#material-symbols](https://github.com/iconify/icons-vue/tree/material-symbols): **Material Symbols** (15717 icons, Apache 2.0)
+- [#material-symbols-light](https://github.com/iconify/icons-vue/tree/material-symbols-light): **Material Symbols Light** (15782 icons, Apache 2.0)
 - [#ic](https://github.com/iconify/icons-vue/tree/ic): **Google Material Icons** (10955 icons, Apache 2.0)
 - [#mdi](https://github.com/iconify/icons-vue/tree/mdi): **Material Design Icons** (7447 icons, Apache 2.0)
 - [#mdi-light](https://github.com/iconify/icons-vue/tree/mdi-light): **Material Design Light** (284 icons, Open Font License)
@@ -228,12 +228,12 @@ There are 222 branches in this repository, one for each icon set.
 
 ### Programming
 
-- [#vscode-icons](https://github.com/iconify/icons-vue/tree/vscode-icons): **VSCode Icons** (1596 icons, MIT)
+- [#vscode-icons](https://github.com/iconify/icons-vue/tree/vscode-icons): **VSCode Icons** (1597 icons, MIT)
 - [#codicon](https://github.com/iconify/icons-vue/tree/codicon): **Codicons** (653 icons, CC BY 4.0)
 - [#material-icon-theme](https://github.com/iconify/icons-vue/tree/material-icon-theme): **Material Icon Theme** (904 icons, MIT)
 - [#file-icons](https://github.com/iconify/icons-vue/tree/file-icons): **File Icons** (930 icons, ISC)
-- [#devicon](https://github.com/iconify/icons-vue/tree/devicon): **Devicon** (1053 icons, MIT)
-- [#devicon-plain](https://github.com/iconify/icons-vue/tree/devicon-plain): **Devicon Plain** (769 icons, MIT)
+- [#devicon](https://github.com/iconify/icons-vue/tree/devicon): **Devicon** (1055 icons, MIT)
+- [#devicon-plain](https://github.com/iconify/icons-vue/tree/devicon-plain): **Devicon Plain** (771 icons, MIT)
 - [#catppuccin](https://github.com/iconify/icons-vue/tree/catppuccin): **Catppuccin Icons** (656 icons, MIT)
 - [#skill-icons](https://github.com/iconify/icons-vue/tree/skill-icons): **Skill Icons** (400 icons, MIT)
 - [#gcp](https://github.com/iconify/icons-vue/tree/gcp): **Google Cloud Icons** (214 icons, Apache 2.0)
@@ -335,4 +335,4 @@ There are 222 branches in this repository, one for each icon set.
 - [#vaadin](https://github.com/iconify/icons-vue/tree/vaadin): **Vaadin Icons** (636 icons, Apache 2.0)
 - [#grommet-icons](https://github.com/iconify/icons-vue/tree/grommet-icons): **Grommet Icons** (636 icons, Apache 2.0)
 
-Total: 222 icon sets, 367704 icons.
+Total: 222 icon sets, 367859 icons.

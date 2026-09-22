@@ -1,5 +1,6 @@
 # @iconify-vue/devicon
 
+⚠️ This is an alternative repository. Main repository has moved to [GitLab](https://gitlab.com/iconify-icons/vue/-/tree/devicon).
 **Devicon**
 
 Author: [konpa](https://github.com/devicons/devicon/tree/master)
@@ -10,6 +11,11 @@ Browse all icons: [preview Devicon on Iconify](https://icon-sets.iconify.design/
 
 ## Installation
 
+```bash
+npm install gitlab:iconify-icons/vue#devicon
+```
+
+or
 ```bash
 npm install github:iconify/icons-vue#devicon
 ```

@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="cq-t2qbsq"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:closed-caption-display-rounded" /></template>
+<style>
+.cq-t2qbsq {
+  fill: currentColor;
+  d: path("M13 22q-.825 0-1.412-.587T11 20v-4q0-.825.588-1.412T13 14h7q.825 0 1.413.588T22 16v4q0 .825-.587 1.413T20 22zm0-2h7v-4h-7zm-3.875-5q-.025.125.125.313t1.163.687t3.237 1.438T9 16v3q0 .425-.288.713T8 20H5q-.825 0-1.412-.587T3 18V6q0-.825.588-1.412T5 4h14q.825 0 1.413.588T21 6v5q0 .425-.288.713T20 12h-5.5v-1.5h2q0 .225.15.375t.375.15h.45q.225 0 .375-.15T18 10.5V10q0-.425-.288-.712T17 9h-3q-.425 0-.712.288T13 10v2q-.95 0-1.75.413T9.9 13.5H7.5v-3h2q0 .225.15.375t.375.15h.45q.225 0 .375-.15T11 10.5V10q0-.425-.288-.712T10 9H7q-.425 0-.712.288T6 10v4q0 .425.288.713T7 15z");
+}
+
+</style>

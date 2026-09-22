@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="xoxmfkbsc"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:document-share-sharp" /></template>
+<style>
+.xoxmfkbsc {
+  fill: currentColor;
+  d: path("M20 22q-.825 0-1.412-.587T18 19.975l-2.025-1.225q-.225.125-.462.188T15 19q-.825 0-1.412-.587T13 17t.588-1.412T15 15q.275 0 .513.063t.462.187L18 14.05q0-.85.588-1.437T20 12.025t1.413.588t.587 1.412t-.587 1.413t-1.413.587q-.275 0-.513-.062t-.462-.188L17 16.975v.075l2.025 1.2q.225-.125.463-.187T20 18q.825 0 1.413.588T22 20t-.587 1.413T20 22M13 9h5l-5-5l5 5l-5-5zM4 22V2h10l6 6v2.3q-.475-.15-.975-.213T18 10.026q-2.9 0-4.95 2.038T11 17q0 1.475.563 2.763T13.1 22z");
+}
+
+</style>

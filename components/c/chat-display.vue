@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="uigslmbae"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:chat-display" /></template>
+<style>
+.uigslmbae {
+  fill: currentColor;
+  d: path("M6 11h12V9H6zm0-3h12V6H6zm3 10H6l-4 4V4q0-.825.588-1.412T4 2h16q.825 0 1.413.588T22 4v8.55q-.45-.275-.962-.413T20 12H6v2h3.525q-.275.45-.4.95T9 16zm4 4q-.825 0-1.412-.587T11 20v-4q0-.825.588-1.412T13 14h7q.825 0 1.413.588T22 16v4q0 .825-.587 1.413T20 22zm0-2h7v-4h-7z");
+}
+
+</style>

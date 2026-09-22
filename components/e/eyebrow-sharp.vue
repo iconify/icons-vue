@@ -4,13 +4,13 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="t--55gbgr"/>`;
+const content = `<path class="d2l0v9box"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:eyebrow-sharp" /></template>
 <style>
-.t--55gbgr {
+.d2l0v9box {
   fill: currentColor;
-  d: path("M15 14q-.775 0-1.937.238t-2.726.725T6.8 16.175T2.375 17.9L1 16.975V8.95q3.45-.675 6.963-1.312T15 7q3.1 0 5.313 2.488T23.025 16l-1.775.675q-1.6-1.25-3.275-1.963T15 14m0-2q1.35 0 2.5.363t2.875 1.337q-.825-2.275-2.212-3.487T15 9q-3.025 0-6.038.488T3 10.6v4.875Q5.05 14.65 6.863 14t3.35-1.1t2.75-.675T15 12m0 0q-.825 0-2.037.225t-2.75.675t-3.35 1.1T3 15.475V10.6q2.95-.625 5.963-1.112T15 9q1.775 0 3.163 1.213t2.212 3.487q-1.725-.975-2.875-1.337T15 12");
+  d: path("M15 14q-.775 0-1.937.238t-2.726.725T6.8 16.175T2.375 17.9L1 16.975V8.95q3.45-.675 6.963-1.312T15 7q3.1 0 5.313 2.488T23.025 16l-1.775.675q-1.6-1.25-3.275-1.963T15 14");
 }
 
 </style>

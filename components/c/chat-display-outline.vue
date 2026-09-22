@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="ygt-sj6nc"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:chat-display-outline" /></template>
+<style>
+.ygt-sj6nc {
+  fill: currentColor;
+  d: path("M4 12v5.125V4zm2-1h12V9H6zm0-3h12V6H6zM2 22V4q0-.825.588-1.412T4 2h16q.825 0 1.413.588T22 4v8.55q-.45-.275-.95-.413T20 12V4H4v13.125L5.15 16H9v2H6zm4-8h3.525q.525-.9 1.438-1.45T13 12H6zm7 8q-.825 0-1.412-.587T11 20v-4q0-.825.588-1.412T13 14h7q.825 0 1.413.588T22 16v4q0 .825-.587 1.413T20 22zm0-2h7v-4h-7z");
+}
+
+</style>

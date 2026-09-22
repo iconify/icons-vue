@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/devicon-plain",
   "type": "module",
-  "version": "1.0.23",
+  "version": "1.0.24",
   "homepage": "https://icon-sets.iconify.design/devicon-plain/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -1565,6 +1565,14 @@
     "./libgdx": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/l/libgdx.vue"
+    },
+    "./linear": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/linear.vue"
+    },
+    "./linear-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/linear-wordmark.vue"
     },
     "./linkedin": {
       "types": "./types/dd0bq22g.d.ts",

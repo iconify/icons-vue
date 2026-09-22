@@ -1,5 +1,6 @@
 # @iconify-vue/material-symbols-light
 
+⚠️ This is an alternative repository. Main repository has moved to [GitLab](https://gitlab.com/iconify-icons/vue/-/tree/material-symbols-light).
 **Material Symbols Light**
 
 Author: [Google](https://github.com/google/material-design-icons)
@@ -10,6 +11,11 @@ Browse all icons: [preview Material Symbols Light on Iconify](https://icon-sets.
 
 ## Installation
 
+```bash
+npm install gitlab:iconify-icons/vue#material-symbols-light
+```
+
+or
 ```bash
 npm install github:iconify/icons-vue#material-symbols-light
 ```

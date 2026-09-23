@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/thesvg",
   "type": "module",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "homepage": "https://icon-sets.iconify.design/thesvg/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -8826,6 +8826,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/n/nodebb.vue"
     },
+    "./nodebo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nodebo.vue"
+    },
     "./nodedotjs": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/n/nodedotjs.vue"
@@ -9121,6 +9125,10 @@
     "./okta": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/o/okta.vue"
+    },
+    "./okta-legacy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/okta-legacy.vue"
     },
     "./okx": {
       "types": "./types/dd0bq22g.d.ts",

@@ -2,11 +2,11 @@
 import { Icon } from '@iconify/css-vue';
 import '../../css/n/nrj6p8qat.css';
 import '../../css/w/wqf_9i70w.css';
-import '../../css/c/cvd8a-02h.css';
+import '../../css/b/b5d7f1b7l.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="nrj6p8qat"><rect class="wqf_9i70w"/><path class="cvd8a-02h"/></g>`;
+const content = `<g class="nrj6p8qat"><rect class="wqf_9i70w"/><path class="b5d7f1b7l"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="meteor-icons:gamepad" /></template>

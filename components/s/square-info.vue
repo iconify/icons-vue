@@ -2,11 +2,11 @@
 import { Icon } from '@iconify/css-vue';
 import '../../css/n/nrj6p8qat.css';
 import '../../css/j/jhxi-trnl.css';
-import '../../css/v/v0y09obth.css';
+import '../../css/g/gd0-dpwog.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="nrj6p8qat"><rect class="jhxi-trnl"/><path class="v0y09obth"/></g>`;
+const content = `<g class="nrj6p8qat"><rect class="jhxi-trnl"/><path class="gd0-dpwog"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="meteor-icons:square-info" /></template>

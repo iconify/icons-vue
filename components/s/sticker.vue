@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/q/qlo3fdcax.css';
+import '../../css/c/c6o0fxbcs.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="qlo3fdcax"/>`;
+const content = `<path class="c6o0fxbcs"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="meteor-icons:sticker" /></template>

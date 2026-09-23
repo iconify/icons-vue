@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/u/ugb4-ibeq.css';
+import '../../css/k/krnq7hbqk.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="ugb4-ibeq"/>`;
+const content = `<path class="krnq7hbqk"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="meteor-icons:fish" /></template>

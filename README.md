@@ -1,5 +1,6 @@
 # @iconify-vue/meteor-icons
 
+⚠️ This is an alternative repository. Main repository has moved to [GitLab](https://gitlab.com/iconify-icons/vue/-/tree/meteor-icons).
 **Meteor Icons**
 
 Author: [zkreations](https://github.com/zkreations/icons)
@@ -10,6 +11,11 @@ Browse all icons: [preview Meteor Icons on Iconify](https://icon-sets.iconify.de
 
 ## Installation
 
+```bash
+npm install gitlab:iconify-icons/vue#meteor-icons
+```
+
+or
 ```bash
 npm install github:iconify/icons-vue#meteor-icons
 ```

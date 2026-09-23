@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/meteor-icons",
   "type": "module",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "homepage": "https://icon-sets.iconify.design/meteor-icons/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -205,6 +205,10 @@
     "./badge-check": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/badge-check.vue"
+    },
+    "./badge-percent": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/badge-percent.vue"
     },
     "./barcode": {
       "types": "./types/dd0bq22g.d.ts",
@@ -1301,6 +1305,10 @@
     "./refresh": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/r/refresh.vue"
+    },
+    "./regex": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/regex.vue"
     },
     "./rhombus": {
       "types": "./types/dd0bq22g.d.ts",

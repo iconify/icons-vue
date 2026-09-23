@@ -1,12 +1,12 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
 import '../../css/n/nrj6p8qat.css';
-import '../../css/h/hble56f9w.css';
-import '../../css/q/qwkjko7pb.css';
+import '../../css/z/zgwutpbmz.css';
+import '../../css/w/wt-af070s.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="nrj6p8qat"><path class="hble56f9w"/><path class="qwkjko7pb"/></g>`;
+const content = `<g class="nrj6p8qat"><path class="zgwutpbmz"/><path class="wt-af070s"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:pen-sparkles-fill" /></template>

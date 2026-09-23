@@ -1,0 +1,13 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/g/gp_8x1bzb.css';
+import '../../css/w/w33rvnbme.css';
+import '../../css/w/w575o1bvn.css';
+import '../../css/c/currik_tu.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="gp_8x1bzb"><path class="w33rvnbme"/><path class="w575o1bvn"/><path class="currik_tu"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:sticky-note-sparkles-sharp-two-tone" /></template>

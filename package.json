@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/selfhst",
   "type": "module",
-  "version": "1.0.21",
+  "version": "1.0.22",
   "homepage": "https://icon-sets.iconify.design/selfhst/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "CC-BY-4.0",
@@ -425,6 +425,18 @@
     "./agregarr-light": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/agregarr-light.vue"
+    },
+    "./aiometadata": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/aiometadata.vue"
+    },
+    "./aiometadata-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/aiometadata-dark.vue"
+    },
+    "./aiometadata-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/aiometadata-light.vue"
     },
     "./aiostreams": {
       "types": "./types/dd0bq22g.d.ts",
@@ -3194,6 +3206,18 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/certimate-light.vue"
     },
+    "./cetusguard": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cetusguard.vue"
+    },
+    "./cetusguard-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cetusguard-dark.vue"
+    },
+    "./cetusguard-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cetusguard-light.vue"
+    },
     "./changedetection": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/changedetection.vue"
@@ -4373,6 +4397,18 @@
     "./crow-ci-light": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/crow-ci-light.vue"
+    },
+    "./crowbarr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/crowbarr.vue"
+    },
+    "./crowbarr-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/crowbarr-dark.vue"
+    },
+    "./crowbarr-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/crowbarr-light.vue"
     },
     "./crowdsec": {
       "types": "./types/dd0bq22g.d.ts",
@@ -18638,6 +18674,18 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/patreon-light.vue"
     },
+    "./patzer": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/patzer.vue"
+    },
+    "./patzer-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/patzer-dark.vue"
+    },
+    "./patzer-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/patzer-light.vue"
+    },
     "./payload": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/payload.vue"
@@ -18945,6 +18993,18 @@
     "./pgadmin-light": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/pgadmin-light.vue"
+    },
+    "./pgsty-silo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pgsty-silo.vue"
+    },
+    "./pgsty-silo-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pgsty-silo-dark.vue"
+    },
+    "./pgsty-silo-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pgsty-silo-light.vue"
     },
     "./phanpy": {
       "types": "./types/dd0bq22g.d.ts",
@@ -23225,6 +23285,18 @@
     "./silex-light": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/silex-light.vue"
+    },
+    "./silo-media-server": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/silo-media-server.vue"
+    },
+    "./silo-media-server-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/silo-media-server-dark.vue"
+    },
+    "./silo-media-server-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/silo-media-server-light.vue"
     },
     "./simpledms": {
       "types": "./types/dd0bq22g.d.ts",
@@ -27741,6 +27813,10 @@
     "./windows-terminal-light": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/w/windows-terminal-light.vue"
+    },
+    "./windshift": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/windshift.vue"
     },
     "./wiredoor": {
       "types": "./types/dd0bq22g.d.ts",

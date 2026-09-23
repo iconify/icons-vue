@@ -1,5 +1,6 @@
 # @iconify-vue/tabler
 
+⚠️ This is an alternative repository. Main repository has moved to [GitLab](https://gitlab.com/iconify-icons/vue/-/tree/tabler).
 **Tabler Icons**
 
 Author: [Paweł Kuna](https://github.com/tabler/tabler-icons)
@@ -10,6 +11,11 @@ Browse all icons: [preview Tabler Icons on Iconify](https://icon-sets.iconify.de
 
 ## Installation
 
+```bash
+npm install gitlab:iconify-icons/vue#tabler
+```
+
+or
 ```bash
 npm install github:iconify/icons-vue#tabler
 ```

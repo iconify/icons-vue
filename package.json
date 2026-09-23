@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/thesvg-color",
   "type": "module",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "homepage": "https://icon-sets.iconify.design/thesvg-color/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -4354,6 +4354,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/digitalocean.vue"
     },
+    "./digitus": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/digitus.vue"
+    },
     "./diners-club": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/diners-club.vue"
@@ -6957,6 +6961,10 @@
     "./grails": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/grails.vue"
+    },
+    "./gram": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gram.vue"
     },
     "./grammarly": {
       "types": "./types/dd0bq22g.d.ts",
@@ -11634,6 +11642,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/n/nodebb.vue"
     },
+    "./nodebo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nodebo.vue"
+    },
     "./nodedotjs": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/n/nodedotjs.vue"
@@ -11769,6 +11781,10 @@
     "./now": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/n/now.vue"
+    },
+    "./nowly": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nowly.vue"
     },
     "./nplcloud": {
       "types": "./types/dd0bq22g.d.ts",
@@ -12029,6 +12045,10 @@
     "./okta": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/o/okta.vue"
+    },
+    "./okta-legacy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/okta-legacy.vue"
     },
     "./okx": {
       "types": "./types/dd0bq22g.d.ts",

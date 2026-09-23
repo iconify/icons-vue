@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/wordpress",
   "type": "module",
-  "version": "1.0.20",
+  "version": "1.0.21",
   "homepage": "https://icon-sets.iconify.design/wordpress/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "GPL-2.0-or-later",
@@ -510,6 +510,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/fullscreen.vue"
     },
+    "./fullscreen-exit": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fullscreen-exit.vue"
+    },
     "./funnel": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/funnel.vue"
@@ -645,6 +649,10 @@
     "./justify-space-between-vertical": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/j/justify-space-between-vertical.vue"
+    },
+    "./justify-space-evenly": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/justify-space-evenly.vue"
     },
     "./justify-stretch": {
       "types": "./types/dd0bq22g.d.ts",
@@ -993,6 +1001,10 @@
     "./quote": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/q/quote.vue"
+    },
+    "./reaction": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/reaction.vue"
     },
     "./receipt": {
       "types": "./types/dd0bq22g.d.ts",

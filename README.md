@@ -1,19 +1,21 @@
 # @iconify-vue/carbon
 
-Icon set prefix: **carbon**
+⚠️ This is an alternative repository. Main repository has moved to [GitLab](https://gitlab.com/iconify-icons/vue/-/tree/carbon).
+**Carbon**
 
-Icon set name: **Carbon**
+Author: [IBM](https://github.com/carbon-design-system/carbon/tree/main/packages/icons)
 
-Author: **IBM**
+License: Apache 2.0
 
-License: **Apache 2.0**
-
-Repository: **https://github.com/carbon-design-system/carbon/tree/main/packages/icons**
-
-Browse all icons: **[Preview Carbon](https://icon-sets.iconify.design/carbon/)**
+Browse all icons: [preview Carbon on Iconify](https://icon-sets.iconify.design/carbon/)
 
 ## Installation
 
+```bash
+npm install gitlab:iconify-icons/vue#carbon
+```
+
+or
 ```bash
 npm install github:iconify/icons-vue#carbon
 ```

@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/carbon",
   "type": "module",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "homepage": "https://icon-sets.iconify.design/carbon/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "Apache-2.0",
@@ -626,6 +626,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/asset-digital-twin.vue"
     },
+    "./asset-edit": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/asset-edit.vue"
+    },
     "./asset-movement": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/asset-movement.vue"
@@ -781,6 +785,10 @@
     "./battery-warning": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/battery-warning.vue"
+    },
+    "./beacon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/beacon.vue"
     },
     "./bee": {
       "types": "./types/dd0bq22g.d.ts",
@@ -2261,6 +2269,30 @@
     "./content-delivery-network": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/content-delivery-network.vue"
+    },
+    "./content-navigator-edit-service-download": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/content-navigator-edit-service-download.vue"
+    },
+    "./content-navigator-edit-service-upload": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/content-navigator-edit-service-upload.vue"
+    },
+    "./content-navigator-sync-error": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/content-navigator-sync-error.vue"
+    },
+    "./content-navigator-sync-loading": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/content-navigator-sync-loading.vue"
+    },
+    "./content-navigator-sync-paused": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/content-navigator-sync-paused.vue"
+    },
+    "./content-navigator-sync-warning": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/content-navigator-sync-warning.vue"
     },
     "./content-view": {
       "types": "./types/dd0bq22g.d.ts",
@@ -6434,6 +6466,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/marine-warning.vue"
     },
+    "./markdown": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/markdown.vue"
+    },
     "./material-request": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/material-request.vue"
@@ -7990,6 +8026,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/r/recycle.vue"
     },
+    "./red-hat-ai-inference-on-ibm-cloud": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/red-hat-ai-inference-on-ibm-cloud.vue"
+    },
     "./red-hat-ai-instructlab-on-ibm-cloud": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/r/red-hat-ai-instructlab-on-ibm-cloud.vue"
@@ -9109,6 +9149,10 @@
     "./stem-leaf-plot": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/stem-leaf-plot.vue"
+    },
+    "./stepzen-graph-server": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stepzen-graph-server.vue"
     },
     "./stethoscope": {
       "types": "./types/dd0bq22g.d.ts",
@@ -10526,6 +10570,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/v/view-filled.vue"
     },
+    "./view-matrix": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/view-matrix.vue"
+    },
     "./view-mode-1": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/v/view-mode-1.vue"
@@ -10545,6 +10593,10 @@
     "./view-off-filled": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/v/view-off-filled.vue"
+    },
+    "./view-table": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/view-table.vue"
     },
     "./vintage-mac": {
       "types": "./types/dd0bq22g.d.ts",

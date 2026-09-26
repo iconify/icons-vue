@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/wordpress",
   "type": "module",
-  "version": "1.0.21",
+  "version": "1.0.22",
   "homepage": "https://icon-sets.iconify.design/wordpress/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "GPL-2.0-or-later",
@@ -641,6 +641,10 @@
     "./justify-right": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/j/justify-right.vue"
+    },
+    "./justify-space-around": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/justify-space-around.vue"
     },
     "./justify-space-between": {
       "types": "./types/dd0bq22g.d.ts",

@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/vscode-icons",
   "type": "module",
-  "version": "1.0.55",
+  "version": "1.0.56",
   "homepage": "https://icon-sets.iconify.design/vscode-icons/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -501,6 +501,10 @@
     "./file-type-cheader": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-cheader.vue"
+    },
+    "./file-type-checkov": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-type-checkov.vue"
     },
     "./file-type-chef": {
       "types": "./types/dd0bq22g.d.ts",
@@ -1962,6 +1966,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-light-cabal.vue"
     },
+    "./file-type-light-checkov": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-type-light-checkov.vue"
+    },
     "./file-type-light-circleci": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-light-circleci.vue"
@@ -2274,6 +2282,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-light-purescript.vue"
     },
+    "./file-type-light-pyrefly": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-type-light-pyrefly.vue"
+    },
     "./file-type-light-quarkdown": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-light-quarkdown.vue"
@@ -2457,6 +2469,14 @@
     "./file-type-light-vitest": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-light-vitest.vue"
+    },
+    "./file-type-light-vlt": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-type-light-vlt.vue"
+    },
+    "./file-type-light-vlt2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-type-light-vlt2.vue"
     },
     "./file-type-light-vsix": {
       "types": "./types/dd0bq22g.d.ts",
@@ -3610,6 +3630,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-pypi.vue"
     },
+    "./file-type-pyrefly": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-type-pyrefly.vue"
+    },
     "./file-type-pyret": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-pyret.vue"
@@ -3673,6 +3697,14 @@
     "./file-type-quarkdown": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-quarkdown.vue"
+    },
+    "./file-type-quarto": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-type-quarto.vue"
+    },
+    "./file-type-quartoconfig": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-type-quartoconfig.vue"
     },
     "./file-type-quasar": {
       "types": "./types/dd0bq22g.d.ts",
@@ -3970,6 +4002,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-shaderlab.vue"
     },
+    "./file-type-shaderslang": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-type-shaderslang.vue"
+    },
     "./file-type-shell": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-shell.vue"
@@ -4013,6 +4049,10 @@
     "./file-type-slang": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-slang.vue"
+    },
+    "./file-type-slangacademic": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-type-slangacademic.vue"
     },
     "./file-type-slashup": {
       "types": "./types/dd0bq22g.d.ts",
@@ -4101,6 +4141,10 @@
     "./file-type-sqlite": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-sqlite.vue"
+    },
+    "./file-type-sqlproj": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-type-sqlproj.vue"
     },
     "./file-type-squirrel": {
       "types": "./types/dd0bq22g.d.ts",
@@ -4569,6 +4613,14 @@
     "./file-type-vlang": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-vlang.vue"
+    },
+    "./file-type-vlt": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-type-vlt.vue"
+    },
+    "./file-type-vlt2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-type-vlt2.vue"
     },
     "./file-type-volt": {
       "types": "./types/dd0bq22g.d.ts",

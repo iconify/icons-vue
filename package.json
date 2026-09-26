@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/pinhead",
   "type": "module",
-  "version": "1.0.32",
+  "version": "1.0.33",
   "homepage": "https://icon-sets.iconify.design/pinhead/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "CC0-1.0",
@@ -7153,6 +7153,10 @@
     "./phone-top-right": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/phone-top-right.vue"
+    },
+    "./phone-top-right-with-exclamation-point": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/phone-top-right-with-exclamation-point.vue"
     },
     "./phone-top-right-with-greek-cross": {
       "types": "./types/dd0bq22g.d.ts",

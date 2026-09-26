@@ -1,5 +1,6 @@
 # @iconify-vue/noto
 
+⚠️ This is an alternative repository. Main repository has moved to [GitLab](https://gitlab.com/iconify-icons/vue/-/tree/noto).
 **Noto Emoji**
 
 Author: [Google Inc](https://github.com/googlefonts/noto-emoji)
@@ -10,6 +11,11 @@ Browse all icons: [preview Noto Emoji on Iconify](https://icon-sets.iconify.desi
 
 ## Installation
 
+```bash
+npm install gitlab:iconify-icons/vue#noto
+```
+
+or
 ```bash
 npm install github:iconify/icons-vue#noto
 ```

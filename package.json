@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/lucide",
   "type": "module",
-  "version": "1.0.70",
+  "version": "1.0.71",
   "homepage": "https://icon-sets.iconify.design/lucide/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "ISC",
@@ -561,6 +561,10 @@
     "./bandage": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/bandage.vue"
+    },
+    "./bangladeshi-taka": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bangladeshi-taka.vue"
     },
     "./banknote": {
       "types": "./types/dd0bq22g.d.ts",
@@ -3658,6 +3662,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/house.vue"
     },
+    "./house-cog": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/house-cog.vue"
+    },
     "./house-heart": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/house-heart.vue"
@@ -3981,6 +3989,10 @@
     "./letter-text": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/l/letter-text.vue"
+    },
+    "./letters": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/letters.vue"
     },
     "./library": {
       "types": "./types/dd0bq22g.d.ts",

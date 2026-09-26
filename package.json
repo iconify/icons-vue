@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/devicon",
   "type": "module",
-  "version": "1.0.26",
+  "version": "1.0.27",
   "homepage": "https://icon-sets.iconify.design/devicon/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -1617,6 +1617,14 @@
     "./hyprland-wordmark": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/hyprland-wordmark.vue"
+    },
+    "./icinga": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/icinga.vue"
+    },
+    "./icinga-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/icinga-wordmark.vue"
     },
     "./ie10": {
       "types": "./types/dd0bq22g.d.ts",

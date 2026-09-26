@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/l/ljcmle9zq.css';
+import '../../css/u/un9hywbsg.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path clip-rule="evenodd" class="ljcmle9zq"/>`;
+const content = `<path clip-rule="evenodd" class="un9hywbsg"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:telescope-outline" /></template>

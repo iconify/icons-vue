@@ -1,13 +1,15 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/n1lsf0bnc.css';
-import '../../css/b/b-jkxsbde.css';
-import '../../css/v/v2xfabcfj.css';
-import '../../css/w/w05w1wx4w.css';
+import '../../css/c/cuyn6tgcc.css';
+import '../../css/y/yz0ujqbim.css';
+import '../../css/k/kdd-19ezf.css';
+import '../../css/h/hw34cebkg.css';
+import '../../css/m/mcvbrbb3a.css';
+import '../../css/w/winjwabdp.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g clip-rule="evenodd" class="n1lsf0bnc"><path class="b-jkxsbde"/><path class="v2xfabcfj"/><path class="w05w1wx4w"/></g>`;
+const content = `<g class="cuyn6tgcc"><path class="yz0ujqbim"/><path class="kdd-19ezf"/><path class="hw34cebkg"/><path class="mcvbrbb3a"/><path clip-rule="evenodd" class="winjwabdp"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:minimalistic-magnifer-bug-bold" /></template>

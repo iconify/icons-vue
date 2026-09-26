@@ -1,5 +1,6 @@
 # @iconify-vue/fluent
 
+⚠️ This is an alternative repository. Main repository has moved to [GitLab](https://gitlab.com/iconify-icons/vue/-/tree/fluent).
 **Fluent UI System Icons**
 
 Author: [Microsoft Corporation](https://github.com/microsoft/fluentui-system-icons)
@@ -10,6 +11,11 @@ Browse all icons: [preview Fluent UI System Icons on Iconify](https://icon-sets.
 
 ## Installation
 
+```bash
+npm install gitlab:iconify-icons/vue#fluent
+```
+
+or
 ```bash
 npm install github:iconify/icons-vue#fluent
 ```

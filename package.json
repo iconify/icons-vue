@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/fluent",
   "type": "module",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "homepage": "https://icon-sets.iconify.design/fluent/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -6993,6 +6993,30 @@
     "./autopilot-20-regular": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/autopilot-20-regular.vue"
+    },
+    "./autopilot-24-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/autopilot-24-filled.vue"
+    },
+    "./autopilot-24-regular": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/autopilot-24-regular.vue"
+    },
+    "./autopilot-28-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/autopilot-28-filled.vue"
+    },
+    "./autopilot-28-regular": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/autopilot-28-regular.vue"
+    },
+    "./autopilot-32-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/autopilot-32-filled.vue"
+    },
+    "./autopilot-32-regular": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/autopilot-32-regular.vue"
     },
     "./autosum-16-filled": {
       "types": "./types/dd0bq22g.d.ts",
@@ -17617,6 +17641,14 @@
     "./circle-image-28-regular": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/circle-image-28-regular.vue"
+    },
+    "./circle-image-off-20-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/circle-image-off-20-filled.vue"
+    },
+    "./circle-image-off-20-regular": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/circle-image-off-20-regular.vue"
     },
     "./circle-line-12-filled": {
       "types": "./types/dd0bq22g.d.ts",
@@ -39806,6 +39838,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/k/keyboard-mouse-16-regular.vue"
     },
+    "./keyboard-mouse-20-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/keyboard-mouse-20-filled.vue"
+    },
+    "./keyboard-mouse-20-regular": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/keyboard-mouse-20-regular.vue"
+    },
+    "./keyboard-mouse-off-20-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/keyboard-mouse-off-20-filled.vue"
+    },
+    "./keyboard-mouse-off-20-regular": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/keyboard-mouse-off-20-regular.vue"
+    },
     "./keyboard-off-16-filled": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/k/keyboard-off-16-filled.vue"
@@ -54726,6 +54774,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/pipeline-play-20-regular.vue"
     },
+    "./pivot-16-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pivot-16-filled.vue"
+    },
+    "./pivot-16-regular": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pivot-16-regular.vue"
+    },
     "./pivot-20-filled": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/pivot-20-filled.vue"
@@ -57738,6 +57794,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/r/rename-28-regular.vue"
     },
+    "./rename-a-16-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rename-a-16-filled.vue"
+    },
+    "./rename-a-16-regular": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rename-a-16-regular.vue"
+    },
     "./rename-a-20-filled": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/r/rename-a-20-filled.vue"
@@ -57745,6 +57809,22 @@
     "./rename-a-20-regular": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/r/rename-a-20-regular.vue"
+    },
+    "./rename-a-24-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rename-a-24-filled.vue"
+    },
+    "./rename-a-24-regular": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rename-a-24-regular.vue"
+    },
+    "./rename-a-28-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rename-a-28-filled.vue"
+    },
+    "./rename-a-28-regular": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rename-a-28-regular.vue"
     },
     "./reorder-20-filled": {
       "types": "./types/dd0bq22g.d.ts",
@@ -71582,6 +71662,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/text-clear-formatting-ga-24-regular.vue"
     },
+    "./text-collapse-16-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/text-collapse-16-filled.vue"
+    },
+    "./text-collapse-16-regular": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/text-collapse-16-regular.vue"
+    },
     "./text-collapse-20-filled": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/text-collapse-20-filled.vue"
@@ -71598,9 +71686,25 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/text-collapse-24-regular.vue"
     },
+    "./text-collapse-28-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/text-collapse-28-filled.vue"
+    },
+    "./text-collapse-28-regular": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/text-collapse-28-regular.vue"
+    },
+    "./text-collapse-32-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/text-collapse-32-filled.vue"
+    },
     "./text-collapse-32-light": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/text-collapse-32-light.vue"
+    },
+    "./text-collapse-32-regular": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/text-collapse-32-regular.vue"
     },
     "./text-color-16-filled": {
       "types": "./types/dd0bq22g.d.ts",

@@ -4,13 +4,13 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="qwbh57b2z"/>`;
+const content = `<path class="qb30fqvcr"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:rename-24-regular" /></template>
 <style>
-.qwbh57b2z {
+.qb30fqvcr {
   fill: currentColor;
-  d: path("M9.75 2h3.998a.75.75 0 0 1 .102 1.493l-.102.007H12.5v17h1.245a.75.75 0 0 1 .743.648l.007.102a.75.75 0 0 1-.648.743l-.102.007H9.75a.75.75 0 0 1-.102-1.493l.102-.007H11v-17H9.75a.75.75 0 0 1-.743-.648L9 2.75a.75.75 0 0 1 .648-.743zh3.998zm8.496 2.997a3.253 3.253 0 0 1 3.25 3.25l.004 7.504a3.25 3.25 0 0 1-3.064 3.246l-.186.005h-4.745v-1.5h4.803A1.75 1.75 0 0 0 20 15.751l-.003-7.505a1.753 1.753 0 0 0-1.752-1.75h-4.74v-1.5zm-8.246 0v1.5H5.25a1.75 1.75 0 0 0-1.75 1.75v7.504c0 .967.784 1.75 1.75 1.75h4.745v1.5H5.25A3.25 3.25 0 0 1 2 15.751V8.247a3.25 3.25 0 0 1 3.25-3.25z");
+  d: path("M14.25 2a.75.75 0 1 1 0 1.5h-1.5v17h1.5a.75.75 0 1 1 0 1.5h-4.5a.75.75 0 0 1 0-1.5h1.5v-17h-1.5a.75.75 0 0 1 0-1.5zm-4 4.5h-5A1.75 1.75 0 0 0 3.5 8.25v7.5c0 .966.784 1.75 1.75 1.75h5V19h-5A3.25 3.25 0 0 1 2 15.75v-7.5A3.25 3.25 0 0 1 5.25 5h5zm8.5-1.5A3.25 3.25 0 0 1 22 8.25v7.5A3.25 3.25 0 0 1 18.75 19h-5v-1.5h5a1.75 1.75 0 0 0 1.75-1.75v-7.5a1.75 1.75 0 0 0-1.75-1.75h-5V5z");
 }
 
 </style>

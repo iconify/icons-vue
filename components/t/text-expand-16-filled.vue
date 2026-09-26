@@ -4,13 +4,13 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":16,"height":16};
-const content = `<path class="aa2ipkbub"/>`;
+const content = `<path class="v24wnnrbm"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:text-expand-16-filled" /></template>
 <style>
-.aa2ipkbub {
+.v24wnnrbm {
   fill: currentColor;
-  d: path("M2 2.75A.75.75 0 0 1 2.75 2h10.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 2.75M4.5 12a3.5 3.5 0 1 1 0-7a3.5 3.5 0 0 1 0 7M5 6.5a.5.5 0 0 0-1 0V8H2.5a.5.5 0 0 0 0 1H4v1.5a.5.5 0 0 0 1 0V9h1.5a.5.5 0 0 0 0-1H5zm-2.25 7a.75.75 0 0 0 0 1.5h10.5a.75.75 0 0 0 0-1.5zM9 10.75a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 0 1.5h-3.5a.75.75 0 0 1-.75-.75M9.75 6a.75.75 0 0 0 0 1.5h3.5a.75.75 0 0 0 0-1.5z");
+  d: path("M13.25 12.5a.75.75 0 0 1 0 1.5h-9.5a.75.75 0 0 1 0-1.5zm-8.75-8a3.5 3.5 0 1 1 0 7a3.5 3.5 0 0 1 0-7m0 1.5a.5.5 0 0 0-.5.5v1H3a.5.5 0 0 0 0 1h1v1a.5.5 0 0 0 1 0v-1h1a.5.5 0 0 0 0-1H5v-1a.5.5 0 0 0-.5-.5m8.75 3a.75.75 0 0 1 0 1.5h-3.5a.75.75 0 0 1 0-1.5zm0-3.5a.75.75 0 0 1 0 1.5h-3.5a.75.75 0 0 1 0-1.5zm0-3.5a.75.75 0 0 1 0 1.5h-9.5a.75.75 0 0 1 0-1.5z");
 }
 
 </style>

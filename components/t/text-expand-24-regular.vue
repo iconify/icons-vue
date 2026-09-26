@@ -4,13 +4,13 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="ltpu4-5-h"/>`;
+const content = `<path class="on7ip4b2w"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:text-expand-24-regular" /></template>
 <style>
-.ltpu4-5-h {
+.on7ip4b2w {
   fill: currentColor;
-  d: path("M6.75 19.5h14.5a.75.75 0 0 0 .102-1.493L21.25 18H6.75a.75.75 0 0 0-.102 1.493zm0-15h14.5a.75.75 0 0 0 .102-1.493L21.25 3H6.75a.75.75 0 0 0-.102 1.493zm7 3.5a.75.75 0 0 0 0 1.5h7.5a.75.75 0 0 0 0-1.5zM13 13.75a.75.75 0 0 1 .75-.75h7.5a.75.75 0 0 1 0 1.5h-7.5a.75.75 0 0 1-.75-.75m-2-2.25a4.5 4.5 0 1 1-9 0a4.5 4.5 0 0 1 9 0m-4-2a.5.5 0 0 0-1 0V11H4.5a.5.5 0 0 0 0 1H6v1.5a.5.5 0 0 0 1 0V12h1.5a.5.5 0 0 0 0-1H7z");
+  d: path("M21.25 18a.75.75 0 0 1 0 1.5H5.75a.75.75 0 0 1 0-1.5zM6.5 7a4.5 4.5 0 1 1 0 9a4.5 4.5 0 0 1 0-9m0 2a.5.5 0 0 0-.5.5V11H4.5a.5.5 0 0 0 0 1H6v1.5a.5.5 0 0 0 1 0V12h1.5a.5.5 0 0 0 0-1H7V9.5a.5.5 0 0 0-.5-.5m14.75 4a.75.75 0 0 1 0 1.5h-7.5a.75.75 0 0 1 0-1.5zm0-5a.75.75 0 0 1 0 1.5h-7.5a.75.75 0 0 1 0-1.5zm0-5a.75.75 0 0 1 0 1.5H5.75a.75.75 0 0 1 0-1.5z");
 }
 
 </style>

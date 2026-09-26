@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/u/ux863l7jy.css';
-import '../../css/u/uewkoebro.css';
-import '../../css/y/ytveh6zgx.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,32 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path class="ux863l7jy"/><path class="uewkoebro"/><path clip-rule="evenodd" class="ytveh6zgx"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:bug-duotone" /></template>
+<style>
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.uewkoebro {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M11 12C11 11.4477 11.4477 11 12 11C12.5523 11 13 11.4477 13 12L13 15.6C13 16.1523 12.5523 16.6 12 16.6C11.4477 16.6 11 16.1523 11 15.6Z");
+  stroke: none;
+}
+
+.ux863l7jy {
+  stroke-opacity: 0.4;
+  d: path("M9 7.694L9 5.695C9 4.972 9.317 4.316 9.832 3.832C10.378 3.319 11.148 3 12 3C12.852 3 13.622 3.319 14.168 3.832C14.683 4.316 15 4.972 15 5.695L15 7.694M8 2L9.832 3.832M16 2L14.168 3.832M20 4.6L20 5.57C20 7.485 18.796 9.055 17.2 9.4M4 4.6L4 5.57C4 7.485 5.204 9.055 6.8 9.4M21 13.4L17.5 13.4M3 13.4L6.5 13.4M20.5 22L20.5 21.03C20.5 19.215 18.931 17.727 16.85 17.4M3.5 22L3.5 21.03C3.5 19.215 5.07 17.727 7.15 17.4");
+}
+
+.ytveh6zgx {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M5.8715 9.0286C5.6143 9.6717 5.5 10.3228 5.5 10.9L5.5 14.6C5.5 18.2152 8.4058 21.2 12 21.2C15.5942 21.2 18.5 18.2152 18.5 14.6L18.5 10.9C18.5 10.3228 18.3857 9.6717 18.1285 9.0286C18.0881 8.9277 18.0316 8.8341 17.9611 8.7514C16.473 7.0053 14.2937 6 12 6C9.7063 6 7.527 7.0053 6.0389 8.7514C5.9684 8.8341 5.9119 8.9277 5.8715 9.0286ZM11 12C11 11.4477 11.4477 11 12 11C12.5523 11 13 11.4477 13 12L13 15.6C13 16.1523 12.5523 16.6 12 16.6C11.4477 16.6 11 16.1523 11 15.6Z");
+  stroke: none;
+}
+
+</style>

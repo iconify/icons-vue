@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/g/gp_8x1bzb.css';
-import '../../css/r/r1f-eub4c.css';
-import '../../css/g/gkncmjbfy.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,22 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="gp_8x1bzb"><path class="r1f-eub4c"/><path class="gkncmjbfy"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:paint-roller-sharp-fill" /></template>
+<style>
+.gkncmjbfy {
+  d: path("M18 5.5L22 5.5L22 13L13 13L13 16");
+}
+
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.r1f-eub4c {
+  fill: currentColor;
+  d: path("M2 1L18 1C18.5523 1 19 1.4477 19 2L19 9C19 9.5523 18.5523 10 18 10L2 10C1.4477 10 1 9.5523 1 9L1 2C1 1.4477 1.4477 1 2 1ZM11 15L15 15C15.5523 15 16 15.4477 16 16L16 22C16 22.5523 15.5523 23 15 23L11 23C10.4477 23 10 22.5523 10 22L10 16C10 15.4477 10.4477 15 11 15Z");
+  stroke: none;
+}
+
+</style>

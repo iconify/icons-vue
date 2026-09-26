@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/g/gp_8x1bzb.css';
-import '../../css/x/xhu41lreu.css';
-import '../../css/s/s0_--vbqm.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,22 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="gp_8x1bzb"><path class="xhu41lreu"/><path class="s0_--vbqm"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:circles-dashed-sharp-fill" /></template>
+<style>
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.s0_--vbqm {
+  d: path("M4.7576 14.6566L4.0503 13.9497C3.8804 13.7799 3.7193 13.6013 3.5678 13.4149L2.9371 12.6389M2.14 10.7141L2.0371 9.7194C1.9876 9.2411 1.9876 8.7589 2.0371 8.2806L2.14 7.2859M2.937 5.3611L3.5678 4.5851C3.8711 4.212 4.212 3.8711 4.5851 3.5678L5.3611 2.937M7.2859 2.14L8.2806 2.0371C8.7589 1.9876 9.2411 1.9876 9.7194 2.0371L10.7141 2.14M12.6389 2.9371L13.4149 3.5678C13.6013 3.7193 13.7799 3.8804 13.9497 4.0503L14.6566 4.7576");
+}
+
+.xhu41lreu {
+  fill: currentColor;
+  d: path("M23 15C23 19.2803 19.2803 23 15 23C10.7197 23 7 19.2803 7 15C7 10.7197 10.7197 7 15 7C19.2803 7 23 10.7197 23 15Z");
+  stroke: none;
+}
+
+</style>

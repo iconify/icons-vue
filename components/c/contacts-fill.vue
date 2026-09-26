@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/w/w01yo8w-q.css';
-import '../../css/x/x0tsfw-2d.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,24 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path clip-rule="evenodd" class="w01yo8w-q"/><path class="x0tsfw-2d"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:contacts-fill" /></template>
+<style>
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.w01yo8w-q {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M6 6L18 6C20.2091 6 22 7.7909 22 10L22 18C22 20.2091 20.2091 22 18 22L6 22C3.7909 22 2 20.2091 2 18L2 10C2 7.7909 3.7909 6 6 6ZM15 13C15 11.3431 13.6569 10 12 10C10.3431 10 9 11.3431 9 13C9 14.6569 10.3431 16 12 16C13.6569 16 15 14.6569 15 13ZM7.1716 20L16.8284 20C16.4046 18.8014 15.2713 18 14 18L10 18C8.7287 18 7.5954 18.8014 7.1716 20Z");
+  stroke: none;
+}
+
+.x0tsfw-2d {
+  d: path("M5 3L19 3");
+}
+
+</style>

@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/g/gp_8x1bzb.css';
-import '../../css/u/u0vby8oio.css';
-import '../../css/s/szh19hpiz.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,23 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="gp_8x1bzb"><path class="u0vby8oio"/><path class="szh19hpiz"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:wrench-sharp-duotone" /></template>
+<style>
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.szh19hpiz {
+  stroke-opacity: 0.4;
+  d: path("M15.3955 14.9992C15.3688 14.9987 15.342 14.9985 15.3152 14.9985C13.9891 14.9985 12.7173 15.5253 11.7797 16.463L7.1213 21.1213C6.5587 21.6839 5.7956 22 5 22C3.3431 22 2 20.6569 2 19C2 18.2044 2.3161 17.4413 2.8787 16.8787L7.537 12.2203C8.4747 11.2827 9.0015 10.0109 9.0015 8.6848C9.0015 8.658 9.0013 8.6312 9.0008 8.6045");
+}
+
+.u0vby8oio {
+  fill: currentColor;
+  d: path("M17.9749 8.1464L20.8034 5.318C21.0398 5.0816 21.3788 4.9789 21.7066 5.0445C22.0345 5.1101 22.3079 5.3352 22.4352 5.6444C23.7963 8.9502 22.6349 12.7573 19.6602 14.7404C16.6856 16.7235 12.7247 16.3313 10.1967 13.8033C7.6687 11.2753 7.2765 7.3144 9.2596 4.3398C11.2427 1.3651 15.0498 0.2037 18.3556 1.5649C18.6648 1.6921 18.8899 1.9655 18.9555 2.2934C19.0211 2.6212 18.9184 2.9602 18.682 3.1966L14.7929 7.0858L16.9142 9.2072Z");
+  stroke: none;
+}
+
+</style>

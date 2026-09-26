@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/u/ut7dywbpu.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,14 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="ut7dywbpu"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:flask-conical-off" /></template>
+<style>
+.ut7dywbpu {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M19.9976 20C19.9976 21.1046 19.1022 22 17.9976 22L6.0024 22C4.8978 22 4.0024 21.1046 4.0024 20C4.0024 19.7026 4.0687 19.4089 4.1966 19.1403L9.0162 9.0162M4.7394 18L18 18M9.5 3.8431L9.5 3C9.5 2.4477 9.9477 2 10.5 2L13.5 2C14.0523 2 14.5 2.4477 14.5 3L14.5 7.7741C14.5 7.9228 14.5332 8.0697 14.5971 8.204L15.2661 9.6092M8 2L16 2M2 2L22 22");
+}
+
+</style>

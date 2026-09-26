@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/b/bg9rrk_dd.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,11 @@ const viewBox = {"width":24,"height":24};
 const content = `<path clip-rule="evenodd" class="bg9rrk_dd"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:toggle-on-sharp-fill" /></template>
+<style>
+.bg9rrk_dd {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M2.5 5L21.5 5C22.3284 5 23 5.6716 23 6.5L23 17.5C23 18.3284 22.3284 19 21.5 19L2.5 19C1.6716 19 1 18.3284 1 17.5L1 6.5C1 5.6716 1.6716 5 2.5 5ZM14.5 9L17.5 9C18.3284 9 19 9.6716 19 10.5L19 13.5C19 14.3284 18.3284 15 17.5 15L14.5 15C13.6716 15 13 14.3284 13 13.5L13 10.5C13 9.6716 13.6716 9 14.5 9Z");
+}
+
+</style>

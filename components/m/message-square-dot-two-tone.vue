@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/n/ncfvknbzu.css';
-import '../../css/v/voi6mmate.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,24 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path class="ncfvknbzu"/><path class="voi6mmate"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:message-square-dot-two-tone" /></template>
+<style>
+.ncfvknbzu {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M11.6754 2L6 2C3.7909 2 2 3.7909 2 6L2 21C2 21.5523 2.4477 22 3 22C3.2652 22 3.5196 21.8946 3.7071 21.7071L7.4142 18L18 18C20.2091 18 22 16.2091 22 14L22 12.3246C22 11.7723 21.5523 11.3246 21 11.3246C20.8518 11.3246 20.7054 11.3575 20.5714 11.421C19.7678 11.8022 18.8895 12 18 12C14.6863 12 12 9.3137 12 6C12 5.1105 12.1978 4.2322 12.579 3.4286C12.6425 3.2946 12.6754 3.1482 12.6754 3C12.6754 2.4477 12.2277 2 11.6754 2ZM22 6C22 3.7909 20.2091 2 18 2C15.7909 2 14 3.7909 14 6C14 8.2091 15.7909 10 18 10C20.2091 10 22 8.2091 22 6Z");
+  stroke: none;
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.voi6mmate {
+  d: path("M21 6C21 7.6569 19.6569 9 18 9C16.3431 9 15 7.6569 15 6C15 4.3431 16.3431 3 18 3C19.6569 3 21 4.3431 21 6ZM11.6754 3L6 3C4.3431 3 3 4.3431 3 6L3 21L7 17L18 17C19.6569 17 21 15.6569 21 14L21 12.3246");
+}
+
+</style>

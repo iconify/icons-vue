@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/x/xqs9_wbad.css';
-import '../../css/p/po4-gbcxr.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,24 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path class="xqs9_wbad"/><path class="po4-gbcxr"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:key-square-duotone" /></template>
+<style>
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.po4-gbcxr {
+  d: path("M15 9L17 7");
+}
+
+.xqs9_wbad {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M5.2929 13.7929L1.5858 17.5C1.2107 17.8751 1 18.3838 1 18.9142L1 20C1 21.6569 2.3431 23 4 23L5.0858 23C5.6162 23 6.1249 22.7893 6.5 22.4142L7.4142 21.5L9 21.5C9.8284 21.5 10.5 20.8284 10.5 20L10.5 19L11.5 19C12.3284 19 13 18.3284 13 17.5L13 15.9142L13.9142 15L19 15C21.2091 15 23 13.2091 23 11L23 5C23 2.7909 21.2091 1 19 1L13 1C10.7909 1 9 2.7909 9 5L9 10.0858L5.2929 13.7929Z");
+  stroke: none;
+}
+
+</style>

@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/g/gp_8x1bzb.css';
-import '../../css/l/leorv1r5b.css';
-import '../../css/h/hli5jabqc.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,23 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="gp_8x1bzb"><path class="leorv1r5b"/><path class="hli5jabqc"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:cursor-off-sharp-two-tone" /></template>
+<style>
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.hli5jabqc {
+  d: path("M1.7071 1.7071L22.2929 22.2929M7.2925 7.2925L2 9.1543L10.7742 12.919L15.1372 22L16.8479 16.8479L7.2925 7.2925Z");
+}
+
+.leorv1r5b {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M18.5495 14.7999L21.9189 4.217C22.0647 3.7588 22.0102 3.3123 21.8223 2.9401C21.6515 2.6001 21.3706 2.3303 21.0303 2.1662C20.9963 2.1501 20.96 2.1301 20.9267 2.1203C20.8563 2.0901 20.7834 2.0687 20.709 2.0501C20.486 1.9938 20.247 1.9825 20.0029 2.0301C19.9217 2.0401 19.8398 2.0618 19.7578 2.0901L9.3241 5.5624ZM6.5083 6.5083L1.6682 8.211C0.8086 8.5134 0.7683 9.714 1.6057 10.0733L10.04 13.6901L14.2358 22.4331C14.6252 23.2435 15.8029 23.1684 16.0863 22.3151L17.64 17.6401L6.5083 6.5083Z");
+  stroke: none;
+}
+
+</style>

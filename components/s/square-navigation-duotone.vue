@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/t/ttm7-_bye.css';
-import '../../css/n/nb80adc2c.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,24 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path class="ttm7-_bye"/><path class="nb80adc2c"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:square-navigation-duotone" /></template>
+<style>
+.nb80adc2c {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M10.6348 12.1017C11.3682 11.2997 12.6318 11.2997 13.3652 12.1017C13.4501 12.1945 13.5277 12.2981 13.5967 12.4123L13.667 12.5382L16.2744 17.6125C16.2982 17.6588 16.32 17.7053 16.3398 17.7521C16.6386 18.4566 16.4965 19.2071 16.1025 19.7365C15.6775 20.3073 14.8972 20.6849 14.0439 20.4084L12 19.7453L9.957 20.4084C9.9037 20.4257 9.8505 20.44 9.7978 20.4523C9.1654 20.5998 8.5833 20.3961 8.1719 20.0343C8.0691 19.944 7.9771 19.8435 7.8974 19.7365C7.8713 19.7013 7.8461 19.6651 7.8223 19.6281C7.6783 19.4049 7.5764 19.1493 7.5293 18.8781C7.5057 18.7426 7.4958 18.6031 7.501 18.4621C7.5027 18.415 7.5066 18.3678 7.5117 18.3205C7.522 18.226 7.5389 18.131 7.5635 18.0363C7.5881 17.9412 7.6202 17.8462 7.6601 17.7521C7.68 17.7053 7.7018 17.6588 7.7256 17.6125L10.333 12.5382L10.4033 12.4123C10.4723 12.2981 10.5501 12.1945 10.6348 12.1017Z");
+  stroke: none;
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.ttm7-_bye {
+  d: path("M20 21C20.5523 21 21 20.5523 21 20V6C21 4.34315 19.6569 3 18 3H6C4.34315 3 3 4.34315 3 6V20C3 20.5523 3.44772 21 4 21");
+}
+
+</style>

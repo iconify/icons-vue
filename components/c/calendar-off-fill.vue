@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/v/vkr09n5kt.css';
-import '../../css/k/k2pvm126w.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,24 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path clip-rule="evenodd" class="vkr09n5kt"/><path class="k2pvm126w"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:calendar-off-fill" /></template>
+<style>
+.k2pvm126w {
+  d: path("M16 3L16 7M2 2L22 22");
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.vkr09n5kt {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M20.8284 20.8284C20.1046 21.5523 19.1046 22 18 22L6 22C3.7909 22 2 20.2091 2 18L2 8C2 6.3778 2.9657 4.9811 4.3535 4.3535ZM9.9497 5.7071C9.6637 5.4211 9.5782 4.991 9.733 4.6173C9.8878 4.2436 10.2524 4 10.6569 4L18 4C20.2091 4 22 5.7909 22 8L22 15.3431C22 15.7476 21.7564 16.1122 21.3827 16.267C21.009 16.4218 20.5789 16.3363 20.2929 16.0503L9.9497 5.7071ZM12 12L7 12C6.4477 12 6 11.5523 6 11C6 10.4477 6.4477 10 7 10L10 10Z");
+  stroke: none;
+}
+
+</style>

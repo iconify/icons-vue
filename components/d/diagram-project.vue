@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/h/h7-mqmb8e.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,14 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="h7-mqmb8e"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:diagram-project" /></template>
+<style>
+.h7-mqmb8e {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M4 3L9 3C9.5523 3 10 3.4477 10 4L10 7C10 7.5523 9.5523 8 9 8L4 8C3.4477 8 3 7.5523 3 7L3 4C3 3.4477 3.4477 3 4 3ZM15 3L20 3C20.5523 3 21 3.4477 21 4L21 7C21 7.5523 20.5523 8 20 8L15 8C14.4477 8 14 7.5523 14 7L14 4C14 3.4477 14.4477 3 15 3ZM9.5 16L14.5 16C15.0523 16 15.5 16.4477 15.5 17L15.5 20C15.5 20.5523 15.0523 21 14.5 21L9.5 21C8.9477 21 8.5 20.5523 8.5 20L8.5 17C8.5 16.4477 8.9477 16 9.5 16ZM10 5.5L14 5.5M6.5 8L6.5 11C6.5 11.5523 6.9477 12 7.5 12L11 12C11.5523 12 12 12.4477 12 13L12 16");
+}
+
+</style>

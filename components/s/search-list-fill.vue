@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/c/c_tna9csj.css';
-import '../../css/x/xexl16bfr.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,24 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path clip-rule="evenodd" class="c_tna9csj"/><path class="xexl16bfr"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:search-list-fill" /></template>
+<style>
+.c_tna9csj {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M18 10C18 14.4183 14.4183 18 10 18C5.5817 18 2 14.4183 2 10C2 5.5817 5.5817 2 10 2C14.4183 2 18 5.5817 18 10ZM7.8 9L10.2 9C10.7523 9 11.2 8.5523 11.2 8C11.2 7.4477 10.7523 7 10.2 7L7.8 7C7.2477 7 6.8 7.4477 6.8 8C6.8 8.5523 7.2477 9 7.8 9ZM7.8 13L12.2 13C12.7523 13 13.2 12.5523 13.2 12C13.2 11.4477 12.7523 11 12.2 11L7.8 11C7.2477 11 6.8 11.4477 6.8 12C6.8 12.5523 7.2477 13 7.8 13Z");
+  stroke: none;
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.xexl16bfr {
+  d: path("M15 15L21 21");
+}
+
+</style>

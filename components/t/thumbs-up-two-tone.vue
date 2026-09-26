@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/h/h7sj2bpqa.css';
-import '../../css/j/jt4xktbti.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,24 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path class="h7sj2bpqa"/><path class="jt4xktbti"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:thumbs-up-two-tone" /></template>
+<style>
+.h7sj2bpqa {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M4 9L7.2192 9L8.6511 3.2724C8.985 1.9369 10.1849 1 11.5616 1L13.2344 1C14.7474 1 16.0236 2.1266 16.2113 3.6279L16.8828 9L20 9C21.6569 9 23 10.3431 23 12C23 12.3597 22.9353 12.7165 22.809 13.0534L19.809 21.0534C19.3699 22.2243 18.2505 23 17 23L4 23C2.3431 23 1 21.6569 1 20L1 12C1 10.3431 2.3431 9 4 9Z");
+  stroke: none;
+}
+
+.jt4xktbti {
+  d: path("M4 10L8 10L9.6213 3.5149C9.8439 2.6246 10.6438 2 11.5616 2L13.2344 2C14.2431 2 15.0939 2.7511 15.219 3.7519L16 10L20 10C21.1046 10 22 10.8954 22 12C22 12.2398 21.9569 12.4777 21.8727 12.7022L18.8727 20.7022C18.5799 21.4829 17.8337 22 17 22L4 22C2.8954 22 2 21.1046 2 20L2 12C2 10.8954 2.8954 10 4 10ZM8 10L8 22");
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+</style>

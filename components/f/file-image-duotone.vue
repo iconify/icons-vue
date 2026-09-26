@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/x/xxcb1mbaj.css';
-import '../../css/k/kal2pzbbk.css';
-import '../../css/k/ks6rcsblm.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,30 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path class="xxcb1mbaj"/><path class="kal2pzbbk"/><path class="ks6rcsblm"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:file-image-duotone" /></template>
+<style>
+.kal2pzbbk {
+  d: path("M20 8L14 2M14 2L14 5C14 6.6569 15.3431 8 17 8L20 8M6 16L9.2355 12.7645C9.6921 12.3079 10.3895 12.1948 10.967 12.4835L18 16");
+}
+
+.ks6rcsblm {
+  fill: currentColor;
+  d: path("M10.5 7C10.5 7.8284271247 9.8284271247 8.5 9 8.5C8.1715728753 8.5 7.5 7.8284271247 7.5 7C7.5 6.1715728753 8.1715728753 5.5 9 5.5C9.8284271247 5.5 10.5 6.1715728753 10.5 7Z");
+  stroke: none;
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.xxcb1mbaj {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M14 1C14.2652 1 14.5195 1.1054 14.707 1.293L20.707 7.293C20.8946 7.4805 21 7.7348 21 8V18C21 20.7614 18.7614 23 16 23H8C5.2386 23 3 20.7614 3 18V6C3 3.2386 5.2386 1 8 1H14Z");
+  stroke: none;
+}
+
+</style>

@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/f/fq-vnebps.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,11 @@ const viewBox = {"width":24,"height":24};
 const content = `<path clip-rule="evenodd" class="fq-vnebps"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:handbag-sharp-fill" /></template>
+<style>
+.fq-vnebps {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M16.899 6L20 6C20.5523 6 21 6.4477 21 7L21 21C21 21.5523 20.5523 22 20 22L4 22C3.4477 22 3 21.5523 3 21L3 7C3 6.4477 3.4477 6 4 6L7.101 6C7.5762 3.672 9.624 2 12 2C14.376 2 16.4238 3.672 16.899 6ZM9.1716 6L14.8284 6C14.4047 4.8016 13.2713 4 12 4C10.7287 4 9.5953 4.8016 9.1716 6Z");
+}
+
+</style>

@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/d/dg4bhfbdw.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,14 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="dg4bhfbdw"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:zap-off" /></template>
+<style>
+.dg4bhfbdw {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M18.7014 13.0445L20.8557 10.8503C20.9475 10.7568 20.999 10.631 20.999 10.5C20.999 10.2239 20.7751 10 20.499 10L15.6569 10M13.2983 7.6414L13.8139 3.5643C13.8166 3.5435 13.8179 3.5226 13.8179 3.5016C13.8179 3.2255 13.594 3.0016 13.3179 3.0016C13.1837 3.0016 13.0551 3.0555 12.9611 3.1513L10.9037 5.2468M8.1011 8.1011L3.1443 13.1497C3.0525 13.2432 3.001 13.369 3.001 13.5C3.001 13.7761 3.2249 14 3.501 14L9.8656 14C10.4178 14 10.8656 14.4477 10.8656 15C10.8656 15.0419 10.8629 15.0839 10.8577 15.1255L10.1861 20.4357C10.1834 20.4565 10.1821 20.4774 10.1821 20.4984C10.1821 20.7745 10.406 20.9984 10.6821 20.9984C10.8163 20.9984 10.9449 20.9445 11.0389 20.8487L15.8989 15.8989M2 2L22 22");
+}
+
+</style>

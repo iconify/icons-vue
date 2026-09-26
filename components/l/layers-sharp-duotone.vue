@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/g/gp_8x1bzb.css';
-import '../../css/a/azy15lbvn.css';
-import '../../css/n/nd8jlsxei.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,23 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="gp_8x1bzb"><path class="azy15lbvn"/><path class="nd8jlsxei"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:layers-sharp-duotone" /></template>
+<style>
+.azy15lbvn {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M12.4819 1.1238L22.4819 6.6238C22.8015 6.7995 23 7.1353 23 7.5C23 7.8647 22.8015 8.2005 22.4819 8.3762L12.4819 13.8762C12.3343 13.9574 12.1685 14 12 14C11.8315 14 11.6657 13.9574 11.5181 13.8762L1.5181 8.3762C1.1985 8.2005 1 7.8647 1 7.5C1 7.1353 1.1985 6.7995 1.5181 6.6238L11.5181 1.1238C11.6657 1.0426 11.8315 1 12 1C12.1685 1 12.3343 1.0426 12.4819 1.1238Z");
+  stroke: none;
+}
+
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.nd8jlsxei {
+  d: path("M1.4819 11.7151L12 17.5L22.5181 12.2849M1.4819 16.2151L12 22L22.5181 16.7849");
+}
+
+</style>

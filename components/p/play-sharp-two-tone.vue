@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/g/gp_8x1bzb.css';
-import '../../css/t/trjfhxy0p.css';
-import '../../css/w/wf6p_7btu.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,23 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="gp_8x1bzb"><path class="trjfhxy0p"/><path class="wf6p_7btu"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:play-sharp-two-tone" /></template>
+<style>
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.trjfhxy0p {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M6.5547 3.1679L18.5547 11.1679C18.8329 11.3534 19 11.6656 19 12C19 12.3344 18.8329 12.6466 18.5547 12.8321L6.5547 20.8321C6.2478 21.0366 5.8533 21.0557 5.5281 20.8817C5.203 20.7077 5 20.3688 5 20L5 4C5 3.6312 5.203 3.2923 5.5281 3.1183C5.8533 2.9443 6.2478 2.9634 6.5547 3.1679Z");
+  stroke: none;
+}
+
+.wf6p_7btu {
+  d: path("M6 4L18 12L6 20L6 4Z");
+}
+
+</style>

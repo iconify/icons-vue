@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/m/m94-e1boj.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,10 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="m94-e1boj"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:square-activity-sharp-fill" /></template>
+<style>
+.m94-e1boj {
+  fill: currentColor;
+  d: path("M3 2L21 2C21.5523 2 22 2.4477 22 3L22 21C22 21.5523 21.5523 22 21 22L3 22C2.4477 22 2 21.5523 2 21L2 3C2 2.4477 2.4477 2 3 2ZM6 13L8.5001 13C8.9169 13 9.29 12.7414 9.4364 12.3511L10.9363 8.3511L10.1311 10.4983L13.1055 16.4478C13.4959 17.2288 14.6297 17.1693 14.9363 16.3517L16.4363 12.3511L16.193 13L18 13L18 11L15.4999 11C15.0831 11 14.71 11.2586 14.5636 11.6489L13.0637 15.6489L13.8689 13.5017L10.8945 7.5522C10.5041 6.7712 9.3703 6.8307 9.0637 7.6483L7.5637 11.6489L7.807 11L6 11L6 13Z");
+}
+
+</style>

@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/t/t8drw368i.css';
-import '../../css/i/ib3343zvq.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,24 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path class="t8drw368i"/><path class="ib3343zvq"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:face-laugh-duotone" /></template>
+<style>
+.ib3343zvq {
+  d: path("M9 8L9 9M15 8L15 9M8.127 13L15.873 13C16.4253 13 16.873 13.4477 16.873 14C16.873 14.0843 16.8623 14.1683 16.8412 14.25C16.2712 16.4576 14.28 18 12 18C9.72 18 7.7288 16.4576 7.1588 14.25C7.1377 14.1683 7.127 14.0843 7.127 14C7.127 13.4477 7.5747 13 8.127 13Z");
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.t8drw368i {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M23 12C23 18.0751 18.0751 23 12 23C5.9249 23 1 18.0751 1 12C1 5.9249 5.9249 1 12 1C18.0751 1 23 5.9249 23 12Z");
+  stroke: none;
+}
+
+</style>

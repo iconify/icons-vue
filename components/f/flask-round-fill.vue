@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/s/slk2fsb4t.css';
-import '../../css/v/vdv47vfaw.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,23 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path class="slk2fsb4t"/><path class="vdv47vfaw"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:flask-round-fill" /></template>
+<style>
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.slk2fsb4t {
+  fill: currentColor;
+  d: path("M10.5 1L13.5 1C14.6046 1 15.5 1.8954 15.5 3L15.5 7.8063C18.2529 9.1456 20 11.9386 20 15C20 19.4183 16.4183 23 12 23C7.5817 23 4 19.4183 4 15C4 11.9386 5.7471 9.1456 8.5 7.8063L8.5 3C8.5 1.8954 9.3954 1 10.5 1ZM10.5 3L10.5 7.8063C10.5 8.5716 10.0632 9.2698 9.375 9.6047C7.3103 10.6092 6 12.7039 6 15L18 15C18 12.7039 16.6897 10.6092 14.625 9.6047C13.9368 9.2698 13.5 8.5716 13.5 7.8063L13.5 3L10.5 3Z");
+  stroke: none;
+}
+
+.vdv47vfaw {
+  d: path("M8 2L16 2");
+}
+
+</style>

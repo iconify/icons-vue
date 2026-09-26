@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/g/gp_8x1bzb.css';
-import '../../css/z/zwd3a68ww.css';
-import '../../css/q/qz4hw_hri.css';
-import '../../css/h/h2gye8b5v.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,29 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="gp_8x1bzb"><path class="zwd3a68ww"/><path class="qz4hw_hri"/><path class="h2gye8b5v"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:heart-sparkles-sharp-two-tone" /></template>
+<style>
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.h2gye8b5v {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M14.8433 10.2337L15.3873 11.6127L16.7663 12.1567C16.9074 12.2123 17 12.3485 17 12.5C17 12.6515 16.9074 12.7877 16.7663 12.8433L15.3873 13.3873L14.8433 14.7663C14.7877 14.9074 14.6515 15 14.5 15C14.3485 15 14.2123 14.9074 14.1567 14.7663L13.6127 13.3873L12.2337 12.8433C12.0926 12.7877 12 12.6515 12 12.5C12 12.3485 12.0926 12.2123 12.2337 12.1567L13.6127 11.6127L14.1567 10.2337C14.2123 10.0926 14.3485 10 14.5 10C14.6515 10 14.7877 10.0926 14.8433 10.2337Z");
+  stroke: none;
+}
+
+.qz4hw_hri {
+  fill: currentColor;
+  d: path("M19.5492 14.3739L20.4196 16.5804L22.6261 17.4508C22.8518 17.5397 23 17.7576 23 18C23 18.2424 22.8518 18.4603 22.6261 18.5492L20.4196 19.4196L19.5492 21.6261C19.4603 21.8518 19.2424 22 19 22C18.7576 22 18.5397 21.8518 18.4508 21.6261L17.5804 19.4196L15.3739 18.5492C15.1482 18.4603 15 18.2424 15 18C15 17.7576 15.1482 17.5397 15.3739 17.4508L17.5804 16.5804L18.4508 14.3739C18.5397 14.1482 18.7576 14 19 14C19.2424 14 19.4603 14.1482 19.5492 14.3739Z");
+  stroke: none;
+}
+
+.zwd3a68ww {
+  d: path("M12.3505 21.2994L12 21C7.4376 17.1033 2 13.75 2 8.75C2 5.5743 4.6862 3 8 3C9.5 3 10.8426 3.5459 12 4.5C13.1574 3.5459 14.5 3 16 3C19.3138 3 22 5.5743 22 8.75C22 9.538 21.8649 10.2852 21.6195 11L21.3877 11.6753");
+}
+
+</style>

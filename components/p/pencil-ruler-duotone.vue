@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/o/ov3kx17-r.css';
-import '../../css/f/f8hm-2p5o.css';
-import '../../css/g/gffkyipjs.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,31 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path class="ov3kx17-r"/><path class="f8hm-2p5o"/><path class="gffkyipjs"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:pencil-ruler-duotone" /></template>
+<style>
+.f8hm-2p5o {
+  fill: currentColor;
+  d: path("M4.262 22.2793C4.0529 22.3511 3.8333 22.3878 3.6122 22.3878C2.5077 22.3878 1.6122 21.4923 1.6122 20.3878C1.6122 20.1667 1.6489 19.9471 1.7207 19.738L3.2009 15.4293C3.2998 15.1415 3.4631 14.8801 3.6782 14.6649L14.0506 4.2925C14.8008 3.5424 15.8182 3.121 16.879 3.121C17.9399 3.121 18.9573 3.5424 19.7075 4.2925C20.4576 5.0427 20.879 6.0601 20.879 7.121C20.879 8.1818 20.4576 9.1992 19.7075 9.9494L9.3351 20.3218C9.1199 20.5369 8.8585 20.7002 8.5707 20.7991L4.262 22.2793ZM6.6249 19.3528L4.6472 17.3751L3.6122 20.3878L6.6249 19.3528Z");
+  stroke: none;
+}
+
+.gffkyipjs {
+  stroke-opacity: 0.4;
+  d: path("M4.2925 2.8783C4.8551 2.3157 5.6182 1.9996 6.4139 1.9996C7.2095 1.9996 7.9726 2.3157 8.5352 2.8783L12.7071 7.0503L7.0503 12.7071L2.8783 8.5352C2.3157 7.9726 1.9996 7.2095 1.9996 6.4139C1.9996 5.6182 2.3157 4.8551 2.8783 4.2925L4.2925 2.8783ZM16.9497 11.2929L21.1217 15.4648C21.6843 16.0274 22.0004 16.7905 22.0004 17.5861C22.0004 18.3818 21.6843 19.1449 21.1217 19.7075L19.7075 21.1217C19.1449 21.6843 18.3818 22.0004 17.5861 22.0004C16.7905 22.0004 16.0274 21.6843 15.4648 21.1217L11.2929 16.9497L16.9497 11.2929ZM9.5251 3.8683L7.4038 5.9896M20.1317 14.4749L18.0104 16.5962");
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.ov3kx17-r {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M6.6249 19.3528L4.6472 17.3751L3.6122 20.3878L6.6249 19.3528Z");
+  stroke: none;
+}
+
+</style>

@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/k/k-uzxbyzk.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,10 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="k-uzxbyzk"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:arrow-big-up-short-sharp-fill" /></template>
+<style>
+.k-uzxbyzk {
+  fill: currentColor;
+  d: path("M12.7071 2.2929L22.7071 12.2929C22.9931 12.5789 23.0787 13.009 22.9239 13.3827C22.7691 13.7564 22.4045 14 22 14L18 14L18 21C18 21.5523 17.5523 22 17 22L7 22C6.4477 22 6 21.5523 6 21L6 14L2 14C1.5955 14 1.2309 13.7564 1.0761 13.3827C0.9213 13.009 1.0069 12.5789 1.2929 12.2929L11.2929 2.2929C11.6834 1.9024 12.3166 1.9024 12.7071 2.2929Z");
+}
+
+</style>

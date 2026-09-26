@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/i05wloydx.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,11 @@ const viewBox = {"width":24,"height":24};
 const content = `<path clip-rule="evenodd" class="i05wloydx"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:shopping-bag-sharp-fill" /></template>
+<style>
+.i05wloydx {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M7 2L16.9999 2C17.3147 2 17.611 2.1482 17.7999 2.4L20.8 6.4C20.9298 6.5731 21 6.7836 21 7L21 21C21 21.5523 20.5523 22 20 22L4 22C3.4477 22 3 21.5523 3 21L3 7C3 6.7836 3.0702 6.5731 3.2 6.4L6.2 2.4C6.3889 2.1482 6.6852 2 7 2ZM7.9999 4L16.0001 4C16.3148 4 16.6112 4.1482 16.8001 4.4L18 6L6 6L7.1999 4.4C7.3888 4.1482 7.6852 4 7.9999 4ZM16 10C16 13.2091 14.2091 15 12 15C9.7909 15 8 13.2091 8 10L10 10C10 12.1046 10.8954 13 12 13C13.1046 13 14 12.1046 14 10Z");
+}
+
+</style>

@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/g/gp_8x1bzb.css';
-import '../../css/e/eprdb-1bb.css';
-import '../../css/f/f472do-je.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,23 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="gp_8x1bzb"><path class="eprdb-1bb"/><path class="f472do-je"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:sliders-2-horizontal-sharp-two-tone" /></template>
+<style>
+.eprdb-1bb {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M6.5 3L13.5 3C14.3284 3 15 3.6716 15 4.5L15 9.5C15 10.3284 14.3284 11 13.5 11L6.5 11C5.6716 11 5 10.3284 5 9.5L5 4.5C5 3.6716 5.6716 3 6.5 3ZM10.5 13L17.5 13C18.3284 13 19 13.6716 19 14.5L19 19.5C19 20.3284 18.3284 21 17.5 21L10.5 21C9.6716 21 9 20.3284 9 19.5L9 14.5C9 13.6716 9.6716 13 10.5 13Z");
+  stroke: none;
+}
+
+.f472do-je {
+  d: path("M6.5 4L13.5 4C13.7761 4 14 4.2239 14 4.5L14 9.5C14 9.7761 13.7761 10 13.5 10L6.5 10C6.2239 10 6 9.7761 6 9.5L6 4.5C6 4.2239 6.2239 4 6.5 4ZM10.5 14L17.5 14C17.7761 14 18 14.2239 18 14.5L18 19.5C18 19.7761 17.7761 20 17.5 20L10.5 20C10.2239 20 10 19.7761 10 19.5L10 14.5C10 14.2239 10.2239 14 10.5 14ZM2 7L6 7M14 7L22 7M2 17L10 17M18 17L22 17");
+}
+
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+</style>

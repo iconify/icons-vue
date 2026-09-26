@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/k/kcxougu7r.css';
-import '../../css/x/xledahrpa.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,24 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path class="kcxougu7r"/><path class="xledahrpa"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:quote-single-two-tone" /></template>
+<style>
+.kcxougu7r {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M7.5 14.5C7.5 10.6868 9.4783 7.1467 12.7259 5.1483C12.8835 5.0513 13.065 5 13.25 5C13.8023 5 14.25 5.4477 14.25 6C14.25 6.2929 14.1216 6.571 13.8988 6.761C13.3725 7.2096 13.0694 7.8664 13.0694 8.5579C13.0694 9.4016 13.5194 10.1811 14.25 10.6029C15.6423 11.4067 16.5 12.8923 16.5 14.5C16.5 16.9853 14.4853 19 12 19C9.5147 19 7.5 16.9853 7.5 14.5Z");
+  stroke: none;
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.xledahrpa {
+  d: path("M8.5 14.5C8.5 11.0341 10.2982 7.8163 13.25 6C12.5009 6.6386 12.0694 7.5735 12.0694 8.5579C12.0694 9.7588 12.71 10.8685 13.75 11.4689C14.8329 12.0941 15.5 13.2496 15.5 14.5C15.5 16.433 13.933 18 12 18C10.067 18 8.5 16.433 8.5 14.5Z");
+}
+
+</style>

@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/o/obxa5ggcr.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,10 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="obxa5ggcr"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:square-arrow-right-sharp-fill" /></template>
+<style>
+.obxa5ggcr {
+  fill: currentColor;
+  d: path("M3 2L21 2C21.5523 2 22 2.4477 22 3L22 21C22 21.5523 21.5523 22 21 22L3 22C2.4477 22 2 21.5523 2 21L2 3C2 2.4477 2.4477 2 3 2ZM11.1062 8.4224L13.7529 11L7 11L7 13L13.7529 13L11.1061 15.577L12.5016 17.0106L16.9111 12.7164C17.3141 12.3238 17.3141 11.6762 16.9111 11.2836L12.5017 6.9888L11.1062 8.4224Z");
+}
+
+</style>

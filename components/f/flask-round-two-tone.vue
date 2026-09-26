@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/z/zlxex4bvv.css';
-import '../../css/g/g5dphvbvg.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,24 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path class="zlxex4bvv"/><path class="g5dphvbvg"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:flask-round-two-tone" /></template>
+<style>
+.g5dphvbvg {
+  d: path("M10.5 2L13.5 2C14.0523 2 14.5 2.4477 14.5 3L14.5 7.8063C14.5 8.1889 14.7184 8.5381 15.0625 8.7055C17.4713 9.8774 19 12.3213 19 15C19 18.866 15.866 22 12 22C8.134 22 5 18.866 5 15C5 12.3213 6.5287 9.8774 8.9375 8.7055C9.2816 8.5381 9.5 8.1889 9.5 7.8063L9.5 3C9.5 2.4477 9.9477 2 10.5 2ZM8 2L16 2M5.0718 16L18.9282 16");
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.zlxex4bvv {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M10.5 1L13.5 1C14.6046 1 15.5 1.8954 15.5 3L15.5 7.8063C18.2529 9.1456 20 11.9386 20 15C20 19.4183 16.4183 23 12 23C7.5817 23 4 19.4183 4 15C4 11.9386 5.7471 9.1456 8.5 7.8063L8.5 3C8.5 1.8954 9.3954 1 10.5 1Z");
+  stroke: none;
+}
+
+</style>

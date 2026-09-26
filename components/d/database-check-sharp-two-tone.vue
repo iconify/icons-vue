@@ -1,0 +1,29 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="gp_8x1bzb"><path class="uordzqcti"/><path class="zgwgi0jyw"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:database-check-sharp-two-tone" /></template>
+<style>
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.uordzqcti {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M20 4L20 13L12 13L12 23L11 23C9.5601 23 8.1227 22.9045 6.8571 22.7218C5.5915 22.5391 4.5074 22.2784 3.6744 21.9177C3.2811 21.7484 2.9009 21.5361 2.6034 21.2628C2.3069 20.9903 2 20.5666 2 20L2 4C2 3.4334 2.3069 3.0097 2.6034 2.7372C2.9009 2.4639 3.2811 2.2516 3.674 2.0819C4.5074 1.7216 5.5915 1.4609 6.8571 1.2782C8.1227 1.0955 9.5601 1 11 1C12.4399 1 13.8773 1.0955 15.1429 1.2782C16.4085 1.4609 17.4926 1.7216 18.3256 2.0823C18.7189 2.2516 19.0991 2.4639 19.3966 2.7372C19.6931 3.0097 20 3.4334 20 4Z");
+  stroke: none;
+}
+
+.zgwgi0jyw {
+  d: path("M19 4C19 5.1046 15.4184 6 11 6C6.5816 6 3 5.1046 3 4C3 2.8954 6.5816 2 11 2C15.4184 2 19 2.8954 19 4ZM3 4L3 20C3 21.1046 6.5816 22 11 22L12 22M19 13L19 4M3 12C3 13.1046 6.5816 14 11 14L12 14M14.7071 18.7071L17 21L21.2929 16.7071");
+}
+
+</style>

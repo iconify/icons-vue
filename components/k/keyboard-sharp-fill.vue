@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/k/kan81_beq.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,10 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="kan81_beq"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:keyboard-sharp-fill" /></template>
+<style>
+.kan81_beq {
+  fill: currentColor;
+  d: path("M2 3L22 3C22.5523 3 23 3.4477 23 4L23 20C23 20.5523 22.5523 21 22 21L2 21C1.4477 21 1 20.5523 1 20L1 4C1 3.4477 1.4477 3 2 3ZM5 7L5 9L7 9L7 7L5 7ZM9 7L9 9L11 9L11 7L9 7ZM13 7L13 9L15 9L15 7L13 7ZM17 7L17 9L19 9L19 7L17 7ZM5 11L5 13L7 13L7 11L5 11ZM9 11L9 13L11 13L11 11L9 11ZM13 11L13 13L15 13L15 11L13 11ZM17 11L17 13L19 13L19 11L17 11ZM7 15L7 17L17 17L17 15L7 15Z");
+}
+
+</style>

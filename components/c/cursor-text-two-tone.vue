@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/e/ev3lktbxo.css';
-import '../../css/m/m8_plnbbr.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,24 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path class="ev3lktbxo"/><path class="m8_plnbbr"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:cursor-text-two-tone" /></template>
+<style>
+.ev3lktbxo {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M13.3775 20.1434L10.2668 10.0807C10.1436 9.68232 10.513 9.30883 10.8991 9.44125L20.6597 12.7882C21.0963 12.9379 21.1182 13.5634 20.6933 13.745L16.59 15.4983C16.4754 15.5473 16.3828 15.6384 16.3303 15.7538L14.3031 20.2053C14.1111 20.627 13.5147 20.5871 13.3775 20.1434Z");
+  stroke: none;
+}
+
+.m8_plnbbr {
+  d: path("M3 3.5H12.9583M3 8.10055H5.98748M3 12.7011H5.98748M10.2669 10.0807L13.3776 20.1434C13.5147 20.5871 14.1112 20.627 14.3032 20.2053L16.3303 15.7538C16.3829 15.6384 16.4755 15.5473 16.5901 15.4983L20.6934 13.745C21.1183 13.5634 21.0964 12.9379 20.6598 12.7882L10.8992 9.44123C10.513 9.30882 10.1437 9.68231 10.2669 10.0807Z");
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+</style>

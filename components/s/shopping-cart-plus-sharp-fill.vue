@@ -1,0 +1,35 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="gp_8x1bzb"><path clip-rule="evenodd" class="vo1k6fumu"/><path class="k8q05rbtv"/><path class="czbbm17fv"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:shopping-cart-plus-sharp-fill" /></template>
+<style>
+.czbbm17fv {
+  fill: currentColor;
+  d: path("M10.5 20.5C10.5 21.3284 9.8284 22 9 22C8.1716 22 7.5 21.3284 7.5 20.5C7.5 19.6716 8.1716 19 9 19C9.8284 19 10.5 19.6716 10.5 20.5ZM18.5 20.5C18.5 21.3284 17.8284 22 17 22C16.1716 22 15.5 21.3284 15.5 20.5C15.5 19.6716 16.1716 19 17 19C17.8284 19 18.5 19.6716 18.5 20.5Z");
+  stroke: none;
+}
+
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.k8q05rbtv {
+  d: path("M1 3L4 3L5.1893 7.7575M19 2L19 10M15 6L23 6");
+}
+
+.vo1k6fumu {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M5 6L13 6L13 12L21.1925 12L19.9363 15.351C19.7899 15.7414 19.4168 16 18.9999 16L7 16C6.5411 16 6.1411 15.6877 6.0299 15.2425L4.0299 7.2425C3.8721 6.6114 4.3494 6 5 6Z");
+  stroke: none;
+}
+
+</style>

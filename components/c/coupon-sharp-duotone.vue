@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/g/gp_8x1bzb.css';
-import '../../css/b/boqwajrpv.css';
-import '../../css/x/xfvg6rbri.css';
-import '../../css/x/x89uejb-e.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,29 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="gp_8x1bzb"><path class="boqwajrpv"/><path class="xfvg6rbri"/><path class="x89uejb-e"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:coupon-sharp-duotone" /></template>
+<style>
+.boqwajrpv {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M2 3L22 3C22.5523 3 23 3.4477 23 4L23 9C23 9.5523 22.5523 10 22 10C20.7574 10 20 10.7573 20 12C20 13.2427 20.7574 14 22 14C22.5523 14 23 14.4477 23 15L23 20C23 20.5523 22.5523 21 22 21L2 21C1.4477 21 1 20.5523 1 20L1 15C1 14.4477 1.4477 14 2 14C3.2426 14 4 13.2427 4 12C4 10.7573 3.2426 10 2 10C1.4477 10 1 9.5523 1 9L1 4C1 3.4477 1.4477 3 2 3Z");
+  stroke: none;
+}
+
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.x89uejb-e {
+  fill: currentColor;
+  d: path("M10.5 8.5C10.5 9.3284 9.8284 10 9 10C8.1716 10 7.5 9.3284 7.5 8.5C7.5 7.6716 8.1716 7 9 7C9.8284 7 10.5 7.6716 10.5 8.5ZM16.5 15.5C16.5 16.3284 15.8284 17 15 17C14.1716 17 13.5 16.3284 13.5 15.5C13.5 14.6716 14.1716 14 15 14C15.8284 14 16.5 14.6716 16.5 15.5Z");
+  stroke: none;
+}
+
+.xfvg6rbri {
+  d: path("M8.7071 15.2929L15.2929 8.7071");
+}
+
+</style>

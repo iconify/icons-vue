@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/c/chpjlr67g.css';
-import '../../css/s/s2-fsy12s.css';
-import '../../css/o/osw1wxbaf.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,30 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path class="chpjlr67g"/><path class="s2-fsy12s"/><path class="osw1wxbaf"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:activity-sparkles-duotone" /></template>
+<style>
+.chpjlr67g {
+  d: path("M2 12L5 12L8 4L16 20L18.25 14");
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.osw1wxbaf {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M4.8433 15.2337L5.2108 16.1655C5.3233 16.4508 5.5492 16.6767 5.8345 16.7892L6.7663 17.1567C6.9074 17.2123 7 17.3485 7 17.5C7 17.6515 6.9074 17.7877 6.7663 17.8433L5.8345 18.2108C5.5492 18.3233 5.3233 18.5492 5.2108 18.8345L4.8433 19.7663C4.7877 19.9074 4.6515 20 4.5 20C4.3485 20 4.2123 19.9074 4.1567 19.7663L3.7892 18.8345C3.6767 18.5492 3.4508 18.3233 3.1655 18.2108L2.2337 17.8433C2.0926 17.7877 2 17.6515 2 17.5C2 17.3485 2.0926 17.2123 2.2337 17.1567L3.1655 16.7892C3.4508 16.6767 3.6767 16.4508 3.7892 16.1655L4.1567 15.2337C4.2123 15.0926 4.3485 15 4.5 15C4.6515 15 4.7877 15.0926 4.8433 15.2337Z");
+  stroke: none;
+}
+
+.s2-fsy12s {
+  fill: currentColor;
+  d: path("M19.5492 3.3739L20.1373 4.8648C20.3173 5.3213 20.6787 5.6827 21.1352 5.8627L22.6261 6.4508C22.8518 6.5397 23 6.7576 23 7C23 7.2424 22.8518 7.4603 22.6261 7.5492L21.1352 8.1373C20.6787 8.3173 20.3173 8.6787 20.1373 9.1352L19.5492 10.6261C19.4603 10.8518 19.2424 11 19 11C18.7576 11 18.5397 10.8518 18.4508 10.6261L17.8627 9.1352C17.6827 8.6787 17.3213 8.3173 16.8648 8.1373L15.3739 7.5492C15.1482 7.4603 15 7.2424 15 7C15 6.7576 15.1482 6.5397 15.3739 6.4508L16.8648 5.8627C17.3213 5.6827 17.6827 5.3213 17.8627 4.8648L18.4508 3.3739C18.5397 3.1482 18.7576 3 19 3C19.2424 3 19.4603 3.1482 19.5492 3.3739Z");
+  stroke: none;
+}
+
+</style>

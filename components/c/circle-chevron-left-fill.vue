@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/r/rbru06b6j.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,10 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="rbru06b6j"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:circle-chevron-left-fill" /></template>
+<style>
+.rbru06b6j {
+  fill: currentColor;
+  d: path("M12 1 C18.0751 1 23 5.9249 23 12 C23 18.0751 18.0751 23 12 23 C5.9249 23 1 18.0751 1 12 C1 5.9249 5.9249 1 12 1 ZM13.2929 7.2929L9.2929 11.2929C8.9024 11.6834 8.9024 12.3166 9.2929 12.7071L13.2929 16.7071C13.4804 16.8946 13.7348 17 14 17C14.2652 17 14.5196 16.8946 14.7071 16.7071C15.0976 16.3166 15.0976 15.6834 14.7071 15.2929L11.4142 12L14.7071 8.7071C15.0976 8.3166 15.0976 7.6834 14.7071 7.2929C14.3166 6.9024 13.6834 6.9024 13.2929 7.2929Z");
+}
+
+</style>

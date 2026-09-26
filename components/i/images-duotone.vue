@@ -1,10 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/t/t05hsqxng.css';
-import '../../css/z/zna5ofbfv.css';
-import '../../css/g/ghonaacvc.css';
-import '../../css/e/ed465-r6k.css';
 
 const props = defineProps(["width","height"]);
 
@@ -12,3 +7,35 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path class="t05hsqxng"/><path class="zna5ofbfv"/><path class="ghonaacvc"/><path class="ed465-r6k"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:images-duotone" /></template>
+<style>
+.ed465-r6k {
+  fill: currentColor;
+  d: path("M12 7C12 7.5522847498 11.5522847498 8 11 8C10.4477152502 8 10 7.5522847498 10 7C10 6.4477152502 10.4477152502 6 11 6C11.5522847498 6 12 6.4477152502 12 7Z");
+  stroke: none;
+}
+
+.ghonaacvc {
+  d: path("M7 14L14.3292 10.3354C14.7515 10.1243 15.2485 10.1243 15.6708 10.3354L21 13");
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.t05hsqxng {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M10 2H18C20.2091 2 22 3.7909 22 6V14C22 16.2091 20.2091 18 18 18H10C7.7909 18 6 16.2091 6 14V6C6 3.7909 7.7909 2 10 2Z");
+  stroke: none;
+}
+
+.zna5ofbfv {
+  stroke-opacity: 0.4;
+  d: path("M3 8L3 18C3 19.6569 4.3431 21 6 21L16 21");
+}
+
+</style>

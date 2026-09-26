@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/x/xf-ely3-s.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,14 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="xf-ely3-s"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:grid-squares-duotone" /></template>
+<style>
+.xf-ely3-s {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M3 16C3 14.8954 3.8954 14 5 14L8 14C9.1046 14 10 14.8954 10 16L10 19C10 20.1046 9.1046 21 8 21L5 21C3.8954 21 3 20.1046 3 19L3 16ZM3 5C3 3.8954 3.8954 3 5 3L8 3C9.1046 3 10 3.8954 10 5L10 8C10 9.1046 9.1046 10 8 10L5 10C3.8954 10 3 9.1046 3 8L3 5ZM14 16C14 14.8954 14.8954 14 16 14L19 14C20.1046 14 21 14.8954 21 16L21 19C21 20.1046 20.1046 21 19 21L16 21C14.8954 21 14 20.1046 14 19L14 16ZM14 5C14 3.8954 14.8954 3 16 3L19 3C20.1046 3 21 3.8954 21 5L21 8C21 9.1046 20.1046 10 19 10L16 10C14.8954 10 14 9.1046 14 8L14 5Z");
+}
+
+</style>

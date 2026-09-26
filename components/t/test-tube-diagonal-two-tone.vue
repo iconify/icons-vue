@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/l/lm5qi0b5y.css';
-import '../../css/b/b8rqfo09d.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,24 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path class="lm5qi0b5y"/><path class="b8rqfo09d"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:test-tube-diagonal-two-tone" /></template>
+<style>
+.b8rqfo09d {
+  d: path("M14.9719 3.0913L18.324 5.2739C18.6074 5.4584 18.7783 5.7737 18.7783 6.1119C18.7783 6.3056 18.722 6.4952 18.6163 6.6576L9.514 20.6369C8.9604 21.4872 8.0146 22 7 22C5.3431 22 4 20.6569 4 19C4 18.4188 4.1688 17.8501 4.486 17.3631L13.5883 3.3837C13.7728 3.1003 14.0881 2.9293 14.4263 2.9293C14.62 2.9293 14.8096 2.9856 14.9719 3.0913ZM13.2959 2L20 6.3652M7.3268 13L14.4866 13");
+}
+
+.lm5qi0b5y {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M15.5176 2.2533L18.8696 4.4359C19.4364 4.805 19.7783 5.4355 19.7783 6.1119C19.7783 6.4994 19.6658 6.8785 19.4544 7.2032L10.3521 21.1826C9.6139 22.3162 8.3528 23 7 23C4.7909 23 3 21.2091 3 19C3 18.2251 3.2251 17.4668 3.6479 16.8174L12.7502 2.838C13.1193 2.2712 13.7499 1.9293 14.4263 1.9293C14.8137 1.9293 15.1929 2.0419 15.5176 2.2533Z");
+  stroke: none;
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+</style>

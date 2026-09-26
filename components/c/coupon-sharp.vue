@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/g/gp_8x1bzb.css';
-import '../../css/w/wui7kdbtk.css';
-import '../../css/x/x89uejb-e.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,22 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="gp_8x1bzb"><path class="wui7kdbtk"/><path class="x89uejb-e"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:coupon-sharp" /></template>
+<style>
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.wui7kdbtk {
+  d: path("M2 4L22 4L22 9C20.3432 9 19 10.3431 19 12C19 13.6569 20.3432 15 22 15L22 20L2 20L2 15C3.6568 15 5 13.6569 5 12C5 10.3431 3.6568 9 2 9L2 4ZM8.7071 15.2929L15.2929 8.7071");
+}
+
+.x89uejb-e {
+  fill: currentColor;
+  d: path("M10.5 8.5C10.5 9.3284 9.8284 10 9 10C8.1716 10 7.5 9.3284 7.5 8.5C7.5 7.6716 8.1716 7 9 7C9.8284 7 10.5 7.6716 10.5 8.5ZM16.5 15.5C16.5 16.3284 15.8284 17 15 17C14.1716 17 13.5 16.3284 13.5 15.5C13.5 14.6716 14.1716 14 15 14C15.8284 14 16.5 14.6716 16.5 15.5Z");
+  stroke: none;
+}
+
+</style>

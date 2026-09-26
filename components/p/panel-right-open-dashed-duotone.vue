@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/g/gojup1b1q.css';
-import '../../css/p/p78u3gzyq.css';
-import '../../css/h/hhirdqpne.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,28 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path class="gojup1b1q"/><path class="p78u3gzyq"/><path class="hhirdqpne"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:panel-right-open-dashed-duotone" /></template>
+<style>
+.gojup1b1q {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M15 2L18 2C20.2091 2 22 3.7909 22 6L22 18C22 20.2091 20.2091 22 18 22L15 22C14.4477 22 14 21.5523 14 21L14 3C14 2.4477 14.4477 2 15 2Z");
+  stroke: none;
+}
+
+.hhirdqpne {
+  d: path("M11 9L8 12L11 15");
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.p78u3gzyq {
+  d: path("M6 3C4.34315 3 3 4.34315 3 6M3 18C3 19.6569 4.34315 21 6 21M10 3H11M10 21H11M3 10.5V13.5");
+}
+
+</style>

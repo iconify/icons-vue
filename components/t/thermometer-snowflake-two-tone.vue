@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/d/dj05c4b-z.css';
-import '../../css/t/t0et6ebqu.css';
-import '../../css/x/xcyk673ka.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,30 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path class="dj05c4b-z"/><path class="t0et6ebqu"/><path class="xcyk673ka"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:thermometer-snowflake-two-tone" /></template>
+<style>
+.dj05c4b-z {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M13.5 5C13.5 2.7909 15.2909 1 17.5 1C19.7091 1 21.5 2.7909 21.5 5L21.5 13.7251C22.4634 14.7459 23 16.0964 23 17.5C23 20.5376 20.5376 23 17.5 23C14.4624 23 12 20.5376 12 17.5C12 16.0964 12.5366 14.7459 13.5 13.7251L13.5 5Z");
+  stroke: none;
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.t0et6ebqu {
+  d: path("M14.5 5C14.5 3.3431 15.8431 2 17.5 2C19.1569 2 20.5 3.3431 20.5 5L20.5 13.7251C20.5 13.9803 20.5976 14.2258 20.7727 14.4114C21.5609 15.2466 22 16.3516 22 17.5C22 19.9853 19.9853 22 17.5 22C15.0147 22 13 19.9853 13 17.5C13 16.3516 13.4391 15.2466 14.2273 14.4114C14.4024 14.2258 14.5 13.9803 14.5 13.7251L14.5 5ZM9.7809 10.7545L6.4148 16.5848M7.0619 18.9996L6.4148 16.5848L4 17.2319M10.5 12L3.7678 12M2 13.7678L3.7678 12L2 10.2322M9.7809 13.2455L6.4148 7.4152M4 6.7681L6.4148 7.4152L7.0619 5.0004");
+}
+
+.xcyk673ka {
+  fill: currentColor;
+  d: path("M19 17.5C19 18.3284 18.3284 19 17.5 19C16.6716 19 16 18.3284 16 17.5C16 16.6716 16.6716 16 17.5 16C18.3284 16 19 16.6716 19 17.5Z");
+  stroke: none;
+}
+
+</style>

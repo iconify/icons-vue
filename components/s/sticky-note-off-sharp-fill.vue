@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/g/gp_8x1bzb.css';
-import '../../css/i/ijc3wzb0q.css';
-import '../../css/a/ahhqo1b4s.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,23 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="gp_8x1bzb"><path clip-rule="evenodd" class="ijc3wzb0q"/><path class="ahhqo1b4s"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:sticky-note-off-sharp-fill" /></template>
+<style>
+.ahhqo1b4s {
+  d: path("M1.7071 1.7071L22.2929 22.2929");
+}
+
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.ijc3wzb0q {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M21.7071 21.7071C21.5196 21.8946 21.2652 22 21 22L3 22C2.4477 22 2 21.5523 2 21L2 3C2 2.7348 2.1054 2.4804 2.2929 2.2929L21.7071 21.7071ZM7.6569 2L15 2C15.2652 2 15.5196 2.1054 15.7071 2.2929L21.7071 8.2929C21.8946 8.4804 22 8.7348 22 9L22 16.3431L20 16.3431L7.6569 4ZM15 9L19.5858 9L15 4.4142Z");
+  stroke: none;
+}
+
+</style>

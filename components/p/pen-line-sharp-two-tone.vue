@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/g/gp_8x1bzb.css';
-import '../../css/j/jlvs6-k6s.css';
-import '../../css/o/osux7fcgy.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,23 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="gp_8x1bzb"><path class="jlvs6-k6s"/><path class="osux7fcgy"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:pen-line-sharp-two-tone" /></template>
+<style>
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.jlvs6-k6s {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M21.7308 8.3975L10.5639 19.5644C10.4681 19.6602 10.3539 19.7355 10.2281 19.7858L2.3714 22.9285C2.2533 22.9757 2.1272 23 2 23C1.4477 23 1 22.5523 1 22C1 21.8728 1.0243 21.7467 1.0715 21.6286L4.2142 13.7719C4.2645 13.6461 4.3398 13.5319 4.4356 13.4361L15.6025 2.2692C16.4152 1.4565 17.5174 1 18.6667 1C19.8159 1 20.9181 1.4565 21.7308 2.2692C22.5435 3.0819 23 4.1841 23 5.3333C23 6.4826 22.5435 7.5848 21.7308 8.3975ZM19.7778 7.522L20.3166 6.9832C20.7542 6.5457 21 5.9522 21 5.3333C21 4.7145 20.7542 4.121 20.3166 3.6834C19.879 3.2458 19.2855 3 18.6667 3C18.0478 3 17.4543 3.2458 17.0168 3.6834L16.478 4.2222Z");
+  stroke: none;
+}
+
+.osux7fcgy {
+  d: path("M21.0237 7.6904L9.8567 18.8573L2 22L5.1427 14.1433L16.3096 2.9763C16.9348 2.3512 17.7826 2 18.6667 2C19.5507 2 20.3986 2.3512 21.0237 2.9763C21.6488 3.6014 22 4.4493 22 5.3333C22 6.2174 21.6488 7.0652 21.0237 7.6904ZM15.0638 4.2222L19.7778 8.9362M12.1111 22L23 22");
+}
+
+</style>

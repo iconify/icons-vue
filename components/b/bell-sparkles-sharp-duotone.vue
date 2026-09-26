@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/g/gp_8x1bzb.css';
-import '../../css/f/f769viv2h.css';
-import '../../css/c/c6upwkbge.css';
-import '../../css/o/ootzhpboc.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,29 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="gp_8x1bzb"><path class="f769viv2h"/><path class="c6upwkbge"/><path class="ootzhpboc"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:bell-sparkles-sharp-duotone" /></template>
+<style>
+.c6upwkbge {
+  fill: currentColor;
+  d: path("M19.5492 2.3739L20.4196 4.5804L22.6261 5.4508C22.8518 5.5397 23 5.7576 23 6C23 6.2424 22.8518 6.4603 22.6261 6.5492L20.4196 7.4196L19.5492 9.6261C19.4603 9.8518 19.2424 10 19 10C18.7576 10 18.5397 9.8518 18.4508 9.6261L17.5804 7.4196L15.3739 6.5492C15.1482 6.4603 15 6.2424 15 6C15 5.7576 15.1482 5.5397 15.3739 5.4508L17.5804 4.5804L18.4508 2.3739C18.5397 2.1482 18.7576 2 19 2C19.2424 2 19.4603 2.1482 19.5492 2.3739Z");
+  stroke: none;
+}
+
+.f769viv2h {
+  d: path("M14.3476 11.3261L14.5801 12C15.1706 13.7121 16 14.356 16 15L16 16L2 16L2 15C2 14 4 13 4 8C4 5.2386 6.2386 3 9 3C10.1256 3 11.1643 3.372 12 3.9996L12.3994 4.2997M6.7679 19.134C7.6252 20.6188 8.2855 21 9 21C9.7145 21 10.3748 20.6188 11.2321 19.134");
+}
+
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.ootzhpboc {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M9.8433 7.2337L10.3873 8.6127L11.7663 9.1567C11.9074 9.2123 12 9.3485 12 9.5C12 9.6515 11.9074 9.7877 11.7663 9.8433L10.3873 10.3873L9.8433 11.7663C9.7877 11.9074 9.6515 12 9.5 12C9.3485 12 9.2123 11.9074 9.1567 11.7663L8.6127 10.3873L7.2337 9.8433C7.0926 9.7877 7 9.6515 7 9.5C7 9.3485 7.0926 9.2123 7.2337 9.1567L8.6127 8.6127L9.1567 7.2337C9.2123 7.0926 9.3485 7 9.5 7C9.6515 7 9.7877 7.0926 9.8433 7.2337Z");
+  stroke: none;
+}
+
+</style>

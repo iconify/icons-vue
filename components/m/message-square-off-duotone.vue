@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/m/mx9vvu0zn.css';
-import '../../css/a/ayo73pbzj.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,24 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path class="mx9vvu0zn"/><path class="ayo73pbzj"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:message-square-off-duotone" /></template>
+<style>
+.ayo73pbzj {
+  d: path("M2 2L22 22");
+}
+
+.mx9vvu0zn {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M18 18L7.4142 18L3.7071 21.7071C3.5196 21.8946 3.2652 22 3 22C2.4477 22 2 21.5523 2 21L2 6C2 4.9391 2.4214 3.9217 3.1716 3.1716ZM8.6569 2L18 2C20.2091 2 22 3.7909 22 6L22 14C22 14.5138 21.901 15.0229 21.7084 15.4993C21.5556 15.8771 21.1889 16.1244 20.7813 16.1244C20.5161 16.1244 20.2617 16.0191 20.0742 15.8316L7.9497 3.7071C7.7622 3.5196 7.6569 3.2652 7.6569 3C7.6569 2.4477 8.1046 2 8.6569 2Z");
+  stroke: none;
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+</style>

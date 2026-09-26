@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/g/gp_8x1bzb.css';
-import '../../css/r/ryp3spl8y.css';
-import '../../css/i/ivbuyeg9r.css';
-import '../../css/c/czbbm17fv.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,29 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="gp_8x1bzb"><path class="ryp3spl8y"/><path class="ivbuyeg9r"/><path class="czbbm17fv"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:shopping-cart-sharp-two-tone" /></template>
+<style>
+.czbbm17fv {
+  fill: currentColor;
+  d: path("M10.5 20.5C10.5 21.3284 9.8284 22 9 22C8.1716 22 7.5 21.3284 7.5 20.5C7.5 19.6716 8.1716 19 9 19C9.8284 19 10.5 19.6716 10.5 20.5ZM18.5 20.5C18.5 21.3284 17.8284 22 17 22C16.1716 22 15.5 21.3284 15.5 20.5C15.5 19.6716 16.1716 19 17 19C17.8284 19 18.5 19.6716 18.5 20.5Z");
+  stroke: none;
+}
+
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.ivbuyeg9r {
+  d: path("M1 3L4 3L5 7M5 7L21.9989 7L18.9999 15L7 15L5 7Z");
+}
+
+.ryp3spl8y {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M5 6L21.9989 6C22.6971 6 23.1803 6.6973 22.9353 7.351L19.9363 15.351C19.7899 15.7414 19.4168 16 18.9999 16L7 16C6.5411 16 6.1411 15.6877 6.0299 15.2425L4.0299 7.2425C3.8721 6.6114 4.3494 6 5 6Z");
+  stroke: none;
+}
+
+</style>

@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/q/qjlkou6ik.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,14 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="qjlkou6ik"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:smartphone-horizontal" /></template>
+<style>
+.qjlkou6ik {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M6 10.5V13.5M2 9V15C2 17.2091 3.79086 19 6 19H18C20.2091 19 22 17.2091 22 15V9C22 6.79086 20.2091 5 18 5H6C3.79086 5 2 6.79086 2 9Z");
+}
+
+</style>

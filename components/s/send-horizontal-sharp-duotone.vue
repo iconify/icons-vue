@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/m/ml9i6q40p.css';
-import '../../css/z/z99xt2byy.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,18 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="cuyn6tgcc"><path class="ml9i6q40p"/><path class="z99xt2byy"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:send-horizontal-sharp-duotone" /></template>
+<style>
+.cuyn6tgcc {
+  fill: currentColor;
+}
+
+.ml9i6q40p {
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M2.4472 1.1056L22.4472 11.1056C22.786 11.275 23 11.6212 23 12C23 12.3788 22.786 12.725 22.4472 12.8944L2.4472 22.8944C2.3084 22.9639 2.1552 23 2 23C1.4477 23 1 22.5523 1 22C1 21.9378 1.0058 21.8758 1.0173 21.8147L2.868 12L1.0173 2.1853C1.0058 2.1242 1 2.0622 1 2C1 1.4477 1.4477 1 2 1C2.1552 1 2.3084 1.0361 2.4472 1.1056Z");
+}
+
+.z99xt2byy {
+  d: path("M23 12C23 12.3788 22.786 12.725 22.4472 12.8944L2.4472 22.8944C2.3084 22.9639 2.1552 23 2 23C1.4477 23 1 22.5523 1 22C1 21.9378 1.0058 21.8758 1.0173 21.8147L2.868 12L23 12Z");
+}
+
+</style>

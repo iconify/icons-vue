@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/w/wf1crc8bd.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,10 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="wf1crc8bd"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:square-chevrons-left-sharp-fill" /></template>
+<style>
+.wf1crc8bd {
+  fill: currentColor;
+  d: path("M3 2L21 2C21.5523 2 22 2.4477 22 3L22 21C22 21.5523 21.5523 22 21 22L3 22C2.4477 22 2 21.5523 2 21L2 3C2 2.4477 2.4477 2 3 2ZM10.3358 7.5001L6.543 11.293C6.1524 11.6835 6.1524 12.3165 6.543 12.707L10.3359 16.4998L11.7499 15.0858L8.6641 12L11.7498 8.9141L10.3358 7.5001ZM16.3358 7.5001L12.543 11.293C12.1524 11.6835 12.1524 12.3165 12.543 12.707L16.3358 16.4998L17.7498 15.0858L14.6641 12L17.7498 8.9141L16.3358 7.5001Z");
+}
+
+</style>

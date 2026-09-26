@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/w/wuxs2zg7u.css';
-import '../../css/i/iijs38blk.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,24 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path clip-rule="evenodd" class="wuxs2zg7u"/><path class="iijs38blk"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:images-fill" /></template>
+<style>
+.iijs38blk {
+  d: path("M3 8V18C3 19.6569 4.3431 21 6 21H16");
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.wuxs2zg7u {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M10 2H18C20.2091 2 22 3.7909 22 6V14C22 16.2091 20.2091 18 18 18H10C7.7909 18 6 16.2091 6 14V6C6 3.7909 7.7909 2 10 2ZM8 13.5L14.3292 10.3354C14.7515 10.1243 15.2485 10.1243 15.6708 10.3354L20 12.5V14C20 15.1046 19.1046 16 18 16H10C8.8954 16 8 15.1046 8 14ZM12 7C12 6.4477152502 11.5522847498 6 11 6C10.4477152502 6 10 6.4477152502 10 7C10 7.5522847498 10.4477152502 8 11 8C11.5522847498 8 12 7.5522847498 12 7Z");
+  stroke: none;
+}
+
+</style>

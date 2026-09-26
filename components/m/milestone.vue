@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/z/zregm3blr.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,14 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="zregm3blr"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:milestone" /></template>
+<style>
+.zregm3blr {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M5 5L16.7192 5C16.9029 5 17.0829 5.0506 17.2397 5.1461L20.5205 7.1461C21.1599 7.5359 21.1599 8.4641 20.5205 8.8539L17.2397 10.8539C17.0829 10.9494 16.9029 11 16.7192 11L5 11C3.8954 11 3 10.1046 3 9L3 7C3 5.8954 3.8954 5 5 5ZM12 2L12 5M12 11L12 22M8 22L16 22");
+}
+
+</style>

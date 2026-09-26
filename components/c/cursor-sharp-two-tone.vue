@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/g/gp_8x1bzb.css';
-import '../../css/e/e0u0pjyam.css';
-import '../../css/j/jvao_0b9m.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,23 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="gp_8x1bzb"><path class="e0u0pjyam"/><path class="jvao_0b9m"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:cursor-sharp-two-tone" /></template>
+<style>
+.e0u0pjyam {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M7.912 21.3097L2.0492 3.3097C1.7938 2.5258 2.5434 1.7871 3.3235 2.0538L21.3235 8.2081C22.1688 8.4971 22.2398 9.665 21.4358 10.0543L13.9523 13.6783L9.7427 21.4751C9.3251 22.2487 8.1842 22.1456 7.912 21.3097Z");
+  stroke: none;
+}
+
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.jvao_0b9m {
+  d: path("M8.8628 21L3 3L21 9.1543L13.2258 12.919L8.8628 21Z");
+}
+
+</style>

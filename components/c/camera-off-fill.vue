@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/w/wcg8i6wta.css';
-import '../../css/a/ayo73pbzj.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,24 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path clip-rule="evenodd" class="wcg8i6wta"/><path class="ayo73pbzj"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:camera-off-fill" /></template>
+<style>
+.ayo73pbzj {
+  d: path("M2 2L22 22");
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.wcg8i6wta {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M20.6465 20.6465C20.1443 20.8736 19.5869 21 19 21L5 21C2.7909 21 1 19.2091 1 17L1 9C1 6.7909 2.7909 5 5 5ZM8.9498 4.7071C8.6638 4.4211 8.5782 3.991 8.733 3.6173C8.8878 3.2436 9.2524 3 9.6569 3L14.5 3C15.1295 3 15.7223 3.2964 16.1 3.8L17 5L19 5C21.2091 5 23 6.7909 23 9L23 16.3431C23 16.7476 22.7564 17.1122 22.3827 17.267C22.009 17.4218 21.5789 17.3362 21.2929 17.0502L8.9498 4.7071ZM15.2841 15.2841C14.5614 16.3213 13.3599 17 12 17C9.7909 17 8 15.2091 8 13C8 11.6401 8.6787 10.4386 9.7159 9.7159ZM13.8233 13.8233C13.5094 14.5172 12.8111 15 12 15C10.8954 15 10 14.1046 10 13C10 12.1889 10.4828 11.4906 11.1767 11.1767Z");
+  stroke: none;
+}
+
+</style>

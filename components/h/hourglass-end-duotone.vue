@@ -1,0 +1,36 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="nrj6p8qat"><path class="tcy-4kbqq"/><path class="f84gmpypw"/><path class="j01bihj8h"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:hourglass-end-duotone" /></template>
+<style>
+.f84gmpypw {
+  fill: currentColor;
+  d: path("M5.15 17L18.85 17C18.9494 17.3023 19 17.6185 19 17.9367L19 21L20 21C20.5523 21 21 21.4477 21 22C21 22.5523 20.5523 23 20 23L4 23C3.4477 23 3 22.5523 3 22C3 21.4477 3.4477 21 4 21L5 21L5 17.9367C5 17.6185 5.0506 17.3023 5.15 17Z");
+  stroke: none;
+}
+
+.j01bihj8h {
+  d: path("M4 2L20 2M4 22L20 22");
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.tcy-4kbqq {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M5 3L4 3C3.4477 3 3 2.5523 3 2C3 1.4477 3.4477 1 4 1L20 1C20.5523 1 21 1.4477 21 2C21 2.5523 20.5523 3 20 3L19 3L19 6.0633C19 6.9536 18.6045 7.7979 17.9206 8.3679L13.562 12L17.9206 15.6321C18.6045 16.2021 19 17.0464 19 17.9367L19 21L20 21C20.5523 21 21 21.4477 21 22C21 22.5523 20.5523 23 20 23L4 23C3.4477 23 3 22.5523 3 22C3 21.4477 3.4477 21 4 21L5 21L5 17.9367C5 17.0464 5.3955 16.2021 6.0794 15.6321L10.438 12L6.0794 8.3679C5.3955 7.7979 5 6.9536 5 6.0633Z");
+  stroke: none;
+}
+
+</style>

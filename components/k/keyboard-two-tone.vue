@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/f/fe4pabiai.css';
-import '../../css/v/vk4v4b4uw.css';
-import '../../css/q/qjum4lbgt.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,30 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path class="fe4pabiai"/><path class="vk4v4b4uw"/><path class="qjum4lbgt"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:keyboard-two-tone" /></template>
+<style>
+.fe4pabiai {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M5 3L19 3C21.2091 3 23 4.7909 23 7L23 17C23 19.2091 21.2091 21 19 21L5 21C2.7909 21 1 19.2091 1 17L1 7C1 4.7909 2.7909 3 5 3Z");
+  stroke: none;
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.qjum4lbgt {
+  fill: currentColor;
+  d: path("M5.5 7L6.5 7C6.7761 7 7 7.2239 7 7.5L7 8.5C7 8.7761 6.7761 9 6.5 9L5.5 9C5.2239 9 5 8.7761 5 8.5L5 7.5C5 7.2239 5.2239 7 5.5 7ZM9.5 7L10.5 7C10.7761 7 11 7.2239 11 7.5L11 8.5C11 8.7761 10.7761 9 10.5 9L9.5 9C9.2239 9 9 8.7761 9 8.5L9 7.5C9 7.2239 9.2239 7 9.5 7ZM13.5 7L14.5 7C14.7761 7 15 7.2239 15 7.5L15 8.5C15 8.7761 14.7761 9 14.5 9L13.5 9C13.2239 9 13 8.7761 13 8.5L13 7.5C13 7.2239 13.2239 7 13.5 7ZM17.5 7L18.5 7C18.7761 7 19 7.2239 19 7.5L19 8.5C19 8.7761 18.7761 9 18.5 9L17.5 9C17.2239 9 17 8.7761 17 8.5L17 7.5C17 7.2239 17.2239 7 17.5 7ZM5.5 11L6.5 11C6.7761 11 7 11.2239 7 11.5L7 12.5C7 12.7761 6.7761 13 6.5 13L5.5 13C5.2239 13 5 12.7761 5 12.5L5 11.5C5 11.2239 5.2239 11 5.5 11ZM9.5 11L10.5 11C10.7761 11 11 11.2239 11 11.5L11 12.5C11 12.7761 10.7761 13 10.5 13L9.5 13C9.2239 13 9 12.7761 9 12.5L9 11.5C9 11.2239 9.2239 11 9.5 11ZM13.5 11L14.5 11C14.7761 11 15 11.2239 15 11.5L15 12.5C15 12.7761 14.7761 13 14.5 13L13.5 13C13.2239 13 13 12.7761 13 12.5L13 11.5C13 11.2239 13.2239 11 13.5 11ZM17.5 11L18.5 11C18.7761 11 19 11.2239 19 11.5L19 12.5C19 12.7761 18.7761 13 18.5 13L17.5 13C17.2239 13 17 12.7761 17 12.5L17 11.5C17 11.2239 17.2239 11 17.5 11Z");
+  stroke: none;
+}
+
+.vk4v4b4uw {
+  d: path("M5 4L19 4C20.6569 4 22 5.3431 22 7L22 17C22 18.6569 20.6569 20 19 20L5 20C3.3431 20 2 18.6569 2 17L2 7C2 5.3431 3.3431 4 5 4ZM8 16L16 16");
+}
+
+</style>

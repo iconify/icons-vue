@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/u/ur41y1but.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,14 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="ur41y1but"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:test-tubes" /></template>
+<style>
+.ur41y1but {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M4 2L8 2C8.5523 2 9 2.4477 9 3L9 19C9 20.6569 7.6569 22 6 22C4.3431 22 3 20.6569 3 19L3 3C3 2.4477 3.4477 2 4 2ZM2 2L10 2M3 13L9 13M16 2L20 2C20.5523 2 21 2.4477 21 3L21 19C21 20.6569 19.6569 22 18 22C16.3431 22 15 20.6569 15 19L15 3C15 2.4477 15.4477 2 16 2ZM14 2L22 2M15 16L21 16");
+}
+
+</style>

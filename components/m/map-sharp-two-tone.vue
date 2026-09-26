@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/g/gp_8x1bzb.css';
-import '../../css/d/dh9ypi61d.css';
-import '../../css/v/vw838jbqi.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,23 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="gp_8x1bzb"><path class="dh9ypi61d"/><path class="vw838jbqi"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:map-sharp-two-tone" /></template>
+<style>
+.dh9ypi61d {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M2.5528 5.1056L8.5528 2.1056C8.8343 1.9648 9.1657 1.9648 9.4472 2.1056L15 4.882L20.5528 2.1056C21.2177 1.7731 22 2.2566 22 3L22 18C22 18.3788 21.786 18.725 21.4472 18.8944L15.4472 21.8944C15.1657 22.0352 14.8343 22.0352 14.5528 21.8944L9 19.118L3.4472 21.8944C2.7823 22.2269 2 21.7434 2 21L2 6C2 5.6212 2.214 5.275 2.5528 5.1056Z");
+  stroke: none;
+}
+
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.vw838jbqi {
+  d: path("M3 6L9 3L15 6L21 3L21 18L15 21L9 18L3 21L3 6ZM9 3L9 18.4871M15 5.5129L15 21");
+}
+
+</style>

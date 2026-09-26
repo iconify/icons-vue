@@ -1,10 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/g/gp_8x1bzb.css';
-import '../../css/l/lb1jov5wm.css';
-import '../../css/k/koo-sesdl.css';
-import '../../css/q/q4td3mb4p.css';
-import '../../css/r/rhu4n0brl.css';
 
 const props = defineProps(["width","height"]);
 
@@ -12,3 +7,34 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="gp_8x1bzb"><path class="lb1jov5wm"/><path class="koo-sesdl"/><path class="q4td3mb4p"/><path class="rhu4n0brl"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:terminal-sparkles-sharp-two-tone" /></template>
+<style>
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.koo-sesdl {
+  d: path("M1.7191 4.7593L9.0001 11L1.6508 17.2993");
+}
+
+.lb1jov5wm {
+  stroke-opacity: 0.4;
+  d: path("M19 19L10 19");
+}
+
+.q4td3mb4p {
+  fill: currentColor;
+  d: path("M19.5492 4.3739L20.4196 6.5804L22.6261 7.4508C22.8518 7.5397 23 7.7576 23 8C23 8.2424 22.8518 8.4603 22.6261 8.5492L20.4196 9.4196L19.5492 11.6261C19.4603 11.8518 19.2424 12 19 12C18.7576 12 18.5397 11.8518 18.4508 11.6261L17.5804 9.4196L15.3739 8.5492C15.1482 8.4603 15 8.2424 15 8C15 7.7576 15.1482 7.5397 15.3739 7.4508L17.5804 6.5804L18.4508 4.3739C18.5397 4.1482 18.7576 4 19 4C19.2424 4 19.4603 4.1482 19.5492 4.3739Z");
+  stroke: none;
+}
+
+.rhu4n0brl {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M14.8433 11.2337L15.3873 12.6127L16.7663 13.1567C16.9074 13.2123 17 13.3485 17 13.5C17 13.6515 16.9074 13.7877 16.7663 13.8433L15.3873 14.3873L14.8433 15.7663C14.7877 15.9074 14.6515 16 14.5 16C14.3485 16 14.2123 15.9074 14.1567 15.7663L13.6127 14.3873L12.2337 13.8433C12.0926 13.7877 12 13.6515 12 13.5C12 13.3485 12.0926 13.2123 12.2337 13.1567L13.6127 12.6127L14.1567 11.2337C14.2123 11.0926 14.3485 11 14.5 11C14.6515 11 14.7877 11.0926 14.8433 11.2337Z");
+  stroke: none;
+}
+
+</style>

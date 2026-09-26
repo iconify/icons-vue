@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/y/ybn8519xv.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,10 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="ybn8519xv"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:face-smile-fill" /></template>
+<style>
+.ybn8519xv {
+  fill: currentColor;
+  d: path("M23 12C23 18.0751 18.0751 23 12 23C5.9249 23 1 18.0751 1 12C1 5.9249 5.9249 1 12 1C18.0751 1 23 5.9249 23 12ZM10 10C10 9.4477 9.5523 9 9 9C8.4477 9 8 9.4477 8 10L8 11C8 11.5523 8.4477 12 9 12C9.5523 12 10 11.5523 10 11L10 10ZM16 10C16 9.4477 15.5523 9 15 9C14.4477 9 14 9.4477 14 10L14 11C14 11.5523 14.4477 12 15 12C15.5523 12 16 11.5523 16 11L16 10ZM9.7071 14.2929C9.5196 14.1054 9.2652 14 9 14C8.4477 14 8 14.4477 8 15C8 15.2652 8.1054 15.5196 8.2929 15.7071C9.4019 16.8161 10.6412 17.5 12 17.5C13.3588 17.5 14.5981 16.8161 15.7071 15.7071C15.8946 15.5196 16 15.2652 16 15C16 14.4477 15.5523 14 15 14C14.7348 14 14.4804 14.1054 14.2929 14.2929C13.4019 15.1839 12.6412 15.5 12 15.5C11.3588 15.5 10.5981 15.1839 9.7071 14.2929Z");
+}
+
+</style>

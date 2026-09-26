@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/d/dhra1rbiz.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,10 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="dhra1rbiz"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:circle-trending-down-sharp-fill" /></template>
+<style>
+.dhra1rbiz {
+  fill: currentColor;
+  d: path("M12 1C17.937 1 23 6.0629 23 12C23 17.937 17.937 23 12 23C6.0629 23 1 17.937 1 12C1 6.0629 6.0629 1 12 1ZM6.0001 9.914L9.4934 13.4071C9.884 13.7976 10.5171 13.7976 10.9076 13.407L12.7002 11.6143L14.5859 13.5L13 13.5L13 15.5L17 15.5C17.5523 15.5 18 15.0523 18 14.5L18 10.5L16 10.5L16 12.0859L13.4072 9.4932C13.0411 9.127 12.4611 9.1034 12.0684 9.4238L10.2002 11.2861L7.4141 8.5L6.0001 9.914Z");
+}
+
+</style>

@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/g/gp_8x1bzb.css';
-import '../../css/b/bqre_zbbf.css';
-import '../../css/a/ahhqo1b4s.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,22 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="gp_8x1bzb"><path class="bqre_zbbf"/><path class="ahhqo1b4s"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:pen-off-sharp-fill" /></template>
+<style>
+.ahhqo1b4s {
+  d: path("M1.7071 1.7071L22.2929 22.2929");
+}
+
+.bqre_zbbf {
+  fill: currentColor;
+  d: path("M15.0641 15.0641L10.5639 19.5644C10.4681 19.6602 10.3539 19.7355 10.2281 19.7858L2.3714 22.9285C2.2533 22.9757 2.1272 23 2 23C1.4477 23 1 22.5523 1 22C1 21.8728 1.0243 21.7467 1.0715 21.6286L4.2142 13.7719C4.2645 13.6461 4.3398 13.5319 4.4356 13.4361L8.9359 8.9359ZM10.7036 7.1681L15.6025 2.2692C16.4152 1.4565 17.5174 1 18.6667 1C19.8159 1 20.9181 1.4565 21.7308 2.2692C22.5435 3.0819 23 4.1841 23 5.3333C23 6.4826 22.5435 7.5848 21.7308 8.3975L16.8319 13.2964ZM19.7778 7.522L20.3166 6.9832C20.7542 6.5457 21 5.9522 21 5.3333C21 4.7145 20.7542 4.121 20.3166 3.6834C19.879 3.2458 19.2855 3 18.6667 3C18.0478 3 17.4543 3.2458 17.0168 3.6834L16.478 4.2222Z");
+  stroke: none;
+}
+
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+</style>

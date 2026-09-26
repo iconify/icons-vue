@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/c/ce0dacbix.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,11 @@ const viewBox = {"width":24,"height":24};
 const content = `<path clip-rule="evenodd" class="ce0dacbix"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:square-caret-up-fill" /></template>
+<style>
+.ce0dacbix {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M18 2C20.2091 2 22 3.79086 22 6V18C22 20.2091 20.2091 22 18 22H6C3.79086 22 2 20.2091 2 18V6C2 3.79086 3.79086 2 6 2H18ZM13.2842 7.18848C12.6815 6.27038 11.3185 6.27038 10.7158 7.18848L10.6582 7.2832L6.19629 15.2207C5.61288 16.2588 6.38391 17.4998 7.53809 17.5H16.4619C17.6161 17.4998 18.3871 16.2588 17.8037 15.2207L13.3418 7.2832L13.2842 7.18848Z");
+}
+
+</style>

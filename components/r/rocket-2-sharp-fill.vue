@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/g/gp_8x1bzb.css';
-import '../../css/n/npqvt9qvm.css';
-import '../../css/k/k7oniz8nq.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,22 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="gp_8x1bzb"><path class="npqvt9qvm"/><path class="k7oniz8nq"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:rocket-2-sharp-fill" /></template>
+<style>
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.k7oniz8nq {
+  d: path("M6.8103 13.5269L10.4731 17.1897L10.4731 19.9368L16.7303 17.6475L16.7303 12.7638C20.0352 10.4262 21.9999 6.63 21.9999 2.5819C21.9999 2.3922 21.9956 2.2025 21.987 2.013C21.7975 2.0044 21.6078 2.0001 21.4181 2.0001C17.37 2.0001 13.5738 3.9648 11.2362 7.2697L6.3525 7.2697L4.0632 13.5269L6.8103 13.5269ZM10.4731 17.1897L16.7303 12.7638M6.8103 13.5269L11.2362 7.2697M7.0253 19.8031L4.5355 22.2929M3.4898 17.6818L1.7071 19.4645");
+}
+
+.npqvt9qvm {
+  fill: currentColor;
+  d: path("M6.8103 13.5269L10.4731 17.1897L16.7303 12.7638C20.0352 10.4262 21.9999 6.63 21.9999 2.5819C21.9999 2.3922 21.9956 2.2025 21.987 2.013C21.7975 2.0044 21.6078 2.0001 21.4181 2.0001C17.37 2.0001 13.5738 3.9648 11.2362 7.2697L6.8103 13.5269Z");
+  stroke: none;
+}
+
+</style>

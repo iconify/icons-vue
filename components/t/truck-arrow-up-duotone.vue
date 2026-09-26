@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/w/wy94go95p.css';
-import '../../css/s/s9z6d6bwo.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,24 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path class="wy94go95p"/><path class="s9z6d6bwo"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:truck-arrow-up-duotone" /></template>
+<style>
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.s9z6d6bwo {
+  d: path("M9 18C9 19.1046 8.1046 20 7 20C5.8954 20 5 19.1046 5 18C5 16.8954 5.8954 16 7 16C8.1046 16 9 16.8954 9 18ZM19 18C19 19.1046 18.1046 20 17 20C15.8954 20 15 19.1046 15 18C15 16.8954 15.8954 16 17 16C18.1046 16 19 16.8954 19 18ZM4.5 9L4.5 4M2 6.5L4.5 4L7 6.5");
+}
+
+.wy94go95p {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M10 4C10 3.44772 10.44772 3 11 3C13.209139 3 15 4.790861 15 7L15 7L16.585787 7C17.11622 7 17.624928 7.210714 18 7.585786L22.414214 12C22.789286 12.375072 23 12.88378 23 13.414213L23 17C23 18.104569 22.104569 19 21 19L3 19C1.895431 19 1 18.104569 1 17L1 13C1 12.44772 1.44772 12 2 12L8 12C9.10457 12 10 11.10457 10 10L10 4Z");
+  stroke: none;
+}
+
+</style>

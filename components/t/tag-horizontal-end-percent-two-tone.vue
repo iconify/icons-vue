@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/v/v9yr0pcho.css';
-import '../../css/x/x7n3vqbmr.css';
-import '../../css/d/d9f73pbit.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,30 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path class="v9yr0pcho"/><path class="x7n3vqbmr"/><path class="d9f73pbit"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:tag-horizontal-end-percent-two-tone" /></template>
+<style>
+.d9f73pbit {
+  fill: currentColor;
+  d: path("M11.25 8.5C11.25 9.3284 11.9216 10 12.75 10C13.5784 10 14.25 9.3284 14.25 8.5C14.25 7.6716 13.5784 7 12.75 7C11.9216 7 11.25 7.6716 11.25 8.5ZM5.25 15.5C5.25 16.3284 5.9216 17 6.75 17C7.5784 17 8.25 16.3284 8.25 15.5C8.25 14.6716 7.5784 14 6.75 14C5.9216 14 5.25 14.6716 5.25 15.5Z");
+  stroke: none;
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.v9yr0pcho {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M5 3C2.7909 3 1 4.7909 1 7L1 17C1 19.2091 2.7909 21 5 21L14 21C14.7957 21 15.5587 20.6839 16.1213 20.1213L22.1213 14.1213C23.2929 12.9497 23.2929 11.0503 22.1213 9.8787L16.1213 3.8787C15.5587 3.3161 14.7957 3 14 3L5 3Z");
+  stroke: none;
+}
+
+.x7n3vqbmr {
+  d: path("M4.99997 4H14C14.5304 4 15.0391 4.21071 15.4142 4.58579L21.4142 10.5858C22.1953 11.3669 22.1953 12.6331 21.4142 13.4142L15.4142 19.4142C15.0391 19.7893 14.5304 20 14 20H4.99997C3.34311 20 1.99997 18.6569 1.99997 17V7C1.99997 5.34315 3.34311 4 4.99997 4ZM12.75 15L6.75 9");
+}
+
+</style>

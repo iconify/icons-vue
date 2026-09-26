@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/g/gp_8x1bzb.css';
-import '../../css/t/tvudebc2k.css';
-import '../../css/d/dx5sw3bdp.css';
-import '../../css/p/pn5m_ac8z.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,29 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="gp_8x1bzb"><path class="tvudebc2k"/><path class="dx5sw3bdp"/><path class="pn5m_ac8z"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:git-pull-request-draft-sharp-two-tone" /></template>
+<style>
+.dx5sw3bdp {
+  d: path("M6 22L6 9M6 3C7.6569 3 9 4.3431 9 6C9 7.6569 7.6569 9 6 9C4.3431 9 3 7.6569 3 6C3 4.3431 4.3431 3 6 3ZM18 15C19.6569 15 21 16.3431 21 18C21 19.6569 19.6569 21 18 21C16.3431 21 15 19.6569 15 18C15 16.3431 16.3431 15 18 15Z");
+}
+
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.pn5m_ac8z {
+  fill: currentColor;
+  d: path("M19.5 10C19.5 9.1716 18.8284 8.5 18 8.5C17.1716 8.5 16.5 9.1716 16.5 10C16.5 10.8284 17.1716 11.5 18 11.5C18.8284 11.5 19.5 10.8284 19.5 10ZM19.5 4.5C19.5 3.6716 18.8284 3 18 3C17.1716 3 16.5 3.6716 16.5 4.5C16.5 5.3284 17.1716 6 18 6C18.8284 6 19.5 5.3284 19.5 4.5Z");
+  stroke: none;
+}
+
+.tvudebc2k {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M6 2C8.0711 2 10 3.9289 10 6C10 8.0711 8.0711 10 6 10C3.9289 10 2 8.0711 2 6C2 3.9289 3.9289 2 6 2ZM18 14C15.9289 14 14 15.9289 14 18C14 20.0711 15.9289 22 18 22C20.0711 22 22 20.0711 22 18C22 15.9289 20.0711 14 18 14Z");
+  stroke: none;
+}
+
+</style>

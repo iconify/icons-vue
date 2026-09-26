@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/g/gp_8x1bzb.css';
-import '../../css/l/lwhz2cczu.css';
-import '../../css/w/w37vsy7dz.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,23 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="gp_8x1bzb"><path class="lwhz2cczu"/><path class="w37vsy7dz"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:fast-forward-sharp-two-tone" /></template>
+<style>
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.lwhz2cczu {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M2.5784 5.1863L11.0367 11.1843C11.5988 11.5829 11.5988 12.4171 11.0367 12.8157L2.5784 18.8137C1.9162 19.2833 1 18.8098 1 17.998L1 6.002C1 5.1902 1.9162 4.7167 2.5784 5.1863ZM14.5999 5.2019L22.5999 11.1999C23.1334 11.5999 23.1334 12.4001 22.5999 12.8001L14.5999 18.7981C13.9406 19.2924 13 18.822 13 17.998L13 6.002C13 5.178 13.9406 4.7076 14.5999 5.2019Z");
+  stroke: none;
+}
+
+.w37vsy7dz {
+  d: path("M2 6.002L10.4583 12L2 17.998L2 6.002ZM14 6.002L22 12L14 17.998L14 6.002Z");
+}
+
+</style>

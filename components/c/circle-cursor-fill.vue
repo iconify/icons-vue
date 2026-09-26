@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/s/s63khdc0c.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,11 @@ const viewBox = {"width":24,"height":24};
 const content = `<path clip-rule="evenodd" class="s63khdc0c"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:circle-cursor-fill" /></template>
+<style>
+.s63khdc0c {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M12 1C18.0751 1 23 5.92487 23 12C23 18.0751 18.0751 23 12 23C5.92487 23 1 18.0751 1 12C1 5.92487 5.92487 1 12 1ZM8.37891 6.5459C7.25654 6.25993 6.20682 7.31875 6.57227 8.46582L9.43457 17.4492C9.85173 18.7582 11.6588 18.8724 12.2412 17.6318L14.0107 13.8623L17.5684 12.3877C18.8598 11.8524 18.7915 10.0051 17.4668 9.56445L8.48828 6.57812L8.37891 6.5459Z");
+}
+
+</style>

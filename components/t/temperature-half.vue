@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/h/h4pyrw7ym.css';
-import '../../css/k/k8te4qbon.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,23 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path class="h4pyrw7ym"/><path class="k8te4qbon"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:temperature-half" /></template>
+<style>
+.h4pyrw7ym {
+  d: path("M8 6C8 3.7909 9.7909 2 12 2C14.2091 2 16 3.7909 16 6L16 11.101C16 11.3627 16.1026 11.614 16.2857 11.8009C17.3846 12.9224 18 14.4299 18 16C18 19.3137 15.3137 22 12 22C8.6863 22 6 19.3137 6 16C6 14.4299 6.6154 12.9224 7.7143 11.8009C7.8974 11.614 8 11.3627 8 11.101L8 6ZM12 16L12 9");
+}
+
+.k8te4qbon {
+  fill: currentColor;
+  d: path("M13.5 16C13.5 16.8284 12.8284 17.5 12 17.5C11.1716 17.5 10.5 16.8284 10.5 16C10.5 15.1716 11.1716 14.5 12 14.5C12.8284 14.5 13.5 15.1716 13.5 16Z");
+  stroke: none;
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+</style>

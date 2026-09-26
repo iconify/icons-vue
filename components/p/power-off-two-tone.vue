@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/k/ky8hevb5b.css';
-import '../../css/a/ayo73pbzj.css';
-import '../../css/f/fpew8tpjl.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,27 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path class="ky8hevb5b"/><path class="ayo73pbzj"/><path class="fpew8tpjl"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:power-off-two-tone" /></template>
+<style>
+.ayo73pbzj {
+  d: path("M2 2L22 22");
+}
+
+.fpew8tpjl {
+  stroke-opacity: 0.4;
+  d: path("M16 2.8348C19.6443 4.4253 22 8.0238 22 12C22 13.2499 21.7657 14.4887 21.3092 15.6523M12 2L12 6.3431");
+}
+
+.ky8hevb5b {
+  stroke-opacity: 0.4;
+  d: path("M19.0711 19.0711C17.1957 20.9464 14.6522 22 12 22C6.4772 22 2 17.5228 2 12C2 9.3478 3.0536 6.8043 4.9289 4.9289");
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+</style>

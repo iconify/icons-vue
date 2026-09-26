@@ -1,10 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/c/c1powqbyf.css';
-import '../../css/y/yepmwko9k.css';
-import '../../css/p/pag12cbgk.css';
-import '../../css/x/xzzb1ne8n.css';
 
 const props = defineProps(["width","height"]);
 
@@ -12,3 +7,37 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path class="c1powqbyf"/><path class="yepmwko9k"/><path class="pag12cbgk"/><path class="xzzb1ne8n"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:wifi-info-duotone" /></template>
+<style>
+.c1powqbyf {
+  stroke-linejoin: miter;
+  stroke-opacity: 0.4;
+  d: path("M4 9.0557C6.2001 7.0879 9.0483 6 12 6C14.9517 6 17.7999 7.0879 20 9.0557M9.3333 15.0186C10.0667 14.3626 11.0161 14 12 14C12.2451 14 12.4898 14.0225 12.7308 14.0673M6.6667 12.0372C8.1334 10.7253 10.0322 10 12 10C12.4903 10 12.9795 10.0451 13.4616 10.1346");
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.pag12cbgk {
+  stroke-linejoin: miter;
+  d: path("M17 16L17 18");
+}
+
+.xzzb1ne8n {
+  fill: currentColor;
+  d: path("M18 12C18 12.5523 17.5523 13 17 13C16.4477 13 16 12.5523 16 12C16 11.4477 16.4477 11 17 11C17.5523 11 18 11.4477 18 12Z");
+  stroke: none;
+}
+
+.yepmwko9k {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M13 18C13 18.5523 12.5523 19 12 19C11.4477 19 11 18.5523 11 18C11 17.4477 11.4477 17 12 17C12.5523 17 13 17.4477 13 18Z");
+  stroke: none;
+}
+
+</style>

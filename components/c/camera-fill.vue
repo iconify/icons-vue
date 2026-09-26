@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/g/gumkzibic.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,11 @@ const viewBox = {"width":24,"height":24};
 const content = `<path clip-rule="evenodd" class="gumkzibic"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:camera-fill" /></template>
+<style>
+.gumkzibic {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M1 9C1 6.7909 2.7909 5 5 5L7 5L7.9 3.8C8.2777 3.2964 8.8705 3 9.5 3L14.5 3C15.1295 3 15.7223 3.2964 16.1 3.8L17 5L19 5C21.2091 5 23 6.7909 23 9L23 17C23 19.2091 21.2091 21 19 21L5 21C2.7909 21 1 19.2091 1 17ZM16 13C16 15.2091 14.2091 17 12 17C9.7909 17 8 15.2091 8 13C8 10.7909 9.7909 9 12 9C14.2091 9 16 10.7909 16 13ZM14 13C14 14.1046 13.1046 15 12 15C10.8954 15 10 14.1046 10 13C10 11.8954 10.8954 11 12 11C13.1046 11 14 11.8954 14 13Z");
+}
+
+</style>

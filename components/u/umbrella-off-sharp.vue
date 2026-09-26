@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/s/sekj5jb7d.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,13 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="sekj5jb7d"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:umbrella-off-sharp" /></template>
+<style>
+.sekj5jb7d {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M4.929 4.929C3.1193 6.7386 2 9.2386 2 12C3.25 10 5.75 10 7 12C8.25 10 10.75 10 12 12M12 12L12 19C12 20.6569 13.3431 22 15 22C16.6569 22 18 20.6569 18 19L18 18M7.1691 3.2422C8.6011 2.4506 10.248 2 12 2C17.5228 2 22 6.4772 22 12C20.75 10 18.25 10 17 12C16.6205 11.3927 16.1257 10.9699 15.5857 10.7314M1.7071 1.7071L22.2929 22.2929");
+}
+
+</style>

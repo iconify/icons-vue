@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/g/gp_8x1bzb.css';
-import '../../css/g/g0wdbbh0b.css';
-import '../../css/i/i3pcmrmmi.css';
-import '../../css/k/k3wcmpbyh.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,31 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="gp_8x1bzb"><path class="g0wdbbh0b"/><path class="i3pcmrmmi"/><path clip-rule="evenodd" class="k3wcmpbyh"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:radio-sharp-duotone" /></template>
+<style>
+.g0wdbbh0b {
+  stroke-opacity: 0.4;
+  d: path("M6 8L16.1788 3.9285");
+}
+
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.i3pcmrmmi {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M11 14C11 15.6569 9.6569 17 8 17C6.3431 17 5 15.6569 5 14C5 12.3431 6.3431 11 8 11C9.6569 11 11 12.3431 11 14ZM13 11L19 11L19 13L13 13L13 11ZM13 15L19 15L19 17L13 17L13 15Z");
+  stroke: none;
+}
+
+.k3wcmpbyh {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M2 7L22 7C22.5523 7 23 7.4477 23 8L23 20C23 20.5523 22.5523 21 22 21L2 21C1.4477 21 1 20.5523 1 20L1 8C1 7.4477 1.4477 7 2 7ZM11 14C11 12.3431 9.6569 11 8 11C6.3431 11 5 12.3431 5 14C5 15.6569 6.3431 17 8 17C9.6569 17 11 15.6569 11 14ZM9 14C9 14.5523 8.5523 15 8 15C7.4477 15 7 14.5523 7 14C7 13.4477 7.4477 13 8 13C8.5523 13 9 13.4477 9 14ZM13 11L13 13L19 13L19 11L13 11ZM13 15L13 17L19 17L19 15L13 15Z");
+  stroke: none;
+}
+
+</style>

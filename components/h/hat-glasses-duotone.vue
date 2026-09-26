@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/l/l7_lysbde.css';
-import '../../css/l/laouckjiw.css';
-import '../../css/h/hgkgp9enu.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,31 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path class="l7_lysbde"/><path clip-rule="evenodd" class="laouckjiw"/><path class="hgkgp9enu"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:hat-glasses-duotone" /></template>
+<style>
+.hgkgp9enu {
+  d: path("M10 17C10 15.8954 10.8954 15 12 15C13.1046 15 14 15.8954 14 17");
+}
+
+.l7_lysbde {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M4.2792 9L5.5955 5.0513C6.0038 3.8263 7.1502 3 8.4415 3L9.3333 3C9.9824 3 10.614 3.2105 11.1333 3.6L11.4 3.8C11.5731 3.9298 11.7836 4 12 4C12.2164 4 12.4269 3.9298 12.6 3.8L12.8667 3.6C13.386 3.2105 14.0176 3 14.6667 3L15.5585 3C16.8498 3 17.9962 3.8263 18.4045 5.0513L19.7208 9L22 9C22.5523 9 23 9.4477 23 10C23 10.5523 22.5523 11 22 11L2 11C1.4477 11 1 10.5523 1 10C1 9.4477 1.4477 9 2 9L4.2792 9Z");
+  stroke: none;
+}
+
+.laouckjiw {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M11 17C11 19.2091 9.2091 21 7 21C4.7909 21 3 19.2091 3 17C3 14.7909 4.7909 13 7 13C9.2091 13 11 14.7909 11 17ZM21 17C21 19.2091 19.2091 21 17 21C14.7909 21 13 19.2091 13 17C13 14.7909 14.7909 13 17 13C19.2091 13 21 14.7909 21 17Z");
+  stroke: none;
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+</style>

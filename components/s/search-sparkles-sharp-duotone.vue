@@ -1,10 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/g/gp_8x1bzb.css';
-import '../../css/l/l-f044bhm.css';
-import '../../css/x/xqu6_yb3l.css';
-import '../../css/p/phzlwbbpe.css';
-import '../../css/s/sau7yld-m.css';
 
 const props = defineProps(["width","height"]);
 
@@ -12,3 +7,34 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="gp_8x1bzb"><path class="l-f044bhm"/><path class="xqu6_yb3l"/><path class="phzlwbbpe"/><path class="sau7yld-m"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:search-sparkles-sharp-duotone" /></template>
+<style>
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.l-f044bhm {
+  stroke-opacity: 0.4;
+  d: path("M14.9497 14.9497L21.2929 21.2929");
+}
+
+.phzlwbbpe {
+  fill: currentColor;
+  d: path("M10.5492 6.3739L11.4196 8.5804L13.6261 9.4508C13.8518 9.5397 14 9.7576 14 10C14 10.2424 13.8518 10.4603 13.6261 10.5492L11.4196 11.4196L10.5492 13.6261C10.4603 13.8518 10.2424 14 10 14C9.7576 14 9.5397 13.8518 9.4508 13.6261L8.5804 11.4196L6.3739 10.5492C6.1482 10.4603 6 10.2424 6 10C6 9.7576 6.1482 9.5397 6.3739 9.4508L8.5804 8.5804L9.4508 6.3739C9.5397 6.1482 9.7576 6 10 6C10.2424 6 10.4603 6.1482 10.5492 6.3739Z");
+  stroke: none;
+}
+
+.sau7yld-m {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M4.8433 2.2337L5.3873 3.6127L6.7663 4.1567C6.9074 4.2123 7 4.3485 7 4.5C7 4.6515 6.9074 4.7877 6.7663 4.8433L5.3873 5.3873L4.8433 6.7663C4.7877 6.9074 4.6515 7 4.5 7C4.3485 7 4.2123 6.9074 4.1567 6.7663L3.6127 5.3873L2.2337 4.8433C2.0926 4.7877 2 4.6515 2 4.5C2 4.3485 2.0926 4.2123 2.2337 4.1567L3.6127 3.6127L4.1567 2.2337C4.2123 2.0926 4.3485 2 4.5 2C4.6515 2 4.7877 2.0926 4.8433 2.2337Z");
+  stroke: none;
+}
+
+.xqu6_yb3l {
+  d: path("M9 3L10 3C13.866 3 17 6.134 17 10C17 13.866 13.866 17 10 17C6.134 17 3 13.866 3 10L3 9");
+}
+
+</style>

@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/r/rvjid9bus.css';
-import '../../css/z/zop809-9n.css';
-import '../../css/a/ayo73pbzj.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,29 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path class="rvjid9bus"/><path class="zop809-9n"/><path class="ayo73pbzj"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:mic-off-duotone" /></template>
+<style>
+.ayo73pbzj {
+  d: path("M2 2L22 22");
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.rvjid9bus {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M14.2841 14.2841C13.6365 14.7354 12.8492 15 12 15V15C9.7909 15 8 13.2091 8 11V8L14.2841 14.2841ZM8.6086 4.366C8.304 4.0615 8.2287 3.5961 8.4216 3.211C9.0781 1.8999 10.434 1 12 1V1C14.2091 1 16 2.7909 16 5V9.3431C16 9.7476 15.7564 10.1122 15.3827 10.267C15.009 10.4218 14.5789 10.3362 14.2929 10.0502L8.6086 4.366Z");
+  stroke: none;
+}
+
+.zop809-9n {
+  stroke-opacity: 0.4;
+  d: path("M16.4246 16.4246C15.2187 17.4094 13.6783 18 12 18M12 18C8.134 18 5 14.866 5 11M12 18L12 22M8 22L16 22");
+}
+
+</style>

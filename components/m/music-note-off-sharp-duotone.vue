@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/g/gp_8x1bzb.css';
-import '../../css/z/zcsjmmbtn.css';
-import '../../css/r/rn72_7b7r.css';
-import '../../css/f/f4vx4ccga.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,30 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="gp_8x1bzb"><path class="zcsjmmbtn"/><path class="rn72_7b7r"/><path class="f4vx4ccga"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:music-note-off-sharp-duotone" /></template>
+<style>
+.f4vx4ccga {
+  d: path("M1.70715 1.70703L22.293 22.2928");
+}
+
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.rn72_7b7r {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M20.835 2.01358C21.1249 1.96526 21.4222 2.04727 21.6465 2.23721C21.8706 2.42721 22 2.70611 22 2.99991V16.3427H20V15.9999L19.9922 15.83C19.9211 14.9912 19.3288 14.2774 18.502 14.0624L17.5332 13.8134L18.0332 11.8769L19.001 12.1269H19.0029C19.3591 12.2193 19.6929 12.3596 20 12.537V4.1796L9.59766 5.91397L9.26953 3.94132L20.835 2.01358Z");
+  stroke: none;
+}
+
+.zcsjmmbtn {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M10 17.9999C10 20.071 8.0711 21.9999 6 21.9999C3.9289 21.9999 2 20.071 2 17.9999C2 15.9288 3.9289 13.9999 6 13.9999C6.70699 13.9999 7.39722 14.225 8 14.6034V8.99991H10V17.9999ZM16.0859 15.4189C16.0306 15.6015 16 15.7961 16 15.9999C16 17.1045 16.8954 17.9999 18 17.9999C18.2038 17.9999 18.3985 17.9693 18.5811 17.914L19.1611 19.828C18.7923 19.9398 18.4022 19.9999 18 19.9999C15.7908 19.9999 14 18.2091 14 15.9999C14 15.5977 14.0601 15.2076 14.1719 14.8388L16.0859 15.4189Z");
+  stroke: none;
+}
+
+</style>

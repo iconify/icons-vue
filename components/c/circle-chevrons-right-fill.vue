@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/j/jjle34-cf.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,10 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="jjle34-cf"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:circle-chevrons-right-fill" /></template>
+<style>
+.jjle34-cf {
+  fill: currentColor;
+  d: path("M12 1 C18.0751 1 23 5.9249 23 12 C23 18.0751 18.0751 23 12 23 C5.9249 23 1 18.0751 1 12 C1 5.9249 5.9249 1 12 1 ZM7.957 7.793 C7.5665 7.4024 6.9335 7.4024 6.543 7.793 C6.1524 8.1835 6.1524 8.8165 6.543 9.207 L9.3359 12 L6.543 14.793 C6.1524 15.1835 6.1524 15.8165 6.543 16.207 C6.9335 16.5975 7.5665 16.5975 7.957 16.207 L11.457 12.707 C11.8475 12.3165 11.8475 11.6835 11.457 11.293 L7.957 7.793 ZM13.957 7.793 C13.5665 7.4024 12.9335 7.4024 12.543 7.793 C12.1524 8.1835 12.1524 8.8165 12.543 9.207 L15.3359 12 L12.543 14.793 C12.1524 15.1835 12.1524 15.8165 12.543 16.207 C12.9335 16.5975 13.5665 16.5975 13.957 16.207 L17.457 12.707 C17.8475 12.3165 17.8475 11.6835 17.457 11.293 L13.957 7.793 Z");
+}
+
+</style>

@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/o/oj35wm7ta.css';
-import '../../css/k/kjdy_6b8e.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,18 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="cuyn6tgcc"><path class="oj35wm7ta"/><path class="kjdy_6b8e"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:tag-sharp-duotone" /></template>
+<style>
+.cuyn6tgcc {
+  fill: currentColor;
+}
+
+.kjdy_6b8e {
+  d: path("M9.5 8C9.5 8.8284 8.8284 9.5 8 9.5C7.1716 9.5 6.5 8.8284 6.5 8C6.5 7.1716 7.1716 6.5 8 6.5C8.8284 6.5 9.5 7.1716 9.5 8Z");
+}
+
+.oj35wm7ta {
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M2 1L12 1C12.279 1 12.5453 1.1166 12.7346 1.3216L22.7346 12.15C23.0989 12.5443 23.0867 13.1559 22.7071 13.5355L13.5355 22.7071C13.1559 23.0867 12.5443 23.0989 12.15 22.7346L1.3216 12.7346C1.1166 12.5453 1 12.279 1 12L1 2C1 1.4477 1.4477 1 2 1Z");
+}
+
+</style>

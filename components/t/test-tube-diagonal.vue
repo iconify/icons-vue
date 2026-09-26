@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/q/qot7jtzsz.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,14 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="qot7jtzsz"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:test-tube-diagonal" /></template>
+<style>
+.qot7jtzsz {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M14.9719 3.0913L18.324 5.2739C18.6074 5.4584 18.7783 5.7737 18.7783 6.1119C18.7783 6.3056 18.722 6.4952 18.6163 6.6576L9.514 20.6369C8.9604 21.4872 8.0146 22 7 22C5.3431 22 4 20.6569 4 19C4 18.4188 4.1688 17.8501 4.486 17.3631L13.5883 3.3837C13.7728 3.1003 14.0881 2.9293 14.4263 2.9293C14.62 2.9293 14.8096 2.9856 14.9719 3.0913ZM13.2959 2L20 6.3652M7.3268 13L14.4866 13");
+}
+
+</style>

@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/q/qk8u-1b5h.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,14 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="qk8u-1b5h"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:chart-candlestick" /></template>
+<style>
+.qk8u-1b5h {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M3 3L3 19C3 20.1046 3.8954 21 5 21L21 21M8 5L10 5C10.5523 5 11 5.4477 11 6L11 9C11 9.5523 10.5523 10 10 10L8 10C7.4477 10 7 9.5523 7 9L7 6C7 5.4477 7.4477 5 8 5ZM16 9L18 9C18.5523 9 19 9.4477 19 10L19 14C19 14.5523 18.5523 15 18 15L16 15C15.4477 15 15 14.5523 15 14L15 10C15 9.4477 15.4477 9 16 9ZM9 3L9 5M9 10L9 13M17 6L17 9M17 15L17 17");
+}
+
+</style>

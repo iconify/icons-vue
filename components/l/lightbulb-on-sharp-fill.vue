@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/x/x3g2qub8f.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,13 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="x3g2qub8f"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:lightbulb-on-sharp-fill" /></template>
+<style>
+.x3g2qub8f {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M8.0129 14.0886L7.9689 14C7.6605 13.3784 7.5 12.6939 7.5 12C7.5 9.5147 9.5147 7.5 12 7.5C14.4853 7.5 16.5 9.5147 16.5 12C16.5 12.6939 16.3395 13.3784 16.0311 14L15.9871 14.0886M9 18L15 18M10 22L14 22M19.5 12L23 12M4.5 12L1 12M12 4.5L12 1M6.6967 6.6967L4.2218 4.2218M17.3033 6.6967L19.7782 4.2218");
+}
+
+</style>

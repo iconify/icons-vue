@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/m/mocjaebre.css';
-import '../../css/p/p1k0-yb6k.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,24 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path class="mocjaebre"/><path class="p1k0-yb6k"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:mail-open-duotone" /></template>
+<style>
+.mocjaebre {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M9.675 1.7451L2.675 6.7451C1.6239 7.4959 1 8.7082 1 10L1 19C1 21.2091 2.7909 23 5 23L19 23C21.2091 23 23 21.2091 23 19L23 10C23 8.7082 22.3761 7.4959 21.325 6.7451L14.325 1.7451C12.9342 0.7516 11.0658 0.7516 9.675 1.7451Z");
+  stroke: none;
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.p1k0-yb6k {
+  d: path("M2 10L10.8375 16.3125C11.5329 16.8092 12.4671 16.8092 13.1625 16.3125L22 10");
+}
+
+</style>

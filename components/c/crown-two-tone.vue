@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/v/vcobwrb9o.css';
-import '../../css/f/f7h3-eqwn.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,24 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path class="vcobwrb9o"/><path class="f7h3-eqwn"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:crown-two-tone" /></template>
+<style>
+.f7h3-eqwn {
+  d: path("M3.2726 18.2591L2.0092 8.5876C1.8904 7.6784 2.9559 7.102 3.6518 7.699L6.5724 10.2043C7.052 10.6157 7.7881 10.4848 8.0964 9.9333L11.1271 4.512C11.5088 3.8293 12.4912 3.8293 12.8729 4.512L15.9036 9.9333C16.2119 10.4848 16.948 10.6157 17.4276 10.2043L20.3482 7.699C21.0441 7.102 22.1096 7.6784 21.9908 8.5876L20.7274 18.2591C20.5973 19.255 19.7487 20 18.7443 20L5.2557 20C4.2513 20 3.4027 19.255 3.2726 18.2591ZM2.8468 15L21.1532 15");
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.vcobwrb9o {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M2.281 18.3886L1.0176 8.7171C0.78 6.8987 2.911 5.746 4.3029 6.94L7.2235 9.4453L10.2543 4.024C11.0176 2.6586 12.9824 2.6586 13.7457 4.024L16.7765 9.4453L19.6971 6.94C21.089 5.746 23.22 6.8987 22.9824 8.7171L21.719 18.3886C21.5238 19.8825 20.2509 21 18.7443 21L5.2557 21C3.7491 21 2.4762 19.8825 2.281 18.3886Z");
+  stroke: none;
+}
+
+</style>

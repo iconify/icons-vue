@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/d/d2e8wbcsi.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,14 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="d2e8wbcsi"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:eject-duotone" /></template>
+<style>
+.d2e8wbcsi {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M6 16C5.2291 16 4.5268 15.5569 4.1949 14.8611C3.8629 14.1653 3.9605 13.3407 4.4456 12.7415L11.2228 4.3708C11.4127 4.1362 11.6983 4 12 4C12.3017 4 12.5873 4.1362 12.7772 4.3708L19.5544 12.7415C20.0395 13.3407 20.1371 14.1653 19.8051 14.8611C19.4732 15.5569 18.7709 16 18 16ZM4 20L20 20");
+}
+
+</style>

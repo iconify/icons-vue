@@ -1,10 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/g/gp_8x1bzb.css';
-import '../../css/p/pvq2a3bnf.css';
-import '../../css/x/x39lujbyx.css';
-import '../../css/c/c6upwkbge.css';
-import '../../css/c/ceqt8o39a.css';
 
 const props = defineProps(["width","height"]);
 
@@ -12,3 +7,34 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="gp_8x1bzb"><path class="pvq2a3bnf"/><path class="x39lujbyx"/><path class="c6upwkbge"/><path class="ceqt8o39a"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:scan-text-sparkles-sharp-two-tone" /></template>
+<style>
+.c6upwkbge {
+  fill: currentColor;
+  d: path("M19.5492 2.3739L20.4196 4.5804L22.6261 5.4508C22.8518 5.5397 23 5.7576 23 6C23 6.2424 22.8518 6.4603 22.6261 6.5492L20.4196 7.4196L19.5492 9.6261C19.4603 9.8518 19.2424 10 19 10C18.7576 10 18.5397 9.8518 18.4508 9.6261L17.5804 7.4196L15.3739 6.5492C15.1482 6.4603 15 6.2424 15 6C15 5.7576 15.1482 5.5397 15.3739 5.4508L17.5804 4.5804L18.4508 2.3739C18.5397 2.1482 18.7576 2 19 2C19.2424 2 19.4603 2.1482 19.5492 2.3739Z");
+  stroke: none;
+}
+
+.ceqt8o39a {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M11.8433 15.2337L12.3873 16.6127L13.7663 17.1567C13.9074 17.2123 14 17.3485 14 17.5C14 17.6515 13.9074 17.7877 13.7663 17.8433L12.3873 18.3873L11.8433 19.7663C11.7877 19.9074 11.6515 20 11.5 20C11.3485 20 11.2123 19.9074 11.1567 19.7663L10.6127 18.3873L9.2337 17.8433C9.0926 17.7877 9 17.6515 9 17.5C9 17.3485 9.0926 17.2123 9.2337 17.1567L10.6127 16.6127L11.1567 15.2337C11.2123 15.0926 11.3485 15 11.5 15C11.6515 15 11.7877 15.0926 11.8433 15.2337Z");
+  stroke: none;
+}
+
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.pvq2a3bnf {
+  stroke-opacity: 0.4;
+  d: path("M2 9L2 3L8 3M22 15L22 21L16 21M8 21L2 21L2 15");
+}
+
+.x39lujbyx {
+  d: path("M5 8L13 8M5 12L17 12");
+}
+
+</style>

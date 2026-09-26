@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/a/as-imfb5n.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,14 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="as-imfb5n"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:monitor-off" /></template>
+<style>
+.as-imfb5n {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M16 16H5C3.34315 16 2 14.65685 2 13V7C2 5.67855 2.8644 4.5126 4.129 4.129M9.6569 4H19C20.6569 4 22 5.3431 22 7V13C22 13.8802 21.6135 14.7159 20.9428 15.2859M12 16V20M8 20H16M2 2L22 22");
+}
+
+</style>

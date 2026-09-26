@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/l/lwaj0vjwi.css';
-import '../../css/c/cc50cvs0o.css';
-import '../../css/n/nk5pr_b_i.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,30 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path class="lwaj0vjwi"/><path class="cc50cvs0o"/><path class="nk5pr_b_i"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:dice-6-two-tone" /></template>
+<style>
+.cc50cvs0o {
+  d: path("M6 3H18C19.6569 3 21 4.34315 21 6V18C21 19.6569 19.6569 21 18 21H6C4.34315 21 3 19.6569 3 18V6C3 4.34315 4.34315 3 6 3Z");
+}
+
+.lwaj0vjwi {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M2 6C2 3.79086 3.79086 2 6 2H18C20.2091 2 22 3.79086 22 6V18C22 20.2091 20.2091 22 18 22H6C3.79086 22 2 20.2091 2 18V6Z");
+  stroke: none;
+}
+
+.nk5pr_b_i {
+  fill: currentColor;
+  d: path("M7.25 5.75C8.0784 5.75 8.75 6.4216 8.75 7.25C8.75 8.0784 8.0784 8.75 7.25 8.75C6.4216 8.75 5.75 8.0784 5.75 7.25C5.75 6.4216 6.4216 5.75 7.25 5.75ZM7.25 10.5C8.0784 10.5 8.75 11.1716 8.75 12C8.75 12.8284 8.0784 13.5 7.25 13.5C6.4216 13.5 5.75 12.8284 5.75 12C5.75 11.1716 6.4216 10.5 7.25 10.5ZM7.25 15.25C8.0784 15.25 8.75 15.9216 8.75 16.75C8.75 17.5784 8.0784 18.25 7.25 18.25C6.4216 18.25 5.75 17.5784 5.75 16.75C5.75 15.9216 6.4216 15.25 7.25 15.25ZM16.75 5.75C17.5784 5.75 18.25 6.4216 18.25 7.25C18.25 8.0784 17.5784 8.75 16.75 8.75C15.9216 8.75 15.25 8.0784 15.25 7.25C15.25 6.4216 15.9216 5.75 16.75 5.75ZM16.75 10.5C17.5784 10.5 18.25 11.1716 18.25 12C18.25 12.8284 17.5784 13.5 16.75 13.5C15.9216 13.5 15.25 12.8284 15.25 12C15.25 11.1716 15.9216 10.5 16.75 10.5ZM16.75 15.25C17.5784 15.25 18.25 15.9216 18.25 16.75C18.25 17.5784 17.5784 18.25 16.75 18.25C15.9216 18.25 15.25 17.5784 15.25 16.75C15.25 15.9216 15.9216 15.25 16.75 15.25Z");
+  stroke: none;
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+</style>

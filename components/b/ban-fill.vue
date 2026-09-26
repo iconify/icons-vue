@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/r/r5yc4abgd.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,11 @@ const viewBox = {"width":24,"height":24};
 const content = `<path clip-rule="evenodd" class="r5yc4abgd"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:ban-fill" /></template>
+<style>
+.r5yc4abgd {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M12 1C18.0753 1 23 5.9247 23 12C23 18.0753 18.0753 23 12 23C5.9247 23 1 18.0753 1 12C1 5.9247 5.9247 1 12 1ZM5.636 5.636C5.4485 5.8236 5.3431 6.0779 5.3431 6.3431C5.3431 6.6084 5.4485 6.8627 5.636 7.0502L16.9498 18.364C17.1373 18.5515 17.3916 18.6569 17.6569 18.6569C17.9221 18.6569 18.1764 18.5515 18.364 18.364C18.5515 18.1764 18.6569 17.9221 18.6569 17.6569C18.6569 17.3916 18.5515 17.1373 18.364 16.9498L7.0502 5.636C6.8627 5.4485 6.6084 5.3431 6.3431 5.3431C6.0779 5.3431 5.8236 5.4485 5.636 5.636Z");
+}
+
+</style>

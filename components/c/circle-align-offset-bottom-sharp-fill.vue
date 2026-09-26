@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/h/htsry0swe.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,11 @@ const viewBox = {"width":24,"height":24};
 const content = `<path clip-rule="evenodd" class="htsry0swe"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:circle-align-offset-bottom-sharp-fill" /></template>
+<style>
+.htsry0swe {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M23 12C23 17.937 17.937 23 12 23C6.0629 23 1 17.937 1 12C1 6.0629 6.0629 1 12 1C17.937 1 23 6.0629 23 12ZM7 17L14 17L14 15L7 15L7 17ZM8 13L17 13L17 11L8 11L8 13ZM13 9L17 9L17 7L13 7L13 9Z");
+}
+
+</style>

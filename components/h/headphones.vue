@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/t/t9c_gubal.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,14 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="t9c_gubal"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:headphones" /></template>
+<style>
+.t9c_gubal {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M3 12C3 10.895431 3.895431 10 5 10L5 10C6.104569 10 7 10.895431 7 12L7 19C7 20.104569 6.104569 21 5 21L5 21C3.895431 21 3 20.104569 3 19ZM17 12C17 10.895431 17.895431 10 19 10L19 10C20.104569 10 21 10.895431 21 12L21 19C21 20.104569 20.104569 21 19 21L19 21C17.895431 21 17 20.104569 17 19ZM3 12C3 7.029437 7.029437 3 12 3C16.970563 3 21 7.029437 21 12");
+}
+
+</style>

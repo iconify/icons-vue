@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/j/jdzgxo04f.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,10 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="jdzgxo04f"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:file-zip-fill" /></template>
+<style>
+.jdzgxo04f {
+  fill: currentColor;
+  d: path("M14 1C14.2652 1 14.5195 1.1054 14.707 1.293L20.707 7.293C20.8946 7.4805 21 7.7348 21 8V18C21 20.7614 18.7614 23 16 23H8C5.2386 23 3 20.7614 3 18V6C3 3.2386 5.2386 1 8 1H14ZM14 5C14 6.6568 15.3431 8 17 8L18.5858 8L14 3.4142L14 5ZM9 3L9 6C9 6.5523 9.4477 7 10 7C10.5523 7 11 6.5523 11 6L11 3L9 3ZM9 13.1716C7.8014 13.5954 7 14.7287 7 16C7 17.6569 8.3431 19 10 19C11.6569 19 13 17.6569 13 16C13 14.7287 12.1986 13.5954 11 13.1716L11 10C11 9.4477 10.5523 9 10 9C9.4477 9 9 9.4477 9 10L9 13.1716ZM11 16C11 15.4477 10.5523 15 10 15C9.4477 15 9 15.4477 9 16C9 16.5523 9.4477 17 10 17C10.5523 17 11 16.5523 11 16Z");
+}
+
+</style>

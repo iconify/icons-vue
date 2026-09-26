@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/o/oitxewbqr.css';
-import '../../css/x/x89uejb-e.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,23 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path class="oitxewbqr"/><path class="x89uejb-e"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:coupon" /></template>
+<style>
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.oitxewbqr {
+  d: path("M5 4H19C20.65685 4 22 5.34315 22 7V9C20.34315 9 19 10.34315 19 12C19 13.65685 20.34315 15 22 15V17C22 18.65685 20.65685 20 19 20H5C3.34315 20 2 18.65685 2 17V15C3.65685 15 5 13.65685 5 12C5 10.34315 3.65685 9 2 9V7C2 5.34315 3.34315 4 5 4ZM9 15L15 9");
+}
+
+.x89uejb-e {
+  fill: currentColor;
+  d: path("M10.5 8.5C10.5 9.3284 9.8284 10 9 10C8.1716 10 7.5 9.3284 7.5 8.5C7.5 7.6716 8.1716 7 9 7C9.8284 7 10.5 7.6716 10.5 8.5ZM16.5 15.5C16.5 16.3284 15.8284 17 15 17C14.1716 17 13.5 16.3284 13.5 15.5C13.5 14.6716 14.1716 14 15 14C15.8284 14 16.5 14.6716 16.5 15.5Z");
+  stroke: none;
+}
+
+</style>

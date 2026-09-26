@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/p/pvs-ki8ao.css';
-import '../../css/f/fiv8-my1s.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,18 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="cuyn6tgcc"><path class="pvs-ki8ao"/><path class="fiv8-my1s"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:quote-duotone" /></template>
+<style>
+.cuyn6tgcc {
+  fill: currentColor;
+}
+
+.fiv8-my1s {
+  d: path("M13 14.5C13 10.6868 14.9783 7.1467 18.2259 5.1483C18.3835 5.0513 18.565 5 18.75 5C19.3023 5 19.75 5.4477 19.75 6C19.75 6.2929 19.6216 6.571 19.3988 6.761C18.8725 7.2096 18.5694 7.8664 18.5694 8.5579C18.5694 9.4016 19.0194 10.1811 19.75 10.6029C21.1423 11.4067 22 12.8923 22 14.5C22 16.9853 19.9853 19 17.5 19C15.0147 19 13 16.9853 13 14.5Z");
+}
+
+.pvs-ki8ao {
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M2 14.5C2 10.6868 3.9783 7.1467 7.2259 5.1483C7.3835 5.0513 7.565 5 7.75 5C8.3023 5 8.75 5.4477 8.75 6C8.75 6.2929 8.6216 6.571 8.3988 6.761C7.8725 7.2096 7.5694 7.8664 7.5694 8.5579C7.5694 9.4016 8.0194 10.1811 8.75 10.6029C10.1423 11.4067 11 12.8923 11 14.5C11 16.9853 8.9853 19 6.5 19C4.0147 19 2 16.9853 2 14.5Z");
+}
+
+</style>

@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/t/t5n9-dbow.css';
-import '../../css/c/cpha-lbty.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,24 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path class="t5n9-dbow"/><path class="cpha-lbty"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:paint-roller-duotone" /></template>
+<style>
+.cpha-lbty {
+  fill: currentColor;
+  d: path("M4 1L16 1C17.6569 1 19 2.3431 19 4L19 7C19 8.6569 17.6569 10 16 10L4 10C2.3431 10 1 8.6569 1 7L1 4C1 2.3431 2.3431 1 4 1ZM11.5 15L14.5 15C15.3284 15 16 15.6716 16 16.5L16 21.5C16 22.3284 15.3284 23 14.5 23L11.5 23C10.6716 23 10 22.3284 10 21.5L10 16.5C10 15.6716 10.6716 15 11.5 15Z");
+  stroke: none;
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.t5n9-dbow {
+  stroke-opacity: 0.4;
+  d: path("M18 5.5L20 5.5C21.1046 5.5 22 6.3954 22 7.5L22 11C22 12.1046 21.1046 13 20 13L15 13C13.8954 13 13 13.8954 13 15L13 16");
+}
+
+</style>

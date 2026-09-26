@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/z/zx7e8kbgq.css';
-import '../../css/n/n-n7vabdx.css';
-import '../../css/x/xlvg-2zdw.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,29 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path class="zx7e8kbgq"/><path class="n-n7vabdx"/><path class="xlvg-2zdw"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:flask-conical-off-two-tone" /></template>
+<style>
+.n-n7vabdx {
+  stroke-opacity: 0.4;
+  d: path("M9.5 3.8431L9.5 3C9.5 2.4477 9.9477 2 10.5 2L13.5 2C14.0523 2 14.5 2.4477 14.5 3L14.5 7.7741C14.5 7.9228 14.5332 8.0697 14.5971 8.204L15.2661 9.6092M8 2L16 2");
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.xlvg-2zdw {
+  d: path("M19.9976 20C19.9976 21.1046 19.1022 22 17.9976 22L6.0024 22C4.8978 22 4.0024 21.1046 4.0024 20C4.0024 19.7026 4.0687 19.4089 4.1966 19.1403L9.0162 9.0162M4.7394 18L18 18M2 2L22 22");
+}
+
+.zx7e8kbgq {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M20.869 20.869C20.486 22.1345 19.3198 23 17.9976 23L6.0024 23C4.3455 23 3.0024 21.6569 3.0024 20C3.0024 19.5539 3.1019 19.1133 3.2936 18.7105L8.2659 8.2659Z");
+  stroke: none;
+}
+
+</style>

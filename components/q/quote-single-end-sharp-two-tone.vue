@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/g/gp_8x1bzb.css';
-import '../../css/p/ppslvxbah.css';
-import '../../css/r/r3i798dld.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,23 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="gp_8x1bzb"><path class="ppslvxbah"/><path class="r3i798dld"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:quote-single-end-sharp-two-tone" /></template>
+<style>
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.ppslvxbah {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M16.5 9.5C16.5 13.3132 14.5217 16.8533 11.2741 18.8517C11.1165 18.9487 10.935 19 10.75 19C10.1977 19 9.75 18.5523 9.75 18C9.75 17.7071 9.8784 17.429 10.1012 17.239C10.6275 16.7904 10.9306 16.1336 10.9306 15.4421C10.9306 14.5984 10.4806 13.8189 9.75 13.3971C8.3577 12.5933 7.5 11.1077 7.5 9.5C7.5 7.0147 9.5147 5 12 5C14.4853 5 16.5 7.0147 16.5 9.5Z");
+  stroke: none;
+}
+
+.r3i798dld {
+  d: path("M15.5 9.5C15.5 12.9659 13.7018 16.1837 10.75 18C11.4991 17.3614 11.9306 16.4265 11.9306 15.4421C11.9306 14.2412 11.29 13.1315 10.25 12.5311C9.1671 11.9059 8.5 10.7504 8.5 9.5C8.5 7.567 10.067 6 12 6C13.933 6 15.5 7.567 15.5 9.5Z");
+}
+
+</style>

@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/v/v2kocbbss.css';
-import '../../css/a/ayo73pbzj.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,23 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path class="v2kocbbss"/><path class="ayo73pbzj"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:circle-off-fill" /></template>
+<style>
+.ayo73pbzj {
+  d: path("M2 2L22 22");
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.v2kocbbss {
+  fill: currentColor;
+  d: path("M19.7782 19.7782C17.7876 21.7688 15.0376 23 12 23C5.9249 23 1 18.0751 1 12C1 8.9624 2.2312 6.2124 4.2218 4.2218ZM7.6385 3.3959C7.4 3.1574 7.2978 2.8148 7.3667 2.4847C7.4355 2.1546 7.6661 1.8813 7.98 1.758C9.2251 1.2686 10.5812 1 12 1C18.0751 1 23 5.9249 23 12C23 13.4188 22.7314 14.7749 22.2422 16.0201C22.1189 16.3341 21.8456 16.5648 21.5154 16.6336C21.1851 16.7025 20.8424 16.6002 20.6039 16.3617L7.6385 3.3959Z");
+  stroke: none;
+}
+
+</style>

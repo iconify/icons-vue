@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/p/pansjw__x.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,13 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="pansjw__x"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:phone-call-sharp" /></template>
+<style>
+.pansjw__x {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M2 4L2 2L9 2L9 8L7.0953 9.4285C8.5144 12.802 11.198 15.4856 14.5715 16.9047L16 15L22 15L22 22L20 22C10.0589 22 2 13.9411 2 4ZM13.3294 4.074L14.0706 4.2726C16.8313 5.0123 18.9877 7.1687 19.7274 9.9294L19.926 10.6706M12.2942 7.9377L13.0353 8.1363C14.4156 8.5062 15.4938 9.5844 15.8637 10.9647L16.0623 11.7058");
+}
+
+</style>

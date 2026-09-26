@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/m/m1-d3eqbg.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,14 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="m1-d3eqbg"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:arrow-big-down-short-duotone" /></template>
+<style>
+.m1-d3eqbg {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M11.2929 20.7071L2.2929 11.7071C2.0069 11.4211 1.9213 10.991 2.0761 10.6173C2.2309 10.2436 2.5955 10 3 10L6 10C6.5523 10 7 9.5523 7 9L7 4C7 3.4477 7.4477 3 8 3L16 3C16.5523 3 17 3.4477 17 4L17 9C17 9.5523 17.4477 10 18 10L21 10C21.4045 10 21.7691 10.2436 21.9239 10.6173C22.0787 10.991 21.9931 11.4211 21.7071 11.7071L12.7071 20.7071C12.3166 21.0976 11.6834 21.0976 11.2929 20.7071Z");
+}
+
+</style>

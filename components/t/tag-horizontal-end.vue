@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/l/llce8yb-u.css';
-import '../../css/z/zznlfnbip.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,23 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path class="llce8yb-u"/><path class="zznlfnbip"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:tag-horizontal-end" /></template>
+<style>
+.llce8yb-u {
+  d: path("M4.99997 4H14C14.5304 4 15.0391 4.21071 15.4142 4.58579L21.4142 10.5858C22.1953 11.3669 22.1953 12.6331 21.4142 13.4142L15.4142 19.4142C15.0391 19.7893 14.5304 20 14 20H4.99997C3.34311 20 1.99997 18.6569 1.99997 17V7C1.99997 5.34315 3.34311 4 4.99997 4Z");
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.zznlfnbip {
+  fill: currentColor;
+  d: path("M13.5 12C13.5 12.8284 14.1716 13.5 15 13.5C15.8284 13.5 16.5 12.8284 16.5 12C16.5 11.1716 15.8284 10.5 15 10.5C14.1716 10.5 13.5 11.1716 13.5 12Z");
+  stroke: none;
+}
+
+</style>

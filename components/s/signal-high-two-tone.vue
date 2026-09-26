@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/i/iljw4j4_s.css';
-import '../../css/t/tjsh1sb2o.css';
-import '../../css/d/dno4_nblm.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,28 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path class="iljw4j4_s"/><path class="tjsh1sb2o"/><path class="dno4_nblm"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:signal-high-two-tone" /></template>
+<style>
+.dno4_nblm {
+  fill: currentColor;
+  d: path("M3 20C3 20.5523 2.5523 21 2 21C1.4477 21 1 20.5523 1 20C1 19.4477 1.4477 19 2 19C2.5523 19 3 19.4477 3 20Z");
+  stroke: none;
+}
+
+.iljw4j4_s {
+  d: path("M7 20V16M12 20V12M17 20V8");
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.tjsh1sb2o {
+  stroke-opacity: 0.4;
+  d: path("M22 20V4");
+}
+
+</style>

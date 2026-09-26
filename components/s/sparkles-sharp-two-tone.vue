@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/g/gp_8x1bzb.css';
-import '../../css/p/plciisbnz.css';
-import '../../css/s/s1gld9nou.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,23 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="gp_8x1bzb"><path class="plciisbnz"/><path class="s1gld9nou"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:sparkles-sharp-two-tone" /></template>
+<style>
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.plciisbnz {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M15.9028 8.4328L17.7302 12.2698L21.5672 14.0972C21.9154 14.263 22.1372 14.6143 22.1372 15C22.1372 15.3857 21.9154 15.737 21.5672 15.9028L17.7302 17.7302L15.9028 21.5672C15.737 21.9154 15.3857 22.1372 15 22.1372C14.6143 22.1372 14.263 21.9154 14.0972 21.5672L12.2698 17.7302L8.4328 15.9028C8.0846 15.737 7.8628 15.3857 7.8628 15C7.8628 14.6143 8.0846 14.263 8.4328 14.0972L12.2698 12.2698L14.0972 8.4328C14.263 8.0846 14.6143 7.8628 15 7.8628C15.3857 7.8628 15.737 8.0846 15.9028 8.4328ZM7.1262 2.3808L8.1884 4.3116L10.1192 5.3738C10.4387 5.5496 10.6372 5.8853 10.6372 6.25C10.6372 6.6147 10.4387 6.9504 10.1192 7.1262L8.1884 8.1884L7.1262 10.1192C6.9504 10.4387 6.6147 10.6372 6.25 10.6372C5.8853 10.6372 5.5496 10.4387 5.3738 10.1192L4.3116 8.1884L2.3808 7.1262C2.0613 6.9504 1.8628 6.6147 1.8628 6.25C1.8628 5.8853 2.0613 5.5496 2.3808 5.3738L4.3116 4.3116L5.3738 2.3808C5.5496 2.0613 5.8853 1.8628 6.25 1.8628C6.6147 1.8628 6.9504 2.0613 7.1262 2.3808Z");
+  stroke: none;
+}
+
+.s1gld9nou {
+  d: path("M15 8.8628L16.9799 13.0201L21.1372 15L16.9799 16.9799L15 21.1372L13.0201 16.9799L8.8628 15L13.0201 13.0201L15 8.8628ZM6.25 2.8628L7.4521 5.0479L9.6372 6.25L7.4521 7.4521L6.25 9.6372L5.0479 7.4521L2.8628 6.25L5.0479 5.0479L6.25 2.8628Z");
+}
+
+</style>

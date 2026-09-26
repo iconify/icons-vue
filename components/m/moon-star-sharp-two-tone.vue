@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/g/gp_8x1bzb.css';
-import '../../css/p/pgud1jbem.css';
-import '../../css/m/myb4c4bfn.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,23 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="gp_8x1bzb"><path class="pgud1jbem"/><path class="myb4c4bfn"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:moon-star-sharp-two-tone" /></template>
+<style>
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.myb4c4bfn {
+  d: path("M20 13C20 17.9706 15.9706 22 11 22C6.0294 22 2 17.9706 2 13C2 8.0294 6.0294 4 11 4C8.9618 6.5477 9.1652 10.2206 11.4723 12.5277C13.7794 14.8348 17.4523 15.0382 20 13ZM18.9689 1.4226L18.9689 9.5774M15.4378 3.4613L22.5 7.5387M22.5 3.4613L15.4378 7.5387");
+}
+
+.pgud1jbem {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M21 13C21 18.3848 16.3848 23 11 23C5.6152 23 1 18.3848 1 13C1 7.6152 5.6152 3 11 3C11.8385 3 12.3047 3.9699 11.7809 4.6247C9.9814 6.874 10.1425 9.7837 12.1794 11.8206C14.2163 13.8575 17.126 14.0186 19.3753 12.2191C20.0301 11.6953 21 12.1615 21 13Z");
+  stroke: none;
+}
+
+</style>

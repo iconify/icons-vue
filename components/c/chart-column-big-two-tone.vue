@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/y/ygbg5b1vs.css';
-import '../../css/x/x9emg4bdv.css';
-import '../../css/b/baalfmz_a.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,29 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path class="ygbg5b1vs"/><path class="x9emg4bdv"/><path class="baalfmz_a"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:chart-column-big-two-tone" /></template>
+<style>
+.baalfmz_a {
+  d: path("M9 8L11 8C11.5523 8 12 8.4477 12 9L12 16C12 16.5523 11.5523 17 11 17L9 17C8.4477 17 8 16.5523 8 16L8 9C8 8.4477 8.4477 8 9 8ZM17 5L19 5C19.5523 5 20 5.4477 20 6L20 16C20 16.5523 19.5523 17 19 17L17 17C16.4477 17 16 16.5523 16 16L16 6C16 5.4477 16.4477 5 17 5Z");
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.x9emg4bdv {
+  stroke-opacity: 0.4;
+  d: path("M3 3L3 19C3 20.1046 3.8954 21 5 21L21 21");
+}
+
+.ygbg5b1vs {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M9 7L11 7C12.1046 7 13 7.8954 13 9L13 16C13 17.1046 12.1046 18 11 18L9 18C7.8954 18 7 17.1046 7 16L7 9C7 7.8954 7.8954 7 9 7ZM17 4L19 4C20.1046 4 21 4.8954 21 6L21 16C21 17.1046 20.1046 18 19 18L17 18C15.8954 18 15 17.1046 15 16L15 6C15 4.8954 15.8954 4 17 4Z");
+  stroke: none;
+}
+
+</style>

@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/h/htw7-ymao.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,11 @@ const viewBox = {"width":24,"height":24};
 const content = `<path clip-rule="evenodd" class="htw7-ymao"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:circle-align-offset-top-sharp-fill" /></template>
+<style>
+.htw7-ymao {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M23 12C23 17.937 17.937 23 12 23C6.0629 23 1 17.937 1 12C1 6.0629 6.0629 1 12 1C17.937 1 23 6.0629 23 12ZM13 17L17 17L17 15L13 15L13 17ZM8 13L17 13L17 11L8 11L8 13ZM7 9L14 9L14 7L7 7L7 9Z");
+}
+
+</style>

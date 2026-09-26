@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/g/gp_8x1bzb.css';
-import '../../css/j/j5as4w8rp.css';
-import '../../css/q/qnba0sb7c.css';
-import '../../css/z/zvs88eytg.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,28 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="gp_8x1bzb"><path class="j5as4w8rp"/><path class="qnba0sb7c"/><path class="zvs88eytg"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:globe-off-sharp-two-tone" /></template>
+<style>
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.j5as4w8rp {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M4.2218 4.2218L19.7782 19.7782C17.7876 21.7688 15.0376 23 12 23C5.9249 23 1 18.0751 1 12C1 8.9624 2.2312 6.2124 4.2218 4.2218Z");
+  stroke: none;
+}
+
+.qnba0sb7c {
+  d: path("M19.0711 19.0711C17.2614 20.8807 14.7614 22 12 22M12 22C6.4772 22 2 17.5228 2 12M12 22C13.7626 20.0171 14.9427 17.8157 15.5403 15.5403M12 22C9.3333 19 8 15.5 8 12C8 10.8134 8.1532 9.6268 8.4597 8.4597M2 12C2 9.2386 3.1193 6.7386 4.9289 4.9289M2 12H12M1.7071 1.7071L22.2929 22.2929");
+}
+
+.zvs88eytg {
+  stroke-opacity: 0.4;
+  d: path("M7.6903 2.9763C9.0361 2.3336 10.5086 2 12 2C17.5228 2 22 6.4772 22 12C22 13.4914 21.6664 14.9639 21.0237 16.3097M17.2426 12L22 12M9.7439 5.1719C10.7526 3.5279 11.3348 2.7483 12 2C14.0823 4.3426 15.3516 6.99 15.9142 10.5269");
+}
+
+</style>

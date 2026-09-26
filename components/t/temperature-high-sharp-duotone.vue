@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/g/gp_8x1bzb.css';
-import '../../css/t/t7c033bqn.css';
-import '../../css/y/yva1_1fly.css';
-import '../../css/u/u8_q54bsb.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,29 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="gp_8x1bzb"><path class="t7c033bqn"/><path class="yva1_1fly"/><path class="u8_q54bsb"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:temperature-high-sharp-duotone" /></template>
+<style>
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.t7c033bqn {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M3 6C3 3.2386 5.2386 1 8 1C10.7614 1 13 3.2386 13 6L13 11.101C14.282 12.4094 15 14.1682 15 16C15 19.866 11.866 23 8 23C4.134 23 1 19.866 1 16C1 14.1682 1.718 12.4094 3 11.101L3 6Z");
+  stroke: none;
+}
+
+.u8_q54bsb {
+  fill: currentColor;
+  d: path("M9.5 16C9.5 16.8284 8.8284 17.5 8 17.5C7.1716 17.5 6.5 16.8284 6.5 16C6.5 15.1716 7.1716 14.5 8 14.5C8.8284 14.5 9.5 15.1716 9.5 16Z");
+  stroke: none;
+}
+
+.yva1_1fly {
+  d: path("M22 5C22 6.6569 20.6569 8 19 8C17.3431 8 16 6.6569 16 5C16 3.3431 17.3431 2 19 2C20.6569 2 22 3.3431 22 5ZM8 16L8 7.5L8 6.5");
+}
+
+</style>

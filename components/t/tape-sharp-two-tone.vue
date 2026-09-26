@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/g/gp_8x1bzb.css';
-import '../../css/h/h-r8a2llg.css';
-import '../../css/j/j8jcxpbfq.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,23 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="gp_8x1bzb"><path class="h-r8a2llg"/><path class="j8jcxpbfq"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:tape-sharp-two-tone" /></template>
+<style>
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.h-r8a2llg {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M1 8C1 5.9524 2.388 4.1157 4.4144 2.8999C6.4511 1.6778 9.2394 1 12 1C14.7606 1 17.5489 1.6778 19.5856 2.8999C21.612 4.1157 23 5.9524 23 8L23 16C23 18.0476 21.612 19.8843 19.5856 21.1001C17.5489 22.3222 14.7606 23 12 23C9.2394 23 6.4511 22.3222 4.4144 21.1001C2.388 19.8843 1 18.0476 1 16L1 8Z");
+  stroke: none;
+}
+
+.j8jcxpbfq {
+  d: path("M2 8C2 4.6863 6.4772 2 12 2C17.5228 2 22 4.6863 22 8C22 11.3137 17.5228 14 12 14C6.4772 14 2 11.3137 2 8ZM7 8C7 6.8954 9.2386 6 12 6C14.7614 6 17 6.8954 17 8C17 9.1046 14.7614 10 12 10C9.2386 10 7 9.1046 7 8ZM2 8L2 16C2 19.3137 6.4772 22 12 22C17.5228 22 22 19.3137 22 16L22 8M17 13.1962L16 14.5295L17 15.8628L18 17.1962L17 18.5295L16 19.8628L17 21.1962");
+}
+
+</style>

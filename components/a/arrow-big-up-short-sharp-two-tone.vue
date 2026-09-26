@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/g/gp_8x1bzb.css';
-import '../../css/d/dxc7t-bwu.css';
-import '../../css/b/bsktolbhs.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,23 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="gp_8x1bzb"><path class="dxc7t-bwu"/><path class="bsktolbhs"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:arrow-big-up-short-sharp-two-tone" /></template>
+<style>
+.bsktolbhs {
+  d: path("M12 3L22 13L17 13L17 21L7 21L7 13L2 13Z");
+}
+
+.dxc7t-bwu {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M12.7071 2.2929L22.7071 12.2929C22.9931 12.5789 23.0787 13.009 22.9239 13.3827C22.7691 13.7564 22.4045 14 22 14L18 14L18 21C18 21.5523 17.5523 22 17 22L7 22C6.4477 22 6 21.5523 6 21L6 14L2 14C1.5955 14 1.2309 13.7564 1.0761 13.3827C0.9213 13.009 1.0069 12.5789 1.2929 12.2929L11.2929 2.2929C11.6834 1.9024 12.3166 1.9024 12.7071 2.2929Z");
+  stroke: none;
+}
+
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+</style>

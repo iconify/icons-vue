@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/m/mu9u8zsfv.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,14 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="mu9u8zsfv"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:list-video" /></template>
+<style>
+.mu9u8zsfv {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M2 6H16M2 12H12M2 18H12M17.59977 10.20164L21.59977 13.19983C22.13341 13.59982 22.13341 14.40018 21.59977 14.80017L17.59977 17.79836C16.94049 18.29251 16 17.8221 16 16.99818L16 11.00182C16 10.1779 16.94049 9.70749 17.59977 10.20164Z");
+}
+
+</style>

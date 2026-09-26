@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ijhemtb8n.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,12 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="ijhemtb8n"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:droplets-sharp" /></template>
+<style>
+.ijhemtb8n {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M12 5L13.7568 3.3943L18.9775 8.7966C20.2748 10.1391 21 11.9331 21 13.8C21 17.7765 17.7765 21 13.8 21C11.7344 21 9.7682 20.1128 8.4014 18.564L7.9434 18.0449M10.2092 7.3963C11.0163 8.1922 11.4706 9.2783 11.4706 10.4118C11.4706 12.7509 9.5744 14.6471 7.2353 14.6471C4.8962 14.6471 3 12.7509 3 10.4118C3 9.2783 3.4543 8.1922 4.2614 7.3963L7.2353 4.4633L10.2092 7.3963Z");
+}
+
+</style>

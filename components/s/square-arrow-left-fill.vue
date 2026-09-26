@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/k/k8667_4va.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,10 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="k8667_4va"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:square-arrow-left-fill" /></template>
+<style>
+.k8667_4va {
+  fill: currentColor;
+  d: path("M18 2C20.2091 2 22 3.79086 22 6V18C22 20.2091 20.2091 22 18 22H6C3.79086 22 2 20.2091 2 18V6C2 3.79086 3.79086 2 6 2H18ZM12.6104 7.30176C12.2251 6.90636 11.5919 6.89828 11.1963 7.2832L7.45215 10.9297C6.84873 11.5175 6.84873 12.4825 7.45215 13.0703L11.1963 16.7168C11.5919 17.1017 12.2251 17.0936 12.6104 16.6982C12.9957 16.3026 12.9874 15.6686 12.5918 15.2832L10.2471 13H16C16.5523 13 17 12.5523 17 12C17 11.4477 16.5523 11 16 11H10.2471L12.5918 8.7168C12.9874 8.33143 12.9957 7.69737 12.6104 7.30176Z");
+}
+
+</style>

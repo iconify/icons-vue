@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/d/d_pslabds.css';
-import '../../css/m/mnyicze9u.css';
-import '../../css/e/ei48vjbzf.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,30 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path class="d_pslabds"/><path class="mnyicze9u"/><path class="ei48vjbzf"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:brain-circuit-duotone" /></template>
+<style>
+.d_pslabds {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M13 4.75C13 2.6789 11.3211 1 9.25 1C8.0231 1 6.8737 1.6002 6.1726 2.6071C4.745 2.9829 3.75 4.2737 3.75 5.75C3.75 5.9009 3.7605 6.0516 3.7814 6.201C2.7785 6.7663 2.1177 7.7887 2.0142 8.9353C1.3626 9.6303 1 10.5473 1 11.5C1 12.0626 1.1266 12.618 1.3704 13.125C1.1266 13.632 1 14.1874 1 14.75C1 16.1412 1.7701 17.418 3.0006 18.067C3.0245 19.3129 3.709 20.4522 4.7979 21.0583C5.6382 22.2742 7.022 23 8.5 23C10.9853 23 13 20.9853 13 18.5L13 4.75Z");
+  stroke: none;
+}
+
+.ei48vjbzf {
+  fill: currentColor;
+  d: path("M23 7.5C23 8.3284 22.3284 9 21.5 9C20.6716 9 20 8.3284 20 7.5C20 6.6716 20.6716 6 21.5 6C22.3284 6 23 6.6716 23 7.5ZM20 12C20 12.8284 19.3284 13.5 18.5 13.5C17.6716 13.5 17 12.8284 17 12C17 11.1716 17.6716 10.5 18.5 10.5C19.3284 10.5 20 11.1716 20 12ZM23 16.5C23 17.3284 22.3284 18 21.5 18C20.6716 18 20 17.3284 20 16.5C20 15.6716 20.6716 15 21.5 15C22.3284 15 23 15.6716 23 16.5Z");
+  stroke: none;
+}
+
+.mnyicze9u {
+  d: path("M9.2158 5.3593C9.0262 4.284 8.0919 3.5 7 3.5M7.9905 9.0321C7.8775 7.7408 6.7963 6.75 5.5 6.75C5.3352 6.75 5.1709 6.7663 5.0093 6.7986M2.5315 13.125C3.0494 13.8321 3.8735 14.25 4.75 14.25C4.9903 14.25 5.2296 14.2185 5.4618 14.1563M8.75 13.5C8.6958 14.8111 8.162 16.0566 7.25 17M12 7.5L21.5 7.5M12 12L18.5 12M12 16.5L21.5 16.5");
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+</style>

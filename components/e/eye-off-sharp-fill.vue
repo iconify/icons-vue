@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/g/gp_8x1bzb.css';
-import '../../css/t/t2itukbsv.css';
-import '../../css/a/ahhqo1b4s.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,23 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="gp_8x1bzb"><path clip-rule="evenodd" class="t2itukbsv"/><path class="ahhqo1b4s"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:eye-off-sharp-fill" /></template>
+<style>
+.ahhqo1b4s {
+  d: path("M1.7071 1.7071L22.2929 22.2929");
+}
+
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.t2itukbsv {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M5.25 5.25L18.75 18.75C16.8543 20.1721 14.5069 21 12 21C6.7383 21 2.1794 17.3529 1.0244 12.2195C0.9919 12.075 0.9919 11.925 1.0244 11.7805C1.6291 9.0929 3.1668 6.8127 5.25 5.25ZM20.6633 17.1512L7.6419 3.9181C9.0024 3.3275 10.4819 3 12 3C17.2617 3 21.8206 6.6471 22.9756 11.7805C23.0081 11.925 23.0081 12.075 22.9756 12.2195C22.6998 13.4454 22.2298 14.5865 21.6025 15.6135ZM9.1716 9.1716L14.8284 14.8284C14.1046 15.5523 13.1046 16 12 16C9.7909 16 8 14.2091 8 12C8 10.8955 8.4477 9.8955 9.1716 9.1716ZM10.5858 10.5858L13.4142 13.4142C13.0523 13.7762 12.5523 14 12 14C10.8954 14 10 13.1046 10 12C10 11.4477 10.2238 10.9477 10.5858 10.5858Z");
+  stroke: none;
+}
+
+</style>

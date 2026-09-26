@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/h/hpvmohrdg.css';
-import '../../css/k/k4tuz2b5x.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,23 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path class="hpvmohrdg"/><path class="k4tuz2b5x"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:terminal-cursor-fill" /></template>
+<style>
+.hpvmohrdg {
+  fill: currentColor;
+  d: path("M11.5789 14.9797L14.7027 5.35187C14.8263 4.96218 14.4555 4.59686 14.0677 4.72638L4.34115 7.78522C3.90276 7.93164 3.88072 8.54347 4.30742 8.72107L8.35297 10.4361C8.468 10.484 8.56102 10.5731 8.61379 10.6859L10.6494 15.0402C10.8422 15.4527 11.4412 15.4137 11.5789 14.9797Z");
+  stroke: none;
+}
+
+.k4tuz2b5x {
+  d: path("M20 18.9999H13M14.7026 5.35175L11.5789 14.9795C11.4412 15.4136 10.8422 15.4525 10.6494 15.04L8.61378 10.6858C8.56101 10.573 8.46799 10.4838 8.35296 10.436L4.30741 8.72095C3.88071 8.54335 3.90275 7.93152 4.34114 7.78509L14.0677 4.72626C14.4554 4.59674 14.8263 4.96206 14.7026 5.35175Z");
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+</style>

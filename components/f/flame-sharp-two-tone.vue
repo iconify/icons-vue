@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/g/gp_8x1bzb.css';
-import '../../css/a/a8nzzvbqe.css';
-import '../../css/p/pr9pkgbgy.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,23 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="gp_8x1bzb"><path class="a8nzzvbqe"/><path class="pr9pkgbgy"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:flame-sharp-two-tone" /></template>
+<style>
+.a8nzzvbqe {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M17 2C17 3.9473 17.6316 5.8421 18.8 7.4C20.228 9.3041 21 11.6199 21 14C21 18.9706 16.9706 23 12 23C7.0294 23 3 18.9706 3 14C3 12.6858 3.2878 11.3875 3.8432 10.1965C4.1718 9.492 4.8786 9.0417 5.6558 9.0417C6.7604 9.0417 7.6558 9.9371 7.6558 11.0417C7.6558 11.3927 7.5634 11.7375 7.3881 12.0415C7.388 12.0416 7.3879 12.0417 7.3878 12.0419C7.3001 12.1937 7.2539 12.3661 7.2539 12.5417C7.2539 13.0939 7.7017 13.5417 8.2539 13.5417C8.8062 13.5417 9.2539 13.0939 9.2539 12.5417C9.2539 7.94 11.5906 3.6532 15.4581 1.1596C15.6196 1.0554 15.8078 1 16 1C16.5523 1 17 1.4477 17 2Z");
+  stroke: none;
+}
+
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.pr9pkgbgy {
+  d: path("M16 2C16 4.1637 16.7018 6.269 18 8C19.2982 9.731 20 11.8363 20 14C20 18.4183 16.4183 22 12 22C7.5817 22 4 18.4183 4 14C4 12.8318 4.2558 11.6778 4.7495 10.6191C4.9138 10.2668 5.2672 10.0417 5.6558 10.0417C6.2081 10.0417 6.6558 10.4894 6.6558 11.0417C6.6558 11.2172 6.6096 11.3897 6.5219 11.5417C6.3463 11.8457 6.2539 12.1906 6.2539 12.5417C6.2539 13.6462 7.1494 14.5417 8.2539 14.5417C9.3585 14.5417 10.2539 13.6462 10.2539 12.5417C10.2539 8.2798 12.4181 4.3095 16 2Z");
+}
+
+</style>

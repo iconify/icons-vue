@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/o/o9cu_zd4c.css';
-import '../../css/s/sudo-1bgw.css';
-import '../../css/n/n2dladjxv.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,31 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path class="o9cu_zd4c"/><path class="sudo-1bgw"/><path class="n2dladjxv"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:wifi-x-duotone" /></template>
+<style>
+.n2dladjxv {
+  stroke-linejoin: miter;
+  d: path("M16 12L22 18M22 12L16 18");
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.o9cu_zd4c {
+  stroke-linejoin: miter;
+  stroke-opacity: 0.4;
+  d: path("M7.3333 15.0186C8.0667 14.3626 9.0161 14 10 14C10.399 14 10.7958 14.0597 11.1771 14.1771M4.6667 12.0372C6.1334 10.7253 8.0322 10 10 10C10.798 10 11.5916 10.1194 12.3542 10.3542M2 9.0557C4.2001 7.0879 7.0483 6 10 6C12.4013 6 14.7473 6.7204 16.7347 8.0681");
+}
+
+.sudo-1bgw {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M11 18C11 18.5523 10.5523 19 10 19C9.4477 19 9 18.5523 9 18C9 17.4477 9.4477 17 10 17C10.5523 17 11 17.4477 11 18Z");
+  stroke: none;
+}
+
+</style>

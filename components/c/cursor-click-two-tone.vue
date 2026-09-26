@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/c/c-76a5tbt.css';
-import '../../css/m/mgrhl1bss.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,24 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path class="c-76a5tbt"/><path class="mgrhl1bss"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:cursor-click-two-tone" /></template>
+<style>
+.c-76a5tbt {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M13.0143 21.6534L9.26998 9.88621C9.14678 9.499 9.51625 9.13601 9.90258 9.26471L21.6597 13.1814C22.0965 13.3269 22.1184 13.9348 21.6933 14.1113L16.6698 16.1966C16.5552 16.2442 16.4625 16.3328 16.41 16.4449L13.9403 21.7135C13.7482 22.1234 13.1515 22.0847 13.0143 21.6534Z");
+  stroke: none;
+}
+
+.mgrhl1bss {
+  d: path("M12.1748 5.76261L13.9549 3.98724M7.88236 4.69633L6.98121 2M4.70404 7.86707L2 6.96809M5.77258 12.14803L3.99248 13.9234M9.26992 9.88622L13.0143 21.6534C13.1515 22.0847 13.7482 22.1234 13.9403 21.7136L16.4099 16.4449C16.4625 16.3328 16.5551 16.2442 16.6697 16.1967L21.6933 14.1113C22.1184 13.9348 22.0964 13.3269 21.6597 13.1814L9.90251 9.26472C9.51618 9.13602 9.14671 9.49902 9.26992 9.88622Z");
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+</style>

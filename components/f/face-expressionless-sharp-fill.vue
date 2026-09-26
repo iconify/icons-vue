@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/g/g2--ctuld.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,10 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="g2--ctuld"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:face-expressionless-sharp-fill" /></template>
+<style>
+.g2--ctuld {
+  fill: currentColor;
+  d: path("M23 12C23 18.0751 18.0751 23 12 23C5.9249 23 1 18.0751 1 12C1 5.9249 5.9249 1 12 1C18.0751 1 23 5.9249 23 12ZM7 9.5L7 11.5L11 11.5L11 9.5L7 9.5ZM13 9.5L13 11.5L17 11.5L17 9.5L13 9.5ZM8 15L8 17L16 17L16 15L8 15Z");
+}
+
+</style>

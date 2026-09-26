@@ -1,10 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/x/x9emg4bdv.css';
-import '../../css/o/oxxoeqbsw.css';
-import '../../css/q/qpk590b-s.css';
-import '../../css/x/xcu8ss0py.css';
 
 const props = defineProps(["width","height"]);
 
@@ -12,3 +7,35 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path class="x9emg4bdv"/><path class="oxxoeqbsw"/><path class="qpk590b-s"/><path class="xcu8ss0py"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:chart-column-sparkles-two-tone" /></template>
+<style>
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.oxxoeqbsw {
+  d: path("M8 11L8 8M13 17L13 11M18 17L18 13");
+}
+
+.qpk590b-s {
+  fill: currentColor;
+  d: path("M17.5492 2.3739L18.1373 3.8648C18.3173 4.3213 18.6787 4.6827 19.1352 4.8627L20.6261 5.4508C20.8518 5.5397 21 5.7576 21 6C21 6.2424 20.8518 6.4603 20.6261 6.5492L19.1352 7.1373C18.6787 7.3173 18.3173 7.6787 18.1373 8.1352L17.5492 9.6261C17.4603 9.8518 17.2424 10 17 10C16.7576 10 16.5397 9.8518 16.4508 9.6261L15.8627 8.1352C15.6827 7.6787 15.3213 7.3173 14.8648 7.1373L13.3739 6.5492C13.1482 6.4603 13 6.2424 13 6C13 5.7576 13.1482 5.5397 13.3739 5.4508L14.8648 4.8627C15.3213 4.6827 15.6827 4.3213 15.8627 3.8648L16.4508 2.3739C16.5397 2.1482 16.7576 2 17 2C17.2424 2 17.4603 2.1482 17.5492 2.3739Z");
+  stroke: none;
+}
+
+.x9emg4bdv {
+  stroke-opacity: 0.4;
+  d: path("M3 3L3 19C3 20.1046 3.8954 21 5 21L21 21");
+}
+
+.xcu8ss0py {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M8.2746 14.1869L8.5687 14.9324C8.6587 15.1607 8.8393 15.3413 9.0676 15.4313L9.8131 15.7254C9.9259 15.7698 10 15.8788 10 16C10 16.1212 9.9259 16.2302 9.8131 16.2746L9.0676 16.5687C8.8393 16.6587 8.6587 16.8393 8.5687 17.0676L8.2746 17.8131C8.2302 17.9259 8.1212 18 8 18C7.8788 18 7.7698 17.9259 7.7254 17.8131L7.4313 17.0676C7.3413 16.8393 7.1607 16.6587 6.9324 16.5687L6.1869 16.2746C6.0741 16.2302 6 16.1212 6 16C6 15.8788 6.0741 15.7698 6.1869 15.7254L6.9324 15.4313C7.1607 15.3413 7.3413 15.1607 7.4313 14.9324L7.7254 14.1869C7.7698 14.0741 7.8788 14 8 14C8.1212 14 8.2302 14.0741 8.2746 14.1869Z");
+  stroke: none;
+}
+
+</style>

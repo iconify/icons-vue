@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/j/jodwfwbvg.css';
-import '../../css/a/ak0aiy9as.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,25 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path class="jodwfwbvg"/><path clip-rule="evenodd" class="ak0aiy9as"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:printer-duotone" /></template>
+<style>
+.ak0aiy9as {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M4 9L20 9C21.6569 9 23 10.3431 23 12L23 17C23 18.6569 21.6569 20 20 20L4 20C2.3431 20 1 18.6569 1 17L1 12C1 10.3431 2.3431 9 4 9ZM8 16C7.4477 16 7 16.4477 7 17L7 20L17 20L17 17C17 16.4477 16.5523 16 16 16L8 16Z");
+  stroke: none;
+}
+
+.jodwfwbvg {
+  stroke-opacity: 0.4;
+  d: path("M6 10L6 4C6 2.8954 6.8954 2 8 2L13.5858 2C13.851 2 14.1054 2.1054 14.2929 2.2929L17.7071 5.7071C17.8946 5.8946 18 6.149 18 6.4142L18 10M8 15L16 15C17.1046 15 18 15.8954 18 17L18 20C18 21.1046 17.1046 22 16 22L8 22C6.8954 22 6 21.1046 6 20L6 17C6 15.8954 6.8954 15 8 15Z");
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+</style>

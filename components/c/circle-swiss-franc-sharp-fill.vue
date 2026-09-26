@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/k/kqx49sbfq.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,10 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="kqx49sbfq"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:circle-swiss-franc-sharp-fill" /></template>
+<style>
+.kqx49sbfq {
+  fill: currentColor;
+  d: path("M12 1C17.9372 1 23 6.0628 23 12C23 17.9372 17.9372 23 12 23C6.0628 23 1 17.9372 1 12C1 6.0628 6.0628 1 12 1ZM16.5 7L16.5 5L9.5 5C8.9477 5 8.5 5.4477 8.5 6L8.5 9L8.5 11L8.5 13L7.5 13L7.5 15L8.5 15L8.5 19L10.5 19L10.5 15L15 15L15 13L10.5 13L10.5 11L16 11L16 9L10.5 9L10.5 7L16.5 7Z");
+}
+
+</style>

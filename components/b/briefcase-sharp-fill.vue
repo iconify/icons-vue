@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/g/gp_8x1bzb.css';
-import '../../css/g/gwenmwfcc.css';
-import '../../css/y/y5i59r_te.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,23 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="gp_8x1bzb"><path clip-rule="evenodd" class="gwenmwfcc"/><path class="y5i59r_te"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:briefcase-sharp-fill" /></template>
+<style>
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.gwenmwfcc {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M2 5.5L22 5.5C22.5523 5.5 23 5.9477 23 6.5L23 21C23 21.5523 22.5523 22 22 22L2 22C1.4477 22 1 21.5523 1 21L1 6.5C1 5.9477 1.4477 5.5 2 5.5ZM3 9.8797C4.9116 10.7123 8.3651 11.1875 12 11.1875C15.6349 11.1875 19.0884 10.7123 21 9.8797L21 7.5L3 7.5L3 9.8797ZM8.5 13.0435L8.5 15.5C8.5 16.0523 8.9477 16.5 9.5 16.5L14.5 16.5C15.0523 16.5 15.5 16.0523 15.5 15.5L15.5 13.0435C14.8417 13.0992 14.1716 13.1384 13.5 13.1616L13.5 14.5L10.5 14.5L10.5 13.1616C9.8284 13.1384 9.1583 13.0992 8.5 13.0435Z");
+  stroke: none;
+}
+
+.y5i59r_te {
+  d: path("M8.25 6.5L8.25 3L15.75 3L15.75 6.5");
+}
+
+</style>

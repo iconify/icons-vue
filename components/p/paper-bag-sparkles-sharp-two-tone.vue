@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/g/gp_8x1bzb.css';
-import '../../css/e/epepgykcc.css';
-import '../../css/x/xhj1trd8o.css';
-import '../../css/t/t-fa8-bok.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,29 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="gp_8x1bzb"><path class="epepgykcc"/><path class="xhj1trd8o"/><path class="t-fa8-bok"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:paper-bag-sparkles-sharp-two-tone" /></template>
+<style>
+.epepgykcc {
+  d: path("M3 13L3 3L4 3C4.5409 3 5.0673 3.1754 5.5 3.5C5.9327 3.8246 6.4591 4 7 4C7.5409 4 8.0673 3.8246 8.5 3.5C8.9327 3.1754 9.4591 3 10 3C10.5409 3 11.0673 3.1754 11.5 3.5C11.9327 3.8246 12.4591 4 13 4C13.5409 4 14.0673 3.8246 14.5 3.5C14.9327 3.1754 15.4591 3 16 3L17 3L21 21L11 21M17 3L17 21M7 8L13 8");
+}
+
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.t-fa8-bok {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M11.8433 11.2337L12.3873 12.6127L13.7663 13.1567C13.9074 13.2123 14 13.3485 14 13.5C14 13.6515 13.9074 13.7877 13.7663 13.8433L12.3873 14.3873L11.8433 15.7663C11.7877 15.9074 11.6515 16 11.5 16C11.3485 16 11.2123 15.9074 11.1567 15.7663L10.6127 14.3873L9.2337 13.8433C9.0926 13.7877 9 13.6515 9 13.5C9 13.3485 9.0926 13.2123 9.2337 13.1567L10.6127 12.6127L11.1567 11.2337C11.2123 11.0926 11.3485 11 11.5 11C11.6515 11 11.7877 11.0926 11.8433 11.2337Z");
+  stroke: none;
+}
+
+.xhj1trd8o {
+  fill: currentColor;
+  d: path("M6.5492 14.3739L7.4196 16.5804L9.6261 17.4508C9.8518 17.5397 10 17.7576 10 18C10 18.2424 9.8518 18.4603 9.6261 18.5492L7.4196 19.4196L6.5492 21.6261C6.4603 21.8518 6.2424 22 6 22C5.7576 22 5.5397 21.8518 5.4508 21.6261L4.5804 19.4196L2.3739 18.5492C2.1482 18.4603 2 18.2424 2 18C2 17.7576 2.1482 17.5397 2.3739 17.4508L4.5804 16.5804L5.4508 14.3739C5.5397 14.1482 5.7576 14 6 14C6.2424 14 6.4603 14.1482 6.5492 14.3739Z");
+  stroke: none;
+}
+
+</style>

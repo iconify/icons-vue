@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/y/y2z-hgwxq.css';
-import '../../css/c/cneakzxuj.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,24 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path class="y2z-hgwxq"/><path class="cneakzxuj"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:lungs-duotone" /></template>
+<style>
+.cneakzxuj {
+  d: path("M12 2L12 6M12 6L9.0995 10.3375M12 6L14.9005 10.3375M9.7778 14C8.7315 14.1548 7.7785 14.6886 7.1 15.5M14.2222 14C15.2685 14.1548 16.2215 14.6886 16.9 15.5");
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.y2z-hgwxq {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M10.9693 12.3313L10.1064 20.0976C10.0141 20.9285 9.4147 21.6143 8.6037 21.817L4.1105 22.9403C3.9519 22.98 3.789 23 3.6255 23C2.8299 23 2.11 22.5285 1.7921 21.7992C1.2696 20.6008 1 19.3074 1 18C1 14.1716 3.2962 10.7166 6.826 9.2341C7.1938 9.0796 7.5887 9 7.9877 9C9.6445 9 10.9877 10.3431 10.9877 12C10.9877 12.1107 10.9816 12.2213 10.9693 12.3313ZM13.0307 12.3313C13.0184 12.2213 13.0123 12.1107 13.0123 12C13.0123 10.3431 14.3555 9 16.0123 9C16.4113 9 16.8062 9.0796 17.174 9.2341C20.7038 10.7166 23 14.1716 23 18C23 19.3074 22.7304 20.6008 22.2079 21.7992C21.89 22.5285 21.1701 23 20.3745 23C20.211 23 20.0481 22.98 19.8895 22.9403L15.3963 21.817C14.5853 21.6143 13.9859 20.9285 13.8936 20.0976L13.0307 12.3313Z");
+  stroke: none;
+}
+
+</style>

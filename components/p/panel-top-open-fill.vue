@@ -1,10 +1,29 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nn5o39boe.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="nn5o39boe"/>`;
+const content = `<g class="nrj6p8qat"><path class="aij9tdbqq"/><path class="c2l85pbaz"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:panel-top-open-fill" /></template>
+<style>
+.aij9tdbqq {
+  fill: currentColor;
+  d: path("M6 3H18C19.65685 3 21 4.34315 21 6V9H3V6C3 4.34315 4.34315 3 6 3Z");
+  stroke: none;
+}
+
+.c2l85pbaz {
+  d: path("M6 3H18C19.6569 3 21 4.34315 21 6V18C21 19.6569 19.6569 21 18 21H6C4.34315 21 3 19.6569 3 18V6C3 4.34315 4.34315 3 6 3ZM3 9H21M9 13L12 16L15 13");
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+</style>

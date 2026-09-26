@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/y/y8j3rwb9v.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,14 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="y8j3rwb9v"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:arrow-big-up-dash" /></template>
+<style>
+.y8j3rwb9v {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M12.7071 2.2929L19.7071 9.2929C19.9931 9.5789 20.0787 10.009 19.9239 10.3827C19.7691 10.7564 19.4045 11 19 11L17 11C16.4477 11 16 11.4477 16 12L16 17C16 17.5523 15.5523 18 15 18L9 18C8.4477 18 8 17.5523 8 17L8 12C8 11.4477 7.5523 11 7 11L5 11C4.5955 11 4.2309 10.7564 4.0761 10.3827C3.9213 10.009 4.0069 9.5789 4.2929 9.2929L11.2929 2.2929C11.6834 1.9024 12.3166 1.9024 12.7071 2.2929ZM8 22L16 22");
+}
+
+</style>

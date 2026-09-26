@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/t/t8drw368i.css';
-import '../../css/i/izoe3zb1r.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,24 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path class="t8drw368i"/><path class="izoe3zb1r"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:compass-two-tone" /></template>
+<style>
+.izoe3zb1r {
+  d: path("M22 12C22 17.5228 17.5228 22 12 22C6.4772 22 2 17.5228 2 12C2 6.4772 6.4772 2 12 2C17.5228 2 22 6.4772 22 12ZM15.102633 7.632456C15.884391 7.37187 16.62813 8.115609 16.367544 8.897367L14.816228 13.551317C14.617158 14.148527 14.148527 14.617158 13.551317 14.816228L8.897367 16.367544C8.115609 16.62813 7.37187 15.884391 7.632456 15.102633L9.183772 10.448683C9.382842 9.851473 9.851473 9.382842 10.448683 9.183772Z");
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.t8drw368i {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M23 12C23 18.0751 18.0751 23 12 23C5.9249 23 1 18.0751 1 12C1 5.9249 5.9249 1 12 1C18.0751 1 23 5.9249 23 12Z");
+  stroke: none;
+}
+
+</style>

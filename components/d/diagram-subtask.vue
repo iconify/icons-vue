@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/g/g4z24m8di.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,14 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="g4z24m8di"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:diagram-subtask" /></template>
+<style>
+.g4z24m8di {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M4 3L13 3C13.5523 3 14 3.4477 14 4L14 7C14 7.5523 13.5523 8 13 8L4 8C3.4477 8 3 7.5523 3 7L3 4C3 3.4477 3.4477 3 4 3ZM11 16L20 16C20.5523 16 21 16.4477 21 17L21 20C21 20.5523 20.5523 21 20 21L11 21C10.4477 21 10 20.5523 10 20L10 17C10 16.4477 10.4477 16 11 16ZM6 8L6 17.5C6 18.0523 6.4477 18.5 7 18.5L10 18.5");
+}
+
+</style>

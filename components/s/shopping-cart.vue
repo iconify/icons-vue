@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/n/nx1-1iowi.css';
-import '../../css/c/czbbm17fv.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,23 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path class="nx1-1iowi"/><path class="czbbm17fv"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:shopping-cart" /></template>
+<style>
+.czbbm17fv {
+  fill: currentColor;
+  d: path("M10.5 20.5C10.5 21.3284 9.8284 22 9 22C8.1716 22 7.5 21.3284 7.5 20.5C7.5 19.6716 8.1716 19 9 19C9.8284 19 10.5 19.6716 10.5 20.5ZM18.5 20.5C18.5 21.3284 17.8284 22 17 22C16.1716 22 15.5 21.3284 15.5 20.5C15.5 19.6716 16.1716 19 17 19C17.8284 19 18.5 19.6716 18.5 20.5Z");
+  stroke: none;
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.nx1-1iowi {
+  d: path("M2 3H3.2192C3.6781 3 4.0781 3.3123 4.1894 3.7575L5 7M5 7H20.9978C21.7204 7 22.2044 7.74289 21.9126 8.40393L19.2632 14.4039C19.1032 14.7662 18.7445 15 18.3484 15H7.78078C7.32191 15 6.92193 14.6877 6.81063 14.2425L5 7Z");
+}
+
+</style>

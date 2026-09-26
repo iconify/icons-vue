@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/j/jrbyoki8y.css';
-import '../../css/f/f7bcmk4ln.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,18 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="cuyn6tgcc"><path class="jrbyoki8y"/><path class="f7bcmk4ln"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:crown-duotone" /></template>
+<style>
+.cuyn6tgcc {
+  fill: currentColor;
+}
+
+.f7bcmk4ln {
+  d: path("M3.986 16L20.014 16L19.7358 18.1295C19.6708 18.6275 19.2465 19 18.7443 19L5.2557 19C4.7535 19 4.3292 18.6275 4.2642 18.1295L3.986 16Z");
+}
+
+.jrbyoki8y {
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M2.281 18.3886L1.0176 8.7171C0.78 6.8987 2.911 5.746 4.3029 6.94L7.2235 9.4453L10.2543 4.024C11.0176 2.6586 12.9824 2.6586 13.7457 4.024L16.7765 9.4453L19.6971 6.94C21.089 5.746 23.22 6.8987 22.9824 8.7171L21.719 18.3886C21.5238 19.8825 20.2509 21 18.7443 21L5.2557 21C3.7491 21 2.4762 19.8825 2.281 18.3886Z");
+}
+
+</style>

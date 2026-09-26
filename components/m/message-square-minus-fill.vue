@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nhtvalm5y.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,10 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="nhtvalm5y"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:message-square-minus-fill" /></template>
+<style>
+.nhtvalm5y {
+  fill: currentColor;
+  d: path("M6 2L18 2C20.2091 2 22 3.7909 22 6L22 14C22 16.2091 20.2091 18 18 18L7.4142 18L3.7071 21.7071C3.5196 21.8946 3.2652 22 3 22C2.4477 22 2 21.5523 2 21L2 6C2 3.7909 3.7909 2 6 2ZM9 9C8.4477 9 8 9.4477 8 10C8 10.5523 8.4477 11 9 11L15 11C15.5523 11 16 10.5523 16 10C16 9.4477 15.5523 9 15 9L9 9Z");
+}
+
+</style>

@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/i/inkjfzfsc.css';
-import '../../css/g/gi78_zuta.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,24 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path class="inkjfzfsc"/><path class="gi78_zuta"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:printer-two-tone" /></template>
+<style>
+.gi78_zuta {
+  d: path("M6 19L4 19C2.8954 19 2 18.1046 2 17L2 12C2 10.8954 2.8954 10 4 10L20 10C21.1046 10 22 10.8954 22 12L22 17C22 18.1046 21.1046 19 20 19L18 19M6 10L6 4C6 2.8954 6.8954 2 8 2L13.5858 2C13.851 2 14.1054 2.1054 14.2929 2.2929L17.7071 5.7071C17.8946 5.8946 18 6.149 18 6.4142L18 10M8 15L16 15C17.1046 15 18 15.8954 18 17L18 20C18 21.1046 17.1046 22 16 22L8 22C6.8954 22 6 21.1046 6 20L6 17C6 15.8954 6.8954 15 8 15Z");
+}
+
+.inkjfzfsc {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M8 1L13.5858 1C14.1162 1 14.6249 1.2107 15 1.5858L18.4142 5C18.7893 5.3751 19 5.8838 19 6.4142L19 9L20 9C21.6569 9 23 10.3431 23 12L23 17C23 18.6569 21.6569 20 20 20L19 20L19 20C19 21.6569 17.6569 23 16 23L8 23C6.3431 23 5 21.6569 5 20L5 20L4 20C2.3431 20 1 18.6569 1 17L1 12C1 10.3431 2.3431 9 4 9L5 9L5 4C5 2.3431 6.3431 1 8 1Z");
+  stroke: none;
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+</style>

@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/t/to0c2ub7t.css';
-import '../../css/r/r1jds9b3f.css';
-import '../../css/t/tx-fofwfm.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,21 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="to0c2ub7t"><path class="r1jds9b3f"/><path class="tx-fofwfm"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:lightbulb-on-duotone" /></template>
+<style>
+.r1jds9b3f {
+  stroke-opacity: 0.4;
+  d: path("M10 18L14 18M11 22L13 22M20.5 12L22 12M3.5 12L2 12M12 3.5L12 2M5.9896 5.9896L4.9289 4.9289M18.0104 5.9896L19.0711 4.9289");
+}
+
+.to0c2ub7t {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.tx-fofwfm {
+  d: path("M7.9689 14C7.6605 13.3784 7.5 12.6939 7.5 12C7.5 9.5147 9.5147 7.5 12 7.5C14.4853 7.5 16.5 9.5147 16.5 12C16.5 12.6939 16.3395 13.3784 16.0311 14");
+}
+
+</style>

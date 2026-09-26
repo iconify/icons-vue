@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/u/uf_5_z44w.css';
-import '../../css/c/c-yqibcyj.css';
-import '../../css/r/r9m5pabcn.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,27 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path class="uf_5_z44w"/><path class="c-yqibcyj"/><path class="r9m5pabcn"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:panel-bottom-close-dashed-fill" /></template>
+<style>
+.c-yqibcyj {
+  d: path("M6 3C4.34315 3 3 4.34315 3 6M21 6C21 4.34315 19.6569 3 18 3M3 10V11M21 10V11M10.5 3H13.5");
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.r9m5pabcn {
+  d: path("M9 8L12 11L15 8");
+}
+
+.uf_5_z44w {
+  fill: currentColor;
+  d: path("M3 14L21 14C21.5523 14 22 14.4477 22 15L22 18C22 20.2091 20.2091 22 18 22L6 22C3.7909 22 2 20.2091 2 18L2 15C2 14.4477 2.4477 14 3 14Z");
+  stroke: none;
+}
+
+</style>

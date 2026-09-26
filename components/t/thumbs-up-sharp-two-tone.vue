@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/g/gp_8x1bzb.css';
-import '../../css/i/ip3764bcx.css';
-import '../../css/j/j8sitxfqk.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,23 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="gp_8x1bzb"><path class="ip3764bcx"/><path class="j8sitxfqk"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:thumbs-up-sharp-two-tone" /></template>
+<style>
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.ip3764bcx {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M2 9L7.2192 9L9.0299 1.7575C9.1411 1.3123 9.5411 1 10 1L15 1C15.5043 1 15.9297 1.3755 15.9923 1.876L16.8828 9L22 9C22.5523 9 23 9.4477 23 10C23 10.1199 22.9784 10.2388 22.9363 10.3511L18.4363 22.3511C18.29 22.7414 17.9168 23 17.5 23L2 23C1.4477 23 1 22.5523 1 22L1 10C1 9.4477 1.4477 9 2 9Z");
+  stroke: none;
+}
+
+.j8sitxfqk {
+  d: path("M2 10L8 10L10 2L15 2L16 10L22 10L17.5 22L2 22ZM8 10L8 22");
+}
+
+</style>

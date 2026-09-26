@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/g/glbfkq9go.css';
-import '../../css/c/cx2r34baj.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,24 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path class="glbfkq9go"/><path class="cx2r34baj"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:toggles-two-tone" /></template>
+<style>
+.cx2r34baj {
+  d: path("M8 2L16 2C18.2091 2 20 3.7909 20 6C20 8.2091 18.2091 10 16 10L8 10M16 22L8 22C5.7909 22 4 20.2091 4 18C4 15.7909 5.7909 14 8 14L16 14M12 6C12 8.2091 10.2091 10 8 10C5.7909 10 4 8.2091 4 6C4 3.7909 5.7909 2 8 2C10.2091 2 12 3.7909 12 6ZM20 18C20 20.2091 18.2091 22 16 22C13.7909 22 12 20.2091 12 18C12 15.7909 13.7909 14 16 14C18.2091 14 20 15.7909 20 18Z");
+}
+
+.glbfkq9go {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M8 1L16 1C18.7614 1 21 3.2386 21 6C21 8.7614 18.7614 11 16 11L8 11C5.2386 11 3 8.7614 3 6C3 3.2386 5.2386 1 8 1ZM8 13L16 13C18.7614 13 21 15.2386 21 18C21 20.7614 18.7614 23 16 23L8 23C5.2386 23 3 20.7614 3 18C3 15.2386 5.2386 13 8 13Z");
+  stroke: none;
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+</style>

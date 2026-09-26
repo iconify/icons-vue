@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/o/ooaievbhz.css';
-import '../../css/n/nrkjs8b5n.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,24 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path class="ooaievbhz"/><path class="nrkjs8b5n"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:sliders-2-horizontal-two-tone" /></template>
+<style>
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.nrkjs8b5n {
+  d: path("M6 7C6 5.3431 7.3431 4 9 4L11 4C12.6569 4 14 5.3431 14 7C14 8.6569 12.6569 10 11 10L9 10C7.3431 10 6 8.6569 6 7ZM10 17C10 15.3431 11.3431 14 13 14L15 14C16.6569 14 18 15.3431 18 17C18 18.6569 16.6569 20 15 20L13 20C11.3431 20 10 18.6569 10 17ZM3 7H6M14 7H21M3 17H10M18 17H21");
+}
+
+.ooaievbhz {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M9 3L11 3C13.2091 3 15 4.7909 15 7C15 9.2091 13.2091 11 11 11L9 11C6.7909 11 5 9.2091 5 7C5 4.7909 6.7909 3 9 3ZM13 13L15 13C17.2091 13 19 14.7909 19 17C19 19.2091 17.2091 21 15 21L13 21C10.7909 21 9 19.2091 9 17C9 14.7909 10.7909 13 13 13Z");
+  stroke: none;
+}
+
+</style>

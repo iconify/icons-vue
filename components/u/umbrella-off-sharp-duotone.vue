@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/g/gp_8x1bzb.css';
-import '../../css/t/thkopl_9m.css';
-import '../../css/m/mmgrvcb7f.css';
-import '../../css/g/g67_oophs.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,30 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="gp_8x1bzb"><path class="thkopl_9m"/><path class="mmgrvcb7f"/><path class="g67_oophs"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:umbrella-off-sharp-duotone" /></template>
+<style>
+.g67_oophs {
+  d: path("M1.70703 1.70703L22.2928 22.2928");
+}
+
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.mmgrvcb7f {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M12 1C18.0751 1 23 5.9249 23 12C23 13.0046 21.685 13.3818 21.1523 12.5303C20.294 11.157 18.706 11.157 17.8477 12.5303C17.4559 13.1565 16.5441 13.1565 16.1523 12.5303C15.885 12.1027 15.5462 11.8078 15.1816 11.6465L6.19238 2.65625C7.87782 1.60647 9.86813 1 12 1Z");
+  stroke: none;
+}
+
+.thkopl_9m {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M12 12H13V19C13 20.1046 13.8954 21 15 21C16.1046 21 17 20.1046 17 19V18H19V19C19 21.2092 17.2092 23 15 23C12.7908 23 11 21.2092 11 19V12.3125C10.117 11.1617 8.6578 11.234 7.84766 12.5303C7.45591 13.1565 6.54409 13.1565 6.15234 12.5303C5.29404 11.157 3.70596 11.157 2.84766 12.5303C2.31501 13.3818 1 13.0046 1 12C1 8.9625 2.23108 6.21238 4.22168 4.22168L12 12Z");
+  stroke: none;
+}
+
+</style>

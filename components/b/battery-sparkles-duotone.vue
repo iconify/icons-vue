@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/g/gbgah5nkk.css';
-import '../../css/e/etl2nxbmn.css';
-import '../../css/x/xfx71mbml.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,30 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path class="gbgah5nkk"/><path class="etl2nxbmn"/><path class="xfx71mbml"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:battery-sparkles-duotone" /></template>
+<style>
+.etl2nxbmn {
+  fill: currentColor;
+  d: path("M5.5492 11.3739L6.1373 12.8648C6.3173 13.3213 6.6787 13.6827 7.1352 13.8627L8.6261 14.4508C8.8518 14.5397 9 14.7576 9 15C9 15.2424 8.8518 15.4603 8.6261 15.5492L7.1352 16.1373C6.6787 16.3173 6.3173 16.6787 6.1373 17.1352L5.5492 18.6261C5.4603 18.8518 5.2424 19 5 19C4.7576 19 4.5397 18.8518 4.4508 18.6261L3.8627 17.1352C3.6827 16.6787 3.3213 16.3173 2.8648 16.1373L1.3739 15.5492C1.1482 15.4603 1 15.2424 1 15C1 14.7576 1.1482 14.5397 1.3739 14.4508L2.8648 13.8627C3.3213 13.6827 3.6827 13.3213 3.8627 12.8648L4.4508 11.3739C4.5397 11.1482 4.7576 11 5 11C5.2424 11 5.4603 11.1482 5.5492 11.3739Z");
+  stroke: none;
+}
+
+.gbgah5nkk {
+  d: path("M11 18L15 18C16.6568 18 18 16.6568 18 15L18 9C18 7.3432 16.6568 6 15 6L5 6C3.3432 6 2 7.3432 2 9M22 9.5L22 14.5");
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.xfx71mbml {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M11.8433 9.2337L12.2108 10.1655C12.3233 10.4508 12.5492 10.6767 12.8345 10.7892L13.7663 11.1567C13.9074 11.2123 14 11.3485 14 11.5C14 11.6515 13.9074 11.7877 13.7663 11.8433L12.8345 12.2108C12.5492 12.3233 12.3233 12.5492 12.2108 12.8345L11.8433 13.7663C11.7877 13.9074 11.6515 14 11.5 14C11.3485 14 11.2123 13.9074 11.1567 13.7663L10.7892 12.8345C10.6767 12.5492 10.4508 12.3233 10.1655 12.2108L9.2337 11.8433C9.0926 11.7877 9 11.6515 9 11.5C9 11.3485 9.0926 11.2123 9.2337 11.1567L10.1655 10.7892C10.4508 10.6767 10.6767 10.4508 10.7892 10.1655L11.1567 9.2337C11.2123 9.0926 11.3485 9 11.5 9C11.6515 9 11.7877 9.0926 11.8433 9.2337Z");
+  stroke: none;
+}
+
+</style>

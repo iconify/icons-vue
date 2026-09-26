@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/x/xxs13xivb.css';
-import '../../css/b/bttclzbna.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,24 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path class="xxs13xivb"/><path class="bttclzbna"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:pause-two-tone" /></template>
+<style>
+.bttclzbna {
+  d: path("M5 5C5 4.447715 5.447715 4 6 4L8 4C8.552285 4 9 4.447715 9 5L9 19C9 19.552285 8.552285 20 8 20L6 20C5.447715 20 5 19.552285 5 19ZM15 5C15 4.447715 15.447715 4 16 4L18 4C18.552285 4 19 4.447715 19 5L19 19C19 19.552285 18.552285 20 18 20L16 20C15.447715 20 15 19.552285 15 19Z");
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.xxs13xivb {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M4 5C4 3.895431 4.895431 3 6 3L8 3C9.104569 3 10 3.895431 10 5L10 19C10 20.104569 9.104569 21 8 21L6 21C4.895431 21 4 20.104569 4 19ZM14 5C14 3.895431 14.895431 3 16 3L18 3C19.104569 3 20 3.895431 20 5L20 19C20 20.104569 19.104569 21 18 21L16 21C14.895431 21 14 20.104569 14 19Z");
+  stroke: none;
+}
+
+</style>

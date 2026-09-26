@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/e/e7lqm9obr.css';
-import '../../css/v/vfnvfqbwt.css';
-import '../../css/w/wsmtlfbzo.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,29 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path class="e7lqm9obr"/><path clip-rule="evenodd" class="vfnvfqbwt"/><path class="wsmtlfbzo"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:cable-duotone" /></template>
+<style>
+.e7lqm9obr {
+  stroke-opacity: 0.4;
+  d: path("M14 4L6 4C3.7909 4 2 5.7909 2 8C2 10.2091 3.7909 12 6 12L18 12C20.2091 12 22 13.7909 22 16C22 18.2091 20.2091 20 18 20L10 20");
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.vfnvfqbwt {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M15 1L19 1C20.1046 1 21 1.8954 21 3L21 5C21 6.1046 20.1046 7 19 7L15 7C13.8954 7 13 6.1046 13 5L13 3C13 1.8954 13.8954 1 15 1ZM5 17L9 17C10.1046 17 11 17.8954 11 19L11 21C11 22.1046 10.1046 23 9 23L5 23C3.8954 23 3 22.1046 3 21L3 19C3 17.8954 3.8954 17 5 17Z");
+  stroke: none;
+}
+
+.wsmtlfbzo {
+  d: path("M20 4L22 4M4 20L2 20");
+}
+
+</style>

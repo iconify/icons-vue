@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/e/evbrmn5ti.css';
-import '../../css/i/is2j-tboh.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,18 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="cuyn6tgcc"><path class="evbrmn5ti"/><path class="is2j-tboh"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:shapes-2-sharp-duotone" /></template>
+<style>
+.cuyn6tgcc {
+  fill: currentColor;
+}
+
+.evbrmn5ti {
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M11 17.5C11 19.8472 8.8472 22 6.5 22C4.1528 22 2 19.8472 2 17.5C2 15.1528 4.1528 13 6.5 13C8.8472 13 11 15.1528 11 17.5ZM14 13L21 13C21.5523 13 22 13.4477 22 14L22 21C22 21.5523 21.5523 22 21 22L14 22C13.4477 22 13 21.5523 13 21L13 14C13 13.4477 13.4477 13 14 13Z");
+}
+
+.is2j-tboh {
+  d: path("M12.8292 2.4397L17.5626 9.4377C18.0118 10.1018 17.536 10.998 16.7343 10.998L7.2674 10.998C6.4657 10.998 5.9899 10.1018 6.4391 9.4377L11.1726 2.4397C11.5692 1.8534 12.4326 1.8534 12.8292 2.4397Z");
+}
+
+</style>

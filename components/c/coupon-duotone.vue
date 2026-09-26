@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/u/ub7caprkl.css';
-import '../../css/z/z9foj0s3t.css';
-import '../../css/x/x89uejb-e.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,30 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path class="ub7caprkl"/><path class="z9foj0s3t"/><path class="x89uejb-e"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:coupon-duotone" /></template>
+<style>
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.ub7caprkl {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M5 3H19C21.20914 3 23 4.79086 23 7V9C23 9.55228 22.55228 10 22 10C20.89543 10 20 10.89543 20 12C20 13.10457 20.89543 14 22 14C22.55228 14 23 14.44772 23 15V17C23 19.20914 21.20914 21 19 21H5C2.79086 21 1 19.20914 1 17V15C1 14.44772 1.44772 14 2 14C3.10457 14 4 13.10457 4 12C4 10.89543 3.10457 10 2 10C1.44772 10 1 9.55228 1 9V7C1 4.79086 2.79086 3 5 3Z");
+  stroke: none;
+}
+
+.x89uejb-e {
+  fill: currentColor;
+  d: path("M10.5 8.5C10.5 9.3284 9.8284 10 9 10C8.1716 10 7.5 9.3284 7.5 8.5C7.5 7.6716 8.1716 7 9 7C9.8284 7 10.5 7.6716 10.5 8.5ZM16.5 15.5C16.5 16.3284 15.8284 17 15 17C14.1716 17 13.5 16.3284 13.5 15.5C13.5 14.6716 14.1716 14 15 14C15.8284 14 16.5 14.6716 16.5 15.5Z");
+  stroke: none;
+}
+
+.z9foj0s3t {
+  d: path("M9 15L15 9");
+}
+
+</style>

@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/n_cs_zmwf.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,11 @@ const viewBox = {"width":24,"height":24};
 const content = `<path clip-rule="evenodd" class="n_cs_zmwf"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:square-bar-chart-2-fill" /></template>
+<style>
+.n_cs_zmwf {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M2 6C2 3.79086 3.79086 2 6 2H18C20.2091 2 22 3.79086 22 6V18C22 20.2091 20.2091 22 18 22H6C3.79086 22 2 20.2091 2 18V6ZM7 13.3333C7 12.781 7.4477 12.3333 8 12.3333C8.5523 12.3333 9 12.781 9 13.3333L9 16C9 16.5523 8.5523 17 8 17C7.4477 17 7 16.5523 7 16ZM11 10.6667C11 10.1144 11.4477 9.6667 12 9.6667C12.5523 9.6667 13 10.1144 13 10.6667L13 16C13 16.5523 12.5523 17 12 17C11.4477 17 11 16.5523 11 16ZM15 8C15 7.4477 15.4477 7 16 7C16.5523 7 17 7.4477 17 8L17 16C17 16.5523 16.5523 17 16 17C15.4477 17 15 16.5523 15 16Z");
+}
+
+</style>

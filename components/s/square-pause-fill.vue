@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/w/wcnue7btn.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,11 @@ const viewBox = {"width":24,"height":24};
 const content = `<path clip-rule="evenodd" class="wcnue7btn"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:square-pause-fill" /></template>
+<style>
+.wcnue7btn {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M2 6C2 3.790861 3.790861 2 6 2L18 2C20.209139 2 22 3.790861 22 6L22 18C22 20.209139 20.209139 22 18 22L6 22C3.790861 22 2 20.209139 2 18ZM8 8L8 8C8 7.447715 8.447715 7 9 7L9 7C9.552285 7 10 7.447715 10 8L10 8L10 16L10 16C10 16.552285 9.552285 17 9 17L9 17C8.447715 17 8 16.552285 8 16L8 16ZM14 8L14 8C14 7.447715 14.447715 7 15 7L15 7C15.552285 7 16 7.447715 16 8L16 8L16 16L16 16C16 16.552285 15.552285 17 15 17L15 17C14.447715 17 14 16.552285 14 16L14 16Z");
+}
+
+</style>

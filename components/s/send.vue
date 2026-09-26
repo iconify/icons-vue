@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/o/o5n5thbyx.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,14 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="o5n5thbyx"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:send" /></template>
+<style>
+.o5n5thbyx {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M2.7164 7.7054L22 2L16.2946 21.2836C16.0554 22.0918 14.985 22.2598 14.5098 21.5637L9.9303 14.8559C9.7195 14.5471 9.4529 14.2805 9.1441 14.0697L2.4363 9.4902C1.7402 9.015 1.9082 7.9446 2.7164 7.7054ZM9.6113 14.3887L22 2");
+}
+
+</style>

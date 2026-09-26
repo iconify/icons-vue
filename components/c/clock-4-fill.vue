@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/m/mc-mrmbjn.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,11 @@ const viewBox = {"width":24,"height":24};
 const content = `<path clip-rule="evenodd" class="mc-mrmbjn"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:clock-4-fill" /></template>
+<style>
+.mc-mrmbjn {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M12 1C18.0751 1 23 5.9249 23 12C23 18.0751 18.0751 23 12 23C5.9249 23 1 18.0751 1 12C1 5.9249 5.9249 1 12 1ZM11 6L11 12C11 12.3573 11.1906 12.6874 11.5 12.866L15.8301 15.366C16.3084 15.6422 16.92 15.4783 17.1961 15C17.3287 14.7703 17.3647 14.4974 17.296 14.2412C17.2274 13.985 17.0598 13.7666 16.8301 13.634L13 11.4227L13 6C13 5.4477 12.5523 5 12 5C11.4477 5 11 5.4477 11 6Z");
+}
+
+</style>

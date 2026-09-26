@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/o/oxjent7ci.css';
-import '../../css/o/ofyql2bpl.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,24 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path class="oxjent7ci"/><path class="ofyql2bpl"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:hammer-duotone" /></template>
+<style>
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.ofyql2bpl {
+  stroke-opacity: 0.4;
+  d: path("M15.4488 11.8101L6.0736 21.3662C5.8765 21.5671 5.6426 21.7265 5.3851 21.8352C5.1277 21.944 4.8517 22 4.573 22C4.0102 22.0001 3.4704 21.7723 3.0723 21.3667C2.6743 20.9611 2.4506 20.4109 2.4505 19.8372C2.4504 19.2635 2.6739 18.7133 3.0718 18.3076L12.4481 8.7515");
+}
+
+.oxjent7ci {
+  fill: currentColor;
+  d: path("M20.7497 8.6486L21.9771 9.8997C22.7403 10.6775 22.7403 11.9231 21.9771 12.701L20.3773 14.3316C19.5933 15.1308 18.3061 15.1308 17.522 14.3316L16.3214 13.1078C16.1353 12.9182 15.8837 12.8101 15.6207 12.8101L14.4486 12.8101C14.1801 12.8101 13.9228 12.7021 13.7348 12.5104L11.7343 10.4714C11.5509 10.2844 11.4481 10.0329 11.4481 9.771L11.4481 8.2264C11.4481 8.149 11.4275 8.0657 11.3986 7.9767C11.3531 7.8367 11.2844 7.6901 11.1986 7.5385C10.9925 7.1746 10.6929 6.7926 10.3298 6.4191C9.5648 5.6319 8.5221 4.8877 7.406 4.4502C6.8144 4.2183 6.4636 3.6754 6.4094 3.1356C6.3787 2.829 6.4407 2.5249 6.5866 2.2645C6.7412 1.9885 6.9875 1.7534 7.3462 1.6208C11.1968 0.1971 16.4965 1.1192 19.6749 5.5304L19.5773 5.4145C20.1349 5.9827 20.4497 6.7528 20.4498 7.5564L20.4498 7.9073C20.4499 8.185 20.5568 8.452 20.7497 8.6486Z");
+  stroke: none;
+}
+
+</style>

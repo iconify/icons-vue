@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/d/dnf2xg7qk.css';
-import '../../css/a/ayo73pbzj.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,24 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path class="dnf2xg7qk"/><path class="ayo73pbzj"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:zap-off-duotone" /></template>
+<style>
+.ayo73pbzj {
+  d: path("M2 2L22 22");
+}
+
+.dnf2xg7qk {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M7.394 7.394L2.4307 12.4491C2.1553 12.7296 2.001 13.1069 2.001 13.5C2.001 14.3284 2.6726 15 3.501 15L9.8656 15L9.194 20.3102C9.1861 20.3726 9.1821 20.4355 9.1821 20.4984C9.1821 21.3268 9.8537 21.9984 10.6821 21.9984C11.0847 21.9984 11.4704 21.8366 11.7524 21.5493L16.606 16.606ZM18.7079 14.4652L21.5693 11.5509C21.8447 11.2704 21.999 10.8931 21.999 10.5C21.999 9.6716 21.3274 9 20.499 9L14.1344 9L14.806 3.6898C14.8139 3.6274 14.8179 3.5645 14.8179 3.5016C14.8179 2.6732 14.1463 2.0016 13.3179 2.0016C12.9153 2.0016 12.5296 2.1634 12.2476 2.4507L9.4959 5.2533Z");
+  stroke: none;
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+</style>

@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/w/w19g-x7au.css';
-import '../../css/y/y9lmsj0_v.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,18 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="cuyn6tgcc"><path class="w19g-x7au"/><path class="y9lmsj0_v"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:chart-pyramid-sharp-duotone" /></template>
+<style>
+.cuyn6tgcc {
+  fill: currentColor;
+}
+
+.w19g-x7au {
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M11.1258 2.5144L1.1258 20.5144C1.0433 20.6629 1 20.8301 1 21C1 21.5523 1.4477 22 2 22L22 22C22.5523 22 23 21.5523 23 21C23 20.8301 22.9567 20.6629 22.8742 20.5144L12.8742 2.5144C12.6978 2.1969 12.3632 2 12 2C11.6368 2 11.3022 2.1969 11.1258 2.5144Z");
+}
+
+.y9lmsj0_v {
+  d: path("M8.0782 8L15.9218 8L17.0329 10L6.9671 10ZM4.7449 14L19.2551 14L20.3662 16L3.6338 16Z");
+}
+
+</style>

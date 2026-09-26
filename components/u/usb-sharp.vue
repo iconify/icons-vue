@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/k/kf56cje1o.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,13 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="kf56cje1o"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:usb-sharp" /></template>
+<style>
+.kf56cje1o {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M6 12C6 13.1046 5.1046 14 4 14C2.8954 14 2 13.1046 2 12C2 10.8954 2.8954 10 4 10C5.1046 10 6 10.8954 6 12ZM16.5 6C16.5 7.1046 15.6046 8 14.5 8C13.3954 8 12.5 7.1046 12.5 6C12.5 4.8954 13.3954 4 14.5 4C15.6046 4 16.5 4.8954 16.5 6ZM11 16L15 16L15 20L11 20L11 16ZM6 12L22 12M10 12L13.3 7.6M10 12L13 16M19.7071 9.7071L22 12L19.7071 14.2929");
+}
+
+</style>

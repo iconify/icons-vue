@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/g/gp_8x1bzb.css';
-import '../../css/z/z859racns.css';
-import '../../css/f/fjxiq25kt.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,23 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="gp_8x1bzb"><path class="z859racns"/><path class="fjxiq25kt"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:rocket-sharp-duotone" /></template>
+<style>
+.fjxiq25kt {
+  d: path("M10.4731 17.1897L16.7303 12.7638M6.8103 13.5269L11.2362 7.2697");
+}
+
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.z859racns {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M6.3961 14.5269L9.4731 17.6039L9.4731 19.9368C9.4731 20.489 9.9208 20.9368 10.4731 20.9368C10.5903 20.9368 10.7066 20.9161 10.8167 20.8759L17.0739 18.5866C17.4681 18.4424 17.7303 18.0673 17.7303 17.6475L17.7303 13.2689C21.0524 10.7192 22.9999 6.7697 22.9999 2.5819C22.9999 2.377 22.9953 2.1721 22.9859 1.9674C22.9623 1.451 22.549 1.0377 22.0326 1.0141C21.8279 1.0047 21.623 1.0001 21.4181 1.0001C17.2303 1.0001 13.2808 2.9476 10.7311 6.2697L6.3525 6.2697C5.9327 6.2697 5.5576 6.5319 5.4134 6.9261L3.1241 13.1833C3.0839 13.2934 3.0632 13.4097 3.0632 13.5269C3.0632 14.0792 3.511 14.5269 4.0632 14.5269L6.3961 14.5269ZM2.0549 22.9984L4.4602 22.8664C6.1347 22.7745 7.4454 21.3899 7.4454 19.7129C7.4454 17.9686 6.0314 16.5546 4.2871 16.5546C2.6101 16.5546 1.2255 17.8653 1.1336 19.5398L1.0016 21.9451C1.0006 21.9634 1.0001 21.9817 1.0001 21.9999C1.0001 22.5522 1.4478 22.9999 2.0001 22.9999C2.0183 22.9999 2.0366 22.9994 2.0549 22.9984Z");
+  stroke: none;
+}
+
+</style>

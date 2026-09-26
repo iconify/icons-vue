@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/g/gp_8x1bzb.css';
-import '../../css/i/is9k_idfr.css';
-import '../../css/i/igs6bnbke.css';
-import '../../css/k/kil06obbz.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,27 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="gp_8x1bzb"><path class="is9k_idfr"/><path class="igs6bnbke"/><path class="kil06obbz"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:podcast-sharp-two-tone" /></template>
+<style>
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.igs6bnbke {
+  d: path("M12 14L12 22");
+}
+
+.is9k_idfr {
+  stroke-opacity: 0.4;
+  d: path("M14.9641 13.866L15.4641 13C15.8152 12.3919 16 11.7021 16 11C16 8.7909 14.2091 7 12 7C9.7909 7 8 8.7909 8 11C8 11.7021 8.1848 12.3919 8.5359 13L9.0359 13.866M18.4282 15.866L18.9282 15C19.6303 13.7838 20 12.4043 20 11C20 6.5817 16.4183 3 12 3C7.5817 3 4 6.5817 4 11C4 12.4043 4.3697 13.7838 5.0718 15L5.5718 15.866");
+}
+
+.kil06obbz {
+  fill: currentColor;
+  d: path("M13 11C13 11.5523 12.5523 12 12 12C11.4477 12 11 11.5523 11 11C11 10.4477 11.4477 10 12 10C12.5523 10 13 10.4477 13 11Z");
+  stroke: none;
+}
+
+</style>

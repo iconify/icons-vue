@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/l/llaqktbzk.css';
-import '../../css/h/h6uy-vbvm.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,24 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path class="llaqktbzk"/><path class="h6uy-vbvm"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:graduation-cap-two-tone" /></template>
+<style>
+.h6uy-vbvm {
+  d: path("M12.6431 5.1062L21.3215 8.0531C22.2261 8.3603 22.2261 9.6397 21.3215 9.9469L12.6431 12.8938C12.2261 13.0354 11.7739 13.0354 11.3569 12.8938L2.6785 9.9469C1.7739 9.6397 1.7739 8.3603 2.6785 8.0531L11.3569 5.1062C11.7739 4.9646 12.2261 4.9646 12.6431 5.1062ZM6 11.0748L6 15.7967C6 16.4679 6.3367 17.0944 6.8966 17.4647C8.4102 18.4661 10.1851 19 12 19C13.8149 19 15.5898 18.4661 17.1034 17.4647C17.6633 17.0944 18 16.4679 18 15.7967L18 11.0748M2 9L2 15");
+}
+
+.llaqktbzk {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M12.9646 4.1593L21.643 7.1062C22.4543 7.3817 23 8.1433 23 9C23 9.8567 22.4543 10.6183 21.643 10.8938L12.9646 13.8407C12.6539 13.9462 12.3281 14 12 14C11.6719 14 11.3461 13.9462 11.0354 13.8407L2.357 10.8938C1.5457 10.6183 1 9.8567 1 9C1 8.1433 1.5457 7.3817 2.357 7.1062L11.0354 4.1593C11.3461 4.0538 11.6719 4 12 4C12.3281 4 12.6539 4.0538 12.9646 4.1593Z");
+  stroke: none;
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+</style>

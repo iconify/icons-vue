@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/g/gp_8x1bzb.css';
-import '../../css/c/cuk5lcddp.css';
-import '../../css/a/ahhqo1b4s.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,23 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="gp_8x1bzb"><path class="cuk5lcddp"/><path class="ahhqo1b4s"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:message-off-sharp-duotone" /></template>
+<style>
+.ahhqo1b4s {
+  d: path("M1.7071 1.7071L22.2929 22.2929");
+}
+
+.cuk5lcddp {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M9.7236 19.8047L5.4385 21.8984C5.1434 22.0425 4.7961 22.0329 4.5098 21.8721C4.2235 21.7112 4.0344 21.4197 4.0039 21.0928L3.6084 16.8252C1.9521 15.2269 1 13.1718 1 11C1 8.355 2.3479 6.0598 4.4492 4.4492L18.35 18.35C16.5288 19.3982 14.3202 20 12 20C11.2351 20 10.4723 19.9337 9.7236 19.8047ZM6.8429 3.1021C8.3996 2.401 10.1633 2 12 2C17.8736 2 23 6.1011 23 11C23 13.1915 21.9741 15.2234 20.3143 16.7999Z");
+  stroke: none;
+}
+
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+</style>

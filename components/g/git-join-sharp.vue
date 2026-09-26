@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/d/dg447v4ql.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,13 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="dg447v4ql"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:git-join-sharp" /></template>
+<style>
+.dg447v4ql {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M12 16L12 11M5 8L5 11L19 11L19 8M5 2C6.6569 2 8 3.3432 8 5C8 6.6569 6.6569 8 5 8C3.3432 8 2 6.6569 2 5C2 3.3432 3.3432 2 5 2ZM19 2C20.6569 2 22 3.3432 22 5C22 6.6569 20.6569 8 19 8C17.3431 8 16 6.6569 16 5C16 3.3432 17.3431 2 19 2ZM12 16C13.6569 16 15 17.3431 15 19C15 20.6569 13.6569 22 12 22C10.3431 22 9 20.6569 9 19C9 17.3431 10.3431 16 12 16Z");
+}
+
+</style>

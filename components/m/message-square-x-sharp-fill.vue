@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/o/o9bfxnb4k.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,10 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="o9bfxnb4k"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:message-square-x-sharp-fill" /></template>
+<style>
+.o9bfxnb4k {
+  fill: currentColor;
+  d: path("M3 2L21 2C21.5523 2 22 2.4477 22 3L22 17C22 17.5523 21.5523 18 21 18L7.4142 18L3.7071 21.7071C3.5196 21.8946 3.2652 22 3 22C2.4477 22 2 21.5523 2 21L2 3C2 2.4477 2.4477 2 3 2ZM9.4142 6L8 7.4142L10.5858 10L8 12.5858L9.4142 14L12 11.4142L14.5858 14L16 12.5858L13.4142 10L16 7.4142L14.5858 6L12 8.5858L9.4142 6Z");
+}
+
+</style>

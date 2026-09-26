@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/p/pjls-dbds.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,11 @@ const viewBox = {"width":24,"height":24};
 const content = `<path clip-rule="evenodd" class="pjls-dbds"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:clock-1-fill" /></template>
+<style>
+.pjls-dbds {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M12 1C18.0751 1 23 5.9249 23 12C23 18.0751 18.0751 23 12 23C5.9249 23 1 18.0751 1 12C1 5.9249 5.9249 1 12 1ZM11 6L11 12C11 12.4526 11.304 12.8488 11.7412 12.9659C12.1784 13.0831 12.6397 12.892 12.866 12.5L15.366 8.1699C15.4986 7.9402 15.5346 7.6673 15.4659 7.4111C15.3973 7.1549 15.2297 6.9365 15 6.8039C14.5217 6.5277 13.9101 6.6916 13.634 7.1699L13 8.268L13 6C13 5.4477 12.5523 5 12 5C11.4477 5 11 5.4477 11 6Z");
+}
+
+</style>

@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/g/gp_8x1bzb.css';
-import '../../css/z/zr2nxeb2j.css';
-import '../../css/u/urdmwybfb.css';
-import '../../css/w/w79zl5b-f.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,29 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="gp_8x1bzb"><path class="zr2nxeb2j"/><path class="urdmwybfb"/><path class="w79zl5b-f"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:folder-sparkles-sharp-duotone" /></template>
+<style>
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.urdmwybfb {
+  fill: currentColor;
+  d: path("M18.5492 13.3739L19.4196 15.5804L21.6261 16.4508C21.8518 16.5397 22 16.7576 22 17C22 17.2424 21.8518 17.4603 21.6261 17.5492L19.4196 18.4196L18.5492 20.6261C18.4603 20.8518 18.2424 21 18 21C17.7576 21 17.5397 20.8518 17.4508 20.6261L16.5804 18.4196L14.3739 17.5492C14.1482 17.4603 14 17.2424 14 17C14 16.7576 14.1482 16.5397 14.3739 16.4508L16.5804 15.5804L17.4508 13.3739C17.5397 13.1482 17.7576 13 18 13C18.2424 13 18.4603 13.1482 18.5492 13.3739Z");
+  stroke: none;
+}
+
+.w79zl5b-f {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M12.8433 10.2337L13.3873 11.6127L14.7663 12.1567C14.9074 12.2123 15 12.3485 15 12.5C15 12.6515 14.9074 12.7877 14.7663 12.8433L13.3873 13.3873L12.8433 14.7663C12.7877 14.9074 12.6515 15 12.5 15C12.3485 15 12.2123 14.9074 12.1567 14.7663L11.6127 13.3873L10.2337 12.8433C10.0926 12.7877 10 12.6515 10 12.5C10 12.3485 10.0926 12.2123 10.2337 12.1567L11.6127 11.6127L12.1567 10.2337C12.2123 10.0926 12.3485 10 12.5 10C12.6515 10 12.7877 10.0926 12.8433 10.2337Z");
+  stroke: none;
+}
+
+.zr2nxeb2j {
+  d: path("M12.2 20L3 20L3 4L9.5 4L12 6.5L21 6.5L21 11.2");
+}
+
+</style>

@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/g/gp_8x1bzb.css';
-import '../../css/z/zye0l-oxa.css';
-import '../../css/y/ydrsn1buc.css';
-import '../../css/w/wp3kf0bjz.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,29 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="gp_8x1bzb"><path class="zye0l-oxa"/><path class="ydrsn1buc"/><path class="wp3kf0bjz"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:tag-horizontal-start-sparkles-sharp-two-tone" /></template>
+<style>
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.wp3kf0bjz {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M14.8433 12.2337L15.3873 13.6127L16.7663 14.1567C16.9074 14.2123 17 14.3485 17 14.5C17 14.6515 16.9074 14.7877 16.7663 14.8433L15.3873 15.3873L14.8433 16.7663C14.7877 16.9074 14.6515 17 14.5 17C14.3485 17 14.2123 16.9074 14.1567 16.7663L13.6127 15.3873L12.2337 14.8433C12.0926 14.7877 12 14.6515 12 14.5C12 14.3485 12.0926 14.2123 12.2337 14.1567L13.6127 13.6127L14.1567 12.2337C14.2123 12.0926 14.3485 12 14.5 12C14.6515 12 14.7877 12.0926 14.8433 12.2337Z");
+  stroke: none;
+}
+
+.ydrsn1buc {
+  fill: currentColor;
+  d: path("M10.5 12C10.5 12.8284 9.8284 13.5 9 13.5C8.1716 13.5 7.5 12.8284 7.5 12C7.5 11.1716 8.1716 10.5 9 10.5C9.8284 10.5 10.5 11.1716 10.5 12ZM19.5492 3.3739L20.4196 5.5804L22.6261 6.4508C22.8518 6.5397 23 6.7576 23 7C23 7.2424 22.8518 7.4603 22.6261 7.5492L20.4196 8.4196L19.5492 10.6261C19.4603 10.8518 19.2424 11 19 11C18.7576 11 18.5397 10.8518 18.4508 10.6261L17.5804 8.4196L15.3739 7.5492C15.1482 7.4603 15 7.2424 15 7C15 6.7576 15.1482 6.5397 15.3739 6.4508L17.5804 5.5804L18.4508 3.3739C18.5397 3.1482 18.7576 3 19 3C19.2424 3 19.4603 3.1482 19.5492 3.3739Z");
+  stroke: none;
+}
+
+.zye0l-oxa {
+  d: path("M14 4L9.1716 4L2 12L9.1716 20L22 20L22 12");
+}
+
+</style>

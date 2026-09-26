@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/g/gp_8x1bzb.css';
-import '../../css/j/j0mppdb_k.css';
-import '../../css/a/a4o_n8bwr.css';
-import '../../css/c/cjpys8beh.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,26 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="gp_8x1bzb"><path class="j0mppdb_k"/><path class="a4o_n8bwr"/><path class="cjpys8beh"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:square-navigation-sharp-fill" /></template>
+<style>
+.a4o_n8bwr {
+  fill: currentColor;
+  d: path("M8.6148 18.0691L11.2224 12.9948C11.5613 12.3351 12.4387 12.3351 12.7776 12.9948L15.3852 18.0691C15.7728 18.8235 15.1164 19.7053 14.3519 19.4574L12.2556 18.7775C12.0889 18.7234 11.9111 18.7234 11.7444 18.7775L9.6481 19.4574C8.8836 19.7053 8.2272 18.8235 8.6148 18.0691Z");
+  stroke: none;
+}
+
+.cjpys8beh {
+  d: path("M8.5 19.5L12 12.5L15.5 19.5L12 18.6945L8.5 19.5Z");
+}
+
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.j0mppdb_k {
+  d: path("M19 21L21 21L21 3L3 3L3 21L5 21");
+}
+
+</style>

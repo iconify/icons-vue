@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/b/bin4q55ni.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,13 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="bin4q55ni"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:plane-takeoff-sharp" /></template>
+<style>
+.bin4q55ni {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M4.7587 15.0745L2 12.1466L3.0186 11.1053L6.0393 12.2978L9.9517 10.0831L4.8801 5.4079L7.3675 4L14.4372 7.5409L16.9659 6.3669C18.7954 5.5155 20.985 6.1836 21.9986 7.9022L8.3839 15.6142C7.1953 16.287 5.69 16.0629 4.7587 15.0745ZM1 20L23 20");
+}
+
+</style>

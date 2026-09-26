@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/j/jnr1cdgtb.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,13 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="jnr1cdgtb"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:headphones-off-sharp" /></template>
+<style>
+.jnr1cdgtb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M3 12C3 10.8954 3.8954 10 5 10L7 10L7 21L5 21C3.8954 21 3 20.1046 3 19L3 12ZM17 12.3431L17 10L19 10C20.1046 10 21 10.8954 21 12L21 16.3431M20.4142 20.4142C20.0523 20.7761 19.5523 21 19 21L17 21L17 17M3 12C3 9.5147 4.0074 7.2647 5.636 5.636M8.1779 3.788L9.1256 3.4688C10.0282 3.1648 10.9949 3 12 3C16.9706 3 21 7.0294 21 12M1.7071 1.7071L22.2929 22.2929");
+}
+
+</style>

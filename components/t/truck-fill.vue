@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/x/x2-mfwebp.css';
-import '../../css/o/oi8n25uov.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,23 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path class="x2-mfwebp"/><path class="oi8n25uov"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:truck-fill" /></template>
+<style>
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.oi8n25uov {
+  d: path("M14 18V7C14 5.34315 12.6569 4 11 4H5C3.34315 4 2 5.34315 2 7V17C2 17.5523 2.44772 18 3 18H4M10 18H14M20 18H21C21.5523 18 22 17.5523 22 17V13C22 12.4696 21.7893 11.9609 21.4142 11.5858L18.4142 8.58579C18.0391 8.21071 17.5304 8 17 8H14M9 18C9 19.1046 8.1046 20 7 20C5.8954 20 5 19.1046 5 18C5 16.8954 5.8954 16 7 16C8.1046 16 9 16.8954 9 18ZM19 18C19 19.1046 18.1046 20 17 20C15.8954 20 15 19.1046 15 18C15 16.8954 15.8954 16 17 16C18.1046 16 19 16.8954 19 18Z");
+}
+
+.x2-mfwebp {
+  fill: currentColor;
+  d: path("M9 18C9 16.8954 8.1046 16 7 16C5.8954 16 5 16.8954 5 18H3C2.44772 18 2 17.5523 2 17V7C2 5.34315 3.34315 4 5 4H11C12.6569 4 14 5.34315 14 7V18H9Z");
+  stroke: none;
+}
+
+</style>

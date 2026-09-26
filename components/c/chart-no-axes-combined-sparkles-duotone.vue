@@ -1,10 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/x/x3bv72bvx.css';
-import '../../css/t/twtzfeb6g.css';
-import '../../css/g/gacmsohwz.css';
-import '../../css/v/vs-z1vb4f.css';
 
 const props = defineProps(["width","height"]);
 
@@ -12,3 +7,35 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path class="x3bv72bvx"/><path class="twtzfeb6g"/><path class="gacmsohwz"/><path class="vs-z1vb4f"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:chart-no-axes-combined-sparkles-duotone" /></template>
+<style>
+.gacmsohwz {
+  fill: currentColor;
+  d: path("M5.5492 15.3739L6.1373 16.8648C6.3173 17.3213 6.6787 17.6827 7.1352 17.8627L8.6261 18.4508C8.8518 18.5397 9 18.7576 9 19C9 19.2424 8.8518 19.4603 8.6261 19.5492L7.1352 20.1373C6.6787 20.3173 6.3173 20.6787 6.1373 21.1352L5.5492 22.6261C5.4603 22.8518 5.2424 23 5 23C4.7576 23 4.5397 22.8518 4.4508 22.6261L3.8627 21.1352C3.6827 20.6787 3.3213 20.3173 2.8648 20.1373L1.3739 19.5492C1.1482 19.4603 1 19.2424 1 19C1 18.7576 1.1482 18.5397 1.3739 18.4508L2.8648 17.8627C3.3213 17.6827 3.6827 17.3213 3.8627 16.8648L4.4508 15.3739C4.5397 15.1482 4.7576 15 5 15C5.2424 15 5.4603 15.1482 5.5492 15.3739Z");
+  stroke: none;
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.twtzfeb6g {
+  d: path("M12 20L12 18M16 20L16 12.5M20 20L20 9");
+}
+
+.vs-z1vb4f {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M9.8433 11.2337L10.2108 12.1655C10.3233 12.4508 10.5492 12.6767 10.8345 12.7892L11.7663 13.1567C11.9074 13.2123 12 13.3485 12 13.5C12 13.6515 11.9074 13.7877 11.7663 13.8433L10.8345 14.2108C10.5492 14.3233 10.3233 14.5492 10.2108 14.8345L9.8433 15.7663C9.7877 15.9074 9.6515 16 9.5 16C9.3485 16 9.2123 15.9074 9.1567 15.7663L8.7892 14.8345C8.6767 14.5492 8.4508 14.3233 8.1655 14.2108L7.2337 13.8433C7.0926 13.7877 7 13.6515 7 13.5C7 13.3485 7.0926 13.2123 7.2337 13.1567L8.1655 12.7892C8.4508 12.6767 8.6767 12.4508 8.7892 12.1655L9.1567 11.2337C9.2123 11.0926 9.3485 11 9.5 11C9.6515 11 9.7877 11.0926 9.8433 11.2337Z");
+  stroke: none;
+}
+
+.x3bv72bvx {
+  stroke-opacity: 0.4;
+  d: path("M22 2L13.5984 9.0013C13.2465 9.2945 12.7405 9.3112 12.37 9.0418L8.1911 6.0026C7.7931 5.7132 7.2437 5.7563 6.8958 6.1042L2 11");
+}
+
+</style>

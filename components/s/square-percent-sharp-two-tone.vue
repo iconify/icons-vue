@@ -1,10 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/g/gp_8x1bzb.css';
-import '../../css/v/v8hgvi38z.css';
-import '../../css/x/x-_5ilohg.css';
-import '../../css/r/r0knw1b4v.css';
-import '../../css/n/n0kzgsfmm.css';
 
 const props = defineProps(["width","height"]);
 
@@ -12,3 +7,33 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="gp_8x1bzb"><path class="v8hgvi38z"/><path class="x-_5ilohg"/><path class="r0knw1b4v"/><path class="n0kzgsfmm"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:square-percent-sharp-two-tone" /></template>
+<style>
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.n0kzgsfmm {
+  d: path("M7.7071 16.2929L16.2929 7.7071");
+}
+
+.r0knw1b4v {
+  fill: currentColor;
+  d: path("M8.5 7C9.3285 7 10 7.6716 10 8.5C10 9.3285 9.3285 10 8.5 10C7.6716 10 7 9.3285 7 8.5C7 7.6716 7.6716 7 8.5 7ZM15.5 14C16.3285 14 17 14.6716 17 15.5C17 16.3285 16.3285 17 15.5 17C14.6716 17 14 16.3285 14 15.5C14 14.6716 14.6716 14 15.5 14Z");
+  stroke: none;
+}
+
+.v8hgvi38z {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M3 2L21 2C21.5523 2 22 2.4477 22 3L22 21C22 21.5523 21.5523 22 21 22L3 22C2.4477 22 2 21.5523 2 21L2 3C2 2.4477 2.4477 2 3 2Z");
+  stroke: none;
+}
+
+.x-_5ilohg {
+  d: path("M3 3L21 3L21 21L3 21L3 3Z");
+}
+
+</style>

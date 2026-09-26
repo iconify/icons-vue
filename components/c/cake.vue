@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/i/iweqpwb-x.css';
-import '../../css/k/k_4lfsbqx.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,23 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path class="iweqpwb-x"/><path class="k_4lfsbqx"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:cake" /></template>
+<style>
+.iweqpwb-x {
+  d: path("M6 11L18 11C18.5523 11 19 11.4477 19 12L19 19C19 19.5523 18.5523 20 18 20L6 20C5.4477 20 5 19.5523 5 19L5 12C5 11.4477 5.4477 11 6 11ZM5 14V14.6256C5 15.3847 6.04468 16 7.33333 16C7.96044 16 8.56113 15.8513 8.99999 15.5875C9.17555 15.482 9.41579 15.4225 9.66667 15.4225C9.91755 15.4225 10.1578 15.482 10.3333 15.5875C10.7722 15.8513 11.3729 16 12 16C12.6271 16 13.2278 15.8513 13.6667 15.5875C13.8422 15.482 14.0825 15.4225 14.3333 15.4225C14.5842 15.4225 14.8245 15.482 15 15.5875C15.4389 15.8513 16.0396 16 16.6667 16C17.2938 16 17.8945 15.8513 18.3333 15.5875C18.5089 15.482 18.7491 15.4225 19 15.4225V14M9.6667 15.4225L9.6667 14M14.3333 15.4225L14.3333 14M9 11L9 8M15 11L15 8M2 20L22 20");
+}
+
+.k_4lfsbqx {
+  fill: currentColor;
+  d: path("M10 4C10 4.5523 9.5523 5 9 5C8.4477 5 8 4.5523 8 4C8 3.4477 8.4477 3 9 3C9.5523 3 10 3.4477 10 4ZM16 4C16 4.5523 15.5523 5 15 5C14.4477 5 14 4.5523 14 4C14 3.4477 14.4477 3 15 3C15.5523 3 16 3.4477 16 4Z");
+  stroke: none;
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+</style>

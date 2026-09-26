@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/i/ibcz29bif.css';
-import '../../css/s/s78gi4v_f.css';
-import '../../css/r/rj2y4vkzd.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,30 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path class="ibcz29bif"/><path class="s78gi4v_f"/><path class="rj2y4vkzd"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:airpods-duotone" /></template>
+<style>
+.ibcz29bif {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M7 2L17 2C20.3137 2 23 4.6863 23 8L23 16C23 19.3137 20.3137 22 17 22L7 22C3.6863 22 1 19.3137 1 16L1 8C1 4.6863 3.6863 2 7 2Z");
+  stroke: none;
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.rj2y4vkzd {
+  fill: currentColor;
+  d: path("M13 14C13 14.5523 12.5523 15 12 15C11.4477 15 11 14.5523 11 14C11 13.4477 11.4477 13 12 13C12.5523 13 13 13.4477 13 14Z");
+  stroke: none;
+}
+
+.s78gi4v_f {
+  d: path("M4 9L20 9M9 8L15 8C15.5523 8 16 8.4477 16 9C16 9.5523 15.5523 10 15 10L9 10C8.4477 10 8 9.5523 8 9C8 8.4477 8.4477 8 9 8Z");
+}
+
+</style>

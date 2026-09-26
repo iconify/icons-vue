@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/a/a-fsf2rdw.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,11 @@ const viewBox = {"width":24,"height":24};
 const content = `<path clip-rule="evenodd" class="a-fsf2rdw"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:square-align-offset-bottom-fill" /></template>
+<style>
+.a-fsf2rdw {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M18 2C20.2091 2 22 3.79086 22 6V18C22 20.2091 20.2091 22 18 22H6C3.79086 22 2 20.2091 2 18V6C2 3.79086 3.79086 2 6 2H18ZM8 15C7.44772 15 7 15.4477 7 16C7 16.5523 7.44772 17 8 17H13C13.5523 17 14 16.5523 14 16C14 15.4477 13.5523 15 13 15H8ZM9 11C8.44772 11 8 11.4477 8 12C8 12.5523 8.44772 13 9 13H16C16.5523 13 17 12.5523 17 12C17 11.4477 16.5523 11 16 11H9ZM14 7C13.4477 7 13 7.44772 13 8C13 8.55228 13.4477 9 14 9H16C16.5523 9 17 8.55228 17 8C17 7.44772 16.5523 7 16 7H14Z");
+}
+
+</style>

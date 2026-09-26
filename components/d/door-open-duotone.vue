@@ -1,10 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/h/hqdps7hvt.css';
-import '../../css/x/xvpm0wbmd.css';
-import '../../css/b/bivz2wbdu.css';
-import '../../css/e/euyl8dt7f.css';
 
 const props = defineProps(["width","height"]);
 
@@ -12,3 +7,36 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path class="hqdps7hvt"/><path class="xvpm0wbmd"/><path class="bivz2wbdu"/><path clip-rule="evenodd" class="euyl8dt7f"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:door-open-duotone" /></template>
+<style>
+.bivz2wbdu {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M12 11C12 10.4477 11.5523 10 11 10C10.4477 10 10 10.4477 10 11L10 13C10 13.5523 10.4477 14 11 14C11.5523 14 12 13.5523 12 13L12 11Z");
+  stroke: none;
+}
+
+.euyl8dt7f {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M6.4402 2.83L12.4402 1.0805C12.622 1.0275 12.8105 1.0006 13 1.0006C14.1046 1.0006 15 1.896 15 3.0006L15 22C15 22.5523 14.5523 23 14 23C13.9058 23 13.812 22.9867 13.7215 22.9604L6.443 20.8497C5.5881 20.6018 5 19.8188 5 18.9288L5 4.7501C5 3.8611 5.5867 3.0789 6.4402 2.83ZM12 11C12 10.4477 11.5523 10 11 10C10.4477 10 10 10.4477 10 11L10 13C10 13.5523 10.4477 14 11 14C11.5523 14 12 13.5523 12 13L12 11Z");
+  stroke: none;
+}
+
+.hqdps7hvt {
+  stroke-opacity: 0.4;
+  d: path("M18 21L18 4C18 3.4477 17.5523 3 17 3L14 3");
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.xvpm0wbmd {
+  d: path("M2 21L10.5517 21M14 21L22 21");
+}
+
+</style>

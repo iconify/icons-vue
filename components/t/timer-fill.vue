@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/d/dgvrpcb-p.css';
-import '../../css/u/u8fj7rips.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,24 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path clip-rule="evenodd" class="dgvrpcb-p"/><path class="u8fj7rips"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:timer-fill" /></template>
+<style>
+.dgvrpcb-p {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M12 5C16.9706 5 21 9.0294 21 14C21 18.9706 16.9706 23 12 23C7.0294 23 3 18.9706 3 14C3 9.0294 7.0294 5 12 5ZM11 10L11 14C11 14.5523 11.4477 15 12 15C12.5523 15 13 14.5523 13 14L13 10C13 9.4477 12.5523 9 12 9C11.4477 9 11 9.4477 11 10Z");
+  stroke: none;
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.u8fj7rips {
+  d: path("M9 2L15 2M12 2L12 6M17.6569 8.3431L19 7");
+}
+
+</style>

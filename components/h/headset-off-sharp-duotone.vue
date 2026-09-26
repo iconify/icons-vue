@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/g/gp_8x1bzb.css';
-import '../../css/k/kv98g033q.css';
-import '../../css/t/thed6-b2p.css';
-import '../../css/f/f4vx4ccga.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,30 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="gp_8x1bzb"><path class="kv98g033q"/><path class="thed6-b2p"/><path class="f4vx4ccga"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:headset-off-sharp-duotone" /></template>
+<style>
+.f4vx4ccga {
+  d: path("M1.70715 1.70703L22.293 22.2928");
+}
+
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.kv98g033q {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M17 17.001H18C18.5523 17.001 19 17.4487 19 18.001V22.001C19 22.5532 18.5523 23.001 18 23.001H11V21.001H17V19.001H16C15.4477 19.001 15 18.5532 15 18.001V16.001H17V17.001ZM6.25195 6.00391C6.028 6.3253 5.83133 6.66679 5.66309 7.02441C5.77481 7.00868 5.88727 7 6 7H8C8.5523 7 9 7.4477 9 8V18C9 18.5523 8.5523 19 8 19H6C4.4812 19 3 17.5188 3 16V9.99707C3.00081 8.08941 3.59652 6.3178 4.61133 4.86133L6.25195 6.00391Z");
+  stroke: none;
+}
+
+.thed6-b2p {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M12 1C16.9705 1.0001 21 5.02947 21 10V15.3398H19V10L18.9951 9.89746C18.9438 9.39336 18.5176 9.00009 18 9H17V11.3428H15V8C15 7.44776 15.4478 7.00007 16 7H18C18.1129 7.00001 18.2244 7.00641 18.334 7.01855C17.2143 4.64388 14.7995 3.00007 12 3C10.891 3.00002 9.84434 3.2568 8.91504 3.71387L7.79883 4.26367L6.91602 2.46875L8.03223 1.91992C9.23022 1.33067 10.5782 1.00002 12 1Z");
+  stroke: none;
+}
+
+</style>

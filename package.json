@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/at-icons",
   "type": "module",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "homepage": "https://icon-sets.iconify.design/at-icons/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -13,6 +13,10 @@
     "./alarm-clock": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/alarm-clock.vue"
+    },
+    "./alembic": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/alembic.vue"
     },
     "./american-football": {
       "types": "./types/dd0bq22g.d.ts",
@@ -33,6 +37,10 @@
     "./angry-face": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/angry-face.vue"
+    },
+    "./anvil": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/anvil.vue"
     },
     "./aperture": {
       "types": "./types/dd0bq22g.d.ts",
@@ -57,6 +65,18 @@
     "./area": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/area.vue"
+    },
+    "./armor-boots": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/armor-boots.vue"
+    },
+    "./armor-chestplate": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/armor-chestplate.vue"
+    },
+    "./armor-helmet": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/armor-helmet.vue"
     },
     "./arrow-axes": {
       "types": "./types/dd0bq22g.d.ts",
@@ -370,6 +390,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/battery-low.vue"
     },
+    "./battle-axe": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/battle-axe.vue"
+    },
     "./beaker": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/beaker.vue"
@@ -433,6 +457,10 @@
     "./boolean": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/boolean.vue"
+    },
+    "./boots": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/boots.vue"
     },
     "./bot": {
       "types": "./types/dd0bq22g.d.ts",
@@ -674,6 +702,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/cone.vue"
     },
+    "./controller": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/controller.vue"
+    },
     "./conveyor-belt": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/conveyor-belt.vue"
@@ -814,9 +846,17 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/doorway-exit.vue"
     },
+    "./dot-grid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dot-grid.vue"
+    },
     "./dragon": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/dragon.vue"
+    },
+    "./drain": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/drain.vue"
     },
     "./drawing-compass": {
       "types": "./types/dd0bq22g.d.ts",
@@ -905,6 +945,10 @@
     "./fast-forward": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/fast-forward.vue"
+    },
+    "./faucet": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/faucet.vue"
     },
     "./feather": {
       "types": "./types/dd0bq22g.d.ts",
@@ -1150,9 +1194,17 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/gem.vue"
     },
+    "./gem-emerald": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gem-emerald.vue"
+    },
     "./ghost": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/ghost.vue"
+    },
+    "./gif": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gif.vue"
     },
     "./gift": {
       "types": "./types/dd0bq22g.d.ts",
@@ -1214,6 +1266,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/golf-hole.vue"
     },
+    "./grabber-dots": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/grabber-dots.vue"
+    },
     "./grass": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/grass.vue"
@@ -1262,6 +1318,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/handset.vue"
     },
+    "./handset-waves": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/handset-waves.vue"
+    },
     "./happy-face": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/happy-face.vue"
@@ -1273,6 +1333,10 @@
     "./headphones": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/headphones.vue"
+    },
+    "./headphones-mute": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/headphones-mute.vue"
     },
     "./heart": {
       "types": "./types/dd0bq22g.d.ts",
@@ -1321,6 +1385,14 @@
     "./info": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/i/info.vue"
+    },
+    "./ingot": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/ingot.vue"
+    },
+    "./ingots": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/ingots.vue"
     },
     "./institutional-building": {
       "types": "./types/dd0bq22g.d.ts",
@@ -1449,6 +1521,10 @@
     "./lock": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/l/lock.vue"
+    },
+    "./magic-staff": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/magic-staff.vue"
     },
     "./magic-wand": {
       "types": "./types/dd0bq22g.d.ts",
@@ -1670,6 +1746,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/palette.vue"
     },
+    "./pants": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pants.vue"
+    },
     "./paper-airplane": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/paper-airplane.vue"
@@ -1701,6 +1781,10 @@
     "./pencil": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/pencil.vue"
+    },
+    "./pendant": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pendant.vue"
     },
     "./person-body": {
       "types": "./types/dd0bq22g.d.ts",
@@ -1894,6 +1978,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/r/ring.vue"
     },
+    "./ring-with-gem": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/ring-with-gem.vue"
+    },
     "./road": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/r/road.vue"
@@ -1993,6 +2081,10 @@
     "./shield": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/shield.vue"
+    },
+    "./shirt": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/shirt.vue"
     },
     "./shocked-face": {
       "types": "./types/dd0bq22g.d.ts",
@@ -2117,6 +2209,10 @@
     "./sphere": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/sphere.vue"
+    },
+    "./spikes": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/spikes.vue"
     },
     "./spiral": {
       "types": "./types/dd0bq22g.d.ts",

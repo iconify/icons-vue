@@ -1,19 +1,21 @@
 # @iconify-vue/at-icons
 
-Icon set prefix: **at-icons**
+⚠️ This is an alternative repository. Main repository has moved to [GitLab](https://gitlab.com/iconify-icons/vue/-/tree/at-icons).
+**@icons**
 
-Icon set name: **@icons**
+Author: [Valentin Fossati](https://github.com/Voxybuns/at-icons)
 
-Author: **Valentin Fossati**
+License: [MIT](https://github.com/Voxybuns/at-icons/blob/main/LICENSE)
 
-License: **[MIT](https://github.com/Voxybuns/at-icons/blob/main/LICENSE)**
-
-Repository: **https://github.com/Voxybuns/at-icons**
-
-Browse all icons: **[Preview @icons](https://icon-sets.iconify.design/at-icons/)**
+Browse all icons: [preview @icons on Iconify](https://icon-sets.iconify.design/at-icons/)
 
 ## Installation
 
+```bash
+npm install gitlab:iconify-icons/vue#at-icons
+```
+
+or
 ```bash
 npm install github:iconify/icons-vue#at-icons
 ```

@@ -1,0 +1,7 @@
+.f1nmlabip {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M3.75 12h8m-8 0V6m0 6v6m8-6V6m0 6v6m8.642-.001H16c0-4.538 4.5-3.347 4.5-6.75c0-1.702-2.304-3.202-4.5-1.5");
+}

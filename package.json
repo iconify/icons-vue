@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/thesvg-color",
   "type": "module",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "homepage": "https://icon-sets.iconify.design/thesvg-color/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -4061,6 +4061,10 @@
     "./davinci-resolve": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/davinci-resolve.vue"
+    },
+    "./dawarich": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dawarich.vue"
     },
     "./dazhong-dianping": {
       "types": "./types/dd0bq22g.d.ts",
@@ -11785,6 +11789,14 @@
     "./nowly": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/n/nowly.vue"
+    },
+    "./nowly-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nowly-dark.vue"
+    },
+    "./nowly-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nowly-light.vue"
     },
     "./nplcloud": {
       "types": "./types/dd0bq22g.d.ts",

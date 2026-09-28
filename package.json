@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/pinhead",
   "type": "module",
-  "version": "1.0.33",
+  "version": "1.0.34",
   "homepage": "https://icon-sets.iconify.design/pinhead/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "CC0-1.0",
@@ -365,6 +365,10 @@
     "./ampersand": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/ampersand.vue"
+    },
+    "./amphora": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/amphora.vue"
     },
     "./analog-tv-with-rabbitears": {
       "types": "./types/dd0bq22g.d.ts",
@@ -2046,6 +2050,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/car-battery.vue"
     },
+    "./car-beside-bench-on-ground": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/car-beside-bench-on-ground.vue"
+    },
     "./car-beside-car": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/car-beside-car.vue"
@@ -2238,9 +2246,17 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/cars-on-barge-on-water.vue"
     },
+    "./cartoon-bomb": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cartoon-bomb.vue"
+    },
     "./cartoon-bomb-with-lit-fuse": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/cartoon-bomb-with-lit-fuse.vue"
+    },
+    "./cartoon-cannon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cartoon-cannon.vue"
     },
     "./cartoon-cannon-with-lit-fuse": {
       "types": "./types/dd0bq22g.d.ts",
@@ -3058,10 +3074,6 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/delicate-arch.vue"
     },
-    "./desk-lamp": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/d/desk-lamp.vue"
-    },
     "./detergent-bottle": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/detergent-bottle.vue"
@@ -3842,9 +3854,9 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/fork-beside-fish.vue"
     },
-    "./fork-beside-knife": {
+    "./fork-beside-plate-beside-table-knife": {
       "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/f/fork-beside-knife.vue"
+      "default": "./components/f/fork-beside-plate-beside-table-knife.vue"
     },
     "./fork-beside-sausage": {
       "types": "./types/dd0bq22g.d.ts",
@@ -3854,9 +3866,13 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/fork-beside-spoon.vue"
     },
-    "./fork-crossing-knife": {
+    "./fork-beside-table-knife": {
       "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/f/fork-crossing-knife.vue"
+      "default": "./components/f/fork-beside-table-knife.vue"
+    },
+    "./fork-crossing-table-knife": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fork-crossing-table-knife.vue"
     },
     "./fort": {
       "types": "./types/dd0bq22g.d.ts",
@@ -4105,10 +4121,6 @@
     "./gravestone": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/gravestone.vue"
-    },
-    "./grecian-vase": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/g/grecian-vase.vue"
     },
     "./greek-cross": {
       "types": "./types/dd0bq22g.d.ts",
@@ -4769,10 +4781,6 @@
     "./kitchen-sink": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/k/kitchen-sink.vue"
-    },
-    "./knife": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/k/knife.vue"
     },
     "./l": {
       "types": "./types/dd0bq22g.d.ts",
@@ -6190,6 +6198,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/pencil-and-apple.vue"
     },
+    "./pencil-beside-ruler": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pencil-beside-ruler.vue"
+    },
     "./pencil-bottom-left-to-square-outline": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/pencil-bottom-left-to-square-outline.vue"
@@ -7066,6 +7078,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/phone-bottom-right.vue"
     },
+    "./phone-bottom-right-and-minus": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/phone-bottom-right-and-minus.vue"
+    },
     "./phone-down": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/phone-down.vue"
@@ -7134,9 +7150,17 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/phone-right.vue"
     },
+    "./phone-right-beside-droplet": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/phone-right-beside-droplet.vue"
+    },
     "./phone-right-beside-exclamation-point": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/phone-right-beside-exclamation-point.vue"
+    },
+    "./phone-right-beside-gas-flame": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/phone-right-beside-gas-flame.vue"
     },
     "./phone-right-beside-question-mark": {
       "types": "./types/dd0bq22g.d.ts",
@@ -7153,6 +7177,26 @@
     "./phone-top-right": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/phone-top-right.vue"
+    },
+    "./phone-top-right-and-exclamation-point": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/phone-top-right-and-exclamation-point.vue"
+    },
+    "./phone-top-right-and-greek-cross": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/phone-top-right-and-greek-cross.vue"
+    },
+    "./phone-top-right-and-minus": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/phone-top-right-and-minus.vue"
+    },
+    "./phone-top-right-and-plus": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/phone-top-right-and-plus.vue"
+    },
+    "./phone-top-right-and-question-mark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/phone-top-right-and-question-mark.vue"
     },
     "./phone-top-right-with-exclamation-point": {
       "types": "./types/dd0bq22g.d.ts",
@@ -7494,9 +7538,9 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/pixel-exclamation-point.vue"
     },
-    "./pixel-fork-and-knife": {
+    "./pixel-fork-beside-table-knife": {
       "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/p/pixel-fork-and-knife.vue"
+      "default": "./components/p/pixel-fork-beside-table-knife.vue"
     },
     "./pixel-gasoline-pump": {
       "types": "./types/dd0bq22g.d.ts",
@@ -9066,6 +9110,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/spoon-beside-fork.vue"
     },
+    "./spoon-beside-table-knife": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/spoon-beside-table-knife.vue"
+    },
+    "./spoon-beside-table-knife-in-gable-roofed-shelter": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/spoon-beside-table-knife-in-gable-roofed-shelter.vue"
+    },
     "./spray-paint-can": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/spray-paint-can.vue"
@@ -9465,6 +9517,14 @@
     "./t": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/t.vue"
+    },
+    "./table-knife": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/table-knife.vue"
+    },
+    "./table-lamp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/table-lamp.vue"
     },
     "./table-soccer-players-with-ball": {
       "types": "./types/dd0bq22g.d.ts",
@@ -11226,6 +11286,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/conifer-tree-and-oval-broadleaved-tree.vue"
     },
+    "./desk-lamp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/desk-lamp.vue"
+    },
     "./diamond": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/diamond.vue"
@@ -11394,6 +11458,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/fork-and-spoon.vue"
     },
+    "./fork-beside-knife": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fork-beside-knife.vue"
+    },
+    "./fork-crossing-knife": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fork-crossing-knife.vue"
+    },
     "./four": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/four.vue"
@@ -11449,6 +11521,10 @@
     "./golf-green": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/golf-green.vue"
+    },
+    "./grecian-vase": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/grecian-vase.vue"
     },
     "./hammer-with-nail": {
       "types": "./types/dd0bq22g.d.ts",
@@ -11525,6 +11601,10 @@
     "./kids-train-with-tires": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/k/kids-train-with-tires.vue"
+    },
+    "./knife": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/knife.vue"
     },
     "./motorboat-and-key": {
       "types": "./types/dd0bq22g.d.ts",
@@ -11949,6 +12029,10 @@
     "./pipe": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/pipe.vue"
+    },
+    "./pixel-fork-and-knife": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pixel-fork-and-knife.vue"
     },
     "./pixel-head-and-shoulders": {
       "types": "./types/dd0bq22g.d.ts",

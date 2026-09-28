@@ -4,13 +4,13 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":32,"height":32};
-const content = `<path class="rvllrvb7o"/>`;
+const content = `<path class="ztm4ji3pa"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="vscode-icons:file-type-cheader" /></template>
 <style>
-.rvllrvb7o {
+.ztm4ji3pa {
   fill: var(--svg-color--005f91, #005f91);
-  d: path("M8.329 29V3h3.192v9.329a7.13 7.13 0 0 1 5.64-2.589a7.6 7.6 0 0 1 3.636.825a4.84 4.84 0 0 1 2.208 2.279a10.5 10.5 0 0 1 .665 4.221V29h-3.192V17.064a4.93 4.93 0 0 0-1.038-3.485a3.86 3.86 0 0 0-2.935-1.091a5.2 5.2 0 0 0-2.669.736a4.16 4.16 0 0 0-1.782 2a9.2 9.2 0 0 0-.532 3.476V29Z");
+  d: path("M6.97 29V3h5.2v8.52c1.45-1.73 3.61-2.6 6.21-2.6c2.17 0 4.05.72 5.2 2.17c1.01 1.3 1.45 3.18 1.45 6.07V29h-5.2V18.02q0-2.38-.87-3.46c-.58-.73-1.59-1.02-2.74-1.02c-1.3 0-2.46.44-3.18 1.3c-.58.73-.87 2.03-.87 3.76V29Z");
 }
 
 </style>

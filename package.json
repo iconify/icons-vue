@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/vscode-icons",
   "type": "module",
-  "version": "1.0.56",
+  "version": "1.0.57",
   "homepage": "https://icon-sets.iconify.design/vscode-icons/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -49,6 +49,10 @@
     "./file-type-advpl": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-advpl.vue"
+    },
+    "./file-type-affectscript": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-type-affectscript.vue"
     },
     "./file-type-affinity": {
       "types": "./types/dd0bq22g.d.ts",
@@ -262,6 +266,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-azurepipelines.vue"
     },
+    "./file-type-azureresourcemanager": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-type-azureresourcemanager.vue"
+    },
     "./file-type-azurestreamanalytics": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-azurestreamanalytics.vue"
@@ -366,6 +374,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-bower2.vue"
     },
+    "./file-type-brakeman": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-type-brakeman.vue"
+    },
     "./file-type-brew": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-brew.vue"
@@ -425,6 +437,10 @@
     "./file-type-caddy": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-caddy.vue"
+    },
+    "./file-type-cadence": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-type-cadence.vue"
     },
     "./file-type-cairo": {
       "types": "./types/dd0bq22g.d.ts",
@@ -493,6 +509,10 @@
     "./file-type-cfm2": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-cfm2.vue"
+    },
+    "./file-type-changelogen": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-type-changelogen.vue"
     },
     "./file-type-changie": {
       "types": "./types/dd0bq22g.d.ts",
@@ -722,6 +742,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-cssmap.vue"
     },
+    "./file-type-csv": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-type-csv.vue"
+    },
     "./file-type-cucumber": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-cucumber.vue"
@@ -837,6 +861,10 @@
     "./file-type-devenv": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-devenv.vue"
+    },
+    "./file-type-devprune": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-type-devprune.vue"
     },
     "./file-type-devvit": {
       "types": "./types/dd0bq22g.d.ts",
@@ -1390,6 +1418,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-godot.vue"
     },
+    "./file-type-golangci": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-type-golangci.vue"
+    },
     "./file-type-gpg": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-gpg.vue"
@@ -1501,6 +1533,10 @@
     "./file-type-helm": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-helm.vue"
+    },
+    "./file-type-heroku": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-type-heroku.vue"
     },
     "./file-type-hip": {
       "types": "./types/dd0bq22g.d.ts",
@@ -2106,6 +2142,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-light-hashicorp.vue"
     },
+    "./file-type-light-heroku": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-type-light-heroku.vue"
+    },
     "./file-type-light-hip": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-light-hip.vue"
@@ -2205,6 +2245,10 @@
     "./file-type-light-mlang": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-light-mlang.vue"
+    },
+    "./file-type-light-mongo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-type-light-mongo.vue"
     },
     "./file-type-light-mustache": {
       "types": "./types/dd0bq22g.d.ts",
@@ -2754,6 +2798,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-mongo.vue"
     },
+    "./file-type-moniq": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-type-moniq.vue"
+    },
     "./file-type-monotone": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-monotone.vue"
@@ -3238,6 +3286,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-ogone.vue"
     },
+    "./file-type-ohpm": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-type-ohpm.vue"
+    },
     "./file-type-onenote": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-onenote.vue"
@@ -3278,6 +3330,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-outlook.vue"
     },
+    "./file-type-overmind": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-type-overmind.vue"
+    },
     "./file-type-ovpn": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-ovpn.vue"
@@ -3289,6 +3345,10 @@
     "./file-type-package": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-package.vue"
+    },
+    "./file-type-packer": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-type-packer.vue"
     },
     "./file-type-packship": {
       "types": "./types/dd0bq22g.d.ts",
@@ -3333,6 +3393,10 @@
     "./file-type-pddl-plan": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-pddl-plan.vue"
+    },
+    "./file-type-pdf": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-type-pdf.vue"
     },
     "./file-type-pdf2": {
       "types": "./types/dd0bq22g.d.ts",
@@ -3585,6 +3649,10 @@
     "./file-type-prometheus": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-prometheus.vue"
+    },
+    "./file-type-proteus": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-type-proteus.vue"
     },
     "./file-type-protobuf": {
       "types": "./types/dd0bq22g.d.ts",
@@ -4274,6 +4342,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-t4tt.vue"
     },
+    "./file-type-tablegen": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-type-tablegen.vue"
+    },
     "./file-type-tailwind": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-tailwind.vue"
@@ -4810,6 +4882,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-xorg.vue"
     },
+    "./file-type-xposed": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-type-xposed.vue"
+    },
     "./file-type-xquery": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-xquery.vue"
@@ -4874,6 +4950,18 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-zizmor.vue"
     },
+    "./file-type-zsh": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-type-zsh.vue"
+    },
+    "./folder-type-alpine": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-type-alpine.vue"
+    },
+    "./folder-type-alpine-opened": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-type-alpine-opened.vue"
+    },
     "./folder-type-android": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/folder-type-android.vue"
@@ -4922,6 +5010,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/folder-type-arangodb-opened.vue"
     },
+    "./folder-type-arch": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-type-arch.vue"
+    },
+    "./folder-type-arch-opened": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-type-arch-opened.vue"
+    },
     "./folder-type-asset": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/folder-type-asset.vue"
@@ -4953,6 +5049,14 @@
     "./folder-type-aurelia-opened": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/folder-type-aurelia-opened.vue"
+    },
+    "./folder-type-auth": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-type-auth.vue"
+    },
+    "./folder-type-auth-opened": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-type-auth-opened.vue"
     },
     "./folder-type-aws": {
       "types": "./types/dd0bq22g.d.ts",
@@ -5346,6 +5450,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/folder-type-favicon-opened.vue"
     },
+    "./folder-type-fedora": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-type-fedora.vue"
+    },
+    "./folder-type-fedora-opened": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-type-fedora-opened.vue"
+    },
     "./folder-type-flow": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/folder-type-flow.vue"
@@ -5393,6 +5505,14 @@
     "./folder-type-gemini-opened": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/folder-type-gemini-opened.vue"
+    },
+    "./folder-type-gentoo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-type-gentoo.vue"
+    },
+    "./folder-type-gentoo-opened": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-type-gentoo-opened.vue"
     },
     "./folder-type-git": {
       "types": "./types/dd0bq22g.d.ts",
@@ -5618,6 +5738,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/folder-type-library-opened.vue"
     },
+    "./folder-type-light-alpine": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-type-light-alpine.vue"
+    },
+    "./folder-type-light-alpine-opened": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-type-light-alpine-opened.vue"
+    },
     "./folder-type-light-cursor": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/folder-type-light-cursor.vue"
@@ -5657,6 +5785,14 @@
     "./folder-type-light-expo-opened": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/folder-type-light-expo-opened.vue"
+    },
+    "./folder-type-light-fedora": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-type-light-fedora.vue"
+    },
+    "./folder-type-light-fedora-opened": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-type-light-fedora-opened.vue"
     },
     "./folder-type-light-fonts": {
       "types": "./types/dd0bq22g.d.ts",
@@ -5705,6 +5841,14 @@
     "./folder-type-light-node-opened": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/folder-type-light-node-opened.vue"
+    },
+    "./folder-type-light-ocx": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-type-light-ocx.vue"
+    },
+    "./folder-type-light-ocx-opened": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-type-light-ocx-opened.vue"
     },
     "./folder-type-light-redux": {
       "types": "./types/dd0bq22g.d.ts",
@@ -5970,6 +6114,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/folder-type-nuxt-opened.vue"
     },
+    "./folder-type-ocx": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-type-ocx.vue"
+    },
+    "./folder-type-ocx-opened": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-type-ocx-opened.vue"
+    },
+    "./folder-type-ohpm": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-type-ohpm.vue"
+    },
+    "./folder-type-ohpm-opened": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-type-ohpm-opened.vue"
+    },
     "./folder-type-package": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/folder-type-package.vue"
@@ -6058,6 +6218,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/folder-type-ravendb-opened.vue"
     },
+    "./folder-type-redhat": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-type-redhat.vue"
+    },
+    "./folder-type-redhat-opened": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-type-redhat-opened.vue"
+    },
     "./folder-type-redis": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/folder-type-redis.vue"
@@ -6089,6 +6257,14 @@
     "./folder-type-sass-opened": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/folder-type-sass-opened.vue"
+    },
+    "./folder-type-schema": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-type-schema.vue"
+    },
+    "./folder-type-schema-opened": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-type-schema-opened.vue"
     },
     "./folder-type-script": {
       "types": "./types/dd0bq22g.d.ts",
@@ -6129,6 +6305,14 @@
     "./folder-type-shared-opened": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/folder-type-shared-opened.vue"
+    },
+    "./folder-type-slackware": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-type-slackware.vue"
+    },
+    "./folder-type-slackware-opened": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-type-slackware-opened.vue"
     },
     "./folder-type-snaplet": {
       "types": "./types/dd0bq22g.d.ts",
@@ -6185,6 +6369,14 @@
     "./folder-type-supabase-opened": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/folder-type-supabase-opened.vue"
+    },
+    "./folder-type-suse": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-type-suse.vue"
+    },
+    "./folder-type-suse-opened": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-type-suse-opened.vue"
     },
     "./folder-type-svelte": {
       "types": "./types/dd0bq22g.d.ts",
@@ -6345,6 +6537,14 @@
     "./folder-type-vitepress-opened": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/folder-type-vitepress-opened.vue"
+    },
+    "./folder-type-void": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-type-void.vue"
+    },
+    "./folder-type-void-opened": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-type-void-opened.vue"
     },
     "./folder-type-vs": {
       "types": "./types/dd0bq22g.d.ts",

@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/logos",
   "type": "module",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "homepage": "https://icon-sets.iconify.design/logos/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "CC0-1.0",
@@ -938,6 +938,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/batch.vue"
     },
+    "./bazel": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bazel.vue"
+    },
+    "./bazel-icon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bazel-icon.vue"
+    },
     "./beats": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/beats.vue"
@@ -1334,6 +1342,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/centos-icon.vue"
     },
+    "./cerebras": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cerebras.vue"
+    },
+    "./cerebras-icon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cerebras-icon.vue"
+    },
     "./certbot": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/certbot.vue"
@@ -1425,6 +1441,14 @@
     "./claude-icon": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/claude-icon.vue"
+    },
+    "./clerk": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/clerk.vue"
+    },
+    "./clerk-icon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/clerk-icon.vue"
     },
     "./clickdeploy": {
       "types": "./types/dd0bq22g.d.ts",
@@ -2170,6 +2194,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/dialogflow.vue"
     },
+    "./dify": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dify.vue"
+    },
     "./digital-ocean": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/digital-ocean.vue"
@@ -2321,6 +2349,14 @@
     "./drizzle-icon": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/drizzle-icon.vue"
+    },
+    "./drizzle-orm": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/drizzle-orm.vue"
+    },
+    "./drizzle-orm-icon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/drizzle-orm-icon.vue"
     },
     "./drone": {
       "types": "./types/dd0bq22g.d.ts",
@@ -2745,6 +2781,14 @@
     "./firebase-icon": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/firebase-icon.vue"
+    },
+    "./firecrawl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/firecrawl.vue"
+    },
+    "./firecrawl-icon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/firecrawl-icon.vue"
     },
     "./firefox": {
       "types": "./types/dd0bq22g.d.ts",
@@ -4066,6 +4110,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/j/jhipster-icon.vue"
     },
+    "./jina": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jina.vue"
+    },
     "./jira": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/j/jira.vue"
@@ -4353,6 +4401,14 @@
     "./kustomer": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/k/kustomer.vue"
+    },
+    "./langchain": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/langchain.vue"
+    },
+    "./langchain-icon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/langchain-icon.vue"
     },
     "./languagetool": {
       "types": "./types/dd0bq22g.d.ts",
@@ -4841,6 +4897,14 @@
     "./meilisearch": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/meilisearch.vue"
+    },
+    "./mem0": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mem0.vue"
+    },
+    "./mem0-icon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mem0-icon.vue"
     },
     "./memcached": {
       "types": "./types/dd0bq22g.d.ts",
@@ -5489,6 +5553,18 @@
     "./ocaml": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/o/ocaml.vue"
+    },
+    "./octelium": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/octelium.vue"
+    },
+    "./octelium-icon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/octelium-icon.vue"
+    },
+    "./octelium-icon-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/octelium-icon-dark.vue"
     },
     "./octodns": {
       "types": "./types/dd0bq22g.d.ts",
@@ -7602,6 +7678,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/telegram.vue"
     },
+    "./temporal": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/temporal.vue"
+    },
+    "./temporal-icon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/temporal-icon.vue"
+    },
     "./tensorflow": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/tensorflow.vue"
@@ -7701,6 +7785,14 @@
     "./todomvc": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/todomvc.vue"
+    },
+    "./togetherai": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/togetherai.vue"
+    },
+    "./togetherai-icon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/togetherai-icon.vue"
     },
     "./tomcat": {
       "types": "./types/dd0bq22g.d.ts",
@@ -8041,6 +8133,14 @@
     "./valkey-icon": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/v/valkey-icon.vue"
+    },
+    "./vapi": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vapi.vue"
+    },
+    "./vapi-icon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vapi-icon.vue"
     },
     "./vault": {
       "types": "./types/dd0bq22g.d.ts",

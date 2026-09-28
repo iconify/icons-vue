@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/simple-icons",
   "type": "module",
-  "version": "1.0.47",
+  "version": "1.0.48",
   "homepage": "https://icon-sets.iconify.design/simple-icons/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "CC0-1.0",
@@ -6022,6 +6022,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/hyperx.vue"
     },
+    "./hypit": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hypit.vue"
+    },
     "./hypothesis": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/hypothesis.vue"
@@ -8893,6 +8897,10 @@
     "./notepadplusplus": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/n/notepadplusplus.vue"
+    },
+    "./notesnook": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/notesnook.vue"
     },
     "./notion": {
       "types": "./types/dd0bq22g.d.ts",

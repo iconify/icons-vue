@@ -4,10 +4,14 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="gp_8x1bzb"><path class="m66emgbjh"/><path class="ksu4hvb6k"/><path class="ff9zbvbzx"/></g>`;
+const content = `<g class="gp_8x1bzb"><path class="dwg7xbb8l"/><path class="ksu4hvb6k"/><path class="ff9zbvbzx"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:cpu-sparkles-sharp-two-tone" /></template>
 <style>
+.dwg7xbb8l {
+  d: path("M23 9L20 9L20 20L4 20L4 4L15 4L15 1M9 4L9 1M9 20L9 23M4 9L1 9M15 20L15 23M4 15L1 15M20 15L23 15");
+}
+
 .ff9zbvbzx {
   fill: currentColor;
   fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
@@ -26,10 +30,6 @@ const content = `<g class="gp_8x1bzb"><path class="m66emgbjh"/><path class="ksu4
   fill: currentColor;
   d: path("M12.5492 8.3739L13.4196 10.5804L15.6261 11.4508C15.8518 11.5397 16 11.7576 16 12C16 12.2424 15.8518 12.4603 15.6261 12.5492L13.4196 13.4196L12.5492 15.6261C12.4603 15.8518 12.2424 16 12 16C11.7576 16 11.5397 15.8518 11.4508 15.6261L10.5804 13.4196L8.3739 12.5492C8.1482 12.4603 8 12.2424 8 12C8 11.7576 8.1482 11.5397 8.3739 11.4508L10.5804 10.5804L11.4508 8.3739C11.5397 8.1482 11.7576 8 12 8C12.2424 8 12.4603 8.1482 12.5492 8.3739Z");
   stroke: none;
-}
-
-.m66emgbjh {
-  d: path("M20 8L20 20L4 20L4 4L16 4M9 4L9 1M9 20L9 23M4 9L1 9M20 9L23 9M15 4L15 1M15 20L15 23M4 15L1 15M20 15L23 15");
 }
 
 </style>

@@ -1,0 +1,30 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="nrj6p8qat"><path class="ydz7qdb3z"/><path class="g8p5fwb-h"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:subtitles-off-two-tone" /></template>
+<style>
+.g8p5fwb-h {
+  d: path("M19.8708 19.8708C19.5885 19.9565 19.295 20 19 20L5 20C3.3431 20 2 18.6569 2 17L2 7C2 5.6786 2.8646 4.5128 4.1292 4.1292M6 10L8 10M6 14L12 14M2 2L22 22");
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.ydz7qdb3z {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M20.6458 20.6458C20.1285 20.8792 19.5675 21 19 21L5 21C2.7909 21 1 19.2091 1 17L1 7C1 5.4277 1.9212 4.0012 3.3542 3.3542ZM9.6569 3L19 3C21.2091 3 23 4.7909 23 7L23 16.3431C23 16.8954 22.5523 17.3431 22 17.3431C21.7348 17.3431 21.4804 17.2378 21.2929 17.0503L8.9497 4.7071C8.7622 4.5196 8.6569 4.2652 8.6569 4C8.6569 3.4477 9.1046 3 9.6569 3Z");
+  stroke: none;
+}
+
+</style>

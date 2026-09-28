@@ -4,19 +4,19 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="gp_8x1bzb"><path class="ducm16zmb"/><path class="unky6y77u"/></g>`;
+const content = `<g class="gp_8x1bzb"><path class="ul-fjobzb"/><path class="unky6y77u"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:app-window-cursor-sharp" /></template>
 <style>
-.ducm16zmb {
-  d: path("M12 21L3 21L3 3L21 3L21 12M16.9543 21L14.8719 14.8669L21 17.0514L18.4086 18.3063L16.9543 21Z");
-}
-
 .gp_8x1bzb {
   fill: none;
   stroke: currentColor;
   stroke-linejoin: round;
   stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.ul-fjobzb {
+  d: path("M12 21L3 21L3 3L21 3L21 12M15.6057 21L12.8292 12.8225L21 15.7352L17.5448 17.4084L15.6057 21Z");
 }
 
 .unky6y77u {

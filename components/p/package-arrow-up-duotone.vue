@@ -4,10 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="nrj6p8qat"><path class="f1wb2ccqt"/><path class="m667nubck"/></g>`;
+const content = `<g class="nrj6p8qat"><path class="f1wb2ccqt"/><path class="eal0wpb4j"/><path class="n_t5kwbwg"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:package-arrow-up-duotone" /></template>
 <style>
+.eal0wpb4j {
+  fill: currentColor;
+  d: path("M7.0013 3.1788L10.6387 1.3266C11.494 0.8911 12.506 0.8911 13.3613 1.3266L21.3613 5.4003C22.1892 5.8219 22.7648 6.5967 22.9422 7.4872L19.1884 9.4213ZM4.8013 4.2991L17.0013 10.5481L12.458 12.8889C12.1706 13.037 11.8294 13.037 11.542 12.8889L1.0578 7.4872C1.2352 6.5967 1.8108 5.8219 2.6387 5.4003L4.8013 4.2991Z");
+  stroke: none;
+}
+
 .f1wb2ccqt {
   fill: currentColor;
   fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
@@ -15,8 +21,8 @@ const content = `<g class="nrj6p8qat"><path class="f1wb2ccqt"/><path class="m667
   stroke: none;
 }
 
-.m667nubck {
-  d: path("M2.3084 7.0066L12 12M12 12L21.6916 7.0066M7 4.3017L17 9.4239M12 12L12 22M19 22L19 16M16 19L19 16L22 19");
+.n_t5kwbwg {
+  d: path("M19 22L19 16M16 19L19 16L22 19");
 }
 
 .nrj6p8qat {

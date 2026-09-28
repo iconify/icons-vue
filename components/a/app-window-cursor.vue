@@ -4,12 +4,12 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="nrj6p8qat"><path class="hhyy_kb5v"/><path class="unky6y77u"/></g>`;
+const content = `<g class="nrj6p8qat"><path class="alfsz1bhf"/><path class="unky6y77u"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:app-window-cursor" /></template>
 <style>
-.hhyy_kb5v {
-  d: path("M11 21H6C4.34315 21 3 19.6569 3 18V6C3 4.34315 4.34315 3 6 3H18C19.6569 3 21 4.34315 21 6V11M16.7728 20.8371L15.0114 15.3046C14.9534 15.1226 15.1272 14.9519 15.3089 15.0124L20.8399 16.8539C21.0454 16.9223 21.0557 17.2081 20.8557 17.2911L18.4925 18.2715C18.4385 18.2939 18.3949 18.3355 18.3702 18.3882L17.2085 20.8653C17.118 21.058 16.8374 21.0398 16.7728 20.8371Z");
+.alfsz1bhf {
+  d: path("M11 21H6C4.34315 21 3 19.6569 3 18V6C3 4.34315 4.34315 3 6 3H18C19.6569 3 21 4.34315 21 6V11M15.3636 20.7825L13.0152 13.4061C12.9379 13.1634 13.1688 12.9356 13.4104 13.0161L20.7865 15.4719C21.0599 15.5629 21.0736 15.9444 20.8075 16.0548L17.6567 17.362C17.5847 17.3919 17.5265 17.4475 17.4934 17.518L15.9447 20.8204C15.8239 21.0779 15.4499 21.0535 15.3636 20.7825Z");
 }
 
 .nrj6p8qat {

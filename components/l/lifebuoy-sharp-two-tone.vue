@@ -1,0 +1,29 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="gp_8x1bzb"><path class="t8drw368i"/><path class="qrgor_pfi"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:lifebuoy-sharp-two-tone" /></template>
+<style>
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.qrgor_pfi {
+  d: path("M22 12C22 17.5228 17.5228 22 12 22C6.4772 22 2 17.5228 2 12C2 6.4772 6.4772 2 12 2C17.5228 2 22 6.4772 22 12ZM16.2426 12C16.2426 14.3431 14.3431 16.2426 12 16.2426C9.6569 16.2426 7.7574 14.3431 7.7574 12C7.7574 9.6569 9.6569 7.7574 12 7.7574C14.3431 7.7574 16.2426 9.6569 16.2426 12ZM15 15L19.0711 19.0711M9 15L4.9289 19.0711M9 9L4.9289 4.9289M15 9L19.0711 4.9289");
+}
+
+.t8drw368i {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M23 12C23 18.0751 18.0751 23 12 23C5.9249 23 1 18.0751 1 12C1 5.9249 5.9249 1 12 1C18.0751 1 23 5.9249 23 12Z");
+  stroke: none;
+}
+
+</style>

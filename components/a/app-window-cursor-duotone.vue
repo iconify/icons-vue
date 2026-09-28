@@ -4,33 +4,35 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="nrj6p8qat"><path class="r63fawbfm"/><path class="ockqglbtm"/><path class="unky6y77u"/></g>`;
+const content = `<g class="nrj6p8qat"><path class="cmhsh8b8v"/><path class="hsr-c-bqf"/><path clip-rule="evenodd" class="kf45exb9v"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:app-window-cursor-duotone" /></template>
 <style>
+.cmhsh8b8v {
+  stroke-opacity: 0.4;
+  d: path("M11 21H6C4.34315 21 3 19.6569 3 18V6C3 4.34315 4.34315 3 6 3H18C19.6569 3 21 4.34315 21 6V11");
+}
+
+.hsr-c-bqf {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M8 7C8 7.5523 7.5523 8 7 8C6.4477 8 6 7.5523 6 7C6 6.4477 6.4477 6 7 6C7.5523 6 8 6.4477 8 7ZM12 7C12 7.5523 11.5523 8 11 8C10.4477 8 10 7.5523 10 7C10 6.4477 10.4477 6 11 6C11.5523 6 12 6.4477 12 7ZM16 7C16 7.5523 15.5523 8 15 8C14.4477 8 14 7.5523 14 7C14 6.4477 14.4477 6 15 6C15.5523 6 16 6.4477 16 7Z");
+  stroke: none;
+}
+
+.kf45exb9v {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M14.4108 21.0859L12.0623 13.7095C12.0214 13.5808 12.0005 13.4466 12.0005 13.3116C12.0005 12.5873 12.5877 12.0001 13.312 12.0001C13.4528 12.0001 13.5927 12.0228 13.7263 12.0673L21.1024 14.5231C21.6381 14.7014 21.9995 15.2027 21.9995 15.7673C21.9995 16.2974 21.6803 16.7754 21.1907 16.9785L18.2857 18.1837L16.85 21.245C16.6339 21.7059 16.1707 22.0003 15.6616 22.0003C15.09 22.0003 14.5842 21.6305 14.4108 21.0859Z");
+  stroke: none;
+}
+
 .nrj6p8qat {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-width: var(--svg-stroke-width--2px, 2px);
-}
-
-.ockqglbtm {
-  d: path("M16.7728 20.8371L15.0114 15.3046C14.9534 15.1226 15.1272 14.9519 15.3089 15.0124L20.8399 16.8539C21.0454 16.9223 21.0557 17.2081 20.8557 17.2911L18.4925 18.2715C18.4385 18.2939 18.3949 18.3355 18.3702 18.3882L17.2085 20.8653C17.118 21.058 16.8374 21.0398 16.7728 20.8371Z");
-}
-
-.r63fawbfm {
-  fill: currentColor;
-  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
-  d: path("M6 2H18C20.2091 2 22 3.79086 22 6V11C22 11.5523 21.5523 12 21 12H15C13.3431 12 12 13.3431 12 15V21C12 21.5523 11.5523 22 11 22H6C3.79086 22 2 20.2091 2 18V6C2 3.79086 3.79086 2 6 2Z");
-  stroke: none;
-}
-
-.unky6y77u {
-  fill: currentColor;
-  d: path("M8 7C8 7.5523 7.5523 8 7 8C6.4477 8 6 7.5523 6 7C6 6.4477 6.4477 6 7 6C7.5523 6 8 6.4477 8 7ZM12 7C12 7.5523 11.5523 8 11 8C10.4477 8 10 7.5523 10 7C10 6.4477 10.4477 6 11 6C11.5523 6 12 6.4477 12 7ZM16 7C16 7.5523 15.5523 8 15 8C14.4477 8 14 7.5523 14 7C14 6.4477 14.4477 6 15 6C15.5523 6 16 6.4477 16 7Z");
-  stroke: none;
 }
 
 </style>

@@ -1,0 +1,36 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="nrj6p8qat"><path class="itu5rojrh"/><path class="qt23z3ppj"/><path class="f_agylf4u"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:money-bag-x-duotone" /></template>
+<style>
+.f_agylf4u {
+  d: path("M9.45 11.45L14.55 16.55M14.55 11.45L9.45 16.55");
+}
+
+.itu5rojrh {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M8.3795 6.4244L7.4867 5.1439C7.2526 4.8083 7.1271 4.409 7.1271 3.9999C7.1271 2.8953 8.0226 1.9999 9.1271 1.9999C9.3602 1.9999 9.5916 2.0407 9.8107 2.1204L12 2.9165L14.1893 2.1204C14.4084 2.0407 14.6398 1.9999 14.8729 1.9999C15.9774 1.9999 16.8729 2.8953 16.8729 3.9999C16.8729 4.409 16.7474 4.8083 16.5133 5.1439L15.6205 6.4244C19.4101 7.5777 22 11.0732 22 15.0344L22 17C22 19.7614 19.7614 22 17 22L7 22C4.2386 22 2 19.7614 2 17L2 15.0344C2 11.0732 4.5899 7.5777 8.3795 6.4244Z");
+  stroke: none;
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.qt23z3ppj {
+  fill: currentColor;
+  d: path("M9.1797 7.572L7.4867 5.1439C7.2526 4.8083 7.1271 4.409 7.1271 3.9999C7.1271 2.8953 8.0226 1.9999 9.1271 1.9999C9.3602 1.9999 9.5916 2.0407 9.8107 2.1204L12 2.9165L14.1893 2.1204C14.4084 2.0407 14.6398 1.9999 14.8729 1.9999C15.9774 1.9999 16.8729 2.8953 16.8729 3.9999C16.8729 4.409 16.7474 4.8083 16.5133 5.1439L14.8203 7.572C14.6333 7.8402 14.327 8 14 8L10 8C9.673 8 9.3667 7.8402 9.1797 7.572Z");
+  stroke: none;
+}
+
+</style>

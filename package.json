@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/cbi",
   "type": "module",
-  "version": "1.0.43",
+  "version": "1.0.44",
   "homepage": "https://icon-sets.iconify.design/cbi/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "CC-BY-NC-SA-4.0",
@@ -3766,6 +3766,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/n/nas-v2.vue"
     },
+    "./national-rail": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/national-rail.vue"
+    },
+    "./national-rail-alt": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/national-rail-alt.vue"
+    },
     "./nautical-lamp": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/n/nautical-lamp.vue"
@@ -3829,6 +3837,10 @@
     "./netapp": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/n/netapp.vue"
+    },
+    "./netbird": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/netbird.vue"
     },
     "./netflix": {
       "types": "./types/dd0bq22g.d.ts",
@@ -5190,6 +5202,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/serie-a.vue"
     },
+    "./seven-eleven-australia": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/seven-eleven-australia.vue"
+    },
     "./shade-rchiileea-v1": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/shade-rchiileea-v1.vue"
@@ -5305,6 +5321,10 @@
     "./skoda": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/skoda.vue"
+    },
+    "./sky": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sky.vue"
     },
     "./sky-alt": {
       "types": "./types/dd0bq22g.d.ts",
@@ -6113,6 +6133,10 @@
     "./transmission-bt": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/transmission-bt.vue"
+    },
+    "./transport-for-london": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/transport-for-london.vue"
     },
     "./treadmill": {
       "types": "./types/dd0bq22g.d.ts",

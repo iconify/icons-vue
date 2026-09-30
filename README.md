@@ -1,19 +1,21 @@
 # @iconify-vue/cbi
 
-Icon set prefix: **cbi**
+⚠️ This is an alternative repository. Main repository has moved to [GitLab](https://gitlab.com/iconify-icons/vue/-/tree/cbi).
+**Custom Brand Icons**
 
-Icon set name: **Custom Brand Icons**
+Author: [Emanuele & rchiileea](https://github.com/elax46/custom-brand-icons)
 
-Author: **Emanuele & rchiileea**
+License: [CC BY-NC-SA 4.0](https://github.com/elax46/custom-brand-icons/blob/main/LICENSE)
 
-License: **[CC BY-NC-SA 4.0](https://github.com/elax46/custom-brand-icons/blob/main/LICENSE)**
-
-Repository: **https://github.com/elax46/custom-brand-icons**
-
-Browse all icons: **[Preview Custom Brand Icons](https://icon-sets.iconify.design/cbi/)**
+Browse all icons: [preview Custom Brand Icons on Iconify](https://icon-sets.iconify.design/cbi/)
 
 ## Installation
 
+```bash
+npm install gitlab:iconify-icons/vue#cbi
+```
+
+or
 ```bash
 npm install github:iconify/icons-vue#cbi
 ```

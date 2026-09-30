@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/ix",
   "type": "module",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "homepage": "https://icon-sets.iconify.design/ix/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -201,6 +201,18 @@
     "./ai": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/ai.vue"
+    },
+    "./ai-agent": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/ai-agent.vue"
+    },
+    "./ai-skill": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/ai-skill.vue"
+    },
+    "./ai-sub-agent": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/ai-sub-agent.vue"
     },
     "./alarm": {
       "types": "./types/dd0bq22g.d.ts",
@@ -2694,6 +2706,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/helmet-safety-filled.vue"
     },
+    "./hexagon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hexagon.vue"
+    },
+    "./hexagon-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hexagon-filled.vue"
+    },
     "./hexagon-vertical-bars": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/hexagon-vertical-bars.vue"
@@ -3653,6 +3673,14 @@
     "./objects-tree": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/o/objects-tree.vue"
+    },
+    "./octagon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/octagon.vue"
+    },
+    "./octagon-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/octagon-filled.vue"
     },
     "./ontology": {
       "types": "./types/dd0bq22g.d.ts",

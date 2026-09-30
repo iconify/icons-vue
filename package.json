@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/lucide",
   "type": "module",
-  "version": "1.0.71",
+  "version": "1.0.72",
   "homepage": "https://icon-sets.iconify.design/lucide/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "ISC",
@@ -5345,6 +5345,10 @@
     "./printer": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/printer.vue"
+    },
+    "./printer-3d": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/printer-3d.vue"
     },
     "./printer-check": {
       "types": "./types/dd0bq22g.d.ts",

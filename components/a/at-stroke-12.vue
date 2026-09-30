@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/z/zn_x731ei.css';
+import '../../css/s/s2m-mqbyd.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":12,"height":12};
-const content = `<path class="zn_x731ei"/>`;
+const content = `<path class="s2m-mqbyd"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="garden:at-stroke-12" /></template>

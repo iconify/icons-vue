@@ -1,19 +1,21 @@
 # @iconify-vue/garden
 
-Icon set prefix: **garden**
+⚠️ This is an alternative repository. Main repository has moved to [GitLab](https://gitlab.com/iconify-icons/vue/-/tree/garden).
+**Garden SVG Icons**
 
-Icon set name: **Garden SVG Icons**
+Author: [Zendesk](https://github.com/zendeskgarden/svg-icons)
 
-Author: **Zendesk**
+License: [Apache 2.0](https://github.com/zendeskgarden/svg-icons/blob/main/LICENSE.md)
 
-License: **[Apache 2.0](https://github.com/zendeskgarden/svg-icons/blob/main/LICENSE.md)**
-
-Repository: **https://github.com/zendeskgarden/svg-icons**
-
-Browse all icons: **[Preview Garden SVG Icons](https://icon-sets.iconify.design/garden/)**
+Browse all icons: [preview Garden SVG Icons on Iconify](https://icon-sets.iconify.design/garden/)
 
 ## Installation
 
+```bash
+npm install gitlab:iconify-icons/vue#garden
+```
+
+or
 ```bash
 npm install github:iconify/icons-vue#garden
 ```

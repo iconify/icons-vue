@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/token-branded",
   "type": "module",
-  "version": "1.0.21",
+  "version": "1.0.22",
   "homepage": "https://icon-sets.iconify.design/token-branded/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -2241,6 +2241,14 @@
     "./canto-background": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/canto-background.vue"
+    },
+    "./canton": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/canton.vue"
+    },
+    "./canton-background": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/canton-background.vue"
     },
     "./cap": {
       "types": "./types/dd0bq22g.d.ts",
@@ -11737,6 +11745,14 @@
     "./r-background": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/r/r-background.vue"
+    },
+    "./rabbit": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rabbit.vue"
+    },
+    "./rabbit-background": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rabbit-background.vue"
     },
     "./rabby": {
       "types": "./types/dd0bq22g.d.ts",

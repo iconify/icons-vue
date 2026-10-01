@@ -1,5 +1,6 @@
 # @iconify-vue/token-branded
 
+⚠️ This is an alternative repository. Main repository has moved to [GitLab](https://gitlab.com/iconify-icons/vue/-/tree/token-branded).
 **Web3 Icons Branded**
 
 Author: [0xa3k5](https://github.com/0xa3k5/web3icons)
@@ -10,6 +11,11 @@ Browse all icons: [preview Web3 Icons Branded on Iconify](https://icon-sets.icon
 
 ## Installation
 
+```bash
+npm install gitlab:iconify-icons/vue#token-branded
+```
+
+or
 ```bash
 npm install github:iconify/icons-vue#token-branded
 ```

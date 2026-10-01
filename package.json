@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/token",
   "type": "module",
-  "version": "1.0.20",
+  "version": "1.0.21",
   "homepage": "https://icon-sets.iconify.design/token/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -1117,6 +1117,10 @@
     "./canto": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/canto.vue"
+    },
+    "./canton": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/canton.vue"
     },
     "./cap": {
       "types": "./types/dd0bq22g.d.ts",
@@ -5237,6 +5241,10 @@
     "./r": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/r/r.vue"
+    },
+    "./rabbit": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rabbit.vue"
     },
     "./rad": {
       "types": "./types/dd0bq22g.d.ts",

@@ -1,19 +1,21 @@
 # @iconify-vue/circle-flags
 
-Icon set prefix: **circle-flags**
+⚠️ This is an alternative repository. Main repository has moved to [GitLab](https://gitlab.com/iconify-icons/vue/-/tree/circle-flags).
+**Circle Flags**
 
-Icon set name: **Circle Flags**
+Author: [HatScripts](https://github.com/HatScripts/circle-flags)
 
-Author: **HatScripts**
+License: [MIT](https://github.com/HatScripts/circle-flags/blob/gh-pages/LICENSE)
 
-License: **[MIT](https://github.com/HatScripts/circle-flags/blob/gh-pages/LICENSE)**
-
-Repository: **https://github.com/HatScripts/circle-flags**
-
-Browse all icons: **[Preview Circle Flags](https://icon-sets.iconify.design/circle-flags/)**
+Browse all icons: [preview Circle Flags on Iconify](https://icon-sets.iconify.design/circle-flags/)
 
 ## Installation
 
+```bash
+npm install gitlab:iconify-icons/vue#circle-flags
+```
+
+or
 ```bash
 npm install github:iconify/icons-vue#circle-flags
 ```

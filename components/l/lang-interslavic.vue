@@ -9,6 +9,6 @@ import '../../css/m/m1bazrfir.css';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":512,"height":512};
-const content = `<mask id="SVGuywqVbel"><circle class="bc1fd0lxe"/></mask><g mask="url(#SVGuywqVbel)"><path class="r1fqibbtg"/><path class="i1vplkssi"/><path class="cgx7qpb0o"/><path class="m1bazrfir"/></g>`;
+const content = `<mask id="SVGqdEcMdXs"><circle class="bc1fd0lxe"/></mask><g mask="url(#SVGqdEcMdXs)"><path class="r1fqibbtg"/><path class="i1vplkssi"/><path class="cgx7qpb0o"/><path class="m1bazrfir"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="circle-flags:lang-interslavic" /></template>

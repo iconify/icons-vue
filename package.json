@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/circle-flags",
   "type": "module",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "homepage": "https://icon-sets.iconify.design/circle-flags/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -470,66 +470,6 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/e/en.vue"
     },
-    "./en-au": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/e/en-au.vue"
-    },
-    "./en-ca": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/e/en-ca.vue"
-    },
-    "./en-gh": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/e/en-gh.vue"
-    },
-    "./en-hk": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/e/en-hk.vue"
-    },
-    "./en-ie": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/e/en-ie.vue"
-    },
-    "./en-in": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/e/en-in.vue"
-    },
-    "./en-ke": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/e/en-ke.vue"
-    },
-    "./en-ng": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/e/en-ng.vue"
-    },
-    "./en-nz": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/e/en-nz.vue"
-    },
-    "./en-ph": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/e/en-ph.vue"
-    },
-    "./en-sg": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/e/en-sg.vue"
-    },
-    "./en-tz": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/e/en-tz.vue"
-    },
-    "./en-us": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/e/en-us.vue"
-    },
-    "./en-za": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/e/en-za.vue"
-    },
-    "./eo": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/e/eo.vue"
-    },
     "./er": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/e/er.vue"
@@ -565,10 +505,6 @@
     "./es-ml": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/e/es-ml.vue"
-    },
-    "./es-mx": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/e/es-mx.vue"
     },
     "./es-pv": {
       "types": "./types/dd0bq22g.d.ts",
@@ -866,10 +802,6 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/hy.vue"
     },
-    "./ia": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/i/ia.vue"
-    },
     "./ic": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/i/ic.vue"
@@ -941,10 +873,6 @@
     "./in-tn": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/i/in-tn.vue"
-    },
-    "./interslavic": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/i/interslavic.vue"
     },
     "./io": {
       "types": "./types/dd0bq22g.d.ts",
@@ -2158,10 +2086,6 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/n/no.vue"
     },
-    "./non": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/n/non.vue"
-    },
     "./northern-cyprus": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/n/northern-cyprus.vue"
@@ -2293,10 +2217,6 @@
     "./pt-30": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/pt-30.vue"
-    },
-    "./pt-br": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/p/pt-br.vue"
     },
     "./pw": {
       "types": "./types/dd0bq22g.d.ts",
@@ -2798,10 +2718,6 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/v/vn.vue"
     },
-    "./vo": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/v/vo.vue"
-    },
     "./vu": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/v/vu.vue"
@@ -2833,10 +2749,6 @@
     "./ye": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/y/ye.vue"
-    },
-    "./yi": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/y/yi.vue"
     },
     "./yo": {
       "types": "./types/dd0bq22g.d.ts",
@@ -2878,6 +2790,70 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/z/zw.vue"
     },
+    "./en-au": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/en-au.vue"
+    },
+    "./en-ca": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/en-ca.vue"
+    },
+    "./en-gh": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/en-gh.vue"
+    },
+    "./en-hk": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/en-hk.vue"
+    },
+    "./en-ie": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/en-ie.vue"
+    },
+    "./en-in": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/en-in.vue"
+    },
+    "./en-ke": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/en-ke.vue"
+    },
+    "./en-ng": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/en-ng.vue"
+    },
+    "./en-nz": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/en-nz.vue"
+    },
+    "./en-ph": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/en-ph.vue"
+    },
+    "./en-sg": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/en-sg.vue"
+    },
+    "./en-tz": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/en-tz.vue"
+    },
+    "./en-us": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/en-us.vue"
+    },
+    "./en-za": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/en-za.vue"
+    },
+    "./eo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/eo.vue"
+    },
+    "./es-mx": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/es-mx.vue"
+    },
     "./esperanto": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/e/esperanto.vue"
@@ -2885,6 +2861,14 @@
     "./fr-h": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/fr-h.vue"
+    },
+    "./ia": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/ia.vue"
+    },
+    "./interslavic": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/interslavic.vue"
     },
     "./iw": {
       "types": "./types/dd0bq22g.d.ts",
@@ -2958,6 +2942,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/l/lang-zu.vue"
     },
+    "./non": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/non.vue"
+    },
+    "./pt-br": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pt-br.vue"
+    },
     "./sindh": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/sindh.vue"
@@ -2981,6 +2973,14 @@
     "./us-um": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/u/us-um.vue"
+    },
+    "./vo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vo.vue"
+    },
+    "./yi": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yi.vue"
     },
     "./yiddish": {
       "types": "./types/dd0bq22g.d.ts",

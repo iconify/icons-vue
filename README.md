@@ -256,8 +256,8 @@ There are 222 branches in this repository, one for each icon set.
 - [#cbi](https://github.com/iconify/icons-vue/tree/cbi): **Custom Brand Icons** (1743 icons, CC BY-NC-SA 4.0)
 - [#brandico](https://github.com/iconify/icons-vue/tree/brandico): **Brandico** (45 icons, CC BY SA)
 - [#entypo-social](https://github.com/iconify/icons-vue/tree/entypo-social): **Entypo+ Social** (76 icons, CC BY-SA 4.0)
-- [#token](https://github.com/iconify/icons-vue/tree/token): **Web3 Icons** (1786 icons, MIT)
-- [#token-branded](https://github.com/iconify/icons-vue/tree/token-branded): **Web3 Icons Branded** (4081 icons, MIT)
+- [#token](https://github.com/iconify/icons-vue/tree/token): **Web3 Icons** (1788 icons, MIT)
+- [#token-branded](https://github.com/iconify/icons-vue/tree/token-branded): **Web3 Icons Branded** (4085 icons, MIT)
 - [#cryptocurrency](https://github.com/iconify/icons-vue/tree/cryptocurrency): **Cryptocurrency Icons** (483 icons, CC0 1.0)
 - [#cryptocurrency-color](https://github.com/iconify/icons-vue/tree/cryptocurrency-color): **Cryptocurrency Color Icons** (483 icons, CC0 1.0)
 
@@ -277,7 +277,7 @@ There are 222 branches in this repository, one for each icon set.
 
 ### Flags / Maps
 
-- [#circle-flags](https://github.com/iconify/icons-vue/tree/circle-flags): **Circle Flags** (439 icons, MIT)
+- [#circle-flags](https://github.com/iconify/icons-vue/tree/circle-flags): **Circle Flags** (444 icons, MIT)
 - [#flag](https://github.com/iconify/icons-vue/tree/flag): **Flag Icons** (542 icons, MIT)
 - [#flagpack](https://github.com/iconify/icons-vue/tree/flagpack): **Flagpack** (254 icons, MIT)
 - [#cif](https://github.com/iconify/icons-vue/tree/cif): **CoreUI Flags** (199 icons, CC0 1.0)
@@ -335,4 +335,4 @@ There are 222 branches in this repository, one for each icon set.
 - [#vaadin](https://github.com/iconify/icons-vue/tree/vaadin): **Vaadin Icons** (636 icons, Apache 2.0)
 - [#grommet-icons](https://github.com/iconify/icons-vue/tree/grommet-icons): **Grommet Icons** (636 icons, Apache 2.0)
 
-Total: 222 icon sets, 370385 icons.
+Total: 222 icon sets, 370396 icons.

@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/cbi",
   "type": "module",
-  "version": "1.0.44",
+  "version": "1.0.45",
   "homepage": "https://icon-sets.iconify.design/cbi/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "CC-BY-NC-SA-4.0",
@@ -854,6 +854,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/budbee.vue"
     },
+    "./buddha-sitting": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/buddha-sitting.vue"
+    },
     "./bugatti": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/bugatti.vue"
@@ -1642,6 +1646,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/dish-network-alt.vue"
     },
+    "./dishwasher-rinse-aid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dishwasher-rinse-aid.vue"
+    },
+    "./dishwasher-salt": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dishwasher-salt.vue"
+    },
     "./disney-plus": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/disney-plus.vue"
@@ -2129,6 +2141,10 @@
     "./flynas": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/flynas.vue"
+    },
+    "./food-apple-core": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/food-apple-core.vue"
     },
     "./ford": {
       "types": "./types/dd0bq22g.d.ts",
@@ -2745,6 +2761,14 @@
     "./ikea-haddebo": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/i/ikea-haddebo.vue"
+    },
+    "./ikea-hektar-floor-lamp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/ikea-hektar-floor-lamp.vue"
+    },
+    "./ikea-hektar-pendant-lamp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/ikea-hektar-pendant-lamp.vue"
     },
     "./ikea-hektar3": {
       "types": "./types/dd0bq22g.d.ts",
@@ -4725,6 +4749,10 @@
     "./raiplay": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/r/raiplay.vue"
+    },
+    "./rakuten-viki-alt": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rakuten-viki-alt.vue"
     },
     "./ram": {
       "types": "./types/dd0bq22g.d.ts",

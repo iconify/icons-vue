@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/lucide",
   "type": "module",
-  "version": "1.0.72",
+  "version": "1.0.73",
   "homepage": "https://icon-sets.iconify.design/lucide/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "ISC",
@@ -245,6 +245,10 @@
     "./armchair": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/armchair.vue"
+    },
+    "./armenian-dram": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/armenian-dram.vue"
     },
     "./arrow-big-down": {
       "types": "./types/dd0bq22g.d.ts",
@@ -2394,6 +2398,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/door-closed.vue"
     },
+    "./door-closed-cog": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/door-closed-cog.vue"
+    },
     "./door-closed-locked": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/door-closed-locked.vue"
@@ -3806,6 +3814,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/k/kayak.vue"
     },
+    "./kazakh-tenge": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kazakh-tenge.vue"
+    },
     "./key": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/k/key.vue"
@@ -3949,6 +3961,10 @@
     "./layout-grid": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/l/layout-grid.vue"
+    },
+    "./layout-grid-circles": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/layout-grid-circles.vue"
     },
     "./layout-list": {
       "types": "./types/dd0bq22g.d.ts",
@@ -5670,6 +5686,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/r/rss.vue"
     },
+    "./rugby-ball": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rugby-ball.vue"
+    },
     "./ruler": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/r/ruler.vue"
@@ -6874,6 +6894,18 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/text-align-justify.vue"
     },
+    "./text-align-justify-center": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/text-align-justify-center.vue"
+    },
+    "./text-align-justify-end": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/text-align-justify-end.vue"
+    },
+    "./text-align-justify-start": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/text-align-justify-start.vue"
+    },
     "./text-align-start": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/text-align-start.vue"
@@ -7613,6 +7645,10 @@
     "./wind-arrow-down": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/w/wind-arrow-down.vue"
+    },
+    "./wind-arrow-up": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wind-arrow-up.vue"
     },
     "./wine": {
       "types": "./types/dd0bq22g.d.ts",

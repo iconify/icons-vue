@@ -1,0 +1,17 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path clip-rule="evenodd" class="uvie7r7mm"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:clipboard-list-sharp-fill" /></template>
+<style>
+.uvie7r7mm {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M18 3L20 3C20.5523 3 21 3.4477 21 4L21 22C21 22.5523 20.5523 23 20 23L4 23C3.4477 23 3 22.5523 3 22L3 4C3 3.4477 3.4477 3 4 3L6 3L6 2C6 1.4477 6.4477 1 7 1L17 1C17.5523 1 18 1.4477 18 2L18 3ZM8 3L8 6L16 6L16 3L8 3ZM11 12L11 14L17 14L17 12L11 12ZM11 16L11 18L17 18L17 16L11 16ZM9 13C9 12.4477 8.5523 12 8 12C7.4477 12 7 12.4477 7 13C7 13.5523 7.4477 14 8 14C8.5523 14 9 13.5523 9 13ZM9 17C9 16.4477 8.5523 16 8 16C7.4477 16 7 16.4477 7 17C7 17.5523 7.4477 18 8 18C8.5523 18 9 17.5523 9 17Z");
+}
+
+</style>

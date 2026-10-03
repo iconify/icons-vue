@@ -1,0 +1,27 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="nrj6p8qat"><path class="hgfmg5bxp"/><path class="g9yfzkbll"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:bot-message" /></template>
+<style>
+.g9yfzkbll {
+  d: path("M11 8.6028L11.4521 11.5685M14.9543 8L15.4064 10.9657");
+}
+
+.hgfmg5bxp {
+  d: path("M4.5686 16.353 C2.915 14.8839 2 12.9769 2 11 C2 6.5817 6.4772 3 12 3 C17.5228 3 22 6.5817 22 11 C22 15.4183 17.5228 19 12 19 C11.1845 19 10.3721 18.9202 9.5808 18.7624 L5 21 L4.5686 16.353 Z");
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+</style>

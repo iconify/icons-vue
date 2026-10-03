@@ -1,0 +1,30 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="gp_8x1bzb"><path clip-rule="evenodd" class="zsk_gmlcd"/><path class="oar9d9bdp"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:flip-horizontal-sharp-two-tone" /></template>
+<style>
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.oar9d9bdp {
+  d: path("M1.9999 7.0001L8 12L1.9999 16.9999L1.9999 7.0001ZM22.0001 7.0001L16.0001 12L22.0001 16.9999L22.0001 7.0001ZM12 1L12 5M12 7L12 11M12 13L12 17M12 19L12 23");
+}
+
+.zsk_gmlcd {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  fill-rule: evenodd;
+  d: path("M2.6401 6.2318L8.6401 11.2318C8.8681 11.4218 8.9999 11.7032 8.9999 12C8.9999 12.2968 8.8681 12.5782 8.6401 12.7682L2.6401 17.7682C2.4604 17.9181 2.2338 18.0001 1.9998 18.0001C1.4474 18.0001 0.9997 17.5523 0.9999 16.9999L0.9999 7.0001C0.9997 6.4477 1.4474 5.9999 1.9998 5.9999C2.2338 5.9999 2.4604 6.0819 2.6401 6.2318ZM21.3599 6.2318L15.3599 11.2318C15.1319 11.4218 15 11.7032 15 12C15 12.2968 15.1319 12.5782 15.3599 12.7682L21.3599 17.7682C21.5396 17.9181 21.7662 18.0001 22.0002 18.0001C22.5526 18.0001 23.0003 17.5523 23.0001 16.9999L23.0001 7.0001C23.0003 6.4477 22.5526 5.9999 22.0002 5.9999C21.7662 5.9999 21.5396 6.0819 21.3599 6.2318Z");
+  stroke: none;
+}
+
+</style>

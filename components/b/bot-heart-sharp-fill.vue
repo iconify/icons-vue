@@ -1,0 +1,17 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path clip-rule="evenodd" class="ke3e68bxm"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:bot-heart-sharp-fill" /></template>
+<style>
+.ke3e68bxm {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M11.3505 21.7604C6.8469 17.9139 1 14.3082 1 8.75C1 5.1476 4.2844 2 8 2C9.4261 2 10.8308 2.479 12 3.2568C13.1692 2.479 14.5739 2 16 2C19.7156 2 23 5.1476 23 8.75C23 14.3082 17.1531 17.9139 12.6495 21.7604C12.2754 22.0799 11.7246 22.0799 11.3505 21.7604ZM10.882 7.9042L11.593 12.5685L13.5701 12.2671L12.8591 7.6028ZM14.8363 7.3014L15.5473 11.9657L17.5244 11.6643L16.8134 7Z");
+}
+
+</style>

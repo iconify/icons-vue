@@ -1,0 +1,35 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="gp_8x1bzb"><path class="bvb7sibpb"/><path class="i5qce4b9c"/><path class="lcoi7ibej"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:archive-x-sharp-duotone" /></template>
+<style>
+.bvb7sibpb {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M4 8L20 8C20.5523 8 21 8.4477 21 9L21 20C21 20.5523 20.5523 21 20 21L4 21C3.4477 21 3 20.5523 3 20L3 9C3 8.4477 3.4477 8 4 8Z");
+  stroke: none;
+}
+
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.i5qce4b9c {
+  fill: currentColor;
+  d: path("M2 3L22 3C22.5523 3 23 3.4477 23 4L23 9C23 9.5523 22.5523 10 22 10L2 10C1.4477 10 1 9.5523 1 9L1 4C1 3.4477 1.4477 3 2 3Z");
+  stroke: none;
+}
+
+.lcoi7ibej {
+  d: path("M10.2071 12.7071L13.7929 16.2929M13.7929 12.7071L10.2071 16.2929");
+}
+
+</style>

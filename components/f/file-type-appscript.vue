@@ -3,79 +3,79 @@ import { Icon } from '@iconify/css-vue';
 
 const props = defineProps(["width","height"]);
 
-const viewBox = {"width":512,"height":512};
-const content = `<rect class="h_vnju28d"/><circle class="n7jn0-www"/><rect transform="rotate(-144 239.832 304.447)" class="f-ryfab9x"/><circle class="b6cjfxbju"/><rect transform="rotate(72 307.032 255.396)" class="esmzz6hat"/><circle class="m78o3mgot"/><rect transform="rotate(-72 389.029 255.392)" class="btmnjfrxg"/><circle class="sstj0fbso"/><circle class="e5d7emcjv"/>`;
+const viewBox = {"width":32,"height":32};
+const content = `<rect class="hrcfc5buf"/><circle class="pns4aob3g"/><rect transform="rotate(-144 14.99 19.03)" class="e2iqol_wv"/><circle class="jnpicbbrp"/><rect transform="rotate(72 19.19 15.96)" class="b0x6sgbww"/><circle class="tqjot-qqb"/><rect transform="rotate(-72 24.31 15.96)" class="oqdql2w1s"/><circle class="ezb6a2b2f"/><circle class="yu5oottbd"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="vscode-icons:file-type-appscript" /></template>
 <style>
-.b6cjfxbju {
-  cx: 131.44px;
-  cy: 225.44px;
-  r: 26.7px;
-  fill: var(--svg-color--fff, #fff);
-}
-
-.btmnjfrxg {
-  width: 373px;
-  height: 107px;
-  x: 202.53px;
-  y: 201.9px;
-  fill: var(--svg-color--4285f4, #4285f4);
-  rx: 53.5px;
-}
-
-.e5d7emcjv {
-  cx: 430.67px;
-  cy: 127.89px;
-  r: 26.7px;
-  fill: var(--svg-color--fff, #fff);
-}
-
-.esmzz6hat {
-  width: 373px;
-  height: 107px;
-  x: 120.53px;
-  y: 201.9px;
+.b0x6sgbww {
+  width: 23.31px;
+  height: 6.69px;
+  x: 7.53px;
+  y: 12.62px;
   fill: var(--svg-color--34a853, #34a853);
-  rx: 53.5px;
+  rx: 3.34px;
 }
 
-.f-ryfab9x {
-  width: 373px;
-  height: 107px;
-  x: 53.33px;
-  y: 250.94px;
+.e2iqol_wv {
+  width: 23.31px;
+  height: 6.69px;
+  x: 3.33px;
+  y: 15.68px;
   fill: var(--svg-color--fbbc04, #fbbc04);
-  rx: 53.5px;
+  rx: 3.34px;
 }
 
-.h_vnju28d {
-  width: 373px;
-  height: 107px;
-  x: 27.53px;
-  y: 328.9px;
+.ezb6a2b2f {
+  cx: 21.76px;
+  cy: 23.85px;
+  r: 1.67px;
+  fill: var(--svg-color--fff, #fff);
+}
+
+.hrcfc5buf {
+  width: 23.31px;
+  height: 6.69px;
+  x: 1.72px;
+  y: 20.56px;
   fill: var(--svg-color--ea4335, #ea4335);
-  rx: 53.5px;
+  rx: 3.34px;
 }
 
-.m78o3mgot {
-  cx: 265.84px;
-  cy: 129.28px;
-  r: 26.7px;
+.jnpicbbrp {
+  cx: 8.22px;
+  cy: 14.09px;
+  r: 1.67px;
   fill: var(--svg-color--fff, #fff);
 }
 
-.n7jn0-www {
-  cx: 81.36px;
-  cy: 382.6px;
-  r: 26.7px;
+.oqdql2w1s {
+  width: 23.31px;
+  height: 6.69px;
+  x: 12.66px;
+  y: 12.62px;
+  fill: var(--svg-color--4285f4, #4285f4);
+  rx: 3.34px;
+}
+
+.pns4aob3g {
+  cx: 5.09px;
+  cy: 23.91px;
+  r: 1.67px;
   fill: var(--svg-color--fff, #fff);
 }
 
-.sstj0fbso {
-  cx: 348.22px;
-  cy: 381.64px;
-  r: 26.7px;
+.tqjot-qqb {
+  cx: 16.62px;
+  cy: 8.08px;
+  r: 1.67px;
+  fill: var(--svg-color--fff, #fff);
+}
+
+.yu5oottbd {
+  cx: 26.92px;
+  cy: 7.99px;
+  r: 1.67px;
   fill: var(--svg-color--fff, #fff);
 }
 

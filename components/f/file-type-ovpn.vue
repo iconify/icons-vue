@@ -3,19 +3,19 @@ import { Icon } from '@iconify/css-vue';
 
 const props = defineProps(["width","height"]);
 
-const viewBox = {"width":48,"height":48};
-const content = `<path class="qs6m8zbwg"/><path class="s71g82bvx"/>`;
+const viewBox = {"width":32,"height":32};
+const content = `<path class="d2f4n4b1p"/><path class="pi20xyb5u"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="vscode-icons:file-type-ovpn" /></template>
 <style>
-.qs6m8zbwg {
+.d2f4n4b1p {
   fill: var(--svg-color--ff9100, #ff9100);
-  d: path("M24 4C12.953 4 4 12.953 4 24c0 7.395 4.023 13.832 9.988 17.297l4.504-7.785C15.211 31.609 13 28.066 13 24c0-6.074 4.926-11 11-11s11 4.926 11 11c0 4.066-2.21 7.61-5.492 9.512l4.504 7.785C39.977 37.832 44 31.395 44 24c0-11.047-8.953-20-20-20");
+  d: path("M16 2a14 14 0 0 0-7 26.1l3.14-5.44A7.69 7.69 0 0 1 16 8.3a7.7 7.7 0 0 1 3.86 14.36L23 28.1A13.99 13.99 0 0 0 16 2");
 }
 
-.s71g82bvx {
+.pi20xyb5u {
   fill: var(--svg-color--1a237e, #1a237e);
-  d: path("M30 24c0-3.312-2.687-6-6-6c-3.312 0-6 2.688-6 6a6 6 0 0 0 3.852 5.598l-2.559 13.82A20 20 0 0 0 24 44c1.625 0 3.195-.215 4.707-.578l-2.559-13.824A6 6 0 0 0 30 24");
+  d: path("M20.2 16a4.2 4.2 0 1 0-5.7 3.92l-1.8 9.67a14 14 0 0 0 6.6 0l-1.8-9.67A4.2 4.2 0 0 0 20.2 16");
 }
 
 </style>

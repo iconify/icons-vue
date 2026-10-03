@@ -3,27 +3,22 @@ import { Icon } from '@iconify/css-vue';
 
 const props = defineProps(["width","height"]);
 
-const viewBox = {"width":150,"height":150};
-const content = `<g class="ft5dv1b6b"><defs><linearGradient id="SVGVsJwCeot" x1="219.28" x2="112.62" y1="236.67" y2="90.238" gradientTransform="translate(2.439 13.9)scale(.93116)" gradientUnits="userSpaceOnUse"><stop offset="0"/><stop offset="1" class="vc--wpv5i"/></linearGradient></defs><path class="go7ohacdc"/><path fill="url(#SVGVsJwCeot)" clip-rule="evenodd" class="xcd_p32nb"/></g>`;
+const viewBox = {"width":32,"height":32};
+const content = `<defs><linearGradient id="SVGlXKITdib" x1="44.08" x2="22.89" y1="49.98" y2="20.89" gradientUnits="userSpaceOnUse"><stop offset="0"/><stop offset="1" class="vc--wpv5i"/></linearGradient></defs><path class="tf-6btbdi"/><path fill="url(#SVGlXKITdib)" class="q4efucbmz"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="vscode-icons:folder-type-vercel" /></template>
 <style>
-.ft5dv1b6b {
-  fill: none;
+.q4efucbmz {
+  d: path("m22.01 14.09l8.38 14.9H13.63z");
 }
 
-.go7ohacdc {
+.tf-6btbdi {
   fill: var(--svg-color--52525b, #52525b);
-  d: path("M128.3 25.879H84.707l-9.844 19.688H20.02v78.75h118.12V25.879zm0 19.688H89.863l5.156-9.844H128.3z");
+  d: path("M27.37 5.52h-9.3l-2.1 4.2H4.27v16.8h25.2v-21zm0 4.2h-8.2l1.1-2.1h7.1z");
 }
 
 .vc--wpv5i {
   stop-color: var(--svg-color--fff, #fff);
-}
-
-.xcd_p32nb {
-  fill-rule: evenodd;
-  d: path("m103.18 66.045l39.283 69.837H63.896z");
 }
 
 </style>

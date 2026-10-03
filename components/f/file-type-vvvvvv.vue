@@ -4,13 +4,13 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":32,"height":32};
-const content = `<path class="idurqvbcb"/>`;
+const content = `<path class="y7t4b88lf"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="vscode-icons:file-type-vvvvvv" /></template>
 <style>
-.idurqvbcb {
+.y7t4b88lf {
   fill: var(--svg-color--51e7f4, #51e7f4);
-  d: path("M3.153 3.08v1.084H2v3.257h1.153v2.188H4.24v2.102h1.017V13.9l1.086-.017v2.137l1.127.014v2.106h.976v2.188h1.153l-.034 2.17h1.068l.034 2.087h1.035v2.204h1.153v1.103h1.051l.003 1.03h4.271V27.84h1.069v-1.07h1.136v-2.187h1.018V22.48h1.102v-2.17h1.136v-2.103h.984v-2.17h1.051v-2.172h1.086v-2.137h1.085v-2.17h1.086v-2.12H30v-3.24h-1.068V3.08h-3.223l.01.983h-1.061V5.25h-1.153v2.17h-1.052v2.172h-1.034v2.035h-1.103v2.238H19.3v2.103l-1.115.02v2.15h-1.056v2.24H14.89v-2.171h-1.017V15.9h-1.035v-2.035h-1v-2.17h-1.222V9.557h-.983V7.42H8.546V5.25H7.427V4.232H6.274V3.08z");
+  d: path("M3.15 3.08v1.08H2v3.26h1.15v2.19h1.09v2.1h1.02v2.19l1.08-.02v2.14l1.13.01v2.1h.97v2.2H9.6l-.04 2.17h1.07l.04 2.08h1.03v2.2h1.15v1.11h1.06v1.03h4.27v-1.08h1.07v-1.07h1.13v-2.19h1.02v-2.1h1.1v-2.17h1.14v-2.1h.98v-2.17h1.06v-2.17h1.08v-2.14h1.09V9.56h1.08V7.44H30V4.2h-1.07V3.08h-3.22v.98h-1.05v1.19H23.5v2.17h-1.05V9.6h-1.03v2.04h-1.1v2.24H19.3v2.1l-1.12.02v2.15h-1.05v2.24h-2.24V18.2h-1.02v-2.3h-1.03v-2.03h-1v-2.18h-1.22V9.56h-.99V7.42H8.55V5.25H7.43V4.23H6.27V3.08z");
 }
 
 </style>

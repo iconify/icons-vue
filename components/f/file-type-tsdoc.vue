@@ -3,24 +3,24 @@ import { Icon } from '@iconify/css-vue';
 
 const props = defineProps(["width","height"]);
 
-const viewBox = {"width":8.467,"height":8.467};
-const content = `<path class="ckddz7_qh"/><path class="a yj0xn5bsx"/>`;
+const viewBox = {"width":32,"height":32};
+const content = `<path class="wrcowbcuv"/><path class="a dz4dytb-q"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="vscode-icons:file-type-tsdoc" /></template>
 <style>
-.ckddz7_qh {
+.dz4dytb-q {
+  fill: var(--svg-color--108938, #108938);
+  d: path("M29.03 2H2.97a.97.97 0 0 0-.97.97v26.06a.97.97 0 0 0 .97.97h26.06a.97.97 0 0 0 .97-.97V2.97a.97.97 0 0 0-.97-.97M26.5 22.2l-1.43 2.47l-3.6-2.55l.4 4.38H18.9l.4-4.38l-3.6 2.55l-1.44-2.47l4.02-1.82l-4.02-1.83l1.45-2.47l3.59 2.55l-.4-4.38h2.99l-.42 4.38l3.6-2.55l1.44 2.47l-4 1.82z");
+}
+
+.wrcowbcuv {
   fill: var(--svg-color--fff, #fff);
   fill-rule: evenodd;
   stroke: var(--svg-color--fff, #fff);
   stroke-linecap: round;
   stroke-linejoin: bevel;
-  stroke-width: var(--svg-stroke-width--0-28px, 0.28px);
-  d: path("M3.865 3.873h3.027V6.9H3.865z");
-}
-
-.yj0xn5bsx {
-  fill: var(--svg-color--108938, #108938);
-  d: path("M7.68.53H.786A.257.257 0 0 0 .53.785V7.68a.257.257 0 0 0 .257.258H7.68a.257.257 0 0 0 .258-.258V.786A.257.257 0 0 0 7.68.53m-.669 5.345l-.378.652l-.954-.675l.11 1.16h-.792l.106-1.16l-.95.675l-.383-.652l1.064-.484l-1.064-.484l.383-.653l.95.675l-.106-1.159h.791l-.11 1.16l.955-.676l.378.653l-1.06.484z");
+  stroke-width: var(--svg-stroke-width--1-06px, 1.06px);
+  d: path("M14.61 14.64h11.44v11.44H14.61z");
 }
 
 </style>

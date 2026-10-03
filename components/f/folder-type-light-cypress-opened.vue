@@ -3,17 +3,26 @@ import { Icon } from '@iconify/css-vue';
 
 const props = defineProps(["width","height"]);
 
-const viewBox = {"width":500,"height":500};
-const content = `<defs><linearGradient id="SVGIvsZpeui" x2="1" y1="500.088" y2="500.088" gradientTransform="matrix(-45.12 188.295 188.295 45.12 -93712.597 -22304.936)" gradientUnits="userSpaceOnUse"><stop offset="0" class="cxqk8zbds"/><stop offset="1" class="l2k064n6d"/></linearGradient><linearGradient id="SVGVGVd6bfS" x2="1" y1="500.036" y2="500.036" gradientTransform="matrix(153.45 91.586 91.586 -153.45 -45608.455 77101.769)" gradientUnits="userSpaceOnUse"><stop offset="0" class="cxqk8zbds"/><stop offset="1"/></linearGradient></defs><path class="qh3zo5b9y"/><path class="xp_t88bbs"/><path class="oud57rkkt"/><path class="afexhcqto"/><path class="v99kihukf"/><path class="mpde6ubvh"/><path class="o5otz7bts"/><path fill="url(#SVGIvsZpeui)" class="x3x-yvb5g"/><path fill="url(#SVGVGVd6bfS)" class="uolg82rub"/>`;
+const viewBox = {"width":32,"height":32};
+const content = `<defs><linearGradient id="SVGpPWQtdkC" x2="1" y1="500.09" y2="500.09" gradientTransform="rotate(-76.52 -3903.8 3088.52)scale(-12.39205 12.39205)" gradientUnits="userSpaceOnUse"><stop offset="0" class="cxqk8zbds"/><stop offset="1" class="l2k064n6d"/></linearGradient><linearGradient id="SVGZY284dkX" x2="1" y1="500.04" y2="500.04" gradientTransform="rotate(210.83 -779.16 2869.68)scale(-11.437 11.437)" gradientUnits="userSpaceOnUse"><stop offset="0" class="cxqk8zbds"/><stop offset="1"/></linearGradient></defs><path class="lxjhd2k-k"/><path class="xqmmg7bvx"/><path class="mwxhz4b7f"/><path class="c5zi_322d"/><path class="jpxl1wcxj"/><path class="m9rilf75u"/><path fill="url(#SVGpPWQtdkC)" class="tzmuyntva"/><path fill="url(#SVGZY284dkX)" class="i7o1pw78g"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="vscode-icons:folder-type-light-cypress-opened" /></template>
 <style>
-.afexhcqto {
-  d: path("M396.672 263.031L367.328 336.7l-29.547-73.672h-24.187l41.453 100.563l-29.484 70.922l21.125 4.172l72.828-175.656h-22.844Z");
+.c5zi_322d {
+  d: path("M17.13 18.03c.79 0 1.43.41 1.75 1.14l.03.05l1.32-.44l-.03-.07a3.25 3.25 0 0 0-3.07-2q-1.45 0-2.41.95q-.98.95-.98 2.35t.98 2.35q.96.94 2.41.94c1.38 0 2.56-.76 3.07-2l.03-.06l-1.32-.45l-.03.06c-.3.71-.95 1.14-1.75 1.14a2 2 0 0 1-1.37-.56A2 2 0 0 1 15.2 20a2 2 0 0 1 .56-1.42a2 2 0 0 1 1.37-.56");
 }
 
 .cxqk8zbds {
   stop-color: var(--svg-color--58d09e, #58d09e);
+}
+
+.i7o1pw78g {
+  d: path("m21.1 27.12l-.32.8a.4.4 0 0 1-.39.27h-.33a8.4 8.4 0 0 1-8.16-6.45l-1.32.3a9.7 9.7 0 0 0 3.37 5.36a9.8 9.8 0 0 0 6.1 2.13h.41a1.8 1.8 0 0 0 1.57-1.1l.43-1.04Z");
+}
+
+.jpxl1wcxj {
+  fill: var(--svg-color--58d09e, #58d09e);
+  d: path("M10.7 22.54a10 10 0 0 1-.35-2.55c0-3.94 2.5-7.55 6.22-8.97l.49 1.25a8.3 8.3 0 0 0-5.35 7.72a8 8 0 0 0 .3 2.2z");
 }
 
 .l2k064n6d {
@@ -21,41 +30,27 @@ const content = `<defs><linearGradient id="SVGIvsZpeui" x2="1" y1="500.088" y2="
   stop-opacity: 0;
 }
 
-.mpde6ubvh {
-  fill: var(--svg-color--58d09e, #58d09e);
-  d: path("M167.172 352.188a149 149 0 0 1-5.391-39.828c0-61.641 39.031-118.016 97.141-140.25l7.625 19.562c-50.016 19.141-83.609 67.641-83.609 120.687a128.2 128.2 0 0 0 4.625 34.266z");
+.lxjhd2k-k {
+  fill: var(--svg-color--2c9a6a, #2c9a6a);
+  d: path("M29.5 5.5H18.2l-2.1 4.2H4.3v16.8h25.2Zm-2.1 18.7H6.6V11.8h20.8Zm0-14.5h-8.2l1-2.1h7.1v2.1zm-1.7 4H.5l3.8 12.8h25.2Z");
 }
 
-.o5otz7bts {
+.m9rilf75u {
   fill: var(--svg-color--58d09e, #58d09e);
-  d: path("M257.906 172.594a153.2 153.2 0 0 1 39.375-9.484c61.812-6.437 122.422 26.172 150.781 81.172l-18.813 9.562c-24.422-47.344-76.562-75.406-129.766-69.859a131 131 0 0 0-33.875 8.141l-7.7-19.531Z");
+  d: path("M16.5 11.05a10 10 0 0 1 2.53-.61a9.8 9.8 0 0 1 9.65 5.2l-1.2.6a8.4 8.4 0 0 0-8.31-4.46a8 8 0 0 0-2.17.52z");
 }
 
-.oud57rkkt {
+.mwxhz4b7f {
+  d: path("m25.39 16.83l-1.88 4.72l-1.9-4.72h-1.54l2.65 6.44l-1.88 4.54l1.35.27l4.66-11.25z");
+}
+
+.tzmuyntva {
+  d: path("M24.5 26.99a8.3 8.3 0 0 0 2.92-10.85l1.2-.62a9.6 9.6 0 0 1-3.4 12.6z");
+}
+
+.xqmmg7bvx {
   fill: var(--svg-color--fafafa, #fafafa);
-  d: path("M307.469 156.641c85.984-3.063 158.312 64.3 161.406 150.328a155.9 155.9 0 0 1-150.188 161.39c-85.984 3.062-158.312-64.3-161.406-150.328c-3.094-86.016 64.2-158.344 150.188-161.391Z");
-}
-
-.qh3zo5b9y {
-  fill: var(--svg-color--2c9a6a, #2c9a6a);
-  d: path("M460.938 85.938H284.375l-32.813 65.625H67.188v262.5h393.75Zm-32.813 292.187h-325v-193.75h325Zm0-226.562H300l15.625-32.812h110.938v32.812z");
-}
-
-.uolg82rub {
-  d: path("m329.812 423.828l-5.141 12.359a6.84 6.84 0 0 1-6 4.219c-1.734.062-3.484.109-5.266.109c-60.605-.031-114.233-42.406-127.514-100.815l-20.641 4.625a150.77 150.77 0 0 0 52.7 83.734a153.32 153.32 0 0 0 95.219 33.422h.313c2.031 0 4.047-.062 6.063-.125a28.06 28.06 0 0 0 24.7-17.2L350.969 428Z");
-}
-
-.v99kihukf {
-  d: path("M267.656 281.672c12.266 0 22.266 6.484 27.391 17.812l.406.875l20.609-6.938l-.453-1.047c-7.969-19.266-26.344-31.25-47.953-31.25c-15.188 0-27.531 4.844-37.734 14.75c-10.141 9.859-15.266 22.25-15.266 36.844c0 14.484 5.125 26.812 15.266 36.656c10.2 9.922 22.547 14.75 37.734 14.75c21.609 0 39.984-11.984 47.953-31.234l.453-1.047l-20.641-6.953l-.391.922c-4.594 11.125-14.828 17.766-27.375 17.766a28.93 28.93 0 0 1-21.469-8.8a30.4 30.4 0 0 1-8.7-22.047a30.86 30.86 0 0 1 8.7-22.234a28.87 28.87 0 0 1 21.47-8.825");
-}
-
-.x3x-yvb5g {
-  d: path("M382.734 421.672a129.45 129.45 0 0 0 45.75-169.516l18.734-9.687a150.205 150.205 0 0 1-53.125 196.891z");
-}
-
-.xp_t88bbs {
-  fill: var(--svg-color--2c9a6a, #2c9a6a);
-  d: path("M401.563 214.062H7.813l59.375 200h393.75Z");
+  d: path("M19.68 10.03a10 10 0 0 1 10.33 9.62a10 10 0 0 1-9.61 10.32a9.98 9.98 0 0 1-.73-19.95");
 }
 
 </style>

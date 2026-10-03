@@ -1,17 +1,21 @@
 # @iconify-vue/gcp
 
-Icon set prefix: **gcp**
+⚠️ This is an alternative repository. Main repository has moved to [GitLab](https://gitlab.com/iconify-icons/vue/-/tree/gcp).
+**Google Cloud Icons**
 
-Icon set name: **Google Cloud Icons**
+Author: Google Cloud
 
-Author: **Google Cloud**
+License: [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0)
 
-License: **[Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0)**
-
-Browse all icons: **[Preview Google Cloud Icons](https://icon-sets.iconify.design/gcp/)**
+Browse all icons: [preview Google Cloud Icons on Iconify](https://icon-sets.iconify.design/gcp/)
 
 ## Installation
 
+```bash
+npm install gitlab:iconify-icons/vue#gcp
+```
+
+or
 ```bash
 npm install github:iconify/icons-vue#gcp
 ```

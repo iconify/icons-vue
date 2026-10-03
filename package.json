@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/octicon",
   "type": "module",
-  "version": "1.0.25",
+  "version": "1.0.26",
   "homepage": "https://icon-sets.iconify.design/octicon/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -2705,6 +2705,14 @@
     "./rel-file-path-24": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/r/rel-file-path-24.vue"
+    },
+    "./release-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/release-16.vue"
+    },
+    "./release-24": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/release-24.vue"
     },
     "./reply": {
       "types": "./types/dd0bq22g.d.ts",

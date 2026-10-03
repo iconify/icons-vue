@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/thesvg",
   "type": "module",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "homepage": "https://icon-sets.iconify.design/thesvg/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -7226,6 +7226,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/l/letterboxd.vue"
     },
+    "./levelrail": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/levelrail.vue"
+    },
     "./levelsdotfyi": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/l/levelsdotfyi.vue"
@@ -7830,6 +7834,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/mastra.vue"
     },
+    "./mastra-legacy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mastra-legacy.vue"
+    },
     "./material-design": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/material-design.vue"
@@ -8129,6 +8137,10 @@
     "./mihoyo": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/mihoyo.vue"
+    },
+    "./mikemurphyai": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mikemurphyai.vue"
     },
     "./mikrotik": {
       "types": "./types/dd0bq22g.d.ts",

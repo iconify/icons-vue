@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/thesvg-color",
   "type": "module",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "homepage": "https://icon-sets.iconify.design/thesvg-color/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -9338,6 +9338,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/l/letterboxd.vue"
     },
+    "./levelrail": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/levelrail.vue"
+    },
     "./levelsdotfyi": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/l/levelsdotfyi.vue"
@@ -10082,9 +10086,17 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/mastodon.vue"
     },
-    "./mastra": {
+    "./mastra-dark": {
       "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/m/mastra.vue"
+      "default": "./components/m/mastra-dark.vue"
+    },
+    "./mastra-legacy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mastra-legacy.vue"
+    },
+    "./mastra-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mastra-light.vue"
     },
     "./material-design": {
       "types": "./types/dd0bq22g.d.ts",
@@ -10741,6 +10753,14 @@
     "./mihoyo": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/mihoyo.vue"
+    },
+    "./mikemurphyai-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mikemurphyai-dark.vue"
+    },
+    "./mikemurphyai-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mikemurphyai-light.vue"
     },
     "./mikrotik": {
       "types": "./types/dd0bq22g.d.ts",
@@ -17186,6 +17206,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/tinkercad.vue"
     },
+    "./tintas-vital": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tintas-vital.vue"
+    },
     "./tinygrad": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/tinygrad.vue"
@@ -19605,6 +19629,10 @@
     "./circleci": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/circleci.vue"
+    },
+    "./mastra": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mastra.vue"
     },
     "./*": "./*"
   },

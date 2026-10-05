@@ -4,10 +4,14 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="nrj6p8qat"><path clip-rule="evenodd" class="ujttvybtu"/><path class="qxb6e3bet"/></g>`;
+const content = `<g class="nrj6p8qat"><path clip-rule="evenodd" class="yjhxynbfp"/><path class="bn5-_6t5z"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:server-zap-fill" /></template>
 <style>
+.bn5-_6t5z {
+  d: path("M19 16L16 19L20 19L17 22");
+}
+
 .nrj6p8qat {
   fill: none;
   stroke: currentColor;
@@ -16,14 +20,10 @@ const content = `<g class="nrj6p8qat"><path clip-rule="evenodd" class="ujttvybtu
   stroke-width: var(--svg-stroke-width--2px, 2px);
 }
 
-.qxb6e3bet {
-  d: path("M20 16L17 19L21 19L18 22");
-}
-
-.ujttvybtu {
+.yjhxynbfp {
   fill: currentColor;
   fill-rule: evenodd;
-  d: path("M5 1L17 1C18.6569 1 20 2.3431 20 4L20 8C20 9.6569 18.6569 11 17 11L5 11C3.3431 11 2 9.6569 2 8L2 4C2 2.3431 3.3431 1 5 1ZM5 13L13 13C13.5523 13 14 13.4477 14 14L14 22C14 22.5523 13.5523 23 13 23L5 23C3.3431 23 2 21.6569 2 20L2 16C2 14.3431 3.3431 13 5 13ZM8 6C8 5.4477 7.5523 5 7 5C6.4477 5 6 5.4477 6 6C6 6.5523 6.4477 7 7 7C7.5523 7 8 6.5523 8 6ZM12 6C12 5.4477 11.5523 5 11 5C10.4477 5 10 5.4477 10 6C10 6.5523 10.4477 7 11 7C11.5523 7 12 6.5523 12 6ZM8 18C8 17.4477 7.5523 17 7 17C6.4477 17 6 17.4477 6 18C6 18.5523 6.4477 19 7 19C7.5523 19 8 18.5523 8 18ZM12 18C12 17.4477 11.5523 17 11 17C10.4477 17 10 17.4477 10 18C10 18.5523 10.4477 19 11 19C11.5523 19 12 18.5523 12 18Z");
+  d: path("M4 1L16 1C17.6569 1 19 2.3431 19 4L19 8C19 9.6569 17.6569 11 16 11L4 11C2.3431 11 1 9.6569 1 8L1 4C1 2.3431 2.3431 1 4 1ZM4 13L12 13C12.5523 13 13 13.4477 13 14L13 22C13 22.5523 12.5523 23 12 23L4 23C2.3431 23 1 21.6569 1 20L1 16C1 14.3431 2.3431 13 4 13ZM7 6C7 5.4477 6.5523 5 6 5C5.4477 5 5 5.4477 5 6C5 6.5523 5.4477 7 6 7C6.5523 7 7 6.5523 7 6ZM11 6C11 5.4477 10.5523 5 10 5C9.4477 5 9 5.4477 9 6C9 6.5523 9.4477 7 10 7C10.5523 7 11 6.5523 11 6ZM7 18C7 17.4477 6.5523 17 6 17C5.4477 17 5 17.4477 5 18C5 18.5523 5.4477 19 6 19C6.5523 19 7 18.5523 7 18ZM11 18C11 17.4477 10.5523 17 10 17C9.4477 17 9 17.4477 9 18C9 18.5523 9.4477 19 10 19C10.5523 19 11 18.5523 11 18Z");
   stroke: none;
 }
 

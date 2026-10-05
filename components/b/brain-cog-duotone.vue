@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="nrj6p8qat"><path class="b-32ldj2j"/><path class="u661lfbcr"/></g>`;
+const content = `<g class="nrj6p8qat"><path class="b-32ldj2j"/><path class="nhextlb0y"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:brain-cog-duotone" /></template>
 <style>
@@ -15,16 +15,16 @@ const content = `<g class="nrj6p8qat"><path class="b-32ldj2j"/><path class="u661
   stroke: none;
 }
 
+.nhextlb0y {
+  d: path("M14.5 11.625C14.5 13.0057 13.3807 14.125 12 14.125C10.6193 14.125 9.5 13.0057 9.5 11.625C9.5 10.2443 10.6193 9.125 12 9.125C13.3807 9.125 14.5 10.2443 14.5 11.625ZM15.1181 12.9166L15.4645 13.0601M13.2916 14.7431L13.4351 15.0895M10.7084 14.7431L10.5649 15.0895M8.8819 12.9166L8.5355 13.0601M8.8819 10.3334L8.5355 10.1899M10.7084 8.5069L10.5649 8.1605M13.2916 8.5069L13.4351 8.1605M15.1181 10.3334L15.4645 10.1899");
+}
+
 .nrj6p8qat {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-width: var(--svg-stroke-width--2px, 2px);
-}
-
-.u661lfbcr {
-  d: path("M14.875 11.625C14.875 13.2128 13.5878 14.5 12 14.5C10.4122 14.5 9.125 13.2128 9.125 11.625C9.125 10.0372 10.4122 8.75 12 8.75C13.5878 8.75 14.875 10.0372 14.875 11.625ZM15.4645 13.0601L15.58 13.1079M13.4351 15.0895L13.4829 15.205M10.5649 15.0895L10.5171 15.205M8.5355 13.0601L8.42 13.1079M8.5355 10.1899L8.42 10.1421M10.5649 8.1605L10.5171 8.045M13.4351 8.1605L13.4829 8.045M15.4645 10.1899L15.58 10.1421");
 }
 
 </style>

@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="gp_8x1bzb"><path class="ni7uz5z6i"/><path class="nuoa3usnr"/></g>`;
+const content = `<g class="gp_8x1bzb"><path class="z-34zuwfu"/><path class="s_7e9gbgc"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:user-zap-sharp-fill" /></template>
 <style>
@@ -15,14 +15,14 @@ const content = `<g class="gp_8x1bzb"><path class="ni7uz5z6i"/><path class="nuoa
   stroke-width: var(--svg-stroke-width--2px, 2px);
 }
 
-.ni7uz5z6i {
-  d: path("M20.2929 3.7071L17 7L21 7L17.7071 10.2929");
+.s_7e9gbgc {
+  fill: currentColor;
+  d: path("M9 3C11.0711 3 13 4.9289 13 7C13 9.0711 11.0711 11 9 11C6.9289 11 5 9.0711 5 7C5 4.9289 6.9289 3 9 3ZM8 13L10 13C13.7279 13 17 16.2721 17 20L17 21C17 21.5523 16.5523 22 16 22L2 22C1.4477 22 1 21.5523 1 21L1 20C1 16.2721 4.2721 13 8 13Z");
+  stroke: none;
 }
 
-.nuoa3usnr {
-  fill: currentColor;
-  d: path("M10 3C12.0711 3 14 4.9289 14 7C14 9.0711 12.0711 11 10 11C7.9289 11 6 9.0711 6 7C6 4.9289 7.9289 3 10 3ZM9 13L11 13C14.7279 13 18 16.2721 18 20L18 21C18 21.5523 17.5523 22 17 22L3 22C2.4477 22 2 21.5523 2 21L2 20C2 16.2721 5.2721 13 9 13Z");
-  stroke: none;
+.z-34zuwfu {
+  d: path("M19.2929 3.7071L16 7L20 7L16.7071 10.2929");
 }
 
 </style>

@@ -4,10 +4,14 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="nrj6p8qat"><path class="vevmidywk"/><path class="z7wypqgud"/></g>`;
+const content = `<g class="nrj6p8qat"><path class="s2crr3qqu"/><path class="m8ph3qbuj"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:cloud-upload-duotone" /></template>
 <style>
+.m8ph3qbuj {
+  d: path("M12 21L12 13M8 17L12 13L16 17");
+}
+
 .nrj6p8qat {
   fill: none;
   stroke: currentColor;
@@ -16,15 +20,9 @@ const content = `<g class="nrj6p8qat"><path class="vevmidywk"/><path class="z7wy
   stroke-width: var(--svg-stroke-width--2px, 2px);
 }
 
-.vevmidywk {
-  fill: currentColor;
-  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
-  d: path("M6 20L18 20C20.5784 20 22.734 18.0393 22.9776 15.4724C23.2212 12.9055 21.4729 10.5743 18.9405 10.0893C18.4833 6.6052 15.5139 4 12 4C8.4861 4 5.5167 6.6052 5.0595 10.0893C2.5271 10.5743 0.7788 12.9055 1.0224 15.4724C1.266 18.0393 3.4216 20 6 20Z");
-  stroke: none;
-}
-
-.z7wypqgud {
-  d: path("M12 14.75L12 10.25M9.75 12.5L12 10.25L14.25 12.5");
+.s2crr3qqu {
+  stroke-opacity: 0.4;
+  d: path("M4 16.4641C2.7624 15.7496 2 14.4291 2 13C2 10.7909 3.7909 9 6 9C6 5.6863 8.6863 3 12 3C15.3137 3 18 5.6863 18 9C20.2091 9 22 10.7909 22 13C22 14.4291 21.2376 15.7496 20 16.4641");
 }
 
 </style>

@@ -4,17 +4,17 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="x3lnmkg_e"/>`;
+const content = `<path class="kr6fqwbfx"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:home-zap" /></template>
 <style>
-.x3lnmkg_e {
+.kr6fqwbfx {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-width: var(--svg-stroke-width--2px, 2px);
-  d: path("M13 4.264C12.2804 3.8481 11.3605 3.9168 10.7072 4.4703L3.7072 10.4009C3.2586 10.7809 3 11.339 3 11.9268L3 20C3 21.1046 3.8954 22 5 22L19 22C20.1046 22 21 21.1046 21 20L21 12M9 22L9 15L15 15L15 22M20 2L17 5L21 5L18 8");
+  d: path("M12 4.264C11.2804 3.8481 10.3605 3.9168 9.7072 4.4703L2.7072 10.4009C2.2586 10.7809 2 11.339 2 11.9268L2 20C2 21.1046 2.8954 22 4 22L18 22C19.1046 22 20 21.1046 20 20L20 12M8 22L8 15L14 15L14 22M19 2L16 5L20 5L17 8");
 }
 
 </style>

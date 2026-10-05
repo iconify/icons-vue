@@ -4,14 +4,17 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path clip-rule="evenodd" class="lvo4csl-w"/>`;
+const content = `<path class="n1janil1g"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:cloud-upload-fill" /></template>
 <style>
-.lvo4csl-w {
-  fill: currentColor;
-  fill-rule: evenodd;
-  d: path("M6 20C3.2386 20 1 17.7614 1 15C1 12.6013 2.7036 10.5405 5.0595 10.0893C5.5167 6.6052 8.486 4 12 4C15.514 4 18.4833 6.6052 18.9405 10.0893C21.2964 10.5405 23 12.6013 23 15C23 17.7614 20.7614 20 18 20L6 20ZM13 12.6642L13.5429 13.2071C13.7304 13.3946 13.9848 13.5 14.25 13.5C14.8023 13.5 15.25 13.0523 15.25 12.5C15.25 12.2348 15.1446 11.9804 14.9571 11.7929L12.7071 9.5429C12.5196 9.3554 12.2652 9.25 12 9.25C11.7348 9.25 11.4804 9.3554 11.2929 9.5429L9.0429 11.7929C8.8554 11.9804 8.75 12.2348 8.75 12.5C8.75 13.0523 9.1977 13.5 9.75 13.5C10.0152 13.5 10.2696 13.3946 10.4571 13.2071L11 12.6642L11 14.75C11 15.3023 11.4477 15.75 12 15.75C12.5523 15.75 13 15.3023 13 14.75L13 12.6642Z");
+.n1janil1g {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M12 21L12 13M8 17L12 13L16 17M4 16.4641C2.7624 15.7496 2 14.4291 2 13C2 10.7909 3.7909 9 6 9C6 5.6863 8.6863 3 12 3C15.3137 3 18 5.6863 18 9C20.2091 9 22 10.7909 22 13C22 14.4291 21.2376 15.7496 20 16.4641");
 }
 
 </style>

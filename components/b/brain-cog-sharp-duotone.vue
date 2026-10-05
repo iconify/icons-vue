@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="gp_8x1bzb"><path class="b-32ldj2j"/><path class="mmpra8jtg"/></g>`;
+const content = `<g class="gp_8x1bzb"><path class="b-32ldj2j"/><path class="ij72wldpb"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:brain-cog-sharp-duotone" /></template>
 <style>
@@ -22,8 +22,8 @@ const content = `<g class="gp_8x1bzb"><path class="b-32ldj2j"/><path class="mmpr
   stroke-width: var(--svg-stroke-width--2px, 2px);
 }
 
-.mmpra8jtg {
-  d: path("M14.875 11.625C14.875 13.2128 13.5878 14.5 12 14.5C10.4122 14.5 9.125 13.2128 9.125 11.625C9.125 10.0372 10.4122 8.75 12 8.75C13.5878 8.75 14.875 10.0372 14.875 11.625ZM15.4645 13.0601L16.1973 13.3636M13.4351 15.0895L13.7386 15.8223M10.5649 15.0895L10.2614 15.8223M8.5355 13.0601L7.8027 13.3636M8.5355 10.1899L7.8027 9.8864M10.5649 8.1605L10.2614 7.4277M13.4351 8.1605L13.7386 7.4277M15.4645 10.1899L16.1973 9.8864");
+.ij72wldpb {
+  d: path("M14.5 11.625C14.5 13.0057 13.3807 14.125 12 14.125C10.6193 14.125 9.5 13.0057 9.5 11.625C9.5 10.2443 10.6193 9.125 12 9.125C13.3807 9.125 14.5 10.2443 14.5 11.625ZM14.5314 12.6736L16.3884 13.4427M13.0486 14.1564L13.8177 16.0134M10.9514 14.1564L10.1823 16.0134M9.4686 12.6736L7.6116 13.4427M9.4686 10.5764L7.6116 9.8073M10.9514 9.0936L10.1823 7.2366M13.0486 9.0936L13.8177 7.2366M14.5314 10.5764L16.3884 9.8073");
 }
 
 </style>

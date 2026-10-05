@@ -4,12 +4,15 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="nrj6p8qat"><path class="wtkn5k6he"/><path class="jq06h-6vm"/></g>`;
+const content = `<g class="nrj6p8qat"><path class="cj7-b7bdm"/><path class="r8-f8j5rp"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:home-zap-duotone" /></template>
 <style>
-.jq06h-6vm {
-  d: path("M9 22L9 15L15 15L15 22M20 2L17 5L21 5L18 8");
+.cj7-b7bdm {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M21 12L21 20C20.9999 21.6568 19.6568 23 18 23L4 23C2.34318 23 1.00011 21.6568 1 20L1 11.9268C1.00002 11.0452 1.38775 10.20775 2.06055 9.63773L9.0605 3.70707C10.0406 2.8767 11.4213 2.7737 12.5008 3.398C12.8099 3.5767 13 3.907 13 4.264L13 8C13 9.6569 14.3431 11 16 11L20 11C20.5523 11 21 11.4477 21 12Z");
+  stroke: none;
 }
 
 .nrj6p8qat {
@@ -20,11 +23,8 @@ const content = `<g class="nrj6p8qat"><path class="wtkn5k6he"/><path class="jq06
   stroke-width: var(--svg-stroke-width--2px, 2px);
 }
 
-.wtkn5k6he {
-  fill: currentColor;
-  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
-  d: path("M22 12L22 20C21.9999 21.6568 20.6568 23 19 23L5 23C3.34318 23 2.00011 21.6568 2 20L2 11.9268C2.00002 11.0452 2.38775 10.20775 3.06055 9.63773L10.0605 3.70707C11.0406 2.8767 12.4213 2.7737 13.5008 3.398C13.8099 3.5767 14 3.907 14 4.264L14 8C14 9.6569 15.3431 11 17 11L21 11C21.5523 11 22 11.4477 22 12Z");
-  stroke: none;
+.r8-f8j5rp {
+  d: path("M8 22L8 15L14 15L14 22M19 2L16 5L20 5L17 8");
 }
 
 </style>

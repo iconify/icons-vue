@@ -1,0 +1,30 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="nrj6p8qat"><path class="szw6asbgq"/><path class="ei8u74baq"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:houses-two-tone" /></template>
+<style>
+.ei8u74baq {
+  d: path("M6 14.1566L12.7072 8.474C13.4532 7.842 14.5468 7.842 15.2928 8.474L22 14.1566M8 12.4621L8 19C8 20.1046 8.8954 21 10 21L18 21C19.1046 21 20 20.1046 20 19L20 12.4621M2 6.6149L5.7072 3.474C6.4532 2.842 7.5468 2.842 8.2928 3.474L10.363 5.2279M4 4.9204L4 10.6085M12 21L12 18C12 16.8954 12.8954 16 14 16C15.1046 16 16 16.8954 16 18L16 21");
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.szw6asbgq {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M12.0604 7.71096C13.1794 6.76305 14.8203 6.76298 15.9393 7.71096L22.6463 13.3936C23.0676 13.7506 23.1194 14.3814 22.7625 14.8028C22.4056 15.2241 21.7747 15.2768 21.3534 14.9199L20.9998 14.6201V19C20.9997 20.6568 19.6567 22 17.9998 22H9.99985C8.34303 22 6.99995 20.6568 6.99985 19V14.6201L6.64633 14.9199C6.22496 15.2768 5.59413 15.2241 5.23715 14.8028C4.88017 14.3814 4.93199 13.7506 5.35336 13.3936L12.0604 7.71096Z");
+  stroke: none;
+}
+
+</style>

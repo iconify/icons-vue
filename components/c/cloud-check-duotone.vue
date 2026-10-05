@@ -4,12 +4,17 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="nrj6p8qat"><path class="vevmidywk"/><path class="aga57cfsd"/></g>`;
+const content = `<g class="nrj6p8qat"><path class="dorv6lczq"/><path class="jp51aoejp"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:cloud-check-duotone" /></template>
 <style>
-.aga57cfsd {
-  d: path("M10.1 12.88L11.5778 14.4L13.9 10.6");
+.dorv6lczq {
+  stroke-opacity: 0.4;
+  d: path("M5 16.874C3.2748 16.4299 2 14.8638 2 13C2 10.7909 3.7909 9 6 9C6 5.6863 8.6863 3 12 3C15.3137 3 18 5.6863 18 9C20.2091 9 22 10.7909 22 13C22 14.8638 20.7252 16.4299 19 16.874");
+}
+
+.jp51aoejp {
+  d: path("M9 19L11 21L15 17");
 }
 
 .nrj6p8qat {
@@ -18,13 +23,6 @@ const content = `<g class="nrj6p8qat"><path class="vevmidywk"/><path class="aga5
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-width: var(--svg-stroke-width--2px, 2px);
-}
-
-.vevmidywk {
-  fill: currentColor;
-  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
-  d: path("M6 20L18 20C20.5784 20 22.734 18.0393 22.9776 15.4724C23.2212 12.9055 21.4729 10.5743 18.9405 10.0893C18.4833 6.6052 15.5139 4 12 4C8.4861 4 5.5167 6.6052 5.0595 10.0893C2.5271 10.5743 0.7788 12.9055 1.0224 15.4724C1.266 18.0393 3.4216 20 6 20Z");
-  stroke: none;
 }
 
 </style>

@@ -4,14 +4,17 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path clip-rule="evenodd" class="q96z7vg-e"/>`;
+const content = `<path class="mo6ci6rib"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:cloud-check-fill" /></template>
 <style>
-.q96z7vg-e {
-  fill: currentColor;
-  fill-rule: evenodd;
-  d: path("M6 20L18 20C20.5784 20 22.734 18.0393 22.9776 15.4724C23.2212 12.9055 21.4729 10.5743 18.9405 10.0893C18.4833 6.6052 15.5139 4 12 4C8.4861 4 5.5167 6.6052 5.0595 10.0893C2.5271 10.5743 0.7788 12.9055 1.0224 15.4724C1.266 18.0393 3.4216 20 6 20ZM9.383 13.5771L10.8608 15.0971C11.0491 15.2907 11.3077 15.4 11.5778 15.4C11.9262 15.4 12.2495 15.2187 12.4311 14.9214L14.7533 11.1214C14.8492 10.9644 14.9 10.784 14.9 10.6C14.9 10.0477 14.4523 9.6 13.9 9.6C13.5516 9.6 13.2284 9.7813 13.0467 10.0786L11.3965 12.779L10.817 12.1829C10.6287 11.9893 10.3701 11.88 10.1 11.88C9.5477 11.88 9.1 12.3277 9.1 12.88C9.1 13.1403 9.2015 13.3904 9.383 13.5771Z");
+.mo6ci6rib {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M9 19L11 21L15 17M5 16.874C3.2748 16.4299 2 14.8638 2 13C2 10.7909 3.7909 9 6 9C6 5.6863 8.6863 3 12 3C15.3137 3 18 5.6863 18 9C20.2091 9 22 10.7909 22 13C22 14.8638 20.7252 16.4299 19 16.874");
 }
 
 </style>

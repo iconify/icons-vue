@@ -4,13 +4,13 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="nrj6p8qat"><path class="amby9nb0n"/><path class="sdhiht33b"/></g>`;
+const content = `<g class="nrj6p8qat"><path class="dorv6lczq"/><path class="zc_o5cbcp"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:cloud-terminal-duotone" /></template>
 <style>
-.amby9nb0n {
+.dorv6lczq {
   stroke-opacity: 0.4;
-  d: path("M22 15C22 12.7909 20.2091 11 18 11C18 7.6863 15.3137 5 12 5C8.6863 5 6 7.6863 6 11C3.7909 11 2 12.7909 2 15C2 17.2091 3.7909 19 6 19H9");
+  d: path("M5 16.874C3.2748 16.4299 2 14.8638 2 13C2 10.7909 3.7909 9 6 9C6 5.6863 8.6863 3 12 3C15.3137 3 18 5.6863 18 9C20.2091 9 22 10.7909 22 13C22 14.8638 20.7252 16.4299 19 16.874");
 }
 
 .nrj6p8qat {
@@ -21,8 +21,8 @@ const content = `<g class="nrj6p8qat"><path class="amby9nb0n"/><path class="sdhi
   stroke-width: var(--svg-stroke-width--2px, 2px);
 }
 
-.sdhiht33b {
-  d: path("M13 12L16.0571 14.6204C16.2899 14.8199 16.2899 15.1801 16.0571 15.3796L13 18M21 19H18");
+.zc_o5cbcp {
+  d: path("M9 14L12.0571 16.6204C12.2899 16.8199 12.2899 17.1801 12.0571 17.3796L9 20M14 21L17 21");
 }
 
 </style>

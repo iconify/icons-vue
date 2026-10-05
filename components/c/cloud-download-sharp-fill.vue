@@ -4,14 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path clip-rule="evenodd" class="u3mr2_89x"/>`;
+const content = `<path class="avt76b4tr"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:cloud-download-sharp-fill" /></template>
 <style>
-.u3mr2_89x {
-  fill: currentColor;
-  fill-rule: evenodd;
-  d: path("M6 20C3.3767 20 1 17.6233 1 15C1 12.6937 2.837 10.578 5.0635 10.1004C5.5356 6.7612 8.5755 4 12 4C15.4245 4 18.4644 6.7612 18.9365 10.1004C21.163 10.578 23 12.6937 23 15C23 17.6233 20.6233 20 18 20L6 20ZM11 12.3358L10.1642 11.5L8.75 12.9142L11.2929 15.4571C11.4804 15.6446 11.7348 15.75 12 15.75C12.2652 15.75 12.5196 15.6446 12.7071 15.4571L15.25 12.9142L13.8358 11.5L13 12.3358L13 9.25L11 9.25L11 12.3358Z");
+.avt76b4tr {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M12 12L12 13L12 21M7.7071 16.7071L8 17L12 21L16 17L16.2929 16.7071M4.5 16.7528L4 16.4641C2.7624 15.7496 2 14.4291 2 13C2 10.7909 3.7909 9 6 9C6 5.6863 8.6863 3 12 3C15.3137 3 18 5.6863 18 9C20.2091 9 22 10.7909 22 13C22 14.4291 21.2376 15.7496 20 16.4641L19.5 16.7528");
 }
 
 </style>

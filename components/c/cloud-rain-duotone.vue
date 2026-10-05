@@ -4,19 +4,12 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="nrj6p8qat"><path class="n_hti76ob"/><path class="j9tli0b-m"/></g>`;
+const content = `<g class="nrj6p8qat"><path class="s2crr3qqu"/><path class="ildalrbrh"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:cloud-rain-duotone" /></template>
 <style>
-.j9tli0b-m {
-  d: path("M8 20L8 22M12 20L12 22M16 20L16 22");
-}
-
-.n_hti76ob {
-  fill: currentColor;
-  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
-  d: path("M6 17L18 17C20.5784 17 22.734 15.0393 22.9776 12.4724C23.2212 9.9055 21.4729 7.5743 18.9405 7.0893C18.4833 3.6052 15.5139 1 12 1C8.4861 1 5.5167 3.6052 5.0595 7.0893C2.5271 7.5743 0.7788 9.9055 1.0224 12.4724C1.266 15.0393 3.4216 17 6 17Z");
-  stroke: none;
+.ildalrbrh {
+  d: path("M8 17L8 21M12 17L12 21M16 17L16 21");
 }
 
 .nrj6p8qat {
@@ -25,6 +18,11 @@ const content = `<g class="nrj6p8qat"><path class="n_hti76ob"/><path class="j9tl
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.s2crr3qqu {
+  stroke-opacity: 0.4;
+  d: path("M4 16.4641C2.7624 15.7496 2 14.4291 2 13C2 10.7909 3.7909 9 6 9C6 5.6863 8.6863 3 12 3C15.3137 3 18 5.6863 18 9C20.2091 9 22 10.7909 22 13C22 14.4291 21.2376 15.7496 20 16.4641");
 }
 
 </style>

@@ -1,0 +1,30 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="nrj6p8qat"><path class="nzbv82m7s"/><path class="qkvmedcoz"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:sunglasses-duotone" /></template>
+<style>
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.nzbv82m7s {
+  fill: currentColor;
+  d: path("M9.45215 12C10.8449 12 11.8116 13.3882 11.3281 14.6943L9.8457 18.6943C9.55514 19.4788 8.80736 20 7.9707 20H4C2.34312 20 1 18.6569 1 17V14C1 12.8954 1.89542 12 3 12H9.45215ZM21 12C22.1045 12 23 12.8954 23 14V17C23 18.6569 21.6568 20 20 20H16.0293C15.1928 19.9998 14.4448 19.4787 14.1543 18.6943L12.6719 14.6943C12.1885 13.3883 13.1554 12.0003 14.5479 12H21Z");
+  stroke: none;
+}
+
+.qkvmedcoz {
+  stroke-opacity: 0.4;
+  d: path("M2 13.5L4.2924 7.6512C4.7424 6.601 5.6202 5.7933 6.7041 5.432L8 5M22 13.5L19.7076 7.6512C19.2576 6.601 18.3798 5.7933 17.2959 5.432L16 5M14.2127 15.9743C13.1111 15 10.8889 15 9.7873 15.9743");
+}
+
+</style>

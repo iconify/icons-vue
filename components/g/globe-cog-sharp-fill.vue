@@ -1,0 +1,29 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="gp_8x1bzb"><path clip-rule="evenodd" class="onrpf0bjd"/><path class="x7d_bfsij"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:globe-cog-sharp-fill" /></template>
+<style>
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.onrpf0bjd {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M12 1C17.3216 1 21.76 4.77905 22.7793 9.7998C22.7923 9.86422 22.7998 9.93174 22.7998 10C22.7998 10.5523 22.352 11 21.7998 11H16.9658C16.7774 8.2182 15.8027 5.4794 14.0645 3H9.93555C8.19735 5.4793 7.22258 8.2182 7.03418 11H3V13H7.03418C7.22258 15.7818 8.19735 18.5207 9.93555 21H11V21.7998C11 22.352 10.5523 22.7998 10 22.7998C9.93174 22.7998 9.8652 22.7923 9.80078 22.7793C4.78003 21.76 1 17.3216 1 12C1 5.9249 5.9249 1 12 1ZM12 3.57129C13.7801 5.88229 14.7568 8.4349 14.958 11H9.04199C9.24319 8.4349 10.2199 5.88229 12 3.57129Z");
+  stroke: none;
+}
+
+.x7d_bfsij {
+  d: path("M20.6667 18C20.6667 19.4728 19.4728 20.6667 18 20.6667C16.5272 20.6667 15.3333 19.4728 15.3333 18C15.3333 16.5272 16.5272 15.3333 18 15.3333C19.4728 15.3333 20.6667 16.5272 20.6667 18ZM20.99 18L23 18M20.1142 20.1142L21.5355 21.5355M18 20.99L18 23M15.8858 20.1142L14.4645 21.5355M15.01 18L13 18M15.8858 15.8858L14.4645 14.4645M18 15.01L18 13M20.1142 15.8858L21.5355 14.4645");
+}
+
+</style>

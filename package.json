@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/simple-icons",
   "type": "module",
-  "version": "1.0.48",
+  "version": "1.0.49",
   "homepage": "https://icon-sets.iconify.design/simple-icons/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "CC0-1.0",
@@ -12521,6 +12521,10 @@
     "./sumologic": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/sumologic.vue"
+    },
+    "./sumup": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sumup.vue"
     },
     "./suno": {
       "types": "./types/dd0bq22g.d.ts",

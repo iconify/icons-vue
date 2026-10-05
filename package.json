@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/vscode-icons",
   "type": "module",
-  "version": "1.0.58",
+  "version": "1.0.59",
   "homepage": "https://icon-sets.iconify.design/vscode-icons/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -477,6 +477,10 @@
     "./file-type-cddl": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-cddl.vue"
+    },
+    "./file-type-cdp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-type-cdp.vue"
     },
     "./file-type-cert": {
       "types": "./types/dd0bq22g.d.ts",
@@ -2554,6 +2558,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-light-yaml-official.vue"
     },
+    "./file-type-light-zed": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-type-light-zed.vue"
+    },
     "./file-type-light-zeit": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-light-zeit.vue"
@@ -4362,6 +4370,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-taskfile.vue"
     },
+    "./file-type-tasks-json": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-type-tasks-json.vue"
+    },
     "./file-type-tauri": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-tauri.vue"
@@ -4925,6 +4937,10 @@
     "./file-type-yeoman": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-yeoman.vue"
+    },
+    "./file-type-zed": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-type-zed.vue"
     },
     "./file-type-zeit": {
       "types": "./types/dd0bq22g.d.ts",
@@ -5697,6 +5713,14 @@
     "./folder-type-junie-opened": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/folder-type-junie-opened.vue"
+    },
+    "./folder-type-kadence": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-type-kadence.vue"
+    },
+    "./folder-type-kadence-opened": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-type-kadence-opened.vue"
     },
     "./folder-type-kiro": {
       "types": "./types/dd0bq22g.d.ts",

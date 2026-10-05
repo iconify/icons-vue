@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":32,"height":32};
+const content = `<path clip-rule="evenodd" class="nevs4_bvs"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="vscode-icons:file-type-light-zed" /></template>
+<style>
+.nevs4_bvs {
+  fill-rule: evenodd;
+  d: path("M3.81 2.87a.94.94 0 0 0-.938.938v20.6h-1.87v-20.6c0-1.55 1.26-2.81 2.81-2.81h25.1c1.25 0 1.88 1.51.994 2.4l-15.5 15.5h4.36v-1.93h1.88v2.4a1.41 1.41 0 0 1-1.41 1.41h-6.7l-3.22 3.22h14.6v-11.7h1.88v11.7a1.88 1.88 0 0 1-1.88 1.88h-16.5l-3.28 3.28h24a.94.94 0 0 0 .938-.938V7.62h1.88v20.6c0 1.55-1.26 2.81-2.81 2.81h-25.1a1.41 1.41 0 0 1-.994-2.4l15.4-15.4h-4.3v1.88h-1.88v-2.35c0-.776.63-1.41 1.41-1.41h6.64l3.28-3.28H8v11.7H6.12V8.07A1.88 1.88 0 0 1 8 6.2h16.5l3.28-3.28z");
+}
+
+</style>

@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":32,"height":32};
-const content = `<defs><linearGradient id="SVGQhkaNd4B" x1="-2.609" x2="29.477" y1="-408.223" y2="-376.28" gradientTransform="matrix(1 0 0 -1 0 -374)" gradientUnits="userSpaceOnUse"><stop offset=".005" class="mtv8q3bhx"/><stop offset="1" class="u7zx52b-e"/></linearGradient></defs><path fill="url(#SVGQhkaNd4B)" class="uehgc6b2d"/>`;
+const content = `<defs><linearGradient id="SVG0of9Yc2C" x1="-2.61" x2="29.5" y1="-408" y2="-376" gradientTransform="matrix(1 0 0 -1 0 -374)" gradientUnits="userSpaceOnUse"><stop offset=".005" class="mtv8q3bhx"/><stop offset="1" class="u7zx52b-e"/></linearGradient></defs><path fill="url(#SVG0of9Yc2C)" class="uehgc6b2d"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="vscode-icons:file-type-lerna" /></template>
 <style>

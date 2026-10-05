@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/material-icon-theme",
   "type": "module",
-  "version": "1.0.46",
+  "version": "1.0.47",
   "homepage": "https://icon-sets.iconify.design/material-icon-theme/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -3525,6 +3525,10 @@
     "./next-light": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/n/next-light.vue"
+    },
+    "./nextflow": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nextflow.vue"
     },
     "./nginx": {
       "types": "./types/dd0bq22g.d.ts",

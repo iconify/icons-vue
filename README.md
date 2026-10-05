@@ -1,5 +1,6 @@
 # @iconify-vue/material-icon-theme
 
+⚠️ This is an alternative repository. Main repository has moved to [GitLab](https://gitlab.com/iconify-icons/vue/-/tree/material-icon-theme).
 **Material Icon Theme**
 
 Author: [Material Extensions](https://github.com/material-extensions/vscode-material-icon-theme)
@@ -10,6 +11,11 @@ Browse all icons: [preview Material Icon Theme on Iconify](https://icon-sets.ico
 
 ## Installation
 
+```bash
+npm install gitlab:iconify-icons/vue#material-icon-theme
+```
+
+or
 ```bash
 npm install github:iconify/icons-vue#material-icon-theme
 ```

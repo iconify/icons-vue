@@ -5,6 +5,6 @@ import '../../css/j/jqaeko2xa.css';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path vector-effect="non-scaling-stroke" class="jqaeko2xa"/>`;
+const content = `<path class="jqaeko2xa"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="wordpress:image" /></template>

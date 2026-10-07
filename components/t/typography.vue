@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/g/g9eak0b-j.css';
+import '../../css/f/fhkfurbdb.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path vector-effect="non-scaling-stroke" class="g9eak0b-j"/>`;
+const content = `<path class="fhkfurbdb"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="wordpress:typography" /></template>

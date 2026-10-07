@@ -5,6 +5,6 @@ import '../../css/h/hsa251h8u.css';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path vector-effect="non-scaling-stroke" class="hsa251h8u"/>`;
+const content = `<path class="hsa251h8u"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="wordpress:star-filled" /></template>

@@ -5,6 +5,6 @@ import '../../css/r/radmakb_s.css';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path vector-effect="non-scaling-stroke" class="radmakb_s"/>`;
+const content = `<path class="radmakb_s"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="wordpress:trash" /></template>

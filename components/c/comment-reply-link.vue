@@ -5,6 +5,6 @@ import '../../css/u/u08k002sz.css';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path vector-effect="non-scaling-stroke" class="u08k002sz"/>`;
+const content = `<path class="u08k002sz"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="wordpress:comment-reply-link" /></template>

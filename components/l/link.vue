@@ -5,6 +5,6 @@ import '../../css/s/scobjcdys.css';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path vector-effect="non-scaling-stroke" class="scobjcdys"/>`;
+const content = `<path class="scobjcdys"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="wordpress:link" /></template>

@@ -5,6 +5,6 @@ import '../../css/x/xkxeucbkl.css';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path vector-effect="non-scaling-stroke" class="xkxeucbkl"/>`;
+const content = `<path class="xkxeucbkl"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="wordpress:align-right" /></template>

@@ -5,6 +5,6 @@ import '../../css/n/n7a3r-bxq.css';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path vector-effect="non-scaling-stroke" class="n7a3r-bxq"/>`;
+const content = `<path class="n7a3r-bxq"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="wordpress:close" /></template>

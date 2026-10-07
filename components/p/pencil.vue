@@ -7,6 +7,6 @@ import '../../css/b/bbwsckbod.css';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="jx0p4fbya"><path vector-effect="non-scaling-stroke" class="ykp8htwkq"/><path vector-effect="non-scaling-stroke" class="bbwsckbod"/></g>`;
+const content = `<g class="jx0p4fbya"><path class="ykp8htwkq"/><path class="bbwsckbod"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="wordpress:pencil" /></template>

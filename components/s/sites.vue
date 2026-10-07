@@ -8,6 +8,6 @@ import '../../css/g/gzmbm5zua.css';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="jx0p4fbya"><rect vector-effect="non-scaling-stroke" class="i0xak7bzd"/><rect vector-effect="non-scaling-stroke" class="vqpagmb7q"/><rect vector-effect="non-scaling-stroke" class="gzmbm5zua"/></g>`;
+const content = `<g class="jx0p4fbya"><rect class="i0xak7bzd"/><rect class="vqpagmb7q"/><rect class="gzmbm5zua"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="wordpress:sites" /></template>

@@ -5,6 +5,6 @@ import '../../css/g/g2eosnqul.css';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path vector-effect="non-scaling-stroke" class="g2eosnqul"/>`;
+const content = `<path class="g2eosnqul"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="wordpress:columns" /></template>

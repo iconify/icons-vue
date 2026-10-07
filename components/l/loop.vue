@@ -5,6 +5,6 @@ import '../../css/p/pse_y4bkh.css';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path vector-effect="non-scaling-stroke" class="pse_y4bkh"/>`;
+const content = `<path class="pse_y4bkh"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="wordpress:loop" /></template>

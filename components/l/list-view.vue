@@ -5,6 +5,6 @@ import '../../css/y/yjovj6b4u.css';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path vector-effect="non-scaling-stroke" class="yjovj6b4u"/>`;
+const content = `<path class="yjovj6b4u"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="wordpress:list-view" /></template>

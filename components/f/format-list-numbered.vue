@@ -8,6 +8,6 @@ import '../../css/y/yxph-hmed.css';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="jx0p4fbya"><path vector-effect="non-scaling-stroke" class="hjk15qw-b"/><path vector-effect="non-scaling-stroke" class="rbyek3b2v"/><path vector-effect="non-scaling-stroke" class="yxph-hmed"/></g>`;
+const content = `<g class="jx0p4fbya"><path class="hjk15qw-b"/><path class="rbyek3b2v"/><path class="yxph-hmed"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="wordpress:format-list-numbered" /></template>

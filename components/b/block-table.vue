@@ -5,6 +5,6 @@ import '../../css/l/li1kmjboc.css';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path vector-effect="non-scaling-stroke" class="li1kmjboc"/>`;
+const content = `<path class="li1kmjboc"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="wordpress:block-table" /></template>

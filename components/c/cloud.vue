@@ -5,6 +5,6 @@ import '../../css/o/o-r2npokm.css';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path vector-effect="non-scaling-stroke" class="o-r2npokm"/>`;
+const content = `<path class="o-r2npokm"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="wordpress:cloud" /></template>

@@ -5,6 +5,6 @@ import '../../css/s/s-zhgxbbp.css';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path vector-effect="non-scaling-stroke" class="s-zhgxbbp"/>`;
+const content = `<path class="s-zhgxbbp"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="wordpress:table-column-after" /></template>

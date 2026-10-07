@@ -5,6 +5,6 @@ import '../../css/i/ipjzysbby.css';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path vector-effect="non-scaling-stroke" class="ipjzysbby"/>`;
+const content = `<path class="ipjzysbby"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="wordpress:chevron-left-small" /></template>

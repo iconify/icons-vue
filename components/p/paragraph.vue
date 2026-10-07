@@ -7,6 +7,6 @@ import '../../css/w/w6hh6lbvv.css';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="jx0p4fbya"><path vector-effect="non-scaling-stroke" class="bfgwr1ypm"/><path vector-effect="non-scaling-stroke" class="w6hh6lbvv"/></g>`;
+const content = `<g class="jx0p4fbya"><path class="bfgwr1ypm"/><path class="w6hh6lbvv"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="wordpress:paragraph" /></template>

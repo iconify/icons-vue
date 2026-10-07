@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/lucide",
   "type": "module",
-  "version": "1.0.74",
+  "version": "1.0.75",
   "homepage": "https://icon-sets.iconify.design/lucide/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "ISC",
@@ -3458,6 +3458,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/grip-vertical.vue"
     },
+    "./groceries": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/groceries.vue"
+    },
     "./group": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/group.vue"
@@ -3641,6 +3645,10 @@
     "./highlighter": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/highlighter.vue"
+    },
+    "./hiking-stick": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hiking-stick.vue"
     },
     "./hop": {
       "types": "./types/dd0bq22g.d.ts",
@@ -5825,6 +5833,10 @@
     "./scooter": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/scooter.vue"
+    },
+    "./scratch-blocks": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/scratch-blocks.vue"
     },
     "./screen-share": {
       "types": "./types/dd0bq22g.d.ts",

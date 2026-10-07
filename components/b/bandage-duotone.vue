@@ -1,0 +1,24 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="cuyn6tgcc"><path class="ty5l0ackr"/><path class="bd9tr7dao"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:bandage-duotone" /></template>
+<style>
+.bd9tr7dao {
+  d: path("M19.0711 12L12 19.0711L4.9289 12L12 4.9289L19.0711 12Z");
+}
+
+.cuyn6tgcc {
+  fill: currentColor;
+}
+
+.ty5l0ackr {
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M13.7574 3.1716C14.5075 2.4214 15.5249 2 16.5858 2C17.6467 2 18.6641 2.4214 19.4142 3.1716L20.8284 4.5858C21.5786 5.3359 22 6.3533 22 7.4142C22 8.4751 21.5786 9.4925 20.8284 10.2426L10.2426 20.8284C9.4925 21.5786 8.4751 22 7.4142 22C6.3533 22 5.3359 21.5786 4.5858 20.8284L3.1716 19.4142C2.4214 18.6641 2 17.6467 2 16.5858C2 15.5249 2.4214 14.5075 3.1716 13.7574L13.7574 3.1716Z");
+}
+
+</style>

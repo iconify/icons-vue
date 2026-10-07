@@ -1,0 +1,29 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="gp_8x1bzb"><path class="w3-33kbsv"/><path class="nildg_bwe"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:syringe-sharp-two-tone" /></template>
+<style>
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.nildg_bwe {
+  d: path("M13.9289 5.8284L4.4436 15.3137L8.6863 19.5564L18.1716 10.0711M6.565 17.435L2.7071 21.2929M12.2218 4.1213L16.0502 7.9498L18.8787 5.1213M16.4645 2.7071L21.2929 7.5355M16.0502 7.9498L19.8787 11.7782M7.7574 12L9.4645 13.7071M10.5858 9.1716L12.2929 10.8787");
+}
+
+.w3-33kbsv {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M13.2218 5.1213C13.4093 4.9338 13.6637 4.8284 13.9289 4.8284C14.1941 4.8284 14.4485 4.9338 14.636 5.1213L18.8787 9.364C19.0662 9.5515 19.1716 9.8059 19.1716 10.0711C19.1716 10.3363 19.0662 10.5907 18.8787 10.7782L9.3934 20.2635C9.2059 20.451 8.9515 20.5564 8.6863 20.5564C8.4211 20.5564 8.1667 20.451 7.9792 20.2635L3.7365 16.0208C3.549 15.8333 3.4436 15.5789 3.4436 15.3137C3.4436 15.0485 3.549 14.7941 3.7365 14.6066L13.2218 5.1213Z");
+  stroke: none;
+}
+
+</style>

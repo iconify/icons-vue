@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/vscode-icons",
   "type": "module",
-  "version": "1.0.59",
+  "version": "1.0.60",
   "homepage": "https://icon-sets.iconify.design/vscode-icons/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -190,6 +190,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-asp.vue"
     },
+    "./file-type-aspire": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-type-aspire.vue"
+    },
     "./file-type-aspx": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-aspx.vue"
@@ -225,6 +229,10 @@
     "./file-type-attw": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-attw.vue"
+    },
+    "./file-type-aube": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-type-aube.vue"
     },
     "./file-type-audio": {
       "types": "./types/dd0bq22g.d.ts",
@@ -1185,6 +1193,10 @@
     "./file-type-flowgorithm": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-flowgorithm.vue"
+    },
+    "./file-type-flue": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-type-flue.vue"
     },
     "./file-type-flutter": {
       "types": "./types/dd0bq22g.d.ts",
@@ -2381,6 +2393,10 @@
     "./file-type-light-retext": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-light-retext.vue"
+    },
+    "./file-type-light-robocop": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-type-light-robocop.vue"
     },
     "./file-type-light-rolldown": {
       "types": "./types/dd0bq22g.d.ts",
@@ -3926,6 +3942,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-rnc.vue"
     },
+    "./file-type-robocop": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-type-robocop.vue"
+    },
+    "./file-type-robotcode": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-type-robotcode.vue"
+    },
     "./file-type-robotframework": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-robotframework.vue"
@@ -4161,6 +4185,10 @@
     "./file-type-smithery": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-smithery.vue"
+    },
+    "./file-type-smolmachine": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-type-smolmachine.vue"
     },
     "./file-type-snakemake": {
       "types": "./types/dd0bq22g.d.ts",

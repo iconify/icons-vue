@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/selfhst",
   "type": "module",
-  "version": "1.0.23",
+  "version": "1.0.24",
   "homepage": "https://icon-sets.iconify.design/selfhst/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "CC-BY-4.0",
@@ -2853,6 +2853,10 @@
     "./byparr-light": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/byparr-light.vue"
+    },
+    "./bytechef": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bytechef.vue"
     },
     "./bytestash": {
       "types": "./types/dd0bq22g.d.ts",
@@ -15402,6 +15406,18 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/mqttx-light.vue"
     },
+    "./msgvault": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/msgvault.vue"
+    },
+    "./msgvault-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/msgvault-dark.vue"
+    },
+    "./msgvault-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/msgvault-light.vue"
+    },
     "./mullvad-vpn": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/mullvad-vpn.vue"
@@ -25045,6 +25061,18 @@
     "./tasmocompiler-light": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/tasmocompiler-light.vue"
+    },
+    "./tasterr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tasterr.vue"
+    },
+    "./tasterr-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tasterr-dark.vue"
+    },
+    "./tasterr-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tasterr-light.vue"
     },
     "./tautulli": {
       "types": "./types/dd0bq22g.d.ts",

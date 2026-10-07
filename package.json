@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/codicon",
   "type": "module",
-  "version": "1.0.46",
+  "version": "1.0.47",
   "homepage": "https://icon-sets.iconify.design/codicon/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "CC-BY-4.0",
@@ -1945,6 +1945,10 @@
     "./report": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/r/report.vue"
+    },
+    "./report-question": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/report-question.vue"
     },
     "./request-changes": {
       "types": "./types/dd0bq22g.d.ts",

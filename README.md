@@ -1,19 +1,21 @@
 # @iconify-vue/codicon
 
-Icon set prefix: **codicon**
+⚠️ This is an alternative repository. Main repository has moved to [GitLab](https://gitlab.com/iconify-icons/vue/-/tree/codicon).
+**Codicons**
 
-Icon set name: **Codicons**
+Author: [Microsoft Corporation](https://github.com/microsoft/vscode-codicons)
 
-Author: **Microsoft Corporation**
+License: [CC BY 4.0](https://github.com/microsoft/vscode-codicons/blob/main/LICENSE)
 
-License: **[CC BY 4.0](https://github.com/microsoft/vscode-codicons/blob/main/LICENSE)**
-
-Repository: **https://github.com/microsoft/vscode-codicons**
-
-Browse all icons: **[Preview Codicons](https://icon-sets.iconify.design/codicon/)**
+Browse all icons: [preview Codicons on Iconify](https://icon-sets.iconify.design/codicon/)
 
 ## Installation
 
+```bash
+npm install gitlab:iconify-icons/vue#codicon
+```
+
+or
 ```bash
 npm install github:iconify/icons-vue#codicon
 ```

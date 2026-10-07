@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/devicon",
   "type": "module",
-  "version": "1.0.27",
+  "version": "1.0.28",
   "homepage": "https://icon-sets.iconify.design/devicon/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -150,6 +150,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/antdesign-wordmark.vue"
     },
+    "./antigravity": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/antigravity.vue"
+    },
     "./apache": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/apache.vue"
@@ -265,6 +269,10 @@
     "./artixlinux-wordmark": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/artixlinux-wordmark.vue"
+    },
+    "./aspire": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/aspire.vue"
     },
     "./astro": {
       "types": "./types/dd0bq22g.d.ts",

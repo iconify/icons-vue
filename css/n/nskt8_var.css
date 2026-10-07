@@ -1,0 +1,8 @@
+.nskt8_var {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M16 5v6a4 4 0 0 1-8 0V5M6 19h12");
+}

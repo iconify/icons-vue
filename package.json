@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/octicon",
   "type": "module",
-  "version": "1.0.26",
+  "version": "1.0.27",
   "homepage": "https://icon-sets.iconify.design/octicon/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -3254,6 +3254,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/stack-remove-16.vue"
     },
+    "./stack-slash-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stack-slash-16.vue"
+    },
     "./star": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/star.vue"
@@ -3717,6 +3721,14 @@
     "./vscode-48": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/v/vscode-48.vue"
+    },
+    "./wall-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wall-16.vue"
+    },
+    "./wall-24": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wall-24.vue"
     },
     "./watch": {
       "types": "./types/dd0bq22g.d.ts",

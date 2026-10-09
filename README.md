@@ -1,6 +1,5 @@
 # @iconify-vue/material-symbols
 
-⚠️ This is an alternative repository. Main repository has moved to [GitLab](https://gitlab.com/iconify-icons/vue/-/tree/material-symbols).
 **Material Symbols**
 
 Author: [Google](https://github.com/google/material-design-icons)

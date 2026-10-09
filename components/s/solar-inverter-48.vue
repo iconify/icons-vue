@@ -1,0 +1,11 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/m/mp-8xbcar.css';
+import '../../css/g/gkoq5rb_y.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="mp-8xbcar"/><path class="gkoq5rb_y"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="energy-icons:solar-inverter-48" /></template>

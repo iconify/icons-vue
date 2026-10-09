@@ -1,0 +1,11 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/q/qslbzsqwh.css';
+import '../../css/t/tg_1r3b9p.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":20,"height":20};
+const content = `<path class="qslbzsqwh"/><path class="tg_1r3b9p"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="energy-icons:battery-bolt-20-bold" /></template>

@@ -1,0 +1,13 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/u/uyzyqw1hp.css';
+import '../../css/k/ko4o_xbkk.css';
+import '../../css/q/q8yf954uh.css';
+import '../../css/m/mrzlzgbxo.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":20,"height":20};
+const content = `<path class="uyzyqw1hp"/><path class="ko4o_xbkk"/><path class="q8yf954uh"/><path class="mrzlzgbxo"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="energy-icons:leaf-x-20-bold" /></template>

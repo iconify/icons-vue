@@ -1,0 +1,12 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/z/z_7fyptgq.css';
+import '../../css/v/v-wpb5q2n.css';
+import '../../css/m/ms3vv49wg.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":20,"height":20};
+const content = `<path class="z_7fyptgq"/><path class="v-wpb5q2n"/><path class="ms3vv49wg"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="energy-icons:bookmark-plus-20" /></template>

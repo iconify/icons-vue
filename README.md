@@ -1,6 +1,5 @@
 # @iconify-vue/vscode-icons
 
-⚠️ This is an alternative repository. Main repository has moved to [GitLab](https://gitlab.com/iconify-icons/vue/-/tree/vscode-icons).
 **VSCode Icons**
 
 Author: [Roberto Huertas](https://github.com/vscode-icons/vscode-icons)

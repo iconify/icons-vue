@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/devicon",
   "type": "module",
-  "version": "1.0.28",
+  "version": "1.0.29",
   "homepage": "https://icon-sets.iconify.design/devicon/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -4097,6 +4097,10 @@
     "./webflow": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/w/webflow.vue"
+    },
+    "./webgl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/webgl.vue"
     },
     "./webgpu": {
       "types": "./types/dd0bq22g.d.ts",

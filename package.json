@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/energy-icons",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://icon-sets.iconify.design/energy-icons/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -22,6 +22,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/a-frame-48-bold.vue"
     },
+    "./abacus-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/abacus-20.vue"
+    },
+    "./abacus-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/abacus-20-bold.vue"
+    },
+    "./abacus-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/abacus-48.vue"
+    },
+    "./abacus-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/abacus-48-bold.vue"
+    },
     "./accessibility-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/accessibility-20.vue"
@@ -37,6 +53,22 @@
     "./accessibility-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/accessibility-48-bold.vue"
+    },
+    "./acorn-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/acorn-20.vue"
+    },
+    "./acorn-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/acorn-20-bold.vue"
+    },
+    "./acorn-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/acorn-48.vue"
+    },
+    "./acorn-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/acorn-48-bold.vue"
     },
     "./activity-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -310,6 +342,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/alternating-current-48-bold.vue"
     },
+    "./ambulance-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/ambulance-20.vue"
+    },
+    "./ambulance-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/ambulance-20-bold.vue"
+    },
+    "./ambulance-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/ambulance-48.vue"
+    },
+    "./ambulance-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/ambulance-48-bold.vue"
+    },
     "./ammeter-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/ammeter-20.vue"
@@ -389,6 +437,22 @@
     "./anemometer-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/anemometer-48-bold.vue"
+    },
+    "./angle-grinder-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/angle-grinder-20.vue"
+    },
+    "./angle-grinder-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/angle-grinder-20-bold.vue"
+    },
+    "./angle-grinder-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/angle-grinder-48.vue"
+    },
+    "./angle-grinder-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/angle-grinder-48-bold.vue"
     },
     "./anvil-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -581,6 +645,70 @@
     "./arrow-big-up-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/arrow-big-up-48-bold.vue"
+    },
+    "./arrow-circle-down-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arrow-circle-down-20.vue"
+    },
+    "./arrow-circle-down-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arrow-circle-down-20-bold.vue"
+    },
+    "./arrow-circle-down-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arrow-circle-down-48.vue"
+    },
+    "./arrow-circle-down-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arrow-circle-down-48-bold.vue"
+    },
+    "./arrow-circle-left-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arrow-circle-left-20.vue"
+    },
+    "./arrow-circle-left-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arrow-circle-left-20-bold.vue"
+    },
+    "./arrow-circle-left-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arrow-circle-left-48.vue"
+    },
+    "./arrow-circle-left-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arrow-circle-left-48-bold.vue"
+    },
+    "./arrow-circle-right-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arrow-circle-right-20.vue"
+    },
+    "./arrow-circle-right-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arrow-circle-right-20-bold.vue"
+    },
+    "./arrow-circle-right-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arrow-circle-right-48.vue"
+    },
+    "./arrow-circle-right-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arrow-circle-right-48-bold.vue"
+    },
+    "./arrow-circle-up-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arrow-circle-up-20.vue"
+    },
+    "./arrow-circle-up-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arrow-circle-up-20-bold.vue"
+    },
+    "./arrow-circle-up-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arrow-circle-up-48.vue"
+    },
+    "./arrow-circle-up-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arrow-circle-up-48-bold.vue"
     },
     "./arrow-down-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -1046,6 +1174,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/baby-48-bold.vue"
     },
+    "./backpack-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/backpack-20.vue"
+    },
+    "./backpack-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/backpack-20-bold.vue"
+    },
+    "./backpack-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/backpack-48.vue"
+    },
+    "./backpack-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/backpack-48-bold.vue"
+    },
     "./badge-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/badge-20.vue"
@@ -1126,6 +1270,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/ban-48-bold.vue"
     },
+    "./bandage-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bandage-20.vue"
+    },
+    "./bandage-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bandage-20-bold.vue"
+    },
+    "./bandage-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bandage-48.vue"
+    },
+    "./bandage-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bandage-48-bold.vue"
+    },
     "./bank-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/bank-20.vue"
@@ -1141,6 +1301,22 @@
     "./bank-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/bank-48-bold.vue"
+    },
+    "./banknote-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/banknote-20.vue"
+    },
+    "./banknote-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/banknote-20-bold.vue"
+    },
+    "./banknote-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/banknote-48.vue"
+    },
+    "./banknote-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/banknote-48-bold.vue"
     },
     "./barcode-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -1542,6 +1718,54 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/battery-storage-48-bold.vue"
     },
+    "./battery-storage-alert-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/battery-storage-alert-20.vue"
+    },
+    "./battery-storage-alert-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/battery-storage-alert-20-bold.vue"
+    },
+    "./battery-storage-alert-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/battery-storage-alert-48.vue"
+    },
+    "./battery-storage-alert-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/battery-storage-alert-48-bold.vue"
+    },
+    "./battery-storage-check-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/battery-storage-check-20.vue"
+    },
+    "./battery-storage-check-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/battery-storage-check-20-bold.vue"
+    },
+    "./battery-storage-check-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/battery-storage-check-48.vue"
+    },
+    "./battery-storage-check-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/battery-storage-check-48-bold.vue"
+    },
+    "./battery-storage-x-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/battery-storage-x-20.vue"
+    },
+    "./battery-storage-x-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/battery-storage-x-20-bold.vue"
+    },
+    "./battery-storage-x-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/battery-storage-x-48.vue"
+    },
+    "./battery-storage-x-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/battery-storage-x-48-bold.vue"
+    },
     "./battery-swap-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/battery-swap-20.vue"
@@ -1654,6 +1878,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/beach-hut-48-bold.vue"
     },
+    "./bear-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bear-20.vue"
+    },
+    "./bear-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bear-20-bold.vue"
+    },
+    "./bear-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bear-48.vue"
+    },
+    "./bear-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bear-48-bold.vue"
+    },
     "./bearing-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/bearing-20.vue"
@@ -1750,6 +1990,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/bell-48-bold.vue"
     },
+    "./bell-check-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bell-check-20.vue"
+    },
+    "./bell-check-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bell-check-20-bold.vue"
+    },
+    "./bell-check-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bell-check-48.vue"
+    },
+    "./bell-check-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bell-check-48-bold.vue"
+    },
     "./bell-off-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/bell-off-20.vue"
@@ -1765,6 +2021,22 @@
     "./bell-off-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/bell-off-48-bold.vue"
+    },
+    "./bell-plus-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bell-plus-20.vue"
+    },
+    "./bell-plus-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bell-plus-20-bold.vue"
+    },
+    "./bell-plus-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bell-plus-48.vue"
+    },
+    "./bell-plus-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bell-plus-48-bold.vue"
     },
     "./bell-ring-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -1845,6 +2117,22 @@
     "./bifacial-panel-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/bifacial-panel-48-bold.vue"
+    },
+    "./binder-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/binder-20.vue"
+    },
+    "./binder-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/binder-20-bold.vue"
+    },
+    "./binder-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/binder-48.vue"
+    },
+    "./binder-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/binder-48-bold.vue"
     },
     "./biodiversity-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -2006,6 +2294,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/blade-transport-48-bold.vue"
     },
+    "./blood-drop-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/blood-drop-20.vue"
+    },
+    "./blood-drop-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/blood-drop-20-bold.vue"
+    },
+    "./blood-drop-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/blood-drop-48.vue"
+    },
+    "./blood-drop-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/blood-drop-48-bold.vue"
+    },
     "./blueprint-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/blueprint-20.vue"
@@ -2053,6 +2357,54 @@
     "./boiler-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/boiler-48-bold.vue"
+    },
+    "./boiler-alert-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/boiler-alert-20.vue"
+    },
+    "./boiler-alert-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/boiler-alert-20-bold.vue"
+    },
+    "./boiler-alert-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/boiler-alert-48.vue"
+    },
+    "./boiler-alert-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/boiler-alert-48-bold.vue"
+    },
+    "./boiler-check-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/boiler-check-20.vue"
+    },
+    "./boiler-check-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/boiler-check-20-bold.vue"
+    },
+    "./boiler-check-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/boiler-check-48.vue"
+    },
+    "./boiler-check-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/boiler-check-48-bold.vue"
+    },
+    "./boiler-x-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/boiler-x-20.vue"
+    },
+    "./boiler-x-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/boiler-x-20-bold.vue"
+    },
+    "./boiler-x-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/boiler-x-48.vue"
+    },
+    "./boiler-x-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/boiler-x-48-bold.vue"
     },
     "./bold-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -2117,6 +2469,22 @@
     "./bolt-check-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/bolt-check-48-bold.vue"
+    },
+    "./bolt-off-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bolt-off-20.vue"
+    },
+    "./bolt-off-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bolt-off-20-bold.vue"
+    },
+    "./bolt-off-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bolt-off-48.vue"
+    },
+    "./bolt-off-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bolt-off-48-bold.vue"
     },
     "./bolt-plus-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -2230,6 +2598,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/bookmark-check-48-bold.vue"
     },
+    "./bookmark-minus-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bookmark-minus-20.vue"
+    },
+    "./bookmark-minus-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bookmark-minus-20-bold.vue"
+    },
+    "./bookmark-minus-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bookmark-minus-48.vue"
+    },
+    "./bookmark-minus-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bookmark-minus-48-bold.vue"
+    },
     "./bookmark-plus-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/bookmark-plus-20.vue"
@@ -2245,6 +2629,22 @@
     "./bookmark-plus-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/bookmark-plus-48-bold.vue"
+    },
+    "./bookmark-x-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bookmark-x-20.vue"
+    },
+    "./bookmark-x-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bookmark-x-20-bold.vue"
+    },
+    "./bookmark-x-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bookmark-x-48.vue"
+    },
+    "./bookmark-x-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bookmark-x-48-bold.vue"
     },
     "./borehole-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -2326,6 +2726,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/brackets-48-bold.vue"
     },
+    "./brain-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/brain-20.vue"
+    },
+    "./brain-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/brain-20-bold.vue"
+    },
+    "./brain-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/brain-48.vue"
+    },
+    "./brain-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/brain-48-bold.vue"
+    },
     "./bread-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/bread-20.vue"
@@ -2373,6 +2789,22 @@
     "./briefcase-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/briefcase-48-bold.vue"
+    },
+    "./broom-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/broom-20.vue"
+    },
+    "./broom-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/broom-20-bold.vue"
+    },
+    "./broom-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/broom-48.vue"
+    },
+    "./broom-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/broom-48-bold.vue"
     },
     "./brush-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -2598,6 +3030,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/cabin-48-bold.vue"
     },
+    "./cable-car-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cable-car-20.vue"
+    },
+    "./cable-car-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cable-car-20-bold.vue"
+    },
+    "./cable-car-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cable-car-48.vue"
+    },
+    "./cable-car-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cable-car-48-bold.vue"
+    },
     "./cable-drum-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/cable-drum-20.vue"
@@ -2774,6 +3222,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/calendar-days-48-bold.vue"
     },
+    "./calendar-minus-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/calendar-minus-20.vue"
+    },
+    "./calendar-minus-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/calendar-minus-20-bold.vue"
+    },
+    "./calendar-minus-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/calendar-minus-48.vue"
+    },
+    "./calendar-minus-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/calendar-minus-48-bold.vue"
+    },
     "./calendar-plus-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/calendar-plus-20.vue"
@@ -2869,6 +3333,22 @@
     "./camera-off-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/camera-off-48-bold.vue"
+    },
+    "./camera-plus-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/camera-plus-20.vue"
+    },
+    "./camera-plus-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/camera-plus-20-bold.vue"
+    },
+    "./camera-plus-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/camera-plus-48.vue"
+    },
+    "./camera-plus-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/camera-plus-48-bold.vue"
     },
     "./camper-van-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -2982,6 +3462,38 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/car-48-bold.vue"
     },
+    "./car-check-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/car-check-20.vue"
+    },
+    "./car-check-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/car-check-20-bold.vue"
+    },
+    "./car-check-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/car-check-48.vue"
+    },
+    "./car-check-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/car-check-48-bold.vue"
+    },
+    "./car-plus-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/car-plus-20.vue"
+    },
+    "./car-plus-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/car-plus-20-bold.vue"
+    },
+    "./car-plus-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/car-plus-48.vue"
+    },
+    "./car-plus-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/car-plus-48-bold.vue"
+    },
     "./car-share-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/car-share-20.vue"
@@ -3013,6 +3525,22 @@
     "./carabiner-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/carabiner-48-bold.vue"
+    },
+    "./caravan-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/caravan-20.vue"
+    },
+    "./caravan-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/caravan-20-bold.vue"
+    },
+    "./caravan-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/caravan-48.vue"
+    },
+    "./caravan-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/caravan-48-bold.vue"
     },
     "./carbon-budget-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -3222,6 +3750,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/cargo-bike-48-bold.vue"
     },
+    "./cargo-ship-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cargo-ship-20.vue"
+    },
+    "./cargo-ship-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cargo-ship-20-bold.vue"
+    },
+    "./cargo-ship-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cargo-ship-48.vue"
+    },
+    "./cargo-ship-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cargo-ship-48-bold.vue"
+    },
     "./carrot-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/carrot-20.vue"
@@ -3237,6 +3781,22 @@
     "./carrot-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/carrot-48-bold.vue"
+    },
+    "./cash-register-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cash-register-20.vue"
+    },
+    "./cash-register-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cash-register-20-bold.vue"
+    },
+    "./cash-register-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cash-register-48.vue"
+    },
+    "./cash-register-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cash-register-48-bold.vue"
     },
     "./cast-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -3269,6 +3829,22 @@
     "./castle-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/castle-48-bold.vue"
+    },
+    "./cat-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cat-20.vue"
+    },
+    "./cat-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cat-20-bold.vue"
+    },
+    "./cat-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cat-48.vue"
+    },
+    "./cat-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cat-48-bold.vue"
     },
     "./cave-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -3333,6 +3909,22 @@
     "./chalet-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/chalet-48-bold.vue"
+    },
+    "./chalkboard-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chalkboard-20.vue"
+    },
+    "./chalkboard-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chalkboard-20-bold.vue"
+    },
+    "./chalkboard-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chalkboard-48.vue"
+    },
+    "./chalkboard-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chalkboard-48-bold.vue"
     },
     "./charge-card-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -4070,6 +4662,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/chicken-leg-48-bold.vue"
     },
+    "./child-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/child-20.vue"
+    },
+    "./child-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/child-20-bold.vue"
+    },
+    "./child-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/child-48.vue"
+    },
+    "./child-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/child-48-bold.vue"
+    },
     "./chiller-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/chiller-20.vue"
@@ -4181,6 +4789,22 @@
     "./city-skyline-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/city-skyline-48-bold.vue"
+    },
+    "./clapperboard-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/clapperboard-20.vue"
+    },
+    "./clapperboard-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/clapperboard-20-bold.vue"
+    },
+    "./clapperboard-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/clapperboard-48.vue"
+    },
+    "./clapperboard-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/clapperboard-48-bold.vue"
     },
     "./clipboard-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -4454,6 +5078,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/clock-9-48-bold.vue"
     },
+    "./clock-plus-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/clock-plus-20.vue"
+    },
+    "./clock-plus-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/clock-plus-20-bold.vue"
+    },
+    "./clock-plus-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/clock-plus-48.vue"
+    },
+    "./clock-plus-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/clock-plus-48-bold.vue"
+    },
     "./close-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/close-20.vue"
@@ -4581,6 +5221,22 @@
     "./cloud-lightning-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/cloud-lightning-48-bold.vue"
+    },
+    "./cloud-minus-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloud-minus-20.vue"
+    },
+    "./cloud-minus-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloud-minus-20-bold.vue"
+    },
+    "./cloud-minus-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloud-minus-48.vue"
+    },
+    "./cloud-minus-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloud-minus-48-bold.vue"
     },
     "./cloud-moon-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -4757,6 +5413,22 @@
     "./clover-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/clover-48-bold.vue"
+    },
+    "./cnc-machine-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cnc-machine-20.vue"
+    },
+    "./cnc-machine-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cnc-machine-20-bold.vue"
+    },
+    "./cnc-machine-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cnc-machine-48.vue"
+    },
+    "./cnc-machine-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cnc-machine-48-bold.vue"
     },
     "./co2-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -5286,6 +5958,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/contrast-48-bold.vue"
     },
+    "./control-panel-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/control-panel-20.vue"
+    },
+    "./control-panel-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/control-panel-20-bold.vue"
+    },
+    "./control-panel-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/control-panel-48.vue"
+    },
+    "./control-panel-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/control-panel-48-bold.vue"
+    },
     "./control-room-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/control-room-20.vue"
@@ -5590,6 +6278,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/coupling-48-bold.vue"
     },
+    "./cow-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cow-20.vue"
+    },
+    "./cow-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cow-20-bold.vue"
+    },
+    "./cow-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cow-48.vue"
+    },
+    "./cow-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cow-48-bold.vue"
+    },
     "./cpu-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/cpu-20.vue"
@@ -5765,6 +6469,22 @@
     "./crucible-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/crucible-48-bold.vue"
+    },
+    "./crutch-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/crutch-20.vue"
+    },
+    "./crutch-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/crutch-20-bold.vue"
+    },
+    "./crutch-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/crutch-48.vue"
+    },
+    "./crutch-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/crutch-48-bold.vue"
     },
     "./crystal-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -5974,6 +6694,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/database-48-bold.vue"
     },
+    "./database-plus-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/database-plus-20.vue"
+    },
+    "./database-plus-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/database-plus-20-bold.vue"
+    },
+    "./database-plus-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/database-plus-48.vue"
+    },
+    "./database-plus-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/database-plus-48-bold.vue"
+    },
     "./deforestation-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/deforestation-20.vue"
@@ -6053,6 +6789,22 @@
     "./desert-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/desert-48-bold.vue"
+    },
+    "./desk-globe-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/desk-globe-20.vue"
+    },
+    "./desk-globe-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/desk-globe-20-bold.vue"
+    },
+    "./desk-globe-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/desk-globe-48.vue"
+    },
+    "./desk-globe-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/desk-globe-48-bold.vue"
     },
     "./desk-lamp-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -6262,6 +7014,38 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/direct-current-48-bold.vue"
     },
+    "./directions-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/directions-20.vue"
+    },
+    "./directions-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/directions-20-bold.vue"
+    },
+    "./directions-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/directions-48.vue"
+    },
+    "./directions-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/directions-48-bold.vue"
+    },
+    "./discount-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/discount-20.vue"
+    },
+    "./discount-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/discount-20-bold.vue"
+    },
+    "./discount-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/discount-48.vue"
+    },
+    "./discount-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/discount-48-bold.vue"
+    },
     "./dishwasher-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/dishwasher-20.vue"
@@ -6309,6 +7093,54 @@
     "./district-heating-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/district-heating-48-bold.vue"
+    },
+    "./divide-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/divide-20.vue"
+    },
+    "./divide-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/divide-20-bold.vue"
+    },
+    "./divide-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/divide-48.vue"
+    },
+    "./divide-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/divide-48-bold.vue"
+    },
+    "./dna-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dna-20.vue"
+    },
+    "./dna-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dna-20-bold.vue"
+    },
+    "./dna-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dna-48.vue"
+    },
+    "./dna-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dna-48-bold.vue"
+    },
+    "./dog-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dog-20.vue"
+    },
+    "./dog-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dog-20-bold.vue"
+    },
+    "./dog-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dog-48.vue"
+    },
+    "./dog-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dog-48-bold.vue"
     },
     "./dollar-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -6422,6 +7254,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/draught-proofing-48-bold.vue"
     },
+    "./drawing-compass-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/drawing-compass-20.vue"
+    },
+    "./drawing-compass-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/drawing-compass-20-bold.vue"
+    },
+    "./drawing-compass-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/drawing-compass-48.vue"
+    },
+    "./drawing-compass-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/drawing-compass-48-bold.vue"
+    },
     "./drill-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/drill-20.vue"
@@ -6437,6 +7285,22 @@
     "./drill-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/drill-48-bold.vue"
+    },
+    "./drill-press-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/drill-press-20.vue"
+    },
+    "./drill-press-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/drill-press-20-bold.vue"
+    },
+    "./drill-press-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/drill-press-48.vue"
+    },
+    "./drill-press-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/drill-press-48-bold.vue"
     },
     "./drone-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -6485,6 +7349,22 @@
     "./drought-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/drought-48-bold.vue"
+    },
+    "./drum-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/drum-20.vue"
+    },
+    "./drum-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/drum-20-bold.vue"
+    },
+    "./drum-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/drum-48.vue"
+    },
+    "./drum-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/drum-48-bold.vue"
     },
     "./dryer-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -6613,6 +7493,22 @@
     "./e-scooter-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/e/e-scooter-48-bold.vue"
+    },
+    "./ear-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/ear-20.vue"
+    },
+    "./ear-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/ear-20-bold.vue"
+    },
+    "./ear-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/ear-48.vue"
+    },
+    "./ear-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/ear-48-bold.vue"
     },
     "./edit-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -7094,6 +7990,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/e/engineer-48-bold.vue"
     },
+    "./envelope-open-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/envelope-open-20.vue"
+    },
+    "./envelope-open-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/envelope-open-20-bold.vue"
+    },
+    "./envelope-open-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/envelope-open-48.vue"
+    },
+    "./envelope-open-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/envelope-open-48-bold.vue"
+    },
     "./environmental-impact-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/e/environmental-impact-20.vue"
@@ -7109,6 +8021,22 @@
     "./environmental-impact-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/e/environmental-impact-48-bold.vue"
+    },
+    "./equal-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/equal-20.vue"
+    },
+    "./equal-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/equal-20-bold.vue"
+    },
+    "./equal-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/equal-48.vue"
+    },
+    "./equal-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/equal-48-bold.vue"
     },
     "./eraser-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -7237,6 +8165,22 @@
     "./ev-charger-home-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/e/ev-charger-home-48-bold.vue"
+    },
+    "./ev-charger-off-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/ev-charger-off-20.vue"
+    },
+    "./ev-charger-off-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/ev-charger-off-20-bold.vue"
+    },
+    "./ev-charger-off-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/ev-charger-off-48.vue"
+    },
+    "./ev-charger-off-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/ev-charger-off-48-bold.vue"
     },
     "./ev-charger-plus-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -7526,6 +8470,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/face-love-48-bold.vue"
     },
+    "./face-mask-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/face-mask-20.vue"
+    },
+    "./face-mask-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/face-mask-20-bold.vue"
+    },
+    "./face-mask-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/face-mask-48.vue"
+    },
+    "./face-mask-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/face-mask-48-bold.vue"
+    },
     "./face-sleepy-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/face-sleepy-20.vue"
@@ -7654,6 +8614,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/fast-forward-48-bold.vue"
     },
+    "./feather-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/feather-20.vue"
+    },
+    "./feather-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/feather-20-bold.vue"
+    },
+    "./feather-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/feather-48.vue"
+    },
+    "./feather-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/feather-48-bold.vue"
+    },
     "./feed-in-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/feed-in-20.vue"
@@ -7701,6 +8677,22 @@
     "./file-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-48-bold.vue"
+    },
+    "./file-audio-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-audio-20.vue"
+    },
+    "./file-audio-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-audio-20-bold.vue"
+    },
+    "./file-audio-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-audio-48.vue"
+    },
+    "./file-audio-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-audio-48-bold.vue"
     },
     "./file-chart-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -7782,6 +8774,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-image-48-bold.vue"
     },
+    "./file-lock-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-lock-20.vue"
+    },
+    "./file-lock-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-lock-20-bold.vue"
+    },
+    "./file-lock-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-lock-48.vue"
+    },
+    "./file-lock-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-lock-48-bold.vue"
+    },
     "./file-minus-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-minus-20.vue"
@@ -7862,6 +8870,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-upload-48-bold.vue"
     },
+    "./file-video-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-video-20.vue"
+    },
+    "./file-video-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-video-20-bold.vue"
+    },
+    "./file-video-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-video-48.vue"
+    },
+    "./file-video-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-video-48-bold.vue"
+    },
     "./file-x-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-x-20.vue"
@@ -7877,6 +8901,22 @@
     "./file-x-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-x-48-bold.vue"
+    },
+    "./file-zip-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-zip-20.vue"
+    },
+    "./file-zip-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-zip-20-bold.vue"
+    },
+    "./file-zip-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-zip-48.vue"
+    },
+    "./file-zip-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-zip-48-bold.vue"
     },
     "./files-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -7941,6 +8981,38 @@
     "./fingerprint-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/fingerprint-48-bold.vue"
+    },
+    "./fire-engine-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fire-engine-20.vue"
+    },
+    "./fire-engine-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fire-engine-20-bold.vue"
+    },
+    "./fire-engine-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fire-engine-48.vue"
+    },
+    "./fire-engine-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fire-engine-48-bold.vue"
+    },
+    "./fire-station-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fire-station-20.vue"
+    },
+    "./fire-station-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fire-station-20-bold.vue"
+    },
+    "./fire-station-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fire-station-48.vue"
+    },
+    "./fire-station-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fire-station-48-bold.vue"
     },
     "./fireplace-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -8086,6 +9158,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/flange-48-bold.vue"
     },
+    "./flashlight-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/flashlight-20.vue"
+    },
+    "./flashlight-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/flashlight-20-bold.vue"
+    },
+    "./flashlight-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/flashlight-48.vue"
+    },
+    "./flashlight-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/flashlight-48-bold.vue"
+    },
     "./floating-solar-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/floating-solar-20.vue"
@@ -8230,6 +9318,38 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/folder-48-bold.vue"
     },
+    "./folder-check-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-check-20.vue"
+    },
+    "./folder-check-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-check-20-bold.vue"
+    },
+    "./folder-check-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-check-48.vue"
+    },
+    "./folder-check-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-check-48-bold.vue"
+    },
+    "./folder-lock-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-lock-20.vue"
+    },
+    "./folder-lock-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-lock-20-bold.vue"
+    },
+    "./folder-lock-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-lock-48.vue"
+    },
+    "./folder-lock-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-lock-48-bold.vue"
+    },
     "./folder-minus-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/folder-minus-20.vue"
@@ -8293,6 +9413,22 @@
     "./folder-search-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/folder-search-48-bold.vue"
+    },
+    "./folder-x-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-x-20.vue"
+    },
+    "./folder-x-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-x-20-bold.vue"
+    },
+    "./folder-x-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-x-48.vue"
+    },
+    "./folder-x-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-x-48-bold.vue"
     },
     "./football-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -8374,6 +9510,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/forward-48-bold.vue"
     },
+    "./fox-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fox-20.vue"
+    },
+    "./fox-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fox-20-bold.vue"
+    },
+    "./fox-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fox-48.vue"
+    },
+    "./fox-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fox-48-bold.vue"
+    },
     "./frame-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/frame-20.vue"
@@ -8437,6 +9589,22 @@
     "./fries-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/fries-48-bold.vue"
+    },
+    "./frog-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/frog-20.vue"
+    },
+    "./frog-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/frog-20-bold.vue"
+    },
+    "./frog-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/frog-48.vue"
+    },
+    "./frog-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/frog-48-bold.vue"
     },
     "./frost-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -8533,6 +9701,22 @@
     "./fuel-rod-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/fuel-rod-48-bold.vue"
+    },
+    "./function-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/function-20.vue"
+    },
+    "./function-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/function-20-bold.vue"
+    },
+    "./function-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/function-48.vue"
+    },
+    "./function-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/function-48-bold.vue"
     },
     "./furnace-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -8773,6 +9957,38 @@
     "./gear-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/gear-48-bold.vue"
+    },
+    "./gearbox-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gearbox-20.vue"
+    },
+    "./gearbox-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gearbox-20-bold.vue"
+    },
+    "./gearbox-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gearbox-48.vue"
+    },
+    "./gearbox-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gearbox-48-bold.vue"
+    },
+    "./gem-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gem-20.vue"
+    },
+    "./gem-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gem-20-bold.vue"
+    },
+    "./gem-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gem-48.vue"
+    },
+    "./gem-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gem-48-bold.vue"
     },
     "./generator-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -9030,6 +10246,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/golf-48-bold.vue"
     },
+    "./gps-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gps-20.vue"
+    },
+    "./gps-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gps-20-bold.vue"
+    },
+    "./gps-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gps-48.vue"
+    },
+    "./gps-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gps-48-bold.vue"
+    },
     "./graduation-cap-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/graduation-cap-20.vue"
@@ -9286,6 +10518,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/h2-molecule-48-bold.vue"
     },
+    "./hail-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hail-20.vue"
+    },
+    "./hail-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hail-20-bold.vue"
+    },
+    "./hail-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hail-48.vue"
+    },
+    "./hail-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hail-48-bold.vue"
+    },
     "./hair-dryer-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/hair-dryer-20.vue"
@@ -9494,6 +10742,38 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/heart-off-48-bold.vue"
     },
+    "./heart-plus-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/heart-plus-20.vue"
+    },
+    "./heart-plus-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/heart-plus-20-bold.vue"
+    },
+    "./heart-plus-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/heart-plus-48.vue"
+    },
+    "./heart-plus-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/heart-plus-48-bold.vue"
+    },
+    "./heart-pulse-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/heart-pulse-20.vue"
+    },
+    "./heart-pulse-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/heart-pulse-20-bold.vue"
+    },
+    "./heart-pulse-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/heart-pulse-48.vue"
+    },
+    "./heart-pulse-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/heart-pulse-48-bold.vue"
+    },
     "./heat-battery-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/heat-battery-20.vue"
@@ -9621,6 +10901,54 @@
     "./heat-pump-air-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/heat-pump-air-48-bold.vue"
+    },
+    "./heat-pump-air-alert-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/heat-pump-air-alert-20.vue"
+    },
+    "./heat-pump-air-alert-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/heat-pump-air-alert-20-bold.vue"
+    },
+    "./heat-pump-air-alert-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/heat-pump-air-alert-48.vue"
+    },
+    "./heat-pump-air-alert-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/heat-pump-air-alert-48-bold.vue"
+    },
+    "./heat-pump-air-check-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/heat-pump-air-check-20.vue"
+    },
+    "./heat-pump-air-check-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/heat-pump-air-check-20-bold.vue"
+    },
+    "./heat-pump-air-check-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/heat-pump-air-check-48.vue"
+    },
+    "./heat-pump-air-check-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/heat-pump-air-check-48-bold.vue"
+    },
+    "./heat-pump-air-x-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/heat-pump-air-x-20.vue"
+    },
+    "./heat-pump-air-x-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/heat-pump-air-x-20-bold.vue"
+    },
+    "./heat-pump-air-x-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/heat-pump-air-x-48.vue"
+    },
+    "./heat-pump-air-x-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/heat-pump-air-x-48-bold.vue"
     },
     "./heat-pump-cylinder-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -10102,6 +11430,54 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/house-battery-48-bold.vue"
     },
+    "./house-battery-alert-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/house-battery-alert-20.vue"
+    },
+    "./house-battery-alert-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/house-battery-alert-20-bold.vue"
+    },
+    "./house-battery-alert-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/house-battery-alert-48.vue"
+    },
+    "./house-battery-alert-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/house-battery-alert-48-bold.vue"
+    },
+    "./house-battery-check-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/house-battery-check-20.vue"
+    },
+    "./house-battery-check-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/house-battery-check-20-bold.vue"
+    },
+    "./house-battery-check-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/house-battery-check-48.vue"
+    },
+    "./house-battery-check-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/house-battery-check-48-bold.vue"
+    },
+    "./house-battery-x-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/house-battery-x-20.vue"
+    },
+    "./house-battery-x-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/house-battery-x-20-bold.vue"
+    },
+    "./house-battery-x-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/house-battery-x-48.vue"
+    },
+    "./house-battery-x-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/house-battery-x-48-bold.vue"
+    },
     "./house-bolt-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/house-bolt-20.vue"
@@ -10261,6 +11637,22 @@
     "./house-meter-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/house-meter-48-bold.vue"
+    },
+    "./house-minus-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/house-minus-20.vue"
+    },
+    "./house-minus-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/house-minus-20-bold.vue"
+    },
+    "./house-minus-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/house-minus-48.vue"
+    },
+    "./house-minus-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/house-minus-48-bold.vue"
     },
     "./house-plug-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -10437,6 +11829,22 @@
     "./humidity-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/humidity-48-bold.vue"
+    },
+    "./hurricane-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hurricane-20.vue"
+    },
+    "./hurricane-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hurricane-20-bold.vue"
+    },
+    "./hurricane-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hurricane-48.vue"
+    },
+    "./hurricane-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hurricane-48-bold.vue"
     },
     "./hvdc-converter-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -10630,6 +12038,54 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/hydrogen-tank-48-bold.vue"
     },
+    "./hydrogen-tank-alert-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hydrogen-tank-alert-20.vue"
+    },
+    "./hydrogen-tank-alert-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hydrogen-tank-alert-20-bold.vue"
+    },
+    "./hydrogen-tank-alert-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hydrogen-tank-alert-48.vue"
+    },
+    "./hydrogen-tank-alert-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hydrogen-tank-alert-48-bold.vue"
+    },
+    "./hydrogen-tank-check-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hydrogen-tank-check-20.vue"
+    },
+    "./hydrogen-tank-check-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hydrogen-tank-check-20-bold.vue"
+    },
+    "./hydrogen-tank-check-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hydrogen-tank-check-48.vue"
+    },
+    "./hydrogen-tank-check-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hydrogen-tank-check-48-bold.vue"
+    },
+    "./hydrogen-tank-x-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hydrogen-tank-x-20.vue"
+    },
+    "./hydrogen-tank-x-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hydrogen-tank-x-20-bold.vue"
+    },
+    "./hydrogen-tank-x-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hydrogen-tank-x-48.vue"
+    },
+    "./hydrogen-tank-x-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hydrogen-tank-x-48-bold.vue"
+    },
     "./hydrogen-truck-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/hydrogen-truck-20.vue"
@@ -10758,6 +12214,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/i/image-48-bold.vue"
     },
+    "./image-check-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/image-check-20.vue"
+    },
+    "./image-check-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/image-check-20-bold.vue"
+    },
+    "./image-check-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/image-check-48.vue"
+    },
+    "./image-check-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/image-check-48-bold.vue"
+    },
     "./image-plus-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/i/image-plus-20.vue"
@@ -10773,6 +12245,38 @@
     "./image-plus-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/i/image-plus-48-bold.vue"
+    },
+    "./image-x-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/image-x-20.vue"
+    },
+    "./image-x-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/image-x-20-bold.vue"
+    },
+    "./image-x-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/image-x-48.vue"
+    },
+    "./image-x-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/image-x-48-bold.vue"
+    },
+    "./images-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/images-20.vue"
+    },
+    "./images-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/images-20-bold.vue"
+    },
+    "./images-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/images-48.vue"
+    },
+    "./images-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/images-48-bold.vue"
     },
     "./import-export-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -11174,6 +12678,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/k/key-handover-48-bold.vue"
     },
+    "./key-plus-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/key-plus-20.vue"
+    },
+    "./key-plus-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/key-plus-20-bold.vue"
+    },
+    "./key-plus-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/key-plus-48.vue"
+    },
+    "./key-plus-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/key-plus-48-bold.vue"
+    },
     "./key-round-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/k/key-round-20.vue"
@@ -11205,6 +12725,22 @@
     "./keyboard-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/k/keyboard-48-bold.vue"
+    },
+    "./kick-scooter-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kick-scooter-20.vue"
+    },
+    "./kick-scooter-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kick-scooter-20-bold.vue"
+    },
+    "./kick-scooter-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kick-scooter-48.vue"
+    },
+    "./kick-scooter-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kick-scooter-48-bold.vue"
     },
     "./kiln-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -11286,6 +12822,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/l/ladle-48-bold.vue"
     },
+    "./ladybird-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/ladybird-20.vue"
+    },
+    "./ladybird-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/ladybird-20-bold.vue"
+    },
+    "./ladybird-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/ladybird-48.vue"
+    },
+    "./ladybird-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/ladybird-48-bold.vue"
+    },
     "./lakeside-cabin-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/l/lakeside-cabin-20.vue"
@@ -11349,6 +12901,22 @@
     "./laptop-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/l/laptop-48-bold.vue"
+    },
+    "./lathe-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lathe-20.vue"
+    },
+    "./lathe-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lathe-20-bold.vue"
+    },
+    "./lathe-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lathe-48.vue"
+    },
+    "./lathe-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lathe-48-bold.vue"
     },
     "./laundry-basket-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -11894,6 +13462,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/l/lpg-tank-48-bold.vue"
     },
+    "./luggage-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/luggage-20.vue"
+    },
+    "./luggage-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/luggage-20-bold.vue"
+    },
+    "./luggage-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/luggage-48.vue"
+    },
+    "./luggage-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/luggage-48-bold.vue"
+    },
     "./magnet-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/magnet-20.vue"
@@ -11942,6 +13526,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/mail-check-48-bold.vue"
     },
+    "./mail-minus-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mail-minus-20.vue"
+    },
+    "./mail-minus-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mail-minus-20-bold.vue"
+    },
+    "./mail-minus-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mail-minus-48.vue"
+    },
+    "./mail-minus-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mail-minus-48-bold.vue"
+    },
     "./mail-open-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/mail-open-20.vue"
@@ -11973,6 +13573,22 @@
     "./mail-plus-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/mail-plus-48-bold.vue"
+    },
+    "./mail-x-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mail-x-20.vue"
+    },
+    "./mail-x-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mail-x-20-bold.vue"
+    },
+    "./mail-x-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mail-x-48.vue"
+    },
+    "./mail-x-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mail-x-48-bold.vue"
     },
     "./map-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -12022,6 +13638,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/map-pin-48-bold.vue"
     },
+    "./map-pin-check-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/map-pin-check-20.vue"
+    },
+    "./map-pin-check-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/map-pin-check-20-bold.vue"
+    },
+    "./map-pin-check-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/map-pin-check-48.vue"
+    },
+    "./map-pin-check-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/map-pin-check-48-bold.vue"
+    },
     "./map-pin-off-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/map-pin-off-20.vue"
@@ -12037,6 +13669,38 @@
     "./map-pin-off-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/map-pin-off-48-bold.vue"
+    },
+    "./map-pin-plus-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/map-pin-plus-20.vue"
+    },
+    "./map-pin-plus-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/map-pin-plus-20-bold.vue"
+    },
+    "./map-pin-plus-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/map-pin-plus-48.vue"
+    },
+    "./map-pin-plus-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/map-pin-plus-48-bold.vue"
+    },
+    "./map-pin-x-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/map-pin-x-20.vue"
+    },
+    "./map-pin-x-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/map-pin-x-20-bold.vue"
+    },
+    "./map-pin-x-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/map-pin-x-48.vue"
+    },
+    "./map-pin-x-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/map-pin-x-48-bold.vue"
     },
     "./map-route-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -12085,6 +13749,22 @@
     "./medal-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/medal-48-bold.vue"
+    },
+    "./medical-cross-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/medical-cross-20.vue"
+    },
+    "./medical-cross-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/medical-cross-20-bold.vue"
+    },
+    "./medical-cross-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/medical-cross-48.vue"
+    },
+    "./medical-cross-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/medical-cross-48-bold.vue"
     },
     "./meeting-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -12149,6 +13829,22 @@
     "./memory-card-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/memory-card-48-bold.vue"
+    },
+    "./memory-chip-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/memory-chip-20.vue"
+    },
+    "./memory-chip-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/memory-chip-20-bold.vue"
+    },
+    "./memory-chip-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/memory-chip-48.vue"
+    },
+    "./memory-chip-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/memory-chip-48-bold.vue"
     },
     "./menu-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -12230,6 +13926,38 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/message-plus-48-bold.vue"
     },
+    "./message-square-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/message-square-20.vue"
+    },
+    "./message-square-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/message-square-20-bold.vue"
+    },
+    "./message-square-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/message-square-48.vue"
+    },
+    "./message-square-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/message-square-48-bold.vue"
+    },
+    "./message-x-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/message-x-20.vue"
+    },
+    "./message-x-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/message-x-20-bold.vue"
+    },
+    "./message-x-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/message-x-48.vue"
+    },
+    "./message-x-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/message-x-48-bold.vue"
+    },
     "./messages-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/messages-20.vue"
@@ -12277,6 +14005,22 @@
     "./methane-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/methane-48-bold.vue"
+    },
+    "./metro-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/metro-20.vue"
+    },
+    "./metro-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/metro-20-bold.vue"
+    },
+    "./metro-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/metro-48.vue"
+    },
+    "./metro-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/metro-48-bold.vue"
     },
     "./mic-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -12341,6 +14085,22 @@
     "./microgrid-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/microgrid-48-bold.vue"
+    },
+    "./microscope-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/microscope-20.vue"
+    },
+    "./microscope-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/microscope-20-bold.vue"
+    },
+    "./microscope-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/microscope-48.vue"
+    },
+    "./microscope-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/microscope-48-bold.vue"
     },
     "./microwave-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -12518,6 +14278,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/monitor-48-bold.vue"
     },
+    "./monitor-x-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/monitor-x-20.vue"
+    },
+    "./monitor-x-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/monitor-x-20-bold.vue"
+    },
+    "./monitor-x-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/monitor-x-48.vue"
+    },
+    "./monitor-x-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/monitor-x-48-bold.vue"
+    },
     "./monopile-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/monopile-20.vue"
@@ -12581,6 +14357,22 @@
     "./mooring-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/mooring-48-bold.vue"
+    },
+    "./mop-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mop-20.vue"
+    },
+    "./mop-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mop-20-bold.vue"
+    },
+    "./mop-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mop-48.vue"
+    },
+    "./mop-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mop-48-bold.vue"
     },
     "./more-horizontal-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -12790,6 +14582,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/multimeter-48-bold.vue"
     },
+    "./mushroom-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mushroom-20.vue"
+    },
+    "./mushroom-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mushroom-20-bold.vue"
+    },
+    "./mushroom-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mushroom-48.vue"
+    },
+    "./mushroom-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mushroom-48-bold.vue"
+    },
     "./music-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/music-20.vue"
@@ -12966,6 +14774,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/n/note-48-bold.vue"
     },
+    "./notebook-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/notebook-20.vue"
+    },
+    "./notebook-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/notebook-20-bold.vue"
+    },
+    "./notebook-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/notebook-48.vue"
+    },
+    "./notebook-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/notebook-48-bold.vue"
+    },
     "./nuclear-plant-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/n/nuclear-plant-20.vue"
@@ -13094,6 +14918,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/o/oil-48-bold.vue"
     },
+    "./oil-can-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/oil-can-20.vue"
+    },
+    "./oil-can-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/oil-can-20-bold.vue"
+    },
+    "./oil-can-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/oil-can-48.vue"
+    },
+    "./oil-can-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/oil-can-48-bold.vue"
+    },
     "./oil-rig-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/o/oil-rig-20.vue"
@@ -13173,6 +15013,22 @@
     "./oven-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/o/oven-48-bold.vue"
+    },
+    "./owl-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owl-20.vue"
+    },
+    "./owl-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owl-20-bold.vue"
+    },
+    "./owl-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owl-48.vue"
+    },
+    "./owl-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owl-48-bold.vue"
     },
     "./ozone-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -13414,6 +15270,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/paperclip-48-bold.vue"
     },
+    "./paragraph-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/paragraph-20.vue"
+    },
+    "./paragraph-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/paragraph-20-bold.vue"
+    },
+    "./paragraph-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/paragraph-48.vue"
+    },
+    "./paragraph-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/paragraph-48-bold.vue"
+    },
     "./parallelogram-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/parallelogram-20.vue"
@@ -13445,6 +15317,38 @@
     "./parking-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/parking-48-bold.vue"
+    },
+    "./password-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/password-20.vue"
+    },
+    "./password-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/password-20-bold.vue"
+    },
+    "./password-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/password-48.vue"
+    },
+    "./password-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/password-48-bold.vue"
+    },
+    "./paste-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/paste-20.vue"
+    },
+    "./paste-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/paste-20-bold.vue"
+    },
+    "./paste-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/paste-48.vue"
+    },
+    "./paste-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/paste-48-bold.vue"
     },
     "./pause-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -13573,6 +15477,22 @@
     "./pencil-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/pencil-48-bold.vue"
+    },
+    "./penguin-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/penguin-20.vue"
+    },
+    "./penguin-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/penguin-20-bold.vue"
+    },
+    "./penguin-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/penguin-48.vue"
+    },
+    "./penguin-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/penguin-48-bold.vue"
     },
     "./penstock-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -13718,6 +15638,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/phone-off-48-bold.vue"
     },
+    "./pi-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pi-20.vue"
+    },
+    "./pi-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pi-20-bold.vue"
+    },
+    "./pi-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pi-48.vue"
+    },
+    "./pi-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pi-48-bold.vue"
+    },
     "./pickaxe-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/pickaxe-20.vue"
@@ -13782,6 +15718,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/pier-48-bold.vue"
     },
+    "./pig-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pig-20.vue"
+    },
+    "./pig-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pig-20-bold.vue"
+    },
+    "./pig-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pig-48.vue"
+    },
+    "./pig-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pig-48-bold.vue"
+    },
     "./piggy-bank-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/piggy-bank-20.vue"
@@ -13797,6 +15749,38 @@
     "./piggy-bank-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/piggy-bank-48-bold.vue"
+    },
+    "./pill-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pill-20.vue"
+    },
+    "./pill-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pill-20-bold.vue"
+    },
+    "./pill-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pill-48.vue"
+    },
+    "./pill-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pill-48-bold.vue"
+    },
+    "./pill-bottle-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pill-bottle-20.vue"
+    },
+    "./pill-bottle-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pill-bottle-20-bold.vue"
+    },
+    "./pill-bottle-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pill-bottle-48.vue"
+    },
+    "./pill-bottle-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pill-bottle-48-bold.vue"
     },
     "./pin-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -14006,6 +15990,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/play-circle-48-bold.vue"
     },
+    "./playlist-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/playlist-20.vue"
+    },
+    "./playlist-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/playlist-20-bold.vue"
+    },
+    "./playlist-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/playlist-48.vue"
+    },
+    "./playlist-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/playlist-48-bold.vue"
+    },
     "./pliers-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/pliers-20.vue"
@@ -14117,6 +16117,38 @@
     "./plug-x-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/plug-x-48-bold.vue"
+    },
+    "./plumb-bob-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/plumb-bob-20.vue"
+    },
+    "./plumb-bob-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/plumb-bob-20-bold.vue"
+    },
+    "./plumb-bob-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/plumb-bob-48.vue"
+    },
+    "./plumb-bob-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/plumb-bob-48-bold.vue"
+    },
+    "./plunger-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/plunger-20.vue"
+    },
+    "./plunger-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/plunger-20-bold.vue"
+    },
+    "./plunger-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/plunger-48.vue"
+    },
+    "./plunger-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/plunger-48-bold.vue"
     },
     "./plus-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -14342,6 +16374,54 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/power-station-48-bold.vue"
     },
+    "./power-station-alert-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/power-station-alert-20.vue"
+    },
+    "./power-station-alert-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/power-station-alert-20-bold.vue"
+    },
+    "./power-station-alert-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/power-station-alert-48.vue"
+    },
+    "./power-station-alert-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/power-station-alert-48-bold.vue"
+    },
+    "./power-station-check-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/power-station-check-20.vue"
+    },
+    "./power-station-check-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/power-station-check-20-bold.vue"
+    },
+    "./power-station-check-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/power-station-check-48.vue"
+    },
+    "./power-station-check-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/power-station-check-48-bold.vue"
+    },
+    "./power-station-x-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/power-station-x-20.vue"
+    },
+    "./power-station-x-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/power-station-x-20-bold.vue"
+    },
+    "./power-station-x-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/power-station-x-48.vue"
+    },
+    "./power-station-x-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/power-station-x-48-bold.vue"
+    },
     "./ppa-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/ppa-20.vue"
@@ -14390,6 +16470,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/pram-48-bold.vue"
     },
+    "./prescription-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/prescription-20.vue"
+    },
+    "./prescription-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/prescription-20-bold.vue"
+    },
+    "./prescription-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/prescription-48.vue"
+    },
+    "./prescription-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/prescription-48-bold.vue"
+    },
     "./presentation-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/presentation-20.vue"
@@ -14405,6 +16501,22 @@
     "./presentation-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/presentation-48-bold.vue"
+    },
+    "./pressure-gauge-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pressure-gauge-20.vue"
+    },
+    "./pressure-gauge-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pressure-gauge-20-bold.vue"
+    },
+    "./pressure-gauge-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pressure-gauge-48.vue"
+    },
+    "./pressure-gauge-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pressure-gauge-48-bold.vue"
     },
     "./price-down-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -14446,6 +16558,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/printer-20-bold.vue"
     },
+    "./printer-3d-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/printer-3d-20.vue"
+    },
+    "./printer-3d-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/printer-3d-20-bold.vue"
+    },
+    "./printer-3d-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/printer-3d-48.vue"
+    },
+    "./printer-3d-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/printer-3d-48-bold.vue"
+    },
     "./printer-48": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/printer-48.vue"
@@ -14486,6 +16614,38 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/procurement-48-bold.vue"
     },
+    "./projector-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/projector-20.vue"
+    },
+    "./projector-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/projector-20-bold.vue"
+    },
+    "./projector-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/projector-48.vue"
+    },
+    "./projector-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/projector-48-bold.vue"
+    },
+    "./protractor-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/protractor-20.vue"
+    },
+    "./protractor-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/protractor-20-bold.vue"
+    },
+    "./protractor-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/protractor-48.vue"
+    },
+    "./protractor-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/protractor-48-bold.vue"
+    },
     "./pulley-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/pulley-20.vue"
@@ -14518,6 +16678,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/pumped-hydro-48-bold.vue"
     },
+    "./pushpin-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pushpin-20.vue"
+    },
+    "./pushpin-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pushpin-20-bold.vue"
+    },
+    "./pushpin-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pushpin-48.vue"
+    },
+    "./pushpin-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pushpin-48-bold.vue"
+    },
     "./puzzle-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/puzzle-20.vue"
@@ -14549,6 +16725,54 @@
     "./pylon-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/pylon-48-bold.vue"
+    },
+    "./pylon-alert-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pylon-alert-20.vue"
+    },
+    "./pylon-alert-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pylon-alert-20-bold.vue"
+    },
+    "./pylon-alert-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pylon-alert-48.vue"
+    },
+    "./pylon-alert-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pylon-alert-48-bold.vue"
+    },
+    "./pylon-check-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pylon-check-20.vue"
+    },
+    "./pylon-check-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pylon-check-20-bold.vue"
+    },
+    "./pylon-check-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pylon-check-48.vue"
+    },
+    "./pylon-check-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pylon-check-48-bold.vue"
+    },
+    "./pylon-x-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pylon-x-20.vue"
+    },
+    "./pylon-x-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pylon-x-20-bold.vue"
+    },
+    "./pylon-x-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pylon-x-48.vue"
+    },
+    "./pylon-x-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pylon-x-48-bold.vue"
     },
     "./pyramid-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -14613,6 +16837,22 @@
     "./quote-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/q/quote-48-bold.vue"
+    },
+    "./rabbit-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rabbit-20.vue"
+    },
+    "./rabbit-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rabbit-20-bold.vue"
+    },
+    "./rabbit-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rabbit-48.vue"
+    },
+    "./rabbit-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rabbit-48-bold.vue"
     },
     "./radar-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -14950,6 +17190,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/r/repeat-48-bold.vue"
     },
+    "./repeat-one-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/repeat-one-20.vue"
+    },
+    "./repeat-one-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/repeat-one-20-bold.vue"
+    },
+    "./repeat-one-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/repeat-one-48.vue"
+    },
+    "./repeat-one-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/repeat-one-48-bold.vue"
+    },
     "./reply-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/r/reply-20.vue"
@@ -15222,6 +17478,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/r/rotor-48-bold.vue"
     },
+    "./roundabout-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/roundabout-20.vue"
+    },
+    "./roundabout-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/roundabout-20-bold.vue"
+    },
+    "./roundabout-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/roundabout-48.vue"
+    },
+    "./roundabout-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/roundabout-48-bold.vue"
+    },
     "./router-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/r/router-20.vue"
@@ -15237,6 +17509,22 @@
     "./router-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/r/router-48-bold.vue"
+    },
+    "./router-x-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/router-x-20.vue"
+    },
+    "./router-x-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/router-x-20-bold.vue"
+    },
+    "./router-x-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/router-x-48.vue"
+    },
+    "./router-x-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/router-x-48-bold.vue"
     },
     "./rov-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -15269,6 +17557,22 @@
     "./rowing-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/r/rowing-48-bold.vue"
+    },
+    "./rows-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rows-20.vue"
+    },
+    "./rows-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rows-20-bold.vue"
+    },
+    "./rows-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rows-48.vue"
+    },
+    "./rows-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rows-48-bold.vue"
     },
     "./rss-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -15590,6 +17894,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/scan-face-48-bold.vue"
     },
+    "./scanner-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/scanner-20.vue"
+    },
+    "./scanner-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/scanner-20-bold.vue"
+    },
+    "./scanner-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/scanner-48.vue"
+    },
+    "./scanner-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/scanner-48-bold.vue"
+    },
     "./school-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/school-20.vue"
@@ -15846,6 +18166,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/server-48-bold.vue"
     },
+    "./server-x-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/server-x-20.vue"
+    },
+    "./server-x-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/server-x-20-bold.vue"
+    },
+    "./server-x-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/server-x-48.vue"
+    },
+    "./server-x-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/server-x-48-bold.vue"
+    },
     "./service-vessel-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/service-vessel-20.vue"
@@ -15861,6 +18197,22 @@
     "./service-vessel-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/service-vessel-48-bold.vue"
+    },
+    "./set-square-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/set-square-20.vue"
+    },
+    "./set-square-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/set-square-20-bold.vue"
+    },
+    "./set-square-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/set-square-48.vue"
+    },
+    "./set-square-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/set-square-48-bold.vue"
     },
     "./settings-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -15990,6 +18342,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/shield-off-48-bold.vue"
     },
+    "./shield-plus-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/shield-plus-20.vue"
+    },
+    "./shield-plus-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/shield-plus-20-bold.vue"
+    },
+    "./shield-plus-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/shield-plus-48.vue"
+    },
+    "./shield-plus-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/shield-plus-48-bold.vue"
+    },
     "./shield-x-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/shield-x-20.vue"
@@ -16069,6 +18437,54 @@
     "./shopping-cart-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/shopping-cart-48-bold.vue"
+    },
+    "./shopping-cart-check-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/shopping-cart-check-20.vue"
+    },
+    "./shopping-cart-check-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/shopping-cart-check-20-bold.vue"
+    },
+    "./shopping-cart-check-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/shopping-cart-check-48.vue"
+    },
+    "./shopping-cart-check-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/shopping-cart-check-48-bold.vue"
+    },
+    "./shopping-cart-plus-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/shopping-cart-plus-20.vue"
+    },
+    "./shopping-cart-plus-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/shopping-cart-plus-20-bold.vue"
+    },
+    "./shopping-cart-plus-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/shopping-cart-plus-48.vue"
+    },
+    "./shopping-cart-plus-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/shopping-cart-plus-48-bold.vue"
+    },
+    "./shopping-cart-x-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/shopping-cart-x-20.vue"
+    },
+    "./shopping-cart-x-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/shopping-cart-x-20-bold.vue"
+    },
+    "./shopping-cart-x-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/shopping-cart-x-48.vue"
+    },
+    "./shopping-cart-x-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/shopping-cart-x-48-bold.vue"
     },
     "./shower-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -16502,6 +18918,54 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/smart-meter-48-bold.vue"
     },
+    "./smart-meter-alert-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/smart-meter-alert-20.vue"
+    },
+    "./smart-meter-alert-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/smart-meter-alert-20-bold.vue"
+    },
+    "./smart-meter-alert-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/smart-meter-alert-48.vue"
+    },
+    "./smart-meter-alert-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/smart-meter-alert-48-bold.vue"
+    },
+    "./smart-meter-check-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/smart-meter-check-20.vue"
+    },
+    "./smart-meter-check-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/smart-meter-check-20-bold.vue"
+    },
+    "./smart-meter-check-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/smart-meter-check-48.vue"
+    },
+    "./smart-meter-check-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/smart-meter-check-48-bold.vue"
+    },
+    "./smart-meter-x-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/smart-meter-x-20.vue"
+    },
+    "./smart-meter-x-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/smart-meter-x-20-bold.vue"
+    },
+    "./smart-meter-x-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/smart-meter-x-48.vue"
+    },
+    "./smart-meter-x-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/smart-meter-x-48-bold.vue"
+    },
     "./smart-plug-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/smart-plug-20.vue"
@@ -16550,6 +19014,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/smartphone-48-bold.vue"
     },
+    "./smartphone-check-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/smartphone-check-20.vue"
+    },
+    "./smartphone-check-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/smartphone-check-20-bold.vue"
+    },
+    "./smartphone-check-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/smartphone-check-48.vue"
+    },
+    "./smartphone-check-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/smartphone-check-48-bold.vue"
+    },
     "./smile-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/smile-20.vue"
@@ -16597,6 +19077,22 @@
     "./smr-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/smr-48-bold.vue"
+    },
+    "./snail-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/snail-20.vue"
+    },
+    "./snail-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/snail-20-bold.vue"
+    },
+    "./snail-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/snail-48.vue"
+    },
+    "./snail-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/snail-48-bold.vue"
     },
     "./snowboard-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -16821,6 +19317,54 @@
     "./solar-inverter-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/solar-inverter-48-bold.vue"
+    },
+    "./solar-inverter-alert-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/solar-inverter-alert-20.vue"
+    },
+    "./solar-inverter-alert-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/solar-inverter-alert-20-bold.vue"
+    },
+    "./solar-inverter-alert-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/solar-inverter-alert-48.vue"
+    },
+    "./solar-inverter-alert-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/solar-inverter-alert-48-bold.vue"
+    },
+    "./solar-inverter-check-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/solar-inverter-check-20.vue"
+    },
+    "./solar-inverter-check-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/solar-inverter-check-20-bold.vue"
+    },
+    "./solar-inverter-check-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/solar-inverter-check-48.vue"
+    },
+    "./solar-inverter-check-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/solar-inverter-check-48-bold.vue"
+    },
+    "./solar-inverter-x-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/solar-inverter-x-20.vue"
+    },
+    "./solar-inverter-x-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/solar-inverter-x-20-bold.vue"
+    },
+    "./solar-inverter-x-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/solar-inverter-x-48.vue"
+    },
+    "./solar-inverter-x-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/solar-inverter-x-48-bold.vue"
     },
     "./solar-irradiance-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -17078,6 +19622,38 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/solar-tracker-48-bold.vue"
     },
+    "./soldering-iron-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/soldering-iron-20.vue"
+    },
+    "./soldering-iron-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/soldering-iron-20-bold.vue"
+    },
+    "./soldering-iron-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/soldering-iron-48.vue"
+    },
+    "./soldering-iron-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/soldering-iron-48-bold.vue"
+    },
+    "./sort-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sort-20.vue"
+    },
+    "./sort-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sort-20-bold.vue"
+    },
+    "./sort-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sort-48.vue"
+    },
+    "./sort-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sort-48-bold.vue"
+    },
     "./sort-alpha-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/sort-alpha-20.vue"
@@ -17238,6 +19814,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/spirit-level-48-bold.vue"
     },
+    "./split-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/split-20.vue"
+    },
+    "./split-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/split-20-bold.vue"
+    },
+    "./split-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/split-48.vue"
+    },
+    "./split-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/split-48-bold.vue"
+    },
     "./spring-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/spring-20.vue"
@@ -17318,6 +19910,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/square-dashed-48-bold.vue"
     },
+    "./square-root-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/square-root-20.vue"
+    },
+    "./square-root-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/square-root-20-bold.vue"
+    },
+    "./square-root-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/square-root-48.vue"
+    },
+    "./square-root-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/square-root-48-bold.vue"
+    },
     "./stadium-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/stadium-20.vue"
@@ -17349,6 +19957,22 @@
     "./stamp-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/stamp-48-bold.vue"
+    },
+    "./stapler-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stapler-20.vue"
+    },
+    "./stapler-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stapler-20-bold.vue"
+    },
+    "./stapler-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stapler-48.vue"
+    },
+    "./stapler-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stapler-48-bold.vue"
     },
     "./star-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -17382,6 +20006,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/star-half-48-bold.vue"
     },
+    "./star-plus-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/star-plus-20.vue"
+    },
+    "./star-plus-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/star-plus-20-bold.vue"
+    },
+    "./star-plus-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/star-plus-48.vue"
+    },
+    "./star-plus-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/star-plus-48-bold.vue"
+    },
     "./stargazing-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/stargazing-20.vue"
@@ -17413,6 +20053,22 @@
     "./steel-mill-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/steel-mill-48-bold.vue"
+    },
+    "./stethoscope-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stethoscope-20.vue"
+    },
+    "./stethoscope-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stethoscope-20-bold.vue"
+    },
+    "./stethoscope-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stethoscope-48.vue"
+    },
+    "./stethoscope-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stethoscope-48-bold.vue"
     },
     "./sticky-note-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -17461,6 +20117,22 @@
     "./stop-circle-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/stop-circle-48-bold.vue"
+    },
+    "./stopwatch-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stopwatch-20.vue"
+    },
+    "./stopwatch-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stopwatch-20-bold.vue"
+    },
+    "./stopwatch-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stopwatch-48.vue"
+    },
+    "./stopwatch-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stopwatch-48-bold.vue"
     },
     "./store-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -17557,6 +20229,54 @@
     "./substation-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/substation-48-bold.vue"
+    },
+    "./substation-alert-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/substation-alert-20.vue"
+    },
+    "./substation-alert-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/substation-alert-20-bold.vue"
+    },
+    "./substation-alert-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/substation-alert-48.vue"
+    },
+    "./substation-alert-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/substation-alert-48-bold.vue"
+    },
+    "./substation-check-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/substation-check-20.vue"
+    },
+    "./substation-check-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/substation-check-20-bold.vue"
+    },
+    "./substation-check-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/substation-check-48.vue"
+    },
+    "./substation-check-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/substation-check-48-bold.vue"
+    },
+    "./substation-x-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/substation-x-20.vue"
+    },
+    "./substation-x-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/substation-x-20-bold.vue"
+    },
+    "./substation-x-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/substation-x-48.vue"
+    },
+    "./substation-x-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/substation-x-48-bold.vue"
     },
     "./sun-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -17894,6 +20614,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/sync-48-bold.vue"
     },
+    "./syringe-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/syringe-20.vue"
+    },
+    "./syringe-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/syringe-20-bold.vue"
+    },
+    "./syringe-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/syringe-48.vue"
+    },
+    "./syringe-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/syringe-48-bold.vue"
+    },
     "./table-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/table-20.vue"
@@ -17974,6 +20710,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/tag-48-bold.vue"
     },
+    "./tag-plus-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tag-plus-20.vue"
+    },
+    "./tag-plus-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tag-plus-20-bold.vue"
+    },
+    "./tag-plus-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tag-plus-48.vue"
+    },
+    "./tag-plus-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tag-plus-48-bold.vue"
+    },
     "./tanker-truck-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/tanker-truck-20.vue"
@@ -18037,6 +20789,22 @@
     "./tariff-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/tariff-48-bold.vue"
+    },
+    "./taxi-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/taxi-20.vue"
+    },
+    "./taxi-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/taxi-20-bold.vue"
+    },
+    "./taxi-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/taxi-48.vue"
+    },
+    "./taxi-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/taxi-48-bold.vue"
     },
     "./tea-cup-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -18486,6 +21254,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/toolbox-48-bold.vue"
     },
+    "./tooth-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tooth-20.vue"
+    },
+    "./tooth-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tooth-20-bold.vue"
+    },
+    "./tooth-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tooth-48.vue"
+    },
+    "./tooth-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tooth-48-bold.vue"
+    },
     "./torch-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/torch-20.vue"
@@ -18518,6 +21302,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/tornado-48-bold.vue"
     },
+    "./torque-wrench-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/torque-wrench-20.vue"
+    },
+    "./torque-wrench-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/torque-wrench-20-bold.vue"
+    },
+    "./torque-wrench-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/torque-wrench-48.vue"
+    },
+    "./torque-wrench-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/torque-wrench-48-bold.vue"
+    },
     "./towels-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/towels-20.vue"
@@ -18533,6 +21333,22 @@
     "./towels-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/towels-48-bold.vue"
+    },
+    "./town-hall-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/town-hall-20.vue"
+    },
+    "./town-hall-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/town-hall-20-bold.vue"
+    },
+    "./town-hall-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/town-hall-48.vue"
+    },
+    "./town-hall-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/town-hall-48-bold.vue"
     },
     "./tractor-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -18789,6 +21605,22 @@
     "./turbine-maintenance-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/turbine-maintenance-48-bold.vue"
+    },
+    "./turtle-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/turtle-20.vue"
+    },
+    "./turtle-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/turtle-20-bold.vue"
+    },
+    "./turtle-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/turtle-48.vue"
+    },
+    "./turtle-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/turtle-48-bold.vue"
     },
     "./tv-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -19158,6 +21990,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/u/users-48-bold.vue"
     },
+    "./users-plus-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/users-plus-20.vue"
+    },
+    "./users-plus-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/users-plus-20-bold.vue"
+    },
+    "./users-plus-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/users-plus-48.vue"
+    },
+    "./users-plus-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/users-plus-48-bold.vue"
+    },
     "./uv-index-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/u/uv-index-20.vue"
@@ -19189,6 +22037,22 @@
     "./vacuum-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/v/vacuum-48-bold.vue"
+    },
+    "./valve-wheel-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/valve-wheel-20.vue"
+    },
+    "./valve-wheel-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/valve-wheel-20-bold.vue"
+    },
+    "./valve-wheel-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/valve-wheel-48.vue"
+    },
+    "./valve-wheel-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/valve-wheel-48-bold.vue"
     },
     "./van-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -19334,6 +22198,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/v/video-off-48-bold.vue"
     },
+    "./video-plus-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/video-plus-20.vue"
+    },
+    "./video-plus-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/video-plus-20-bold.vue"
+    },
+    "./video-plus-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/video-plus-48.vue"
+    },
+    "./video-plus-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/video-plus-48-bold.vue"
+    },
     "./villa-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/v/villa-20.vue"
@@ -19365,6 +22245,22 @@
     "./virtual-power-plant-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/v/virtual-power-plant-48-bold.vue"
+    },
+    "./virus-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/virus-20.vue"
+    },
+    "./virus-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/virus-20-bold.vue"
+    },
+    "./virus-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/virus-48.vue"
+    },
+    "./virus-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/virus-48-bold.vue"
     },
     "./voicemail-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -19877,6 +22773,22 @@
     "./whistle-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/w/whistle-48-bold.vue"
+    },
+    "./whiteboard-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/whiteboard-20.vue"
+    },
+    "./whiteboard-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/whiteboard-20-bold.vue"
+    },
+    "./whiteboard-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/whiteboard-48.vue"
+    },
+    "./whiteboard-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/whiteboard-48-bold.vue"
     },
     "./wifi-20": {
       "types": "./types/dd0bq22g.d.ts",

@@ -1,6 +1,5 @@
 # @iconify-vue/garden
 
-⚠️ This is an alternative repository. Main repository has moved to [GitLab](https://gitlab.com/iconify-icons/vue/-/tree/garden).
 **Garden SVG Icons**
 
 Author: [Zendesk](https://github.com/zendeskgarden/svg-icons)
@@ -28,7 +27,7 @@ Few usage examples:
 
 ```vue
 <script setup lang="ts">
-import SampleIcon from '@iconify-vue/garden/asterisk-stroke-12';
+import SampleIcon from '@iconify-vue/garden/asterisk-20';
 </script>
 <template>
   <SampleIcon />
@@ -39,7 +38,7 @@ To resize icon, set `width` and/or `height` parameters:
 
 ```vue
 <script setup lang="ts">
-import SampleIcon from '@iconify-vue/garden/bookmark-fill-12';
+import SampleIcon from '@iconify-vue/garden/bookmark-fill-20';
 </script>
 <template>
   <SampleIcon height="1em" />
@@ -50,7 +49,7 @@ To change icon color, use style:
 
 ```vue
 <script setup lang="ts">
-import SampleIcon from '@iconify-vue/garden/moon-fill-12';
+import SampleIcon from '@iconify-vue/garden/moon-fill-20';
 </script>
 <template>
   <SampleIcon style="color: red;" />

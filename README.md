@@ -1,6 +1,5 @@
 # @iconify-vue/logos
 
-⚠️ This is an alternative repository. Main repository has moved to [GitLab](https://gitlab.com/iconify-icons/vue/-/tree/logos).
 **SVG Logos**
 
 Author: [Gil Barbara](https://github.com/gilbarbara/logos)

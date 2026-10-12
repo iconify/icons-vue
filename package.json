@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/logos",
   "type": "module",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "homepage": "https://icon-sets.iconify.design/logos/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "CC0-1.0",
@@ -926,6 +926,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/baseline.vue"
     },
+    "./baseten": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/baseten.vue"
+    },
+    "./baseten-icon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/baseten-icon.vue"
+    },
     "./bash": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/bash.vue"
@@ -1141,6 +1149,14 @@
     "./brotli": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/brotli.vue"
+    },
+    "./browserbase": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/browserbase.vue"
+    },
+    "./browserbase-icon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/browserbase-icon.vue"
     },
     "./browserify": {
       "types": "./types/dd0bq22g.d.ts",
@@ -1814,6 +1830,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/coreos-icon.vue"
     },
+    "./coreweave": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/coreweave.vue"
+    },
+    "./coreweave-icon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/coreweave-icon.vue"
+    },
     "./couchbase": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/couchbase.vue"
@@ -1865,6 +1889,10 @@
     "./createjs": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/createjs.vue"
+    },
+    "./crewai": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/crewai.vue"
     },
     "./crittercism": {
       "types": "./types/dd0bq22g.d.ts",
@@ -2341,6 +2369,10 @@
     "./drip": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/drip.vue"
+    },
+    "./driverjs": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/driverjs.vue"
     },
     "./drizzle": {
       "types": "./types/dd0bq22g.d.ts",
@@ -3294,6 +3326,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/google-fit.vue"
     },
+    "./google-fonts": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/google-fonts.vue"
+    },
+    "./google-fonts-icon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/google-fonts-icon.vue"
+    },
     "./google-gemini": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/google-gemini.vue"
@@ -3446,6 +3486,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/grails.vue"
     },
+    "./grain-lang": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/grain-lang.vue"
+    },
     "./grammarly": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/grammarly.vue"
@@ -3525,6 +3569,10 @@
     "./groovehq": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/groovehq.vue"
+    },
+    "./groq": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/groq.vue"
     },
     "./grove": {
       "types": "./types/dd0bq22g.d.ts",
@@ -5506,6 +5554,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/n/nuclide.vue"
     },
+    "./nuget": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nuget.vue"
+    },
+    "./nuget-icon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nuget-icon.vue"
+    },
     "./numpy": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/n/numpy.vue"
@@ -5665,6 +5721,26 @@
     "./openlayers": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/o/openlayers.vue"
+    },
+    "./openrouter": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/openrouter.vue"
+    },
+    "./openrouter-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/openrouter-dark.vue"
+    },
+    "./openrouter-icon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/openrouter-icon.vue"
+    },
+    "./openrouter-icon-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/openrouter-icon-dark.vue"
+    },
+    "./openrouter-icon-mono": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/openrouter-icon-mono.vue"
     },
     "./opensearch": {
       "types": "./types/dd0bq22g.d.ts",
@@ -6029,6 +6105,10 @@
     "./planless-icon": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/planless-icon.vue"
+    },
+    "./plantuml": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/plantuml.vue"
     },
     "./plasmic": {
       "types": "./types/dd0bq22g.d.ts",
@@ -6497,6 +6577,10 @@
     "./recoil-icon": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/r/recoil-icon.vue"
+    },
+    "./red-lang": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/red-lang.vue"
     },
     "./reddit": {
       "types": "./types/dd0bq22g.d.ts",
@@ -7826,6 +7910,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/trace.vue"
     },
+    "./traefik-proxy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/traefik-proxy.vue"
+    },
+    "./traefik-proxy-icon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/traefik-proxy-icon.vue"
+    },
     "./travis-ci": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/travis-ci.vue"
@@ -8326,6 +8418,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/w/walkme.vue"
     },
+    "./wandb": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wandb.vue"
+    },
+    "./wandb-icon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wandb-icon.vue"
+    },
     "./watchman": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/w/watchman.vue"
@@ -8353,6 +8453,18 @@
     "./weave": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/w/weave.vue"
+    },
+    "./weaviate": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/weaviate.vue"
+    },
+    "./weaviate-icon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/weaviate-icon.vue"
+    },
+    "./weaviate-icon-alt": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/weaviate-icon-alt.vue"
     },
     "./web-dev": {
       "types": "./types/dd0bq22g.d.ts",

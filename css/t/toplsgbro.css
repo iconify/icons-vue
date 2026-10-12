@@ -1,0 +1,7 @@
+.toplsgbro {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M6.98 2.76c-.83.03-2.48.74-2.48 3.6v9.28c0 1.1.9 2 2 2h3.22");
+}

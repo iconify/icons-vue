@@ -1,0 +1,7 @@
+.kanmdxout {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M7.42 20.88v-5.85c0-1.2 0-1.81.18-2.38s.5-1.08 1.18-2.08l2.06-3.05c.75-1.12 1.12-1.68 1.66-1.68s.9.56 1.66 1.68l2.05 3.05c.67 1 1.01 1.5 1.19 2.08c.17.57.17 1.17.17 2.38v5.85");
+}

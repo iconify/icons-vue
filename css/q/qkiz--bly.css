@@ -1,0 +1,7 @@
+.qkiz--bly {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M1.6 12A10.4 10.4 0 0 0 12 22.41A10.41 10.41 0 1 0 1.6 12m7.53-5.56v11.94");
+}

@@ -1,0 +1,7 @@
+.nsem80brc {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M13 12.62H8.91m-4.03 4.95h4.29m-3.12-4.95H4.88m7.16 4.95H13");
+}

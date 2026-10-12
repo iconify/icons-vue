@@ -1,0 +1,7 @@
+.q-lflxbar {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M1.8 14.37c0-2.2 0-3.31.55-4.1a3 3 0 0 1 .7-.7C3.83 9 4.94 9 7.15 9h9.7c2.21 0 3.32 0 4.1.56a3 3 0 0 1 .7.7c.56.79.56 1.9.56 4.1c0 2.21 0 3.32-.56 4.1a3 3 0 0 1-.7.7c-.78.56-1.89.56-4.1.56h-9.7c-2.21 0-3.32 0-4.1-.55a3 3 0 0 1-.7-.71c-.56-.78-.56-1.89-.56-4.1");
+}

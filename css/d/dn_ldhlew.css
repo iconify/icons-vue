@@ -1,0 +1,7 @@
+.dn_ldhlew {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("m5.33 15.4l7.23-9.8c.4-.53.59-.8.85-.98a4 4 0 0 1 1.22-.47l1.91-.57c1.58-.47 2.37-.71 2.8-.28s.17 1.21-.32 2.79L18.43 8a4 4 0 0 1-.46 1.17c-.18.26-.44.45-.95.84l-9.76 7.38M4.08 21.1l-2.53-2.53m1.26 1.27l3.15-3.14");
+}

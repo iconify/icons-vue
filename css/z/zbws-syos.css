@@ -1,0 +1,7 @@
+.zbws-syos {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M8.24 8.26L4.8 4.82m14.3 14.3l-3.64-3.63m3.76-10.72l-3.7 3.69m-7.1 7.11l-3.56 3.56");
+}

@@ -1,0 +1,7 @@
+.mt-o-cafs {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M2.34 9.7h8.57m2.86 11.6v-8.6m1.81-2.57a2.33 2.33 0 0 1-2.33 2.34a2.34 2.34 0 1 1 2.33-2.34");
+}

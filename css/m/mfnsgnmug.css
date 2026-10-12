@@ -1,0 +1,7 @@
+.mfnsgnmug {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M5.45 12.18A6.55 6.55 0 0 1 12 5.63m5.95 2.88a6.3 6.3 0 0 1 .83 4.33");
+}

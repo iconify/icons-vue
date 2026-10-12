@@ -1,0 +1,7 @@
+.fi8-0bc-r {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M1.72 12A10.25 10.25 0 0 0 12 22.28A10.28 10.28 0 1 0 1.72 12");
+}

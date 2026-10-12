@@ -1,0 +1,7 @@
+.woit-rbrv {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("m8.9 10.47l.42.54c.73.9 1.09 1.36 1.57 1.36c.49 0 .85-.46 1.57-1.37l2.64-3.35");
+}

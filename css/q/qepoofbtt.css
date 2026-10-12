@@ -1,0 +1,7 @@
+.qepoofbtt {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M22.29 12q0 .55-.06 1.1A10.3 10.3 0 1 1 13.8 1.86");
+}

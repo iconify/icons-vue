@@ -1,0 +1,8 @@
+.azwicsbtn {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M3.45 6.58A7.8 7.8 0 0 1 8.5 4.84c2.52 0 5.54 2.22 7.99 2.22s3.59-1.2 4.07-1.85M3.45 12.62A7.8 7.8 0 0 1 8.5 10.9c2.52 0 5.54 2.22 7.99 2.22s3.59-1.2 4.07-1.85m-17.11 7.4a7.8 7.8 0 0 1 5.04-1.73c2.52 0 5.54 2.22 7.99 2.22s3.59-1.2 4.07-1.86");
+}

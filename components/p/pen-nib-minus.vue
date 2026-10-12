@@ -1,0 +1,13 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/f/ft5dv1b6b.css';
+import '../../css/j/jsj3crtht.css';
+import '../../css/u/ue8gdp54l.css';
+import '../../css/o/otgeupbcy.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ft5dv1b6b"><path class="jsj3crtht"/><path class="ue8gdp54l"/><path class="otgeupbcy"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="andrsrxn:pen-nib-minus" /></template>

@@ -1,0 +1,7 @@
+.rapwtibdy {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M1.7 12h11.86m4.62 0a2.3 2.3 0 0 1-2.3 2.3a2.3 2.3 0 1 1 2.3-2.3");
+}

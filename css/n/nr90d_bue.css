@@ -1,0 +1,7 @@
+.nr90d_bue {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("m9.1 9.56l-6.6 9.06c-.56.76-.84 1.14-.77 1.55s.44.7 1.2 1.25l.18.12c.76.56 1.14.83 1.55.77c.4-.06.68-.44 1.24-1.2l6.6-9.07");
+}

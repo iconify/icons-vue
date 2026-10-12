@@ -1,0 +1,7 @@
+.unavbjmri {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M12.5 3.7H8.83c-2.17 0-3.26 0-4.06.6c-.8.61-1.1 1.66-1.7 3.75l-1.11 3.84a4 4 0 0 0-.23 1.66v.99c0 2.83 0 4.24.87 5.12c.88.88 2.3.88 5.13.88h8.56c2.83 0 4.25 0 5.13-.88s.87-2.3.87-5.12v-.85c0-.5 0-.74-.04-.98c-.03-.24-.11-.47-.27-.94l-.53-1.57");
+}

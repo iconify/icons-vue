@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/thesvg-color",
   "type": "module",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "homepage": "https://icon-sets.iconify.design/thesvg-color/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -681,6 +681,10 @@
     "./alternativeto": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/alternativeto.vue"
+    },
+    "./alteryx": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/alteryx.vue"
     },
     "./alwaysdata": {
       "types": "./types/dd0bq22g.d.ts",
@@ -4802,6 +4806,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/e/easyjet.vue"
     },
+    "./easypanel": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/easypanel.vue"
+    },
     "./ebay": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/e/ebay.vue"
@@ -4893,6 +4901,10 @@
     "./effect-ts-light": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/e/effect-ts-light.vue"
+    },
+    "./eggerco": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/eggerco.vue"
     },
     "./egghead": {
       "types": "./types/dd0bq22g.d.ts",
@@ -5661,6 +5673,10 @@
     "./fiverr": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/fiverr.vue"
+    },
+    "./fivetran": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fivetran.vue"
     },
     "./fizz": {
       "types": "./types/dd0bq22g.d.ts",
@@ -17037,6 +17053,14 @@
     "./the-weather-channel": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/the-weather-channel.vue"
+    },
+    "./theauth-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/theauth-dark.vue"
+    },
+    "./theauth-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/theauth-light.vue"
     },
     "./thesvg-dark": {
       "types": "./types/dd0bq22g.d.ts",

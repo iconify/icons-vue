@@ -1,6 +1,5 @@
 # @iconify-vue/thesvg-color
 
-⚠️ This is an alternative repository. Main repository has moved to [GitLab](https://gitlab.com/iconify-icons/vue/-/tree/thesvg-color).
 **theSVG Color**
 
 Author: [thesvg.org](https://github.com/glincker/thesvg)

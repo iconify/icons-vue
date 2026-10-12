@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/cbi",
   "type": "module",
-  "version": "1.0.47",
+  "version": "1.0.48",
   "homepage": "https://icon-sets.iconify.design/cbi/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "CC-BY-NC-SA-4.0",
@@ -2142,6 +2142,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/flynas.vue"
     },
+    "./fog-machine": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fog-machine.vue"
+    },
     "./food-apple-core": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/food-apple-core.vue"
@@ -3478,6 +3482,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/merx-ipc-horizon-dome-alt.vue"
     },
+    "./meshcore": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/meshcore.vue"
+    },
+    "./meshtastic": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/meshtastic.vue"
+    },
     "./meta": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/meta.vue"
@@ -4613,6 +4625,10 @@
     "./portainer": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/portainer.vue"
+    },
+    "./portainer-io": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/portainer-io.vue"
     },
     "./posteitaliane": {
       "types": "./types/dd0bq22g.d.ts",
@@ -5774,6 +5790,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/stitch.vue"
     },
+    "./storage-shelf": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/storage-shelf.vue"
+    },
     "./strava": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/strava.vue"
@@ -6041,6 +6061,14 @@
     "./tfx": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/tfx.vue"
+    },
+    "./the-lampster": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/the-lampster.vue"
+    },
+    "./the-lampster-solid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/the-lampster-solid.vue"
     },
     "./thermostat": {
       "types": "./types/dd0bq22g.d.ts",

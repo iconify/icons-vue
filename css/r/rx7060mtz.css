@@ -1,0 +1,7 @@
+.rx7060mtz {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M16 5h6M2.05 2.052l1.1-.028a1 1 0 0 1 1.008.815l2.69 14.347a1 1 0 0 0 .983.816H18M4.564 5h7.437");
+}

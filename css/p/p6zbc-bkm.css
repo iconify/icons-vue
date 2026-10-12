@@ -1,0 +1,7 @@
+.p6zbc-bkm {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M3 12h12m3 3a3 3 0 1 0 0-6a3 3 0 0 0 0 6");
+}

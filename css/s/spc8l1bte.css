@@ -1,0 +1,7 @@
+.spc8l1bte {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M12 12V4a1 1 0 0 1 1-1h6.297a1 1 0 0 1 .651 1.759l-4.696 4.025M12 21.004L4.586 13.59A2 2 0 0 1 4 12.176V6.419a1.002 1.002 0 0 1 1.707-.707L20 20.012");
+}

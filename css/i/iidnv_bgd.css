@@ -1,0 +1,7 @@
+.iidnv_bgd {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M2 12h3m14 0h3M12 2v3m0 14v3m0-3a7 7 0 1 0 0-14a7 7 0 0 0 0 14");
+}

@@ -1,0 +1,7 @@
+.fs14leyon {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M10.5 17h1.227a2 2 0 0 0 1.345-.52L18 12m-6 1.5l3.794.506M3.174 8.179l11-5a2 2 0 0 1 2.647.993l1.74 3.827M6 10V8m0 6v1m0 4v2");
+}

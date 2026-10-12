@@ -1,0 +1,7 @@
+.awesmtr4c {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M9 11h6m-6 4h6M9 7l3 3v7");
+}

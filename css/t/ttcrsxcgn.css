@@ -1,0 +1,7 @@
+.ttcrsxcgn {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M9 16h5m-5-4h5a2 2 0 0 0 0-4h-3v9");
+}

@@ -1,0 +1,12 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/q/q0dyn4o9i.css';
+import '../../css/y/yzdgss0oz.css';
+import '../../css/t/tdoi1abuv.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="q0dyn4o9i"/><path class="yzdgss0oz"/><path class="tdoi1abuv"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="lucide-extended:mails-filled" /></template>

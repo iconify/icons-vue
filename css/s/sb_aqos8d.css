@@ -1,0 +1,7 @@
+.sb_aqos8d {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M15 14v1m0 4v2m0-18v2m0 4v1");
+}

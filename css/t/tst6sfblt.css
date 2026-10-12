@@ -1,0 +1,7 @@
+.tst6sfblt {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M6 19a4 4 0 1 0 0-8a4 4 0 0 0 0 8m12 0a4 4 0 1 0 0-8a4 4 0 0 0 0 8");
+}

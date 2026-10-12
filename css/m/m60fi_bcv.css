@@ -1,0 +1,7 @@
+.m60fi_bcv {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M11 13v4m4-12v4M3 3v16a2 2 0 0 0 2 2h16");
+}

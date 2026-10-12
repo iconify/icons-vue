@@ -1,0 +1,7 @@
+.oaeva_b0f {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M12 20v-9m2-4a4 4 0 0 1 4 4v3a6 6 0 1 1-12 0v-3a4 4 0 0 1 4-4zm.12-3.12L16 2");
+}

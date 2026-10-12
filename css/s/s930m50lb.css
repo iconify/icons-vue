@@ -1,0 +1,7 @@
+.s930m50lb {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M15 5a3 3 0 1 0-6 0v7a3 3 0 1 0 6 0z");
+}

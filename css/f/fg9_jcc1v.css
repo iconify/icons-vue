@@ -1,0 +1,7 @@
+.fg9_jcc1v {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M10 22v-5m4 2v-2m4 3v-3M2 13h20M6 20v-3");
+}

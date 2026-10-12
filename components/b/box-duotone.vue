@@ -1,0 +1,24 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="cuyn6tgcc"><path class="s31vg3flg"/><path class="mn6uois1r"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:box-duotone" /></template>
+<style>
+.cuyn6tgcc {
+  fill: currentColor;
+}
+
+.mn6uois1r {
+  d: path("M1.0578 7.4872C1.2375 6.5862 1.82 5.8172 2.6387 5.4003L10.6387 1.3266C11.0604 1.1119 11.5268 1 12 1C12.4732 1 12.9396 1.1119 13.3613 1.3266L21.3613 5.4003C22.18 5.8172 22.7625 6.5862 22.9422 7.4872L12.458 12.8889C12.3164 12.9619 12.1593 13 12 13C11.8407 13 11.6836 12.9619 11.542 12.8889L1.0578 7.4872Z");
+}
+
+.s31vg3flg {
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M13.3613 1.3266L21.3613 5.4003C22.3668 5.9123 23 6.9453 23 8.0737L23 15.9263C23 17.0547 22.3668 18.0877 21.3613 18.5997L13.3613 22.6734C12.9396 22.8881 12.4732 23 12 23C11.5268 23 11.0604 22.8881 10.6387 22.6734L2.6387 18.5997C1.6332 18.0877 1 17.0547 1 15.9263L1 8.0737C1 6.9453 1.6332 5.9123 2.6387 5.4003L10.6387 1.3266C11.0604 1.1119 11.5268 1 12 1C12.4732 1 12.9396 1.1119 13.3613 1.3266Z");
+}
+
+</style>

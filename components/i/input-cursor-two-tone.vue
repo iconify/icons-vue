@@ -1,0 +1,28 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="nrj6p8qat"><path class="ggse58evt"/><path class="fsk80pbpn"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:input-cursor-two-tone" /></template>
+<style>
+.fsk80pbpn {
+  d: path("M6 11L6 13M17.7728 16.8371L16.0114 11.3046C15.9534 11.1226 16.1272 10.9519 16.3089 11.0124L21.8399 12.8539C22.0454 12.9223 22.0557 13.2081 21.8557 13.2911L19.4925 14.2715C19.4385 14.2939 19.3949 14.3355 19.3702 14.3882L18.2085 16.8653C18.118 17.058 17.8374 17.0398 17.7728 16.8371Z");
+}
+
+.ggse58evt {
+  stroke-opacity: 0.4;
+  d: path("M20 7L4 7C2.8954 7 2 7.8954 2 9L2 15C2 16.1046 2.8954 17 4 17L12 17");
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+</style>

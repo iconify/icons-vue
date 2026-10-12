@@ -11,6 +11,11 @@ Browse all icons: [preview SidekickIcons on Iconify](https://icon-sets.iconify.d
 ## Installation
 
 ```bash
+npm install gitlab:iconify-icons/vue#sidekickicons
+```
+
+or
+```bash
 npm install github:iconify/icons-vue#sidekickicons
 ```
 

@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/fluent",
   "type": "module",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "homepage": "https://icon-sets.iconify.design/fluent/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -17705,6 +17705,54 @@
     "./circle-multiple-concentric-24-regular": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/circle-multiple-concentric-24-regular.vue"
+    },
+    "./circle-multiple-concentric-dashes-16-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/circle-multiple-concentric-dashes-16-filled.vue"
+    },
+    "./circle-multiple-concentric-dashes-16-regular": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/circle-multiple-concentric-dashes-16-regular.vue"
+    },
+    "./circle-multiple-concentric-dashes-20-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/circle-multiple-concentric-dashes-20-filled.vue"
+    },
+    "./circle-multiple-concentric-dashes-20-regular": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/circle-multiple-concentric-dashes-20-regular.vue"
+    },
+    "./circle-multiple-concentric-dashes-24-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/circle-multiple-concentric-dashes-24-filled.vue"
+    },
+    "./circle-multiple-concentric-dashes-24-regular": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/circle-multiple-concentric-dashes-24-regular.vue"
+    },
+    "./circle-multiple-concentric-dashes-28-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/circle-multiple-concentric-dashes-28-filled.vue"
+    },
+    "./circle-multiple-concentric-dashes-28-regular": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/circle-multiple-concentric-dashes-28-regular.vue"
+    },
+    "./circle-multiple-concentric-dashes-32-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/circle-multiple-concentric-dashes-32-filled.vue"
+    },
+    "./circle-multiple-concentric-dashes-32-regular": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/circle-multiple-concentric-dashes-32-regular.vue"
+    },
+    "./circle-multiple-concentric-dashes-48-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/circle-multiple-concentric-dashes-48-filled.vue"
+    },
+    "./circle-multiple-concentric-dashes-48-regular": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/circle-multiple-concentric-dashes-48-regular.vue"
     },
     "./circle-multiple-hint-checkmark-16-filled": {
       "types": "./types/dd0bq22g.d.ts",
@@ -40930,6 +40978,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/l/layout-infographic-32-regular.vue"
     },
+    "./layout-infographic-two-sparkle-16-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/layout-infographic-two-sparkle-16-filled.vue"
+    },
+    "./layout-infographic-two-sparkle-16-regular": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/layout-infographic-two-sparkle-16-regular.vue"
+    },
+    "./layout-infographic-two-sparkle-20-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/layout-infographic-two-sparkle-20-filled.vue"
+    },
+    "./layout-infographic-two-sparkle-20-regular": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/layout-infographic-two-sparkle-20-regular.vue"
+    },
     "./layout-row-four-16-filled": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/l/layout-row-four-16-filled.vue"
@@ -55197,6 +55261,38 @@
     "./plug-disconnected-48-regular": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/plug-disconnected-48-regular.vue"
+    },
+    "./plug-puzzle-16-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/plug-puzzle-16-filled.vue"
+    },
+    "./plug-puzzle-16-regular": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/plug-puzzle-16-regular.vue"
+    },
+    "./plug-puzzle-20-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/plug-puzzle-20-filled.vue"
+    },
+    "./plug-puzzle-20-regular": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/plug-puzzle-20-regular.vue"
+    },
+    "./plug-puzzle-24-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/plug-puzzle-24-filled.vue"
+    },
+    "./plug-puzzle-24-regular": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/plug-puzzle-24-regular.vue"
+    },
+    "./plug-puzzle-32-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/plug-puzzle-32-filled.vue"
+    },
+    "./plug-puzzle-32-regular": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/plug-puzzle-32-regular.vue"
     },
     "./point-scan-20-filled": {
       "types": "./types/dd0bq22g.d.ts",

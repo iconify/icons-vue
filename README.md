@@ -1,6 +1,5 @@
 # @iconify-vue/fluent
 
-⚠️ This is an alternative repository. Main repository has moved to [GitLab](https://gitlab.com/iconify-icons/vue/-/tree/fluent).
 **Fluent UI System Icons**
 
 Author: [Microsoft Corporation](https://github.com/microsoft/fluentui-system-icons)

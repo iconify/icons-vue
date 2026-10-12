@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/lucide",
   "type": "module",
-  "version": "1.0.76",
+  "version": "1.0.77",
   "homepage": "https://icon-sets.iconify.design/lucide/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "ISC",
@@ -3518,6 +3518,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/handbag.vue"
     },
+    "./handle-bottom-right": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/handle-bottom-right.vue"
+    },
     "./handshake": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/handshake.vue"
@@ -4269,6 +4273,10 @@
     "./mail-clock": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/mail-clock.vue"
+    },
+    "./mail-dot": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mail-dot.vue"
     },
     "./mail-minus": {
       "types": "./types/dd0bq22g.d.ts",
@@ -5194,6 +5202,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/phone-incoming.vue"
     },
+    "./phone-log": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/phone-log.vue"
+    },
     "./phone-missed": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/phone-missed.vue"
@@ -5850,6 +5862,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/screen-share-off.vue"
     },
+    "./screw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/screw.vue"
+    },
     "./scroll": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/scroll.vue"
@@ -5993,6 +6009,10 @@
     "./shield-half": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/shield-half.vue"
+    },
+    "./shield-house": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/shield-house.vue"
     },
     "./shield-keyhole": {
       "types": "./types/dd0bq22g.d.ts",
@@ -7378,6 +7398,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/u/user-round-search.vue"
     },
+    "./user-round-star": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/user-round-star.vue"
+    },
     "./user-round-x": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/u/user-round-x.vue"
@@ -7633,6 +7657,10 @@
     "./wifi-high": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/w/wifi-high.vue"
+    },
+    "./wifi-lock": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wifi-lock.vue"
     },
     "./wifi-low": {
       "types": "./types/dd0bq22g.d.ts",

@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/thesvg",
   "type": "module",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "homepage": "https://icon-sets.iconify.design/thesvg/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -13073,6 +13073,10 @@
     "./the-weather-channel": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/the-weather-channel.vue"
+    },
+    "./theauth": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/theauth.vue"
     },
     "./thesvg": {
       "types": "./types/dd0bq22g.d.ts",

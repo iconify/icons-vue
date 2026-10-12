@@ -1,0 +1,27 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="x2cwu0gfd"><path class="x9ztdqbbe"/><path class="qmh0k4a-b"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="iconoven:store-locator-sharp" /></template>
+<style>
+.qmh0k4a-b {
+  d: path("M10 21.25V16h4v5.25");
+}
+
+.x2cwu0gfd {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-miterlimit: 2;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.x9ztdqbbe {
+  d: path("M5.4 3.25h13.2l1.034.002l.366.968l1.25 3.28v3.25H2.75V7.5L4 4.22l.366-.968zm3.85 0l-.5 7.5m6-7.5l.5 7.5m-10.5 2.5h14.5v8H4.75v-2Z");
+}
+
+</style>

@@ -1,0 +1,43 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="hntgybcog"><circle class="ilmx_fbfh"/><path class="efj_6qshs"/><circle class="szz5nabpn"/><path class="tciljimyi"/><path class="ijaobyldd"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="iconoven:close-friends" /></template>
+<style>
+.efj_6qshs {
+  d: path("M3.25 20.25h6.5a.5.5 0 0 0 .5-.5V17a3.75 3.75 0 0 0-7.5 0v2.75a.5.5 0 0 0 .5.5");
+}
+
+.hntgybcog {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.ijaobyldd {
+  d: path("m12.14 11.32l.75 1.69q.14.32.49.35l1.84.19q.35.04.09.28l-1.38 1.23q-.26.23-.18.58l.38 1.8q.07.34-.23.17l-1.6-.92q-.3-.18-.6 0l-1.6.92q-.3.17-.23-.17l.38-1.8q.08-.35-.18-.58l-1.38-1.23q-.26-.24.09-.28l1.84-.19q.35-.03.49-.35l.75-1.69q.14-.32.28 0");
+}
+
+.ilmx_fbfh {
+  cx: 6.5px;
+  cy: 7.5px;
+  r: 2.75px;
+}
+
+.szz5nabpn {
+  cx: 17.5px;
+  cy: 7.5px;
+  r: 2.75px;
+}
+
+.tciljimyi {
+  d: path("M14.25 20.25h6.5a.5.5 0 0 0 .5-.5V17a3.75 3.75 0 0 0-7.5 0v2.75a.5.5 0 0 0 .5.5");
+}
+
+</style>

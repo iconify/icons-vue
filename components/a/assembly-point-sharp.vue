@@ -1,0 +1,38 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ux2u0rbkq"><path class="ywno-sh7h"/><path class="xzo7fxm-w"/><path class="fl8ls8bxt"/><path class="ddnng4bpe"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="iconoven:assembly-point-sharp" /></template>
+<style>
+.ddnng4bpe {
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M9 14.5V13h3v1.5m0 0V13h3v1.5");
+}
+
+.fl8ls8bxt {
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M10.5 10.75h.01m2.99 0h.01");
+}
+
+.ux2u0rbkq {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-miterlimit: 2;
+}
+
+.xzo7fxm-w {
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("m6 6l2 2M6.5 8H8V6.5M18 6l-2 2m0-1.5V8h1.5M6 18l2-2m-1.5 0H8v1.5m10 .5l-2-2m0 1.5V16h1.5");
+}
+
+.ywno-sh7h {
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M2.75 2.75h18.5v18.5H2.75z");
+}
+
+</style>

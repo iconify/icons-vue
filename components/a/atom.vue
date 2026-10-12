@@ -1,0 +1,38 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="y9tr6bcfx"><path class="xx0dcdyig"/><path class="rny7_dagk"/><path class="w7nfjmbbn"/><path class="to8m3ibcr"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="iconoven:atom" /></template>
+<style>
+.rny7_dagk {
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M16.63 20.01A9.25 3.5 60 1 0 7.37 3.99a9.25 3.5 60 1 0 9.26 16.02");
+}
+
+.to8m3ibcr {
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M12 12h.01");
+}
+
+.w7nfjmbbn {
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M7.38 20.01a9.25 3.5 120 1 0 9.25-16.02a9.25 3.5 120 1 0-9.25 16.02");
+}
+
+.xx0dcdyig {
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M21.25 12a9.25 3.5 0 1 0-18.5 0a9.25 3.5 0 1 0 18.5 0");
+}
+
+.y9tr6bcfx {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+</style>

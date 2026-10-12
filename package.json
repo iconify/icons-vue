@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/devicon",
   "type": "module",
-  "version": "1.0.29",
+  "version": "1.0.30",
   "homepage": "https://icon-sets.iconify.design/devicon/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -1633,6 +1633,10 @@
     "./icinga-wordmark": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/i/icinga-wordmark.vue"
+    },
+    "./idris": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/idris.vue"
     },
     "./ie10": {
       "types": "./types/dd0bq22g.d.ts",
@@ -3630,6 +3634,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/symfony-wordmark.vue"
     },
+    "./systemverilog": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/systemverilog.vue"
+    },
     "./tailwindcss": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/tailwindcss.vue"
@@ -3969,6 +3977,10 @@
     "./vercel-wordmark": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/v/vercel-wordmark.vue"
+    },
+    "./verilog": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/verilog.vue"
     },
     "./vertx": {
       "types": "./types/dd0bq22g.d.ts",

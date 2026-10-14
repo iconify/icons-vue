@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/lucide",
   "type": "module",
-  "version": "1.0.77",
+  "version": "1.0.78",
   "homepage": "https://icon-sets.iconify.design/lucide/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "ISC",
@@ -694,6 +694,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/beer-off.vue"
     },
+    "./belarusian-ruble": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/belarusian-ruble.vue"
+    },
     "./bell": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/bell.vue"
@@ -1149,6 +1153,10 @@
     "./calendar-check-2": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/calendar-check-2.vue"
+    },
+    "./calendar-chevrons-left": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/calendar-chevrons-left.vue"
     },
     "./calendar-chevrons-right": {
       "types": "./types/dd0bq22g.d.ts",
@@ -1658,6 +1666,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/circle-fading-arrow-up.vue"
     },
+    "./circle-fading-play": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/circle-fading-play.vue"
+    },
     "./circle-fading-plus": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/circle-fading-plus.vue"
@@ -2165,6 +2177,10 @@
     "./cpu": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/cpu.vue"
+    },
+    "./cpu-ai": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cpu-ai.vue"
     },
     "./creative-commons": {
       "types": "./types/dd0bq22g.d.ts",
@@ -3166,6 +3182,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/folder-up.vue"
     },
+    "./folder-user": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-user.vue"
+    },
+    "./folder-users": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-users.vue"
+    },
     "./folder-x": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/folder-x.vue"
@@ -3422,6 +3446,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/grape.vue"
     },
+    "./graph-star": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/graph-star.vue"
+    },
     "./grid-2x2": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/grid-2x2.vue"
@@ -3469,6 +3497,10 @@
     "./guitar": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/guitar.vue"
+    },
+    "./guitar-electric": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/guitar-electric.vue"
     },
     "./ham": {
       "types": "./types/dd0bq22g.d.ts",
@@ -4478,6 +4510,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/message-circle-reply.vue"
     },
+    "./message-circle-text": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/message-circle-text.vue"
+    },
     "./message-circle-warning": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/message-circle-warning.vue"
@@ -5173,6 +5209,10 @@
     "./percent": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/percent.vue"
+    },
+    "./perfume-bottle": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/perfume-bottle.vue"
     },
     "./person-standing": {
       "types": "./types/dd0bq22g.d.ts",
@@ -5937,6 +5977,10 @@
     "./server-crash": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/server-crash.vue"
+    },
+    "./server-nas": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/server-nas.vue"
     },
     "./server-off": {
       "types": "./types/dd0bq22g.d.ts",
@@ -7426,9 +7470,17 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/u/users.vue"
     },
+    "./users-collaboration": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/users-collaboration.vue"
+    },
     "./users-round": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/u/users-round.vue"
+    },
+    "./users-round-collaboration": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/users-round-collaboration.vue"
     },
     "./utensils": {
       "types": "./types/dd0bq22g.d.ts",

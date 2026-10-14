@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/vscode-icons",
   "type": "module",
-  "version": "1.0.62",
+  "version": "1.0.63",
   "homepage": "https://icon-sets.iconify.design/vscode-icons/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -1750,6 +1750,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-jinja.vue"
     },
+    "./file-type-jitpack": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-type-jitpack.vue"
+    },
     "./file-type-jpm": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-jpm.vue"
@@ -2185,6 +2189,10 @@
     "./file-type-light-io": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-light-io.vue"
+    },
+    "./file-type-light-jitpack": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-type-light-jitpack.vue"
     },
     "./file-type-light-js": {
       "types": "./types/dd0bq22g.d.ts",
@@ -3722,6 +3730,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-pyenv.vue"
     },
+    "./file-type-pyinstaller": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-type-pyinstaller.vue"
+    },
     "./file-type-pypi": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-pypi.vue"
@@ -4862,6 +4874,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-windi.vue"
     },
+    "./file-type-woke": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-type-woke.vue"
+    },
     "./file-type-wolfram": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-wolfram.vue"
@@ -5454,6 +5470,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/folder-type-docs-opened.vue"
     },
+    "./folder-type-domain": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-type-domain.vue"
+    },
+    "./folder-type-domain-opened": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-type-domain-opened.vue"
+    },
+    "./folder-type-drizzle-orm": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-type-drizzle-orm.vue"
+    },
+    "./folder-type-drizzle-orm-opened": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-type-drizzle-orm-opened.vue"
+    },
     "./folder-type-e2e": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/folder-type-e2e.vue"
@@ -5830,6 +5862,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/folder-type-light-devenv-opened.vue"
     },
+    "./folder-type-light-drizzle-orm": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-type-light-drizzle-orm.vue"
+    },
+    "./folder-type-light-drizzle-orm-opened": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-type-light-drizzle-orm-opened.vue"
+    },
     "./folder-type-light-electron": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/folder-type-light-electron.vue"
@@ -5926,6 +5966,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/folder-type-light-sass-opened.vue"
     },
+    "./folder-type-light-skill": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-type-light-skill.vue"
+    },
+    "./folder-type-light-skill-opened": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-type-light-skill-opened.vue"
+    },
     "./folder-type-light-zed": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/folder-type-light-zed.vue"
@@ -5957,6 +6005,14 @@
     "./folder-type-log-opened": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/folder-type-log-opened.vue"
+    },
+    "./folder-type-lua": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-type-lua.vue"
+    },
+    "./folder-type-lua-opened": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-type-lua-opened.vue"
     },
     "./folder-type-macos": {
       "types": "./types/dd0bq22g.d.ts",
@@ -6246,6 +6302,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/folder-type-private-opened.vue"
     },
+    "./folder-type-protobuf": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-type-protobuf.vue"
+    },
+    "./folder-type-protobuf-opened": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-type-protobuf-opened.vue"
+    },
     "./folder-type-public": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/folder-type-public.vue"
@@ -6365,6 +6429,14 @@
     "./folder-type-shared-opened": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/folder-type-shared-opened.vue"
+    },
+    "./folder-type-skill": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-type-skill.vue"
+    },
+    "./folder-type-skill-opened": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-type-skill-opened.vue"
     },
     "./folder-type-slackware": {
       "types": "./types/dd0bq22g.d.ts",

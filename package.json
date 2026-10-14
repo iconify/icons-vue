@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/thesvg-color",
   "type": "module",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "homepage": "https://icon-sets.iconify.design/thesvg-color/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -4797,6 +4797,14 @@
     "./eagle": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/e/eagle.vue"
+    },
+    "./earmark-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/earmark-dark.vue"
+    },
+    "./earmark-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/earmark-light.vue"
     },
     "./easyeda": {
       "types": "./types/dd0bq22g.d.ts",
@@ -15529,6 +15537,10 @@
     "./sifive": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/sifive.vue"
+    },
+    "./sigma-computing": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sigma-computing.vue"
     },
     "./signal": {
       "types": "./types/dd0bq22g.d.ts",

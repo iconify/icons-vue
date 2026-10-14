@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/thesvg",
   "type": "module",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "homepage": "https://icon-sets.iconify.design/thesvg/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -11837,6 +11837,10 @@
     "./sifive": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/sifive.vue"
+    },
+    "./sigma-computing": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sigma-computing.vue"
     },
     "./signal": {
       "types": "./types/dd0bq22g.d.ts",

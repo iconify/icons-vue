@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/octicon",
   "type": "module",
-  "version": "1.0.27",
+  "version": "1.0.28",
   "homepage": "https://icon-sets.iconify.design/octicon/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -626,6 +626,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/code-24.vue"
     },
+    "./code-badge-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/code-badge-16.vue"
+    },
+    "./code-badge-24": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/code-badge-24.vue"
+    },
     "./code-of-conduct-16": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/code-of-conduct-16.vue"
@@ -845,6 +853,14 @@
     "./dashboard": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/dashboard.vue"
+    },
+    "./dashboard-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dashboard-16.vue"
+    },
+    "./dashboard-24": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dashboard-24.vue"
     },
     "./database": {
       "types": "./types/dd0bq22g.d.ts",

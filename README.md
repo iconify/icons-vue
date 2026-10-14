@@ -1,6 +1,5 @@
 # @iconify-vue/selfhst
 
-⚠️ This is an alternative repository. Main repository has moved to [GitLab](https://gitlab.com/iconify-icons/vue/-/tree/selfhst).
 **selfh.st/icons**
 
 Author: [selfh.st](https://github.com/selfhst/icons)

@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/selfhst",
   "type": "module",
-  "version": "1.0.24",
+  "version": "1.0.25",
   "homepage": "https://icon-sets.iconify.design/selfhst/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "CC-BY-4.0",
@@ -3222,6 +3222,18 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/certimate-light.vue"
     },
+    "./certshell": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/certshell.vue"
+    },
+    "./certshell-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/certshell-dark.vue"
+    },
+    "./certshell-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/certshell-light.vue"
+    },
     "./cetusguard": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/cetusguard.vue"
@@ -3790,6 +3802,18 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/coder-light.vue"
     },
+    "./coffer": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/coffer.vue"
+    },
+    "./coffer-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/coffer-dark.vue"
+    },
+    "./coffer-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/coffer-light.vue"
+    },
     "./coinmarketcap": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/coinmarketcap.vue"
@@ -3981,6 +4005,18 @@
     "./conduwuit-light": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/conduwuit-light.vue"
+    },
+    "./conduyt": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/conduyt.vue"
+    },
+    "./conduyt-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/conduyt-dark.vue"
+    },
+    "./conduyt-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/conduyt-light.vue"
     },
     "./coneshare": {
       "types": "./types/dd0bq22g.d.ts",
@@ -4449,6 +4485,10 @@
     "./crowdsec-manager-light": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/crowdsec-manager-light.vue"
+    },
+    "./crowdsec-web-ui": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/crowdsec-web-ui.vue"
     },
     "./crowdstrike": {
       "types": "./types/dd0bq22g.d.ts",
@@ -5698,6 +5738,18 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/draw-io-light.vue"
     },
+    "./dreeve": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dreeve.vue"
+    },
+    "./dreeve-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dreeve-dark.vue"
+    },
+    "./dreeve-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dreeve-light.vue"
+    },
     "./dribdat": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/dribdat.vue"
@@ -6041,6 +6093,10 @@
     "./ecowitt-light": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/e/ecowitt-light.vue"
+    },
+    "./edentext": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/edentext.vue"
     },
     "./edubuntu": {
       "types": "./types/dd0bq22g.d.ts",
@@ -8026,6 +8082,18 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/fritz-light.vue"
     },
+    "./fromkai": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fromkai.vue"
+    },
+    "./fromkai-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fromkai-dark.vue"
+    },
+    "./fromkai-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fromkai-light.vue"
+    },
     "./fubotv": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/fubotv.vue"
@@ -9653,6 +9721,18 @@
     "./healthchecks-light": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/healthchecks-light.vue"
+    },
+    "./healthlog": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/healthlog.vue"
+    },
+    "./healthlog-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/healthlog-dark.vue"
+    },
+    "./healthlog-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/healthlog-light.vue"
     },
     "./hedgedoc": {
       "types": "./types/dd0bq22g.d.ts",
@@ -15590,6 +15670,18 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/mysterium-light.vue"
     },
+    "./mysterium-node": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mysterium-node.vue"
+    },
+    "./mysterium-node-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mysterium-node-dark.vue"
+    },
+    "./mysterium-node-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mysterium-node-light.vue"
+    },
     "./n8n": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/n/n8n.vue"
@@ -17349,6 +17441,10 @@
     "./omniroute-light": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/o/omniroute-light.vue"
+    },
+    "./omnisight": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/omnisight.vue"
     },
     "./omnivore": {
       "types": "./types/dd0bq22g.d.ts",
@@ -19970,6 +20066,18 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/polaris-dark.vue"
     },
+    "./polaris-game-streaming": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/polaris-game-streaming.vue"
+    },
+    "./polaris-game-streaming-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/polaris-game-streaming-dark.vue"
+    },
+    "./polaris-game-streaming-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/polaris-game-streaming-light.vue"
+    },
     "./polaris-light": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/polaris-light.vue"
@@ -20537,6 +20645,18 @@
     "./protondb-light": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/protondb-light.vue"
+    },
+    "./proval": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/proval.vue"
+    },
+    "./proval-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/proval-dark.vue"
+    },
+    "./proval-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/proval-light.vue"
     },
     "./prowlarr": {
       "types": "./types/dd0bq22g.d.ts",
@@ -23806,6 +23926,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/solectrus-light.vue"
     },
+    "./solidping": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/solidping.vue"
+    },
     "./solidtime": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/solidtime.vue"
@@ -24486,18 +24610,6 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/strava-light.vue"
     },
-    "./strava-statistics": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/s/strava-statistics.vue"
-    },
-    "./strava-statistics-dark": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/s/strava-statistics-dark.vue"
-    },
-    "./strava-statistics-light": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/s/strava-statistics-light.vue"
-    },
     "./streamlink": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/streamlink.vue"
@@ -24953,6 +25065,18 @@
     "./t-mobile-light": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/t-mobile-light.vue"
+    },
+    "./t3-code": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/t3-code.vue"
+    },
+    "./t3-code-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/t3-code-dark.vue"
+    },
+    "./t3-code-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/t3-code-light.vue"
     },
     "./tableau": {
       "types": "./types/dd0bq22g.d.ts",
@@ -29001,6 +29125,18 @@
     "./mantrae-light": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/mantrae-light.vue"
+    },
+    "./strava-statistics": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/strava-statistics.vue"
+    },
+    "./strava-statistics-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/strava-statistics-dark.vue"
+    },
+    "./strava-statistics-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/strava-statistics-light.vue"
     },
     "./*": "./*"
   },

@@ -1,0 +1,7 @@
+.daeckebuf {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("m13.6 4.45l1.5-1.51m-12.44-.4l1.5 1.5m.34 8.72l-1.51 1.51M9.12 3.5V1.6M3.61 8.47h-1.9");
+}

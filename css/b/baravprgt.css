@@ -1,0 +1,7 @@
+.baravprgt {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M18.13 7.52C16.18 9.09 12.8 13.6 13.4 21.2m0 .03c-1-3.86-4.48-7.28-6.95-8.49");
+}

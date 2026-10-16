@@ -1,13 +1,14 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
 import '../../css/f/ft5dv1b6b.css';
-import '../../css/a/avmy5ib4j.css';
-import '../../css/q/q2vmesbkz.css';
-import '../../css/h/hsf-92beb.css';
+import '../../css/w/wo9n5kb_f.css';
+import '../../css/e/e9dwx7bxt.css';
+import '../../css/s/s1kqxibiq.css';
+import '../../css/n/ny1tw4bjo.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="avmy5ib4j"/><rect class="q2vmesbkz"/><path class="hsf-92beb"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="wo9n5kb_f"/><path class="e9dwx7bxt"/><path class="s1kqxibiq"/><path class="ny1tw4bjo"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="andrsrxn:video-sparkle" /></template>

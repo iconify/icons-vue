@@ -1,0 +1,7 @@
+.s1b-nrbws {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M14.54 4.12H9.46M12 4.2v11.46a3.44 3.44 0 0 1-6.89 0v-.37M12 4.12v11.54a3.44 3.44 0 0 0 6.89 0v-.36");
+}

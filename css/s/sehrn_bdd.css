@@ -1,0 +1,7 @@
+.sehrn_bdd {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M21.42 6H2.67m9.58 6H2.67m8.96 6H2.67m18.75-5.06a2.5 2.5 0 0 1-2.49 2.5a2.5 2.5 0 1 1 2.5-2.5");
+}

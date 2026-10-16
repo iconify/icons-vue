@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/vscode-icons",
   "type": "module",
-  "version": "1.0.63",
+  "version": "1.0.64",
   "homepage": "https://icon-sets.iconify.design/vscode-icons/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -2318,6 +2318,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-light-openhab.vue"
     },
+    "./file-type-light-overcommit": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-type-light-overcommit.vue"
+    },
     "./file-type-light-oxc": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-light-oxc.vue"
@@ -3366,6 +3370,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-outlook.vue"
     },
+    "./file-type-overcommit": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-type-overcommit.vue"
+    },
     "./file-type-overmind": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-overmind.vue"
@@ -3877,6 +3885,10 @@
     "./file-type-reactts": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-reactts.vue"
+    },
+    "./file-type-readme": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-type-readme.vue"
     },
     "./file-type-readthedocs": {
       "types": "./types/dd0bq22g.d.ts",
@@ -5189,6 +5201,14 @@
     "./folder-type-bower-opened": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/folder-type-bower-opened.vue"
+    },
+    "./folder-type-buck": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-type-buck.vue"
+    },
+    "./folder-type-buck-opened": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-type-buck-opened.vue"
     },
     "./folder-type-buildkite": {
       "types": "./types/dd0bq22g.d.ts",

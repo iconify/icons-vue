@@ -1,0 +1,11 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/a/ajyu9s76q.css';
+import '../../css/c/cbj0tbbra.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":20,"height":20};
+const content = `<path class="ajyu9s76q"/><path class="cbj0tbbra"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="energy-icons:message-dots-20-bold" /></template>

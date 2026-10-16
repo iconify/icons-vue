@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/s/s2gjix1mg.css';
+import '../../css/i/iod-wibmg.css';
 
 const props = defineProps(["width","height"]);
 
-const viewBox = {"width":512,"height":512};
-const content = `<path clip-rule="evenodd" class="s2gjix1mg"/>`;
+const viewBox = {"width":24,"height":24};
+const content = `<path class="iod-wibmg"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="ix:warning-rhomb-multiple-filled" /></template>

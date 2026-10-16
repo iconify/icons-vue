@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/ix",
   "type": "module",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "homepage": "https://icon-sets.iconify.design/ix/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -253,6 +253,14 @@
     "./alarm-filled": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/alarm-filled.vue"
+    },
+    "./alarm-multiple": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/alarm-multiple.vue"
+    },
+    "./alarm-multiple-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/alarm-multiple-filled.vue"
     },
     "./align-center-horizontally": {
       "types": "./types/dd0bq22g.d.ts",
@@ -5813,6 +5821,14 @@
     "./warning-octagon-filled": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/w/warning-octagon-filled.vue"
+    },
+    "./warning-octagon-multiple": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/warning-octagon-multiple.vue"
+    },
+    "./warning-octagon-multiple-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/warning-octagon-multiple-filled.vue"
     },
     "./warning-rhomb": {
       "types": "./types/dd0bq22g.d.ts",

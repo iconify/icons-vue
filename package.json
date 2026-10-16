@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/thesvg-color",
   "type": "module",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "homepage": "https://icon-sets.iconify.design/thesvg-color/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -45,6 +45,14 @@
     "./2fas": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/2/2fas.vue"
+    },
+    "./2fauth-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/2/2fauth-dark.vue"
+    },
+    "./2fauth-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/2/2fauth-light.vue"
     },
     "./2k": {
       "types": "./types/dd0bq22g.d.ts",
@@ -201,6 +209,10 @@
     "./activeloop": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/activeloop.vue"
+    },
+    "./activepieces": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/activepieces.vue"
     },
     "./activision": {
       "types": "./types/dd0bq22g.d.ts",
@@ -594,6 +606,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/alephalpha.vue"
     },
+    "./alertmanager": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/alertmanager.vue"
+    },
     "./alfred": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/alfred.vue"
@@ -898,6 +914,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/anyscale.vue"
     },
+    "./anythingllm-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/anythingllm-dark.vue"
+    },
+    "./anythingllm-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/anythingllm-light.vue"
+    },
     "./anytype": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/anytype.vue"
@@ -1102,6 +1126,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/appcelerator.vue"
     },
+    "./appflowy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/appflowy.vue"
+    },
     "./appgallery": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/appgallery.vue"
@@ -1154,6 +1182,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/appmanager.vue"
     },
+    "./apprise-api": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/apprise-api.vue"
+    },
     "./appsignal": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/appsignal.vue"
@@ -1181,6 +1213,10 @@
     "./arangodb": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/arangodb.vue"
+    },
+    "./arbitrum": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arbitrum.vue"
     },
     "./arc-dark": {
       "types": "./types/dd0bq22g.d.ts",
@@ -1470,6 +1506,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/authy.vue"
     },
+    "./autobrr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/autobrr.vue"
+    },
     "./autocad": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/autocad.vue"
@@ -1653,6 +1693,10 @@
     "./babelio": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/babelio.vue"
+    },
+    "./baby-buddy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/baby-buddy.vue"
     },
     "./babylondotjs": {
       "types": "./types/dd0bq22g.d.ts",
@@ -1914,6 +1958,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/bentoml.vue"
     },
+    "./bentopdf": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bentopdf.vue"
+    },
     "./bereal": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/bereal.vue"
@@ -1925,6 +1973,10 @@
     "./best-western": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/best-western.vue"
+    },
+    "./beszel": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/beszel.vue"
     },
     "./bet365": {
       "types": "./types/dd0bq22g.d.ts",
@@ -2378,6 +2430,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/broadcom.vue"
     },
+    "./browserless-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/browserless-dark.vue"
+    },
+    "./browserless-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/browserless-light.vue"
+    },
     "./browserstack": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/browserstack.vue"
@@ -2437,6 +2497,14 @@
     "./buildkite": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/buildkite.vue"
+    },
+    "./buildpacks-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/buildpacks-dark.vue"
+    },
+    "./buildpacks-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/buildpacks-light.vue"
     },
     "./buildship": {
       "types": "./types/dd0bq22g.d.ts",
@@ -2510,9 +2578,17 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/byju-s.vue"
     },
+    "./bytebase": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bytebase.vue"
+    },
     "./bytedance": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/bytedance.vue"
+    },
+    "./bytestash": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bytestash.vue"
     },
     "./c": {
       "types": "./types/dd0bq22g.d.ts",
@@ -2690,6 +2766,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/castbox.vue"
     },
+    "./castopod": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/castopod.vue"
+    },
     "./castorama": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/castorama.vue"
@@ -2754,6 +2834,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/cerebras.vue"
     },
+    "./cert-manager-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cert-manager-dark.vue"
+    },
+    "./cert-manager-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cert-manager-light.vue"
+    },
     "./cesium": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/cesium.vue"
@@ -2785,6 +2873,14 @@
     "./channel-4": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/channel-4.vue"
+    },
+    "./chaos-mesh-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chaos-mesh-dark.vue"
+    },
+    "./chaos-mesh-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chaos-mesh-light.vue"
     },
     "./character-ai": {
       "types": "./types/dd0bq22g.d.ts",
@@ -2838,6 +2934,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/checkmarx.vue"
     },
+    "./checkmate": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/checkmate.vue"
+    },
     "./checkmk": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/checkmk.vue"
@@ -2877,6 +2977,10 @@
     "./chia-network": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/chia-network.vue"
+    },
+    "./chibisafe": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chibisafe.vue"
     },
     "./chick-fil-a": {
       "types": "./types/dd0bq22g.d.ts",
@@ -3130,6 +3234,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/cloudera.vue"
     },
+    "./cloudevents-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloudevents-dark.vue"
+    },
+    "./cloudevents-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloudevents-light.vue"
+    },
     "./cloudflare": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/cloudflare.vue"
@@ -3145,6 +3257,10 @@
     "./cloudinary": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/cloudinary.vue"
+    },
+    "./cloudreve": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloudreve.vue"
     },
     "./cloudron": {
       "types": "./types/dd0bq22g.d.ts",
@@ -3217,6 +3333,14 @@
     "./cockpit": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/cockpit.vue"
+    },
+    "./cockpit-cms-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cockpit-cms-dark.vue"
+    },
+    "./cockpit-cms-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cockpit-cms-light.vue"
     },
     "./cockroach-labs": {
       "types": "./types/dd0bq22g.d.ts",
@@ -3582,6 +3706,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/continue.vue"
     },
+    "./contour-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/contour-dark.vue"
+    },
+    "./contour-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/contour-light.vue"
+    },
     "./contra": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/contra.vue"
@@ -3601,6 +3733,10 @@
     "./convertio": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/convertio.vue"
+    },
+    "./convertx": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/convertx.vue"
     },
     "./convex": {
       "types": "./types/dd0bq22g.d.ts",
@@ -3630,6 +3766,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/coppel.vue"
     },
+    "./copyparty": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/copyparty.vue"
+    },
     "./coqui": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/coqui.vue"
@@ -3641,6 +3781,14 @@
     "./coreboot": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/coreboot.vue"
+    },
+    "./coredns-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/coredns-dark.vue"
+    },
+    "./coredns-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/coredns-light.vue"
     },
     "./corejs": {
       "types": "./types/dd0bq22g.d.ts",
@@ -3762,6 +3910,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/crewai.vue"
     },
+    "./cri-o-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cri-o-dark.vue"
+    },
+    "./cri-o-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cri-o-light.vue"
+    },
     "./critical-role": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/critical-role.vue"
@@ -3797,6 +3953,10 @@
     "./cryengine": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/cryengine.vue"
+    },
+    "./cryptgeon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cryptgeon.vue"
     },
     "./cryptomator": {
       "types": "./types/dd0bq22g.d.ts",
@@ -3881,6 +4041,10 @@
     "./cvs": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/cvs.vue"
+    },
+    "./cyberchef": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cyberchef.vue"
     },
     "./cybercut": {
       "types": "./types/dd0bq22g.d.ts",
@@ -3994,6 +4158,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/dashlane.vue"
     },
+    "./dashy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dashy.vue"
+    },
     "./dask": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/dask.vue"
@@ -4009,6 +4177,10 @@
     "./dassault-systemes": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/dassault-systemes.vue"
+    },
+    "./databasus": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/databasus.vue"
     },
     "./databricks": {
       "types": "./types/dd0bq22g.d.ts",
@@ -4478,6 +4650,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/docker.vue"
     },
+    "./docmost": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/docmost.vue"
+    },
     "./docsdotrs": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/docsdotrs.vue"
@@ -4514,6 +4690,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/docusaurus.vue"
     },
+    "./docuseal": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/docuseal.vue"
+    },
     "./docusign": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/docusign.vue"
@@ -4537,6 +4717,10 @@
     "./dokploy": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/dokploy.vue"
+    },
+    "./dokuwiki": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dokuwiki.vue"
     },
     "./dolby": {
       "types": "./types/dd0bq22g.d.ts",
@@ -4806,6 +4990,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/e/earmark-light.vue"
     },
+    "./easy-appointments": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/easy-appointments.vue"
+    },
     "./easyeda": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/e/easyeda.vue"
@@ -5058,6 +5246,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/e/emirates.vue"
     },
+    "./emissary-ingress-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/emissary-ingress-dark.vue"
+    },
+    "./emissary-ingress-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/emissary-ingress-light.vue"
+    },
     "./emlakjet": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/e/emlakjet.vue"
@@ -5174,6 +5370,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/e/espn.vue"
     },
+    "./espocrm": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/espocrm.vue"
+    },
     "./espressif": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/e/espressif.vue"
@@ -5197,6 +5397,10 @@
     "./ethereum": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/e/ethereum.vue"
+    },
+    "./etherpad": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/etherpad.vue"
     },
     "./ethers": {
       "types": "./types/dd0bq22g.d.ts",
@@ -5522,6 +5726,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/fiber.vue"
     },
+    "./fider": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fider.vue"
+    },
     "./fido-alliance": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/fido-alliance.vue"
@@ -5561,6 +5769,10 @@
     "./filamentphp": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/filamentphp.vue"
+    },
+    "./file-browser": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-browser.vue"
     },
     "./filedotio": {
       "types": "./types/dd0bq22g.d.ts",
@@ -5690,6 +5902,18 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/fizz.vue"
     },
+    "./flame": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/flame.vue"
+    },
+    "./flaresolverr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/flaresolverr.vue"
+    },
+    "./flarum": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/flarum.vue"
+    },
     "./flashforge": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/flashforge.vue"
@@ -5709,6 +5933,10 @@
     "./flathub": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/flathub.vue"
+    },
+    "./flatnotes": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/flatnotes.vue"
     },
     "./flatpak": {
       "types": "./types/dd0bq22g.d.ts",
@@ -5753,6 +5981,10 @@
     "./flower": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/flower.vue"
+    },
+    "./flowise": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/flowise.vue"
     },
     "./flowith": {
       "types": "./types/dd0bq22g.d.ts",
@@ -5817,6 +6049,10 @@
     "./fnac": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/fnac.vue"
+    },
+    "./focalboard": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/focalboard.vue"
     },
     "./folium": {
       "types": "./types/dd0bq22g.d.ts",
@@ -6017,6 +6253,14 @@
     "./freepik": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/freepik.vue"
+    },
+    "./freescout-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/freescout-dark.vue"
+    },
+    "./freescout-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/freescout-light.vue"
     },
     "./freetube": {
       "types": "./types/dd0bq22g.d.ts",
@@ -6418,6 +6662,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/glance.vue"
     },
+    "./glances-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/glances-dark.vue"
+    },
+    "./glances-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/glances-light.vue"
+    },
     "./glassdoor": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/glassdoor.vue"
@@ -6458,6 +6710,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/glitch.vue"
     },
+    "./glitchtip": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/glitchtip.vue"
+    },
     "./glm-v": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/glm-v.vue"
@@ -6481,6 +6737,10 @@
     "./glovo": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/glovo.vue"
+    },
+    "./glpi": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/glpi.vue"
     },
     "./gltf": {
       "types": "./types/dd0bq22g.d.ts",
@@ -6542,6 +6802,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/go-light.vue"
     },
+    "./goaccess": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/goaccess.vue"
+    },
     "./gocd": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/gocd.vue"
@@ -6577,6 +6841,10 @@
     "./gogdotcom": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/gogdotcom.vue"
+    },
+    "./gogs": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gogs.vue"
     },
     "./goil-dark": {
       "types": "./types/dd0bq22g.d.ts",
@@ -6950,6 +7218,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/goose-codename.vue"
     },
+    "./gotify": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gotify.vue"
+    },
     "./gotomeeting": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/gotomeeting.vue"
@@ -6986,6 +7258,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/grafana.vue"
     },
+    "./grafana-loki": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/grafana-loki.vue"
+    },
     "./grails": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/grails.vue"
@@ -6997,6 +7273,10 @@
     "./grammarly": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/grammarly.vue"
+    },
+    "./gramps-web": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gramps-web.vue"
     },
     "./grand-frais": {
       "types": "./types/dd0bq22g.d.ts",
@@ -7065,6 +7345,10 @@
     "./gridsome": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/gridsome.vue"
+    },
+    "./grimmory": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/grimmory.vue"
     },
     "./grocy": {
       "types": "./types/dd0bq22g.d.ts",
@@ -7178,6 +7462,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/h3.vue"
     },
+    "./habitica-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/habitica-dark.vue"
+    },
+    "./habitica-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/habitica-light.vue"
+    },
     "./habr": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/habr.vue"
@@ -7233,6 +7525,10 @@
     "./haldiram": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/haldiram.vue"
+    },
+    "./halo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/halo.vue"
     },
     "./hancom": {
       "types": "./types/dd0bq22g.d.ts",
@@ -7370,6 +7666,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/hedra.vue"
     },
+    "./heimdall": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/heimdall.vue"
+    },
     "./heineken": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/heineken.vue"
@@ -7470,6 +7770,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/hey.vue"
     },
+    "./heyform": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/heyform.vue"
+    },
     "./hi-bob": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/hi-bob.vue"
@@ -7537,6 +7841,10 @@
     "./homepage": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/homepage.vue"
+    },
+    "./homer": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/homer.vue"
     },
     "./homify": {
       "types": "./types/dd0bq22g.d.ts",
@@ -7713,6 +8021,10 @@
     "./husqvarna": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/husqvarna.vue"
+    },
+    "./hygraph": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hygraph.vue"
     },
     "./hymer": {
       "types": "./types/dd0bq22g.d.ts",
@@ -7938,6 +8250,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/i/improvmx.vue"
     },
+    "./in-toto-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/in-toto-dark.vue"
+    },
+    "./in-toto-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/in-toto-light.vue"
+    },
     "./inception-labs": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/i/inception-labs.vue"
@@ -8006,6 +8326,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/i/infinityfree.vue"
     },
+    "./infisical-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/infisical-dark.vue"
+    },
+    "./infisical-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/infisical-light.vue"
+    },
     "./inflection": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/i/inflection.vue"
@@ -8017,6 +8345,10 @@
     "./inflection-ai-light": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/i/inflection-ai-light.vue"
+    },
+    "./influence": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/influence.vue"
     },
     "./influxdb": {
       "types": "./types/dd0bq22g.d.ts",
@@ -8254,6 +8586,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/i/istio.vue"
     },
+    "./it-tools": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/it-tools.vue"
+    },
     "./itau": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/i/itau.vue"
@@ -8285,6 +8621,10 @@
     "./jabber": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/j/jabber.vue"
+    },
+    "./jackett": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jackett.vue"
     },
     "./jaco-dark": {
       "types": "./types/dd0bq22g.d.ts",
@@ -8674,6 +9014,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/k/kamal.vue"
     },
+    "./kanboard": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kanboard.vue"
+    },
     "./kando": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/k/kando.vue"
@@ -8697,6 +9041,14 @@
     "./karma": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/k/karma.vue"
+    },
+    "./karmada-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/karmada-dark.vue"
+    },
+    "./karmada-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/karmada-light.vue"
     },
     "./kasa-smart": {
       "types": "./types/dd0bq22g.d.ts",
@@ -8746,6 +9098,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/k/kdenlive.vue"
     },
+    "./keda-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/keda-dark.vue"
+    },
+    "./keda-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/keda-light.vue"
+    },
     "./kedro": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/k/kedro.vue"
@@ -8789,6 +9149,10 @@
     "./keras": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/k/keras.vue"
+    },
+    "./kestra": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kestra.vue"
     },
     "./keybase": {
       "types": "./types/dd0bq22g.d.ts",
@@ -8869,6 +9233,10 @@
     "./kilo-code-light": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/k/kilo-code-light.vue"
+    },
+    "./kimai": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kimai.vue"
     },
     "./kimi": {
       "types": "./types/dd0bq22g.d.ts",
@@ -9006,6 +9374,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/k/kolors.vue"
     },
+    "./komga": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/komga.vue"
+    },
     "./komoot": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/k/komoot.vue"
@@ -9025,6 +9397,14 @@
     "./konva": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/k/konva.vue"
+    },
+    "./kopia-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kopia-dark.vue"
+    },
+    "./kopia-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kopia-light.vue"
     },
     "./koreader": {
       "types": "./types/dd0bq22g.d.ts",
@@ -9070,6 +9450,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/k/kroger.vue"
     },
+    "./kserve-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kserve-dark.vue"
+    },
+    "./kserve-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kserve-light.vue"
+    },
     "./ktm": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/k/ktm.vue"
@@ -9082,6 +9470,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/k/kuaishou.vue"
     },
+    "./kubeedge-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kubeedge-dark.vue"
+    },
+    "./kubeedge-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kubeedge-light.vue"
+    },
     "./kubeflow": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/k/kubeflow.vue"
@@ -9090,9 +9486,25 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/k/kubernetes.vue"
     },
+    "./kubescape-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kubescape-dark.vue"
+    },
+    "./kubescape-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kubescape-light.vue"
+    },
     "./kubespray": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/k/kubespray.vue"
+    },
+    "./kubevela-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kubevela-dark.vue"
+    },
+    "./kubevela-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kubevela-light.vue"
     },
     "./kubuntu": {
       "types": "./types/dd0bq22g.d.ts",
@@ -9141,6 +9553,10 @@
     "./l-equipe": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/l/l-equipe.vue"
+    },
+    "./label-studio": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/label-studio.vue"
     },
     "./labex": {
       "types": "./types/dd0bq22g.d.ts",
@@ -9290,6 +9706,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/l/learnthis.vue"
     },
+    "./ledger": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/ledger.vue"
+    },
     "./leedlime": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/l/leedlime.vue"
@@ -9410,6 +9830,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/l/librarything.vue"
     },
+    "./librechat": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/librechat.vue"
+    },
     "./libreoffice": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/l/libreoffice.vue"
@@ -9438,6 +9862,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/l/libreoffice-writer.vue"
     },
+    "./librespeed": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/librespeed.vue"
+    },
     "./libretranslate": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/l/libretranslate.vue"
@@ -9457,6 +9885,10 @@
     "./lichess": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/l/lichess.vue"
+    },
+    "./lidarr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lidarr.vue"
     },
     "./lidl": {
       "types": "./types/dd0bq22g.d.ts",
@@ -9521,6 +9953,10 @@
     "./link": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/l/link.vue"
+    },
+    "./linkding": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/linkding.vue"
     },
     "./linkedin": {
       "types": "./types/dd0bq22g.d.ts",
@@ -9614,6 +10050,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/l/litecoin.vue"
     },
+    "./litellm-proxy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/litellm-proxy.vue"
+    },
     "./literal": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/l/literal.vue"
@@ -9638,6 +10078,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/l/livewire.vue"
     },
+    "./llama-cpp-server": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/llama-cpp-server.vue"
+    },
     "./llamaindex": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/l/llamaindex.vue"
@@ -9657,6 +10101,10 @@
     "./lmms": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/l/lmms.vue"
+    },
+    "./lobe-chat": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lobe-chat.vue"
     },
     "./lobehub": {
       "types": "./types/dd0bq22g.d.ts",
@@ -9782,6 +10230,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/l/love2d.vue"
     },
+    "./lowcoder": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lowcoder.vue"
+    },
     "./lowes": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/l/lowes.vue"
@@ -9906,6 +10358,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/magasins-u.vue"
     },
+    "./mage-ai": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mage-ai.vue"
+    },
     "./magento": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/magento.vue"
@@ -9945,6 +10401,14 @@
     "./mailgun": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/mailgun.vue"
+    },
+    "./mailhog": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mailhog.vue"
+    },
+    "./mailpit": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mailpit.vue"
     },
     "./mailtrap": {
       "types": "./types/dd0bq22g.d.ts",
@@ -10049,6 +10513,10 @@
     "./mariadb-foundation": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/mariadb-foundation.vue"
+    },
+    "./marimo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/marimo.vue"
     },
     "./markdown-dark": {
       "types": "./types/dd0bq22g.d.ts",
@@ -10346,6 +10814,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/memcached.vue"
     },
+    "./memos-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/memos-dark.vue"
+    },
+    "./memos-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/memos-light.vue"
+    },
     "./mendeley": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/mendeley.vue"
@@ -10461,6 +10937,10 @@
     "./metro-de-paris": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/metro-de-paris.vue"
+    },
+    "./metube": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/metube.vue"
     },
     "./mewe": {
       "types": "./types/dd0bq22g.d.ts",
@@ -10818,6 +11298,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/mindstudio.vue"
     },
+    "./minecraft-server": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/minecraft-server.vue"
+    },
     "./mingw-w64": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/mingw-w64.vue"
@@ -10825,6 +11309,10 @@
     "./mini": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/mini.vue"
+    },
+    "./miniflux": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/miniflux.vue"
     },
     "./minimax": {
       "types": "./types/dd0bq22g.d.ts",
@@ -10982,9 +11470,17 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/modx.vue"
     },
+    "./mojang": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mojang.vue"
+    },
     "./mojeek": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/mojeek.vue"
+    },
+    "./mojo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mojo.vue"
     },
     "./moleculer": {
       "types": "./types/dd0bq22g.d.ts",
@@ -11018,6 +11514,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/moneygram.vue"
     },
+    "./mongo-express": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mongo-express.vue"
+    },
     "./mongodb-dark": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/mongodb-dark.vue"
@@ -11037,6 +11537,10 @@
     "./monistic-logo": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/monistic-logo.vue"
+    },
+    "./monitixx": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/monitixx.vue"
     },
     "./monkey-tie": {
       "types": "./types/dd0bq22g.d.ts",
@@ -11682,6 +12186,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/n/nobara-linux.vue"
     },
+    "./nocobase-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nocobase-dark.vue"
+    },
+    "./nocobase-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nocobase-light.vue"
+    },
     "./node-red": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/n/node-red.vue"
@@ -11769,6 +12281,14 @@
     "./norwegian": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/n/norwegian.vue"
+    },
+    "./notary-project-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/notary-project-dark.vue"
+    },
+    "./notary-project-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/notary-project-light.vue"
     },
     "./note": {
       "types": "./types/dd0bq22g.d.ts",
@@ -12130,6 +12650,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/o/omarchy.vue"
     },
+    "./onedev": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/onedev.vue"
+    },
     "./onelogin": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/o/onelogin.vue"
@@ -12141,6 +12665,10 @@
     "./onestream": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/o/onestream.vue"
+    },
+    "./onetimesecret": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/onetimesecret.vue"
     },
     "./onex": {
       "types": "./types/dd0bq22g.d.ts",
@@ -12189,6 +12717,14 @@
     "./open-containers-initiative": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/o/open-containers-initiative.vue"
+    },
+    "./open-policy-agent-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/open-policy-agent-dark.vue"
+    },
+    "./open-policy-agent-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/open-policy-agent-light.vue"
     },
     "./open-source-hardware": {
       "types": "./types/dd0bq22g.d.ts",
@@ -12270,6 +12806,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/o/opencode.vue"
     },
+    "./opencost-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/opencost-dark.vue"
+    },
+    "./opencost-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/opencost-light.vue"
+    },
     "./opencritic": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/o/opencritic.vue"
@@ -12281,6 +12825,22 @@
     "./openfaas": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/o/openfaas.vue"
+    },
+    "./openfeature-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/openfeature-dark.vue"
+    },
+    "./openfeature-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/openfeature-light.vue"
+    },
+    "./openfga-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/openfga-dark.vue"
+    },
+    "./openfga-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/openfga-light.vue"
     },
     "./opengl": {
       "types": "./types/dd0bq22g.d.ts",
@@ -12474,6 +13034,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/o/orange.vue"
     },
+    "./orangehrm": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/orangehrm.vue"
+    },
     "./orchard-core": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/o/orchard-core.vue"
@@ -12489,6 +13053,10 @@
     "./organic-maps": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/o/organic-maps.vue"
+    },
+    "./organizr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/organizr.vue"
     },
     "./origin": {
       "types": "./types/dd0bq22g.d.ts",
@@ -12530,6 +13098,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/o/osmc.vue"
     },
+    "./osticket": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/osticket.vue"
+    },
     "./osu": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/o/osu.vue"
@@ -12569,6 +13141,14 @@
     "./owasp-dependency-check": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/o/owasp-dependency-check.vue"
+    },
+    "./owncast-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owncast-dark.vue"
+    },
+    "./owncast-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/owncast-light.vue"
     },
     "./owncloud": {
       "types": "./types/dd0bq22g.d.ts",
@@ -12637,6 +13217,10 @@
     "./pagseguro": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/pagseguro.vue"
+    },
+    "./pairdrop": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pairdrop.vue"
     },
     "./palantir": {
       "types": "./types/dd0bq22g.d.ts",
@@ -12794,6 +13378,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/payload-cms-light.vue"
     },
+    "./paymenter": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/paymenter.vue"
+    },
     "./payoneer": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/payoneer.vue"
@@ -12942,6 +13530,18 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/pfsense.vue"
     },
+    "./pg-back-web-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pg-back-web-dark.vue"
+    },
+    "./pg-back-web-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pg-back-web-light.vue"
+    },
+    "./pgadmin": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pgadmin.vue"
+    },
     "./phabricator": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/phabricator.vue"
@@ -12949,6 +13549,10 @@
     "./phalcon": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/phalcon.vue"
+    },
+    "./phantom": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/phantom.vue"
     },
     "./phaser": {
       "types": "./types/dd0bq22g.d.ts",
@@ -12994,6 +13598,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/photopea.vue"
     },
+    "./photoprism-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/photoprism-dark.vue"
+    },
+    "./photoprism-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/photoprism-light.vue"
+    },
     "./photoshop": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/photoshop.vue"
@@ -13013,6 +13625,10 @@
     "./photoshop-grayscale-app-icon": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/photoshop-grayscale-app-icon.vue"
+    },
+    "./photoview": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/photoview.vue"
     },
     "./php-dark": {
       "types": "./types/dd0bq22g.d.ts",
@@ -13102,6 +13718,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/pinboard.vue"
     },
+    "./pinchflat": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pinchflat.vue"
+    },
     "./pine-script": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/pine-script.vue"
@@ -13117,6 +13737,10 @@
     "./pingdom": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/pingdom.vue"
+    },
+    "./pingvin-share": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pingvin-share.vue"
     },
     "./pinia": {
       "types": "./types/dd0bq22g.d.ts",
@@ -13234,6 +13858,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/plangrid.vue"
     },
+    "./planka": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/planka.vue"
+    },
     "./platformdotsh": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/platformdotsh.vue"
@@ -13322,6 +13950,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/plume.vue"
     },
+    "./plunk": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/plunk.vue"
+    },
     "./pluralsight": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/pluralsight.vue"
@@ -13361,6 +13993,14 @@
     "./pocket-casts": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/pocket-casts.vue"
+    },
+    "./pocket-id-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pocket-id-dark.vue"
+    },
+    "./pocket-id-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pocket-id-light.vue"
     },
     "./pocketbase": {
       "types": "./types/dd0bq22g.d.ts",
@@ -13674,6 +14314,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/private-internet-access.vue"
     },
+    "./privatebin": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/privatebin.vue"
+    },
     "./pro-tools": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/pro-tools.vue"
@@ -13809,6 +14453,10 @@
     "./protractor": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/protractor.vue"
+    },
+    "./prowlarr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/prowlarr.vue"
     },
     "./proxmox": {
       "types": "./types/dd0bq22g.d.ts",
@@ -14226,6 +14874,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/r/rakuten-kobo.vue"
     },
+    "./rallly": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rallly.vue"
+    },
     "./ralph-lauren-dark": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/r/ralph-lauren-dark.vue"
@@ -14374,6 +15026,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/r/readdotcv.vue"
     },
+    "./readeck": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/readeck.vue"
+    },
     "./readme": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/r/readme.vue"
@@ -14437,6 +15093,10 @@
     "./redis": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/r/redis.vue"
+    },
+    "./redlib": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/redlib.vue"
     },
     "./redmine": {
       "types": "./types/dd0bq22g.d.ts",
@@ -15034,6 +15694,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/r/rye.vue"
     },
+    "./ryot-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/ryot-dark.vue"
+    },
+    "./ryot-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/ryot-light.vue"
+    },
     "./s-oil": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/s-oil.vue"
@@ -15058,6 +15726,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/safari.vue"
     },
+    "./safeline": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/safeline.vue"
+    },
     "./sage": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/sage.vue"
@@ -15077,6 +15749,10 @@
     "./sailsdotjs": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/sailsdotjs.vue"
+    },
+    "./saleor": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/saleor.vue"
     },
     "./salesforce": {
       "types": "./types/dd0bq22g.d.ts",
@@ -15294,6 +15970,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/seatgeek.vue"
     },
+    "./seaweedfs": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/seaweedfs.vue"
+    },
     "./securityscorecard": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/securityscorecard.vue"
@@ -15345,6 +16025,10 @@
     "./semaphore-ci": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/semaphore-ci.vue"
+    },
+    "./semaphore-ui": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/semaphore-ui.vue"
     },
     "./semrush": {
       "types": "./types/dd0bq22g.d.ts",
@@ -15434,6 +16118,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/sfml.vue"
     },
+    "./sftpgo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sftpgo.vue"
+    },
     "./shadcn-ui-dark": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/shadcn-ui-dark.vue"
@@ -15485,6 +16173,14 @@
     "./shikimori": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/shikimori.vue"
+    },
+    "./shiori": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/shiori.vue"
+    },
+    "./shlink": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/shlink.vue"
     },
     "./shopee": {
       "types": "./types/dd0bq22g.d.ts",
@@ -15562,6 +16258,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/silver-airways.vue"
     },
+    "./silverbullet": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/silverbullet.vue"
+    },
     "./similarweb": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/similarweb.vue"
@@ -15593,6 +16293,14 @@
     "./simplex": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/simplex.vue"
+    },
+    "./simplex-chat-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/simplex-chat-dark.vue"
+    },
+    "./simplex-chat-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/simplex-chat-light.vue"
     },
     "./sina-weibo": {
       "types": "./types/dd0bq22g.d.ts",
@@ -15690,6 +16398,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/slackware.vue"
     },
+    "./slash": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/slash.vue"
+    },
     "./slashdot": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/slashdot.vue"
@@ -15766,6 +16478,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/sncf.vue"
     },
+    "./snipe-it": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/snipe-it.vue"
+    },
     "./snort": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/snort.vue"
@@ -15813,6 +16529,10 @@
     "./sogou": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/sogou.vue"
+    },
+    "./soketi": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/soketi.vue"
     },
     "./solana": {
       "types": "./types/dd0bq22g.d.ts",
@@ -15990,9 +16710,17 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/sparkpost.vue"
     },
+    "./sparkyfitness": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sparkyfitness.vue"
+    },
     "./spdx": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/spdx.vue"
+    },
+    "./speaches": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/speaches.vue"
     },
     "./speaker-deck": {
       "types": "./types/dd0bq22g.d.ts",
@@ -16005,6 +16733,10 @@
     "./speedtest": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/speedtest.vue"
+    },
+    "./speedtest-tracker": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/speedtest-tracker.vue"
     },
     "./speedypage": {
       "types": "./types/dd0bq22g.d.ts",
@@ -16025,6 +16757,14 @@
     "./spidermonkey": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/spidermonkey.vue"
+    },
+    "./spiffe-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/spiffe-dark.vue"
+    },
+    "./spiffe-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/spiffe-light.vue"
     },
     "./spigotmc": {
       "types": "./types/dd0bq22g.d.ts",
@@ -16182,6 +16922,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/stagetimer.vue"
     },
+    "./stalwart-mail-server": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stalwart-mail-server.vue"
+    },
     "./standard-chartered": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/standard-chartered.vue"
@@ -16249,6 +16993,14 @@
     "./statista": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/statista.vue"
+    },
+    "./statsig": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/statsig.vue"
+    },
+    "./statusnook": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/statusnook.vue"
     },
     "./statuspage": {
       "types": "./types/dd0bq22g.d.ts",
@@ -16370,6 +17122,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/stremio.vue"
     },
+    "./strimzi-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/strimzi-dark.vue"
+    },
+    "./strimzi-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/strimzi-light.vue"
+    },
     "./stripe": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/stripe.vue"
@@ -16486,9 +17246,17 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/sunrise.vue"
     },
+    "./sunshine": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sunshine.vue"
+    },
     "./supabase": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/supabase.vue"
+    },
+    "./super-productivity": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/super-productivity.vue"
     },
     "./super-user": {
       "types": "./types/dd0bq22g.d.ts",
@@ -16505,6 +17273,10 @@
     "./supermicro": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/supermicro.vue"
+    },
+    "./sure": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sure.vue"
     },
     "./surfshark": {
       "types": "./types/dd0bq22g.d.ts",
@@ -16722,6 +17494,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/tampermonkey.vue"
     },
+    "./tandoor-recipes": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tandoor-recipes.vue"
+    },
     "./tanstack": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/tanstack.vue"
@@ -16770,6 +17546,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/tauri.vue"
     },
+    "./tautulli": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tautulli.vue"
+    },
     "./tavily": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/tavily.vue"
@@ -16778,9 +17558,21 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/taxbuzz.vue"
     },
+    "./tdarr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tdarr.vue"
+    },
     "./te-logo-whiteorange": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/te-logo-whiteorange.vue"
+    },
+    "./teable-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/teable-dark.vue"
+    },
+    "./teable-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/teable-light.vue"
     },
     "./teal": {
       "types": "./types/dd0bq22g.d.ts",
@@ -16809,6 +17601,10 @@
     "./technical-communication-suite": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/technical-communication-suite.vue"
+    },
+    "./technitium-dns-server": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/technitium-dns-server.vue"
     },
     "./technology-innovation-institute-falcon": {
       "types": "./types/dd0bq22g.d.ts",
@@ -16905,6 +17701,10 @@
     "./termius": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/termius.vue"
+    },
+    "./termix": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/termix.vue"
     },
     "./termux": {
       "types": "./types/dd0bq22g.d.ts",
@@ -17098,6 +17898,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/things.vue"
     },
+    "./thingsboard-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/thingsboard-dark.vue"
+    },
+    "./thingsboard-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/thingsboard-light.vue"
+    },
     "./thinkpad": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/thinkpad.vue"
@@ -17158,6 +17966,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/tiangong.vue"
     },
+    "./tianji-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tianji-dark.vue"
+    },
+    "./tianji-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tianji-light.vue"
+    },
     "./ticket-tailor": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/ticket-tailor.vue"
@@ -17209,6 +18025,10 @@
     "./tiktok-light": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/tiktok-light.vue"
+    },
+    "./tikv": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tikv.vue"
     },
     "./tilda-publishing": {
       "types": "./types/dd0bq22g.d.ts",
@@ -17433,6 +18253,10 @@
     "./traefik-proxy": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/traefik-proxy.vue"
+    },
+    "./trailbase": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/trailbase.vue"
     },
     "./trailforks": {
       "types": "./types/dd0bq22g.d.ts",
@@ -17894,6 +18718,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/u/uniqlo.vue"
     },
+    "./unisoc": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/unisoc.vue"
+    },
     "./united-airlines": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/u/united-airlines.vue"
@@ -17917,6 +18745,10 @@
     "./unjs": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/u/unjs.vue"
+    },
+    "./unleash": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/unleash.vue"
     },
     "./unlicense": {
       "types": "./types/dd0bq22g.d.ts",
@@ -18225,6 +19057,10 @@
     "./verizon": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/v/verizon.vue"
+    },
+    "./vert": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vert.vue"
     },
     "./vertexai-google": {
       "types": "./types/dd0bq22g.d.ts",
@@ -18566,6 +19402,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/v/vultr.vue"
     },
+    "./vvveb-cms": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vvveb-cms.vue"
+    },
     "./vyond": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/v/vyond.vue"
@@ -18598,6 +19438,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/w/wails.vue"
     },
+    "./wakapi": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wakapi.vue"
+    },
     "./wakatime-dark": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/w/wakatime-dark.vue"
@@ -18625,6 +19469,10 @@
     "./walletconnect": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/w/walletconnect.vue"
+    },
+    "./wallos": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wallos.vue"
     },
     "./walmart": {
       "types": "./types/dd0bq22g.d.ts",
@@ -18701,6 +19549,14 @@
     "./web-awesome": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/w/web-awesome.vue"
+    },
+    "./web-check-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/web-check-dark.vue"
+    },
+    "./web-check-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/web-check-light.vue"
     },
     "./web-components": {
       "types": "./types/dd0bq22g.d.ts",
@@ -18806,6 +19662,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/w/weights-and-biases.vue"
     },
+    "./wekan": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wekan.vue"
+    },
     "./welcome-to-the-jungle": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/w/welcome-to-the-jungle.vue"
@@ -18878,6 +19738,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/w/whole-foods-market.vue"
     },
+    "./whoogle-search": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/whoogle-search.vue"
+    },
     "./whoop": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/w/whoop.vue"
@@ -18949,6 +19813,10 @@
     "./windicss": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/w/windicss.vue"
+    },
+    "./windmill": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/windmill.vue"
     },
     "./windows": {
       "types": "./types/dd0bq22g.d.ts",
@@ -19298,6 +20166,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/y/yaml.vue"
     },
+    "./yamtrack-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yamtrack-dark.vue"
+    },
+    "./yamtrack-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yamtrack-light.vue"
+    },
     "./yandex": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/y/yandex.vue"
@@ -19597,6 +20473,10 @@
     "./zingat": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/z/zingat.vue"
+    },
+    "./zipline": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/z/zipline.vue"
     },
     "./zod": {
       "types": "./types/dd0bq22g.d.ts",

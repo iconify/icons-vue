@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/lucide",
   "type": "module",
-  "version": "1.0.78",
+  "version": "1.0.79",
   "homepage": "https://icon-sets.iconify.design/lucide/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "ISC",
@@ -1346,6 +1346,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/cctv-off.vue"
     },
+    "./certificate": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/certificate.vue"
+    },
     "./chart-area": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/chart-area.vue"
@@ -2518,6 +2522,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/e/egg-off.vue"
     },
+    "./eighth-note": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/eighth-note.vue"
+    },
+    "./eighth-notes": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/eighth-notes.vue"
+    },
     "./eject": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/e/eject.vue"
@@ -3501,6 +3513,10 @@
     "./guitar-electric": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/guitar-electric.vue"
+    },
+    "./half-note": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/half-note.vue"
     },
     "./ham": {
       "types": "./types/dd0bq22g.d.ts",
@@ -4870,10 +4886,6 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/music-2.vue"
     },
-    "./music-3": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/m/music-3.vue"
-    },
     "./music-4": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/music-4.vue"
@@ -6197,6 +6209,10 @@
     "./siren": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/siren.vue"
+    },
+    "./sixteenth-notes": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sixteenth-notes.vue"
     },
     "./skip-back": {
       "types": "./types/dd0bq22g.d.ts",
@@ -8401,6 +8417,10 @@
     "./move-3-d": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/move-3-d.vue"
+    },
+    "./music-3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/music-3.vue"
     },
     "./outdent": {
       "types": "./types/dd0bq22g.d.ts",

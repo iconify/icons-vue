@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/selfhst",
   "type": "module",
-  "version": "1.0.25",
+  "version": "1.0.26",
   "homepage": "https://icon-sets.iconify.design/selfhst/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "CC-BY-4.0",
@@ -17809,6 +17809,18 @@
     "./opengrammar-light": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/o/opengrammar-light.vue"
+    },
+    "./opengym": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/opengym.vue"
+    },
+    "./opengym-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/opengym-dark.vue"
+    },
+    "./opengym-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/opengym-light.vue"
     },
     "./openhab": {
       "types": "./types/dd0bq22g.d.ts",

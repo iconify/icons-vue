@@ -1,19 +1,20 @@
 # @iconify-vue/flag
 
-Icon set prefix: **flag**
+**Flag Icons**
 
-Icon set name: **Flag Icons**
+Author: [Panayiotis Lipiridis](https://github.com/lipis/flag-icons)
 
-Author: **Panayiotis Lipiridis**
+License: [MIT](https://github.com/lipis/flag-icons/blob/main/LICENSE)
 
-License: **[MIT](https://github.com/lipis/flag-icons/blob/main/LICENSE)**
-
-Repository: **https://github.com/lipis/flag-icons**
-
-Browse all icons: **[Preview Flag Icons](https://icon-sets.iconify.design/flag/)**
+Browse all icons: [preview Flag Icons on Iconify](https://icon-sets.iconify.design/flag/)
 
 ## Installation
 
+```bash
+npm install gitlab:iconify-icons/vue#flag
+```
+
+or
 ```bash
 npm install github:iconify/icons-vue#flag
 ```

@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/energy-icons",
   "type": "module",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "homepage": "https://icon-sets.iconify.design/energy-icons/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -1958,6 +1958,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/battery-container-48-bold.vue"
     },
+    "./battery-cooling-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/battery-cooling-20.vue"
+    },
+    "./battery-cooling-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/battery-cooling-20-bold.vue"
+    },
+    "./battery-cooling-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/battery-cooling-48.vue"
+    },
+    "./battery-cooling-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/battery-cooling-48-bold.vue"
+    },
     "./battery-cycle-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/battery-cycle-20.vue"
@@ -2661,6 +2677,22 @@
     "./binder-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/binder-48-bold.vue"
+    },
+    "./biochar-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/biochar-20.vue"
+    },
+    "./biochar-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/biochar-20-bold.vue"
+    },
+    "./biochar-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/biochar-48.vue"
+    },
+    "./biochar-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/biochar-48-bold.vue"
     },
     "./biodiversity-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -7606,6 +7638,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/contract-48-bold.vue"
     },
+    "./contract-for-difference-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/contract-for-difference-20.vue"
+    },
+    "./contract-for-difference-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/contract-for-difference-20-bold.vue"
+    },
+    "./contract-for-difference-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/contract-for-difference-48.vue"
+    },
+    "./contract-for-difference-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/contract-for-difference-48-bold.vue"
+    },
     "./contrast-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/contrast-20.vue"
@@ -8421,6 +8469,38 @@
     "./curtailment-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/curtailment-48-bold.vue"
+    },
+    "./cybersecurity-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cybersecurity-20.vue"
+    },
+    "./cybersecurity-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cybersecurity-20-bold.vue"
+    },
+    "./cybersecurity-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cybersecurity-48.vue"
+    },
+    "./cybersecurity-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cybersecurity-48-bold.vue"
+    },
+    "./cycle-lane-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cycle-lane-20.vue"
+    },
+    "./cycle-lane-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cycle-lane-20-bold.vue"
+    },
+    "./cycle-lane-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cycle-lane-48.vue"
+    },
+    "./cycle-lane-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cycle-lane-48-bold.vue"
     },
     "./cylinder-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -9461,6 +9541,22 @@
     "./drone-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/drone-48-bold.vue"
+    },
+    "./drone-inspection-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/drone-inspection-20.vue"
+    },
+    "./drone-inspection-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/drone-inspection-20-bold.vue"
+    },
+    "./drone-inspection-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/drone-inspection-48.vue"
+    },
+    "./drone-inspection-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/drone-inspection-48-bold.vue"
     },
     "./droplet-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -10774,6 +10870,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/e/expand-48-bold.vue"
     },
+    "./expansion-vessel-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/expansion-vessel-20.vue"
+    },
+    "./expansion-vessel-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/expansion-vessel-20-bold.vue"
+    },
+    "./expansion-vessel-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/expansion-vessel-48.vue"
+    },
+    "./expansion-vessel-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/expansion-vessel-48-bold.vue"
+    },
     "./export-cable-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/e/export-cable-20.vue"
@@ -12021,6 +12133,22 @@
     "./flower-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/flower-48-bold.vue"
+    },
+    "./flue-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/flue-20.vue"
+    },
+    "./flue-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/flue-20-bold.vue"
+    },
+    "./flue-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/flue-48.vue"
+    },
+    "./flue-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/flue-48-bold.vue"
     },
     "./flywheel-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -13638,6 +13766,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/gravity-storage-48-bold.vue"
     },
+    "./green-bond-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/green-bond-20.vue"
+    },
+    "./green-bond-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/green-bond-20-bold.vue"
+    },
+    "./green-bond-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/green-bond-48.vue"
+    },
+    "./green-bond-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/green-bond-48-bold.vue"
+    },
     "./green-hydrogen-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/green-hydrogen-20.vue"
@@ -13653,6 +13797,22 @@
     "./green-hydrogen-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/green-hydrogen-48-bold.vue"
+    },
+    "./green-jobs-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/green-jobs-20.vue"
+    },
+    "./green-jobs-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/green-jobs-20-bold.vue"
+    },
+    "./green-jobs-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/green-jobs-48.vue"
+    },
+    "./green-jobs-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/green-jobs-48-bold.vue"
     },
     "./green-steel-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -13877,6 +14037,22 @@
     "./ground-loop-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/ground-loop-48-bold.vue"
+    },
+    "./ground-mount-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/ground-mount-20.vue"
+    },
+    "./ground-mount-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/ground-mount-20-bold.vue"
+    },
+    "./ground-mount-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/ground-mount-48.vue"
+    },
+    "./ground-mount-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/ground-mount-48-bold.vue"
     },
     "./growth-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -14726,6 +14902,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/heatwave-48-bold.vue"
     },
+    "./hedgerow-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hedgerow-20.vue"
+    },
+    "./hedgerow-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hedgerow-20-bold.vue"
+    },
+    "./hedgerow-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hedgerow-48.vue"
+    },
+    "./hedgerow-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hedgerow-48-bold.vue"
+    },
     "./helicopter-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/helicopter-20.vue"
@@ -14837,6 +15029,22 @@
     "./hexagon-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/hexagon-48-bold.vue"
+    },
+    "./hi-vis-vest-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hi-vis-vest-20.vue"
+    },
+    "./hi-vis-vest-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hi-vis-vest-20-bold.vue"
+    },
+    "./hi-vis-vest-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hi-vis-vest-48.vue"
+    },
+    "./hi-vis-vest-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hi-vis-vest-48-bold.vue"
     },
     "./highlighter-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -19190,6 +19398,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/mine-shaft-48-bold.vue"
     },
+    "./mine-water-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mine-water-20.vue"
+    },
+    "./mine-water-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mine-water-20-bold.vue"
+    },
+    "./mine-water-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mine-water-48.vue"
+    },
+    "./mine-water-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mine-water-48-bold.vue"
+    },
     "./minibus-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/minibus-20.vue"
@@ -19957,6 +20181,22 @@
     "./negative-price-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/n/negative-price-48-bold.vue"
+    },
+    "./net-metering-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/net-metering-20.vue"
+    },
+    "./net-metering-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/net-metering-20-bold.vue"
+    },
+    "./net-metering-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/net-metering-48.vue"
+    },
+    "./net-metering-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/net-metering-48-bold.vue"
     },
     "./net-zero-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -20998,6 +21238,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/parallelogram-48-bold.vue"
     },
+    "./park-and-ride-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/park-and-ride-20.vue"
+    },
+    "./park-and-ride-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/park-and-ride-20-bold.vue"
+    },
+    "./park-and-ride-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/park-and-ride-48.vue"
+    },
+    "./park-and-ride-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/park-and-ride-48-bold.vue"
+    },
     "./parking-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/parking-20.vue"
@@ -21157,6 +21413,22 @@
     "./peak-demand-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/peak-demand-48-bold.vue"
+    },
+    "./peak-shaving-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/peak-shaving-20.vue"
+    },
+    "./peak-shaving-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/peak-shaving-20-bold.vue"
+    },
+    "./peak-shaving-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/peak-shaving-48.vue"
+    },
+    "./peak-shaving-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/peak-shaving-48-bold.vue"
     },
     "./peatland-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -24566,6 +24838,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/scope-3-48-bold.vue"
     },
+    "./scour-protection-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/scour-protection-20.vue"
+    },
+    "./scour-protection-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/scour-protection-20-bold.vue"
+    },
+    "./scour-protection-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/scour-protection-48.vue"
+    },
+    "./scour-protection-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/scour-protection-48-bold.vue"
+    },
     "./screen-rotate-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/screen-rotate-20.vue"
@@ -24725,6 +25013,22 @@
     "./search-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/search-48-bold.vue"
+    },
+    "./seaweed-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/seaweed-20.vue"
+    },
+    "./seaweed-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/seaweed-20-bold.vue"
+    },
+    "./seaweed-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/seaweed-48.vue"
+    },
+    "./seaweed-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/seaweed-48-bold.vue"
     },
     "./second-life-battery-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -26486,6 +26790,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/solar-meter-48-bold.vue"
     },
+    "./solar-monitoring-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/solar-monitoring-20.vue"
+    },
+    "./solar-monitoring-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/solar-monitoring-20-bold.vue"
+    },
+    "./solar-monitoring-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/solar-monitoring-48.vue"
+    },
+    "./solar-monitoring-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/solar-monitoring-48-bold.vue"
+    },
     "./solar-panel-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/solar-panel-20.vue"
@@ -27269,6 +27589,22 @@
     "./statcom-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/statcom-48-bold.vue"
+    },
+    "./state-of-charge-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/state-of-charge-20.vue"
+    },
+    "./state-of-charge-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/state-of-charge-20-bold.vue"
+    },
+    "./state-of-charge-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/state-of-charge-48.vue"
+    },
+    "./state-of-charge-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/state-of-charge-48-bold.vue"
     },
     "./steam-reformer-20": {
       "types": "./types/dd0bq22g.d.ts",
@@ -29622,6 +29958,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/tyre-48-bold.vue"
     },
+    "./ufh-manifold-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/ufh-manifold-20.vue"
+    },
+    "./ufh-manifold-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/ufh-manifold-20-bold.vue"
+    },
+    "./ufh-manifold-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/ufh-manifold-48.vue"
+    },
+    "./ufh-manifold-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/ufh-manifold-48-bold.vue"
+    },
     "./umbrella-20": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/u/umbrella-20.vue"
@@ -30693,6 +31045,22 @@
     "./washing-machine-48-bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/w/washing-machine-48-bold.vue"
+    },
+    "./waste-to-energy-20": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/waste-to-energy-20.vue"
+    },
+    "./waste-to-energy-20-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/waste-to-energy-20-bold.vue"
+    },
+    "./waste-to-energy-48": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/waste-to-energy-48.vue"
+    },
+    "./waste-to-energy-48-bold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/waste-to-energy-48-bold.vue"
     },
     "./watch-20": {
       "types": "./types/dd0bq22g.d.ts",

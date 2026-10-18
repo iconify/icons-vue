@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/vscode-icons",
   "type": "module",
-  "version": "1.0.64",
+  "version": "1.0.65",
   "homepage": "https://icon-sets.iconify.design/vscode-icons/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -1125,6 +1125,10 @@
     "./file-type-falcon": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-falcon.vue"
+    },
+    "./file-type-fallow": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-type-fallow.vue"
     },
     "./file-type-fantasticon": {
       "types": "./types/dd0bq22g.d.ts",
@@ -2334,6 +2338,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-light-pcl.vue"
     },
+    "./file-type-light-platformatic": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-type-light-platformatic.vue"
+    },
     "./file-type-light-pnpm": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-light-pnpm.vue"
@@ -3526,6 +3534,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-plantuml.vue"
     },
+    "./file-type-platformatic": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-type-platformatic.vue"
+    },
     "./file-type-platformio": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-platformio.vue"
@@ -4369,6 +4381,10 @@
     "./file-type-svg": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-svg.vue"
+    },
+    "./file-type-svglint": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-type-svglint.vue"
     },
     "./file-type-svgo": {
       "types": "./types/dd0bq22g.d.ts",
@@ -5465,6 +5481,14 @@
     "./folder-type-devenv-opened": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/folder-type-devenv-opened.vue"
+    },
+    "./folder-type-discord": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-type-discord.vue"
+    },
+    "./folder-type-discord-opened": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-type-discord-opened.vue"
     },
     "./folder-type-dist": {
       "types": "./types/dd0bq22g.d.ts",

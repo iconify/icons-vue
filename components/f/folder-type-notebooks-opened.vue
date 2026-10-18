@@ -4,18 +4,23 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":32,"height":32};
-const content = `<path class="uxwlgebcn"/><path class="r3gy8ebho"/><path class="gcs1m0bdk"/><path class="sf7o9wbqk"/><path class="jnseub-pu"/><path class="gkv2wd-ci"/>`;
+const content = `<path class="uxwlgebcn"/><path class="r3gy8ebho"/><path class="gcs1m0bdk"/><path class="g6-30kbtu"/><path class="jnseub-pu"/><path class="inh67llxx"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="vscode-icons:folder-type-notebooks-opened" /></template>
 <style>
+.g6-30kbtu {
+  fill: var(--svg-color--f37726, #f37726);
+  d: path("M22.74 25.213c-3.673 0-6.9-1.318-8.569-3.265a9.136 9.136 0 0 0 17.138 0c-1.665 1.946-4.88 3.265-8.569 3.265m0-12.657c3.673 0 6.9 1.318 8.569 3.264a9.136 9.136 0 0 0-17.138 0c1.669-1.95 4.88-3.264 8.569-3.264");
+}
+
 .gcs1m0bdk {
   fill: var(--svg-color--767677, #767677);
   d: path("M30.809 9.233a1.383 1.383 0 1 1-1.44-1.3a1.367 1.367 0 0 1 1.44 1.297z");
 }
 
-.gkv2wd-ci {
+.inh67llxx {
   fill: var(--svg-color--616262, #616262);
-  d: path("M14.589 12.112a1.003 1.003 0 1 1 .975-1.044a1.016 1.016 0 0 1-.975 1.044");
+  d: path("M14.588 12.112a1.003 1.003 0 1 1 .976-1.044a1.016 1.016 0 0 1-.976 1.044");
 }
 
 .jnseub-pu {
@@ -26,11 +31,6 @@ const content = `<path class="uxwlgebcn"/><path class="r3gy8ebho"/><path class="
 .r3gy8ebho {
   fill: var(--svg-color--969696, #969696);
   d: path("M25.7 13.7H.5l3.8 12.8h25.2z");
-}
-
-.sf7o9wbqk {
-  fill: var(--svg-color--f37726, #f37726);
-  d: path("M22.74 25.213c-3.673 0-6.9-1.318-8.569-3.265a9.136 9.136 0 0 0 17.138 0c-1.665 1.946-4.88 3.265-8.569 3.265m0-12.657c3.673 0 6.9 1.318 8.57 3.264a9.136 9.136 0 0 0-17.139 0c1.67-1.95 4.88-3.264 8.57-3.264");
 }
 
 .uxwlgebcn {

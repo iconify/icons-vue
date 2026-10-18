@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":32,"height":32};
-const content = `<mask id="SVGaqCXichY" width="139" height="32" x="0" y="0" maskUnits="userSpaceOnUse"><path class="qpwv56bpu"/></mask><g mask="url(#SVGaqCXichY)" class="ft5dv1b6b"><path class="ce9wo19hx"/></g>`;
+const content = `<g class="ft5dv1b6b"><mask id="SVGaqCXichY" width="139" height="32" x="0" y="0" maskUnits="userSpaceOnUse"><path class="qpwv56bpu"/></mask><g mask="url(#SVGaqCXichY)"><path class="ce9wo19hx"/></g></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="vscode-icons:file-type-dbt" /></template>
 <style>

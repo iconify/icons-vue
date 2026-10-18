@@ -4,13 +4,18 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":32,"height":32};
-const content = `<path class="sv_kq4brk"/><path class="urpzyie9p"/><path class="i15pseq0z"/><path class="qeqzwbb1g"/><path class="ckmo_hbpx"/><path class="nymvn7bmh"/><path class="m5b5st6-h"/>`;
+const content = `<path class="vsf43xb3g"/><path class="f4m4d2blf"/><path class="i15pseq0z"/><path class="qeqzwbb1g"/><path class="ckmo_hbpx"/><path class="nymvn7bmh"/><path class="m5b5st6-h"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="vscode-icons:file-type-csproj" /></template>
 <style>
 .ckmo_hbpx {
   fill: var(--svg-color--efeef0, #efeef0);
   d: path("m30.089 28.175l-8.744-.001v-1.915l-1.915-.002v-8.741l1.914.001l-.002-1.913h8.745v1.915h1.914l-.002 3.827H32v4.915h-1.912z");
+}
+
+.f4m4d2blf {
+  fill: var(--svg-color--7252aa, #7252aa);
+  d: path("M29.352 6.882a1.155 1.155 0 0 0-1.443.127l-.081.08L8.726 25.406l-.081.081a1.155 1.155 0 0 1-1.502.092l-4.63-3.476a1.155 1.155 0 0 0 1.57-.173c5.601-6.48 11.18-12.981 16.77-19.472c.23-.265.542-.404.888-.404c.231 0 .45.058.636.185z");
 }
 
 .i15pseq0z {
@@ -33,14 +38,9 @@ const content = `<path class="sv_kq4brk"/><path class="urpzyie9p"/><path class="
   d: path("M29.872 7.84v16.226a1.16 1.16 0 0 1-.52.97L22.4 29.68a1.16 1.16 0 0 0 .508-.97V3.21a1.18 1.18 0 0 0-.531-.97l6.975 4.643a1.17 1.17 0 0 1 .52.958");
 }
 
-.sv_kq4brk {
+.vsf43xb3g {
   fill: var(--svg-color--5e438f, #5e438f);
-  d: path("m7.144 25.58l-4.632-3.477a1.16 1.16 0 0 1-.462-.924V10.74a1.16 1.16 0 0 1 .462-.924L7.144 6.34a1.04 1.04 0 0 0-.312.924v17.392a1.05 1.05 0 0 0 .312.924");
-}
-
-.urpzyie9p {
-  fill: var(--svg-color--7252aa, #7252aa);
-  d: path("M29.352 6.882a1.155 1.155 0 0 0-1.443.127l-.081.08L8.726 25.406l-.081.081a1.155 1.155 0 0 1-1.501.092l-4.632-3.476a1.155 1.155 0 0 0 1.571-.173c5.601-6.48 11.18-12.981 16.77-19.472c.23-.265.542-.404.888-.404c.231 0 .45.058.636.185z");
+  d: path("m7.143 25.58l-4.63-3.477a1.16 1.16 0 0 1-.463-.924V10.74a1.16 1.16 0 0 1 .462-.924L7.143 6.34a1.04 1.04 0 0 0-.311.924v17.392a1.05 1.05 0 0 0 .311.924");
 }
 
 </style>

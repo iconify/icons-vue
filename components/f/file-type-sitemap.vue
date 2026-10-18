@@ -4,16 +4,12 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":32,"height":32};
-const content = `<g class="pjaiepbgj"><g transform="translate(-2 .955)scale(3.9999)" class="hwneuincd"><rect class="iaivzbq-f"/><rect class="wandjd64r"/><rect class="pkylttd2t"/><rect class="m9e9rob-w"/></g><path class="n7xp5lbtn"/><path class="dm9xkhblt"/><path class="bttmy5xjf"/></g>`;
+const content = `<g class="pjaiepbgj"><g transform="translate(-2 .955)scale(3.9999)" class="hwneuincd"><rect class="iaivzbq-f"/><rect class="wandjd64r"/><rect class="pkylttd2t"/><rect class="m9e9rob-w"/></g><path class="n7xp5lbtn"/><path class="pxm3alyml"/><path class="bttmy5xjf"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="vscode-icons:file-type-sitemap" /></template>
 <style>
 .bttmy5xjf {
   d: path("M25 15.85h2v5.52h-2z");
-}
-
-.dm9xkhblt {
-  d: path("M27 15.067v2H4.995v-2z");
 }
 
 .hwneuincd {
@@ -54,6 +50,10 @@ const content = `<g class="pjaiepbgj"><g transform="translate(-2 .955)scale(3.99
   y: 5.117px;
   rx: 0.442px;
   ry: 0.442px;
+}
+
+.pxm3alyml {
+  d: path("M27 15.067v2H4.996v-2z");
 }
 
 .wandjd64r {

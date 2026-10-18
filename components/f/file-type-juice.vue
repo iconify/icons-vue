@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":32,"height":32};
-const content = `<ellipse class="ydyu7b0ro"/><circle class="vsjgcxtmh"/><g class="yxh5jgofy"><path class="bhf3vbcol"/><path class="x3fvoacqh"/><path class="fv5q5ib5m"/><path class="nwd0n-bqf"/></g>`;
+const content = `<ellipse class="ydyu7b0ro"/><circle class="vsjgcxtmh"/><g class="yxh5jgofy"><path class="bhf3vbcol"/><path class="x3fvoacqh"/><path class="jtzpmgtlp"/><path class="lp-rl7goa"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="vscode-icons:file-type-juice" /></template>
 <style>
@@ -12,12 +12,12 @@ const content = `<ellipse class="ydyu7b0ro"/><circle class="vsjgcxtmh"/><g class
   d: path("M15.587 29.235h1.006V2.945h-1.006z");
 }
 
-.fv5q5ib5m {
-  d: path("m7.155 6.436l-.711.71l18.581 18.599l.712-.711z");
+.jtzpmgtlp {
+  d: path("m7.155 6.436l-.711.71l18.581 18.598l.712-.71z");
 }
 
-.nwd0n-bqf {
-  d: path("m25.75 7.161l-.71-.712L6.428 25.02l.71.711z");
+.lp-rl7goa {
+  d: path("m25.75 7.162l-.71-.713L6.427 25.02l.711.711z");
 }
 
 .vsjgcxtmh {

@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":32,"height":32};
-const content = `<defs><linearGradient id="SVGXDVoybeE" x1="15.996" x2="15.996" y1="2.953" y2="29.043" gradientUnits="userSpaceOnUse"><stop offset="0" class="w2cljsbjs"/><stop offset=".298" class="jaqmgnddm"/><stop offset=".478" class="rftyt-bkm"/><stop offset=".626" class="sczvwub5b"/><stop offset=".756" class="dk9ml7q1f"/><stop offset=".875" class="wwlmn8bzg"/><stop offset=".9" class="xrv7xib5p"/></linearGradient></defs><path class="hp0ix1q1v"/><path class="uwmsh4vtk"/><path class="ixes8vpol"/><path fill="url(#SVGXDVoybeE)" class="guabk59cc"/><path class="ryzlpne4e"/>`;
+const content = `<defs><linearGradient id="SVGXDVoybeE" x1="15.996" x2="15.996" y1="2.953" y2="29.043" gradientUnits="userSpaceOnUse"><stop offset="0" class="w2cljsbjs"/><stop offset=".298" class="jaqmgnddm"/><stop offset=".478" class="rftyt-bkm"/><stop offset=".626" class="sczvwub5b"/><stop offset=".756" class="dk9ml7q1f"/><stop offset=".875" class="wwlmn8bzg"/><stop offset=".9" class="xrv7xib5p"/></linearGradient></defs><path class="hp0ix1q1v"/><path class="uwmsh4vtk"/><path class="ixes8vpol"/><path fill="url(#SVGXDVoybeE)" class="guabk59cc"/><path class="sr1ldhbce"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="vscode-icons:file-type-phpunit" /></template>
 <style>
@@ -33,12 +33,12 @@ const content = `<defs><linearGradient id="SVGXDVoybeE" x1="15.996" x2="15.996" 
   stop-color: var(--svg-color--8b96ff, #8b96ff);
 }
 
-.ryzlpne4e {
-  d: path("m27.301 17.186l.51-1.045l1.482.722l-.51 1.046z");
-}
-
 .sczvwub5b {
   stop-color: var(--svg-color--99a2ff, #99a2ff);
+}
+
+.sr1ldhbce {
+  d: path("m27.3 17.186l.51-1.046l1.483.723l-.51 1.045z");
 }
 
 .uwmsh4vtk {

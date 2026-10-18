@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":32,"height":32};
-const content = `<g class="kuf42lb8e"><path class="x8r3bo3uc"/><path class="ha91qrqnt"/><path class="cz9ayfbgp"/><g class="l5y23ru5w"><path class="cs8h6m-kd"/><path class="n-it-abfp"/></g></g>`;
+const content = `<g clip-rule="evenodd" class="kuf42lb8e"><path class="x8r3bo3uc"/><path class="ha91qrqnt"/><path class="cz9ayfbgp"/><g class="l5y23ru5w"><path class="cs8h6m-kd"/><path class="n-it-abfp"/></g></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="vscode-icons:file-type-mvtjs" /></template>
 <style>

@@ -4,16 +4,10 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":32,"height":32};
-const content = `<defs><linearGradient id="SVG7kWvFdZp"><stop offset="0" class="wdbnyqq0a"/><stop offset="1" class="gru9z3wbo"/></linearGradient></defs><path fill="url(#SVG7kWvFdZp)" transform="translate(2.76 1.986)scale(.11923)" class="lzmzk1bgq"/><path class="gqm0hns_n"/><path class="krb_vzbzz"/>`;
+const content = `<defs><linearGradient id="SVG7kWvFdZp"><stop offset="0" class="wdbnyqq0a"/><stop offset="1" class="gru9z3wbo"/></linearGradient></defs><path fill="url(#SVG7kWvFdZp)" transform="translate(2.76 1.986)scale(.11923)" class="lzmzk1bgq"/><path class="x9vyl0b5t"/><path class="krb_vzbzz"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="vscode-icons:file-type-ng-pipe-js" /></template>
 <style>
-.gqm0hns_n {
-  fill: var(--svg-color--a55600, #a55600);
-  fill-opacity: var(--svg-fill-opacity--0-3, 0.3);
-  d: path("m29.239 6.659l-.957 15.013l-9.141-19.687zm-6.332 19.413L16 30.013l-6.908-3.941l1.405-3.405h11.005zM16 9.458l3.619 8.8H12.38zM3.707 21.672L2.76 6.66l10.097-4.673z");
-}
-
 .gru9z3wbo {
   stop-color: var(--svg-color--a55600, #a55600);
 }
@@ -29,6 +23,12 @@ const content = `<defs><linearGradient id="SVG7kWvFdZp"><stop offset="0" class="
 
 .wdbnyqq0a {
   stop-color: var(--svg-color--dc7200, #dc7200);
+}
+
+.x9vyl0b5t {
+  fill: var(--svg-color--a55600, #a55600);
+  fill-opacity: var(--svg-fill-opacity--0-3, 0.3);
+  d: path("m29.24 6.659l-.957 15.013l-9.141-19.687zm-6.332 19.413L16 30.013l-6.907-3.941l1.405-3.405h11.005zM16 9.458l3.62 8.8h-7.24zM3.708 21.672L2.76 6.66l10.1-4.674z");
 }
 
 </style>

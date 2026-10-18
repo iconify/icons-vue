@@ -4,13 +4,13 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":32,"height":32};
-const content = `<g class="ot5rfub_i"><path class="k2mfrb6ua"/><path class="ude7y1bej"/><path class="le0w2xbcu"/></g>`;
+const content = `<g class="ot5rfub_i"><path class="a_wqr6bwb"/><path class="vdhy87vzn"/><path class="le0w2xbcu"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="vscode-icons:file-type-grain" /></template>
 <style>
-.k2mfrb6ua {
+.a_wqr6bwb {
   fill: var(--svg-color--faa520, #faa520);
-  d: path("m16.056 2.024l-4.726 9.765l4.799 4.182l4.657-4.182z");
+  d: path("M16.056 2.023L11.33 11.79l4.799 4.182l4.657-4.182z");
 }
 
 .le0w2xbcu {
@@ -22,9 +22,9 @@ const content = `<g class="ot5rfub_i"><path class="k2mfrb6ua"/><path class="ude7
   stroke-width: var(--svg-stroke-width--0-406px, 0.406px);
 }
 
-.ude7y1bej {
+.vdhy87vzn {
   fill: var(--svg-color--f78f28, #f78f28);
-  d: path("m3.213 6.863l-.367 11.773l13.28 11.34l6.664-5.834z");
+  d: path("m3.213 6.863l-.367 11.773l13.28 11.34l6.664-5.835z");
 }
 
 </style>

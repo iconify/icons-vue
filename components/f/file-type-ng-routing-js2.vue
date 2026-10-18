@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":32,"height":32};
-const content = `<defs><linearGradient id="SVGHFEUkd6S"><stop offset="0" class="l1q-mxfjf"/><stop offset="1" class="oi4kq9b7z"/></linearGradient></defs><path fill="url(#SVGHFEUkd6S)" transform="translate(2.76 1.986)scale(.11923)" class="lzmzk1bgq"/><path class="lbwh91bwd"/><path class="evwak7bgb"/>`;
+const content = `<defs><linearGradient id="SVGHFEUkd6S"><stop offset="0" class="l1q-mxfjf"/><stop offset="1" class="oi4kq9b7z"/></linearGradient></defs><path fill="url(#SVGHFEUkd6S)" transform="translate(2.76 1.986)scale(.11923)" class="lzmzk1bgq"/><path class="lb745rdku"/><path class="evwak7bgb"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="vscode-icons:file-type-ng-routing-js2" /></template>
 <style>
@@ -17,10 +17,10 @@ const content = `<defs><linearGradient id="SVGHFEUkd6S"><stop offset="0" class="
   stop-color: var(--svg-color--dbdb00, #dbdb00);
 }
 
-.lbwh91bwd {
+.lb745rdku {
   fill: var(--svg-color--c1c100, #c1c100);
   fill-opacity: var(--svg-fill-opacity--0-3, 0.3);
-  d: path("m29.239 6.659l-.957 15.013l-9.141-19.687zm-6.332 19.413L16 30.013l-6.908-3.941l1.405-3.405h11.005zM16 9.458l3.619 8.8H12.38zM3.707 21.672L2.76 6.66l10.097-4.673z");
+  d: path("m29.24 6.659l-.957 15.013l-9.141-19.687zm-6.332 19.413L16 30.013l-6.907-3.941l1.405-3.405h11.005zM16 9.458l3.62 8.8h-7.24zM3.708 21.672L2.76 6.66l10.1-4.674z");
 }
 
 .lzmzk1bgq {

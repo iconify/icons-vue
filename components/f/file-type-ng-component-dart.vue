@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":32,"height":32};
-const content = `<defs><linearGradient id="SVGsG9qJbtn"><stop offset="0" class="ho413kbqm"/><stop offset="1" class="e2e82nbve"/></linearGradient></defs><path fill="url(#SVGsG9qJbtn)" transform="translate(2.76 1.986)scale(.11923)" class="lzmzk1bgq"/><path class="hh_85tb9i"/><path class="scy3g5kwj"/><path class="q8t8rrbbl"/><path class="b30s9ft8m"/><path class="sewrf2b1j"/><path class="j3l-ibboq"/>`;
+const content = `<defs><linearGradient id="SVGsG9qJbtn"><stop offset="0" class="ho413kbqm"/><stop offset="1" class="e2e82nbve"/></linearGradient></defs><path fill="url(#SVGsG9qJbtn)" transform="translate(2.76 1.986)scale(.11923)" class="lzmzk1bgq"/><path class="lxwf1wh5d"/><path class="scy3g5kwj"/><path class="q8t8rrbbl"/><path class="b30s9ft8m"/><path class="sewrf2b1j"/><path class="j3l-ibboq"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="vscode-icons:file-type-ng-component-dart" /></template>
 <style>
@@ -17,12 +17,6 @@ const content = `<defs><linearGradient id="SVGsG9qJbtn"><stop offset="0" class="
   stop-color: var(--svg-color--b13138, #b13138);
 }
 
-.hh_85tb9i {
-  fill: var(--svg-color--b13138, #b13138);
-  fill-opacity: var(--svg-fill-opacity--0-3, 0.3);
-  d: path("m29.239 6.659l-.957 15.013l-9.141-19.687zm-6.332 19.413L16 30.013l-6.908-3.941l1.405-3.405h11.005zM16 9.458l3.619 8.8H12.38zM3.707 21.672L2.76 6.66l10.097-4.673z");
-}
-
 .ho413kbqm {
   stop-color: var(--svg-color--de3641, #de3641);
 }
@@ -30,6 +24,12 @@ const content = `<defs><linearGradient id="SVGsG9qJbtn"><stop offset="0" class="
 .j3l-ibboq {
   fill: var(--svg-color--58b6f0, #58b6f0);
   d: path("m19.1 19.994l3.773 3.76l4.342 4.328l-.315 1.651h-4.892l-1.708-1.74a2.8 2.8 0 0 1-.694-1.555h-.019Z");
+}
+
+.lxwf1wh5d {
+  fill: var(--svg-color--b13138, #b13138);
+  fill-opacity: var(--svg-fill-opacity--0-3, 0.3);
+  d: path("m29.24 6.659l-.957 15.013l-9.141-19.687zm-6.332 19.413L16 30.013l-6.907-3.941l1.405-3.405h11.005zM16 9.458l3.62 8.8h-7.24zM3.708 21.672L2.76 6.66l10.1-4.674z");
 }
 
 .lzmzk1bgq {

@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/logos",
   "type": "module",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "homepage": "https://icon-sets.iconify.design/logos/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "CC0-1.0",
@@ -325,6 +325,14 @@
     "./apidog-icon": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/apidog-icon.vue"
+    },
+    "./apify": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/apify.vue"
+    },
+    "./apify-icon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/apify-icon.vue"
     },
     "./apigee": {
       "types": "./types/dd0bq22g.d.ts",
@@ -1730,6 +1738,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/coffeescript.vue"
     },
+    "./cohere": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cohere.vue"
+    },
+    "./cohere-icon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cohere-icon.vue"
+    },
     "./commitizen": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/commitizen.vue"
@@ -1757,6 +1773,14 @@
     "./composer": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/composer.vue"
+    },
+    "./composio": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/composio.vue"
+    },
+    "./composio-icon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/composio-icon.vue"
     },
     "./conan-io": {
       "types": "./types/dd0bq22g.d.ts",
@@ -2117,6 +2141,14 @@
     "./deepgram-icon": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/deepgram-icon.vue"
+    },
+    "./deepinfra": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/deepinfra.vue"
+    },
+    "./deepinfra-icon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/deepinfra-icon.vue"
     },
     "./deepseek": {
       "types": "./types/dd0bq22g.d.ts",
@@ -2745,6 +2777,14 @@
     "./falcor": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/falcor.vue"
+    },
+    "./falkordb": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/falkordb.vue"
+    },
+    "./falkordb-icon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/falkordb-icon.vue"
     },
     "./famous": {
       "types": "./types/dd0bq22g.d.ts",
@@ -3902,6 +3942,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/hugo.vue"
     },
+    "./hume": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hume.vue"
+    },
+    "./hume-icon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hume-icon.vue"
+    },
     "./humongous": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/humongous.vue"
@@ -4450,6 +4498,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/k/kustomer.vue"
     },
+    "./lancedb": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lancedb.vue"
+    },
+    "./lancedb-icon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lancedb-icon.vue"
+    },
     "./langchain": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/l/langchain.vue"
@@ -4457,6 +4513,14 @@
     "./langchain-icon": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/l/langchain-icon.vue"
+    },
+    "./langfuse": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/langfuse.vue"
+    },
+    "./langfuse-icon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/langfuse-icon.vue"
     },
     "./languagetool": {
       "types": "./types/dd0bq22g.d.ts",
@@ -4693,6 +4757,14 @@
     "./lucene-net": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/l/lucene-net.vue"
+    },
+    "./luma": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/luma.vue"
+    },
+    "./luma-icon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/luma-icon.vue"
     },
     "./lumen": {
       "types": "./types/dd0bq22g.d.ts",
@@ -5646,6 +5718,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/o/olark.vue"
     },
+    "./ollama": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/ollama.vue"
+    },
     "./onesignal": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/o/onesignal.vue"
@@ -6374,6 +6450,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/pycharm.vue"
     },
+    "./pydantic": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pydantic.vue"
+    },
+    "./pydantic-icon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pydantic-icon.vue"
+    },
     "./pypi": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/pypi.vue"
@@ -6481,6 +6565,10 @@
     "./rackspace-icon": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/r/rackspace-icon.vue"
+    },
+    "./ragflow": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/ragflow.vue"
     },
     "./rails": {
       "types": "./types/dd0bq22g.d.ts",
@@ -6705,6 +6793,14 @@
     "./rest-li": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/r/rest-li.vue"
+    },
+    "./retell": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/retell.vue"
+    },
+    "./retell-icon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/retell-icon.vue"
     },
     "./rethinkdb": {
       "types": "./types/dd0bq22g.d.ts",
@@ -7566,6 +7662,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/sugarss.vue"
     },
+    "./suno": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/suno.vue"
+    },
     "./supabase": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/supabase.vue"
@@ -7730,6 +7830,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/tauri.vue"
     },
+    "./tavily": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tavily.vue"
+    },
     "./tealium": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/tealium.vue"
@@ -7841,6 +7945,14 @@
     "./tidal-icon": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/tidal-icon.vue"
+    },
+    "./tigergraph": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tigergraph.vue"
+    },
+    "./tigergraph-icon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tigergraph-icon.vue"
     },
     "./tiktok": {
       "types": "./types/dd0bq22g.d.ts",

@@ -96,7 +96,7 @@ There are 227 branches in this repository, one for each icon set.
 - [#iconoven](https://github.com/iconify/icons-vue/tree/iconoven): **IconOven** (18236 icons, MIT)
 - [#boxicons](https://github.com/iconify/icons-vue/tree/boxicons): **Boxicons** (3768 icons, MIT)
 - [#mingcute](https://github.com/iconify/icons-vue/tree/mingcute): **MingCute Icon** (3320 icons, Apache 2.0)
-- [#keyline-icons](https://github.com/iconify/icons-vue/tree/keyline-icons): **Keyline Icons** (11480 icons, MIT)
+- [#keyline-icons](https://github.com/iconify/icons-vue/tree/keyline-icons): **Keyline Icons** (12056 icons, MIT)
 - [#ri](https://github.com/iconify/icons-vue/tree/ri): **Remix Icon** (3188 icons, Apache 2.0)
 - [#mynaui](https://github.com/iconify/icons-vue/tree/mynaui): **Myna UI Icons** (2620 icons, MIT)
 - [#andrsrxn](https://github.com/iconify/icons-vue/tree/andrsrxn): **andrsrxn/icons** (2380 icons, MIT)
@@ -112,7 +112,7 @@ There are 227 branches in this repository, one for each icon set.
 - [#majesticons](https://github.com/iconify/icons-vue/tree/majesticons): **Majesticons** (760 icons, MIT)
 - [#gg](https://github.com/iconify/icons-vue/tree/gg): **css.gg** (704 icons, MIT)
 - [#flowbite](https://github.com/iconify/icons-vue/tree/flowbite): **Flowbite Icons** (751 icons, MIT)
-- [#vadivam](https://github.com/iconify/icons-vue/tree/vadivam): **Vadivam** (508 icons, MIT)
+- [#vadivam](https://github.com/iconify/icons-vue/tree/vadivam): **Vadivam** (587 icons, MIT)
 - [#basil](https://github.com/iconify/icons-vue/tree/basil): **Basil** (493 icons, CC BY 4.0)
 - [#pixelarticons](https://github.com/iconify/icons-vue/tree/pixelarticons): **Pixelarticons** (1036 icons, MIT)
 - [#pixel](https://github.com/iconify/icons-vue/tree/pixel): **Pixel Icon** (578 icons, CC BY 4.0)
@@ -181,7 +181,7 @@ There are 227 branches in this repository, one for each icon set.
 
 - [#fluent](https://github.com/iconify/icons-vue/tree/fluent): **Fluent UI System Icons** (19900 icons, MIT)
 - [#ph](https://github.com/iconify/icons-vue/tree/ph): **Phosphor** (9072 icons, MIT)
-- [#energy-icons](https://github.com/iconify/icons-vue/tree/energy-icons): **Energy Icons** (8000 icons, MIT)
+- [#energy-icons](https://github.com/iconify/icons-vue/tree/energy-icons): **Energy Icons** (8092 icons, MIT)
 - [#glyphs](https://github.com/iconify/icons-vue/tree/glyphs): **Glyphs** (3452 icons, MIT)
 - [#glyphs-poly](https://github.com/iconify/icons-vue/tree/glyphs-poly): **Glyphs Poly** (863 icons, MIT)
 - [#teenyicons](https://github.com/iconify/icons-vue/tree/teenyicons): **Teenyicons** (1200 icons, MIT)
@@ -232,7 +232,7 @@ There are 227 branches in this repository, one for each icon set.
 
 ### Programming
 
-- [#vscode-icons](https://github.com/iconify/icons-vue/tree/vscode-icons): **VSCode Icons** (1698 icons, MIT)
+- [#vscode-icons](https://github.com/iconify/icons-vue/tree/vscode-icons): **VSCode Icons** (1704 icons, MIT)
 - [#codicon](https://github.com/iconify/icons-vue/tree/codicon): **Codicons** (654 icons, CC BY 4.0)
 - [#material-icon-theme](https://github.com/iconify/icons-vue/tree/material-icon-theme): **Material Icon Theme** (906 icons, MIT)
 - [#file-icons](https://github.com/iconify/icons-vue/tree/file-icons): **File Icons** (930 icons, ISC)
@@ -247,7 +247,7 @@ There are 227 branches in this repository, one for each icon set.
 ### Logos
 
 - [#simple-icons](https://github.com/iconify/icons-vue/tree/simple-icons): **Simple Icons** (3466 icons, CC0 1.0)
-- [#logos](https://github.com/iconify/icons-vue/tree/logos): **SVG Logos** (1988 icons, CC0)
+- [#logos](https://github.com/iconify/icons-vue/tree/logos): **SVG Logos** (2016 icons, CC0)
 - [#streamline-logos](https://github.com/iconify/icons-vue/tree/streamline-logos): **Logos free icons** (1362 icons, CC BY 4.0)
 - [#cib](https://github.com/iconify/icons-vue/tree/cib): **CoreUI Brands** (830 icons, CC0 1.0)
 - [#fa7-brands](https://github.com/iconify/icons-vue/tree/fa7-brands): **Font Awesome Brands** (608 icons, CC BY 4.0)
@@ -339,4 +339,4 @@ There are 227 branches in this repository, one for each icon set.
 - [#vaadin](https://github.com/iconify/icons-vue/tree/vaadin): **Vaadin Icons** (636 icons, Apache 2.0)
 - [#grommet-icons](https://github.com/iconify/icons-vue/tree/grommet-icons): **Grommet Icons** (636 icons, Apache 2.0)
 
-Total: 227 icon sets, 404570 icons.
+Total: 227 icon sets, 405351 icons.

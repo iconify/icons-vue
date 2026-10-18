@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/l/l5cqhtb5n.css';
+import '../../css/k/kwvmqj5ia.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="l5cqhtb5n"/>`;
+const content = `<path class="kwvmqj5ia"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="vadivam:triangle-alert" /></template>

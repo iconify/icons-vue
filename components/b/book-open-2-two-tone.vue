@@ -1,0 +1,30 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="nrj6p8qat"><path class="u3jl_nu2s"/><path class="zcxl0-f3m"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:book-open-2-two-tone" /></template>
+<style>
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.u3jl_nu2s {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M6 5L6 4C5.9999 2.8954 6.8954 2 8 2C8.2542 2 8.5061 2.0484 8.7422 2.1428C10.7305 2.9379 12.3702 4.4159 13.3667 6.3113C14.8628 5.1157 16.645 4.3313 18.5372 4.0359C18.6903 4.012 18.8451 4 19 4C20.6569 4 22 5.3431 22 7L22 17C22 18.6569 20.6569 20 19 20C17.0527 20 15.1579 20.6316 13.6 21.8C13.4269 21.9298 13.2164 22 13 22C12.8536 22 12.7091 21.9679 12.5765 21.9059C9.8916 20.6506 6.9638 20 4 20C2.8954 20 2 19.1046 2 18L2 7C2 5.8954 2.8954 5 4 5L6 5Z");
+  stroke: none;
+}
+
+.zcxl0-f3m {
+  d: path("M7 6L4 6C3.4477 6 3 6.4477 3 7L3 18C3 18.5523 3.4477 19 4 19C7.1102 19 10.1825 19.6827 13 21C14.731 19.7018 16.8363 19 19 19C20.1046 19 21 18.1046 21 17L21 7C21 5.8954 20.1046 5 19 5C18.8967 5 18.7936 5.008 18.6915 5.0239C16.5187 5.3632 14.5183 6.4092 13 8C12.2613 5.7539 10.5668 3.9496 8.3714 3.0715C8.2532 3.0243 8.1272 3 8 3C7.4477 3 7 3.4477 7 4L7 15C7 15.5523 7.4477 16 8 16C10.7614 16 13 18.2386 13 21M13 8L13 21");
+}
+
+</style>

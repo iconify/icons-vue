@@ -1,0 +1,17 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path clip-rule="evenodd" class="liouqqbzu"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:book-open-2-fill" /></template>
+<style>
+.liouqqbzu {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M6 5L6 4C5.9999 2.8954 6.8954 2 8 2C8.2542 2 8.5061 2.0484 8.7422 2.1428C10.7305 2.9379 12.3702 4.4159 13.3667 6.3113C14.8628 5.1157 16.645 4.3313 18.5372 4.0359C18.6903 4.012 18.8451 4 19 4C20.6569 4 22 5.3431 22 7L22 17C22 18.6569 20.6569 20 19 20C17.0527 20 15.1579 20.6316 13.6 21.8C13.4269 21.9298 13.2164 22 13 22C12.8536 22 12.7091 21.9679 12.5765 21.9059C9.8916 20.6506 6.9638 20 4 20C2.8954 20 2 19.1046 2 18L2 7C2 5.8954 2.8954 5 4 5L6 5ZM12 8.1657C11.3283 6.2662 9.8707 4.7482 8 4L8 15C9.4762 14.9982 10.9009 15.5424 12 16.5278L12 8.1657Z");
+}
+
+</style>

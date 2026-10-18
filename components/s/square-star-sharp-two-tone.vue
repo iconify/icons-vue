@@ -1,0 +1,29 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="gp_8x1bzb"><path class="v8hgvi38z"/><path class="i-4usx30e"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:square-star-sharp-two-tone" /></template>
+<style>
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.i-4usx30e {
+  d: path("M3 3L21 3L21 21L3 21L3 3ZM11.7693 7.4036C11.8082 7.3106 11.8992 7.25 12 7.25C12.1009 7.25 12.1918 7.3106 12.2307 7.4036L13.4938 10.428L16.7699 10.6895C16.8998 10.6999 17 10.8084 17 10.9387C17 11.0119 16.9679 11.0814 16.9123 11.1289L14.417 13.2576L15.1797 16.4418C15.1842 16.4608 15.1865 16.4804 15.1865 16.5C15.1865 16.6381 15.0746 16.75 14.9365 16.75C14.8907 16.75 14.8458 16.7374 14.8066 16.7136L12 15.0064L9.1934 16.7136C9.1543 16.7374 9.1093 16.75 9.0635 16.75C8.9254 16.75 8.8135 16.6381 8.8135 16.5C8.8135 16.4804 8.8158 16.4608 8.8204 16.4418L9.5831 13.2576L7.0878 11.1289C7.0321 11.0814 7 11.0119 7 10.9387C7 10.8084 7.1002 10.6999 7.2301 10.6895L10.5062 10.428L11.7693 7.4036Z");
+}
+
+.v8hgvi38z {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M3 2L21 2C21.5523 2 22 2.4477 22 3L22 21C22 21.5523 21.5523 22 21 22L3 22C2.4477 22 2 21.5523 2 21L2 3C2 2.4477 2.4477 2 3 2Z");
+  stroke: none;
+}
+
+</style>

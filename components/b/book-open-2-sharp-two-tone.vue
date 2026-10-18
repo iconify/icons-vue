@@ -1,0 +1,29 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="gp_8x1bzb"><path class="dvipz1bnm"/><path class="j_mhxhb5i"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:book-open-2-sharp-two-tone" /></template>
+<style>
+.dvipz1bnm {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M6 5L6 3C6 2.4477 6.4477 2 7 2C7.0616 2 7.1231 2.0057 7.1837 2.017C9.7621 2.4989 12.0019 4.0817 13.3171 6.351C15.2748 4.7679 17.7163 3.9042 20.234 3.9042C20.5152 3.9042 20.7963 3.915 21.0767 3.9365C21.5977 3.9766 22 4.4111 22 4.9336L22 19.202C22 19.7543 21.5523 20.202 21 20.202C20.9329 20.202 20.8659 20.1952 20.8001 20.1818C20.2077 20.0609 19.6047 20 19.0001 20C17.0527 20 15.1579 20.6316 13.6 21.8C13.4269 21.9298 13.2164 22 13 22C12.8536 22 12.7091 21.9679 12.5765 21.9059C9.8915 20.6506 6.9637 20 3.9998 20C3.6821 20 3.3644 20.0074 3.0471 20.0224C3.0314 20.0231 3.0157 20.0235 3 20.0235C2.4477 20.0235 2 19.5758 2 19.0235L2 6C2 5.4477 2.4477 5 3 5L6 5Z");
+  stroke: none;
+}
+
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.j_mhxhb5i {
+  d: path("M7 6L3 6L3 19.0235C3.3331 19.0078 3.6665 19 4 19C7.1102 19 10.1825 19.6827 13 21C14.731 19.7018 16.8363 19 19 19C19.6718 19 20.3418 19.0677 21 19.202L21 4.9336C20.7451 4.914 20.4896 4.9042 20.234 4.9042C17.501 4.9042 14.887 6.0229 13 8C12.0047 5.404 9.733 3.5108 7 3L7 16.101C7.3291 16.0338 7.6641 16 8 16C10.7614 16 13 18.2386 13 21M13 8L13 21");
+}
+
+</style>

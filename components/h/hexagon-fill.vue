@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="o2dtqgdjo"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:hexagon-fill" /></template>
+<style>
+.o2dtqgdjo {
+  fill: currentColor;
+  d: path("M9.981 1.547C10.5935 1.1888 11.2904 1 12 1C12.7096 1 13.4065 1.1888 14.019 1.547L20.019 5.0552C21.2459 5.7726 22 7.0871 22 8.5083L22 15.4917C22 16.9129 21.2459 18.2274 20.019 18.9448L14.019 22.453C13.4065 22.8112 12.7096 23 12 23C11.2904 23 10.5935 22.8112 9.981 22.453L3.981 18.9448C2.7541 18.2274 2 16.9129 2 15.4917L2 8.5083C2 7.0871 2.7541 5.7726 3.981 5.0552L9.981 1.547Z");
+}
+
+</style>

@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/pinhead",
   "type": "module",
-  "version": "1.0.35",
+  "version": "1.0.36",
   "homepage": "https://icon-sets.iconify.design/pinhead/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "CC0-1.0",
@@ -4781,6 +4781,14 @@
     "./khanda-on-square": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/k/khanda-on-square.vue"
+    },
+    "./kick-scooter": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kick-scooter.vue"
+    },
+    "./kick-scooter-with-power-cord": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kick-scooter-with-power-cord.vue"
     },
     "./kidneys": {
       "types": "./types/dd0bq22g.d.ts",
@@ -10189,6 +10197,14 @@
     "./tree-stump": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/tree-stump.vue"
+    },
+    "./tree-trunk": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tree-trunk.vue"
+    },
+    "./tree-trunk-with-plaque": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tree-trunk-with-plaque.vue"
     },
     "./trench": {
       "types": "./types/dd0bq22g.d.ts",

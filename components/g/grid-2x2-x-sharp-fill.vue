@@ -1,0 +1,29 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="gp_8x1bzb"><path clip-rule="evenodd" class="k5enx8bky"/><path class="ripbswb2c"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:grid-2x2-x-sharp-fill" /></template>
+<style>
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.k5enx8bky {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M2 1L20 1C20.5523 1 21 1.4477 21 2L21 11C21 11.5523 20.5523 12 20 12L12 12L12 20C12 20.5523 11.5523 21 11 21L2 21C1.4477 21 1 20.5523 1 20L1 2C1 1.4477 1.4477 1 2 1ZM3 3L3 10L10 10L10 3Z");
+  stroke: none;
+}
+
+.ripbswb2c {
+  d: path("M15.7071 15.7071L22.2929 22.2929M22.2929 15.7071L15.7071 22.2929");
+}
+
+</style>

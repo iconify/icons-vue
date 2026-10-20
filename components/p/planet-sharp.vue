@@ -1,0 +1,19 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="zzqebbbbi"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:planet-sharp" /></template>
+<style>
+.zzqebbbbi {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M19 12C19 15.866 15.866 19 12 19C8.134 19 5 15.866 5 12C5 8.134 8.134 5 12 5C15.866 5 19 8.134 19 12ZM5.0002 12.0505C2.8253 13.4478 1.7403 14.762 2.0528 15.6205C2.6195 17.1774 7.5324 16.8186 13.0261 14.8191C18.5198 12.8195 22.5139 9.9364 21.9472 8.3795C21.6347 7.521 19.9589 7.2117 17.3946 7.5393");
+}
+
+</style>

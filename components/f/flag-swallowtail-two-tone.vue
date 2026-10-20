@@ -1,0 +1,30 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="nrj6p8qat"><path class="oq13ghbdy"/><path class="bv5---bme"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:flag-swallowtail-two-tone" /></template>
+<style>
+.bv5---bme {
+  d: path("M4 2L4 22M4 4L18.9983 4C19.797 4 20.2734 4.8901 19.8303 5.5547L17.0517 9.7226C16.9398 9.8906 16.9398 10.1094 17.0517 10.2774L19.8303 14.4453C20.2734 15.1099 19.797 16 18.9983 16L4 16");
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.oq13ghbdy {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M4 3L18.9983 3C19.9908 2.9988 20.8337 3.7261 20.978 4.7081C20.9926 4.8054 20.9999 4.9038 20.9999 5.0022C20.9999 5.3966 20.8824 5.7821 20.6624 6.1094L18.0686 10L20.6623 13.8906C20.8821 14.2193 20.9994 14.6058 20.9994 15.0012C20.9994 15.567 20.7595 16.1063 20.3393 16.4853C19.9742 16.8165 19.4989 17 19.0059 17C19.0033 17 19.0008 17 18.9983 17L4 17C3.4477 17 3 16.5523 3 16L3 4C3 3.4477 3.4477 3 4 3Z");
+  stroke: none;
+}
+
+</style>

@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/u/uo05-abpn.css';
+import '../../css/d/d9favwrwq.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="uo05-abpn"/>`;
+const content = `<path class="d9favwrwq"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="thesvg-color:elsevier" /></template>

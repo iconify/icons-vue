@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/thesvg-color",
   "type": "module",
-  "version": "1.0.18",
+  "version": "1.0.19",
   "homepage": "https://icon-sets.iconify.design/thesvg-color/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -6918,6 +6918,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/google-bigtable.vue"
     },
+    "./google-business-profile": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/google-business-profile.vue"
+    },
     "./google-calendar": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/google-calendar.vue"
@@ -10909,6 +10913,10 @@
     "./metamask": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/metamask.vue"
+    },
+    "./metamcp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/metamcp.vue"
     },
     "./metasploit": {
       "types": "./types/dd0bq22g.d.ts",
@@ -15869,6 +15877,10 @@
     "./scan": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/scan.vue"
+    },
+    "./scanfile": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/scanfile.vue"
     },
     "./scania": {
       "types": "./types/dd0bq22g.d.ts",

@@ -11,6 +11,11 @@ Browse all icons: [preview Kubernetes Icons on Iconify](https://icon-sets.iconif
 ## Installation
 
 ```bash
+npm install gitlab:iconify-icons/vue#k8s
+```
+
+or
+```bash
 npm install github:iconify/icons-vue#k8s
 ```
 

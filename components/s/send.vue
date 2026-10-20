@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/o/o966jfvtl.css';
+import '../../css/w/wf0j37b0t.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="o966jfvtl"/>`;
+const content = `<path class="wf0j37b0t"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="vadivam:send" /></template>

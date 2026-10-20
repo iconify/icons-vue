@@ -1,0 +1,8 @@
+.nrmierbov {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M3 21L21 3M4.061 16.404l3.535 3.535M21 21l-6.525-6.525m-4.95-4.95L3 3m13.404 16.94l3.535-3.536");
+}

@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/codicon",
   "type": "module",
-  "version": "1.0.47",
+  "version": "1.0.48",
   "homepage": "https://icon-sets.iconify.design/codicon/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "CC-BY-4.0",
@@ -2437,6 +2437,10 @@
     "./triangle-up": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/triangle-up.vue"
+    },
+    "./trophy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/trophy.vue"
     },
     "./twitter": {
       "types": "./types/dd0bq22g.d.ts",

@@ -1,16 +1,15 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
 import '../../css/f/ft5dv1b6b.css';
-import '../../css/w/wst-d9bvl.css';
-import '../../css/d/dgf53-e9k.css';
-import '../../css/p/p9wtf3bff.css';
-import '../../css/n/nt23ruguf.css';
-import '../../css/u/uhwhn3b_h.css';
-import '../../css/a/a9l8w0bjj.css';
+import '../../css/t/tet1un_1z.css';
+import '../../css/h/hdpc43bye.css';
+import '../../css/h/hocn3qtin.css';
+import '../../css/k/k-vcg4kzc.css';
+import '../../css/a/a1g7zcb9y.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><circle transform="rotate(135.7 4.7 19.47)" class="wst-d9bvl"/><path class="dgf53-e9k"/><path class="p9wtf3bff"/><path class="nt23ruguf"/><circle transform="rotate(135.7 4.7 19.47)" class="uhwhn3b_h"/><path class="a9l8w0bjj"/></g>`;
+const content = `<g class="ft5dv1b6b"><circle transform="rotate(135.7 4.73 19.31)" class="tet1un_1z"/><path class="hdpc43bye"/><path class="hocn3qtin"/><circle transform="rotate(135.7 4.73 19.31)" class="k-vcg4kzc"/><path class="a1g7zcb9y"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="andrsrxn:safety-pin" /></template>

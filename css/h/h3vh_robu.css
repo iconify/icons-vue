@@ -1,0 +1,7 @@
+.h3vh_robu {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("m15.46 5.71l.1.1c1.33 1.33 2 2 2.83 2s1.5-.67 2.83-2l.1-.1m-2.92-4.3v6.13m1.83 3.92v4.85c0 2.83 0 4.24-.88 5.12s-2.3.88-5.12.88H9.77c-2.82 0-4.24 0-5.12-.88s-.88-2.3-.88-5.12V7.69c0-2.83 0-4.24.88-5.12s2.3-.88 5.12-.88h2.08");
+}

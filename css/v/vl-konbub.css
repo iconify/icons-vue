@@ -1,0 +1,7 @@
+.vl-konbub {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M19.4 14.44c0 3.84-3.32 6.95-7.4 6.95s-7.4-3.11-7.4-6.95c0-4.66 3.15-8.37 5.34-10.38c.85-.79 1.28-1.18 2.06-1.18s1.2.4 2.06 1.18c2.19 2.02 5.33 5.74 5.33 10.38");
+}

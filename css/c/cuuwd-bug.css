@@ -1,0 +1,7 @@
+.cuuwd-bug {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M15.9 9.45a3.89 3.89 0 1 0-2.93-4.65m-1.34 4.07L8.62 3.55c-.42-.75-.63-1.12-.98-1.32s-.78-.2-1.63-.2h-.38");
+}

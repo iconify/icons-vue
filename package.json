@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/octicon",
   "type": "module",
-  "version": "1.0.28",
+  "version": "1.0.29",
   "homepage": "https://icon-sets.iconify.design/octicon/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -429,6 +429,10 @@
     "./check-24": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/check-24.vue"
+    },
+    "./check-agent-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/check-agent-16.vue"
     },
     "./check-circle-16": {
       "types": "./types/dd0bq22g.d.ts",
@@ -1534,6 +1538,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/git-branch-check-24.vue"
     },
+    "./git-closed-agent-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/git-closed-agent-16.vue"
+    },
     "./git-commit": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/git-commit.vue"
@@ -1558,6 +1566,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/git-compare-24.vue"
     },
+    "./git-draft-agent-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/git-draft-agent-16.vue"
+    },
     "./git-merge": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/git-merge.vue"
@@ -1569,6 +1581,10 @@
     "./git-merge-24": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/git-merge-24.vue"
+    },
+    "./git-merge-agent-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/git-merge-agent-16.vue"
     },
     "./git-merge-queue-16": {
       "types": "./types/dd0bq22g.d.ts",
@@ -1589,6 +1605,10 @@
     "./git-pull-request-24": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/git-pull-request-24.vue"
+    },
+    "./git-pull-request-agent-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/git-pull-request-agent-16.vue"
     },
     "./git-pull-request-closed-16": {
       "types": "./types/dd0bq22g.d.ts",
@@ -1613,6 +1633,10 @@
     "./git-pull-request-unlisted-16": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/git-pull-request-unlisted-16.vue"
+    },
+    "./git-que-merge-agent-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/git-que-merge-agent-16.vue"
     },
     "./github-action": {
       "types": "./types/dd0bq22g.d.ts",

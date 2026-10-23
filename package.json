@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/wordpress",
   "type": "module",
-  "version": "1.0.25",
+  "version": "1.0.26",
   "homepage": "https://icon-sets.iconify.design/wordpress/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "GPL-2.0-or-later",
@@ -89,6 +89,10 @@
     "./aspect-ratio": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/aspect-ratio.vue"
+    },
+    "./asterisk": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/asterisk.vue"
     },
     "./at-symbol": {
       "types": "./types/dd0bq22g.d.ts",
@@ -374,6 +378,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/dashboard.vue"
     },
+    "./database": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/database.vue"
+    },
     "./desktop": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/desktop.vue"
@@ -433,6 +441,14 @@
     "./footer": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/footer.vue"
+    },
+    "./form-input": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/form-input.vue"
+    },
+    "./form-select": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/form-select.vue"
     },
     "./format-bold": {
       "types": "./types/dd0bq22g.d.ts",

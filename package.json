@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/vscode-icons",
   "type": "module",
-  "version": "1.0.66",
+  "version": "1.0.67",
   "homepage": "https://icon-sets.iconify.design/vscode-icons/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -2306,6 +2306,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-light-nim.vue"
     },
+    "./file-type-light-noir": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-type-light-noir.vue"
+    },
     "./file-type-light-nx": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-light-nx.vue"
@@ -2553,6 +2557,10 @@
     "./file-type-light-vite": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-light-vite.vue"
+    },
+    "./file-type-light-viteplus": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-type-light-viteplus.vue"
     },
     "./file-type-light-vitest": {
       "types": "./types/dd0bq22g.d.ts",
@@ -3261,6 +3269,10 @@
     "./file-type-nodemon": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-nodemon.vue"
+    },
+    "./file-type-noir": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-type-noir.vue"
     },
     "./file-type-npm": {
       "types": "./types/dd0bq22g.d.ts",
@@ -4770,6 +4782,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-vite.vue"
     },
+    "./file-type-viteplus": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-type-viteplus.vue"
+    },
     "./file-type-vitest": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-vitest.vue"
@@ -5621,6 +5637,14 @@
     "./folder-type-frontcommerce-opened": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/folder-type-frontcommerce-opened.vue"
+    },
+    "./folder-type-frontend": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-type-frontend.vue"
+    },
+    "./folder-type-frontend-opened": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-type-frontend-opened.vue"
     },
     "./folder-type-gcp": {
       "types": "./types/dd0bq22g.d.ts",

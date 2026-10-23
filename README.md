@@ -11,6 +11,11 @@ Browse all icons: [preview Health Icons on Iconify](https://icon-sets.iconify.de
 ## Installation
 
 ```bash
+npm install gitlab:iconify-icons/vue#healthicons
+```
+
+or
+```bash
 npm install github:iconify/icons-vue#healthicons
 ```
 

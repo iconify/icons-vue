@@ -1,13 +1,13 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
 import '../../css/c/cuyn6tgcc.css';
-import '../../css/w/wu9ajoqpc.css';
-import '../../css/e/eq0evh2wi.css';
-import '../../css/w/wkd69f43m.css';
+import '../../css/s/sgsol42ey.css';
+import '../../css/f/f202qswyl.css';
+import '../../css/g/g362mc32e.css';
 
 const props = defineProps(["width","height"]);
 
-const viewBox = {"width":108,"height":63};
-const content = `<g class="cuyn6tgcc"><path class="wu9ajoqpc"/><path clip-rule="evenodd" class="eq0evh2wi"/><path class="wkd69f43m"/></g>`;
+const viewBox = {"width":48,"height":48};
+const content = `<g class="cuyn6tgcc"><path class="sgsol42ey"/><path clip-rule="evenodd" class="f202qswyl"/><path class="g362mc32e"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="healthicons:baby-male-0203m-alt" /></template>

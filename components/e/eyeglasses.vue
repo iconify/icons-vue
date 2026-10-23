@@ -1,13 +1,12 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/d/dhpf8pbqq.css';
-import '../../css/g/gdryfccos.css';
-import '../../css/o/oxtw1expr.css';
+import '../../css/n/n1lsf0bnc.css';
+import '../../css/y/ym7ym143t.css';
+import '../../css/u/uzzd8eb5t.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<g class="cuyn6tgcc"><path class="dhpf8pbqq"/><path clip-rule="evenodd" class="gdryfccos"/><path class="oxtw1expr"/></g>`;
+const content = `<g clip-rule="evenodd" class="n1lsf0bnc"><path class="ym7ym143t"/><path class="uzzd8eb5t"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="healthicons:eyeglasses" /></template>

@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/carbon",
   "type": "module",
-  "version": "1.0.18",
+  "version": "1.0.19",
   "homepage": "https://icon-sets.iconify.design/carbon/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "Apache-2.0",
@@ -5090,17 +5090,17 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/i/ibm-process-mining.vue"
     },
-    "./ibm-quantum-safe-advisor": {
+    "./ibm-quantum-safe-cryptography-manager": {
       "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/i/ibm-quantum-safe-advisor.vue"
+      "default": "./components/i/ibm-quantum-safe-cryptography-manager.vue"
     },
     "./ibm-quantum-safe-explorer": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/i/ibm-quantum-safe-explorer.vue"
     },
-    "./ibm-quantum-safe-remediator": {
+    "./ibm-quantum-safe-proxy": {
       "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/i/ibm-quantum-safe-remediator.vue"
+      "default": "./components/i/ibm-quantum-safe-proxy.vue"
     },
     "./ibm-saas-console": {
       "types": "./types/dd0bq22g.d.ts",
@@ -5145,6 +5145,14 @@
     "./ibm-software-watsonx-document-library": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/i/ibm-software-watsonx-document-library.vue"
+    },
+    "./ibm-sovereign-core": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/ibm-sovereign-core.vue"
+    },
+    "./ibm-sterling-b2b-integration-saas": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/ibm-sterling-b2b-integration-saas.vue"
     },
     "./ibm-streamsets": {
       "types": "./types/dd0bq22g.d.ts",
@@ -7286,6 +7294,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/paragraph.vue"
     },
+    "./parallelogram-outline": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/parallelogram-outline.vue"
+    },
+    "./parallelogram-solid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/parallelogram-solid.vue"
+    },
     "./parameter": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/parameter.vue"
@@ -7901,6 +7917,14 @@
     "./quadrant-plot": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/q/quadrant-plot.vue"
+    },
+    "./quantum-computer": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/quantum-computer.vue"
+    },
+    "./quantum-qpu": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/quantum-qpu.vue"
     },
     "./query": {
       "types": "./types/dd0bq22g.d.ts",
@@ -9221,6 +9245,10 @@
     "./strawberry": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/strawberry.vue"
+    },
+    "./streaming-embedded": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/streaming-embedded.vue"
     },
     "./stress-breath-editor": {
       "types": "./types/dd0bq22g.d.ts",
@@ -11149,6 +11177,14 @@
     "./ibm-content-services": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/i/ibm-content-services.vue"
+    },
+    "./ibm-quantum-safe-advisor": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/ibm-quantum-safe-advisor.vue"
+    },
+    "./ibm-quantum-safe-remediator": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/ibm-quantum-safe-remediator.vue"
     },
     "./ibm-tenet": {
       "types": "./types/dd0bq22g.d.ts",

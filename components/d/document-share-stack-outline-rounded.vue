@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="reixdgspg"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:document-share-stack-outline-rounded" /></template>
+<style>
+.reixdgspg {
+  fill: currentColor;
+  d: path("M8 17v-6.975v.075V3zm0 2q-.825 0-1.412-.587T6 17V3q0-.825.588-1.412T8 1h6.175q.4 0 .763.15t.637.425l4.85 4.85q.275.275.425.638t.15.762V9.4q0 .425-.288.713T20 10.4t-.712-.288T19 9.4V8h-4q-.425 0-.712-.288T14 7V3H8v14h2.3q.425 0 .713.288T11.3 18t-.288.713T10.3 19zm12 3q-.825 0-1.412-.587T18 19.975l-2.025-1.225q-.225.125-.462.188T15 19q-.825 0-1.412-.587T13 17t.588-1.412T15 15q.275 0 .513.063t.462.187L18 14.05q0-.85.588-1.437T20 12.025t1.413.588t.587 1.412t-.587 1.413t-1.413.587q-.275 0-.513-.062t-.462-.188L17 16.975v.075l2.025 1.2q.225-.125.463-.187T20 18q.825 0 1.413.588T22 20t-.587 1.413T20 22M4 23q-.825 0-1.412-.587T2 21V8q0-.425.288-.712T3 7t.713.288T4 8v13h8.325q.425 0 .713.288t.287.712t-.287.713t-.713.287z");
+}
+
+</style>

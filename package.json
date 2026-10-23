@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/codicon",
   "type": "module",
-  "version": "1.0.48",
+  "version": "1.0.49",
   "homepage": "https://icon-sets.iconify.design/codicon/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "CC-BY-4.0",
@@ -485,6 +485,10 @@
     "./comment-unresolved-compact": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/comment-unresolved-compact.vue"
+    },
+    "./compare": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/compare.vue"
     },
     "./compass": {
       "types": "./types/dd0bq22g.d.ts",

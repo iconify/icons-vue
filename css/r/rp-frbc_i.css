@@ -1,0 +1,7 @@
+.rp-frbc_i {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M10 22H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v4m-7 10h.01M22 22a4 4 0 1 0-8 0");
+}

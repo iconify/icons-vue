@@ -1,0 +1,7 @@
+.r5brfdchu {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("m10 9l-3 3l3 3m6-6l-3 3l3 3");
+}

@@ -1,0 +1,8 @@
+.bnalu2bir {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("m2 2l20 20m-9.029-4.079q-.484.08-.971.08a6 6 0 0 1-5.921-6.972M12 18v3.5M6 12H2.5m8.529-5.921a6 6 0 0 1 .971-.08a6 6 0 0 1 4.243 1.758A6 6 0 0 1 18 12a6 6 0 0 1-.079.971M12 6V2.5m4.243 5.257l2.475-2.475M18 12h3.5M7.757 16.243l-2.475 2.475");
+}

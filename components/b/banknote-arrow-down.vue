@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/g/gae93nb_y.css';
+import '../../css/t/t5czkc27m.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="gae93nb_y"/>`;
+const content = `<path class="t5czkc27m"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="vadivam:banknote-arrow-down" /></template>

@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/d/dpc-i6g2k.css';
+import '../../css/y/yp0cmvoxl.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="dpc-i6g2k"/>`;
+const content = `<path class="yp0cmvoxl"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="vadivam:columns-2" /></template>

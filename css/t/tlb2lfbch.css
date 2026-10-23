@@ -1,0 +1,8 @@
+.tlb2lfbch {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M4 22h10m-9 0c.127-2 2.064-3 4-3c1.937 0 3.873 1 4 3m-4-3L7 7.5A2.5 2.5 0 1 1 9.5 5A2.5 2.5 0 0 1 7 7.5M9.5 5H16q3 0 4.5-3M16 5q3 0 4.5 3");
+}

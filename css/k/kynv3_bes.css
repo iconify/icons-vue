@@ -1,0 +1,8 @@
+.kynv3_bes {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M2 6h4c0-.93 0-1.395.102-1.777a3 3 0 0 1 2.121-2.12C8.606 2 9.07 2 10 2a2 2 0 1 0 4 0c.93 0 1.395 0 1.777.102a3 3 0 0 1 2.12 2.121C18 4.605 18 5.07 18 6v12c0 .93 0 1.396-.103 1.776a3 3 0 0 1-2.12 2.122C15.395 22 14.93 22 14 22h-4c-.93 0-1.394 0-1.777-.102a3 3 0 0 1-2.121-2.122C6 19.395 6 18.93 6 18V6m0 4H2m4 4H2m4 4H2m16 0h4m-4-4h4m-4-4h4m-4-4h4");
+}

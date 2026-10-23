@@ -1,0 +1,8 @@
+.lbs-egr_l {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M16 4h-5.6c-.84 0-1.26 0-1.581.163a1.5 1.5 0 0 0-.655.656C8 5.139 8 5.559 8 6.4V20h7a4 4 0 1 0 0-8H8m7 4H5");
+}

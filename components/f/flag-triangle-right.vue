@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/w/wjeytpgtn.css';
+import '../../css/d/dm-xv_9uy.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="wjeytpgtn"/>`;
+const content = `<path class="dm-xv_9uy"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="vadivam:flag-triangle-right" /></template>

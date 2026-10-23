@@ -1,0 +1,8 @@
+.ewnitdoya {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M11 13.5c-.285-8-8.715-8-9 0M22 22c-.142-4-2.321-6-4.5-6a2.75 2.75 0 1 1 0-5.5a2.75 2.75 0 0 1 0 5.5c-2.179 0-4.357 2-4.5 6m1.619-19.132a9.5 9.5 0 0 1 5.067 3.548M9.381 21.132a9.5 9.5 0 0 1-5.067-3.548M3.75 4.75a2.75 2.75 0 1 0 5.5 0a2.75 2.75 0 0 0-5.5 0");
+}

@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/k/kdzlrjg1w.css';
+import '../../css/e/eg-xvcycj.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="kdzlrjg1w"/>`;
+const content = `<path class="eg-xvcycj"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="vadivam:chart-bar" /></template>

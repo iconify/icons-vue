@@ -1,12 +1,12 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
 import '../../css/n/nrj6p8qat.css';
-import '../../css/e/eyxbrnbyd.css';
+import '../../css/c/c437kbcsk.css';
 import '../../css/l/lafaz-x7c.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="nrj6p8qat"><path class="eyxbrnbyd"/><path class="lafaz-x7c"/></g>`;
+const content = `<g class="nrj6p8qat"><path class="c437kbcsk"/><path class="lafaz-x7c"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="vadivam:warehouse" /></template>

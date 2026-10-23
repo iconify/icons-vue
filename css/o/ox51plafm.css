@@ -1,0 +1,8 @@
+.ox51plafm {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M4 22L9 2m11 20L15 2m-3 16v3m0-10v3m0-9v2");
+}

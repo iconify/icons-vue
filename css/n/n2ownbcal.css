@@ -1,0 +1,8 @@
+.n2ownbcal {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M2 13h20M7.557 13a4.443 4.443 0 1 1 8.886 0m-10.1-5.657L4.929 5.929M12 5V3m5.657 4.343l1.414-1.414M5 17h14M8 21h8");
+}

@@ -1,0 +1,8 @@
+.usds7cush {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M16 9H8a6 6 0 1 0 0 12h8a6 6 0 1 0 0-12m-4 0V8c0-.932 0-1.398.152-1.765a2 2 0 0 1 1.083-1.083C13.602 5 14.068 5 15 5s1.398 0 1.765-.152a2 2 0 0 0 1.083-1.083C18 3.398 18 2.932 18 2M6 15h4m-2 2v-4m7 3.5h.01m2.99-3h.01");
+}

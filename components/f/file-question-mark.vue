@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/p/pv8cbs0ht.css';
+import '../../css/s/skjqw1bpg.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="pv8cbs0ht"/>`;
+const content = `<path class="skjqw1bpg"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="vadivam:file-question-mark" /></template>

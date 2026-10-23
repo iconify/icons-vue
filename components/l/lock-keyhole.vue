@@ -1,10 +1,12 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/p/p_eoek3fh.css';
+import '../../css/n/nrj6p8qat.css';
+import '../../css/v/vsmlinbvn.css';
+import '../../css/h/hlhppkbrm.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="p_eoek3fh"/>`;
+const content = `<g class="nrj6p8qat"><path class="vsmlinbvn"/><path class="hlhppkbrm"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="vadivam:lock-keyhole" /></template>

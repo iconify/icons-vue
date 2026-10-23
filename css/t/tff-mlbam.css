@@ -1,0 +1,8 @@
+.tff-mlbam {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M21.916 7A6 6 0 0 0 16 2H8a6 6 0 0 0-5.916 5A6 6 0 0 0 2 8v8a6 6 0 0 0 .084 1A6 6 0 0 0 8 22h8a6 6 0 0 0 5.916-5q.084-.493.084-1V8q0-.507-.084-1H2.084M22 12H2m19.916 5H2.084");
+}

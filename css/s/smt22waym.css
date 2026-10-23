@@ -1,0 +1,8 @@
+.smt22waym {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M3 17V8.5l9-4l9 4l-9 4l-9-4m15 1.333V16c0 2-2.5 3.5-6 3.5S6 18 6 16V9.833");
+}

@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/material-symbols-light",
   "type": "module",
-  "version": "1.0.60",
+  "version": "1.0.61",
   "homepage": "https://icon-sets.iconify.design/material-symbols-light/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "Apache-2.0",
@@ -17957,6 +17957,30 @@
     "./document-share-sharp": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/document-share-sharp.vue"
+    },
+    "./document-share-stack": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/document-share-stack.vue"
+    },
+    "./document-share-stack-outline": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/document-share-stack-outline.vue"
+    },
+    "./document-share-stack-outline-rounded": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/document-share-stack-outline-rounded.vue"
+    },
+    "./document-share-stack-outline-sharp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/document-share-stack-outline-sharp.vue"
+    },
+    "./document-share-stack-rounded": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/document-share-stack-rounded.vue"
+    },
+    "./document-share-stack-sharp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/document-share-stack-sharp.vue"
     },
     "./domain": {
       "types": "./types/dd0bq22g.d.ts",
@@ -42606,6 +42630,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/person-edit-sharp.vue"
     },
+    "./person-eye": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/person-eye.vue"
+    },
+    "./person-eye-outline": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/person-eye-outline.vue"
+    },
+    "./person-eye-outline-rounded": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/person-eye-outline-rounded.vue"
+    },
+    "./person-eye-rounded": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/person-eye-rounded.vue"
+    },
     "./person-heart": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/person-heart.vue"
@@ -53041,6 +53081,30 @@
     "./speed-4-outline-sharp": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/speed-4-outline-sharp.vue"
+    },
+    "./speed-4-progress": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/speed-4-progress.vue"
+    },
+    "./speed-4-progress-outline": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/speed-4-progress-outline.vue"
+    },
+    "./speed-4-progress-outline-rounded": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/speed-4-progress-outline-rounded.vue"
+    },
+    "./speed-4-progress-outline-sharp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/speed-4-progress-outline-sharp.vue"
+    },
+    "./speed-4-progress-rounded": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/speed-4-progress-rounded.vue"
+    },
+    "./speed-4-progress-sharp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/speed-4-progress-sharp.vue"
     },
     "./speed-4-rounded": {
       "types": "./types/dd0bq22g.d.ts",
@@ -85025,6 +85089,14 @@
     "./person-check-sharp": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/person-check-sharp.vue"
+    },
+    "./person-eye-outline-sharp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/person-eye-outline-sharp.vue"
+    },
+    "./person-eye-sharp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/person-eye-sharp.vue"
     },
     "./person-heart-outline-sharp": {
       "types": "./types/dd0bq22g.d.ts",

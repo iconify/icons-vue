@@ -1,0 +1,30 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="gp_8x1bzb"><path clip-rule="evenodd" class="zplg_nfzj"/><path class="ahhqo1b4s"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:bus-off-sharp-duotone" /></template>
+<style>
+.ahhqo1b4s {
+  d: path("M1.7071 1.7071L22.2929 22.2929");
+}
+
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.zplg_nfzj {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  fill-rule: evenodd;
+  d: path("M20.9892 11C20.8623 8.594 19.634 6.3806 17.6595 5L15 5L15 9.0001L14.0001 9.0001L17 12L17 11L20.9892 11ZM13 5L8.6569 5L8.6569 3L17.964 3C18.1565 3 18.3449 3.0556 18.5066 3.16C21.308 4.9695 23 8.0768 23 11.4118L23 17.3431L22 17.3431L22 18L21.6569 18L12.6569 9L13 9L13 5ZM9 9L15.4382 15.4382C15.5433 15.374 15.6523 15.3164 15.7645 15.2656L16.5889 17.0878C16.2303 17.2496 15.9999 17.6064 15.9999 17.9997C15.9999 18.5522 16.4478 19.0001 17.0003 19.0001C17.3936 19.0001 17.7504 18.7697 17.9122 18.4111L19.7344 19.2355C19.2487 20.3097 18.179 21 17 21C15.7285 21 14.5951 20.1987 14.171 19L9.829 19C9.4049 20.1987 8.2715 21 7 21C5.7285 21 4.5951 20.1987 4.171 19L2 19C1.4477 19 1 18.5523 1 18L1 4C1 3.4477 1.4477 3 2 3L4 3L4 5L3 5L3 8L9 8L9 9ZM8 18C8 17.4475 7.5522 16.9997 6.9997 16.9997C6.4473 16.9997 5.9995 17.4475 5.9995 17.9999C5.9995 18.5523 6.4473 19.0002 6.9997 19.0002C7.2651 19.0002 7.5195 18.8948 7.7071 18.7071C7.8946 18.5206 8 18.2671 8 18.0026C8 18.0018 8 18.0009 8 18Z");
+  stroke: none;
+}
+
+</style>

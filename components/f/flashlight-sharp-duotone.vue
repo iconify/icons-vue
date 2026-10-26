@@ -1,0 +1,25 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="cuyn6tgcc"><path class="n3fd0_biu"/><path clip-rule="evenodd" class="neawqwdwp"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:flashlight-sharp-duotone" /></template>
+<style>
+.cuyn6tgcc {
+  fill: currentColor;
+}
+
+.n3fd0_biu {
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M17 18.9268C15.8 18.7841 14.6337 18.4349 13.5528 17.8944C12.3764 17.3063 11.0792 17 9.7639 17L2 17C1.4477 17 1 16.5523 1 16L1 8C1 7.4477 1.4477 7 2 7L9.7639 7C11.0792 7 12.3764 6.6938 13.5528 6.1056C14.6337 5.5651 15.8 5.2159 17 5.0732L17 18.9268Z");
+}
+
+.neawqwdwp {
+  fill-rule: evenodd;
+  d: path("M17 5.0732C17.4102 5.0244 17.823 5 18.2361 5L22 5C22.5523 5 23 5.4477 23 6L23 18C23 18.5523 22.5523 19 22 19L18.2361 19C17.823 19 17.4102 18.9756 17 18.9268L17 5.0732ZM9 11L13 11L13 13L9 13L9 11Z");
+}
+
+</style>

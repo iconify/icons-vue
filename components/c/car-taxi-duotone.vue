@@ -1,0 +1,37 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="nrj6p8qat"><path class="iag1-ga6z"/><path clip-rule="evenodd" class="ilb34xfdc"/><path class="ong460bfa"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:car-taxi-duotone" /></template>
+<style>
+.iag1-ga6z {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M1 18L1 15.6491C1 15.1117 1.0866 14.5778 1.2566 14.068L3.2621 8.0513C3.6705 6.8263 4.8169 6 6.1082 6L12.0975 6C12.9582 6 13.7775 6.3697 14.347 7.0151L18.5717 11.8031L20.9487 12.5955C22.1737 13.0038 23 14.1502 23 15.4415L23 18C23 19.1046 22.1046 20 21 20L3 20C1.8954 20 1 19.1046 1 18Z");
+  stroke: none;
+}
+
+.ilb34xfdc {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M4.3874 11L8 11L8 8L6.1082 8C5.6778 8 5.2956 8.2754 5.1595 8.6838L4.3874 11ZM10 10C10 10.5523 10.4477 11 11 11L15.2328 11L12.8844 8.3384C12.6945 8.1232 12.4214 8 12.1345 8L10 8L10 10Z");
+  stroke: none;
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.ong460bfa {
+  d: path("M8 19C8 20.1046 7.1046 21 6 21C4.8954 21 4 20.1046 4 19C4 17.8954 4.8954 17 6 17C7.1046 17 8 17.8954 8 19ZM19 19C19 20.1046 18.1046 21 17 21C15.8954 21 15 20.1046 15 19C15 17.8954 15.8954 17 17 17C18.1046 17 19 17.8954 19 19ZM7.5 3L10.5 3");
+}
+
+</style>

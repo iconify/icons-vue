@@ -1,0 +1,19 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="uy-wq8b1h"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:footprints-sharp" /></template>
+<style>
+.uy-wq8b1h {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M8.2578 17.2767C8.2578 15.3874 9.1078 13.5 9.7967 10.6641C10.5075 7.738 9.2837 4.5238 7.2319 4.0515C5.18 3.5792 2.6152 6.4132 2.1023 10.1918C1.6919 13.2147 2.6152 16.1746 3.1282 17.2767ZM8.2578 17.2767L8.2578 19.4352C8.2578 20.8517 7.1095 22 5.693 22C4.2765 22 3.1282 20.8517 3.1282 19.4352L3.1282 17.2767M15.7422 15.2767C15.7422 13.3874 14.8922 11.5 14.2033 8.6641C13.4925 5.738 14.7163 2.5238 16.7681 2.0515C18.82 1.5792 21.3848 4.4132 21.8977 8.1918C22.3081 11.2147 21.3848 14.1746 20.8718 15.2767ZM15.7422 15.2767L15.7422 17.4352C15.7422 18.8517 16.8905 20 18.307 20C19.7235 20 20.8718 18.8517 20.8718 17.4352L20.8718 15.2767");
+}
+
+</style>

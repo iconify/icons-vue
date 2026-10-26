@@ -1,0 +1,35 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="gp_8x1bzb"><path class="yqi5opbas"/><path class="nm0mwnbto"/><path class="k_nc9dbfc"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:factory-sharp-duotone" /></template>
+<style>
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.k_nc9dbfc {
+  d: path("M10 14L10 18M14 14L14 18M18 14L18 18M11 5.5L11 3L23 3");
+}
+
+.nm0mwnbto {
+  fill: currentColor;
+  d: path("M1 6L8 6L8 8L1 8L1 6Z");
+  stroke: none;
+}
+
+.yqi5opbas {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M1 21L1 3C1 2.4477 1.4477 2 2 2L7 2C7.5523 2 8 2.4477 8 3L8 9.2338L11.4855 7.1425C11.6409 7.0493 11.8188 7 12 7C12.5523 7 13 7.4477 13 8L13 9.2338L16.4855 7.1425C16.6409 7.0493 16.8188 7 17 7C17.5523 7 18 7.4477 18 8L18 9.2338L21.4855 7.1425C21.6409 7.0493 21.8188 7 22 7C22.5523 7 23 7.4477 23 8L23 21C23 21.5523 22.5523 22 22 22L2 22C1.4477 22 1 21.5523 1 21Z");
+  stroke: none;
+}
+
+</style>

@@ -1,0 +1,29 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="gp_8x1bzb"><path class="b8mgf2bpc"/><path class="jzpc_vegr"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:car-taxi-sharp-two-tone" /></template>
+<style>
+.b8mgf2bpc {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M1 19L1 15C1 14.8925 1.0173 14.7857 1.0513 14.6838L3.718 6.6838C3.8541 6.2754 4.2362 6 4.6667 6L13 6C13.2869 6 13.56 6.1232 13.7498 6.3384L18.5717 11.8031L22.3162 13.0513C22.7246 13.1874 23 13.5696 23 14L23 19C23 19.5523 22.5523 20 22 20L2 20C1.4477 20 1 19.5523 1 19Z");
+  stroke: none;
+}
+
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.jzpc_vegr {
+  d: path("M4 19L2 19L2 15L4.6667 7L13 7L18 12.6667L22 14L22 19L19 19M8 19L15 19M3 12L16 12L18 12.6667M9 7L9 12M8 19C8 20.1046 7.1046 21 6 21C4.8954 21 4 20.1046 4 19C4 17.8954 4.8954 17 6 17C7.1046 17 8 17.8954 8 19ZM19 19C19 20.1046 18.1046 21 17 21C15.8954 21 15 20.1046 15 19C15 17.8954 15.8954 17 17 17C18.1046 17 19 17.8954 19 19ZM6.5 3L11.5 3");
+}
+
+</style>

@@ -1,0 +1,20 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="aeu6-r9jx"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:car-taxi-front-off" /></template>
+<style>
+.aeu6-r9jx {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M12 12L6 12C5.6494 12 5.3128 12.0602 5 12.1707M19 20L19 22L18 22L18 20M19 20L18 20M5 20C3.3431 20 3 18.6569 3 17L3 15C3 13.6937 3.8348 12.5825 5 12.1707M5 20L5 22L6 22L6 20M5 20L6 20M6.7046 6.7046C6.1473 7.1736 5.7609 7.8441 5.6611 8.6143L5.3518 11L5 12.1707M6 20L18 20M5.3518 11L3.5 11M7 16L8 16M19 12.1707C20.1652 12.5825 21 13.6937 21 15L21 15.3431M15.3638 6C16.8716 6 18.1451 7.1191 18.3389 8.6143L18.6482 11L19 12.1707M15.3638 6L11.6569 6M15.3638 6L13.5 2L10.5 2L9.5963 3.9395M18.6482 11L20.5 11M2 2L22 22");
+}
+
+</style>

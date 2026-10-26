@@ -1,0 +1,20 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="q9_0-1bmw"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:bus" /></template>
+<style>
+.q9_0-1bmw {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M10 18L14 18M9 18C9 19.1046 8.1046 20 7 20C5.8954 20 5 19.1046 5 18C5 16.8954 5.8954 16 7 16C8.1046 16 9 16.8954 9 18ZM19 18C19 19.1046 18.1046 20 17 20C15.8954 20 15 19.1046 15 18C15 16.8954 15.8954 16 17 16C18.1046 16 19 16.8954 19 18ZM5 18L4 18C2.8954 18 2 17.1046 2 16L2 6C2 4.8954 2.8954 4 4 4L17.4118 4C17.7936 4 18.1651 4.1238 18.4706 4.3529C20.6924 6.0193 22 8.6345 22 11.4118L22 12L22 16C22 17.1046 21.1046 18 20 18L19 18M14 4L14 9M14 9L16.7071 11.7071C16.8946 11.8946 17.149 12 17.4142 12L22 12M14 9L8 9M8 9L2 9M8 9L8 4");
+}
+
+</style>

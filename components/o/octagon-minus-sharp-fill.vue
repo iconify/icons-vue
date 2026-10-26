@@ -1,0 +1,17 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path clip-rule="evenodd" class="leo0j9bfa"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:octagon-minus-sharp-fill" /></template>
+<style>
+.leo0j9bfa {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M2 8.4C2 8.1348 2.1054 7.8804 2.2929 7.6929L7.6929 2.2929C7.8804 2.1054 8.1348 2 8.4 2L15.6 2C15.8652 2 16.1196 2.1054 16.3071 2.2929L21.7071 7.6929C21.8946 7.8804 22 8.1348 22 8.4L22 15.6C22 15.8652 21.8946 16.1196 21.7071 16.3071L16.3071 21.7071C16.1196 21.8946 15.8652 22 15.6 22L8.4 22C8.1348 22 7.8804 21.8946 7.6929 21.7071L2.2929 16.3071C2.1054 16.1196 2 15.8652 2 15.6L2 8.4ZM7 11L7 13L17 13L17 11L7 11Z");
+}
+
+</style>

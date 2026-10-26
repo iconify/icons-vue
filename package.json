@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/healthicons",
   "type": "module",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "homepage": "https://icon-sets.iconify.design/healthicons/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -185,6 +185,38 @@
     "./accident-and-emergency-outline": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/accident-and-emergency-outline.vue"
+    },
+    "./acupuncture-1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/acupuncture-1.vue"
+    },
+    "./acupuncture-1-outline": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/acupuncture-1-outline.vue"
+    },
+    "./acupuncture-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/acupuncture-2.vue"
+    },
+    "./acupuncture-2-outline": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/acupuncture-2-outline.vue"
+    },
+    "./acupuncture-3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/acupuncture-3.vue"
+    },
+    "./acupuncture-3-outline": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/acupuncture-3-outline.vue"
+    },
+    "./acupuncture-4": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/acupuncture-4.vue"
+    },
+    "./acupuncture-4-outline": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/acupuncture-4-outline.vue"
     },
     "./admissions": {
       "types": "./types/dd0bq22g.d.ts",
@@ -1442,6 +1474,38 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/body-outline-24px.vue"
     },
+    "./bone": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bone.vue"
+    },
+    "./bone-24px": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bone-24px.vue"
+    },
+    "./bone-long": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bone-long.vue"
+    },
+    "./bone-long-24px": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bone-long-24px.vue"
+    },
+    "./bone-long-outline": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bone-long-outline.vue"
+    },
+    "./bone-long-outline-24px": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bone-long-outline-24px.vue"
+    },
+    "./bone-outline": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bone-outline.vue"
+    },
+    "./bone-outline-24px": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bone-outline-24px.vue"
+    },
     "./book": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/book.vue"
@@ -1485,6 +1549,30 @@
     "./boy-1015y-outline": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/boy-1015y-outline.vue"
+    },
+    "./braces": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/braces.vue"
+    },
+    "./braces-outline": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/braces-outline.vue"
+    },
+    "./breast": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/breast.vue"
+    },
+    "./breast-cancer": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/breast-cancer.vue"
+    },
+    "./breast-cancer-outline": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/breast-cancer-outline.vue"
+    },
+    "./breast-outline": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/breast-outline.vue"
     },
     "./breast-pump": {
       "types": "./types/dd0bq22g.d.ts",
@@ -1593,6 +1681,14 @@
     "./calm-negative": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/calm-negative.vue"
+    },
+    "./camera": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/camera.vue"
+    },
+    "./camera-outline": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/camera-outline.vue"
     },
     "./cancel": {
       "types": "./types/dd0bq22g.d.ts",
@@ -2902,6 +2998,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/dental-hygiene-outline.vue"
     },
+    "./dermatology": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dermatology.vue"
+    },
+    "./dermatology-outline": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dermatology-outline.vue"
+    },
     "./desktop-app": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/desktop-app.vue"
@@ -2993,6 +3097,22 @@
     "./dialysis": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/dialysis.vue"
+    },
+    "./dialysis-alt": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dialysis-alt.vue"
+    },
+    "./dialysis-alt-24px": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dialysis-alt-24px.vue"
+    },
+    "./dialysis-alt-outline": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dialysis-alt-outline.vue"
+    },
+    "./dialysis-alt-outline-24px": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dialysis-alt-outline-24px.vue"
     },
     "./dialysis-outline": {
       "types": "./types/dd0bq22g.d.ts",
@@ -4506,6 +4626,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/happy-negative.vue"
     },
+    "./happy-sleepy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/happy-sleepy.vue"
+    },
+    "./happy-sleepy-outline": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/happy-sleepy-outline.vue"
+    },
     "./hazardous": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/hazardous.vue"
@@ -4793,6 +4921,22 @@
     "./heartbeat-outline-24px": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/heartbeat-outline-24px.vue"
+    },
+    "./heat-therapy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/heat-therapy.vue"
+    },
+    "./heat-therapy-24px": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/heat-therapy-24px.vue"
+    },
+    "./heat-therapy-outline": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/heat-therapy-outline.vue"
+    },
+    "./heat-therapy-outline-24px": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/heat-therapy-outline-24px.vue"
     },
     "./height": {
       "types": "./types/dd0bq22g.d.ts",
@@ -5862,6 +6006,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/l/life-science-outline-24px.vue"
     },
+    "./liquid-medicine": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/liquid-medicine.vue"
+    },
+    "./liquid-medicine-outline": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/liquid-medicine-outline.vue"
+    },
     "./liver": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/l/liver.vue"
@@ -6282,6 +6434,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/masked-negative.vue"
     },
+    "./maxillofacial": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/maxillofacial.vue"
+    },
+    "./maxillofacial-outline": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/maxillofacial-outline.vue"
+    },
     "./measles-negative": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/measles-negative.vue"
@@ -6461,6 +6621,14 @@
     "./mental-health-outline-24px": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/mental-health-outline-24px.vue"
+    },
+    "./mental-health-therapy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mental-health-therapy.vue"
+    },
+    "./mental-health-therapy-outline": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mental-health-therapy-outline.vue"
     },
     "./microscope": {
       "types": "./types/dd0bq22g.d.ts",
@@ -8938,6 +9106,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/skin-cancer-outline.vue"
     },
+    "./skin-layers": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/skin-layers.vue"
+    },
+    "./skin-layers-outline": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/skin-layers-outline.vue"
+    },
     "./skull": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/skull.vue"
@@ -9825,6 +10001,14 @@
     "./tooth-outline-24px": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/tooth-outline-24px.vue"
+    },
+    "./topical-medicine": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/topical-medicine.vue"
+    },
+    "./topical-medicine-outline": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/topical-medicine-outline.vue"
     },
     "./transgender": {
       "types": "./types/dd0bq22g.d.ts",

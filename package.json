@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/simple-icons",
   "type": "module",
-  "version": "1.0.50",
+  "version": "1.0.51",
   "homepage": "https://icon-sets.iconify.design/simple-icons/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "CC0-1.0",
@@ -5645,6 +5645,10 @@
     "./happycow": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/happycow.vue"
+    },
+    "./haproxy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/haproxy.vue"
     },
     "./harbor": {
       "types": "./types/dd0bq22g.d.ts",

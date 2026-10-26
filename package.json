@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/thesvg-color",
   "type": "module",
-  "version": "1.0.20",
+  "version": "1.0.21",
   "homepage": "https://icon-sets.iconify.design/thesvg-color/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -3845,6 +3845,14 @@
     "./countingworks-pro": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/countingworks-pro.vue"
+    },
+    "./countly-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/countly-dark.vue"
+    },
+    "./countly-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/countly-light.vue"
     },
     "./coupang": {
       "types": "./types/dd0bq22g.d.ts",
@@ -11802,9 +11810,17 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/n/n26.vue"
     },
-    "./n8n": {
+    "./n8n-dark": {
       "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/n/n8n.vue"
+      "default": "./components/n/n8n-dark.vue"
+    },
+    "./n8n-legacy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/n8n-legacy.vue"
+    },
+    "./n8n-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/n8n-light.vue"
     },
     "./nab": {
       "types": "./types/dd0bq22g.d.ts",
@@ -12622,6 +12638,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/o/oddinpay.vue"
     },
+    "./oddinpay-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/oddinpay-dark.vue"
+    },
+    "./oddinpay-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/oddinpay-light.vue"
+    },
     "./odido": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/o/odido.vue"
@@ -12929,6 +12953,14 @@
     "./openproject": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/o/openproject.vue"
+    },
+    "./openreplay-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/openreplay-dark.vue"
+    },
+    "./openreplay-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/openreplay-light.vue"
     },
     "./openrouter-dark": {
       "types": "./types/dd0bq22g.d.ts",
@@ -14177,6 +14209,10 @@
     "./posthog": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/posthog.vue"
+    },
+    "./posthog-legacy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/posthog-legacy.vue"
     },
     "./postiz": {
       "types": "./types/dd0bq22g.d.ts",
@@ -15729,6 +15765,14 @@
     "./ryanair": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/r/ryanair.vue"
+    },
+    "./rybbit-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rybbit-dark.vue"
+    },
+    "./rybbit-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rybbit-light.vue"
     },
     "./rye": {
       "types": "./types/dd0bq22g.d.ts",
@@ -18902,6 +18946,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/u/usdc.vue"
     },
+    "./userpilot-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/userpilot-dark.vue"
+    },
+    "./userpilot-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/userpilot-light.vue"
+    },
     "./uservoice": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/u/uservoice.vue"
@@ -20605,6 +20657,10 @@
     "./mastra": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/mastra.vue"
+    },
+    "./n8n": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/n8n.vue"
     },
     "./*": "./*"
   },

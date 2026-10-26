@@ -4,53 +4,27 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":32,"height":32};
-const content = `<path class="mspevbqol"/><path class="bwgzqdmaz"/><path class="qhuslxbzr"/><path class="w39n61bgs"/><path class="hg9enk90p"/><path class="dcs0jhmkk"/><path class="sonf8mugx"/><path class="i_qeidc3d"/><path class="a-g33hb_l"/>`;
+const content = `<path class="qzs4q8bzl"/><g class="d2kvgvbvc"><path class="om1h6bc6o"/><path class="d_6elb70s"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="vscode-icons:folder-type-elasticbeanstalk" /></template>
 <style>
-.a-g33hb_l {
-  fill: var(--svg-color--f58536, #f58536);
-  d: path("m21.998 22.921l-4.842.535v4.409l4.842-1.299z");
+.d_6elb70s {
+  fill: var(--svg-color--fff, #fff);
+  d: path("M23.12 21.93c0-.43-.35-.79-.79-.79a.789.789 0 0 0 0 1.58c.44 0 .79-.35.79-.79m-2.88-2.63a.79.79 0 0 0 0-1.58a.79.79 0 0 0 0 1.58m-2.36 2.9a.789.789 0 0 0 0-1.58a.789.789 0 0 0 0 1.58m5.77-.27c0 .64-.46 1.17-1.05 1.29v1.61a.265.265 0 0 1-.27.26H20.5v1.58h-.52v-2.9h-2.1a.26.26 0 0 1-.26-.26v-.81a1.319 1.319 0 0 1 .26-2.61a1.319 1.319 0 0 1 .26 2.61v.55h1.84V19.8a1.314 1.314 0 0 1 .26-2.6a1.314 1.314 0 0 1 .26 2.6v4.77h1.57v-1.35a1.315 1.315 0 0 1 .27-2.6c.72 0 1.31.59 1.31 1.31m3.81-1.29c0 1.92-1.44 2.61-2.78 2.61v-.53c.68 0 2.25-.2 2.25-2.08c0-1.41-1.07-1.93-1.96-2.11a.26.26 0 0 1-.21-.24c-.07-1.1-.71-1.5-1.24-1.5c-.36 0-.69.18-.92.47a.263.263 0 0 1-.46-.06c-.2-.56-.5-1.03-.87-1.4c-.97-.94-2.29-1.19-3.54-.68c-1.04.42-1.85 1.65-1.85 2.79q0 .19.03.37a.265.265 0 0 1-.2.29c-.61.15-1.64.62-1.64 2.04v.16c.06 1.09 1.03 1.95 2.2 1.95h.3v.53h-.3c-1.45 0-2.64-1.08-2.72-2.45a4 4 0 0 1-.01-.19c0-1.65 1.15-2.27 1.83-2.49a4 4 0 0 1-.01-.21c0-1.36.93-2.77 2.17-3.28c1.45-.59 2.98-.3 4.1.79c.35.34.63.75.85 1.22a1.65 1.65 0 0 1 1.04-.37c.78 0 1.59.55 1.74 1.79c1.42.35 2.2 1.26 2.2 2.58");
 }
 
-.bwgzqdmaz {
-  fill: var(--svg-color--9d5025, #9d5025);
-  d: path("M20.8 11.3v9.2h-1.07v8.665L23.4 31l2.217-10.5L23.4 10z");
+.d2kvgvbvc {
+  fill-rule: evenodd;
 }
 
-.dcs0jhmkk {
-  fill: var(--svg-color--9d5025, #9d5025);
-  d: path("m24.802 18.079l4.842-.535v-4.409l-4.842 1.299z");
+.om1h6bc6o {
+  fill: var(--svg-color--ed7100, #ed7100);
+  d: path("M10 10h21v21H10z");
 }
 
-.hg9enk90p {
-  fill: var(--svg-color--f58536, #f58536);
-  d: path("m29.644 13.135l1.325.662v4.027l-1.325-.28z");
-}
-
-.i_qeidc3d {
-  fill: var(--svg-color--9d5025, #9d5025);
-  d: path("m17.156 27.865l-1.325-.662v-4.027l1.325.28z");
-}
-
-.mspevbqol {
+.qzs4q8bzl {
   fill: var(--svg-color--c17e53, #c17e53);
-  d: path("M27.5 5.5h-9.3l-2.1 4.2H4.4v16.8h25.2v-21Zm0 4.2h-8.2l1.1-2.1h7.1Z");
-}
-
-.qhuslxbzr {
-  fill: var(--svg-color--f58536, #f58536);
-  d: path("M23.4 10v21l2.6-1.3v-9.2h1.07v-8.665z");
-}
-
-.sonf8mugx {
-  fill: var(--svg-color--fbbf93, #fbbf93);
-  d: path("m15.831 23.176l4.638-.433l1.529.178l-4.842 4.944z");
-}
-
-.w39n61bgs {
-  fill: var(--svg-color--6b3a19, #6b3a19);
-  d: path("m30.969 17.824l-4.638.433l-1.529-.178l4.842-4.944z");
+  d: path("M27.5 5.5h-9.3l-2.1 4.2H4.4v16.8h25.2v-21zm0 4.2h-8.2l1.1-2.1h7.1z");
 }
 
 </style>

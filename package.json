@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/vscode-icons",
   "type": "module",
-  "version": "1.0.67",
+  "version": "1.0.68",
   "homepage": "https://icon-sets.iconify.design/vscode-icons/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -765,6 +765,10 @@
     "./file-type-cucumber": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-cucumber.vue"
+    },
+    "./file-type-cucumberconfig": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-type-cucumberconfig.vue"
     },
     "./file-type-cuda": {
       "types": "./types/dd0bq22g.d.ts",

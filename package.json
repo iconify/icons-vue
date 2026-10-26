@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/material-icon-theme",
   "type": "module",
-  "version": "1.0.49",
+  "version": "1.0.50",
   "homepage": "https://icon-sets.iconify.design/material-icon-theme/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -929,6 +929,10 @@
     "./folder-bloc-open": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/folder-bloc-open.vue"
+    },
+    "./folder-bluetooth": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-bluetooth.vue"
     },
     "./folder-bower": {
       "types": "./types/dd0bq22g.d.ts",

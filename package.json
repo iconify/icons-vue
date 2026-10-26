@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/devicon",
   "type": "module",
-  "version": "1.0.30",
+  "version": "1.0.31",
   "homepage": "https://icon-sets.iconify.design/devicon/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -3777,6 +3777,10 @@
     "./tomcat-wordmark": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/tomcat-wordmark.vue"
+    },
+    "./toml": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/toml.vue"
     },
     "./tortoisegit": {
       "types": "./types/dd0bq22g.d.ts",

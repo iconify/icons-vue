@@ -1,6 +1,5 @@
 # @iconify-vue/devicon-plain
 
-⚠️ This is an alternative repository. Main repository has moved to [GitLab](https://gitlab.com/iconify-icons/vue/-/tree/devicon-plain).
 **Devicon Plain**
 
 Author: [konpa](https://github.com/devicons/devicon/tree/master)

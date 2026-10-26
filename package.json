@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/devicon-plain",
   "type": "module",
-  "version": "1.0.25",
+  "version": "1.0.26",
   "homepage": "https://icon-sets.iconify.design/devicon-plain/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -2845,6 +2845,10 @@
     "./tmux-wordmark": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/tmux-wordmark.vue"
+    },
+    "./toml": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/toml.vue"
     },
     "./tortoisegit": {
       "types": "./types/dd0bq22g.d.ts",

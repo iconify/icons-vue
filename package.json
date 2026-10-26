@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/thesvg",
   "type": "module",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "homepage": "https://icon-sets.iconify.design/thesvg/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -850,6 +850,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/apollo-graphql.vue"
     },
+    "./apollodotio": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/apollodotio.vue"
+    },
     "./apostrophe": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/apostrophe.vue"
@@ -1550,6 +1554,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/bitdefender.vue"
     },
+    "./bitkit": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bitkit.vue"
+    },
     "./bitly": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/bitly.vue"
@@ -1850,6 +1858,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/buildkite.vue"
     },
+    "./buildpacks": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/buildpacks.vue"
+    },
     "./builtbybit": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/builtbybit.vue"
@@ -2090,6 +2102,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/cerebras.vue"
     },
+    "./cert-manager": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cert-manager.vue"
+    },
     "./cesium": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/cesium.vue"
@@ -2121,6 +2137,10 @@
     "./channel-4": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/channel-4.vue"
+    },
+    "./chaos-mesh": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chaos-mesh.vue"
     },
     "./charles": {
       "types": "./types/dd0bq22g.d.ts",
@@ -2373,6 +2393,10 @@
     "./cloudera": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/cloudera.vue"
+    },
+    "./cloudevents": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloudevents.vue"
     },
     "./cloudflare": {
       "types": "./types/dd0bq22g.d.ts",
@@ -2734,6 +2758,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/continente.vue"
     },
+    "./contour": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/contour.vue"
+    },
     "./contributor-covenant": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/contributor-covenant.vue"
@@ -2881,6 +2909,10 @@
     "./crewai": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/crewai.vue"
+    },
+    "./cri-o": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cri-o.vue"
     },
     "./critical-role": {
       "types": "./types/dd0bq22g.d.ts",
@@ -3470,6 +3502,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/docusaurus.vue"
     },
+    "./docuseal": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/docuseal.vue"
+    },
     "./dodo-payments": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/dodo-payments.vue"
@@ -3982,6 +4018,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/e/ethereum.vue"
     },
+    "./etherpad": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/etherpad.vue"
+    },
     "./ethers": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/e/ethers.vue"
@@ -4349,6 +4389,10 @@
     "./fizz": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/fizz.vue"
+    },
+    "./flame": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/flame.vue"
     },
     "./flashforge": {
       "types": "./types/dd0bq22g.d.ts",
@@ -5037,6 +5081,10 @@
     "./godaddy": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/godaddy.vue"
+    },
+    "./godonateme": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/godonateme.vue"
     },
     "./godot": {
       "types": "./types/dd0bq22g.d.ts",
@@ -6126,6 +6174,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/i/improvmx.vue"
     },
+    "./in-toto": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/in-toto.vue"
+    },
     "./inception-labs": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/i/inception-labs.vue"
@@ -6698,6 +6750,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/k/karma.vue"
     },
+    "./karmada": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/karmada.vue"
+    },
     "./kasa-smart": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/k/kasa-smart.vue"
@@ -6986,6 +7042,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/k/krita.vue"
     },
+    "./kserve": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kserve.vue"
+    },
     "./ktm": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/k/ktm.vue"
@@ -6998,6 +7058,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/k/kuaishou.vue"
     },
+    "./kubeedge": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kubeedge.vue"
+    },
     "./kubeflow": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/k/kubeflow.vue"
@@ -7006,9 +7070,17 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/k/kubernetes.vue"
     },
+    "./kubescape": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kubescape.vue"
+    },
     "./kubespray": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/k/kubespray.vue"
+    },
+    "./kubevela": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kubevela.vue"
     },
     "./kubuntu": {
       "types": "./types/dd0bq22g.d.ts",
@@ -7674,6 +7746,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/magasins-u.vue"
     },
+    "./mage-ai": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mage-ai.vue"
+    },
     "./magic": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/magic.vue"
@@ -8082,6 +8158,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/metro-de-madrid.vue"
     },
+    "./metube": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/metube.vue"
+    },
     "./mewe": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/mewe.vue"
@@ -8113,6 +8193,10 @@
     "./microsoft-bing": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/microsoft-bing.vue"
+    },
+    "./microsoft-copilot-legacy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/microsoft-copilot-legacy.vue"
     },
     "./microstation": {
       "types": "./types/dd0bq22g.d.ts",
@@ -8322,6 +8406,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/monica.vue"
     },
+    "./monitixx": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/monitixx.vue"
+    },
     "./monkey-tie": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/monkey-tie.vue"
@@ -8497,6 +8585,10 @@
     "./n8n": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/n/n8n.vue"
+    },
+    "./n8n-legacy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/n8n-legacy.vue"
     },
     "./namebase": {
       "types": "./types/dd0bq22g.d.ts",
@@ -9106,6 +9198,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/o/oculus.vue"
     },
+    "./oddinpay": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/oddinpay.vue"
+    },
     "./odido": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/o/odido.vue"
@@ -9210,6 +9306,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/o/open-containers-initiative.vue"
     },
+    "./open-policy-agent": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/open-policy-agent.vue"
+    },
     "./open-source-hardware": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/o/open-source-hardware.vue"
@@ -9265,6 +9365,10 @@
     "./opencode": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/o/opencode.vue"
+    },
+    "./opencost": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/opencost.vue"
     },
     "./opencritic": {
       "types": "./types/dd0bq22g.d.ts",
@@ -9569,6 +9673,10 @@
     "./pagseguro": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/pagseguro.vue"
+    },
+    "./pairdrop": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pairdrop.vue"
     },
     "./palantir": {
       "types": "./types/dd0bq22g.d.ts",
@@ -10210,6 +10318,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/posthog.vue"
     },
+    "./posthog-legacy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/posthog-legacy.vue"
+    },
     "./postiz": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/postiz.vue"
@@ -10437,6 +10549,10 @@
     "./pubg": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/pubg.vue"
+    },
+    "./pubky": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pubky.vue"
     },
     "./publons": {
       "types": "./types/dd0bq22g.d.ts",
@@ -10765,6 +10881,10 @@
     "./rakuten-kobo": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/r/rakuten-kobo.vue"
+    },
+    "./rallly": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rallly.vue"
     },
     "./ralph-lauren": {
       "types": "./types/dd0bq22g.d.ts",
@@ -11405,6 +11525,10 @@
     "./ryanair": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/r/ryanair.vue"
+    },
+    "./rybbit": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rybbit.vue"
     },
     "./rye": {
       "types": "./types/dd0bq22g.d.ts",
@@ -12234,6 +12358,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/spicedb.vue"
     },
+    "./spiffe": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/spiffe.vue"
+    },
     "./spigotmc": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/spigotmc.vue"
@@ -12538,6 +12666,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/stremio.vue"
     },
+    "./strimzi": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/strimzi.vue"
+    },
     "./stripe": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/stripe.vue"
@@ -12750,6 +12882,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/synology.vue"
     },
+    "./synonym": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/synonym.vue"
+    },
     "./system76": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/system76.vue"
@@ -12769,6 +12905,10 @@
     "./tado": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/tado.vue"
+    },
+    "./tahcia": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tahcia.vue"
     },
     "./taichi-graphics": {
       "types": "./types/dd0bq22g.d.ts",
@@ -12817,6 +12957,10 @@
     "./tampermonkey": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/tampermonkey.vue"
+    },
+    "./tandoor-recipes": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tandoor-recipes.vue"
     },
     "./tanstack": {
       "types": "./types/dd0bq22g.d.ts",

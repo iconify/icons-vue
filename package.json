@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/cbi",
   "type": "module",
-  "version": "1.0.50",
+  "version": "1.0.51",
   "homepage": "https://icon-sets.iconify.design/cbi/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "CC-BY-NC-SA-4.0",
@@ -1082,6 +1082,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/button.vue"
     },
+    "./bwt": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bwt.vue"
+    },
     "./byd": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/byd.vue"
@@ -1422,6 +1426,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/citroen.vue"
     },
+    "./claude": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/claude.vue"
+    },
     "./claude-clawd": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/claude-clawd.vue"
@@ -1550,6 +1558,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/dazn.vue"
     },
+    "./debian": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/debian.vue"
+    },
     "./deezer-logo": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/deezer-logo.vue"
@@ -1669,6 +1681,10 @@
     "./disney-plus-alt": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/disney-plus-alt.vue"
+    },
+    "./dm": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dm.vue"
     },
     "./dodge": {
       "types": "./types/dd0bq22g.d.ts",
@@ -1905,6 +1921,10 @@
     "./ecowitt": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/e/ecowitt.vue"
+    },
+    "./edeka": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/edeka.vue"
     },
     "./eero": {
       "types": "./types/dd0bq22g.d.ts",
@@ -2589,6 +2609,10 @@
     "./hino": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/hino.vue"
+    },
+    "./hit": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hit.vue"
     },
     "./hive": {
       "types": "./types/dd0bq22g.d.ts",
@@ -3306,6 +3330,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/l/linktap.vue"
     },
+    "./linux": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/linux.vue"
+    },
     "./lit-house-number": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/l/lit-house-number.vue"
@@ -3822,6 +3850,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/n/national-rail-alt.vue"
     },
+    "./naturhof-wolfsberg": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/naturhof-wolfsberg.vue"
+    },
     "./nautical-lamp": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/n/nautical-lamp.vue"
@@ -3906,6 +3938,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/n/netgear-switch.vue"
     },
+    "./netto": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/netto.vue"
+    },
     "./next-hub-max": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/n/next-hub-max.vue"
@@ -3925,6 +3961,18 @@
     "./nginx-proxy-manager": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/n/nginx-proxy-manager.vue"
+    },
+    "./nibe": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nibe.vue"
+    },
+    "./nibe-alt": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nibe-alt.vue"
+    },
+    "./nibe-alt2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nibe-alt2.vue"
     },
     "./nighthawk": {
       "types": "./types/dd0bq22g.d.ts",
@@ -4089,6 +4137,10 @@
     "./open-webui-alt": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/o/open-webui-alt.vue"
+    },
+    "./openai": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/openai.vue"
     },
     "./openhasp": {
       "types": "./types/dd0bq22g.d.ts",
@@ -4417,6 +4469,10 @@
     "./phoscon": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/phoscon.vue"
+    },
+    "./php": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/php.vue"
     },
     "./piano": {
       "types": "./types/dd0bq22g.d.ts",
@@ -5277,6 +5333,10 @@
     "./serie-a": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/serie-a.vue"
+    },
+    "./server": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/server.vue"
     },
     "./seven-eleven-australia": {
       "types": "./types/dd0bq22g.d.ts",
@@ -6238,6 +6298,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/trezor.vue"
     },
+    "./trinkgut": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/trinkgut.vue"
+    },
     "./triple-wall-switch": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/triple-wall-switch.vue"
@@ -6401,6 +6465,10 @@
     "./ubiquiti-wifi-accesspoint": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/u/ubiquiti-wifi-accesspoint.vue"
+    },
+    "./ubuntu": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/ubuntu.vue"
     },
     "./ue-epicboom": {
       "types": "./types/dd0bq22g.d.ts",
@@ -6802,6 +6870,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/w/wellness.vue"
     },
+    "./whatsapp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/whatsapp.vue"
+    },
     "./wheel-loader": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/w/wheel-loader.vue"
@@ -6829,6 +6901,10 @@
     "./windows": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/w/windows.vue"
+    },
+    "./windows-oficial": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/windows-oficial.vue"
     },
     "./wink-tv": {
       "types": "./types/dd0bq22g.d.ts",

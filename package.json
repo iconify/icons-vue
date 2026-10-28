@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/tabler",
   "type": "module",
-  "version": "1.0.23",
+  "version": "1.0.24",
   "homepage": "https://icon-sets.iconify.design/tabler/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -773,6 +773,10 @@
     "./archive-off": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/archive-off.vue"
+    },
+    "./archive-restore": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/archive-restore.vue"
     },
     "./armchair": {
       "types": "./types/dd0bq22g.d.ts",
@@ -2418,6 +2422,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/beach.vue"
     },
+    "./beach-bag": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/beach-bag.vue"
+    },
     "./beach-off": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/beach-off.vue"
@@ -2797,6 +2805,10 @@
     "./book-2": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/book-2.vue"
+    },
+    "./book-clone": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/book-clone.vue"
     },
     "./book-download": {
       "types": "./types/dd0bq22g.d.ts",
@@ -4074,6 +4086,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/brand-miniprogram.vue"
     },
+    "./brand-misskey": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/brand-misskey.vue"
+    },
     "./brand-mixpanel": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/brand-mixpanel.vue"
@@ -4673,6 +4689,10 @@
     "./brand-vercel-filled": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/brand-vercel-filled.vue"
+    },
+    "./brand-viber": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/brand-viber.vue"
     },
     "./brand-vimeo": {
       "types": "./types/dd0bq22g.d.ts",
@@ -9070,6 +9090,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/deaf.vue"
     },
+    "./decagram": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/decagram.vue"
+    },
     "./decimal": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/decimal.vue"
@@ -12526,6 +12550,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/git-merge.vue"
     },
+    "./git-merge-ai": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/git-merge-ai.vue"
+    },
     "./git-merge-queue": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/git-merge-queue.vue"
@@ -12538,6 +12566,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/git-pull-request-closed.vue"
     },
+    "./git-pull-request-closed-ai": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/git-pull-request-closed-ai.vue"
+    },
     "./git-pull-request-conflict": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/git-pull-request-conflict.vue"
@@ -12546,9 +12578,17 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/git-pull-request-draft.vue"
     },
+    "./git-pull-request-draft-ai": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/git-pull-request-draft-ai.vue"
+    },
     "./git-pull-request-locked": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/git-pull-request-locked.vue"
+    },
+    "./git-pull-request-locked-ai": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/git-pull-request-locked-ai.vue"
     },
     "./git-pull-request-unlisted": {
       "types": "./types/dd0bq22g.d.ts",
@@ -15470,6 +15510,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/l/lollipop-off.vue"
     },
+    "./loop": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/loop.vue"
+    },
     "./luggage": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/l/luggage.vue"
@@ -15830,6 +15874,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/map-pins.vue"
     },
+    "./map-pins-off": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/map-pins-off.vue"
+    },
     "./map-plus": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/map-plus.vue"
@@ -16085,6 +16133,10 @@
     "./maximize-off": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/maximize-off.vue"
+    },
+    "./mcp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mcp.vue"
     },
     "./meat": {
       "types": "./types/dd0bq22g.d.ts",
@@ -17918,6 +17970,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/o/omega.vue"
     },
+    "./opacity": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/opacity.vue"
+    },
     "./option": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/o/option.vue"
@@ -18209,6 +18265,10 @@
     "./pencil-question": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/pencil-question.vue"
+    },
+    "./pencil-ruler": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pencil-ruler.vue"
     },
     "./pencil-search": {
       "types": "./types/dd0bq22g.d.ts",
@@ -21177,6 +21237,10 @@
     "./smoking-no": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/smoking-no.vue"
+    },
+    "./snail": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/snail.vue"
     },
     "./snowboarding": {
       "types": "./types/dd0bq22g.d.ts",
@@ -24618,6 +24682,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/w/wave-square.vue"
     },
+    "./waveform": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/waveform.vue"
+    },
     "./waves-electricity": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/w/waves-electricity.vue"
@@ -24809,6 +24877,10 @@
     "./world-map": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/w/world-map.vue"
+    },
+    "./world-map-off": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/world-map-off.vue"
     },
     "./world-minus": {
       "types": "./types/dd0bq22g.d.ts",
@@ -25141,6 +25213,10 @@
     "./zoom-scan-filled": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/z/zoom-scan-filled.vue"
+    },
+    "./zsh": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/z/zsh.vue"
     },
     "./zzz": {
       "types": "./types/dd0bq22g.d.ts",

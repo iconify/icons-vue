@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/devicon-plain",
   "type": "module",
-  "version": "1.0.26",
+  "version": "1.0.27",
   "homepage": "https://icon-sets.iconify.design/devicon-plain/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -1817,6 +1817,10 @@
     "./neo4j-wordmark": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/n/neo4j-wordmark.vue"
+    },
+    "./neon-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/neon-wordmark.vue"
     },
     "./neovim": {
       "types": "./types/dd0bq22g.d.ts",

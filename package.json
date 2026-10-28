@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/thesvg-color",
   "type": "module",
-  "version": "1.0.21",
+  "version": "1.0.22",
   "homepage": "https://icon-sets.iconify.design/thesvg-color/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -401,6 +401,10 @@
     "./ag-ui": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/ag-ui.vue"
+    },
+    "./agent-qa": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/agent-qa.vue"
     },
     "./agora": {
       "types": "./types/dd0bq22g.d.ts",
@@ -5014,6 +5018,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/e/earmark-light.vue"
     },
+    "./easy-ai-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/easy-ai-dark.vue"
+    },
+    "./easy-ai-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/easy-ai-light.vue"
+    },
     "./easy-appointments": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/e/easy-appointments.vue"
@@ -8457,6 +8469,10 @@
     "./instagram": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/i/instagram.vue"
+    },
+    "./instagram-legacy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/instagram-legacy.vue"
     },
     "./instapaper": {
       "types": "./types/dd0bq22g.d.ts",
@@ -12694,6 +12710,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/o/ola-cabs.vue"
     },
+    "./olive-garden": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/olive-garden.vue"
+    },
     "./ollama-dark": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/o/ollama-dark.vue"
@@ -13097,6 +13117,10 @@
     "./oracle": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/o/oracle.vue"
+    },
+    "./oracle-icon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/oracle-icon.vue"
     },
     "./orange": {
       "types": "./types/dd0bq22g.d.ts",
@@ -16173,6 +16197,10 @@
     "./serverless": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/serverless.vue"
+    },
+    "./servicenow": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/servicenow.vue"
     },
     "./session": {
       "types": "./types/dd0bq22g.d.ts",

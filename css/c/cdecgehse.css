@@ -1,0 +1,8 @@
+.cdecgehse {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M6 16.5V8a3 3 0 0 1 3-3h7.5c.83 0 1.5.67 1.5 1.5v11c0 .83-.67 1.5-1.5 1.5h-8A2.5 2.5 0 0 1 6 16.5m0 0A2.5 2.5 0 0 1 8.5 14H18m-8-5.5h4");
+}

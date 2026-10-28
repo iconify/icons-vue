@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/j/ja0nf1bzs.css';
+import '../../css/z/zojfblbth.css';
 
 const props = defineProps(["width","height"]);
 
-const viewBox = {"width":20,"height":20};
-const content = `<path class="ja0nf1bzs"/>`;
+const viewBox = {"width":24,"height":24};
+const content = `<path class="zojfblbth"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="codex:brackets-vertical" /></template>

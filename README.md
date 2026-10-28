@@ -1,19 +1,20 @@
 # @iconify-vue/codex
 
-Icon set prefix: **codex**
+**CodeX Icons**
 
-Icon set name: **CodeX Icons**
+Author: [CodeX](https://github.com/davidabou/icons)
 
-Author: **CodeX**
+License: [MIT](https://github.com/codex-team/icons/blob/master/LICENSE)
 
-License: **[MIT](https://github.com/codex-team/icons/blob/master/LICENSE)**
-
-Repository: **https://github.com/codex-team/icons**
-
-Browse all icons: **[Preview CodeX Icons](https://icon-sets.iconify.design/codex/)**
+Browse all icons: [preview CodeX Icons on Iconify](https://icon-sets.iconify.design/codex/)
 
 ## Installation
 
+```bash
+npm install gitlab:iconify-icons/vue#codex
+```
+
+or
 ```bash
 npm install github:iconify/icons-vue#codex
 ```

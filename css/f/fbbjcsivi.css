@@ -1,0 +1,8 @@
+.fbbjcsivi {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M8.25 7v10m0 0L5 13.75M8.25 17l3.25-3.25M15.75 17V7m0 0l-3.25 3.25M15.75 7L19 10.25");
+}

@@ -1,0 +1,8 @@
+.pvhmp-bau {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("m10.75 6.5l-1.5 11m5.5-11l-1.5 11M7 10h10.5m-11 4H17");
+}

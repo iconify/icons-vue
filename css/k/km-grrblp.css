@@ -1,0 +1,8 @@
+.km-grrblp {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M7 2v20m4-6a8.64 8.64 0 0 0-2.974 3.639L7 22l-1.026-2.361A8.64 8.64 0 0 0 3 16m8.5-14H16m-4.5 4H19m-7.5 4H22");
+}

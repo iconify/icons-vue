@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/devicon",
   "type": "module",
-  "version": "1.0.31",
+  "version": "1.0.32",
   "homepage": "https://icon-sets.iconify.design/devicon/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -1382,6 +1382,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/glitch.vue"
     },
+    "./gnu": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gnu.vue"
+    },
     "./gnuradio": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/gnuradio.vue"
@@ -2341,6 +2345,14 @@
     "./neo4j-wordmark": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/n/neo4j-wordmark.vue"
+    },
+    "./neon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/neon.vue"
+    },
+    "./neon-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/neon-wordmark.vue"
     },
     "./neovim": {
       "types": "./types/dd0bq22g.d.ts",
@@ -4193,6 +4205,10 @@
     "./wordpress": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/w/wordpress.vue"
+    },
+    "./xai": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/x/xai.vue"
     },
     "./xamarin": {
       "types": "./types/dd0bq22g.d.ts",

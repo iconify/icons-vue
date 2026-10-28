@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/selfhst",
   "type": "module",
-  "version": "1.0.26",
+  "version": "1.0.27",
   "homepage": "https://icon-sets.iconify.design/selfhst/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "CC-BY-4.0",
@@ -7078,6 +7078,18 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/fileflows-dark.vue"
     },
+    "./fileflows-forge": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fileflows-forge.vue"
+    },
+    "./fileflows-forge-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fileflows-forge-dark.vue"
+    },
+    "./fileflows-forge-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fileflows-forge-light.vue"
+    },
     "./fileflows-light": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/fileflows-light.vue"
@@ -7501,6 +7513,18 @@
     "./fluidd-light": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/fluidd-light.vue"
+    },
+    "./flux-operator": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/flux-operator.vue"
+    },
+    "./flux-operator-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/flux-operator-dark.vue"
+    },
+    "./flux-operator-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/flux-operator-light.vue"
     },
     "./fluxer": {
       "types": "./types/dd0bq22g.d.ts",
@@ -9925,6 +9949,18 @@
     "./hi-events-light": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/hi-events-light.vue"
+    },
+    "./hindsight": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hindsight.vue"
+    },
+    "./hindsight-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hindsight-dark.vue"
+    },
+    "./hindsight-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hindsight-light.vue"
     },
     "./hister": {
       "types": "./types/dd0bq22g.d.ts",
@@ -12705,6 +12741,10 @@
     "./lightningrod-light": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/l/lightningrod-light.vue"
+    },
+    "./lightpanda": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lightpanda.vue"
     },
     "./limesurvey": {
       "types": "./types/dd0bq22g.d.ts",
@@ -16757,6 +16797,18 @@
     "./north-pole-security-light": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/n/north-pole-security-light.vue"
+    },
+    "./nostos": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nostos.vue"
+    },
+    "./nostos-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nostos-dark.vue"
+    },
+    "./nostos-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nostos-light.vue"
     },
     "./note-mark": {
       "types": "./types/dd0bq22g.d.ts",
@@ -24066,6 +24118,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/sosse-light.vue"
     },
+    "./soulbeet": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/soulbeet.vue"
+    },
     "./soulseek": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/soulseek.vue"
@@ -24974,6 +25030,18 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/swizzin-light.vue"
     },
+    "./synaplan": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/synaplan.vue"
+    },
+    "./synaplan-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/synaplan-dark.vue"
+    },
+    "./synaplan-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/synaplan-light.vue"
+    },
     "./synapse": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/synapse.vue"
@@ -25837,6 +25905,18 @@
     "./tooljet-light": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/tooljet-light.vue"
+    },
+    "./toparr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/toparr.vue"
+    },
+    "./toparr-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/toparr-dark.vue"
+    },
+    "./toparr-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/toparr-light.vue"
     },
     "./tor": {
       "types": "./types/dd0bq22g.d.ts",

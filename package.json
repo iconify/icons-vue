@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/material-symbols",
   "type": "module",
-  "version": "1.0.56",
+  "version": "1.0.57",
   "homepage": "https://icon-sets.iconify.design/material-symbols/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "Apache-2.0",
@@ -14546,6 +14546,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/contrast.vue"
     },
+    "./contrast-auto": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/contrast-auto.vue"
+    },
+    "./contrast-auto-rounded": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/contrast-auto-rounded.vue"
+    },
     "./contrast-circle": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/contrast-circle.vue"
@@ -14553,6 +14561,18 @@
     "./contrast-circle-rounded": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/contrast-circle-rounded.vue"
+    },
+    "./contrast-inverse": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/contrast-inverse.vue"
+    },
+    "./contrast-inverse-auto": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/contrast-inverse-auto.vue"
+    },
+    "./contrast-inverse-auto-rounded": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/contrast-inverse-auto-rounded.vue"
     },
     "./contrast-rtl-off": {
       "types": "./types/dd0bq22g.d.ts",
@@ -30934,6 +30954,30 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/i/input-rounded.vue"
     },
+    "./input-search": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/input-search.vue"
+    },
+    "./input-search-outline": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/input-search-outline.vue"
+    },
+    "./input-search-outline-rounded": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/input-search-outline-rounded.vue"
+    },
+    "./input-search-outline-sharp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/input-search-outline-sharp.vue"
+    },
+    "./input-search-rounded": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/input-search-rounded.vue"
+    },
+    "./input-search-sharp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/input-search-sharp.vue"
+    },
     "./input-sharp": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/i/input-sharp.vue"
@@ -34981,6 +35025,30 @@
     "./mail-outline-sharp": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/mail-outline-sharp.vue"
+    },
+    "./mail-person": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mail-person.vue"
+    },
+    "./mail-person-outline": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mail-person-outline.vue"
+    },
+    "./mail-person-outline-rounded": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mail-person-outline-rounded.vue"
+    },
+    "./mail-person-outline-sharp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mail-person-outline-sharp.vue"
+    },
+    "./mail-person-rounded": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mail-person-rounded.vue"
+    },
+    "./mail-person-sharp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mail-person-sharp.vue"
     },
     "./mail-rounded": {
       "types": "./types/dd0bq22g.d.ts",
@@ -72910,6 +72978,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/contract-sharp.vue"
     },
+    "./contrast-auto-outline": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/contrast-auto-outline.vue"
+    },
+    "./contrast-auto-outline-rounded": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/contrast-auto-outline-rounded.vue"
+    },
+    "./contrast-auto-outline-sharp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/contrast-auto-outline-sharp.vue"
+    },
+    "./contrast-auto-sharp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/contrast-auto-sharp.vue"
+    },
     "./contrast-circle-outline": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/contrast-circle-outline.vue"
@@ -72925,6 +73009,42 @@
     "./contrast-circle-sharp": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/contrast-circle-sharp.vue"
+    },
+    "./contrast-inverse-auto-outline": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/contrast-inverse-auto-outline.vue"
+    },
+    "./contrast-inverse-auto-outline-rounded": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/contrast-inverse-auto-outline-rounded.vue"
+    },
+    "./contrast-inverse-auto-outline-sharp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/contrast-inverse-auto-outline-sharp.vue"
+    },
+    "./contrast-inverse-auto-sharp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/contrast-inverse-auto-sharp.vue"
+    },
+    "./contrast-inverse-outline": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/contrast-inverse-outline.vue"
+    },
+    "./contrast-inverse-outline-rounded": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/contrast-inverse-outline-rounded.vue"
+    },
+    "./contrast-inverse-outline-sharp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/contrast-inverse-outline-sharp.vue"
+    },
+    "./contrast-inverse-rounded": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/contrast-inverse-rounded.vue"
+    },
+    "./contrast-inverse-sharp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/contrast-inverse-sharp.vue"
     },
     "./contrast-outline": {
       "types": "./types/dd0bq22g.d.ts",

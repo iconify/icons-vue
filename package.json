@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/thesvg",
   "type": "module",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "homepage": "https://icon-sets.iconify.design/thesvg/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -281,6 +281,10 @@
     "./ag-ui": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/ag-ui.vue"
+    },
+    "./agent-qa": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/agent-qa.vue"
     },
     "./agora": {
       "types": "./types/dd0bq22g.d.ts",
@@ -3709,6 +3713,10 @@
     "./eagle": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/e/eagle.vue"
+    },
+    "./easy-ai": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/easy-ai.vue"
     },
     "./easyeda": {
       "types": "./types/dd0bq22g.d.ts",

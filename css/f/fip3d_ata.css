@@ -1,0 +1,7 @@
+.fip3d_ata {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M1.72 12a10.31 10.31 0 1 1 20.62 0a10.31 10.31 0 0 1-20.62 0");
+}

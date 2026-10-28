@@ -1,0 +1,7 @@
+.folecpbly {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M3.8 16.28V7.82c0-2.82 0-4.24.87-5.12c.88-.88 2.3-.88 5.12-.88h4.42c2.82 0 4.24 0 5.12.88s.88 2.3.88 5.12v8.46c0 2.82 0 4.24-.88 5.12s-2.3.88-5.12.88H9.79c-2.82 0-4.24 0-5.12-.88s-.88-2.3-.88-5.12m9.19-4.23H7.66m5.32 4.55H7.66m8.68-9.04H7.66M2.74 2.74l18.52 18.52");
+}

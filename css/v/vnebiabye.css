@@ -1,0 +1,7 @@
+.vnebiabye {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M19.16 12.25h-6.84m5.49 3.45h-5.5m5.5-6.9h-5.5m2.76-3.45h-2.75m2.75 13.79h-2.75");
+}

@@ -1,0 +1,8 @@
+.qulx01_ul {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M2.72 20.28V3.72m8.2 16.56l-5.78-6.54M2.87 16.1l7.42-8.17m4.28-2.6l1.12 1.12c.7.7 1.04 1.04 1.47 1.03c.43 0 .76-.37 1.42-1.1l.95-1.05m.92 5.87s-.65-.78-2.53-.78s-4.27 1.4-4.27 4.91c0 3.5 2.34 4.95 4.27 4.95c1.8 0 2.53-.75 2.53-.75");
+}

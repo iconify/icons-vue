@@ -1,0 +1,7 @@
+.jobnn2evt {
+  stroke: var(--svg-color--3a0f17, #3a0f17);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--3-25px, 3.25px);
+  d: path("M12 12c2-2.4 3.3-3.35 5-3.35a3.35 3.35 0 0 1 0 6.7c-1.7 0-3-.95-5-3.35S8.7 8.65 7 8.65a3.35 3.35 0 0 0 0 6.7c1.7 0 3-.95 5-3.35");
+}

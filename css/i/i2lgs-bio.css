@@ -1,0 +1,8 @@
+.i2lgs-bio {
+  fill: var(--svg-color--e2a93b, #e2a93b);
+  stroke: var(--svg-color--3a0f17, #3a0f17);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--0-6px, 0.6px);
+  d: path("m10.73 9.59l-3.39 3.39l3.68 3.68l3.39-3.39Z");
+}

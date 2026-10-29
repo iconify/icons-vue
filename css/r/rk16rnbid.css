@@ -1,0 +1,8 @@
+.rk16rnbid {
+  fill: var(--svg-color--c8203a, #c8203a);
+  fill-rule: evenodd;
+  stroke: var(--svg-color--3a0f17, #3a0f17);
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--0-6px, 0.6px);
+  d: path("M4.5 2.4a1.6 1.6 0 1 0 0 3.2a1.6 1.6 0 1 0 0-3.2z");
+}

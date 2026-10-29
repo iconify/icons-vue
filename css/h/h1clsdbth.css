@@ -1,0 +1,7 @@
+.h1clsdbth {
+  fill: var(--svg-color--c9daec, #c9daec);
+  stroke: var(--svg-color--3a0f17, #3a0f17);
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--0-6px, 0.6px);
+  d: path("m2.5 10.2l7.9-6.3q1.6-1.2 3.2 0l7.9 6.3v8.3q0 2-2 2h-15q-2 0-2-2Z");
+}

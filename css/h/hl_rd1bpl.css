@@ -1,0 +1,6 @@
+.hl_rd1bpl {
+  stroke: var(--svg-color--1f6e46, #1f6e46);
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("m3 3l18 18");
+}

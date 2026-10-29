@@ -1,0 +1,8 @@
+.lkp_dcdin {
+  fill: var(--svg-color--1f6e46, #1f6e46);
+  fill-rule: evenodd;
+  stroke: var(--svg-color--3a0f17, #3a0f17);
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--0-6px, 0.6px);
+  d: path("M7.5 6.5h9a5.5 5.5 0 0 1 0 11h-9a5.5 5.5 0 0 1 0-11z");
+}

@@ -1,0 +1,6 @@
+.noxfgpbug {
+  stroke: var(--svg-color--3a0f17, #3a0f17);
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--3px, 3px);
+  d: path("M3 8h9.5A2.5 2.5 0 1 0 10 5.5");
+}

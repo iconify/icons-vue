@@ -1,0 +1,7 @@
+.hn-qermuv {
+  fill: var(--svg-color--e2a93b, #e2a93b);
+  stroke: var(--svg-color--3a0f17, #3a0f17);
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--0-55px, 0.55px);
+  d: path("M4.46 18.54a1 1 0 1 0 2 0a1 1 0 1 0-2 0zM18.54 5.46c.77.78 2.95-1.71 2.33-2.33s-3.11 1.56-2.33 2.33Z");
+}

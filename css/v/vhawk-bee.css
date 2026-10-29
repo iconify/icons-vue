@@ -1,0 +1,7 @@
+.vhawk-bee {
+  stroke: var(--svg-color--3a0f17, #3a0f17);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--3-2px, 3.2px);
+  d: path("M3 16.2A3.8 3.8 0 0 1 6.8 20");
+}

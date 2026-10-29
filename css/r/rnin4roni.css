@@ -1,0 +1,7 @@
+.rnin4roni {
+  stroke: var(--svg-color--3a0f17, #3a0f17);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--3px, 3px);
+  d: path("M8 10.5v-4a4 4 0 0 1 7.6-1.7");
+}

@@ -1,0 +1,7 @@
+.rxsrweror {
+  fill: var(--svg-color--c8203a, #c8203a);
+  stroke: var(--svg-color--3a0f17, #3a0f17);
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--0-6px, 0.6px);
+  d: path("M8 6.2h8c3.5 2 4 6.6 0 9.2H8c-4-2.6-3.5-7.2 0-9.2Z");
+}

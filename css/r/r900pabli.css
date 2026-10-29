@@ -1,0 +1,7 @@
+.r900pabli {
+  fill: var(--svg-color--1f6e46, #1f6e46);
+  stroke: var(--svg-color--3a0f17, #3a0f17);
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--0-6px, 0.6px);
+  d: path("M5.4 9.2h2V14h-2Zm11.2 0h2V14h-2Z");
+}

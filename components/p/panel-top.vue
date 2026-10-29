@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/x/xd8nrdcpj.css';
+import '../../css/y/y5jh7ga-a.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="xd8nrdcpj"/>`;
+const content = `<path class="y5jh7ga-a"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="vadivam:panel-top" /></template>

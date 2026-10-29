@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/j/jkh6e53fj.css';
+import '../../css/e/erlh8kb9n.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="jkh6e53fj"/>`;
+const content = `<path class="erlh8kb9n"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="vadivam:calendar-arrow-up" /></template>

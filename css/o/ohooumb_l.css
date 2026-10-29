@@ -1,0 +1,8 @@
+.ohooumb_l {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M22 13.5v5c0 1.933-1.654 3.5-3.694 3.5H5.694C3.654 22 2 20.433 2 18.5v-5C2 11.567 3.654 10 5.694 10h12.612C20.346 10 22 11.567 22 13.5M19 6H5m11.5-4h-9");
+}

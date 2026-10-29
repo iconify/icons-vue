@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/r/rc7ry0b2l.css';
+import '../../css/d/d2sjwohsi.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="rc7ry0b2l"/>`;
+const content = `<path class="d2sjwohsi"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="vadivam:eighth-notes" /></template>

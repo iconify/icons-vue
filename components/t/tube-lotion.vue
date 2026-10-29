@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/e/exa5lfb3f.css';
+import '../../css/y/yz8aknpav.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="exa5lfb3f"/>`;
+const content = `<path class="yz8aknpav"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="vadivam:tube-lotion" /></template>

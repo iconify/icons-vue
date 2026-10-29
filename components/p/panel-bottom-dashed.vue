@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/x/xiasleb1r.css';
+import '../../css/f/frf4fnbux.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="xiasleb1r"/>`;
+const content = `<path class="frf4fnbux"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="vadivam:panel-bottom-dashed" /></template>

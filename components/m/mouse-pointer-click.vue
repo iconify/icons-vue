@@ -1,0 +1,23 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/f/ft5dv1b6b.css';
+import '../../css/t/t5mrk6mkb.css';
+import '../../css/b/bmvlsf21d.css';
+import '../../css/p/pnjr8_b7e.css';
+import '../../css/s/stui2mbih.css';
+import '../../css/v/vkghwac4g.css';
+import '../../css/a/a937s988w.css';
+import '../../css/v/v3tomcuxx.css';
+import '../../css/j/jfugc0g3x.css';
+import '../../css/d/dyuvv2t_e.css';
+import '../../css/w/wqinxjb6h.css';
+import '../../css/d/dfpgwocwy.css';
+import '../../css/e/e608qib4y.css';
+import '../../css/c/c-q9dy1nk.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ft5dv1b6b"><defs><linearGradient id="SVGU3iNwcsv" x1="0" x2="0" y1="-43.8" y2="76.2" gradientUnits="userSpaceOnUse"><stop offset="0" class="t5mrk6mkb"/><stop offset="1" class="bmvlsf21d"/></linearGradient><linearGradient id="SVGrvdsRcZf" x1="12.6" x2="17.4" y1="15.6" y2="22.4" gradientUnits="userSpaceOnUse"><stop offset="0" class="pnjr8_b7e"/><stop offset=".5" class="stui2mbih"/><stop offset=".5" class="vkghwac4g"/><stop offset="1" class="a937s988w"/></linearGradient><linearGradient id="SVGf3zZrFWT" x1="8.1" x2="19.9" y1="8.1" y2="21.9" gradientUnits="userSpaceOnUse"><stop offset="0" class="pnjr8_b7e"/><stop offset=".5" class="stui2mbih"/><stop offset=".5" class="vkghwac4g"/><stop offset="1" class="a937s988w"/></linearGradient></defs><path fill="url(#SVGU3iNwcsv)" class="v3tomcuxx wm-shadow"/><path class="jfugc0g3x wm-a"/><path fill="url(#SVGrvdsRcZf)" class="dyuvv2t_e wm-a"/><path class="wm-k wqinxjb6h"/><path class="dfpgwocwy wm-k"/><path fill="url(#SVGf3zZrFWT)" class="e608qib4y wm-k"/><path class="c-q9dy1nk wm-s"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="withicons-suite:mouse-pointer-click" /></template>

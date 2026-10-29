@@ -1,0 +1,7 @@
+.dn7vdc-em {
+  stroke: var(--svg-color--fff, #fff);
+  stroke-linecap: round;
+  stroke-opacity: 0.5;
+  stroke-width: var(--svg-stroke-width--1-1px, 1.1px);
+  d: path("M4.4 9.5a5.8 5.8 0 0 1 3.2-3.3");
+}

@@ -1,0 +1,23 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/f/ft5dv1b6b.css';
+import '../../css/t/t5mrk6mkb.css';
+import '../../css/b/bmvlsf21d.css';
+import '../../css/p/pnjr8_b7e.css';
+import '../../css/s/stui2mbih.css';
+import '../../css/v/vkghwac4g.css';
+import '../../css/a/a937s988w.css';
+import '../../css/e/e4cmunbop.css';
+import '../../css/f/f0-d_wbgk.css';
+import '../../css/v/v-6hj-b2n.css';
+import '../../css/a/a_ii7g4fe.css';
+import '../../css/j/jqm_u--jt.css';
+import '../../css/o/oj-mp6r_x.css';
+import '../../css/p/pnwp4qxkk.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ft5dv1b6b"><defs><linearGradient id="SVGBPoT8c4A" x1="0" x2="0" y1="-42" y2="78" gradientUnits="userSpaceOnUse"><stop offset="0" class="t5mrk6mkb"/><stop offset="1" class="bmvlsf21d"/></linearGradient><linearGradient id="SVGXdVPMbDp" x1="7.1" x2="22.4" y1="1.6" y2="22.4" gradientUnits="userSpaceOnUse"><stop offset="0" class="pnjr8_b7e"/><stop offset=".5" class="stui2mbih"/><stop offset=".5" class="vkghwac4g"/><stop offset="1" class="a937s988w"/></linearGradient><linearGradient id="SVGcfj6dcVf" x1="1.6" x2="15.9" y1="14.1" y2="15.9" gradientUnits="userSpaceOnUse"><stop offset="0" class="pnjr8_b7e"/><stop offset=".5" class="stui2mbih"/><stop offset=".5" class="vkghwac4g"/><stop offset="1" class="a937s988w"/></linearGradient></defs><path fill="url(#SVGBPoT8c4A)" class="e4cmunbop wm-shadow"/><path class="f0-d_wbgk wm-k"/><path class="v-6hj-b2n wm-k"/><path fill="url(#SVGXdVPMbDp)" class="a_ii7g4fe wm-k"/><path class="jqm_u--jt wm-a"/><path fill="url(#SVGcfj6dcVf)" class="oj-mp6r_x wm-a"/><path class="pnwp4qxkk wm-a"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="withicons-suite:file-input" /></template>

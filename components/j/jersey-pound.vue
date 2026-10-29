@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/iub38o1gs.css';
+import '../../css/n/n-lh599rs.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="iub38o1gs"/>`;
+const content = `<path class="n-lh599rs"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="lucide:jersey-pound" /></template>

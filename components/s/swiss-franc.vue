@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/l/lerfben8u.css';
+import '../../css/y/ycko3m6rg.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="lerfben8u"/>`;
+const content = `<path class="ycko3m6rg"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="lucide:swiss-franc" /></template>

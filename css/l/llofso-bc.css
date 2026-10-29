@@ -1,0 +1,8 @@
+.llofso-bc {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("m14 20l-8-8h4c5.333 0 5.333-8 0-8M6 4h12M6 8h12");
+}

@@ -1,0 +1,8 @@
+.i3ulcmpia {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M10 10V3m4 7V3m5 10a7 7 0 1 0-7 7m-7 0h14");
+}

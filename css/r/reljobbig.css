@@ -1,0 +1,8 @@
+.reljobbig {
+  fill: var(--svg-color--bfc7d0, #bfc7d0);
+  stroke: var(--svg-color--000, #000);
+  stroke-linejoin: round;
+  stroke-opacity: 0.42;
+  stroke-width: var(--svg-stroke-width--0-36px, 0.36px);
+  d: path("m6 18.66l-1.4 2.21l-.18.43v.4l.17.4l.31.32l.4.16l.5-.03l.3-.13l.24-.22l2.2-3.5l-.14-.05zm9.5.01l-.03.03l.05.1l2.18 3.44l.35.26l.45.1l.44-.1l.3-.2l.23-.3l.08-.2l.04-.3l-.04-.3l-.13-.3l-1.38-2.2l-.14-.04z");
+}

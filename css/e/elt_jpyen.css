@@ -1,0 +1,5 @@
+.elt_jpyen {
+  fill: var(--svg-color--fff, #fff);
+  fill-opacity: var(--svg-fill-opacity--0-55, 0.55);
+  d: path("m19.6 12.1l-.1.1l-.2.5l-.3.3l-.9.6H18l-.5-.5h-.3l.6.4l.3.4h.1l.7-.4l.5-.5l.2-.4zm-14.9.6l.1.3l.3.3l1 .6l.3-.4l.5-.4l-.3-.1l-.6.6l-.8-.4zm5.3 1l.3.4l.4-.3l-.3-.1l-.2.1zm4 0l-.2.1l-.1-.1l-.2.1l.4.3l.3-.4z");
+}

@@ -1,0 +1,8 @@
+.s4_yx_bts {
+  fill: var(--svg-color--f28a2e, #f28a2e);
+  stroke: var(--svg-color--000, #000);
+  stroke-linejoin: round;
+  stroke-opacity: 0.42;
+  stroke-width: var(--svg-stroke-width--0-36px, 0.36px);
+  d: path("m5 9.18l-.3.12l-.2.16l-.29.44l-.05.5l.21.5l1.33 1.35l.3.22l.5.13l.3-.05l.3-.14l.32-.31l.16-.4v-.4l-.16-.4L5.9 9.37l-.4-.19zm13.5 0l-.3.12l-.25.2l-1.25 1.26l-.21.34l-.09.4l.08.4l.22.34l.4.27l.5.08l.5-.18l1.35-1.31l.3-.4l.09-.3v-.3l-.09-.3l-.12-.2l-.23-.23l-.3-.16l-.3-.06z");
+}

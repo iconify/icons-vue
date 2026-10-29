@@ -1,0 +1,8 @@
+.fnol_tbhr {
+  fill: var(--svg-color--e0483a, #e0483a);
+  stroke: var(--svg-color--000, #000);
+  stroke-linejoin: round;
+  stroke-opacity: 0.42;
+  stroke-width: var(--svg-stroke-width--0-36px, 0.36px);
+  d: path("m7 1.88l-.5.25l-.2.22l-.13.25l-.07.5l.07.3l.13.25l.38.35l.42.14h.8l.5-.19l.33-.35l.15-.4v-.4l-.18-.45l-.24-.25l-.36-.2l-.3-.05zm9 0l-.5.25l-.2.22l-.13.25l-.07.5l.07.3l.13.25l.38.35l.42.14h.8l.5-.19l.33-.35l.15-.4v-.4l-.18-.45l-.24-.25l-.36-.2l-.3-.05z");
+}

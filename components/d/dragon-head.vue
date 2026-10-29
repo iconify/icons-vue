@@ -1,0 +1,65 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/f/ft5dv1b6b.css';
+import '../../css/g/g2dcvyb6m.css';
+import '../../css/o/opb-jjxqo.css';
+import '../../css/a/anlr2ubok.css';
+import '../../css/h/h9xu21rbi.css';
+import '../../css/t/ta09etb5x.css';
+import '../../css/z/zjab4ubgv.css';
+import '../../css/c/cput2zboi.css';
+import '../../css/g/gdsjxt9ua.css';
+import '../../css/k/k-b2ikivy.css';
+import '../../css/h/hyzjc1t8i.css';
+import '../../css/g/gd7z39bgm.css';
+import '../../css/r/rza25xbyu.css';
+import '../../css/z/z1mdfvb8t.css';
+import '../../css/s/sesiwspmc.css';
+import '../../css/z/zq1kclpcj.css';
+import '../../css/z/z7gyqegvx.css';
+import '../../css/j/jwlv5upel.css';
+import '../../css/c/c8b09byyg.css';
+import '../../css/g/gskt_4bgd.css';
+import '../../css/s/stmn9655o.css';
+import '../../css/t/tzi1o8bvb.css';
+import '../../css/t/tgj9x8bds.css';
+import '../../css/z/zdf-2ihus.css';
+import '../../css/q/qnvduy4mj.css';
+import '../../css/e/ed1avdles.css';
+import '../../css/s/s--sk6-zw.css';
+import '../../css/o/o3onf7ufk.css';
+import '../../css/z/z7vhwhb7a.css';
+import '../../css/t/t91ux4x0p.css';
+import '../../css/e/ea42z6b4b.css';
+import '../../css/g/gwl_qyx0d.css';
+import '../../css/b/bwoqrvwyh.css';
+import '../../css/u/utkyaac1k.css';
+import '../../css/g/gicdpxb_b.css';
+import '../../css/s/sknpz4_rp.css';
+import '../../css/g/g03zdfbyi.css';
+import '../../css/u/un_o_2h-u.css';
+import '../../css/v/vm0r5sbbt.css';
+import '../../css/l/lmcu-l7zb.css';
+import '../../css/z/zgerxqb_n.css';
+import '../../css/g/g88hcib-k.css';
+import '../../css/s/s2itm5ruz.css';
+import '../../css/k/kfe5-9bkc.css';
+import '../../css/l/lhf2o_1mk.css';
+import '../../css/m/mimo4q-4s.css';
+import '../../css/d/dq52y2bhk.css';
+import '../../css/z/zrsyf-bvx.css';
+import '../../css/u/u47j-i85t.css';
+import '../../css/t/ty8zz924p.css';
+import '../../css/r/rpk3_qbfq.css';
+import '../../css/a/ap4q6i2na.css';
+import '../../css/w/wjw9fzagp.css';
+import '../../css/d/dzwv0_2pb.css';
+import '../../css/i/ii_4fr2dg.css';
+import '../../css/d/dlso87wqw.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ft5dv1b6b"><path class="g2dcvyb6m wm-shadow"/><path class="opb-jjxqo wm-shadow"/><path class="anlr2ubok wm-a"/><path class="h9xu21rbi wm-a"/><path class="ta09etb5x wm-a"/><path class="wm-a zjab4ubgv"/><path class="cput2zboi wm-a"/><path class="gdsjxt9ua wm-a"/><path class="k-b2ikivy wm-a"/><path class="hyzjc1t8i wm-a"/><path class="gd7z39bgm wm-k"/><path class="rza25xbyu wm-k"/><path class="wm-k z1mdfvb8t"/><path class="sesiwspmc wm-k"/><path class="wm-k zq1kclpcj"/><path class="wm-shine z7gyqegvx"/><path class="jwlv5upel wm-shine"/><path class="c8b09byyg wm-k"/><path class="gskt_4bgd wm-k"/><path class="stmn9655o wm-k"/><path class="tzi1o8bvb wm-k"/><path class="tgj9x8bds wm-k"/><path class="wm-shine zdf-2ihus"/><path class="qnvduy4mj wm-k"/><path class="ed1avdles wm-k"/><path class="s--sk6-zw wm-k"/><path class="o3onf7ufk wm-k"/><path class="wm-shine z7vhwhb7a"/><path class="t91ux4x0p wm-k"/><path class="ea42z6b4b wm-k"/><path class="gwl_qyx0d wm-k"/><path class="bwoqrvwyh wm-k"/><path class="utkyaac1k wm-k"/><path class="gicdpxb_b wm-k"/><path class="sknpz4_rp wm-k"/><path class="g03zdfbyi wm-shine"/><path class="un_o_2h-u wm-k"/><path class="vm0r5sbbt wm-k"/><path class="lmcu-l7zb wm-k"/><path class="wm-k zgerxqb_n"/><path class="g88hcib-k wm-k"/><path class="s2itm5ruz wm-shine"/><path class="kfe5-9bkc wm-k"/><path class="lhf2o_1mk wm-k"/><path class="mimo4q-4s wm-k"/><path class="dq52y2bhk wm-k"/><path class="wm-shine zrsyf-bvx"/><path class="u47j-i85t wm-k"/><path class="ty8zz924p wm-k"/><path class="rpk3_qbfq wm-k"/><path class="ap4q6i2na wm-k"/><path class="wjw9fzagp wm-shine"/><path class="dzwv0_2pb wm-k"/><path class="ii_4fr2dg wm-k"/><path class="dlso87wqw wm-k"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="withicons-skeuo:dragon-head" /></template>

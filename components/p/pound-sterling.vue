@@ -1,0 +1,11 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/e/eh_qq7i6m.css';
+import '../../css/s/sfehr1btw.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="eh_qq7i6m wm-k"/><path class="sfehr1btw wm-a"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="withicons-bauhaus:pound-sterling" /></template>

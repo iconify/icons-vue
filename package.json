@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/devicon-plain",
   "type": "module",
-  "version": "1.0.27",
+  "version": "1.0.28",
   "homepage": "https://icon-sets.iconify.design/devicon-plain/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -946,6 +946,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/gcc.vue"
     },
+    "./gemini": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gemini.vue"
+    },
+    "./gemini-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gemini-wordmark.vue"
+    },
     "./gentoo": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/gentoo.vue"
@@ -1274,6 +1282,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/i/inertiajs-wordmark.vue"
     },
+    "./informatica": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/informatica.vue"
+    },
+    "./informatica-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/informatica-wordmark.vue"
+    },
     "./inkscape": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/i/inkscape.vue"
@@ -1401,6 +1417,14 @@
     "./json": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/j/json.vue"
+    },
+    "./juce": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/juce.vue"
+    },
+    "./juce-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/juce-wordmark.vue"
     },
     "./julia": {
       "types": "./types/dd0bq22g.d.ts",
@@ -2146,6 +2170,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/plotly-wordmark.vue"
     },
+    "./plsql": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/plsql.vue"
+    },
     "./pm2": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/pm2.vue"
@@ -2193,6 +2221,14 @@
     "./postcss-wordmark": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/postcss-wordmark.vue"
+    },
+    "./postgis": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/postgis.vue"
+    },
+    "./postgis-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/postgis-wordmark.vue"
     },
     "./postgresql": {
       "types": "./types/dd0bq22g.d.ts",

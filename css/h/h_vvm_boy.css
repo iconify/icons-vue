@@ -1,0 +1,8 @@
+.h_vvm_boy {
+  fill: none;
+  stroke: var(--svg-color--4a2c3d, #4a2c3d);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-15px, 1.15px);
+  d: path("m5.84 15.66l2.2-1.32m-2.2-4.4l2.2-1.32m2.86-4.4l1.32 2.2m5.5 1.54l-1.76 1.76");
+}

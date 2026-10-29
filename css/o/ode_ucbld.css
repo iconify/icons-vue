@@ -1,0 +1,8 @@
+.ode_ucbld {
+  fill: none;
+  stroke: var(--svg-color--fff9f0, #fff9f0);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-15px, 1.15px);
+  d: path("m12 7.74l3.73 3.73M12 7.74v5.28m0-5.28l-3.73 3.73");
+}

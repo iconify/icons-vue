@@ -1,0 +1,8 @@
+.md2wht-px {
+  fill: none;
+  stroke: var(--svg-color--fff9f0, #fff9f0);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-3px, 1.3px);
+  d: path("M15.55 17.5h3.9m-1.95-1.95v3.9");
+}

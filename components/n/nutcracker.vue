@@ -1,0 +1,65 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/n/nwk582bqf.css';
+import '../../css/m/m4_8mwbpj.css';
+import '../../css/h/h8yudsvpg.css';
+import '../../css/s/secqwgb5r.css';
+import '../../css/u/unr_qr91b.css';
+import '../../css/s/sski4cijk.css';
+import '../../css/o/o62pqgq9y.css';
+import '../../css/v/vq_35jb-e.css';
+import '../../css/e/e59fj1bpk.css';
+import '../../css/f/fselop1xv.css';
+import '../../css/d/d7cnl-q6s.css';
+import '../../css/t/teb-nrbcb.css';
+import '../../css/y/ydbaudxfr.css';
+import '../../css/e/esqvyybas.css';
+import '../../css/s/s16ulqlnx.css';
+import '../../css/g/gg9i83bje.css';
+import '../../css/j/j6h4lx_mk.css';
+import '../../css/i/i4cseojdu.css';
+import '../../css/g/g0b1_fcwa.css';
+import '../../css/f/f-6zaeidc.css';
+import '../../css/v/vu86klbfc.css';
+import '../../css/k/kjyhmhbwu.css';
+import '../../css/y/y3l98mlap.css';
+import '../../css/n/nwnj5cbmg.css';
+import '../../css/k/kvkc33u0l.css';
+import '../../css/a/aekae44oz.css';
+import '../../css/l/llyxbsb3l.css';
+import '../../css/m/midb-wbgt.css';
+import '../../css/n/nns6thb8m.css';
+import '../../css/l/lpo-eob0h.css';
+import '../../css/i/i824k0bkv.css';
+import '../../css/u/u1ro-gbbq.css';
+import '../../css/l/l7a6g594e.css';
+import '../../css/w/wmzlx6biy.css';
+import '../../css/u/uitn3tbfe.css';
+import '../../css/k/k5r11kblg.css';
+import '../../css/a/alyj-_ekc.css';
+import '../../css/f/fxn53bcez.css';
+import '../../css/j/jn8m_71_b.css';
+import '../../css/j/jt5rr5b5r.css';
+import '../../css/y/ywpp2tbzd.css';
+import '../../css/a/agkwl7ptn.css';
+import '../../css/b/bk-bojbfx.css';
+import '../../css/d/dxhzjzbew.css';
+import '../../css/b/bdocbfbpy.css';
+import '../../css/x/x4za5mbil.css';
+import '../../css/n/nv2rqnbpp.css';
+import '../../css/u/u4u5nq24w.css';
+import '../../css/f/f9ga4i65x.css';
+import '../../css/l/ltf08c6by.css';
+import '../../css/d/dnr7nd1tl.css';
+import '../../css/h/h__bk3s1u.css';
+import '../../css/y/ycuvgtu9b.css';
+import '../../css/m/mk-6o5bqd.css';
+import '../../css/d/d-vd53buh.css';
+import '../../css/z/z1_1lhn8w.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="nwk582bqf wm-shadow"/><path class="m4_8mwbpj wm-k"/><path class="h8yudsvpg wm-k"/><path class="secqwgb5r wm-k"/><path class="unr_qr91b wm-k"/><path class="sski4cijk wm-shine"/><path class="o62pqgq9y wm-k"/><path class="vq_35jb-e wm-k"/><path class="e59fj1bpk wm-k"/><path class="fselop1xv wm-k"/><path class="d7cnl-q6s wm-shine"/><path class="teb-nrbcb wm-k"/><path class="wm-k ydbaudxfr"/><path class="esqvyybas wm-k"/><path class="s16ulqlnx wm-k"/><path class="gg9i83bje wm-shine"/><path class="j6h4lx_mk wm-k"/><path class="i4cseojdu wm-k"/><path class="g0b1_fcwa wm-k"/><path class="f-6zaeidc wm-k"/><path class="vu86klbfc wm-shine"/><path class="kjyhmhbwu wm-k"/><path class="wm-a y3l98mlap"/><path class="nwnj5cbmg wm-a"/><path class="kvkc33u0l wm-a"/><path class="aekae44oz wm-a"/><path class="llyxbsb3l wm-a"/><path class="midb-wbgt wm-a"/><path class="nns6thb8m wm-k"/><path class="lpo-eob0h wm-k"/><path class="i824k0bkv wm-k"/><path class="u1ro-gbbq wm-shine"/><path class="l7a6g594e wm-k"/><path class="wm-k wmzlx6biy"/><path class="uitn3tbfe wm-k"/><path class="k5r11kblg wm-k"/><path class="alyj-_ekc wm-k"/><path class="fxn53bcez wm-k"/><path class="jn8m_71_b wm-k"/><path class="jt5rr5b5r wm-k"/><path class="wm-k ywpp2tbzd"/><path class="agkwl7ptn wm-k"/><path class="bk-bojbfx wm-shine"/><path class="dxhzjzbew wm-k"/><path class="bdocbfbpy wm-k"/><path class="wm-k x4za5mbil"/><path class="nv2rqnbpp wm-k"/><path class="u4u5nq24w wm-shine"/><path class="f9ga4i65x wm-k"/><path class="ltf08c6by wm-k"/><path class="dnr7nd1tl wm-k"/><path class="h__bk3s1u wm-shine"/><path class="wm-k ycuvgtu9b"/><path class="mk-6o5bqd wm-k"/><path class="d-vd53buh wm-k"/><path class="wm-shine z1_1lhn8w"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="withicons-plush:nutcracker" /></template>

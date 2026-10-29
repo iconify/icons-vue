@@ -1,0 +1,8 @@
+.t-dr_tbll {
+  fill: none;
+  stroke: var(--svg-color--fff9f0, #fff9f0);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-15px, 1.15px);
+  d: path("M8.19 6.2L12 8.4l3.81-2.2M12 8.4v4.4");
+}

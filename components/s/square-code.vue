@@ -1,0 +1,17 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/y/ykumliwdy.css';
+import '../../css/k/k6ojw0b3k.css';
+import '../../css/f/fvqhp_ocz.css';
+import '../../css/s/s8zygmb6r.css';
+import '../../css/v/vlrqudbzm.css';
+import '../../css/m/mxit97eps.css';
+import '../../css/l/lio3jo1op.css';
+import '../../css/w/we9f8fl_n.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="wm-shadow ykumliwdy"/><path class="k6ojw0b3k wm-k"/><path class="fvqhp_ocz wm-k"/><path class="s8zygmb6r wm-k"/><path class="vlrqudbzm wm-k"/><path class="mxit97eps wm-shine"/><path class="lio3jo1op wm-k"/><path class="we9f8fl_n wm-a"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="withicons-plush:square-code" /></template>

@@ -1,0 +1,7 @@
+.nknigtvdr {
+  fill: var(--svg-color--fff0d9, #fff0d9);
+  stroke: var(--svg-color--4a2c3d, #4a2c3d);
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-2px, 1.2px);
+  d: path("M6 5.5h12V21H6z");
+}

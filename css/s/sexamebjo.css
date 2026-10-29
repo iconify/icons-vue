@@ -1,0 +1,8 @@
+.sexamebjo {
+  stroke: var(--svg-color--221a26, #221a26);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-opacity: 0.9;
+  stroke-width: var(--svg-stroke-width--0-27px, 0.27px);
+  d: path("M16.78 2.98L18.91 7m-5.24-5.18l3.9 7.34m-6.44-7.43l3.49 6.56M8.85 2.13l2.81 5.29M6.79 2.95l2.78 5.22M5.19 4.61l2.29 4.31M4.7 6.59l1.8-3.38m-.68 5.97l3.82-7.2m-.9 6.4l3.52-6.63m-.46 5.54l2.78-5.22m-.67 5.94l2.75-5.16m-.6 5.8l2.22-4.16");
+}

@@ -1,0 +1,8 @@
+.r_zfibbth {
+  stroke: var(--svg-color--140f18, #140f18);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-opacity: 0.55;
+  stroke-width: var(--svg-stroke-width--0-4px, 0.4px);
+  d: path("M8.8 17.4h6.4M9 19.3h6");
+}

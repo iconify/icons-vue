@@ -1,0 +1,6 @@
+.snllftbls {
+  stroke: var(--svg-color--000, #000);
+  stroke-width: var(--svg-stroke-width--6-24px, 6.24px);
+  d: path("M12 5.4q.1-1.7 1.5-2.5");
+  opacity: var(--svg-opacity--0-3, 0.3);
+}

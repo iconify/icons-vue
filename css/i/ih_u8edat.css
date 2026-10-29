@@ -1,0 +1,6 @@
+.ih_u8edat {
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-75px, 1.75px);
+  d: path("M11 11.25h1v5.25m.3-8.75a.3.3 0 1 0-.6 0a.3.3 0 1 0 .6 0");
+}

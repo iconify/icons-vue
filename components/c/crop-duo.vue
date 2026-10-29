@@ -1,0 +1,13 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/d/dt0cm9dhy.css';
+import '../../css/f/fblrr-bri.css';
+import '../../css/k/k8e5r6sft.css';
+import '../../css/b/b5bfvoblb.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="dt0cm9dhy"><path class="fblrr-bri"/><path class="k8e5r6sft"/><path class="b5bfvoblb"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="withicons:crop-duo" /></template>

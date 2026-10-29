@@ -1,0 +1,13 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/d/dt0cm9dhy.css';
+import '../../css/l/lxc2iobbl.css';
+import '../../css/t/trdla8jeo.css';
+import '../../css/t/t9g5kvbye.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="dt0cm9dhy"><path class="lxc2iobbl"/><path class="trdla8jeo wm-a"/><path class="t9g5kvbye"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="withicons:layout-list-duo" /></template>

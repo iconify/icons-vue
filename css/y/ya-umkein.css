@@ -1,0 +1,7 @@
+.ya-umkein {
+  fill: var(--svg-color--b7d6fa, #b7d6fa);
+  stroke: var(--svg-color--9ac2f2, #9ac2f2);
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--0-6px, 0.6px);
+  d: path("M5 9.5h14a2.5 2.5 0 0 1 2.5 2.5v7.5a2 2 0 0 1-2 2h-15a2 2 0 0 1-2-2V12A2.5 2.5 0 0 1 5 9.5Z");
+}

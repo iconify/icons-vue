@@ -1,0 +1,7 @@
+.ps2vmhd_g {
+  fill: var(--svg-color--ffc3d7, #ffc3d7);
+  stroke: var(--svg-color--f8a9c5, #f8a9c5);
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--0-6px, 0.6px);
+  d: path("M8.28 18.3a2.6 2.1-18 0 1 4.94-1.6a2.6 2.1-18 0 1-4.94 1.6Z");
+}

@@ -1,0 +1,7 @@
+.pvehtcbat {
+  fill: var(--svg-color--ffe29c, #ffe29c);
+  stroke: var(--svg-color--f6d077, #f6d077);
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--0-6px, 0.6px);
+  d: path("m8.1 5.5l-3.3.02l-.5.27l-.2.3l-.1.41v6l.09.4l.11.19l.4.32l.3.08l5 .01l.1-.1V5.6l-.1-.1z");
+}

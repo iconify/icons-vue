@@ -1,0 +1,7 @@
+.evtp-vbsh {
+  fill: var(--svg-color--ffe29c, #ffe29c);
+  stroke: var(--svg-color--efc159, #efc159);
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--0-8px, 0.8px);
+  d: path("M11 2a1 1 0 0 1 2 0v2.75a1 1 0 0 1-2 0zM5.95 3.1a1 1 0 0 1 1.6-1.2l1.5 2a1 1 0 0 1-1.6 1.2zm10.5-1.2a1 1 0 0 1 1.6 1.2l-1.5 2a1 1 0 0 1-1.6-1.2z");
+}

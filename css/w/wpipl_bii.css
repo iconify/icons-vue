@@ -1,0 +1,7 @@
+.wpipl_bii {
+  fill: var(--svg-color--ffe29c, #ffe29c);
+  stroke: var(--svg-color--f6d077, #f6d077);
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--0-6px, 0.6px);
+  d: path("M5.5 10.75H15a1 1 0 0 1 1 1a1 1 0 0 1-1 1H5.5a1 1 0 0 1-1-1a1 1 0 0 1 1-1Z");
+}

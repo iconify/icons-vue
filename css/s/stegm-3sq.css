@@ -1,0 +1,7 @@
+.stegm-3sq {
+  fill: var(--svg-color--abe6cd, #abe6cd);
+  stroke: var(--svg-color--8dd7b9, #8dd7b9);
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--0-6px, 0.6px);
+  d: path("M2.25 12a9.75 9.75 0 0 1 19.5 0a9.75 9.75 0 0 1-19.5 0Z");
+}

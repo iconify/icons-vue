@@ -1,0 +1,7 @@
+.x9rxembuf {
+  fill: var(--svg-color--ffe29c, #ffe29c);
+  stroke: var(--svg-color--f6d077, #f6d077);
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--0-6px, 0.6px);
+  d: path("M5.5 7H15a1.5 1.5 0 0 1 1.5 1.5v10.25a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3V8.5A1.5 1.5 0 0 1 5.5 7Z");
+}

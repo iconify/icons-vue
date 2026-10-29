@@ -1,0 +1,7 @@
+.siie_seqt {
+  fill: var(--svg-color--b7d6fa, #b7d6fa);
+  stroke: var(--svg-color--9ac2f2, #9ac2f2);
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--0-6px, 0.6px);
+  d: path("M4 12.6V18a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3v-5.4a1.2 1.2 0 0 0-2.4 0v5a1 1 0 0 1-1 1H7.4a1 1 0 0 1-1-1v-5a1.2 1.2 0 0 0-2.4 0Z");
+}

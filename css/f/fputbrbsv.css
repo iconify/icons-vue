@@ -1,0 +1,7 @@
+.fputbrbsv {
+  fill: var(--svg-color--b7d6fa, #b7d6fa);
+  stroke: var(--svg-color--9ac2f2, #9ac2f2);
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--0-6px, 0.6px);
+  d: path("M5.25 4h13.5A3.25 3.25 0 0 1 22 7.25v9.5A3.25 3.25 0 0 1 18.75 20H5.25A3.25 3.25 0 0 1 2 16.75v-9.5A3.25 3.25 0 0 1 5.25 4Z");
+}

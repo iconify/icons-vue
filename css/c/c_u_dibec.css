@@ -1,0 +1,7 @@
+.c_u_dibec {
+  fill: var(--svg-color--abe6cd, #abe6cd);
+  stroke: var(--svg-color--8dd7b9, #8dd7b9);
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--0-6px, 0.6px);
+  d: path("M19.75 16.15a1.6 1.6 0 0 1-1.6 1.6H7.16a1 1 0 0 1-.7-.29l-2.11-2.11a1.2 1.2 0 0 1 0-1.7l2.11-2.11a1 1 0 0 1 .7-.29h10.99a1.6 1.6 0 0 1 1.6 1.6Z");
+}

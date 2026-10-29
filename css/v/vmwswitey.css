@@ -1,0 +1,7 @@
+.vmwswitey {
+  fill: var(--svg-color--cdbbf7, #cdbbf7);
+  stroke: var(--svg-color--b6a1ef, #b6a1ef);
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--0-6px, 0.6px);
+  d: path("M14.82 19.94a.9.9 0 0 1-1.66.01l-2.43-5.9a.9.9 0 0 1 .19-.97L18.9 5.1a.9.9 0 0 1 1.47.97Z");
+}

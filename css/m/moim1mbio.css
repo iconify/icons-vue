@@ -1,0 +1,7 @@
+.moim1mbio {
+  fill: var(--svg-color--ffcbaf, #ffcbaf);
+  stroke: var(--svg-color--f8b596, #f8b596);
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--0-6px, 0.6px);
+  d: path("m5 9.6l4.6-1.7q2.4-.8 4.8 0L19 9.6v5l-4.4 3q-2 1.3-4 .5L5 14.8Z");
+}

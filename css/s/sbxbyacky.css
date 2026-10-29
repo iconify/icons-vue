@@ -1,0 +1,7 @@
+.sbxbyacky {
+  fill: var(--svg-color--cdbbf7, #cdbbf7);
+  stroke: var(--svg-color--b6a1ef, #b6a1ef);
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--0-6px, 0.6px);
+  d: path("M7.5 7h9a4 4 0 0 1 4 4v5.75a4 4 0 0 1-4 4h-9a4 4 0 0 1-4-4V11a4 4 0 0 1 4-4Z");
+}

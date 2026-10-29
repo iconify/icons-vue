@@ -1,0 +1,8 @@
+.b8p-dk-cv {
+  stroke: var(--svg-color--1d1029, #1d1029);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-opacity: 0.5;
+  stroke-width: var(--svg-stroke-width--0-55px, 0.55px);
+  d: path("M18.6 9.4a7 7 0 0 1-1.4 7.6M6.4 15.8a7 7 0 0 1 2.2-9.9");
+}

@@ -1,0 +1,7 @@
+.h_niwabem {
+  stroke: var(--svg-color--1d1029, #1d1029);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2-72px, 2.72px);
+  d: path("M2.5 9.5a10 10 0 0 1 3-6m16 6a10 10 0 0 0-3-6");
+}

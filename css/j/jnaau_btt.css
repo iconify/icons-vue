@@ -1,0 +1,7 @@
+.jnaau_btt {
+  stroke: var(--svg-color--1d1029, #1d1029);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--3-64px, 3.64px);
+  d: path("M12 8.4V19m-4-9h8M4.4 13.6c.5 4.1 3.6 6.6 7.6 6.6s7.1-2.5 7.6-6.6");
+}

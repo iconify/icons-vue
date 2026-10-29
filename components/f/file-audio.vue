@@ -1,0 +1,26 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/f/ft5dv1b6b.css';
+import '../../css/s/svsyk2bqe.css';
+import '../../css/d/dhau0jb_j.css';
+import '../../css/u/urdsoyirw.css';
+import '../../css/k/klalqjb5s.css';
+import '../../css/p/pp783-bfu.css';
+import '../../css/j/j10y_sbul.css';
+import '../../css/k/k_sq1bc2u.css';
+import '../../css/v/vicc33bvr.css';
+import '../../css/a/azx2d2tww.css';
+import '../../css/b/b8vp8bc_j.css';
+import '../../css/m/mnsds-b-z.css';
+import '../../css/m/mtfvtxb9m.css';
+import '../../css/r/rgjq23s8m.css';
+import '../../css/c/cu6mvkbro.css';
+import '../../css/u/u-tgpob3b.css';
+import '../../css/s/sgq4ydblr.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ft5dv1b6b"><defs><radialGradient id="SVG27JHTbVQ" cx="12" cy="13.69" r="13.85" fx="9.44" fy="8.23" gradientUnits="userSpaceOnUse"><stop offset="0" class="svsyk2bqe"/><stop offset=".45" class="svsyk2bqe"/><stop offset="1" class="dhau0jb_j"/></radialGradient><radialGradient id="SVG7NclkjNa" cx="12" cy="14.1" r="13.01" gradientUnits="userSpaceOnUse"><stop offset="0" class="urdsoyirw"/><stop offset=".5" class="klalqjb5s"/><stop offset="1" class="pp783-bfu"/></radialGradient><radialGradient id="SVGt94cTcaO" cx="12" cy="13.06" r="12" gradientUnits="userSpaceOnUse"><stop offset="0" class="j10y_sbul"/><stop offset=".55" class="k_sq1bc2u"/><stop offset="1" class="vicc33bvr"/></radialGradient></defs><path fill="url(#SVGt94cTcaO)" class="azx2d2tww wm-deco"/><path class="b8vp8bc_j wm-shadow"/><path fill="url(#SVG7NclkjNa)" class="mnsds-b-z wm-shine"/><path fill="url(#SVG27JHTbVQ)" class="mtfvtxb9m wm-k"/><path class="rgjq23s8m wm-shine"/><path class="cu6mvkbro wm-deco"/><path class="u-tgpob3b wm-deco"/><path class="sgq4ydblr wm-deco"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="withicons-halloween:file-audio" /></template>

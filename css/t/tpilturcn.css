@@ -1,0 +1,7 @@
+.tpilturcn {
+  fill: var(--svg-color--ff9f2e, #ff9f2e);
+  stroke: var(--svg-color--1d1029, #1d1029);
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--0-85px, 0.85px);
+  d: path("M4 2h14a2 2 0 0 1 0 4H4a2 2 0 0 1 0-4Zm0 16.5h14a2 2 0 0 1 0 4H4a2 2 0 0 1 0-4Z");
+}

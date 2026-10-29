@@ -1,0 +1,7 @@
+.pi3bby-eb {
+  stroke: var(--svg-color--1d1029, #1d1029);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2-8px, 2.8px);
+  d: path("M8 12h8m-4-4l4 4l-4 4");
+}

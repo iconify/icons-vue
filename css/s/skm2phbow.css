@@ -1,0 +1,7 @@
+.skm2phbow {
+  stroke: var(--svg-color--ff9f2e, #ff9f2e);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-18px, 1.18px);
+  d: path("M15.25 15.6v-1.85a2 2 0 0 1 4 0v1.85");
+}

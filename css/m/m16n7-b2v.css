@@ -1,0 +1,8 @@
+.m16n7-b2v {
+  stroke: var(--svg-color--fff6e2, #fff6e2);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-opacity: 0.55;
+  stroke-width: var(--svg-stroke-width--0-55px, 0.55px);
+  d: path("M5 5h5.5m-3.1 6.9H11m-.2 6.5v.6");
+}

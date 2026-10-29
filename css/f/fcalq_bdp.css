@@ -1,0 +1,7 @@
+.fcalq_bdp {
+  stroke: var(--svg-color--1d1029, #1d1029);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--3-14px, 3.14px);
+  d: path("M14.1 5.2a2.1 2.1 0 1 1-4.2 0a2.1 2.1 0 1 1 4.2 0");
+}

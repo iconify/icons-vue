@@ -1,0 +1,7 @@
+.al9_h-ble {
+  fill: var(--svg-color--fff1b8, #fff1b8);
+  stroke: var(--svg-color--1d1029, #1d1029);
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--0-5px, 0.5px);
+  d: path("m20.2 2.5l.6 1.5l1.5.6l-1.5.6l-.6 1.5l-.6-1.5l-1.5-.6l1.5-.6Z");
+}

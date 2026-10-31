@@ -1,0 +1,8 @@
+.aim4fab4t {
+  fill: var(--svg-color--f7d7be, #f7d7be);
+  stroke: var(--svg-color--16130f, #16130f);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-4px, 1.4px);
+  d: path("M8 3.4a2.4 2.4 0 1 1 4.8 0a2.4 2.4 0 1 1-4.8 0");
+}

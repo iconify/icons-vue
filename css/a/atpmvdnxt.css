@@ -1,0 +1,8 @@
+.atpmvdnxt {
+  fill: none;
+  stroke: var(--svg-color--16130f, #16130f);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2-2px, 2.2px);
+  d: path("M5.75 18.75v3m-3-3.5L1.5 20.5m7.25-2.25L10 20.5m6.25-.75v2.5m-2.75-3l-1 2m6.5-2l1 2");
+}

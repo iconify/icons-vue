@@ -1,0 +1,7 @@
+.evedbgrrd {
+  fill: var(--svg-color--45d99a, #45d99a);
+  fill-opacity: var(--svg-fill-opacity--0-55, 0.55);
+  fill-rule: evenodd;
+  d: path("M10.75 12h-5l-.09 1.06l.04 1.19l.18 1.09l.37 1.16l1.41-1.05l1.15-1.03l1.08-1.21zm7.59 1.06L18.25 12h-5l.86 1.21l1.08 1.21l1.15 1.03l1.41 1.05l.37-1.16l.18-1.09z");
+  stroke: none;
+}

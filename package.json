@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/vscode-icons",
   "type": "module",
-  "version": "1.0.68",
+  "version": "1.0.69",
   "homepage": "https://icon-sets.iconify.design/vscode-icons/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -113,6 +113,10 @@
     "./file-type-allure": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-allure.vue"
+    },
+    "./file-type-android": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-type-android.vue"
     },
     "./file-type-angular": {
       "types": "./types/dd0bq22g.d.ts",
@@ -1338,6 +1342,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-geojson.vue"
     },
+    "./file-type-ghidra": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-type-ghidra.vue"
+    },
     "./file-type-gimp": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-gimp.vue"
@@ -2397,6 +2405,10 @@
     "./file-type-light-razzle": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-light-razzle.vue"
+    },
+    "./file-type-light-reactjs": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-type-light-reactjs.vue"
     },
     "./file-type-light-reactrouter": {
       "types": "./types/dd0bq22g.d.ts",
@@ -3906,6 +3918,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-reactjs.vue"
     },
+    "./file-type-reactjs-official": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-type-reactjs-official.vue"
+    },
     "./file-type-reactrouter": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-reactrouter.vue"
@@ -3917,6 +3933,10 @@
     "./file-type-reactts": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-reactts.vue"
+    },
+    "./file-type-reactts-official": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-type-reactts-official.vue"
     },
     "./file-type-readme": {
       "types": "./types/dd0bq22g.d.ts",

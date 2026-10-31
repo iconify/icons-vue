@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":32,"height":32};
+const content = `<path class="qi1e3f9bk"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="vscode-icons:file-type-android" /></template>
+<style>
+.qi1e3f9bk {
+  fill: var(--svg-color--aac148, #aac148);
+  d: path("M23.1 11.26H8.9a.57.57 0 0 0-.57.57v11.9a.57.57 0 0 0 .58.57h2.53v4.01A1.7 1.7 0 0 0 13.12 30a1.7 1.7 0 0 0 1.69-1.69v-4h2.35v4A1.7 1.7 0 0 0 18.85 30a1.7 1.7 0 0 0 1.68-1.69v-4h2.57a.57.57 0 0 0 .57-.58v-11.9a.57.57 0 0 0-.57-.57m-17.17 0a1.7 1.7 0 0 0-1.69 1.68v6.85a1.7 1.7 0 0 0 1.69 1.68A1.7 1.7 0 0 0 7.6 19.8v-6.85a1.7 1.7 0 0 0-1.68-1.68m20.15-.01a1.7 1.7 0 0 0-1.68 1.68v6.85a1.7 1.7 0 0 0 1.68 1.68a1.7 1.7 0 0 0 1.69-1.68v-6.85a1.7 1.7 0 0 0-1.69-1.68m-17.05-.83h13.93a.57.57 0 0 0 .56-.7a7.7 7.7 0 0 0-3.76-5.11l1.2-2.15a.3.3 0 0 0-.53-.29l-1.2 2.16a7.7 7.7 0 0 0-6.46 0l-1.2-2.16a.3.3 0 1 0-.53.3l1.2 2.14a7.7 7.7 0 0 0-3.76 5.11a.57.57 0 0 0 .55.7m11.12-3.2a.65.65 0 1 1-.64-.65a.65.65 0 0 1 .64.64zm-7.67-.65a.65.65 0 1 1-.65.64a.65.65 0 0 1 .65-.64");
+}
+
+</style>

@@ -1,19 +1,20 @@
 # @iconify-vue/gis
 
-Icon set prefix: **gis**
+**Font-GIS**
 
-Icon set name: **Font-GIS**
+Author: [Jean-Marc Viglino](https://github.com/viglino/font-gis)
 
-Author: **Jean-Marc Viglino**
+License: [CC BY 4.0](https://github.com/Viglino/font-gis/blob/main/LICENSE-CC-BY.md)
 
-License: **[CC BY 4.0](https://github.com/Viglino/font-gis/blob/main/LICENSE-CC-BY.md)**
-
-Repository: **https://github.com/viglino/font-gis**
-
-Browse all icons: **[Preview Font-GIS](https://icon-sets.iconify.design/gis/)**
+Browse all icons: [preview Font-GIS on Iconify](https://icon-sets.iconify.design/gis/)
 
 ## Installation
 
+```bash
+npm install gitlab:iconify-icons/vue#gis
+```
+
+or
 ```bash
 npm install github:iconify/icons-vue#gis
 ```

@@ -1,0 +1,42 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/f/ft5dv1b6b.css';
+import '../../css/k/k91a_1chv.css';
+import '../../css/a/afzttg-wd.css';
+import '../../css/b/bej6dqb7x.css';
+import '../../css/o/olzm1nbrf.css';
+import '../../css/p/p87400jkb.css';
+import '../../css/t/tb9i-5hiz.css';
+import '../../css/m/m33-oib3w.css';
+import '../../css/s/stui2mbih.css';
+import '../../css/v/vc--wpv5i.css';
+import '../../css/b/bmqf4y-5r.css';
+import '../../css/d/do6kp-our.css';
+import '../../css/c/crb5_jbze.css';
+import '../../css/g/gy026s7uu.css';
+import '../../css/b/b0-ge33aj.css';
+import '../../css/k/k7v-5wb4w.css';
+import '../../css/y/yr1rnuald.css';
+import '../../css/y/ym8_7242e.css';
+import '../../css/x/xx8fmdb1i.css';
+import '../../css/p/pvx55g58f.css';
+import '../../css/k/kfw2_wa2y.css';
+import '../../css/v/v8h8dxbld.css';
+import '../../css/r/r47lt_byd.css';
+import '../../css/j/ja4yiskbz.css';
+import '../../css/e/emu4w3bdn.css';
+import '../../css/x/xw7hmm-ww.css';
+import '../../css/j/jak_qzuur.css';
+import '../../css/a/a1unx4bpc.css';
+import '../../css/b/b1-q17b6l.css';
+import '../../css/t/tlq4fibya.css';
+import '../../css/s/sgoa_8bjy.css';
+import '../../css/p/pday07cdk.css';
+import '../../css/s/sfz6d04ew.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ft5dv1b6b"><defs><radialGradient id="SVGhYE4WcIm" cx="12.4" cy="21.05" r="10.75" gradientUnits="userSpaceOnUse"><stop offset="0" class="k91a_1chv"/><stop offset=".55" class="afzttg-wd"/><stop offset="1" class="bej6dqb7x"/></radialGradient><radialGradient id="SVGQB0NdcvY" cx="13.61" cy="9.15" r="9.23" gradientUnits="userSpaceOnUse"><stop offset=".45" class="olzm1nbrf"/><stop offset="1" class="p87400jkb"/></radialGradient><radialGradient id="SVG1lbWttJO" cx="13.42" cy="8.86" r="5.26" gradientUnits="userSpaceOnUse"><stop offset="0" class="tb9i-5hiz"/><stop offset=".5" class="m33-oib3w"/><stop offset="1" class="stui2mbih"/></radialGradient><radialGradient id="SVGMSkITckV" cx="6" cy="4.5" r="19" gradientUnits="userSpaceOnUse"><stop offset="0" class="vc--wpv5i"/><stop offset=".55" class="bmqf4y-5r"/><stop offset="1" class="do6kp-our"/></radialGradient><radialGradient id="SVGqnE8D16s" cx="8.48" cy="6.5" r="20.56" gradientUnits="userSpaceOnUse"><stop offset="0" class="crb5_jbze"/><stop offset=".5" class="gy026s7uu"/><stop offset="1" class="b0-ge33aj"/></radialGradient><radialGradient id="SVGNeR63bHG" cx="7.78" cy="5.8" r="12.67" gradientUnits="userSpaceOnUse"><stop offset="0" class="tb9i-5hiz"/><stop offset=".5" class="m33-oib3w"/><stop offset="1" class="stui2mbih"/></radialGradient><linearGradient id="SVGxXWLjdfD" x1="0" x2="0" y1="-7.91" y2="83" gradientUnits="userSpaceOnUse"><stop offset="0" class="olzm1nbrf"/><stop offset="1" class="b0-ge33aj"/></linearGradient><linearGradient id="SVGXTo3ybfg" x1="5" x2="19" y1="4" y2="21" gradientUnits="userSpaceOnUse"><stop offset="0" class="k7v-5wb4w"/><stop offset=".5" class="bej6dqb7x"/><stop offset="1" class="yr1rnuald"/></linearGradient><linearGradient id="SVG8ofOEezM" x1="0" x2="0" y1="-18.33" y2="48.33" gradientUnits="userSpaceOnUse"><stop offset="0" class="gy026s7uu"/><stop offset="1" class="b0-ge33aj"/></linearGradient></defs><path fill="url(#SVGhYE4WcIm)" class="wm-shadow ym8_7242e"/><path class="wm-shadow xx8fmdb1i"/><path fill="url(#SVGxXWLjdfD)" class="pvx55g58f wm-a"/><path fill="url(#SVGQB0NdcvY)" stroke="url(#SVGXTo3ybfg)" class="kfw2_wa2y wm-a"/><path class="v8h8dxbld wm-a"/><path class="r47lt_byd wm-a"/><path fill="url(#SVG1lbWttJO)" class="ja4yiskbz wm-shine"/><path fill="url(#SVGMSkITckV)" class="emu4w3bdn wm-shine"/><path class="wm-shine xw7hmm-ww"/><path fill="url(#SVG8ofOEezM)" class="jak_qzuur wm-k"/><path fill="url(#SVGqnE8D16s)" stroke="url(#SVGXTo3ybfg)" class="a1unx4bpc wm-k"/><path class="b1-q17b6l wm-k"/><path class="tlq4fibya wm-k"/><path fill="url(#SVGNeR63bHG)" class="sgoa_8bjy wm-shine"/><path fill="url(#SVGMSkITckV)" class="pday07cdk wm-shine"/><path class="sfz6d04ew wm-shine"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="withicons-clay:panel-left-open" /></template>

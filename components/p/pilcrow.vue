@@ -1,0 +1,42 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/f/ft5dv1b6b.css';
+import '../../css/k/k91a_1chv.css';
+import '../../css/a/afzttg-wd.css';
+import '../../css/b/bej6dqb7x.css';
+import '../../css/o/olzm1nbrf.css';
+import '../../css/p/p87400jkb.css';
+import '../../css/t/tb9i-5hiz.css';
+import '../../css/m/m33-oib3w.css';
+import '../../css/s/stui2mbih.css';
+import '../../css/v/vc--wpv5i.css';
+import '../../css/b/bmqf4y-5r.css';
+import '../../css/d/do6kp-our.css';
+import '../../css/c/crb5_jbze.css';
+import '../../css/g/gy026s7uu.css';
+import '../../css/b/b0-ge33aj.css';
+import '../../css/k/k7v-5wb4w.css';
+import '../../css/y/yr1rnuald.css';
+import '../../css/q/qwb1ptbmo.css';
+import '../../css/a/a2kfqublh.css';
+import '../../css/n/nrnqy3r_h.css';
+import '../../css/g/gb82_hbkk.css';
+import '../../css/m/md8cfjbut.css';
+import '../../css/y/yi51vpblf.css';
+import '../../css/n/nqzuyib9h.css';
+import '../../css/d/d29z7yqcx.css';
+import '../../css/m/mqar0-jyl.css';
+import '../../css/i/i3f8x_bhs.css';
+import '../../css/p/pqjxqnhsw.css';
+import '../../css/x/x1ck-fvsp.css';
+import '../../css/j/jvucvqb7z.css';
+import '../../css/m/mx_97ibwm.css';
+import '../../css/s/snsrmbhbk.css';
+import '../../css/k/k8ntwet0p.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ft5dv1b6b"><defs><radialGradient id="SVG0Jc4zcWU" cx="15.45" cy="20.65" r="4.14" gradientUnits="userSpaceOnUse"><stop offset="0" class="k91a_1chv"/><stop offset=".55" class="afzttg-wd"/><stop offset="1" class="bej6dqb7x"/></radialGradient><radialGradient id="SVGO9fu9cCK" cx="13.97" cy="6.76" r="19.35" gradientUnits="userSpaceOnUse"><stop offset=".45" class="olzm1nbrf"/><stop offset="1" class="p87400jkb"/></radialGradient><radialGradient id="SVGmWHlsdiB" cx="13.73" cy="6.1" r="11.88" gradientUnits="userSpaceOnUse"><stop offset="0" class="tb9i-5hiz"/><stop offset=".5" class="m33-oib3w"/><stop offset="1" class="stui2mbih"/></radialGradient><radialGradient id="SVGMSkITckV" cx="6" cy="4.5" r="19" gradientUnits="userSpaceOnUse"><stop offset="0" class="vc--wpv5i"/><stop offset=".55" class="bmqf4y-5r"/><stop offset="1" class="do6kp-our"/></radialGradient><radialGradient id="SVGhtAX2VOz" cx="8.48" cy="6.71" r="19.57" gradientUnits="userSpaceOnUse"><stop offset="0" class="crb5_jbze"/><stop offset=".5" class="gy026s7uu"/><stop offset="1" class="b0-ge33aj"/></radialGradient><radialGradient id="SVGL06oaeBY" cx="8.14" cy="6.04" r="12.02" gradientUnits="userSpaceOnUse"><stop offset="0" class="tb9i-5hiz"/><stop offset=".5" class="m33-oib3w"/><stop offset="1" class="stui2mbih"/></radialGradient><linearGradient id="SVGxXWLjdfD" x1="0" x2="0" y1="-7.91" y2="83" gradientUnits="userSpaceOnUse"><stop offset="0" class="olzm1nbrf"/><stop offset="1" class="b0-ge33aj"/></linearGradient><linearGradient id="SVGXTo3ybfg" x1="5" x2="19" y1="4" y2="21" gradientUnits="userSpaceOnUse"><stop offset="0" class="k7v-5wb4w"/><stop offset=".5" class="bej6dqb7x"/><stop offset="1" class="yr1rnuald"/></linearGradient><linearGradient id="SVG8ofOEezM" x1="0" x2="0" y1="-18.33" y2="48.33" gradientUnits="userSpaceOnUse"><stop offset="0" class="gy026s7uu"/><stop offset="1" class="b0-ge33aj"/></linearGradient></defs><path fill="url(#SVG0Jc4zcWU)" class="qwb1ptbmo wm-shadow"/><path class="a2kfqublh wm-shadow"/><path fill="url(#SVGxXWLjdfD)" class="nrnqy3r_h wm-a"/><path fill="url(#SVGO9fu9cCK)" stroke="url(#SVGXTo3ybfg)" class="gb82_hbkk wm-a"/><path class="md8cfjbut wm-a"/><path class="wm-a yi51vpblf"/><path fill="url(#SVGmWHlsdiB)" class="nqzuyib9h wm-shine"/><path fill="url(#SVGMSkITckV)" class="d29z7yqcx wm-shine"/><path class="mqar0-jyl wm-shine"/><path fill="url(#SVG8ofOEezM)" class="i3f8x_bhs wm-k"/><path fill="url(#SVGhtAX2VOz)" stroke="url(#SVGXTo3ybfg)" class="pqjxqnhsw wm-k"/><path class="wm-k x1ck-fvsp"/><path class="jvucvqb7z wm-k"/><path fill="url(#SVGL06oaeBY)" class="mx_97ibwm wm-shine"/><path fill="url(#SVGMSkITckV)" class="snsrmbhbk wm-shine"/><path class="k8ntwet0p wm-shine"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="withicons-clay:pilcrow" /></template>

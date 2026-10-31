@@ -11,6 +11,11 @@ Browse all icons: [preview Kameleon color icons on Iconify](https://icon-sets.ic
 ## Installation
 
 ```bash
+npm install gitlab:iconify-icons/vue#streamline-kameleon-color
+```
+
+or
+```bash
 npm install github:iconify/icons-vue#streamline-kameleon-color
 ```
 

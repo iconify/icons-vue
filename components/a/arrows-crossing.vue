@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/x/x1bk5vb5y.css';
+import '../../css/u/uabh9ub8o.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="x1bk5vb5y"/>`;
+const content = `<path class="uabh9ub8o"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="sidekickicons:arrows-crossing" /></template>

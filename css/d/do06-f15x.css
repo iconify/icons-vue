@@ -1,0 +1,8 @@
+.do06-f15x {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M7 6.75h10a4 4 0 0 1 4 4v2.5a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4v-2.5a4 4 0 0 1 4-4M6 12h4.5M8.25 9.75v4.5m7-4.5a.5.5 0 1 0 1 0a.5.5 0 1 0-1 0m.5 0h.008v.008h-.008ZM13 12a.5.5 0 1 0 1 0a.5.5 0 1 0-1 0m.5 0h.008v.008H13.5Zm4 0a.5.5 0 1 0 1 0a.5.5 0 1 0-1 0m.5 0h.008v.008H18Zm-2.75 2.25a.5.5 0 1 0 1 0a.5.5 0 1 0-1 0m.5 0h.008v.008h-.008Z");
+}

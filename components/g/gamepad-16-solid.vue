@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/q/qyscnr3nm.css';
+import '../../css/k/kebqv84he.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":16,"height":16};
-const content = `<path class="qyscnr3nm"/>`;
+const content = `<path clip-rule="evenodd" class="kebqv84he"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="sidekickicons:gamepad-16-solid" /></template>

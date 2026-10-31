@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/j/j-69wm_oc.css';
+import '../../css/f/fuuyvdbpl.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="j-69wm_oc"/>`;
+const content = `<path clip-rule="evenodd" class="fuuyvdbpl"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="sidekickicons:pin-slash-solid" /></template>

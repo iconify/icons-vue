@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/x/xpr-blbgt.css';
+import '../../css/d/d473cldbo.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":16,"height":16};
-const content = `<path class="xpr-blbgt"/>`;
+const content = `<path clip-rule="evenodd" class="d473cldbo"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="sidekickicons:heading-16-solid" /></template>

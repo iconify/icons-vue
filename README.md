@@ -1,6 +1,6 @@
 # Icon components for Vue
 
-This repository contains icon components for Vue for all 239 icon sets available on [Iconify](https://icon-sets.iconify.design/).
+This repository contains icon components for Vue for all 259 icon sets available on [Iconify](https://icon-sets.iconify.design/).
 
 Each icon set is published in a separate branch of this repository, see list of branches below.
 
@@ -77,7 +77,7 @@ Additionally you can find usage examples in README.md files in each branch of th
 
 ## Icon sets
 
-There are 239 branches in this repository, one for each icon set.
+There are 259 branches in this repository, one for each icon set.
 
 ### Material
 
@@ -93,30 +93,30 @@ There are 239 branches in this repository, one for each icon set.
 - [#solar](https://github.com/iconify/icons-vue/tree/solar): **Solar** (8706 icons, CC BY 4.0)
 - [#tabler](https://github.com/iconify/icons-vue/tree/tabler): **Tabler Icons** (6257 icons, MIT)
 - [#iconoven](https://github.com/iconify/icons-vue/tree/iconoven): **IconOven** (18236 icons, MIT)
+- [#coolicons](https://github.com/iconify/icons-vue/tree/coolicons): **coolicons** (6100 icons, MIT)
 - [#boxicons](https://github.com/iconify/icons-vue/tree/boxicons): **Boxicons** (3768 icons, MIT)
 - [#mingcute](https://github.com/iconify/icons-vue/tree/mingcute): **MingCute Icon** (3320 icons, Apache 2.0)
-- [#keyline-icons](https://github.com/iconify/icons-vue/tree/keyline-icons): **Keyline Icons** (12984 icons, MIT)
+- [#keyline-icons](https://github.com/iconify/icons-vue/tree/keyline-icons): **Keyline Icons** (13232 icons, MIT)
 - [#ri](https://github.com/iconify/icons-vue/tree/ri): **Remix Icon** (3188 icons, Apache 2.0)
 - [#mynaui](https://github.com/iconify/icons-vue/tree/mynaui): **Myna UI Icons** (2620 icons, MIT)
 - [#andrsrxn](https://github.com/iconify/icons-vue/tree/andrsrxn): **andrsrxn/icons** (2773 icons, MIT)
 - [#griddy-icons](https://github.com/iconify/icons-vue/tree/griddy-icons): **Griddy Icons** (2010 icons, MIT)
 - [#iconamoon](https://github.com/iconify/icons-vue/tree/iconamoon): **IconaMoon** (1781 icons, CC BY 4.0)
 - [#iconoir](https://github.com/iconify/icons-vue/tree/iconoir): **Iconoir** (1671 icons, MIT)
-- [#lucide](https://github.com/iconify/icons-vue/tree/lucide): **Lucide** (1999 icons, ISC)
-- [#lucide-extended](https://github.com/iconify/icons-vue/tree/lucide-extended): **Lucide Extended** (2719 icons, ISC)
+- [#lucide](https://github.com/iconify/icons-vue/tree/lucide): **Lucide** (2015 icons, ISC)
+- [#lucide-extended](https://github.com/iconify/icons-vue/tree/lucide-extended): **Lucide Extended** (2879 icons, ISC)
 - [#lucide-lab](https://github.com/iconify/icons-vue/tree/lucide-lab): **Lucide Lab** (373 icons, ISC)
 - [#uil](https://github.com/iconify/icons-vue/tree/uil): **Unicons** (1215 icons, Apache 2.0)
-- [#tdesign](https://github.com/iconify/icons-vue/tree/tdesign): **TDesign Icons** (2356 icons, MIT)
+- [#tdesign](https://github.com/iconify/icons-vue/tree/tdesign): **TDesign Icons** (2358 icons, MIT)
 - [#si](https://github.com/iconify/icons-vue/tree/si): **Sargam Icons** (1299 icons, MIT)
 - [#majesticons](https://github.com/iconify/icons-vue/tree/majesticons): **Majesticons** (760 icons, MIT)
 - [#gg](https://github.com/iconify/icons-vue/tree/gg): **css.gg** (704 icons, MIT)
 - [#flowbite](https://github.com/iconify/icons-vue/tree/flowbite): **Flowbite Icons** (751 icons, MIT)
-- [#vadivam](https://github.com/iconify/icons-vue/tree/vadivam): **Vadivam** (1903 icons, MIT)
+- [#vadivam](https://github.com/iconify/icons-vue/tree/vadivam): **Vadivam** (1999 icons, MIT)
 - [#basil](https://github.com/iconify/icons-vue/tree/basil): **Basil** (493 icons, CC BY 4.0)
 - [#pixelarticons](https://github.com/iconify/icons-vue/tree/pixelarticons): **Pixelarticons** (1036 icons, MIT)
 - [#pixel](https://github.com/iconify/icons-vue/tree/pixel): **Pixel Icon** (578 icons, CC BY 4.0)
 - [#akar-icons](https://github.com/iconify/icons-vue/tree/akar-icons): **Akar Icons** (454 icons, MIT)
-- [#ci](https://github.com/iconify/icons-vue/tree/ci): **coolicons** (442 icons, CC BY 4.0)
 - [#proicons](https://github.com/iconify/icons-vue/tree/proicons): **ProIcons** (544 icons, MIT)
 - [#typcn](https://github.com/iconify/icons-vue/tree/typcn): **Typicons** (336 icons, CC BY-SA 4.0)
 - [#meteor-icons](https://github.com/iconify/icons-vue/tree/meteor-icons): **Meteor Icons** (409 icons, MIT)
@@ -137,7 +137,7 @@ There are 239 branches in this repository, one for each icon set.
 - [#duo-icons](https://github.com/iconify/icons-vue/tree/duo-icons): **Duoicons** (91 icons, MIT)
 - [#svg-spinners](https://github.com/iconify/icons-vue/tree/svg-spinners): **SVG Spinners** (46 icons, MIT)
 - [#iconmind](https://github.com/iconify/icons-vue/tree/iconmind): **IconMind** (31722 icons, MIT)
-- [#withicons](https://github.com/iconify/icons-vue/tree/withicons): **with icons** (6000 icons, MIT)
+- [#withicons](https://github.com/iconify/icons-vue/tree/withicons): **with icons** (7000 icons, MIT)
 - [#reicon](https://github.com/iconify/icons-vue/tree/reicon): **Reicon** (6590 icons, MIT)
 - [#hugeicons](https://github.com/iconify/icons-vue/tree/hugeicons): **Huge Icons** (6065 icons, MIT)
 - [#lets-icons](https://github.com/iconify/icons-vue/tree/lets-icons): **Lets Icons** (1528 icons, CC BY 4.0)
@@ -148,6 +148,7 @@ There are 239 branches in this repository, one for each icon set.
 - [#stash](https://github.com/iconify/icons-vue/tree/stash): **Stash Icons** (982 icons, MIT)
 - [#lineicons](https://github.com/iconify/icons-vue/tree/lineicons): **Lineicons** (606 icons, MIT)
 - [#wordpress](https://github.com/iconify/icons-vue/tree/wordpress): **WordPress Icons** (344 icons, GPL)
+- [#struq](https://github.com/iconify/icons-vue/tree/struq): **Struq Icons** (300 icons, MIT)
 - [#matita](https://github.com/iconify/icons-vue/tree/matita): **Matita** (260 icons, MIT)
 - [#icon-park-outline](https://github.com/iconify/icons-vue/tree/icon-park-outline): **IconPark Outline** (2658 icons, Apache 2.0)
 - [#icon-park-solid](https://github.com/iconify/icons-vue/tree/icon-park-solid): **IconPark Solid** (1947 icons, Apache 2.0)
@@ -181,7 +182,7 @@ There are 239 branches in this repository, one for each icon set.
 
 ### UI Other / Mixed Grid
 
-- [#fluent](https://github.com/iconify/icons-vue/tree/fluent): **Fluent UI System Icons** (19900 icons, MIT)
+- [#fluent](https://github.com/iconify/icons-vue/tree/fluent): **Fluent UI System Icons** (19945 icons, MIT)
 - [#ph](https://github.com/iconify/icons-vue/tree/ph): **Phosphor** (9072 icons, MIT)
 - [#energy-icons](https://github.com/iconify/icons-vue/tree/energy-icons): **Energy Icons** (8252 icons, MIT)
 - [#glyphs](https://github.com/iconify/icons-vue/tree/glyphs): **Glyphs** (3452 icons, MIT)
@@ -199,7 +200,7 @@ There are 239 branches in this repository, one for each icon set.
 - [#codex](https://github.com/iconify/icons-vue/tree/codex): **CodeX Icons** (156 icons, MIT)
 - [#ei](https://github.com/iconify/icons-vue/tree/ei): **Evil Icons** (70 icons, MIT)
 - [#heroicons](https://github.com/iconify/icons-vue/tree/heroicons): **HeroIcons** (1288 icons, MIT)
-- [#sidekickicons](https://github.com/iconify/icons-vue/tree/sidekickicons): **SidekickIcons** (232 icons, MIT)
+- [#sidekickicons](https://github.com/iconify/icons-vue/tree/sidekickicons): **SidekickIcons** (312 icons, MIT)
 - [#garden](https://github.com/iconify/icons-vue/tree/garden): **Garden SVG Icons** (1491 icons, Apache 2.0)
 - [#pepicons-pop](https://github.com/iconify/icons-vue/tree/pepicons-pop): **Pepicons Pop!** (1275 icons, CC BY 4.0)
 - [#pepicons-print](https://github.com/iconify/icons-vue/tree/pepicons-print): **Pepicons Print** (1275 icons, CC BY 4.0)
@@ -222,18 +223,26 @@ There are 239 branches in this repository, one for each icon set.
 - [#streamline-ultimate-color](https://github.com/iconify/icons-vue/tree/streamline-ultimate-color): **Ultimate color icons** (998 icons, CC BY 4.0)
 - [#streamline-plump-color](https://github.com/iconify/icons-vue/tree/streamline-plump-color): **Plump color icons** (1000 icons, CC BY 4.0)
 - [#streamline-freehand-color](https://github.com/iconify/icons-vue/tree/streamline-freehand-color): **Freehand color icons** (1000 icons, CC BY 4.0)
-- [#streamline-kameleon-color](https://github.com/iconify/icons-vue/tree/streamline-kameleon-color): **Kameleon color icons** (400 icons, CC BY 4.0)
+- [#streamline-kameleon-color](https://github.com/iconify/icons-vue/tree/streamline-kameleon-color): **Kameleon color icons** (600 icons, CC BY 4.0)
 - [#streamline-stickies-color](https://github.com/iconify/icons-vue/tree/streamline-stickies-color): **Stickies color icons** (200 icons, CC BY 4.0)
 - [#withicons-suite](https://github.com/iconify/icons-vue/tree/withicons-suite): **with icons Suite** (1000 icons, MIT)
 - [#withicons-skeuo](https://github.com/iconify/icons-vue/tree/withicons-skeuo): **with icons Skeuo** (1000 icons, MIT)
 - [#withicons-sticker](https://github.com/iconify/icons-vue/tree/withicons-sticker): **with icons Sticker** (1000 icons, MIT)
 - [#withicons-pastel](https://github.com/iconify/icons-vue/tree/withicons-pastel): **with icons Pastel** (1000 icons, MIT)
 - [#withicons-plush](https://github.com/iconify/icons-vue/tree/withicons-plush): **with icons Plush** (1000 icons, MIT)
+- [#withicons-coquette](https://github.com/iconify/icons-vue/tree/withicons-coquette): **with icons Coquette** (1000 icons, MIT)
 - [#withicons-anime](https://github.com/iconify/icons-vue/tree/withicons-anime): **with icons Anime** (1000 icons, MIT)
 - [#withicons-gothic](https://github.com/iconify/icons-vue/tree/withicons-gothic): **with icons Gothic** (1000 icons, MIT)
 - [#withicons-bauhaus](https://github.com/iconify/icons-vue/tree/withicons-bauhaus): **with icons Bauhaus** (1000 icons, MIT)
-- [#withicons-halloween](https://github.com/iconify/icons-vue/tree/withicons-halloween): **with icons Halloween** (1000 icons, MIT)
-- [#withicons-christmas](https://github.com/iconify/icons-vue/tree/withicons-christmas): **with icons Christmas** (1000 icons, MIT)
+- [#withicons-glass](https://github.com/iconify/icons-vue/tree/withicons-glass): **with icons Glass** (1000 icons, MIT)
+- [#withicons-kawaii](https://github.com/iconify/icons-vue/tree/withicons-kawaii): **with icons Kawaii** (1000 icons, MIT)
+- [#withicons-luxe](https://github.com/iconify/icons-vue/tree/withicons-luxe): **with icons Luxe** (1000 icons, MIT)
+- [#withicons-retro](https://github.com/iconify/icons-vue/tree/withicons-retro): **with icons Retro** (1000 icons, MIT)
+- [#withicons-bento](https://github.com/iconify/icons-vue/tree/withicons-bento): **with icons Bento** (1000 icons, MIT)
+- [#withicons-brutal](https://github.com/iconify/icons-vue/tree/withicons-brutal): **with icons Brutal** (1000 icons, MIT)
+- [#withicons-chrome](https://github.com/iconify/icons-vue/tree/withicons-chrome): **with icons Chrome** (1000 icons, MIT)
+- [#withicons-clay](https://github.com/iconify/icons-vue/tree/withicons-clay): **with icons Clay** (1000 icons, MIT)
+- [#withicons-liquid](https://github.com/iconify/icons-vue/tree/withicons-liquid): **with icons Liquid** (1000 icons, MIT)
 - [#fluent-color](https://github.com/iconify/icons-vue/tree/fluent-color): **Fluent UI System Color Icons** (890 icons, MIT)
 - [#streamline-color](https://github.com/iconify/icons-vue/tree/streamline-color): **Streamline color** (2000 icons, CC BY 4.0)
 - [#streamline-flex-color](https://github.com/iconify/icons-vue/tree/streamline-flex-color): **Flex color icons** (1000 icons, CC BY 4.0)
@@ -244,12 +253,12 @@ There are 239 branches in this repository, one for each icon set.
 
 ### Programming
 
-- [#vscode-icons](https://github.com/iconify/icons-vue/tree/vscode-icons): **VSCode Icons** (1712 icons, MIT)
-- [#codicon](https://github.com/iconify/icons-vue/tree/codicon): **Codicons** (656 icons, CC BY 4.0)
-- [#material-icon-theme](https://github.com/iconify/icons-vue/tree/material-icon-theme): **Material Icon Theme** (908 icons, MIT)
+- [#vscode-icons](https://github.com/iconify/icons-vue/tree/vscode-icons): **VSCode Icons** (1717 icons, MIT)
+- [#codicon](https://github.com/iconify/icons-vue/tree/codicon): **Codicons** (657 icons, CC BY 4.0)
+- [#material-icon-theme](https://github.com/iconify/icons-vue/tree/material-icon-theme): **Material Icon Theme** (909 icons, MIT)
 - [#file-icons](https://github.com/iconify/icons-vue/tree/file-icons): **File Icons** (930 icons, ISC)
 - [#devicon](https://github.com/iconify/icons-vue/tree/devicon): **Devicon** (1079 icons, MIT)
-- [#devicon-plain](https://github.com/iconify/icons-vue/tree/devicon-plain): **Devicon Plain** (784 icons, MIT)
+- [#devicon-plain](https://github.com/iconify/icons-vue/tree/devicon-plain): **Devicon Plain** (786 icons, MIT)
 - [#catppuccin](https://github.com/iconify/icons-vue/tree/catppuccin): **Catppuccin Icons** (656 icons, MIT)
 - [#skill-icons](https://github.com/iconify/icons-vue/tree/skill-icons): **Skill Icons** (400 icons, MIT)
 - [#gcp](https://github.com/iconify/icons-vue/tree/gcp): **Google Cloud Icons** (214 icons, Apache 2.0)
@@ -265,11 +274,10 @@ There are 239 branches in this repository, one for each icon set.
 - [#fa7-brands](https://github.com/iconify/icons-vue/tree/fa7-brands): **Font Awesome Brands** (608 icons, CC BY 4.0)
 - [#bxl](https://github.com/iconify/icons-vue/tree/bxl): **Boxicons Brands** (295 icons, MIT)
 - [#nonicons](https://github.com/iconify/icons-vue/tree/nonicons): **Nonicons** (69 icons, MIT)
-- [#arcticons](https://github.com/iconify/icons-vue/tree/arcticons): **Arcticons** (15322 icons, CC BY-SA 4.0)
 - [#thesvg](https://github.com/iconify/icons-vue/tree/thesvg): **theSVG** (3798 icons, MIT)
 - [#thesvg-color](https://github.com/iconify/icons-vue/tree/thesvg-color): **theSVG Color** (5166 icons, MIT)
 - [#selfhst](https://github.com/iconify/icons-vue/tree/selfhst): **selfh.st/icons** (7292 icons, CC BY 4.0)
-- [#cbi](https://github.com/iconify/icons-vue/tree/cbi): **Custom Brand Icons** (1785 icons, CC BY-NC-SA 4.0)
+- [#cbi](https://github.com/iconify/icons-vue/tree/cbi): **Custom Brand Icons** (1790 icons, CC BY-NC-SA 4.0)
 - [#brandico](https://github.com/iconify/icons-vue/tree/brandico): **Brandico** (45 icons, CC BY SA)
 - [#entypo-social](https://github.com/iconify/icons-vue/tree/entypo-social): **Entypo+ Social** (76 icons, CC BY-SA 4.0)
 - [#token](https://github.com/iconify/icons-vue/tree/token): **Web3 Icons** (1788 icons, MIT)
@@ -291,13 +299,9 @@ There are 239 branches in this repository, one for each icon set.
 - [#fxemoji](https://github.com/iconify/icons-vue/tree/fxemoji): **Firefox OS Emoji** (1034 icons, Apache 2.0)
 - [#streamline-emojis](https://github.com/iconify/icons-vue/tree/streamline-emojis): **Streamline Emojis** (787 icons, CC BY 4.0)
 
-### Flags / Maps
+### Location
 
-- [#circle-flags](https://github.com/iconify/icons-vue/tree/circle-flags): **Circle Flags** (444 icons, MIT)
-- [#flag](https://github.com/iconify/icons-vue/tree/flag): **Flag Icons** (542 icons, MIT)
-- [#flagpack](https://github.com/iconify/icons-vue/tree/flagpack): **Flagpack** (254 icons, MIT)
-- [#cif](https://github.com/iconify/icons-vue/tree/cif): **CoreUI Flags** (199 icons, CC0 1.0)
-- [#pinhead](https://github.com/iconify/icons-vue/tree/pinhead): **Pinhead Map Icons** (2747 icons, CC0)
+- [#pinhead](https://github.com/iconify/icons-vue/tree/pinhead): **Pinhead Map Icons** (2809 icons, CC0)
 - [#roentgen](https://github.com/iconify/icons-vue/tree/roentgen): **Röntgen** (574 icons, CC BY 4.0)
 - [#maki](https://github.com/iconify/icons-vue/tree/maki): **Maki** (215 icons, CC0)
 - [#temaki](https://github.com/iconify/icons-vue/tree/temaki): **Temaki** (557 icons, CC0)
@@ -306,17 +310,48 @@ There are 239 branches in this repository, one for each icon set.
 - [#geo](https://github.com/iconify/icons-vue/tree/geo): **GeoGlyphs** (30 icons, MIT)
 - [#osmic](https://github.com/iconify/icons-vue/tree/osmic): **OSM Icons** (169 icons, CC0 1.0)
 
+### Flags
+
+- [#circle-flags](https://github.com/iconify/icons-vue/tree/circle-flags): **Circle Flags** (444 icons, MIT)
+- [#flag](https://github.com/iconify/icons-vue/tree/flag): **Flag Icons** (542 icons, MIT)
+- [#tabler-flags](https://github.com/iconify/icons-vue/tree/tabler-flags): **Tabler Flags** (297 icons, MIT)
+- [#flagpack](https://github.com/iconify/icons-vue/tree/flagpack): **Flagpack** (254 icons, MIT)
+- [#cif](https://github.com/iconify/icons-vue/tree/cif): **CoreUI Flags** (199 icons, CC0 1.0)
+
+### Holiday / Seasonal
+
+- [#withicons-halloween](https://github.com/iconify/icons-vue/tree/withicons-halloween): **with icons Halloween** (1000 icons, MIT)
+- [#withicons-christmas](https://github.com/iconify/icons-vue/tree/withicons-christmas): **with icons Christmas** (1000 icons, MIT)
+- [#withicons-lunar](https://github.com/iconify/icons-vue/tree/withicons-lunar): **with icons Cunar** (1000 icons, MIT)
+- [#withicons-rangoli](https://github.com/iconify/icons-vue/tree/withicons-rangoli): **with icons Rangoli** (1000 icons, MIT)
+- [#withicons-utsav](https://github.com/iconify/icons-vue/tree/withicons-utsav): **with icons Utsav** (1000 icons, MIT)
+- [#withicons-valentine](https://github.com/iconify/icons-vue/tree/withicons-valentine): **with icons Valentine** (1000 icons, MIT)
+
+### Apps
+
+- [#withicons-dock](https://github.com/iconify/icons-vue/tree/withicons-dock): **with icons Dock** (1000 icons, MIT)
+
 ### Thematic
 
 - [#game-icons](https://github.com/iconify/icons-vue/tree/game-icons): **Game Icons** (4133 icons, CC BY 3.0)
 - [#fad](https://github.com/iconify/icons-vue/tree/fad): **FontAudio** (155 icons, CC BY 4.0)
 - [#academicons](https://github.com/iconify/icons-vue/tree/academicons): **Academicons** (158 icons, Open Font License)
 - [#wi](https://github.com/iconify/icons-vue/tree/wi): **Weather Icons** (219 icons, Open Font License)
-- [#meteocons](https://github.com/iconify/icons-vue/tree/meteocons): **Meteocons** (447 icons, MIT)
-- [#healthicons](https://github.com/iconify/icons-vue/tree/healthicons): **Health Icons** (2106 icons, MIT)
 - [#medical-icon](https://github.com/iconify/icons-vue/tree/medical-icon): **Medical Icons** (144 icons, MIT)
 - [#covid](https://github.com/iconify/icons-vue/tree/covid): **Covid Icons** (142 icons, CC BY 4.0)
 - [#ginetex](https://github.com/iconify/icons-vue/tree/ginetex): **Ginetex Care Symbols** (50 icons, MIT)
+
+### High Detail
+
+- [#arcticons](https://github.com/iconify/icons-vue/tree/arcticons): **Arcticons** (15322 icons, CC BY-SA 4.0)
+- [#healthicons](https://github.com/iconify/icons-vue/tree/healthicons): **Health Icons** (2128 icons, MIT)
+- [#streamline-memes](https://github.com/iconify/icons-vue/tree/streamline-memes): **Memes** (84 icons, CC BY 4.0)
+
+### High Detail Multicolor
+
+- [#withicons-soft3d](https://github.com/iconify/icons-vue/tree/withicons-soft3d): **with icons Soft 3D** (1000 icons, MIT)
+- [#meteocons](https://github.com/iconify/icons-vue/tree/meteocons): **Meteocons** (447 icons, MIT)
+- [#iconito](https://github.com/iconify/icons-vue/tree/iconito): **Iconito Food** (120 icons, MIT)
 
 ### Archive / Unmaintained
 
@@ -351,4 +386,4 @@ There are 239 branches in this repository, one for each icon set.
 - [#vaadin](https://github.com/iconify/icons-vue/tree/vaadin): **Vaadin Icons** (636 icons, Apache 2.0)
 - [#grommet-icons](https://github.com/iconify/icons-vue/tree/grommet-icons): **Grommet Icons** (636 icons, Apache 2.0)
 
-Total: 239 icon sets, 425014 icons.
+Total: 259 icon sets, 449418 icons.

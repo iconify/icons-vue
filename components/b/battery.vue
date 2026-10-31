@@ -1,0 +1,22 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/f/ft5dv1b6b.css';
+import '../../css/p/pgqql6bua.css';
+import '../../css/n/np49-gpai.css';
+import '../../css/q/qpkhh7b3c.css';
+import '../../css/d/d5we7ybdi.css';
+import '../../css/z/z8s6yzhaa.css';
+import '../../css/k/kcqxpvb5t.css';
+import '../../css/o/o0bf7eiof.css';
+import '../../css/h/h_jq5-a2z.css';
+import '../../css/c/cg7l1nrvt.css';
+import '../../css/v/v7firnucq.css';
+import '../../css/z/zgadxkb9a.css';
+import '../../css/f/ftgyrfbwg.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ft5dv1b6b"><defs><radialGradient id="SVGTG7lYdaO" cx="6.36" cy="8.7" r="19.98" gradientUnits="userSpaceOnUse"><stop offset="0" class="pgqql6bua"/><stop offset=".3" class="pgqql6bua"/><stop offset="1" class="np49-gpai"/></radialGradient><linearGradient id="SVGDCUexbkg" x1="4" x2="20" y1="3" y2="21" gradientUnits="userSpaceOnUse"><stop offset="0" class="qpkhh7b3c"/><stop offset="1" class="d5we7ybdi"/></linearGradient></defs><path class="wm-shadow z8s6yzhaa"/><path fill="url(#SVGDCUexbkg)" class="kcqxpvb5t wm-a"/><path fill="url(#SVGTG7lYdaO)" class="o0bf7eiof wm-k"/><path class="h_jq5-a2z wm-k"/><path class="cg7l1nrvt wm-k"/><path class="v7firnucq wm-shine"/><path class="wm-deco zgadxkb9a"/><path class="ftgyrfbwg wm-deco"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="withicons-rangoli:battery" /></template>

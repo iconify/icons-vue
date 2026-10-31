@@ -1,0 +1,6 @@
+.i9x17-bey {
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2-4px, 2.4px);
+  d: path("M4.5 11.5V10A3.5 3.5 0 0 1 8 6.5h11.5m0 6V14a3.5 3.5 0 0 1-3.5 3.5H4.5");
+}

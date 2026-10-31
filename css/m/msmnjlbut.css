@@ -1,0 +1,8 @@
+.msmnjlbut {
+  stroke: var(--svg-color--5a1240, #5a1240);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-opacity: 0.45;
+  stroke-width: var(--svg-stroke-width--1-7px, 1.7px);
+  d: path("M5.2 17.3L9 15.1m5 0l4.8 2.2m0 0l-2.8-9L14.3 7h-2.1");
+}

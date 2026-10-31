@@ -1,0 +1,20 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/f/ft5dv1b6b.css';
+import '../../css/p/pgqql6bua.css';
+import '../../css/n/np49-gpai.css';
+import '../../css/q/qpkhh7b3c.css';
+import '../../css/d/d5we7ybdi.css';
+import '../../css/t/t5tx58eyr.css';
+import '../../css/u/u9romjw7v.css';
+import '../../css/p/paqn19bqd.css';
+import '../../css/w/ws1s2fvji.css';
+import '../../css/z/ztqddqbrm.css';
+import '../../css/u/uxgpn_b-m.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ft5dv1b6b"><defs><radialGradient id="SVGE2ooydNm" cx="7.2" cy="14.15" r="21.33" gradientUnits="userSpaceOnUse"><stop offset="0" class="pgqql6bua"/><stop offset=".3" class="pgqql6bua"/><stop offset="1" class="np49-gpai"/></radialGradient><linearGradient id="SVGDCUexbkg" x1="4" x2="20" y1="3" y2="21" gradientUnits="userSpaceOnUse"><stop offset="0" class="qpkhh7b3c"/><stop offset="1" class="d5we7ybdi"/></linearGradient></defs><path class="t5tx58eyr wm-shadow"/><path fill="url(#SVGDCUexbkg)" class="u9romjw7v wm-a"/><path fill="url(#SVGE2ooydNm)" class="paqn19bqd wm-k"/><path class="wm-shine ws1s2fvji"/><path class="wm-deco ztqddqbrm"/><path class="uxgpn_b-m wm-deco"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="withicons-rangoli:router" /></template>

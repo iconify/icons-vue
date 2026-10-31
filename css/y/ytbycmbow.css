@@ -1,0 +1,7 @@
+.ytbycmbow {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M11 4v4c0 1.1-2.025 2-4.5 2S2 9.1 2 8V4m16.21-.894a2 2 0 1 1 3.579 1.79l-6.895 13.788A6 6 0 0 1 9.529 22H4.5a2.5 2.5 0 0 1 0-5h5.528a2 2 0 0 0 1.788-1.105z");
+}

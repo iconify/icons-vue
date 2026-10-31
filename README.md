@@ -49,7 +49,7 @@ To change icon color, use style:
 
 ```vue
 <script setup lang="ts">
-import SampleIcon from '@iconify-vue/healthicons/asthma-outline';
+import SampleIcon from '@iconify-vue/healthicons/emergency-post';
 </script>
 <template>
   <SampleIcon style="color: red;" />

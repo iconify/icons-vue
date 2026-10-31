@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/healthicons",
   "type": "module",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "homepage": "https://icon-sets.iconify.design/healthicons/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -2526,6 +2526,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/confused-negative.vue"
     },
+    "./constipation": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/constipation.vue"
+    },
+    "./constipation-outline": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/constipation-outline.vue"
+    },
     "./construction": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/construction.vue"
@@ -3330,6 +3338,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/drone-outline-24px.vue"
     },
+    "./drop-medicine": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/drop-medicine.vue"
+    },
+    "./drop-medicine-outline": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/drop-medicine-outline.vue"
+    },
     "./dry-eyes": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/dry-eyes.vue"
@@ -3345,6 +3361,14 @@
     "./dry-mouth-outline": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/dry-mouth-outline.vue"
+    },
+    "./duck": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/duck.vue"
+    },
+    "./duck-outline": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/duck-outline.vue"
     },
     "./e": {
       "types": "./types/dd0bq22g.d.ts",
@@ -3425,6 +3449,22 @@
     "./eco-care-outline": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/e/eco-care-outline.vue"
+    },
+    "./egg-cell": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/egg-cell.vue"
+    },
+    "./egg-cell-24px": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/egg-cell-24px.vue"
+    },
+    "./egg-cell-outline": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/egg-cell-outline.vue"
+    },
+    "./egg-cell-outline-24px": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/egg-cell-outline-24px.vue"
     },
     "./elderly": {
       "types": "./types/dd0bq22g.d.ts",
@@ -4046,21 +4086,21 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/face-tongue-outline-24px.vue"
     },
-    "./face-vomitting": {
+    "./face-vomiting": {
       "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/f/face-vomitting.vue"
+      "default": "./components/f/face-vomiting.vue"
     },
-    "./face-vomitting-24px": {
+    "./face-vomiting-24px": {
       "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/f/face-vomitting-24px.vue"
+      "default": "./components/f/face-vomiting-24px.vue"
     },
-    "./face-vomitting-outline": {
+    "./face-vomiting-outline": {
       "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/f/face-vomitting-outline.vue"
+      "default": "./components/f/face-vomiting-outline.vue"
     },
-    "./face-vomitting-outline-24px": {
+    "./face-vomiting-outline-24px": {
       "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/f/face-vomitting-outline-24px.vue"
+      "default": "./components/f/face-vomiting-outline-24px.vue"
     },
     "./face-woozy": {
       "types": "./types/dd0bq22g.d.ts",
@@ -4237,6 +4277,22 @@
     "./finance-dept-outline": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/finance-dept-outline.vue"
+    },
+    "./fingernail": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fingernail.vue"
+    },
+    "./fingernail-24px": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fingernail-24px.vue"
+    },
+    "./fingernail-outline": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fingernail-outline.vue"
+    },
+    "./fingernail-outline-24px": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fingernail-outline-24px.vue"
     },
     "./fingerprint": {
       "types": "./types/dd0bq22g.d.ts",
@@ -4609,6 +4665,14 @@
     "./h-outline": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/h-outline.vue"
+    },
+    "./hair": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hair.vue"
+    },
+    "./hair-outline": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hair-outline.vue"
     },
     "./hand-wipe-paper": {
       "types": "./types/dd0bq22g.d.ts",
@@ -6398,6 +6462,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/malnutrition-outline.vue"
     },
+    "./mammogram": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mammogram.vue"
+    },
+    "./mammogram-24px": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mammogram-24px.vue"
+    },
+    "./mammogram-outline": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mammogram-outline.vue"
+    },
+    "./mammogram-outline-24px": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mammogram-outline-24px.vue"
+    },
     "./man": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/man.vue"
@@ -8098,6 +8178,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/ppe-sanitizer-24px.vue"
     },
+    "./ppe-sanitizer-alt": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/ppe-sanitizer-alt.vue"
+    },
+    "./ppe-sanitizer-alt-outline": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/ppe-sanitizer-alt-outline.vue"
+    },
     "./ppe-sanitizer-negative": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/ppe-sanitizer-negative.vue"
@@ -8110,17 +8198,9 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/ppe-sanitizer-outline-24px.vue"
     },
-    "./ppe-santizer-alt": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/p/ppe-santizer-alt.vue"
-    },
     "./ppe-santizer-alt-negative": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/ppe-santizer-alt-negative.vue"
-    },
-    "./ppe-santizer-alt-outline": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/p/ppe-santizer-alt-outline.vue"
     },
     "./ppe-suit": {
       "types": "./types/dd0bq22g.d.ts",
@@ -9365,6 +9445,14 @@
     "./spleen-outline-24px": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/spleen-outline-24px.vue"
+    },
+    "./spray": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/spray.vue"
+    },
+    "./spray-outline": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/spray-outline.vue"
     },
     "./spraying": {
       "types": "./types/dd0bq22g.d.ts",
@@ -12118,6 +12206,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/f2x-outline.vue"
     },
+    "./face-vomitting": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/face-vomitting.vue"
+    },
+    "./face-vomitting-24px": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/face-vomitting-24px.vue"
+    },
+    "./face-vomitting-outline": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/face-vomitting-outline.vue"
+    },
+    "./face-vomitting-outline-24px": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/face-vomitting-outline-24px.vue"
+    },
     "./factory-worker2x-outline": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/factory-worker2x-outline.vue"
@@ -13305,6 +13409,14 @@
     "./ppe-sanitizer2x-outline": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/ppe-sanitizer2x-outline.vue"
+    },
+    "./ppe-santizer-alt": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/ppe-santizer-alt.vue"
+    },
+    "./ppe-santizer-alt-outline": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/ppe-santizer-alt-outline.vue"
     },
     "./ppe-santizer-alt2x-outline": {
       "types": "./types/dd0bq22g.d.ts",

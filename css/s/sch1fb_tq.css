@@ -1,0 +1,8 @@
+.sch1fb_tq {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M17 3H7v18m0-9h9");
+}

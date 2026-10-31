@@ -1,0 +1,8 @@
+.vik4frbus {
+  stroke: var(--svg-color--fff, #fff);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-opacity: 0.9;
+  stroke-width: var(--svg-stroke-width--0-8px, 0.8px);
+  d: path("m4.4 2.48l-.72.3l-.56.46m15.76-.84l-.86.16m-7.94 3.37l-1.28.52l-1.22.83l-1 1.04m7.18 9.07l-.37.37l-.51.38");
+}

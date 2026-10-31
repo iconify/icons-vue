@@ -1,0 +1,20 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/f/ft5dv1b6b.css';
+import '../../css/s/sv0c39bkq.css';
+import '../../css/o/ot_1jemuk.css';
+import '../../css/i/ir0gd7pjy.css';
+import '../../css/u/ujvkb6bci.css';
+import '../../css/j/j5iv67bcq.css';
+import '../../css/o/of3siq1wp.css';
+import '../../css/q/q7nxbkawr.css';
+import '../../css/y/y1l8tccqt.css';
+import '../../css/i/iogybzbxq.css';
+import '../../css/p/p7zlsro2m.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ft5dv1b6b"><defs><linearGradient id="SVGgJw3l6ls" x1="10" x2="14" y1="2.5" y2="22" gradientUnits="userSpaceOnUse"><stop offset="0" class="sv0c39bkq"/><stop offset=".4" class="sv0c39bkq"/><stop offset="1" class="ot_1jemuk"/></linearGradient></defs><path class="ir0gd7pjy wm-k"/><path class="ujvkb6bci wm-a"/><path class="j5iv67bcq wm-deco"/><path fill="url(#SVGgJw3l6ls)" class="of3siq1wp wm-k"/><path class="q7nxbkawr wm-a"/><path class="wm-shadow y1l8tccqt"/><path class="iogybzbxq wm-shine"/><path class="p7zlsro2m wm-shine"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="withicons-valentine:bug" /></template>

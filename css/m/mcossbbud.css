@@ -1,0 +1,8 @@
+.mcossbbud {
+  stroke: var(--svg-color--fff, #fff);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-opacity: 0.9;
+  stroke-width: var(--svg-stroke-width--0-8px, 0.8px);
+  d: path("M13.36 2.3L12 2.16l-.64.03l-1.12.2l-.8.27m-.16 15.26l-.13.08");
+}

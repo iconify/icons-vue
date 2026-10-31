@@ -1,0 +1,7 @@
+.assptubtn {
+  fill: var(--svg-color--ff8a3d, #ff8a3d);
+  stroke: var(--svg-color--6a1b3a, #6a1b3a);
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--0-49px, 0.49px);
+  d: path("m12 9.95l2.6.7l-2.6.25z");
+}

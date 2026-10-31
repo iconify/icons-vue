@@ -1,0 +1,6 @@
+.bsdpitevb {
+  stroke: var(--svg-color--6a1b3a, #6a1b3a);
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--0-72px, 0.72px);
+  d: path("M15.5 3h3.75A1.75 1.75 0 0 1 21 4.75V8.5a1.75 1.75 0 0 1-1.75 1.75H15.5a1.75 1.75 0 0 1-1.75-1.75V4.75A1.75 1.75 0 0 1 15.5 3Z");
+}

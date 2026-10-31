@@ -1,0 +1,7 @@
+.etf_sbr-p {
+  fill: var(--svg-color--e8304f, #e8304f);
+  stroke: var(--svg-color--6a1b3a, #6a1b3a);
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--0-45px, 0.45px);
+  d: path("M17.13 19.23c-.54-.74-.96-1.44-.78-2.02c.16-.52.67-.69 1-.58c.29.09.43.32.41.61c.15-.25.4-.36.68-.27c.34.11.66.53.5 1.05c-.19.58-.93.92-1.81 1.21z");
+}

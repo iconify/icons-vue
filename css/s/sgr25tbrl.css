@@ -1,0 +1,7 @@
+.sgr25tbrl {
+  stroke: var(--svg-color--8b4a36, #8b4a36);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-78px, 1.78px);
+  d: path("M5.25 13.5c1.5-.5 2.25 2 3.75 2s1.5-2.25 3-2.25s1.75 3.25 3.25 3.25s2-3.5 3.5-3");
+}

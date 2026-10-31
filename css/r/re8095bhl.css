@@ -1,0 +1,7 @@
+.re8095bhl {
+  fill: var(--svg-color--e8304f, #e8304f);
+  stroke: var(--svg-color--6a1b3a, #6a1b3a);
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--0-45px, 0.45px);
+  d: path("M3.83 4.95c-.98-.41-1.81-.85-1.98-1.54c-.15-.6.26-1.07.65-1.17c.34-.08.61.06.76.37c0-.34.18-.6.52-.68c.39-.09.96.14 1.11.75c.17.68-.37 1.46-1.06 2.27z");
+}

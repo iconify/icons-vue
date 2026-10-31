@@ -1,0 +1,8 @@
+.mmtwirbtf {
+  stroke: var(--svg-color--fff, #fff);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-opacity: 0.9;
+  stroke-width: var(--svg-stroke-width--0-8px, 0.8px);
+  d: path("m5.12 3.15l-.48.05l-.56.21l-.4.32l-.32.45l-.18.54m14.63 7.6l-.53 1.04l-.8.93l-.64.5l-.64.36l-.4.18l-.72.2");
+}

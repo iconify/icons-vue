@@ -1,0 +1,7 @@
+.hf25lvbes {
+  stroke: var(--svg-color--fff, #fff);
+  stroke-linecap: round;
+  stroke-opacity: 0.9;
+  stroke-width: var(--svg-stroke-width--0-8px, 0.8px);
+  d: path("m8.6 11.2l3.8-3.8m-1.2 3.8L13.4 9");
+}

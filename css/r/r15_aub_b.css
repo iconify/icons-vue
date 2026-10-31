@@ -1,0 +1,7 @@
+.r15_aub_b {
+  stroke: var(--svg-color--a8345c, #a8345c);
+  stroke-linecap: round;
+  stroke-opacity: 0.7;
+  stroke-width: var(--svg-stroke-width--0-9px, 0.9px);
+  d: path("M9.4 9.2L8.6 7m4 2.2l.8-2.2M8 11.8H4.6m9.4 0h3.4m-8 2.6l-.6 1.2m3.8-1.2l.6 1.2");
+}

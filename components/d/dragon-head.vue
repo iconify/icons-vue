@@ -1,0 +1,67 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/f/ft5dv1b6b.css';
+import '../../css/k/kiigxcb_b.css';
+import '../../css/t/tqssing1c.css';
+import '../../css/m/mna_icboa.css';
+import '../../css/q/qel-7fg3k.css';
+import '../../css/m/my1vldbpz.css';
+import '../../css/g/gbgo_-uqb.css';
+import '../../css/c/cw0guuk2k.css';
+import '../../css/y/y6bapzb-b.css';
+import '../../css/c/c5xw50bsi.css';
+import '../../css/a/a2lm2ccxg.css';
+import '../../css/w/w-wed4b6a.css';
+import '../../css/z/zeklwvbou.css';
+import '../../css/j/jis3xjbde.css';
+import '../../css/b/bwp4wub6f.css';
+import '../../css/c/c4aqk7cvc.css';
+import '../../css/p/psmyi_bvo.css';
+import '../../css/i/if9hgabmb.css';
+import '../../css/b/btw8z4bth.css';
+import '../../css/p/pnkxm4w7y.css';
+import '../../css/e/e-ybr8qne.css';
+import '../../css/b/b70bvbj1j.css';
+import '../../css/n/n2lzuhkdy.css';
+import '../../css/t/tbq8yrb9h.css';
+import '../../css/d/drhc7yrqi.css';
+import '../../css/t/tw7hy_b4w.css';
+import '../../css/r/r441wt-5l.css';
+import '../../css/k/k3fcafs1v.css';
+import '../../css/a/aw88te_xx.css';
+import '../../css/k/kll2ubbvh.css';
+import '../../css/w/wpxen1baj.css';
+import '../../css/x/xt1wuwbmq.css';
+import '../../css/q/qskz64bvn.css';
+import '../../css/d/dw37erb4w.css';
+import '../../css/n/naoxnm42z.css';
+import '../../css/j/jaizdv8-d.css';
+import '../../css/i/ij842f7ww.css';
+import '../../css/z/zcz4ilbbv.css';
+import '../../css/a/a8r_n2rfb.css';
+import '../../css/e/e8w7yacgc.css';
+import '../../css/n/n62izob3g.css';
+import '../../css/g/gkocpdb3i.css';
+import '../../css/f/fong84uae.css';
+import '../../css/h/hqqdr6ofi.css';
+import '../../css/m/mk_8dab8r.css';
+import '../../css/h/hdgos55ag.css';
+import '../../css/n/n77osxbfy.css';
+import '../../css/h/hfvyp1bff.css';
+import '../../css/g/gqd3_vszp.css';
+import '../../css/d/dszon20gp.css';
+import '../../css/w/wnfm7zcoi.css';
+import '../../css/c/cvn8xz0kt.css';
+import '../../css/t/tfq3subtg.css';
+import '../../css/x/xz_4b9b8p.css';
+import '../../css/j/jsxoeio9g.css';
+import '../../css/v/vl87y7raz.css';
+import '../../css/f/fm28kn8ql.css';
+import '../../css/k/k6ylm27ec.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ft5dv1b6b"><path class="kiigxcb_b wm-shadow"/><path class="tqssing1c wm-a"/><path class="mna_icboa wm-a"/><path class="qel-7fg3k wm-a"/><path class="my1vldbpz wm-shine"/><path class="gbgo_-uqb wm-a"/><path class="cw0guuk2k wm-a"/><path class="wm-a y6bapzb-b"/><path class="c5xw50bsi wm-shine"/><path class="a2lm2ccxg wm-k"/><path class="w-wed4b6a wm-k"/><path class="wm-k zeklwvbou"/><path class="jis3xjbde wm-k"/><path class="bwp4wub6f wm-shine"/><path class="c4aqk7cvc wm-k"/><path class="psmyi_bvo wm-k"/><path class="if9hgabmb wm-k"/><path class="btw8z4bth wm-k"/><path class="pnkxm4w7y wm-shine"/><path class="e-ybr8qne wm-a"/><path class="b70bvbj1j wm-a"/><path class="n2lzuhkdy wm-a"/><path class="tbq8yrb9h wm-a"/><path class="drhc7yrqi wm-a"/><path class="tw7hy_b4w wm-a"/><path class="r441wt-5l wm-k"/><path class="k3fcafs1v wm-k"/><path class="aw88te_xx wm-k"/><path class="kll2ubbvh wm-shine"/><path class="wm-s wpxen1baj"/><path class="wm-s xt1wuwbmq"/><path class="qskz64bvn wm-s"/><path class="dw37erb4w wm-shine"/><path class="naoxnm42z wm-a"/><path class="jaizdv8-d wm-a"/><path class="ij842f7ww wm-a"/><path class="wm-k zcz4ilbbv"/><path class="a8r_n2rfb wm-s"/><path class="e8w7yacgc wm-k"/><path class="n62izob3g wm-k"/><path class="gkocpdb3i wm-k"/><path class="fong84uae wm-k"/><path class="hqqdr6ofi wm-k"/><path class="mk_8dab8r wm-k"/><path class="hdgos55ag wm-k"/><path class="n77osxbfy wm-shine"/><path class="hfvyp1bff wm-k"/><path class="gqd3_vszp wm-a"/><path class="dszon20gp wm-a"/><path class="wm-a wnfm7zcoi"/><path class="cvn8xz0kt wm-a"/><path class="tfq3subtg wm-a"/><path class="wm-a xz_4b9b8p"/><path class="jsxoeio9g wm-shine"/><path class="vl87y7raz wm-a"/><path class="fm28kn8ql wm-a"/><path class="k6ylm27ec wm-deco"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="withicons-coquette:dragon-head" /></template>

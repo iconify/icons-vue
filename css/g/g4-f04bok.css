@@ -1,0 +1,8 @@
+.g4-f04bok {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M8 7a4 4 0 1 1 8 0c0 3-2 4-4 7l-4 6h8");
+}

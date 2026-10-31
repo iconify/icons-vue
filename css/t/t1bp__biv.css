@@ -1,0 +1,10 @@
+.t1bp__biv {
+  fill: var(--svg-color--2c29b4, #2c29b4);
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  fill-rule: evenodd;
+  stroke: var(--svg-color--2c29b4, #2c29b4);
+  stroke-linejoin: round;
+  stroke-opacity: 0.3;
+  stroke-width: var(--svg-stroke-width--0-7px, 0.7px);
+  d: path("m6.5 6.3l-.7.3l-.6.4l-.3.5l-.2.7v8.2l.2.8l.5.6l.7.4l.6.1h10.5l.9-.2l.7-.5l.4-.7l.1-.6V8.4l-.2-.9l-.5-.7l-.6-.3l-.7-.2zm1.3 2.1l.6.1l.3.3v.5l-.3.4h-.8l-.3-.2l-.1-.2l-.1-.3l.2-.3l.2-.2zm2.6 0l.6.1l.3.3v.5l-.3.4h-.8l-.3-.2l-.1-.2l-.1-.3l.2-.3l.2-.2zm2.6 0l.6.1l.3.3v.5l-.3.4h-.8l-.3-.2l-.1-.2l-.1-.3l.2-.3l.2-.2zm-6.7 3.5l11.4-.1v4.6l-.2.2l-.4.1H6.6l-.2-.2l-.1-.2z");
+}

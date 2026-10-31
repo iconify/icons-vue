@@ -1,0 +1,10 @@
+.sdtb_8bit {
+  fill: var(--svg-color--118237, #118237);
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  fill-rule: evenodd;
+  stroke: var(--svg-color--118237, #118237);
+  stroke-linejoin: round;
+  stroke-opacity: 0.3;
+  stroke-width: var(--svg-stroke-width--0-7px, 0.7px);
+  d: path("m9.8 6l-4 1.7l-.2.2l-.2.3l-.1 9.6l.2.5l.4.3h.5l3.7-1.5l3.6 1.5l.3.1l4.4-1.9l.2-.2l.1-.4V6.8l-.2-.5l-.4-.3h-.5l-3.7 1.5L10.3 6zm.2 1l.4.1l.1.4v8.1l-.1.3l-.3.2l-.4-.2l-.1-.4V7.4l.1-.3zm3.7 1.6h.5l.2.2v8.4l-.1.3l-.3.2l-.4-.2l-.1-.3V9l.1-.2z");
+}

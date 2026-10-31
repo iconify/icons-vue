@@ -1,0 +1,10 @@
+.hslazmnoi {
+  fill: var(--svg-color--cc4a08, #cc4a08);
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  fill-rule: evenodd;
+  stroke: var(--svg-color--cc4a08, #cc4a08);
+  stroke-linejoin: round;
+  stroke-opacity: 0.3;
+  stroke-width: var(--svg-stroke-width--0-7px, 0.7px);
+  d: path("m5.6 11.2l-.4.3l-.2.6l.2.5l.5.2v1.5l.5 1.2l.4.8l.8.6l.9.5l1 .3h5.3l.9-.2l.9-.4l.9-.7l.6-.9l.4-1.1v-1.6l.5-.3l.2-.4l-.1-.4l-.1-.3l-.6-.2zm3.1-4.9l-.5.2l-.5.3l-.5.4l-.3.4l-.2.7l-.1.4v1.6l.1.2h1.5l.1-2l.3-.4l.3-.1h.5l.4.3l.1.4v.9l.3.5l.3.1h.4l.3-.2l.2-.3l.1-1.3l-.2-.7l-.3-.4l-.5-.5l-.6-.3l-.5-.2zM7.1 17.6l-.1.2v.3l.4.5h.5l.5-.2v-.3zm9.7 0l-1.2.5v.3l.5.2l.6-.1l.2-.2l.1-.4v-.3z");
+}

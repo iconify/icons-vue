@@ -1,0 +1,30 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/f/ft5dv1b6b.css';
+import '../../css/b/bwuiy6ork.css';
+import '../../css/m/m_kv8i2ma.css';
+import '../../css/s/s0urbhscb.css';
+import '../../css/s/stui2mbih.css';
+import '../../css/l/llghcbbix.css';
+import '../../css/m/msulseb9p.css';
+import '../../css/k/khl0jfedg.css';
+import '../../css/d/dk8d3t44m.css';
+import '../../css/m/m2jwqpb5u.css';
+import '../../css/c/cnnsb-j4i.css';
+import '../../css/i/ia210trmo.css';
+import '../../css/y/yw7asccsb.css';
+import '../../css/w/w1d803bgb.css';
+import '../../css/i/i-m49vp6a.css';
+import '../../css/s/sufa80wxh.css';
+import '../../css/p/pdhl1mb_g.css';
+import '../../css/i/i4cp8qs4i.css';
+import '../../css/g/gtxjw7xbv.css';
+import '../../css/o/o0v977blw.css';
+import '../../css/x/xy9f6pe0s.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ft5dv1b6b"><defs><linearGradient id="SVGWMfnScSU" x1="12" x2="12" y1="2" y2="22" gradientUnits="userSpaceOnUse"><stop offset="0" class="bwuiy6ork"/><stop offset="1" class="m_kv8i2ma"/></linearGradient><linearGradient id="SVGJpptRybZ" x1="12" x2="12" y1="2" y2="22" gradientUnits="userSpaceOnUse"><stop offset="0" class="s0urbhscb"/><stop offset=".3" class="stui2mbih"/><stop offset=".7" class="bwuiy6ork"/><stop offset="1" class="llghcbbix"/></linearGradient><linearGradient id="SVG2otNgdga" x1="12" x2="12" y1="6.23" y2="18.89" gradientUnits="userSpaceOnUse"><stop offset="0" class="msulseb9p"/><stop offset=".4" class="stui2mbih"/></linearGradient><radialGradient id="SVGLReEze0O" cx="12" cy="1" r="14" gradientUnits="userSpaceOnUse"><stop offset="0" class="khl0jfedg"/><stop offset=".55" class="dk8d3t44m"/><stop offset="1" class="stui2mbih"/></radialGradient></defs><path class="m2jwqpb5u wm-shadow"/><path class="cnnsb-j4i wm-deco"/><path fill="url(#SVGWMfnScSU)" class="ia210trmo wm-deco"/><path fill="url(#SVGLReEze0O)" class="ia210trmo wm-deco"/><path stroke="url(#SVGJpptRybZ)" class="wm-deco yw7asccsb"/><path class="w1d803bgb wm-shadow"/><path class="i-m49vp6a wm-k"/><path class="sufa80wxh wm-a"/><path class="pdhl1mb_g wm-a"/><path class="i4cp8qs4i wm-k"/><path fill="url(#SVG2otNgdga)" class="gtxjw7xbv wm-shine"/><path class="o0v977blw wm-k"/><path class="wm-shine xy9f6pe0s"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="withicons-dock:avatar-older-man" /></template>

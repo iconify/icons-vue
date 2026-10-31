@@ -1,0 +1,10 @@
+.kapfr5_hz {
+  fill: var(--svg-color--d86f00, #d86f00);
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  fill-rule: evenodd;
+  stroke: var(--svg-color--d86f00, #d86f00);
+  stroke-linejoin: round;
+  stroke-opacity: 0.3;
+  stroke-width: var(--svg-stroke-width--0-7px, 0.7px);
+  d: path("m7 12.2l-.6.1l-.5.4l-.4.5l-.1.5v3.2l.4.8l.6.5l.7.1H17l.5-.1l.4-.2l.4-.4l.2-.3l.2-.7l-.1-3l-.3-.8l-.7-.5l-.7-.1H15l.1 2.1l-.2.3l-.3.2l-.3-.2l-.2-.3l.1-2l-.2-.1h-1.5l-.1.1l.1.4V15l-.2.3l-.3.1l-.3-.1l-.2-.3v-2.3l.1-.4l-.1-.1H10l-.2.1l.1 2l-.2.3l-.3.2l-.3-.2l-.2-.3l.1-2.1zm2.2-5.9L5.6 8.1l-.2.3l-.1.3l.2.6l.3.2L9 11.1l.4.1l7.3-.1l.5-.1l.6-.4l.4-.5l.3-.5l.2-.9l-.2-.9l-.7-.9l-.8-.5l-.8-.1zm.1.4h.4l.2.4v3.3l-.2.3l-.2.2l-.4-.2l-.2-.3V7.1l.1-.3z");
+}

@@ -1,0 +1,10 @@
+.ducegmspu {
+  fill: var(--svg-color--cc4a08, #cc4a08);
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  fill-rule: evenodd;
+  stroke: var(--svg-color--cc4a08, #cc4a08);
+  stroke-linejoin: round;
+  stroke-opacity: 0.3;
+  stroke-width: var(--svg-stroke-width--0-7px, 0.7px);
+  d: path("m9.7 5.7l-.5.1l-.2.3L6.4 12l-.1.4l.2.5l.5.2h4.2v2.7l-1.4.3l-1.1.6l-.3.4l-.3.5l-.2.5l.1.4l.3.4l.4.1h6.6l.3-.1l.3-.3l.2-.4l-.2-.6l-.3-.6l-.4-.4l-.6-.3l-.6-.3l-1.2-.2v-2.7H17l.4-.2l.3-.4l-.1-.5L15 6.1l-.2-.3l-.5-.1z");
+}

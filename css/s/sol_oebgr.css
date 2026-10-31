@@ -1,0 +1,10 @@
+.sol_oebgr {
+  fill: var(--svg-color--08716f, #08716f);
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  fill-rule: evenodd;
+  stroke: var(--svg-color--08716f, #08716f);
+  stroke-linejoin: round;
+  stroke-opacity: 0.3;
+  stroke-width: var(--svg-stroke-width--0-7px, 0.7px);
+  d: path("m13.5 5.9l-.5.2l-.5.3l-6 6.1l-.3.3l-.2.6l-.1.9l.4 1l3.2 3.1l.3.2h.5l.3-.2l6.9-6.9l.3-.3l.2-.6l.1-.7l-.1-.4l-.2-.5l-.3-.5l-2.4-2.3l-.8-.3zm-5.3 5.3h.3l.3.1l3.9 3.9l.1.3l-.1.4l-.3.2l-.4-.2L8.1 12l-.2-.4zm4.7 5.8l-1.3 1.4v.2l6 .1l.5-.2l.2-.5v-.3l-.1-.3l-.2-.2l-.3-.2z");
+}

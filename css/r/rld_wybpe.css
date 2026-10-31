@@ -1,0 +1,10 @@
+.rld_wybpe {
+  fill: var(--svg-color--111f4c, #111f4c);
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  fill-rule: evenodd;
+  stroke: var(--svg-color--111f4c, #111f4c);
+  stroke-linejoin: round;
+  stroke-opacity: 0.3;
+  stroke-width: var(--svg-stroke-width--0-7px, 0.7px);
+  d: path("m8 10.9l-.7.1l-.7.4l-.4.7l-.2.6v4.4l.3.8l.6.7l.6.3l.5.1h8l.9-.3l.7-.6l.3-.6l.1-.6v-4.1l-.2-.8l-.7-.8l-.6-.2l-.5-.1zm3.8 2.9h.4l.3.4v1.5l-.2.2l-.2.2l-.4-.1l-.2-.4v-1.4zm-.1-8.1l-.6.1l-.9.3l-.5.4l-.7.7l-.5.9l-.2.7V10l.1.2h1.4l.1-.2v-.9l.3-.7l.5-.7l.8-.3l.7-.1l.7.2l.6.4l.5.8l.3.2h.6l.4-.3l.1-.4l-.1-.5l-.5-.7l-.5-.5l-.7-.4l-.6-.3z");
+}

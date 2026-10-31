@@ -1,0 +1,8 @@
+.elilp-cfg {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2-4px, 2.4px);
+  d: path("M2.5 11.5a8 8 0 0 1 8 8m-8-4a4 4 0 0 1 4 4");
+}

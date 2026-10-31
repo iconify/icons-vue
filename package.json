@@ -1,0 +1,351 @@
+{
+  "name": "@iconify-vue/streamline-memes",
+  "type": "module",
+  "version": "1.0.0",
+  "homepage": "https://icon-sets.iconify.design/streamline-memes/",
+  "bugs": "https://github.com/iconify/icons-vue/issues",
+  "license": "CC-BY-4.0",
+  "exports": {
+    "./all-the-things-meme": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/all-the-things-meme.vue"
+    },
+    "./all-the-things-meme-hand-drawn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/all-the-things-meme-hand-drawn.vue"
+    },
+    "./angry-face": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/angry-face.vue"
+    },
+    "./angry-face-hand-drawn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/angry-face-hand-drawn.vue"
+    },
+    "./awkward-look-monkey": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/awkward-look-monkey.vue"
+    },
+    "./awkward-look-monkey-hand-drawn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/awkward-look-monkey-hand-drawn.vue"
+    },
+    "./brian": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/brian.vue"
+    },
+    "./brian-hand-drawn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/brian-hand-drawn.vue"
+    },
+    "./cat-getting-pointed-at-hand-drawn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cat-getting-pointed-at-hand-drawn.vue"
+    },
+    "./cat-hand-drawn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cat-hand-drawn.vue"
+    },
+    "./chubby-bubble-girl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chubby-bubble-girl.vue"
+    },
+    "./chubby-bubble-girl-1-hand-drawn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chubby-bubble-girl-1-hand-drawn.vue"
+    },
+    "./computer-guy-meme": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/computer-guy-meme.vue"
+    },
+    "./computer-guy-meme-hand-drawn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/computer-guy-meme-hand-drawn.vue"
+    },
+    "./confused-black-girl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/confused-black-girl.vue"
+    },
+    "./confused-black-girl-hand-drawn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/confused-black-girl-hand-drawn.vue"
+    },
+    "./confused-nick-young": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/confused-nick-young.vue"
+    },
+    "./confused-nick-young-hand-drawn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/confused-nick-young-hand-drawn.vue"
+    },
+    "./crying-jordan": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/crying-jordan.vue"
+    },
+    "./crying-jordan-hand-drawn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/crying-jordan-hand-drawn.vue"
+    },
+    "./derp-face": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/derp-face.vue"
+    },
+    "./derp-face-hand-drawn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/derp-face-hand-drawn.vue"
+    },
+    "./disappointed-fan": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/disappointed-fan.vue"
+    },
+    "./disappointed-fan-hand-drawn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/disappointed-fan-hand-drawn.vue"
+    },
+    "./doge": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/doge.vue"
+    },
+    "./doge-hand-drawn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/doge-hand-drawn.vue"
+    },
+    "./drake-hotline-bling-no": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/drake-hotline-bling-no.vue"
+    },
+    "./drake-hotline-bling-no-hand-drawn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/drake-hotline-bling-no-hand-drawn.vue"
+    },
+    "./drake-hotline-bling-yes": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/drake-hotline-bling-yes.vue"
+    },
+    "./drake-hotline-bling-yes-hand-drawn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/drake-hotline-bling-yes-hand-drawn.vue"
+    },
+    "./flork-in-love": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/flork-in-love.vue"
+    },
+    "./flork-in-love-hand-drawn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/flork-in-love-hand-drawn.vue"
+    },
+    "./gavin": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gavin.vue"
+    },
+    "./gavin-hand-drawn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gavin-hand-drawn.vue"
+    },
+    "./grumpy-cat": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/grumpy-cat.vue"
+    },
+    "./grumpy-cat-hand-drawn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/grumpy-cat-hand-drawn.vue"
+    },
+    "./intolerant-face": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/intolerant-face.vue"
+    },
+    "./intolerant-face-hand-drawn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/intolerant-face-hand-drawn.vue"
+    },
+    "./joker-face": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/joker-face.vue"
+    },
+    "./joker-face-hand-drawn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/joker-face-hand-drawn.vue"
+    },
+    "./leo-laughing": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/leo-laughing.vue"
+    },
+    "./leo-laughing-hand-drawn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/leo-laughing-hand-drawn.vue"
+    },
+    "./nervous-pepe-frog": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nervous-pepe-frog.vue"
+    },
+    "./nervous-pepe-frog-hand-drawn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nervous-pepe-frog-hand-drawn.vue"
+    },
+    "./not-simply": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/not-simply.vue"
+    },
+    "./not-simply-hand-drawn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/not-simply-hand-drawn.vue"
+    },
+    "./nyan-cat": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nyan-cat.vue"
+    },
+    "./nyan-cat-hand-drawn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nyan-cat-hand-drawn.vue"
+    },
+    "./picard-facepalm": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/picard-facepalm.vue"
+    },
+    "./picard-facepalm-hand-drawn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/picard-facepalm-hand-drawn.vue"
+    },
+    "./pointing-at-cat-meme-hand-drawn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pointing-at-cat-meme-hand-drawn.vue"
+    },
+    "./pop-cat": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pop-cat.vue"
+    },
+    "./pop-cat-hand-drawn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pop-cat-hand-drawn.vue"
+    },
+    "./questioner": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/questioner.vue"
+    },
+    "./questioner-hand-drawn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/questioner-hand-drawn.vue"
+    },
+    "./roll-safe": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/roll-safe.vue"
+    },
+    "./roll-safe-hand-drawn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/roll-safe-hand-drawn.vue"
+    },
+    "./sad-pepe-frog": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sad-pepe-frog.vue"
+    },
+    "./sad-pepe-frog-hand-drawn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sad-pepe-frog-hand-drawn.vue"
+    },
+    "./salt-bae": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/salt-bae.vue"
+    },
+    "./salt-bae-hand-drawn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/salt-bae-hand-drawn.vue"
+    },
+    "./side-eyeing-cloe": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/side-eyeing-cloe.vue"
+    },
+    "./side-eyeing-cloe-hand-drawn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/side-eyeing-cloe-hand-drawn.vue"
+    },
+    "./sipping-coffee-on-laptop-hand-drawn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sipping-coffee-on-laptop-hand-drawn.vue"
+    },
+    "./spanish-laughing": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/spanish-laughing.vue"
+    },
+    "./spanish-laughing-hand-drawn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/spanish-laughing-hand-drawn.vue"
+    },
+    "./success-kid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/success-kid.vue"
+    },
+    "./success-kid-hand-drawn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/success-kid-hand-drawn.vue"
+    },
+    "./the-rock": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/the-rock.vue"
+    },
+    "./the-rock-hand-drawn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/the-rock-hand-drawn.vue"
+    },
+    "./thinking-face": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/thinking-face.vue"
+    },
+    "./thinking-face-hand-drawn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/thinking-face-hand-drawn.vue"
+    },
+    "./this-is-fine": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/this-is-fine.vue"
+    },
+    "./this-is-fine-hand-drawn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/this-is-fine-hand-drawn.vue"
+    },
+    "./thug-life": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/thug-life.vue"
+    },
+    "./thug-life-hand-drawn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/thug-life-hand-drawn.vue"
+    },
+    "./tobey-maguire-hand-drawn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tobey-maguire-hand-drawn.vue"
+    },
+    "./troll-face": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/troll-face.vue"
+    },
+    "./troll-face-hand-drawn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/troll-face-hand-drawn.vue"
+    },
+    "./watch-the-world-burn-hand-drawn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/watch-the-world-burn-hand-drawn.vue"
+    },
+    "./wojak-feels-guy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wojak-feels-guy.vue"
+    },
+    "./wojak-feels-guy-hand-drawn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wojak-feels-guy-hand-drawn.vue"
+    },
+    "./yao-ming-face": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yao-ming-face.vue"
+    },
+    "./yao-ming-face-hand-drawn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/yao-ming-face-hand-drawn.vue"
+    },
+    "./*": "./*"
+  },
+  "dependencies": {
+    "@iconify/css-vue": "^1.0.0"
+  },
+  "repository": "github:iconify/icons-vue#streamline-memes"
+}

@@ -1,0 +1,17 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/n/nrj6p8qat.css';
+import '../../css/t/tm8yiubtl.css';
+import '../../css/w/wnh6ztbgq.css';
+import '../../css/y/yy_-vabre.css';
+import '../../css/h/huukz2b6l.css';
+import '../../css/x/xgi7lnbwc.css';
+import '../../css/m/m9_lzgbsi.css';
+import '../../css/d/d-80icb0f.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="nrj6p8qat"><path class="tm8yiubtl"><animate fill="freeze" attributeName="opacity" dur="0.12s" values="0;1"/><animate fill="freeze" attributeName="stroke-dashoffset" calcMode="spline" dur="0.5s" keySplines="0.65 0 0.35 1" keyTimes="0;1" values="49.09;0"/></path><path class="wnh6ztbgq"><animate fill="freeze" attributeName="opacity" dur="0.12s" values="0;1"/><animate fill="freeze" attributeName="stroke-dashoffset" calcMode="spline" dur="0.5s" keySplines="0.65 0 0.35 1" keyTimes="0;1" values="17.4;0"/></path><line x1="3.2" x2="20.8" y1="21.9" y2="21.9" class="yy_-vabre"><animate fill="freeze" attributeName="opacity" dur="0.12s" values="0;1"/><animate fill="freeze" attributeName="stroke-dashoffset" calcMode="spline" dur="0.5s" keySplines="0.65 0 0.35 1" keyTimes="0;1" values="17.61;0"/></line><line x1="5.68" x2="7.32" y1="6.5" y2="6.5" class="huukz2b6l"><animate fill="freeze" attributeName="opacity" dur="0.12s" values="0;1"/><animate fill="freeze" attributeName="stroke-dashoffset" calcMode="spline" dur="0.5s" keySplines="0.65 0 0.35 1" keyTimes="0;1" values="1.65;0"/></line><line x1="10.07" x2="11.73" y1="6.5" y2="6.5" class="xgi7lnbwc"><animate fill="freeze" attributeName="opacity" dur="0.12s" values="0;1"/><animate fill="freeze" attributeName="stroke-dashoffset" calcMode="spline" dur="0.5s" keySplines="0.65 0 0.35 1" keyTimes="0;1" values="1.66;0"/></line><line x1="5.68" x2="7.32" y1="10.35" y2="10.35" class="huukz2b6l"><animate fill="freeze" attributeName="opacity" dur="0.12s" values="0;1"/><animate fill="freeze" attributeName="stroke-dashoffset" calcMode="spline" dur="0.5s" keySplines="0.65 0 0.35 1" keyTimes="0;1" values="1.65;0"/></line><line x1="10.07" x2="11.73" y1="10.35" y2="10.35" class="xgi7lnbwc"><animate fill="freeze" attributeName="opacity" dur="0.12s" values="0;1"/><animate fill="freeze" attributeName="stroke-dashoffset" calcMode="spline" dur="0.5s" keySplines="0.65 0 0.35 1" keyTimes="0;1" values="1.66;0"/></line><line x1="16.4" x2="18.6" y1="14.2" y2="14.2" class="m9_lzgbsi"><animate fill="freeze" attributeName="opacity" dur="0.12s" values="0;1"/><animate fill="freeze" attributeName="stroke-dashoffset" calcMode="spline" dur="0.5s" keySplines="0.65 0 0.35 1" keyTimes="0;1" values="2.21;0"/></line><line x1="16.4" x2="18.6" y1="18.05" y2="18.05" class="m9_lzgbsi"><animate fill="freeze" attributeName="opacity" dur="0.12s" values="0;1"/><animate fill="freeze" attributeName="stroke-dashoffset" calcMode="spline" dur="0.5s" keySplines="0.65 0 0.35 1" keyTimes="0;1" values="2.21;0"/></line><g opacity=".5"><path class="d-80icb0f"><animate fill="freeze" attributeName="opacity" dur="0.2s" keyTimes="0;0.4;1" values="0;0;1"/><animate fill="freeze" attributeName="stroke-dashoffset" calcMode="spline" dur="0.58s" keySplines="0 0 1 1;0.65 0 0.35 1" keyTimes="0;0.138;1" values="18.71;18.71;0"/></path></g></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="struq:company-draw" /></template>

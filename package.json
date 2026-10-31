@@ -1,0 +1,1215 @@
+{
+  "name": "@iconify-vue/struq",
+  "type": "module",
+  "version": "1.0.0",
+  "homepage": "https://icon-sets.iconify.design/struq/",
+  "bugs": "https://github.com/iconify/icons-vue/issues",
+  "license": "MIT",
+  "exports": {
+    "./adjust": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/adjust.vue"
+    },
+    "./adjust-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/adjust-draw.vue"
+    },
+    "./agents": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/agents.vue"
+    },
+    "./agents-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/agents-draw.vue"
+    },
+    "./analytics": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/analytics.vue"
+    },
+    "./analytics-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/analytics-draw.vue"
+    },
+    "./api": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/api.vue"
+    },
+    "./api-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/api-draw.vue"
+    },
+    "./archive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/archive.vue"
+    },
+    "./archive-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/archive-draw.vue"
+    },
+    "./arrow-down": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arrow-down.vue"
+    },
+    "./arrow-left": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arrow-left.vue"
+    },
+    "./arrow-right": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arrow-right.vue"
+    },
+    "./arrow-to-end": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arrow-to-end.vue"
+    },
+    "./arrow-up": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arrow-up.vue"
+    },
+    "./article": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/article.vue"
+    },
+    "./article-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/article-draw.vue"
+    },
+    "./ask": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/ask.vue"
+    },
+    "./ask-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/ask-draw.vue"
+    },
+    "./assign": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/assign.vue"
+    },
+    "./assign-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/assign-draw.vue"
+    },
+    "./attach": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/attach.vue"
+    },
+    "./attach-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/attach-draw.vue"
+    },
+    "./audience": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/audience.vue"
+    },
+    "./audience-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/audience-draw.vue"
+    },
+    "./blocked": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/blocked.vue"
+    },
+    "./branch": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/branch.vue"
+    },
+    "./brush": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/brush.vue"
+    },
+    "./brush-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/brush-draw.vue"
+    },
+    "./bug": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bug.vue"
+    },
+    "./bug-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bug-draw.vue"
+    },
+    "./call": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/call.vue"
+    },
+    "./call-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/call-draw.vue"
+    },
+    "./campaign": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/campaign.vue"
+    },
+    "./campaign-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/campaign-draw.vue"
+    },
+    "./case": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/case.vue"
+    },
+    "./chat": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chat.vue"
+    },
+    "./chat-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chat-draw.vue"
+    },
+    "./check": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/check.vue"
+    },
+    "./checks": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/checks.vue"
+    },
+    "./checks-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/checks-draw.vue"
+    },
+    "./chevron-down": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chevron-down.vue"
+    },
+    "./chevron-left": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chevron-left.vue"
+    },
+    "./chevron-right": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chevron-right.vue"
+    },
+    "./chevron-up": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chevron-up.vue"
+    },
+    "./chevrons-up-down": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chevrons-up-down.vue"
+    },
+    "./clear-style": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/clear-style.vue"
+    },
+    "./clear-style-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/clear-style-draw.vue"
+    },
+    "./clipboard": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/clipboard.vue"
+    },
+    "./clipboard-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/clipboard-draw.vue"
+    },
+    "./close": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/close.vue"
+    },
+    "./cloud": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloud.vue"
+    },
+    "./cloud-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloud-draw.vue"
+    },
+    "./code": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/code.vue"
+    },
+    "./columns": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/columns.vue"
+    },
+    "./company": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/company.vue"
+    },
+    "./company-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/company-draw.vue"
+    },
+    "./compass": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/compass.vue"
+    },
+    "./compass-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/compass-draw.vue"
+    },
+    "./copy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/copy.vue"
+    },
+    "./copy-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/copy-draw.vue"
+    },
+    "./customer": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/customer.vue"
+    },
+    "./customer-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/customer-draw.vue"
+    },
+    "./database": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/database.vue"
+    },
+    "./database-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/database-draw.vue"
+    },
+    "./delete": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/delete.vue"
+    },
+    "./delete-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/delete-draw.vue"
+    },
+    "./device": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/device.vue"
+    },
+    "./device-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/device-draw.vue"
+    },
+    "./disconnect": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/disconnect.vue"
+    },
+    "./disconnect-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/disconnect-draw.vue"
+    },
+    "./documents": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/documents.vue"
+    },
+    "./documents-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/documents-draw.vue"
+    },
+    "./done": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/done.vue"
+    },
+    "./download": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/download.vue"
+    },
+    "./download-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/download-draw.vue"
+    },
+    "./edit": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/edit.vue"
+    },
+    "./edit-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/edit-draw.vue"
+    },
+    "./enter": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/enter.vue"
+    },
+    "./error": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/error.vue"
+    },
+    "./expand": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/expand.vue"
+    },
+    "./external": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/external.vue"
+    },
+    "./feedback": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/feedback.vue"
+    },
+    "./feedback-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/feedback-draw.vue"
+    },
+    "./field": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/field.vue"
+    },
+    "./field-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/field-draw.vue"
+    },
+    "./file": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file.vue"
+    },
+    "./file-archive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-archive.vue"
+    },
+    "./file-archive-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-archive-draw.vue"
+    },
+    "./file-audio": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-audio.vue"
+    },
+    "./file-audio-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-audio-draw.vue"
+    },
+    "./file-code": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-code.vue"
+    },
+    "./file-code-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-code-draw.vue"
+    },
+    "./file-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-draw.vue"
+    },
+    "./file-image": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-image.vue"
+    },
+    "./file-image-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-image-draw.vue"
+    },
+    "./file-mail": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-mail.vue"
+    },
+    "./file-mail-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-mail-draw.vue"
+    },
+    "./file-new": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-new.vue"
+    },
+    "./file-new-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-new-draw.vue"
+    },
+    "./file-pdf": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-pdf.vue"
+    },
+    "./file-pdf-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-pdf-draw.vue"
+    },
+    "./file-program": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-program.vue"
+    },
+    "./file-program-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-program-draw.vue"
+    },
+    "./file-search": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-search.vue"
+    },
+    "./file-search-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-search-draw.vue"
+    },
+    "./file-sheet": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-sheet.vue"
+    },
+    "./file-sheet-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-sheet-draw.vue"
+    },
+    "./file-slides": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-slides.vue"
+    },
+    "./file-slides-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-slides-draw.vue"
+    },
+    "./file-text": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-text.vue"
+    },
+    "./file-text-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-text-draw.vue"
+    },
+    "./file-video": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-video.vue"
+    },
+    "./file-video-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-video-draw.vue"
+    },
+    "./file-warning": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-warning.vue"
+    },
+    "./file-word": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-word.vue"
+    },
+    "./file-word-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-word-draw.vue"
+    },
+    "./folder": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder.vue"
+    },
+    "./folder-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-draw.vue"
+    },
+    "./folder-export": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-export.vue"
+    },
+    "./folder-export-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-export-draw.vue"
+    },
+    "./folder-find": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-find.vue"
+    },
+    "./folder-find-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-find-draw.vue"
+    },
+    "./folder-move": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-move.vue"
+    },
+    "./folder-move-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-move-draw.vue"
+    },
+    "./folder-new": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-new.vue"
+    },
+    "./folder-new-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-new-draw.vue"
+    },
+    "./folder-open": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-open.vue"
+    },
+    "./folder-open-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-open-draw.vue"
+    },
+    "./follow-up": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/follow-up.vue"
+    },
+    "./follow-up-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/follow-up-draw.vue"
+    },
+    "./gauge": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gauge.vue"
+    },
+    "./gauge-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gauge-draw.vue"
+    },
+    "./goal": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/goal.vue"
+    },
+    "./goal-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/goal-draw.vue"
+    },
+    "./grip": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/grip.vue"
+    },
+    "./hash": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hash.vue"
+    },
+    "./heading": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/heading.vue"
+    },
+    "./headset": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/headset.vue"
+    },
+    "./headset-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/headset-draw.vue"
+    },
+    "./help": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/help.vue"
+    },
+    "./hide": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hide.vue"
+    },
+    "./hide-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hide-draw.vue"
+    },
+    "./hint": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hint.vue"
+    },
+    "./hint-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hint-draw.vue"
+    },
+    "./history": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/history.vue"
+    },
+    "./history-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/history-draw.vue"
+    },
+    "./home": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/home.vue"
+    },
+    "./home-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/home-draw.vue"
+    },
+    "./image": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/image.vue"
+    },
+    "./image-add": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/image-add.vue"
+    },
+    "./image-add-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/image-add-draw.vue"
+    },
+    "./image-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/image-draw.vue"
+    },
+    "./inbox": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/inbox.vue"
+    },
+    "./inbox-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/inbox-draw.vue"
+    },
+    "./info": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/info.vue"
+    },
+    "./integration": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/integration.vue"
+    },
+    "./integration-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/integration-draw.vue"
+    },
+    "./key": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/key.vue"
+    },
+    "./key-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/key-draw.vue"
+    },
+    "./layers": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/layers.vue"
+    },
+    "./layers-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/layers-draw.vue"
+    },
+    "./learn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/learn.vue"
+    },
+    "./learn-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/learn-draw.vue"
+    },
+    "./link": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/link.vue"
+    },
+    "./link-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/link-draw.vue"
+    },
+    "./list": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/list.vue"
+    },
+    "./list-ordered": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/list-ordered.vue"
+    },
+    "./lock": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lock.vue"
+    },
+    "./lock-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lock-draw.vue"
+    },
+    "./mail": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mail.vue"
+    },
+    "./mail-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mail-draw.vue"
+    },
+    "./minus": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/minus.vue"
+    },
+    "./more": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/more.vue"
+    },
+    "./move-vertical": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/move-vertical.vue"
+    },
+    "./mute": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mute.vue"
+    },
+    "./mute-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mute-draw.vue"
+    },
+    "./new-chat": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/new-chat.vue"
+    },
+    "./new-chat-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/new-chat-draw.vue"
+    },
+    "./notes": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/notes.vue"
+    },
+    "./notes-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/notes-draw.vue"
+    },
+    "./offline": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/offline.vue"
+    },
+    "./palette": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/palette.vue"
+    },
+    "./palette-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/palette-draw.vue"
+    },
+    "./panel-top": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/panel-top.vue"
+    },
+    "./paste": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/paste.vue"
+    },
+    "./paste-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/paste-draw.vue"
+    },
+    "./pin": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pin.vue"
+    },
+    "./pin-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pin-draw.vue"
+    },
+    "./play": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/play.vue"
+    },
+    "./plus": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/plus.vue"
+    },
+    "./polish": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/polish.vue"
+    },
+    "./polish-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/polish-draw.vue"
+    },
+    "./practice": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/practice.vue"
+    },
+    "./practice-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/practice-draw.vue"
+    },
+    "./quote": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/quote.vue"
+    },
+    "./rail": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rail.vue"
+    },
+    "./rail-close": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rail-close.vue"
+    },
+    "./receipt": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/receipt.vue"
+    },
+    "./remind": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/remind.vue"
+    },
+    "./remind-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/remind-draw.vue"
+    },
+    "./replace": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/replace.vue"
+    },
+    "./replace-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/replace-draw.vue"
+    },
+    "./report": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/report.vue"
+    },
+    "./report-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/report-draw.vue"
+    },
+    "./restore": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/restore.vue"
+    },
+    "./restore-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/restore-draw.vue"
+    },
+    "./retry": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/retry.vue"
+    },
+    "./retry-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/retry-draw.vue"
+    },
+    "./save": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/save.vue"
+    },
+    "./save-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/save-draw.vue"
+    },
+    "./scan": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/scan.vue"
+    },
+    "./scan-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/scan-draw.vue"
+    },
+    "./screen-share": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/screen-share.vue"
+    },
+    "./screen-share-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/screen-share-draw.vue"
+    },
+    "./search": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/search.vue"
+    },
+    "./search-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/search-draw.vue"
+    },
+    "./search-empty": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/search-empty.vue"
+    },
+    "./selection": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/selection.vue"
+    },
+    "./selection-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/selection-draw.vue"
+    },
+    "./send": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/send.vue"
+    },
+    "./send-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/send-draw.vue"
+    },
+    "./send-later": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/send-later.vue"
+    },
+    "./send-later-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/send-later-draw.vue"
+    },
+    "./settings": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/settings.vue"
+    },
+    "./settings-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/settings-draw.vue"
+    },
+    "./share": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/share.vue"
+    },
+    "./share-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/share-draw.vue"
+    },
+    "./shield": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/shield.vue"
+    },
+    "./shield-alert": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/shield-alert.vue"
+    },
+    "./shield-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/shield-draw.vue"
+    },
+    "./shield-off": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/shield-off.vue"
+    },
+    "./shortcuts": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/shortcuts.vue"
+    },
+    "./shortcuts-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/shortcuts-draw.vue"
+    },
+    "./show": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/show.vue"
+    },
+    "./show-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/show-draw.vue"
+    },
+    "./sidebar": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sidebar.vue"
+    },
+    "./sidebar-close": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sidebar-close.vue"
+    },
+    "./sign-out": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sign-out.vue"
+    },
+    "./sign-out-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sign-out-draw.vue"
+    },
+    "./simplify": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/simplify.vue"
+    },
+    "./simplify-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/simplify-draw.vue"
+    },
+    "./skip": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/skip.vue"
+    },
+    "./skip-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/skip-draw.vue"
+    },
+    "./slash": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/slash.vue"
+    },
+    "./snippets": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/snippets.vue"
+    },
+    "./snippets-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/snippets-draw.vue"
+    },
+    "./sort-az": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sort-az.vue"
+    },
+    "./sort-size-down": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sort-size-down.vue"
+    },
+    "./sort-size-up": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sort-size-up.vue"
+    },
+    "./sort-za": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sort-za.vue"
+    },
+    "./sound": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sound.vue"
+    },
+    "./sound-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sound-draw.vue"
+    },
+    "./step-current": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/step-current.vue"
+    },
+    "./step-partial": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/step-partial.vue"
+    },
+    "./step-todo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/step-todo.vue"
+    },
+    "./stop": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stop.vue"
+    },
+    "./stop-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stop-draw.vue"
+    },
+    "./support": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/support.vue"
+    },
+    "./support-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/support-draw.vue"
+    },
+    "./swap": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/swap.vue"
+    },
+    "./swap-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/swap-draw.vue"
+    },
+    "./table": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/table.vue"
+    },
+    "./tag": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tag.vue"
+    },
+    "./template": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/template.vue"
+    },
+    "./template-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/template-draw.vue"
+    },
+    "./text": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/text.vue"
+    },
+    "./theme-auto": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/theme-auto.vue"
+    },
+    "./theme-auto-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/theme-auto-draw.vue"
+    },
+    "./theme-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/theme-dark.vue"
+    },
+    "./theme-dark-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/theme-dark-draw.vue"
+    },
+    "./theme-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/theme-light.vue"
+    },
+    "./theme-light-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/theme-light-draw.vue"
+    },
+    "./timer": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/timer.vue"
+    },
+    "./timer-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/timer-draw.vue"
+    },
+    "./toggle": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/toggle.vue"
+    },
+    "./transcript": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/transcript.vue"
+    },
+    "./transcript-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/transcript-draw.vue"
+    },
+    "./translate": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/translate.vue"
+    },
+    "./translate-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/translate-draw.vue"
+    },
+    "./type": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/type.vue"
+    },
+    "./undo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/undo.vue"
+    },
+    "./undo-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/undo-draw.vue"
+    },
+    "./unpin": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/unpin.vue"
+    },
+    "./unpin-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/unpin-draw.vue"
+    },
+    "./upload": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/upload.vue"
+    },
+    "./upload-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/upload-draw.vue"
+    },
+    "./user": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/user.vue"
+    },
+    "./user-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/user-draw.vue"
+    },
+    "./verified": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/verified.vue"
+    },
+    "./verified-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/verified-draw.vue"
+    },
+    "./video": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/video.vue"
+    },
+    "./video-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/video-draw.vue"
+    },
+    "./view-details": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/view-details.vue"
+    },
+    "./view-grid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/view-grid.vue"
+    },
+    "./view-list": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/view-list.vue"
+    },
+    "./view-small": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/view-small.vue"
+    },
+    "./warning": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/warning.vue"
+    },
+    "./window": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/window.vue"
+    },
+    "./window-draw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/window-draw.vue"
+    },
+    "./*": "./*"
+  },
+  "dependencies": {
+    "@iconify/css-vue": "^1.0.0"
+  },
+  "repository": "github:iconify/icons-vue#struq"
+}

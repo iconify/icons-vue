@@ -1,0 +1,7 @@
+.equ_evbss {
+  fill-rule: evenodd;
+  stroke: var(--svg-color--b0101e, #b0101e);
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--0-42px, 0.42px);
+  d: path("M18.6 4.58c-1.19.49-.4 2.34.8 1.85c1.19-.49.4-2.34-.8-1.85zm0 5c-1.19.49-.4 2.34.8 1.85c1.19-.49.4-2.34-.8-1.85z");
+}

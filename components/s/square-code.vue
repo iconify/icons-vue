@@ -1,0 +1,36 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/f/ft5dv1b6b.css';
+import '../../css/b/b0lk61ddp.css';
+import '../../css/r/r9iocxbed.css';
+import '../../css/r/rb9cd_wzq.css';
+import '../../css/h/h7ndu1l5k.css';
+import '../../css/d/dk7amhexu.css';
+import '../../css/g/gselkguao.css';
+import '../../css/o/oi-98iqnx.css';
+import '../../css/v/vc--wpv5i.css';
+import '../../css/d/dqysvab-v.css';
+import '../../css/x/xuxou6b4f.css';
+import '../../css/c/c99a9gt7g.css';
+import '../../css/k/kckc1iwlf.css';
+import '../../css/s/stui2mbih.css';
+import '../../css/k/kekm2mbny.css';
+import '../../css/b/b6zp6mb9a.css';
+import '../../css/i/i948rez9c.css';
+import '../../css/d/d0x74ybwz.css';
+import '../../css/t/tcw-b75hw.css';
+import '../../css/t/t4udm5nmo.css';
+import '../../css/s/s81i56bxy.css';
+import '../../css/b/belaioxej.css';
+import '../../css/b/bh6bcwewi.css';
+import '../../css/c/c58cacbdz.css';
+import '../../css/r/r5pw5t2ii.css';
+import '../../css/o/o20x8db7t.css';
+import '../../css/c/cecqhubzt.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ft5dv1b6b"><defs><linearGradient id="SVG5VumrboL" x1="2.6" x2="21" y1="2.3" y2="20.7" gradientUnits="userSpaceOnUse"><stop offset="0" class="b0lk61ddp"/><stop offset=".6" class="r9iocxbed"/><stop offset="1" class="rb9cd_wzq"/></linearGradient><linearGradient id="SVGItLf7dJz" x1="2.6" x2="21" y1="2.3" y2="20.7" gradientUnits="userSpaceOnUse"><stop offset="0" class="h7ndu1l5k"/><stop offset="1" class="dk7amhexu"/></linearGradient><linearGradient id="SVGlXHcaeHr" x1="2.6" x2="21" y1="2.3" y2="20.7" gradientUnits="userSpaceOnUse"><stop offset="0" class="gselkguao"/><stop offset="1" class="oi-98iqnx"/></linearGradient><linearGradient id="SVGuiNqtJqx" x1="6.28" x2="21" y1="5.98" y2="20.7" gradientUnits="userSpaceOnUse"><stop offset="0" class="vc--wpv5i"/><stop offset="1" class="dqysvab-v"/></linearGradient><linearGradient id="SVGSWGyVcsr" x1="2.6" x2="8.12" y1="9.66" y2="22.3" gradientUnits="userSpaceOnUse"><stop offset="0" class="xuxou6b4f"/><stop offset="1" class="c99a9gt7g"/></linearGradient><radialGradient id="SVGCJHasesC" cx="8.86" cy="7.82" r="9.2" gradientUnits="userSpaceOnUse"><stop offset="0" class="kckc1iwlf"/><stop offset="1" class="stui2mbih"/></radialGradient></defs><path fill="url(#SVGSWGyVcsr)" class="kekm2mbny wm-shadow"/><path fill="url(#SVG5VumrboL)" class="b6zp6mb9a wm-k"/><path stroke="url(#SVGlXHcaeHr)" class="i948rez9c wm-k"/><path fill="url(#SVGCJHasesC)" class="d0x74ybwz wm-shine"/><path class="tcw-b75hw wm-k"/><path class="t4udm5nmo wm-shine"/><path fill="url(#SVGuiNqtJqx)" class="s81i56bxy wm-shine"/><path fill="url(#SVGItLf7dJz)" class="belaioxej wm-a"/><path stroke="url(#SVGlXHcaeHr)" class="bh6bcwewi wm-a"/><path fill="url(#SVGCJHasesC)" class="c58cacbdz wm-a"/><path class="r5pw5t2ii wm-a"/><path class="o20x8db7t wm-a"/><path fill="url(#SVGuiNqtJqx)" class="cecqhubzt wm-a"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="withicons-liquid:square-code" /></template>

@@ -1,0 +1,8 @@
+.ps8manzme {
+  fill: var(--svg-color--ff5f8f, #ff5f8f);
+  fill-opacity: var(--svg-fill-opacity--0-75, 0.75);
+  stroke: var(--svg-color--000, #000);
+  stroke-opacity: 0.3;
+  stroke-width: var(--svg-stroke-width--0-22px, 0.22px);
+  d: path("m7.64 7.1l1 .73c.1.07 2.85 2.21 3.44 1.85l1.03-.62c.28-.16 2.67-1.58 2.96-2.16c.44-.88-1.27-2.75-1.87-3c-.4-.17-1.17-.1-1.4-.09l-3.2.02c-.54.01-2.93 2.56-1.96 3.27z");
+}

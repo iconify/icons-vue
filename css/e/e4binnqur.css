@@ -1,0 +1,8 @@
+.e4binnqur {
+  fill: var(--svg-color--ff5f8f, #ff5f8f);
+  fill-opacity: var(--svg-fill-opacity--0-75, 0.75);
+  stroke: var(--svg-color--000, #000);
+  stroke-opacity: 0.3;
+  stroke-width: var(--svg-stroke-width--0-22px, 0.22px);
+  d: path("m21.14 19.39l-1.18-1.4l-.26-.61l.11-.38a3.6 3.6 0 0 0-.14-2.2c-1.04-2.65-4.87-2.92-6.28-.45c-1.1 1.94-.11 4.64 2.14 5.16c.89.21 1.91-.24 2.67.16c.65.34 1.19 1.29 2 1.27c.63-.02 1.46-.93.94-1.55z");
+}

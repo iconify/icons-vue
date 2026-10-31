@@ -1,0 +1,8 @@
+.smoipibeq {
+  fill: var(--svg-color--ff5f8f, #ff5f8f);
+  fill-opacity: var(--svg-fill-opacity--0-75, 0.75);
+  stroke: var(--svg-color--000, #000);
+  stroke-opacity: 0.3;
+  stroke-width: var(--svg-stroke-width--0-22px, 0.22px);
+  d: path("m8.14 8.93l-.1 1.12l-.3.33l-1.11.09c-.78.07-.88 1.21-.52 1.69c.38.52 1.06.43 1.63.46l.3.33l.07 1.05c.07 1.03 2.04 1.01 2.1 0l.06-1.05l.32-.33l1.11-.09c1.04-.08.92-2.03-.1-2.09l-1.03-.06l-.3-.33l-.09-1.1c-.07-.94-1.95-.97-2.04-.02z");
+}

@@ -1,0 +1,7 @@
+.clymfbcri {
+  stroke: var(--svg-color--fff, #fff);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-1px, 1.1px);
+  d: path("m8.2 7.4l1.3.5m6.1-1.3L15 7.8m2.4 5.6l-.9 1m-8.9 1.2l1.3-.3m3.7 2.3l-1.2.3");
+}

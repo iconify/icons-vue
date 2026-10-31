@@ -1,0 +1,7 @@
+.evr-wphrs {
+  stroke: var(--svg-color--fff, #fff);
+  stroke-linecap: round;
+  stroke-opacity: 0.8;
+  stroke-width: var(--svg-stroke-width--0-3px, 0.3px);
+  d: path("m7.4 14.8l-3.2-2.4m1.4 1l-.2-1.8m11.2 3.2l3.2-2.4m-1.4 1l.2-1.8");
+}

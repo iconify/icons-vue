@@ -1,0 +1,60 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/f/ft5dv1b6b.css';
+import '../../css/j/js24-4qnd.css';
+import '../../css/a/amq02ua1y.css';
+import '../../css/n/n-dbf-zkk.css';
+import '../../css/r/rhbsai7ua.css';
+import '../../css/g/g76w46rpq.css';
+import '../../css/c/cvk0nzbxl.css';
+import '../../css/h/h1pco9bpd.css';
+import '../../css/y/yyk-se1az.css';
+import '../../css/z/za8ebebab.css';
+import '../../css/j/jswni2_of.css';
+import '../../css/d/ddziqpbhp.css';
+import '../../css/s/spw012bwz.css';
+import '../../css/w/w8u-gscuq.css';
+import '../../css/l/llsatzb_k.css';
+import '../../css/d/duv02yvnu.css';
+import '../../css/r/rnx5a4z9o.css';
+import '../../css/g/gb9cnjb_k.css';
+import '../../css/k/kuitovkxx.css';
+import '../../css/f/fljajoyxi.css';
+import '../../css/w/wkyecg8ll.css';
+import '../../css/f/fr0ce_oob.css';
+import '../../css/g/gkpntww8c.css';
+import '../../css/t/t5y2n-bmi.css';
+import '../../css/a/al-7ervno.css';
+import '../../css/i/ibme_bcgx.css';
+import '../../css/g/gus0egbiy.css';
+import '../../css/j/j8a-_ibat.css';
+import '../../css/k/k_sfulb6j.css';
+import '../../css/c/cwkg_1bdz.css';
+import '../../css/w/w0s6f79hx.css';
+import '../../css/j/je73ztuio.css';
+import '../../css/e/ecx738bdi.css';
+import '../../css/x/xdepl22xd.css';
+import '../../css/e/eq9vnmcvd.css';
+import '../../css/o/onffw6b4w.css';
+import '../../css/u/ud-f8ccap.css';
+import '../../css/m/mgvwcsppc.css';
+import '../../css/e/edwdo5b4r.css';
+import '../../css/x/xzy_dx0wo.css';
+import '../../css/p/pl2akz1xw.css';
+import '../../css/k/kx5f7_4kw.css';
+import '../../css/g/gze4yebuh.css';
+import '../../css/h/hub1jxt7d.css';
+import '../../css/f/fhwc_kr9q.css';
+import '../../css/h/h5zi4550v.css';
+import '../../css/c/c-3shrlgf.css';
+import '../../css/q/q4cgks99f.css';
+import '../../css/c/cctlh96-y.css';
+import '../../css/p/pmiqrd1rq.css';
+import '../../css/b/bue0h-kdr.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ft5dv1b6b"><path class="js24-4qnd wm-shadow"/><path class="amq02ua1y wm-a"/><path class="n-dbf-zkk wm-a"/><path class="rhbsai7ua wm-a"/><path class="g76w46rpq wm-a"/><path class="cvk0nzbxl wm-a"/><path class="h1pco9bpd wm-a"/><path class="wm-a yyk-se1az"/><path class="wm-a za8ebebab"/><path class="jswni2_of wm-a"/><path class="ddziqpbhp wm-a"/><path class="spw012bwz wm-a"/><path class="w8u-gscuq wm-a"/><path class="llsatzb_k wm-a"/><path class="duv02yvnu wm-a"/><path class="rnx5a4z9o wm-a"/><path class="gb9cnjb_k wm-a"/><path class="kuitovkxx wm-a"/><path class="fljajoyxi wm-a"/><path class="wkyecg8ll wm-a"/><path class="fr0ce_oob wm-k"/><path class="gkpntww8c wm-k"/><path class="t5y2n-bmi wm-k"/><path class="al-7ervno wm-k"/><path class="ibme_bcgx wm-k"/><path class="gus0egbiy wm-k"/><path class="j8a-_ibat wm-k"/><path class="k_sfulb6j wm-k"/><path class="cwkg_1bdz wm-k"/><path class="w0s6f79hx wm-k"/><path class="je73ztuio wm-shine"/><path class="ecx738bdi wm-k"/><path class="wm-k xdepl22xd"/><path class="eq9vnmcvd wm-k"/><path class="onffw6b4w wm-k"/><path class="ud-f8ccap wm-k"/><path class="mgvwcsppc wm-k"/><path class="edwdo5b4r wm-k"/><path class="wm-k xzy_dx0wo"/><path class="pl2akz1xw wm-shine"/><path class="kx5f7_4kw wm-a"/><path class="gze4yebuh wm-a"/><path class="hub1jxt7d wm-a"/><path class="fhwc_kr9q wm-a"/><path class="h5zi4550v wm-a"/><path class="c-3shrlgf wm-a"/><path class="q4cgks99f wm-a"/><path class="cctlh96-y wm-a"/><path class="pmiqrd1rq wm-a"/><path class="bue0h-kdr wm-a"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="withicons-luxe:avatar-man-afro" /></template>

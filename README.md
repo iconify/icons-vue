@@ -11,6 +11,11 @@ Browse all icons: [preview Meteocons on Iconify](https://icon-sets.iconify.desig
 ## Installation
 
 ```bash
+npm install gitlab:iconify-icons/vue#meteocons
+```
+
+or
+```bash
 npm install github:iconify/icons-vue#meteocons
 ```
 
@@ -22,7 +27,7 @@ Few usage examples:
 
 ```vue
 <script setup lang="ts">
-import SampleIcon from '@iconify-vue/meteocons/hurricane-fill';
+import SampleIcon from '@iconify-vue/meteocons/sunrise-fill';
 </script>
 <template>
   <SampleIcon />
@@ -33,7 +38,7 @@ To resize icon, set `width` and/or `height` parameters:
 
 ```vue
 <script setup lang="ts">
-import SampleIcon from '@iconify-vue/meteocons/sunrise-fill';
+import SampleIcon from '@iconify-vue/meteocons/windsock';
 </script>
 <template>
   <SampleIcon height="1em" />

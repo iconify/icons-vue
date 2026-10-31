@@ -1,0 +1,5 @@
+.otgr_wbrm {
+  stroke: var(--svg-color--007a4d, #007a4d);
+  stroke-width: var(--svg-stroke-width--40px, 40px);
+  d: path("m0 0l150 100L0 200m150-100h150");
+}

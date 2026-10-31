@@ -1,17 +1,17 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
 import '../../css/b/bi12bsetm.css';
-import '../../css/n/n0fj7sbda.css';
-import '../../css/t/tqk20nppu.css';
-import '../../css/m/myjrtya-z.css';
-import '../../css/e/e_--q9b_j.css';
-import '../../css/e/e__f_8btd.css';
-import '../../css/i/i6rk8jbrv.css';
-import '../../css/r/ra_lalblk.css';
+import '../../css/s/sqf6xz70z.css';
+import '../../css/l/l27639bbw.css';
+import '../../css/q/qgedusuli.css';
+import '../../css/c/c29hiodty.css';
+import '../../css/m/m6nlbsbsd.css';
+import '../../css/b/ba-8qqbfp.css';
+import '../../css/j/j3riuj0hp.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":300,"height":173};
-const content = `<g class="bi12bsetm"><path class="n0fj7sbda"/><path class="tqk20nppu"/><path class="myjrtya-z"/><path class="e_--q9b_j"/><path class="e__f_8btd"/><path class="i6rk8jbrv"/><path class="ra_lalblk"/></g>`;
+const content = `<g class="bi12bsetm"><path class="sqf6xz70z"/><path class="l27639bbw"/><path class="qgedusuli"/><path class="c29hiodty"/><path class="m6nlbsbsd"/><path class="ba-8qqbfp"/><path class="j3riuj0hp"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="cif:ir" /></template>

@@ -1,0 +1,9 @@
+.yn3pcerea {
+  fill: var(--svg-color--fff, #fff);
+  fill-rule: nonzero;
+  stroke: var(--svg-color--000, #000);
+  stroke-linecap: square;
+  stroke-linejoin: bevel;
+  stroke-width: var(--svg-stroke-width--0-45px, 0.45px);
+  d: path("M121.265 102.596h1.722v7.918h-1.722z");
+}

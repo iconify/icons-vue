@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/tdesign",
   "type": "module",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "homepage": "https://icon-sets.iconify.design/tdesign/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -1765,6 +1765,10 @@
     "./check": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/check.vue"
+    },
+    "./check-1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/check-1.vue"
     },
     "./check-circle": {
       "types": "./types/dd0bq22g.d.ts",
@@ -7053,6 +7057,10 @@
     "./remove": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/r/remove.vue"
+    },
+    "./remove-1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/remove-1.vue"
     },
     "./rename": {
       "types": "./types/dd0bq22g.d.ts",

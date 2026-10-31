@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/devicon-plain",
   "type": "module",
-  "version": "1.0.28",
+  "version": "1.0.29",
   "homepage": "https://icon-sets.iconify.design/devicon-plain/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -2265,6 +2265,14 @@
     "./primeng": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/primeng.vue"
+    },
+    "./prisma": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/prisma.vue"
+    },
+    "./prisma-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/prisma-wordmark.vue"
     },
     "./processing": {
       "types": "./types/dd0bq22g.d.ts",

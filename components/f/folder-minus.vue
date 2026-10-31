@@ -1,0 +1,29 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/f/ft5dv1b6b.css';
+import '../../css/m/mqfskabkp.css';
+import '../../css/i/i5ry0xbbo.css';
+import '../../css/p/ppchx2lys.css';
+import '../../css/v/vl5s227ll.css';
+import '../../css/v/vc--wpv5i.css';
+import '../../css/g/g1_lf0b0l.css';
+import '../../css/e/e28s31bli.css';
+import '../../css/q/q0l5q2bhr.css';
+import '../../css/z/zqzpjkbqn.css';
+import '../../css/z/zm1hkj9xa.css';
+import '../../css/n/njzkxeuzc.css';
+import '../../css/y/ymk6f-wea.css';
+import '../../css/f/fqlpo6bhl.css';
+import '../../css/l/lje6m7bim.css';
+import '../../css/o/ojkgegt0k.css';
+import '../../css/g/gb-ljujzf.css';
+import '../../css/c/c1bp306wi.css';
+import '../../css/v/v5-tacdsr.css';
+import '../../css/q/q-bya2beu.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ft5dv1b6b"><defs><linearGradient id="SVGJGrj9dnb" x1="0" x2="0" y1="4.1" y2="19.7" gradientUnits="userSpaceOnUse"><stop offset="0" class="mqfskabkp"/><stop offset=".42" class="i5ry0xbbo"/><stop offset=".56" class="ppchx2lys"/><stop offset=".78" class="vl5s227ll"/><stop offset="1" class="mqfskabkp"/></linearGradient><linearGradient id="SVGExllPchF" x1="0" x2="0" y1="4.6" y2="19.3" gradientUnits="userSpaceOnUse"><stop offset="0" class="vc--wpv5i"/><stop offset=".24" class="i5ry0xbbo"/><stop offset=".5" class="ppchx2lys"/><stop offset="1" class="vl5s227ll"/></linearGradient><linearGradient id="SVGIxYwMdqu" x1="0" x2="0" y1="4.6" y2="19.3" gradientUnits="userSpaceOnUse"><stop offset=".56" class="g1_lf0b0l"/><stop offset=".84" class="vl5s227ll"/><stop offset="1" class="vc--wpv5i"/></linearGradient><linearGradient id="SVGHlRfxdhn" x1="0" x2="0" y1="13.5" y2="16.5" gradientUnits="userSpaceOnUse"><stop offset="0" class="e28s31bli"/><stop offset=".55" class="q0l5q2bhr"/><stop offset="1" class="e28s31bli"/></linearGradient></defs><path class="wm-shadow zqzpjkbqn"/><path class="zm1hkj9xa"/><path fill="url(#SVGJGrj9dnb)" class="njzkxeuzc"/><path fill="url(#SVGExllPchF)" class="ymk6f-wea"/><path fill="url(#SVGIxYwMdqu)" class="fqlpo6bhl"/><path class="lje6m7bim"/><path class="ojkgegt0k wm-shine"/><path class="gb-ljujzf wm-shine"/><path class="c1bp306wi wm-a"/><path fill="url(#SVGHlRfxdhn)" class="v5-tacdsr wm-a"/><path class="q-bya2beu wm-shine"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="withicons-chrome:folder-minus" /></template>

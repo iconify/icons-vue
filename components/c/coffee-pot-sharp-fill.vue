@@ -1,0 +1,28 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="gp_8x1bzb"><path class="ss9_2pnyw"/><path class="xi_x5ndst"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:coffee-pot-sharp-fill" /></template>
+<style>
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.ss9_2pnyw {
+  fill: currentColor;
+  d: path("M4.675 9.0377L2.1275 4.4886C2.0439 4.3393 2 4.1711 2 4C2 3.4477 2.4477 3 3 3L17 3C17.5523 3 18 3.4477 18 4C18 4.1711 17.9561 4.3393 17.8725 4.4886L15.325 9.0377L17.3432 13.2851C17.3479 13.295 17.3524 13.305 17.3568 13.315L17.9168 14.6007C17.9717 14.7267 18 14.8626 18 15L18 17C18 17.2652 17.8946 17.5196 17.7071 17.7071L14.7071 20.7071C14.5196 20.8946 14.2652 21 14 21L6 21C5.7348 21 5.4804 20.8946 5.2929 20.7071L2.2929 17.7071C2.1054 17.5196 2 17.2652 2 17L2 15C2 14.8626 2.0283 14.7267 2.0832 14.6007L2.6432 13.315C2.6476 13.305 2.6521 13.295 2.6568 13.2851L4.675 9.0377Z");
+  stroke: none;
+}
+
+.xi_x5ndst {
+  d: path("M15 4L21 4L21 12");
+}
+
+</style>

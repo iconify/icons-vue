@@ -1,0 +1,29 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="gp_8x1bzb"><path class="qcebxnb3w"/><path class="mwool0d3c"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:caravan-sharp-two-tone" /></template>
+<style>
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.mwool0d3c {
+  d: path("M6 18L2 18L2 4L19 4L19 18L10 18M10 18L10 8L15 8L15 18M2 8L6 8L6 12L2 12M10 18C10 19.1046 9.1046 20 8 20C6.8954 20 6 19.1046 6 18C6 16.8954 6.8954 16 8 16C9.1046 16 10 16.8954 10 18ZM19 14L23 14");
+}
+
+.qcebxnb3w {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M2 3L19 3C19.5523 3 20 3.4477 20 4L20 18C20 18.5523 19.5523 19 19 19L2 19C1.4477 19 1 18.5523 1 18L1 4C1 3.4477 1.4477 3 2 3Z");
+  stroke: none;
+}
+
+</style>

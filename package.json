@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/lucide",
   "type": "module",
-  "version": "1.0.83",
+  "version": "1.0.84",
   "homepage": "https://icon-sets.iconify.design/lucide/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "ISC",
@@ -1405,6 +1405,10 @@
     "./chart-bar-stacked": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/chart-bar-stacked.vue"
+    },
+    "./chart-bell-curve": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chart-bell-curve.vue"
     },
     "./chart-candlestick": {
       "types": "./types/dd0bq22g.d.ts",
@@ -2933,6 +2937,10 @@
     "./file-cog": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-cog.vue"
+    },
+    "./file-database": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-database.vue"
     },
     "./file-diff": {
       "types": "./types/dd0bq22g.d.ts",
@@ -4738,6 +4746,34 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/map-plus.vue"
     },
+    "./margin": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/margin.vue"
+    },
+    "./margin-bottom": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/margin-bottom.vue"
+    },
+    "./margin-horizontal": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/margin-horizontal.vue"
+    },
+    "./margin-left": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/margin-left.vue"
+    },
+    "./margin-right": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/margin-right.vue"
+    },
+    "./margin-top": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/margin-top.vue"
+    },
+    "./margin-vertical": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/margin-vertical.vue"
+    },
     "./mars": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/mars.vue"
@@ -4993,6 +5029,10 @@
     "./monitor": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/monitor.vue"
+    },
+    "./monitor-activity": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/monitor-activity.vue"
     },
     "./monitor-check": {
       "types": "./types/dd0bq22g.d.ts",
@@ -7005,6 +7045,34 @@
     "./square-off": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/square-off.vue"
+    },
+    "./square-padding": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/square-padding.vue"
+    },
+    "./square-padding-bottom": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/square-padding-bottom.vue"
+    },
+    "./square-padding-horizontal": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/square-padding-horizontal.vue"
+    },
+    "./square-padding-left": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/square-padding-left.vue"
+    },
+    "./square-padding-right": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/square-padding-right.vue"
+    },
+    "./square-padding-top": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/square-padding-top.vue"
+    },
+    "./square-padding-vertical": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/square-padding-vertical.vue"
     },
     "./square-parking": {
       "types": "./types/dd0bq22g.d.ts",

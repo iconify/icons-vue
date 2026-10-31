@@ -1,0 +1,7 @@
+.vvnowbrpi {
+  stroke: var(--svg-color--fff, #fff);
+  stroke-linejoin: round;
+  stroke-opacity: 0.57;
+  stroke-width: var(--svg-stroke-width--0-4px, 0.4px);
+  d: path("M15.35 8.28h-2.41m-.82-3.34c-.4 0-.57.12-.8.42m-.27 2.92c-1.16 0-2.72-.56-3.16.72");
+}

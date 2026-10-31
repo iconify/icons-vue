@@ -1,0 +1,7 @@
+.ifgb5mb1d {
+  stroke: var(--svg-color--1d2130, #1d2130);
+  stroke-linejoin: round;
+  stroke-opacity: 0.41;
+  stroke-width: var(--svg-stroke-width--0-35px, 0.35px);
+  d: path("M12 3.04c-.19.39-.51.52-.55.99c-.07.84.12 1.95-.59 2.59c-.12.09-.24.17-.36.26c-.38 0-.47-.1-.69-.4m2.22-3.83l-.05.44");
+}

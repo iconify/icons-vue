@@ -1,0 +1,62 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/f/ft5dv1b6b.css';
+import '../../css/p/p5_fqnb0s.css';
+import '../../css/s/stui2mbih.css';
+import '../../css/c/c6o1b5b4q.css';
+import '../../css/g/gn0r0xsdd.css';
+import '../../css/o/oxxgkjfsq.css';
+import '../../css/a/a-9k-2c7t.css';
+import '../../css/p/p9tljbczn.css';
+import '../../css/y/yfo_qt_nb.css';
+import '../../css/d/d79j_oafq.css';
+import '../../css/z/z3i8mb1rp.css';
+import '../../css/b/bjvwmg86z.css';
+import '../../css/d/dljjarbsn.css';
+import '../../css/c/cmgnkw-0m.css';
+import '../../css/d/dldtc9bqd.css';
+import '../../css/r/rl4irzt7b.css';
+import '../../css/f/fdqfgvbil.css';
+import '../../css/f/f3c9lrbcm.css';
+import '../../css/d/dl6i45yiy.css';
+import '../../css/y/yeibb2zgq.css';
+import '../../css/j/jb0xui4cz.css';
+import '../../css/l/lhhp7ba-a.css';
+import '../../css/f/fu3n_jvmn.css';
+import '../../css/k/kl8alsbnm.css';
+import '../../css/b/bxz7vbr1s.css';
+import '../../css/h/hh6-u5bwy.css';
+import '../../css/r/rdwd8ab0n.css';
+import '../../css/r/ric1pkl1g.css';
+import '../../css/b/bhvgq3bjk.css';
+import '../../css/i/idfi6cbzt.css';
+import '../../css/d/d8sszcurf.css';
+import '../../css/c/c6oebe06t.css';
+import '../../css/m/m-tan7bhu.css';
+import '../../css/g/gpxj79v2m.css';
+import '../../css/y/ys8w2tbig.css';
+import '../../css/g/g_f2vwp3m.css';
+import '../../css/v/v99gh6bgl.css';
+import '../../css/f/fx5kr3bdb.css';
+import '../../css/w/w2blhrrdz.css';
+import '../../css/i/iqio56bgk.css';
+import '../../css/a/a32ih37wo.css';
+import '../../css/y/y_8p2bb-b.css';
+import '../../css/p/ppim58dpg.css';
+import '../../css/h/hbtn-eb7s.css';
+import '../../css/c/cttj1vbtk.css';
+import '../../css/a/azuy7lbgo.css';
+import '../../css/z/zt80ut1tm.css';
+import '../../css/v/vf-ye4s9f.css';
+import '../../css/o/op2a9eg6c.css';
+import '../../css/u/u8q_4l68w.css';
+import '../../css/m/mqimsjw5t.css';
+import '../../css/p/p0o9a800e.css';
+import '../../css/f/fuuuxx20a.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ft5dv1b6b"><defs><linearGradient id="SVGnGF63brm" x1="0" x2="1" y1="0" y2="1"><stop offset="0" class="p5_fqnb0s"/><stop offset=".42" class="stui2mbih"/><stop offset=".62" class="c6o1b5b4q"/><stop offset="1" class="gn0r0xsdd"/></linearGradient></defs><path class="oxxgkjfsq wm-shadow"/><path class="a-9k-2c7t wm-shadow"/><path class="p9tljbczn wm-shadow"/><path class="wm-k yfo_qt_nb"/><path class="d79j_oafq wm-k"/><path class="wm-k z3i8mb1rp"/><path class="bjvwmg86z wm-k"/><path class="dljjarbsn wm-k"/><path class="cmgnkw-0m wm-k"/><path class="dldtc9bqd wm-k"/><path fill="url(#SVGnGF63brm)" class="rl4irzt7b wm-k"/><path class="fdqfgvbil wm-shine"/><path class="f3c9lrbcm wm-shine"/><path class="dl6i45yiy wm-shine"/><path class="wm-shine yeibb2zgq"/><path class="jb0xui4cz wm-k"/><path class="lhhp7ba-a wm-k"/><path class="fu3n_jvmn wm-k"/><path class="kl8alsbnm wm-a"/><path class="bxz7vbr1s wm-a"/><path class="hh6-u5bwy wm-a"/><path class="rdwd8ab0n wm-a"/><path class="ric1pkl1g wm-a"/><path class="bhvgq3bjk wm-a"/><path class="idfi6cbzt wm-a"/><path class="d8sszcurf wm-a"/><path fill="url(#SVGnGF63brm)" class="c6oebe06t wm-a"/><path class="m-tan7bhu wm-a"/><path class="gpxj79v2m wm-a"/><path class="wm-a ys8w2tbig"/><path class="g_f2vwp3m wm-a"/><path class="v99gh6bgl wm-a"/><path class="fx5kr3bdb wm-a"/><path class="w2blhrrdz wm-a"/><path class="iqio56bgk wm-a"/><path class="a32ih37wo wm-a"/><path class="wm-a y_8p2bb-b"/><path class="ppim58dpg wm-a"/><path class="hbtn-eb7s wm-a"/><path class="cttj1vbtk wm-k"/><path class="azuy7lbgo wm-a"/><path fill="url(#SVGnGF63brm)" class="wm-a zt80ut1tm"/><path class="vf-ye4s9f wm-a"/><path class="op2a9eg6c wm-a"/><path class="u8q_4l68w wm-a"/><path class="mqimsjw5t wm-a"/><path class="p0o9a800e wm-a"/><path class="fuuuxx20a wm-a"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="withicons-soft3d:briefcase-medical" /></template>

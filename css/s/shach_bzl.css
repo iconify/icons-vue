@@ -1,0 +1,8 @@
+.shach_bzl {
+  stroke: var(--svg-color--fff, #fff);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-opacity: 0.5;
+  stroke-width: var(--svg-stroke-width--0-6px, 0.6px);
+  d: path("M2.9 4v15.6m16.6-8.2v8.2");
+}

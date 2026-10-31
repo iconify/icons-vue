@@ -1,0 +1,7 @@
+.fqhctmbod {
+  stroke: var(--svg-color--fff, #fff);
+  stroke-linejoin: round;
+  stroke-opacity: 0.38;
+  stroke-width: var(--svg-stroke-width--0-4px, 0.4px);
+  d: path("M5.48 9.56v5.28m3.85-5.28v5.28m3.86-5.28v5.28");
+}

@@ -1,0 +1,62 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/f/ft5dv1b6b.css';
+import '../../css/w/wqhhqjetx.css';
+import '../../css/a/ajwzcpnah.css';
+import '../../css/c/c6o1b5b4q.css';
+import '../../css/u/uogcbxbhh.css';
+import '../../css/d/dpp2otbum.css';
+import '../../css/h/hy4gbcbqa.css';
+import '../../css/n/nxmln4dtf.css';
+import '../../css/t/tt65e456c.css';
+import '../../css/z/z2q3vkb8m.css';
+import '../../css/c/c7dyh8bqw.css';
+import '../../css/w/w_dkkubty.css';
+import '../../css/r/r7bryny1h.css';
+import '../../css/y/yxav_ccan.css';
+import '../../css/f/fkkyltvej.css';
+import '../../css/x/xw745pbox.css';
+import '../../css/y/y-o04hrfb.css';
+import '../../css/p/pf0g3abvv.css';
+import '../../css/b/bfg_2wa6d.css';
+import '../../css/d/d3rxa3bja.css';
+import '../../css/v/vz0oj3bbx.css';
+import '../../css/h/hzkr4m-av.css';
+import '../../css/s/s5rl5_dap.css';
+import '../../css/s/sfiyncbrl.css';
+import '../../css/i/iy1g8t0mp.css';
+import '../../css/e/e09ntsbkn.css';
+import '../../css/z/zobukkb3e.css';
+import '../../css/s/sfw2r8b4j.css';
+import '../../css/x/x-pgi0bjz.css';
+import '../../css/z/z8jt8b__t.css';
+import '../../css/y/yxgpfab4h.css';
+import '../../css/j/jo2_y6rxq.css';
+import '../../css/e/efxs2bbum.css';
+import '../../css/g/gf90qg51r.css';
+import '../../css/q/qyl2eiblc.css';
+import '../../css/n/nk7ymlsqz.css';
+import '../../css/v/vm-slfs-m.css';
+import '../../css/c/c692f946x.css';
+import '../../css/h/hb22hdb7d.css';
+import '../../css/i/iptji_b9c.css';
+import '../../css/t/ttskyku0l.css';
+import '../../css/q/qfq7hkbzf.css';
+import '../../css/h/hop1w5hsj.css';
+import '../../css/t/tvqqc-j8q.css';
+import '../../css/k/k00tyrbwa.css';
+import '../../css/s/suwwogbfi.css';
+import '../../css/r/rr1rq3bdk.css';
+import '../../css/b/b0g2512-f.css';
+import '../../css/t/ttw-bk2fj.css';
+import '../../css/b/bkejirbdu.css';
+import '../../css/g/ggm-geb_j.css';
+import '../../css/l/lmbrlkwuv.css';
+import '../../css/d/dk7vo0bpo.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ft5dv1b6b"><defs><radialGradient id="SVGYwvTGcsJ" cx=".34" cy=".26" r=".92"><stop offset="0" class="wqhhqjetx"/><stop offset=".38" class="ajwzcpnah"/><stop offset=".7" class="c6o1b5b4q"/><stop offset="1" class="uogcbxbhh"/></radialGradient></defs><path class="dpp2otbum wm-shadow"/><path class="hy4gbcbqa wm-shadow"/><path class="nxmln4dtf wm-shadow"/><path class="tt65e456c wm-k"/><path class="wm-k z2q3vkb8m"/><path class="c7dyh8bqw wm-k"/><path class="w_dkkubty wm-k"/><path fill="url(#SVGYwvTGcsJ)" class="r7bryny1h wm-k"/><path class="wm-shine yxav_ccan"/><path class="fkkyltvej wm-shine"/><path class="wm-shine xw745pbox"/><path class="wm-k y-o04hrfb"/><path class="pf0g3abvv wm-k"/><path class="bfg_2wa6d wm-a"/><path class="d3rxa3bja wm-a"/><path class="vz0oj3bbx wm-a"/><path class="hzkr4m-av wm-a"/><path class="s5rl5_dap wm-k"/><path class="sfiyncbrl wm-a"/><path fill="url(#SVGYwvTGcsJ)" class="iy1g8t0mp wm-a"/><path class="e09ntsbkn wm-a"/><path class="wm-a zobukkb3e"/><path class="sfw2r8b4j wm-a"/><path class="wm-a x-pgi0bjz"/><path class="wm-a z8jt8b__t"/><path class="wm-a yxgpfab4h"/><path class="jo2_y6rxq wm-a"/><path class="efxs2bbum wm-a"/><path class="gf90qg51r wm-k"/><path class="qyl2eiblc wm-a"/><path fill="url(#SVGYwvTGcsJ)" class="nk7ymlsqz wm-a"/><path class="vm-slfs-m wm-a"/><path class="c692f946x wm-a"/><path class="hb22hdb7d wm-a"/><path class="iptji_b9c wm-a"/><path class="ttskyku0l wm-a"/><path class="qfq7hkbzf wm-a"/><path class="hop1w5hsj wm-a"/><path class="tvqqc-j8q wm-a"/><path class="k00tyrbwa wm-k"/><path class="suwwogbfi wm-a"/><path fill="url(#SVGYwvTGcsJ)" class="rr1rq3bdk wm-a"/><path class="b0g2512-f wm-a"/><path class="ttw-bk2fj wm-a"/><path class="bkejirbdu wm-a"/><path class="ggm-geb_j wm-a"/><path class="lmbrlkwuv wm-a"/><path class="dk7vo0bpo wm-a"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="withicons-soft3d:file-up" /></template>

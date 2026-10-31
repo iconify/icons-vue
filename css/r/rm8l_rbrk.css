@@ -1,0 +1,7 @@
+.rm8l_rbrk {
+  stroke: var(--svg-color--fff, #fff);
+  stroke-linejoin: round;
+  stroke-opacity: 0.25;
+  stroke-width: var(--svg-stroke-width--0-36px, 0.36px);
+  d: path("m4.4 1.98l.49.57m1.97 3.4l.09-.98m.9-2.85l.55.65m2.05 3.59l.14-1.04m1.18-3.04l.62.7");
+}

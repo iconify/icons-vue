@@ -1,0 +1,7 @@
+.inyolebbi {
+  stroke: var(--svg-color--fff, #fff);
+  stroke-linejoin: round;
+  stroke-opacity: 0.38;
+  stroke-width: var(--svg-stroke-width--0-58px, 0.58px);
+  d: path("M3.49 4.26c.1-.92 0-.53.24-1.19m14.04-.11l.71.41");
+}

@@ -1,0 +1,7 @@
+.hdrcmob1x {
+  stroke: var(--svg-color--1d2130, #1d2130);
+  stroke-linejoin: round;
+  stroke-opacity: 0.41;
+  stroke-width: var(--svg-stroke-width--0-35px, 0.35px);
+  d: path("M9.68 5.19h1.47c-.06-.28-.13-.57-.19-.85c-.08-.43.5-.9.9-.86c.39.04.4.12.68.35m.12 1.51c1.31.2.78.05 1.61.33l-.2-1.13");
+}

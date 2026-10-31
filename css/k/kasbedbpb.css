@@ -1,0 +1,8 @@
+.kasbedbpb {
+  stroke: var(--svg-color--bfc7d2, #bfc7d2);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-opacity: 0.55;
+  stroke-width: var(--svg-stroke-width--0-7px, 0.7px);
+  d: path("M9.1 11.5a2.9 2.9 0 1 0 5.8 0a2.9 2.9 0 1 0-5.8 0");
+}

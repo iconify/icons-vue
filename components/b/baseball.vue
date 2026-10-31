@@ -1,0 +1,66 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/f/ft5dv1b6b.css';
+import '../../css/p/p5_fqnb0s.css';
+import '../../css/s/stui2mbih.css';
+import '../../css/c/c6o1b5b4q.css';
+import '../../css/g/gn0r0xsdd.css';
+import '../../css/d/dzipmej5f.css';
+import '../../css/s/s6wc3r62o.css';
+import '../../css/k/k8jko1bmh.css';
+import '../../css/i/idvdfybsl.css';
+import '../../css/k/k4_zuq3rj.css';
+import '../../css/g/gsejb5b0c.css';
+import '../../css/n/n_qu4ab5f.css';
+import '../../css/y/ydex5vomg.css';
+import '../../css/q/qt7blcbrg.css';
+import '../../css/q/q-fttx3wg.css';
+import '../../css/n/n9-l63w7f.css';
+import '../../css/z/zubflvbls.css';
+import '../../css/r/r1apu8b7g.css';
+import '../../css/x/xfwhtl8hw.css';
+import '../../css/i/ij455mbhb.css';
+import '../../css/g/gntbfnbwr.css';
+import '../../css/d/d1-aitb0b.css';
+import '../../css/v/va-_hqzei.css';
+import '../../css/g/g0-paxv9r.css';
+import '../../css/y/yx8-4s1ju.css';
+import '../../css/o/oky6zfbcv.css';
+import '../../css/n/n2vxl5xxs.css';
+import '../../css/h/h0qpifb5o.css';
+import '../../css/d/ddcnpwbke.css';
+import '../../css/b/buss5ybta.css';
+import '../../css/y/yhvuknb0s.css';
+import '../../css/x/xzcw12h9i.css';
+import '../../css/y/y89ufkbrz.css';
+import '../../css/r/rgu52meba.css';
+import '../../css/b/bd927abzn.css';
+import '../../css/d/drr5i17mf.css';
+import '../../css/t/tau4w7-_d.css';
+import '../../css/r/rbc24h96s.css';
+import '../../css/b/b7qbf_bod.css';
+import '../../css/m/m--i_58sv.css';
+import '../../css/u/uk4g-vbnh.css';
+import '../../css/y/y_g_ft1fg.css';
+import '../../css/k/kw-f7bbdu.css';
+import '../../css/s/sb5mf2ogl.css';
+import '../../css/u/uou-jp0ib.css';
+import '../../css/v/vtkugbb7t.css';
+import '../../css/f/faxo3v3uz.css';
+import '../../css/a/a31hfip-a.css';
+import '../../css/m/m-i6iebtu.css';
+import '../../css/a/avoqcybjo.css';
+import '../../css/m/m-roelmit.css';
+import '../../css/b/bkwl10hcd.css';
+import '../../css/k/kfslwdxwc.css';
+import '../../css/g/gerevjbvl.css';
+import '../../css/f/fkf0ujxas.css';
+import '../../css/g/g4hz4tbsr.css';
+import '../../css/r/ryfptpvxz.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ft5dv1b6b"><defs><linearGradient id="SVGnGF63brm" x1="0" x2="1" y1="0" y2="1"><stop offset="0" class="p5_fqnb0s"/><stop offset=".42" class="stui2mbih"/><stop offset=".62" class="c6o1b5b4q"/><stop offset="1" class="gn0r0xsdd"/></linearGradient></defs><path class="dzipmej5f wm-shadow"/><path class="s6wc3r62o wm-shadow"/><path class="k8jko1bmh wm-shadow"/><path class="idvdfybsl wm-k"/><path class="k4_zuq3rj wm-k"/><path class="gsejb5b0c wm-k"/><path class="n_qu4ab5f wm-k"/><path class="wm-k ydex5vomg"/><path class="qt7blcbrg wm-k"/><path class="q-fttx3wg wm-k"/><path class="n9-l63w7f wm-k"/><path fill="url(#SVGnGF63brm)" class="wm-k zubflvbls"/><path class="r1apu8b7g wm-shine"/><path class="wm-shine xfwhtl8hw"/><path class="ij455mbhb wm-shine"/><path class="gntbfnbwr wm-shine"/><path class="d1-aitb0b wm-k"/><path class="va-_hqzei wm-k"/><path class="g0-paxv9r wm-k"/><path class="wm-a yx8-4s1ju"/><path class="oky6zfbcv wm-a"/><path class="n2vxl5xxs wm-a"/><path class="h0qpifb5o wm-a"/><path class="ddcnpwbke wm-a"/><path class="buss5ybta wm-a"/><path class="wm-a yhvuknb0s"/><path class="wm-k xzcw12h9i"/><path class="wm-a y89ufkbrz"/><path fill="url(#SVGnGF63brm)" class="rgu52meba wm-a"/><path class="bd927abzn wm-a"/><path class="drr5i17mf wm-a"/><path class="tau4w7-_d wm-a"/><path class="rbc24h96s wm-a"/><path class="b7qbf_bod wm-a"/><path class="m--i_58sv wm-a"/><path class="uk4g-vbnh wm-a"/><path class="wm-a y_g_ft1fg"/><path class="kw-f7bbdu wm-a"/><path class="sb5mf2ogl wm-a"/><path class="uou-jp0ib wm-a"/><path class="vtkugbb7t wm-a"/><path class="faxo3v3uz wm-a"/><path class="a31hfip-a wm-k"/><path class="m-i6iebtu wm-a"/><path fill="url(#SVGnGF63brm)" class="avoqcybjo wm-a"/><path class="m-roelmit wm-a"/><path class="bkwl10hcd wm-a"/><path class="kfslwdxwc wm-a"/><path class="gerevjbvl wm-a"/><path class="fkf0ujxas wm-a"/><path class="g4hz4tbsr wm-a"/><path class="ryfptpvxz wm-a"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="withicons-soft3d:baseball" /></template>

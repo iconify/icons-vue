@@ -1,0 +1,7 @@
+.offs31eol {
+  stroke: var(--svg-color--1d2130, #1d2130);
+  stroke-linecap: round;
+  stroke-opacity: 0.2;
+  stroke-width: var(--svg-stroke-width--0-22px, 0.22px);
+  d: path("M16.75 5.1v13.71M6.75 4h9m1.4.82v13.71m-10-14.81h9m1.4.82v13.71m-10-14.81h9");
+}

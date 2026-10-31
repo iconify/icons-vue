@@ -1,0 +1,62 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/f/ft5dv1b6b.css';
+import '../../css/w/wqhhqjetx.css';
+import '../../css/a/ajwzcpnah.css';
+import '../../css/c/c6o1b5b4q.css';
+import '../../css/u/uogcbxbhh.css';
+import '../../css/q/q-1wy22xs.css';
+import '../../css/y/yy8sk5bdd.css';
+import '../../css/r/rcftevb9n.css';
+import '../../css/g/goorzcg6s.css';
+import '../../css/k/k6zfjunsz.css';
+import '../../css/w/w33nc1bqk.css';
+import '../../css/q/q05zldbfs.css';
+import '../../css/c/cuxuzjbqu.css';
+import '../../css/i/igeuszixf.css';
+import '../../css/t/tl6i4o4ni.css';
+import '../../css/m/mr41gu77p.css';
+import '../../css/l/lgr4rrb_s.css';
+import '../../css/v/vkc0yf16w.css';
+import '../../css/l/l52sb2bit.css';
+import '../../css/b/bmz1amlju.css';
+import '../../css/h/hri4rgbod.css';
+import '../../css/o/okem35bmm.css';
+import '../../css/o/o23y0_b3s.css';
+import '../../css/d/dz-jr-bzk.css';
+import '../../css/j/j8n3dcbgp.css';
+import '../../css/g/gj1-0totn.css';
+import '../../css/d/ddkh5on9h.css';
+import '../../css/o/onk5wqbqx.css';
+import '../../css/a/ayobyofsb.css';
+import '../../css/h/hzpoq78ih.css';
+import '../../css/u/ueo4ud1sy.css';
+import '../../css/t/tea1_bcgx.css';
+import '../../css/k/k68ls0b9z.css';
+import '../../css/y/y2pc13bxa.css';
+import '../../css/z/ze4580ufv.css';
+import '../../css/v/vrguotb6c.css';
+import '../../css/g/ggflf1buw.css';
+import '../../css/w/w2p6udbsg.css';
+import '../../css/i/ik-bakqby.css';
+import '../../css/y/yk0szqlbw.css';
+import '../../css/z/zcwk21baw.css';
+import '../../css/s/ss77ftbcw.css';
+import '../../css/h/h1mt0ccii.css';
+import '../../css/x/xkypjebou.css';
+import '../../css/c/cnquhmb7m.css';
+import '../../css/o/oo2_jlbhx.css';
+import '../../css/f/fqomcwsgu.css';
+import '../../css/o/o9wl9jtix.css';
+import '../../css/k/k0r1o8bhk.css';
+import '../../css/v/v12-_i8tk.css';
+import '../../css/t/t5v0_23iv.css';
+import '../../css/w/wpmeafbso.css';
+import '../../css/j/jkw0-pb9z.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ft5dv1b6b"><defs><radialGradient id="SVGYwvTGcsJ" cx=".34" cy=".26" r=".92"><stop offset="0" class="wqhhqjetx"/><stop offset=".38" class="ajwzcpnah"/><stop offset=".7" class="c6o1b5b4q"/><stop offset="1" class="uogcbxbhh"/></radialGradient></defs><path class="q-1wy22xs wm-shadow"/><path class="wm-shadow yy8sk5bdd"/><path class="rcftevb9n wm-shadow"/><path class="goorzcg6s wm-k"/><path class="k6zfjunsz wm-k"/><path class="w33nc1bqk wm-k"/><path class="q05zldbfs wm-k"/><path class="cuxuzjbqu wm-k"/><path fill="url(#SVGYwvTGcsJ)" class="igeuszixf wm-k"/><path class="tl6i4o4ni wm-shine"/><path class="mr41gu77p wm-shine"/><path class="lgr4rrb_s wm-shine"/><path class="vkc0yf16w wm-k"/><path class="l52sb2bit wm-k"/><path class="bmz1amlju wm-k"/><path class="hri4rgbod wm-a"/><path class="okem35bmm wm-a"/><path class="o23y0_b3s wm-a"/><path class="dz-jr-bzk wm-a"/><path class="j8n3dcbgp wm-k"/><path class="gj1-0totn wm-a"/><path fill="url(#SVGYwvTGcsJ)" class="ddkh5on9h wm-a"/><path class="onk5wqbqx wm-a"/><path class="ayobyofsb wm-a"/><path class="hzpoq78ih wm-a"/><path class="ueo4ud1sy wm-a"/><path class="tea1_bcgx wm-a"/><path class="k68ls0b9z wm-a"/><path class="wm-a y2pc13bxa"/><path class="wm-a ze4580ufv"/><path class="vrguotb6c wm-a"/><path class="ggflf1buw wm-a"/><path class="w2p6udbsg wm-k"/><path class="ik-bakqby wm-a"/><path fill="url(#SVGYwvTGcsJ)" class="wm-a yk0szqlbw"/><path class="wm-a zcwk21baw"/><path class="ss77ftbcw wm-a"/><path class="h1mt0ccii wm-a"/><path class="wm-a xkypjebou"/><path class="cnquhmb7m wm-a"/><path class="oo2_jlbhx wm-k"/><path class="fqomcwsgu wm-a"/><path fill="url(#SVGYwvTGcsJ)" class="o9wl9jtix wm-a"/><path class="k0r1o8bhk wm-a"/><path class="v12-_i8tk wm-a"/><path class="t5v0_23iv wm-a"/><path class="wm-a wpmeafbso"/><path class="jkw0-pb9z wm-a"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="withicons-soft3d:skull" /></template>

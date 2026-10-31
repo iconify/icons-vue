@@ -1,0 +1,7 @@
+.hchssvrty {
+  stroke: var(--svg-color--2a2226, #2a2226);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--0-42px, 0.42px);
+  d: path("M8.5 9.6h3.1a.7.7 0 0 1 .7.7v.95c0 .8-.6 1.35-1.4 1.35H9.2c-.8 0-1.4-.55-1.4-1.35v-.95a.7.7 0 0 1 .7-.7");
+}

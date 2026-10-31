@@ -1,0 +1,67 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/f/ft5dv1b6b.css';
+import '../../css/p/p5_fqnb0s.css';
+import '../../css/s/stui2mbih.css';
+import '../../css/c/c6o1b5b4q.css';
+import '../../css/g/gn0r0xsdd.css';
+import '../../css/e/e81kh3o3q.css';
+import '../../css/y/ysv32xbdq.css';
+import '../../css/w/wb3uqwb7e.css';
+import '../../css/h/heiixf3iz.css';
+import '../../css/r/rc0bqaccz.css';
+import '../../css/b/bhijh3bpe.css';
+import '../../css/u/uzglk36zi.css';
+import '../../css/h/h9al7nz3q.css';
+import '../../css/q/qrtjk9brn.css';
+import '../../css/y/ygr2kklsg.css';
+import '../../css/f/f2pu-8ztq.css';
+import '../../css/h/hhh4h9b1a.css';
+import '../../css/y/yzr1mhb_l.css';
+import '../../css/t/ttqkq5b9h.css';
+import '../../css/h/hkc1q2bun.css';
+import '../../css/q/qsklahb1n.css';
+import '../../css/g/gdhk839rg.css';
+import '../../css/w/wjpa6hber.css';
+import '../../css/g/gcsycla2s.css';
+import '../../css/a/a-w4buubd.css';
+import '../../css/p/p1qzg99zf.css';
+import '../../css/i/igtun_bga.css';
+import '../../css/r/rqd8xpbrz.css';
+import '../../css/m/mphasyzup.css';
+import '../../css/o/olynsbbcv.css';
+import '../../css/t/tmj_xub6c.css';
+import '../../css/m/mmxu6hb6w.css';
+import '../../css/r/r7z87gbqw.css';
+import '../../css/p/pw3w8ob8d.css';
+import '../../css/e/ea1g5bclg.css';
+import '../../css/f/fjk8scbui.css';
+import '../../css/v/vu436qamj.css';
+import '../../css/b/b432rabkk.css';
+import '../../css/c/c8bigfbkk.css';
+import '../../css/x/x8l3gxboc.css';
+import '../../css/f/fjlbich4y.css';
+import '../../css/j/j4qe43bdw.css';
+import '../../css/f/fx3sk9btd.css';
+import '../../css/b/b99v806wj.css';
+import '../../css/s/spgbplwrv.css';
+import '../../css/y/y28emjb8k.css';
+import '../../css/g/g2l-z24xq.css';
+import '../../css/b/bbenuxusn.css';
+import '../../css/c/c-vv7q41k.css';
+import '../../css/b/b7bjccb-o.css';
+import '../../css/a/a38x99geu.css';
+import '../../css/l/llc9n7bgm.css';
+import '../../css/z/zdbccyuyx.css';
+import '../../css/p/pql09_a9p.css';
+import '../../css/g/go11nxyat.css';
+import '../../css/q/qau9_gc7e.css';
+import '../../css/k/kj-lkh3jx.css';
+import '../../css/v/v4brz_b6k.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ft5dv1b6b"><defs><linearGradient id="SVGnGF63brm" x1="0" x2="1" y1="0" y2="1"><stop offset="0" class="p5_fqnb0s"/><stop offset=".42" class="stui2mbih"/><stop offset=".62" class="c6o1b5b4q"/><stop offset="1" class="gn0r0xsdd"/></linearGradient></defs><path class="e81kh3o3q wm-shadow"/><path class="wm-shadow ysv32xbdq"/><path class="wb3uqwb7e wm-shadow"/><path class="heiixf3iz wm-k"/><path class="rc0bqaccz wm-k"/><path class="bhijh3bpe wm-k"/><path class="uzglk36zi wm-k"/><path class="h9al7nz3q wm-k"/><path class="qrtjk9brn wm-k"/><path class="wm-k ygr2kklsg"/><path class="f2pu-8ztq wm-k"/><path fill="url(#SVGnGF63brm)" class="hhh4h9b1a wm-k"/><path class="wm-shine yzr1mhb_l"/><path class="ttqkq5b9h wm-shine"/><path class="hkc1q2bun wm-shine"/><path class="qsklahb1n wm-shine"/><path class="gdhk839rg wm-k"/><path class="wjpa6hber wm-k"/><path class="gcsycla2s wm-k"/><path class="a-w4buubd wm-a"/><path class="p1qzg99zf wm-a"/><path class="igtun_bga wm-a"/><path class="rqd8xpbrz wm-a"/><path class="mphasyzup wm-a"/><path fill="url(#SVGnGF63brm)" class="olynsbbcv wm-a"/><path class="tmj_xub6c wm-a"/><path class="mmxu6hb6w wm-a"/><path class="r7z87gbqw wm-a"/><path class="pw3w8ob8d wm-a"/><path class="ea1g5bclg wm-a"/><path class="fjk8scbui wm-a"/><path class="vu436qamj wm-a"/><path class="b432rabkk wm-a"/><path class="c8bigfbkk wm-a"/><path class="wm-a x8l3gxboc"/><path class="fjlbich4y wm-a"/><path fill="url(#SVGnGF63brm)" class="j4qe43bdw wm-a"/><path class="fx3sk9btd wm-a"/><path class="b99v806wj wm-a"/><path class="spgbplwrv wm-a"/><path class="wm-a y28emjb8k"/><path class="g2l-z24xq wm-a"/><path class="bbenuxusn wm-a"/><path class="c-vv7q41k wm-a"/><path class="b7bjccb-o wm-a"/><path class="a38x99geu wm-a"/><path class="llc9n7bgm wm-k"/><path class="wm-a zdbccyuyx"/><path fill="url(#SVGnGF63brm)" class="pql09_a9p wm-a"/><path class="go11nxyat wm-a"/><path class="qau9_gc7e wm-a"/><path class="kj-lkh3jx wm-a"/><path class="v4brz_b6k wm-a"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="withicons-soft3d:timer-reset" /></template>

@@ -1,0 +1,7 @@
+.hl_vvdboj {
+  stroke: var(--svg-color--fff, #fff);
+  stroke-linejoin: round;
+  stroke-opacity: 0.57;
+  stroke-width: var(--svg-stroke-width--0-4px, 0.4px);
+  d: path("m2.97 5.35l.16-.29m.14-.07l.44.17m7.79 11.48l.21-.23m.22-.04l.56.27");
+}

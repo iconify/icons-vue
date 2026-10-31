@@ -1,0 +1,63 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/f/ft5dv1b6b.css';
+import '../../css/p/p5_fqnb0s.css';
+import '../../css/s/stui2mbih.css';
+import '../../css/c/c6o1b5b4q.css';
+import '../../css/g/gn0r0xsdd.css';
+import '../../css/l/lzww0kzvy.css';
+import '../../css/f/fuhfgjbkt.css';
+import '../../css/d/d0_j8lbyk.css';
+import '../../css/m/mbyaakb-s.css';
+import '../../css/e/e_oogbbjx.css';
+import '../../css/s/s-lnnabgm.css';
+import '../../css/g/gn545s4ja.css';
+import '../../css/f/f6l_3_45q.css';
+import '../../css/j/j5l6zrbbg.css';
+import '../../css/d/dyk6rpp2y.css';
+import '../../css/l/lq63x8b3y.css';
+import '../../css/f/f1-eogbvh.css';
+import '../../css/p/pqmmwab_l.css';
+import '../../css/h/h7ko_6bmq.css';
+import '../../css/g/gmyy-bcib.css';
+import '../../css/k/k15unbclt.css';
+import '../../css/m/mej0kcmjj.css';
+import '../../css/t/trokdtbqa.css';
+import '../../css/a/a8f2-rs1n.css';
+import '../../css/i/isxdk4bse.css';
+import '../../css/i/iwpu7y5is.css';
+import '../../css/x/x5y7wuwvi.css';
+import '../../css/t/tx5ahl0mm.css';
+import '../../css/c/c3ly0l7pl.css';
+import '../../css/t/t5rqnibhz.css';
+import '../../css/t/tuq6pnj6z.css';
+import '../../css/r/rvlp1i-_y.css';
+import '../../css/v/v_r5pv96a.css';
+import '../../css/h/h43x08g0g.css';
+import '../../css/v/vumgplb6m.css';
+import '../../css/e/e56gp2cyp.css';
+import '../../css/b/bb2rhnb5j.css';
+import '../../css/f/f6rqj2tko.css';
+import '../../css/e/eoiwtowfq.css';
+import '../../css/u/uzz2udksd.css';
+import '../../css/h/hbsc42brk.css';
+import '../../css/w/we1q5vb_t.css';
+import '../../css/g/gz3jtdlui.css';
+import '../../css/b/bg0tu1qgr.css';
+import '../../css/k/kmr3obc_b.css';
+import '../../css/q/qjkpkf-jn.css';
+import '../../css/k/kmbsf3c-e.css';
+import '../../css/i/ikulvxn0u.css';
+import '../../css/f/f4hh0ebkr.css';
+import '../../css/k/k829avb5l.css';
+import '../../css/x/xpuaj7wfb.css';
+import '../../css/o/oj8juubkt.css';
+import '../../css/p/plbojeqsz.css';
+import '../../css/z/zhm38q_ea.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ft5dv1b6b"><defs><linearGradient id="SVGnGF63brm" x1="0" x2="1" y1="0" y2="1"><stop offset="0" class="p5_fqnb0s"/><stop offset=".42" class="stui2mbih"/><stop offset=".62" class="c6o1b5b4q"/><stop offset="1" class="gn0r0xsdd"/></linearGradient><linearGradient id="SVG0EV9Qc9a" x1="0" x2=".4" y1="0" y2="1"><stop offset="0" class="lzww0kzvy"/><stop offset="1" class="fuhfgjbkt"/></linearGradient></defs><path class="d0_j8lbyk wm-shadow"/><path class="mbyaakb-s wm-shadow"/><path class="e_oogbbjx wm-shadow"/><path class="s-lnnabgm wm-k"/><path class="gn545s4ja wm-k"/><path class="f6l_3_45q wm-k"/><path class="j5l6zrbbg wm-k"/><path class="dyk6rpp2y wm-k"/><path class="lq63x8b3y wm-k"/><path class="f1-eogbvh wm-k"/><path class="pqmmwab_l wm-k"/><path fill="url(#SVGnGF63brm)" class="h7ko_6bmq wm-k"/><path class="gmyy-bcib wm-shine"/><path class="k15unbclt wm-shine"/><path class="mej0kcmjj wm-shine"/><path class="trokdtbqa wm-shine"/><path class="a8f2-rs1n wm-k"/><path class="isxdk4bse wm-k"/><path class="iwpu7y5is wm-k"/><path class="wm-a x5y7wuwvi"/><path class="tx5ahl0mm wm-a"/><path class="c3ly0l7pl wm-a"/><path class="t5rqnibhz wm-a"/><path class="tuq6pnj6z wm-a"/><path class="rvlp1i-_y wm-a"/><path class="v_r5pv96a wm-a"/><path class="h43x08g0g wm-k"/><path class="vumgplb6m wm-a"/><path fill="url(#SVGnGF63brm)" class="e56gp2cyp wm-a"/><path class="bb2rhnb5j wm-a"/><path class="f6rqj2tko wm-a"/><path class="eoiwtowfq wm-a"/><path class="uzz2udksd wm-a"/><path class="hbsc42brk wm-a"/><path class="we1q5vb_t wm-a"/><path class="gz3jtdlui wm-a"/><path class="bg0tu1qgr wm-a"/><path fill="url(#SVG0EV9Qc9a)" class="kmr3obc_b wm-a"/><path class="qjkpkf-jn wm-shine"/><path class="kmbsf3c-e wm-s"/><path class="ikulvxn0u wm-s"/><path class="f4hh0ebkr wm-s"/><path class="k829avb5l wm-s"/><path fill="url(#SVGnGF63brm)" class="wm-s xpuaj7wfb"/><path class="oj8juubkt wm-s"/><path class="plbojeqsz wm-s"/><path class="wm-s zhm38q_ea"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="withicons-soft3d:camera-off" /></template>

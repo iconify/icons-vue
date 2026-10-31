@@ -1,0 +1,8 @@
+.hoycjdbom {
+  stroke: var(--svg-color--1d2130, #1d2130);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-opacity: 0.25;
+  stroke-width: var(--svg-stroke-width--0-6px, 0.6px);
+  d: path("M21.2 6.5v11.3A2.2 2.2 0 0 1 19 20H8.4");
+}

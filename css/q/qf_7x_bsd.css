@@ -1,0 +1,8 @@
+.qf_7x_bsd {
+  stroke: var(--svg-color--fff, #fff);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-opacity: 0.7;
+  stroke-width: var(--svg-stroke-width--0-4px, 0.4px);
+  d: path("M8.1 5.1V7m0 5.7v3.9");
+}

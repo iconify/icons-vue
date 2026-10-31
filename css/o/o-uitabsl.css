@@ -1,0 +1,7 @@
+.o-uitabsl {
+  stroke: var(--svg-color--fff, #fff);
+  stroke-linejoin: round;
+  stroke-opacity: 0.57;
+  stroke-width: var(--svg-stroke-width--0-37px, 0.37px);
+  d: path("M8.3 12.5c.3-.38.13-.28.45-.4m.08-.13c.31-.39.26-.37.74-.44m1.45-2.34c.24-.27.35-.43.74-.39m.3.08l.39-.08m.9 3.77c.5-.61.61-1.02 1.34-1.03");
+}

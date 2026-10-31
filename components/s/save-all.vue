@@ -1,0 +1,62 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/f/ft5dv1b6b.css';
+import '../../css/w/wqhhqjetx.css';
+import '../../css/a/ajwzcpnah.css';
+import '../../css/c/c6o1b5b4q.css';
+import '../../css/u/uogcbxbhh.css';
+import '../../css/q/qwj8wsbkk.css';
+import '../../css/a/av0notban.css';
+import '../../css/h/h9dyuobvu.css';
+import '../../css/e/ekqw-3bmt.css';
+import '../../css/d/dx3js80cb.css';
+import '../../css/i/i2qyejb0w.css';
+import '../../css/c/cpmc3jbvx.css';
+import '../../css/z/zmthd1a6f.css';
+import '../../css/m/mjz697cpg.css';
+import '../../css/l/l81a1kbsr.css';
+import '../../css/v/vz7nrgblo.css';
+import '../../css/h/h49gycb2x.css';
+import '../../css/i/i0scrtbph.css';
+import '../../css/k/kaahpbc1f.css';
+import '../../css/y/ysqau7bgn.css';
+import '../../css/k/kks4e2bqq.css';
+import '../../css/c/cvy9_2niy.css';
+import '../../css/k/kg5eu4bvz.css';
+import '../../css/g/gr36ibfte.css';
+import '../../css/y/ysapyhbxy.css';
+import '../../css/m/mdtc1p_1n.css';
+import '../../css/z/zlaox90ny.css';
+import '../../css/n/nh3hojf0r.css';
+import '../../css/d/d5kqtke0i.css';
+import '../../css/l/lddhj-bxl.css';
+import '../../css/m/m7laa04cq.css';
+import '../../css/n/ndp4chltb.css';
+import '../../css/x/xr0sfkbhg.css';
+import '../../css/v/v2_og3b7u.css';
+import '../../css/o/onbs1xb_i.css';
+import '../../css/y/y4j7s-czs.css';
+import '../../css/o/one3yd_mh.css';
+import '../../css/z/zut1mupej.css';
+import '../../css/p/pze1vxb0g.css';
+import '../../css/x/x_enp3bqs.css';
+import '../../css/g/g_veddlls.css';
+import '../../css/u/ubge3kk6q.css';
+import '../../css/x/xdctfrb-g.css';
+import '../../css/m/m206n2bvg.css';
+import '../../css/t/tej28ls1f.css';
+import '../../css/v/v80-gqz2o.css';
+import '../../css/u/u30t9bqdd.css';
+import '../../css/r/rajwe9xtx.css';
+import '../../css/o/or8_7xuqe.css';
+import '../../css/b/brvbc7r3k.css';
+import '../../css/o/o7zi9ibrm.css';
+import '../../css/v/var7acm4l.css';
+import '../../css/e/e1h5w6bzf.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ft5dv1b6b"><defs><radialGradient id="SVGYwvTGcsJ" cx=".34" cy=".26" r=".92"><stop offset="0" class="wqhhqjetx"/><stop offset=".38" class="ajwzcpnah"/><stop offset=".7" class="c6o1b5b4q"/><stop offset="1" class="uogcbxbhh"/></radialGradient></defs><path class="qwj8wsbkk wm-shadow"/><path class="av0notban wm-shadow"/><path class="h9dyuobvu wm-shadow"/><path class="ekqw-3bmt wm-k"/><path class="dx3js80cb wm-k"/><path class="i2qyejb0w wm-k"/><path class="cpmc3jbvx wm-k"/><path fill="url(#SVGYwvTGcsJ)" class="wm-k zmthd1a6f"/><path class="mjz697cpg wm-shine"/><path class="l81a1kbsr wm-shine"/><path class="vz7nrgblo wm-shine"/><path class="h49gycb2x wm-k"/><path class="i0scrtbph wm-k"/><path class="kaahpbc1f wm-k"/><path class="wm-a ysqau7bgn"/><path class="kks4e2bqq wm-a"/><path class="cvy9_2niy wm-a"/><path class="kg5eu4bvz wm-a"/><path fill="url(#SVGYwvTGcsJ)" class="gr36ibfte wm-a"/><path class="wm-a ysapyhbxy"/><path class="mdtc1p_1n wm-a"/><path class="wm-a zlaox90ny"/><path class="nh3hojf0r wm-a"/><path class="d5kqtke0i wm-a"/><path class="lddhj-bxl wm-a"/><path class="m7laa04cq wm-a"/><path class="ndp4chltb wm-a"/><path class="wm-k xr0sfkbhg"/><path class="v2_og3b7u wm-a"/><path fill="url(#SVGYwvTGcsJ)" class="onbs1xb_i wm-a"/><path class="wm-a y4j7s-czs"/><path class="one3yd_mh wm-a"/><path class="wm-a zut1mupej"/><path class="pze1vxb0g wm-a"/><path class="wm-a x_enp3bqs"/><path class="g_veddlls wm-a"/><path class="ubge3kk6q wm-a"/><path class="wm-a xdctfrb-g"/><path class="m206n2bvg wm-a"/><path class="tej28ls1f wm-k"/><path class="v80-gqz2o wm-a"/><path fill="url(#SVGYwvTGcsJ)" class="u30t9bqdd wm-a"/><path class="rajwe9xtx wm-a"/><path class="or8_7xuqe wm-a"/><path class="brvbc7r3k wm-a"/><path class="o7zi9ibrm wm-a"/><path class="var7acm4l wm-a"/><path class="e1h5w6bzf wm-a"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="withicons-soft3d:save-all" /></template>

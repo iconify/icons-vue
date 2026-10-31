@@ -1,0 +1,62 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/f/ft5dv1b6b.css';
+import '../../css/p/p5_fqnb0s.css';
+import '../../css/s/stui2mbih.css';
+import '../../css/c/c6o1b5b4q.css';
+import '../../css/g/gn0r0xsdd.css';
+import '../../css/y/y2t4ebkgz.css';
+import '../../css/y/ygtdg705s.css';
+import '../../css/w/wa0f11e6w.css';
+import '../../css/h/huidlgwhl.css';
+import '../../css/n/nfd3qx8oc.css';
+import '../../css/l/lol2nm7jv.css';
+import '../../css/w/wcxdp7bae.css';
+import '../../css/a/adrzvrbjq.css';
+import '../../css/s/s369dlhpa.css';
+import '../../css/c/cj_hu75fe.css';
+import '../../css/a/ab2kmtb5i.css';
+import '../../css/f/fl4r51g6i.css';
+import '../../css/u/utolei0bz.css';
+import '../../css/i/io36jobtk.css';
+import '../../css/y/ye04-9b5k.css';
+import '../../css/m/mwgk5-auh.css';
+import '../../css/y/y4xi8gs6u.css';
+import '../../css/z/zj3b7wb2r.css';
+import '../../css/u/uqv-z3fnu.css';
+import '../../css/y/y0_c6tbmf.css';
+import '../../css/k/kybrhab0f.css';
+import '../../css/d/d7jp7l7po.css';
+import '../../css/c/c4_5h86yn.css';
+import '../../css/d/d3si547vz.css';
+import '../../css/t/t1b9vabtt.css';
+import '../../css/m/mqrchccnv.css';
+import '../../css/z/zrn-e0aeq.css';
+import '../../css/g/gg_yyr32c.css';
+import '../../css/e/e22kafb2m.css';
+import '../../css/e/er72ufb_q.css';
+import '../../css/x/xyj8llu3w.css';
+import '../../css/e/eeps3gb3z.css';
+import '../../css/y/ytni6tb8c.css';
+import '../../css/g/g3yxeq5hw.css';
+import '../../css/w/w5qkd4zqk.css';
+import '../../css/l/l8-9jxbxr.css';
+import '../../css/p/pg7vp8bvt.css';
+import '../../css/o/o7n-9sbjk.css';
+import '../../css/g/g2l1pibpj.css';
+import '../../css/x/x2wr4qblz.css';
+import '../../css/q/q6ekfcygs.css';
+import '../../css/x/xwidm5sth.css';
+import '../../css/z/zialbmyvb.css';
+import '../../css/o/otmfcdcuw.css';
+import '../../css/k/kjxb6_bwg.css';
+import '../../css/p/pgrozlb3k.css';
+import '../../css/w/wmiziwbzz.css';
+import '../../css/b/b9s95abka.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ft5dv1b6b"><defs><linearGradient id="SVGnGF63brm" x1="0" x2="1" y1="0" y2="1"><stop offset="0" class="p5_fqnb0s"/><stop offset=".42" class="stui2mbih"/><stop offset=".62" class="c6o1b5b4q"/><stop offset="1" class="gn0r0xsdd"/></linearGradient></defs><path class="wm-shadow y2t4ebkgz"/><path class="wm-shadow ygtdg705s"/><path class="wa0f11e6w wm-shadow"/><path class="huidlgwhl wm-k"/><path class="nfd3qx8oc wm-k"/><path class="lol2nm7jv wm-k"/><path class="wcxdp7bae wm-k"/><path class="adrzvrbjq wm-k"/><path class="s369dlhpa wm-k"/><path class="cj_hu75fe wm-k"/><path class="ab2kmtb5i wm-k"/><path fill="url(#SVGnGF63brm)" class="fl4r51g6i wm-k"/><path class="utolei0bz wm-shine"/><path class="io36jobtk wm-shine"/><path class="wm-shine ye04-9b5k"/><path class="mwgk5-auh wm-k"/><path class="wm-k y4xi8gs6u"/><path class="wm-k zj3b7wb2r"/><path class="uqv-z3fnu wm-a"/><path class="wm-a y0_c6tbmf"/><path class="kybrhab0f wm-a"/><path class="d7jp7l7po wm-a"/><path class="c4_5h86yn wm-a"/><path fill="url(#SVGnGF63brm)" class="d3si547vz wm-a"/><path class="t1b9vabtt wm-a"/><path class="mqrchccnv wm-a"/><path class="wm-a zrn-e0aeq"/><path class="gg_yyr32c wm-a"/><path class="e22kafb2m wm-a"/><path class="er72ufb_q wm-a"/><path class="wm-a xyj8llu3w"/><path class="eeps3gb3z wm-a"/><path class="wm-a ytni6tb8c"/><path class="g3yxeq5hw wm-a"/><path class="w5qkd4zqk wm-a"/><path fill="url(#SVGnGF63brm)" class="l8-9jxbxr wm-a"/><path class="pg7vp8bvt wm-a"/><path class="o7n-9sbjk wm-a"/><path class="g2l1pibpj wm-a"/><path class="wm-a x2wr4qblz"/><path class="q6ekfcygs wm-s"/><path class="wm-s xwidm5sth"/><path class="wm-s zialbmyvb"/><path class="otmfcdcuw wm-s"/><path fill="url(#SVGnGF63brm)" class="kjxb6_bwg wm-s"/><path class="pgrozlb3k wm-s"/><path class="wm-s wmiziwbzz"/><path class="b9s95abka wm-s"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="withicons-soft3d:timer-off" /></template>

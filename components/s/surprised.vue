@@ -1,0 +1,64 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/f/ft5dv1b6b.css';
+import '../../css/w/wqhhqjetx.css';
+import '../../css/a/ajwzcpnah.css';
+import '../../css/c/c6o1b5b4q.css';
+import '../../css/u/uogcbxbhh.css';
+import '../../css/p/pps9lyb1f.css';
+import '../../css/m/mf54i2eal.css';
+import '../../css/n/ncmh1mc8x.css';
+import '../../css/e/elcjm_c-c.css';
+import '../../css/c/c6y_k0m7r.css';
+import '../../css/q/qjmnrfb8n.css';
+import '../../css/v/vz2s66meo.css';
+import '../../css/p/p9hqv8bwk.css';
+import '../../css/r/rbvjsmwmj.css';
+import '../../css/h/h91pnzble.css';
+import '../../css/x/xd3r20age.css';
+import '../../css/u/uvhwcs9ad.css';
+import '../../css/i/ifrouxjfa.css';
+import '../../css/q/qqq4zpb5a.css';
+import '../../css/r/rnzpu1-5r.css';
+import '../../css/k/krux40jnj.css';
+import '../../css/u/u2rl4soct.css';
+import '../../css/v/val2eyb-x.css';
+import '../../css/w/wfqw5rgyz.css';
+import '../../css/x/x-pawrk4h.css';
+import '../../css/a/ahp-_yb0v.css';
+import '../../css/y/yvzv965tz.css';
+import '../../css/c/cvggbhhli.css';
+import '../../css/g/gbfjt2bec.css';
+import '../../css/c/c8afpu4ik.css';
+import '../../css/e/ey-o26ble.css';
+import '../../css/g/gdizlzb_m.css';
+import '../../css/r/rh4ko8bfh.css';
+import '../../css/m/mgz-4jb3p.css';
+import '../../css/q/q9or15bfd.css';
+import '../../css/m/mv5m7b99g.css';
+import '../../css/s/scucqubqf.css';
+import '../../css/y/yu181qb3l.css';
+import '../../css/a/aq7dvqr0c.css';
+import '../../css/v/vuazvp7rq.css';
+import '../../css/t/tm5b9qbiu.css';
+import '../../css/y/yc9djf62v.css';
+import '../../css/e/eeyvqsbgf.css';
+import '../../css/v/vt9b9ib2i.css';
+import '../../css/s/sw1jofbff.css';
+import '../../css/n/n9-703b8o.css';
+import '../../css/p/p_9a2kous.css';
+import '../../css/i/ihtaomb3s.css';
+import '../../css/q/q_ycr022y.css';
+import '../../css/h/hb9ii_bmm.css';
+import '../../css/v/vt0s78h8x.css';
+import '../../css/w/wk-wiybnw.css';
+import '../../css/j/j1ucqs_xi.css';
+import '../../css/p/pq3_p3npl.css';
+import '../../css/s/sh8jzxhge.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ft5dv1b6b"><defs><radialGradient id="SVGYwvTGcsJ" cx=".34" cy=".26" r=".92"><stop offset="0" class="wqhhqjetx"/><stop offset=".38" class="ajwzcpnah"/><stop offset=".7" class="c6o1b5b4q"/><stop offset="1" class="uogcbxbhh"/></radialGradient></defs><path class="pps9lyb1f wm-shadow"/><path class="mf54i2eal wm-shadow"/><path class="ncmh1mc8x wm-shadow"/><path class="elcjm_c-c wm-k"/><path class="c6y_k0m7r wm-k"/><path class="qjmnrfb8n wm-k"/><path class="vz2s66meo wm-k"/><path class="p9hqv8bwk wm-k"/><path fill="url(#SVGYwvTGcsJ)" class="rbvjsmwmj wm-k"/><path class="h91pnzble wm-shine"/><path class="wm-shine xd3r20age"/><path class="uvhwcs9ad wm-shine"/><path class="ifrouxjfa wm-k"/><path class="qqq4zpb5a wm-k"/><path class="rnzpu1-5r wm-k"/><path class="krux40jnj wm-a"/><path class="u2rl4soct wm-a"/><path class="val2eyb-x wm-a"/><path class="wfqw5rgyz wm-a"/><path class="wm-k x-pawrk4h"/><path class="ahp-_yb0v wm-a"/><path fill="url(#SVGYwvTGcsJ)" class="wm-a yvzv965tz"/><path class="cvggbhhli wm-a"/><path class="gbfjt2bec wm-a"/><path class="c8afpu4ik wm-a"/><path class="ey-o26ble wm-a"/><path class="gdizlzb_m wm-a"/><path class="rh4ko8bfh wm-a"/><path class="mgz-4jb3p wm-a"/><path class="q9or15bfd wm-a"/><path class="mv5m7b99g wm-a"/><path class="scucqubqf wm-a"/><path class="wm-k yu181qb3l"/><path class="aq7dvqr0c wm-a"/><path fill="url(#SVGYwvTGcsJ)" class="vuazvp7rq wm-a"/><path class="tm5b9qbiu wm-a"/><path class="wm-a yc9djf62v"/><path class="eeyvqsbgf wm-a"/><path class="vt9b9ib2i wm-a"/><path class="sw1jofbff wm-a"/><path class="n9-703b8o wm-a"/><path class="p_9a2kous wm-a"/><path class="ihtaomb3s wm-k"/><path class="q_ycr022y wm-a"/><path fill="url(#SVGYwvTGcsJ)" class="hb9ii_bmm wm-a"/><path class="vt0s78h8x wm-a"/><path class="wk-wiybnw wm-a"/><path class="j1ucqs_xi wm-a"/><path class="pq3_p3npl wm-a"/><path class="sh8jzxhge wm-a"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="withicons-soft3d:surprised" /></template>

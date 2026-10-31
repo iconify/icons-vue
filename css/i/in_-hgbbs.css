@@ -1,0 +1,7 @@
+.in_-hgbbs {
+  stroke: var(--svg-color--fff, #fff);
+  stroke-linejoin: round;
+  stroke-opacity: 0.57;
+  stroke-width: var(--svg-stroke-width--0-4px, 0.4px);
+  d: path("M11.7 14.36c.5-.97 1.22-1.75 2.34-1.97c.23-.03.46-.06.7-.08m1.51-10.02h2.11m-3.8 16.01c.96 0 1.75-.32 2.36-1.09c.26-.32.3-.55.45-.95");
+}

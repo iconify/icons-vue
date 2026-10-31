@@ -1,0 +1,8 @@
+.nl3dotbrc {
+  stroke: var(--svg-color--1d2130, #1d2130);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-opacity: 0.4;
+  stroke-width: var(--svg-stroke-width--0-4px, 0.4px);
+  d: path("m3.6 13.45l4-2.3m1 2.3l4-2.3m4-5.75h3.8");
+}

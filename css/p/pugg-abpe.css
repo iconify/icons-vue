@@ -1,0 +1,7 @@
+.pugg-abpe {
+  stroke: var(--svg-color--eef1f5, #eef1f5);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2-4px, 2.4px);
+  d: path("M16 10.75c4.6-.5 5.1 6.65 0 6.25");
+}

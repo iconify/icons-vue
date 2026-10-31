@@ -1,0 +1,7 @@
+.guiisjtba {
+  stroke: var(--svg-color--fff, #fff);
+  stroke-linejoin: round;
+  stroke-opacity: 0.57;
+  stroke-width: var(--svg-stroke-width--0-4px, 0.4px);
+  d: path("M11.31 11.64c.23-.68.2-.72.57-1.33c.85-1.41 2.42-2.01 4-1.97m-.68 7.97c1.33 0 2.45-.42 3.28-1.49c.32-.41.38-.66.56-1.13");
+}

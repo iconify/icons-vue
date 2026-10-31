@@ -1,0 +1,7 @@
+.dfuxmbbar {
+  stroke: var(--svg-color--fff, #fff);
+  stroke-linejoin: round;
+  stroke-opacity: 0.57;
+  stroke-width: var(--svg-stroke-width--0-62px, 0.62px);
+  d: path("M15.25 6.96c-1.03-.43-.6-.44-1.22-.35m-2-2.42c-.9-.26-.48-.2-1.25-.23m-1.12.81l-.55-.1m-.18-.69c-.62-.27-.94-.4-1.6-.37m-.7.26c-.4.32-.6.57-.84 1.02m-.4.48l-.32-.02m-1.33.47C2.85 6.43 2.48 7.04 2.02 8");
+}

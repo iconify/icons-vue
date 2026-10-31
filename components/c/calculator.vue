@@ -1,0 +1,62 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/f/ft5dv1b6b.css';
+import '../../css/p/p5_fqnb0s.css';
+import '../../css/s/stui2mbih.css';
+import '../../css/c/c6o1b5b4q.css';
+import '../../css/g/gn0r0xsdd.css';
+import '../../css/r/rqaue3bqs.css';
+import '../../css/q/q15jv7zdn.css';
+import '../../css/b/b_23im52u.css';
+import '../../css/a/ai520jbfl.css';
+import '../../css/x/x3s4wp14s.css';
+import '../../css/k/kw1nydc6n.css';
+import '../../css/f/f1xc-hbsw.css';
+import '../../css/y/yedbb76xl.css';
+import '../../css/s/sf6ktfc0c.css';
+import '../../css/f/fdp8xfyal.css';
+import '../../css/j/j4-6m2o0o.css';
+import '../../css/f/ftuymdb_q.css';
+import '../../css/l/ln1ygsb_e.css';
+import '../../css/u/uwr3qzbjh.css';
+import '../../css/u/u4974hbtb.css';
+import '../../css/y/yzpxl6b-f.css';
+import '../../css/c/c58x2lbct.css';
+import '../../css/r/r0cj4y4ba.css';
+import '../../css/r/rcm0wismq.css';
+import '../../css/g/ghawg0vdy.css';
+import '../../css/l/lrz-cb42j.css';
+import '../../css/b/bxxc1ibuf.css';
+import '../../css/l/l8j1k1buq.css';
+import '../../css/w/waibltttd.css';
+import '../../css/t/tprh859dd.css';
+import '../../css/c/c_dlmobml.css';
+import '../../css/d/dvjdrsb6i.css';
+import '../../css/u/u7ojjpbcj.css';
+import '../../css/w/wncsimbdk.css';
+import '../../css/o/o-1f1acgl.css';
+import '../../css/t/t_a_46nfk.css';
+import '../../css/q/q91-jwjff.css';
+import '../../css/a/aqufr20ni.css';
+import '../../css/r/rjnx-lbkv.css';
+import '../../css/z/zg-6uhb4e.css';
+import '../../css/g/gq0l3nbou.css';
+import '../../css/k/kd4fn0kcp.css';
+import '../../css/u/ukpzdx_xd.css';
+import '../../css/m/m126201zm.css';
+import '../../css/c/cvqid9irv.css';
+import '../../css/m/m9z194idz.css';
+import '../../css/u/up1p2wblw.css';
+import '../../css/j/jihrx3i-w.css';
+import '../../css/s/stviuxbun.css';
+import '../../css/b/bx4yhckxc.css';
+import '../../css/o/ozb_cbctc.css';
+import '../../css/d/dohf2pbci.css';
+import '../../css/e/e_j0f829j.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ft5dv1b6b"><defs><linearGradient id="SVGnGF63brm" x1="0" x2="1" y1="0" y2="1"><stop offset="0" class="p5_fqnb0s"/><stop offset=".42" class="stui2mbih"/><stop offset=".62" class="c6o1b5b4q"/><stop offset="1" class="gn0r0xsdd"/></linearGradient></defs><path class="rqaue3bqs wm-shadow"/><path class="q15jv7zdn wm-shadow"/><path class="b_23im52u wm-shadow"/><path class="ai520jbfl wm-k"/><path class="wm-k x3s4wp14s"/><path class="kw1nydc6n wm-k"/><path class="f1xc-hbsw wm-k"/><path class="wm-k yedbb76xl"/><path class="sf6ktfc0c wm-k"/><path class="fdp8xfyal wm-k"/><path fill="url(#SVGnGF63brm)" class="j4-6m2o0o wm-k"/><path class="ftuymdb_q wm-shine"/><path class="ln1ygsb_e wm-shine"/><path class="uwr3qzbjh wm-shine"/><path class="u4974hbtb wm-shine"/><path class="wm-k yzpxl6b-f"/><path class="c58x2lbct wm-k"/><path class="r0cj4y4ba wm-k"/><path class="rcm0wismq wm-a"/><path class="ghawg0vdy wm-a"/><path class="lrz-cb42j wm-a"/><path class="bxxc1ibuf wm-a"/><path class="l8j1k1buq wm-a"/><path class="waibltttd wm-a"/><path class="tprh859dd wm-k"/><path class="c_dlmobml wm-a"/><path fill="url(#SVGnGF63brm)" class="dvjdrsb6i wm-a"/><path class="u7ojjpbcj wm-a"/><path class="wm-a wncsimbdk"/><path class="o-1f1acgl wm-a"/><path class="t_a_46nfk wm-a"/><path class="q91-jwjff wm-a"/><path class="aqufr20ni wm-a"/><path class="rjnx-lbkv wm-a"/><path class="wm-a zg-6uhb4e"/><path class="gq0l3nbou wm-a"/><path class="kd4fn0kcp wm-a"/><path class="ukpzdx_xd wm-a"/><path class="m126201zm wm-a"/><path class="cvqid9irv wm-a"/><path class="m9z194idz wm-k"/><path class="up1p2wblw wm-a"/><path fill="url(#SVGnGF63brm)" class="jihrx3i-w wm-a"/><path class="stviuxbun wm-a"/><path class="bx4yhckxc wm-a"/><path class="ozb_cbctc wm-a"/><path class="dohf2pbci wm-a"/><path class="e_j0f829j wm-a"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="withicons-soft3d:calculator" /></template>

@@ -1,0 +1,8 @@
+.qrku-ubtn {
+  stroke: var(--svg-color--fff, #fff);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-opacity: 0.8;
+  stroke-width: var(--svg-stroke-width--0-35px, 0.35px);
+  d: path("M11 11c.3-.3.7-.35 1-.2");
+}

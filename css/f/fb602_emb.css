@@ -1,0 +1,8 @@
+.fb602_emb {
+  stroke: var(--svg-color--1d2130, #1d2130);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-opacity: 0.3;
+  stroke-width: var(--svg-stroke-width--1-1px, 1.1px);
+  d: path("m9.35 7.9l4.4 9l4.2-8.7m-8.6 8.7l4.4-9l4.2 8.7");
+}

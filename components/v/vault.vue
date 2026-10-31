@@ -1,0 +1,68 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/f/ft5dv1b6b.css';
+import '../../css/p/p5_fqnb0s.css';
+import '../../css/s/stui2mbih.css';
+import '../../css/c/c6o1b5b4q.css';
+import '../../css/g/gn0r0xsdd.css';
+import '../../css/d/dh6pm2b3r.css';
+import '../../css/j/j-uqv9otf.css';
+import '../../css/v/vva1v3btz.css';
+import '../../css/v/vfq41rb6t.css';
+import '../../css/i/iv08tab4y.css';
+import '../../css/b/bciadobjr.css';
+import '../../css/a/ahush9bcw.css';
+import '../../css/d/d2z3tgt9s.css';
+import '../../css/o/o0o9nrmoa.css';
+import '../../css/r/rs9uf5bka.css';
+import '../../css/x/x6tj51bkf.css';
+import '../../css/e/emrzxx8bz.css';
+import '../../css/t/tw6slmbac.css';
+import '../../css/j/jb-ugc2di.css';
+import '../../css/e/e6u__la5m.css';
+import '../../css/i/ihaunf8na.css';
+import '../../css/o/o__l2f8ts.css';
+import '../../css/g/g1d3bn67a.css';
+import '../../css/p/putz-7isy.css';
+import '../../css/e/ehm84sb1k.css';
+import '../../css/p/pmgp08bnc.css';
+import '../../css/r/r3cuzob4t.css';
+import '../../css/j/jat4hgbbc.css';
+import '../../css/b/bi6t0bcol.css';
+import '../../css/n/n11-ll2cq.css';
+import '../../css/n/n0yzv7e9d.css';
+import '../../css/z/zbxo-jbir.css';
+import '../../css/e/ex3fprbni.css';
+import '../../css/l/lw_4f1bjq.css';
+import '../../css/j/jwiea1k4e.css';
+import '../../css/l/l803csxif.css';
+import '../../css/k/kpm7tkbfc.css';
+import '../../css/n/naywzv9pe.css';
+import '../../css/v/vkf4f732a.css';
+import '../../css/p/plqmfi4vc.css';
+import '../../css/o/oaypryfsr.css';
+import '../../css/o/ofz_erb7j.css';
+import '../../css/v/va6_uobbj.css';
+import '../../css/s/sed7vpflq.css';
+import '../../css/u/uiiea9byn.css';
+import '../../css/i/ibrk29bxf.css';
+import '../../css/z/z8q44dl4l.css';
+import '../../css/a/a6hg6vi2e.css';
+import '../../css/d/dtwg70brs.css';
+import '../../css/f/foh67130z.css';
+import '../../css/h/hnl7eebov.css';
+import '../../css/g/g5wxucbmi.css';
+import '../../css/l/lfye7hblo.css';
+import '../../css/y/y55mxbbrq.css';
+import '../../css/a/a-1vmxbmu.css';
+import '../../css/i/iox9oxamk.css';
+import '../../css/d/d8tc2cc0f.css';
+import '../../css/y/ye83vobcv.css';
+import '../../css/n/n72phyc0q.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ft5dv1b6b"><defs><linearGradient id="SVGnGF63brm" x1="0" x2="1" y1="0" y2="1"><stop offset="0" class="p5_fqnb0s"/><stop offset=".42" class="stui2mbih"/><stop offset=".62" class="c6o1b5b4q"/><stop offset="1" class="gn0r0xsdd"/></linearGradient></defs><path class="dh6pm2b3r wm-shadow"/><path class="j-uqv9otf wm-shadow"/><path class="vva1v3btz wm-shadow"/><path class="vfq41rb6t wm-k"/><path class="iv08tab4y wm-k"/><path class="bciadobjr wm-k"/><path class="ahush9bcw wm-k"/><path class="d2z3tgt9s wm-k"/><path class="o0o9nrmoa wm-k"/><path class="rs9uf5bka wm-k"/><path class="wm-k x6tj51bkf"/><path fill="url(#SVGnGF63brm)" class="emrzxx8bz wm-k"/><path class="tw6slmbac wm-shine"/><path class="jb-ugc2di wm-shine"/><path class="e6u__la5m wm-shine"/><path class="ihaunf8na wm-shine"/><path class="o__l2f8ts wm-k"/><path class="g1d3bn67a wm-k"/><path class="putz-7isy wm-k"/><path class="ehm84sb1k wm-a"/><path class="pmgp08bnc wm-a"/><path class="r3cuzob4t wm-a"/><path class="jat4hgbbc wm-a"/><path class="bi6t0bcol wm-a"/><path class="n11-ll2cq wm-a"/><path class="n0yzv7e9d wm-a"/><path class="wm-k zbxo-jbir"/><path class="ex3fprbni wm-a"/><path fill="url(#SVGnGF63brm)" class="lw_4f1bjq wm-a"/><path class="jwiea1k4e wm-a"/><path class="l803csxif wm-a"/><path class="kpm7tkbfc wm-a"/><path class="naywzv9pe wm-a"/><path class="vkf4f732a wm-a"/><path class="plqmfi4vc wm-a"/><path class="oaypryfsr wm-a"/><path class="ofz_erb7j wm-a"/><path class="va6_uobbj wm-a"/><path class="sed7vpflq wm-a"/><path class="uiiea9byn wm-a"/><path class="ibrk29bxf wm-a"/><path class="wm-a z8q44dl4l"/><path class="a6hg6vi2e wm-a"/><path class="dtwg70brs wm-a"/><path class="foh67130z wm-k"/><path class="hnl7eebov wm-a"/><path fill="url(#SVGnGF63brm)" class="g5wxucbmi wm-a"/><path class="lfye7hblo wm-a"/><path class="wm-a y55mxbbrq"/><path class="a-1vmxbmu wm-a"/><path class="iox9oxamk wm-a"/><path class="d8tc2cc0f wm-a"/><path class="wm-a ye83vobcv"/><path class="n72phyc0q wm-a"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="withicons-soft3d:vault" /></template>

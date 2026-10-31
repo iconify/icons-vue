@@ -1,0 +1,62 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/f/ft5dv1b6b.css';
+import '../../css/p/p5_fqnb0s.css';
+import '../../css/s/stui2mbih.css';
+import '../../css/c/c6o1b5b4q.css';
+import '../../css/g/gn0r0xsdd.css';
+import '../../css/b/bhd694bwr.css';
+import '../../css/b/btr5k2ldm.css';
+import '../../css/b/bsefr2bmh.css';
+import '../../css/o/of2mvxeqp.css';
+import '../../css/l/lk8raer3t.css';
+import '../../css/r/rvelk_bff.css';
+import '../../css/j/j3_w_jbra.css';
+import '../../css/j/jgy1_7brp.css';
+import '../../css/y/y42d9saxx.css';
+import '../../css/v/v0eeqwj8f.css';
+import '../../css/r/rrci7r2kg.css';
+import '../../css/v/vsd4pjaiu.css';
+import '../../css/b/bir2msgqq.css';
+import '../../css/a/a5ov4s0rg.css';
+import '../../css/b/bax02bbph.css';
+import '../../css/y/yyo7ccchy.css';
+import '../../css/u/u2339pbpo.css';
+import '../../css/p/ptc3z_bqs.css';
+import '../../css/u/ubzmvybmo.css';
+import '../../css/l/l0io-n_0l.css';
+import '../../css/m/m1djcibjv.css';
+import '../../css/y/y23cnfnis.css';
+import '../../css/g/gikggbckp.css';
+import '../../css/y/y07ar06aj.css';
+import '../../css/d/d829quu8n.css';
+import '../../css/f/f-2_pm5pp.css';
+import '../../css/w/wz-_gtbjb.css';
+import '../../css/p/pzlb5prwz.css';
+import '../../css/d/dfqz3obzx.css';
+import '../../css/d/dfr52rb-m.css';
+import '../../css/v/vuwukrnxr.css';
+import '../../css/y/yv8cbt8sq.css';
+import '../../css/h/hq5uuopau.css';
+import '../../css/j/jk8sfh3iz.css';
+import '../../css/x/xsrbnbcgl.css';
+import '../../css/x/x3df6au2s.css';
+import '../../css/j/jl-wa2r-k.css';
+import '../../css/m/m097w382v.css';
+import '../../css/l/lxsn89szr.css';
+import '../../css/m/m-ah9wnsb.css';
+import '../../css/t/tl82ozxfj.css';
+import '../../css/z/zunrnhbye.css';
+import '../../css/q/qyvouijci.css';
+import '../../css/m/m3p74vbdp.css';
+import '../../css/u/u0y45dpie.css';
+import '../../css/s/sk0pl0b9u.css';
+import '../../css/c/cr7og_dum.css';
+import '../../css/o/oci9fbc8u.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ft5dv1b6b"><defs><linearGradient id="SVGnGF63brm" x1="0" x2="1" y1="0" y2="1"><stop offset="0" class="p5_fqnb0s"/><stop offset=".42" class="stui2mbih"/><stop offset=".62" class="c6o1b5b4q"/><stop offset="1" class="gn0r0xsdd"/></linearGradient></defs><path class="bhd694bwr wm-shadow"/><path class="btr5k2ldm wm-shadow"/><path class="bsefr2bmh wm-shadow"/><path class="of2mvxeqp wm-k"/><path class="lk8raer3t wm-k"/><path class="rvelk_bff wm-k"/><path class="j3_w_jbra wm-k"/><path class="jgy1_7brp wm-k"/><path class="wm-k y42d9saxx"/><path class="v0eeqwj8f wm-k"/><path fill="url(#SVGnGF63brm)" class="rrci7r2kg wm-k"/><path class="vsd4pjaiu wm-shine"/><path class="bir2msgqq wm-shine"/><path class="a5ov4s0rg wm-shine"/><path class="bax02bbph wm-shine"/><path class="wm-k yyo7ccchy"/><path class="u2339pbpo wm-k"/><path class="ptc3z_bqs wm-k"/><path class="ubzmvybmo wm-k"/><path class="l0io-n_0l wm-k"/><path class="m1djcibjv wm-a"/><path class="wm-a y23cnfnis"/><path class="gikggbckp wm-a"/><path class="wm-a y07ar06aj"/><path class="d829quu8n wm-a"/><path class="f-2_pm5pp wm-a"/><path class="wm-a wz-_gtbjb"/><path class="pzlb5prwz wm-a"/><path fill="url(#SVGnGF63brm)" class="dfqz3obzx wm-a"/><path class="dfr52rb-m wm-a"/><path class="vuwukrnxr wm-a"/><path class="wm-a yv8cbt8sq"/><path class="hq5uuopau wm-a"/><path class="jk8sfh3iz wm-a"/><path class="wm-a xsrbnbcgl"/><path class="wm-a x3df6au2s"/><path class="jl-wa2r-k wm-s"/><path class="m097w382v wm-s"/><path class="lxsn89szr wm-s"/><path class="m-ah9wnsb wm-s"/><path class="tl82ozxfj wm-s"/><path class="wm-s zunrnhbye"/><path fill="url(#SVGnGF63brm)" class="qyvouijci wm-s"/><path class="m3p74vbdp wm-s"/><path class="u0y45dpie wm-s"/><path class="sk0pl0b9u wm-s"/><path class="cr7og_dum wm-s"/><path class="oci9fbc8u wm-s"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="withicons-soft3d:briefcase-business" /></template>

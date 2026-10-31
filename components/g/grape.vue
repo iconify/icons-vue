@@ -1,0 +1,62 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/f/ft5dv1b6b.css';
+import '../../css/p/p5_fqnb0s.css';
+import '../../css/s/stui2mbih.css';
+import '../../css/c/c6o1b5b4q.css';
+import '../../css/g/gn0r0xsdd.css';
+import '../../css/o/o0y0dcbka.css';
+import '../../css/z/z1omn1b4z.css';
+import '../../css/l/lq6680rmk.css';
+import '../../css/g/gtggm_bqm.css';
+import '../../css/v/v8vbttl7o.css';
+import '../../css/y/ywco9ruvu.css';
+import '../../css/b/b7k3rukcy.css';
+import '../../css/f/f_2wyqb-n.css';
+import '../../css/x/x_ncl3ltv.css';
+import '../../css/q/qgm1pk_mw.css';
+import '../../css/a/akrnifbqa.css';
+import '../../css/b/b5uuh37ci.css';
+import '../../css/c/cu0gm-mhj.css';
+import '../../css/o/ocea32r7z.css';
+import '../../css/w/w_7zvhqhv.css';
+import '../../css/e/emvvnwzhk.css';
+import '../../css/t/tnr5_cbkd.css';
+import '../../css/p/p8eut8bna.css';
+import '../../css/l/lb0y7o9hn.css';
+import '../../css/a/asxy1wbpe.css';
+import '../../css/q/qgs64ccbb.css';
+import '../../css/a/as302ub9s.css';
+import '../../css/d/dpnai83yb.css';
+import '../../css/e/eekd8tgov.css';
+import '../../css/k/kqu82-9id.css';
+import '../../css/l/lig1hpbmi.css';
+import '../../css/k/kduqzdb-x.css';
+import '../../css/r/r1ti2cbeg.css';
+import '../../css/a/aj-ggtbkm.css';
+import '../../css/q/q62--f1ek.css';
+import '../../css/j/j0p90qywh.css';
+import '../../css/l/lgyfijb0e.css';
+import '../../css/z/zldm9db1o.css';
+import '../../css/c/ccmxm9bey.css';
+import '../../css/w/w0_56_4ke.css';
+import '../../css/z/zl5xzcbgw.css';
+import '../../css/a/aw412cbsb.css';
+import '../../css/x/x7srt_66q.css';
+import '../../css/j/j-m02lbyl.css';
+import '../../css/l/lrc67611f.css';
+import '../../css/e/ex7y0gbva.css';
+import '../../css/b/bvlwlvbiv.css';
+import '../../css/s/sgbb4-npq.css';
+import '../../css/o/oj6k36iie.css';
+import '../../css/u/u3v2geb2v.css';
+import '../../css/i/idoauz2ja.css';
+import '../../css/b/bu4bghe1m.css';
+import '../../css/u/ucsa_teww.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ft5dv1b6b"><defs><linearGradient id="SVGnGF63brm" x1="0" x2="1" y1="0" y2="1"><stop offset="0" class="p5_fqnb0s"/><stop offset=".42" class="stui2mbih"/><stop offset=".62" class="c6o1b5b4q"/><stop offset="1" class="gn0r0xsdd"/></linearGradient></defs><path class="o0y0dcbka wm-shadow"/><path class="wm-shadow z1omn1b4z"/><path class="lq6680rmk wm-shadow"/><path class="gtggm_bqm wm-k"/><path class="v8vbttl7o wm-k"/><path class="wm-k ywco9ruvu"/><path class="b7k3rukcy wm-k"/><path class="f_2wyqb-n wm-k"/><path class="wm-k x_ncl3ltv"/><path class="qgm1pk_mw wm-k"/><path fill="url(#SVGnGF63brm)" class="akrnifbqa wm-k"/><path class="b5uuh37ci wm-shine"/><path class="cu0gm-mhj wm-shine"/><path class="ocea32r7z wm-shine"/><path class="w_7zvhqhv wm-shine"/><path class="emvvnwzhk wm-k"/><path class="tnr5_cbkd wm-k"/><path class="p8eut8bna wm-k"/><path class="lb0y7o9hn wm-k"/><path class="asxy1wbpe wm-k"/><path class="qgs64ccbb wm-a"/><path class="as302ub9s wm-a"/><path class="dpnai83yb wm-a"/><path class="eekd8tgov wm-a"/><path class="kqu82-9id wm-a"/><path class="lig1hpbmi wm-a"/><path fill="url(#SVGnGF63brm)" class="kduqzdb-x wm-a"/><path class="r1ti2cbeg wm-a"/><path class="aj-ggtbkm wm-a"/><path class="q62--f1ek wm-a"/><path class="j0p90qywh wm-a"/><path class="lgyfijb0e wm-a"/><path class="wm-a zldm9db1o"/><path class="ccmxm9bey wm-k"/><path class="w0_56_4ke wm-k"/><path class="wm-k zl5xzcbgw"/><path class="aw412cbsb wm-k"/><path class="wm-k x7srt_66q"/><path class="j-m02lbyl wm-k"/><path class="lrc67611f wm-k"/><path fill="url(#SVGnGF63brm)" class="ex7y0gbva wm-k"/><path class="bvlwlvbiv wm-k"/><path class="sgbb4-npq wm-k"/><path class="oj6k36iie wm-k"/><path class="u3v2geb2v wm-k"/><path class="idoauz2ja wm-k"/><path class="bu4bghe1m wm-k"/><path class="ucsa_teww wm-k"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="withicons-soft3d:grape" /></template>

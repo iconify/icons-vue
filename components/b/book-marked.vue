@@ -1,0 +1,28 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/t/t_2lkqbxb.css';
+import '../../css/r/r-v2lbc1g.css';
+import '../../css/o/olywqo88d.css';
+import '../../css/s/stui2mbih.css';
+import '../../css/j/jttloou7d.css';
+import '../../css/i/i6eac5-2m.css';
+import '../../css/j/jyv7k6bzc.css';
+import '../../css/h/h4g6spbhi.css';
+import '../../css/k/k0kvkqcen.css';
+import '../../css/s/ss_52wb8n.css';
+import '../../css/y/y81sd9b0n.css';
+import '../../css/r/rz0o1abqe.css';
+import '../../css/l/l0ymqob8u.css';
+import '../../css/o/o0a6kgfac.css';
+import '../../css/p/p8d88rb0n.css';
+import '../../css/j/jble_ubai.css';
+import '../../css/y/y0d7ico7e.css';
+import '../../css/q/q59u0db4h.css';
+import '../../css/l/l766hrbhi.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="t_2lkqbxb"><defs><linearGradient id="SVGFWWBVdRg" x1="0" x2="0" y1="2" y2="22" gradientUnits="userSpaceOnUse"><stop offset="0" class="r-v2lbc1g"/><stop offset="1" class="olywqo88d"/></linearGradient><linearGradient id="SVG9nqHQcQr" x1="2" x2="22" y1="0" y2="0" gradientUnits="userSpaceOnUse"><stop offset="0" class="stui2mbih"/><stop offset=".3" class="jttloou7d"/><stop offset=".7" class="jttloou7d"/><stop offset="1" class="stui2mbih"/></linearGradient><linearGradient id="SVGYbM5YcCm" x1="0" x2="0" y1="7.77" y2="17.21" gradientUnits="userSpaceOnUse"><stop offset="0" class="i6eac5-2m"/><stop offset="1" class="jyv7k6bzc"/></linearGradient></defs><path class="h4g6spbhi wm-deco"/><path fill="url(#SVGFWWBVdRg)" class="k0kvkqcen wm-deco"/><path stroke="url(#SVG9nqHQcQr)" class="ss_52wb8n wm-deco"/><path class="wm-shadow y81sd9b0n"/><path class="rz0o1abqe wm-shadow"/><path class="l0ymqob8u wm-shadow"/><path class="o0a6kgfac wm-shadow"/><path class="p8d88rb0n"/><path fill="url(#SVGYbM5YcCm)" class="jble_ubai"/><path class="y0d7ico7e"/><path class="q59u0db4h wm-a"/><path class="l766hrbhi wm-a"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="withicons-bento:book-marked" /></template>

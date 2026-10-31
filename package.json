@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/codicon",
   "type": "module",
-  "version": "1.0.49",
+  "version": "1.0.50",
   "homepage": "https://icon-sets.iconify.design/codicon/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "CC-BY-4.0",
@@ -1065,6 +1065,10 @@
     "./git-branch-changes": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/git-branch-changes.vue"
+    },
+    "./git-branch-checkout": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/git-branch-checkout.vue"
     },
     "./git-branch-compact": {
       "types": "./types/dd0bq22g.d.ts",

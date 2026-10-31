@@ -1,0 +1,8 @@
+.l5x5lobvi {
+  fill-rule: evenodd;
+  stroke: var(--svg-color--000, #000);
+  stroke-linejoin: round;
+  stroke-opacity: 0.32;
+  stroke-width: var(--svg-stroke-width--0-5px, 0.5px);
+  d: path("m19.64 15.26l-.09-.77l-.21-.61l-.77-1.15l-1.27-.99l-1.52-.66H7.32l-.24.08l-1.47.7l-1.2 1.01l-.71 1.16l-.24 1.23l.17 1.05l.52.98l.85.83l1.11.61l-.76 2.13h3.29l.59-1.44l2.32.12l2.32-.12l.59 1.44h3.29l-.76-2.13l1.11-.61l.85-.83l.52-.98Z");
+}

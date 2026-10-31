@@ -1,0 +1,8 @@
+.jg8_mcccp {
+  stroke: var(--svg-color--fff, #fff);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-opacity: 0.6;
+  stroke-width: var(--svg-stroke-width--0-7px, 0.7px);
+  d: path("M6.52 18.46c.28-1.41 1.78-1.88 3.1-1.6m6.86 1.6c-.28-1.41-1.78-1.88-3.1-1.6");
+}

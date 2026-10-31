@@ -1,0 +1,8 @@
+.b-40srb-p {
+  stroke: var(--svg-color--3e3a8c, #3e3a8c);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-opacity: 0.35;
+  stroke-width: var(--svg-stroke-width--2-7px, 2.7px);
+  d: path("M6.75 10.5h10.5m-5.25 0V14m-3 4l3-4l3 4");
+}

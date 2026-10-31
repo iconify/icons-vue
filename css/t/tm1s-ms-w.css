@@ -1,0 +1,8 @@
+.tm1s-ms-w {
+  stroke: var(--svg-color--6a45d6, #6a45d6);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-opacity: 0.16;
+  stroke-width: var(--svg-stroke-width--3-4px, 3.4px);
+  d: path("M7 11v4a2 2 0 0 0 2 2h4");
+}

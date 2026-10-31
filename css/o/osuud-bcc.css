@@ -1,0 +1,9 @@
+.osuud-bcc {
+  fill: var(--svg-color--6a45d6, #6a45d6);
+  fill-opacity: var(--svg-fill-opacity--0-05, 0.05);
+  stroke: var(--svg-color--6a45d6, #6a45d6);
+  stroke-linejoin: round;
+  stroke-opacity: 0.05;
+  stroke-width: var(--svg-stroke-width--1-6px, 1.6px);
+  d: path("M5.32 12.26h13.16l-1.36 8.69a1.41 1.41 0 0 1-1.39 1.18H8.07a1.41 1.41 0 0 1-1.39-1.18Zm-.38-1.03h13.92a1.13 1.13 0 0 1 0 2.25H4.94a1.13 1.13 0 0 1 0-2.25Z");
+}

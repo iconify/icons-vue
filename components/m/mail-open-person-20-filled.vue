@@ -4,13 +4,13 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":20,"height":20};
-const content = `<path class="ym1r1ueel"/>`;
+const content = `<path class="upqjt-b9e"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:mail-open-person-20-filled" /></template>
 <style>
-.ym1r1ueel {
+.upqjt-b9e {
   fill: currentColor;
-  d: path("M9.743 2.071a.5.5 0 0 1 .514 0l6.772 4.063a2 2 0 0 1 .7.709L10 10.934L2.272 6.843c.167-.287.405-.532.699-.709zm3.134 8.472l-2.643 1.399a.5.5 0 0 1-.468 0L2 7.83v5.67A2.5 2.5 0 0 0 4.5 16h6.55a2.5 2.5 0 0 1 2.223-1.99A3 3 0 0 1 12.5 12c0-.529.137-1.026.377-1.457M17.5 12a2 2 0 1 1-4 0a2 2 0 0 1 4 0m1.5 4.5c0 1.245-1 2.5-3.5 2.5S12 17.75 12 16.5a1.5 1.5 0 0 1 1.5-1.5h4a1.5 1.5 0 0 1 1.5 1.5");
+  d: path("M17.5 15a1.5 1.5 0 0 1 1.5 1.5c0 1.245-1 2.5-3.5 2.5S12 17.75 12 16.5a1.5 1.5 0 0 1 1.5-1.5zm-7.758-3.071a.5.5 0 0 0 .515 0l2.818-1.693a2.99 2.99 0 0 0 .198 3.774A2.5 2.5 0 0 0 11 16.5q0 .25.038.5H4.5A2.5 2.5 0 0 1 2 14.5V7.849q0-.271.07-.526zM15.5 10a2 2 0 1 1 0 4a2 2 0 0 1 0-4M9.743 2.071a.5.5 0 0 1 .514 0l6.772 4.063a2 2 0 0 1 .406.322L10 10.917L2.566 6.454a2 2 0 0 1 .405-.32z");
 }
 
 </style>

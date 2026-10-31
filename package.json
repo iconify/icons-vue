@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/fluent",
   "type": "module",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "homepage": "https://icon-sets.iconify.design/fluent/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -1637,6 +1637,14 @@
     "./app-folder-48-regular": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/app-folder-48-regular.vue"
+    },
+    "./app-folder-hint-20-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/app-folder-hint-20-filled.vue"
+    },
+    "./app-folder-hint-20-regular": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/app-folder-hint-20-regular.vue"
     },
     "./app-generic-20-filled": {
       "types": "./types/dd0bq22g.d.ts",
@@ -9978,6 +9986,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/box-multiple-search-24-regular.vue"
     },
+    "./box-question-mark-20-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/box-question-mark-20-filled.vue"
+    },
+    "./box-question-mark-20-regular": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/box-question-mark-20-regular.vue"
+    },
     "./box-search-16-filled": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/box-search-16-filled.vue"
@@ -11997,6 +12013,18 @@
     "./calendar-cancel-24-regular": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/calendar-cancel-24-regular.vue"
+    },
+    "./calendar-cancel-32-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/calendar-cancel-32-filled.vue"
+    },
+    "./calendar-cancel-32-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/calendar-cancel-32-light.vue"
+    },
+    "./calendar-cancel-32-regular": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/calendar-cancel-32-regular.vue"
     },
     "./calendar-chat-16-filled": {
       "types": "./types/dd0bq22g.d.ts",
@@ -20806,6 +20834,26 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/color-line-24-regular.vue"
     },
+    "./color-line-28-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/color-line-28-filled.vue"
+    },
+    "./color-line-28-regular": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/color-line-28-regular.vue"
+    },
+    "./color-line-32-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/color-line-32-filled.vue"
+    },
+    "./color-line-32-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/color-line-32-light.vue"
+    },
+    "./color-line-32-regular": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/color-line-32-regular.vue"
+    },
     "./color-line-accent-16-regular": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/color-line-accent-16-regular.vue"
@@ -20817,6 +20865,14 @@
     "./color-line-accent-24-regular": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/color-line-accent-24-regular.vue"
+    },
+    "./color-line-accent-28-regular": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/color-line-accent-28-regular.vue"
+    },
+    "./color-line-accent-32-regular": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/color-line-accent-32-regular.vue"
     },
     "./color-off-20-filled": {
       "types": "./types/dd0bq22g.d.ts",
@@ -21981,6 +22037,38 @@
     "./conference-room-48-regular": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/conference-room-48-regular.vue"
+    },
+    "./conference-room-sparkle-16-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/conference-room-sparkle-16-filled.vue"
+    },
+    "./conference-room-sparkle-16-regular": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/conference-room-sparkle-16-regular.vue"
+    },
+    "./conference-room-sparkle-20-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/conference-room-sparkle-20-filled.vue"
+    },
+    "./conference-room-sparkle-20-regular": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/conference-room-sparkle-20-regular.vue"
+    },
+    "./conference-room-sparkle-24-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/conference-room-sparkle-24-filled.vue"
+    },
+    "./conference-room-sparkle-24-regular": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/conference-room-sparkle-24-regular.vue"
+    },
+    "./conference-room-sparkle-28-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/conference-room-sparkle-28-filled.vue"
+    },
+    "./conference-room-sparkle-28-regular": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/conference-room-sparkle-28-regular.vue"
     },
     "./connected-16-filled": {
       "types": "./types/dd0bq22g.d.ts",
@@ -27310,6 +27398,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/document-error-24-regular.vue"
     },
+    "./document-excel-20-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/document-excel-20-filled.vue"
+    },
+    "./document-excel-20-regular": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/document-excel-20-regular.vue"
+    },
     "./document-fit-16-filled": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/document-fit-16-filled.vue"
@@ -28533,6 +28629,14 @@
     "./document-pill-24-regular": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/document-pill-24-regular.vue"
+    },
+    "./document-powerpoint-20-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/document-powerpoint-20-filled.vue"
+    },
+    "./document-powerpoint-20-regular": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/document-powerpoint-20-regular.vue"
     },
     "./document-print-20-filled": {
       "types": "./types/dd0bq22g.d.ts",
@@ -33682,6 +33786,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/folder-globe-20-regular.vue"
     },
+    "./folder-globe-24-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-globe-24-filled.vue"
+    },
+    "./folder-globe-24-regular": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-globe-24-regular.vue"
+    },
+    "./folder-globe-28-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-globe-28-filled.vue"
+    },
+    "./folder-globe-28-regular": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-globe-28-regular.vue"
+    },
     "./folder-hint-20-filled": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/folder-hint-20-filled.vue"
@@ -38073,6 +38193,30 @@
     "./home-checkmark-24-regular": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/home-checkmark-24-regular.vue"
+    },
+    "./home-checkmark-28-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/home-checkmark-28-filled.vue"
+    },
+    "./home-checkmark-28-regular": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/home-checkmark-28-regular.vue"
+    },
+    "./home-checkmark-32-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/home-checkmark-32-filled.vue"
+    },
+    "./home-checkmark-32-regular": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/home-checkmark-32-regular.vue"
+    },
+    "./home-checkmark-48-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/home-checkmark-48-filled.vue"
+    },
+    "./home-checkmark-48-regular": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/home-checkmark-48-regular.vue"
     },
     "./home-database-20-filled": {
       "types": "./types/dd0bq22g.d.ts",
@@ -44497,6 +44641,26 @@
     "./mail-open-person-24-regular": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/mail-open-person-24-regular.vue"
+    },
+    "./mail-open-person-28-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mail-open-person-28-filled.vue"
+    },
+    "./mail-open-person-28-regular": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mail-open-person-28-regular.vue"
+    },
+    "./mail-open-person-32-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mail-open-person-32-filled.vue"
+    },
+    "./mail-open-person-32-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mail-open-person-32-light.vue"
+    },
+    "./mail-open-person-32-regular": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mail-open-person-32-regular.vue"
     },
     "./mail-outbox-24-filled": {
       "types": "./types/dd0bq22g.d.ts",
@@ -75317,6 +75481,22 @@
     "./thumb-dislike-24-regular": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/thumb-dislike-24-regular.vue"
+    },
+    "./thumb-dislike-28-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/thumb-dislike-28-filled.vue"
+    },
+    "./thumb-dislike-28-regular": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/thumb-dislike-28-regular.vue"
+    },
+    "./thumb-dislike-48-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/thumb-dislike-48-filled.vue"
+    },
+    "./thumb-dislike-48-regular": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/thumb-dislike-48-regular.vue"
     },
     "./thumb-like-16-filled": {
       "types": "./types/dd0bq22g.d.ts",

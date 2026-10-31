@@ -4,13 +4,13 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="fdwr3itwi"/>`;
+const content = `<path class="eq_9isp_b"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:thumb-like-24-filled" /></template>
 <style>
-.fdwr3itwi {
+.eq_9isp_b {
   fill: currentColor;
-  d: path("M15.056 9.004q.692-2.14.693-3.754c0-2.398-.939-4.247-2.5-4.247c-.847 0-1.109.504-1.437 1.747c.018-.065-.163.634-.215.821q-.152.539-.527 1.831a.3.3 0 0 1-.03.065L8.174 9.953a5.9 5.9 0 0 1-2.855 2.326l-1.257.482a1.75 1.75 0 0 0-1.092 1.967l.686 3.539a2.25 2.25 0 0 0 1.673 1.757l8.25 2.022a4.75 4.75 0 0 0 5.733-3.44l1.574-6.173a2.75 2.75 0 0 0-2.665-3.43z");
+  d: path("M11.623 2.91c.288-1.029 1.424-1.695 2.484-1.29a2 2 0 0 1 .409.185c.211.121.48.314.743.61c.538.606.998 1.58.998 3.083c0 .796-.168 1.917-.322 2.797c-.045.253-.09.49-.13.702h.941a3.75 3.75 0 0 1 3.69 4.427l-.71 3.861a5.75 5.75 0 0 1-7.192 4.504l-6.797-1.886a3.25 3.25 0 0 1-2.326-2.54l-.356-1.925c-.308-1.663.72-3.156 2.074-3.854c4.172-2.152 5.88-6.476 6.494-8.674");
 }
 
 </style>

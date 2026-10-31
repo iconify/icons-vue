@@ -4,13 +4,13 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":28,"height":28};
-const content = `<path class="yevjyvbtr"/>`;
+const content = `<path class="rciwvcoxx"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:thumb-like-28-filled" /></template>
 <style>
-.yevjyvbtr {
+.rciwvcoxx {
   fill: currentColor;
-  d: path("M16.124 1.116c-.884-.247-1.58.38-1.82.988l-.26.66c-2.006 5.09-3.837 9.74-8.612 12.157c-1.101.558-1.868 1.765-1.648 3.086l.416 2.496a3.75 3.75 0 0 0 2.669 2.99l7.69 2.196a6.75 6.75 0 0 0 8.469-5.146l1.228-6.046A3.75 3.75 0 0 0 20.58 10h-2.167c.345-1.503.504-3.217.346-4.73c-.184-1.77-.858-3.659-2.636-4.154");
+  d: path("M13.37 3.094c.3-1.163 1.58-1.916 2.76-1.45a2.5 2.5 0 0 1 .477.212c.257.141.591.368.923.713c.677.707 1.289 1.857 1.289 3.644c0 .935-.197 2.252-.382 3.294c-.065.365-.13.704-.187.99h1.5a4.25 4.25 0 0 1 4.18 5.017l-.945 5.156a6.5 6.5 0 0 1-8.11 5.096L6.43 23.454a3.75 3.75 0 0 1-2.703-2.967l-.42-2.396c-.336-1.905.846-3.619 2.41-4.434c5.009-2.61 6.966-7.892 7.653-10.563");
 }
 
 </style>

@@ -4,13 +4,13 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":16,"height":16};
-const content = `<path class="zpqhrbbhm"/>`;
+const content = `<path class="wo9wg3_lo"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="fluent:mail-open-person-16-filled" /></template>
 <style>
-.zpqhrbbhm {
+.wo9wg3_lo {
   fill: currentColor;
-  d: path("M8.237 1.56a.5.5 0 0 0-.474 0L1.789 4.777a1.5 1.5 0 0 0-.57.54l.022.012l.03.014l.278.15L8 8.933l.567-.302a3 3 0 0 1 5.091-2.715l1.123-.6a1.5 1.5 0 0 0-.57-.54zM1 6.333l.078.042l6.78 3.642a.305.305 0 0 1 .084.47l-.294.333l-.01.012A2.5 2.5 0 0 0 7 12.5c0 .512.118 1.027.367 1.5H3a2 2 0 0 1-2-2zM13.5 8a2 2 0 1 1-4 0a2 2 0 0 1 4 0m1.5 4.5c0 1.245-1 2.5-3.5 2.5S8 13.75 8 12.5A1.5 1.5 0 0 1 9.5 11h4a1.5 1.5 0 0 1 1.5 1.5");
+  d: path("M13.5 11a1.5 1.5 0 0 1 1.5 1.5c0 1.245-1 2.5-3.5 2.5S8 13.75 8 12.5A1.5 1.5 0 0 1 9.5 11zM7.763 9.44a.5.5 0 0 0 .473 0l.503-.27a3 3 0 0 0 .534.84A2.5 2.5 0 0 0 7 12.5q0 .25.038.5H4a2 2 0 0 1-2-2V6.334zM11.5 6a2 2 0 1 1 0 4a2 2 0 0 1 0-4M7.731 1.078a.5.5 0 0 1 .538 0l4.805 3.058c.412.262.707.662.843 1.118l-.632.339A3 3 0 0 0 11.5 5a3 3 0 0 0-3 3q.001.08.007.16L8 8.432L2.086 5.244a2 2 0 0 1 .84-1.108z");
 }
 
 </style>

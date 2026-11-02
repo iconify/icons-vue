@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/devicon",
   "type": "module",
-  "version": "1.0.34",
+  "version": "1.0.35",
   "homepage": "https://icon-sets.iconify.design/devicon/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -998,6 +998,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/e/electron-wordmark.vue"
     },
+    "./elementplus": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/elementplus.vue"
+    },
+    "./elementplus-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/elementplus-wordmark.vue"
+    },
     "./eleventy": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/e/eleventy.vue"
@@ -1778,6 +1786,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/j/jekyll.vue"
     },
+    "./jekyll-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jekyll-wordmark.vue"
+    },
     "./jenkins": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/j/jenkins.vue"
@@ -2145,6 +2157,10 @@
     "./lumen": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/l/lumen.vue"
+    },
+    "./lwc": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lwc.vue"
     },
     "./magento": {
       "types": "./types/dd0bq22g.d.ts",
@@ -2810,6 +2826,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/pnpm-wordmark.vue"
     },
+    "./pocketbase": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pocketbase.vue"
+    },
+    "./pocketbase-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pocketbase-wordmark.vue"
+    },
     "./podman": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/podman.vue"
@@ -3221,6 +3245,14 @@
     "./remix-wordmark": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/r/remix-wordmark.vue"
+    },
+    "./render": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/render.vue"
+    },
+    "./render-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/render-wordmark.vue"
     },
     "./renpy": {
       "types": "./types/dd0bq22g.d.ts",

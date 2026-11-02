@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/m/m37gkopse.css';
+import '../../css/p/p_jqozbbt.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="m37gkopse"/>`;
+const content = `<path class="p_jqozbbt"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="mingcute:components-line" /></template>

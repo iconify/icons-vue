@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/e/esxr-xbvo.css';
+import '../../css/j/jzvj8vt_h.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="esxr-xbvo"/>`;
+const content = `<path class="jzvj8vt_h"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="mingcute:unhappy-dizzy-fill" /></template>

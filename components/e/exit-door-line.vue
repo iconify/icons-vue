@@ -1,11 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/a/ak-hxv74i.css';
-import '../../css/z/zzouz7bmm.css';
+import '../../css/f/f1ci7lqxy.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="ak-hxv74i"/><path class="zzouz7bmm"/>`;
+const content = `<path class="f1ci7lqxy"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="mingcute:exit-door-line" /></template>

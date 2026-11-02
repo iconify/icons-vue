@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/k/kgz7q7b3e.css';
+import '../../css/u/ut_z27wac.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path clip-rule="evenodd" class="kgz7q7b3e"/>`;
+const content = `<path class="ut_z27wac"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="mingcute:ferris-wheel-fill" /></template>

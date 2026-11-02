@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/q/qc5zfuica.css';
+import '../../css/x/xbb_s8hmm.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="qc5zfuica"/>`;
+const content = `<path class="xbb_s8hmm"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="mingcute:union-line" /></template>

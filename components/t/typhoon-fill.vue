@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/s/s1tyi1bfr.css';
+import '../../css/i/i-xs4108g.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="s1tyi1bfr"/>`;
+const content = `<path class="i-xs4108g"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="mingcute:typhoon-fill" /></template>

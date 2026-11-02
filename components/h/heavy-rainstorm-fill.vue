@@ -1,11 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/v/v4597xbuu.css';
-import '../../css/x/xrgvwubzt.css';
+import '../../css/x/xintgab2l.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="v4597xbuu"/><path class="xrgvwubzt"/>`;
+const content = `<path class="xintgab2l"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="mingcute:heavy-rainstorm-fill" /></template>

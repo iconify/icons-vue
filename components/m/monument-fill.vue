@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/k/k8e8-ty9l.css';
+import '../../css/s/sjlgfhysb.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="k8e8-ty9l"/>`;
+const content = `<path class="sjlgfhysb"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="mingcute:monument-fill" /></template>

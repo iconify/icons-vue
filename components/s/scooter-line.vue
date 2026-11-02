@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/h/h4_3rfb8x.css';
+import '../../css/u/uzdbeubvl.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="h4_3rfb8x"/>`;
+const content = `<path class="uzdbeubvl"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="mingcute:scooter-line" /></template>

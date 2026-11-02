@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/c/c3q9g5bfg.css';
+import '../../css/b/b11lcybfx.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="c3q9g5bfg"/>`;
+const content = `<path class="b11lcybfx"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="mingcute:notification-newdot-line" /></template>

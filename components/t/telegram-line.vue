@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/w/wdlu0hf_c.css';
+import '../../css/h/h6w3_vbch.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="wdlu0hf_c"/>`;
+const content = `<path class="h6w3_vbch"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="mingcute:telegram-line" /></template>

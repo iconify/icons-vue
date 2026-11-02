@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/t/ti02oybof.css';
+import '../../css/g/gbv-1-b3h.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="ti02oybof"/>`;
+const content = `<path class="gbv-1-b3h"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="mingcute:pdf-line" /></template>

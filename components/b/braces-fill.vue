@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/o/o-cam6b2k.css';
+import '../../css/h/hkee8wzft.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="o-cam6b2k"/>`;
+const content = `<path class="hkee8wzft"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="mingcute:braces-fill" /></template>

@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/z/z148u-b7f.css';
+import '../../css/q/qj-kbybdn.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="z148u-b7f"/>`;
+const content = `<path class="qj-kbybdn"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="mingcute:roblox-fill" /></template>

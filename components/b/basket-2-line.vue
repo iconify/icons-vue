@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/e/e3a4ucb9m.css';
+import '../../css/j/j2v6t19zu.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="e3a4ucb9m"/>`;
+const content = `<path class="j2v6t19zu"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="mingcute:basket-2-line" /></template>

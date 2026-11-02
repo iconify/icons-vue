@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/m/m4za2abrc.css';
+import '../../css/e/e3d32hgyr.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="m4za2abrc"/>`;
+const content = `<path class="e3d32hgyr"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="mingcute:black-board-line" /></template>

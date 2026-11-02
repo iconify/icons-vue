@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/y/ypulpgbzv.css';
+import '../../css/j/jiigpd9xm.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="ypulpgbzv"/>`;
+const content = `<path class="jiigpd9xm"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="mingcute:zoom-in-line" /></template>

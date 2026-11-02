@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/g/glzitecoa.css';
+import '../../css/u/u5z2d8bzm.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="glzitecoa"/>`;
+const content = `<path class="u5z2d8bzm"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="mingcute:calendar-month-line" /></template>

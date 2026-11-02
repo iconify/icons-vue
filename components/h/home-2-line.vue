@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nvs3lxber.css';
+import '../../css/j/j5m-k_b2a.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="nvs3lxber"/>`;
+const content = `<path class="j5m-k_b2a"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="mingcute:home-2-line" /></template>

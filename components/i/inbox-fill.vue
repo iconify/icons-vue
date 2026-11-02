@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/iqbynnbsm.css';
+import '../../css/s/s0wxph3-y.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path clip-rule="evenodd" class="iqbynnbsm"/>`;
+const content = `<path class="s0wxph3-y"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="mingcute:inbox-fill" /></template>

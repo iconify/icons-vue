@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/f/f8_z80bha.css';
+import '../../css/u/u-kd8_byt.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="f8_z80bha"/>`;
+const content = `<path class="u-kd8_byt"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="mingcute:vue-line" /></template>

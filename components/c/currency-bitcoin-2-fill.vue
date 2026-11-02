@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/i-ulnd4tc.css';
+import '../../css/n/nu3lzyn3f.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="i-ulnd4tc"/>`;
+const content = `<path class="nu3lzyn3f"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="mingcute:currency-bitcoin-2-fill" /></template>

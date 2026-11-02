@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/v/vg14t-wju.css';
+import '../../css/b/bsxaeflza.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="vg14t-wju"/>`;
+const content = `<path class="bsxaeflza"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="mingcute:calendar-add-fill" /></template>

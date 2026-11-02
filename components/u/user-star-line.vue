@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/p/pe-f12b2d.css';
+import '../../css/z/z8tn8u9oq.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="pe-f12b2d"/>`;
+const content = `<path class="z8tn8u9oq"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="mingcute:user-star-line" /></template>

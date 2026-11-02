@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/x/x81l8cbdo.css';
+import '../../css/x/x1xvq6tst.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="x81l8cbdo"/>`;
+const content = `<path class="x1xvq6tst"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="mingcute:fog-fill" /></template>

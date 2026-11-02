@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/d/dtn8ih8gz.css';
+import '../../css/b/b2wdcobgo.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="dtn8ih8gz"/>`;
+const content = `<path class="b2wdcobgo"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="mingcute:list-ordered-fill" /></template>

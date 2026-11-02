@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/t/tvua4obxe.css';
+import '../../css/h/hqmryxb4v.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="tvua4obxe"/>`;
+const content = `<path class="hqmryxb4v"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="mingcute:movie-fill" /></template>

@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/o/owpd0cb1b.css';
+import '../../css/j/jk9e9dbot.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="owpd0cb1b"/>`;
+const content = `<path class="jk9e9dbot"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="mingcute:tongue-fill" /></template>

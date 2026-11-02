@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/s/s5vu71b7n.css';
+import '../../css/t/t-2grmbbr.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="s5vu71b7n"/>`;
+const content = `<path class="t-2grmbbr"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="mingcute:four-wheel-drive-fill" /></template>

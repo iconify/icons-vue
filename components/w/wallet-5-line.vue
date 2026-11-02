@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/b/bz1og7bbp.css';
+import '../../css/c/c_vh1abtm.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="bz1og7bbp"/>`;
+const content = `<path class="c_vh1abtm"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="mingcute:wallet-5-line" /></template>

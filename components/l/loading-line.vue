@@ -1,16 +1,16 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nn5-jrewn.css';
 import '../../css/u/u3wkt0bdn.css';
-import '../../css/w/wavayc2ja.css';
-import '../../css/f/ft5dv1b6b.css';
-import '../../css/p/pn2ogq_7k.css';
-import '../../css/i/ilm1vjbbl.css';
-import '../../css/c/cy69y037t.css';
+import '../../css/c/cv6dnabfl.css';
+import '../../css/n/nn5-jrewn.css';
+import '../../css/f/f29idxbbk.css';
+import '../../css/t/t77nx-f_u.css';
+import '../../css/v/v0b2xcb8k.css';
+import '../../css/n/n4mbuit9w.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<defs><linearGradient id="SVGw6R8JeYL" x1="50%" x2="50%" y1="5.271%" y2="91.793%"><stop offset="0%" class="nn5-jrewn"/><stop offset="100%" class="u3wkt0bdn"/></linearGradient><linearGradient id="SVG2dzaCchj" x1="50%" x2="50%" y1="8.877%" y2="90.415%"><stop offset="0%" class="wavayc2ja"/><stop offset="100%" class="u3wkt0bdn"/></linearGradient></defs><g class="ft5dv1b6b"><path class="pn2ogq_7k"/><path fill="url(#SVGw6R8JeYL)" transform="translate(2 2.055)" class="ilm1vjbbl"/><path fill="url(#SVG2dzaCchj)" transform="translate(2 2.055)" class="cy69y037t"/></g>`;
+const content = `<defs><linearGradient id="SVGf3T1bePZ" x1="12" x2="12" y1="21" y2="3" gradientUnits="userSpaceOnUse"><stop offset=".05" class="u3wkt0bdn"/><stop offset=".3" class="cv6dnabfl"/><stop offset="1" class="nn5-jrewn"/></linearGradient><linearGradient id="SVGoaA2CiVK" x1="13" x2="13" y1="21" y2="3" gradientUnits="userSpaceOnUse"><stop offset=".05" class="u3wkt0bdn"/><stop offset=".45" class="f29idxbbk"/><stop offset=".823" class="t77nx-f_u"/></linearGradient></defs><path fill="url(#SVGf3T1bePZ)" class="v0b2xcb8k"/><path fill="url(#SVGoaA2CiVK)" class="n4mbuit9w"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="mingcute:loading-line" /></template>

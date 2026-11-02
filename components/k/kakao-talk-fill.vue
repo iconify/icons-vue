@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/x/xglfi1bww.css';
+import '../../css/l/lbqzk_jzx.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="xglfi1bww"/>`;
+const content = `<path class="lbqzk_jzx"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="mingcute:kakao-talk-fill" /></template>

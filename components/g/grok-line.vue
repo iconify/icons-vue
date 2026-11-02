@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/y/yoe6gv-um.css';
+import '../../css/y/yl0xmxbvd.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="yoe6gv-um"/>`;
+const content = `<path class="yl0xmxbvd"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="mingcute:grok-line" /></template>

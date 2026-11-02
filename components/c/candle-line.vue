@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/p/pe88tlfgt.css';
+import '../../css/z/z_8ww0brf.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="pe88tlfgt"/>`;
+const content = `<path class="z_8ww0brf"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="mingcute:candle-line" /></template>

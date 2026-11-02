@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/p/p-imowbph.css';
+import '../../css/b/bgb1gcbej.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="p-imowbph"/>`;
+const content = `<path class="bgb1gcbej"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="mingcute:flight-takeoff-fill" /></template>

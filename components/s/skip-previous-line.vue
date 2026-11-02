@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/o/ok0vj4b8e.css';
+import '../../css/x/x5ih6f4du.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="ok0vj4b8e"/>`;
+const content = `<path class="x5ih6f4du"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="mingcute:skip-previous-line" /></template>

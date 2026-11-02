@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/x/xhi4-9wtp.css';
+import '../../css/y/ym9ym958l.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="xhi4-9wtp"/>`;
+const content = `<path class="ym9ym958l"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="mingcute:alert-octagon-line" /></template>

@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/f/f5usxgrfc.css';
+import '../../css/s/s_u7mlwmj.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="f5usxgrfc"/>`;
+const content = `<path class="s_u7mlwmj"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="mingcute:thought-fill" /></template>

@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/p/pjc4pcc3n.css';
+import '../../css/c/cbkmnzb8g.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="pjc4pcc3n"/>`;
+const content = `<path class="cbkmnzb8g"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="mingcute:wechat-pay-fill" /></template>

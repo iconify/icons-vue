@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/v/vzeqs-rvh.css';
+import '../../css/w/wvmb6gb4b.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="vzeqs-rvh"/>`;
+const content = `<path class="wvmb6gb4b"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="mingcute:delete-back-fill" /></template>

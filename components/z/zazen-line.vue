@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/v/vnp03ibug.css';
+import '../../css/o/o9zs06bbo.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="vnp03ibug"/>`;
+const content = `<path class="o9zs06bbo"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="mingcute:zazen-line" /></template>

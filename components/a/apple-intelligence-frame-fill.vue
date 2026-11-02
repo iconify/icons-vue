@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/j/j43zykb-y.css';
+import '../../css/j/jjoqy8bel.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="j43zykb-y"/>`;
+const content = `<path class="jjoqy8bel"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="mingcute:apple-intelligence-frame-fill" /></template>

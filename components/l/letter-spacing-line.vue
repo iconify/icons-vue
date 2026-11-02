@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/t/t8ciceb0u.css';
+import '../../css/x/xptd2s8fn.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="t8ciceb0u"/>`;
+const content = `<path class="xptd2s8fn"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="mingcute:letter-spacing-line" /></template>

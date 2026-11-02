@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/a/ar164sbfw.css';
+import '../../css/e/ebksf3b3s.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="ar164sbfw"/>`;
+const content = `<path class="ebksf3b3s"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="mingcute:currency-cny-2-line" /></template>

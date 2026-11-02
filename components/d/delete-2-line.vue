@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/b/bb-s0g_vo.css';
+import '../../css/r/r0aa-ibik.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="bb-s0g_vo"/>`;
+const content = `<path class="r0aa-ibik"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="mingcute:delete-2-line" /></template>

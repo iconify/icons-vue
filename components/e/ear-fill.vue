@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/m/mxlhtsbtw.css';
+import '../../css/d/d2tp3zrst.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="mxlhtsbtw"/>`;
+const content = `<path class="d2tp3zrst"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="mingcute:ear-fill" /></template>

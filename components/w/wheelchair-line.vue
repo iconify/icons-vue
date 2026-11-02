@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/p/pps2d9m7e.css';
+import '../../css/z/zu5w89brh.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="pps2d9m7e"/>`;
+const content = `<path class="zu5w89brh"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="mingcute:wheelchair-line" /></template>

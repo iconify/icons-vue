@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/l/luj5q1c5z.css';
+import '../../css/d/d0bb8ubyy.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="luj5q1c5z"/>`;
+const content = `<path class="d0bb8ubyy"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="mingcute:rotate-x-line" /></template>

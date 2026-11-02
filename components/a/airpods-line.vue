@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/f/f4_nlmbse.css';
+import '../../css/h/h-f5fbcbv.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="f4_nlmbse"/>`;
+const content = `<path class="h-f5fbcbv"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="mingcute:airpods-line" /></template>

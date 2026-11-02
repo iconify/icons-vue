@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/t/tc0ixizio.css';
+import '../../css/c/c-ho38b9w.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="tc0ixizio"/>`;
+const content = `<path class="c-ho38b9w"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="mingcute:add-circle-dash-fill" /></template>

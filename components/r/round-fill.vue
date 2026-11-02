@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/i4hxffrur.css';
+import '../../css/l/l_oo315vk.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<circle class="i4hxffrur"/>`;
+const content = `<path class="l_oo315vk"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="mingcute:round-fill" /></template>

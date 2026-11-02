@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/c/c-i5xtbgo.css';
+import '../../css/q/qvbtkp-2a.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="c-i5xtbgo"/>`;
+const content = `<path class="qvbtkp-2a"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="mingcute:solar-panel-fill" /></template>

@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/t/thvvfsrjl.css';
+import '../../css/h/hjtde_bcs.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="thvvfsrjl"/>`;
+const content = `<path class="hjtde_bcs"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="mingcute:ufo-2-fill" /></template>

@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/b/bcr61ybai.css';
+import '../../css/z/z2h8rwr0j.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="bcr61ybai"/>`;
+const content = `<path class="z2h8rwr0j"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="mingcute:camcorder-off-line" /></template>

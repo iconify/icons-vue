@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/thesvg",
   "type": "module",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "homepage": "https://icon-sets.iconify.design/thesvg/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -3914,6 +3914,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/e/emirates.vue"
     },
+    "./emissary-ingress": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/emissary-ingress.vue"
+    },
     "./emlakjet": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/e/emlakjet.vue"
@@ -4177,6 +4181,10 @@
     "./fanfou": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/fanfou.vue"
+    },
+    "./fans": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fans.vue"
     },
     "./fantom": {
       "types": "./types/dd0bq22g.d.ts",
@@ -6798,6 +6806,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/k/kdenlive.vue"
     },
+    "./keda": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/keda.vue"
+    },
     "./kedro": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/k/kedro.vue"
@@ -7021,6 +7033,10 @@
     "./konva": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/k/konva.vue"
+    },
+    "./kopia": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kopia.vue"
     },
     "./koreader": {
       "types": "./types/dd0bq22g.d.ts",
@@ -9389,6 +9405,10 @@
     "./openfaas": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/o/openfaas.vue"
+    },
+    "./openfga": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/openfga.vue"
     },
     "./opengl": {
       "types": "./types/dd0bq22g.d.ts",
@@ -13001,6 +13021,10 @@
     "./task": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/task.vue"
+    },
+    "./taskade": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/taskade.vue"
     },
     "./tasmota": {
       "types": "./types/dd0bq22g.d.ts",

@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/devicon-plain",
   "type": "module",
-  "version": "1.0.29",
+  "version": "1.0.30",
   "homepage": "https://icon-sets.iconify.design/devicon-plain/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -1674,6 +1674,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/l/luau.vue"
     },
+    "./lwc": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lwc.vue"
+    },
     "./magento-wordmark": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/magento-wordmark.vue"
@@ -2189,6 +2193,10 @@
     "./pnpm-wordmark": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/pnpm-wordmark.vue"
+    },
+    "./pocketbase": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pocketbase.vue"
     },
     "./podman": {
       "types": "./types/dd0bq22g.d.ts",

@@ -1,0 +1,8 @@
+.cr8dwupne {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M7.5 4.5L3.75 8.25L7.5 12m12.75 7.5v-3.75a7.5 7.5 0 0 0-7.5-7.5h-9");
+}

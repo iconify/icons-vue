@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/thesvg-color",
   "type": "module",
-  "version": "1.0.22",
+  "version": "1.0.23",
   "homepage": "https://icon-sets.iconify.design/thesvg-color/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -5629,6 +5629,10 @@
     "./fanfou": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/fanfou.vue"
+    },
+    "./fans": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fans.vue"
     },
     "./fanta": {
       "types": "./types/dd0bq22g.d.ts",
@@ -17653,6 +17657,10 @@
     "./task": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/task.vue"
+    },
+    "./taskade": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/taskade.vue"
     },
     "./tasmota": {
       "types": "./types/dd0bq22g.d.ts",

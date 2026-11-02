@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/y/y8uoaj-wr.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,10 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="y8uoaj-wr"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:chat-conversation-fill-round" /></template>
+<style>
+.y8uoaj-wr {
+  fill: currentColor;
+  d: path("M2 7a5 5 0 0 1 5-5h4a5 5 0 0 1 5 5v2a5 5 0 0 1-5 5H9c-.749 0-1.737.152-2.293.707l-1 1a1.71 1.71 0 0 1-1.498.485c-.461-.078-.866-.328-1.193-.655a3.4 3.4 0 0 1-.732-1.116A3.7 3.7 0 0 1 2 13Zm20 4v6c0 .488-.097.971-.284 1.421a3.4 3.4 0 0 1-.732 1.116c-.327.327-.732.577-1.193.655a1.71 1.71 0 0 1-1.498-.485l-1-1C16.737 18.152 15.749 18 15 18H9a1 1 0 0 1 0-2h6c1.317 0 2.748.335 3.707 1.293l.846.846c.295-.28.447-.74.447-1.139v-6a1 1 0 0 0-1-1a1 1 0 0 1 0-2a3 3 0 0 1 3 3");
+}
+
+</style>

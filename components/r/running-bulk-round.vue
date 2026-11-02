@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/u/ujjkb6bzk.css';
-import '../../css/v/vcz-z1b1w.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,18 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="cuyn6tgcc"><path class="ujjkb6bzk"/><path class="vcz-z1b1w"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:running-bulk-round" /></template>
+<style>
+.cuyn6tgcc {
+  fill: currentColor;
+}
+
+.ujjkb6bzk {
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M13.158 4.221a2 2 0 1 1 3.684 1.558a2 2 0 0 1-3.684-1.558");
+}
+
+.vcz-z1b1w {
+  d: path("M7.051 8.684A1 1 0 0 1 8 8h4c.265 0 .52.105.707.293L15.414 11H20a1 1 0 0 1 0 2h-5a1 1 0 0 1-.707-.293l-1.928-1.928l-1.152 2.881L14.6 16.2a1 1 0 0 1 .4.8v4a1 1 0 0 1-2 0v-3.5l-2.641-1.981l-1.465 2.928a1 1 0 0 1-1.137.523l-4-1a1 1 0 0 1 .486-1.94l3.221.805l1.623-3.245L10.523 10H8.721l-.772 2.316a1.001 1.001 0 0 1-1.898-.632Z");
+}
+
+</style>

@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/k/kwk45tbsm.css';
-import '../../css/a/auema7f1s.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,18 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="cuyn6tgcc"><path class="kwk45tbsm"/><path class="auema7f1s"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:shopping-cart-bulk-round" /></template>
+<style>
+.auema7f1s {
+  d: path("M5.934 5.632L6.618 7H18a3 3 0 0 1 1.494.39c1.377.774 1.947 2.448 1.455 3.926l-1 3c-.228.683-.581 1.327-1.093 1.839c-.493.493-1.146.845-1.856.845h-6a5.15 5.15 0 0 1-4.962-3.725L4.065 6.367c-.207-.403-.45-.798-.772-1.12c-.093-.093-.2-.198-.325-.248A.999.999 0 0 1 3 3c.722 0 1.394.345 1.898.849c.494.494.833 1.117 1.036 1.783m2.028 7.093A3.15 3.15 0 0 0 11 15h6c.161 0 .337-.154.442-.259c.291-.292.48-.67.609-1.057l1-3c.07-.205.091-.423.061-.637C19.033 9.482 18.593 9 18 9H6.897Zm-.804 6.496a2 2 0 1 1 3.684 1.558a2 2 0 0 1-3.684-1.558m9 0a2 2 0 1 1 3.684 1.558a2 2 0 0 1-3.684-1.558");
+}
+
+.cuyn6tgcc {
+  fill: currentColor;
+}
+
+.kwk45tbsm {
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M4.609 8.275A1 1 0 0 1 5.571 7H18a3 3 0 0 1 1.494.39c1.377.774 1.947 2.448 1.455 3.926l-1 3c-.228.683-.581 1.327-1.093 1.839c-.493.493-1.146.845-1.856.845h-6a5.15 5.15 0 0 1-4.962-3.725Z");
+}
+
+</style>

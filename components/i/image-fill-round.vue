@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/k/kxdnc-4me.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,10 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="kxdnc-4me"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:image-fill-round" /></template>
+<style>
+.kxdnc-4me {
+  fill: currentColor;
+  d: path("M17 2a5 5 0 0 1 5 5v9.586l-3.293-3.293a2.414 2.414 0 0 0-3.414 0l-1 1a.414.414 0 0 1-.586 0l-2-2a3.83 3.83 0 0 0-5.414 0L2 16.586V7a5 5 0 0 1 5-5Zm-4 6a2 2 0 1 0 3.999.001A2 2 0 0 0 13 8m8.584 10.999A4.99 4.99 0 0 1 17 22H7a4.99 4.99 0 0 1-4.584-3.001l5.291-5.292a1.83 1.83 0 0 1 2.586 0l2 2a2.414 2.414 0 0 0 3.414 0l1-1a.414.414 0 0 1 .586 0Z");
+}
+
+</style>

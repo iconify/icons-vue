@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/v/vige47nfi.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,10 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="vige47nfi"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:hand-fill-round" /></template>
+<style>
+.vige47nfi {
+  fill: currentColor;
+  d: path("M13 4a2 2 0 1 1 4 0v8h1V8a1.999 1.999 0 0 1 3-1.732c.619.357 1 1.017 1 1.732v8a6 6 0 0 1-6 6h-4c-1.039 0-1.992-.578-2.707-1.293l-6-6c-.945-.945-1.233-2.271-.653-3.492c.163-.343.384-.655.653-.922c.267-.269.579-.49.922-.653a3 3 0 0 1 2.364-.099c.425.167.806.43 1.128.752l.293.293V7a1.999 1.999 0 0 1 3.001-1.732C11.619 5.626 12 6.285 12 7v5h1Z");
+}
+
+</style>

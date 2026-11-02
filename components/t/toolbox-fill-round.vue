@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/j/jc-xamhui.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,10 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="jc-xamhui"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:toolbox-fill-round" /></template>
+<style>
+.jc-xamhui {
+  fill: currentColor;
+  d: path("M8 7V6a3 3 0 0 1 3-3h2a3 3 0 0 1 3 3v1h1a5 5 0 0 1 5 5v1h-5v2h5v1a5 5 0 0 1-1.464 3.536A5 5 0 0 1 17 21H7a5 5 0 0 1-5-5v-1h5v-2H2v-1a5 5 0 0 1 5-5Zm6-1a.997.997 0 0 0-1-1h-2a.997.997 0 0 0-1 1v1h4Zm-5 9h6v-2H9Z");
+}
+
+</style>

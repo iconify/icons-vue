@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/m/me0thpmkj.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,10 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="me0thpmkj"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:paint-roller-fill-round" /></template>
+<style>
+.me0thpmkj {
+  fill: currentColor;
+  d: path("M6 2h8a4.006 4.006 0 0 1 3.874 3H18a4 4 0 0 1 0 8h-3c-.806 0-1.535.487-1.847 1.23A3 3 0 0 1 15 17v2a3 3 0 1 1-6 0v-2c0-1.306.848-2.464 2.092-2.86A4.01 4.01 0 0 1 15 11h3a2 2 0 1 0 0-4h-.126A4.01 4.01 0 0 1 14 10H6a4 4 0 0 1 0-8");
+}
+
+</style>

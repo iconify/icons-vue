@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/k/k8nkhzbtz.css';
-import '../../css/g/gaczx7b7v.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,18 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="cuyn6tgcc"><path class="k8nkhzbtz"/><path class="gaczx7b7v"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:square-dashed-close-bulk-round" /></template>
+<style>
+.cuyn6tgcc {
+  fill: currentColor;
+}
+
+.gaczx7b7v {
+  d: path("M2.315 4.443c.2-.476.491-.907.857-1.271A3.98 3.98 0 0 1 6 2a1 1 0 0 1 0 2c-.533 0-1.039.207-1.414.586A1.98 1.98 0 0 0 4 6a1 1 0 0 1-2 0a4 4 0 0 1 .315-1.557M14 2a1 1 0 0 1 0 2h-4a1 1 0 0 1 0-2Zm5.557.315c.476.2.907.491 1.271.857A3.98 3.98 0 0 1 22 6a1 1 0 0 1-2 0c0-.533-.207-1.039-.586-1.414A1.98 1.98 0 0 0 18 4a1 1 0 0 1 0-2a4 4 0 0 1 1.557.315M2 10a1 1 0 0 1 2 0v4a1 1 0 0 1-2 0Zm20 4a1 1 0 0 1-2 0v-4a1 1 0 0 1 2 0ZM4.443 21.685a4 4 0 0 1-1.271-.857A3.98 3.98 0 0 1 2 18a1 1 0 0 1 2 0c0 .533.207 1.039.586 1.414c.377.377.881.588 1.414.586a1 1 0 0 1 0 2a4 4 0 0 1-1.557-.315m17.242-2.128a4 4 0 0 1-.857 1.271A3.98 3.98 0 0 1 18 22a1 1 0 0 1 0-2c.533 0 1.039-.207 1.414-.586c.377-.377.588-.881.586-1.414a1 1 0 0 1 2 0a4 4 0 0 1-.315 1.557M10 22a1 1 0 0 1 0-2h4a1 1 0 0 1 0 2Z");
+}
+
+.k8nkhzbtz {
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("m12 10.586l2.293-2.293a.999.999 0 1 1 1.414 1.414L13.414 12l2.293 2.293a.999.999 0 1 1-1.414 1.414L12 13.414l-2.293 2.293a.999.999 0 1 1-1.414-1.414L10.586 12L8.293 9.707a.999.999 0 1 1 1.414-1.414Z");
+}
+
+</style>

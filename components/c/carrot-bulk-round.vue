@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/v/vuwfr6bul.css';
-import '../../css/c/cz74op0fm.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,18 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="cuyn6tgcc"><path class="vuwfr6bul"/><path class="cz74op0fm"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:carrot-bulk-round" /></template>
+<style>
+.cuyn6tgcc {
+  fill: currentColor;
+}
+
+.cz74op0fm {
+  d: path("M18.495 5.505c1.61-.216 2.957.633 3.457 2.189a1 1 0 0 1 0 .612c-.203.631-.566 1.202-1.095 1.608a3.04 3.04 0 0 1-1.786.613c-1.455.035-2.792-.817-3.778-1.82c-1.003-.986-1.855-2.323-1.82-3.778a3.04 3.04 0 0 1 .613-1.786c.406-.529.977-.892 1.608-1.095a1 1 0 0 1 .612 0c.631.203 1.202.566 1.608 1.095c.52.678.693 1.526.581 2.362M16 4.083c-.918.519-.457 1.698 0 2.375c.457-.677.918-1.856 0-2.375M17.542 8c.677.457 1.856.918 2.375 0c-.519-.918-1.698-.457-2.375 0m-9.095 2.106l2 1a1 1 0 1 1-.894 1.788l-2-1a1 1 0 1 1 .894-1.788m.106 6.788a1 1 0 1 1 .894-1.788l2 1a1 1 0 1 1-.894 1.788Z");
+}
+
+.vuwfr6bul {
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M18.495 5.505c.836-.112 1.684.061 2.362.581c.529.406.892.977 1.095 1.608a1 1 0 0 1 0 .612c-.521 1.624-1.956 2.458-3.615 2.165a5.3 5.3 0 0 1-2.89 5.423l-12 6a1 1 0 0 1-1.341-1.341l6-12a5.3 5.3 0 0 1 5.423-2.89c-.293-1.659.541-3.094 2.165-3.615a1 1 0 0 1 .612 0c.631.203 1.202.566 1.608 1.095c.52.678.693 1.526.581 2.362");
+}
+
+</style>

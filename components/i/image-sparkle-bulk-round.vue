@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/y/yqxcxg4xa.css';
-import '../../css/u/u1sn1_awz.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,18 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="cuyn6tgcc"><path class="yqxcxg4xa"/><path class="u1sn1_awz"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:image-sparkle-bulk-round" /></template>
+<style>
+.cuyn6tgcc {
+  fill: currentColor;
+}
+
+.u1sn1_awz {
+  d: path("M10 11a1 1 0 0 1 0-2c1.452 0 3-1.548 3-3a1 1 0 0 1 2 0c0 .774.422 1.508.957 2.043c.288.292.626.532.997.707c.328.153.683.25 1.046.25a1 1 0 0 1 0 2c-.363 0-.718.097-1.046.25a3.5 3.5 0 0 0-.997.707a3.5 3.5 0 0 0-.707.997c-.153.328-.25.683-.25 1.046a1 1 0 0 1-2 0c0-1.452-1.548-3-3-3m-7.707 5.293l1-1a5.243 5.243 0 0 1 7.414 0l5 5a.999.999 0 1 1-1.414 1.414l-5-5a3.243 3.243 0 0 0-4.586 0l-1 1a.999.999 0 1 1-1.414-1.414");
+}
+
+.yqxcxg4xa {
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M2 7a5 5 0 0 1 5-5h10a5 5 0 0 1 5 5v10a5 5 0 0 1-1.464 3.536A5 5 0 0 1 17 22H7a5 5 0 0 1-5-5Z");
+}
+
+</style>

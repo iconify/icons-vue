@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/a/at93vc5gb.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,10 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="at93vc5gb"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:activity-bulk-round" /></template>
+<style>
+.at93vc5gb {
+  fill: currentColor;
+  d: path("m6.051 8.684l2-6a1 1 0 0 1 1.898 0L15 17.838l1.051-3.154a5.5 5.5 0 0 1 1.901-2.656A5.08 5.08 0 0 1 21 11a1 1 0 0 1 0 2c-.672 0-1.312.226-1.848.628a3.47 3.47 0 0 0-1.203 1.688l-2 6a1 1 0 0 1-1.898 0L9 6.162L7.949 9.316a5.5 5.5 0 0 1-1.901 2.656A5.08 5.08 0 0 1 3 13a1 1 0 0 1 0-2c.672 0 1.312-.226 1.848-.628a3.47 3.47 0 0 0 1.203-1.688");
+}
+
+</style>

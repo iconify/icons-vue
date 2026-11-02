@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/p/pxdneib_q.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,10 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="pxdneib_q"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:shield-off-fill-round" /></template>
+<style>
+.pxdneib_q {
+  fill: currentColor;
+  d: path("m3.707 1.293l19 19a.999.999 0 1 1-1.414 1.414l-3.494-3.493c-1.502 1.609-3.39 2.809-5.393 3.7a1 1 0 0 1-.812 0C6.495 19.647 3.001 15.712 3 10V7c0-.981.286-1.94.828-2.758L2.293 2.707a.999.999 0 1 1 1.414-1.414m16.34 13.512L7.292 2.049Q7.644 1.999 8 2h8a5 5 0 0 1 5 5v3c0 1.645-.302 3.291-.953 4.805");
+}
+
+</style>

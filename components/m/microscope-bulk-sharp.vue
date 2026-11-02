@@ -1,0 +1,24 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="cuyn6tgcc"><path class="p8-_gab6b"/><path class="ljb2_q1ps"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:microscope-bulk-sharp" /></template>
+<style>
+.cuyn6tgcc {
+  fill: currentColor;
+}
+
+.ljb2_q1ps {
+  d: path("M7 3a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v3a1 1 0 0 1-2 0V4H9v2a1 1 0 0 1-2 0ZM3 20h11a4.97 4.97 0 0 0 3.536-1.464c1.028-1.029 1.599-2.527 1.44-3.982a3.98 3.98 0 0 0-1.148-2.382A3.97 3.97 0 0 0 15 11h-2a1 1 0 0 1 0-2h2a5.97 5.97 0 0 1 4.243 1.757a5.98 5.98 0 0 1 1.728 3.64c.203 2.062-.595 4.155-2.072 5.603H21a1 1 0 0 1 0 2H3a1 1 0 0 1 0-2m3-4h8a1 1 0 0 1 0 2H6a1 1 0 0 1 0-2");
+}
+
+.p8-_gab6b {
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M8 2h4a1 1 0 0 1 1 1v2a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1V3a1 1 0 0 1 1-1");
+}
+
+</style>

@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/u/ujawvmq4f.css';
-import '../../css/x/xha28jbkf.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,22 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path class="ujawvmq4f"/><path class="xha28jbkf"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:target-duocolor-round" /></template>
+<style>
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.ujawvmq4f {
+  stroke-opacity: 0.4;
+  d: path("M12 12h.01");
+}
+
+.xha28jbkf {
+  d: path("M3 12a9 9 0 1 0 18 0a9 9 0 0 0-18 0m4 0a5 5 0 0 1 10 0m0 0a5 5 0 0 1-10 0");
+}
+
+</style>

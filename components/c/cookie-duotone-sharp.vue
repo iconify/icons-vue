@@ -1,0 +1,29 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ft5dv1b6b"><path class="vql49sbvb"/><path class="iuo6_vyfp"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:cookie-duotone-sharp" /></template>
+<style>
+.ft5dv1b6b {
+  fill: none;
+}
+
+.iuo6_vyfp {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M12 3a9 9 0 1 1-9 9a4.53 4.53 0 0 0 5-4a4.53 4.53 0 0 0 4-5M3 7h.01M4 3h.01M8 3h.01M10 17h.01M15 15h.01M11 12h.01M16 10h.01");
+}
+
+.vql49sbvb {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
+  d: path("M3 12a4.53 4.53 0 0 0 5-4a4.53 4.53 0 0 0 4-5a9 9 0 0 1 9 9a9 9 0 0 1-9 9a9 9 0 0 1-9-9");
+}
+
+</style>

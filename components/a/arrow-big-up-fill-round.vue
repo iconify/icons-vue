@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/c/che1q43ri.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,10 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="che1q43ri"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:arrow-big-up-fill-round" /></template>
+<style>
+.che1q43ri {
+  fill: currentColor;
+  d: path("M13 21h-2a3 3 0 0 1-3-3v-4a.997.997 0 0 0-1-1H6c-.898 0-1.928-.572-2.089-1.521a1.34 1.34 0 0 1 .382-1.186l6-6a2.414 2.414 0 0 1 3.414 0l6 6c.311.311.456.752.382 1.186C19.928 12.428 18.898 13 18 13h-1a.997.997 0 0 0-1 1v4a3 3 0 0 1-3 3");
+}
+
+</style>

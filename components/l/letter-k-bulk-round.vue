@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/w/wwo7y5b1s.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,10 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="wwo7y5b1s"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:letter-k-bulk-round" /></template>
+<style>
+.wwo7y5b1s {
+  fill: currentColor;
+  d: path("M8 11h.586l7.707-7.707a.999.999 0 1 1 1.414 1.414L10.414 12l7.293 7.293a.999.999 0 1 1-1.414 1.414L8.586 13H8v7a1 1 0 0 1-2 0V4a1 1 0 0 1 2 0Z");
+}
+
+</style>

@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="dk6n9fbwj"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:soccer-ball-fill-sharp" /></template>
+<style>
+.dk6n9fbwj {
+  fill: currentColor;
+  d: path("M2.786 8.107C4.936 3.02 10.804.639 15.892 2.788s7.469 8.016 5.32 13.104s-8.016 7.469-13.104 5.32S.637 13.195 2.786 8.107M11 5v1.434L6.88 8.906l-.667-.223a1.001 1.001 0 0 0-.632 1.898l.628.209l1.688 5.062l-.62.929a1 1 0 0 0 1.664 1.11L9.535 17h4.93l.594.891a1 1 0 0 0 1.664-1.11l-.62-.929l1.688-5.062l.628-.209a1.001 1.001 0 0 0-.632-1.898l-.667.223L13 6.434V5a1 1 0 0 0-2 0m-2.798 5.445L12 8.166l3.798 2.279L14.279 15H9.721Z");
+}
+
+</style>

@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/l/ldgncw1xg.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,10 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="ldgncw1xg"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:network-fill-round" /></template>
+<style>
+.ldgncw1xg {
+  fill: currentColor;
+  d: path("M11 2h2a3 3 0 0 1 3 3v1a3 3 0 0 1-3 3v2h1a5.01 5.01 0 0 1 4.901 4H19a3 3 0 0 1 3 3v1a3 3 0 0 1-3 3h-2a3 3 0 0 1-3-3v-1a3 3 0 0 1 2.831-2.995A3.01 3.01 0 0 0 14 13h-4a3.01 3.01 0 0 0-2.831 2.005A3 3 0 0 1 10 18v1a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3v-1a3 3 0 0 1 3-3h.099A5.01 5.01 0 0 1 10 11h1V9a3 3 0 0 1-3-3V5a3 3 0 0 1 3-3");
+}
+
+</style>

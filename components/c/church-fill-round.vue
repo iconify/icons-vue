@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/b/bal2iqxhb.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,10 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="bal2iqxhb"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:church-fill-round" /></template>
+<style>
+.bal2iqxhb {
+  fill: currentColor;
+  d: path("M13 4h1a1 1 0 0 1 0 2h-1v.586l2.707 2.707C16.422 10.008 17 10.961 17 12v.382l1.447.724c1.075.537 2.552 1.546 2.553 2.894v2a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4v-2c.001-1.348 1.478-2.357 2.553-2.894L7 12.382V12c0-1.039.578-1.992 1.293-2.707L11 6.586V6h-1a1 1 0 0 1 0-2h1V3a1 1 0 0 1 2 0Z");
+}
+
+</style>

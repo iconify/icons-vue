@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/a/ayjriybxu.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,14 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="ayjriybxu"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:duck-round" /></template>
+<style>
+.ayjriybxu {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M7 9c-1.5.5-3 1.5-3 3c0 2.5 2 4 5 4h5c5 0 7-4 7-8c-3.5 2-7 2-9 1c0-.5 1-1.5 1-3c0-1.7-1.3-3-3-3S7 4.3 7 6v1m3-1h.01M3 20c1.5 0 1.5 1 3 1s1.5-1 3-1s1.5 1 3 1s1.5-1 3-1s1.5 1 3 1s1.5-1 3-1M7 7L3 8l4 1");
+}
+
+</style>

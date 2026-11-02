@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="btdhc-bgq"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:undo-fill-sharp" /></template>
+<style>
+.btdhc-bgq {
+  fill: currentColor;
+  d: path("M5.001 10H5a.997.997 0 0 1-1-1V3a1 1 0 0 1 2 0v2.817a8.616 8.616 0 1 1-1.919 9.577a.999.999 0 1 1 1.838-.788a6.614 6.614 0 0 0 7.334 3.888A6.616 6.616 0 1 0 6.729 8H11a1 1 0 0 1 0 2Z");
+}
+
+</style>

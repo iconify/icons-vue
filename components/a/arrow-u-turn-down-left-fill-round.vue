@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/u/uakihh5sg.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,10 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="uakihh5sg"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:arrow-u-turn-down-left-fill-round" /></template>
+<style>
+.uakihh5sg {
+  fill: currentColor;
+  d: path("m2.293 14.293l4-4a.999.999 0 1 1 1.414 1.414L5.414 14H17c.796 0 1.559-.316 2.121-.879A3 3 0 0 0 20 11V9a3 3 0 0 0-3-3h-6a1 1 0 0 1 0-2h6a5 5 0 0 1 5 5v2a5 5 0 0 1-5 5H5.414l2.293 2.293a.999.999 0 1 1-1.414 1.414l-4-4a1 1 0 0 1-.009-1.405z");
+}
+
+</style>

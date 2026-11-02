@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/j/jvs3sen_i.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,14 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="jvs3sen_i"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:bath-round" /></template>
+<style>
+.jvs3sen_i {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M3 12h18M5 12v4a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-4M8 18v2m8-2v2M5 12V6a2 2 0 1 1 4 0");
+}
+
+</style>

@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="n0dgv8bmn"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:sun-dim-fill-sharp" /></template>
+<style>
+.n0dgv8bmn {
+  fill: currentColor;
+  d: path("M12.01 4a1 1 0 0 1 0 2H12a1 1 0 0 1 0-2ZM7.06 6.05a1 1 0 1 1 0 2h-.01a1 1 0 1 1 0-2Zm9.9 0a1 1 0 0 1 0 2h-.01a1 1 0 1 1 0-2ZM8 12a4 4 0 1 1 8 0a4 4 0 0 1-8 0m-2.99-1a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Zm14 0a1 1 0 0 1 0 2H19a1 1 0 0 1 0-2ZM7.06 15.95a1 1 0 1 1 0 2h-.01a1 1 0 0 1 0-2Zm9.9 0a1 1 0 1 1 0 2h-.01a1 1 0 1 1 0-2ZM12.01 18a1 1 0 0 1 0 2H12a1 1 0 0 1 0-2Z");
+}
+
+</style>

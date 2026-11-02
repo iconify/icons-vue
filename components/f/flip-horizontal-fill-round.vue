@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/v/vkdfjcb6k.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,10 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="vkdfjcb6k"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:flip-horizontal-fill-round" /></template>
+<style>
+.vkdfjcb6k {
+  fill: currentColor;
+  d: path("M13 7a1 1 0 0 1-2 0V5a1 1 0 0 1 2 0ZM2 15V9c0-.898.572-1.928 1.521-2.089a1.34 1.34 0 0 1 1.186.382l3 3a2.414 2.414 0 0 1 0 3.414l-3 3a1.36 1.36 0 0 1-1.186.382C2.572 16.928 2 15.898 2 15m20-6v6c0 .898-.572 1.928-1.521 2.089a1.34 1.34 0 0 1-1.186-.382l-3-3a2.414 2.414 0 0 1 0-3.414l3-3a1.36 1.36 0 0 1 1.186-.382C21.428 7.072 22 8.102 22 9m-11 4v-2a1 1 0 0 1 2 0v2a1 1 0 0 1-2 0m2 6a1 1 0 0 1-2 0v-2a1 1 0 0 1 2 0Z");
+}
+
+</style>

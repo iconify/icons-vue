@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/h/h1u-ccs4y.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,10 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="h1u-ccs4y"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:git-compare-fill-round" /></template>
+<style>
+.h1u-ccs4y {
+  fill: currentColor;
+  d: path("M15 5a5 5 0 0 1 5 5v5.171a3 3 0 1 1-2 0V10a3 3 0 0 0-3-3h-1.586l1.293 1.293a.999.999 0 1 1-1.414 1.414l-3-3a1 1 0 0 1 0-1.414l3-3a.999.999 0 1 1 1.414 1.414L13.414 5ZM6 8.829V14a3 3 0 0 0 3 3h1.586l-1.293-1.293a.999.999 0 1 1 1.414-1.414l3 3a1 1 0 0 1 0 1.414l-3 3a.999.999 0 1 1-1.414-1.414L10.586 19H9a5 5 0 0 1-5-5V8.829a3 3 0 1 1 2 0");
+}
+
+</style>

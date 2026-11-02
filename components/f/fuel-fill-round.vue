@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/d/d-0k6ir6x.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,10 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="d-0k6ir6x"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:fuel-fill-round" /></template>
+<style>
+.d-0k6ir6x {
+  fill: currentColor;
+  d: path("M14 8H2V7a5 5 0 0 1 5-5h2a5 5 0 0 1 5 5Zm0 5v4a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5v-7h12v1h1a3 3 0 0 1 3 3v1a1 1 0 0 0 2 0V8c0-.468-.395-.98-.707-1.293l-2-2a.999.999 0 1 1 1.414-1.414l2 2C21.422 6.008 22 6.961 22 8v7a3 3 0 1 1-6 0v-1a.997.997 0 0 0-1-1Z");
+}
+
+</style>

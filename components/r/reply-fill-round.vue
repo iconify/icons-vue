@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/h/h2aby4v6y.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,10 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="h2aby4v6y"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:reply-fill-round" /></template>
+<style>
+.h2aby4v6y {
+  fill: currentColor;
+  d: path("M5.414 8H17a5 5 0 0 1 5 5v2a5 5 0 0 1-1.464 3.536A5 5 0 0 1 17 20h-6a1 1 0 0 1 0-2h6a3 3 0 0 0 3-3v-2a3 3 0 0 0-3-3H5.414l2.293 2.293a.999.999 0 1 1-1.414 1.414l-4-4a1 1 0 0 1 0-1.414l4-4a.999.999 0 1 1 1.414 1.414Z");
+}
+
+</style>

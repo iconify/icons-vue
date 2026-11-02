@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/y/yqazu98pt.css';
-import '../../css/l/lwj2ly6-e.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,18 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="cuyn6tgcc"><path class="yqazu98pt"/><path class="lwj2ly6-e"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:thumbs-up-bulk-round" /></template>
+<style>
+.cuyn6tgcc {
+  fill: currentColor;
+}
+
+.lwj2ly6-e {
+  d: path("M8 10v9a3 3 0 1 1-6 0v-7a3 3 0 0 1 3-3h2a1 1 0 0 1 1 1m-2 1H5a.997.997 0 0 0-1 1v7a1 1 0 0 0 2 0Z");
+}
+
+.yqazu98pt {
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M7 9a3 3 0 0 0 3-3V5a3 3 0 1 1 6 0v3a.997.997 0 0 0 1 1h1a4 4 0 0 1 4 4v1q0 .1-.019.196l-1 5c-.087.43-.265.836-.523 1.191C19.675 21.475 18.309 22 17 22H9c-.74 0-1.45-.27-2-.764a3 3 0 0 1-3.225.502A3 3 0 0 1 2 19v-7a3 3 0 0 1 3-3Z");
+}
+
+</style>

@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/m/md5jwx3_p.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,10 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="md5jwx3_p"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:alarm-fill-round" /></template>
+<style>
+.md5jwx3_p {
+  fill: currentColor;
+  d: path("M5.293 2.293a.999.999 0 1 1 1.414 1.414l-3 3a.999.999 0 1 1-1.414-1.414Zm16.414 3a.999.999 0 1 1-1.414 1.414l-3-3a1 1 0 0 1 1.414-1.414ZM3.708 9.496c1.934-4.578 7.216-6.721 11.795-4.786a9 9 0 0 1 4.787 11.793A9 9 0 0 1 8.497 21.29c-4.578-1.934-6.724-7.215-4.789-11.794M13 9a1 1 0 0 0-2 0v4a1 1 0 0 0 1 1h4a1 1 0 0 0 0-2h-3Z");
+}
+
+</style>

@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/s/s4n17uyuj.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,10 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="s4n17uyuj"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:paper-plane-fill-round" /></template>
+<style>
+.s4n17uyuj {
+  fill: currentColor;
+  d: path("M17.684 3.051a2.582 2.582 0 0 1 3.265 3.265l-4 12c-.187.56-.612.986-1.178 1.159c-.476.145-.981.098-1.449-.058a3.7 3.7 0 0 1-1.25-.728a4 4 0 0 1-.966-1.242l-1-2a6 6 0 0 0-.425-.714l4.026-4.026a.999.999 0 1 0-1.414-1.414l-4.026 4.026a6 6 0 0 0-.714-.425l-2-1a4 4 0 0 1-1.242-.966a3.7 3.7 0 0 1-.728-1.25c-.156-.468-.203-.973-.058-1.449a1.78 1.78 0 0 1 1.159-1.178Z");
+}
+
+</style>

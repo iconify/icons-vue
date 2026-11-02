@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/z/z33hrsxcq.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,10 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="z33hrsxcq"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:skull-fill-round" /></template>
+<style>
+.z33hrsxcq {
+  fill: currentColor;
+  d: path("M15 22v-4a1 1 0 0 0-2 0v4h-2v-4a1 1 0 0 0-2 0v4H8a3 3 0 0 1-3-3v-2.65A8.81 8.81 0 0 1 6.052 4.501A8.81 8.81 0 0 1 19 16.35V19a3 3 0 0 1-3 3ZM7.158 11.221a2 2 0 1 0 3.684 1.558a2 2 0 0 0-3.684-1.558M13 12a2 2 0 1 0 3.999.001A2 2 0 0 0 13 12");
+}
+
+</style>

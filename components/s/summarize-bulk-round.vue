@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/w/w68dq2bht.css';
-import '../../css/y/ypqex4f3c.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,18 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="cuyn6tgcc"><path class="w68dq2bht"/><path class="ypqex4f3c"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:summarize-bulk-round" /></template>
+<style>
+.cuyn6tgcc {
+  fill: currentColor;
+}
+
+.w68dq2bht {
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M17 10a1 1 0 0 1 1 1c0 .363.097.718.25 1.046c.175.371.415.709.707.997c.288.292.626.532.997.707c.328.153.683.25 1.046.25a1 1 0 0 1 0 2c-.363 0-.718.097-1.046.25a3.5 3.5 0 0 0-.997.707a3.5 3.5 0 0 0-.707.997c-.153.328-.25.683-.25 1.046a1 1 0 0 1-2 0c0-.363-.097-.718-.25-1.046a3.5 3.5 0 0 0-.707-.997a3.5 3.5 0 0 0-.997-.707A2.5 2.5 0 0 0 13 16a1 1 0 0 1 0-2c.363 0 .718-.097 1.046-.25c.371-.175.709-.415.997-.707c.292-.288.532-.626.707-.997c.153-.328.25-.683.25-1.046a1 1 0 0 1 1-1m0 3.831A5.8 5.8 0 0 1 15.831 15c.443.332.837.726 1.169 1.169A5.8 5.8 0 0 1 18.169 15A5.8 5.8 0 0 1 17 13.831");
+}
+
+.ypqex4f3c {
+  d: path("M21 4a1 1 0 0 1 0 2H3a1 1 0 0 1 0-2Zm-9 6a1 1 0 0 1 0 2H3a1 1 0 0 1 0-2Zm4 1a1 1 0 0 1 2 0c0 1.452 1.548 3 3 3a1 1 0 0 1 0 2c-.774 0-1.508.422-2.043.957a3.5 3.5 0 0 0-.707.997c-.153.328-.25.683-.25 1.046a1 1 0 0 1-2 0c0-.363-.097-.718-.25-1.046a3.5 3.5 0 0 0-.707-.997a3.5 3.5 0 0 0-.997-.707A2.5 2.5 0 0 0 13 16a1 1 0 0 1 0-2c1.452 0 3-1.548 3-3m-8 5a1 1 0 0 1 0 2H3a1 1 0 0 1 0-2Z");
+}
+
+</style>

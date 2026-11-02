@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/l/lh_6htbue.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,10 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="lh_6htbue"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:slider-3-fill-round" /></template>
+<style>
+.lh_6htbue {
+  fill: currentColor;
+  d: path("M11 8a1 1 0 0 1-2 0V7H3a1 1 0 0 1 0-2h6V4a1 1 0 0 1 2 0Zm3-3h7a1 1 0 0 1 0 2h-7a1 1 0 0 1 0-2m3 9a1 1 0 0 1-2 0v-1H3a1 1 0 0 1 0-2h12v-1a1 1 0 0 1 2 0Zm3-3h1a1 1 0 0 1 0 2h-1a1 1 0 0 1 0-2M8 20a1 1 0 0 1-2 0v-1H3a1 1 0 0 1 0-2h3v-1a1 1 0 0 1 2 0Zm13-3a1 1 0 0 1 0 2H11a1 1 0 0 1 0-2Z");
+}
+
+</style>

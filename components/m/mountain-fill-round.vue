@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/j/jxqi0dbma.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,10 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="jxqi0dbma"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:mountain-fill-round" /></template>
+<style>
+.jxqi0dbma {
+  fill: currentColor;
+  d: path("M8.106 6.553a2.116 2.116 0 0 1 3.788 0l1 2c.02.04.061.065.106.065a.12.12 0 0 0 .106-.065a2.11 2.11 0 0 1 2.495-1.083a2.1 2.1 0 0 1 1.293 1.083l3 6c.56 1.12.597 2.457.034 3.583a3.44 3.44 0 0 1-1.154 1.328A3.2 3.2 0 0 1 17 20H7a3.2 3.2 0 0 1-1.774-.536a3.44 3.44 0 0 1-1.154-1.328c-.563-1.126-.526-2.463.034-3.583Z");
+}
+
+</style>

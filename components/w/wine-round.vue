@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/t/tg_buwb9v.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,14 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="tg_buwb9v"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:wine-round" /></template>
+<style>
+.tg_buwb9v {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M9 3h6c1.5 3.5 2 5.5 2 7a5 5 0 0 1-10 0c0-1.5.5-3.5 2-7m3 12v6m-4 0h8M7 10h10");
+}
+
+</style>

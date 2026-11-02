@@ -1,0 +1,20 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="m6pm4eh6f"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:skip-back" /></template>
+<style>
+.m6pm4eh6f {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("m16.94 5.304l-8 5a2 2 0 0 0 0 3.392l8 5C18.272 19.529 20 18.571 20 17V7c0-1.57-1.728-2.529-3.06-1.696M4 5v14");
+}
+
+</style>

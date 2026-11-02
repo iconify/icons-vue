@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/o/obqscbcxp.css';
-import '../../css/b/bdio6nb5b.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,22 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path class="obqscbcxp"/><path class="bdio6nb5b"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:plane-landing-side-duocolor-round" /></template>
+<style>
+.bdio6nb5b {
+  d: path("m7 6l2 1l1.776-3.553A.81.81 0 0 1 11.5 3c.303 0 .577.18.697.46L15 10l4.894 2.447A2 2 0 0 1 21 14.237V15c0 .919-.967 1.517-1.789 1.106l-13.92-6.96a2 2 0 0 1-.52-.376l-.98-.98A1.55 1.55 0 0 1 3.5 6l.276-.553A.81.81 0 0 1 4.5 5h.028a2 2 0 0 1 .894.211z");
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.obqscbcxp {
+  stroke-opacity: 0.4;
+  d: path("M3 21h18");
+}
+
+</style>

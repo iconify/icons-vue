@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/x/xilc5t66e.css';
-import '../../css/f/fotey2b3x.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,18 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="cuyn6tgcc"><path class="xilc5t66e"/><path class="fotey2b3x"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:wifi-low-bulk-round" /></template>
+<style>
+.cuyn6tgcc {
+  fill: currentColor;
+}
+
+.fotey2b3x {
+  d: path("M12 18h.01a1 1 0 0 1 0 2H12a1 1 0 0 1 0-2");
+}
+
+.xilc5t66e {
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M9.88 13.907a4.64 4.64 0 0 1 4.24 0a4.54 4.54 0 0 1 1.712 1.538a1 1 0 0 1-1.664 1.11a2.55 2.55 0 0 0-.966-.871a2.6 2.6 0 0 0-1.202-.29a2.58 2.58 0 0 0-2.168 1.161a1.003 1.003 0 0 1-1.387.277a1 1 0 0 1-.277-1.387a4.54 4.54 0 0 1 1.712-1.538");
+}
+
+</style>

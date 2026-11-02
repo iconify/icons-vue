@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/p/pe2juqwtl.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,11 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="pe2juqwtl"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:rewind-bulk-round" /></template>
+<style>
+.pe2juqwtl {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M8.457 6.428A2.998 2.998 0 0 1 13 9v.101l4.457-2.673A2.998 2.998 0 0 1 22 9v6a3 3 0 0 1-4.543 2.572L13 14.899V15a3 3 0 0 1-4.543 2.572l-5-3a2.998 2.998 0 0 1 0-5.144Z");
+}
+
+</style>

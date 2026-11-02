@@ -1,0 +1,28 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="nrj6p8qat"><path class="h3_m5ra7m"/><path class="tbvclnbak"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:dog-duocolor" /></template>
+<style>
+.h3_m5ra7m {
+  stroke-opacity: 0.4;
+  d: path("M10 11h.01M14 11h.01M10 14h4l-2 2Zm2 2v2");
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.tbvclnbak {
+  d: path("M8 5h8c.7-.7 1.8-1 3-1c1.5 0 2 1.5 2 3v4c0 1.6-.8 3-2 3l-3 5c-.6 1-1.4 2-3 2h-2c-1.6 0-2.4-1-3-2l-3-5c-1.2 0-2-1.4-2-3V7c0-1.5.5-3 2-3c1.2 0 2.3.3 3 1m0 0c-.7 3-1.5 6.5-3 9m11-9c.7 3 1.5 6.5 3 9");
+}
+
+</style>

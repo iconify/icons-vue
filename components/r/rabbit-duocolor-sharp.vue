@@ -1,0 +1,28 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="nrj6p8qat"><path class="psdgkt55f"/><path class="gnxot9b7d"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:rabbit-duocolor-sharp" /></template>
+<style>
+.gnxot9b7d {
+  d: path("M12 21c-4 0-7-2.5-7-6c0-2.5 1-4.5 2-5c-2-1-4-4-3-6s4 0 6 4c1-.3 3-.3 4 0c2-4 5-6 6-4s-1 5-3 6c1 .5 2 2.5 2 5c0 3.5-3 6-7 6");
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.psdgkt55f {
+  stroke-opacity: 0.4;
+  d: path("M9 14h.01M15 14h.01M12 17h.01");
+}
+
+</style>

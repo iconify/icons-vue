@@ -1,0 +1,24 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="cuyn6tgcc"><path class="nigq3_b9q"/><path class="lj_kdlfqy"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:cloud-sync-corner-bulk-sharp" /></template>
+<style>
+.cuyn6tgcc {
+  fill: currentColor;
+}
+
+.lj_kdlfqy {
+  d: path("M15 12a1 1 0 0 1 1 1v3a1 1 0 0 1-2 0v-.748a3.475 3.475 0 0 0 1.447 4.854a1 1 0 1 1-.894 1.788a5.4 5.4 0 0 1-1.422-1.025a5.4 5.4 0 0 1-1.025-1.422A5.46 5.46 0 0 1 12.423 14H12a1 1 0 0 1 0-2Zm6.577 8H22a1 1 0 0 1 0 2h-3a.997.997 0 0 1-1-1v-3a1 1 0 0 1 2 0v.748a3.475 3.475 0 0 0-1.447-4.854a.999.999 0 1 1 .894-1.788a5.4 5.4 0 0 1 1.422 1.025c.417.415.763.895 1.025 1.422A5.46 5.46 0 0 1 21.577 20");
+}
+
+.nigq3_b9q {
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M7 20a6 6 0 0 1-.739-11.956c.754-2.033 2.254-3.712 4.346-4.404c2.878-.951 5.911.244 7.461 2.828c.426.718.732 1.499.908 2.315A1 1 0 0 1 18 10H9v9a1 1 0 0 1-1 1Z");
+}
+
+</style>

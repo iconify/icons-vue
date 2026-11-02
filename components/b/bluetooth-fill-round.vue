@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/b/bi2fi3bkp.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,10 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="bi2fi3bkp"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:bluetooth-fill-round" /></template>
+<style>
+.bi2fi3bkp {
+  fill: currentColor;
+  d: path("M11 9.586V6c0-.898.572-1.928 1.521-2.089a1.34 1.34 0 0 1 1.186.382l2 2a2.414 2.414 0 0 1 0 3.414L13.414 12l2.293 2.293a2.414 2.414 0 0 1 0 3.414l-2 2a1.36 1.36 0 0 1-1.186.382C11.572 19.928 11 18.898 11 18v-3.586l-2.293 2.293a.999.999 0 1 1-1.414-1.414L10.586 12L7.293 8.707a.999.999 0 1 1 1.414-1.414Zm2 4.828v3.172l1.293-1.293a.414.414 0 0 0 0-.586Zm0-4.828l1.293-1.293a.414.414 0 0 0 0-.586L13 6.414Z");
+}
+
+</style>

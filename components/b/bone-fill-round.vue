@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/x/xnia0x62t.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,10 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="xnia0x62t"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:bone-fill-round" /></template>
+<style>
+.xnia0x62t {
+  fill: currentColor;
+  d: path("m10.707 17.707l-.01.011c.023.089.055.175.086.262c.117.33.217.666.217 1.02a3 3 0 1 1-6 0a3 3 0 1 1 0-6c.354 0 .69.1 1.02.217c.087.031.173.063.262.086l.011-.01l7-7l.01-.011c-.023-.089-.055-.175-.086-.262C13.1 5.69 13 5.354 13 5a3 3 0 1 1 6 0a3 3 0 1 1 0 6c-.354 0-.69-.1-1.02-.217c-.087-.031-.173-.063-.262-.086l-.011.01Z");
+}
+
+</style>

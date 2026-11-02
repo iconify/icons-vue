@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/s/swav2ec8k.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,10 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="swav2ec8k"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:arrow-left-from-line-fill-round" /></template>
+<style>
+.swav2ec8k {
+  fill: currentColor;
+  d: path("M21 18a1 1 0 0 1-2 0V6a1 1 0 0 1 2 0ZM8.707 8.707L6.414 11H16a1 1 0 0 1 0 2H6.414l2.293 2.293a.999.999 0 1 1-1.414 1.414l-4-4a1 1 0 0 1 0-1.414l4-4a.999.999 0 1 1 1.414 1.414");
+}
+
+</style>

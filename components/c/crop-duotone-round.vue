@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/j/jv3ylgrfv.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,14 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="jv3ylgrfv"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:crop-duotone-round" /></template>
+<style>
+.jv3ylgrfv {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M6 3v11a4 4 0 0 0 4 4h11M3 6h3m12 12v3M10 6h4a4 4 0 0 1 4 4v4");
+}
+
+</style>

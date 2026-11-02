@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/l/lllzd4ubz.css';
-import '../../css/k/k7g4nwbmr.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,18 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="cuyn6tgcc"><path class="lllzd4ubz"/><path class="k7g4nwbmr"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:text-wrap-bulk-round" /></template>
+<style>
+.cuyn6tgcc {
+  fill: currentColor;
+}
+
+.k7g4nwbmr {
+  d: path("M4 3h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2m0 6h13a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2m0 7h4a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2");
+}
+
+.lllzd4ubz {
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M17 18h-2.586l1.293 1.293a.999.999 0 1 1-1.414 1.414l-3-3a1 1 0 0 1 0-1.414l3-3a.999.999 0 1 1 1.414 1.414L14.414 16H17c.714 0 1.393-.213 1.878-.758c.832-.936.832-2.548 0-3.484C18.393 11.213 17.714 11 17 11a1 1 0 0 1 0-2c.662 0 1.324.119 1.932.385c1.637.716 2.568 2.358 2.568 4.115c.002.552-.092 1.1-.277 1.62c-.395 1.113-1.204 2.02-2.291 2.495A4.8 4.8 0 0 1 17 18");
+}
+
+</style>

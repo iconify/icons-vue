@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/j/j7o62xr4u.css';
-import '../../css/p/pdrtlpb4h.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,18 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="cuyn6tgcc"><path class="j7o62xr4u"/><path class="pdrtlpb4h"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:cake-bulk-round" /></template>
+<style>
+.cuyn6tgcc {
+  fill: currentColor;
+}
+
+.j7o62xr4u {
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M20 22H4a1 1 0 0 1-1-1v-6a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v6a1 1 0 0 1-1 1");
+}
+
+.pdrtlpb4h {
+  d: path("M8.01 3a1 1 0 0 1 0 2H8a1 1 0 0 1 0-2Zm4 0a1 1 0 0 1 0 2H12a1 1 0 0 1 0-2Zm4 0a1 1 0 0 1 0 2H16a1 1 0 0 1 0-2ZM9 11a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0Zm4 0a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0Zm4 0a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0Zm2.119 4.527a1 1 0 0 1 1.775.92c-.162.326-.425.608-.707.834a3.32 3.32 0 0 1-3.73.275c-.386-.221-.735-.498-1.082-.775c-.262-.21-.532-.433-.824-.6c-.167-.095-.356-.181-.551-.181s-.384.086-.551.181c-.292.167-.562.39-.824.6C11.85 17.401 11.049 18 10 18c-.546 0-1.073-.176-1.543-.444c-.386-.221-.735-.498-1.082-.775c-.262-.21-.532-.433-.824-.6C6.384 16.086 6.195 16 6 16c-.331 0-.674.07-.938.281a.8.8 0 0 0-.181.192a1 1 0 0 1-1.775-.92c.162-.326.425-.608.707-.834a3.32 3.32 0 0 1 3.73-.275c.386.221.735.498 1.082.775c.262.21.532.433.824.6c.167.095.356.181.551.181s.384-.086.551-.181c.292-.167.562-.39.824-.6C12.15 14.599 12.951 14 14 14c.546 0 1.073.176 1.543.444c.386.221.735.498 1.082.775c.262.21.532.433.824.6c.167.095.356.181.551.181c.331 0 .674-.07.938-.281a.8.8 0 0 0 .181-.192M21 20a1 1 0 0 1 0 2H3a1 1 0 0 1 0-2Z");
+}
+
+</style>

@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/p/prbyuccsj.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,10 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="prbyuccsj"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:tree-pine-fill-round" /></template>
+<style>
+.prbyuccsj {
+  fill: currentColor;
+  d: path("M17 8h-.586l2.293 2.293a1.34 1.34 0 0 1 .382 1.186c-.138.815-.932 1.361-1.706 1.49l3.324 3.324c.311.31.456.752.382 1.186C20.928 18.428 19.898 19 19 19h-6v2a1 1 0 0 1-2 0v-2H5c-.898 0-1.928-.572-2.089-1.521a1.34 1.34 0 0 1 .382-1.186l3.324-3.324c-.774-.129-1.568-.675-1.706-1.49a1.34 1.34 0 0 1 .382-1.186L7.586 8H7a1 1 0 0 1-.625-1.781l5-4a1 1 0 0 1 1.25 0l5 4A1.002 1.002 0 0 1 17 8");
+}
+
+</style>

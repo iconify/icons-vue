@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="heb04wnhd"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:link-break-fill-sharp" /></template>
+<style>
+.heb04wnhd {
+  fill: currentColor;
+  d: path("M7 5V3a1 1 0 0 1 2 0v2a1 1 0 0 1-2 0m9.293 7.293l2-2a3.243 3.243 0 0 0-4.586-4.586l-2 2a.999.999 0 1 1-1.414-1.414l2-2a5.243 5.243 0 0 1 7.414 7.414l-2 2a.999.999 0 1 1-1.414-1.414M5 9H3a1 1 0 0 1 0-2h2a1 1 0 0 1 0 2m2.707 2.707l-2 2a3.243 3.243 0 0 0 4.586 4.586l2-2a.999.999 0 1 1 1.414 1.414l-2 2a5.243 5.243 0 0 1-7.414-7.414l2-2a.999.999 0 1 1 1.414 1.414M19 15h2a1 1 0 0 1 0 2h-2a1 1 0 0 1 0-2m-2 4v2a1 1 0 0 1-2 0v-2a1 1 0 0 1 2 0");
+}
+
+</style>

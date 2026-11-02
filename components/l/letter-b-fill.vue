@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="cw0ourbyr"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:letter-b-fill" /></template>
+<style>
+.cw0ourbyr {
+  fill: currentColor;
+  d: path("M6 12V4a1 1 0 0 1 1-1h5a5 5 0 0 1 4.646 3.153a4.99 4.99 0 0 1-1.21 5.479A5.002 5.002 0 0 1 13 21H7a1 1 0 0 1-1-1Zm2 1v6h5a3 3 0 1 0 0-6Zm4-2a3 3 0 1 0 0-6H8v6Z");
+}
+
+</style>

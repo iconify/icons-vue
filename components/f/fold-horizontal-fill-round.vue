@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/t/ts83b_9vy.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,10 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="ts83b_9vy"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:fold-horizontal-fill-round" /></template>
+<style>
+.ts83b_9vy {
+  fill: currentColor;
+  d: path("M13 4v4a1 1 0 0 1-2 0V4a1 1 0 0 1 2 0M6.293 14.293L7.586 13H3a1 1 0 0 1 0-2h4.586L6.293 9.707a.999.999 0 1 1 1.414-1.414l3 3a1 1 0 0 1 0 1.414l-3 3a.999.999 0 1 1-1.414-1.414m11.414-4.586L16.414 11H21a1 1 0 0 1 0 2h-4.586l1.293 1.293a.999.999 0 1 1-1.414 1.414l-3-3a1 1 0 0 1 0-1.414l3-3a.999.999 0 1 1 1.414 1.414M13 16v4a1 1 0 0 1-2 0v-4a1 1 0 0 1 2 0");
+}
+
+</style>

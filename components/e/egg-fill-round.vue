@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/q/quh_6hblg.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,10 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="quh_6hblg"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:egg-fill-round" /></template>
+<style>
+.quh_6hblg {
+  fill: currentColor;
+  d: path("M12 2c1.162 0 2.236.46 3.162 1.139c1.008.74 1.825 1.711 2.494 2.762C19.163 8.269 20 11.196 20 14a8 8 0 0 1-16 0c0-2.804.837-5.731 2.344-8.099c.669-1.051 1.486-2.022 2.494-2.762C9.764 2.46 10.838 2 12 2m3.685 13.557A4 4 0 0 0 16 14a1 1 0 0 0-2 0c0 .533-.207 1.039-.586 1.414A1.98 1.98 0 0 1 12 16a1 1 0 0 0 0 2a3.98 3.98 0 0 0 2.828-1.172a4 4 0 0 0 .857-1.271");
+}
+
+</style>

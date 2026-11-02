@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/f/fo9rwymio.css';
-import '../../css/j/j9q73968f.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,18 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="cuyn6tgcc"><path class="fo9rwymio"/><path class="j9q73968f"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:octagon-warning-bulk-round" /></template>
+<style>
+.cuyn6tgcc {
+  fill: currentColor;
+}
+
+.fo9rwymio {
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M12 2h2c1.317 0 2.748.335 3.707 1.293l3 3C21.665 7.252 22 8.683 22 10v4c0 1.317-.335 2.748-1.293 3.707l-3 3C16.748 21.665 15.317 22 14 22h-4c-1.317 0-2.748-.335-3.707-1.293l-3-3C2.335 16.748 2 15.317 2 14v-4c0-1.317.335-2.748 1.293-3.707l3-3C7.252 2.335 8.683 2 10 2Z");
+}
+
+.j9q73968f {
+  d: path("M13 8v5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0m-1 7h.01a1 1 0 0 1 0 2H12a1 1 0 0 1 0-2");
+}
+
+</style>

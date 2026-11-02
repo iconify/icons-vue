@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/x/xrsg-3hzq.css';
-import '../../css/q/q_a5zcbnk.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,22 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path class="xrsg-3hzq"/><path class="q_a5zcbnk"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:face-sad-duocolor-round" /></template>
+<style>
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.q_a5zcbnk {
+  d: path("M3 12a9 9 0 1 0 18 0a9 9 0 0 0-18 0");
+}
+
+.xrsg-3hzq {
+  stroke-opacity: 0.4;
+  d: path("M9 9h.01M15 9h.01M8 15a5.657 5.657 0 0 1 8 0");
+}
+
+</style>

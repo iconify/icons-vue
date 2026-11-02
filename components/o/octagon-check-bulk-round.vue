@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/f/fo9rwymio.css';
-import '../../css/o/obd3z-ghl.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,18 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="cuyn6tgcc"><path class="fo9rwymio"/><path class="obd3z-ghl"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:octagon-check-bulk-round" /></template>
+<style>
+.cuyn6tgcc {
+  fill: currentColor;
+}
+
+.fo9rwymio {
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M12 2h2c1.317 0 2.748.335 3.707 1.293l3 3C21.665 7.252 22 8.683 22 10v4c0 1.317-.335 2.748-1.293 3.707l-3 3C16.748 21.665 15.317 22 14 22h-4c-1.317 0-2.748-.335-3.707-1.293l-3-3C2.335 16.748 2 15.317 2 14v-4c0-1.317.335-2.748 1.293-3.707l3-3C7.252 2.335 8.683 2 10 2Z");
+}
+
+.obd3z-ghl {
+  d: path("m10.933 13.519l4.299-5.159a1 1 0 1 1 1.536 1.28l-5 6a1 1 0 0 1-1.475.067l-3-3a.999.999 0 1 1 1.414-1.414Z");
+}
+
+</style>

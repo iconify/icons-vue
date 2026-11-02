@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/f/ft5dv1b6b.css';
-import '../../css/w/waeo7xmri.css';
-import '../../css/y/ye-xh68uz.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,23 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ft5dv1b6b"><path class="waeo7xmri"/><path class="ye-xh68uz"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:user-edit-corner-duotone-round" /></template>
+<style>
+.ft5dv1b6b {
+  fill: none;
+}
+
+.waeo7xmri {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
+  d: path("M4 7a5 5 0 1 1 10.001.001A5 5 0 0 1 4 7m9 14v-3l5-5l3 3l-5 5Zm-3-6v6a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1c0-1.862.731-3.636 2.05-4.95a6.9 6.9 0 0 1 2.225-1.499A6.9 6.9 0 0 1 9 14a1 1 0 0 1 1 1");
+}
+
+.ye-xh68uz {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M5 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M3 21a6 6 0 0 1 6-6m4 6v-3l5-5l3 3l-5 5Z");
+}
+
+</style>

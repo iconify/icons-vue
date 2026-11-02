@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/p/pzbn69b3o.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,10 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="pzbn69b3o"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:letter-s-fill-round" /></template>
+<style>
+.pzbn69b3o {
+  fill: currentColor;
+  d: path("M14.765 5.833a3.002 3.002 0 0 0-5.53 2.334A3 3 0 0 0 12 10a5.9 5.9 0 0 1 2.336.472a6 6 0 0 1 2.64 8.88A6 6 0 0 1 6 16a1 1 0 0 1 2 0a4 4 0 1 0 4-4a4.995 4.995 0 0 1-5-5c0-1.33.522-2.597 1.464-3.536A4.98 4.98 0 0 1 12 2c1.33 0 2.597.522 3.536 1.464A5 5 0 0 1 17 7a1 1 0 0 1-2 0a3 3 0 0 0-.235-1.167");
+}
+
+</style>

@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/k/kukuwbwmg.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,10 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="kukuwbwmg"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:playlist-fill-round" /></template>
+<style>
+.kukuwbwmg {
+  fill: currentColor;
+  d: path("M3 5h18a1 1 0 0 1 0 2H3a1 1 0 0 1 0-2m11 7c0-.428.121-.845.355-1.204c.699-1.07 2.146-1.33 3.2-.628l3 2a2.202 2.202 0 0 1 0 3.664l-3 2c-1.054.702-2.501.442-3.2-.628A2.2 2.2 0 0 1 14 16ZM3 11h8a1 1 0 0 1 0 2H3a1 1 0 0 1 0-2m13 1v4c0 .087.05.155.127.193c.106.053.22.04.318-.025l3-2a.203.203 0 0 0 0-.336l-3-2a.31.31 0 0 0-.318-.025A.21.21 0 0 0 16 12M3 17h8a1 1 0 0 1 0 2H3a1 1 0 0 1 0-2");
+}
+
+</style>

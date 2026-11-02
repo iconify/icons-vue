@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/a/a8x_c68up.css';
-import '../../css/w/wnj1uynva.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,18 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="cuyn6tgcc"><path class="a8x_c68up"/><path class="wnj1uynva"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:instagram-bulk-round" /></template>
+<style>
+.a8x_c68up {
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M2 8a6 6 0 0 1 6-6h8a6 6 0 0 1 6 6v8a6 6 0 0 1-6 6H8a6 6 0 0 1-6-6Z");
+}
+
+.cuyn6tgcc {
+  fill: currentColor;
+}
+
+.wnj1uynva {
+  d: path("M17.01 6a1 1 0 0 1 0 2H17a1 1 0 0 1 0-2Zm-9.95 5.147C7.427 8.636 9.494 7 12 7c1.24 0 2.482.424 3.414 1.253a4.7 4.7 0 0 1 1.459 2.526c.167.765.173 1.578.02 2.345a4.7 4.7 0 0 1-1.479 2.623C14.482 16.576 13.24 17 12 17a5.3 5.3 0 0 1-1.804-.308c-2.385-.848-3.486-3.141-3.136-5.545M15 12c0-.858-.256-1.667-.914-2.252c-1.124-.999-3.048-.999-4.172 0C9.256 10.334 9 11.144 9 12c0 .858.256 1.667.914 2.252c1.124.999 3.048.999 4.172 0c.658-.586.914-1.396.914-2.252");
+}
+
+</style>

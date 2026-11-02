@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/w/w3gha89hg.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,10 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="w3gha89hg"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:building-2-fill-round" /></template>
+<style>
+.w3gha89hg {
+  fill: currentColor;
+  d: path("M21 21H3a1 1 0 0 1 0-2h1V7a4 4 0 0 1 4-4h1a4 4 0 0 1 4 4v2.303a3.83 3.83 0 0 1 3.707.99l2 2C19.665 13.252 20 14.683 20 16v3h1a1 1 0 0 1 0 2m-8-9.532V19h5v-3c0-.749-.152-1.737-.707-2.293l-2-2A1.83 1.83 0 0 0 13 11.468");
+}
+
+</style>

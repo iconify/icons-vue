@@ -1,0 +1,24 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="cuyn6tgcc"><path class="xie749m9p"/><path class="romy48bvi"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:palette-bulk-sharp" /></template>
+<style>
+.cuyn6tgcc {
+  fill: currentColor;
+}
+
+.romy48bvi {
+  d: path("M14.01 6a1 1 0 0 1 0 2H14a1 1 0 0 1 0-2Zm-5 1a1 1 0 0 1 0 2H9a1 1 0 0 1 0-2Zm8 3a1 1 0 0 1 0 2H17a1 1 0 0 1 0-2Zm-10 1a1 1 0 0 1 0 2H7a1 1 0 0 1 0-2Z");
+}
+
+.xie749m9p {
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M17 17h-2a1 1 0 0 0-1 1v2c0 .531-.21 1.039-.586 1.414A2 2 0 0 1 12 22a9.9 9.9 0 0 1-3.893-.786a9.9 9.9 0 0 1-3.178-2.143A9.97 9.97 0 0 1 2 12a9.9 9.9 0 0 1 .786-3.893a10.03 10.03 0 0 1 5.321-5.321A10.003 10.003 0 0 1 22 12c0 1.33-.522 2.597-1.464 3.536A4.98 4.98 0 0 1 17 17");
+}
+
+</style>

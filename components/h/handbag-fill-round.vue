@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/z/z7tmoxkid.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,10 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="z7tmoxkid"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:handbag-fill-round" /></template>
+<style>
+.z7tmoxkid {
+  fill: currentColor;
+  d: path("M7.075 7.13a5.001 5.001 0 0 1 9.85 0c1.653.472 2.731 2.05 3.056 3.674l1 5a4.5 4.5 0 0 1-.024 1.918C20.529 19.585 18.947 21 17 21H7c-1.947 0-3.529-1.415-3.957-3.278a4.5 4.5 0 0 1-.024-1.918l1-5C4.344 9.18 5.422 7.602 7.075 7.13M9.17 7h5.66a3.002 3.002 0 0 0-5.66 0");
+}
+
+</style>

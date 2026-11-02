@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/u/u1a2jjbru.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,10 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="u1a2jjbru"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:currency-solana-fill-round" /></template>
+<style>
+.u1a2jjbru {
+  fill: currentColor;
+  d: path("M20 5a1 1 0 0 1 .709 1.705l-.002.002L18.414 9H3.586l3.707-3.707l.001-.002C7.482 5.105 7.736 5 8 5ZM3 10h14.414l3.293 3.293l.002.002c.186.187.291.441.291.705H6.586l-3.295-3.294A1 1 0 0 1 3 10m2.586 5h14.828l-3.707 3.707l-.002.002A1 1 0 0 1 16 19H4a1 1 0 0 1-.709-1.705l.002-.002Z");
+}
+
+</style>

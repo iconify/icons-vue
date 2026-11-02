@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/h/hl0ktuiwc.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,14 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="hl0ktuiwc"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:bear-round" /></template>
+<style>
+.hl0ktuiwc {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M5 9C3 6.333 7 3.333 9 6q3-1.5 6 0c2-2.667 6 .333 4 3c2 3 2 6 1 8c-1 3-4 4-8 4s-7-1-8-4c-1-2-1-5 1-8m4 3h.01M15 12h.01M11 16h2l-1 1Z");
+}
+
+</style>

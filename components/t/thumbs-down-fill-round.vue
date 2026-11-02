@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/p/pc-glxx-p.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,10 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="pc-glxx-p"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:thumbs-down-fill-round" /></template>
+<style>
+.pc-glxx-p {
+  fill: currentColor;
+  d: path("M6 2.171V15H5a3 3 0 0 1-3-3V5a3 3 0 0 1 4-2.829m2 0A3 3 0 0 1 9 2h8c1.309 0 2.675.525 3.458 1.613c.258.355.436.761.523 1.191l1 5Q22 9.901 22 10v1a4 4 0 0 1-4 4h-1a.997.997 0 0 0-1 1v3a3 3 0 1 1-6 0v-1c0-1.27-.804-2.405-2-2.83Z");
+}
+
+</style>

@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/v/v6ps_6bhz.css';
-import '../../css/q/qf2zmutdz.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,18 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="cuyn6tgcc"><path class="v6ps_6bhz"/><path class="qf2zmutdz"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:square-dashed-square-bulk-round" /></template>
+<style>
+.cuyn6tgcc {
+  fill: currentColor;
+}
+
+.qf2zmutdz {
+  d: path("M2.005 5.798a3.98 3.98 0 0 1 1.167-2.626a3.9 3.9 0 0 1 1.271-.857A4 4 0 0 1 6 2a1 1 0 0 1 0 2c-.534 0-1.039.206-1.414.586c-.378.378-.589.88-.586 1.414a1 1 0 0 1-2 0q0-.101.005-.202M14 4h-4a1 1 0 0 1 0-2h4a1 1 0 0 1 0 2m6.828-.828A3.97 3.97 0 0 1 22 6a1 1 0 0 1-2 0c0-.534-.206-1.039-.586-1.414A1.97 1.97 0 0 0 18 4a1 1 0 0 1 0-2c1.066 0 2.078.415 2.828 1.172M2 14a5 5 0 0 1 5-5h3a5 5 0 0 1 5 5v3a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5Zm18 0v-4a1 1 0 0 1 2 0v4a1 1 0 0 1-2 0M4 14v3a3 3 0 0 0 3 3h3a3 3 0 0 0 3-3v-3a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3m16.828 6.828A3.97 3.97 0 0 1 18 22a1 1 0 0 1 0-2c.534 0 1.039-.206 1.414-.586c.378-.377.589-.88.586-1.414a1 1 0 0 1 2 0a3.96 3.96 0 0 1-1.172 2.828");
+}
+
+.v6ps_6bhz {
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M2 14a5 5 0 0 1 5-5h3a5 5 0 0 1 5 5v3a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5Z");
+}
+
+</style>

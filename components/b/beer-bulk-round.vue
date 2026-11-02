@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/d/dubddgb-a.css';
-import '../../css/f/finwwtbco.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,18 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="cuyn6tgcc"><path class="dubddgb-a"/><path class="finwwtbco"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:beer-bulk-round" /></template>
+<style>
+.cuyn6tgcc {
+  fill: currentColor;
+}
+
+.dubddgb-a {
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M17 17a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V9.287a4.8 4.8 0 0 1-.602-1.597c-.319-1.801.552-3.525 2.047-4.522c.951-.633 2.118-.942 3.256-.783A4.3 4.3 0 0 1 10 3.472a4.3 4.3 0 0 1 2.299-1.087c1.138-.159 2.305.15 3.256.783c1.495.997 2.366 2.721 2.047 4.522A4.8 4.8 0 0 1 17 9.287Z");
+}
+
+.finwwtbco {
+  d: path("M10 3.472a4.3 4.3 0 0 1 2.299-1.087c1.138-.159 2.305.15 3.256.783c1.495.997 2.366 2.721 2.047 4.522a4.9 4.9 0 0 1-.77 1.865A1 1 0 0 1 16 10H4a1 1 0 0 1-.832-.445a4.9 4.9 0 0 1-.77-1.865c-.319-1.801.552-3.525 2.047-4.522c.951-.633 2.118-.942 3.256-.783A4.3 4.3 0 0 1 10 3.472M4.579 8h10.842c.24-.508.317-1.074.174-1.622c-.331-1.263-1.726-2.193-3.019-2.013c-.753.106-1.331.57-1.744 1.19a1 1 0 0 1-1.664 0c-.413-.62-.991-1.084-1.744-1.19c-1.293-.18-2.688.75-3.019 2.013A2.38 2.38 0 0 0 4.579 8M16 13a1 1 0 0 1 0-2h1a3.998 3.998 0 0 1 3.464 6A4 4 0 0 1 17 19h-1a1 1 0 0 1 0-2h1a1.999 1.999 0 0 0 1.732-3A2 2 0 0 0 17 13Zm-7 4a1 1 0 0 1-2 0v-4a1 1 0 0 1 2 0Zm4 0a1 1 0 0 1-2 0v-4a1 1 0 0 1 2 0Z");
+}
+
+</style>

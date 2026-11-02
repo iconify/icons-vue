@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/s/sfjcihf4q.css';
-import '../../css/g/g0ey757vk.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,18 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="cuyn6tgcc"><path class="sfjcihf4q"/><path class="g0ey757vk"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:gallery-bulk-round" /></template>
+<style>
+.cuyn6tgcc {
+  fill: currentColor;
+}
+
+.g0ey757vk {
+  d: path("M6.293 8.293a3.83 3.83 0 0 1 5.414 0l2 2a.415.415 0 0 0 .586 0l1-1a2.415 2.415 0 0 1 3.414 0l3 3a.999.999 0 1 1-1.414 1.414l-3-3a.415.415 0 0 0-.586 0l-1 1a2.415 2.415 0 0 1-3.414 0l-2-2a1.83 1.83 0 0 0-2.586 0l-4 4a.999.999 0 1 1-1.414-1.414ZM10 20a1 1 0 0 1 0 2H3a1 1 0 0 1 0-2Zm11 0a1 1 0 0 1 0 2h-7a1 1 0 0 1 0-2Z");
+}
+
+.sfjcihf4q {
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M17 2a5 5 0 0 1 5 5v6a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5Z");
+}
+
+</style>

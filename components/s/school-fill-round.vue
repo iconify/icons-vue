@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/e/ecj1oabrc.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,10 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="ecj1oabrc"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:school-fill-round" /></template>
+<style>
+.ecj1oabrc {
+  fill: currentColor;
+  d: path("M17 22h-2v-4a3 3 0 1 0-6 0v4H7a5 5 0 0 1-5-5v-4a1 1 0 0 1 .445-.832L5 10.465V7.618l-.553.276a1 1 0 1 1-.894-1.788l6-3a5.47 5.47 0 0 1 4.894 0l6 3a1 1 0 1 1-.894 1.788L19 7.618v2.847l2.555 1.703A1 1 0 0 1 22 13v4a5 5 0 0 1-1.464 3.536A5 5 0 0 1 17 22M9.236 8.832a3 3 0 1 0 5.527 2.335a3 3 0 0 0-5.527-2.335");
+}
+
+</style>

@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/r/riis51qtn.css';
-import '../../css/j/jtl5g1t2v.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,18 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="cuyn6tgcc"><path class="riis51qtn"/><path class="jtl5g1t2v"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:circle-user-bulk-round" /></template>
+<style>
+.cuyn6tgcc {
+  fill: currentColor;
+}
+
+.jtl5g1t2v {
+  d: path("M8.315 8.443a4.001 4.001 0 0 1 7.37 3.114a4.001 4.001 0 0 1-7.37-3.114m1.842 2.335a2 2 0 1 0 3.686-1.556a2 2 0 0 0-3.686 1.556M8.936 16.59A8.2 8.2 0 0 1 12 16a8.2 8.2 0 0 1 3.064.59a8.2 8.2 0 0 1 2.626 1.686a1 1 0 1 1-1.38 1.448a6.2 6.2 0 0 0-1.989-1.277A6.2 6.2 0 0 0 12 18a6.2 6.2 0 0 0-2.321.447a6.2 6.2 0 0 0-1.989 1.277a1 1 0 1 1-1.38-1.448a8.2 8.2 0 0 1 2.626-1.686");
+}
+
+.riis51qtn {
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M2 12C2 6.477 6.477 2 12 2s10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12");
+}
+
+</style>

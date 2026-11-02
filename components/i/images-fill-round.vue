@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/k/kmxb9zfvi.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,10 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="kmxb9zfvi"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:images-fill-round" /></template>
+<style>
+.kmxb9zfvi {
+  fill: currentColor;
+  d: path("M7 2h10a5 5 0 0 1 5 5v10a1 1 0 0 1-2 0V7a3 3 0 0 0-3-3H7a1 1 0 0 1 0-2m0 4h6a5 5 0 0 1 5 5v5.586l-2.293-2.293a2.41 2.41 0 0 0-3.414 0a.414.414 0 0 1-.586 0l-1-1a3.83 3.83 0 0 0-5.414 0L2 16.586V11a5 5 0 0 1 5-5m10.584 12.999A4.99 4.99 0 0 1 13 22H7a4.99 4.99 0 0 1-4.584-3.001l4.291-4.292a1.83 1.83 0 0 1 2.586 0l1 1a2.41 2.41 0 0 0 3.414 0a.414.414 0 0 1 .586 0Z");
+}
+
+</style>

@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/o/ol5qor7ho.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,10 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="ol5qor7ho"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:rotate-left-fill-round" /></template>
+<style>
+.ol5qor7ho {
+  fill: currentColor;
+  d: path("M15.707 3.707L14.414 5H15c1.33 0 2.597.522 3.536 1.464A5 5 0 0 1 20 10a1 1 0 0 1-2 0a3 3 0 0 0-3-3h-.586l1.293 1.293a.999.999 0 1 1-1.414 1.414l-3-3a1 1 0 0 1 0-1.414l3-3a.999.999 0 1 1 1.414 1.414M20 14v2a5 5 0 0 1-1.464 3.536A5 5 0 0 1 15 21H9a5 5 0 0 1-5-5V9c0-1.064.418-2.078 1.172-2.828A3.98 3.98 0 0 1 8 5a1 1 0 0 1 0 2a2 2 0 0 0-2 2v7a3 3 0 0 0 3 3h6a3 3 0 0 0 3-3v-2a1 1 0 0 1 2 0");
+}
+
+</style>

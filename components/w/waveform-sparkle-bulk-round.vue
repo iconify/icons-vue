@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/l/lnvefqbeo.css';
-import '../../css/r/rw0vn_02m.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,18 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="cuyn6tgcc"><path class="lnvefqbeo"/><path class="rw0vn_02m"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:waveform-sparkle-bulk-round" /></template>
+<style>
+.cuyn6tgcc {
+  fill: currentColor;
+}
+
+.lnvefqbeo {
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M18 11.13a8 8 0 0 1-.87.87q.469.401.87.87q.401-.469.87-.87a8 8 0 0 1-.87-.87M21.014 13l-.003.001c-.134.028-.261.107-.375.177a4.9 4.9 0 0 0-1.458 1.458c-.071.115-.151.243-.178.378a1 1 0 0 1-2 0l-.001-.003c-.028-.134-.107-.261-.177-.375a4.9 4.9 0 0 0-1.458-1.458c-.115-.071-.243-.151-.378-.178a1 1 0 0 1 0-2l.003-.001c.134-.028.261-.107.375-.177a4.9 4.9 0 0 0 1.458-1.458c.071-.115.151-.243.178-.378a1 1 0 0 1 2 0l.001.003c.028.134.107.261.177.375a4.9 4.9 0 0 0 1.458 1.458c.115.071.243.151.378.178a1 1 0 0 1 0 2");
+}
+
+.rw0vn_02m {
+  d: path("M8 18a1 1 0 0 1-2 0V6a1 1 0 0 1 2 0Zm4-3a1 1 0 0 1-2 0V9a1 1 0 0 1 2 0Zm2.989-4.001c.134-.028.261-.107.375-.177a4.9 4.9 0 0 0 1.458-1.458c.07-.114.149-.241.177-.375L17 8.986a1 1 0 0 1 2 0l.001.003c.028.134.107.261.177.375a4.9 4.9 0 0 0 1.458 1.458c.114.07.241.149.375.177l.003.001a1 1 0 0 1 0 2l-.003.001c-.134.028-.261.107-.375.177a4.9 4.9 0 0 0-1.458 1.458c-.07.114-.149.241-.177.375l-.001.003a1 1 0 0 1-2 0l-.001-.003c-.028-.134-.107-.261-.177-.375a4.9 4.9 0 0 0-1.458-1.458c-.114-.07-.241-.149-.375-.177L14.986 13a1 1 0 0 1 0-2ZM4 14a1 1 0 0 1-2 0v-4a1 1 0 0 1 2 0Z");
+}
+
+</style>

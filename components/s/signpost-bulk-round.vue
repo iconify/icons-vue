@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/s/s2bxq2wak.css';
-import '../../css/y/yd5rdxbnk.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,18 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="cuyn6tgcc"><path class="s2bxq2wak"/><path class="yd5rdxbnk"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:signpost-bulk-round" /></template>
+<style>
+.cuyn6tgcc {
+  fill: currentColor;
+}
+
+.s2bxq2wak {
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M7 5h8c1.317 0 2.748.335 3.707 1.293l1 1a2.414 2.414 0 0 1 0 3.414l-1 1C17.748 12.665 16.317 13 15 13H7a4 4 0 0 1 0-8");
+}
+
+.yd5rdxbnk {
+  d: path("M13 3v3a1 1 0 0 1-2 0V3a1 1 0 0 1 2 0m0 9v9a1 1 0 0 1-2 0v-9a1 1 0 0 1 2 0");
+}
+
+</style>

@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/selfhst",
   "type": "module",
-  "version": "1.0.27",
+  "version": "1.0.28",
   "homepage": "https://icon-sets.iconify.design/selfhst/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "CC-BY-4.0",
@@ -6874,6 +6874,18 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/feeds-fun-light.vue"
     },
+    "./felicloud": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/felicloud.vue"
+    },
+    "./felicloud-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/felicloud-dark.vue"
+    },
+    "./felicloud-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/felicloud-light.vue"
+    },
     "./fenrus": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/fenrus.vue"
@@ -9338,6 +9350,18 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/growchief-light.vue"
     },
+    "./gryffi": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gryffi.vue"
+    },
+    "./gryffi-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gryffi-dark.vue"
+    },
+    "./gryffi-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gryffi-light.vue"
+    },
     "./gryt": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/gryt.vue"
@@ -11649,6 +11673,18 @@
     "./kener-light": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/k/kener-light.vue"
+    },
+    "./kept-inventory": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kept-inventory.vue"
+    },
+    "./kept-inventory-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kept-inventory-dark.vue"
+    },
+    "./kept-inventory-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kept-inventory-light.vue"
     },
     "./kestra": {
       "types": "./types/dd0bq22g.d.ts",
@@ -20566,6 +20602,18 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/prometheus-light.vue"
     },
+    "./pronote": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pronote.vue"
+    },
+    "./pronote-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pronote-dark.vue"
+    },
+    "./pronote-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pronote-light.vue"
+    },
     "./proshop": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/proshop.vue"
@@ -22230,6 +22278,18 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/r/revolt-light.vue"
     },
+    "./rewindarr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rewindarr.vue"
+    },
+    "./rewindarr-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rewindarr-dark.vue"
+    },
+    "./rewindarr-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rewindarr-light.vue"
+    },
     "./rgallery": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/r/rgallery.vue"
@@ -22349,6 +22409,10 @@
     "./riverside-fm-light": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/r/riverside-fm-light.vue"
+    },
+    "./robin-tracking": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/robin-tracking.vue"
     },
     "./robinhood": {
       "types": "./types/dd0bq22g.d.ts",
@@ -25229,6 +25293,18 @@
     "./target-light": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/target-light.vue"
+    },
+    "./taskade": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/taskade.vue"
+    },
+    "./taskade-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/taskade-dark.vue"
+    },
+    "./taskade-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/taskade-light.vue"
     },
     "./tasktrove": {
       "types": "./types/dd0bq22g.d.ts",

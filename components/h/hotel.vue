@@ -11,11 +11,11 @@ import '../../css/d/doj9dq_jg.css';
 import '../../css/c/ctumew-0n.css';
 import '../../css/p/py__upw6q.css';
 import '../../css/l/l2v4nzbfq.css';
-import '../../css/l/l9ixgxbul.css';
+import '../../css/x/xswg3vb5f.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":72,"height":72};
-const content = `<path class="fzi012b3j"/><path class="x76_jccik"/><path class="el-rg4l4n"/><path class="qnsc60bko"/><path class="eh7_8obrm"/><path class="aqma2jbdk"/><path class="d-u0j2bcn"/><g class="doj9dq_jg"><path class="ctumew-0n"/><path class="py__upw6q"/><path class="l2v4nzbfq"/><path class="l9ixgxbul"/></g>`;
+const content = `<path class="fzi012b3j"/><path class="x76_jccik"/><path class="el-rg4l4n"/><path class="qnsc60bko"/><path class="eh7_8obrm"/><path class="aqma2jbdk"/><path class="d-u0j2bcn"/><g class="doj9dq_jg"><path class="ctumew-0n"/><path class="py__upw6q"/><path class="l2v4nzbfq"/><path class="xswg3vb5f"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="openmoji:hotel" /></template>

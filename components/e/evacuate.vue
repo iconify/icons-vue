@@ -8,13 +8,13 @@ import '../../css/p/ppep3wazl.css';
 import '../../css/v/v178r-ski.css';
 import '../../css/j/jn8qy4bru.css';
 import '../../css/j/j0r4w5vzf.css';
-import '../../css/r/reb-11q8z.css';
+import '../../css/j/jm0wi_2jo.css';
 import '../../css/n/nypli5b0r.css';
-import '../../css/y/yg03jhbum.css';
+import '../../css/z/z4m70zkap.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":72,"height":72};
-const content = `<g class="x4u8pbwjc"><path class="w1afbccrr"/><circle class="gauw9mb2z"/><circle class="i8z2lwwei"/></g><path class="ppep3wazl"/><path class="v178r-ski"/><g class="jn8qy4bru"><path class="j0r4w5vzf"/><path class="reb-11q8z"/><path class="nypli5b0r"/><path class="yg03jhbum"/></g>`;
+const content = `<g class="x4u8pbwjc"><path class="w1afbccrr"/><circle class="gauw9mb2z"/><circle class="i8z2lwwei"/></g><path class="ppep3wazl"/><path class="v178r-ski"/><g class="jn8qy4bru"><path class="j0r4w5vzf"/><path class="jm0wi_2jo"/><path class="nypli5b0r"/><path class="z4m70zkap"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="openmoji:evacuate" /></template>

@@ -19,11 +19,11 @@ import '../../css/b/b62wopbhr.css';
 import '../../css/l/lt2t1n7ug.css';
 import '../../css/c/c06xnhbto.css';
 import '../../css/h/hlmb1edqb.css';
-import '../../css/o/ozdbl4qnh.css';
+import '../../css/v/vmpn3gbok.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":72,"height":72};
-const content = `<rect class="jlrukbboz"/><path class="reiy4hbio"/><path class="tsimedqrp"/><path class="pgp63fmht"/><ellipse class="zl-d1-bgq"/><path class="h0bsita2w"/><path class="ed0egwbmj"/><path class="wbc17ibmd"/><ellipse class="hwrv8l3cv"/><g class="z6f9m-_ru"><path class="kyhk9rrqi"/><path class="fmlzlrbpy"/><path class="d7dqdvblh"/><ellipse class="w_-65bcdf"/><path class="crysbcbtn"/><path class="b62wopbhr"/><path class="lt2t1n7ug"/><path class="c06xnhbto"/><path class="hlmb1edqb"/><path class="ozdbl4qnh"/></g>`;
+const content = `<rect class="jlrukbboz"/><path class="reiy4hbio"/><path class="tsimedqrp"/><path class="pgp63fmht"/><ellipse class="zl-d1-bgq"/><path class="h0bsita2w"/><path class="ed0egwbmj"/><path class="wbc17ibmd"/><ellipse class="hwrv8l3cv"/><g class="z6f9m-_ru"><path class="kyhk9rrqi"/><path class="fmlzlrbpy"/><path class="d7dqdvblh"/><ellipse class="w_-65bcdf"/><path class="crysbcbtn"/><path class="b62wopbhr"/><path class="lt2t1n7ug"/><path class="c06xnhbto"/><path class="hlmb1edqb"/><path class="vmpn3gbok"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="openmoji:currency-exchange" /></template>

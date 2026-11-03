@@ -8,11 +8,11 @@ import '../../css/f/fiie_vglg.css';
 import '../../css/e/e-cf3lv5o.css';
 import '../../css/n/ngjsizr4v.css';
 import '../../css/f/fq863-epw.css';
-import '../../css/w/w4alj7b2i.css';
+import '../../css/g/g8bes_vbw.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":72,"height":72};
-const content = `<g class="e_raf5bng"><path class="mqt-8gbrs"/><path class="bvo95e07b"/><path class="c47wpaclh"/></g><g class="fiie_vglg"><path class="e-cf3lv5o"/><path class="ngjsizr4v"/><path class="fq863-epw"/><path class="w4alj7b2i"/></g>`;
+const content = `<g class="e_raf5bng"><path class="mqt-8gbrs"/><path class="bvo95e07b"/><path class="c47wpaclh"/></g><g class="fiie_vglg"><path class="e-cf3lv5o"/><path class="ngjsizr4v"/><path class="fq863-epw"/><path class="g8bes_vbw"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="openmoji:rightwards-thumb-sign-dark-skin-tone" /></template>

@@ -15,11 +15,11 @@ import '../../css/q/qpb8zfbbt.css';
 import '../../css/t/tkym8ubmd.css';
 import '../../css/o/ovjqdmczq.css';
 import '../../css/m/m-9s7jb-h.css';
-import '../../css/x/x5x5pmbip.css';
+import '../../css/v/vc-ohr4un.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":72,"height":72};
-const content = `<path class="q6extsb9n"/><path class="hufpkxuiq"/><path class="aiqsgubda"/><circle class="wnm3lez7h"/><path class="i9q01snwu"/><circle class="q7ntdb7wp"/><path class="owoy16yhz"/><path class="bwfj1jhvy"/><g class="n20_omb2u"><path class="sqvm6obhz"/><path class="sd6_gjn8w"/><circle class="qpb8zfbbt"/><circle class="tkym8ubmd"/><path class="ovjqdmczq"/><path class="m-9s7jb-h"/><path class="x5x5pmbip"/></g>`;
+const content = `<path class="q6extsb9n"/><path class="hufpkxuiq"/><path class="aiqsgubda"/><circle class="wnm3lez7h"/><path class="i9q01snwu"/><circle class="q7ntdb7wp"/><path class="owoy16yhz"/><path class="bwfj1jhvy"/><g class="n20_omb2u"><path class="sqvm6obhz"/><path class="sd6_gjn8w"/><circle class="qpb8zfbbt"/><circle class="tkym8ubmd"/><path class="ovjqdmczq"/><path class="m-9s7jb-h"/><path class="vc-ohr4un"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="openmoji:fire-engine" /></template>

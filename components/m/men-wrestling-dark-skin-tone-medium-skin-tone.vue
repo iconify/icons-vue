@@ -9,14 +9,14 @@ import '../../css/v/vs72fdcif.css';
 import '../../css/y/yw_r9nb1p.css';
 import '../../css/j/jz953uqjj.css';
 import '../../css/x/x8poo_bjf.css';
-import '../../css/v/v7m2rybta.css';
-import '../../css/n/n1y86uh-s.css';
+import '../../css/x/xnbx95b-m.css';
+import '../../css/w/wge_jsx2t.css';
 import '../../css/m/msflncgxt.css';
 import '../../css/o/ou2j_7kyo.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":72,"height":72};
-const content = `<g class="bbt4cvb0h"><circle class="j_rre4ilo"/><path class="r8wgg8n1g"/><path class="gi8exnb9d"/></g><g class="f--rpx6kf"><circle class="vs72fdcif"/><path class="yw_r9nb1p"/><path class="jz953uqjj"/></g><g class="x8poo_bjf"><circle class="vs72fdcif"/><path class="v7m2rybta"/><path class="n1y86uh-s"/><path class="msflncgxt"/><path class="ou2j_7kyo"/></g>`;
+const content = `<g class="bbt4cvb0h"><circle class="j_rre4ilo"/><path class="r8wgg8n1g"/><path class="gi8exnb9d"/></g><g class="f--rpx6kf"><circle class="vs72fdcif"/><path class="yw_r9nb1p"/><path class="jz953uqjj"/></g><g class="x8poo_bjf"><circle class="vs72fdcif"/><path class="xnbx95b-m"/><path class="wge_jsx2t"/><path class="msflncgxt"/><path class="ou2j_7kyo"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="openmoji:men-wrestling-dark-skin-tone-medium-skin-tone" /></template>

@@ -11,13 +11,13 @@ import '../../css/w/wy139n70l.css';
 import '../../css/x/x8poo_bjf.css';
 import '../../css/c/c4-rabgsv.css';
 import '../../css/w/wg3elmbtr.css';
-import '../../css/d/djc0i1b3e.css';
+import '../../css/z/zsifoibii.css';
 import '../../css/c/c-zrgpb5l.css';
 import '../../css/z/zy6_7gc2n.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":72,"height":72};
-const content = `<defs><path id="SVGRgQX2bQL" class="asphuoxmz"/></defs><g class="h9a2o1loy"><path class="dav5v0btz"/><path class="qecfg7b5z"/><path class="ph51k_g_h"/><path class="v6q3e8bno"/><path class="z6-oshxzx"/><path class="wy139n70l"/></g><g class="x8poo_bjf"><path class="c4-rabgsv"/><path class="wg3elmbtr"/><path class="djc0i1b3e"/><use href="#SVGRgQX2bQL" class="c-zrgpb5l"/><path class="zy6_7gc2n"/><use href="#SVGRgQX2bQL" class="c-zrgpb5l"/></g>`;
+const content = `<defs><path id="SVGRgQX2bQL" class="asphuoxmz"/></defs><g class="h9a2o1loy"><path class="dav5v0btz"/><path class="qecfg7b5z"/><path class="ph51k_g_h"/><path class="v6q3e8bno"/><path class="z6-oshxzx"/><path class="wy139n70l"/></g><g class="x8poo_bjf"><path class="c4-rabgsv"/><path class="wg3elmbtr"/><path class="zsifoibii"/><use href="#SVGRgQX2bQL" class="c-zrgpb5l"/><path class="zy6_7gc2n"/><use href="#SVGRgQX2bQL" class="c-zrgpb5l"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="openmoji:synagogue" /></template>

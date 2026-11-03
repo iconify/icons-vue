@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/devicon-plain",
   "type": "module",
-  "version": "1.0.30",
+  "version": "1.0.31",
   "homepage": "https://icon-sets.iconify.design/devicon-plain/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -9,6 +9,10 @@
     "./aarch64": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/aarch64.vue"
+    },
+    "./adminer": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/adminer.vue"
     },
     "./aframe": {
       "types": "./types/dd0bq22g.d.ts",
@@ -101,6 +105,10 @@
     "./antigravity": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/antigravity.vue"
+    },
+    "./antlr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/antlr.vue"
     },
     "./apache": {
       "types": "./types/dd0bq22g.d.ts",
@@ -606,6 +614,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/dbeaver.vue"
     },
+    "./dbvisualizer": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dbvisualizer.vue"
+    },
     "./debian": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/debian.vue"
@@ -625,6 +637,10 @@
     "./devicon-wordmark": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/devicon-wordmark.vue"
+    },
+    "./dialogflow": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dialogflow.vue"
     },
     "./digitalocean": {
       "types": "./types/dd0bq22g.d.ts",
@@ -1214,6 +1230,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/hibernate-wordmark.vue"
     },
+    "./homeassistant": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/homeassistant.vue"
+    },
+    "./homeassistant-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/homeassistant-wordmark.vue"
+    },
     "./homebrew": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/homebrew.vue"
@@ -1746,6 +1770,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/meteor-wordmark.vue"
     },
+    "./microsoftgraph": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/microsoftgraph.vue"
+    },
     "./microsoftsqlserver": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/microsoftsqlserver.vue"
@@ -1813,6 +1841,10 @@
     "./mysql-wordmark": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/mysql-wordmark.vue"
+    },
+    "./mysqlworkbench": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mysqlworkbench.vue"
     },
     "./n8n-wordmark": {
       "types": "./types/dd0bq22g.d.ts",
@@ -2146,6 +2178,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/php.vue"
     },
+    "./phpmyadmin": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/phpmyadmin.vue"
+    },
+    "./phpmyadmin-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/phpmyadmin-wordmark.vue"
+    },
     "./phpstorm": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/phpstorm.vue"
@@ -2253,6 +2293,10 @@
     "./postman-wordmark": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/postman-wordmark.vue"
+    },
+    "./powerbi": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/powerbi.vue"
     },
     "./powershell": {
       "types": "./types/dd0bq22g.d.ts",
@@ -2622,6 +2666,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/seaborn-wordmark.vue"
     },
+    "./semanticui": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/semanticui.vue"
+    },
     "./sequelize": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/sequelize.vue"
@@ -2629,6 +2677,10 @@
     "./sequelize-wordmark": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/sequelize-wordmark.vue"
+    },
+    "./servicenow-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/servicenow-wordmark.vue"
     },
     "./sfml": {
       "types": "./types/dd0bq22g.d.ts",
@@ -3205,6 +3257,10 @@
     "./wordpress-wordmark": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/w/wordpress-wordmark.vue"
+    },
+    "./xampp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/x/xampp.vue"
     },
     "./xcode": {
       "types": "./types/dd0bq22g.d.ts",

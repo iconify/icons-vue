@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/vscode-icons",
   "type": "module",
-  "version": "1.0.69",
+  "version": "1.0.70",
   "homepage": "https://icon-sets.iconify.design/vscode-icons/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -6325,6 +6325,14 @@
     "./folder-type-nuxt-opened": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/folder-type-nuxt-opened.vue"
+    },
+    "./folder-type-nyc": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-type-nyc.vue"
+    },
+    "./folder-type-nyc-opened": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-type-nyc-opened.vue"
     },
     "./folder-type-ocx": {
       "types": "./types/dd0bq22g.d.ts",

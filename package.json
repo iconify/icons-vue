@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/logos",
   "type": "module",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "homepage": "https://icon-sets.iconify.design/logos/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "CC0-1.0",
@@ -2478,6 +2478,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/drupal-icon.vue"
     },
+    "./dspy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dspy.vue"
+    },
     "./duckduckgo": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/duckduckgo.vue"
@@ -3830,6 +3834,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/hermes.vue"
     },
+    "./hermes-agent": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hermes-agent.vue"
+    },
     "./heroku": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/heroku.vue"
@@ -3857,6 +3865,14 @@
     "./hibernate": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/hibernate.vue"
+    },
+    "./higgsfield": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/higgsfield.vue"
+    },
+    "./higgsfield-icon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/higgsfield-icon.vue"
     },
     "./highcharts": {
       "types": "./types/dd0bq22g.d.ts",
@@ -4430,6 +4446,18 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/k/kilo-dark.vue"
     },
+    "./kimi": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kimi.vue"
+    },
+    "./kimi-icon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kimi-icon.vue"
+    },
+    "./kimi-icon-clean": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kimi-icon-clean.vue"
+    },
     "./kinto": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/k/kinto.vue"
@@ -4713,6 +4741,14 @@
     "./livekit-icon": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/l/livekit-icon.vue"
+    },
+    "./llama-index": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/llama-index.vue"
+    },
+    "./llama-index-icon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/llama-index-icon.vue"
     },
     "./loader": {
       "types": "./types/dd0bq22g.d.ts",
@@ -5114,9 +5150,17 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/meta.vue"
     },
+    "./meta-ai": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/meta-ai.vue"
+    },
     "./meta-icon": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/meta-icon.vue"
+    },
+    "./meta-muse": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/meta-muse.vue"
     },
     "./metabase": {
       "types": "./types/dd0bq22g.d.ts",
@@ -5642,6 +5686,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/n/nomad-icon.vue"
     },
+    "./notebook-lm": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/notebook-lm.vue"
+    },
+    "./notebook-lm-mono": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/notebook-lm-mono.vue"
+    },
     "./notion": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/n/notion.vue"
@@ -5810,6 +5862,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/o/opencart.vue"
     },
+    "./openclaw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/openclaw.vue"
+    },
+    "./openclaw-icon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/openclaw-icon.vue"
+    },
     "./opencode": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/o/opencode.vue"
@@ -5953,6 +6013,10 @@
     "./osquery": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/o/osquery.vue"
+    },
+    "./otter-ai": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/otter-ai.vue"
     },
     "./otto": {
       "types": "./types/dd0bq22g.d.ts",
@@ -6157,6 +6221,10 @@
     "./phpstorm": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/phpstorm.vue"
+    },
+    "./pi-code": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pi-code.vue"
     },
     "./picasa": {
       "types": "./types/dd0bq22g.d.ts",
@@ -7014,6 +7082,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/r/runscope.vue"
     },
+    "./runway": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/runway.vue"
+    },
+    "./runway-icon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/runway-icon.vue"
+    },
     "./rush": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/r/rush.vue"
@@ -7081,6 +7157,14 @@
     "./scala": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/scala.vue"
+    },
+    "./scale-ai": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/scale-ai.vue"
+    },
+    "./scale-ai-icon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/scale-ai-icon.vue"
     },
     "./scaledrone": {
       "types": "./types/dd0bq22g.d.ts",

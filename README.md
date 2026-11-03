@@ -1,19 +1,20 @@
 # @iconify-vue/ci
 
-Icon set prefix: **ci**
+**coolicons v4**
 
-Icon set name: **coolicons**
+Author: [Kryston Schwarze](https://github.com/krystonschwarze/coolicons)
 
-Author: **Kryston Schwarze**
+License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
-License: **[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)**
-
-Repository: **https://github.com/krystonschwarze/coolicons**
-
-Browse all icons: **[Preview coolicons](https://icon-sets.iconify.design/ci/)**
+Browse all icons: [preview coolicons v4 on Iconify](https://icon-sets.iconify.design/ci/)
 
 ## Installation
 
+```bash
+npm install gitlab:iconify-icons/vue#ci
+```
+
+or
 ```bash
 npm install github:iconify/icons-vue#ci
 ```

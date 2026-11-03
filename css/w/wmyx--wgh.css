@@ -1,0 +1,8 @@
+.wmyx--wgh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M5.625 18.375C4.5 9 9.75 4.5 19.5 4.5c0 9.75-4.5 15-13.875 13.875M3.75 20.25l9.75-9.75");
+}

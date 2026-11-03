@@ -1,11 +1,27 @@
 {
   "name": "@iconify-vue/sidekickicons",
   "type": "module",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "homepage": "https://icon-sets.iconify.design/sidekickicons/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
   "exports": {
+    "./anchor": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/anchor.vue"
+    },
+    "./anchor-16-solid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/anchor-16-solid.vue"
+    },
+    "./anchor-20-solid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/anchor-20-solid.vue"
+    },
+    "./anchor-solid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/anchor-solid.vue"
+    },
     "./arc-third": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/arc-third.vue"
@@ -278,6 +294,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/arrows-crossing-solid.vue"
     },
+    "./backward-bar": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/backward-bar.vue"
+    },
+    "./backward-bar-16-solid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/backward-bar-16-solid.vue"
+    },
+    "./backward-bar-20-solid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/backward-bar-20-solid.vue"
+    },
+    "./backward-bar-solid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/backward-bar-solid.vue"
+    },
     "./badge": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/badge.vue"
@@ -357,6 +389,22 @@
     "./blockquote-solid": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/blockquote-solid.vue"
+    },
+    "./bluetooth": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bluetooth.vue"
+    },
+    "./bluetooth-16-solid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bluetooth-16-solid.vue"
+    },
+    "./bluetooth-20-solid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bluetooth-20-solid.vue"
+    },
+    "./bluetooth-solid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bluetooth-solid.vue"
     },
     "./camera-rotate": {
       "types": "./types/dd0bq22g.d.ts",
@@ -822,6 +870,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/floppy-disk-solid.vue"
     },
+    "./forward-bar": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/forward-bar.vue"
+    },
+    "./forward-bar-16-solid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/forward-bar-16-solid.vue"
+    },
+    "./forward-bar-20-solid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/forward-bar-20-solid.vue"
+    },
+    "./forward-bar-solid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/forward-bar-solid.vue"
+    },
     "./gamepad": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/gamepad.vue"
@@ -837,6 +901,22 @@
     "./gamepad-solid": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/gamepad-solid.vue"
+    },
+    "./gauge": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gauge.vue"
+    },
+    "./gauge-16-solid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gauge-16-solid.vue"
+    },
+    "./gauge-20-solid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gauge-20-solid.vue"
+    },
+    "./gauge-solid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gauge-solid.vue"
     },
     "./gender-ambiguous": {
       "types": "./types/dd0bq22g.d.ts",
@@ -901,6 +981,22 @@
     "./gender-trans-solid": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/gender-trans-solid.vue"
+    },
+    "./git-branch": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/git-branch.vue"
+    },
+    "./git-branch-16-solid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/git-branch-16-solid.vue"
+    },
+    "./git-branch-20-solid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/git-branch-20-solid.vue"
+    },
+    "./git-branch-solid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/git-branch-solid.vue"
     },
     "./h4": {
       "types": "./types/dd0bq22g.d.ts",
@@ -998,6 +1094,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/headphones-solid.vue"
     },
+    "./headset": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/headset.vue"
+    },
+    "./headset-16-solid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/headset-16-solid.vue"
+    },
+    "./headset-20-solid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/headset-20-solid.vue"
+    },
+    "./headset-solid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/headset-solid.vue"
+    },
     "./hourglass": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/hourglass.vue"
@@ -1093,6 +1205,22 @@
     "./keyboard-solid": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/k/keyboard-solid.vue"
+    },
+    "./leaf": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/leaf.vue"
+    },
+    "./leaf-16-solid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/leaf-16-solid.vue"
+    },
+    "./leaf-20-solid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/leaf-20-solid.vue"
+    },
+    "./leaf-solid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/leaf-solid.vue"
     },
     "./lettered-list": {
       "types": "./types/dd0bq22g.d.ts",
@@ -1269,6 +1397,22 @@
     "./pilcrow-solid": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/pilcrow-solid.vue"
+    },
+    "./pill": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pill.vue"
+    },
+    "./pill-16-solid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pill-16-solid.vue"
+    },
+    "./pill-20-solid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pill-20-solid.vue"
+    },
+    "./pill-solid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pill-solid.vue"
     },
     "./pin": {
       "types": "./types/dd0bq22g.d.ts",

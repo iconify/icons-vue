@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="nrj6p8qat"><path class="zag-a8bko"/><path class="x9x2jit3m"/></g>`;
+const content = `<g class="nrj6p8qat"><path clip-rule="evenodd" class="qm262acen"/><path class="x9x2jit3m"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:coffee-pot-fill" /></template>
 <style>
@@ -16,14 +16,15 @@ const content = `<g class="nrj6p8qat"><path class="zag-a8bko"/><path class="x9x2
   stroke-width: var(--svg-stroke-width--2px, 2px);
 }
 
-.x9x2jit3m {
-  d: path("M15 4L17 4C19.2091 4 21 5.7909 21 8L21 11");
+.qm262acen {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M2.7395 5.3639C2.7173 5.2438 2.7061 5.122 2.7061 4.9999C2.7061 3.8953 3.6015 2.9999 4.7061 3L15.2939 3C16.3985 2.9999 17.2939 3.8953 17.2939 4.9999C17.2939 5.122 17.2827 5.2438 17.2605 5.3639C17.1107 5.7475 16.7409 6 16.3291 6L3.6709 6C3.2591 6 2.8893 5.7475 2.7395 5.3639ZM15.9173 7.98L15.325 9.0377L17.3432 13.2851C17.3479 13.295 17.3525 13.305 17.3568 13.315L17.584 13.8367C17.8584 14.4666 18 15.1463 18 15.8333L18 16.4189C18.0001 18.949 15.949 21.0001 13.4189 21L6.5811 21C4.051 21.0001 1.9999 18.949 2 16.4189L2 15.8333C2 15.1463 2.1416 14.4666 2.416 13.8367L2.6432 13.315C2.6476 13.305 2.6521 13.295 2.6568 13.2851L4.675 9.0377L4.0827 7.98L15.9173 7.98Z");
+  stroke: none;
 }
 
-.zag-a8bko {
-  fill: currentColor;
-  d: path("M4.675 9.0377L2.9611 5.9772C2.7939 5.6786 2.7061 5.3422 2.7061 5C2.7061 3.8954 3.6015 3 4.7061 3L15.2939 3C16.3985 3 17.2939 3.8954 17.2939 5C17.2939 5.3422 17.2061 5.6786 17.0389 5.9772L15.325 9.0377L17.3432 13.2851C17.3479 13.295 17.3525 13.305 17.3568 13.315L17.584 13.8367C17.8584 14.4666 18 15.1463 18 15.8333L18 16.4189C18.0001 18.949 15.949 21.0001 13.4189 21L6.5811 21C4.051 21.0001 1.9999 18.949 2 16.4189L2 15.8333C2 15.1462 2.1416 14.4666 2.416 13.8367L2.6432 13.315C2.6476 13.3049 2.6521 13.295 2.6568 13.2851L4.675 9.0377Z");
-  stroke: none;
+.x9x2jit3m {
+  d: path("M15 4L17 4C19.2091 4 21 5.7909 21 8L21 11");
 }
 
 </style>

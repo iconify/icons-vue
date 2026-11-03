@@ -4,22 +4,20 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="gp_8x1bzb"><path class="qgvhz-bst"/><path class="xk_b8vbkg"/></g>`;
+const content = `<g class="gp_8x1bzb"><path class="gd8ac4byx"/><path class="xk_b8vbkg"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:grill-sharp-duotone" /></template>
 <style>
+.gd8ac4byx {
+  stroke-opacity: 0.4;
+  d: path("M5.5 6L3 6C3 10.9706 7.0294 15 12 15C16.9706 15 21 10.9706 21 6L18.5 6M5.9923 18.2635L8.3094 14.2085M15 14.4853L18.2512 22.6292M7 20L17.2016 20");
+}
+
 .gp_8x1bzb {
   fill: none;
   stroke: currentColor;
   stroke-linejoin: round;
   stroke-width: var(--svg-stroke-width--2px, 2px);
-}
-
-.qgvhz-bst {
-  fill: currentColor;
-  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
-  d: path("M14.4111 15.7072C13.6227 15.9018 12.8137 16.0002 12.0017 16.0002C10.8943 16.0002 9.7945 15.8172 8.7468 15.4586L6.8605 18.7596L5.1241 17.7674L6.9239 14.6176C4.5285 13.2051 2.8283 10.8601 2.2306 8.1443C2.077 7.4399 1.9996 6.721 2 6C2 5.4477 2.4477 5 3 5L5.5 5L5.5 7L4.0618 7C4.304 8.9339 5.2453 10.7123 6.7083 12L17.2917 12C18.7547 10.7123 19.696 8.9339 19.9382 7L18.5 7L18.5 5L21 5C21.5523 5 22 5.4477 22 6C22.003 8.8305 20.8035 11.5291 18.7003 13.4235C17.9808 14.0735 17.1707 14.6157 16.2953 15.0328L19.1799 22.2584L17.3225 23L16.524 21L7 21L7 19L15.7256 19L14.4111 15.7072Z");
-  stroke: none;
 }
 
 .xk_b8vbkg {

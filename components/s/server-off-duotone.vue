@@ -1,0 +1,31 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="nrj6p8qat"><path clip-rule="evenodd" class="zltu-jbuk"/><path class="ayo73pbzj"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:server-off-duotone" /></template>
+<style>
+.ayo73pbzj {
+  d: path("M2 2L22 22");
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.zltu-jbuk {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  fill-rule: evenodd;
+  d: path("M11 11L6 11C4.3431 11 3 9.6569 3 8L3 4C2.9997 3.7048 3.043 3.4111 3.1285 3.1285L11 11ZM20.8715 20.8715C20.4872 22.1357 19.3214 23 18 23L6 23C4.3431 23 3 21.6569 3 20L3 16C3 14.3431 4.3431 13 6 13L13 13L20.8715 20.8715ZM9 18C9 17.4477 8.5523 17 8 17C7.4477 17 7 17.4477 7 18C7 18.5523 7.4477 19 8 19C8.5523 19 9 18.5523 9 18ZM13 18C13 17.4477 12.5523 17 12 17C11.4477 17 11 17.4477 11 18C11 18.5523 11.4477 19 12 19C12.5523 19 13 18.5523 13 18ZM7.6569 1L18 1C19.6569 1 21 2.3431 21 4L21 8C21 9.6569 19.6569 11 18 11L15.6569 11L15.6569 10.98C15.3969 10.9803 15.1475 10.877 14.9639 10.6929L14.9497 10.7071L6.9497 2.7071L6.9639 2.6929C6.78 2.5092 6.6767 2.2598 6.6767 1.9998C6.6767 1.4585 7.1156 1.0198 7.6569 1.02L7.6569 1ZM17.2426 13L18 13C19.6569 13 21 14.3431 21 16L21 16.7574L17.2426 13ZM13 6C13 5.4477 12.5523 5 12 5C11.4477 5 11 5.4477 11 6C11 6.5523 11.4477 7 12 7C12.5523 7 13 6.5523 13 6Z");
+  stroke: none;
+}
+
+</style>

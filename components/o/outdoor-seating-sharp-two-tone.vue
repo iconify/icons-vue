@@ -1,0 +1,29 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="gp_8x1bzb"><path class="r1ogm89te"/><path class="dd-ub093f"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:outdoor-seating-sharp-two-tone" /></template>
+<style>
+.dd-ub093f {
+  d: path("M2.1758 8L2 8L2.1125 7.865L3.7991 5.8411C5.8273 3.4072 8.8318 2 12 2C15.1682 2 18.1727 3.4072 20.2009 5.8411L21.8875 7.865L22 8L21.8242 8L2.1758 8ZM12 8L12 23M6 14L18 14M22 11L22 23M22 18L17 18L17 23M2 11L2 23M2 18L7 18L7 23");
+}
+
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.r1ogm89te {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M2.1758 9L2 9C1.4477 9 1 8.5523 1 8C1 7.7661 1.082 7.5395 1.2318 7.3598L1.3443 7.2248L3.0309 5.2009C5.2491 2.5391 8.535 1 12 1C15.465 1 18.7509 2.5391 20.9691 5.2009L22.6557 7.2248L22.7682 7.3598C22.918 7.5395 23 7.7661 23 8C23 8.5523 22.5523 9 22 9L2.1758 9Z");
+  stroke: none;
+}
+
+</style>

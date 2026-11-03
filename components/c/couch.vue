@@ -1,0 +1,20 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="l3rpm5qid"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:couch" /></template>
+<style>
+.l3rpm5qid {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M19 18L5 18M19 18C20.6569 18 22 16.6569 22 15L22 13C22 11.8954 21.1046 11 20 11M5 18C3.3431 18 2 16.6569 2 15L2 13C2 11.8954 2.8954 11 4 11M12 5L10 5C6.6863 5 4 7.6863 4 11M12 5L14 5C17.3137 5 20 7.6863 20 11M12 5L12 14M12 14L6.5 14C6.2239 14 6 13.7761 6 13.5L6 13C6 11.8954 5.1046 11 4 11M12 14L17.5 14C17.7761 14 18 13.7761 18 13.5L18 13C18 11.8954 18.8954 11 20 11M19 18L19 19M5 18L5 19");
+}
+
+</style>

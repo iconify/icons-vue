@@ -1,0 +1,30 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="nrj6p8qat"><path clip-rule="evenodd" class="pzx7ufbdj"/><path class="ayo73pbzj"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:flashlight-off-fill" /></template>
+<style>
+.ayo73pbzj {
+  d: path("M2 2L22 22");
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.pzx7ufbdj {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M19 19L18.2361 19C16.6103 19 15.0069 18.6215 13.5528 17.8944C12.3764 17.3062 11.0792 17 9.7639 17L4 17C2.3431 17 1 15.6569 1 14L1 10C1 8.3431 2.3431 7 4 7L7 7L16 16L16 16.6996C16.2939 16.78 16.592 16.8445 16.8928 16.8928L19 19ZM12.7152 6.4694C13.0007 6.3633 13.2803 6.2418 13.5528 6.1056C15.0069 5.3785 16.6103 5 18.2361 5L20 5C21.6569 5 23 6.3431 23 8L23 16C23.0001 16.1593 22.9875 16.3184 22.9625 16.4758L22.9428 16.4726C22.8669 16.9482 22.4567 17.2982 21.9751 17.2982C21.7151 17.2982 21.4657 17.1949 21.2819 17.011L21.2678 17.0251L18 13.7574L18 7.0033C17.3239 7.0221 16.6524 7.1219 16 7.3004L16 11.7574L12.3564 8.1138L12.3706 8.0997C12.1867 7.9158 12.0833 7.6665 12.0833 7.4065C12.0833 6.9969 12.3381 6.6305 12.7221 6.4878L12.7152 6.4694Z");
+  stroke: none;
+}
+
+</style>

@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="cuyn6tgcc"><path class="xtlx-tblu"/><path clip-rule="evenodd" class="vpsnqcb9m"/></g>`;
+const content = `<g class="cuyn6tgcc"><path class="xtlx-tblu"/><path clip-rule="evenodd" class="iv-f84c5t"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:barn-sharp-duotone" /></template>
 <style>
@@ -12,9 +12,9 @@ const content = `<g class="cuyn6tgcc"><path class="xtlx-tblu"/><path clip-rule="
   fill: currentColor;
 }
 
-.vpsnqcb9m {
+.iv-f84c5t {
   fill-rule: evenodd;
-  d: path("M8.3333 15L16 15C16.5523 15 17 15.4477 17 16L17 21.5L8.3333 15ZM15.6667 23L7 23L7 16.5L15.6667 23ZM10 7L14 7C14.5523 7 15 7.4477 15 8L15 12C15 12.5523 14.5523 13 14 13L10 13C9.4477 13 9 12.5523 9 12L9 8C9 7.4477 9.4477 7 10 7Z");
+  d: path("M10 7L14 7C14.5523 7 15 7.4477 15 8L15 12C15 12.5523 14.5523 13 14 13L10 13C9.4477 13 9 12.5523 9 12L9 8C9 7.4477 9.4477 7 10 7ZM9.6667 16L16 16L16 20.75L9.6667 16ZM13 21L8 21L8 17.25L13 21Z");
 }
 
 .xtlx-tblu {

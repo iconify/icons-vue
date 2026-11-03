@@ -4,14 +4,10 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="nrj6p8qat"><path class="jq8i14b1j"/><path class="jdhx-vl_q"/></g>`;
+const content = `<g class="nrj6p8qat"><path class="jq8i14b1j"/><path class="y1qsmab2y"/><path clip-rule="evenodd" class="zjej1dbjg"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:store-duotone" /></template>
 <style>
-.jdhx-vl_q {
-  d: path("M19.5 10C18.8281 10 18.1845 9.7296 17.7143 9.2496C17.5262 9.0577 17.2688 8.9495 17 8.9495C16.7312 8.9495 16.4738 9.0577 16.2857 9.2496C15.8155 9.7296 15.1719 10 14.5 10C13.8281 10 13.1845 9.7296 12.7143 9.2496C12.5262 9.0577 12.2688 8.9495 12 8.9495C11.7312 8.9495 11.4738 9.0577 11.2857 9.2496C10.8155 9.7296 10.1719 10 9.5 10C8.8281 10 8.1845 9.7296 7.7143 9.2496C7.5262 9.0577 7.2688 8.9495 7 8.9495C6.7312 8.9495 6.4738 9.0577 6.2857 9.2496C5.8155 9.7296 5.1719 10 4.5 10M9 21L9 15C9 14.4477 9.4477 14 10 14L14 14C14.5523 14 15 14.4477 15 15L15 21M7 8.9495L7 6.362M12 8.9495L12 6.362M17 8.9495L17 6.362");
-}
-
 .jq8i14b1j {
   fill: currentColor;
   fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
@@ -25,6 +21,17 @@ const content = `<g class="nrj6p8qat"><path class="jq8i14b1j"/><path class="jdhx
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.y1qsmab2y {
+  d: path("M19.5 10C18.8281 10 18.1845 9.7296 17.7143 9.2496C17.5262 9.0577 17.2688 8.9495 17 8.9495C16.7312 8.9495 16.4738 9.0577 16.2857 9.2496C15.8155 9.7296 15.1719 10 14.5 10C13.8281 10 13.1845 9.7296 12.7143 9.2496C12.5262 9.0577 12.2688 8.9495 12 8.9495C11.7312 8.9495 11.4738 9.0577 11.2857 9.2496C10.8155 9.7296 10.1719 10 9.5 10C8.8281 10 8.1845 9.7296 7.7143 9.2496C7.5262 9.0577 7.2688 8.9495 7 8.9495C6.7312 8.9495 6.4738 9.0577 6.2857 9.2496C5.8155 9.7296 5.1719 10 4.5 10M7 8.9495L7 6.362M12 8.9495L12 6.362M17 8.9495L17 6.362");
+}
+
+.zjej1dbjg {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M9 20L9 15C9 14.4477 9.4477 14 10 14L14 14C14.5523 14 15 14.4477 15 15L15 20L9 20Z");
+  stroke: none;
 }
 
 </style>

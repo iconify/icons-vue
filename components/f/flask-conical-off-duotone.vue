@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="nrj6p8qat"><path class="ihmrgyadd"/><path class="zaeq1obyq"/><path class="ayo73pbzj"/></g>`;
+const content = `<g class="nrj6p8qat"><path class="ihmrgyadd"/><path class="nhq6q3fvo"/><path class="zaeq1obyq"/><path class="ayo73pbzj"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:flask-conical-off-duotone" /></template>
 <style>
@@ -16,6 +16,12 @@ const content = `<g class="nrj6p8qat"><path class="ihmrgyadd"/><path class="zaeq
   fill: currentColor;
   fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
   d: path("M8.2661 8.2656L20.8686 20.8691C20.4855 22.1344 19.3196 23 17.9975 23L6.0024 23C4.3456 23 3.0026 21.6568 3.0024 20C3.0024 19.5539 3.1017 19.1128 3.2934 18.71L8.2661 8.2656Z");
+  stroke: none;
+}
+
+.nhq6q3fvo {
+  fill: currentColor;
+  d: path("M18.1951 22.9936C18.1294 22.9979 18.0635 23 17.9976 23L6.0024 23C4.3455 23.0003 3.0022 21.6571 3.0022 20.0002C3.0022 19.554 3.1017 19.1134 3.2936 18.7105L4.1079 17L16.9998 17L20.8686 20.8692C20.5067 22.0649 19.4417 22.9112 18.1951 22.9936Z");
   stroke: none;
 }
 

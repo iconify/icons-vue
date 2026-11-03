@@ -1,0 +1,30 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="nrj6p8qat"><path clip-rule="evenodd" class="fwxcgbc6y"/><path class="tvfqzrgya"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:briefcase-arrow-down-fill" /></template>
+<style>
+.fwxcgbc6y {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M6 5L18 5C20.2092 5 22 6.7908 22 9L22 15C22 17.2092 20.2092 19 18 19L6 19C3.7908 19 2 17.2092 2 15L2 9C2 6.7908 3.7908 5 6 5ZM11.3882 14.7911C11.5635 14.927 11.7791 15.0007 12.0009 15.0007C12.2662 15.0007 12.5205 14.8954 12.7081 14.7078L15.7081 11.7078C15.8956 11.5203 16.001 11.2659 16.001 11.0007C16.001 10.4484 15.5533 10.0007 15.001 10.0007C14.7358 10.0007 14.4814 10.1061 14.2939 10.2936L13 11.5875L13 10C13 9.4477 12.5523 9 12 9C11.4477 9 11 9.4477 11 10L11 11.5855L9.7081 10.2936C9.5206 10.1061 9.2662 10.0007 9.001 10.0007C8.4487 10.0007 8.001 10.4484 8.001 11.0007C8.001 11.2659 8.1064 11.5203 8.2939 11.7078L11.2784 14.6923C11.3126 14.7279 11.3492 14.7609 11.3882 14.7911Z");
+  stroke: none;
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.tvfqzrgya {
+  d: path("M8.5 6L8.5 5C8.5 3.3431 9.8431 2 11.5 2L12.5 2C14.1569 2 15.5 3.3431 15.5 5L15.5 6M3 22L21 22");
+}
+
+</style>

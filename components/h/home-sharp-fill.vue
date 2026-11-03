@@ -4,13 +4,14 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="iu-pc6k3w"/>`;
+const content = `<path clip-rule="evenodd" class="xne8lubjv"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:home-sharp-fill" /></template>
 <style>
-.iu-pc6k3w {
+.xne8lubjv {
   fill: currentColor;
-  d: path("M12.6135 2.2048L20.9395 8.6379L21.6854 9.3401C21.8862 9.529 22 9.7925 22 10.0682L21.9998 21.0002C21.9998 21.5525 21.5521 22.0002 20.9998 22.0002L16 22.0002L16 13.0002L8 13.0002L8 22.0002L3.0002 22.0002C2.4479 22.0002 2.0002 21.5525 2.0002 21.0002L2 9.9999C2 9.706 2.1293 9.4269 2.3536 9.2369L11.3881 2.2069C11.7482 1.9266 12.2524 1.9258 12.6135 2.2048Z");
+  fill-rule: evenodd;
+  d: path("M12.6135 2.2048L20.9395 8.6379L21.6854 9.3401C21.8862 9.529 22 9.7925 22 10.0682L21.9998 21.0002C21.9998 21.5525 21.5521 22.0002 20.9998 22.0002L3.0002 22.0002C2.4479 22.0002 2.0002 21.5525 2.0002 21.0002L2 9.9999C2 9.706 2.1293 9.4269 2.3536 9.2369L11.3881 2.2069C11.5636 2.0703 11.7797 1.9961 12.0022 1.9961C12.2234 1.9961 12.4384 2.0695 12.6135 2.2048ZM9 20L15 20L15 14L9 14L9 20Z");
 }
 
 </style>

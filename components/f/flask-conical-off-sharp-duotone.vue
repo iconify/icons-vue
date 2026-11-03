@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="gp_8x1bzb"><path class="o4-575bqq"/><path class="quk2qgbrt"/><path class="ysqxkebtz"/></g>`;
+const content = `<g class="gp_8x1bzb"><path class="o4-575bqq"/><path class="vvqv_7bbf"/><path class="quk2qgbrt"/><path class="ysqxkebtz"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:flask-conical-off-sharp-duotone" /></template>
 <style>
@@ -26,6 +26,12 @@ const content = `<g class="gp_8x1bzb"><path class="o4-575bqq"/><path class="quk2
   fill: currentColor;
   fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
   d: path("M17.0001 3H15.5001V7.81055L16.4317 10.1816L14.5704 10.9131L13.5694 8.36523C13.5238 8.24885 13.5001 8.12502 13.5001 8V3H10.5001V4.84277H8.50009V3H7.00009V1H17.0001V3Z");
+  stroke: none;
+}
+
+.vvqv_7bbf {
+  fill: currentColor;
+  d: path("M20.4747 20.4736L20.9307 21.6344C20.9764 21.7508 20.9999 21.8747 20.9999 21.9997C20.9999 22.5518 20.5522 22.9992 20.0001 22.999L4.0001 22.999C3.4479 22.9992 3.0002 22.5517 3.0002 21.9995C3.0002 21.8746 3.0237 21.7507 3.0693 21.6344L4.8899 17L17.0011 17L20.4747 20.4736Z");
   stroke: none;
 }
 

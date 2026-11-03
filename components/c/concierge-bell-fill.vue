@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="nrj6p8qat"><path class="nqoslm7ee"/><path class="fyu52ibxo"/></g>`;
+const content = `<g class="nrj6p8qat"><path clip-rule="evenodd" class="m4am4ab_s"/><path class="fyu52ibxo"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:concierge-bell-fill" /></template>
 <style>
@@ -12,9 +12,10 @@ const content = `<g class="nrj6p8qat"><path class="nqoslm7ee"/><path class="fyu5
   d: path("M12 7L12 3M9 3L15 3");
 }
 
-.nqoslm7ee {
+.m4am4ab_s {
   fill: currentColor;
-  d: path("M3.039 14.1575C3.286 11.5202 4.683 9.1258 6.8574 7.6131C8.365 6.5621 10.1585 5.9986 11.9963 5.9986C12.3745 5.9986 12.7524 6.0224 13.1277 6.0701C15.6564 6.3889 17.9312 7.7653 19.3869 9.8574C20.2754 11.1302 20.8179 12.612 20.961 14.1575C22.1798 14.5699 23 15.7134 23 17L23 19C23 20.6569 21.6569 22 20 22L4 22C2.3431 22 1 20.6569 1 19L1 17C1 15.7134 1.8202 14.5699 3.039 14.1575Z");
+  fill-rule: evenodd;
+  d: path("M4.148 10.599C5.7404 7.7579 8.7433 5.9986 12.0002 5.9986C15.2571 5.9986 18.26 7.7579 19.8524 10.599C19.9078 10.7255 19.9364 10.862 19.9364 11.0001C19.9364 11.5524 19.4886 12.0001 18.9363 12L5.064 12C4.5117 12.0001 4.064 11.5525 4.064 11.0002C4.064 10.8621 4.0926 10.7255 4.148 10.599ZM4 14L20 14C21.6569 14 23 15.3431 23 17L23 19C23 20.6569 21.6569 22 20 22L4 22C2.3431 22 1 20.6569 1 19L1 17C1 15.3431 2.3431 14 4 14Z");
   stroke: none;
 }
 

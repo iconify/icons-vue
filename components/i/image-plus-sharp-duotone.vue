@@ -4,10 +4,17 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="gp_8x1bzb"><path class="uwajf-ucs"/><path class="o-lf6ybxy"/><path class="isy2lrdil"/></g>`;
+const content = `<g class="gp_8x1bzb"><path class="uwajf-ucs"/><path class="u1ceo4bqa"/><path clip-rule="evenodd" class="awwcnrwmc"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:image-plus-sharp-duotone" /></template>
 <style>
+.awwcnrwmc {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M4 17L8.2929 12.7071C8.6834 12.3166 9.3166 12.3166 9.7071 12.7071L13 16L16.3062 13.5204C16.7043 13.2218 17.2614 13.2614 17.6133 13.6133L20 16L20 19C20 19.5523 19.5523 20 19 20L5 20C4.4477 20 4 19.5523 4 19L4 17ZM9.5 7.5C9.5 8.3284 8.8284 9 8 9C7.1716 9 6.5 8.3284 6.5 7.5C6.5 6.6716 7.1716 6 8 6C8.8284 6 9.5 6.6716 9.5 7.5Z");
+  stroke: none;
+}
+
 .gp_8x1bzb {
   fill: none;
   stroke: currentColor;
@@ -15,14 +22,8 @@ const content = `<g class="gp_8x1bzb"><path class="uwajf-ucs"/><path class="o-lf
   stroke-width: var(--svg-stroke-width--2px, 2px);
 }
 
-.isy2lrdil {
-  fill: currentColor;
-  d: path("M9.5 7.5C9.5 8.3284 8.8284 9 8 9C7.1716 9 6.5 8.3284 6.5 7.5C6.5 6.6716 7.1716 6 8 6C8.8284 6 9.5 6.6716 9.5 7.5Z");
-  stroke: none;
-}
-
-.o-lf6ybxy {
-  d: path("M2.7071 18.2929L3 18L9 12L13 16L17 13L21 17L21.2929 17.2929M18 2L18 10M14 6L22 6");
+.u1ceo4bqa {
+  d: path("M18 2L18 10M14 6L22 6");
 }
 
 .uwajf-ucs {

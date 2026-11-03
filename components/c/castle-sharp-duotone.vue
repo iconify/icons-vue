@@ -4,14 +4,10 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="cuyn6tgcc"><path class="g5qq-wbmx"/><path class="c9sgut5ws"/></g>`;
+const content = `<g class="cuyn6tgcc"><path class="g5qq-wbmx"/><path clip-rule="evenodd" class="k81ybob-i"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:castle-sharp-duotone" /></template>
 <style>
-.c9sgut5ws {
-  d: path("M8 22L8 16.5C8 16.0544 8.1505 15.6515 8.335 15.3245C8.5264 14.995 8.7627 14.6938 9.0371 14.4295C9.3081 14.1648 9.605 13.928 9.9233 13.7225C10.2344 13.519 10.5665 13.3496 10.9139 13.2172C11.2468 13.0928 11.622 13 12 13C12.378 13 12.7532 13.0928 13.0861 13.2172C13.4335 13.3496 13.7656 13.519 14.0767 13.7225C14.395 13.928 14.6919 14.1648 14.9629 14.4295C15.2373 14.6938 15.4736 14.995 15.665 15.3245C15.8495 15.6515 16 16.0544 16 16.5L16 22L8 22Z");
-}
-
 .cuyn6tgcc {
   fill: currentColor;
 }
@@ -19,6 +15,11 @@ const content = `<g class="cuyn6tgcc"><path class="g5qq-wbmx"/><path class="c9sg
 .g5qq-wbmx {
   fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
   d: path("M23 10L23 21C23 21.5523 22.5523 22 22 22L2 22C1.4477 22 1 21.5523 1 21L1 7L3 7L3 9L5 9L5 2L7 2L7 4L11 4L11 2L13 2L13 4L17 4L17 2L19 2L19 9L21 9L21 7L23 7L23 10Z");
+}
+
+.k81ybob-i {
+  fill-rule: evenodd;
+  d: path("M15 20L9 20L9 16.5C9 15.3954 10.8954 14 12 14C13.1046 14 15 15.3954 15 16.5L15 20Z");
 }
 
 </style>

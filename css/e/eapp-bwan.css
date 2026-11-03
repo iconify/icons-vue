@@ -1,0 +1,6 @@
+.eapp-bwan {
+  fill: var(--svg-color--6c5ce7, #6c5ce7);
+  stroke: var(--svg-color--000, #000);
+  stroke-width: var(--svg-stroke-width--3px, 3px);
+  d: path("M6 8v16c0 2 2 4 4 4h8c2 0 4-2 4-4V8z");
+}

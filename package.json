@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/vadivam",
   "type": "module",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "homepage": "https://icon-sets.iconify.design/vadivam/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -470,10 +470,6 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/badge.vue"
     },
-    "./badge-alert": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/b/badge-alert.vue"
-    },
     "./badge-cent": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/badge-cent.vue"
@@ -489,6 +485,10 @@
     "./badge-euro": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/badge-euro.vue"
+    },
+    "./badge-exclamation-point": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/badge-exclamation-point.vue"
     },
     "./badge-indian-rupee": {
       "types": "./types/dd0bq22g.d.ts",
@@ -610,6 +610,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/battery-charging.vue"
     },
+    "./battery-exclamation-point": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/battery-exclamation-point.vue"
+    },
     "./battery-full": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/battery-full.vue"
@@ -625,10 +629,6 @@
     "./battery-plus": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/battery-plus.vue"
-    },
-    "./battery-warning": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/b/battery-warning.vue"
     },
     "./beaker": {
       "types": "./types/dd0bq22g.d.ts",
@@ -810,10 +810,6 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/book-a.vue"
     },
-    "./book-alert": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/b/book-alert.vue"
-    },
     "./book-audio": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/book-audio.vue"
@@ -837,6 +833,10 @@
     "./book-down": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/book-down.vue"
+    },
+    "./book-exclamation-point": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/book-exclamation-point.vue"
     },
     "./book-headphones": {
       "types": "./types/dd0bq22g.d.ts",
@@ -1358,6 +1358,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/chart-bar-stacked.vue"
     },
+    "./chart-bell-curve": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chart-bell-curve.vue"
+    },
     "./chart-candlestick": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/chart-candlestick.vue"
@@ -1554,10 +1558,6 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/circle.vue"
     },
-    "./circle-alert": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/c/circle-alert.vue"
-    },
     "./circle-arrow-down": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/circle-arrow-down.vue"
@@ -1665,6 +1665,10 @@
     "./circle-euro": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/circle-euro.vue"
+    },
+    "./circle-exclamation-point": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/circle-exclamation-point.vue"
     },
     "./circle-fading-arrow-up": {
       "types": "./types/dd0bq22g.d.ts",
@@ -1994,10 +1998,6 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/clock-9.vue"
     },
-    "./clock-alert": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/c/clock-alert.vue"
-    },
     "./clock-arrow-down": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/clock-arrow-down.vue"
@@ -2018,6 +2018,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/clock-check.vue"
     },
+    "./clock-exclamation-point": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/clock-exclamation-point.vue"
+    },
     "./clock-fading": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/clock-fading.vue"
@@ -2033,10 +2037,6 @@
     "./cloud": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/cloud.vue"
-    },
-    "./cloud-alert": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/c/cloud-alert.vue"
     },
     "./cloud-backup": {
       "types": "./types/dd0bq22g.d.ts",
@@ -2057,6 +2057,10 @@
     "./cloud-drizzle": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/cloud-drizzle.vue"
+    },
+    "./cloud-exclamation-point": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloud-exclamation-point.vue"
     },
     "./cloud-fog": {
       "types": "./types/dd0bq22g.d.ts",
@@ -2417,6 +2421,14 @@
     "./dessert": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/dessert.vue"
+    },
+    "./diagram-flow-horizontal": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/diagram-flow-horizontal.vue"
+    },
+    "./diagram-flow-vertical": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/diagram-flow-vertical.vue"
     },
     "./diameter": {
       "types": "./types/dd0bq22g.d.ts",
@@ -2841,6 +2853,10 @@
     "./file-cog": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-cog.vue"
+    },
+    "./file-database": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-database.vue"
     },
     "./file-diff": {
       "types": "./types/dd0bq22g.d.ts",
@@ -3426,6 +3442,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/globe.vue"
     },
+    "./globe-ban": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/globe-ban.vue"
+    },
     "./globe-check": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/globe-check.vue"
@@ -3441,6 +3461,10 @@
     "./globe-off": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/globe-off.vue"
+    },
+    "./globe-plus": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/globe-plus.vue"
     },
     "./globe-x": {
       "types": "./types/dd0bq22g.d.ts",
@@ -4422,6 +4446,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/mail-dot.vue"
     },
+    "./mail-exclamation-point": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mail-exclamation-point.vue"
+    },
     "./mail-minus": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/mail-minus.vue"
@@ -4446,10 +4474,6 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/mail-search.vue"
     },
-    "./mail-warning": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/m/mail-warning.vue"
-    },
     "./mail-x": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/mail-x.vue"
@@ -4461,6 +4485,10 @@
     "./mails": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/mails.vue"
+    },
+    "./mango": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mango.vue"
     },
     "./map": {
       "types": "./types/dd0bq22g.d.ts",
@@ -4530,6 +4558,34 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/map-plus.vue"
     },
+    "./margin": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/margin.vue"
+    },
+    "./margin-bottom": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/margin-bottom.vue"
+    },
+    "./margin-horizontal": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/margin-horizontal.vue"
+    },
+    "./margin-left": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/margin-left.vue"
+    },
+    "./margin-right": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/margin-right.vue"
+    },
+    "./margin-top": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/margin-top.vue"
+    },
+    "./margin-vertical": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/margin-vertical.vue"
+    },
     "./mars": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/mars.vue"
@@ -4594,6 +4650,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/message-circle-dashed-check.vue"
     },
+    "./message-circle-exclamation-point": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/message-circle-exclamation-point.vue"
+    },
     "./message-circle-heart": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/message-circle-heart.vue"
@@ -4622,10 +4682,6 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/message-circle-text.vue"
     },
-    "./message-circle-warning": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/m/message-circle-warning.vue"
-    },
     "./message-circle-x": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/message-circle-x.vue"
@@ -4653,6 +4709,10 @@
     "./message-square-dot": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/message-square-dot.vue"
+    },
+    "./message-square-exclamation-point": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/message-square-exclamation-point.vue"
     },
     "./message-square-heart": {
       "types": "./types/dd0bq22g.d.ts",
@@ -4689,10 +4749,6 @@
     "./message-square-text": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/message-square-text.vue"
-    },
-    "./message-square-warning": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/m/message-square-warning.vue"
     },
     "./message-square-x": {
       "types": "./types/dd0bq22g.d.ts",
@@ -4781,6 +4837,10 @@
     "./monitor": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/monitor.vue"
+    },
+    "./monitor-activity": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/monitor-activity.vue"
     },
     "./monitor-check": {
       "types": "./types/dd0bq22g.d.ts",
@@ -5050,9 +5110,9 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/o/octagon.vue"
     },
-    "./octagon-alert": {
+    "./octagon-exclamation-point": {
       "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/o/octagon-alert.vue"
+      "default": "./components/o/octagon-exclamation-point.vue"
     },
     "./octagon-minus": {
       "types": "./types/dd0bq22g.d.ts",
@@ -5994,10 +6054,6 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/search.vue"
     },
-    "./search-alert": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/s/search-alert.vue"
-    },
     "./search-check": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/search-check.vue"
@@ -6005,6 +6061,10 @@
     "./search-code": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/search-code.vue"
+    },
+    "./search-exclamation-point": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/search-exclamation-point.vue"
     },
     "./search-slash": {
       "types": "./types/dd0bq22g.d.ts",
@@ -6098,10 +6158,6 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/shield.vue"
     },
-    "./shield-alert": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/s/shield-alert.vue"
-    },
     "./shield-ban": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/shield-ban.vue"
@@ -6121,6 +6177,10 @@
     "./shield-ellipsis": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/shield-ellipsis.vue"
+    },
+    "./shield-exclamation-point": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/shield-exclamation-point.vue"
     },
     "./shield-half": {
       "types": "./types/dd0bq22g.d.ts",
@@ -6741,6 +6801,34 @@
     "./square-off": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/square-off.vue"
+    },
+    "./square-padding": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/square-padding.vue"
+    },
+    "./square-padding-bottom": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/square-padding-bottom.vue"
+    },
+    "./square-padding-horizontal": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/square-padding-horizontal.vue"
+    },
+    "./square-padding-left": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/square-padding-left.vue"
+    },
+    "./square-padding-right": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/square-padding-right.vue"
+    },
+    "./square-padding-top": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/square-padding-top.vue"
+    },
+    "./square-padding-vertical": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/square-padding-vertical.vue"
     },
     "./square-pause": {
       "types": "./types/dd0bq22g.d.ts",
@@ -7410,13 +7498,13 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/triangle.vue"
     },
-    "./triangle-alert": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/t/triangle-alert.vue"
-    },
     "./triangle-dashed": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/triangle-dashed.vue"
+    },
+    "./triangle-exclamation-point": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/triangle-exclamation-point.vue"
     },
     "./triangle-right": {
       "types": "./types/dd0bq22g.d.ts",
@@ -8022,17 +8110,65 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/z/zoom-out.vue"
     },
+    "./badge-alert": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/badge-alert.vue"
+    },
+    "./battery-warning": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/battery-warning.vue"
+    },
     "./bold": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/bold.vue"
+    },
+    "./book-alert": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/book-alert.vue"
+    },
+    "./circle-alert": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/circle-alert.vue"
+    },
+    "./clock-alert": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/clock-alert.vue"
+    },
+    "./cloud-alert": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cloud-alert.vue"
     },
     "./heading": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/heading.vue"
     },
+    "./mail-warning": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mail-warning.vue"
+    },
+    "./message-circle-warning": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/message-circle-warning.vue"
+    },
+    "./message-square-warning": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/message-square-warning.vue"
+    },
     "./music": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/music.vue"
+    },
+    "./octagon-alert": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/octagon-alert.vue"
+    },
+    "./search-alert": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/search-alert.vue"
+    },
+    "./shield-alert": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/shield-alert.vue"
     },
     "./square-m": {
       "types": "./types/dd0bq22g.d.ts",
@@ -8049,6 +8185,10 @@
     "./trash-2": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/trash-2.vue"
+    },
+    "./triangle-alert": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/triangle-alert.vue"
     },
     "./*": "./*"
   },

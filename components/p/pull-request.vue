@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="zubgsccfd"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:pull-request" /></template>
+<style>
+.zubgsccfd {
+  fill: currentColor;
+  d: path("M16.875 21.125Q16 20.25 16 19q0-.95.55-1.737T18 16.174v-8.35q-.65-.225-1.125-.7T16.175 6h-3.75L14.4 8L13 9.4L8.6 5L13 .6L14.4 2l-1.975 2h3.75q.3-.9 1.088-1.45T19 2q1.25 0 2.125.875T22 5q0 .95-.55 1.738T20 7.825v8.35q.9.3 1.45 1.088T22 19q0 1.25-.875 2.125T19 22t-2.125-.875M5 22q-1.25 0-2.125-.875T2 19q0-.95.55-1.737T4 16.174v-8.35q-.9-.3-1.45-1.088T2 5q0-1.25.875-2.125T5 2t2.125.875T8 5q0 .95-.55 1.738T6 7.825v8.35q.9.3 1.45 1.088T8 19q0 1.25-.875 2.125T5 22");
+}
+
+</style>

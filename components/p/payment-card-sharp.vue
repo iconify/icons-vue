@@ -4,13 +4,13 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="k9o1bkbky"/>`;
+const content = `<path class="sbbue8b2n"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="material-symbols:payment-card-sharp" /></template>
 <style>
-.k9o1bkbky {
+.sbbue8b2n {
   fill: currentColor;
-  d: path("M4 20q-.825 0-1.412-.587T2 18V6q0-.825.588-1.412T4 4h16q.825 0 1.413.588T22 6v12q0 .825-.587 1.413T20 20zm1-3h10L10 7H5zm8-8h6V7h-6z");
+  d: path("M2 20V4h20v16zm3-3h10L10 7H5zm8-8h6V7h-6z");
 }
 
 </style>

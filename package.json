@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/openmoji",
   "type": "module",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "homepage": "https://icon-sets.iconify.design/openmoji/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "CC-BY-SA-4.0",
@@ -7213,6 +7213,10 @@
     "./macaw": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/macaw.vue"
+    },
+    "./madeira-flag": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/madeira-flag.vue"
     },
     "./madrid-autonomous-community-flag": {
       "types": "./types/dd0bq22g.d.ts",

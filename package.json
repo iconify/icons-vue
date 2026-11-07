@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/thesvg",
   "type": "module",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "homepage": "https://icon-sets.iconify.design/thesvg/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -14449,6 +14449,10 @@
     "./wappalyzer": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/w/wappalyzer.vue"
+    },
+    "./warden": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/warden.vue"
     },
     "./warp": {
       "types": "./types/dd0bq22g.d.ts",

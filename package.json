@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/material-symbols-light",
   "type": "module",
-  "version": "1.0.62",
+  "version": "1.0.63",
   "homepage": "https://icon-sets.iconify.design/material-symbols-light/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "Apache-2.0",
@@ -16689,6 +16689,30 @@
     "./devices": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/devices.vue"
+    },
+    "./devices-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/devices-2.vue"
+    },
+    "./devices-2-outline": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/devices-2-outline.vue"
+    },
+    "./devices-2-outline-rounded": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/devices-2-outline-rounded.vue"
+    },
+    "./devices-2-outline-sharp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/devices-2-outline-sharp.vue"
+    },
+    "./devices-2-rounded": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/devices-2-rounded.vue"
+    },
+    "./devices-2-sharp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/devices-2-sharp.vue"
     },
     "./devices-fold": {
       "types": "./types/dd0bq22g.d.ts",
@@ -35686,6 +35710,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/mintmark-sharp.vue"
     },
+    "./mirror-stack": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mirror-stack.vue"
+    },
+    "./mirror-stack-outline": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mirror-stack-outline.vue"
+    },
+    "./mirror-stack-outline-sharp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mirror-stack-outline-sharp.vue"
+    },
+    "./mirror-stack-sharp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mirror-stack-sharp.vue"
+    },
     "./missed-video-call": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/missed-video-call.vue"
@@ -42170,6 +42210,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/payment-card-outline-sharp.vue"
     },
+    "./payment-card-rounded": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/payment-card-rounded.vue"
+    },
+    "./payment-card-sharp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/payment-card-sharp.vue"
+    },
     "./payments": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/payments.vue"
@@ -45553,6 +45601,22 @@
     "./published-with-changes-rounded": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/published-with-changes-rounded.vue"
+    },
+    "./pull-request": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pull-request.vue"
+    },
+    "./pull-request-outline": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pull-request-outline.vue"
+    },
+    "./pull-request-outline-rounded": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pull-request-outline-rounded.vue"
+    },
+    "./pull-request-rounded": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pull-request-rounded.vue"
     },
     "./pulmonology": {
       "types": "./types/dd0bq22g.d.ts",
@@ -81798,6 +81862,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/mintmark-outline-sharp.vue"
     },
+    "./mirror-stack-outline-rounded": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mirror-stack-outline-rounded.vue"
+    },
+    "./mirror-stack-rounded": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mirror-stack-rounded.vue"
+    },
     "./missing-controller-outline": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/missing-controller-outline.vue"
@@ -84886,14 +84958,6 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/pause-sharp.vue"
     },
-    "./payment-card-rounded": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/p/payment-card-rounded.vue"
-    },
-    "./payment-card-sharp": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/p/payment-card-sharp.vue"
-    },
     "./pediatrics-outline-rounded": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/pediatrics-outline-rounded.vue"
@@ -86369,6 +86433,14 @@
     "./published-with-changes-sharp": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/published-with-changes-sharp.vue"
+    },
+    "./pull-request-outline-sharp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pull-request-outline-sharp.vue"
+    },
+    "./pull-request-sharp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pull-request-sharp.vue"
     },
     "./punch-clock-sharp": {
       "types": "./types/dd0bq22g.d.ts",

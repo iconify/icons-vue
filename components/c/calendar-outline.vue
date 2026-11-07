@@ -1,17 +1,16 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/h/hgxldke9d.css';
-import '../../css/y/ypy-a6bdt.css';
-import '../../css/e/egm-6jb-e.css';
-import '../../css/r/rg8vhvbio.css';
-import '../../css/u/u9iziiqda.css';
-import '../../css/i/ipxygcxkm.css';
-import '../../css/o/o49uv6bhn.css';
+import '../../css/t/ti9suu5lc.css';
+import '../../css/v/v4rt0mblj.css';
+import '../../css/k/kb3qv9b3z.css';
+import '../../css/m/mf9o9n5rb.css';
+import '../../css/i/iwj00ck4i.css';
+import '../../css/a/a57658x1e.css';
+import '../../css/v/vomldszvb.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="cuyn6tgcc"><path class="hgxldke9d"/><path class="ypy-a6bdt"/><path class="egm-6jb-e"/><path class="rg8vhvbio"/><path class="u9iziiqda"/><path class="ipxygcxkm"/><path clip-rule="evenodd" class="o49uv6bhn"/></g>`;
+const content = `<path class="ti9suu5lc"/><path class="v4rt0mblj"/><path class="kb3qv9b3z"/><path class="mf9o9n5rb"/><path class="iwj00ck4i"/><path class="a57658x1e"/><path clip-rule="evenodd" class="vomldszvb"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:calendar-outline" /></template>

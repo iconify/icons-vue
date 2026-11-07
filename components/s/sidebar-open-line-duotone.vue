@@ -1,13 +1,13 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
 import '../../css/i/ipq1z-bjh.css';
-import '../../css/r/rma5_ql1e.css';
+import '../../css/l/lt87iveio.css';
 import '../../css/i/ip-kvve8g.css';
-import '../../css/w/wno59xbno.css';
+import '../../css/y/yma2139fj.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ipq1z-bjh"><path class="rma5_ql1e"/><path class="ip-kvve8g"/><path class="wno59xbno"/></g>`;
+const content = `<g class="ipq1z-bjh"><path class="lt87iveio"/><path class="ip-kvve8g"/><path class="yma2139fj"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:sidebar-open-line-duotone" /></template>

@@ -1,12 +1,11 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/v/vwtcsdqrk.css';
-import '../../css/v/vx9l-ww8j.css';
+import '../../css/j/jh82fib1q.css';
+import '../../css/j/jvt0l2akk.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="cuyn6tgcc"><path class="vwtcsdqrk"/><path clip-rule="evenodd" class="vx9l-ww8j"/></g>`;
+const content = `<path class="jh82fib1q"/><path clip-rule="evenodd" class="jvt0l2akk"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:videocamera-off-outline" /></template>

@@ -2,11 +2,11 @@
 import { Icon } from '@iconify/css-vue';
 import '../../css/i/ipq1z-bjh.css';
 import '../../css/d/doy9q4b5f.css';
-import '../../css/r/rpb0gebid.css';
+import '../../css/i/i31i05kmz.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ipq1z-bjh"><circle class="doy9q4b5f"/><path class="rpb0gebid"/></g>`;
+const content = `<g class="ipq1z-bjh"><circle class="doy9q4b5f"/><path class="i31i05kmz"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:close-circle-line-duotone" /></template>

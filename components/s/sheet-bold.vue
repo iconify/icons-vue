@@ -1,17 +1,16 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/q/qy9l_actj.css';
-import '../../css/z/zb0alabul.css';
-import '../../css/a/aqbeqobdq.css';
-import '../../css/v/vm2--db7r.css';
-import '../../css/z/z_8-xsu_j.css';
-import '../../css/y/ys2ikbbnc.css';
-import '../../css/a/a4df2246k.css';
+import '../../css/s/s_vxd5bvs.css';
+import '../../css/p/p0dd6dbol.css';
+import '../../css/y/y__cacvha.css';
+import '../../css/q/q4fxlaccz.css';
+import '../../css/k/k0lwqxbvz.css';
+import '../../css/z/zozkijhek.css';
+import '../../css/s/s48_u__dx.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="cuyn6tgcc"><path class="qy9l_actj"/><path class="zb0alabul"/><path class="aqbeqobdq"/><path class="vm2--db7r"/><path class="z_8-xsu_j"/><path class="ys2ikbbnc"/><path class="a4df2246k"/></g>`;
+const content = `<path class="s_vxd5bvs"/><path class="p0dd6dbol"/><path class="y__cacvha"/><path class="q4fxlaccz"/><path class="k0lwqxbvz"/><path class="zozkijhek"/><path class="s48_u__dx"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:sheet-bold" /></template>

@@ -1,13 +1,13 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
 import '../../css/i/ipq1z-bjh.css';
-import '../../css/o/ohw_5actf.css';
-import '../../css/r/rd5_q5bmh.css';
-import '../../css/y/y2b_7cbos.css';
+import '../../css/o/orf_yx79i.css';
+import '../../css/d/dokex3bcs.css';
+import '../../css/o/ocaweqb-l.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ipq1z-bjh"><path class="ohw_5actf"/><path class="rd5_q5bmh"/><path class="y2b_7cbos"/></g>`;
+const content = `<g class="ipq1z-bjh"><path class="orf_yx79i"/><path class="dokex3bcs"/><path class="ocaweqb-l"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:align-horizontal-center-linear" /></template>

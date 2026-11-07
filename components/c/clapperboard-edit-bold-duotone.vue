@@ -1,15 +1,14 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/k/kmc_heavq.css';
-import '../../css/y/yhvy4lkom.css';
-import '../../css/p/psvnbab7k.css';
-import '../../css/d/dd7-ubcex.css';
-import '../../css/s/sgi786blj.css';
+import '../../css/u/udhl7bbum.css';
+import '../../css/c/ch0lkibmx.css';
+import '../../css/k/k5s_6-4ei.css';
+import '../../css/d/dw6-rudva.css';
+import '../../css/x/xowa9vplg.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="cuyn6tgcc"><path clip-rule="evenodd" class="kmc_heavq"/><path class="yhvy4lkom"/><path class="psvnbab7k"/><path class="dd7-ubcex"/><path class="sgi786blj"/></g>`;
+const content = `<path clip-rule="evenodd" class="udhl7bbum"/><path class="ch0lkibmx"/><path class="k5s_6-4ei"/><path class="dw6-rudva"/><path class="xowa9vplg"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:clapperboard-edit-bold-duotone" /></template>

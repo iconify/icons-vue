@@ -1,26 +1,25 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/d/dhs_ddcmf.css';
-import '../../css/z/z_3-e1bwy.css';
-import '../../css/c/cstns6c6x.css';
-import '../../css/z/zbx34070s.css';
-import '../../css/v/vxdm3gb_z.css';
-import '../../css/y/y4p7wpble.css';
-import '../../css/p/pquzu8b-k.css';
-import '../../css/n/n0bw2ib9p.css';
-import '../../css/m/mmwkmhi4g.css';
-import '../../css/k/krsoz-45a.css';
-import '../../css/u/u7xlenbwi.css';
-import '../../css/o/oy9lvzbjx.css';
-import '../../css/m/moekp8q5e.css';
-import '../../css/u/utwiqdm_m.css';
-import '../../css/f/frzd4mnkd.css';
-import '../../css/d/dmzkysbvu.css';
+import '../../css/z/zxczq7a-x.css';
+import '../../css/h/hasvvfb4t.css';
+import '../../css/e/e9chtbc9x.css';
+import '../../css/q/qczwlgfnf.css';
+import '../../css/s/sejl6-bng.css';
+import '../../css/c/cmavsybri.css';
+import '../../css/l/li924lyev.css';
+import '../../css/h/h0-uwfbaz.css';
+import '../../css/z/zhg4j0b6d.css';
+import '../../css/p/pj9kjacqr.css';
+import '../../css/d/d01wzcbkr.css';
+import '../../css/a/a96kl0bgb.css';
+import '../../css/z/z4psme6vq.css';
+import '../../css/o/o6tj68bsy.css';
+import '../../css/w/wa3lvyx4e.css';
+import '../../css/e/e1h93ab1g.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="cuyn6tgcc"><path class="dhs_ddcmf"/><path class="z_3-e1bwy"/><path class="cstns6c6x"/><path class="zbx34070s"/><path class="vxdm3gb_z"/><path class="y4p7wpble"/><path class="pquzu8b-k"/><path class="n0bw2ib9p"/><path class="mmwkmhi4g"/><path class="krsoz-45a"/><path class="u7xlenbwi"/><path class="oy9lvzbjx"/><path class="moekp8q5e"/><path class="utwiqdm_m"/><path class="frzd4mnkd"/><path class="dmzkysbvu"/></g>`;
+const content = `<path class="zxczq7a-x"/><path class="hasvvfb4t"/><path class="e9chtbc9x"/><path class="qczwlgfnf"/><path class="sejl6-bng"/><path class="cmavsybri"/><path class="li924lyev"/><path class="h0-uwfbaz"/><path class="zhg4j0b6d"/><path class="pj9kjacqr"/><path class="d01wzcbkr"/><path class="a96kl0bgb"/><path class="z4psme6vq"/><path class="o6tj68bsy"/><path class="wa3lvyx4e"/><path class="e1h93ab1g"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:paper-bin-bold" /></template>

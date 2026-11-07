@@ -9,11 +9,11 @@ import '../../css/f/frg8avblm.css';
 import '../../css/w/wurlbwzqw.css';
 import '../../css/m/mm4sswb_u.css';
 import '../../css/g/gqr5orb3s.css';
-import '../../css/l/lyebbk3db.css';
+import '../../css/s/syy4zxu2c.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ipq1z-bjh"><path class="gshkn9qqt"/><path class="ud0vn3b7v"/><path class="thq5dxb7d"/><path class="wvjt8gthe"/><path class="frg8avblm"/><path class="wurlbwzqw"/><path class="mm4sswb_u"/><path class="gqr5orb3s"/><path class="lyebbk3db"/></g>`;
+const content = `<g class="ipq1z-bjh"><path class="gshkn9qqt"/><path class="ud0vn3b7v"/><path class="thq5dxb7d"/><path class="wvjt8gthe"/><path class="frg8avblm"/><path class="wurlbwzqw"/><path class="mm4sswb_u"/><path class="gqr5orb3s"/><path class="syy4zxu2c"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:spedometer-max-line-duotone" /></template>

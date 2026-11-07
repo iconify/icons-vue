@@ -1,15 +1,14 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/g/g0zcltbvt.css';
-import '../../css/y/yzfgrg9gk.css';
-import '../../css/w/w4e85xboi.css';
-import '../../css/n/n3upvwb4q.css';
-import '../../css/c/c8eo9-b5b.css';
+import '../../css/e/ei9m3wbhq.css';
+import '../../css/w/wx7l37buh.css';
+import '../../css/k/k2xvqibpd.css';
+import '../../css/v/v7ta-d0-v.css';
+import '../../css/a/a8ksc9wlh.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="cuyn6tgcc"><path clip-rule="evenodd" class="g0zcltbvt"/><path clip-rule="evenodd" class="yzfgrg9gk"/><path clip-rule="evenodd" class="w4e85xboi"/><path clip-rule="evenodd" class="n3upvwb4q"/><path class="c8eo9-b5b"/></g>`;
+const content = `<path clip-rule="evenodd" class="ei9m3wbhq"/><path clip-rule="evenodd" class="wx7l37buh"/><path clip-rule="evenodd" class="k2xvqibpd"/><path clip-rule="evenodd" class="v7ta-d0-v"/><path class="a8ksc9wlh"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:playlist-minimalistic-2-bold" /></template>

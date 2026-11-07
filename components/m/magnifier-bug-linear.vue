@@ -2,12 +2,12 @@
 import { Icon } from '@iconify/css-vue';
 import '../../css/i/ipq1z-bjh.css';
 import '../../css/h/hllyxzboc.css';
-import '../../css/i/ig7l8tpsj.css';
-import '../../css/o/o3o_tvbax.css';
+import '../../css/s/swrlsub8n.css';
+import '../../css/c/c5cjgzbpf.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ipq1z-bjh"><circle class="hllyxzboc"/><path class="ig7l8tpsj"/><path class="o3o_tvbax"/></g>`;
+const content = `<g class="ipq1z-bjh"><circle class="hllyxzboc"/><path class="swrlsub8n"/><path class="c5cjgzbpf"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:magnifier-bug-linear" /></template>

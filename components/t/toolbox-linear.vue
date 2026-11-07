@@ -1,17 +1,17 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/r/rusk8leef.css';
-import '../../css/a/a5xf5pb3m.css';
-import '../../css/r/rekiu1rxd.css';
-import '../../css/v/v0yf5h_mp.css';
-import '../../css/s/st77khbvg.css';
-import '../../css/q/qj5yks32a.css';
-import '../../css/x/x_76f06mb.css';
+import '../../css/j/jx0p4fbya.css';
+import '../../css/x/x9qq19fwj.css';
+import '../../css/o/oy0yg19qw.css';
+import '../../css/n/n09gebbpm.css';
+import '../../css/y/y8zlfsl7g.css';
+import '../../css/m/m49h4_eiq.css';
+import '../../css/j/j61xww1jd.css';
+import '../../css/l/le9iyfafr.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ipq1z-bjh"><rect transform="rotate(-90 2 18.051)" class="rusk8leef"/><path class="a5xf5pb3m"/><path class="rekiu1rxd"/><path class="v0yf5h_mp"/><path class="st77khbvg"/><path class="qj5yks32a"/><path class="x_76f06mb"/></g>`;
+const content = `<g class="jx0p4fbya"><path class="x9qq19fwj"/><path class="oy0yg19qw"/><path class="n09gebbpm"/><path class="y8zlfsl7g"/><path class="m49h4_eiq"/><path class="j61xww1jd"/><path class="le9iyfafr"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:toolbox-linear" /></template>

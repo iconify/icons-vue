@@ -1,19 +1,23 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/s/slw4mgs2i.css';
-import '../../css/n/nic4uncal.css';
-import '../../css/w/w_i_8jbls.css';
-import '../../css/h/h5gugpboa.css';
-import '../../css/v/vmgsjob4k.css';
-import '../../css/b/bqwacwecr.css';
-import '../../css/x/xtlidccog.css';
-import '../../css/a/ayxjnlb7y.css';
-import '../../css/e/ee19phd6f.css';
+import '../../css/n/n1mjunbsu.css';
+import '../../css/h/haz-3mcko.css';
+import '../../css/b/b03uwj2ch.css';
+import '../../css/b/b1tf5k6yo.css';
+import '../../css/p/pr52f_b5y.css';
+import '../../css/b/b20svabfx.css';
+import '../../css/c/ccugfpy9p.css';
+import '../../css/y/y46gdcb6t.css';
+import '../../css/r/ri77a86fh.css';
+import '../../css/q/qkllo9boy.css';
+import '../../css/w/wby0x-bwp.css';
+import '../../css/h/hhomm_r1u.css';
+import '../../css/w/wbmmbrbzd.css';
+import '../../css/p/p_1_0fbck.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ipq1z-bjh"><path class="slw4mgs2i"/><path class="nic4uncal"/><path class="w_i_8jbls"/><path class="h5gugpboa"/><path class="vmgsjob4k"/><path class="bqwacwecr"/><path class="xtlidccog"/><path class="ayxjnlb7y"/><path class="ee19phd6f"/></g>`;
+const content = `<mask id="SVG41cKfNtz" class="n1mjunbsu"><path class="haz-3mcko"/></mask><mask id="SVGltcrZdYS" class="n1mjunbsu"><path class="b03uwj2ch"/></mask><mask id="SVGaSqA9dpb" class="n1mjunbsu"><path class="b1tf5k6yo"/></mask><g class="pr52f_b5y"><path class="b20svabfx"/><path class="ccugfpy9p"/><path class="y46gdcb6t"/><path class="ri77a86fh"/><path class="qkllo9boy"/><path mask="url(#SVG41cKfNtz)" class="wby0x-bwp"/><path mask="url(#SVGltcrZdYS)" class="hhomm_r1u"/><path mask="url(#SVGaSqA9dpb)" class="wbmmbrbzd"/><path class="p_1_0fbck"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:qr-code-broken" /></template>

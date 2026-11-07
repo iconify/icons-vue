@@ -1,15 +1,14 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/h/hlil8_b4l.css';
-import '../../css/g/g46ujrbqb.css';
-import '../../css/m/mc2zb0bvp.css';
+import '../../css/m/mxi8hkb5i.css';
+import '../../css/u/uu0gpbbvf.css';
+import '../../css/x/xtpeb-edw.css';
 import '../../css/y/ynv6fkb2h.css';
 import '../../css/f/fd9mfdh9e.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="cuyn6tgcc"><path class="hlil8_b4l"/><path clip-rule="evenodd" class="g46ujrbqb"/><g class="mc2zb0bvp"><path class="ynv6fkb2h"/><path class="fd9mfdh9e"/></g></g>`;
+const content = `<path class="mxi8hkb5i"/><path clip-rule="evenodd" class="uu0gpbbvf"/><g class="xtpeb-edw"><path class="ynv6fkb2h"/><path class="fd9mfdh9e"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:hiking-bold-duotone" /></template>

@@ -4,13 +4,13 @@ import '../../css/i/ipq1z-bjh.css';
 import '../../css/l/lq7a-_8su.css';
 import '../../css/v/vq44mp76d.css';
 import '../../css/a/a0gtrrbuj.css';
-import '../../css/i/idmd52b7b.css';
+import '../../css/p/pf73k4bai.css';
 import '../../css/g/gqb61cbma.css';
 import '../../css/k/kq_hv7btj.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ipq1z-bjh"><path class="lq7a-_8su"/><path class="vq44mp76d"/><path class="a0gtrrbuj"/><path class="idmd52b7b"/><path class="gqb61cbma"/><path class="kq_hv7btj"/></g>`;
+const content = `<g class="ipq1z-bjh"><path class="lq7a-_8su"/><path class="vq44mp76d"/><path class="a0gtrrbuj"/><path class="pf73k4bai"/><path class="gqb61cbma"/><path class="kq_hv7btj"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:signpost-linear" /></template>

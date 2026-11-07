@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/e/e5nc-lbnd.css';
+import '../../css/j/jksbokb6c.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="e5nc-lbnd"/>`;
+const content = `<path class="jksbokb6c"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:hourglass-broken" /></template>

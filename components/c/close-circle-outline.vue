@@ -1,12 +1,11 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/o/ou-j2zbqy.css';
-import '../../css/s/se_om3jvd.css';
+import '../../css/a/az99_v9tj.css';
+import '../../css/q/q1sggqbkg.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="cuyn6tgcc"><path class="ou-j2zbqy"/><path clip-rule="evenodd" class="se_om3jvd"/></g>`;
+const content = `<path class="az99_v9tj"/><path clip-rule="evenodd" class="q1sggqbkg"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:close-circle-outline" /></template>

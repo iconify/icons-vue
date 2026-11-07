@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/v/vtg44vu4p.css';
+import '../../css/k/kbuco0-ab.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path clip-rule="evenodd" class="vtg44vu4p"/>`;
+const content = `<path clip-rule="evenodd" class="kbuco0-ab"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:hourglass-outline" /></template>

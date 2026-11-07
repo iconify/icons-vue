@@ -1,15 +1,14 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/y/ya_55rppu.css';
-import '../../css/h/h_mo2p59k.css';
-import '../../css/e/e1cdyn4yb.css';
-import '../../css/x/xyj0p73uw.css';
-import '../../css/s/s8qju0q_z.css';
+import '../../css/o/oj6gwrmjs.css';
+import '../../css/e/epxpc5bbp.css';
+import '../../css/n/ng2t0it8x.css';
+import '../../css/f/fmnpkbl0c.css';
+import '../../css/x/x4f46-b2l.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="cuyn6tgcc"><path clip-rule="evenodd" class="ya_55rppu"/><path class="h_mo2p59k"/><path class="e1cdyn4yb"/><path clip-rule="evenodd" class="xyj0p73uw"/><path class="s8qju0q_z"/></g>`;
+const content = `<path clip-rule="evenodd" class="oj6gwrmjs"/><path class="epxpc5bbp"/><path class="ng2t0it8x"/><path clip-rule="evenodd" class="fmnpkbl0c"/><path class="x4f46-b2l"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:file-signal-bold-duotone" /></template>

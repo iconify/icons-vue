@@ -1,13 +1,12 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/r/rhorp5vwr.css';
-import '../../css/d/d6uogubqg.css';
-import '../../css/v/vi49wmb_q.css';
+import '../../css/v/v_i-7bb7z.css';
+import '../../css/o/o3283cgee.css';
+import '../../css/k/kjo9alciz.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="cuyn6tgcc"><path clip-rule="evenodd" class="rhorp5vwr"/><path class="d6uogubqg"/><path class="vi49wmb_q"/></g>`;
+const content = `<path clip-rule="evenodd" class="v_i-7bb7z"/><path class="o3283cgee"/><path class="kjo9alciz"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:magnet-wave-outline" /></template>

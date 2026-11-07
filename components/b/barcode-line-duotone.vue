@@ -1,17 +1,17 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/g/gl7x28b9l.css';
-import '../../css/i/itbq-vz1i.css';
-import '../../css/s/sczblzs9p.css';
-import '../../css/e/e2jap3rke.css';
-import '../../css/t/tgh9kpbtn.css';
-import '../../css/p/p32pdez_m.css';
-import '../../css/s/sudiajdap.css';
+import '../../css/j/jx0p4fbya.css';
+import '../../css/g/gndbq0bkl.css';
+import '../../css/d/dpokkjq8r.css';
+import '../../css/m/mazoy0feo.css';
+import '../../css/c/c9rugwb_d.css';
+import '../../css/n/niumi_b1d.css';
+import '../../css/a/ao3ljbcpb.css';
+import '../../css/z/zh6trjbyz.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ipq1z-bjh"><path class="gl7x28b9l"/><path class="itbq-vz1i"/><path class="sczblzs9p"/><path class="e2jap3rke"/><path class="tgh9kpbtn"/><rect class="p32pdez_m"/><rect class="sudiajdap"/></g>`;
+const content = `<g class="jx0p4fbya"><path class="gndbq0bkl"/><path class="dpokkjq8r"/><path class="mazoy0feo"/><path class="c9rugwb_d"/><path class="niumi_b1d"/><path class="ao3ljbcpb"/><path class="zh6trjbyz"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:barcode-line-duotone" /></template>

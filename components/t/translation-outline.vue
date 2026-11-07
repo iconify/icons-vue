@@ -1,15 +1,14 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/b/bfczqwbld.css';
-import '../../css/b/bpv8bfbck.css';
-import '../../css/s/sgvjp04ko.css';
-import '../../css/s/swpqpacuo.css';
-import '../../css/a/atdmbjg6t.css';
+import '../../css/i/ifo9zfbnz.css';
+import '../../css/z/zhoth9btb.css';
+import '../../css/p/p5qfpwqcv.css';
+import '../../css/z/ztaoll0si.css';
+import '../../css/p/py_-t3bmz.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="cuyn6tgcc"><path class="bfczqwbld"/><path class="bpv8bfbck"/><path class="sgvjp04ko"/><path class="swpqpacuo"/><path clip-rule="evenodd" class="atdmbjg6t"/></g>`;
+const content = `<path class="ifo9zfbnz"/><path class="zhoth9btb"/><path class="p5qfpwqcv"/><path class="ztaoll0si"/><path clip-rule="evenodd" class="py_-t3bmz"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:translation-outline" /></template>

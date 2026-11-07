@@ -1,14 +1,14 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/q/qjyu08bxw.css';
-import '../../css/u/u43fgobpl.css';
-import '../../css/i/ic0b-vbdx.css';
-import '../../css/s/si_mtzbvj.css';
+import '../../css/j/jx0p4fbya.css';
+import '../../css/x/x8w5itp5u.css';
+import '../../css/z/zhaqmra8c.css';
+import '../../css/q/q91v76bet.css';
+import '../../css/g/gdy9g0mwi.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ipq1z-bjh"><path class="qjyu08bxw"/><rect class="u43fgobpl"/><path class="ic0b-vbdx"/><path class="si_mtzbvj"/></g>`;
+const content = `<g class="jx0p4fbya"><path class="x8w5itp5u"/><path class="zhaqmra8c"/><path class="q91v76bet"/><path class="gdy9g0mwi"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:turntable-broken" /></template>

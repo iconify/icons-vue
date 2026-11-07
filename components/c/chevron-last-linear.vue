@@ -1,12 +1,12 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
 import '../../css/i/ipq1z-bjh.css';
-import '../../css/q/qwxqz8-ol.css';
-import '../../css/w/wh8-fejds.css';
+import '../../css/a/au2x9qshz.css';
+import '../../css/p/p4t13zvsx.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ipq1z-bjh"><path class="qwxqz8-ol"/><path class="wh8-fejds"/></g>`;
+const content = `<g class="ipq1z-bjh"><path class="au2x9qshz"/><path class="p4t13zvsx"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:chevron-last-linear" /></template>

@@ -1,16 +1,15 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/b/b0_n_ffrq.css';
-import '../../css/e/e6db-abvh.css';
-import '../../css/g/goz3ixbdu.css';
-import '../../css/c/cf8_f7bal.css';
-import '../../css/d/d99lv5ocs.css';
-import '../../css/r/r3q_9oi-y.css';
+import '../../css/d/d7cgpkozd.css';
+import '../../css/p/phhpx_u6x.css';
+import '../../css/y/ysaow14pl.css';
+import '../../css/d/d7-qycd0c.css';
+import '../../css/v/vk8pb18_w.css';
+import '../../css/v/v3tvhri0i.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="cuyn6tgcc"><path class="b0_n_ffrq"/><path class="e6db-abvh"/><path class="goz3ixbdu"/><path class="cf8_f7bal"/><path class="d99lv5ocs"/><path clip-rule="evenodd" class="r3q_9oi-y"/></g>`;
+const content = `<path class="d7cgpkozd"/><path class="phhpx_u6x"/><path class="ysaow14pl"/><path class="d7-qycd0c"/><path class="vk8pb18_w"/><path clip-rule="evenodd" class="v3tvhri0i"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:facemask-square-bold" /></template>

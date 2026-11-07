@@ -1,16 +1,15 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/r/rwwj8i_iv.css';
-import '../../css/s/swqoqsywp.css';
-import '../../css/c/cwk6upbkl.css';
-import '../../css/v/v_6vo7bnh.css';
-import '../../css/z/ztl3s4zlh.css';
-import '../../css/y/y1y91_bfa.css';
+import '../../css/y/ygb5ynbry.css';
+import '../../css/v/v4qkmnlcy.css';
+import '../../css/a/a-vs3_0vm.css';
+import '../../css/z/zcnczmjty.css';
+import '../../css/z/zh8221lvv.css';
+import '../../css/g/gapgxrbjo.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="cuyn6tgcc"><path class="rwwj8i_iv"/><path class="swqoqsywp"/><path class="cwk6upbkl"/><path class="v_6vo7bnh"/><path class="ztl3s4zlh"/><path class="y1y91_bfa"/></g>`;
+const content = `<path class="ygb5ynbry"/><path class="v4qkmnlcy"/><path class="a-vs3_0vm"/><path class="zcnczmjty"/><path class="zh8221lvv"/><path class="gapgxrbjo"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:share-circle-bold" /></template>

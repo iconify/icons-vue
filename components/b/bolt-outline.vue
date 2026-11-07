@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/p/pllogvzib.css';
+import '../../css/x/xfqtn-rye.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path clip-rule="evenodd" class="pllogvzib"/>`;
+const content = `<path clip-rule="evenodd" class="xfqtn-rye"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:bolt-outline" /></template>

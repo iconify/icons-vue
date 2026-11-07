@@ -1,12 +1,12 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
 import '../../css/i/ipq1z-bjh.css';
-import '../../css/p/pg93yw-1p.css';
-import '../../css/u/upvp15d9x.css';
+import '../../css/k/kfclpjb6w.css';
+import '../../css/k/kvqhqh57h.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ipq1z-bjh"><path class="pg93yw-1p"/><path class="upvp15d9x"/></g>`;
+const content = `<g class="ipq1z-bjh"><path class="kfclpjb6w"/><path class="kvqhqh57h"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:shield-keyhole-minimalistic-broken" /></template>

@@ -2,14 +2,14 @@
 import { Icon } from '@iconify/css-vue';
 import '../../css/i/ipq1z-bjh.css';
 import '../../css/n/nerijcc5y.css';
-import '../../css/g/gqca22zsx.css';
-import '../../css/f/f69dim7yf.css';
-import '../../css/k/k1rt0cbye.css';
-import '../../css/w/wf89k6buf.css';
+import '../../css/f/fsxwe0nbu.css';
+import '../../css/g/girv7pn6s.css';
+import '../../css/n/n-dhbzbjq.css';
+import '../../css/l/lxnzn9nmw.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ipq1z-bjh"><path class="nerijcc5y"/><path class="gqca22zsx"/><path class="f69dim7yf"/><path class="k1rt0cbye"/><path class="wf89k6buf"/></g>`;
+const content = `<g class="ipq1z-bjh"><path class="nerijcc5y"/><path class="fsxwe0nbu"/><path class="girv7pn6s"/><path class="n-dhbzbjq"/><path class="lxnzn9nmw"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:full-screen-square-line-duotone" /></template>

@@ -1,21 +1,20 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/v/v1ud9abse.css';
-import '../../css/f/f9lxuacld.css';
-import '../../css/x/xn9flnors.css';
-import '../../css/n/nzy5-qb1y.css';
-import '../../css/w/wp_fiac_e.css';
-import '../../css/v/v9534qa-q.css';
-import '../../css/y/ywu37h2vl.css';
-import '../../css/c/cp47it0ie.css';
-import '../../css/v/vfvnvdbqi.css';
-import '../../css/a/aqygnhb6c.css';
-import '../../css/n/n4nardbph.css';
+import '../../css/r/r2kojulcs.css';
+import '../../css/z/zq58fob3q.css';
+import '../../css/c/crhe8uk-o.css';
+import '../../css/i/inmzidb8g.css';
+import '../../css/i/iw_llbnvw.css';
+import '../../css/q/q5kqmensf.css';
+import '../../css/i/idvxtzbdf.css';
+import '../../css/w/wg4albb_j.css';
+import '../../css/i/iukn37-2x.css';
+import '../../css/b/b9zln9bwi.css';
+import '../../css/j/jsb7oqdhj.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="cuyn6tgcc"><path class="v1ud9abse"/><path class="f9lxuacld"/><path class="xn9flnors"/><path class="nzy5-qb1y"/><path class="wp_fiac_e"/><path class="v9534qa-q"/><path class="ywu37h2vl"/><path class="cp47it0ie"/><path class="vfvnvdbqi"/><path class="aqygnhb6c"/><path class="n4nardbph"/></g>`;
+const content = `<path class="r2kojulcs"/><path class="zq58fob3q"/><path class="crhe8uk-o"/><path class="inmzidb8g"/><path class="iw_llbnvw"/><path class="q5kqmensf"/><path class="idvxtzbdf"/><path class="wg4albb_j"/><path class="iukn37-2x"/><path class="b9zln9bwi"/><path class="jsb7oqdhj"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:tennis-2-bold-duotone" /></template>

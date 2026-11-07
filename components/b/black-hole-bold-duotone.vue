@@ -1,28 +1,27 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/m/mc2zb0bvp.css';
-import '../../css/e/eqjo3acqv.css';
-import '../../css/w/w5sir-lov.css';
-import '../../css/b/bo43ws-gi.css';
-import '../../css/q/q26nfs1-s.css';
-import '../../css/h/he910eb3h.css';
-import '../../css/o/o7qr-ylwm.css';
-import '../../css/m/m97-ujy3g.css';
-import '../../css/q/qa_qdhl5b.css';
-import '../../css/b/btg2idb7f.css';
-import '../../css/h/hc9q8db1v.css';
-import '../../css/m/mjx67cc3g.css';
-import '../../css/z/zvadxrbsk.css';
-import '../../css/b/bwyp9orqy.css';
-import '../../css/j/jura7bvoh.css';
-import '../../css/x/xmdl-pwxh.css';
-import '../../css/t/tkqabvbbn.css';
-import '../../css/g/g4a1b6b-r.css';
+import '../../css/x/xtpeb-edw.css';
+import '../../css/o/od44wlbcp.css';
+import '../../css/f/fe1czvb6e.css';
+import '../../css/h/hm8ckbclo.css';
+import '../../css/p/poo43ebff.css';
+import '../../css/p/pvti1whab.css';
+import '../../css/u/u3u2yhcuq.css';
+import '../../css/a/asrl8ryfd.css';
+import '../../css/q/q5mixfbav.css';
+import '../../css/k/kb0-xbh_x.css';
+import '../../css/m/m1-meobub.css';
+import '../../css/p/pte5rvzkj.css';
+import '../../css/u/umq9woiqr.css';
+import '../../css/q/q9y43-bcq.css';
+import '../../css/j/j1oc03btd.css';
+import '../../css/c/cmn5_6pnr.css';
+import '../../css/g/gf3tq6bwu.css';
+import '../../css/k/kzg_r58ne.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="cuyn6tgcc"><g class="mc2zb0bvp"><path class="eqjo3acqv"/><path class="w5sir-lov"/><path class="bo43ws-gi"/><path class="q26nfs1-s"/><path class="he910eb3h"/><path class="o7qr-ylwm"/><path class="m97-ujy3g"/><path class="qa_qdhl5b"/><path class="btg2idb7f"/><path class="hc9q8db1v"/><path class="mjx67cc3g"/><path class="zvadxrbsk"/><path class="bwyp9orqy"/><path class="jura7bvoh"/><path class="xmdl-pwxh"/><path class="tkqabvbbn"/></g><path class="g4a1b6b-r"/></g>`;
+const content = `<g class="xtpeb-edw"><path class="od44wlbcp"/><path class="fe1czvb6e"/><path class="hm8ckbclo"/><path class="poo43ebff"/><path class="pvti1whab"/><path class="u3u2yhcuq"/><path class="asrl8ryfd"/><path class="q5mixfbav"/><path class="kb0-xbh_x"/><path class="m1-meobub"/><path class="pte5rvzkj"/><path class="umq9woiqr"/><path class="q9y43-bcq"/><path class="j1oc03btd"/><path class="cmn5_6pnr"/><path class="gf3tq6bwu"/></g><path class="kzg_r58ne"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:black-hole-bold-duotone" /></template>

@@ -9,11 +9,11 @@ import '../../css/r/rsris_b3l.css';
 import '../../css/c/ctg14gobl.css';
 import '../../css/r/romdoeucp.css';
 import '../../css/e/egqyezb9p.css';
-import '../../css/e/ehu0ambnc.css';
+import '../../css/z/zu8q05b8q.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ipq1z-bjh"><path class="gshkn9qqt"/><path class="amgqiybcj"/><path class="w3a7pgbtx"/><path class="m2q7v_gjq"/><path class="rsris_b3l"/><path class="ctg14gobl"/><path class="romdoeucp"/><path class="egqyezb9p"/><path class="ehu0ambnc"/></g>`;
+const content = `<g class="ipq1z-bjh"><path class="gshkn9qqt"/><path class="amgqiybcj"/><path class="w3a7pgbtx"/><path class="m2q7v_gjq"/><path class="rsris_b3l"/><path class="ctg14gobl"/><path class="romdoeucp"/><path class="egqyezb9p"/><path class="zu8q05b8q"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:speedometer-middle-linear" /></template>

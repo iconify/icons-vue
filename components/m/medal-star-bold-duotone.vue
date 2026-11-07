@@ -1,12 +1,11 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/q/qknmikrjj.css';
-import '../../css/c/c5dmlcc2t.css';
+import '../../css/n/nxalaab1z.css';
+import '../../css/y/yxo0gabyg.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="cuyn6tgcc"><path class="qknmikrjj"/><path clip-rule="evenodd" class="c5dmlcc2t"/></g>`;
+const content = `<path class="nxalaab1z"/><path clip-rule="evenodd" class="yxo0gabyg"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:medal-star-bold-duotone" /></template>

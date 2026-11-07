@@ -1,15 +1,14 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/u/uq-v_ab0j.css';
-import '../../css/u/ujc5rsb8q.css';
-import '../../css/w/wotaafb6p.css';
-import '../../css/g/g2lch4bat.css';
-import '../../css/o/o1cpgsbzo.css';
+import '../../css/o/osczg8bol.css';
+import '../../css/b/bnsx8gbka.css';
+import '../../css/y/yb1t-pwor.css';
+import '../../css/o/ogh4q1bay.css';
+import '../../css/s/s6qd-zbqk.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="cuyn6tgcc"><path class="uq-v_ab0j"/><path class="ujc5rsb8q"/><path class="wotaafb6p"/><path class="g2lch4bat"/><path class="o1cpgsbzo"/></g>`;
+const content = `<path class="osczg8bol"/><path class="bnsx8gbka"/><path class="yb1t-pwor"/><path class="ogh4q1bay"/><path class="s6qd-zbqk"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:card-send-bold-duotone" /></template>

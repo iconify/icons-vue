@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/o/onwk3j-1y.css';
+import '../../css/a/at9nt_-im.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="onwk3j-1y"/>`;
+const content = `<path class="at9nt_-im"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:flame-linear" /></template>

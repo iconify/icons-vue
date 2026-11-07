@@ -1,14 +1,13 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/j/j8_h4uwbf.css';
-import '../../css/x/xjd_-uq0c.css';
-import '../../css/t/tikbzcsty.css';
-import '../../css/t/tzokkbt-x.css';
-import '../../css/n/n8q7b3brd.css';
-import '../../css/m/mnsok3bmu.css';
-import '../../css/v/vwn_yejuc.css';
-import '../../css/m/mc2zb0bvp.css';
+import '../../css/f/fxr5dpbys.css';
+import '../../css/f/fi3gw4bla.css';
+import '../../css/b/brn_wjbgv.css';
+import '../../css/k/ked1vub7v.css';
+import '../../css/k/k1pc7ubsu.css';
+import '../../css/o/oso6_mbkb.css';
+import '../../css/f/f3s3xw6_z.css';
+import '../../css/x/xtpeb-edw.css';
 import '../../css/z/zzlswy58s.css';
 import '../../css/z/zpa_x50ke.css';
 import '../../css/k/krl9lmz6q.css';
@@ -18,6 +17,6 @@ import '../../css/m/meuyelbot.css';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="cuyn6tgcc"><path class="j8_h4uwbf"/><path class="xjd_-uq0c"/><path class="tikbzcsty"/><path class="tzokkbt-x"/><path class="n8q7b3brd"/><path class="mnsok3bmu"/><path class="vwn_yejuc"/><g class="mc2zb0bvp"><path class="zzlswy58s"/><path class="zpa_x50ke"/><path class="krl9lmz6q"/><path class="nru0i9aph"/><path class="meuyelbot"/></g></g>`;
+const content = `<path class="fxr5dpbys"/><path class="fi3gw4bla"/><path class="brn_wjbgv"/><path class="ked1vub7v"/><path class="k1pc7ubsu"/><path class="oso6_mbkb"/><path class="f3s3xw6_z"/><g class="xtpeb-edw"><path class="zzlswy58s"/><path class="zpa_x50ke"/><path class="krl9lmz6q"/><path class="nru0i9aph"/><path class="meuyelbot"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:confetti-bold-duotone" /></template>

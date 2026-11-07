@@ -5,11 +5,11 @@ import '../../css/q/qchw1hbjq.css';
 import '../../css/h/hl5jo5b4t.css';
 import '../../css/b/b-v3dtbhs.css';
 import '../../css/f/fc4f7w-7u.css';
-import '../../css/o/ov3tkrbhz.css';
+import '../../css/u/uuq9ojjrl.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ipq1z-bjh"><path class="qchw1hbjq"/><path class="hl5jo5b4t"/><circle class="b-v3dtbhs"/><path class="fc4f7w-7u"/><path class="ov3tkrbhz"/></g>`;
+const content = `<g class="ipq1z-bjh"><path class="qchw1hbjq"/><path class="hl5jo5b4t"/><circle class="b-v3dtbhs"/><path class="fc4f7w-7u"/><path class="uuq9ojjrl"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:turntable-music-note-line-duotone" /></template>

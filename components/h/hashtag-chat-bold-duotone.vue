@@ -1,14 +1,13 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/h/hwcfj9bbi.css';
-import '../../css/m/mc2zb0bvp.css';
-import '../../css/y/y7nc0n54c.css';
-import '../../css/a/ad4rbcc7x.css';
+import '../../css/x/xif453wco.css';
+import '../../css/x/xtpeb-edw.css';
+import '../../css/k/kr91vbc_r.css';
+import '../../css/m/m5v2b9dxe.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="cuyn6tgcc"><path class="hwcfj9bbi"/><g class="mc2zb0bvp"><path class="y7nc0n54c"/><path class="ad4rbcc7x"/></g></g>`;
+const content = `<path class="xif453wco"/><g class="xtpeb-edw"><path class="kr91vbc_r"/><path class="m5v2b9dxe"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:hashtag-chat-bold-duotone" /></template>

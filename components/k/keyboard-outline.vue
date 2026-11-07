@@ -1,21 +1,20 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/g/ggvch73ni.css';
-import '../../css/k/kvddghdzg.css';
-import '../../css/b/bd-jkobbz.css';
-import '../../css/x/x8p3ew2md.css';
-import '../../css/u/ugilmcclh.css';
-import '../../css/x/xiby4z7mg.css';
-import '../../css/p/pb5m6xycn.css';
-import '../../css/i/ii31rsh-b.css';
-import '../../css/t/t5d2n-bua.css';
-import '../../css/k/k8fqv2dye.css';
-import '../../css/j/jxfsezbck.css';
+import '../../css/e/ej089ibwd.css';
+import '../../css/y/yfg442bnd.css';
+import '../../css/n/nkse_k__t.css';
+import '../../css/r/rc0x7kb9f.css';
+import '../../css/o/o8sw_bbzo.css';
+import '../../css/k/kkhl62fff.css';
+import '../../css/j/j0apqq_6t.css';
+import '../../css/c/c_qvoh9zm.css';
+import '../../css/x/xmm5rjb6u.css';
+import '../../css/i/iyc7oevht.css';
+import '../../css/l/lujwekcgq.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="cuyn6tgcc"><path class="ggvch73ni"/><path class="kvddghdzg"/><path class="bd-jkobbz"/><path class="x8p3ew2md"/><path class="ugilmcclh"/><path class="xiby4z7mg"/><path class="pb5m6xycn"/><path class="ii31rsh-b"/><path class="t5d2n-bua"/><path class="k8fqv2dye"/><path clip-rule="evenodd" class="jxfsezbck"/></g>`;
+const content = `<path class="ej089ibwd"/><path class="yfg442bnd"/><path class="nkse_k__t"/><path class="rc0x7kb9f"/><path class="o8sw_bbzo"/><path class="kkhl62fff"/><path class="j0apqq_6t"/><path class="c_qvoh9zm"/><path class="xmm5rjb6u"/><path class="iyc7oevht"/><path clip-rule="evenodd" class="lujwekcgq"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:keyboard-outline" /></template>

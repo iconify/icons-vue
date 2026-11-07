@@ -1,12 +1,12 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
 import '../../css/i/ipq1z-bjh.css';
-import '../../css/d/d0x28ebxk.css';
-import '../../css/v/v21qiwb4s.css';
+import '../../css/d/dehy6rvzp.css';
+import '../../css/w/wojb86weh.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ipq1z-bjh"><path class="d0x28ebxk"/><path class="v21qiwb4s"/></g>`;
+const content = `<g class="ipq1z-bjh"><path class="dehy6rvzp"/><path class="wojb86weh"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:folder-favorite-star-line-duotone" /></template>

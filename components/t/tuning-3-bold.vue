@@ -1,19 +1,18 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/n/n5z0fektl.css';
-import '../../css/q/q1be8nb3b.css';
-import '../../css/d/dvww0vbvl.css';
-import '../../css/q/q2x8-vbyg.css';
-import '../../css/b/bpwz65bac.css';
-import '../../css/j/josze1zip.css';
-import '../../css/c/ci-a5mbap.css';
-import '../../css/v/v9e9gkk2p.css';
-import '../../css/o/oysmehbqf.css';
+import '../../css/z/z5dawvnfq.css';
+import '../../css/u/u_4tr0b8x.css';
+import '../../css/s/slew70bje.css';
+import '../../css/v/vbh340hvr.css';
+import '../../css/c/cmk20--en.css';
+import '../../css/j/jujbhzbmh.css';
+import '../../css/u/u7z3ff_bc.css';
+import '../../css/k/kt4sbrbfu.css';
+import '../../css/u/uiz2a4e0a.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="cuyn6tgcc"><path class="n5z0fektl"/><path class="q1be8nb3b"/><path class="dvww0vbvl"/><path class="q2x8-vbyg"/><path class="bpwz65bac"/><path class="josze1zip"/><path class="ci-a5mbap"/><path class="v9e9gkk2p"/><path class="oysmehbqf"/></g>`;
+const content = `<path class="z5dawvnfq"/><path class="u_4tr0b8x"/><path class="slew70bje"/><path class="vbh340hvr"/><path class="cmk20--en"/><path class="jujbhzbmh"/><path class="u7z3ff_bc"/><path class="kt4sbrbfu"/><path class="uiz2a4e0a"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:tuning-3-bold" /></template>

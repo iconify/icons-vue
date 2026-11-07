@@ -1,7 +1,7 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
 import '../../css/i/ipq1z-bjh.css';
-import '../../css/g/g271g3tax.css';
+import '../../css/k/klim778ja.css';
 import '../../css/u/unjje161g.css';
 import '../../css/k/kpkzq8p6g.css';
 import '../../css/z/zwiw2-bkv.css';
@@ -17,6 +17,6 @@ import '../../css/i/ics6c5abb.css';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ipq1z-bjh"><path class="g271g3tax"/><path class="unjje161g"/><path class="kpkzq8p6g"/><path class="zwiw2-bkv"/><path class="ca53wpbej"/><path class="g3w7qrfpr"/><path class="bkm8bzboi"/><path class="nyj0vvxdk"/><path class="r70kn_d9i"/><path class="km0rz_boi"/><path class="glttn3bpw"/><path class="ics6c5abb"/></g>`;
+const content = `<g class="ipq1z-bjh"><path class="klim778ja"/><path class="unjje161g"/><path class="kpkzq8p6g"/><path class="zwiw2-bkv"/><path class="ca53wpbej"/><path class="g3w7qrfpr"/><path class="bkm8bzboi"/><path class="nyj0vvxdk"/><path class="r70kn_d9i"/><path class="km0rz_boi"/><path class="glttn3bpw"/><path class="ics6c5abb"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:keyboard-linear" /></template>

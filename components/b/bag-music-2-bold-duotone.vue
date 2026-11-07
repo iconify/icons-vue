@@ -1,13 +1,12 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/n/n1aff5b5g.css';
-import '../../css/x/xkooiebbc.css';
-import '../../css/j/jz_4-d7xn.css';
+import '../../css/l/li7-h_b7c.css';
+import '../../css/d/drkgosb6q.css';
+import '../../css/e/eq2j71b9x.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="cuyn6tgcc"><path class="n1aff5b5g"/><path clip-rule="evenodd" class="xkooiebbc"/><path class="jz_4-d7xn"/></g>`;
+const content = `<path class="li7-h_b7c"/><path clip-rule="evenodd" class="drkgosb6q"/><path class="eq2j71b9x"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:bag-music-2-bold-duotone" /></template>

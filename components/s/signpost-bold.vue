@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/k/kbaq1ybrk.css';
+import '../../css/j/jb_o3ebip.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path clip-rule="evenodd" class="kbaq1ybrk"/>`;
+const content = `<path clip-rule="evenodd" class="jb_o3ebip"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:signpost-bold" /></template>

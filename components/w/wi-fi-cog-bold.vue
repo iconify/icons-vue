@@ -1,15 +1,14 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/u/unklte81i.css';
-import '../../css/u/uhqipab8n.css';
-import '../../css/v/v8q09l-bp.css';
-import '../../css/q/q2uz5z3xk.css';
-import '../../css/a/a8i6x4bay.css';
+import '../../css/d/d_medy5gw.css';
+import '../../css/w/wd_9hbcol.css';
+import '../../css/w/woowbybcs.css';
+import '../../css/i/i1ttj7bju.css';
+import '../../css/t/tv1xwfcle.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="cuyn6tgcc"><path class="unklte81i"/><path class="uhqipab8n"/><path class="v8q09l-bp"/><path clip-rule="evenodd" class="q2uz5z3xk"/><path class="a8i6x4bay"/></g>`;
+const content = `<path class="d_medy5gw"/><path class="wd_9hbcol"/><path class="woowbybcs"/><path clip-rule="evenodd" class="i1ttj7bju"/><path class="tv1xwfcle"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:wi-fi-cog-bold" /></template>

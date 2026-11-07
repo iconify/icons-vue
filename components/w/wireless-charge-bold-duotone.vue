@@ -1,13 +1,12 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/p/pptts5n7v.css';
-import '../../css/c/cqkh9kfgu.css';
-import '../../css/l/l5026cbjl.css';
+import '../../css/o/oso782buv.css';
+import '../../css/i/ik4h_zthb.css';
+import '../../css/l/lwh3p0k8o.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="cuyn6tgcc"><path class="pptts5n7v"/><path class="cqkh9kfgu"/><path class="l5026cbjl"/></g>`;
+const content = `<path class="oso782buv"/><path class="ik4h_zthb"/><path class="lwh3p0k8o"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:wireless-charge-bold-duotone" /></template>

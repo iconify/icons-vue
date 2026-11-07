@@ -1,12 +1,12 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
 import '../../css/i/ipq1z-bjh.css';
-import '../../css/y/y8hrvjbyx.css';
-import '../../css/v/v21qiwb4s.css';
+import '../../css/n/ntddo3b1d.css';
+import '../../css/w/wojb86weh.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ipq1z-bjh"><path class="y8hrvjbyx"/><path class="v21qiwb4s"/></g>`;
+const content = `<g class="ipq1z-bjh"><path class="ntddo3b1d"/><path class="wojb86weh"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:folder-favorite-star-linear" /></template>

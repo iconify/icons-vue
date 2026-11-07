@@ -1,14 +1,13 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/i/i5r5wp2qu.css';
-import '../../css/s/s-matgtmc.css';
-import '../../css/x/x4pfyzk4p.css';
-import '../../css/w/w_8fmvbbm.css';
+import '../../css/x/xxodcsbxg.css';
+import '../../css/b/bioritexk.css';
+import '../../css/h/hmpjhub9l.css';
+import '../../css/p/pzmtr-buq.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="cuyn6tgcc"><path class="i5r5wp2qu"/><path class="s-matgtmc"/><path class="x4pfyzk4p"/><path clip-rule="evenodd" class="w_8fmvbbm"/></g>`;
+const content = `<path class="xxodcsbxg"/><path class="bioritexk"/><path class="hmpjhub9l"/><path clip-rule="evenodd" class="pzmtr-buq"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:folder-kanban-outline" /></template>

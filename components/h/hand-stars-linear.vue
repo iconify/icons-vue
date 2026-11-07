@@ -1,15 +1,15 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/x/xwggvq01q.css';
-import '../../css/z/zkkdtubov.css';
-import '../../css/t/twucrwbct.css';
-import '../../css/u/utnhp4bhf.css';
-import '../../css/l/lqpy27syi.css';
+import '../../css/j/jx0p4fbya.css';
+import '../../css/g/g7e2eab1a.css';
+import '../../css/u/u-2m9hbse.css';
+import '../../css/v/vmccjbb6s.css';
+import '../../css/a/a3scpvo1f.css';
+import '../../css/e/eck4ylbag.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ipq1z-bjh"><path class="xwggvq01q"/><path class="zkkdtubov"/><path class="twucrwbct"/><path class="utnhp4bhf"/><rect class="lqpy27syi"/></g>`;
+const content = `<g class="jx0p4fbya"><path class="g7e2eab1a"/><path class="u-2m9hbse"/><path class="vmccjbb6s"/><path class="a3scpvo1f"/><path class="eck4ylbag"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:hand-stars-linear" /></template>

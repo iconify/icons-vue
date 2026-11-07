@@ -1,18 +1,17 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/x/xgvmc9b2p.css';
-import '../../css/g/gl1vkm9xn.css';
-import '../../css/t/t7dq8qe8u.css';
-import '../../css/h/hx39m_y0n.css';
-import '../../css/d/ds_n7vo5u.css';
-import '../../css/s/svsd1w-il.css';
-import '../../css/p/pqr_ddb0p.css';
-import '../../css/p/p6bnc_3nl.css';
+import '../../css/g/gfqp5tbwo.css';
+import '../../css/x/xrehi4b_y.css';
+import '../../css/v/vso2jzryc.css';
+import '../../css/a/aq09g5bdf.css';
+import '../../css/z/zh3otc_5w.css';
+import '../../css/k/kasi_6a0i.css';
+import '../../css/q/qjc6zxxfv.css';
+import '../../css/x/xnvo7yb1b.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="cuyn6tgcc"><path class="xgvmc9b2p"/><path class="gl1vkm9xn"/><path class="t7dq8qe8u"/><path class="hx39m_y0n"/><path class="ds_n7vo5u"/><path class="svsd1w-il"/><path class="pqr_ddb0p"/><path clip-rule="evenodd" class="p6bnc_3nl"/></g>`;
+const content = `<path class="gfqp5tbwo"/><path class="xrehi4b_y"/><path class="vso2jzryc"/><path class="aq09g5bdf"/><path class="zh3otc_5w"/><path class="kasi_6a0i"/><path class="qjc6zxxfv"/><path clip-rule="evenodd" class="xnvo7yb1b"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:adhesive-plaster-outline" /></template>

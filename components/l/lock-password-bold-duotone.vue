@@ -1,15 +1,14 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/f/feuyj31wv.css';
-import '../../css/p/p5pon9bvv.css';
-import '../../css/i/i4k5dgufd.css';
-import '../../css/k/ktxylym0h.css';
-import '../../css/a/ak_e8qmgg.css';
+import '../../css/z/z3dnrk_0v.css';
+import '../../css/b/b6kz81jcw.css';
+import '../../css/l/lt_dvue1n.css';
+import '../../css/w/wuug2ccjk.css';
+import '../../css/t/t2or4horf.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="cuyn6tgcc"><path class="feuyj31wv"/><path class="p5pon9bvv"/><path class="i4k5dgufd"/><path class="ktxylym0h"/><path class="ak_e8qmgg"/></g>`;
+const content = `<path class="z3dnrk_0v"/><path class="b6kz81jcw"/><path class="lt_dvue1n"/><path class="wuug2ccjk"/><path class="t2or4horf"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:lock-password-bold-duotone" /></template>

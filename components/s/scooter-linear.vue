@@ -1,16 +1,16 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/g/g5wt_wbci.css';
-import '../../css/x/xn-b0acce.css';
-import '../../css/q/qnqthcbii.css';
-import '../../css/m/m8rlb1beu.css';
-import '../../css/q/q75k85b7n.css';
-import '../../css/m/me86ccc_a.css';
+import '../../css/j/jx0p4fbya.css';
+import '../../css/b/brb78ubne.css';
+import '../../css/j/jtqkl-bna.css';
+import '../../css/m/mhfqdbcrm.css';
+import '../../css/i/imww9df-s.css';
+import '../../css/i/ijh6inb8v.css';
+import '../../css/f/frhhq-_pl.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ipq1z-bjh"><rect class="g5wt_wbci"/><path class="xn-b0acce"/><path class="qnqthcbii"/><path class="m8rlb1beu"/><path class="q75k85b7n"/><circle class="me86ccc_a"/></g>`;
+const content = `<g class="jx0p4fbya"><path class="brb78ubne"/><path class="jtqkl-bna"/><path class="mhfqdbcrm"/><path class="imww9df-s"/><path class="ijh6inb8v"/><circle class="frhhq-_pl"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:scooter-linear" /></template>

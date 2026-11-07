@@ -1,12 +1,11 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/c/carmwq-6l.css';
-import '../../css/m/mp961hega.css';
+import '../../css/z/zl4lbdb9f.css';
+import '../../css/g/g1x_1bbut.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="cuyn6tgcc"><path class="carmwq-6l"/><path class="mp961hega"/></g>`;
+const content = `<path class="zl4lbdb9f"/><path class="g1x_1bbut"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:logout-outline" /></template>

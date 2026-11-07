@@ -1,24 +1,24 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/t/td_0qgbam.css';
-import '../../css/k/klo9aub1s.css';
-import '../../css/x/xi4fvlbrn.css';
-import '../../css/i/iymhunb9i.css';
-import '../../css/w/wpikw_b2y.css';
-import '../../css/g/gad9c-b8e.css';
-import '../../css/m/mep9v3b_q.css';
-import '../../css/s/s0s129-qq.css';
-import '../../css/m/m3dnyab8i.css';
-import '../../css/h/hmj6bxwfg.css';
-import '../../css/y/y8-2ulbju.css';
-import '../../css/c/cpoxm4-vd.css';
-import '../../css/m/mez379wvu.css';
-import '../../css/c/c4ykrj2ou.css';
+import '../../css/j/jx0p4fbya.css';
+import '../../css/o/oi2w5wbnm.css';
+import '../../css/i/i9yj4w9ut.css';
+import '../../css/e/ek9io6nwp.css';
+import '../../css/l/l1jaee8aw.css';
+import '../../css/q/qzbe3svaa.css';
+import '../../css/a/aqu4tlbfi.css';
+import '../../css/b/bjodqe8lf.css';
+import '../../css/m/m4s68xb5w.css';
+import '../../css/o/o1mpawv4s.css';
+import '../../css/l/ltujox3iu.css';
+import '../../css/i/ika2gh47a.css';
+import '../../css/q/qxfolmb4f.css';
+import '../../css/r/rrjx2kb3q.css';
+import '../../css/x/xa8zdlt7y.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ipq1z-bjh"><path class="td_0qgbam"/><path class="klo9aub1s"/><path class="xi4fvlbrn"/><path class="iymhunb9i"/><path class="wpikw_b2y"/><path class="gad9c-b8e"/><path class="mep9v3b_q"/><path class="s0s129-qq"/><path class="m3dnyab8i"/><path class="hmj6bxwfg"/><rect class="y8-2ulbju"/><rect class="cpoxm4-vd"/><rect class="mez379wvu"/><rect class="c4ykrj2ou"/></g>`;
+const content = `<g class="jx0p4fbya"><path class="oi2w5wbnm"/><path class="i9yj4w9ut"/><path class="ek9io6nwp"/><path class="l1jaee8aw"/><path class="qzbe3svaa"/><path class="aqu4tlbfi"/><path class="bjodqe8lf"/><path class="m4s68xb5w"/><path class="o1mpawv4s"/><path class="ltujox3iu"/><path class="ika2gh47a"/><path class="qxfolmb4f"/><path class="rrjx2kb3q"/><path class="xa8zdlt7y"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:barcode-broken" /></template>

@@ -12,13 +12,13 @@ import '../../css/r/rt6vrtimr.css';
 import '../../css/r/r2esonbhs.css';
 import '../../css/x/xoe9r9bui.css';
 import '../../css/l/lxdf-tbmp.css';
-import '../../css/i/ilkfp8bfk.css';
-import '../../css/o/o_062cbry.css';
-import '../../css/y/yz2tlliej.css';
+import '../../css/s/suhy-dbax.css';
+import '../../css/c/cchpq1djo.css';
+import '../../css/o/oyv2qxbiz.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ipq1z-bjh"><path class="xpzbxokqs"/><path class="z-dxw3bya"/><path class="x-21zwayg"/><path class="zrnmzybnf"/><path class="n7r5ojbow"/><path class="e2mod1bzc"/><path class="ezpcs5bst"/><path class="rt6vrtimr"/><path class="r2esonbhs"/><path class="xoe9r9bui"/><circle class="lxdf-tbmp"/><path class="ilkfp8bfk"/><path class="o_062cbry"/><path class="yz2tlliej"/></g>`;
+const content = `<g class="ipq1z-bjh"><path class="xpzbxokqs"/><path class="z-dxw3bya"/><path class="x-21zwayg"/><path class="zrnmzybnf"/><path class="n7r5ojbow"/><path class="e2mod1bzc"/><path class="ezpcs5bst"/><path class="rt6vrtimr"/><path class="r2esonbhs"/><path class="xoe9r9bui"/><circle class="lxdf-tbmp"/><path class="suhy-dbax"/><path class="cchpq1djo"/><path class="oyv2qxbiz"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:buildings-3-broken" /></template>

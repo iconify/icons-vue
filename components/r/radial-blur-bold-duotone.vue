@@ -1,23 +1,22 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/d/doy9q4b5f.css';
-import '../../css/t/ti85y7bnd.css';
-import '../../css/z/zyi4k67om.css';
-import '../../css/a/ac020nb8v.css';
-import '../../css/t/twrvg-b6l.css';
-import '../../css/s/samiswbnn.css';
-import '../../css/y/yrz3whyih.css';
-import '../../css/n/n7iwpl0sw.css';
-import '../../css/n/n78t69wwd.css';
-import '../../css/c/ce1ry_xso.css';
-import '../../css/c/c_ub1jb5f.css';
-import '../../css/i/iqvwadjnc.css';
-import '../../css/i/ivrc8el1z.css';
+import '../../css/h/hrxlgg64z.css';
+import '../../css/b/bd6rgn7gz.css';
+import '../../css/p/ps_lehzea.css';
+import '../../css/u/uphz68ahd.css';
+import '../../css/q/q51124gsc.css';
+import '../../css/b/bckzjvbnt.css';
+import '../../css/q/qofd5jbqg.css';
+import '../../css/p/pp2za2bxu.css';
+import '../../css/n/nvh0vzw2o.css';
+import '../../css/k/koabnub0u.css';
+import '../../css/d/dj_mp10gm.css';
+import '../../css/c/caayajbxq.css';
+import '../../css/d/dbrcsmbgk.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="cuyn6tgcc"><circle class="doy9q4b5f"/><path class="ti85y7bnd"/><path class="zyi4k67om"/><path class="ac020nb8v"/><path class="twrvg-b6l"/><path class="samiswbnn"/><path class="yrz3whyih"/><path class="n7iwpl0sw"/><path class="n78t69wwd"/><path class="ce1ry_xso"/><path class="c_ub1jb5f"/><path class="iqvwadjnc"/><path class="ivrc8el1z"/></g>`;
+const content = `<circle class="hrxlgg64z"/><path class="bd6rgn7gz"/><path class="ps_lehzea"/><path class="uphz68ahd"/><path class="q51124gsc"/><path class="bckzjvbnt"/><path class="qofd5jbqg"/><path class="pp2za2bxu"/><path class="nvh0vzw2o"/><path class="koabnub0u"/><path class="dj_mp10gm"/><path class="caayajbxq"/><path class="dbrcsmbgk"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:radial-blur-bold-duotone" /></template>

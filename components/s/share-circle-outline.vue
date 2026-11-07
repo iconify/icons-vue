@@ -1,16 +1,15 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/i/ijf_15bzi.css';
-import '../../css/h/h1ebgedph.css';
-import '../../css/h/hy8n1bbgx.css';
-import '../../css/v/v_6vo7bnh.css';
-import '../../css/z/ztl3s4zlh.css';
-import '../../css/y/y1y91_bfa.css';
+import '../../css/c/cci9ae_nq.css';
+import '../../css/o/oexqymb-g.css';
+import '../../css/l/lkh3vr24w.css';
+import '../../css/z/zcnczmjty.css';
+import '../../css/z/zh8221lvv.css';
+import '../../css/g/gapgxrbjo.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="cuyn6tgcc"><path clip-rule="evenodd" class="ijf_15bzi"/><path clip-rule="evenodd" class="h1ebgedph"/><path clip-rule="evenodd" class="hy8n1bbgx"/><path class="v_6vo7bnh"/><path class="ztl3s4zlh"/><path class="y1y91_bfa"/></g>`;
+const content = `<path clip-rule="evenodd" class="cci9ae_nq"/><path clip-rule="evenodd" class="oexqymb-g"/><path clip-rule="evenodd" class="lkh3vr24w"/><path class="zcnczmjty"/><path class="zh8221lvv"/><path class="gapgxrbjo"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:share-circle-outline" /></template>

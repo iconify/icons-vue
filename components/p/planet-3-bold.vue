@@ -1,15 +1,14 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/y/ywy9jdbir.css';
-import '../../css/c/c-0ybgixq.css';
-import '../../css/z/zve57hbkp.css';
-import '../../css/v/vhkp1kw7y.css';
-import '../../css/h/hyakthbmd.css';
+import '../../css/i/iz6ignj0u.css';
+import '../../css/g/g-bzx0b-k.css';
+import '../../css/z/z1svy0bqv.css';
+import '../../css/n/nwuzx5b5m.css';
+import '../../css/f/fcfk7zbak.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="cuyn6tgcc"><path class="ywy9jdbir"/><path class="c-0ybgixq"/><path class="zve57hbkp"/><path class="vhkp1kw7y"/><path class="hyakthbmd"/></g>`;
+const content = `<path class="iz6ignj0u"/><path class="g-bzx0b-k"/><path class="z1svy0bqv"/><path class="nwuzx5b5m"/><path class="fcfk7zbak"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:planet-3-bold" /></template>

@@ -1,15 +1,14 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/h/hqw2fiswd.css';
-import '../../css/b/bk_m9d1nh.css';
-import '../../css/r/rf1nadbwu.css';
-import '../../css/f/fcnkvi4op.css';
-import '../../css/w/wc2kzlbjd.css';
+import '../../css/k/k90b1n3tg.css';
+import '../../css/d/djha1e-kq.css';
+import '../../css/m/mfnnv9grh.css';
+import '../../css/t/thw7pvbec.css';
+import '../../css/f/ftoixesmy.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="cuyn6tgcc"><path clip-rule="evenodd" class="hqw2fiswd"/><path clip-rule="evenodd" class="bk_m9d1nh"/><path class="rf1nadbwu"/><path class="fcnkvi4op"/><path class="wc2kzlbjd"/></g>`;
+const content = `<path clip-rule="evenodd" class="k90b1n3tg"/><path clip-rule="evenodd" class="djha1e-kq"/><path class="mfnnv9grh"/><path class="thw7pvbec"/><path class="ftoixesmy"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:rounded-magnifier-bug-bold" /></template>

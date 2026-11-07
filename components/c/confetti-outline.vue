@@ -1,20 +1,19 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/f/f-t2gsbhf.css';
-import '../../css/w/wjvn9h2rq.css';
-import '../../css/t/tfn9w1bbj.css';
-import '../../css/f/fzqk5tyvy.css';
-import '../../css/v/vzmn38bjp.css';
-import '../../css/d/dzek_n8ws.css';
-import '../../css/k/k43dffb8y.css';
-import '../../css/k/kbd9wr6_g.css';
-import '../../css/y/ybry51b0x.css';
-import '../../css/r/r8i7sbb3c.css';
+import '../../css/z/zxi4-ruxv.css';
+import '../../css/q/q7dujvbtm.css';
+import '../../css/w/wxegmmbzz.css';
+import '../../css/s/sn1l0tgmb.css';
+import '../../css/c/c1docnbym.css';
+import '../../css/f/f4ujapbxr.css';
+import '../../css/q/qlx42abpe.css';
+import '../../css/u/ucsdg5b0o.css';
+import '../../css/o/o7vl3fe5r.css';
+import '../../css/a/annxrbcfa.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="cuyn6tgcc"><path clip-rule="evenodd" class="f-t2gsbhf"/><path class="wjvn9h2rq"/><path class="tfn9w1bbj"/><path class="fzqk5tyvy"/><path clip-rule="evenodd" class="vzmn38bjp"/><path class="dzek_n8ws"/><path class="k43dffb8y"/><path class="kbd9wr6_g"/><path class="ybry51b0x"/><path clip-rule="evenodd" class="r8i7sbb3c"/></g>`;
+const content = `<path clip-rule="evenodd" class="zxi4-ruxv"/><path class="q7dujvbtm"/><path class="wxegmmbzz"/><path class="sn1l0tgmb"/><path clip-rule="evenodd" class="c1docnbym"/><path class="f4ujapbxr"/><path class="qlx42abpe"/><path class="ucsdg5b0o"/><path class="o7vl3fe5r"/><path clip-rule="evenodd" class="annxrbcfa"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:confetti-outline" /></template>

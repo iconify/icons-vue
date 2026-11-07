@@ -2,11 +2,11 @@
 import { Icon } from '@iconify/css-vue';
 import '../../css/i/ipq1z-bjh.css';
 import '../../css/x/x09loybdy.css';
-import '../../css/o/o3o_tvbax.css';
+import '../../css/c/c5cjgzbpf.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ipq1z-bjh"><path class="x09loybdy"/><path class="o3o_tvbax"/></g>`;
+const content = `<g class="ipq1z-bjh"><path class="x09loybdy"/><path class="c5cjgzbpf"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:magnifier-broken" /></template>

@@ -1,14 +1,13 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/x/x2cr9mcky.css';
-import '../../css/u/u96ejzb5d.css';
-import '../../css/z/ztcxm8u1m.css';
-import '../../css/g/goumxdp6n.css';
+import '../../css/e/efadb7byl.css';
+import '../../css/l/lspzmtb7m.css';
+import '../../css/e/equ__7k7z.css';
+import '../../css/d/dw38h4bdg.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="cuyn6tgcc"><path clip-rule="evenodd" class="x2cr9mcky"/><path class="u96ejzb5d"/><path class="ztcxm8u1m"/><path class="goumxdp6n"/></g>`;
+const content = `<path clip-rule="evenodd" class="efadb7byl"/><path class="lspzmtb7m"/><path class="equ__7k7z"/><path class="dw38h4bdg"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:microphone-large-bold-duotone" /></template>

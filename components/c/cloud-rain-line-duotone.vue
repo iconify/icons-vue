@@ -1,7 +1,7 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
 import '../../css/i/ipq1z-bjh.css';
-import '../../css/t/ty35h9b_q.css';
+import '../../css/j/jgx204b2g.css';
 import '../../css/v/vbgcwqb6e.css';
 import '../../css/b/bi7mdqb8a.css';
 import '../../css/t/tkzm_abvq.css';
@@ -11,6 +11,6 @@ import '../../css/n/nja6m3bms.css';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ipq1z-bjh"><path class="ty35h9b_q"/><path class="vbgcwqb6e"/><path class="bi7mdqb8a"/><path class="tkzm_abvq"/><path class="to23gco_r"/><path class="nja6m3bms"/></g>`;
+const content = `<g class="ipq1z-bjh"><path class="jgx204b2g"/><path class="vbgcwqb6e"/><path class="bi7mdqb8a"/><path class="tkzm_abvq"/><path class="to23gco_r"/><path class="nja6m3bms"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:cloud-rain-line-duotone" /></template>

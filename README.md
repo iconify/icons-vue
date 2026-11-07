@@ -1,6 +1,5 @@
 # @iconify-vue/solar
 
-⚠️ This is an alternative repository. Main repository has moved to [GitLab](https://gitlab.com/iconify-icons/vue/-/tree/solar).
 **Solar**
 
 Author: [480 Design](https://www.figma.com/community/file/1166831539721848736)

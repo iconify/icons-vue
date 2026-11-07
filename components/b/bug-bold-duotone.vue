@@ -1,22 +1,21 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/m/mc2zb0bvp.css';
+import '../../css/x/xtpeb-edw.css';
 import '../../css/q/q85peb-rs.css';
 import '../../css/c/cjbduho9g.css';
 import '../../css/f/ft9lp-bms.css';
-import '../../css/j/j3k0e2b_m.css';
-import '../../css/c/c6as7_bgh.css';
-import '../../css/q/qa-vgpgyb.css';
-import '../../css/p/pw7tw2b7f.css';
-import '../../css/z/zg1ex0a0t.css';
-import '../../css/t/t5w-d-qek.css';
-import '../../css/c/czg4pjbua.css';
-import '../../css/x/xl8gls3nc.css';
+import '../../css/o/oty5bjbvj.css';
+import '../../css/u/uj2pcr__k.css';
+import '../../css/i/io8mh_bqx.css';
+import '../../css/v/vnrj8_b1s.css';
+import '../../css/f/f-raphb2f.css';
+import '../../css/v/vaut3actq.css';
+import '../../css/w/wfbeg6boz.css';
+import '../../css/p/px7o3acqk.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="cuyn6tgcc"><g class="mc2zb0bvp"><path class="q85peb-rs"/><path class="cjbduho9g"/><path class="ft9lp-bms"/></g><path class="j3k0e2b_m"/><path class="c6as7_bgh"/><path class="qa-vgpgyb"/><path class="pw7tw2b7f"/><path class="zg1ex0a0t"/><path class="t5w-d-qek"/><path class="czg4pjbua"/><path class="xl8gls3nc"/></g>`;
+const content = `<g class="xtpeb-edw"><path class="q85peb-rs"/><path class="cjbduho9g"/><path class="ft9lp-bms"/></g><path class="oty5bjbvj"/><path class="uj2pcr__k"/><path class="io8mh_bqx"/><path class="vnrj8_b1s"/><path class="f-raphb2f"/><path class="vaut3actq"/><path class="wfbeg6boz"/><path class="px7o3acqk"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:bug-bold-duotone" /></template>

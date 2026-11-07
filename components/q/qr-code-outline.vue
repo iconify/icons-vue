@@ -1,21 +1,20 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/h/hrv8s2beo.css';
-import '../../css/a/a8l5v8b1y.css';
-import '../../css/i/ieobwwzcw.css';
-import '../../css/t/tinch_b_x.css';
-import '../../css/a/a4z9-yupp.css';
-import '../../css/s/so8ia5b1e.css';
-import '../../css/d/d3khzf4we.css';
-import '../../css/h/hdo4qub6g.css';
-import '../../css/q/qi95tvjcz.css';
-import '../../css/b/bxuw6bf5i.css';
-import '../../css/b/bzc4svvuj.css';
+import '../../css/y/yb66-999x.css';
+import '../../css/a/a5o08hanx.css';
+import '../../css/u/u9oflkbpf.css';
+import '../../css/m/mk_mhcczr.css';
+import '../../css/v/vhfkjmeoa.css';
+import '../../css/i/ili303k2t.css';
+import '../../css/x/x6nytcb_c.css';
+import '../../css/j/j207o1bfp.css';
+import '../../css/m/m55ifrb-z.css';
+import '../../css/s/sim0n0bur.css';
+import '../../css/k/k620o1baq.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="cuyn6tgcc"><path class="hrv8s2beo"/><path clip-rule="evenodd" class="a8l5v8b1y"/><path class="ieobwwzcw"/><path clip-rule="evenodd" class="tinch_b_x"/><path class="a4z9-yupp"/><path clip-rule="evenodd" class="so8ia5b1e"/><path class="d3khzf4we"/><path class="hdo4qub6g"/><path class="qi95tvjcz"/><path class="bxuw6bf5i"/><path class="bzc4svvuj"/></g>`;
+const content = `<path class="yb66-999x"/><path clip-rule="evenodd" class="a5o08hanx"/><path class="u9oflkbpf"/><path clip-rule="evenodd" class="mk_mhcczr"/><path class="vhfkjmeoa"/><path clip-rule="evenodd" class="ili303k2t"/><path class="x6nytcb_c"/><path class="j207o1bfp"/><path class="m55ifrb-z"/><path class="sim0n0bur"/><path class="k620o1baq"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:qr-code-outline" /></template>

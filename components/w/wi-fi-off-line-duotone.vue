@@ -8,11 +8,11 @@ import '../../css/a/axlwdg30m.css';
 import '../../css/z/zocpetdxz.css';
 import '../../css/x/x4x8t_s-n.css';
 import '../../css/y/yzgz32bhq.css';
-import '../../css/z/zkyjh5bzp.css';
+import '../../css/b/bari53b2u.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ipq1z-bjh"><path class="rsrhfac5n"/><path class="xy8vo0b-r"/><path class="xr6hxtsid"/><path class="axlwdg30m"/><path class="zocpetdxz"/><path class="x4x8t_s-n"/><path class="yzgz32bhq"/><path class="zkyjh5bzp"/></g>`;
+const content = `<g class="ipq1z-bjh"><path class="rsrhfac5n"/><path class="xy8vo0b-r"/><path class="xr6hxtsid"/><path class="axlwdg30m"/><path class="zocpetdxz"/><path class="x4x8t_s-n"/><path class="yzgz32bhq"/><path class="bari53b2u"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:wi-fi-off-line-duotone" /></template>

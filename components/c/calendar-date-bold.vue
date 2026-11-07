@@ -1,12 +1,11 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/s/s8zvn4tvb.css';
-import '../../css/w/wuk2klb_e.css';
+import '../../css/e/e_29zdb8m.css';
+import '../../css/o/o_-k6sb8v.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="cuyn6tgcc"><path class="s8zvn4tvb"/><path clip-rule="evenodd" class="wuk2klb_e"/></g>`;
+const content = `<path class="e_29zdb8m"/><path clip-rule="evenodd" class="o_-k6sb8v"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:calendar-date-bold" /></template>

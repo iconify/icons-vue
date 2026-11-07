@@ -4,12 +4,12 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="cuyn6tgcc"><path class="lhrhq1bxr"/><path class="c5w82abfj"/></g>`;
+const content = `<g class="cuyn6tgcc"><path class="lhrhq1bxr"/><path class="ajazqupgq"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:mail-bulk" /></template>
 <style>
-.c5w82abfj {
-  d: path("M8.707 9.293C9.02 9.605 9.532 10 10 10h4c.468 0 .98-.395 1.293-.707l4-4a.999.999 0 1 1 1.414 1.414l-4 4C15.992 11.422 15.039 12 14 12h-4c-1.039 0-1.992-.578-2.707-1.293l-4-4a.999.999 0 1 1 1.414-1.414Z");
+.ajazqupgq {
+  d: path("m4.293 4.879l4.414 4.414c.315.315.825.707 1.293.707h4c.468 0 .976-.39 1.293-.707l4.414-4.414a.999.999 0 1 1 1.414 1.414l-4.414 4.414C15.991 11.423 15.039 12 14 12h-4c-1.039 0-1.991-.577-2.707-1.293L2.879 6.293a.999.999 0 1 1 1.414-1.414");
 }
 
 .cuyn6tgcc {

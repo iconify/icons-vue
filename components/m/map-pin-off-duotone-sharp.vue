@@ -4,26 +4,26 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="hde0-jbzg"/><path class="q_dh2x6if"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="ec2cnjd3y"/><path class="ztc14ryxt"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:map-pin-off-duotone-sharp" /></template>
 <style>
+.ec2cnjd3y {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
+  d: path("M10.227 3.227A7 7 0 0 1 19 10q0 .92-.177 1.823Zm6.809 12.809C15.729 18.007 13.963 19.69 12 21c-3-2-7-6-7-11a6.98 6.98 0 0 1 1.575-4.425Z");
+}
+
 .ft5dv1b6b {
   fill: none;
 }
 
-.hde0-jbzg {
-  fill: currentColor;
-  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M8.963 19.876c-1.802-1.661-3.349-3.669-4.226-5.974A10.9 10.9 0 0 1 4 10a7.98 7.98 0 0 1 2.343-5.657A7.98 7.98 0 0 1 12 2a7.98 7.98 0 0 1 5.657 2.343A7.98 7.98 0 0 1 20 10c-.001 3.878-2.192 7.322-4.963 9.876a20 20 0 0 1-2.482 1.956a1 1 0 0 1-1.11 0a20 20 0 0 1-2.482-1.956");
-}
-
-.q_dh2x6if {
+.ztc14ryxt {
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-width: var(--svg-stroke-width--2px, 2px);
-  d: path("M17 16c-1.424 2.15-3.346 3.897-5 5c-3-2-7-6-7-11c0-1.678 1.015-2.794 2-4m3-3c.566-.148 1.387 0 2 0a7 7 0 0 1 7 7c0 .624.115 1.41 0 2M3 2l19 19");
+  d: path("M17.036 16.036C15.612 18.186 13.654 19.897 12 21c-3-2-7-6-7-11c0-1.678.59-3.219 1.575-4.425m3.652-2.348A7 7 0 0 1 19 10c0 .624-.062 1.232-.177 1.823M3 2l19 19");
 }
 
 </style>

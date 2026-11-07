@@ -4,17 +4,17 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="cuyn6tgcc"><path class="cz-cmrblz"/><path class="s6450lbyw"/></g>`;
+const content = `<g class="cuyn6tgcc"><path class="b1_czr4ag"/><path class="s6450lbyw"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:phone-off-bulk" /></template>
 <style>
-.cuyn6tgcc {
-  fill: currentColor;
+.b1_czr4ag {
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("m11.207 12.793l-4.228 4.228a16.9 16.9 0 0 1-3.643-5.404A16.8 16.8 0 0 1 2 5c0-.797.314-1.558.879-2.121A3 3 0 0 1 5 2h3c.601 0 1.205.111 1.746.382c.543.271 1.007.716 1.203 1.302l1 3c.366 1.101-.505 2.286-1.242 3.023l-1 1a.414.414 0 0 0 0 .586Zm-1.2 5.443l6.182-6.183c.368-.106.761-.124 1.127-.002l3 1c.586.196 1.031.66 1.302 1.203c.271.541.382 1.145.382 1.746v3c0 .797-.314 1.558-.879 2.121A3 3 0 0 1 19 22a16.8 16.8 0 0 1-6.617-1.336a17 17 0 0 1-3.097-1.707Z");
 }
 
-.cz-cmrblz {
-  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
-  d: path("m11.947 7.811l-6.904 6.903a17 17 0 0 1-1.707-3.097A16.8 16.8 0 0 1 2 5c0-.797.314-1.558.879-2.121A3 3 0 0 1 5 2h3c.601 0 1.205.111 1.746.382c.543.271 1.007.716 1.203 1.302l1 3c.122.366.104.759-.002 1.127m-4.968 9.21l4.228-4.228l1.5 1.5a.414.414 0 0 0 .586 0l1-1c.737-.737 1.922-1.608 3.023-1.242l3 1c.586.196 1.031.66 1.302 1.203c.271.541.382 1.145.382 1.746v3c0 .797-.314 1.558-.879 2.121A3 3 0 0 1 19 22a16.8 16.8 0 0 1-6.617-1.336a16.9 16.9 0 0 1-5.404-3.643");
+.cuyn6tgcc {
+  fill: currentColor;
 }
 
 .s6450lbyw {

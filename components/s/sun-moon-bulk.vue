@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="cuyn6tgcc"><path class="ojsfkpbfl"/><path class="yjowrxb7j"/></g>`;
+const content = `<g class="cuyn6tgcc"><path class="ha1s-wbsq"/><path class="yjowrxb7j"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:sun-moon-bulk" /></template>
 <style>
@@ -12,9 +12,9 @@ const content = `<g class="cuyn6tgcc"><path class="ojsfkpbfl"/><path class="yjow
   fill: currentColor;
 }
 
-.ojsfkpbfl {
+.ha1s-wbsq {
   fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
-  d: path("M16 15a7 7 0 1 1-14 0c0-1.862.731-3.636 2.05-4.95a6.9 6.9 0 0 1 2.225-1.499A6.9 6.9 0 0 1 9 8a1 1 0 0 1 .781 1.625a3.267 3.267 0 0 0 3.621 5.131c.353-.121.682-.303.973-.537A1 1 0 0 1 16 15");
+  d: path("M16 15a7 7 0 1 1-14 0c0-1.862.731-3.636 2.05-4.95a6.9 6.9 0 0 1 2.225-1.499A6.9 6.9 0 0 1 9 8a1 1 0 0 1 .625 1.781a3.265 3.265 0 0 0 0 5.105a3.27 3.27 0 0 0 4.594-.511A1.002 1.002 0 0 1 16 15");
 }
 
 .yjowrxb7j {

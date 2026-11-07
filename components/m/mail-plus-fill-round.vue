@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="gtqxhsrlc"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:mail-plus-fill-round" /></template>
+<style>
+.gtqxhsrlc {
+  fill: currentColor;
+  d: path("M19 9a1 1 0 0 1-2 0V7h-2a1 1 0 0 1 0-2h2V3a1 1 0 0 1 2 0v2h2a1 1 0 0 1 0 2h-2Zm-5.568 1H10c-.749 0-1.737-.152-2.293-.707l-4.03-4.03A4.98 4.98 0 0 1 7 4h4a.998.998 0 0 1 .99 1.141a6 6 0 0 0 .25 2.779A6 6 0 0 0 13.432 10M2.469 6.883l3.824 3.824C7.252 11.665 8.683 12 10 12h4c.607 0 1.215-.069 1.8-.233c.955.458 2.018.727 3.081.689a4.8 4.8 0 0 0 1.725-.375A.997.997 0 0 1 22 13v2a5 5 0 0 1-1.464 3.536A5 5 0 0 1 17 20H7a5 5 0 0 1-5-5V9c0-.733.158-1.453.469-2.117");
+}
+
+</style>

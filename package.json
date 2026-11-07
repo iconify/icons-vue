@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/carbon",
   "type": "module",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "homepage": "https://icon-sets.iconify.design/carbon/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "Apache-2.0",
@@ -854,6 +854,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/bluetooth-off.vue"
     },
+    "./bobcoin": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bobcoin.vue"
+    },
+    "./bobcoin-consumption": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bobcoin-consumption.vue"
+    },
     "./book": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/book.vue"
@@ -1137,6 +1145,10 @@
     "./cafe": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/cafe.vue"
+    },
+    "./cafe-alt": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cafe-alt.vue"
     },
     "./calculation": {
       "types": "./types/dd0bq22g.d.ts",
@@ -5002,6 +5014,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/i/ibm-i.vue"
     },
+    "./ibm-i-alt": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/ibm-i-alt.vue"
+    },
     "./ibm-ibv": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/i/ibm-ibv.vue"
@@ -5349,6 +5365,10 @@
     "./ibm-z-processor-capacity-reference": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/i/ibm-z-processor-capacity-reference.vue"
+    },
+    "./ibm-z17": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/ibm-z17.vue"
     },
     "./ica-2d": {
       "types": "./types/dd0bq22g.d.ts",
@@ -8761,6 +8781,10 @@
     "./shield-alert": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/shield-alert.vue"
+    },
+    "./shield-infinity": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/shield-infinity.vue"
     },
     "./shipment-delivery": {
       "types": "./types/dd0bq22g.d.ts",

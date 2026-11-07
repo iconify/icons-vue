@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/lucide",
   "type": "module",
-  "version": "1.0.85",
+  "version": "1.0.86",
   "homepage": "https://icon-sets.iconify.design/lucide/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "ISC",
@@ -1729,6 +1729,10 @@
     "./circle-fading-arrow-up": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/circle-fading-arrow-up.vue"
+    },
+    "./circle-fading-check": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/circle-fading-check.vue"
     },
     "./circle-fading-play": {
       "types": "./types/dd0bq22g.d.ts",
@@ -3690,6 +3694,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/grid-3x3.vue"
     },
+    "./grid-3x3-off": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/grid-3x3-off.vue"
+    },
     "./grip": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/grip.vue"
@@ -5126,6 +5134,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/mop-sparkles.vue"
     },
+    "./moped": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/moped.vue"
+    },
     "./mosque": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/mosque.vue"
@@ -5354,6 +5366,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/o/omega.vue"
     },
+    "./opacity": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/opacity.vue"
+    },
     "./option": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/o/option.vue"
@@ -5386,9 +5402,17 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/package-open.vue"
     },
+    "./package-pen": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/package-pen.vue"
+    },
     "./package-plus": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/package-plus.vue"
+    },
+    "./package-question-mark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/package-question-mark.vue"
     },
     "./package-search": {
       "types": "./types/dd0bq22g.d.ts",
@@ -6886,6 +6910,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/square-dashed-plus.vue"
     },
+    "./square-dashed-search": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/square-dashed-search.vue"
+    },
     "./square-dashed-text": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/square-dashed-text.vue"
@@ -7926,6 +7954,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/u/user-cog.vue"
     },
+    "./user-exclamation-point": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/user-exclamation-point.vue"
+    },
     "./user-group": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/u/user-group.vue"
@@ -7965,6 +7997,10 @@
     "./user-round-cog": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/u/user-round-cog.vue"
+    },
+    "./user-round-exclamation-point": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/user-round-exclamation-point.vue"
     },
     "./user-round-group": {
       "types": "./types/dd0bq22g.d.ts",

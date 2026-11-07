@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/thesvg-color",
   "type": "module",
-  "version": "1.0.24",
+  "version": "1.0.25",
   "homepage": "https://icon-sets.iconify.design/thesvg-color/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -10406,6 +10406,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/l/lumen.vue"
     },
+    "./lumin-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lumin-dark.vue"
+    },
+    "./lumin-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lumin-light.vue"
+    },
     "./lunacy": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/l/lunacy.vue"
@@ -19749,6 +19757,14 @@
     "./wappalyzer": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/w/wappalyzer.vue"
+    },
+    "./warden-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/warden-dark.vue"
+    },
+    "./warden-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/warden-light.vue"
     },
     "./warner-bros": {
       "types": "./types/dd0bq22g.d.ts",

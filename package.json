@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/devicon",
   "type": "module",
-  "version": "1.0.36",
+  "version": "1.0.37",
   "homepage": "https://icon-sets.iconify.design/devicon/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -830,6 +830,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/dbeaver.vue"
     },
+    "./dbt": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dbt.vue"
+    },
     "./dbvisualizer": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/dbvisualizer.vue"
@@ -1590,6 +1594,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/helm.vue"
     },
+    "./hermes": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hermes.vue"
+    },
     "./heroku": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/heroku.vue"
@@ -1837,6 +1845,10 @@
     "./jhipster-wordmark": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/j/jhipster-wordmark.vue"
+    },
+    "./jinja": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jinja.vue"
     },
     "./jira": {
       "types": "./types/dd0bq22g.d.ts",
@@ -2297,6 +2309,14 @@
     "./minitab": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/minitab.vue"
+    },
+    "./mise": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mise.vue"
+    },
+    "./mise-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mise-wordmark.vue"
     },
     "./mithril": {
       "types": "./types/dd0bq22g.d.ts",
@@ -4117,6 +4137,14 @@
     "./veevalidate": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/v/veevalidate.vue"
+    },
+    "./velite": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/velite.vue"
+    },
+    "./velite-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/velite-wordmark.vue"
     },
     "./vercel": {
       "types": "./types/dd0bq22g.d.ts",

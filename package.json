@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/devicon-plain",
   "type": "module",
-  "version": "1.0.31",
+  "version": "1.0.32",
   "homepage": "https://icon-sets.iconify.design/devicon-plain/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -1213,6 +1213,10 @@
     "./helix": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/helix.vue"
+    },
+    "./hermes": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hermes.vue"
     },
     "./heroku": {
       "types": "./types/dd0bq22g.d.ts",
@@ -3089,6 +3093,14 @@
     "./vault-wordmark": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/v/vault-wordmark.vue"
+    },
+    "./velite": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/velite.vue"
+    },
+    "./velite-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/velite-wordmark.vue"
     },
     "./vertx": {
       "types": "./types/dd0bq22g.d.ts",

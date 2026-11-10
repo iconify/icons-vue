@@ -1,0 +1,7 @@
+.juzjyabun {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M12 12v4.58c0 .98 0 1.46.4 1.76c.42.3.8.18 1.57-.06q1.45-.46 2.53-1.48M2.74 2.74l18.52 18.52M7.54 2.68a10.4 10.4 0 0 1 14.68 9.5c0 1.38-.35 2.92-.92 4.18");
+}

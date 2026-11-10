@@ -1,0 +1,8 @@
+.cevse_boi {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M8.11 21.29c-1.2 0-1.8 0-2.3-.18A3 3 0 0 1 4 19.28c-.18-.48-.18-1.08-.18-2.3V7.02c0-1.2 0-1.8.18-2.3m4.11-2.01c-.7 0-1.2 0-1.6.04m9.38-.04c1.2 0 1.8 0 2.3.18A3 3 0 0 1 20 4.72c.18.48.18 1.08.18 2.3v9.32m-4.29 4.95c1.2 0 1.8 0 2.3-.18a3 3 0 0 0 1.55-1.25m-17-17.12l18.52 18.52");
+}

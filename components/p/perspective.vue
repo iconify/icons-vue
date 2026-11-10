@@ -1,12 +1,12 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
 import '../../css/f/ft5dv1b6b.css';
-import '../../css/q/qtnp9sbxu.css';
-import '../../css/c/c_7-gp-_b.css';
+import '../../css/h/h916cc1er.css';
+import '../../css/h/hzgnb0b_u.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="qtnp9sbxu"/><path class="c_7-gp-_b"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="h916cc1er"/><path class="hzgnb0b_u"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="andrsrxn:perspective" /></template>

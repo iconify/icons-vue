@@ -1,12 +1,12 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
 import '../../css/f/ft5dv1b6b.css';
-import '../../css/o/o2j6rdzub.css';
-import '../../css/g/ghlng5d3y.css';
+import '../../css/g/gvv7gfbqw.css';
+import '../../css/e/eai0jfc7w.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="o2j6rdzub"/><path class="ghlng5d3y"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="gvv7gfbqw"/><path class="eai0jfc7w"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="andrsrxn:credit-card-check" /></template>

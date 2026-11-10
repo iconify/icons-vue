@@ -1,0 +1,7 @@
+.wrugu_ffb {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("m21.91 10.65l-6.07 2.91c-.41.2-.62.3-.84.35s-.44.05-.9.05H9.9c-.46 0-.69 0-.9-.05a4 4 0 0 1-.84-.35l-6.07-2.9");
+}

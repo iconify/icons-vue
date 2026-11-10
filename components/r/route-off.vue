@@ -1,13 +1,15 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
 import '../../css/f/ft5dv1b6b.css';
-import '../../css/f/fs7nt4bkd.css';
-import '../../css/t/tc792ph1v.css';
-import '../../css/l/l-u_2bbvd.css';
+import '../../css/y/y450z3kjf.css';
+import '../../css/q/qhvjurbel.css';
+import '../../css/g/g9i1nab0y.css';
+import '../../css/t/tytd08b7c.css';
+import '../../css/m/m2reyv_4b.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><circle transform="matrix(1 0 0 -1 16.07 8.36)" class="fs7nt4bkd"/><circle transform="matrix(1 0 0 -1 2.51 21.06)" class="fs7nt4bkd"/><circle transform="matrix(1 0 0 -1 16.07 8.36)" class="tc792ph1v"/><circle transform="matrix(1 0 0 -1 2.51 21.06)" class="tc792ph1v"/><path class="l-u_2bbvd"/></g>`;
+const content = `<g class="ft5dv1b6b"><circle class="y450z3kjf"/><circle class="qhvjurbel"/><circle class="g9i1nab0y"/><circle class="tytd08b7c"/><path class="m2reyv_4b"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="andrsrxn:route-off" /></template>

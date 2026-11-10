@@ -1,12 +1,12 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
 import '../../css/f/ft5dv1b6b.css';
-import '../../css/s/sduh0ya2a.css';
-import '../../css/t/t0wdpdbkb.css';
+import '../../css/p/poj-12pcl.css';
+import '../../css/m/meyh7pb5y.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="sduh0ya2a"/><path class="t0wdpdbkb"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="poj-12pcl"/><path class="meyh7pb5y"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="andrsrxn:table-rows-plus" /></template>

@@ -1,13 +1,13 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
 import '../../css/f/ft5dv1b6b.css';
-import '../../css/h/ht2n8rylu.css';
-import '../../css/e/ex-drp13w.css';
-import '../../css/g/glh4tzv3q.css';
+import '../../css/s/sns67zb6g.css';
+import '../../css/a/arf83eb9f.css';
+import '../../css/d/dx27d25hi.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><rect transform="matrix(0 -1 -1 0 20.9 21.46)" class="ht2n8rylu"/><rect transform="matrix(0 -1 -1 0 20.9 21.46)" class="ex-drp13w"/><path class="glh4tzv3q"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="sns67zb6g"/><path class="arf83eb9f"/><path class="dx27d25hi"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="andrsrxn:notes-squiggle" /></template>

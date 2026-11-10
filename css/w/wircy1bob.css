@@ -1,0 +1,7 @@
+.wircy1bob {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M7.74 8.18c0-.68.55-1.23 1.23-1.23h6.06c.68 0 1.23.55 1.23 1.23");
+}

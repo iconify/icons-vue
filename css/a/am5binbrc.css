@@ -1,0 +1,7 @@
+.am5binbrc {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M9.5 16.23v-5.11c0-1.34 0-2 .23-2.57a3 3 0 0 1 .74-1.04c.45-.41 1.08-.63 2.35-1.07c1.56-.55 2.34-.82 2.96-.64a2 2 0 0 1 1.06.75c.38.52.38 1.35.38 3v5.73M9.5 10.63l7.49-2.76");
+}

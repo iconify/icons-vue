@@ -1,13 +1,12 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
 import '../../css/f/ft5dv1b6b.css';
-import '../../css/b/b708ezicz.css';
-import '../../css/s/sloug4bgy.css';
-import '../../css/v/v8cohobjz.css';
+import '../../css/w/w2m4hmvrr.css';
+import '../../css/j/jd_e9cbfp.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><rect class="b708ezicz"/><rect class="sloug4bgy"/><path class="v8cohobjz"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="w2m4hmvrr"/><path class="jd_e9cbfp"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="andrsrxn:touchpad-off" /></template>

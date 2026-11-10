@@ -1,12 +1,12 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
 import '../../css/f/ft5dv1b6b.css';
-import '../../css/q/qx0qkv-zt.css';
-import '../../css/x/xvu_v82pz.css';
+import '../../css/t/tprt89bde.css';
+import '../../css/u/u27ge2k4h.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><rect transform="rotate(90 0 21.29)scale(-1 1)" class="qx0qkv-zt"/><path class="xvu_v82pz"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="tprt89bde"/><path class="u27ge2k4h"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="andrsrxn:corner-radius" /></template>

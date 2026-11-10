@@ -1,0 +1,7 @@
+.oe_dinskv {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("m3.5 13.12l.86-4.95c.5-2.93.75-4.4 1.73-5.31l.32-.27c1.07-.81 2.56-.81 5.53-.81c2.96 0 4.44 0 5.51.8l.32.27c.98.91 1.24 2.37 1.76 5.28l.87 4.95c.78 4.36 1.16 6.53-.04 7.96s-3.4 1.43-7.83 1.43h-1.14c-4.4 0-6.6 0-7.8-1.42s-.83-3.6-.08-7.93");
+}

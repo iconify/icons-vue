@@ -1,14 +1,14 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
 import '../../css/f/ft5dv1b6b.css';
-import '../../css/l/l4httfblf.css';
-import '../../css/o/o-xi3kblk.css';
-import '../../css/k/kupzhlb5d.css';
-import '../../css/v/vukzssbyy.css';
+import '../../css/n/nthjmu6qu.css';
+import '../../css/f/fb8kuob6c.css';
+import '../../css/e/e4yz11bdb.css';
+import '../../css/c/c2wwedy2m.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><rect transform="matrix(0 -1 -1 0 22.3 18.21)" class="l4httfblf"/><path class="o-xi3kblk"/><path class="kupzhlb5d"/><rect transform="matrix(0 -1 -1 0 22.3 18.21)" class="vukzssbyy"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="nthjmu6qu"/><path class="fb8kuob6c"/><path class="e4yz11bdb"/><path class="c2wwedy2m"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="andrsrxn:field-number" /></template>

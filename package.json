@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/devicon-plain",
   "type": "module",
-  "version": "1.0.32",
+  "version": "1.0.33",
   "homepage": "https://icon-sets.iconify.design/devicon-plain/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -1146,6 +1146,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/groovy.vue"
     },
+    "./groq": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/groq.vue"
+    },
     "./grpc": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/grpc.vue"
@@ -1941,6 +1945,14 @@
     "./nextjs": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/n/nextjs.vue"
+    },
+    "./nginx": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nginx.vue"
+    },
+    "./nginx-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nginx-wordmark.vue"
     },
     "./ngrx": {
       "types": "./types/dd0bq22g.d.ts",
@@ -2785,6 +2797,10 @@
     "./stackblitz-wordmark": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/stackblitz-wordmark.vue"
+    },
+    "./stackit": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stackit.vue"
     },
     "./stackoverflow": {
       "types": "./types/dd0bq22g.d.ts",

@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/c/csm4l4bpr.css';
+import '../../css/d/d218cybqa.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path clip-rule="evenodd" class="csm4l4bpr"/>`;
+const content = `<path clip-rule="evenodd" class="d218cybqa"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="lucide-extended:archive-filled" /></template>

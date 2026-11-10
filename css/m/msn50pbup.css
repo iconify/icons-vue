@@ -1,0 +1,7 @@
+.msn50pbup {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M15 15H9a4 4 0 0 0-4 4v2m13.988-8v4m0 4h.01M16 7a4 4 0 1 1-8 0a4 4 0 0 1 8 0");
+}

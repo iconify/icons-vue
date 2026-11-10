@@ -1,0 +1,20 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="cpekmwqqj"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:guidepoint-arrow-down" /></template>
+<style>
+.cpekmwqqj {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M16 7C16 8.66 17.3432 10 19 10C20.6568 10 22 8.66 22 7C22 5.34 20.6568 4 19 4C17.3432 4 16 5.34 16 7ZM16 7H8M8 7C8 5.34 6.6568 4 5 4C3.3432 4 2 5.34 2 7C2 8.66 3.3432 10 5 10C6.6568 10 8 8.66 8 7ZM8.0732 14.75L11.5228 19.75C11.7338 20.08 12.2662 20.08 12.4772 19.75L15.9268 14.75C16.1361 14.42 15.8716 14 15.4496 14H8.5504C8.1284 14 7.8639 14.42 8.0732 14.75Z");
+}
+
+</style>

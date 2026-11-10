@@ -1,0 +1,20 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="rbfljx3en"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:guidepoint-vertical-arrow-right" /></template>
+<style>
+.rbfljx3en {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M7 8C5.3432 8 4 6.66 4 5C4 3.34 5.3432 2 7 2C8.6568 2 10 3.34 10 5C10 6.66 8.6568 8 7 8ZM7 8V16M7 16C8.6568 16 10 17.34 10 19C10 20.66 8.6568 22 7 22C5.3432 22 4 20.66 4 19C4 17.34 5.3432 16 7 16ZM14.749 8.07L19.7478 11.52C20.0841 11.73 20.0841 12.27 19.7478 12.48L14.749 15.93C14.4153 16.14 14 15.87 14 15.45V8.55C14 8.13 14.4153 7.86 14.749 8.07Z");
+}
+
+</style>

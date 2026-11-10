@@ -1,0 +1,30 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="nrj6p8qat"><path class="fygilqbih"/><path class="y0ypsubuu"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:align-vertical-space-around-two-tone" /></template>
+<style>
+.fygilqbih {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M22 19C22.5523 19 23 19.448 23 20C23 20.552 22.5523 21 22 21H2C1.4477 21 1 20.552 1 20C1 19.448 1.4477 19 2 19H22ZM15 8C16.6489 8 18 9.341 18 11V13C18 14.657 16.656 16 15 16H9C7.3449 16 6 14.667 6 13V11C6 9.356 7.3327 8 9 8H15ZM22 3C22.5523 3 23 3.448 23 4C23 4.552 22.5523 5 22 5H2C1.4477 5 1 4.552 1 4C1 3.448 1.4477 3 2 3H22Z");
+  stroke: none;
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.y0ypsubuu {
+  d: path("M22 20H2M22 4H2M15 9H9C7.8895 9 7 9.903 7 11V12V13C7 14.112 7.8948 15 9 15H15C16.1039 15 17 14.105 17 13V12V11C17 9.895 16.0986 9 15 9Z");
+}
+
+</style>

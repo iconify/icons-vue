@@ -1,0 +1,30 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="nrj6p8qat"><path class="ne1zkmm_m"/><path class="f0f1-vabx"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:triangles-centerline-vertical-two-tone" /></template>
+<style>
+.f0f1-vabx {
+  d: path("M12 2V22M2.1293 12.26L7.6079 15.96C7.7817 16.08 8 15.93 8 15.7V8.3C8 8.07 7.7817 7.92 7.6079 8.04L2.1293 11.74C1.9569 11.86 1.9569 12.14 2.1293 12.26ZM21.8707 12.26L16.392 15.96C16.2182 16.08 16 15.93 16 15.7V8.3C16 8.07 16.2182 7.92 16.392 8.04L21.8707 11.74C22.0431 11.86 22.0431 12.14 21.8707 12.26Z");
+}
+
+.ne1zkmm_m {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M12 1C12.5523 1 13 1.45 13 2V22C13 22.55 12.5523 23 12 23C11.4477 23 11 22.55 11 22V2C11 1.45 11.4477 1 12 1ZM7.0913 7.19C7.5219 6.94 8.0604 6.97 8.4229 7.21C8.7927 7.45 8.9999 7.87 9 8.3V15.7C8.9999 16.13 8.7927 16.55 8.4229 16.79C8.0363 17.05 7.498 17.09 7.0488 16.79L1.5703 13.09C1.1562 12.81 1 12.36 1 12C1 11.64 1.1562 11.19 1.5703 10.91L7.0913 7.19ZM15.5771 7.21C15.9638 6.95 16.5021 6.91 16.9512 7.21L22.4297 10.91C22.8437 11.19 23 11.64 23 12C23 12.36 22.8447 12.81 22.4307 13.09L16.9512 16.79C16.502 17.09 15.9637 17.05 15.5771 16.79C15.2073 16.55 15.0001 16.13 15 15.7V8.3C15.0001 7.87 15.2073 7.45 15.5771 7.21Z");
+  stroke: none;
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+</style>

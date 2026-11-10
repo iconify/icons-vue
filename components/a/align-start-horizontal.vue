@@ -1,0 +1,20 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="kudg-jk8q"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:align-start-horizontal" /></template>
+<style>
+.kudg-jk8q {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M22 2H2M18 6H16C14.8954 6 14 6.895 14 8V12C14 13.105 14.8954 14 16 14H18C19.1046 14 20 13.105 20 12V8C20 6.895 19.1046 6 18 6ZM8 6H6C4.8954 6 4 6.895 4 8V20C4 21.105 4.8954 22 6 22H8C9.1046 22 10 21.105 10 20V8C10 6.895 9.1046 6 8 6Z");
+}
+
+</style>

@@ -4,25 +4,17 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="nrj6p8qat"><path class="rxdjtqbaf"/><path class="zqhor9bho"/></g>`;
+const content = `<path class="v7cp6jhim"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:a-text-cursor-two-tone" /></template>
 <style>
-.nrj6p8qat {
+.v7cp6jhim {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-width: var(--svg-stroke-width--2px, 2px);
-}
-
-.rxdjtqbaf {
-  stroke-opacity: 0.4;
-  d: path("M2 19L7 5L12 19M3.7857 14L10.2143 14");
-}
-
-.zqhor9bho {
-  d: path("M19 5.8C18.6667 5.35 17.6 4 16 4M19 5.8C19.3333 5.35 20.4 4 22 4M19 5.8L19 18.2M19 18.2C19.3333 18.65 20.4 20 22 20M19 18.2C18.6667 18.65 17.6 20 16 20");
+  d: path("M2 18L3.7857 13L6.0583 6.6669C6.3743 5.782 7.6257 5.782 7.9417 6.6669L10.2143 13L12 18M10.2143 13H3.7857M19 6.8C18.6667 6.35 17.6 5 16 5M19 6.8C19.3333 6.35 20.4 5 22 5M19 6.8V17.2M19 17.2C19.3333 17.65 20.4 19 22 19M19 17.2C18.6667 17.65 17.6 19 16 19");
 }
 
 </style>

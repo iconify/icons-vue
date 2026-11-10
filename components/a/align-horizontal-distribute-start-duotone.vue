@@ -1,0 +1,24 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="cuyn6tgcc"><path class="nhs4dccny"/><path class="tfkf-1pbm"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:align-horizontal-distribute-start-duotone" /></template>
+<style>
+.cuyn6tgcc {
+  fill: currentColor;
+}
+
+.nhs4dccny {
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M8 3C9.6569 3 11 4.343 11 6V18C11 19.657 9.6568 21 8 21H6C4.3432 21 3 19.657 3 18V6C3 4.343 4.3431 3 6 3H8ZM18 7C19.6569 7 21 8.343 21 10V14C21 15.657 19.6569 17 18 17H16C14.3431 17 13 15.657 13 14V10C13 8.343 14.3431 7 16 7H18Z");
+}
+
+.tfkf-1pbm {
+  d: path("M4 1C4.5523 1 5 1.448 5 2V22C5 22.552 4.5523 23 4 23C3.4477 23 3 22.552 3 22V2C3 1.448 3.4477 1 4 1ZM14 1C14.5523 1 15 1.448 15 2V22C15 22.552 14.5523 23 14 23C13.4477 23 13 22.552 13 22V2C13 1.448 13.4477 1 14 1Z");
+}
+
+</style>

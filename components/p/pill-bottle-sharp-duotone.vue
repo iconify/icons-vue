@@ -1,0 +1,24 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="cuyn6tgcc"><path class="qutuf_tpz"/><path class="k6q-v9bbm"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:pill-bottle-sharp-duotone" /></template>
+<style>
+.cuyn6tgcc {
+  fill: currentColor;
+}
+
+.k6q-v9bbm {
+  d: path("M13 10.5C13.276 10.5 13.5 10.72 13.5 11V12.5C13.5 12.78 13.724 13 14 13H15.5C15.776 13 16 13.22 16 13.5V15.5C16 15.78 15.776 16 15.5 16H14C13.724 16 13.5 16.22 13.5 16.5V18C13.5 18.28 13.276 18.5 13 18.5H11C10.724 18.5 10.5 18.28 10.5 18V16.5C10.5 16.22 10.276 16 10 16H8.5C8.224 16 8 15.78 8 15.5V13.5C8 13.22 8.224 13 8.5 13H10C10.276 13 10.5 12.78 10.5 12.5V11C10.5 10.72 10.724 10.5 11 10.5H13ZM20 1C20.552 1 21 1.45 21 2V7C21 7.55 20.552 8 20 8H4C3.448 8 3 7.55 3 7V2C3 1.45 3.448 1 4 1H20Z");
+}
+
+.qutuf_tpz {
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M20 1C20.552 1 21 1.45 21 2V7C21 7.52 20.502 7.95 20 8.01V22C20 22.55 19.552 23 19 23H5C4.448 23 4 22.55 4 22V8.01C3.498 7.95 3 7.52 3 7V2C3 1.45 3.448 1 4 1H20Z");
+}
+
+</style>

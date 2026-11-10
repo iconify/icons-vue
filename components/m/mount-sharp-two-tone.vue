@@ -1,0 +1,29 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="gp_8x1bzb"><path class="u1btcmbrs"/><path class="uqbifpvhq"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:mount-sharp-two-tone" /></template>
+<style>
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.u1btcmbrs {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M19.001 15.14C19.422 15.14 19.797 15.4 19.941 15.8C20.084 16.19 19.965 16.64 19.643 16.91L12.643 22.77C12.272 23.08 11.731 23.08 11.36 22.77L4.36 16.91C4.037 16.64 3.917 16.2 4.061 15.8C4.204 15.41 4.581 15.14 5.001 15.14L19.001 15.14ZM20.001 13H4.001V11H20.001V13ZM11.359 1.23C11.73 0.92 12.271 0.92 12.642 1.23L19.642 7.09C19.964 7.36 20.083 7.81 19.94 8.2C19.796 8.6 19.421 8.86 19 8.86L5 8.86C4.58 8.86 4.203 8.59 4.06 8.2C3.916 7.8 4.036 7.36 4.359 7.09L11.359 1.23Z");
+  stroke: none;
+}
+
+.uqbifpvhq {
+  d: path("M20 12H4M12 2L5 7.86L19 7.86L12 2ZM12 22L5 16.14L19 16.14L12 22Z");
+}
+
+</style>

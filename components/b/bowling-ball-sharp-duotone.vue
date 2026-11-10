@@ -1,0 +1,24 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="cuyn6tgcc"><path class="x58rkofgh"/><path class="qodq-cbes"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:bowling-ball-sharp-duotone" /></template>
+<style>
+.cuyn6tgcc {
+  fill: currentColor;
+}
+
+.qodq-cbes {
+  d: path("M10.5 12C11.328 12 12 12.672 12 13.5C12 14.328 11.328 15 10.5 15C9.672 15 9 14.328 9 13.5C9 12.672 9.672 12 10.5 12ZM16.5 9C17.328 9 18 9.672 18 10.5C18 11.328 17.328 12 16.5 12C15.672 12 15 11.328 15 10.5C15 9.672 15.672 9 16.5 9ZM12 6C12.828 6 13.5 6.672 13.5 7.5C13.5 8.328 12.828 9 12 9C11.172 9 10.5 8.328 10.5 7.5C10.5 6.672 11.172 6 12 6Z");
+}
+
+.x58rkofgh {
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M12 1C18.075 1 23 5.925 23 12C23 18.075 18.075 23 12 23C5.925 23 1 18.075 1 12C1 5.925 5.925 1 12 1Z");
+}
+
+</style>

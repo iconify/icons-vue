@@ -1,0 +1,30 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="nrj6p8qat"><path class="l87oipy9m"/><path class="i3-o57b6x"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:tree-pine-two-tone" /></template>
+<style>
+.i3-o57b6x {
+  d: path("M12 18H19L14 13H18L14 8H17L12 2L7 8H10L6 13H10L5 18H12ZM12 18V22");
+}
+
+.l87oipy9m {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M11 22V19H5C4.5956 19 4.231 18.76 4.0761 18.38C3.9214 18.01 4.0069 17.58 4.2929 17.29L7.5859 14H6C5.6157 14 5.2652 13.78 5.0986 13.43C4.9321 13.09 4.9786 12.68 5.2187 12.38L7.9189 9H7C6.612 9 6.2593 8.78 6.0947 8.42C5.9302 8.07 5.983 7.66 6.2314 7.36L11.2602 1.32C11.4454 1.15 11.7403 1 12 1C12.2967 1 12.5785 1.13 12.7685 1.36L17.7685 7.36C18.0169 7.66 18.0697 8.07 17.9052 8.42C17.7407 8.78 17.388 9 17 9H16.081L18.7812 12.38C19.0214 12.68 19.0679 13.09 18.9013 13.43C18.7348 13.78 18.3843 14 18 14H16.414L19.707 17.29C19.993 17.58 20.0786 18.01 19.9238 18.38C19.769 18.76 19.4044 19 19 19H13V22C13 22.55 12.5523 23 12 23C11.4477 23 11 22.55 11 22Z");
+  stroke: none;
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+</style>

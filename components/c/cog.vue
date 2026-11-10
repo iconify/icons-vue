@@ -1,0 +1,20 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="jry-pidjd"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:cog" /></template>
+<style>
+.jry-pidjd {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M12 4C16.4182 4 20 7.58 20 12M12 4C7.5818 4 4 7.58 4 12M12 4V2M20 12C20 16.42 16.4182 20 12 20M20 12H22M20 12H14M12 20C7.5818 20 4 16.42 4 12M12 20V22M4 12H2M14 12C14 10.9 13.1046 10 12 10C10.8954 10 10 10.9 10 12C10 13.1 10.8954 14 12 14C13.1046 14 14 13.1 14 12ZM7 3.35L8 5.08L10.8366 10M16 18.94L17 20.67M3.3373 7L5.0693 8M18.9257 16L20.6578 17M3.3422 17L5.0743 16M18.9307 8L20.6628 7M7 20.67L8 18.94L10.854 14M16 5.08L17 3.35");
+}
+
+</style>

@@ -1,0 +1,25 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="cuyn6tgcc"><path class="xhp594uuz"/><path clip-rule="evenodd" class="jc6cy4b3p"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:less-than-equal-two-tone" /></template>
+<style>
+.cuyn6tgcc {
+  fill: currentColor;
+}
+
+.jc6cy4b3p {
+  fill-rule: evenodd;
+  d: path("M16 18C16.5523 18 17 18.45 17 19C17 19.55 16.5523 20 16 20H8C7.4477 20 7 19.55 7 19C7 18.45 7.4477 18 8 18H16Z");
+}
+
+.xhp594uuz {
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M15.4697 4.15C15.9379 3.86 16.5549 4 16.8477 4.47C17.1403 4.94 16.9983 5.55 16.5303 5.85L9.8857 10L16.5303 14.15C16.9983 14.45 17.1403 15.06 16.8477 15.53C16.5549 16 15.9379 16.14 15.4697 15.85L7.4697 10.85C7.1776 10.66 7 10.34 7 10C7 9.66 7.1776 9.33 7.4697 9.15L15.4697 4.15Z");
+}
+
+</style>

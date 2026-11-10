@@ -4,25 +4,17 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="nrj6p8qat"><path class="rxdjtqbaf"/><path class="qg5b6bbwe"/></g>`;
+const content = `<path class="qy11j83on"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:a-arrow-up-two-tone" /></template>
 <style>
-.nrj6p8qat {
+.qy11j83on {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-width: var(--svg-stroke-width--2px, 2px);
-}
-
-.qg5b6bbwe {
-  d: path("M19 19L19 9M16 12L19 9L22 12");
-}
-
-.rxdjtqbaf {
-  stroke-opacity: 0.4;
-  d: path("M2 19L7 5L12 19M3.7857 14L10.2143 14");
+  d: path("M2 18.0007L3.7857 13.0007L6.0583 6.6676C6.3743 5.7827 7.6257 5.7827 7.9417 6.6676L10.2143 13.0007L12 18.0007M10.2143 13.0007H3.7857M19 18.0007V8.0007M16 11.0007L19 8.0007L22 11.0007");
 }
 
 </style>

@@ -1,0 +1,23 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="cuyn6tgcc"><path class="wxrx59ytq"/><path class="qs_n366lv"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:heart-zap-sharp-fill" /></template>
+<style>
+.cuyn6tgcc {
+  fill: currentColor;
+}
+
+.qs_n366lv {
+  d: path("M22 3.41L20.414 5H22C22.404 5 22.769 5.24 22.924 5.62C23.079 5.99 22.993 6.42 22.707 6.71L19.414 10L18 8.59L19.586 7H18C17.596 7 17.231 6.76 17.076 6.38C16.922 6.01 17.007 5.58 17.293 5.29L20.586 2L22 3.41Z");
+}
+
+.wxrx59ytq {
+  d: path("M8 2C9.488 2 10.829 2.47 12 3.26C12.718 2.77 13.5 2.41 14.341 2.2L15 4.05V12H20.076L21.731 13.09C21.111 14.14 20.308 15.1 19.421 15.99C17.458 17.98 14.836 19.89 12.65 21.76C12.276 22.08 11.724 22.08 11.35 21.76C9.164 19.89 6.542 17.98 4.579 15.99C2.583 13.98 1 11.65 1 8.75C1 4.98 4.179 2 8 2Z");
+}
+
+</style>

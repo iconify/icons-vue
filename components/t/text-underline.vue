@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/ng5xczucu.css';
+import '../../css/i/iqc7qacoz.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="ng5xczucu"/>`;
+const content = `<path class="iqc7qacoz"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="proicons:text-underline" /></template>

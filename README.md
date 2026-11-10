@@ -11,6 +11,11 @@ Browse all icons: [preview ProIcons on Iconify](https://icon-sets.iconify.design
 ## Installation
 
 ```bash
+npm install gitlab:iconify-icons/vue#proicons
+```
+
+or
+```bash
 npm install github:iconify/icons-vue#proicons
 ```
 

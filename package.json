@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/simple-icons",
   "type": "module",
-  "version": "1.0.51",
+  "version": "1.0.52",
   "homepage": "https://icon-sets.iconify.design/simple-icons/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "CC0-1.0",
@@ -8678,6 +8678,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/n/neutralinojs.vue"
     },
+    "./newapi": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/newapi.vue"
+    },
     "./newbalance": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/n/newbalance.vue"
@@ -9033,6 +9037,10 @@
     "./ocaml": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/o/ocaml.vue"
+    },
+    "./oceanbase": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/oceanbase.vue"
     },
     "./oclc": {
       "types": "./types/dd0bq22g.d.ts",
@@ -14901,6 +14909,10 @@
     "./zilch": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/z/zilch.vue"
+    },
+    "./zilliz": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/z/zilliz.vue"
     },
     "./zillow": {
       "types": "./types/dd0bq22g.d.ts",

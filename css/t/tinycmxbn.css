@@ -1,0 +1,8 @@
+.tinycmxbn {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M13.99 12H14M2 12h2M2 4h18a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2m6-8h2");
+}

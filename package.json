@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/vscode-icons",
   "type": "module",
-  "version": "1.0.70",
+  "version": "1.0.71",
   "homepage": "https://icon-sets.iconify.design/vscode-icons/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -2013,6 +2013,10 @@
     "./file-type-light-agents": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-light-agents.vue"
+    },
+    "./file-type-light-alchemy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-type-light-alchemy.vue"
     },
     "./file-type-light-apl": {
       "types": "./types/dd0bq22g.d.ts",

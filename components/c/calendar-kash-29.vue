@@ -4,49 +4,32 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<g class="y9tr6bcfx"><path class="ugse35b_a"/><circle class="dxkwa2vaf"/><path class="zx99-r32a"/></g><g class="to-5kdesz"><path class="wfpy3gbmy"/><path class="lw4f_pt4y"/><path class="rtndkv_2k"/></g>`;
+const content = `<path class="xhr24h_bd"/><path class="mexrvt0wj"/><path class="m518gublo"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:calendar-kash-29" /></template>
 <style>
-.dxkwa2vaf {
-  cx: 27.544px;
-  cy: 29.659px;
-  r: 3.733px;
-}
-
-.lw4f_pt4y {
-  stroke-linecap: round;
-  d: path("M39.9 16.105v23.412a4 4 0 0 1-4 4h-25a4 4 0 0 1-4-4v-25a4 4 0 0 1 4-4h14.953m-12.96-3l.015 6");
-}
-
-.rtndkv_2k {
-  d: path("M39.9 16.105a3.985 3.985 0 1 0 0-7.97c-.086 0-.167.02-.253.025c-.653-2.123-2.608-3.677-4.946-3.677S30.41 6.036 29.755 8.16c-.085-.005-.166-.025-.252-.025a3.985 3.985 0 0 0 0 7.97z");
-}
-
-.to-5kdesz {
-  fill: none;
-  stroke: currentColor;
-  stroke-linejoin: round;
-}
-
-.ugse35b_a {
-  d: path("M14.588 29.659c0-2.074 1.66-3.734 3.595-3.734s3.733 1.66 3.733 3.734c0 .968-.415 1.935-1.106 2.627c-1.521 1.244-6.222 4.84-6.222 4.84h7.328");
-}
-
-.wfpy3gbmy {
-  stroke-linecap: round;
-  d: path("M39.9 19.661h-33m33-3.556v23.412a4 4 0 0 1-4 4h-25a4 4 0 0 1-4-4v-25a4 4 0 0 1 4-4h14.953");
-}
-
-.y9tr6bcfx {
+.m518gublo {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
+  d: path("M25.969 30.976c.744 1 1.989 1.627 3.887 1.527l.345-.018a4.647 4.647 0 0 0 4.416-4.904l-.244-4.66");
 }
 
-.zx99-r32a {
-  d: path("M24.226 35.743c.553.83 1.52 1.382 3.042 1.382h.276a3.72 3.72 0 0 0 3.733-3.733v-3.733");
+.mexrvt0wj {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M38.276 8.758a3.445 3.445 0 0 1-3.273 3.614c-1.908.1-3.536-1.357-3.636-3.254c-.1-1.896 1.366-3.514 3.274-3.613s3.535 1.357 3.635 3.253M13.54 24.013c-.136-2.59 1.827-4.77 4.243-4.896s4.769 1.827 4.905 4.416c.063 1.208-.391 2.444-1.21 3.352c-1.817 1.653-7.45 6.448-7.45 6.448l9.148-.48m1.877-9.443a4.667 4.667 0 1 1 9.32-.5v.01a4.667 4.667 0 1 1-9.32.5z");
+}
+
+.xhr24h_bd {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("m32.692 6.098l-20.727 1.08c-2.453.128-4.337 2.208-4.209 4.646L9.153 38.31c.129 2.438 2.221 4.31 4.674 4.183l22.208-1.157c2.453-.128 4.337-2.208 4.209-4.646l-1.397-26.487a4.4 4.4 0 0 0-.635-2.057");
 }
 
 </style>

@@ -1,0 +1,27 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="y3b_z3bhd"/><path class="a81mzuh7t"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:homepro-homecard" /></template>
+<style>
+.a81mzuh7t {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M23.598 11.636c-4.255 4.733-9.187 9.808-13.891 13.933c-.78 5.477-1.56 10.969-2.355 16.31c4.269-.376 8.54-.753 12.097-.983l.54-13.033l8.143-.336l.702 12.268l12.076-1.243c-.846-4.19-1.668-8.538-2.414-13.434c-5.065-3.767-9.874-8.098-14.898-13.482");
+}
+
+.y3b_z3bhd {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M3.955 26.426A274 274 0 0 0 23.758 6.122c1.84 2.313 3.674 4.296 5.94 6.609l-.572-4.646l4.611.083l1.164 9.656c2.896 2.687 6.208 5.107 9.144 7.063");
+}
+
+</style>

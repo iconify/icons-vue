@@ -1,0 +1,35 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="psscaskyr"/><path class="pl7efg32p"/><path class="vh4__lg2q"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:teamworks-2" /></template>
+<style>
+.pl7efg32p {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("m13.71 17.062l7.136 4.023c.652.367 1.452.36 2.097-.02l7.003-4.127m-8.083 14.124V21.73m18.585-2.073c2.397 0 4.344 1.946 4.344 4.343s-1.947 4.344-4.344 4.344m0 0c-2.398 0-4.344-1.947-4.344-4.344s1.946-4.343 4.344-4.343");
+}
+
+.psscaskyr {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M40.448 28.344v3.297a5.38 5.38 0 0 1-2.694 4.663l-13.233 7.642a5.39 5.39 0 0 1-5.386 0L5.901 36.304a5.38 5.38 0 0 1-2.693-4.663V16.36a5.38 5.38 0 0 1 2.693-4.664l13.234-7.64a5.38 5.38 0 0 1 5.386 0l13.233 7.64a5.38 5.38 0 0 1 2.694 4.664v3.297");
+}
+
+.vh4__lg2q {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M39.033 23.144a1.416 1.416 0 0 1 2.822-.16c.044.448-.098.89-.406 1.16c-.573.503-2.416 1.856-2.416 1.856h2.83");
+}
+
+</style>

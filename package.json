@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/arcticons",
   "type": "module",
-  "version": "1.0.22",
+  "version": "1.0.23",
   "homepage": "https://icon-sets.iconify.design/arcticons/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "CC-BY-SA-4.0",
@@ -565,6 +565,10 @@
     "./7eleven": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/7/7eleven.vue"
+    },
+    "./7eleven-multicopy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/7/7eleven-multicopy.vue"
     },
     "./7m-workout": {
       "types": "./types/dd0bq22g.d.ts",
@@ -1594,6 +1598,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/ai-score.vue"
     },
+    "./ai-studio": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/ai-studio.vue"
+    },
     "./aia-connect": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/aia-connect.vue"
@@ -1686,6 +1694,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/air-quality-index.vue"
     },
+    "./air-raid-alert-map": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/air-raid-alert-map.vue"
+    },
     "./air-travel": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/air-travel.vue"
@@ -1733,6 +1745,10 @@
     "./airguard": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/airguard.vue"
+    },
+    "./airlearn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/airlearn.vue"
     },
     "./airlift": {
       "types": "./types/dd0bq22g.d.ts",
@@ -2061,6 +2077,10 @@
     "./alert-for-embrace-watch": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/alert-for-embrace-watch.vue"
+    },
+    "./alerte-pollen": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/alerte-pollen.vue"
     },
     "./alertswiss": {
       "types": "./types/dd0bq22g.d.ts",
@@ -3201,6 +3221,10 @@
     "./any-icon": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/any-icon.vue"
+    },
+    "./anyapk": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/anyapk.vue"
     },
     "./anybuddy": {
       "types": "./types/dd0bq22g.d.ts",
@@ -4426,6 +4450,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/atone.vue"
     },
+    "./atproto": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/atproto.vue"
+    },
     "./atrad-stock-trading": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/atrad-stock-trading.vue"
@@ -4545,6 +4573,10 @@
     "./audio-spectrum-analyzer": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/audio-spectrum-analyzer.vue"
+    },
+    "./audio-tag-editor": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/audio-tag-editor.vue"
     },
     "./audio-video-factory": {
       "types": "./types/dd0bq22g.d.ts",
@@ -5210,6 +5242,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/badreads.vue"
     },
+    "./baemin": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/baemin.vue"
+    },
     "./bagan-keyboard": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/bagan-keyboard.vue"
@@ -5245,6 +5281,10 @@
     "./baidu-homework": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/baidu-homework.vue"
+    },
+    "./baidu-keyboard": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/baidu-keyboard.vue"
     },
     "./baidu-map": {
       "types": "./types/dd0bq22g.d.ts",
@@ -5666,6 +5706,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/batterytool.vue"
     },
+    "./battle-r-app": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/battle-r-app.vue"
+    },
     "./battleforwesnoth": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/battleforwesnoth.vue"
@@ -5985,6 +6029,10 @@
     "./beerwithme": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/beerwithme.vue"
+    },
+    "./beetle-adb-assistant": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/beetle-adb-assistant.vue"
     },
     "./beetv": {
       "types": "./types/dd0bq22g.d.ts",
@@ -6637,6 +6685,10 @@
     "./bitchat-alt": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/bitchat-alt.vue"
+    },
+    "./bitchord": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bitchord.vue"
     },
     "./bitcoin": {
       "types": "./types/dd0bq22g.d.ts",
@@ -7346,6 +7398,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/bodhi-timer.vue"
     },
+    "./bodian-music": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bodian-music.vue"
+    },
     "./body-measures": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/body-measures.vue"
@@ -8038,6 +8094,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/bt-scanner.vue"
     },
+    "./btaskee": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/btaskee.vue"
+    },
+    "./btaskee-partner": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/btaskee-partner.vue"
+    },
     "./btc-map": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/btc-map.vue"
@@ -8353,6 +8417,10 @@
     "./buzkill": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/buzkill.vue"
+    },
+    "./buzkill-alt-1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/buzkill-alt-1.vue"
     },
     "./buzzfeed": {
       "types": "./types/dd0bq22g.d.ts",
@@ -9058,6 +9126,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/calendar-kash-9.vue"
     },
+    "./calendar-kash-supporter": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/calendar-kash-supporter.vue"
+    },
     "./calendar-proton-1": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/calendar-proton-1.vue"
@@ -9662,6 +9734,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/calm.vue"
     },
+    "./calmac-ferries": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/calmac-ferries.vue"
+    },
     "./calyxvpn": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/calyxvpn.vue"
@@ -9949,6 +10025,10 @@
     "./carga-sube": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/carga-sube.vue"
+    },
+    "./cargob": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cargob.vue"
     },
     "./cargr": {
       "types": "./types/dd0bq22g.d.ts",
@@ -10754,6 +10834,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/chimera-recollect.vue"
     },
+    "./china-broadnet": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/china-broadnet.vue"
+    },
     "./china-construction-bank": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/china-construction-bank.vue"
@@ -11302,6 +11386,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/classysharkexodus.vue"
     },
+    "./clatch": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/clatch.vue"
+    },
     "./claude": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/claude.vue"
@@ -11345,6 +11433,10 @@
     "./clear-wave": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/clear-wave.vue"
+    },
+    "./clearpdf": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/clearpdf.vue"
     },
     "./clearscan": {
       "types": "./types/dd0bq22g.d.ts",
@@ -12398,6 +12490,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/coupang.vue"
     },
+    "./coupang-eats": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/coupang-eats.vue"
+    },
+    "./coupang-play": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/coupang-play.vue"
+    },
     "./couple-widget": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/couple-widget.vue"
@@ -13157,6 +13257,10 @@
     "./cz-smart-youq": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/cz-smart-youq.vue"
+    },
+    "./d-account-settings": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/d-account-settings.vue"
     },
     "./d-anime-store": {
       "types": "./types/dd0bq22g.d.ts",
@@ -14502,6 +14606,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/diksha.vue"
     },
+    "./dime": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dime.vue"
+    },
     "./dimensional": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/dimensional.vue"
@@ -15038,6 +15146,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/dongchedi.vue"
     },
+    "./donki": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/donki.vue"
+    },
     "./dont-sleep": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/dont-sleep.vue"
@@ -15494,6 +15606,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/drone.vue"
     },
+    "./drone-alerts": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/drone-alerts.vue"
+    },
     "./dronecast": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/dronecast.vue"
@@ -15669,6 +15785,10 @@
     "./duck-life-9": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/duck-life-9.vue"
+    },
+    "./duckassist": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/duckassist.vue"
     },
     "./duckduckgo": {
       "types": "./types/dd0bq22g.d.ts",
@@ -16645,6 +16765,10 @@
     "./emkan": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/e/emkan.vue"
+    },
+    "./emma-cs": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/emma-cs.vue"
     },
     "./emochi": {
       "types": "./types/dd0bq22g.d.ts",
@@ -18434,6 +18558,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/e/equalizer.vue"
     },
+    "./equalizer314": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/equalizer314.vue"
+    },
     "./equate": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/e/equate.vue"
@@ -18489,6 +18617,10 @@
     "./esbdirect": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/e/esbdirect.vue"
+    },
+    "./escan-bot-removal": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/escan-bot-removal.vue"
     },
     "./escapadarural": {
       "types": "./types/dd0bq22g.d.ts",
@@ -18781,6 +18913,10 @@
     "./eurowings": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/e/eurowings.vue"
+    },
+    "./ev-manager": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/ev-manager.vue"
     },
     "./eve-echoes": {
       "types": "./types/dd0bq22g.d.ts",
@@ -19270,6 +19406,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/falloutshelter.vue"
     },
+    "./falou": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/falou.vue"
+    },
     "./famileo": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/famileo.vue"
@@ -19353,6 +19493,14 @@
     "./fanfiction-net": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/fanfiction-net.vue"
+    },
+    "./fanli-perks": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fanli-perks.vue"
+    },
+    "./fanqie-changting": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fanqie-changting.vue"
     },
     "./fanqie-novel": {
       "types": "./types/dd0bq22g.d.ts",
@@ -20286,6 +20434,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/fizy.vue"
     },
+    "./fizz": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fizz.vue"
+    },
     "./fkey": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/fkey.vue"
@@ -20437,6 +20589,10 @@
     "./flextrafik": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/flextrafik.vue"
+    },
+    "./flexwork": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/flexwork.vue"
     },
     "./flic": {
       "types": "./types/dd0bq22g.d.ts",
@@ -20737,6 +20893,10 @@
     "./flux-3": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/flux-3.vue"
+    },
+    "./flux-4": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/flux-4.vue"
     },
     "./fluxer": {
       "types": "./types/dd0bq22g.d.ts",
@@ -21462,6 +21622,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/fox.vue"
     },
+    "./foxi": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/foxi.vue"
+    },
     "./foxit-pdf": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/foxit-pdf.vue"
@@ -21545,6 +21709,10 @@
     "./francomanca": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/francomanca.vue"
+    },
+    "./frankfurter-buchmesse-app": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/frankfurter-buchmesse-app.vue"
     },
     "./frases-diarias": {
       "types": "./types/dd0bq22g.d.ts",
@@ -21729,6 +21897,10 @@
     "./frequency-generator": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/frequency-generator.vue"
+    },
+    "./freshippo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/freshippo.vue"
     },
     "./freshmile": {
       "types": "./types/dd0bq22g.d.ts",
@@ -22078,6 +22250,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/gaijin-pass.vue"
     },
+    "./gakumasu": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gakumasu.vue"
+    },
     "./galatasaray": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/galatasaray.vue"
@@ -22318,6 +22494,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/gaspar.vue"
     },
+    "./gaspedaal": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gaspedaal.vue"
+    },
     "./gastromapalukehejlka": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/gastromapalukehejlka.vue"
@@ -22413,6 +22593,10 @@
     "./gearbest": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/gearbest.vue"
+    },
+    "./gearslip": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gearslip.vue"
     },
     "./gearup-booster": {
       "types": "./types/dd0bq22g.d.ts",
@@ -23114,6 +23298,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/goldex.vue"
     },
+    "./goldwave": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/goldwave.vue"
+    },
     "./golearning": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/golearning.vue"
@@ -23714,6 +23902,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/govmo-alt.vue"
     },
+    "./gowabi": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gowabi.vue"
+    },
     "./gozayaan": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/gozayaan.vue"
@@ -24194,6 +24386,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/gyanfresh.vue"
     },
+    "./gymmane": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gymmane.vue"
+    },
     "./gymroutines": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/gymroutines.vue"
@@ -24294,6 +24490,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/hago.vue"
     },
+    "./haidilao": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/haidilao.vue"
+    },
     "./hail": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/hail.vue"
@@ -24365,6 +24565,14 @@
     "./hamtrainer": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/hamtrainer.vue"
+    },
+    "./hana-one-q": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hana-one-q.vue"
+    },
+    "./hana-pay": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hana-pay.vue"
     },
     "./hanafuda-koi-koi-dojo": {
       "types": "./types/dd0bq22g.d.ts",
@@ -24577,6 +24785,10 @@
     "./hayago": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/hayago.vue"
+    },
+    "./hayase": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hayase.vue"
     },
     "./hayhay": {
       "types": "./types/dd0bq22g.d.ts",
@@ -25294,9 +25506,29 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/homepass.vue"
     },
+    "./homepro": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/homepro.vue"
+    },
+    "./homepro-business": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/homepro-business.vue"
+    },
+    "./homepro-fittile": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/homepro-fittile.vue"
+    },
+    "./homepro-homecard": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/homepro-homecard.vue"
+    },
     "./homescapes": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/homescapes.vue"
+    },
+    "./hometax": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hometax.vue"
     },
     "./homewav": {
       "types": "./types/dd0bq22g.d.ts",
@@ -25578,6 +25810,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/huafetcher.vue"
     },
+    "./huantai-toolbox": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/huantai-toolbox.vue"
+    },
     "./huawaihealth": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/huawaihealth.vue"
@@ -25730,6 +25966,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/huaweisystemmanager.vue"
     },
+    "./huazhu-club": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/huazhu-club.vue"
+    },
     "./hub": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/hub.vue"
@@ -25745,6 +25985,10 @@
     "./hubrowser": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/hubrowser.vue"
+    },
+    "./hubspace": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hubspace.vue"
     },
     "./hubspot": {
       "types": "./types/dd0bq22g.d.ts",
@@ -26221,6 +26465,10 @@
     "./idtech4aplusplus": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/i/idtech4aplusplus.vue"
+    },
+    "./idv": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/idv.vue"
     },
     "./iegeek-cam": {
       "types": "./types/dd0bq22g.d.ts",
@@ -26729,6 +26977,10 @@
     "./inmage": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/i/inmage.vue"
+    },
+    "./innawoods": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/innawoods.vue"
     },
     "./innertune": {
       "types": "./types/dd0bq22g.d.ts",
@@ -27258,6 +27510,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/i/isotopebrowser.vue"
     },
+    "./ispeed": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/ispeed.vue"
+    },
     "./iss-detector": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/i/iss-detector.vue"
@@ -27658,6 +27914,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/j/jenius.vue"
     },
+    "./jeongbu24": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jeongbu24.vue"
+    },
     "./jerboa-for-lemmy": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/j/jerboa-for-lemmy.vue"
@@ -27709,6 +27969,10 @@
     "./jimmy-johns": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/j/jimmy-johns.vue"
+    },
+    "./jimoty": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jimoty.vue"
     },
     "./jinovel": {
       "types": "./types/dd0bq22g.d.ts",
@@ -27829,6 +28093,10 @@
     "./jobthai": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/j/jobthai.vue"
+    },
+    "./jobthai-maps": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jobthai-maps.vue"
     },
     "./jockey": {
       "types": "./types/dd0bq22g.d.ts",
@@ -28238,6 +28506,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/k/kaidee.vue"
     },
+    "./kaikatsu-club": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kaikatsu-club.vue"
+    },
     "./kaiteki": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/k/kaiteki.vue"
@@ -28358,6 +28630,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/k/kanopy.vue"
     },
+    "./kaomoji": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kaomoji.vue"
+    },
     "./kapitalbank-online": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/k/kapitalbank-online.vue"
@@ -28385,6 +28661,10 @@
     "./karakeep": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/k/karakeep.vue"
+    },
+    "./karaoke-manekineko": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/karaoke-manekineko.vue"
     },
     "./kari": {
       "types": "./types/dd0bq22g.d.ts",
@@ -28626,6 +28906,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/k/kernelsu.vue"
     },
+    "./kernelsu-next": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kernelsu-next.vue"
+    },
     "./kerry-express": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/k/kerry-express.vue"
@@ -28817,6 +29101,10 @@
     "./kidsdee": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/k/kidsdee.vue"
+    },
+    "./kidsfox": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kidsfox.vue"
     },
     "./kidzsearch": {
       "types": "./types/dd0bq22g.d.ts",
@@ -29246,6 +29534,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/k/kopieid.vue"
     },
+    "./korail": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/korail.vue"
+    },
     "./kore": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/k/kore.vue"
@@ -29606,6 +29898,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/k/kuveyt-turk.vue"
     },
+    "./kuwo-player": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kuwo-player.vue"
+    },
     "./kvaesitso": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/k/kvaesitso.vue"
@@ -29730,6 +30026,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/l/lalamove.vue"
     },
+    "./lalamove-driver": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lalamove-driver.vue"
+    },
     "./lamar-idle-vlogger": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/l/lamar-idle-vlogger.vue"
@@ -29849,6 +30149,10 @@
     "./laresmart": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/l/laresmart.vue"
+    },
+    "./lark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lark.vue"
     },
     "./lark-player": {
       "types": "./types/dd0bq22g.d.ts",
@@ -30074,6 +30378,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/l/leap-day.vue"
     },
+    "./leap-top-up": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/leap-top-up.vue"
+    },
     "./learn-candlestick-patterns": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/l/learn-candlestick-patterns.vue"
@@ -30185,6 +30493,10 @@
     "./legrand-control": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/l/legrand-control.vue"
+    },
+    "./leinelapp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/leinelapp.vue"
     },
     "./leipzig-move": {
       "types": "./types/dd0bq22g.d.ts",
@@ -31230,6 +31542,18 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/l/line-man.vue"
     },
+    "./line-man-driver": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/line-man-driver.vue"
+    },
+    "./line-man-mart-partner": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/line-man-mart-partner.vue"
+    },
+    "./line-man-rider": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/line-man-rider.vue"
+    },
     "./line-manga": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/l/line-manga.vue"
@@ -31610,6 +31934,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/l/livedv.vue"
     },
+    "./livelo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/livelo.vue"
+    },
     "./livemagicscreen": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/l/livemagicscreen.vue"
@@ -31641,6 +31969,10 @@
     "./living": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/l/living.vue"
+    },
+    "./livpure-service": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/livpure-service.vue"
     },
     "./livres-de-proches": {
       "types": "./types/dd0bq22g.d.ts",
@@ -32009,6 +32341,10 @@
     "./lowell": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/l/lowell.vue"
+    },
+    "./lower-brightness": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lower-brightness.vue"
     },
     "./lowes": {
       "types": "./types/dd0bq22g.d.ts",
@@ -32702,6 +33038,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/manyverse.vue"
     },
+    "./maoyan": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/maoyan.vue"
+    },
     "./map": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/map.vue"
@@ -33109,6 +33449,10 @@
     "./maybank": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/maybank.vue"
+    },
+    "./maybank-invest": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/maybank-invest.vue"
     },
     "./maybank-m2u-sg": {
       "types": "./types/dd0bq22g.d.ts",
@@ -33970,6 +34314,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/meuinss.vue"
     },
+    "./mevo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mevo.vue"
+    },
     "./mewe": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/mewe.vue"
@@ -34402,6 +34750,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/midas.vue"
     },
+    "./midea-smart-home": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/midea-smart-home.vue"
+    },
     "./midgt": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/midgt.vue"
@@ -34461,6 +34813,14 @@
     "./mihon": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/mihon.vue"
+    },
+    "./mihon-alt-1": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mihon-alt-1.vue"
+    },
+    "./mihon-alt-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mihon-alt-2.vue"
     },
     "./miitomo": {
       "types": "./types/dd0bq22g.d.ts",
@@ -35394,6 +35754,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/monese.vue"
     },
+    "./monet-line-icon-pack": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/monet-line-icon-pack.vue"
+    },
     "./moneta-smart-banka": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/moneta-smart-banka.vue"
@@ -36038,6 +36402,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/mthai.vue"
     },
+    "./mticket": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mticket.vue"
+    },
     "./mtickets": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/mtickets.vue"
@@ -36249,6 +36617,10 @@
     "./music-alt-3": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/music-alt-3.vue"
+    },
+    "./music-assistant": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/music-assistant.vue"
     },
     "./music-bowers-and-wilkins": {
       "types": "./types/dd0bq22g.d.ts",
@@ -36605,6 +36977,10 @@
     "./my-qsc-mobile-3": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/my-qsc-mobile-3.vue"
+    },
+    "./my-rabbit": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/my-rabbit.vue"
     },
     "./my-rakuten-mobile": {
       "types": "./types/dd0bq22g.d.ts",
@@ -37174,6 +37550,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/mysterium-vpn.vue"
     },
+    "./mystop": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mystop.vue"
+    },
     "./mysubaru": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/mysubaru.vue"
@@ -37318,6 +37698,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/mzabaps.vue"
     },
+    "./mzus": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mzus.vue"
+    },
     "./n-dial": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/n/n-dial.vue"
@@ -37446,6 +37830,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/n/nate.vue"
     },
+    "./national-network-identity-authentication": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/national-network-identity-authentication.vue"
+    },
     "./national-rail": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/n/national-rail.vue"
@@ -37502,6 +37890,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/n/navegante.vue"
     },
+    "./naver-blog": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/naver-blog.vue"
+    },
     "./naver-cafe": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/n/naver-cafe.vue"
@@ -37517,6 +37909,10 @@
     "./naver-memo": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/n/naver-memo.vue"
+    },
+    "./naver-pay": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/naver-pay.vue"
     },
     "./naver-prism": {
       "types": "./types/dd0bq22g.d.ts",
@@ -37642,6 +38038,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/n/nds4droid.vue"
     },
+    "./nearby-glasses": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nearby-glasses.vue"
+    },
     "./nearby-sharing-windows": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/n/nearby-sharing-windows.vue"
@@ -37701,6 +38101,10 @@
     "./neewer-studio": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/n/neewer-studio.vue"
+    },
+    "./neighborhood-gs": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/neighborhood-gs.vue"
     },
     "./nekkoto": {
       "types": "./types/dd0bq22g.d.ts",
@@ -38782,6 +39186,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/n/noroot-firewall.vue"
     },
+    "./norsk-tipping": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/norsk-tipping.vue"
+    },
     "./norton-360": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/n/norton-360.vue"
@@ -39237,6 +39645,10 @@
     "./noxcleaner": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/n/noxcleaner.vue"
+    },
+    "./np-manager": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/np-manager.vue"
     },
     "./nperf": {
       "types": "./types/dd0bq22g.d.ts",
@@ -39985,6 +40397,18 @@
     "./ollama": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/o/ollama.vue"
+    },
+    "./ollee": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/ollee.vue"
+    },
+    "./ollee-v2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/ollee-v2.vue"
+    },
+    "./ollee-v3": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/ollee-v3.vue"
     },
     "./olvid": {
       "types": "./types/dd0bq22g.d.ts",
@@ -41245,6 +41669,10 @@
     "./ozon-bank": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/o/ozon-bank.vue"
+    },
+    "./p-i-bergen": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/p-i-bergen.vue"
     },
     "./p-service": {
       "types": "./types/dd0bq22g.d.ts",
@@ -43806,6 +44234,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/pong.vue"
     },
+    "./ponta": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/ponta.vue"
+    },
     "./pontiac": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/pontiac.vue"
@@ -44486,6 +44918,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/pronote.vue"
     },
+    "./pronto": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pronto.vue"
+    },
     "./proofmode": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/proofmode.vue"
@@ -44713,6 +45149,10 @@
     "./pubtran": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/pubtran.vue"
+    },
+    "./puffer": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/puffer.vue"
     },
     "./pug-pad": {
       "types": "./types/dd0bq22g.d.ts",
@@ -45090,6 +45530,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/q/quark-browser.vue"
     },
+    "./quark-cloud-drive": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/quark-cloud-drive.vue"
+    },
     "./quasseldroid": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/q/quasseldroid.vue"
@@ -45266,6 +45710,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/q/quit-tracker.vue"
     },
+    "./quits": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/quits.vue"
+    },
     "./quitsure": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/q/quitsure.vue"
@@ -45365,6 +45813,10 @@
     "./raag": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/r/raag.vue"
+    },
+    "./rabbit-merchant": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rabbit-merchant.vue"
     },
     "./rabbitescape": {
       "types": "./types/dd0bq22g.d.ts",
@@ -46390,6 +46842,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/r/replit.vue"
     },
+    "./repo-store": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/repo-store.vue"
+    },
     "./reproductor-nacional": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/r/reproductor-nacional.vue"
@@ -47378,6 +47834,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/saber.vue"
     },
+    "./sable": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sable.vue"
+    },
     "./saccas": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/saccas.vue"
@@ -47666,6 +48126,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/samsung-print-service-plugin.vue"
     },
+    "./samsung-reminder": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/samsung-reminder.vue"
+    },
     "./samsung-secure": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/samsung-secure.vue"
@@ -47677,6 +48141,10 @@
     "./samsung-shop": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/samsung-shop.vue"
+    },
+    "./samsung-smart-collection": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/samsung-smart-collection.vue"
     },
     "./samsung-smart-manager-china": {
       "types": "./types/dd0bq22g.d.ts",
@@ -47809,6 +48277,10 @@
     "./satori-reader": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/satori-reader.vue"
+    },
+    "./sats": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sats.vue"
     },
     "./satstat": {
       "types": "./types/dd0bq22g.d.ts",
@@ -48049,6 +48521,10 @@
     "./schoolboy-runaway": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/schoolboy-runaway.vue"
+    },
+    "./schoolfox": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/schoolfox.vue"
     },
     "./schulcloud": {
       "types": "./types/dd0bq22g.d.ts",
@@ -48470,6 +48946,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/seloger.vue"
     },
+    "./selphy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/selphy.vue"
+    },
     "./semitone": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/semitone.vue"
@@ -48689,6 +49169,10 @@
     "./setup-and-transfer": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/setup-and-transfer.vue"
+    },
+    "./sevengrid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sevengrid.vue"
     },
     "./sevenly": {
       "types": "./types/dd0bq22g.d.ts",
@@ -48941,6 +49425,10 @@
     "./shiftmanager-pro": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/shiftmanager-pro.vue"
+    },
+    "./shihuo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/shihuo.vue"
     },
     "./shimeji": {
       "types": "./types/dd0bq22g.d.ts",
@@ -49226,6 +49714,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/signaturespoofingchecker.vue"
     },
+    "./sigstick": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sigstick.vue"
+    },
     "./siilo": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/siilo.vue"
@@ -49397,6 +49889,10 @@
     "./simplesearch": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/simplesearch.vue"
+    },
+    "./simplesshd": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/simplesshd.vue"
     },
     "./simpletask": {
       "types": "./types/dd0bq22g.d.ts",
@@ -49745,6 +50241,10 @@
     "./skymap": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/skymap.vue"
+    },
+    "./skymap-alt": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/skymap-alt.vue"
     },
     "./skype": {
       "types": "./types/dd0bq22g.d.ts",
@@ -51190,6 +51690,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/sportschau.vue"
     },
+    "./sportsnet": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sportsnet.vue"
+    },
     "./sportsyou": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/sportsyou.vue"
@@ -51462,6 +51966,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/stadtradeln.vue"
     },
+    "./stafflinq": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stafflinq.vue"
+    },
     "./stagecoach": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/stagecoach.vue"
@@ -51665,6 +52173,10 @@
     "./steam-chat": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/steam-chat.vue"
+    },
+    "./steam-controller": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/steam-controller.vue"
     },
     "./steam-deck": {
       "types": "./types/dd0bq22g.d.ts",
@@ -52834,6 +53346,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/t-graffiti.vue"
     },
+    "./t-membership": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/t-membership.vue"
+    },
     "./t-mobile": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/t-mobile.vue"
@@ -52861,6 +53377,10 @@
     "./tabby": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/tabby.vue"
+    },
+    "./tabelog": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tabelog.vue"
     },
     "./tabii": {
       "types": "./types/dd0bq22g.d.ts",
@@ -53390,6 +53910,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/team-fight-tactics.vue"
     },
+    "./teamfox": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/teamfox.vue"
+    },
     "./teampulse": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/teampulse.vue"
@@ -53405,6 +53929,14 @@
     "./teamward": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/teamward.vue"
+    },
+    "./teamworks": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/teamworks.vue"
+    },
+    "./teamworks-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/teamworks-2.vue"
     },
     "./teapod": {
       "types": "./types/dd0bq22g.d.ts",
@@ -53650,6 +54182,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/tenshi.vue"
     },
+    "./tents": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tents.vue"
+    },
     "./teo": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/teo.vue"
@@ -53842,6 +54378,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/textra.vue"
     },
+    "./tfi-live": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tfi-live.vue"
+    },
     "./tfiletransfer": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/tfiletransfer.vue"
@@ -53909,6 +54449,14 @@
     "./thaiger-news": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/thaiger-news.vue"
+    },
+    "./thailand-buddhist-calendar": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/thailand-buddhist-calendar.vue"
+    },
+    "./thaimart": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/thaimart.vue"
     },
     "./thainakarin-connect": {
       "types": "./types/dd0bq22g.d.ts",
@@ -54390,6 +54938,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/tigad.vue"
     },
+    "./tiger-openspace": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tiger-openspace.vue"
+    },
     "./tigps": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/tigps.vue"
@@ -54429,6 +54981,10 @@
     "./tiktok-plugin": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/tiktok-plugin.vue"
+    },
+    "./tiktok-shop": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tiktok-shop.vue"
     },
     "./tiktok-studio": {
       "types": "./types/dd0bq22g.d.ts",
@@ -54650,6 +55206,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/tisseo.vue"
     },
+    "./tissot-connect": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tissot-connect.vue"
+    },
     "./tistory": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/tistory.vue"
@@ -54710,6 +55270,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/tltsimply.vue"
     },
+    "./tmd-forecast": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tmd-forecast.vue"
+    },
     "./tmobile-internet": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/tmobile-internet.vue"
@@ -54717,6 +55281,10 @@
     "./tmobilitat": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/tmobilitat.vue"
+    },
+    "./tmoney-go": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tmoney-go.vue"
     },
     "./tmshappinest": {
       "types": "./types/dd0bq22g.d.ts",
@@ -55173,6 +55741,10 @@
     "./touchosc": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/touchosc.vue"
+    },
+    "./touchscreen-repair": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/touchscreen-repair.vue"
     },
     "./touchtunes": {
       "types": "./types/dd0bq22g.d.ts",
@@ -56430,6 +57002,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/u/ubox.vue"
     },
+    "./ubs-access": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/ubs-access.vue"
+    },
     "./ubs-banking": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/u/ubs-banking.vue"
@@ -56501,6 +57077,10 @@
     "./ufficiopostale": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/u/ufficiopostale.vue"
+    },
+    "./ugreen-nas": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/ugreen-nas.vue"
     },
     "./uhc": {
       "types": "./types/dd0bq22g.d.ts",
@@ -57086,6 +57666,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/u/usagedirect.vue"
     },
+    "./usamedic-flashcards": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/usamedic-flashcards.vue"
+    },
     "./usb": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/u/usb.vue"
@@ -57414,6 +57998,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/v/veganradar.vue"
     },
+    "./vela-maps": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vela-maps.vue"
+    },
     "./velobank": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/v/velobank.vue"
@@ -57533,6 +58121,10 @@
     "./vespucci": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/v/vespucci.vue"
+    },
+    "./vespucci-alt": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vespucci-alt.vue"
     },
     "./vessel-lights": {
       "types": "./types/dd0bq22g.d.ts",
@@ -57657,6 +58249,10 @@
     "./video": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/v/video.vue"
+    },
+    "./video-creator": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/video-creator.vue"
     },
     "./video-downloader": {
       "types": "./types/dd0bq22g.d.ts",
@@ -57913,6 +58509,10 @@
     "./visecaone": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/v/visecaone.vue"
+    },
+    "./vishal-megamart": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vishal-megamart.vue"
     },
     "./visible": {
       "types": "./types/dd0bq22g.d.ts",
@@ -59190,6 +59790,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/w/wester.vue"
     },
+    "./western-union": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/western-union.vue"
+    },
     "./westjet": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/w/westjet.vue"
@@ -60429,6 +61033,10 @@
     "./xunlei-welfare": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/x/xunlei-welfare.vue"
+    },
+    "./y-car-navi": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/y/y-car-navi.vue"
     },
     "./y-connect": {
       "types": "./types/dd0bq22g.d.ts",

@@ -1,0 +1,27 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="blhy2lbty"/><path class="hfixygb0t"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:repo-store" /></template>
+<style>
+.blhy2lbty {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M41.055 27.738c1.35-.727 2.284-2.18 2.284-3.738c-.104-1.557-1.038-3.01-2.388-3.738L15.202 5.623C14.58 5.208 13.75 5 12.918 5C10.945 5 9.18 6.35 8.765 8.115c-.104.311-.104.727-.104 1.142v29.59c0 .415 0 .727.104 1.142v-.104C9.285 41.65 10.945 43 12.918 43q1.245 0 2.18-.623z");
+}
+
+.hfixygb0t {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M19.885 31.41v-1.689c-2.776.602-3.35-1.332-3.35-1.332a2.64 2.64 0 0 0-1.125-1.476c-.902-.616.07-.606.07-.606c.638.09 1.2.468 1.522 1.027c.889 1.522 2.314 1.083 2.897.828c.045-.506.27-.978.633-1.332c-2.211-.25-4.534-1.102-4.534-4.914a3.84 3.84 0 0 1 1.027-2.67a3.55 3.55 0 0 1 .097-2.633s.833-.268 2.735 1.018a9.47 9.47 0 0 1 4.979 0c1.901-1.286 2.734-1.018 2.734-1.018c.366.834.4 1.775.097 2.633a3.83 3.83 0 0 1 1.023 2.67c0 3.822-2.314 4.66-4.54 4.909c.484.49.73 1.165.676 1.85v2.73m-5.336-9.948v1.082m5.783-1.082v1.082");
+}
+
+</style>

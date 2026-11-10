@@ -11,6 +11,11 @@ Browse all icons: [preview Arcticons on Iconify](https://icon-sets.iconify.desig
 ## Installation
 
 ```bash
+npm install gitlab:iconify-icons/vue#arcticons
+```
+
+or
+```bash
 npm install github:iconify/icons-vue#arcticons
 ```
 
@@ -22,7 +27,7 @@ Few usage examples:
 
 ```vue
 <script setup lang="ts">
-import SampleIcon from '@iconify-vue/arcticons/paperlaunch';
+import SampleIcon from '@iconify-vue/arcticons/instagram';
 </script>
 <template>
   <SampleIcon />
@@ -33,7 +38,7 @@ To resize icon, set `width` and/or `height` parameters:
 
 ```vue
 <script setup lang="ts">
-import SampleIcon from '@iconify-vue/arcticons/gravadordevoz';
+import SampleIcon from '@iconify-vue/arcticons/color-capture';
 </script>
 <template>
   <SampleIcon height="1em" />
@@ -44,7 +49,7 @@ To change icon color, use style:
 
 ```vue
 <script setup lang="ts">
-import SampleIcon from '@iconify-vue/arcticons/appstract';
+import SampleIcon from '@iconify-vue/arcticons/color-capture';
 </script>
 <template>
   <SampleIcon style="color: red;" />

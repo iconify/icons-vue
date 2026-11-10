@@ -1,0 +1,43 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="xm9uzjeuh"/><path class="ogm30rhkk"/><path class="uhrqqabcj"/><path class="zfxit8z1v"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:china-broadnet" /></template>
+<style>
+.ogm30rhkk {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M32.97 29.175C28.121 19.665 19.245 7.888 9.666 8.196");
+}
+
+.uhrqqabcj {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M34.302 23.212C28.699 13.885 20.196 6.617 13.245 5.465m21.666 12.519c-4.13-6.497-12.387-13.343-17.85-14.062m19.279 10.31C32.398 9.435 26.504 4.32 21.792 2.836m15.006 7.072c-2.794-3.04-6.313-5.51-8.76-6.973M15.03 18.825c4.849 9.51 13.725 21.287 23.304 20.979");
+}
+
+.xm9uzjeuh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M45.5 24c0 11.874-9.626 21.5-21.5 21.5S2.5 35.874 2.5 24S12.126 2.5 24 2.5S45.5 12.126 45.5 24");
+}
+
+.zfxit8z1v {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M13.698 24.788c5.603 9.327 14.106 16.595 21.057 17.747M13.089 30.016c4.13 6.497 12.387 13.343 17.85 14.062M11.66 33.768c3.942 4.797 9.836 9.911 14.548 11.396m-15.006-7.072c2.794 3.04 6.313 5.51 8.76 6.973");
+}
+
+</style>

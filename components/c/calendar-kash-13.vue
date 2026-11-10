@@ -4,43 +4,32 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<g class="y9tr6bcfx"><path class="xwr0lcb9b"/><path class="h5tbgk0yu"/></g><g class="to-5kdesz"><path class="wfpy3gbmy"/><path class="lw4f_pt4y"/><path class="is-ytvijl"/></g>`;
+const content = `<path class="xhr24h_bd"/><path class="mi0uicbor"/><path class="vin3c0qkg"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:calendar-kash-13" /></template>
 <style>
-.h5tbgk0yu {
-  d: path("M23.675 26.86c.775-.645 1.61-.94 3.485-.935l.436.003a2.8 2.8 0 0 1 0 5.599m-2.152-.001h2.152");
-}
-
-.is-ytvijl {
-  d: path("M39.9 16.105a3.985 3.985 0 1 0 0-7.97c-.086 0-.167.02-.253.025c-.653-2.124-2.608-3.677-4.946-3.677S30.41 6.036 29.755 8.16c-.085-.005-.166-.025-.252-.025a3.985 3.985 0 1 0 0 7.97z");
-}
-
-.lw4f_pt4y {
-  stroke-linecap: round;
-  d: path("M39.9 16.105v23.412a4 4 0 0 1-4 4h-25a4 4 0 0 1-4-4v-25a4 4 0 0 1 4-4h14.953m-12.96-3l.015 6");
-}
-
-.to-5kdesz {
-  fill: none;
-  stroke: currentColor;
-  stroke-linejoin: round;
-}
-
-.wfpy3gbmy {
-  stroke-linecap: round;
-  d: path("M39.9 19.661h-33m33-3.556v23.412a4 4 0 0 1-4 4h-25a4 4 0 0 1-4-4v-25a4 4 0 0 1 4-4h14.953");
-}
-
-.xwr0lcb9b {
-  d: path("m16.587 27.465l2.8-1.54m0 0v11.2m4.289-.945c.774.648 1.608.945 3.483.945h.437a2.8 2.8 0 0 0 0-5.599");
-}
-
-.y9tr6bcfx {
+.mi0uicbor {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
+  d: path("M38.276 8.758a3.445 3.445 0 0 1-3.273 3.614c-1.908.1-3.536-1.357-3.636-3.254c-.1-1.896 1.366-3.514 3.274-3.613s3.535 1.357 3.635 3.253M15.195 21.18l3.395-2.105m0 0l.732 13.98m5.292-1.459c1.008.758 2.07 1.074 4.41.951l.544-.028a3.5 3.5 0 0 0-.366-6.989");
+}
+
+.vin3c0qkg {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M24.003 19.962c.925-.857 1.949-1.28 4.29-1.396l.543-.025a3.5 3.5 0 0 1 .366 6.989m-2.686.14l2.686-.14");
+}
+
+.xhr24h_bd {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("m32.692 6.098l-20.727 1.08c-2.453.128-4.337 2.208-4.209 4.646L9.153 38.31c.129 2.438 2.221 4.31 4.674 4.183l22.208-1.157c2.453-.128 4.337-2.208 4.209-4.646l-1.397-26.487a4.4 4.4 0 0 0-.635-2.057");
 }
 
 </style>

@@ -4,36 +4,24 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="a89q5k8-s"/><g class="to-5kdesz"><path class="wfpy3gbmy"/><path class="lw4f_pt4y"/><path class="is-ytvijl"/></g>`;
+const content = `<path class="xhr24h_bd"/><path class="lujyrsmaa"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:calendar-kash-12" /></template>
 <style>
-.a89q5k8-s {
+.lujyrsmaa {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("m16.653 27.465l2.8-1.54m0 0v11.2m3.983-7.466c0-2.074 1.66-3.734 3.595-3.734s3.734 1.66 3.734 3.734c0 .968-.415 1.935-1.107 2.627c-1.52 1.244-6.222 4.84-6.222 4.84h7.329");
+  d: path("M38.276 8.758a3.445 3.445 0 0 1-3.273 3.614c-1.908.1-3.536-1.357-3.636-3.254c-.1-1.896 1.366-3.514 3.274-3.613s3.535 1.357 3.635 3.253M15.005 21.19l3.395-2.105m0 0l.732 13.98m4.484-9.58c-.135-2.59 1.827-4.77 4.244-4.896s4.769 1.827 4.904 4.416c.064 1.208-.39 2.444-1.209 3.352c-1.817 1.653-7.45 6.448-7.45 6.448l9.148-.48");
 }
 
-.is-ytvijl {
-  d: path("M39.9 16.105a3.985 3.985 0 1 0 0-7.97c-.086 0-.167.02-.253.025c-.653-2.124-2.608-3.677-4.946-3.677S30.41 6.036 29.755 8.16c-.085-.005-.166-.025-.252-.025a3.985 3.985 0 1 0 0 7.97z");
-}
-
-.lw4f_pt4y {
-  stroke-linecap: round;
-  d: path("M39.9 16.105v23.412a4 4 0 0 1-4 4h-25a4 4 0 0 1-4-4v-25a4 4 0 0 1 4-4h14.953m-12.96-3l.015 6");
-}
-
-.to-5kdesz {
+.xhr24h_bd {
   fill: none;
   stroke: currentColor;
-  stroke-linejoin: round;
-}
-
-.wfpy3gbmy {
   stroke-linecap: round;
-  d: path("M39.9 19.661h-33m33-3.556v23.412a4 4 0 0 1-4 4h-25a4 4 0 0 1-4-4v-25a4 4 0 0 1 4-4h14.953");
+  stroke-linejoin: round;
+  d: path("m32.692 6.098l-20.727 1.08c-2.453.128-4.337 2.208-4.209 4.646L9.153 38.31c.129 2.438 2.221 4.31 4.674 4.183l22.208-1.157c2.453-.128 4.337-2.208 4.209-4.646l-1.397-26.487a4.4 4.4 0 0 0-.635-2.057");
 }
 
 </style>

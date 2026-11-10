@@ -1,0 +1,35 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="bi2y64cqg"/><path class="ujoh4xbpa"/><path class="jrxfnpb1t"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:samsung-smart-collection" /></template>
+<style>
+.bi2y64cqg {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M10.677 5.565h18.258a5.166 5.166 0 0 1 5.177 5.155v18.15a5.166 5.166 0 0 1-5.156 5.176H10.677A5.166 5.166 0 0 1 5.5 28.894V10.74a5.166 5.166 0 0 1 5.155-5.177h.022");
+}
+
+.jrxfnpb1t {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M38.225 14.03a5.165 5.165 0 0 1 4.275 5.1v18.13a5.166 5.166 0 0 1-5.155 5.177h-18.28a5.165 5.165 0 0 1-5.1-4.276m5.841-24.453c.716 0 1.749 3.087 2.328 3.507c.579.421 3.834.45 4.055 1.13c.221.681-2.396 2.618-2.617 3.3c-.221.68.758 3.785.179 4.206s-3.23-1.47-3.945-1.47s-3.366 1.89-3.945 1.47s.4-3.526.18-4.207c-.222-.68-2.84-2.618-2.618-3.299c.221-.68 3.477-.709 4.056-1.13s1.611-3.508 2.327-3.508");
+}
+
+.ujoh4xbpa {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M34.03 9.837a5.165 5.165 0 0 1 4.276 5.099v18.13a5.166 5.166 0 0 1-5.156 5.175H14.871a5.165 5.165 0 0 1-5.1-4.272");
+}
+
+</style>

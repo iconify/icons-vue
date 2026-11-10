@@ -4,36 +4,24 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="i1_wpwruq"/><g class="to-5kdesz"><path class="wfpy3gbmy"/><path class="lw4f_pt4y"/><path class="is-ytvijl"/></g>`;
+const content = `<path class="xhr24h_bd"/><path class="sf4qyccbd"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="arcticons:calendar-kash-20" /></template>
 <style>
-.i1_wpwruq {
+.sf4qyccbd {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M24.657 33.392c0 2.074 1.66 3.733 3.733 3.733s3.595-1.66 3.595-3.733v-3.733c0-2.074-1.659-3.734-3.595-3.734s-3.733 1.66-3.733 3.734zm-9.944-3.733c0-2.074 1.66-3.734 3.595-3.734s3.733 1.66 3.733 3.734c0 .968-.415 1.935-1.106 2.627c-1.521 1.244-6.222 4.84-6.222 4.84h7.328");
+  d: path("M38.276 8.758a3.445 3.445 0 0 1-3.273 3.614c-1.908.1-3.536-1.357-3.636-3.254c-.1-1.896 1.366-3.514 3.274-3.613s3.535 1.357 3.635 3.253M25.833 28.041a4.647 4.647 0 0 0 4.905 4.416c2.589-.136 4.379-2.306 4.243-4.895l-.244-4.66c-.136-2.59-2.315-4.552-4.732-4.426c-2.416.127-4.552 2.316-4.416 4.905zm-12.657-4.009c-.136-2.59 1.827-4.77 4.243-4.896s4.77 1.827 4.905 4.416c.063 1.208-.391 2.444-1.21 3.352c-1.816 1.653-7.45 6.448-7.45 6.448l9.148-.48");
 }
 
-.is-ytvijl {
-  d: path("M39.9 16.105a3.985 3.985 0 1 0 0-7.97c-.086 0-.167.02-.253.025c-.653-2.124-2.608-3.677-4.946-3.677S30.41 6.036 29.755 8.16c-.085-.005-.166-.025-.252-.025a3.985 3.985 0 1 0 0 7.97z");
-}
-
-.lw4f_pt4y {
-  stroke-linecap: round;
-  d: path("M39.9 16.105v23.412a4 4 0 0 1-4 4h-25a4 4 0 0 1-4-4v-25a4 4 0 0 1 4-4h14.953m-12.96-3l.015 6");
-}
-
-.to-5kdesz {
+.xhr24h_bd {
   fill: none;
   stroke: currentColor;
-  stroke-linejoin: round;
-}
-
-.wfpy3gbmy {
   stroke-linecap: round;
-  d: path("M39.9 19.661h-33m33-3.556v23.412a4 4 0 0 1-4 4h-25a4 4 0 0 1-4-4v-25a4 4 0 0 1 4-4h14.953");
+  stroke-linejoin: round;
+  d: path("m32.692 6.098l-20.727 1.08c-2.453.128-4.337 2.208-4.209 4.646L9.153 38.31c.129 2.438 2.221 4.31 4.674 4.183l22.208-1.157c2.453-.128 4.337-2.208 4.209-4.646l-1.397-26.487a4.4 4.4 0 0 0-.635-2.057");
 }
 
 </style>

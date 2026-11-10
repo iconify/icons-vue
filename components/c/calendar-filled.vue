@@ -1,12 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/o/olnv4zb1i.css';
-import '../../css/z/zceqwoblb.css';
+import '../../css/a/ax-j1ibyz.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="cuyn6tgcc"><path class="olnv4zb1i"/><path class="zceqwoblb"/></g>`;
+const content = `<path class="ax-j1ibyz"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="tabler:calendar-filled" /></template>

@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/devicon",
   "type": "module",
-  "version": "1.0.37",
+  "version": "1.0.38",
   "homepage": "https://icon-sets.iconify.design/devicon/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -557,6 +557,14 @@
     "./chartjs-wordmark": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/chartjs-wordmark.vue"
+    },
+    "./checkmk": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/checkmk.vue"
+    },
+    "./checkmk-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/checkmk-wordmark.vue"
     },
     "./chrome": {
       "types": "./types/dd0bq22g.d.ts",
@@ -1422,6 +1430,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/glitch.vue"
     },
+    "./gnome": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gnome.vue"
+    },
+    "./gnome-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gnome-wordmark.vue"
+    },
     "./gnu": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/gnu.vue"
@@ -1513,6 +1529,14 @@
     "./groovy": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/groovy.vue"
+    },
+    "./groq": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/groq.vue"
+    },
+    "./groq-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/groq-wordmark.vue"
     },
     "./grpc": {
       "types": "./types/dd0bq22g.d.ts",
@@ -2514,6 +2538,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/n/nginx.vue"
     },
+    "./nginx-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nginx-wordmark.vue"
+    },
     "./ngrok": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/n/ngrok.vue"
@@ -2749,6 +2777,10 @@
     "./oracle": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/o/oracle.vue"
+    },
+    "./oracle-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/oracle-wordmark.vue"
     },
     "./ory": {
       "types": "./types/dd0bq22g.d.ts",
@@ -3657,6 +3689,14 @@
     "./stackblitz-wordmark": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/stackblitz-wordmark.vue"
+    },
+    "./stackit": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stackit.vue"
+    },
+    "./stackit-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stackit-wordmark.vue"
     },
     "./stackoverflow": {
       "types": "./types/dd0bq22g.d.ts",

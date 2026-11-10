@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/cbi",
   "type": "module",
-  "version": "1.0.52",
+  "version": "1.0.53",
   "homepage": "https://icon-sets.iconify.design/cbi/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "CC-BY-NC-SA-4.0",
@@ -2186,6 +2186,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/ford.vue"
     },
+    "./fordpass": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fordpass.vue"
+    },
     "./fortaleza": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/fortaleza.vue"
@@ -4321,6 +4325,10 @@
     "./panel-oven": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/panel-oven.vue"
+    },
+    "./paperless-ngx": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/paperless-ngx.vue"
     },
     "./paramount": {
       "types": "./types/dd0bq22g.d.ts",

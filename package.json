@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/logos",
   "type": "module",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "homepage": "https://icon-sets.iconify.design/logos/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "CC0-1.0",
@@ -2161,6 +2161,10 @@
     "./deepgram-icon": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/deepgram-icon.vue"
+    },
+    "./deepgram-icon-mono": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/deepgram-icon-mono.vue"
     },
     "./deepinfra": {
       "types": "./types/dd0bq22g.d.ts",
@@ -4853,6 +4857,10 @@
     "./macos": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/macos.vue"
+    },
+    "./macos-icon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/macos-icon.vue"
     },
     "./macosx": {
       "types": "./types/dd0bq22g.d.ts",

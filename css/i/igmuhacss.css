@@ -1,0 +1,8 @@
+.igmuhacss {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M13.355 16H4a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v6.085M7 20h3.127M9 16v4m8 0l-1-1m2.586-.586a2 2 0 0 0 2.828-2.828a2 2 0 1 0-2.828 2.828M14 21l1 1l3.5-3.5");
+}

@@ -1,0 +1,7 @@
+.zcadaubyn {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M15.25 6H13.5L11 18H9.25M13.5 6h-2M11 18h2");
+}

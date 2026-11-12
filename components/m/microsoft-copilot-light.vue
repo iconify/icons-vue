@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/a/a53r7jbxn.css';
+import '../../css/m/mu0v_pbkt.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":512,"height":512};
-const content = `<path class="a53r7jbxn"/>`;
+const content = `<path class="mu0v_pbkt"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="selfhst:microsoft-copilot-light" /></template>

@@ -1,11 +1,11 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/f/fln_4q79i.css';
-import '../../css/m/m3_jbieof.css';
+import '../../css/p/pt6m2xbua.css';
+import '../../css/u/u9cjpybxq.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":512,"height":512};
-const content = `<path class="fln_4q79i"/><path class="m3_jbieof"/>`;
+const content = `<path class="pt6m2xbua"/><path class="u9cjpybxq"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="selfhst:sure-finance" /></template>

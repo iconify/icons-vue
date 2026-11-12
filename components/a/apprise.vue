@@ -10,6 +10,6 @@ import '../../css/q/ql53i-6ey.css';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":512,"height":512};
-const content = `<linearGradient id="SVGwQk6EdiP" x1="88.655" x2="423.345" y1="423.345" y2="88.656" gradientUnits="userSpaceOnUse"><stop offset="0" class="o0l691bcz"/><stop offset="1" class="l6tmoy3pj"/></linearGradient><ellipse fill="url(#SVGwQk6EdiP)" class="budlp3b4a"/><path class="wvf3su4pg"/><path class="l3gmxboke"/><path class="ql53i-6ey"/>`;
+const content = `<linearGradient id="SVGAlNw7wJP" x1="88.7" x2="423.3" y1="423.3" y2="88.7" gradientUnits="userSpaceOnUse"><stop offset="0" class="o0l691bcz"/><stop offset="1" class="l6tmoy3pj"/></linearGradient><ellipse fill="url(#SVGAlNw7wJP)" class="budlp3b4a"/><path class="wvf3su4pg"/><path class="l3gmxboke"/><path class="ql53i-6ey"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="selfhst:apprise" /></template>

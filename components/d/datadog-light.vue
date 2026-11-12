@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/b/bvs13wbop.css';
+import '../../css/i/i6rltuipt.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":512,"height":512};
-const content = `<path class="bvs13wbop"/>`;
+const content = `<path class="i6rltuipt"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="selfhst:datadog-light" /></template>

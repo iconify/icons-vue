@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/f/f2y3hnb5x.css';
+import '../../css/z/zb1elkbgg.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":512,"height":512};
-const content = `<path class="f2y3hnb5x"/>`;
+const content = `<path class="zb1elkbgg"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="selfhst:snapchat-light" /></template>

@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/l/l4fj0mnqe.css';
+import '../../css/q/q9lccb89g.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":512,"height":512};
-const content = `<path class="l4fj0mnqe"/>`;
+const content = `<path class="q9lccb89g"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="selfhst:pequeroku-light" /></template>

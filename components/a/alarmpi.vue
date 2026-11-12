@@ -1,11 +1,11 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
 import '../../css/o/o12gz742v.css';
-import '../../css/s/sl76bhbtp.css';
+import '../../css/v/v07hyobqv.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":512,"height":512};
-const content = `<circle class="o12gz742v"/><path class="sl76bhbtp"/>`;
+const content = `<circle class="o12gz742v"/><path class="v07hyobqv"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="selfhst:alarmpi" /></template>

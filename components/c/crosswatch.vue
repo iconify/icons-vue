@@ -8,6 +8,6 @@ import '../../css/q/q7o47tals.css';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":512,"height":512};
-const content = `<linearGradient id="SVGKpfBmbbD" x1="-17.537" x2="518.844" y1="167.598" y2="311.321" gradientUnits="userSpaceOnUse"><stop offset="0" class="wlzn5acfz"/><stop offset=".893" class="k4ib_nbps"/><stop offset="1" class="a50yp5blw"/></linearGradient><path fill="url(#SVGKpfBmbbD)" class="q7o47tals"/>`;
+const content = `<linearGradient id="SVGRVlhwdDH" x1="-17.5" x2="518.8" y1="167.6" y2="311.3" gradientUnits="userSpaceOnUse"><stop offset="0" class="wlzn5acfz"/><stop offset=".893" class="k4ib_nbps"/><stop offset="1" class="a50yp5blw"/></linearGradient><path fill="url(#SVGRVlhwdDH)" class="q7o47tals"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="selfhst:crosswatch" /></template>

@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/c/ctoz3fbuh.css';
+import '../../css/j/jxnlo4bej.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":512,"height":512};
-const content = `<path class="ctoz3fbuh"/>`;
+const content = `<path class="jxnlo4bej"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="selfhst:hanko-dark" /></template>

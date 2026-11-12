@@ -8,6 +8,6 @@ import '../../css/n/n48w_vb_i.css';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":512,"height":512};
-const content = `<linearGradient id="SVGeRgyNbBP" x1="253.986" x2="253.986" y1="279" y2="791.028" gradientTransform="translate(2 -279)" gradientUnits="userSpaceOnUse"><stop offset="0" class="fdfttbm9b"/><stop offset="1" class="yw-sn55so"/></linearGradient><path fill="url(#SVGeRgyNbBP)" class="ak99vsb_d"/><path class="n48w_vb_i"/>`;
+const content = `<linearGradient id="SVGstIU2dWl" x1="256" x2="256" y2="512" gradientUnits="userSpaceOnUse"><stop offset="0" class="fdfttbm9b"/><stop offset="1" class="yw-sn55so"/></linearGradient><path fill="url(#SVGstIU2dWl)" class="ak99vsb_d"/><path class="n48w_vb_i"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="selfhst:mastodon" /></template>

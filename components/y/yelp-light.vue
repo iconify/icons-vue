@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/o/ovgt16bgd.css';
+import '../../css/l/lyll-cbga.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":512,"height":512};
-const content = `<path class="ovgt16bgd"/>`;
+const content = `<path class="lyll-cbga"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="selfhst:yelp-light" /></template>

@@ -1,16 +1,14 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/o/o-it9rjbp.css';
-import '../../css/o/oamxgnbof.css';
-import '../../css/x/xj-1r8bev.css';
-import '../../css/u/u92_85blu.css';
-import '../../css/g/g0c3biwvw.css';
-import '../../css/t/tuk_p_mrb.css';
-import '../../css/p/pkkmpgpad.css';
+import '../../css/w/w2327-tyh.css';
+import '../../css/e/emweeejoz.css';
+import '../../css/r/r6vad2uub.css';
+import '../../css/x/x7-f5dbjn.css';
+import '../../css/d/db3lu7bhd.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":512,"height":512};
-const content = `<ellipse class="o-it9rjbp"/><path class="oamxgnbof"/><path class="xj-1r8bev"/><path class="u92_85blu"/><path class="g0c3biwvw"/><path class="tuk_p_mrb"/><path class="pkkmpgpad"/>`;
+const content = `<ellipse class="w2327-tyh"/><path class="emweeejoz"/><path class="r6vad2uub"/><path class="x7-f5dbjn"/><path class="db3lu7bhd"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="selfhst:microsoft-access-2018-dark" /></template>

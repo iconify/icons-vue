@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/s/shx8lpdkg.css';
+import '../../css/k/kwv0xcc4b.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":512,"height":512};
-const content = `<path class="shx8lpdkg"/>`;
+const content = `<path class="kwv0xcc4b"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="selfhst:bytestash-dark" /></template>

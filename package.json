@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/selfhst",
   "type": "module",
-  "version": "1.0.29",
+  "version": "1.0.30",
   "homepage": "https://icon-sets.iconify.design/selfhst/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "CC-BY-4.0",
@@ -8389,6 +8389,18 @@
     "./ghostty-light": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/ghostty-light.vue"
+    },
+    "./ghstats": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/ghstats.vue"
+    },
+    "./ghstats-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/ghstats-dark.vue"
+    },
+    "./ghstats-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/ghstats-light.vue"
     },
     "./gimp": {
       "types": "./types/dd0bq22g.d.ts",
@@ -19030,6 +19042,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/paypal-dark.vue"
     },
+    "./paypal-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/paypal-light.vue"
+    },
     "./payram": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/payram.vue"
@@ -19757,6 +19773,18 @@
     "./pkvault": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/pkvault.vue"
+    },
+    "./plain-week": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/plain-week.vue"
+    },
+    "./plain-week-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/plain-week-dark.vue"
+    },
+    "./plain-week-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/plain-week-light.vue"
     },
     "./plakar": {
       "types": "./types/dd0bq22g.d.ts",

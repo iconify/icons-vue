@@ -15,6 +15,6 @@ import '../../css/o/opmbv4bkz.css';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":512,"height":512};
-const content = `<path class="th386jpln"/><path class="zsrh_2z3y"/><linearGradient id="SVGamZ1G3gh" x1="287.196" x2="316.777" y1="342.192" y2="401.353" gradientUnits="userSpaceOnUse"><stop offset="0" class="fml5ckbqb"/><stop offset="1" class="lg4p9qung"/></linearGradient><path fill="url(#SVGamZ1G3gh)" class="jc356gcws"/><path class="hhtxpmudi"/><path class="v3r9qmb0s"/><path class="jlu6el72m"/><path class="qa_dwrqqa"/><path class="sxh3g2bgw"/><path class="opmbv4bkz"/>`;
+const content = `<path class="th386jpln"/><path class="zsrh_2z3y"/><linearGradient id="SVGawP2Nc9z" x1="287.2" x2="316.8" y1="342.2" y2="401.4" gradientUnits="userSpaceOnUse"><stop offset="0" class="fml5ckbqb"/><stop offset="1" class="lg4p9qung"/></linearGradient><path fill="url(#SVGawP2Nc9z)" class="jc356gcws"/><path class="hhtxpmudi"/><path class="v3r9qmb0s"/><path class="jlu6el72m"/><path class="qa_dwrqqa"/><path class="sxh3g2bgw"/><path class="opmbv4bkz"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="selfhst:redict" /></template>

@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/w/wzw45xbut.css';
+import '../../css/h/hp3swkbiq.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":512,"height":512};
-const content = `<path class="wzw45xbut"/>`;
+const content = `<path class="hp3swkbiq"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="selfhst:amazon-alexa" /></template>

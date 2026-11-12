@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/l/l07xxkbqg.css';
+import '../../css/j/jza233_yr.css';
 
 const props = defineProps(["width","height"]);
 
-const viewBox = {"width":500,"height":500};
-const content = `<path class="l07xxkbqg"/>`;
+const viewBox = {"width":512,"height":512};
+const content = `<path class="jza233_yr"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="selfhst:gotify-light" /></template>

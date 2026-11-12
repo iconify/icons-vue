@@ -6,7 +6,7 @@ import '../../css/t/tlhvmr7wn.css';
 import '../../css/s/sbhlqthrn.css';
 import '../../css/d/d3ylth70n.css';
 import '../../css/w/wv9394bem.css';
-import '../../css/a/aw3knacio.css';
+import '../../css/j/j97om_3gv.css';
 import '../../css/z/zmxxe0hyr.css';
 import '../../css/i/i64g1cchi.css';
 import '../../css/k/k00kklbdl.css';
@@ -21,14 +21,11 @@ import '../../css/p/pgwaucajy.css';
 import '../../css/y/y7xan2b7o.css';
 import '../../css/y/yq_usccei.css';
 import '../../css/k/kmqb81byb.css';
-import '../../css/i/i0vr1pbyv.css';
-import '../../css/u/u5zsl8jpw.css';
-import '../../css/s/sk3q0-1is.css';
+import '../../css/b/bq-1hrg4k.css';
+import '../../css/u/u485wck5f.css';
 import '../../css/q/q32o3kskf.css';
 import '../../css/e/e-hk96b9j.css';
-import '../../css/g/gazt7jm5p.css';
 import '../../css/d/dzozj7bfg.css';
-import '../../css/k/kslk3vq5h.css';
 import '../../css/b/bk2wfb3ln.css';
 import '../../css/h/hsaqj0byz.css';
 import '../../css/t/ttut12utl.css';
@@ -56,6 +53,6 @@ import '../../css/d/dt96cdbts.css';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":512,"height":512};
-const content = `<path class="exr5tsbxf"/><path class="g803s6b9d"/><path class="tlhvmr7wn"/><path class="sbhlqthrn"/><path class="d3ylth70n"/><path class="wv9394bem"/><path class="aw3knacio"/><path class="zmxxe0hyr"/><path class="i64g1cchi"/><path class="k00kklbdl"/><path class="mwkzayhaj"/><path class="e4htfab2w"/><path class="stdkobysr"/><path class="c6mz1bc6k"/><path class="d4p5vybpp"/><path class="v6q459bro"/><path class="hp36-1btv"/><path class="pgwaucajy"/><path class="y7xan2b7o"/><path class="yq_usccei"/><path class="kmqb81byb"/><path class="i0vr1pbyv"/><path class="u5zsl8jpw"/><path class="sk3q0-1is"/><path class="q32o3kskf"/><path class="e-hk96b9j"/><path class="gazt7jm5p"/><path class="dzozj7bfg"/><path class="kslk3vq5h"/><path class="bk2wfb3ln"/><path class="hsaqj0byz"/><path class="ttut12utl"/><path class="gy7z-0-4s"/><path class="vdq95ibah"/><path class="k27obcb2v"/><path class="p9hsfobnb"/><path class="f42x74b5t"/><path class="asqirzbbj"/><path class="q1vu9wbyq"/><path class="ke9acnb5y"/><path class="zg059sqfd"/><path class="qp8pl68wq"/><path class="h5ymrybdi"/><path class="ti3zk-vce"/><path class="nt347rbeg"/><path class="wjb9gdzvo"/><path class="pi53slbly"/><path class="e75nb0bjh"/><path class="kf4lreb0s"/><path class="tdicdjjyh"/><path class="q9i8wr08a"/><path class="dt96cdbts"/>`;
+const content = `<path class="exr5tsbxf"/><path class="g803s6b9d"/><path class="tlhvmr7wn"/><path class="sbhlqthrn"/><path class="d3ylth70n"/><path class="wv9394bem"/><path class="j97om_3gv"/><path class="zmxxe0hyr"/><path class="i64g1cchi"/><path class="k00kklbdl"/><path class="mwkzayhaj"/><path class="e4htfab2w"/><path class="stdkobysr"/><path class="c6mz1bc6k"/><path class="d4p5vybpp"/><path class="v6q459bro"/><path class="hp36-1btv"/><path class="pgwaucajy"/><path class="y7xan2b7o"/><path class="yq_usccei"/><path class="kmqb81byb"/><path class="bq-1hrg4k"/><path class="u485wck5f"/><path class="q32o3kskf"/><path class="e-hk96b9j"/><path class="dzozj7bfg"/><path class="bk2wfb3ln"/><path class="hsaqj0byz"/><path class="ttut12utl"/><path class="gy7z-0-4s"/><path class="vdq95ibah"/><path class="k27obcb2v"/><path class="p9hsfobnb"/><path class="f42x74b5t"/><path class="asqirzbbj"/><path class="q1vu9wbyq"/><path class="ke9acnb5y"/><path class="zg059sqfd"/><path class="qp8pl68wq"/><path class="h5ymrybdi"/><path class="ti3zk-vce"/><path class="nt347rbeg"/><path class="wjb9gdzvo"/><path class="pi53slbly"/><path class="e75nb0bjh"/><path class="kf4lreb0s"/><path class="tdicdjjyh"/><path class="q9i8wr08a"/><path class="dt96cdbts"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="selfhst:fider" /></template>

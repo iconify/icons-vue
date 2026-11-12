@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/a/a6-sl2vmx.css';
+import '../../css/f/fc2htrbqe.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":512,"height":512};
-const content = `<path class="a6-sl2vmx"/>`;
+const content = `<path class="fc2htrbqe"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="selfhst:authman-light" /></template>

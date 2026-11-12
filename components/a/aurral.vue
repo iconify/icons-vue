@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/o/o5xpnmbyf.css';
+import '../../css/x/xbfx2ibbq.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":512,"height":512};
-const content = `<path class="o5xpnmbyf"/>`;
+const content = `<path class="xbfx2ibbq"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="selfhst:aurral" /></template>

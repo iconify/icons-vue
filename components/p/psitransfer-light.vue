@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/a/acvcwubaq.css';
+import '../../css/y/yhvuqubwt.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":512,"height":512};
-const content = `<path class="acvcwubaq"/>`;
+const content = `<path class="yhvuqubwt"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="selfhst:psitransfer-light" /></template>

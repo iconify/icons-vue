@@ -8,6 +8,6 @@ import '../../css/i/i9f1c8b7k.css';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":512,"height":512};
-const content = `<linearGradient id="SVGlD0icb7W" x1="-553.68" x2="-552.728" y1="-1.509" y2="-1.509" gradientTransform="rotate(90 -101500.372 101393.112)scale(366.3626)" gradientUnits="userSpaceOnUse"><stop offset="0" class="h4sp8rbzj"/><stop offset="1" class="hn_12bbbv"/></linearGradient><path fill="url(#SVGlD0icb7W)" class="oq606cbun"/><linearGradient id="SVGCi5e8duj" x1="-553.68" x2="-552.728" y1="-1.534" y2="-1.534" gradientTransform="rotate(90 -101585.221 101279.185)scale(366.3101)" gradientUnits="userSpaceOnUse"><stop offset="0" class="h4sp8rbzj"/><stop offset="1" class="hn_12bbbv"/></linearGradient><path fill="url(#SVGCi5e8duj)" class="i9f1c8b7k"/>`;
+const content = `<linearGradient id="SVGYOg36bMA" x1="445.6" x2="445.6" y1="45.8" y2="394.6" gradientUnits="userSpaceOnUse"><stop offset="0" class="h4sp8rbzj"/><stop offset="1" class="hn_12bbbv"/></linearGradient><path fill="url(#SVGYOg36bMA)" class="oq606cbun"/><linearGradient id="SVGwkqSQdBX" x1="255.9" x2="255.9" y1="45.8" y2="394.6" gradientUnits="userSpaceOnUse"><stop offset="0" class="h4sp8rbzj"/><stop offset="1" class="hn_12bbbv"/></linearGradient><path fill="url(#SVGwkqSQdBX)" class="i9f1c8b7k"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="selfhst:polaris" /></template>

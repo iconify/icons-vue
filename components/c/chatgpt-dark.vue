@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/g/gnuiw5usx.css';
+import '../../css/v/v8m_n_89x.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":512,"height":512};
-const content = `<path class="gnuiw5usx"/>`;
+const content = `<path class="v8m_n_89x"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="selfhst:chatgpt-dark" /></template>

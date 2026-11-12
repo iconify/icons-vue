@@ -1,13 +1,13 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/z/zmf4webcc.css';
-import '../../css/n/ngr5oebfg.css';
-import '../../css/a/a8noj8_gi.css';
+import '../../css/b/broyakp0p.css';
+import '../../css/p/p1n-ydbvg.css';
+import '../../css/p/pwj4ki62q.css';
 import '../../css/g/g38ac68gp.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":512,"height":512};
-const content = `<path class="zmf4webcc"/><path class="ngr5oebfg"/><path class="a8noj8_gi"/><path class="g38ac68gp"/>`;
+const content = `<path class="broyakp0p"/><path class="p1n-ydbvg"/><path class="pwj4ki62q"/><path class="g38ac68gp"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="selfhst:discopanel-light" /></template>

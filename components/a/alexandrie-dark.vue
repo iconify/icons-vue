@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/s/sd1k3d-vl.css';
+import '../../css/o/obng8298b.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":512,"height":512};
-const content = `<path class="sd1k3d-vl"/>`;
+const content = `<path class="obng8298b"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="selfhst:alexandrie-dark" /></template>

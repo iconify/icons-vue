@@ -1,13 +1,13 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/f/fx3v_ob6p.css';
-import '../../css/k/ku8imqgff.css';
-import '../../css/u/uxn5tubya.css';
-import '../../css/y/ytt5v7b4i.css';
+import '../../css/j/jx1ed53-h.css';
+import '../../css/k/kmzi6e6ft.css';
+import '../../css/j/josq1jb8s.css';
+import '../../css/k/kmynck5lr.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":512,"height":512};
-const content = `<path class="fx3v_ob6p"/><path class="ku8imqgff"/><path class="uxn5tubya"/><path class="ytt5v7b4i"/>`;
+const content = `<path class="jx1ed53-h"/><path class="kmzi6e6ft"/><path class="josq1jb8s"/><path class="kmynck5lr"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="selfhst:ksuite-swisstransfer" /></template>

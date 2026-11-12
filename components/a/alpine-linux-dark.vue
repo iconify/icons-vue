@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/o/oxrsvbbge.css';
+import '../../css/d/ddcs7acfn.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":512,"height":512};
-const content = `<path class="oxrsvbbge"/>`;
+const content = `<path class="ddcs7acfn"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="selfhst:alpine-linux-dark" /></template>

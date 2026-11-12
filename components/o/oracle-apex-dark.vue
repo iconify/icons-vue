@@ -1,18 +1,17 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/e/eesgxrbhn.css';
-import '../../css/f/ffuto9b7z.css';
-import '../../css/o/o3ofllt5g.css';
-import '../../css/b/bf-rheomv.css';
-import '../../css/t/t3zuokbbz.css';
-import '../../css/l/l4c16i1xz.css';
-import '../../css/h/h81af9b0e.css';
-import '../../css/s/s7blevimp.css';
-import '../../css/g/gwdngeb1s.css';
+import '../../css/y/y_8idg_ua.css';
+import '../../css/p/p8d0bpxvc.css';
+import '../../css/o/ocxmj-0eu.css';
+import '../../css/m/mibif0bdg.css';
+import '../../css/a/adq4yggtd.css';
+import '../../css/k/kg3tgdbnz.css';
+import '../../css/g/g8903tb9f.css';
+import '../../css/q/q3h1-ibjp.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":512,"height":512};
-const content = `<path class="eesgxrbhn"/><path class="ffuto9b7z"/><path class="o3ofllt5g"/><path class="bf-rheomv"/><path class="t3zuokbbz"/><path class="l4c16i1xz"/><path class="h81af9b0e"/><path class="s7blevimp"/><path class="gwdngeb1s"/>`;
+const content = `<path class="y_8idg_ua"/><path class="p8d0bpxvc"/><path class="ocxmj-0eu"/><path class="mibif0bdg"/><path class="adq4yggtd"/><path class="kg3tgdbnz"/><path class="g8903tb9f"/><path class="q3h1-ibjp"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="selfhst:oracle-apex-dark" /></template>

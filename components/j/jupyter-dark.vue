@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/x/xgt_iob2s.css';
+import '../../css/x/xbbv1cbte.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":512,"height":512};
-const content = `<path class="xgt_iob2s"/>`;
+const content = `<path class="xbbv1cbte"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="selfhst:jupyter-dark" /></template>

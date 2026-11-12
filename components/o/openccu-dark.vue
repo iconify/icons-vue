@@ -1,16 +1,16 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
 import '../../css/t/txs954bxf.css';
-import '../../css/d/dd8sin71m.css';
-import '../../css/f/fe67nnrks.css';
-import '../../css/q/qr-ydnawt.css';
-import '../../css/b/becuijboh.css';
-import '../../css/m/mod39rb_g.css';
-import '../../css/v/vqnw5n9wp.css';
+import '../../css/v/v40q2_b4w.css';
+import '../../css/n/nu3iecc-o.css';
+import '../../css/j/jo9ip8zca.css';
+import '../../css/s/sgwiwmbau.css';
+import '../../css/c/c7kq498te.css';
+import '../../css/b/b8mdgzbvz.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":512,"height":512};
-const content = `<path class="txs954bxf"/><path class="dd8sin71m"/><path class="fe67nnrks"/><path class="qr-ydnawt"/><path class="becuijboh"/><path class="mod39rb_g"/><path class="vqnw5n9wp"/>`;
+const content = `<path class="txs954bxf"/><path class="v40q2_b4w"/><path class="nu3iecc-o"/><path class="jo9ip8zca"/><path class="sgwiwmbau"/><path class="c7kq498te"/><path class="b8mdgzbvz"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="selfhst:openccu-dark" /></template>

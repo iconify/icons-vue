@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nekm4w3ue.css';
+import '../../css/r/rwmooqbvl.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":512,"height":512};
-const content = `<path class="nekm4w3ue"/>`;
+const content = `<path class="rwmooqbvl"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="selfhst:frappe-cloud-dark" /></template>

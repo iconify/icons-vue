@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/k/k4tr6tbbi.css';
+import '../../css/k/k0vvqaced.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":512,"height":512};
-const content = `<path class="k4tr6tbbi"/>`;
+const content = `<path class="k0vvqaced"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="selfhst:investbrain-dark" /></template>

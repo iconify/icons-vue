@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/d/db86bu4ok.css';
+import '../../css/a/ajqs_4b9f.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":512,"height":512};
-const content = `<path class="db86bu4ok"/>`;
+const content = `<path class="ajqs_4b9f"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="selfhst:flaresolverr-light" /></template>

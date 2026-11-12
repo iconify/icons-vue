@@ -1,14 +1,14 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nhrly3bdd.css';
-import '../../css/k/kvlrl-m0z.css';
-import '../../css/x/xobvij4rc.css';
-import '../../css/j/jsuj6mb0s.css';
-import '../../css/x/xjhrzz_pj.css';
+import '../../css/b/b60gkfbaz.css';
+import '../../css/g/gswqujbbb.css';
+import '../../css/n/ngs8ap7cj.css';
+import '../../css/q/qlqbkkclw.css';
+import '../../css/v/v6s1k8bkr.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":512,"height":512};
-const content = `<path class="nhrly3bdd"/><path class="kvlrl-m0z"/><path class="xobvij4rc"/><path class="jsuj6mb0s"/><path class="xjhrzz_pj"/>`;
+const content = `<path class="b60gkfbaz"/><path class="gswqujbbb"/><path class="ngs8ap7cj"/><path class="qlqbkkclw"/><path class="v6s1k8bkr"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="selfhst:macrumors" /></template>

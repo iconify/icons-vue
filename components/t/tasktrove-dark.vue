@@ -8,6 +8,6 @@ import '../../css/c/cxu04hbbv.css';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":512,"height":512};
-const content = `<linearGradient id="SVG8zUQJcFO" x1="256" x2="256" y1="512" y2="0" gradientUnits="userSpaceOnUse"><stop offset="0" class="v9u8nhb5n"/><stop offset="1" class="qx32gdm7x"/></linearGradient><path fill="url(#SVG8zUQJcFO)" class="ngr3dgbao"/><path class="cxu04hbbv"/>`;
+const content = `<linearGradient id="SVGkJQHgc7b" x1="256" x2="256" y1="512" gradientUnits="userSpaceOnUse"><stop offset="0" class="v9u8nhb5n"/><stop offset="1" class="qx32gdm7x"/></linearGradient><path fill="url(#SVGkJQHgc7b)" class="ngr3dgbao"/><path class="cxu04hbbv"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="selfhst:tasktrove-dark" /></template>

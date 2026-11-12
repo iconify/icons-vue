@@ -8,6 +8,6 @@ import '../../css/u/uw3mel2bt.css';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":512,"height":512};
-const content = `<linearGradient id="SVG02sCvb3H" x1="0" x2="512" y1="256" y2="256" gradientUnits="userSpaceOnUse"><stop offset="0" class="z0iwd3jij"/><stop offset=".371" class="vi2snt3cv"/><stop offset="1" class="w_ud-leuq"/></linearGradient><path fill="url(#SVG02sCvb3H)" class="uw3mel2bt"/>`;
+const content = `<linearGradient id="SVGouJi2c3o" x2="512" y1="256" y2="256" gradientUnits="userSpaceOnUse"><stop offset="0" class="z0iwd3jij"/><stop offset=".371" class="vi2snt3cv"/><stop offset="1" class="w_ud-leuq"/></linearGradient><path fill="url(#SVGouJi2c3o)" class="uw3mel2bt"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="selfhst:wekan" /></template>

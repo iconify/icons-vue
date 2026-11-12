@@ -8,6 +8,6 @@ import '../../css/p/pgeacdcrj.css';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":512,"height":512};
-const content = `<linearGradient id="SVGD0PzcbSw" x1="97.487" x2="522.047" y1="483.902" y2="729.018" gradientTransform="translate(0 -278)" gradientUnits="userSpaceOnUse"><stop offset="0" class="zgbsngblv"/><stop offset="1" class="xdl23sb0e"/></linearGradient><path fill="url(#SVGD0PzcbSw)" class="zjhvbexqd"/><linearGradient id="SVGT2kwWOMz" x1="94.186" x2="518.747" y1="489.619" y2="734.735" gradientTransform="translate(0 -278)" gradientUnits="userSpaceOnUse"><stop offset="0" class="zgbsngblv"/><stop offset="1" class="xdl23sb0e"/></linearGradient><path fill="url(#SVGT2kwWOMz)" class="pgeacdcrj"/>`;
+const content = `<linearGradient id="SVG2nHAkcAv" x1="97.5" x2="522" y1="205.9" y2="451" gradientUnits="userSpaceOnUse"><stop offset="0" class="zgbsngblv"/><stop offset="1" class="xdl23sb0e"/></linearGradient><path fill="url(#SVG2nHAkcAv)" class="zjhvbexqd"/><linearGradient id="SVGkyfYeDzd" x1="94.2" x2="518.7" y1="211.6" y2="456.7" gradientUnits="userSpaceOnUse"><stop offset="0" class="zgbsngblv"/><stop offset="1" class="xdl23sb0e"/></linearGradient><path fill="url(#SVGkyfYeDzd)" class="pgeacdcrj"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="selfhst:jellyfin" /></template>

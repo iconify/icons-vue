@@ -13,6 +13,6 @@ import '../../css/c/clpm5goxg.css';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":512,"height":512};
-const content = `<path class="j_5lkrz9p"/><linearGradient id="SVGHMCqRJjP" x1="293.495" x2="248.759" y1="294.743" y2="217.257" gradientUnits="userSpaceOnUse"><stop offset="0" class="a3py6xb9a"/><stop offset=".136" class="o0q98c7ju"/><stop offset=".347" class="juc6fi96m"/><stop offset=".605" class="g495n39jz"/><stop offset=".662" class="u502eobwi"/><stop offset=".815" class="g083pccdh"/><stop offset="1" class="yy68surjr"/></linearGradient><circle fill="url(#SVGHMCqRJjP)" class="clpm5goxg"/>`;
+const content = `<path class="j_5lkrz9p"/><linearGradient id="SVGFw2EHcSY" x1="293.5" x2="248.8" y1="294.7" y2="217.3" gradientUnits="userSpaceOnUse"><stop offset="0" class="a3py6xb9a"/><stop offset=".136" class="o0q98c7ju"/><stop offset=".347" class="juc6fi96m"/><stop offset=".605" class="g495n39jz"/><stop offset=".662" class="u502eobwi"/><stop offset=".815" class="g083pccdh"/><stop offset="1" class="yy68surjr"/></linearGradient><circle fill="url(#SVGFw2EHcSY)" class="clpm5goxg"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="selfhst:discover-card" /></template>

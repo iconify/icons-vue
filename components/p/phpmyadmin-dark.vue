@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/q/q-brexemg.css';
+import '../../css/o/o9t_xrbrh.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":512,"height":512};
-const content = `<path class="q-brexemg"/>`;
+const content = `<path class="o9t_xrbrh"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="selfhst:phpmyadmin-dark" /></template>

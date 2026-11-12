@@ -1,11 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/m/m85i73_cc.css';
-import '../../css/c/cj59wwj5r.css';
+import '../../css/k/kbst8fbyu.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":512,"height":512};
-const content = `<path class="m85i73_cc"/><path class="cj59wwj5r"/>`;
+const content = `<path class="kbst8fbyu"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="selfhst:buggregator-dark" /></template>

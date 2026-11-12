@@ -1,13 +1,13 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/w/w7l6jtghu.css';
-import '../../css/j/jeg4l5bwa.css';
-import '../../css/q/qviplbbsj.css';
-import '../../css/q/qvjnwub0v.css';
+import '../../css/y/y0bmt8p7x.css';
+import '../../css/c/clu__8tmi.css';
+import '../../css/v/v3dm0tfsh.css';
+import '../../css/j/jwl4-qprl.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":512,"height":512};
-const content = `<circle transform="rotate(-89.685 70.225 441.78)" class="w7l6jtghu"/><path class="jeg4l5bwa"/><path class="qviplbbsj"/><path class="qvjnwub0v"/>`;
+const content = `<path class="y0bmt8p7x"/><path class="clu__8tmi"/><path class="v3dm0tfsh"/><path class="jwl4-qprl"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="selfhst:tiny-tiny-rss-light" /></template>

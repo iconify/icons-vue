@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/m/mlv1xyrrq.css';
+import '../../css/h/h4wzr7bqz.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":512,"height":512};
-const content = `<path class="mlv1xyrrq"/>`;
+const content = `<path class="h4wzr7bqz"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="selfhst:grafana-tempo-light" /></template>

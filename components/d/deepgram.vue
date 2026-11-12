@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ic6i11b1t.css';
+import '../../css/s/s6jyhdbck.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="ic6i11b1t"/>`;
+const content = `<path class="s6jyhdbck"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="thesvg:deepgram" /></template>

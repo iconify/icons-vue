@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/thesvg",
   "type": "module",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "homepage": "https://icon-sets.iconify.design/thesvg/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -2722,9 +2722,9 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/conekta.vue"
     },
-    "./confluence": {
+    "./confluence-legacy": {
       "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/c/confluence.vue"
+      "default": "./components/c/confluence-legacy.vue"
     },
     "./construct-3": {
       "types": "./types/dd0bq22g.d.ts",
@@ -15225,6 +15225,10 @@
     "./zyte": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/z/zyte.vue"
+    },
+    "./confluence": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/confluence.vue"
     },
     "./*": "./*"
   },

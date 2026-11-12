@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/thesvg-color",
   "type": "module",
-  "version": "1.0.25",
+  "version": "1.0.26",
   "homepage": "https://icon-sets.iconify.design/thesvg-color/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -777,6 +777,10 @@
     "./amplitude": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/amplitude.vue"
+    },
+    "./amplitude-icon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/amplitude-icon.vue"
     },
     "./amul": {
       "types": "./types/dd0bq22g.d.ts",
@@ -3690,6 +3694,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/confluence.vue"
     },
+    "./confluence-legacy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/confluence-legacy.vue"
+    },
     "./confluent": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/confluent.vue"
@@ -5362,6 +5370,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/e/eps.vue"
     },
+    "./eps-file": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/eps-file.vue"
+    },
     "./epson": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/e/epson.vue"
@@ -6941,6 +6953,10 @@
     "./gong": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/gong.vue"
+    },
+    "./gong-icon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gong-icon.vue"
     },
     "./goodreads": {
       "types": "./types/dd0bq22g.d.ts",
@@ -11813,6 +11829,10 @@
     "./mubi": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/mubi.vue"
+    },
+    "./mudblazor": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mudblazor.vue"
     },
     "./mui": {
       "types": "./types/dd0bq22g.d.ts",

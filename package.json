@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/devicon-plain",
   "type": "module",
-  "version": "1.0.33",
+  "version": "1.0.34",
   "homepage": "https://icon-sets.iconify.design/devicon-plain/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -13,6 +13,10 @@
     "./adminer": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/adminer.vue"
+    },
+    "./aerospace": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/aerospace.vue"
     },
     "./aframe": {
       "types": "./types/dd0bq22g.d.ts",
@@ -229,6 +233,10 @@
     "./azuredevops": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/azuredevops.vue"
+    },
+    "./azurelogicapps": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/azurelogicapps.vue"
     },
     "./azuresqldatabase": {
       "types": "./types/dd0bq22g.d.ts",
@@ -594,6 +602,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/dart-wordmark.vue"
     },
+    "./databricks-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/databricks-wordmark.vue"
+    },
     "./datagrip": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/datagrip.vue"
@@ -629,6 +641,14 @@
     "./delphi": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/delphi.vue"
+    },
+    "./dependabot": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dependabot.vue"
+    },
+    "./dependabot-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dependabot-wordmark.vue"
     },
     "./devicon": {
       "types": "./types/dd0bq22g.d.ts",
@@ -897,6 +917,14 @@
     "./flutter": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/flutter.vue"
+    },
+    "./fluxcd": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fluxcd.vue"
+    },
+    "./fluxcd-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fluxcd-wordmark.vue"
     },
     "./forgejo": {
       "types": "./types/dd0bq22g.d.ts",
@@ -2138,6 +2166,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/o/opentelemetry-wordmark.vue"
     },
+    "./opentofu": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/opentofu.vue"
+    },
+    "./opentofu-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/opentofu-wordmark.vue"
+    },
     "./opera": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/o/opera.vue"
@@ -2854,6 +2890,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/styledcomponents-wordmark.vue"
     },
+    "./sublimetext": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sublimetext.vue"
+    },
     "./subversion-wordmark": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/subversion-wordmark.vue"
@@ -2906,6 +2946,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/swift-wordmark.vue"
     },
+    "./systemd": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/systemd.vue"
+    },
+    "./systemd-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/systemd-wordmark.vue"
+    },
     "./tailwindcss-wordmark": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/tailwindcss-wordmark.vue"
@@ -2913,6 +2961,14 @@
     "./talos": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/talos.vue"
+    },
+    "./taskade": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/taskade.vue"
+    },
+    "./taskade-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/taskade-wordmark.vue"
     },
     "./tauri": {
       "types": "./types/dd0bq22g.d.ts",
@@ -3022,6 +3078,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/turbo-wordmark.vue"
     },
+    "./turborepo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/turborepo.vue"
+    },
     "./typeorm": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/typeorm.vue"
@@ -3073,6 +3133,14 @@
     "./unity-wordmark": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/u/unity-wordmark.vue"
+    },
+    "./unraid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/unraid.vue"
+    },
+    "./unraid-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/unraid-wordmark.vue"
     },
     "./uwsgi": {
       "types": "./types/dd0bq22g.d.ts",

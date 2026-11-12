@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/cbi",
   "type": "module",
-  "version": "1.0.53",
+  "version": "1.0.54",
   "homepage": "https://icon-sets.iconify.design/cbi/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "CC-BY-NC-SA-4.0",
@@ -581,6 +581,10 @@
     "./atari-console": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/atari-console.vue"
+    },
+    "./atlantic": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/atlantic.vue"
     },
     "./atres-player": {
       "types": "./types/dd0bq22g.d.ts",
@@ -6178,6 +6182,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/tfx.vue"
     },
+    "./the-dark-eye": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/the-dark-eye.vue"
+    },
     "./the-lampster": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/the-lampster.vue"
@@ -6329,6 +6337,10 @@
     "./tripod-lamp-norm": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/tripod-lamp-norm.vue"
+    },
+    "./trl-tvi": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/trl-tvi.vue"
     },
     "./tronity": {
       "types": "./types/dd0bq22g.d.ts",

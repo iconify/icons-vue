@@ -4,16 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="cuyn6tgcc"><path class="pq9s-bbjm"/><path class="dn9_vjbnt"/></g>`;
+const content = `<g class="cuyn6tgcc"><path class="pq9s-bbjm"/><path class="b_ot00j-o"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:image-off-bulk" /></template>
 <style>
-.cuyn6tgcc {
-  fill: currentColor;
+.b_ot00j-o {
+  d: path("m2.707 1.293l20 20a.999.999 0 1 1-1.414 1.414L10 11.414l-6.293 6.293a.999.999 0 1 1-1.414-1.414L8.586 10L1.293 2.707a.999.999 0 1 1 1.414-1.414M15 7a2 2 0 1 1 3.999-.001A2 2 0 0 1 15 7");
 }
 
-.dn9_vjbnt {
-  d: path("m2.707 1.293l20 20a.999.999 0 1 1-1.414 1.414L10 11.414l-6.293 6.293a.999.999 0 1 1-1.414-1.414L8.586 10L1.293 2.707a.999.999 0 1 1 1.414-1.414M14 8a2 2 0 1 1 3.999-.001A2 2 0 0 1 14 8");
+.cuyn6tgcc {
+  fill: currentColor;
 }
 
 .pq9s-bbjm {

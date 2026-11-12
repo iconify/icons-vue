@@ -1,0 +1,28 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="nrj6p8qat"><path class="h5nl8ib0a"/><path class="anozd_bhu"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:gem-duocolor-sharp" /></template>
+<style>
+.anozd_bhu {
+  d: path("M7 5h10l4 4l-9 10L3 9z");
+}
+
+.h5nl8ib0a {
+  stroke-opacity: 0.4;
+  d: path("m8 9l2 2");
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+</style>

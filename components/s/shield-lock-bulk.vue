@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="cuyn6tgcc"><path class="sf2-14icu"/><path class="nl105mq_f"/></g>`;
+const content = `<g class="cuyn6tgcc"><path class="sf2-14icu"/><path class="ekcojebgp"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:shield-lock-bulk" /></template>
 <style>
@@ -12,8 +12,8 @@ const content = `<g class="cuyn6tgcc"><path class="sf2-14icu"/><path class="nl10
   fill: currentColor;
 }
 
-.nl105mq_f {
-  d: path("M16 11v2a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2v-2c0-.715.38-1.376 1-1.733V9a3 3 0 1 1 6 0v.267A2 2 0 0 1 16 11m-5-2h2a1 1 0 0 0-2 0m-1 4h4v-2h-4Z");
+.ekcojebgp {
+  d: path("M16 11v2a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2v-2c0-.715.38-1.376 1-1.733V9a3 3 0 1 1 6 0v.267A2 2 0 0 1 16 11m-3-2a1 1 0 0 0-2 0Z");
 }
 
 .sf2-14icu {

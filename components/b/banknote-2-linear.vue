@@ -1,11 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/m/m3th6ogrs.css';
-import '../../css/j/jru_sv9kb.css';
-import '../../css/c/c5vk6tgit.css';
-import '../../css/n/na52euwwy.css';
-import '../../css/k/kkrotxg9c.css';
 
 const props = defineProps(["width","height"]);
 
@@ -13,3 +7,32 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="m3th6ogrs"/><path class="jru_sv9kb"/><path class="c5vk6tgit"/><path class="na52euwwy"/><path class="kkrotxg9c"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:banknote-2-linear" /></template>
+<style>
+.c5vk6tgit {
+  d: path("M13 11C13 12.3807 11.8807 13.5 10.5 13.5C9.11929 13.5 8 12.3807 8 11C8 9.61929 9.11929 8.5 10.5 8.5C11.8807 8.5 13 9.61929 13 11Z");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.jru_sv9kb {
+  d: path("M18.9303 8.06958C19.9438 8.16201 20.6197 8.37729 21.1211 8.87873C21.9998 9.75741 21.9998 11.1716 21.9998 14C21.9998 16.8285 21.9998 18.2427 21.1211 19.1214C20.2424 20 18.8282 20 15.9998 20H10.9998C8.17138 20 6.75716 20 5.87848 19.1214C5.37704 18.6199 5.16176 17.9441 5.06934 16.9305");
+}
+
+.kkrotxg9c {
+  d: path("M5 13L5 9");
+}
+
+.m3th6ogrs {
+  d: path("M8 17H13C15.8284 17 17.2426 17 18.1213 16.1213C19 15.2426 19 13.8284 19 11C19 8.17157 19 6.75736 18.1213 5.87868C17.2426 5 15.8284 5 13 5H8C5.17157 5 3.75736 5 2.87868 5.87868C2 6.75736 2 8.17157 2 11C2 13.8284 2 15.2426 2.87868 16.1213C3.75736 17 5.17157 17 8 17Z");
+}
+
+.na52euwwy {
+  d: path("M16 13L16 9");
+}
+
+</style>

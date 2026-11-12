@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/h/hntgybcog.css';
-import '../../css/l/lvj7pdg0l.css';
-import '../../css/d/daesvybit.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,22 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="hntgybcog"><path class="lvj7pdg0l"/><path class="daesvybit"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:end-call-line-duotone" /></template>
+<style>
+.daesvybit {
+  d: path("M8 12.8619L8 13.4784C8 14.3306 7.42329 15.0825 6.57997 15.3296L4.57997 15.9158C3.29561 16.2922 2 15.3625 2 14.0645V12.1416C2 11.6527 2.1247 11.1706 2.44083 10.7891M16 12.8619V13.2501C16 14.2065 16.7227 15.0194 17.7004 15.1627L19.7004 15.4557C20.9105 15.6331 22 14.7269 22 13.5431V11.4184C22 10.8315 21.8162 10.2544 21.3703 9.85617");
+}
+
+.hntgybcog {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.lvj7pdg0l {
+  d: path("M16 12.8617V13.2499C16 14.2063 16.7227 15.0192 17.7004 15.1624L19.7004 15.4555C20.9105 15.6329 22 14.7267 22 13.5429V11.4182C22 10.8313 21.8162 10.2541 21.3703 9.85596C20.2296 8.83726 17.4209 7 12.0001 7C6.2515 7 3.44027 9.58263 2.44083 10.7889C2.1247 11.1704 2 11.6525 2 12.1414V14.0643C2 15.3623 3.29561 16.2919 4.57997 15.9155L6.57997 15.3294C7.42329 15.0823 8 14.3304 8 13.4782L8 12.8617C8 12.8617 8.00009 11.3963 12.0001 11.3963C16.0001 11.3963 16 12.8617 16 12.8617Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+</style>

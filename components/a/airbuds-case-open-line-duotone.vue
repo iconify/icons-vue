@@ -1,10 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/k/k9shapbbb.css';
-import '../../css/x/xt416ub-e.css';
-import '../../css/u/u56i8ebee.css';
-import '../../css/d/d-zzacc2s.css';
 
 const props = defineProps(["width","height"]);
 
@@ -12,3 +7,31 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="k9shapbbb"/><path class="xt416ub-e"/><path class="u56i8ebee"/><path class="d-zzacc2s"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:airbuds-case-open-line-duotone" /></template>
+<style>
+.d-zzacc2s {
+  d: path("M8 11C8 12.1046 8.89543 13 10 13H14C15.1046 13 16 12.1046 16 11");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.k9shapbbb {
+  d: path("M12 22C8.25027 22 6.3754 22 5.06107 21.0451C4.6366 20.7367 4.26331 20.3634 3.95491 19.9389C3 18.6246 3 16.7497 3 13V12.8333C3 12.0515 3 11.6605 3.20665 11.3912C3.25985 11.3219 3.32191 11.2598 3.39124 11.2066C3.66055 11 4.05147 11 4.83333 11H19.1667C19.9485 11 20.3395 11 20.6088 11.2066C20.6781 11.2598 20.7402 11.3219 20.7934 11.3912C21 11.6605 21 12.0515 21 12.8333V13C21 16.7497 21 18.6246 20.0451 19.9389C19.7367 20.3634 19.3634 20.7367 18.9389 21.0451C17.6246 22 15.7497 22 12 22Z");
+}
+
+.u56i8ebee {
+  d: path("M20.5 4.625V5.94143C20.5 7.3059 19.3939 8.41202 18.0294 8.41202C17.5746 8.41202 17.2059 8.78072 17.2059 9.23555V11H13.5V6.375C13.5 3.95875 15.4588 2 17.875 2C19.3247 2 20.5 3.17525 20.5 4.625Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.xt416ub-e {
+  d: path("M3.5 4.625V5.94143C3.5 7.3059 4.60612 8.41202 5.97059 8.41202C6.42541 8.41202 6.79412 8.78072 6.79412 9.23555V11H10.5V6.375C10.5 3.95875 8.54125 2 6.125 2C4.67525 2 3.5 3.17525 3.5 4.625Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+</style>

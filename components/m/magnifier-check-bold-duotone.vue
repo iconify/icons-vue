@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/g/gwqarthoa.css';
-import '../../css/f/frxk7_buw.css';
-import '../../css/y/yrnx5ea_v.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,21 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="gwqarthoa"/><path class="frxk7_buw"/><path class="yrnx5ea_v"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:magnifier-check-bold-duotone" /></template>
+<style>
+.frxk7_buw {
+  fill: currentColor;
+  d: path("M20.3133 11.1566C20.3133 16.2137 16.2137 20.3133 11.1566 20.3133C6.09956 20.3133 2 16.2137 2 11.1566C2 6.09956 6.09956 2 11.1566 2C16.2137 2 20.3133 6.09956 20.3133 11.1566Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.gwqarthoa {
+  fill: currentColor;
+  d: path("M10.6133 14.7499C10.8395 14.7458 11.0522 14.6393 11.1914 14.4608L15.0918 9.46082C15.3462 9.13423 15.2874 8.66273 14.9609 8.40808C14.6343 8.1537 14.1628 8.21247 13.9082 8.53894L10.5781 12.8095L9.07419 11.0175C8.80777 10.7003 8.3347 10.6593 8.01755 10.9257C7.70043 11.1921 7.65935 11.6652 7.92576 11.9823L10.0254 14.4823L10.083 14.5438C10.2249 14.6787 10.4153 14.7534 10.6133 14.7499Z");
+}
+
+.yrnx5ea_v {
+  fill: currentColor;
+  d: path("M17.0996 18.1219L20.7659 21.7882C21.0482 22.0705 21.5059 22.0705 21.7882 21.7882C22.0705 21.5059 22.0705 21.0482 21.7882 20.7659L18.1219 17.0996C17.8085 17.4666 17.4666 17.8085 17.0996 18.1219Z");
+}
+
+</style>

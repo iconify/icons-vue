@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/x/xtpeb-edw.css';
-import '../../css/n/ndvam-0ub.css';
-import '../../css/m/m_yt74b1y.css';
-import '../../css/t/tfsq0xb1f.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,23 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="xtpeb-edw"><path class="ndvam-0ub"/><path class="m_yt74b1y"/></g><path class="tfsq0xb1f"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:wi-fi-high-bold-duotone" /></template>
+<style>
+.m_yt74b1y {
+  d: path("M4.78291 11.7851C8.76166 7.49105 15.2379 7.49076 19.2165 11.7851C19.4977 12.0889 19.479 12.5632 19.1755 12.8447C18.8717 13.1261 18.3974 13.1084 18.1159 12.8046C14.7309 9.15097 9.26761 9.15107 5.88252 12.8046C5.60104 13.1083 5.12676 13.126 4.82295 12.8447C4.51935 12.5631 4.50148 12.0889 4.78291 11.7851Z");
+}
+
+.ndvam-0ub {
+  d: path("M8.1169 15.3828C10.2547 13.076 13.7459 13.0757 15.8835 15.3828C16.1648 15.6863 16.1466 16.1607 15.8435 16.4423C15.5396 16.7238 15.0644 16.7061 14.7829 16.4023C13.2389 14.736 10.7606 14.7361 9.21651 16.4023C8.93497 16.706 8.46073 16.7238 8.15693 16.4423C7.85337 16.1608 7.83548 15.6865 8.1169 15.3828Z");
+}
+
+.tfsq0xb1f {
+  fill: currentColor;
+  d: path("M12.0176 18.7144C12.4318 18.7144 12.7676 19.0501 12.7676 19.4644C12.7676 19.8786 12.4318 20.2144 12.0176 20.2144C11.6034 20.2144 11.2676 19.8786 11.2676 19.4644C11.2676 19.0501 11.6034 18.7144 12.0176 18.7144Z");
+}
+
+.xtpeb-edw {
+  fill: currentColor;
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+</style>

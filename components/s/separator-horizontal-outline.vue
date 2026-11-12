@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/e/e_y25wbci.css';
-import '../../css/q/qmig79b_v.css';
-import '../../css/x/x3dt49afq.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,20 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="e_y25wbci"/><path class="qmig79b_v"/><path class="x3dt49afq"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:separator-horizontal-outline" /></template>
+<style>
+.e_y25wbci {
+  fill: currentColor;
+  d: path("M17.4697 14.4698C17.7626 14.1769 18.2374 14.1769 18.5303 14.4698C18.8231 14.7627 18.8232 15.2375 18.5303 15.5303L12.5303 21.5303C12.2374 21.8232 11.7626 21.8232 11.4697 21.5303L5.46973 15.5303C5.17684 15.2375 5.17686 14.7627 5.46973 14.4698C5.76262 14.1769 6.23738 14.1769 6.53027 14.4698L12 19.9395L17.4697 14.4698Z");
+}
+
+.qmig79b_v {
+  fill: currentColor;
+  d: path("M22 11.2501C22.4142 11.2501 22.75 11.5859 22.75 12.0001C22.75 12.4143 22.4142 12.7501 22 12.7501H2C1.58581 12.7501 1.25003 12.4143 1.25 12.0001C1.25 11.5859 1.58579 11.2501 2 11.2501H22Z");
+}
+
+.x3dt49afq {
+  fill: currentColor;
+  d: path("M11.4697 2.46979C11.7626 2.1769 12.2374 2.1769 12.5303 2.46979L18.5303 8.46979C18.8231 8.76269 18.8232 9.23745 18.5303 9.53034C18.2374 9.82319 17.7626 9.82319 17.4697 9.53034L12 4.06061L6.53027 9.53034C6.23739 9.82319 5.76261 9.82319 5.46973 9.53034C5.17684 9.23745 5.17686 8.76269 5.46973 8.46979L11.4697 2.46979Z");
+}
+
+</style>

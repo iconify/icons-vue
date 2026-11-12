@@ -1,10 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/b/bg26ztbll.css';
-import '../../css/i/if7b_fg1p.css';
-import '../../css/v/vcufaui4b.css';
-import '../../css/d/dm7s30bzj.css';
 
 const props = defineProps(["width","height"]);
 
@@ -12,3 +7,29 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="bg26ztbll"/><path class="if7b_fg1p"/><path class="vcufaui4b"/><path class="dm7s30bzj"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:git-branch-line-duotone" /></template>
+<style>
+.bg26ztbll {
+  d: path("M17.6821 10C19.0628 10 20.1821 8.88071 20.1821 7.5C20.1821 6.11929 19.0628 5 17.6821 5C16.3014 5 15.1821 6.11929 15.1821 7.5C15.1821 8.88071 16.3014 10 17.6821 10ZM17.6821 10C17.6821 12.3383 15.4514 13.5914 12.0878 13.5914C8.72419 13.5914 6.5 14.6747 6.5 17");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.dm7s30bzj {
+  d: path("M6.5 17L6.5 7");
+}
+
+.if7b_fg1p {
+  d: path("M9 4.5C9 5.88071 7.88071 7 6.5 7C5.11929 7 4 5.88071 4 4.5C4 3.11929 5.11929 2 6.5 2C7.88071 2 9 3.11929 9 4.5Z");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.vcufaui4b {
+  d: path("M9 19.5C9 20.8807 7.88071 22 6.5 22C5.11929 22 4 20.8807 4 19.5C4 18.1193 5.11929 17 6.5 17C7.88071 17 9 18.1193 9 19.5Z");
+}
+
+</style>

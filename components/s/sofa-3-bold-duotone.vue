@@ -1,7 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/y/y0hskbc8u.css';
-import '../../css/a/af2lrdbuq.css';
 
 const props = defineProps(["width","height"]);
 
@@ -9,3 +7,16 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="y0hskbc8u"/><path class="af2lrdbuq"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:sofa-3-bold-duotone" /></template>
+<style>
+.af2lrdbuq {
+  fill: currentColor;
+  d: path("M19.7492 12.75C20.7161 8.86578 21.1451 6.84737 20.1335 5.42821C20.066 5.33345 19.9943 5.24169 19.9188 5.15317C18.7211 3.75 16.4806 3.75 11.9994 3.75C7.51831 3.75 5.27775 3.75 4.0801 5.15317C4.00455 5.24169 3.9329 5.33345 3.86535 5.42821C2.85375 6.84737 3.28281 8.86578 4.24968 12.75L4.44955 13.75H19.5494L19.7492 12.75Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.y0hskbc8u {
+  fill: currentColor;
+  d: path("M4.75 17.75V19.75C4.75 20.1642 4.41421 20.5 4 20.5C3.58579 20.5 3.25 20.1642 3.25 19.75V17.6046C2.51704 17.3079 2 16.5893 2 15.75C2 14.6454 2.89543 13.75 4 13.75H20C21.1046 13.75 22 14.6454 22 15.75C22 16.5893 21.483 17.3079 20.75 17.6046V19.75C20.75 20.1642 20.4142 20.5 20 20.5C19.5858 20.5 19.25 20.1642 19.25 19.75V17.75H4.75Z");
+}
+
+</style>

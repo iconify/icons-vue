@@ -1,10 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/l/lamtud0kt.css';
-import '../../css/r/r_1f29b9n.css';
-import '../../css/o/oomb74bzs.css';
-import '../../css/c/cx0jtacae.css';
 
 const props = defineProps(["width","height"]);
 
@@ -12,3 +7,28 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="lamtud0kt"/><path class="r_1f29b9n"/><path class="oomb74bzs"/><path class="cx0jtacae"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:airbuds-broken" /></template>
+<style>
+.cx0jtacae {
+  d: path("M4.5 6V8.5");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.lamtud0kt {
+  d: path("M13.5 18V18.75C13.5 19.9926 14.5074 21 15.75 21C16.9926 21 18 19.9926 18 18.75V18M13.5 18V8.3125C13.5 8.02234 13.5 7.87726 13.506 7.75466C13.6322 5.18614 15.6861 3.13221 18.2547 3.00602C18.3773 3 18.5223 3 18.8125 3C18.9866 3 19.0736 3 19.1472 3.00361C19.9772 3.04439 20.7177 3.42067 21.2361 4M13.5 18H18M18 18V12.3C18 11.7477 18.4477 11.3 19 11.3C20.6569 11.3 22 9.95685 22 8.3");
+}
+
+.oomb74bzs {
+  d: path("M19.5 6V8.5");
+}
+
+.r_1f29b9n {
+  d: path("M10.5 18V18.75C10.5 19.9926 9.49264 21 8.25 21C7.00736 21 6 19.9926 6 18.75V18M10.5 18H6M10.5 18V14M6 18V12.3C6 11.7477 5.55228 11.3 5 11.3C3.34315 11.3 2 9.95685 2 8.3V6.1875C2 6.0134 2 5.92635 2.00361 5.8528C2.07932 4.31169 3.31169 3.07932 4.8528 3.00361C4.92635 3 5.0134 3 5.1875 3C5.47766 3 5.62274 3 5.74534 3.00602C8.31386 3.13221 10.3678 5.18614 10.494 7.75466C10.5 7.87726 10.5 8.02234 10.5 8.3125V10");
+}
+
+</style>

@@ -1,7 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/x/x-5f2htjo.css';
-import '../../css/y/yq54glb1l.css';
 
 const props = defineProps(["width","height"]);
 
@@ -9,3 +7,16 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="x-5f2htjo"/><path clip-rule="evenodd" class="yq54glb1l"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:minimalistic-magnifier-close-bold" /></template>
+<style>
+.x-5f2htjo {
+  fill: currentColor;
+  d: path("M19.4697 19.4697C19.7626 19.1768 20.2374 19.1768 20.5303 19.4697L22.5303 21.4697C22.8231 21.7626 22.8231 22.2374 22.5303 22.5303C22.2374 22.8231 21.7626 22.8231 21.4697 22.5303L19.4697 20.5303C19.1768 20.2374 19.1768 19.7626 19.4697 19.4697Z");
+}
+
+.yq54glb1l {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M11.5 2C16.7467 2 21 6.25329 21 11.5C21 16.7467 16.7467 21 11.5 21C6.25329 21 2 16.7467 2 11.5C2 6.25329 6.25329 2 11.5 2ZM13.7979 9.20117C13.5049 8.90847 13.0301 8.90834 12.7373 9.20117L11.5 10.4385L10.2627 9.20117C9.96986 8.90834 9.49506 8.90847 9.20215 9.20117C8.90926 9.49407 8.90926 9.96883 9.20215 10.2617L10.4395 11.499L9.20215 12.7373C8.90937 13.0302 8.90929 13.505 9.20215 13.7979C9.49503 14.0904 9.96989 14.0905 10.2627 13.7979L11.5 12.5605L12.7373 13.7979C13.0301 14.0905 13.505 14.0904 13.7979 13.7979C14.0907 13.505 14.0906 13.0302 13.7979 12.7373L12.5605 11.499L13.7979 10.2617C14.0907 9.96883 14.0907 9.49407 13.7979 9.20117Z");
+}
+
+</style>

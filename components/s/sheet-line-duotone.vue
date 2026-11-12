@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/z/zoigp9b0w.css';
-import '../../css/x/xvjk-cbox.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,21 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="zoigp9b0w"/><path class="xvjk-cbox"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:sheet-line-duotone" /></template>
+<style>
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.xvjk-cbox {
+  d: path("M12 22C7.28595 22 4.92893 22 3.46447 20.5355C2 19.0711 2 16.714 2 12C2 7.28595 2 4.92893 3.46447 3.46447C4.92893 2 7.28595 2 12 2C16.714 2 19.0711 2 20.5355 3.46447C22 4.92893 22 7.28595 22 12C22 16.714 22 19.0711 20.5355 20.5355C19.0711 22 16.714 22 12 22Z");
+}
+
+.zoigp9b0w {
+  d: path("M2.02886 15.333H8.6665M8.6665 15.333H15.333M8.6665 15.333L8.6665 8.66602M8.6665 15.333V21.9711M15.333 15.333H21.9713M15.333 15.333L15.333 8.66602M15.333 15.333V21.9711M2.02881 8.66602H8.6665M8.6665 8.66602H15.333M15.333 8.66602H21.9711");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+</style>

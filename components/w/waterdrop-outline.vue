@@ -1,11 +1,22 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/u/uskchin6p.css';
-import '../../css/r/rij0rxuxr.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="uskchin6p"/><path clip-rule="evenodd" class="rij0rxuxr"/>`;
+const content = `<path class="tg2jrlbmi"/><path clip-rule="evenodd" class="ravmy2mdd"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:waterdrop-outline" /></template>
+<style>
+.ravmy2mdd {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M8.74609 2.66269C10.532 0.778439 13.468 0.778463 15.2539 2.66269C16.527 4.00593 18.0294 5.73805 19.2188 7.53965C20.3892 9.31281 21.3386 11.2743 21.3389 13.0523C21.3389 18.3786 17.1863 22.7496 12 22.7496C6.81372 22.7496 2.66113 18.3786 2.66113 13.0523C2.66137 11.2744 3.61077 9.31279 4.78125 7.53965C5.97054 5.73807 7.47304 4.00593 8.74609 2.66269ZM14.165 3.69492C12.9707 2.43487 11.0293 2.43487 9.83496 3.69492C8.59093 5.00754 7.15434 6.66749 6.0332 8.36582C4.89357 10.0922 4.16138 11.7391 4.16113 13.0523C4.16113 17.6084 7.69927 21.2496 12 21.2496C16.3008 21.2496 19.8389 17.6085 19.8389 13.0523C19.8386 11.7391 19.1064 10.0922 17.9668 8.36582C16.8457 6.66749 15.4091 5.00753 14.165 3.69492Z");
+}
+
+.tg2jrlbmi {
+  fill: currentColor;
+  d: path("M10.4629 6.17441C10.7465 5.87282 11.2217 5.85787 11.5234 6.14121C11.8251 6.42482 11.8401 6.89994 11.5566 7.20176C10.479 8.34813 9.27214 9.74272 8.25781 11.19C8.02004 11.529 7.55202 11.6113 7.21289 11.3736C6.87379 11.1359 6.79161 10.6679 7.0293 10.3287C8.09925 8.80202 9.35746 7.3504 10.4629 6.17441Z");
+}
+
+</style>

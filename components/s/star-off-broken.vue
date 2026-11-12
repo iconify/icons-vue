@@ -1,11 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/a/a_v4sl8xe.css';
-import '../../css/c/c4kuzacnf.css';
-import '../../css/g/gvam3ngsc.css';
-import '../../css/m/m87x8mmiu.css';
-import '../../css/b/bari53b2u.css';
 
 const props = defineProps(["width","height"]);
 
@@ -13,3 +7,32 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="a_v4sl8xe"/><path class="c4kuzacnf"/><path class="gvam3ngsc"/><path class="m87x8mmiu"/><path class="bari53b2u"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:star-off-broken" /></template>
+<style>
+.a_v4sl8xe {
+  d: path("M18.5308 17.2544C18.7843 19.8706 18.911 21.1787 18.145 21.7602C17.379 22.3417 16.2275 21.8115 13.9245 20.7512L13.3287 20.4768C12.6742 20.1755 12.347 20.0248 12.0002 20.0248C11.6533 20.0248 11.3261 20.1755 10.6717 20.4768L10.0758 20.7512L10.0758 20.7512C7.77284 21.8115 6.62134 22.3417 5.85531 21.7602C5.82177 21.7348 5.78995 21.7079 5.75977 21.6796");
+}
+
+.bari53b2u {
+  d: path("M22 2L18.2219 5.77811L14.3625 9.63753L2 22");
+}
+
+.c4kuzacnf {
+  d: path("M19.3457 8.09351C20.8938 8.47406 21.7112 8.80375 21.9426 9.54776C22.2351 10.4887 21.3967 11.4691 19.7199 13.4299L19.7199 13.43");
+}
+
+.gvam3ngsc {
+  d: path("M6.03954 7.77203C3.57986 8.32856 2.35002 8.60682 2.05742 9.54774C1.76482 10.4886 2.60325 11.4691 4.2801 13.4299L4.71392 13.9372L4.71392 13.9372C5.19043 14.4944 5.42868 14.773 5.53586 15.1177C5.64305 15.4624 5.60703 15.8341 5.53498 16.5776L5.4694 17.2544C5.41915 17.773 5.37388 18.2401 5.33955 18.6604");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.m87x8mmiu {
+  d: path("M9.15332 5.40838V5.40837C10.42 3.13612 11.0533 2 12.0002 2C12.947 2 13.5803 3.13612 14.847 5.40837L15.1747 5.99623L15.1747 5.99624C15.5346 6.64194 15.7146 6.96479 15.9952 7.17781C16.1478 7.29367 16.3208 7.36991 16.5594 7.44079");
+}
+
+</style>

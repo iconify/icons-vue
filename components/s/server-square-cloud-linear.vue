@@ -1,13 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/i/ibpknjbkj.css';
-import '../../css/i/irzxfpvcc.css';
-import '../../css/g/gdeocxngl.css';
-import '../../css/u/uc4n94bsq.css';
-import '../../css/d/dwp-m7jgx.css';
-import '../../css/i/ikcp8fb2i.css';
-import '../../css/u/u4t-r9xag.css';
 
 const props = defineProps(["width","height"]);
 
@@ -15,3 +7,40 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="ibpknjbkj"/><path class="irzxfpvcc"/><path class="gdeocxngl"/><path class="uc4n94bsq"/><path class="dwp-m7jgx"/><path class="ikcp8fb2i"/><path class="u4t-r9xag"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:server-square-cloud-linear" /></template>
+<style>
+.dwp-m7jgx {
+  d: path("M9 17.5L9 15.5");
+}
+
+.gdeocxngl {
+  d: path("M6 17.5L6 15.5");
+}
+
+.ibpknjbkj {
+  d: path("M2 12V11C2 7.22876 2 5.34315 3.17157 4.17157C4.34315 3 6.22876 3 10 3H14C17.7712 3 19.6569 3 20.8284 4.17157C22 5.34315 22 7.22876 22 11V12M2 12H22M2 12V13C2 16.7712 2 18.6569 3.17157 19.8284C4.34315 21 6.22876 21 10 21H13M22 12V13");
+}
+
+.ikcp8fb2i {
+  d: path("M9 8.5L9 6.5");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.irzxfpvcc {
+  d: path("M13.5 7.5L18 7.5");
+}
+
+.u4t-r9xag {
+  d: path("M19.3333 16.8852C19.5419 16.8072 19.7662 16.7647 20 16.7647C20.2291 16.7647 20.4493 16.8055 20.6543 16.8806M17.3333 18.091C17.1718 17.9765 16.9882 17.8944 16.7907 17.8533C16.6966 17.8338 16.5994 17.8235 16.5 17.8235C15.6716 17.8235 15 18.5346 15 19.4118C15 20.2889 15.6716 21 16.5 21H20C21.1046 21 22 20.0519 22 18.8824C22 17.9554 21.4375 17.1676 20.6543 16.8806M20.6543 16.8806C20.543 15.8226 19.6956 15 18.6667 15C17.5621 15 16.6667 15.9481 16.6667 17.1176C16.6667 17.3763 16.7105 17.6242 16.7907 17.8533");
+}
+
+.uc4n94bsq {
+  d: path("M6 8.5L6 6.5");
+}
+
+</style>

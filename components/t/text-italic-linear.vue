@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/r/r4283jbrq.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,14 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="r4283jbrq"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:text-italic-linear" /></template>
+<style>
+.r4283jbrq {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M3 22H9M9 22H15M9 22L15 2M9 2H15M15 2H21");
+}
+
+</style>

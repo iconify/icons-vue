@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/x/xtpeb-edw.css';
-import '../../css/d/d35ki5_lu.css';
-import '../../css/r/rig3w4iiz.css';
-import '../../css/u/u9ycn4s8d.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,23 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="xtpeb-edw"><path class="d35ki5_lu"/><path class="rig3w4iiz"/></g><path class="u9ycn4s8d"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:eraser-bold-duotone" /></template>
+<style>
+.d35ki5_lu {
+  d: path("M21 19.5C21.4142 19.5 21.75 19.8358 21.75 20.25C21.75 20.6642 21.4142 21 21 21H9.0625C9.85888 20.9938 10.5387 20.4937 11.5732 19.5H21Z");
+}
+
+.rig3w4iiz {
+  d: path("M14.9521 3C15.9898 3 16.8251 3.83484 18.4951 5.50488C20.1652 7.17492 21 8.01022 21 9.04785C20.9999 10.0854 20.1651 10.9208 18.4951 12.5908L13.585 17.5L6.5 10.415L11.4092 5.50488C13.0792 3.83489 13.9146 3.00005 14.9521 3Z");
+}
+
+.u9ycn4s8d {
+  fill: currentColor;
+  d: path("M13.5854 17.5001L6.5 10.4147L5.50506 11.4096C3.83502 13.0796 3 13.9147 3 14.9523C3 15.9899 3.83502 16.825 5.50506 18.495C7.1751 20.165 8.01013 21.0001 9.04776 21.0001C10.0854 21.0001 10.9204 20.165 12.5904 18.495L13.5854 17.5001Z");
+}
+
+.xtpeb-edw {
+  fill: currentColor;
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+</style>

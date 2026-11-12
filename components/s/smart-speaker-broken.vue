@@ -1,11 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/w/wp68rqjes.css';
-import '../../css/d/d3o-c7zwo.css';
-import '../../css/l/l1jur_bpp.css';
-import '../../css/o/o-34giu1u.css';
-import '../../css/q/q8mqojmpj.css';
 
 const props = defineProps(["width","height"]);
 
@@ -13,3 +7,32 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="wp68rqjes"/><path class="d3o-c7zwo"/><path class="l1jur_bpp"/><path class="o-34giu1u"/><path class="q8mqojmpj"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:smart-speaker-broken" /></template>
+<style>
+.d3o-c7zwo {
+  d: path("M14.0107 16.4272C18.5335 16.0843 20.3161 14.6224 20.9572 14.0393");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.l1jur_bpp {
+  d: path("M15.5732 16.251L15.4999 16C14.9176 14.2522 13.8466 13.5 11.9999 13.5C10.1532 13.5 9.08211 14.2522 8.49986 16L8.43262 16.2505");
+}
+
+.o-34giu1u {
+  d: path("M8 4.41146C7.67967 4.68689 7.5 5.08468 7.5 5.41146C7.5 6.56493 9.23858 7.41146 12 7.41146C14.7614 7.41146 16.5 6.56493 16.5 5.41146C16.5 5.08468 16.3203 4.77543 16 4.5");
+}
+
+.q8mqojmpj {
+  d: path("M21 12C21.0005 12.6799 20.9862 13.3598 20.9571 14.0393C20.9115 15.1012 20.8298 16.162 20.712 17.2199L20.6948 17.3739C20.4473 19.5951 18.7041 21.357 16.48 21.6342L15.5738 21.7471L15.5735 21.7472C15.0789 21.8088 14.8315 21.8396 14.5845 21.8654C12.866 22.0449 11.1335 22.0449 9.41505 21.8654C9.16797 21.8396 8.92061 21.8088 8.42598 21.7472L8.42569 21.7471L7.41019 21.6206C5.24868 21.3512 3.55266 19.6422 3.30532 17.4844C3.17574 16.3539 3.08741 15.2199 3.04032 14.0847C2.93947 11.6534 3.02781 9.21621 3.30532 6.79516L3.32102 6.65818C3.56225 4.55367 5.15124 2.85176 7.23936 2.4614L7.4544 2.4212C10.4585 1.8596 13.541 1.8596 16.5451 2.42119L16.8681 2.48157C18.8934 2.86019 20.4367 4.50764 20.6774 6.54809C20.7345 7.03145 20.7839 7.51548 20.8258 8");
+}
+
+.wp68rqjes {
+  d: path("M3.04053 14.0847C3.72754 14.6771 5.57682 16.0907 10.0002 16.4272");
+}
+
+</style>

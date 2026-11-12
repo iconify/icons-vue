@@ -1,10 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/m/mnp-46y7d.css';
-import '../../css/v/v4tckp_mx.css';
-import '../../css/d/dxz_62g8x.css';
-import '../../css/u/uzj9wplpi.css';
 
 const props = defineProps(["width","height"]);
 
@@ -12,3 +7,29 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="mnp-46y7d"/><path class="v4tckp_mx"/><path class="dxz_62g8x"/><path class="uzj9wplpi"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:screencast-broken" /></template>
+<style>
+.dxz_62g8x {
+  d: path("M2 14C5.31371 14 8 16.6863 8 20");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.mnp-46y7d {
+  stroke-linejoin: round;
+  d: path("M14 20C17.7712 20 19.6569 20 20.8284 18.8284C22 17.6569 22 15.7712 22 12C22 11.6508 22 11.3178 21.9991 11M2 8.5C2 8.03566 2 7.80349 2.01926 7.60793C2.20631 5.70882 3.70882 4.20631 5.60793 4.01926C5.80349 4 6.03566 4 6.5 4H14C17.7712 4 19.6569 4 20.8284 5.17157C21.298 5.64118 21.5794 6.2255 21.748 7");
+}
+
+.uzj9wplpi {
+  d: path("M2 17C3.65685 17 5 18.3431 5 20");
+}
+
+.v4tckp_mx {
+  d: path("M2 11C6.97056 11 11 15.0294 11 20");
+}
+
+</style>

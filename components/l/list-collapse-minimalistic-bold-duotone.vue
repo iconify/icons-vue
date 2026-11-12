@@ -1,11 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/x/xtpeb-edw.css';
-import '../../css/o/o7greeb4r.css';
-import '../../css/p/pgsx8ub-o.css';
-import '../../css/z/zngrk6exs.css';
-import '../../css/l/l9ryh3gjv.css';
-import '../../css/b/bnmm1dbcu.css';
 
 const props = defineProps(["width","height"]);
 
@@ -13,3 +7,32 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="xtpeb-edw"><path class="o7greeb4r"/><path class="pgsx8ub-o"/><path class="zngrk6exs"/></g><path class="l9ryh3gjv"/><path class="bnmm1dbcu"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:list-collapse-minimalistic-bold-duotone" /></template>
+<style>
+.bnmm1dbcu {
+  fill: currentColor;
+  d: path("M4.79839 5.43066C5.11288 5.1614 5.58653 5.19733 5.85601 5.51171L7.56987 7.51171C7.81037 7.7925 7.81037 8.20748 7.56987 8.48827L5.85601 10.4883C5.58654 10.8027 5.11288 10.8386 4.79839 10.5693C4.48393 10.2998 4.4469 9.8262 4.71636 9.51171L6.01323 7.99999L4.71636 6.48827C4.4469 6.17378 4.48393 5.70019 4.79839 5.43066Z");
+}
+
+.l9ryh3gjv {
+  fill: currentColor;
+  d: path("M4.79839 11.4307C5.11288 11.1614 5.58653 11.1973 5.85601 11.5117L7.56987 13.5117C7.81037 13.7925 7.81037 14.2075 7.56987 14.4883L5.85601 16.4883C5.58654 16.8027 5.11288 16.8386 4.79839 16.5693C4.48393 16.2998 4.4469 15.8262 4.71636 15.5117L6.01323 14L4.71636 12.4883C4.4469 12.1738 4.48393 11.7002 4.79839 11.4307Z");
+}
+
+.o7greeb4r {
+  d: path("M20 15.25C20.4142 15.25 20.75 15.5858 20.75 16C20.75 16.4142 20.4142 16.75 20 16.75H12C11.5858 16.75 11.25 16.4142 11.25 16C11.25 15.5858 11.5858 15.25 12 15.25H20Z");
+}
+
+.pgsx8ub-o {
+  d: path("M20 10.25C20.4142 10.25 20.75 10.5858 20.75 11C20.75 11.4142 20.4142 11.75 20 11.75H12C11.5858 11.75 11.25 11.4142 11.25 11C11.25 10.5858 11.5858 10.25 12 10.25H20Z");
+}
+
+.xtpeb-edw {
+  fill: currentColor;
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.zngrk6exs {
+  d: path("M20 5.25C20.4142 5.25 20.75 5.58579 20.75 6C20.75 6.41421 20.4142 6.75 20 6.75H12C11.5858 6.75 11.25 6.41421 11.25 6C11.25 5.58579 11.5858 5.25 12 5.25H20Z");
+}
+
+</style>

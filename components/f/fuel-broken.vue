@@ -1,13 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/t/t-yonduyb.css';
-import '../../css/j/j2ad96byc.css';
-import '../../css/n/nowt54uvr.css';
-import '../../css/t/t-pxa_bpn.css';
-import '../../css/d/dkhtn4wfq.css';
-import '../../css/h/hs14odbir.css';
-import '../../css/g/g9fu1acks.css';
 
 const props = defineProps(["width","height"]);
 
@@ -15,3 +7,40 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="t-yonduyb"/><path class="j2ad96byc"/><path class="nowt54uvr"/><path class="t-pxa_bpn"/><path class="dkhtn4wfq"/><path class="hs14odbir"/><path class="g9fu1acks"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:fuel-broken" /></template>
+<style>
+.dkhtn4wfq {
+  d: path("M15 17L16 18");
+}
+
+.g9fu1acks {
+  d: path("M10.9442 5.23713C10.7929 4.66113 10.3519 4.21122 9.78716 4.05687C9.57907 4 9.32544 4 8.81818 4H8C6.7206 4 6.08089 4 5.64021 4.34492C5.52676 4.43372 5.4252 4.53731 5.33815 4.65303C5 5.10254 5 5.75506 5 7.06009");
+}
+
+.hs14odbir {
+  d: path("M9 17L8 18");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.j2ad96byc {
+  d: path("M12 17C10.5858 17 9.87868 17 9.43934 16.5607C9 16.1213 9 15.4142 9 14C9 12.5858 9 11.8787 9.43934 11.4393C9.87868 11 10.5858 11 12 11C13.4142 11 14.1213 11 14.5607 11.4393C15 11.8787 15 12.5858 15 14C15 15.4142 15 16.1213 14.5607 16.5607C14.1213 17 13.4142 17 12 17Z");
+}
+
+.nowt54uvr {
+  d: path("M15 11L16 10");
+}
+
+.t-pxa_bpn {
+  d: path("M9 11L8 10");
+}
+
+.t-yonduyb {
+  d: path("M22 10.2325V15.8834C22 18.7668 22 20.2085 21.1213 21.1042C20.2426 22 18.8284 22 16 22H8C5.17157 22 3.75736 22 2.87868 21.1042C2 20.2085 2 18.7668 2 15.8834V13.0869C2 10.9906 2 9.94241 2.55325 9.14745C3.1065 8.3525 4.07697 8.00623 6.0179 7.3137L14.0179 4.45927C17.6539 3.16195 19.4718 2.51329 20.7359 3.42756C21.4239 3.92513 21.7374 4.73349 21.8803 6");
+}
+
+</style>

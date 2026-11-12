@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/d/dmrtm7e_f.css';
-import '../../css/j/jcusk6gmi.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,20 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="dmrtm7e_f"/><path class="jcusk6gmi"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:pip-broken" /></template>
+<style>
+.dmrtm7e_f {
+  d: path("M11 21H10C6.22876 21 4.34315 21 3.17157 19.8284C2 18.6569 2 16.7712 2 13V11M22 11C22 7.22876 22 5.34315 20.8284 4.17157C19.6569 3 17.7712 3 14 3H10C6.22876 3 4.34315 3 3.17157 4.17157C2.51839 4.82475 2.22937 5.69989 2.10149 7");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.jcusk6gmi {
+  d: path("M17 21H18C19.8856 21 20.8284 21 21.4142 20.4142C22 19.8284 22 18.8856 22 17C22 15.1144 22 14.1716 21.4142 13.5858C20.8284 13 19.8856 13 18 13H17C15.1144 13 14.1716 13 13.5858 13.5858C13 14.1716 13 15.1144 13 17C13 18.8856 13 19.8284 13.5858 20.4142C14.1716 21 15.1144 21 17 21Z");
+}
+
+</style>

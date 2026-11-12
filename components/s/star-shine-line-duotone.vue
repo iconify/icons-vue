@@ -1,15 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/w/wis1w0bxu.css';
-import '../../css/e/epi8l4ivv.css';
-import '../../css/y/ygae94b0i.css';
-import '../../css/h/hv3siab8m.css';
-import '../../css/j/jft98ub-s.css';
-import '../../css/w/wruedxb7y.css';
-import '../../css/f/fw0v9lbrp.css';
-import '../../css/t/tiz_macsu.css';
-import '../../css/v/vwck1pjsf.css';
 
 const props = defineProps(["width","height"]);
 
@@ -17,3 +7,52 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="wis1w0bxu"/><path class="epi8l4ivv"/><path class="ygae94b0i"/><path class="hv3siab8m"/><path class="jft98ub-s"/><path class="wruedxb7y"/><path class="fw0v9lbrp"/><path class="tiz_macsu"/><path class="vwck1pjsf"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:star-shine-line-duotone" /></template>
+<style>
+.epi8l4ivv {
+  d: path("M12 2V4");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.fw0v9lbrp {
+  d: path("M17.6572 6.34314L18.0005 5.99988");
+}
+
+.hv3siab8m {
+  d: path("M2 12L4 12");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.jft98ub-s {
+  d: path("M20 12L22 12");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.tiz_macsu {
+  d: path("M18 18.0001L17.657 17.6571");
+}
+
+.vwck1pjsf {
+  d: path("M6.34375 6.34326L6.00049 6");
+}
+
+.wis1w0bxu {
+  d: path("M9.33794 9.81402L9.01977 9.88601C7.78993 10.1643 7.17501 10.3034 7.02871 10.7739C6.88241 11.2443 7.30162 11.7345 8.14005 12.715L8.35696 12.9686C8.59521 13.2472 8.71434 13.3865 8.76793 13.5589C8.82152 13.7312 8.80351 13.9171 8.76749 14.2888L8.7347 14.6272C8.60794 15.9353 8.54456 16.5894 8.92757 16.8801C9.31059 17.1709 9.88634 16.9058 11.0378 16.3756L11.3357 16.2384C11.663 16.0878 11.8266 16.0124 12 16.0124C12.1734 16.0124 12.337 16.0878 12.6643 16.2384L12.9622 16.3756C14.1137 16.9058 14.6894 17.1709 15.0724 16.8801C15.4554 16.5894 15.3921 15.9353 15.2653 14.6272L15.2325 14.2888C15.1965 13.9171 15.1785 13.7312 15.2321 13.5589C15.2857 13.3865 15.4048 13.2472 15.643 12.9686L15.86 12.715C16.6984 11.7345 17.1176 11.2443 16.9713 10.7739C16.825 10.3034 16.2101 10.1643 14.9802 9.88601L14.6621 9.81402C14.3126 9.73495 14.1378 9.69541 13.9975 9.5889C13.8572 9.48239 13.7672 9.32097 13.5873 8.99812L13.4234 8.70419C12.7901 7.56806 12.4734 7 12 7C11.5266 7 11.2099 7.56806 10.5766 8.70419L10.4127 8.99812C10.2328 9.32097 10.1428 9.48239 10.0025 9.5889C9.86217 9.69541 9.68743 9.73495 9.33794 9.81402Z");
+}
+
+.wruedxb7y {
+  d: path("M6 17.9999L6.34305 17.6568");
+}
+
+.ygae94b0i {
+  d: path("M12 20V22");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+</style>

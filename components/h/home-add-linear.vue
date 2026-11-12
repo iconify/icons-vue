@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/e/eqqdeno9t.css';
-import '../../css/h/hhmdz5h9f.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,20 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="eqqdeno9t"/><path class="hhmdz5h9f"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:home-add-linear" /></template>
+<style>
+.eqqdeno9t {
+  d: path("M7.88403 3.86711L5.88403 5.10837C3.98695 6.28576 3.0384 6.87445 2.5192 7.82299C2 8.77152 2 9.91573 2 12.2042V13.7252C2 17.6261 2 19.5765 3.17157 20.7884C4.34315 22.0002 6.22876 22.0002 10 22.0002H14C17.7712 22.0002 19.6569 22.0002 20.8284 20.7884C22 19.5765 22 17.6261 22 13.7252V12.2042C22 9.91573 22 8.77152 21.4808 7.82299C20.9616 6.87445 20.0131 6.28576 18.116 5.10837L16.116 3.86711C14.1106 2.62253 13.1079 2.00024 12 2.00024C10.8921 2.00024 9.88939 2.62253 7.88403 3.86711Z");
+}
+
+.hhmdz5h9f {
+  d: path("M15 14L12 14M12 14L9 14M12 14L12 11M12 14L12 17");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+</style>

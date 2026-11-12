@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/b/bc4tymbms.css';
-import '../../css/s/sgn1aep-s.css';
-import '../../css/u/ufg40xb6y.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,21 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="bc4tymbms"/><path class="sgn1aep-s"/><path class="ufg40xb6y"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:spedometer-middle-bold-duotone" /></template>
+<style>
+.bc4tymbms {
+  fill: currentColor;
+  d: path("M9.02 13.015a3.006 3.006 0 0 0 3.008 3.004a3.006 3.006 0 0 0 3.008-3.004c0-.631-.435-1.507-.974-2.35c-.807-1.26-1.21-1.89-2.034-1.89s-1.227.63-2.034 1.89c-.54.844-.974 1.719-.974 2.35");
+}
+
+.sgn1aep-s {
+  fill: currentColor;
+  d: path("M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12S6.477 2 12 2s10 4.477 10 10");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.ufg40xb6y {
+  fill: currentColor;
+  d: path("M4.42 5.476q.49-.566 1.057-1.055l.053.048l1.5 1.5A.75.75 0 0 1 5.97 7.03l-1.5-1.5zM2.028 12.75a10 10 0 0 1 0-1.5H4a.75.75 0 0 1 0 1.5zm3.448 6.83a10 10 0 0 1-1.055-1.056l.049-.055l1.5-1.5a.75.75 0 0 1 1.06 1.061l-1.5 1.5zm14.104-1.056q-.49.566-1.056 1.055l-.054-.049l-1.5-1.5a.75.75 0 1 1 1.06-1.06l1.5 1.5zm2.392-7.274a10 10 0 0 1 0 1.5H20a.75.75 0 0 1 0-1.5zm-3.448-6.83q.566.49 1.055 1.056l-.049.054l-1.5 1.5a.75.75 0 1 1-1.06-1.06l1.5-1.5zM12.75 2.028V4a.75.75 0 0 1-1.5 0V2.028a10 10 0 0 1 1.5 0");
+}
+
+</style>

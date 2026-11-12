@@ -1,10 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/m/myg4xebay.css';
-import '../../css/v/vz7kdz1fb.css';
-import '../../css/w/w_91c9bhk.css';
-import '../../css/c/chnbh0b2d.css';
-import '../../css/f/fsm6edcal.css';
 
 const props = defineProps(["width","height"]);
 
@@ -12,3 +7,30 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="myg4xebay"/><path class="vz7kdz1fb"/><path class="w_91c9bhk"/><path class="chnbh0b2d"/><path class="fsm6edcal"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:table-cells-merge-bold" /></template>
+<style>
+.chnbh0b2d {
+  fill: currentColor;
+  d: path("M11.25 7.91699H3.0127C3.05152 5.48899 3.23937 4.10438 4.17188 3.17188C5.34345 2.0003 7.22876 2 11 2H11.25V7.91699Z");
+}
+
+.fsm6edcal {
+  fill: currentColor;
+  d: path("M13 2C16.7712 2 18.6566 2.0003 19.8281 3.17188C20.7606 4.10438 20.9485 5.48899 20.9873 7.91699H12.75V2H13Z");
+}
+
+.myg4xebay {
+  fill: currentColor;
+  d: path("M11.25 22H11C7.22877 22 5.34345 21.9997 4.17188 20.8281C3.23937 19.8956 3.05152 18.511 3.0127 16.083H11.25V22Z");
+}
+
+.vz7kdz1fb {
+  fill: currentColor;
+  d: path("M20.9873 16.083C20.9485 18.511 20.7606 19.8956 19.8281 20.8281C18.6566 21.9997 16.7712 22 13 22H12.75V16.083H20.9873Z");
+}
+
+.w_91c9bhk {
+  fill: currentColor;
+  d: path("M21 10V14C21 14.1996 20.9992 14.3938 20.999 14.583H3.00098C3.0008 14.3938 3 14.1996 3 14V10C3 9.80044 3.0008 9.60616 3.00098 9.41699H20.999C20.9992 9.60616 21 9.80044 21 10Z");
+}
+
+</style>

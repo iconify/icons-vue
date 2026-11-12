@@ -1,10 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/e/e1_dsdb2x.css';
-import '../../css/c/cy07d15rp.css';
-import '../../css/f/fdsu-dbih.css';
-import '../../css/w/wtnotgb3w.css';
 
 const props = defineProps(["width","height"]);
 
@@ -12,3 +7,29 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="e1_dsdb2x"/><path class="cy07d15rp"/><path class="fdsu-dbih"/><path class="wtnotgb3w"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:watch-square-broken" /></template>
+<style>
+.cy07d15rp {
+  d: path("M18.9876 10.0486C18.9529 8.47634 18.8218 7.51998 18.3259 6.77772C18.034 6.34096 17.659 5.96596 17.2223 5.67412C16.2134 5 14.8089 5 12 5C9.19108 5 7.78661 5 6.77772 5.67412C6.34096 5.96596 5.96596 6.34096 5.67412 6.77772C5 7.78661 5 9.19108 5 12C5 14.8089 5 16.2134 5.67412 17.2223C5.96596 17.659 6.34096 18.034 6.77772 18.3259C7.78661 19 9.19108 19 12 19C14.8089 19 16.2134 19 17.2223 18.3259C17.659 18.034 18.034 17.659 18.3259 17.2223C18.8152 16.4899 18.9494 15.5491 18.9861 14.014");
+}
+
+.e1_dsdb2x {
+  stroke-linejoin: round;
+  d: path("M12 8.99998V12.0769L14 14");
+}
+
+.fdsu-dbih {
+  d: path("M7.23828 5.42371L7.30304 5.13228C7.63674 3.63065 7.80359 2.87983 8.35199 2.43992C8.9004 2 9.66953 2 11.2078 2H12.7904C14.3287 2 15.0978 2 15.6462 2.43992C16.1946 2.87983 16.3615 3.63065 16.6952 5.13228L16.7599 5.42366");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.wtnotgb3w {
+  d: path("M7.23828 18.5762L7.30304 18.8676C7.63674 20.3692 7.80359 21.12 8.35199 21.56C8.9004 21.9999 9.66953 21.9999 11.2078 21.9999H12.7904C14.3287 21.9999 15.0978 21.9999 15.6462 21.56C16.1946 21.1201 16.3615 20.3692 16.6952 18.8676L16.7599 18.5762");
+}
+
+</style>

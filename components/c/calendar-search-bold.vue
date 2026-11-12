@@ -1,12 +1,27 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/h/h2fxdh14r.css';
-import '../../css/e/e_29zdb8m.css';
-import '../../css/c/c1r3dshtw.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path clip-rule="evenodd" class="h2fxdh14r"/><path class="e_29zdb8m"/><path class="c1r3dshtw"/>`;
+const content = `<path clip-rule="evenodd" class="ey63_xjtr"/><path class="eooj22rxl"/><path class="pxpgfoisn"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:calendar-search-bold" /></template>
+<style>
+.eooj22rxl {
+  fill: currentColor;
+  d: path("M21.9873 9.5C22.0002 10.1653 22 10.911 22 11.75V14.3496C21.037 13.2181 19.6022 12.5 18 12.5C15.1005 12.5 12.75 14.8505 12.75 17.75C12.75 19.3522 13.4681 20.787 14.5996 21.75H10C6.22876 21.75 4.34345 21.7497 3.17188 20.5781C2.0003 19.4066 2 17.5212 2 13.75V11.75C2 10.911 1.99979 10.1653 2.0127 9.5H21.9873Z");
+}
+
+.ey63_xjtr {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M18 14C20.0711 14 21.75 15.6789 21.75 17.75C21.75 18.5143 21.5215 19.2255 21.1289 19.8184L22.5303 21.2197C22.8232 21.5126 22.8232 21.9874 22.5303 22.2803C22.2374 22.5732 21.7626 22.5732 21.4697 22.2803L20.0684 20.8789C19.4755 21.2715 18.7643 21.5 18 21.5C15.9289 21.5 14.25 19.8211 14.25 17.75C14.25 15.6789 15.9289 14 18 14ZM18 15.5C16.7574 15.5 15.75 16.5074 15.75 17.75C15.75 18.9926 16.7574 20 18 20C19.2426 20 20.25 18.9926 20.25 17.75C20.25 16.5074 19.2426 15.5 18 15.5Z");
+}
+
+.pxpgfoisn {
+  fill: currentColor;
+  d: path("M17 2.25C17.4142 2.25 17.75 2.58579 17.75 3V3.8291L17.751 3.83008C19.1903 3.94534 20.1349 4.22769 20.8291 4.92188C21.5233 5.61605 21.8047 6.56075 21.9199 8H2.08203C2.19729 6.56075 2.47868 5.61605 3.17285 4.92188C3.86688 4.22784 4.81125 3.94539 6.25 3.83008V3C6.25 2.58579 6.58579 2.25 7 2.25C7.41421 2.25 7.75 2.58579 7.75 3V3.76465C8.41527 3.75175 9.16193 3.75 10.001 3.75H14.001C14.8396 3.75 15.585 3.75079 16.25 3.76367V3C16.25 2.58579 16.5858 2.25 17 2.25Z");
+}
+
+</style>

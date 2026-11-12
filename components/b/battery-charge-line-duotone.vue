@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/o/ovw1pubnt.css';
-import '../../css/q/q7kvgacmn.css';
-import '../../css/p/pu97ujszu.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,26 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="ovw1pubnt"/><path class="q7kvgacmn"/><path class="pu97ujszu"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:battery-charge-line-duotone" /></template>
+<style>
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.ovw1pubnt {
+  d: path("M10 20H11.5C15.2712 20 17.1569 20 18.3284 18.8284C19.5 17.6569 19.5 15.7712 19.5 12C19.5 8.22876 19.5 6.34315 18.3284 5.17157C17.1569 4 15.2712 4 11.5 4H10C6.22876 4 4.34315 4 3.17157 5.17157C2 6.34315 2 8.22876 2 12C2 15.7712 2 17.6569 3.17157 18.8284C4.34315 20 6.22876 20 10 20Z");
+}
+
+.pu97ujszu {
+  stroke-linejoin: round;
+  d: path("M11.5 9L9 12H12.5L10 15");
+}
+
+.q7kvgacmn {
+  d: path("M20 10V14C20.9428 14 21.4142 14 21.7071 13.7071C22 13.4142 22 12.9428 22 12C22 11.0572 22 10.5858 21.7071 10.2929C21.4142 10 20.9428 10 20 10Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+</style>

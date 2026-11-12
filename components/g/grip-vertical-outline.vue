@@ -1,11 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/f/f1qhirzjm.css';
-import '../../css/g/gxn3sqbis.css';
-import '../../css/b/b6hcl2bem.css';
-import '../../css/s/sxlyg7bpw.css';
-import '../../css/k/kvdyyd79v.css';
-import '../../css/h/hv6i9sbii.css';
 
 const props = defineProps(["width","height"]);
 
@@ -13,3 +7,35 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="f1qhirzjm"/><path class="gxn3sqbis"/><path class="b6hcl2bem"/><path class="sxlyg7bpw"/><path class="kvdyyd79v"/><path class="hv6i9sbii"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:grip-vertical-outline" /></template>
+<style>
+.b6hcl2bem {
+  fill: currentColor;
+  d: path("M8.50391 10.5C9.33233 10.5 10.0039 11.1716 10.0039 12C10.0039 12.8284 9.33233 13.5 8.50391 13.5C7.67548 13.5 7.00391 12.8284 7.00391 12C7.00391 11.1716 7.67548 10.5 8.50391 10.5Z");
+}
+
+.f1qhirzjm {
+  fill: currentColor;
+  d: path("M8.50391 17.5C9.33233 17.5 10.0039 18.1716 10.0039 19C10.0039 19.8284 9.33233 20.5 8.50391 20.5C7.67548 20.5 7.00391 19.8284 7.00391 19C7.00391 18.1716 7.67548 17.5 8.50391 17.5Z");
+}
+
+.gxn3sqbis {
+  fill: currentColor;
+  d: path("M15.5117 17.5C16.3401 17.5 17.0117 18.1716 17.0117 19C17.0117 19.8284 16.3401 20.5 15.5117 20.5C14.6833 20.5 14.0117 19.8284 14.0117 19C14.0117 18.1716 14.6833 17.5 15.5117 17.5Z");
+}
+
+.hv6i9sbii {
+  fill: currentColor;
+  d: path("M15.4961 3.5C16.3245 3.5 16.9961 4.17157 16.9961 5C16.9961 5.82843 16.3245 6.5 15.4961 6.5C14.6677 6.5 13.9961 5.82843 13.9961 5C13.9961 4.17157 14.6677 3.5 15.4961 3.5Z");
+}
+
+.kvdyyd79v {
+  fill: currentColor;
+  d: path("M8.48828 3.5C9.31671 3.5 9.98828 4.17157 9.98828 5C9.98828 5.82843 9.31671 6.5 8.48828 6.5C7.65985 6.5 6.98828 5.82843 6.98828 5C6.98828 4.17157 7.65985 3.5 8.48828 3.5Z");
+}
+
+.sxlyg7bpw {
+  fill: currentColor;
+  d: path("M15.5117 10.5C16.3401 10.5 17.0117 11.1716 17.0117 12C17.0117 12.8284 16.3401 13.5 15.5117 13.5C14.6833 13.5 14.0117 12.8284 14.0117 12C14.0117 11.1716 14.6833 10.5 15.5117 10.5Z");
+}
+
+</style>

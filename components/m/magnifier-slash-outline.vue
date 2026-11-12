@@ -1,7 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/n_sy2m0fq.css';
-import '../../css/v/vyk6wnbgi.css';
 
 const props = defineProps(["width","height"]);
 
@@ -9,3 +7,16 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="n_sy2m0fq"/><path clip-rule="evenodd" class="vyk6wnbgi"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:magnifier-slash-outline" /></template>
+<style>
+.n_sy2m0fq {
+  fill: currentColor;
+  d: path("M12.7373 9.20215C13.0302 8.90926 13.505 8.90926 13.7979 9.20215C14.0907 9.49504 14.0907 9.9698 13.7979 10.2627L10.2627 13.7979C9.9698 14.0907 9.49504 14.0907 9.20215 13.7979C8.90926 13.505 8.90926 13.0302 9.20215 12.7373L12.7373 9.20215Z");
+}
+
+.vyk6wnbgi {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M11.5 1.25C17.1609 1.25 21.75 5.83908 21.75 11.5C21.75 14.0605 20.8111 16.4018 19.2588 18.1982L22.5303 21.4697C22.8232 21.7626 22.8232 22.2374 22.5303 22.5303C22.2374 22.8232 21.7626 22.8232 21.4697 22.5303L18.1982 19.2588C16.4018 20.8111 14.0605 21.75 11.5 21.75C5.83908 21.75 1.25 17.1609 1.25 11.5C1.25 5.83908 5.83908 1.25 11.5 1.25ZM11.5 2.75C6.66751 2.75 2.75 6.66751 2.75 11.5C2.75 16.3325 6.66751 20.25 11.5 20.25C16.3325 20.25 20.25 16.3325 20.25 11.5C20.25 6.66751 16.3325 2.75 11.5 2.75Z");
+}
+
+</style>

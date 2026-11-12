@@ -1,11 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/v/vlicqjwnt.css';
-import '../../css/a/a8o0ttbfc.css';
-import '../../css/m/me86ccc_a.css';
-import '../../css/x/x_jwp_bge.css';
-import '../../css/y/yy3grib4x.css';
 
 const props = defineProps(["width","height"]);
 
@@ -13,3 +7,34 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="vlicqjwnt"/><path class="a8o0ttbfc"/><circle class="me86ccc_a"/><path class="x_jwp_bge"/><path class="yy3grib4x"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:stethoscope-broken" /></template>
+<style>
+.a8o0ttbfc {
+  d: path("M12.2857 3H12.3774C12.6902 3 12.8467 3 12.9785 3.01166C14.4267 3.13972 15.5746 4.28763 15.7026 5.73574C15.7143 5.86761 15.7143 6.02404 15.7143 6.3369V7.23529C15.7143 8.2172 15.5121 9.15189 15.1471 10M5.42857 3H5.3369C5.02404 3 4.86761 3 4.73574 3.01166C3.28763 3.13972 2.13972 4.28763 2.01166 5.73574C2 5.86761 2 6.02404 2 6.3369V7.521C2 11.2292 5.00609 14.2353 8.71429 14.2353C9.78788 14.2353 10.805 13.9936 11.7143 13.5617");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.me86ccc_a {
+  cx: 19px;
+  cy: 16px;
+  r: 3px;
+}
+
+.vlicqjwnt {
+  d: path("M9 14.2354V17.0001C9 19.0504 10.2341 20.8125 12 21.584M14.8824 22.0001C16.7691 22.0001 18.3595 20.7311 18.8465 19.0001");
+}
+
+.x_jwp_bge {
+  d: path("M12 2V4");
+}
+
+.yy3grib4x {
+  d: path("M6 2V4");
+}
+
+</style>

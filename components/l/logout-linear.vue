@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/o/od-msub9u.css';
-import '../../css/x/xm0m6vgjk.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,21 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="od-msub9u"/><path class="xm0m6vgjk"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:logout-linear" /></template>
+<style>
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.od-msub9u {
+  d: path("M12 20C7.58172 20 4 16.4183 4 12C4 7.58172 7.58172 4 12 4");
+}
+
+.xm0m6vgjk {
+  stroke-linejoin: round;
+  d: path("M10 12H20M17 15L20 12L17 9");
+}
+
+</style>

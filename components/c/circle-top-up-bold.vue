@@ -1,11 +1,21 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/e/ejn_m3b5w.css';
-import '../../css/x/x-i7oifjp.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="ejn_m3b5w"/><path class="x-i7oifjp"/>`;
+const content = `<path class="l92zpzb6g"/><path class="le5uhk1so"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:circle-top-up-bold" /></template>
+<style>
+.l92zpzb6g {
+  fill: currentColor;
+  d: path("M12 2C12.5987 2 13.1851 2.05247 13.7549 2.15332C13.8338 3.32436 14.809 4.25 16 4.25H16.5684L12.4092 8.40918C11.5305 9.28786 11.5305 10.7121 12.4092 11.5908C13.2879 12.4695 14.7121 12.4695 15.5908 11.5908L19.75 7.43164V8C19.75 9.19104 20.6756 10.1662 21.8467 10.2451C21.9475 10.8149 22 11.4013 22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2Z");
+}
+
+.le5uhk1so {
+  fill: currentColor;
+  d: path("M22 1.25C22.4142 1.25 22.75 1.58579 22.75 2V8C22.75 8.41421 22.4142 8.75 22 8.75C21.5858 8.75 21.25 8.41421 21.25 8V3.81055L14.5303 10.5303C14.2374 10.8232 13.7626 10.8232 13.4697 10.5303C13.1768 10.2374 13.1768 9.76262 13.4697 9.46973L20.1895 2.75H16C15.5858 2.75 15.25 2.41421 15.25 2C15.25 1.58579 15.5858 1.25 16 1.25H22Z");
+}
+
+</style>

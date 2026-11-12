@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/t/tglx8ze6s.css';
-import '../../css/c/cna71lbwk.css';
-import '../../css/g/g3r_rtbqs.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,24 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="tglx8ze6s"/><path class="cna71lbwk"/><path class="g3r_rtbqs"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:filter-close-broken" /></template>
+<style>
+.cna71lbwk {
+  d: path("M3.94202 9.72255C2.99347 9.18858 2.5192 8.9216 2.2596 8.49142C2 8.06124 2 7.54232 2 6.50448V5.81466C2 4.48782 2 3.8244 2.43934 3.4122C2.87868 3 3.58579 3 5 3H14.0135");
+}
+
+.g3r_rtbqs {
+  d: path("M22 8.62844L19.7019 6.33034M19.7019 6.33034L17.4038 4.03225M19.7019 6.33034L22 4.03223M19.7019 6.33034L17.4038 8.62842");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.tglx8ze6s {
+  d: path("M6.85498 11.3623C7.4914 11.7206 7.80961 11.8997 8.03745 12.0975C8.51192 12.5094 8.80402 12.9934 8.93638 13.5871C8.99994 13.8722 8.99994 14.2057 8.99994 14.8729L8.99994 17.5423C8.99994 18.4519 8.99994 18.9067 9.25186 19.2612C9.50378 19.6157 9.95121 19.7907 10.8461 20.1405L10.8461 20.1405L10.8461 20.1405C12.7247 20.8749 13.664 21.2421 14.332 20.8243C14.9999 20.4065 14.9999 19.4518 14.9999 17.5423V14.8729C14.9999 14.2057 14.9999 13.8722 15.0635 13.5871C15.1959 12.9934 15.4879 12.5094 15.9624 12.0975");
+}
+
+</style>

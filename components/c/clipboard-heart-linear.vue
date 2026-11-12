@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/d/dqgo5wbxe.css';
-import '../../css/b/b6to_c51m.css';
-import '../../css/m/m390b8qby.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,25 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="dqgo5wbxe"/><path class="b6to_c51m"/><path class="m390b8qby"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:clipboard-heart-linear" /></template>
+<style>
+.b6to_c51m {
+  stroke-linejoin: round;
+  d: path("M12 16C12 16 9 14.2765 9 12.6967C9 11.0235 10.65 10.3988 12 11.6913C13.35 10.3988 15 11.0235 15 12.6967C15 14.2766 12 16 12 16Z");
+}
+
+.dqgo5wbxe {
+  d: path("M16 4C18.175 4.01211 19.3529 4.10856 20.1213 4.87694C21 5.75562 21 7.16983 21 9.99826V15.9983C21 18.8267 21 20.2409 20.1213 21.1196C19.2426 21.9983 17.8284 21.9983 15 21.9983H9C6.17157 21.9983 4.75736 21.9983 3.87868 21.1196C3 20.2409 3 18.8267 3 15.9983V9.99826C3 7.16983 3 5.75562 3.87868 4.87694C4.64706 4.10856 5.82497 4.01211 8 4");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.m390b8qby {
+  d: path("M8 3.5C8 2.67157 8.67157 2 9.5 2H14.5C15.3284 2 16 2.67157 16 3.5V4.5C16 5.32843 15.3284 6 14.5 6H9.5C8.67157 6 8 5.32843 8 4.5V3.5Z");
+}
+
+</style>

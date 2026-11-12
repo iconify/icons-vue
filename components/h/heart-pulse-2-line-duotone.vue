@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/q/q7c950bcg.css';
-import '../../css/r/ro0lg1blj.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,22 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="q7c950bcg"/><path class="ro0lg1blj"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:heart-pulse-2-line-duotone" /></template>
+<style>
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.q7c950bcg {
+  d: path("M21 12H18.6361C17.9781 12 17.6491 12 17.3578 12.1298C17.0665 12.2595 16.8463 12.5042 16.4059 12.9934L15.3767 14.137C15.0154 14.5384 14.8348 14.7391 14.6057 14.7342C14.3766 14.7293 14.2049 14.5212 13.8616 14.105L13.8616 14.105L10.3334 9.82838C10.0133 9.44035 9.85321 9.24634 9.63599 9.23329C9.41877 9.22024 9.23663 9.3937 8.87237 9.74062L7.36897 11.1724L7.36895 11.1724C6.93985 11.5811 6.72529 11.7855 6.45709 11.8927C6.18887 12 5.89258 12 5.3 12H3");
+}
+
+.ro0lg1blj {
+  stroke-linejoin: round;
+  d: path("M2 9.26044C2 13.0079 6.01943 16.9714 8.96173 19.3707C10.2937 20.4569 10.9597 21 12 21C13.0403 21 13.7063 20.4569 15.0383 19.3707C17.9806 16.9714 22 13.008 22 9.2604C22 3.34931 16.4998 0.662637 12 5.49877C7.50016 0.662637 2 3.3495 2 9.26044Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+</style>

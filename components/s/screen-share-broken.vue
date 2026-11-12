@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/i/ivy0y0brz.css';
-import '../../css/q/qldi4nb9l.css';
-import '../../css/z/zgwn8jw0r.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,25 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="ivy0y0brz"/><path class="qldi4nb9l"/><path class="zgwn8jw0r"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:screen-share-broken" /></template>
+<style>
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.ivy0y0brz {
+  d: path("M21 16C21 18.8284 21 20.2426 20.1213 21.1213C19.2426 22 17.8284 22 15 22H14C11.1716 22 9.75736 22 8.87868 21.1213C8 20.2426 8 18.8284 8 16V8C8 5.17157 8 3.75736 8.87868 2.87868C9.75736 2 11.1716 2 14 2H15C17.8284 2 19.2426 2 20.1213 2.87868C21 3.75736 21 5.17157 21 8V12");
+}
+
+.qldi4nb9l {
+  d: path("M3 14V14.5C3 16.857 3 18.0355 3.73223 18.7678C4.46447 19.5 5.64298 19.5 8 19.5H8.14114M3 10V9.5C3 7.14298 3 5.96447 3.73223 5.23223C4.46447 4.5 5.64298 4.5 8 4.5H8.14114");
+}
+
+.zgwn8jw0r {
+  stroke-linejoin: round;
+  d: path("M14.5 16V8M12 10.5L14.5 8L17 10.5");
+}
+
+</style>

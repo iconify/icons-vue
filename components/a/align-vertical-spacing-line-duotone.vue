@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/q/ql8wzqa2k.css';
-import '../../css/f/fd7_frbmd.css';
-import '../../css/j/jqjum4bpa.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,26 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="ql8wzqa2k"/><path class="fd7_frbmd"/><path class="jqjum4bpa"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:align-vertical-spacing-line-duotone" /></template>
+<style>
+.fd7_frbmd {
+  d: path("M22 21L2 21");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.jqjum4bpa {
+  d: path("M16 16H8C6.11438 16 5.17157 16 4.58579 15.4142C4 14.8284 4 13.8856 4 12C4 10.1144 4 9.17157 4.58579 8.58579C5.17157 8 6.11438 8 8 8L16 8C17.8856 8 18.8284 8 19.4142 8.58579C20 9.17157 20 10.1144 20 12C20 13.8856 20 14.8284 19.4142 15.4142C18.8284 16 17.8856 16 16 16Z");
+}
+
+.ql8wzqa2k {
+  d: path("M22 3L2 3");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+</style>

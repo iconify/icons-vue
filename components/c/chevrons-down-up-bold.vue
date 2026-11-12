@@ -1,7 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/a/a7-5n80rg.css';
-import '../../css/l/leb-08bqy.css';
 
 const props = defineProps(["width","height"]);
 
@@ -9,3 +7,15 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="a7-5n80rg"/><path class="leb-08bqy"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:chevrons-down-up-bold" /></template>
+<style>
+.a7-5n80rg {
+  fill: currentColor;
+  d: path("M11.4697 14.4697C11.7626 14.1768 12.2373 14.1768 12.5302 14.4697L18.5302 20.4697C18.8231 20.7626 18.8231 21.2373 18.5302 21.5302C18.2373 21.8231 17.7626 21.8231 17.4697 21.5302L11.9999 16.0605L6.53022 21.5302C6.23734 21.8231 5.76257 21.8231 5.46967 21.5302C5.17678 21.2373 5.17678 20.7626 5.46967 20.4697L11.4697 14.4697Z");
+}
+
+.leb-08bqy {
+  fill: currentColor;
+  d: path("M17.4697 2.46967C17.7626 2.17678 18.2373 2.17678 18.5302 2.46967C18.8231 2.76257 18.8231 3.23734 18.5302 3.53022L12.5302 9.53022C12.2373 9.82309 11.7626 9.82305 11.4697 9.53022L5.46967 3.53022C5.17678 3.23732 5.17678 2.76256 5.46967 2.46967C5.76256 2.17678 6.23732 2.17678 6.53022 2.46967L11.9999 7.9394L17.4697 2.46967Z");
+}
+
+</style>

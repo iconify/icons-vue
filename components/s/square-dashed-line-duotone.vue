@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/h/hntgybcog.css';
-import '../../css/x/xnesrbceb.css';
-import '../../css/q/qubz_xvrd.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,22 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="hntgybcog"><path class="xnesrbceb"/><path class="qubz_xvrd"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:square-dashed-line-duotone" /></template>
+<style>
+.hntgybcog {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.qubz_xvrd {
+  d: path("M14.2228 2.00736C13.5461 2 12.8077 2 12 2C11.1924 2 10.454 2 9.77734 2.00736M2.40478 5.3833C2.62141 4.59397 2.95394 3.97509 3.46438 3.46464C3.97455 2.95447 4.59304 2.62203 5.38176 2.4054M2.00736 9.77725C2 10.4539 2 11.1923 2 12C2 12.8076 2 13.546 2.00736 14.2227");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.xnesrbceb {
+  d: path("M18.6166 2.40479C19.4059 2.62141 20.0248 2.95394 20.5352 3.46438C21.0454 3.97455 21.3778 4.59304 21.5945 5.38176M21.5951 18.6167C21.3785 19.406 21.0459 20.0249 20.5355 20.5354C20.0253 21.0455 19.4068 21.378 18.6181 21.5946M21.9925 14.2228C21.9999 13.5461 21.9999 12.8077 21.9999 12C21.9999 11.1924 21.9999 10.454 21.9925 9.77734M5.38318 21.5952C4.59384 21.3786 3.97496 21.0461 3.46452 20.5356C2.95435 20.0254 2.62191 19.407 2.40527 18.6182M9.77712 21.9926C10.4538 22 11.1922 22 11.9998 22C12.8075 22 13.5459 22 14.2225 21.9926");
+}
+
+</style>

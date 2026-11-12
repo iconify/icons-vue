@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/y/yue559bgm.css';
-import '../../css/u/uo6__lbiq.css';
-import '../../css/g/gshkn9qqt.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,28 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="yue559bgm"/><path class="uo6__lbiq"/><path class="gshkn9qqt"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:move-circle-line-duotone" /></template>
+<style>
+.gshkn9qqt {
+  d: path("M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.uo6__lbiq {
+  stroke-linejoin: round;
+  d: path("M9.8789 7.05025L12.0002 4.92893L14.1215 7.05025M12.0002 4.92893V9.87868M14.1215 16.9497L12.0002 19.0711L9.8789 16.9497M12.0002 19.0711V14.1213");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.yue559bgm {
+  stroke-linejoin: round;
+  d: path("M16.9497 14.1213L19.0711 12L16.9497 9.8787M19.0711 12H14.1213M7.05025 9.8787L4.92893 12L7.05025 14.1213M4.92893 12H9.87868");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+</style>

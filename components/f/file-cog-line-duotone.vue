@@ -1,10 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/e/e8sr0bcyc.css';
-import '../../css/q/qrc9_qgho.css';
-import '../../css/w/wze5myx6x.css';
-import '../../css/z/zr35ecbmr.css';
 
 const props = defineProps(["width","height"]);
 
@@ -12,3 +7,33 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="e8sr0bcyc"/><path class="qrc9_qgho"/><circle class="wze5myx6x"/><path class="zr35ecbmr"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:file-cog-line-duotone" /></template>
+<style>
+.e8sr0bcyc {
+  d: path("M13 2.2627V5.0003C13 7.35732 13 8.53583 13.7322 9.26806C14.4645 10.0003 15.643 10.0003 18 10.0003H21.58");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.qrc9_qgho {
+  d: path("M6 14.7417V15.0352C6 15.9029 6 16.3367 6.20111 16.694C6.40222 17.0513 6.76852 17.2682 7.50111 17.7021L7.74889 17.8488C8.48148 18.2826 8.84778 18.4996 9.25 18.4996C9.65222 18.4996 10.0185 18.2826 10.7511 17.8488L10.9989 17.7021C11.7315 17.2682 12.0978 17.0513 12.2989 16.694C12.5 16.3367 12.5 15.9029 12.5 15.0352V14.7417C12.5 13.874 12.5 13.4402 12.2989 13.0829C12.0978 12.7256 11.7315 12.5087 10.9989 12.0748L10.7511 11.9281C10.0185 11.4943 9.65222 11.2773 9.25 11.2773C8.84778 11.2773 8.48148 11.4943 7.74889 11.9281L7.50111 12.0748C6.76852 12.5087 6.40222 12.7256 6.20111 13.0829C6 13.4402 6 13.874 6 14.7417Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.wze5myx6x {
+  cx: 9.249px;
+  cy: 14.889px;
+  r: 1.083px;
+}
+
+.zr35ecbmr {
+  stroke-linejoin: round;
+  d: path("M3.17139 3.17157C4.34296 2 6.23851 2 10.0296 2C11.5546 2 12.3173 2.00011 13.0093 2.26562C13.7012 2.53114 14.2651 3.03857 15.3929 4.05365L19.3516 7.61621C20.6558 8.78998 21.3078 9.3774 21.6538 10.1543C21.9998 10.9312 22 11.8079 22 13.5625V14C22 17.7712 22 19.6566 20.8284 20.8281C19.6569 21.9997 17.7712 22 14 22L9.9969 21.9997C6.22761 21.9997 4.34284 21.9997 3.17157 20.8284C2 19.6569 2 17.7712 2 14V9.9982C2 6.22817 2 4.34296 3.17139 3.17157Z");
+}
+
+</style>

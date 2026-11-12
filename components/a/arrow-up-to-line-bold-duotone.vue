@@ -1,7 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/w/wn92h86ac.css';
-import '../../css/v/v8a66ebgj.css';
 
 const props = defineProps(["width","height"]);
 
@@ -9,3 +7,16 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="wn92h86ac"/><path class="v8a66ebgj"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:arrow-up-to-line-bold-duotone" /></template>
+<style>
+.v8a66ebgj {
+  fill: currentColor;
+  d: path("M11.25 21L11.25 9.93164L8.55373 12.8809C8.2743 13.1865 7.79987 13.208 7.49416 12.9287C7.18853 12.6493 7.16702 12.1748 7.44631 11.8691L11.4463 7.49414C11.5884 7.33874 11.7895 7.25 12 7.25C12.2106 7.25 12.4117 7.33874 12.5537 7.49414L16.5537 11.8691C16.833 12.1749 16.8115 12.6493 16.5059 12.9287C16.2002 13.208 15.7257 13.1865 15.4463 12.8809L12.75 9.93164L12.75 21C12.75 21.4142 12.4142 21.75 12 21.75C11.5858 21.75 11.25 21.4142 11.25 21Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.wn92h86ac {
+  fill: currentColor;
+  d: path("M4 2.25C3.58579 2.25 3.25 2.58579 3.25 3C3.25 3.41421 3.58579 3.75 4 3.75L20 3.75C20.4142 3.75 20.75 3.41421 20.75 3C20.75 2.58579 20.4142 2.25 20 2.25L4 2.25Z");
+}
+
+</style>

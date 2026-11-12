@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/f/f6vjxfbqt.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,13 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="f6vjxfbqt"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:satellite-linear" /></template>
+<style>
+.f6vjxfbqt {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M20.4699 10.918C18.4298 12.9581 15.1221 12.9581 13.082 10.918C11.0418 8.87785 11.0418 5.57019 13.082 3.53008M20.4699 10.918C22.51 8.87785 22.51 5.57019 20.4699 3.53008C18.4298 1.48997 15.1221 1.48997 13.082 3.53008M20.4699 10.918C20.4699 10.918 18.6229 10.3025 16.1602 7.8399M20.4699 10.918L14.3132 22M13.082 3.53008C13.082 3.53008 13.6976 5.37728 16.1602 7.8399M13.082 3.53008L2 9.68687M16.1602 7.8399L5 19");
+}
+
+</style>

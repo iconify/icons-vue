@@ -1,11 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/g/gkhuc5avb.css';
-import '../../css/j/jtn-2gjed.css';
-import '../../css/l/l2mlhf0lh.css';
-import '../../css/k/ko8upge5x.css';
-import '../../css/m/m3mjj18yz.css';
 
 const props = defineProps(["width","height"]);
 
@@ -13,3 +7,32 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="gkhuc5avb"/><path class="jtn-2gjed"/><path class="l2mlhf0lh"/><path class="ko8upge5x"/><path class="m3mjj18yz"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:container-broken" /></template>
+<style>
+.gkhuc5avb {
+  d: path("M21.4953 7.07776L17.2324 9.20547");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.jtn-2gjed {
+  d: path("M21.9594 13.0022C21.9084 13.6892 21.794 14.1836 21.5375 14.6191C21.0747 15.4051 20.2413 15.8424 18.5749 16.7169L18.5734 16.7177L14.117 19.0128L12.5671 19.8262L12.5654 19.8271C11.206 20.5405 10.5263 20.8972 9.79484 20.8972M9.79484 20.8972V12.9178M21.9778 9.01406C21.9385 8.1605 21.8311 7.58468 21.5375 7.08612C21.0746 6.29993 20.2408 5.86239 18.5734 4.98737L18.5734 4.98736L17.0235 4.174C15.6629 3.46002 14.9827 3.10303 14.2509 3.10303C13.5191 3.10303 12.8388 3.46002 11.4783 4.174L7.02194 6.46894L5.47202 7.2823L5.47151 7.28257C3.8044 8.15743 2.97069 8.59494 2.50778 9.38106C2.04492 10.1671 2.04492 11.1452 2.04492 13.1009V13.1022V13.1929C2.04492 15.1495 2.04492 16.1279 2.50788 16.9141C2.97084 17.7003 3.80457 18.1378 5.47202 19.0128L7.02194 19.8262C8.38248 20.5402 9.06307 20.8972 9.79484 20.8972M2.50778 9.38106L9.79484 12.9178M14.0076 10.8151L9.79484 12.9178");
+}
+
+.ko8upge5x {
+  d: path("M18.9453 10.6174L18.9453 14.506");
+}
+
+.l2mlhf0lh {
+  d: path("M15.7988 12.1948L15.7988 16.0834");
+}
+
+.m3mjj18yz {
+  d: path("M12.8379 13.6692L12.8379 17.5577");
+}
+
+</style>

@@ -1,15 +1,49 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/j/jx0p4fbya.css';
-import '../../css/q/q8qk1ms1c.css';
-import '../../css/u/u5ya57buj.css';
-import '../../css/e/ev2kjdshl.css';
-import '../../css/r/rakuzgb5h.css';
-import '../../css/v/vlz_o1knu.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="jx0p4fbya"><path class="q8qk1ms1c"/><path class="u5ya57buj"/><path class="ev2kjdshl"/><path class="rakuzgb5h"/><path class="vlz_o1knu"/></g>`;
+const content = `<g class="jx0p4fbya"><path class="q8qk1ms1c"/><path class="u5ya57buj"/><path class="ev2kjdshl"/><path class="rakuzgb5h"/><rect class="nlq80plvu"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:cassette-2-line-duotone" /></template>
+<style>
+.ev2kjdshl {
+  stroke-linecap: round;
+  d: path("M15.75 16C14.5074 16 13.5 14.9926 13.5 13.75C13.5 12.5074 14.5074 11.5 15.75 11.5C16.9926 11.5 18 12.5074 18 13.75C18 14.9926 16.9926 16 15.75 16Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.jx0p4fbya {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.nlq80plvu {
+  width: 12px;
+  height: 4.5px;
+  x: 6px;
+  y: 11.5px;
+  rx: 2.25px;
+}
+
+.q8qk1ms1c {
+  stroke-linecap: round;
+  d: path("M10 20H14C17.7712 20 19.6569 20 20.8284 18.8284C22 17.6569 22 15.7712 22 12C22 8.22876 22 6.34315 20.8284 5.17157C19.6569 4 17.7712 4 14 4H10C6.22876 4 4.34315 4 3.17157 5.17157C2 6.34315 2 8.22876 2 12C2 15.7712 2 17.6569 3.17157 18.8284C4.34315 20 6.22876 20 10 20Z");
+}
+
+.rakuzgb5h {
+  stroke-linecap: round;
+  d: path("M8.25 16C7.00736 16 6 14.9926 6 13.75C6 12.5074 7.00736 11.5 8.25 11.5C9.49264 11.5 10.5 12.5074 10.5 13.75C10.5 14.9926 9.49264 16 8.25 16Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.u5ya57buj {
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M17.5 4.5L16.9733 5.90449C16.5025 7.15997 16.2671 7.7877 15.7532 8.14385C15.2393 8.5 14.5688 8.5 13.228 8.5H10.772C9.43116 8.5 8.76073 8.5 8.24681 8.14385C7.73289 7.7877 7.49749 7.15997 7.02669 5.90449L6.5 4.5");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+</style>

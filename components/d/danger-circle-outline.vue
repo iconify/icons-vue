@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/iqdm2xbfi.css';
-import '../../css/x/x41xvfi0c.css';
-import '../../css/f/fhxzx1b_j.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,21 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="iqdm2xbfi"/><path class="x41xvfi0c"/><path clip-rule="evenodd" class="fhxzx1b_j"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:danger-circle-outline" /></template>
+<style>
+.fhxzx1b_j {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M1.25 12C1.25 6.06294 6.06294 1.25 12 1.25C17.9371 1.25 22.75 6.06294 22.75 12C22.75 17.9371 17.9371 22.75 12 22.75C6.06294 22.75 1.25 17.9371 1.25 12ZM12 2.75C6.89137 2.75 2.75 6.89137 2.75 12C2.75 17.1086 6.89137 21.25 12 21.25C17.1086 21.25 21.25 17.1086 21.25 12C21.25 6.89137 17.1086 2.75 12 2.75Z");
+}
+
+.iqdm2xbfi {
+  fill: currentColor;
+  d: path("M12 6.25C12.4142 6.25 12.75 6.58579 12.75 7V13C12.75 13.4142 12.4142 13.75 12 13.75C11.5858 13.75 11.25 13.4142 11.25 13V7C11.25 6.58579 11.5858 6.25 12 6.25Z");
+}
+
+.x41xvfi0c {
+  fill: currentColor;
+  d: path("M12 17C12.5523 17 13 16.5523 13 16C13 15.4477 12.5523 15 12 15C11.4477 15 11 15.4477 11 16C11 16.5523 11.4477 17 12 17Z");
+}
+
+</style>

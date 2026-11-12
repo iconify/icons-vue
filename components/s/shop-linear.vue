@@ -1,11 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/m/mumuggp5l.css';
-import '../../css/w/wuk4o269j.css';
-import '../../css/k/k882bcqdn.css';
-import '../../css/v/v99k8e0ci.css';
-import '../../css/z/z2ah-61oe.css';
 
 const props = defineProps(["width","height"]);
 
@@ -13,3 +7,32 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="mumuggp5l"/><path class="wuk4o269j"/><path class="k882bcqdn"/><path class="v99k8e0ci"/><path class="z2ah-61oe"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:shop-linear" /></template>
+<style>
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.k882bcqdn {
+  d: path("M9.49953 2H7.41722C6.5092 2 6.05518 2 5.66579 2.10675C4.8453 2.33168 4.1589 2.89439 3.77742 3.65484C3.59638 4.01573 3.50734 4.46093 3.32927 5.35133L2.73134 8.34093C2.35275 10.2339 3.80061 12 5.73106 12C7.30269 12 8.61862 10.8091 8.775 9.24527L9.49953 2Z");
+}
+
+.mumuggp5l {
+  d: path("M3.5 11.0334V14C3.5 17.7712 3.5 19.6569 4.67157 20.8284C5.84315 22 7.72876 22 11.5 22H12.5C16.2712 22 18.1569 22 19.3284 20.8284C20.5 19.6569 20.5 17.7712 20.5 14V11.0335");
+}
+
+.v99k8e0ci {
+  d: path("M14.5 2H16.5823C17.4903 2 17.9443 2 18.3337 2.10675C19.1542 2.33168 19.8406 2.89439 20.2221 3.65484C20.4031 4.01573 20.4922 4.46093 20.6703 5.35133L21.2682 8.34093C21.6468 10.2339 20.1989 12 18.2685 12C16.6968 12 15.3809 10.8091 15.2245 9.24527L14.5 2Z");
+}
+
+.wuk4o269j {
+  d: path("M9.4998 2H14.4998L15.1515 8.51737C15.338 10.382 13.8737 12 11.9998 12C10.1259 12 8.6616 10.382 8.84806 8.51737L9.4998 2Z");
+}
+
+.z2ah-61oe {
+  d: path("M9.5 21.9913V18.5C9.5 17.5654 9.5 17.0981 9.70096 16.75C9.83261 16.522 10.022 16.3326 10.25 16.201C10.5981 16 11.0654 16 12 16C12.9346 16 13.4019 16 13.75 16.201C13.978 16.3326 14.1674 16.522 14.299 16.75C14.5 17.0981 14.5 17.5654 14.5 18.5V21.9913");
+}
+
+</style>

@@ -1,11 +1,22 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/e/ezk93g3ho.css';
-import '../../css/b/b2b32nzwh.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="ezk93g3ho"/><path class="b2b32nzwh"/>`;
+const content = `<path class="uxudalbzy"/><path class="sohuxkdbw"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:waterdrop-bold-duotone" /></template>
+<style>
+.sohuxkdbw {
+  fill: currentColor;
+  d: path("M10.4625 6.17483C10.7461 5.87315 11.2212 5.85829 11.5231 6.14163C11.8248 6.42527 11.8398 6.90036 11.5563 7.20217C10.4786 8.34858 9.27177 9.74311 8.25744 11.1905C8.01966 11.5294 7.55163 11.6117 7.21251 11.374C6.87348 11.1363 6.79126 10.6683 7.02892 10.3291C8.09888 8.8024 9.35706 7.35085 10.4625 6.17483Z");
+}
+
+.uxudalbzy {
+  fill: currentColor;
+  d: path("M20.589 13.0532C20.589 17.9944 16.7436 22 12.0001 22C7.25653 22 3.41113 17.9944 3.41113 13.0532C3.41113 9.96156 6.77355 5.83518 9.29075 3.17923C10.7809 1.60692 13.2192 1.60692 14.7094 3.17923C17.2266 5.83518 20.589 9.96156 20.589 13.0532Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+</style>

@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/h/hllyxzboc.css';
-import '../../css/o/olanaab7u.css';
-import '../../css/c/c5cjgzbpf.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,26 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><circle class="hllyxzboc"/><path class="olanaab7u"/><path class="c5cjgzbpf"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:magnifier-slash-linear" /></template>
+<style>
+.c5cjgzbpf {
+  d: path("M18.2168 18.2178L21.9994 22.0004");
+}
+
+.hllyxzboc {
+  cx: 11.5px;
+  cy: 11.5px;
+  r: 9.5px;
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.olanaab7u {
+  d: path("M9.73242 13.2675L11.5002 11.4997L13.268 9.73192");
+}
+
+</style>

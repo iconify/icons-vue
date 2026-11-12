@@ -1,7 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/a/argozxbrb.css';
-import '../../css/g/gtd6d5jyn.css';
 
 const props = defineProps(["width","height"]);
 
@@ -9,3 +7,15 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="argozxbrb"/><path class="gtd6d5jyn"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:chevrons-down-up-outline" /></template>
+<style>
+.argozxbrb {
+  fill: currentColor;
+  d: path("M11.4698 14.4698C11.7627 14.1769 12.2374 14.1769 12.5303 14.4698L18.5303 20.4698C18.8232 20.7627 18.8232 21.2375 18.5303 21.5303C18.2375 21.8232 17.7627 21.8232 17.4698 21.5303L12.0001 16.0606L6.53034 21.5303C6.23746 21.8232 5.76269 21.8232 5.46979 21.5303C5.1769 21.2374 5.1769 20.7627 5.46979 20.4698L11.4698 14.4698Z");
+}
+
+.gtd6d5jyn {
+  fill: currentColor;
+  d: path("M17.4698 2.46979C17.7627 2.1769 18.2374 2.1769 18.5303 2.46979C18.8232 2.76269 18.8232 3.23746 18.5303 3.53034L12.5303 9.53034C12.2375 9.82321 11.7627 9.82317 11.4698 9.53034L5.46979 3.53034C5.1769 3.23745 5.1769 2.76269 5.46979 2.46979C5.76269 2.1769 6.23745 2.1769 6.53034 2.46979L12.0001 7.93952L17.4698 2.46979Z");
+}
+
+</style>

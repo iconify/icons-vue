@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/s/sc6p54bfo.css';
-import '../../css/s/s9c_fccpv.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,21 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="sc6p54bfo"/><path class="s9c_fccpv"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:brackets-line-duotone" /></template>
+<style>
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.s9c_fccpv {
+  d: path("M9 2.02002C6.20875 2.08384 4.5784 2.35047 3.46447 3.4644C2 4.92887 2 7.28589 2 11.9999C2 16.714 2 19.071 3.46447 20.5355C4.5784 21.6494 6.20875 21.916 9 21.9799");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.sc6p54bfo {
+  d: path("M15 2.02002C17.7913 2.08384 19.4216 2.35047 20.5355 3.4644C22 4.92887 22 7.28589 22 11.9999C22 16.714 22 19.071 20.5355 20.5355C19.4216 21.6494 17.7913 21.916 15 21.9799");
+}
+
+</style>

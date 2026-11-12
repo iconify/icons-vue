@@ -1,13 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/o/o-s0krxnl.css';
-import '../../css/p/py99o21wd.css';
-import '../../css/h/hq-5njbjh.css';
-import '../../css/x/xtwt0b8mq.css';
-import '../../css/i/i8x7tm9zu.css';
-import '../../css/n/nttuc_cwh.css';
-import '../../css/h/htq9lbbig.css';
 
 const props = defineProps(["width","height"]);
 
@@ -15,3 +7,43 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="o-s0krxnl"/><path class="py99o21wd"/><path class="hq-5njbjh"/><path class="xtwt0b8mq"/><path class="i8x7tm9zu"/><path class="nttuc_cwh"/><path class="htq9lbbig"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:boombox-broken" /></template>
+<style>
+.hq-5njbjh {
+  d: path("M16 6C16 4.11438 16 3.17157 15.4142 2.58579C14.8284 2 13.8856 2 12 2C10.1144 2 9.17157 2 8.58579 2.58579C8 3.17157 8 4.11438 8 6");
+}
+
+.htq9lbbig {
+  stroke-linejoin: round;
+  d: path("M18.1211 13.8787L16.7069 15.2929");
+}
+
+.i8x7tm9zu {
+  d: path("M18.1213 18.1213C16.9497 19.2929 15.0503 19.2929 13.8787 18.1213C12.7071 16.9498 12.7071 15.0503 13.8787 13.8787C15.0503 12.7071 16.9497 12.7071 18.1213 13.8787C19.2929 15.0503 19.2929 16.9498 18.1213 18.1213Z");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.nttuc_cwh {
+  stroke-linejoin: round;
+  d: path("M8 13V15");
+}
+
+.o-s0krxnl {
+  stroke-linejoin: round;
+  d: path("M6 9.5H12H18");
+}
+
+.py99o21wd {
+  d: path("M22 14C22 17.7712 22 19.6569 20.8284 20.8284C19.6569 22 17.7712 22 14 22H10C6.22876 22 4.34315 22 3.17157 20.8284C2 19.6569 2 17.7712 2 14C2 10.2288 2 8.34315 3.17157 7.17157C4.34315 6 6.22876 6 10 6H14C17.7712 6 19.6569 6 20.8284 7.17157C21.4816 7.82475 21.7706 8.69989 21.8985 10");
+}
+
+.xtwt0b8mq {
+  d: path("M8 19C9.65685 19 11 17.6569 11 16C11 14.3431 9.65685 13 8 13C6.34315 13 5 14.3431 5 16");
+}
+
+</style>

@@ -1,11 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/x/x8xa62bop.css';
-import '../../css/v/vjjx-kb3t.css';
-import '../../css/g/g16nbcc0i.css';
-import '../../css/d/ds4eep50x.css';
-import '../../css/e/e92whkbjm.css';
 
 const props = defineProps(["width","height"]);
 
@@ -13,3 +7,36 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="x8xa62bop"/><path class="vjjx-kb3t"/><path class="g16nbcc0i"/><path class="ds4eep50x"/><path class="e92whkbjm"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:accumulator-line-duotone" /></template>
+<style>
+.ds4eep50x {
+  d: path("M9 13.5H6");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.e92whkbjm {
+  d: path("M18 13.5L16.5 13.5M16.5 13.5L15 13.5M16.5 13.5L16.5 12M16.5 13.5L16.5 15");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.g16nbcc0i {
+  d: path("M21 7.76393V6C21 5.05719 21 4.58579 20.7071 4.29289C20.4142 4 19.9428 4 19 4C18.0572 4 17.5858 4 17.2929 4.29289C17 4.58579 17 5.05719 17 6V7");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.vjjx-kb3t {
+  d: path("M7 7V6C7 5.05719 7 4.58579 6.70711 4.29289C6.41421 4 5.94281 4 5 4C4.05719 4 3.58579 4 3.29289 4.29289C3 4.58579 3 5.05719 3 6V7.76393");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.x8xa62bop {
+  d: path("M22 11.9751V14C22 16.8284 22 18.2426 21.1213 19.1213C20.2426 20 18.8284 20 16 20H8C5.17157 20 3.75736 20 2.87868 19.1213C2 18.2426 2 16.8284 2 14V11.9751C2 10.1294 2 9.20663 2.39219 8.51698C2.65908 8.04767 3.04767 7.65908 3.51698 7.39219C4.20663 7 5.12945 7 6.97508 7H7.25464C7.37758 7 7.43905 7 7.49576 6.9935C7.79166 6.95961 8.05705 6.79559 8.21969 6.54609C8.25086 6.49827 8.27836 6.44328 8.33333 6.33333C8.44329 6.11342 8.49827 6.00346 8.56062 5.90782C8.8859 5.40882 9.41668 5.08078 10.0085 5.01299C10.1219 5 10.2448 5 10.4907 5H13.5093C13.7552 5 13.8781 5 13.9915 5.01299C14.5833 5.08078 15.1141 5.40882 15.4394 5.90782C15.5017 6.00345 15.5567 6.11345 15.6667 6.33333C15.7216 6.44329 15.7491 6.49827 15.7803 6.54609C15.943 6.79559 16.2083 6.95961 16.5042 6.9935C16.561 7 16.6224 7 16.7454 7H17.0249C18.8706 7 19.7934 7 20.483 7.39219C20.9523 7.65908 21.3409 8.04767 21.6078 8.51698C22 9.20663 22 10.1294 22 11.9751Z");
+}
+
+</style>

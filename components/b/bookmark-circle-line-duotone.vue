@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/x/xvfvdzbjw.css';
-import '../../css/z/zb2kedx8a.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,21 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="xvfvdzbjw"/><path class="zb2kedx8a"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:bookmark-circle-line-duotone" /></template>
+<style>
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.xvfvdzbjw {
+  d: path("M16 11.5488V14.0455C16 15.5937 16 16.3679 15.6737 16.7062C15.5181 16.8675 15.3217 16.9688 15.1125 16.9958C14.6738 17.0522 14.1615 16.5425 13.1368 15.5229C12.6839 15.0722 12.4574 14.8469 12.1954 14.7875C12.0664 14.7583 11.9336 14.7583 11.8046 14.7875C11.5426 14.8469 11.3161 15.0722 10.8632 15.5229C9.83855 16.5425 9.32623 17.0522 8.88752 16.9958C8.67829 16.9688 8.48187 16.8675 8.32627 16.7062C8 16.3679 8 15.5937 8 14.0455V11.5488C8 9.40445 8 8.3323 8.58579 7.66615C9.17157 7 10.1144 7 12 7C13.8856 7 14.8284 7 15.4142 7.66615C16 8.3323 16 9.40445 16 11.5488Z");
+}
+
+.zb2kedx8a {
+  d: path("M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+</style>

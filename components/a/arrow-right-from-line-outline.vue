@@ -1,7 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/l/ly14d-arz.css';
-import '../../css/e/exasy4ryo.css';
 
 const props = defineProps(["width","height"]);
 
@@ -9,3 +7,15 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="ly14d-arz"/><path class="exasy4ryo"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:arrow-right-from-line-outline" /></template>
+<style>
+.exasy4ryo {
+  fill: currentColor;
+  d: path("M2.24982 4C2.24982 3.58579 2.5856 3.25 2.99982 3.25C3.41403 3.25 3.74982 3.58579 3.74982 4L3.74982 20C3.74982 20.4142 3.41403 20.75 2.99982 20.75C2.5856 20.75 2.24982 20.4142 2.24982 20L2.24982 4Z");
+}
+
+.ly14d-arz {
+  fill: currentColor;
+  d: path("M7.24982 12C7.24982 11.5858 7.5856 11.25 7.99982 11.25L19.0682 11.25L16.119 8.55371C15.8133 8.27428 15.7918 7.79985 16.0711 7.49414C16.3505 7.18851 16.825 7.16699 17.1307 7.44629L21.5057 11.4463C21.6611 11.5884 21.7498 11.7894 21.7498 12C21.7498 12.2106 21.6611 12.4116 21.5057 12.5537L17.1307 16.5537C16.825 16.833 16.3505 16.8115 16.0711 16.5059C15.7918 16.2002 15.8133 15.7257 16.119 15.4463L19.0682 12.75L7.99982 12.75C7.5856 12.75 7.24982 12.4142 7.24982 12Z");
+}
+
+</style>

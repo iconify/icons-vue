@@ -1,11 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/o/od2g0acza.css';
-import '../../css/c/cxbhrab6z.css';
-import '../../css/c/ch0lkibmx.css';
-import '../../css/k/k5s_6-4ei.css';
-import '../../css/d/dw6-rudva.css';
-import '../../css/v/vz_jdh1qe.css';
 
 const props = defineProps(["width","height"]);
 
@@ -13,3 +7,36 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="od2g0acza"/><path class="cxbhrab6z"/><path class="ch0lkibmx"/><path class="k5s_6-4ei"/><path class="dw6-rudva"/><path class="vz_jdh1qe"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:clapperboard-text-bold-duotone" /></template>
+<style>
+.ch0lkibmx {
+  fill: currentColor;
+  d: path("M6.59961 7.25H2.10547C2.25271 5.48602 2.60827 4.32249 3.46582 3.46484C4.71815 2.21251 6.62313 2.03116 10.0967 2.00488L6.59961 7.25Z");
+}
+
+.cxbhrab6z {
+  fill: currentColor;
+  d: path("M14.501 13.25C14.9152 13.25 15.251 13.5858 15.251 14C15.251 14.4142 14.9152 14.75 14.501 14.75H6.50098C6.08676 14.75 5.75098 14.4142 5.75098 14C5.75098 13.5858 6.08676 13.25 6.50098 13.25H14.501Z");
+}
+
+.dw6-rudva {
+  fill: currentColor;
+  d: path("M18.2002 2.30371C19.1938 2.51314 19.9398 2.86754 20.5371 3.46484C21.3945 4.32248 21.7502 5.48613 21.8975 7.25H14.9023L18.2002 2.30371Z");
+}
+
+.k5s_6-4ei {
+  fill: currentColor;
+  d: path("M12.001 2C13.846 2 15.3303 2.00009 16.541 2.08789L13.0996 7.25H8.40234L11.9023 2H12.001Z");
+}
+
+.od2g0acza {
+  fill: currentColor;
+  d: path("M12.001 16.75C12.4152 16.75 12.751 17.0858 12.751 17.5C12.751 17.9142 12.4152 18.25 12.001 18.25H6.50098C6.08676 18.25 5.75098 17.9142 5.75098 17.5C5.75098 17.0858 6.08676 16.75 6.50098 16.75H12.001Z");
+}
+
+.vz_jdh1qe {
+  fill: currentColor;
+  d: path("M2 12C2 10.7632 2 9.68872 2.02644 8.75H21.9736C22 9.68872 22 10.7632 22 12C22 16.714 22 19.071 20.5355 20.5355C19.0711 22 16.714 22 12 22C7.28595 22 4.92893 22 3.46447 20.5355C2 19.071 2 16.714 2 12Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+</style>

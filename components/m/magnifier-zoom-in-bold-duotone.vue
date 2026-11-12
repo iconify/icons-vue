@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/p/pcjk-wbhz.css';
-import '../../css/i/i3vvs1wnr.css';
-import '../../css/z/zsypqnbsk.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,21 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="pcjk-wbhz"/><path class="i3vvs1wnr"/><path class="zsypqnbsk"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:magnifier-zoom-in-bold-duotone" /></template>
+<style>
+.i3vvs1wnr {
+  fill: currentColor;
+  d: path("M21.7881 20.7656C22.0704 21.0479 22.0704 21.5058 21.7881 21.7881C21.5058 22.0704 21.0479 22.0704 20.7656 21.7881L17.0996 18.1221C17.4666 17.8086 17.8086 17.4666 18.1221 17.0996L21.7881 20.7656Z");
+}
+
+.pcjk-wbhz {
+  fill: currentColor;
+  d: path("M11.1566 20.3133C16.2137 20.3133 20.3133 16.2137 20.3133 11.1566C20.3133 6.09956 16.2137 2 11.1566 2C6.09956 2 2 6.09956 2 11.1566C2 16.2137 6.09956 20.3133 11.1566 20.3133Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.zsypqnbsk {
+  fill: currentColor;
+  d: path("M11.1562 8.02441C11.5553 8.02457 11.8788 8.34803 11.8789 8.74707V10.4336H13.5654C13.9647 10.4336 14.2881 10.758 14.2881 11.1572C14.2879 11.5563 13.9646 11.8799 13.5654 11.8799H11.8789V13.5664C11.8789 13.9656 11.5554 14.2889 11.1562 14.2891C10.757 14.2891 10.4326 13.9656 10.4326 13.5664V11.8799H8.74609C8.34705 11.8798 8.02359 11.5563 8.02344 11.1572C8.02344 10.7581 8.34696 10.4337 8.74609 10.4336H10.4326V8.74707C10.4327 8.34794 10.7571 8.02441 11.1562 8.02441Z");
+}
+
+</style>

@@ -1,7 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/i0cksp2iz.css';
-import '../../css/x/xcjnzfb6j.css';
 
 const props = defineProps(["width","height"]);
 
@@ -9,3 +7,16 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="i0cksp2iz"/><path class="xcjnzfb6j"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:parentheses-bold-duotone" /></template>
+<style>
+.i0cksp2iz {
+  fill: currentColor;
+  d: path("M2.25 12C2.25 6.97211 5.45807 3.17907 8.625 1.35062C8.9837 1.14352 9.4423 1.26635 9.64941 1.62504C9.85651 1.98374 9.73368 2.44233 9.375 2.64945C6.54195 4.28511 3.75 7.64305 3.75 12C3.75 16.357 6.54195 19.715 9.375 21.3506C9.73368 21.5577 9.85651 22.0163 9.64941 22.375C9.4423 22.7337 8.9837 22.8565 8.625 22.6495C5.45807 20.821 2.25 17.028 2.25 12Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.xcjnzfb6j {
+  fill: currentColor;
+  d: path("M21.75 12C21.75 6.97211 18.5419 3.17907 15.375 1.35062C15.0163 1.14352 14.5577 1.26635 14.3506 1.62504C14.1435 1.98374 14.2663 2.44233 14.625 2.64945C17.4581 4.28511 20.25 7.64305 20.25 12C20.25 16.357 17.4581 19.715 14.625 21.3506C14.2663 21.5577 14.1435 22.0163 14.3506 22.375C14.5577 22.7337 15.0163 22.8565 15.375 22.6495C18.5419 20.821 21.75 17.028 21.75 12Z");
+}
+
+</style>

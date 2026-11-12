@@ -1,7 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/j/jwow_w44a.css';
-import '../../css/l/lsq66r8ar.css';
 
 const props = defineProps(["width","height"]);
 
@@ -9,3 +7,16 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="jwow_w44a"/><path class="lsq66r8ar"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:chevron-last-bold-duotone" /></template>
+<style>
+.jwow_w44a {
+  fill: currentColor;
+  d: path("M6.93066 5.48826C6.66114 5.17382 6.69737 4.70023 7.01172 4.43064C7.32616 4.16112 7.79974 4.19735 8.06933 4.51169L14.0693 11.5117C14.3101 11.7926 14.3101 12.2074 14.0693 12.4883L8.06933 19.4883C7.79974 19.8026 7.32615 19.8388 7.01171 19.5693C6.69737 19.2997 6.66114 18.8261 6.93066 18.5117L12.5117 12L6.93066 5.48826Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.lsq66r8ar {
+  fill: currentColor;
+  d: path("M15.75 5C15.75 4.58579 16.0858 4.25001 16.5 4.25C16.9142 4.25 17.25 4.58579 17.25 5L17.25 19C17.25 19.4142 16.9142 19.75 16.5 19.75C16.0858 19.75 15.75 19.4142 15.75 19L15.75 5Z");
+}
+
+</style>

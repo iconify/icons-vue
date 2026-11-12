@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/e/e-d-8tewy.css';
-import '../../css/x/xtpeb-edw.css';
-import '../../css/h/hfqsmecof.css';
-import '../../css/q/qb_h7yw5a.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,24 @@ const viewBox = {"width":24,"height":24};
 const content = `<path clip-rule="evenodd" class="e-d-8tewy"/><g class="xtpeb-edw"><path class="hfqsmecof"/><path class="qb_h7yw5a"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:arrow-to-top-right-bold-duotone" /></template>
+<style>
+.e-d-8tewy {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M6.46967 10.0303C6.17678 9.73744 6.17678 9.26256 6.46967 8.96967L11.4697 3.96967C11.7626 3.67678 12.2374 3.67678 12.5303 3.96967L17.5303 8.96967C17.8232 9.26256 17.8232 9.73744 17.5303 10.0303C17.2374 10.3232 16.7626 10.3232 16.4697 10.0303L12 5.56066L7.53033 10.0303C7.23744 10.3232 6.76256 10.3232 6.46967 10.0303Z");
+}
+
+.hfqsmecof {
+  d: path("M11.25 14.5C11.25 15.4534 11.5298 16.8667 12.3913 18.0632C13.2804 19.298 14.7556 20.25 17 20.25C17.4142 20.25 17.75 19.9142 17.75 19.5C17.75 19.0858 17.4142 18.75 17 18.75C15.2444 18.75 14.2196 18.0353 13.6087 17.1868C12.9702 16.3 12.75 15.2133 12.75 14.5L12.75 6.31066L12 5.56066L11.25 6.31066V14.5Z");
+}
+
+.qb_h7yw5a {
+  d: path("M11.8023 3.77639C11.9568 3.73435 12.122 3.74254 12.2722 3.80095C12.1879 3.76805 12.096 3.75 12 3.75C11.9316 3.75 11.8653 3.75919 11.8023 3.77639Z");
+}
+
+.xtpeb-edw {
+  fill: currentColor;
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+</style>

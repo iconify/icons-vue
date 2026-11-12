@@ -1,0 +1,28 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="jx0p4fbya"><path class="dhypj3bxv"/><path class="qukf_b3_y"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:subtract-line-duotone" /></template>
+<style>
+.dhypj3bxv {
+  stroke-linejoin: round;
+  d: path("M8 9H9C9 11.828 9 13.243 9.8787 14.121C10.7574 15 12.1716 15 15 15V16C15 18.828 15 20.243 14.1213 21.121C13.2426 22 11.8284 22 9 22H8C5.1716 22 3.7574 22 2.8787 21.121C2 20.243 2 18.828 2 16V15C2 12.172 2 10.757 2.8787 9.879C3.7574 9 5.1716 9 8 9Z");
+}
+
+.jx0p4fbya {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.qukf_b3_y {
+  stroke-linecap: round;
+  d: path("M16 15C16.4354 15 16.8373 15 17.2089 14.997M16 15H14M16 15H17M9.2772 3.913C9.4072 3.494 9.5982 3.159 9.8787 2.879C10.1592 2.598 10.4943 2.407 10.9126 2.277M20.0874 2.277C20.5057 2.407 20.8408 2.598 21.1213 2.879C21.4018 3.159 21.5928 3.494 21.7228 3.913M21.7228 13.087C21.5928 13.506 21.4018 13.841 21.1213 14.121C20.8408 14.402 20.5057 14.593 20.0874 14.723M14 2H17M22 7V10M9.0032 6.791L9 10");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+</style>

@@ -1,13 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/g/genc22bnp.css';
-import '../../css/k/kbu1ckbfc.css';
-import '../../css/u/ujv6go6aq.css';
-import '../../css/l/l4dxubczd.css';
-import '../../css/a/a61wxkb_y.css';
-import '../../css/e/eukpbibyf.css';
-import '../../css/m/ml9ynwb_c.css';
 
 const props = defineProps(["width","height"]);
 
@@ -15,3 +7,40 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="genc22bnp"/><path class="kbu1ckbfc"/><path class="ujv6go6aq"/><path class="l4dxubczd"/><path class="a61wxkb_y"/><path class="eukpbibyf"/><path class="ml9ynwb_c"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:vanity-linear" /></template>
+<style>
+.a61wxkb_y {
+  d: path("M15 18L17 18");
+}
+
+.eukpbibyf {
+  d: path("M7 18L9 18");
+}
+
+.genc22bnp {
+  d: path("M19 22V21.5M5 22V21.5");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.kbu1ckbfc {
+  d: path("M12 21V15");
+}
+
+.l4dxubczd {
+  d: path("M20.5 15V6.13747C20.5 5.74953 20.5 5.55556 20.4822 5.4229C20.359 4.50695 19.8459 3.94509 18.9449 3.73952C18.8144 3.70975 18.5429 3.68506 18 3.63571L18 3.63571C16.9981 3.54463 15.8169 3.19591 14.7687 2.81455C13.2754 2.27127 12.5288 1.99963 12 1.99963C11.4712 1.99963 10.7246 2.27127 9.23133 2.81455C8.18314 3.19591 7.00193 3.54463 6 3.63571C5.45709 3.68507 5.18562 3.70974 5.05512 3.73952C4.15409 3.94509 3.64099 4.50695 3.51784 5.4229C3.5 5.55556 3.5 5.74953 3.5 6.13747V15");
+}
+
+.ml9ynwb_c {
+  d: path("M14.5 11L13.5 12M13.5 8L10.5 11M10.5 7L9.5 8");
+}
+
+.ujv6go6aq {
+  d: path("M8.00023 21H16.0002C18.8287 21 20.2429 21 21.1216 20.1213C21.8899 19.3529 21.9864 18.175 21.9985 16.0001C22.0016 15.4478 21.5525 15 21.0002 15H3.00023C2.44795 15 1.99889 15.4478 2.00197 16.0001C2.01408 18.175 2.11053 19.3529 2.87891 20.1213C3.75759 21 5.1718 21 8.00023 21Z");
+}
+
+</style>

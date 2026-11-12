@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/q/qy-t49-ig.css';
-import '../../css/v/vmkus2vit.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,22 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="qy-t49-ig"/><path class="vmkus2vit"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:cloud-check-line-duotone" /></template>
+<style>
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.qy-t49-ig {
+  d: path("M6.28571 19C3.91878 19 2 17.1038 2 14.7647C2 12.4256 3.91878 10.5294 6.28571 10.5294C6.56983 10.5294 6.8475 10.5567 7.11616 10.6089M17.5 18.8722C20.0726 18.3221 22 16.0599 22 13.3529C22 10.8811 20.393 8.78024 18.1551 8.01498C17.5693 7.81468 16.9404 7.70588 16.2857 7.70588C15.6178 7.70588 14.9767 7.81911 14.381 8.02721M7.11616 10.6089C6.88706 9.9978 6.7619 9.33687 6.7619 8.64706C6.7619 5.52827 9.32028 3 12.4762 3C15.4159 3 17.8371 5.19371 18.1551 8.01498M7.11616 10.6089C7.68058 10.7184 8.20528 10.9374 8.66667 11.2426");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.vmkus2vit {
+  stroke-linejoin: round;
+  d: path("M10 19.8L11.1429 21L14 18");
+}
+
+</style>

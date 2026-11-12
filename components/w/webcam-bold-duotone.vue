@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/g/gtin1i1qt.css';
-import '../../css/m/mcs845b1a.css';
-import '../../css/h/h9-sbybbi.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,22 @@ const viewBox = {"width":24,"height":24};
 const content = `<path clip-rule="evenodd" class="gtin1i1qt"/><path class="mcs845b1a"/><path class="h9-sbybbi"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:webcam-bold-duotone" /></template>
+<style>
+.gtin1i1qt {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M12 6.25C14.0711 6.25 15.75 7.92893 15.75 10C15.75 12.0711 14.0711 13.75 12 13.75C9.92893 13.75 8.25 12.0711 8.25 10C8.25 7.92893 9.92893 6.25 12 6.25ZM12 7.75C10.7574 7.75 9.75 8.75736 9.75 10C9.75 11.2426 10.7574 12.25 12 12.25C13.2426 12.25 14.25 11.2426 14.25 10C14.25 8.75736 13.2426 7.75 12 7.75Z");
+}
+
+.h9-sbybbi {
+  fill: currentColor;
+  d: path("M11.9348 2.00075C16.3528 2.0364 19.9634 5.64627 19.9993 10.0642C20.0331 14.2521 16.8426 17.6596 12.7473 17.9734C12.7477 17.9832 12.7493 17.9929 12.7493 18.0027V21.2498H15.9993C16.4134 21.2498 16.7491 21.5857 16.7493 21.9998C16.7493 22.414 16.4135 22.7498 15.9993 22.7498H7.99929C7.5852 22.7496 7.24929 22.4139 7.24929 21.9998C7.24943 21.5858 7.58529 21.2499 7.99929 21.2498H11.2493V18.0027C11.2493 17.9856 11.2501 17.9687 11.2512 17.9519C7.21148 17.5121 4.0337 14.0791 4.00026 9.93532C3.9647 5.51732 7.51683 1.96519 11.9348 2.00075Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.mcs845b1a {
+  fill: currentColor;
+  d: path("M12 3.75098C12.4142 3.75098 12.75 4.08676 12.75 4.50098C12.75 4.91519 12.4142 5.25098 12 5.25098C11.5858 5.25098 11.25 4.91519 11.25 4.50098C11.25 4.08676 11.5858 3.75098 12 3.75098Z");
+}
+
+</style>

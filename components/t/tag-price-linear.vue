@@ -1,13 +1,32 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/j/jozserb6t.css';
-import '../../css/z/zf6m_rg7v.css';
-import '../../css/o/ozst3gb1r.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ipq1z-bjh"><path class="jozserb6t"/><path class="zf6m_rg7v"/><circle transform="rotate(-45 8.607 8.88)" class="ozst3gb1r"/></g>`;
+const content = `<g class="ipq1z-bjh"><path class="jozserb6t"/><path class="zf6m_rg7v"/><circle class="ozst3gb1r"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:tag-price-linear" /></template>
+<style>
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.jozserb6t {
+  d: path("M2.85574 7.39057L2.57231 8.61875C2.08083 10.7485 1.83509 11.8134 2.12264 12.816C2.41018 13.8186 3.18295 14.5914 4.72848 16.1369L6.55812 17.9665C9.24711 20.6555 10.5916 22 12.2623 22C13.933 22 15.2775 20.6555 17.9665 17.9665C20.6555 15.2775 22 13.933 22 12.2623C22 10.5916 20.6555 9.24711 17.9665 6.55812L16.1369 4.72848C14.5914 3.18295 13.8186 2.41018 12.816 2.12264C11.8134 1.83509 10.7485 2.08083 8.61875 2.57231L7.39057 2.85574C5.5988 3.26922 4.70292 3.47597 4.08944 4.08944C3.47597 4.70292 3.26922 5.59881 2.85574 7.39057Z");
+}
+
+.ozst3gb1r {
+  cx: 8.607px;
+  cy: 8.879px;
+  r: 2px;
+}
+
+.zf6m_rg7v {
+  d: path("M11.8538 11.8538C11.268 12.4396 11.1888 13.3102 11.677 13.7983C12.1652 14.2865 13.0358 14.2074 13.6215 13.6216C14.2073 13.0358 15.0779 12.9566 15.5661 13.4448C16.0542 13.9329 15.9751 14.8035 15.3893 15.3893M11.8538 11.8538L11.5002 11.5002M11.8538 11.8538C12.185 11.5226 12.6073 11.3533 13 11.357M15.3893 15.3893L15.7429 15.7429M15.3893 15.3893C14.9883 15.7903 14.4539 15.9539 14 15.8606");
+}
+
+</style>

@@ -1,7 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nm2cgjbbr.css';
-import '../../css/v/vh0_98nmz.css';
 
 const props = defineProps(["width","height"]);
 
@@ -9,3 +7,15 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="nm2cgjbbr"/><path class="vh0_98nmz"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:arrow-up-from-line-bold" /></template>
+<style>
+.nm2cgjbbr {
+  fill: currentColor;
+  d: path("M12 16.75C11.5858 16.75 11.25 16.4142 11.25 16L11.25 4.93164L8.55371 7.88086C8.27428 8.18649 7.79985 8.20801 7.49414 7.92871C7.18851 7.64928 7.16699 7.17485 7.44629 6.86914L11.4463 2.49414C11.5884 2.33874 11.7894 2.25 12 2.25C12.2106 2.25 12.4116 2.33874 12.5537 2.49414L16.5537 6.86914C16.833 7.17485 16.8115 7.64928 16.5059 7.92871C16.2001 8.20801 15.7257 8.18649 15.4463 7.88086L12.75 4.93164L12.75 16C12.75 16.4142 12.4142 16.75 12 16.75Z");
+}
+
+.vh0_98nmz {
+  fill: currentColor;
+  d: path("M4 21.75C3.58579 21.75 3.25 21.4142 3.25 21C3.25 20.5858 3.58579 20.25 4 20.25L20 20.25C20.4142 20.25 20.75 20.5858 20.75 21C20.75 21.4142 20.4142 21.75 20 21.75L4 21.75Z");
+}
+
+</style>

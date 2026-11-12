@@ -1,14 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/n/nbvyqmn_o.css';
-import '../../css/j/j7lpo2bzk.css';
-import '../../css/u/usqinzbwd.css';
-import '../../css/c/c2qrdqggu.css';
-import '../../css/q/q8bol7bkw.css';
-import '../../css/c/can_dynpt.css';
-import '../../css/a/af8xze8eh.css';
-import '../../css/p/pb5_a4buv.css';
 
 const props = defineProps(["width","height"]);
 
@@ -16,3 +7,45 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="nbvyqmn_o"/><path class="j7lpo2bzk"/><path class="usqinzbwd"/><path class="c2qrdqggu"/><path class="q8bol7bkw"/><path class="can_dynpt"/><path class="af8xze8eh"/><path class="pb5_a4buv"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:wi-fi-router-round-broken" /></template>
+<style>
+.af8xze8eh {
+  d: path("M19.3806 6.65811C19.0167 5.41107 17.865 4.5 16.5004 4.5C15.1358 4.5 13.984 5.41107 13.6201 6.65811");
+}
+
+.c2qrdqggu {
+  d: path("M8.5 15C8.5 15.8284 7.82843 16.5 7 16.5C6.17157 16.5 5.5 15.8284 5.5 15C5.5 14.1716 6.17157 13.5 7 13.5C7.82843 13.5 8.5 14.1716 8.5 15Z");
+}
+
+.can_dynpt {
+  d: path("M21.5833 5.39702C20.7574 3.40286 18.7924 2 16.4996 2C14.2069 2 12.2419 3.40286 11.416 5.39702");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.j7lpo2bzk {
+  d: path("M18 20L19 22");
+}
+
+.nbvyqmn_o {
+  d: path("M17 10H7C4.23858 10 2 12.2386 2 15C2 17.7614 4.23858 20 7 20H17C19.7614 20 22 17.7614 22 15C22 13.8742 21.6279 12.8353 21 11.9995");
+}
+
+.pb5_a4buv {
+  stroke-linejoin: round;
+  d: path("M16.5 7H16.5001");
+}
+
+.q8bol7bkw {
+  d: path("M12 15H18.5");
+}
+
+.usqinzbwd {
+  d: path("M6 20L5 22");
+}
+
+</style>

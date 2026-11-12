@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/r/rykq8yo8d.css';
-import '../../css/u/u-vlijawj.css';
-import '../../css/a/at9l3acdr.css';
-import '../../css/s/s78ywflqo.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,26 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="rykq8yo8d"/><path class="u-vlijawj"/><path class="at9l3acdr"/><path class="s78ywflqo"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:clapperboard-bold-duotone" /></template>
+<style>
+.at9l3acdr {
+  fill: currentColor;
+  d: path("M16.5394 2.08783C15.3286 2 13.8446 2 11.9993 2C11.9664 2 11.9335 2 11.9007 2L8.40072 7.25002H13.0979L16.5394 2.08783Z");
+}
+
+.rykq8yo8d {
+  fill: currentColor;
+  d: path("M10.095 2.00445C6.62128 2.03072 4.71617 2.2121 3.4638 3.46447C2.60614 4.32213 2.25076 5.48593 2.10352 7.25002H6.59795L10.095 2.00445Z");
+}
+
+.s78ywflqo {
+  fill: currentColor;
+  d: path("M2.02644 8.75C2 9.68872 2 10.7632 2 12C2 16.714 2 19.071 3.46447 20.5355C4.92893 22 7.28595 22 12 22C16.714 22 19.0711 22 20.5355 20.5355C22 19.071 22 16.714 22 12C22 10.7632 22 9.68872 21.9736 8.75H2.02644Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.u-vlijawj {
+  fill: currentColor;
+  d: path("M21.8952 7.25002C21.7479 5.48593 21.3925 4.32213 20.5349 3.46447C19.9375 2.86714 19.1917 2.51345 18.1981 2.30403L14.9007 7.25002H21.8952Z");
+}
+
+</style>

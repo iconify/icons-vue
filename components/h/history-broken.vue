@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/h/hntgybcog.css';
-import '../../css/k/kk45u3h5t.css';
-import '../../css/p/p_4trfb9n.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,21 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="hntgybcog"><path class="kk45u3h5t"/><path class="p_4trfb9n"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:history-broken" /></template>
+<style>
+.hntgybcog {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.kk45u3h5t {
+  d: path("M12 8V12L14.5 14.5");
+}
+
+.p_4trfb9n {
+  d: path("M18.332 5.66819C16.5635 3.8997 14.2521 3.00944 11.9458 3.00016M11.9458 3.00016C9.64556 2.9909 7.35044 3.85801 5.60423 5.60423L4.33785 6.87061M11.9458 3.00016C11.9639 3.00005 11.9819 3 12 3C16.9706 3 21 7.02944 21 12C21 13.6393 20.5617 15.1762 19.796 16.5M11.9458 3.00016C9.49821 3.01459 7.28219 4.00604 5.66801 5.60423M4.32506 4.32506L4.33785 6.87061L6.8834 6.8834M3 12C3 16.9706 7.02944 21 12 21C13.6393 21 15.1762 20.5617 16.5 19.796");
+}
+
+</style>

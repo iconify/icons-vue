@@ -1,12 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/x/xk8abgb-z.css';
-import '../../css/x/xfcsm6b8b.css';
-import '../../css/b/bbj_fcggl.css';
-import '../../css/h/h6phtxo0h.css';
-import '../../css/w/wn7dqvbng.css';
-import '../../css/k/kq1mxjxmn.css';
 
 const props = defineProps(["width","height"]);
 
@@ -14,3 +7,39 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="xk8abgb-z"/><path class="xfcsm6b8b"/><path class="bbj_fcggl"/><path class="h6phtxo0h"/><path class="wn7dqvbng"/><path class="kq1mxjxmn"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:paper-bin-broken" /></template>
+<style>
+.bbj_fcggl {
+  d: path("M19 19H5");
+}
+
+.h6phtxo0h {
+  stroke-linejoin: round;
+  d: path("M14 6L12 8M12 8L9 11M12 8L10 6M12 8L15 11M9 11L6.16129 13.8387M9 11L6.10526 8.10526M9 11L12 14M6.16129 13.8387L4.08687 15.9131M6.16129 13.8387L3.5 11L6.10526 8.10526M6.16129 13.8387L9.06452 16.9355M20 6L15 11M15 11L12 14M15 11L19.913 15.913M12 14L9.06452 16.9355M12 14L17 19M9.06452 16.9355L7 19M9.06452 16.9355L11 19M4 6L6.10526 8.10526M6.10526 8.10526L8 6");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.kq1mxjxmn {
+  stroke-linejoin: round;
+  d: path("M16 6L20.5 11");
+}
+
+.wn7dqvbng {
+  stroke-linejoin: round;
+  d: path("M20.5 11L13 19");
+}
+
+.xfcsm6b8b {
+  d: path("M21 6H3");
+}
+
+.xk8abgb-z {
+  d: path("M18.0002 2.05222C19.3685 2.14165 20.2231 2.38425 20.7898 3.04233C21.6874 4.08466 21.4472 5.68646 20.9666 8.89004L19.7666 16.89C19.401 19.3276 19.2182 20.5464 18.3743 21.2732C17.5303 22 16.2979 22 13.833 22H10.1673C7.7024 22 6.46997 22 5.62604 21.2732C4.78211 20.5464 4.59929 19.3276 4.23365 16.89L3.03365 8.89004C2.55311 5.68645 2.31285 4.08466 3.21049 3.04233C4.10813 2 5.72784 2 8.96727 2H14.0002");
+}
+
+</style>

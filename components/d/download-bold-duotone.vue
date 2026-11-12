@@ -1,7 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/z/zej5dm5-i.css';
-import '../../css/a/abnnwxzhi.css';
 
 const props = defineProps(["width","height"]);
 
@@ -9,3 +7,17 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="zej5dm5-i"/><path clip-rule="evenodd" class="abnnwxzhi"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:download-bold-duotone" /></template>
+<style>
+.abnnwxzhi {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M12 1.25C11.5858 1.25 11.25 1.58579 11.25 2L11.25 12.9726L9.56943 11.0119C9.29986 10.6974 8.82639 10.661 8.51189 10.9306C8.1974 11.2001 8.16098 11.6736 8.43054 11.9881L11.4305 15.4881C11.573 15.6543 11.781 15.75 12 15.75C12.2189 15.75 12.4269 15.6543 12.5694 15.4881L15.5694 11.9881C15.839 11.6736 15.8026 11.2001 15.4881 10.9306C15.1736 10.661 14.7001 10.6974 14.4305 11.0119L12.75 12.9726L12.75 2C12.75 1.58579 12.4142 1.25 12 1.25Z");
+}
+
+.zej5dm5-i {
+  fill: currentColor;
+  d: path("M22 16.0002V15.0002C22 12.1718 21.9998 10.758 21.1211 9.87934C20.2424 9.00066 18.8282 9.00066 15.9998 9.00066H7.99977C5.17135 9.00066 3.75713 9.00066 2.87845 9.87934C2 10.7578 2 12.1711 2 14.998V15.0002V16.0002C2 18.8286 2 20.2428 2.87868 21.1215C3.75736 22.0002 5.17157 22.0002 8 22.0002H16H16C18.8284 22.0002 20.2426 22.0002 21.1213 21.1215C22 20.2428 22 18.8286 22 16.0002Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+</style>

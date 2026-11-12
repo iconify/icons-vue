@@ -1,7 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/r/r4zeb_b-f.css';
-import '../../css/a/aihie_dzt.css';
 
 const props = defineProps(["width","height"]);
 
@@ -9,3 +7,16 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="r4zeb_b-f"/><path class="aihie_dzt"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:map-arrow-right-bold-duotone" /></template>
+<style>
+.aihie_dzt {
+  fill: currentColor;
+  d: path("M15.5332 15.3905C15.6529 15.6299 15.9397 15.7326 16.1841 15.6236L21.0066 13.473C22.3304 12.8826 22.3304 11.1182 21.0066 10.5279L12.1089 6.55995C11.6802 6.36876 11.2481 6.82035 11.458 7.2402L15.5332 15.3905Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.r4zeb_b-f {
+  fill: currentColor;
+  d: path("M14.1427 15.9621C14.2701 16.2169 14.1593 16.5264 13.8991 16.6424L4.49746 20.835C3.00163 21.5021 1.45007 20.0209 2.19099 18.6331L5.34302 12.7294C5.58818 12.2702 5.58818 11.7298 5.34302 11.2706L2.19099 5.36689C1.45006 3.97914 3.00163 2.49789 4.49746 3.16496L8.02178 4.73662C8.44465 4.9252 8.78899 5.25466 8.99606 5.6688L14.1427 15.9621Z");
+}
+
+</style>

@@ -1,10 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/v/vfyjxnopo.css';
-import '../../css/c/czwlizb6n.css';
-import '../../css/k/k-qmgxbel.css';
-import '../../css/e/ej9c85b1m.css';
 
 const props = defineProps(["width","height"]);
 
@@ -12,3 +7,31 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="vfyjxnopo"/><path class="czwlizb6n"/><path class="k-qmgxbel"/><path class="ej9c85b1m"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:star-fall-minimalistic-line-duotone" /></template>
+<style>
+.czwlizb6n {
+  d: path("M11.5 4.5L9.5 2.5M13.5 6.5L13 6");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.ej9c85b1m {
+  d: path("M6 12L4.5 10.5M2.5 8.5L2 8");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.k-qmgxbel {
+  d: path("M6.5 6.5L4 4");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.vfyjxnopo {
+  d: path("M12.4647 8.62652L12.032 8.49339C10.3598 7.9788 9.52362 7.7215 9.02101 8.18152C8.51841 8.64154 8.68219 9.51421 9.00976 11.2596L9.09451 11.7111C9.18759 12.2071 9.23414 12.4551 9.17893 12.6973C9.12372 12.9396 8.973 13.1487 8.67158 13.5669L8.39716 13.9477C7.33644 15.4194 6.80608 16.1553 7.06482 16.7654C7.32356 17.3754 8.20005 17.4557 9.95303 17.6161L10.4065 17.6576C10.9047 17.7032 11.1538 17.726 11.3623 17.8453C11.5709 17.9647 11.7154 18.167 12.0043 18.5717L12.2673 18.9402C13.284 20.3644 13.7924 21.0765 14.4549 20.9935C15.1174 20.9105 15.4953 20.0874 16.2512 18.4412L16.4467 18.0153C16.6615 17.5475 16.7689 17.3137 16.953 17.1451C17.1371 16.9766 17.3771 16.8926 17.8571 16.7245L18.2941 16.5714C19.9831 15.9799 20.8277 15.6841 20.9784 15.0228C21.1291 14.3614 20.4862 13.7725 19.2003 12.5946L18.8677 12.2899C18.5023 11.9552 18.3196 11.7878 18.2248 11.5644C18.13 11.3409 18.1339 11.0866 18.1416 10.578L18.1487 10.115C18.1759 8.32517 18.1895 7.43027 17.6201 7.10452C17.0507 6.77876 16.2754 7.23788 14.7249 8.15612L14.3238 8.39368C13.8832 8.65461 13.6629 8.78508 13.4202 8.81547C13.1775 8.84587 12.9399 8.77276 12.4647 8.62652Z");
+}
+
+</style>

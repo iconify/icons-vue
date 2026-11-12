@@ -1,15 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/z/zmtfhxbuo.css';
-import '../../css/c/cnl52bbbi.css';
-import '../../css/q/qy9-4uicp.css';
-import '../../css/j/jl627cb0x.css';
-import '../../css/u/us1wg3bcv.css';
-import '../../css/p/pz-veqbkt.css';
-import '../../css/x/x06f3yqhd.css';
-import '../../css/k/kf62t6s5z.css';
-import '../../css/e/elkaa553f.css';
 
 const props = defineProps(["width","height"]);
 
@@ -17,3 +7,61 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="zmtfhxbuo"/><path class="cnl52bbbi"/><path class="qy9-4uicp"/><path class="jl627cb0x"/><path class="us1wg3bcv"/><path class="pz-veqbkt"/><path class="x06f3yqhd"/><path class="kf62t6s5z"/><path class="elkaa553f"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:bus-line-duotone" /></template>
+<style>
+.cnl52bbbi {
+  stroke-linejoin: round;
+  d: path("M4 13H20");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.elkaa553f {
+  d: path("M19.5 5H4.5");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.jl627cb0x {
+  stroke-linejoin: round;
+  d: path("M7 16H8.5");
+}
+
+.kf62t6s5z {
+  stroke-linejoin: round;
+  d: path("M4 9H3C2.44772 9 2 9.44772 2 10V11C2 11.3148 2.14819 11.6111 2.4 11.8L4 13");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.pz-veqbkt {
+  stroke-linejoin: round;
+  d: path("M18 19.5V21C18 21.5523 17.5523 22 17 22H15.5C14.9477 22 14.5 21.5523 14.5 21V20");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.qy9-4uicp {
+  stroke-linejoin: round;
+  d: path("M15.5 16H17");
+}
+
+.us1wg3bcv {
+  stroke-linejoin: round;
+  d: path("M6 19.5V21C6 21.5523 6.44772 22 7 22H8.5C9.05228 22 9.5 21.5523 9.5 21V20");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.x06f3yqhd {
+  stroke-linejoin: round;
+  d: path("M20 9H21C21.5523 9 22 9.44772 22 10V11C22 11.3148 21.8518 11.6111 21.6 11.8L20 13");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.zmtfhxbuo {
+  d: path("M12 20C8.22876 20 6.34315 20 5.17157 18.8284C4 17.6569 4 15.7712 4 12V10C4 6.22876 4 4.34315 5.17157 3.17157C6.34315 2 8.22876 2 12 2C15.7712 2 17.6569 2 18.8284 3.17157C20 4.34315 20 6.22876 20 10V12C20 15.7712 20 17.6569 18.8284 18.8284C17.6569 20 15.7712 20 12 20Z");
+}
+
+</style>

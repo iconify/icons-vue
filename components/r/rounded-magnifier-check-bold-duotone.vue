@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/n9y477w0i.css';
-import '../../css/c/cj0d3vbqu.css';
-import '../../css/d/dvn5fybze.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,23 @@ const viewBox = {"width":24,"height":24};
 const content = `<circle class="n9y477w0i"/><path class="cj0d3vbqu"/><path class="dvn5fybze"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:rounded-magnifier-check-bold-duotone" /></template>
+<style>
+.cj0d3vbqu {
+  fill: currentColor;
+  d: path("M20.2832 18.2569C20.5013 18.2749 20.7702 18.3599 21.0586 18.4463C21.3222 18.5253 21.5732 18.5955 21.7578 18.6944C22.7332 19.217 23.0484 20.4659 22.4375 21.3887C22.3217 21.5634 22.1342 21.7447 21.9394 21.9395C21.7446 22.1343 21.5634 22.3218 21.3886 22.4375C20.4659 23.0484 19.217 22.7333 18.6943 21.7578C18.5955 21.5733 18.5253 21.3223 18.4463 21.0586C18.3599 20.7703 18.2748 20.5014 18.2568 20.2832C18.1617 19.1267 19.1266 18.1617 20.2832 18.2569Z");
+}
+
+.dvn5fybze {
+  fill: currentColor;
+  d: path("M13.4082 8.03909C13.6628 7.71262 14.1343 7.65385 14.4609 7.90823C14.7874 8.16288 14.8461 8.63438 14.5918 8.96097L10.6914 13.961C10.5522 14.1394 10.3395 14.2459 10.1133 14.25C9.9153 14.2535 9.72488 14.1788 9.58298 14.044L9.52536 13.9825L7.42576 11.4825C7.15935 11.1653 7.20043 10.6922 7.51755 10.4258C7.8347 10.1594 8.30777 10.2005 8.57419 10.5176L10.0781 12.3096L13.4082 8.03909Z");
+}
+
+.n9y477w0i {
+  cx: 11px;
+  cy: 11px;
+  r: 9px;
+  fill: currentColor;
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+</style>

@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/q/q9u-03p8n.css';
-import '../../css/k/keuudrbox.css';
-import '../../css/j/js631gbug.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,22 @@ const viewBox = {"width":24,"height":24};
 const content = `<path clip-rule="evenodd" class="q9u-03p8n"/><path class="keuudrbox"/><path class="js631gbug"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:panel-left-open-bold-duotone" /></template>
+<style>
+.js631gbug {
+  fill: currentColor;
+  d: path("M14.7814 15.4883C14.5117 15.8025 14.0381 15.8388 13.7237 15.5693C13.4095 15.2998 13.3733 14.8261 13.6427 14.5117L15.795 12L13.6427 9.48828C13.3733 9.17388 13.4095 8.70025 13.7237 8.43066C14.0382 8.16117 14.5118 8.19746 14.7814 8.51172L17.3526 11.5117C17.5934 11.7926 17.5934 12.2074 17.3526 12.4883L14.7814 15.4883Z");
+}
+
+.keuudrbox {
+  fill: currentColor;
+  d: path("M9.00011 20.9941C6.36429 20.9665 4.14629 20.8024 3.17198 19.8281C2.00051 18.6565 2.00011 16.7711 2.00011 13L2.00011 11C2.00011 7.22889 2.00053 5.34345 3.17198 4.17187C4.14629 3.19757 6.36429 3.03348 9.00011 3.00586L9.00011 20.9941Z");
+}
+
+.q9u-03p8n {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M20.8284 19.8284C22 18.6568 22 16.7712 22 13L22 11C22 7.22873 22 5.34312 20.8284 4.17154C19.6569 2.99997 17.7712 2.99997 14 2.99997L10 2.99997C9.91573 2.99997 9.0824 2.99992 9 2.99994L9 20.9999C9.0824 21 9.91573 21 10 21L14 21C17.7712 21 19.6569 21 20.8284 19.8284Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+</style>

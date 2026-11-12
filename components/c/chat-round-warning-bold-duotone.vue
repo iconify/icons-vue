@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/n0jc9qlwi.css';
-import '../../css/q/qsm1dmd4a.css';
-import '../../css/z/z04quez4q.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,21 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="n0jc9qlwi"/><path class="qsm1dmd4a"/><path class="z04quez4q"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:chat-round-warning-bold-duotone" /></template>
+<style>
+.n0jc9qlwi {
+  fill: currentColor;
+  d: path("M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 13.5997 2.37562 15.1116 3.04346 16.4525C3.22094 16.8088 3.28001 17.2161 3.17712 17.6006L2.58151 19.8267C2.32295 20.793 3.20701 21.677 4.17335 21.4185L6.39939 20.8229C6.78393 20.72 7.19121 20.7791 7.54753 20.9565C8.88837 21.6244 10.4003 22 12 22Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.qsm1dmd4a {
+  fill: currentColor;
+  d: path("M12 15.75C12.4142 15.75 12.75 16.0858 12.75 16.5C12.75 16.9142 12.4142 17.25 12 17.25C11.5858 17.25 11.25 16.9142 11.25 16.5C11.25 16.0858 11.5858 15.75 12 15.75Z");
+}
+
+.z04quez4q {
+  fill: currentColor;
+  d: path("M12 6.75C12.4142 6.75 12.75 7.08579 12.75 7.5V13.5C12.75 13.9142 12.4142 14.25 12 14.25C11.5858 14.25 11.25 13.9142 11.25 13.5V7.5C11.25 7.08579 11.5858 6.75 12 6.75Z");
+}
+
+</style>

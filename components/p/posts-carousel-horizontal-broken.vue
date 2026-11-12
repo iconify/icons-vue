@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/i/i96tnwb9m.css';
-import '../../css/n/n9n4_cako.css';
-import '../../css/o/oi_mcozlx.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,24 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="i96tnwb9m"/><path class="n9n4_cako"/><path class="oi_mcozlx"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:posts-carousel-horizontal-broken" /></template>
+<style>
+.i96tnwb9m {
+  d: path("M22 19H21.5C20.1193 19 19 17.8807 19 16.5V7.5C19 6.11929 20.1193 5 21.5 5H22");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.n9n4_cako {
+  d: path("M2 19H2.5C3.88071 19 5 17.8807 5 16.5L5 7.5C5 6.11929 3.88071 5 2.5 5H2");
+}
+
+.oi_mcozlx {
+  d: path("M15 5.12601C15.3872 5.2103 15.6794 5.35099 15.9142 5.58579C16.5 6.17157 16.5 7.11438 16.5 9L16.5 15C16.5 16.8856 16.5 17.8284 15.9142 18.4142C15.3284 19 14.3856 19 12.5 19L11.5 19C9.61438 19 8.67157 19 8.08579 18.4142C7.5 17.8284 7.5 16.8856 7.5 15L7.5 9C7.5 7.11438 7.5 6.17157 8.08579 5.58579C8.61733 5.05424 9.44285 5.00502 11 5.00047");
+}
+
+</style>

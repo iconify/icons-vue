@@ -1,11 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/j/jth6cs3er.css';
-import '../../css/y/ykueg1b1u.css';
-import '../../css/n/nr7t2bb1e.css';
-import '../../css/u/udkm02blq.css';
-import '../../css/l/l6e0kx4od.css';
 
 const props = defineProps(["width","height"]);
 
@@ -13,3 +7,32 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="jth6cs3er"/><path class="ykueg1b1u"/><path class="nr7t2bb1e"/><path class="udkm02blq"/><path class="l6e0kx4od"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:clapperboard-edit-broken" /></template>
+<style>
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.jth6cs3er {
+  d: path("M10 21.9948C6.58687 21.9658 4.70529 21.7764 3.46447 20.5355C2 19.0711 2 16.714 2 12C2 7.28595 2 4.92893 3.46447 3.46447C4.92893 2 7.28595 2 12 2C16.714 2 19.0711 2 20.5355 3.46447C21.5093 4.43821 21.8356 5.80655 21.9449 8");
+}
+
+.l6e0kx4od {
+  d: path("M21.9447 8H2.05469");
+}
+
+.nr7t2bb1e {
+  d: path("M13.5 8L17 2.5");
+}
+
+.udkm02blq {
+  d: path("M18.562 13.9354L18.9791 13.5183C19.6702 12.8272 20.7906 12.8272 21.4817 13.5183C22.1728 14.2094 22.1728 15.3298 21.4817 16.0209L21.0646 16.438M18.562 13.9354C18.562 13.9354 18.6142 14.8217 19.3962 15.6038C20.1783 16.3858 21.0646 16.438 21.0646 16.438M21.0646 16.438L17.23 20.2725C16.9703 20.5323 16.8405 20.6621 16.6973 20.7738C16.5284 20.9055 16.3456 21.0185 16.1522 21.1106C15.9883 21.1888 15.8141 21.2468 15.4656 21.363L14.35 21.7349L13.9891 21.8552L13.6281 21.9755C13.4567 22.0327 13.2676 21.988 13.1398 21.8602C13.012 21.7324 12.9673 21.5433 13.0245 21.3719L13.1448 21.0109L13.2651 20.65L13.637 19.5344C13.7532 19.1859 13.8112 19.0117 13.8894 18.8478C13.9815 18.6544 14.0945 18.4716 14.2262 18.3027C14.3379 18.1595 14.4677 18.0297 14.7275 17.77L18.562 13.9354M13.9891 21.8552L13.1448 21.0109");
+}
+
+.ykueg1b1u {
+  d: path("M7 8L10.5 2.5");
+}
+
+</style>

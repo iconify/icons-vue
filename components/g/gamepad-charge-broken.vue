@@ -1,14 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/o/ow0fid2eg.css';
-import '../../css/x/x-21zwayg.css';
-import '../../css/c/chfv8st2f.css';
-import '../../css/r/rcgoqzxit.css';
-import '../../css/j/jdkg2b8su.css';
-import '../../css/i/i2afqdhro.css';
-import '../../css/l/li08e_y6g.css';
-import '../../css/k/kdceb2bpp.css';
 
 const props = defineProps(["width","height"]);
 
@@ -16,3 +7,48 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="ow0fid2eg"/><path class="x-21zwayg"/><path class="chfv8st2f"/><path class="rcgoqzxit"/><path class="jdkg2b8su"/><path class="i2afqdhro"/><path class="li08e_y6g"/><path class="kdceb2bpp"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:gamepad-charge-broken" /></template>
+<style>
+.chfv8st2f {
+  d: path("M10.5 16.5V18C10.5 18.5523 10.9477 19 11.5 19H12.5C13.0523 19 13.5 18.5523 13.5 18V16.5");
+}
+
+.i2afqdhro {
+  stroke-linejoin: round;
+  d: path("M16.75 11.75H16.7501");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.jdkg2b8su {
+  stroke-linejoin: round;
+  d: path("M15.25 10.25H15.2501");
+}
+
+.kdceb2bpp {
+  stroke-linejoin: round;
+  d: path("M16.75 8.75H16.7501");
+}
+
+.li08e_y6g {
+  stroke-linejoin: round;
+  d: path("M18.25 10.25H18.2501");
+}
+
+.ow0fid2eg {
+  d: path("M21.2206 8C20.5311 5.81603 19.4281 4.63486 18.0908 4.16059C17.7099 4.02549 17.3016 4 16.8974 4H16.2849C15.4074 4 14.5514 4.27225 13.8351 4.77922L13.3332 5.13441C12.9434 5.41029 12.4776 5.55844 12 5.55844C11.5225 5.55844 11.0567 5.41029 10.6669 5.13443L10.165 4.77922C9.44862 4.27225 8.59264 4 7.71504 4H7.10257C6.69838 4 6.29009 4.02549 5.90915 4.16059C3.52645 5.00566 1.88749 8.09504 2.00604 15.1026C2.02992 16.5145 2.3603 18.075 3.63423 18.6842C4.03121 18.8741 4.49667 19 5.02671 19C5.66273 19 6.1678 18.8187 6.55763 18.5632C7.47153 17.9642 8.14122 16.9639 9.11125 16.4609C9.69519 16.1581 10.3434 16 11.0011 16H12.9989C13.6566 16 14.3048 16.1581 14.8888 16.4609C15.8588 16.9639 16.5285 17.9642 17.4424 18.5632C17.8322 18.8187 18.3373 19 18.9733 19C19.5033 19 19.9688 18.8741 20.3658 18.6842C21.6397 18.075 21.9701 16.5145 21.994 15.1026C22.0132 13.9681 21.9863 12.9362 21.9176 12");
+}
+
+.rcgoqzxit {
+  d: path("M7.5 9V10.5M7.5 10.5V12M7.5 10.5L6 10.5M7.5 10.5L9 10.5");
+}
+
+.x-21zwayg {
+  d: path("M12 22V19");
+}
+
+</style>

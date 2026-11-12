@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/l/l-7ci-bcn.css';
-import '../../css/c/cac39mbmr.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,20 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="l-7ci-bcn"/><path class="cac39mbmr"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:oven-mitts-linear" /></template>
+<style>
+.cac39mbmr {
+  d: path("M13.2975 20.0263L3.88477 10.8232");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.l-7ci-bcn {
+  d: path("M13.2976 20.0262C13.2975 20.0262 13.2977 20.0261 13.2976 20.0262ZM9.37197 5.72001L10.3341 4.77929L10.7995 4.32429C13.3618 1.81908 17.516 1.81908 20.0783 4.32429C22.6406 6.82951 22.6406 10.8913 20.0783 13.3965L13.2976 20.0262C11.9519 21.3419 11.2788 22 10.4426 22C9.60638 22 8.93345 21.3421 7.58758 20.0262L4.0188 16.5368C2.67293 15.221 2 14.563 2 13.7454C2 13.2089 2.28972 12.7412 2.86916 12.1112C3.45312 11.4764 3.74867 11.155 3.8847 10.8233C3.88638 10.8192 3.88805 10.8151 3.88968 10.8109C4.02341 10.4748 4.02705 10.0967 4.03433 9.34056L4.06648 5.99923C4.03217 3.81732 5.44093 2.02694 7.21305 2.0003C8.66759 1.97843 9.91482 3.15159 10.3341 4.77929");
+}
+
+</style>

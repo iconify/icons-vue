@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/o/o_o-wt13s.css';
-import '../../css/j/jrfk4909t.css';
-import '../../css/u/u23ewcsgh.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,21 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="o_o-wt13s"/><path class="jrfk4909t"/><path class="u23ewcsgh"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:cup-paper-bold-duotone" /></template>
+<style>
+.jrfk4909t {
+  fill: currentColor;
+  d: path("M14.8151 2C16.6529 2 17.5719 2.00002 18.2946 2.44434C18.4193 2.52098 18.5379 2.60718 18.6501 2.70117C19.3002 3.24611 19.5919 4.11727 20.1735 5.86035L20.2087 5.96777C20.5274 6.92301 20.6866 7.40058 20.5183 7.76172C20.4652 7.87562 20.3917 7.97898 20.3005 8.06543C20.0113 8.33943 19.5074 8.33984 18.5007 8.33984H5.50068C4.49398 8.33984 3.9902 8.33919 3.70088 8.06543C3.60959 7.97895 3.53527 7.87569 3.48213 7.76172C3.3138 7.40059 3.47296 6.92297 3.7917 5.96777L3.82783 5.86035C4.40942 4.11746 4.70023 3.24609 5.35029 2.70117C5.46242 2.6072 5.58114 2.52096 5.70576 2.44434C6.42848 2.00003 7.34761 2 9.18525 2H14.8151Z");
+}
+
+.o_o-wt13s {
+  fill: currentColor;
+  d: path("M17.9646 12L17.2331 17H6.76924L6.03682 12H17.9646Z");
+}
+
+.u23ewcsgh {
+  fill: currentColor;
+  d: path("M10.958 22H13.044C14.6926 22 15.517 22 16.0802 21.5132C16.6435 21.0264 16.7629 20.2107 17.0018 18.5794L18.501 8.33936H5.50098L7.00019 18.5794C7.23902 20.2107 7.35843 21.0264 7.92171 21.5132C8.48499 22 9.30932 22 10.958 22Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+</style>

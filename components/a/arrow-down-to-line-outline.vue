@@ -1,7 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/s/s9bla539y.css';
-import '../../css/q/qbfdzwb5u.css';
 
 const props = defineProps(["width","height"]);
 
@@ -9,3 +7,15 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="s9bla539y"/><path class="qbfdzwb5u"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:arrow-down-to-line-outline" /></template>
+<style>
+.qbfdzwb5u {
+  fill: currentColor;
+  d: path("M12 2.25C12.4142 2.25 12.75 2.58579 12.75 3V14.0684L15.4463 11.1191C15.7257 10.8135 16.2001 10.792 16.5059 11.0713C16.8115 11.3507 16.833 11.8252 16.5537 12.1309L12.5537 16.5059C12.4116 16.6612 12.2105 16.75 12 16.75C11.7895 16.75 11.5884 16.6612 11.4463 16.5059L7.44629 12.1309C7.16706 11.8252 7.18858 11.3507 7.49414 11.0713C7.79983 10.792 8.27427 10.8136 8.55371 11.1191L11.25 14.0684V3C11.25 2.58582 11.5858 2.25005 12 2.25Z");
+}
+
+.s9bla539y {
+  fill: currentColor;
+  d: path("M20 20.25C20.4142 20.25 20.75 20.5858 20.75 21C20.75 21.4142 20.4142 21.75 20 21.75H4C3.58579 21.75 3.25 21.4142 3.25 21C3.25 20.5858 3.58579 20.25 4 20.25H20Z");
+}
+
+</style>

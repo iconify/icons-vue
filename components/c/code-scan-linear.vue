@@ -1,14 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/x/xpzssrbzs.css';
-import '../../css/o/oy2x2cc4m.css';
-import '../../css/x/xyqjphqzo.css';
-import '../../css/q/q29fy6b4j.css';
-import '../../css/e/ercgknd1i.css';
-import '../../css/x/x-1lf64uh.css';
-import '../../css/p/p79yqm6ra.css';
-import '../../css/r/ros5bvrws.css';
 
 const props = defineProps(["width","height"]);
 
@@ -16,3 +7,44 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="xpzssrbzs"/><path class="oy2x2cc4m"/><path class="xyqjphqzo"/><path class="q29fy6b4j"/><path class="ercgknd1i"/><path class="x-1lf64uh"/><path class="p79yqm6ra"/><path class="ros5bvrws"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:code-scan-linear" /></template>
+<style>
+.ercgknd1i {
+  d: path("M22 14C22 17.7712 22 19.6569 20.8284 20.8284C19.6569 22 17.7712 22 14 22");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.oy2x2cc4m {
+  d: path("M7.5 10.5H8.5C9.44281 10.5 9.91421 10.5 10.2071 10.2071C10.5 9.91421 10.5 9.44281 10.5 8.5V7.5C10.5 6.55719 10.5 6.08579 10.2071 5.79289C9.91421 5.5 9.44281 5.5 8.5 5.5C7.08579 5.5 6.37868 5.5 5.93934 5.93934C5.5 6.37868 5.5 7.08579 5.5 8.5C5.5 9.44281 5.5 9.91421 5.79289 10.2071C6.08579 10.5 6.55719 10.5 7.5 10.5Z");
+}
+
+.p79yqm6ra {
+  d: path("M10 2C6.22876 2 4.34315 2 3.17157 3.17157C2 4.34315 2 6.22876 2 10");
+}
+
+.q29fy6b4j {
+  d: path("M15.5 10.5H16.5C17.4428 10.5 17.9142 10.5 18.2071 10.2071C18.5 9.91421 18.5 9.44281 18.5 8.5C18.5 7.08579 18.5 6.37868 18.0607 5.93934C17.6213 5.5 16.9142 5.5 15.5 5.5C14.5572 5.5 14.0858 5.5 13.7929 5.79289C13.5 6.08579 13.5 6.55719 13.5 7.5V8.5C13.5 9.44281 13.5 9.91421 13.7929 10.2071C14.0858 10.5 14.5572 10.5 15.5 10.5Z");
+}
+
+.ros5bvrws {
+  d: path("M14 2C17.7712 2 19.6569 2 20.8284 3.17157C22 4.34315 22 6.22876 22 10");
+}
+
+.x-1lf64uh {
+  d: path("M10 22C6.22876 22 4.34315 22 3.17157 20.8284C2 19.6569 2 17.7712 2 14");
+}
+
+.xpzssrbzs {
+  d: path("M8.5 18.5C7.08579 18.5 6.37868 18.5 5.93934 18.0607C5.5 17.6213 5.5 16.9142 5.5 15.5C5.5 14.5572 5.5 14.0858 5.79289 13.7929C6.08579 13.5 6.55719 13.5 7.5 13.5H8.5C9.44281 13.5 9.91421 13.5 10.2071 13.7929C10.5 14.0858 10.5 14.5572 10.5 15.5V16.5C10.5 17.4428 10.5 17.9142 10.2071 18.2071C9.91421 18.5 9.44281 18.5 8.5 18.5Z");
+}
+
+.xyqjphqzo {
+  d: path("M15.5 18.5C14.5572 18.5 14.0858 18.5 13.7929 18.2071C13.5 17.9142 13.5 17.4428 13.5 16.5V15.5C13.5 14.5572 13.5 14.0858 13.7929 13.7929C14.0858 13.5 14.5572 13.5 15.5 13.5H16.5C17.4428 13.5 17.9142 13.5 18.2071 13.7929C18.5 14.0858 18.5 14.5572 18.5 15.5C18.5 16.9142 18.5 17.6213 18.0607 18.0607C17.6213 18.5 16.9142 18.5 15.5 18.5Z");
+}
+
+</style>

@@ -1,7 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/f/ftg7u_q6r.css';
-import '../../css/c/ce_1shb3n.css';
 
 const props = defineProps(["width","height"]);
 
@@ -9,3 +7,15 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="ftg7u_q6r"/><path class="ce_1shb3n"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:chevrons-up-down-outline" /></template>
+<style>
+.ce_1shb3n {
+  fill: currentColor;
+  d: path("M11.4698 2.46979C11.7627 2.1769 12.2374 2.1769 12.5303 2.46979L18.5303 8.46979C18.8231 8.76269 18.8232 9.23748 18.5303 9.53034C18.2375 9.82319 17.7627 9.82312 17.4698 9.53034L12.0001 4.06061L6.53034 9.53034C6.23748 9.82319 5.76269 9.82312 5.46979 9.53034C5.1769 9.23745 5.1769 8.76269 5.46979 8.46979L11.4698 2.46979Z");
+}
+
+.ftg7u_q6r {
+  fill: currentColor;
+  d: path("M17.4698 14.4698C17.7627 14.1769 18.2374 14.1769 18.5303 14.4698C18.8231 14.7627 18.8232 15.2375 18.5303 15.5303L12.5303 21.5303C12.2375 21.8232 11.7627 21.8231 11.4698 21.5303L5.46979 15.5303C5.1769 15.2374 5.1769 14.7627 5.46979 14.4698C5.76269 14.1769 6.23745 14.1769 6.53034 14.4698L12.0001 19.9395L17.4698 14.4698Z");
+}
+
+</style>

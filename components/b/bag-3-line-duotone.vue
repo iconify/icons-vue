@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/j/jckd39bek.css';
-import '../../css/a/aui6libkd.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,21 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="jckd39bek"/><path class="aui6libkd"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:bag-3-line-duotone" /></template>
+<style>
+.aui6libkd {
+  d: path("M9.1709 8C9.58273 9.16519 10.694 10 12.0002 10C13.3064 10 14.4177 9.16519 14.8295 8");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.jckd39bek {
+  d: path("M3.74132 18.5545C3.74132 18.5545 3.74132 18.5545 3.74132 18.5545C4.94094 20 7.17365 20 11.6391 20H12.3602C16.8257 20 19.0584 20 20.258 18.5545M3.74132 18.5545C2.5417 17.1091 2.95316 14.9146 3.77608 10.5257C4.3613 7.40452 4.65392 5.84393 5.76481 4.92196M20.258 18.5545C20.258 18.5545 20.258 18.5545 20.258 18.5545C21.4576 17.1091 21.0461 14.9146 20.2232 10.5257C19.638 7.40452 19.3454 5.84393 18.2345 4.92196M18.2345 4.92196C18.2345 4.92196 18.2345 4.92196 18.2345 4.92196C17.1236 4 15.5358 4 12.3602 4H11.6391C8.4635 4 6.87571 4 5.76481 4.92196C5.76481 4.92196 5.76482 4.92196 5.76481 4.92196");
+}
+
+</style>

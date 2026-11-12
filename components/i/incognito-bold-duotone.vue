@@ -1,15 +1,39 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/j/jajc9k77y.css';
-import '../../css/s/s_tz82bpo.css';
-import '../../css/c/clztyml9n.css';
-import '../../css/x/xtpeb-edw.css';
-import '../../css/t/t0_5lgbdo.css';
-import '../../css/n/nmse1bcme.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="jajc9k77y"/><path class="s_tz82bpo"/><path class="clztyml9n"/><g class="xtpeb-edw"><path class="t0_5lgbdo"/><path class="nmse1bcme"/></g>`;
+const content = `<path class="no44khb4s"/><path class="m7nexeb3c"/><path class="ylh5qgbkt"/><g class="xtpeb-edw"><path class="xo3afy29u"/><path class="p3qlhffjw"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:incognito-bold-duotone" /></template>
+<style>
+.m7nexeb3c {
+  fill: currentColor;
+  d: path("M17.5 14C19.433 14 21 15.567 21 17.5C21 19.433 19.433 21 17.5 21C15.567 21 14 19.433 14 17.5C14 15.567 15.567 14 17.5 14Z");
+}
+
+.no44khb4s {
+  fill: currentColor;
+  d: path("M6.5 14C8.433 14 10 15.567 10 17.5C10 19.433 8.433 21 6.5 21C4.567 21 3 19.433 3 17.5C3 15.567 4.567 14 6.5 14Z");
+}
+
+.p3qlhffjw {
+  d: path("M13.5654 4C15.8152 4 16.9401 4.00037 17.7539 4.63574C18.5676 5.27115 18.8401 6.3624 19.3857 8.54492L19.8125 10.25H4.1875L4.61426 8.54492C5.15989 6.3624 5.43244 5.27115 6.24609 4.63574C7.05987 4.00037 8.18477 4 10.4346 4H13.5654Z");
+}
+
+.xo3afy29u {
+  d: path("M10.3232 16.5C11.3789 15.9723 12.6211 15.9723 13.6768 16.5L14.0898 16.7061C14.0307 16.961 14 17.227 14 17.5C14 17.8098 14.0397 18.1105 14.1152 18.3965L13.0059 17.8418C12.3725 17.5252 11.6275 17.5252 10.9941 17.8418L9.88379 18.3965C9.95939 18.1104 10 17.8099 10 17.5C10 17.2272 9.96821 16.9618 9.90918 16.707L10.3232 16.5Z");
+}
+
+.xtpeb-edw {
+  fill: currentColor;
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.ylh5qgbkt {
+  fill: currentColor;
+  d: path("M22 10.25C22.4142 10.25 22.75 10.5858 22.75 11C22.75 11.4142 22.4142 11.75 22 11.75H2C1.58579 11.75 1.25 11.4142 1.25 11C1.25 10.5858 1.58579 10.25 2 10.25H22Z");
+}
+
+</style>

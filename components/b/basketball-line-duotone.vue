@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/r/ro7vyibyz.css';
-import '../../css/z/za6gxehtt.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,21 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="ro7vyibyz"/><path class="za6gxehtt"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:basketball-line-duotone" /></template>
+<style>
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.ro7vyibyz {
+  d: path("M16.9997 20.66C12.2168 23.4214 6.10089 21.7826 3.33946 16.9997C0.578039 12.2168 2.21679 6.10089 6.99972 3.33946C8.94932 2.21386 11.1204 1.81935 13.1955 2.07088C16.2112 2.43642 19.0242 4.1664 20.66 6.99972C22.2958 9.83304 22.3875 13.1341 21.1962 15.9286C20.3765 17.8514 18.9493 19.5344 16.9997 20.66Z");
+}
+
+.za6gxehtt {
+  d: path("M16.9502 20.5732C16.9502 20.5732 16.4186 16.8419 15.2991 13.511M15.2991 13.511C14.9307 12.4149 14.4986 11.3622 14.0009 10.5C13.5722 9.75764 13.0105 9.01029 12.3918 8.29384M15.2991 13.511C11.7049 15.0724 8.49872 18.0386 7.57759 20.8175M15.2991 13.511C17.4862 12.5609 19.817 12.131 21.864 12.5801M12.3918 8.29384C10.1087 5.64991 7.05066 3.42678 7.05066 3.42678M12.3918 8.29384C14.3232 6.79363 15.8234 4.96491 16.4144 3.20895M12.3918 8.29384C9.46036 10.5708 5.53564 12.091 2.28906 11.4516");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+</style>

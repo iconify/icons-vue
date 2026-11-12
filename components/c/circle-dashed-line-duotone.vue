@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/h/hntgybcog.css';
-import '../../css/p/pk5gvmbhh.css';
-import '../../css/k/k5qm0cbja.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,22 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="hntgybcog"><path class="pk5gvmbhh"/><path class="k5qm0cbja"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:circle-dashed-line-duotone" /></template>
+<style>
+.hntgybcog {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.k5qm0cbja {
+  d: path("M2.18691 10.0657C2.06427 10.6915 2 11.3382 2 11.9999C2 12.6616 2.06427 13.3083 2.18691 13.9341M6.42903 3.69321C5.89982 4.04898 5.39709 4.46082 4.92919 4.92872C4.4613 5.39661 4.04946 5.89934 3.69369 6.42855M13.9343 2.18691C13.3085 2.06427 12.6618 2 12.0001 2C11.3384 2 10.6917 2.06427 10.0659 2.18691");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.pk5gvmbhh {
+  d: path("M20.3069 6.42907C19.9512 5.89986 19.5393 5.39713 19.0714 4.92923C18.6035 4.46134 18.1008 4.0495 17.5716 3.69373M21.8132 13.9343C21.9359 13.3085 22.0002 12.6618 22.0002 12.0001C22.0002 11.3384 21.9359 10.6917 21.8132 10.066M17.5711 20.3068C18.1003 19.9511 18.6031 19.5392 19.071 19.0713C19.5389 18.6034 19.9507 18.1007 20.3065 17.5715M10.0659 21.8131C10.6917 21.9358 11.3384 22 12.0001 22C12.6618 22 13.3085 21.9358 13.9342 21.8131M3.69336 17.571C4.04914 18.1002 4.46097 18.6029 4.92887 19.0708C5.39676 19.5387 5.89949 19.9506 6.4287 20.3064");
+}
+
+</style>

@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/l/liywby_bb.css';
-import '../../css/l/lc21qzuqt.css';
-import '../../css/s/swt82ccqb.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,22 @@ const viewBox = {"width":24,"height":24};
 const content = `<path clip-rule="evenodd" class="liywby_bb"/><path class="lc21qzuqt"/><path class="swt82ccqb"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:user-block-bold-duotone" /></template>
+<style>
+.lc21qzuqt {
+  fill: currentColor;
+  d: path("M12 2C14.2091 2 16 3.79086 16 6C16 8.20914 14.2091 10 12 10C9.79086 10 8 8.20914 8 6C8 3.79086 9.79086 2 12 2Z");
+}
+
+.liywby_bb {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M16.5 14.25C17.689 14.25 18.7656 14.7391 19.5361 15.5254C20.2865 16.2912 20.75 17.3423 20.75 18.5C20.75 20.8472 18.8472 22.75 16.5 22.75C15.3423 22.75 14.2912 22.2865 13.5254 21.5361C12.7391 20.7656 12.25 19.689 12.25 18.5C12.25 16.1528 14.1528 14.25 16.5 14.25ZM15.1914 20.9199C15.5805 21.1308 16.0261 21.25 16.5 21.25C18.0188 21.25 19.25 20.0188 19.25 18.5C19.25 18.0261 19.1308 17.5805 18.9199 17.1914L15.1914 20.9199ZM16.5 15.75C14.9812 15.75 13.75 16.9812 13.75 18.5C13.75 19.0003 13.8829 19.469 14.1162 19.873L17.873 16.1162C17.469 15.8829 17.0003 15.75 16.5 15.75Z");
+}
+
+.swt82ccqb {
+  fill: currentColor;
+  d: path("M17.9963 14.5211C17.5308 14.3459 17.0265 14.25 16.5 14.25C14.1528 14.25 12.25 16.1528 12.25 18.5C12.25 19.689 12.7393 20.7652 13.5256 21.5357C13.6786 21.6856 13.8429 21.8241 14.0173 21.9497C13.4088 21.9828 12.7385 22 12 22C4 22 4 19.9853 4 17.5C4 15.0147 7.58172 13 12 13C14.3874 13 16.5305 13.5882 17.9963 14.5211Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+</style>

@@ -1,14 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/g/genc22bnp.css';
-import '../../css/n/n368gp58n.css';
-import '../../css/x/xwas84ixu.css';
-import '../../css/q/qcvot5b5m.css';
-import '../../css/y/ygsbxnbgt.css';
-import '../../css/l/lruok7bvl.css';
-import '../../css/a/a61wxkb_y.css';
-import '../../css/e/eukpbibyf.css';
 
 const props = defineProps(["width","height"]);
 
@@ -16,3 +7,44 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="genc22bnp"/><path class="n368gp58n"/><path class="xwas84ixu"/><path class="qcvot5b5m"/><path class="ygsbxnbgt"/><path class="lruok7bvl"/><path class="a61wxkb_y"/><path class="eukpbibyf"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:closet-broken" /></template>
+<style>
+.a61wxkb_y {
+  d: path("M15 18L17 18");
+}
+
+.eukpbibyf {
+  d: path("M7 18L9 18");
+}
+
+.genc22bnp {
+  d: path("M19 22V21.5M5 22V21.5");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.lruok7bvl {
+  d: path("M2 15H22");
+}
+
+.n368gp58n {
+  d: path("M12 21V14M12 10V2");
+}
+
+.qcvot5b5m {
+  d: path("M22 11V13C22 16.7712 22 18.6569 20.8284 19.8284C19.6569 21 17.7712 21 14 21H10C6.22876 21 4.34315 21 3.17157 19.8284C2 18.6569 2 16.7712 2 13V10C2 6.22876 2 4.34315 3.17157 3.17157C4.34315 2 6.22876 2 10 2H14C17.7712 2 19.6569 2 20.8284 3.17157C21.6366 3.97975 21.8873 5.1277 21.965 7");
+}
+
+.xwas84ixu {
+  d: path("M15 8V10");
+}
+
+.ygsbxnbgt {
+  d: path("M2 8H12");
+}
+
+</style>

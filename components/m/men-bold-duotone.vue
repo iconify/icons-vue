@@ -1,7 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/u/ukbct-jgm.css';
-import '../../css/n/n6fnwhbfs.css';
 
 const props = defineProps(["width","height"]);
 
@@ -9,3 +7,18 @@ const viewBox = {"width":24,"height":24};
 const content = `<circle class="ukbct-jgm"/><path class="n6fnwhbfs"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:men-bold-duotone" /></template>
+<style>
+.n6fnwhbfs {
+  fill: currentColor;
+  d: path("M17 1.25C16.5858 1.25 16.25 1.58579 16.25 2C16.25 2.41421 16.5858 2.75 17 2.75H20.1894L15.1018 7.83758C15.4875 8.15728 15.8428 8.5125 16.1625 8.89824L21.25 3.81066V7C21.25 7.41421 21.5858 7.75 22 7.75C22.4143 7.75 22.75 7.41421 22.75 7V2.25C22.75 1.69772 22.3023 1.25 21.75 1.25H17Z");
+}
+
+.ukbct-jgm {
+  cx: 10px;
+  cy: 14px;
+  r: 8px;
+  fill: currentColor;
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+</style>

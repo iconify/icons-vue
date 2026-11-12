@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/j/jq23v-bhy.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,11 @@ const viewBox = {"width":24,"height":24};
 const content = `<path clip-rule="evenodd" class="jq23v-bhy"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:round-arrow-left-up-bold" /></template>
+<style>
+.jq23v-bhy {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM14.25 9C14.25 8.58579 13.9142 8.25 13.5 8.25H9C8.58579 8.25 8.25 8.58579 8.25 9V13.5C8.25 13.9142 8.58579 14.25 9 14.25C9.41421 14.25 9.75 13.9142 9.75 13.5V10.8107L14.4697 15.5303C14.7626 15.8232 15.2374 15.8232 15.5303 15.5303C15.8232 15.2374 15.8232 14.7626 15.5303 14.4697L10.8107 9.75H13.5C13.9142 9.75 14.25 9.41421 14.25 9Z");
+}
+
+</style>

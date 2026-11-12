@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/y/y4sc2bbph.css';
-import '../../css/k/kmdcknbod.css';
-import '../../css/t/toskudjye.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,24 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="y4sc2bbph"/><path class="kmdcknbod"/><path class="toskudjye"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:map-point-school-linear" /></template>
+<style>
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.kmdcknbod {
+  d: path("M8.88206 8.50819L11.224 9.36373C11.7213 9.54542 12.2787 9.54542 12.776 9.36373L15.1179 8.5082C15.6274 8.3221 15.6274 7.67791 15.1179 7.49181L12.776 6.63627C12.2787 6.45458 11.7213 6.45458 11.224 6.63627L8.88206 7.4918C8.37265 7.6779 8.37265 8.32209 8.88206 8.50819Z");
+}
+
+.toskudjye {
+  d: path("M14.5 9V11.7002C14.5 12.0891 14.2746 12.4439 13.9097 12.5785C13.3965 12.7679 12.6375 13 12 13C11.3625 13 10.6035 12.7679 10.0903 12.5785C9.72542 12.4439 9.5 12.0891 9.5 11.7002V9");
+}
+
+.y4sc2bbph {
+  d: path("M13.4629 21.6744C12.5343 22.1085 11.4657 22.1085 10.5371 21.6744C6.55332 19.8124 4 14.6055 4 10.1433C4 5.64588 7.58172 2 12 2C16.4183 2 20 5.64588 20 10.1433C20 14.6055 17.4467 19.8124 13.4629 21.6744Z");
+}
+
+</style>

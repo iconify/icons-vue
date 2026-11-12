@@ -1,7 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/j/j2-x-cbeh.css';
-import '../../css/f/fhhc7bnyb.css';
 
 const props = defineProps(["width","height"]);
 
@@ -9,3 +7,16 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="j2-x-cbeh"/><path class="fhhc7bnyb"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:grid-3x2-bold-duotone" /></template>
+<style>
+.fhhc7bnyb {
+  fill: currentColor;
+  d: path("M14.583 3C15.1233 3.0005 15.622 3.00532 16.083 3.0127V11.25H22V12.75H16.083V20.9863C15.622 20.9937 15.1233 20.9985 14.583 20.999V12.75H9.41602V20.999C8.87568 20.9985 8.37707 20.9937 7.91602 20.9863V12.75H2V11.25H7.91602V3.0127C8.37706 3.00531 8.87569 3.0005 9.41602 3V11.25H14.583V3Z");
+}
+
+.j2-x-cbeh {
+  fill: currentColor;
+  d: path("M2 11C2 7.22876 2 5.34315 3.17157 4.17157C4.34315 3 6.22876 3 10 3H14C17.7712 3 19.6569 3 20.8284 4.17157C22 5.34315 22 7.22876 22 11V13C22 16.7712 22 18.6569 20.8284 19.8284C19.6569 21 17.7712 21 14 21H10C6.22876 21 4.34315 21 3.17157 19.8284C2 18.6569 2 16.7712 2 13V11Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+</style>

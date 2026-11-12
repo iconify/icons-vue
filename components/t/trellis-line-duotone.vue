@@ -1,11 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/f/ft5dv1b6b.css';
-import '../../css/h/h_393lbkl.css';
-import '../../css/c/c38arbcur.css';
-import '../../css/n/njxkp0atg.css';
-import '../../css/k/k7pmohiui.css';
-import '../../css/o/omvctkd3h.css';
 
 const props = defineProps(["width","height"]);
 
@@ -13,3 +7,43 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ft5dv1b6b"><path class="h_393lbkl"/><path class="c38arbcur"/><path class="njxkp0atg"/><path class="k7pmohiui"/><path class="omvctkd3h"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:trellis-line-duotone" /></template>
+<style>
+.c38arbcur {
+  fill: currentColor;
+  d: path("m2.879 20.121l-.53.53zm-.877-4.12l-.75.003zm19.12 4.12l.53.53zm.876-4.12l.75.003zM16 20.25H8v1.5h8zm-8 0c-1.435 0-2.437-.002-3.192-.103c-.734-.099-1.122-.28-1.399-.556l-1.06 1.06c.601.603 1.36.861 2.26.983c.878.118 1.998.116 3.391.116zm-6.748-4.246c.006 1.082.032 1.983.167 2.72c.14.758.404 1.403.93 1.928l1.06-1.061c-.243-.244-.41-.572-.515-1.138c-.108-.589-.136-1.364-.142-2.457zM16 21.75c1.393 0 2.513.002 3.392-.116c.9-.122 1.658-.38 2.26-.982L20.59 19.59c-.277.277-.665.457-1.4.556c-.755.101-1.756.103-3.191.103zm5.248-5.754c-.006 1.093-.034 1.868-.142 2.457c-.104.567-.272.895-.515 1.138l1.06 1.06c.526-.524.79-1.17.93-1.927c.135-.737.161-1.638.167-2.72zM3 15.75h18v-1.5H3zm19.748.254A1.747 1.747 0 0 0 21 14.25v1.5c.14 0 .249.113.248.246zm-19.996-.008A.246.246 0 0 1 3 15.75v-1.5c-.964 0-1.754.782-1.748 1.754z");
+}
+
+.ft5dv1b6b {
+  fill: none;
+}
+
+.h_393lbkl {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M19 22v-.5M5 22v-.5m7-.5v-6");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.k7pmohiui {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M15 18h2M7 18h2");
+}
+
+.njxkp0atg {
+  stroke: currentColor;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M20.5 15V6.138c0-.388 0-.582-.018-.715q-.185-1.375-1.537-1.683c-.13-.03-.402-.055-.945-.104c-1.002-.091-2.183-.44-3.231-.821C13.275 2.27 12.529 2 12 2s-1.275.271-2.769.815c-1.048.381-2.23.73-3.231.82c-.543.05-.814.075-.945.105q-1.351.308-1.537 1.683c-.018.133-.018.327-.018.715V15");
+}
+
+.omvctkd3h {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("m14.5 11l-1 1m0-4l-3 3m0-4l-1 1");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+</style>

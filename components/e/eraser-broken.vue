@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/q/qrl531b_n.css';
-import '../../css/b/b6sm2vv4h.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,20 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="qrl531b_n"/><path class="b6sm2vv4h"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:eraser-broken" /></template>
+<style>
+.b6sm2vv4h {
+  d: path("M9 21H21");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.qrl531b_n {
+  d: path("M13.7713 17.314L6.68596 10.2287M13.7713 17.314L15.5427 15.5427M19 12.0841C20.3333 10.7403 21 9.9749 21 9.04776C21 8.01013 20.165 7.1751 18.4949 5.50506L18.4949 5.50506C16.8249 3.83502 15.9899 3 14.9522 3C13.9146 3 13.0796 3.83502 11.4096 5.50506L6.68596 10.2287L5.50506 11.4096L5.50506 11.4096C3.83502 13.0796 3 13.9146 3 14.9522C3 15.9899 3.83502 16.8249 5.50506 18.4949L5.50506 18.4949C7.1751 20.165 8.01013 21 9.04776 21C10.0854 21 10.9204 20.165 12.5904 18.4949L13.7713 17.314");
+}
+
+</style>

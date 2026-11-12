@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/y/y-9fctbqs.css';
-import '../../css/o/on8zzebxx.css';
-import '../../css/a/a_i48oy3h.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,27 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="y-9fctbqs"/><path class="on8zzebxx"/><path class="a_i48oy3h"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:wireless-charge-line-duotone" /></template>
+<style>
+.a_i48oy3h {
+  d: path("M12 21V22M12 21C11.5341 21 11.3011 21 11.1173 20.9239C10.8723 20.8224 10.6776 20.6277 10.5761 20.3827C10.5 20.1989 10.5 19.9659 10.5 19.5V18M12 21C12.4659 21 12.6989 21 12.8827 20.9239C13.1277 20.8224 13.3224 20.6277 13.4239 20.3827C13.5 20.1989 13.5 19.9659 13.5 19.5V18");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.on8zzebxx {
+  stroke-linejoin: round;
+  d: path("M12.8571 7L10 10H14L11.1429 13");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.y-9fctbqs {
+  d: path("M19.9997 10.0646C20.0354 14.4827 16.4827 18.0354 12.0646 17.9997C7.64642 17.9641 4.03592 14.3536 4.00027 9.93545C3.96461 5.51731 7.51731 1.96461 11.9354 2.00027C16.3536 2.03592 19.9641 5.64642 19.9997 10.0646Z");
+}
+
+</style>

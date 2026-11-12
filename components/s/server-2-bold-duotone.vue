@@ -1,14 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/x/xtpeb-edw.css';
-import '../../css/z/zawk6smbg.css';
-import '../../css/y/ybuibgbim.css';
-import '../../css/n/neqagcbsd.css';
-import '../../css/d/d770n5yfy.css';
-import '../../css/m/mbu81kbfo.css';
-import '../../css/e/eq4jbwbqz.css';
-import '../../css/o/ow856lbaj.css';
-import '../../css/f/fgysd4b_n.css';
 
 const props = defineProps(["width","height"]);
 
@@ -16,3 +7,48 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="xtpeb-edw"><path class="zawk6smbg"/><path class="ybuibgbim"/></g><path class="neqagcbsd"/><path class="d770n5yfy"/><path class="mbu81kbfo"/><path class="eq4jbwbqz"/><path class="ow856lbaj"/><path class="fgysd4b_n"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:server-2-bold-duotone" /></template>
+<style>
+.d770n5yfy {
+  fill: currentColor;
+  d: path("M6 8.75C5.58579 8.75 5.25 8.41421 5.25 8V6C5.25 5.58579 5.58579 5.25 6 5.25C6.41421 5.25 6.75 5.58579 6.75 6V8C6.75 8.41421 6.41421 8.75 6 8.75Z");
+}
+
+.eq4jbwbqz {
+  fill: currentColor;
+  d: path("M12.75 17C12.75 16.5858 13.0858 16.25 13.5 16.25H18C18.4142 16.25 18.75 16.5858 18.75 17C18.75 17.4142 18.4142 17.75 18 17.75H13.5C13.0858 17.75 12.75 17.4142 12.75 17Z");
+}
+
+.fgysd4b_n {
+  fill: currentColor;
+  d: path("M9 18.75C8.58579 18.75 8.25 18.4142 8.25 18V16C8.25 15.5858 8.58579 15.25 9 15.25C9.41421 15.25 9.75 15.5858 9.75 16V18C9.75 18.4142 9.41421 18.75 9 18.75Z");
+}
+
+.mbu81kbfo {
+  fill: currentColor;
+  d: path("M9 8.75C8.58579 8.75 8.25 8.41421 8.25 8V6C8.25 5.58579 8.58579 5.25 9 5.25C9.41421 5.25 9.75 5.58579 9.75 6V8C9.75 8.41421 9.41421 8.75 9 8.75Z");
+}
+
+.neqagcbsd {
+  fill: currentColor;
+  d: path("M12.75 7C12.75 6.58579 13.0858 6.25 13.5 6.25H18C18.4142 6.25 18.75 6.58579 18.75 7C18.75 7.41421 18.4142 7.75 18 7.75H13.5C13.0858 7.75 12.75 7.41421 12.75 7Z");
+}
+
+.ow856lbaj {
+  fill: currentColor;
+  d: path("M6 18.75C5.58579 18.75 5.25 18.4142 5.25 18V16C5.25 15.5858 5.58579 15.25 6 15.25C6.41421 15.25 6.75 15.5858 6.75 16V18C6.75 18.4142 6.41421 18.75 6 18.75Z");
+}
+
+.xtpeb-edw {
+  fill: currentColor;
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.ybuibgbim {
+  d: path("M6 3H18C19.8856 3 20.8284 3 21.4142 3.58579C22 4.17157 22 5.11438 22 7C22 8.88562 22 9.82843 21.4142 10.4142C20.8284 11 19.8856 11 18 11H6C4.11438 11 3.17157 11 2.58579 10.4142C2 9.82843 2 8.88562 2 7C2 5.11438 2 4.17157 2.58579 3.58579C3.17157 3 4.11438 3 6 3Z");
+}
+
+.zawk6smbg {
+  d: path("M6 13H18C19.8856 13 20.8284 13 21.4142 13.5858C22 14.1716 22 15.1144 22 17C22 18.8856 22 19.8284 21.4142 20.4142C20.8284 21 19.8856 21 18 21H6C4.11438 21 3.17157 21 2.58579 20.4142C2 19.8284 2 18.8856 2 17C2 15.1144 2 14.1716 2.58579 13.5858C3.17157 13 4.11438 13 6 13Z");
+}
+
+</style>

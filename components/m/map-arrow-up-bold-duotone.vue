@@ -1,7 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/f/fevon8ayl.css';
-import '../../css/z/z9t-ptwsn.css';
 
 const props = defineProps(["width","height"]);
 
@@ -9,3 +7,16 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="fevon8ayl"/><path class="z9t-ptwsn"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:map-arrow-up-bold-duotone" /></template>
+<style>
+.fevon8ayl {
+  fill: currentColor;
+  d: path("M8.03789 9.8573C7.78315 9.72993 7.47363 9.84076 7.35763 10.1009L3.16496 19.5026C2.49789 20.9984 3.97914 22.55 5.36689 21.809L11.2706 18.657C11.7298 18.4118 12.2702 18.4118 12.7294 18.657L18.6331 21.809C20.0209 22.55 21.5021 20.9984 20.835 19.5026L19.2634 15.9782C19.0748 15.5554 18.7453 15.211 18.3312 15.004L8.03789 9.8573Z");
+}
+
+.z9t-ptwsn {
+  fill: currentColor;
+  d: path("M8.6095 8.46678C8.37019 8.34713 8.26749 8.06029 8.37646 7.81593L10.5271 2.99336C11.1174 1.66961 12.8818 1.66961 13.4722 2.99336L17.4401 11.8911C17.6313 12.3198 17.1797 12.7519 16.7598 12.542L8.6095 8.46678Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+</style>

@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/s/shu3xdl9q.css';
-import '../../css/p/pt0bne2qz.css';
-import '../../css/h/h18jbxq3b.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,26 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><circle class="shu3xdl9q"/><path class="pt0bne2qz"/><path class="h18jbxq3b"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:ruble-linear" /></template>
+<style>
+.h18jbxq3b {
+  d: path("M10 12V8.2C10 8.0142 10 7.9213 10.0123 7.84357C10.0801 7.41567 10.4157 7.08008 10.8436 7.01231C10.9213 7 11.0142 7 11.2 7H13.5C14.8807 7 16 8.11929 16 9.5C16 10.8807 14.8807 12 13.5 12H10ZM10 12V17M10 12H9");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.pt0bne2qz {
+  d: path("M9 14H12");
+}
+
+.shu3xdl9q {
+  cx: 12px;
+  cy: 12px;
+  r: 10px;
+}
+
+</style>

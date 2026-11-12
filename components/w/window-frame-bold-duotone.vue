@@ -1,11 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/h/hao-y3_km.css';
-import '../../css/s/siiu_ybwm.css';
-import '../../css/p/ptrg_gs-t.css';
-import '../../css/i/imlf68b1a.css';
-import '../../css/w/wi89-ibup.css';
-import '../../css/f/frr9dj5ie.css';
 
 const props = defineProps(["width","height"]);
 
@@ -13,3 +7,37 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="hao-y3_km"/><path class="siiu_ybwm"/><path class="ptrg_gs-t"/><path class="imlf68b1a"/><path class="wi89-ibup"/><path class="frr9dj5ie"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:window-frame-bold-duotone" /></template>
+<style>
+.frr9dj5ie {
+  fill: currentColor;
+  d: path("M12 5C12.5523 5 13 5.44772 13 6C13 6.55228 12.5523 7 12 7C11.4477 7 11 6.55228 11 6C11 5.44772 11.4477 5 12 5Z");
+}
+
+.hao-y3_km {
+  fill: currentColor;
+  d: path("M2.02639 9.5V8.75C2.10074 6.11064 2.38461 4.5451 3.46486 3.46484C4.92933 2.00041 7.28601 2 12 2C16.714 2 19.0707 2.00038 20.5352 3.46484C21.6154 4.5451 21.8993 6.11066 21.9737 8.75L22 9.5H9.00002V22L8.25002 21.9561C5.90966 21.8589 4.47508 21.5454 3.46486 20.5352C2.00041 19.0707 2.00002 16.714 2.00002 12C2.00002 11.3766 1.99956 10.7944 2.00295 10.25L2.02639 9.5Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.imlf68b1a {
+  fill: currentColor;
+  d: path("M6 5C6.55228 5 7 5.44772 7 6C7 6.55228 6.55228 7 6 7C5.44772 7 5 6.55228 5 6C5 5.44772 5.44772 5 6 5Z");
+}
+
+.ptrg_gs-t {
+  fill: currentColor;
+  d: path("M21.9971 10.25C22.0005 10.7944 22 11.3766 22 12C22 16.714 21.9996 19.0707 20.5352 20.5352C19.0707 21.9996 16.714 22 12 22C11.1815 22 9.68405 21.9999 9 21.9922V9.5H22L21.9971 10.25Z");
+}
+
+.siiu_ybwm {
+  fill: currentColor;
+  d: path("M2 12C2 16.714 2 19.0711 3.46447 20.5355C4.47468 21.5458 5.90962 21.8591 8.25 21.9563L9 22V10.25V9.5H2.02645L2.00339 10.25C2 10.7944 2 11.3766 2 12Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.wi89-ibup {
+  fill: currentColor;
+  d: path("M9 5C9.55228 5 10 5.44772 10 6C10 6.55228 9.55228 7 9 7C8.44772 7 8 6.55228 8 6C8 5.44772 8.44772 5 9 5Z");
+}
+
+</style>

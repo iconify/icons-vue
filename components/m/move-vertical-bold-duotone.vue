@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/g/gzprmcg0c.css';
-import '../../css/o/otqm0acos.css';
-import '../../css/o/oaa-h-w6m.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,21 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="gzprmcg0c"/><path class="otqm0acos"/><path class="oaa-h-w6m"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:move-vertical-bold-duotone" /></template>
+<style>
+.gzprmcg0c {
+  fill: currentColor;
+  d: path("M12.7501 22.1427C12.7499 22.5567 12.4141 22.8927 12.0001 22.8927C11.5861 22.8927 11.2504 22.5567 11.2501 22.1427L11.2501 1.85852C11.2501 1.44431 11.5859 1.10754 12.0001 1.10754C12.4143 1.10755 12.7501 1.44431 12.7501 1.85852L12.7501 22.1427Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.oaa-h-w6m {
+  fill: currentColor;
+  d: path("M16.6719 17.4708C16.9646 17.7637 16.9647 18.2385 16.6719 18.5314L12.5303 22.673C12.2374 22.9655 11.7625 22.9656 11.4697 22.673L7.32814 18.5314C7.03535 18.2386 7.03558 17.7637 7.32814 17.4708C7.62103 17.178 8.0958 17.1779 8.38868 17.4708L12 21.0822L15.6113 17.4708C15.9042 17.1779 16.379 17.1779 16.6719 17.4708Z");
+}
+
+.otqm0acos {
+  fill: currentColor;
+  d: path("M16.6719 5.46985C16.9646 5.76275 16.9647 6.23755 16.6719 6.5304C16.379 6.8229 15.9041 6.82302 15.6113 6.5304L12 2.91907L8.38868 6.5304C8.09582 6.8229 7.62093 6.82301 7.32814 6.5304C7.03536 6.23761 7.03558 5.76277 7.32814 5.46985L11.4697 1.32825C11.6103 1.18764 11.8012 1.10759 12 1.10754C12.1989 1.10755 12.3896 1.1876 12.5303 1.32825L16.6719 5.46985Z");
+}
+
+</style>

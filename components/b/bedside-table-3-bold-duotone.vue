@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/j/je1sviibk.css';
-import '../../css/l/lj99_bbii.css';
-import '../../css/e/e4t4l5b9d.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,22 @@ const viewBox = {"width":24,"height":24};
 const content = `<path clip-rule="evenodd" class="je1sviibk"/><path class="lj99_bbii"/><path class="e4t4l5b9d"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:bedside-table-3-bold-duotone" /></template>
+<style>
+.e4t4l5b9d {
+  fill: currentColor;
+  d: path("M3.17157 3.17157C2 4.34315 2 6.22876 2 10V11H22V10C22 6.22876 22 4.34315 20.8284 3.17157C19.6569 2 17.7712 2 14 2H10C6.22876 2 4.34315 2 3.17157 3.17157Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.je1sviibk {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M22 12C22 15.7712 21.9997 17.6566 20.8281 18.8281C20.5237 19.1325 20.1714 19.3586 19.75 19.5254V22C19.75 22.4142 19.4142 22.75 19 22.75C18.5858 22.75 18.25 22.4142 18.25 22V19.8711C17.1801 19.9998 15.8064 20 14 20H10C8.19364 20 6.81989 19.9998 5.75 19.8711V22C5.75 22.4142 5.41421 22.75 5 22.75C4.58579 22.75 4.25 22.4142 4.25 22V19.5254C3.82861 19.3586 3.47629 19.1325 3.17188 18.8281C2.0003 17.6566 2 15.7712 2 12V11H22V12ZM9 14.75C8.58579 14.75 8.25 15.0858 8.25 15.5C8.25 15.9142 8.58579 16.25 9 16.25H15C15.4142 16.25 15.75 15.9142 15.75 15.5C15.75 15.0858 15.4142 14.75 15 14.75H9Z");
+}
+
+.lj99_bbii {
+  fill: currentColor;
+  d: path("M15 5.75C15.4142 5.75 15.75 6.08579 15.75 6.5C15.75 6.91421 15.4142 7.25 15 7.25H9C8.58579 7.25 8.25 6.91421 8.25 6.5C8.25 6.08579 8.58579 5.75 9 5.75H15Z");
+}
+
+</style>

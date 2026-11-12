@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/g/gpmwkf-7z.css';
-import '../../css/f/fl2kpnyol.css';
-import '../../css/w/wk6b4ib4t.css';
-import '../../css/u/u28u1dcvs.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,26 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="gpmwkf-7z"/><path class="fl2kpnyol"/><path class="wk6b4ib4t"/><path class="u28u1dcvs"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:plate-bold-duotone" /></template>
+<style>
+.fl2kpnyol {
+  fill: currentColor;
+  d: path("M13.5 13.25C13.9142 13.25 14.25 13.5858 14.25 14C14.25 14.4142 13.9142 14.75 13.5 14.75H8C7.58579 14.75 7.25 14.4142 7.25 14C7.25 13.5858 7.58579 13.25 8 13.25H13.5Z");
+}
+
+.gpmwkf-7z {
+  fill: currentColor;
+  d: path("M1 12C1 8.25027 1 6.3754 1.95491 5.06107C2.26331 4.6366 2.6366 4.26331 3.06107 3.95491C4.3754 3 6.25027 3 10 3H14C17.7497 3 19.6246 3 20.9389 3.95491C21.3634 4.26331 21.7367 4.6366 22.0451 5.06107C23 6.3754 23 8.25027 23 12C23 15.7497 23 17.6246 22.0451 18.9389C21.7367 19.3634 21.3634 19.7367 20.9389 20.0451C19.6246 21 17.7497 21 14 21H10C6.25027 21 4.3754 21 3.06107 20.0451C2.6366 19.7367 2.26331 19.3634 1.95491 18.9389C1 17.6246 1 15.7497 1 12Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.u28u1dcvs {
+  fill: currentColor;
+  d: path("M12 2.25C12.4142 2.25 12.75 2.58579 12.75 3V5C12.75 5.41421 12.4142 5.75 12 5.75C11.5858 5.75 11.25 5.41421 11.25 5V3C11.25 2.58579 11.5858 2.25 12 2.25Z");
+}
+
+.wk6b4ib4t {
+  fill: currentColor;
+  d: path("M16 9.75C16.4142 9.75 16.75 10.0858 16.75 10.5C16.75 10.9142 16.4142 11.25 16 11.25H8C7.58579 11.25 7.25 10.9142 7.25 10.5C7.25 10.0858 7.58579 9.75 8 9.75H16Z");
+}
+
+</style>

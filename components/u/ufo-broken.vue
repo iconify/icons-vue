@@ -1,13 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/t/t_783rggs.css';
-import '../../css/n/n30k0z4xd.css';
-import '../../css/i/iyj9s7b1n.css';
-import '../../css/u/u740ad0lr.css';
-import '../../css/c/ca-2tccjd.css';
-import '../../css/a/a56o0f2xp.css';
-import '../../css/e/ei2neybzk.css';
 
 const props = defineProps(["width","height"]);
 
@@ -15,3 +7,43 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="t_783rggs"/><path class="n30k0z4xd"/><path class="iyj9s7b1n"/><path class="u740ad0lr"/><path class="ca-2tccjd"/><path class="a56o0f2xp"/><path class="ei2neybzk"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:ufo-broken" /></template>
+<style>
+.a56o0f2xp {
+  stroke-linejoin: round;
+  d: path("M11.9877 13H11.9878");
+}
+
+.ca-2tccjd {
+  stroke-linejoin: round;
+  d: path("M16.9999 12.0059H17");
+}
+
+.ei2neybzk {
+  stroke-linejoin: round;
+  d: path("M6.98816 12.001H6.98826");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.iyj9s7b1n {
+  d: path("M5.50036 15.5L4.5 17.5");
+}
+
+.n30k0z4xd {
+  d: path("M12 16V19");
+}
+
+.t_783rggs {
+  d: path("M2.73145 10C3.60699 9.25047 5.00469 8.62664 6.72703 8.21094L6.75574 8.2068M2.73145 13.6524C4.35491 15.0422 7.77368 15.9999 11.7285 15.9999C17.253 15.9999 21.7314 14.1313 21.7314 11.8262C21.7314 10.6587 20.5826 9.60321 18.7308 8.84573C18.1323 8.6009 17.4603 8.38721 16.73 8.21094L16.7012 8.20247M11.7287 10C8.53794 10 7.34123 9.4684 6.92702 9.18039C6.78146 9.07918 6.72725 8.90601 6.72725 8.72876C6.72725 8.55235 6.73691 8.3782 6.75574 8.2068M14.2295 9.86075C15.608 9.68323 16.249 9.37597 16.5301 9.18061C16.6757 9.07943 16.7302 8.90601 16.7302 8.72876C16.7302 8.55087 16.7204 8.37526 16.7012 8.20247M6.75574 8.2068C7.0156 5.84078 9.02147 4 11.4574 4H12C14.4345 4 16.4394 5.83854 16.7012 8.20247");
+}
+
+.u740ad0lr {
+  d: path("M18.4996 15.5L19.5 17.5");
+}
+
+</style>

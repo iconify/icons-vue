@@ -1,7 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/q/q7lymocvt.css';
-import '../../css/g/gx3w35u0s.css';
 
 const props = defineProps(["width","height"]);
 
@@ -9,3 +7,15 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="q7lymocvt"/><path class="gx3w35u0s"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:chevrons-up-down-bold" /></template>
+<style>
+.gx3w35u0s {
+  fill: currentColor;
+  d: path("M11.4697 2.46967C11.7626 2.17678 12.2373 2.17678 12.5302 2.46967L18.5302 8.46967C18.823 8.76257 18.8231 9.23736 18.5302 9.53022C18.2374 9.82307 17.7626 9.823 17.4697 9.53022L11.9999 4.06049L6.53022 9.53022C6.23736 9.82307 5.76257 9.823 5.46967 9.53022C5.17678 9.23732 5.17678 8.76256 5.46967 8.46967L11.4697 2.46967Z");
+}
+
+.q7lymocvt {
+  fill: currentColor;
+  d: path("M17.4697 14.4697C17.7626 14.1768 18.2373 14.1768 18.5302 14.4697C18.823 14.7626 18.8231 15.2374 18.5302 15.5302L12.5302 21.5302C12.2374 21.8231 11.7626 21.823 11.4697 21.5302L5.46967 15.5302C5.17678 15.2373 5.17678 14.7626 5.46967 14.4697C5.76256 14.1768 6.23732 14.1768 6.53022 14.4697L11.9999 19.9394L17.4697 14.4697Z");
+}
+
+</style>

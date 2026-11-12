@@ -1,13 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/w/w7zo2z8xz.css';
-import '../../css/m/m-6qwhchs.css';
-import '../../css/c/c8yk-ww4d.css';
-import '../../css/e/e_gtrlm_s.css';
-import '../../css/x/xs9hssbnm.css';
-import '../../css/u/u3grz3nvt.css';
-import '../../css/c/c8uqqubcr.css';
 
 const props = defineProps(["width","height"]);
 
@@ -15,3 +7,43 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="w7zo2z8xz"/><path class="m-6qwhchs"/><path class="c8yk-ww4d"/><path class="e_gtrlm_s"/><path class="xs9hssbnm"/><path class="u3grz3nvt"/><path class="c8uqqubcr"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:flashlight-on-line-duotone" /></template>
+<style>
+.c8uqqubcr {
+  d: path("M12 19V21");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.c8yk-ww4d {
+  d: path("M4.5 11H19.5");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.e_gtrlm_s {
+  d: path("M12 5V2");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.m-6qwhchs {
+  d: path("M15 16H9");
+}
+
+.u3grz3nvt {
+  d: path("M16 5L18 3");
+}
+
+.w7zo2z8xz {
+  d: path("M9 22V17.6569C9 16.8394 9 16.4306 8.84776 16.0631C8.69552 15.6955 8.40649 15.4065 7.82843 14.8284L4.58579 11.5858C4.29676 11.2968 4.15224 11.1522 4.07612 10.9685C4 10.7847 4 10.5803 4 10.1716V10C4 9.05719 4 8.58579 4.29289 8.29289C4.58579 8 5.05719 8 6 8H18C18.9428 8 19.4142 8 19.7071 8.29289C20 8.58579 20 9.05719 20 10V10.1716C20 10.5803 20 10.7847 19.9239 10.9685C19.8478 11.1522 19.7032 11.2968 19.4142 11.5858L16.1716 14.8284C15.5935 15.4065 15.3045 15.6955 15.1522 16.0631C15 16.4306 15 16.8394 15 17.6569V22");
+}
+
+.xs9hssbnm {
+  d: path("M8 5L6 3");
+}
+
+</style>

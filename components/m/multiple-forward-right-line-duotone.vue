@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/o/orfbe0biz.css';
-import '../../css/l/l1rxd7boq.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,22 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="orfbe0biz"/><path class="l1rxd7boq"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:multiple-forward-right-line-duotone" /></template>
+<style>
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.l1rxd7boq {
+  d: path("M15.5381 4.5L20.7543 9.34362C21.5484 10.081 21.9996 11.1158 21.9996 12.1994C21.9996 13.3418 21.4984 14.4266 20.6285 15.1671L15.5381 19.5");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.orfbe0biz {
+  stroke-linejoin: round;
+  d: path("M16.6367 9.01041L12.6644 5.47949C11.9484 4.84303 11.5903 4.5248 11.2952 4.65735C11 4.78991 11 5.2689 11 6.2269V8.57148C7.33333 8.57148 2 10.8572 2 20.0001C3.5 17.1429 7.4 15.4286 11 15.4286V17.7732C11 18.7312 11 19.2102 11.2952 19.3427C11.5903 19.4753 11.9484 19.1571 12.6644 18.5206L16.6367 14.9897C18.2053 13.5954 18.9896 12.8982 18.9896 12.0001C18.9896 11.1019 18.2053 10.4047 16.6367 9.01041Z");
+}
+
+</style>

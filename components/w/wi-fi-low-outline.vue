@@ -1,7 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/j/jvlkclb-m.css';
-import '../../css/q/qbcnl7b4u.css';
 
 const props = defineProps(["width","height"]);
 
@@ -9,3 +7,15 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="jvlkclb-m"/><path class="qbcnl7b4u"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:wi-fi-low-outline" /></template>
+<style>
+.jvlkclb-m {
+  fill: currentColor;
+  d: path("M12.0183 18.7142C12.4323 18.7145 12.7683 19.0502 12.7683 19.4642C12.7683 19.8783 12.4323 20.214 12.0183 20.2142C11.6041 20.2142 11.2683 19.8785 11.2683 19.4642C11.2683 19.05 11.6041 18.7142 12.0183 18.7142Z");
+}
+
+.qbcnl7b4u {
+  fill: currentColor;
+  d: path("M8.11788 15.3832C10.2557 13.0761 13.7468 13.076 15.8845 15.3832C16.1657 15.6869 16.1477 16.1612 15.8444 16.4428C15.5407 16.7242 15.0654 16.7064 14.7839 16.4027C13.2398 14.7362 10.7616 14.7362 9.21749 16.4027C8.93602 16.7063 8.46172 16.724 8.15792 16.4428C7.8543 16.1612 7.83645 15.687 8.11788 15.3832Z");
+}
+
+</style>

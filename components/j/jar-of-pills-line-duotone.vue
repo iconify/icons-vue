@@ -1,11 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/f/f3p-g4m6q.css';
-import '../../css/q/qj0qu-5ec.css';
-import '../../css/f/f-d2l1b3s.css';
-import '../../css/u/untnup1qs.css';
-import '../../css/h/hpzuy57gm.css';
 
 const props = defineProps(["width","height"]);
 
@@ -13,3 +7,34 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="f3p-g4m6q"/><path class="qj0qu-5ec"/><path class="f-d2l1b3s"/><path class="untnup1qs"/><path class="hpzuy57gm"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:jar-of-pills-line-duotone" /></template>
+<style>
+.f-d2l1b3s {
+  d: path("M4.5 10H19.5");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.f3p-g4m6q {
+  d: path("M7.5 5H16.5C16.9659 5 17.1989 5 17.3827 4.92388C17.6277 4.82239 17.8224 4.62771 17.9239 4.38268C18 4.19891 18 3.96594 18 3.5C18 3.03406 18 2.80109 17.9239 2.61732C17.8224 2.37229 17.6277 2.17761 17.3827 2.07612C17.1989 2 16.9659 2 16.5 2H7.5C7.03406 2 6.80109 2 6.61732 2.07612C6.37229 2.17761 6.17761 2.37229 6.07612 2.61732C6 2.80109 6 3.03406 6 3.5C6 3.96594 6 4.19891 6.07612 4.38268C6.17761 4.62771 6.37229 4.82239 6.61732 4.92388C6.80109 5 7.03406 5 7.5 5Z");
+}
+
+.hpzuy57gm {
+  d: path("M12 12V14M12 14V16M12 14H10M12 14L14 14");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.qj0qu-5ec {
+  d: path("M4.5 18H19.5");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.untnup1qs {
+  d: path("M7.90434 5.87652L5.50122 7.79902C4.55236 8.55811 4 9.70736 4 10.9225V17.5518C4 18.4875 4.32806 19.3937 4.92711 20.1125C5.29272 20.5513 5.47554 20.7706 5.67738 20.9548C6.27608 21.5011 7.02661 21.8526 7.82957 21.9628C8.10026 22 8.38582 22 8.95693 22H15.6417C16.837 22 17.9696 21.4655 18.7294 20.5428L19.0877 20.1078C19.6775 19.3916 20 18.4927 20 17.5649V10.9083C20 9.70126 19.455 8.55877 18.5168 7.79931L16.1595 5.89102C15.6146 5.44989 15.3421 5.22933 15.0182 5.11466C14.6943 5 14.3438 5 13.6427 5H10.4031C9.70834 5 9.36095 5 9.03955 5.11274C8.71814 5.22549 8.44688 5.4425 7.90434 5.87652Z");
+}
+
+</style>

@@ -1,7 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/y/ydoht-zhu.css';
-import '../../css/v/v3c_7qboy.css';
 
 const props = defineProps(["width","height"]);
 
@@ -9,3 +7,17 @@ const viewBox = {"width":24,"height":24};
 const content = `<path clip-rule="evenodd" class="ydoht-zhu"/><path class="v3c_7qboy"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:restart-bold-duotone" /></template>
+<style>
+.v3c_7qboy {
+  fill: currentColor;
+  d: path("M18.7212 4.20119C18.7212 3.89785 18.5384 3.62437 18.2582 3.50828C17.9779 3.3922 17.6553 3.45637 17.4408 3.67086L15.9314 5.18028L14.8012 6.3105L13.1982 7.9135C12.9837 8.128 12.9195 8.45059 13.0356 8.73085C13.1517 9.0111 13.4252 9.19383 13.7285 9.19383H17.9712C18.3854 9.19383 18.7212 8.85805 18.7212 8.44383V4.20119Z");
+}
+
+.ydoht-zhu {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M6.87348 7.87351C9.01606 5.73093 12.1674 5.20915 14.8007 6.31053L15.9309 5.18031C12.6515 3.53123 8.55119 4.07447 5.81282 6.81285C2.39573 10.2299 2.39573 15.7701 5.81282 19.1872C9.2299 22.6043 14.7701 22.6043 18.1872 19.1872C20.1746 17.1998 21.0057 14.4934 20.6819 11.9074C20.6304 11.4964 20.2555 11.2049 19.8445 11.2564C19.4335 11.3078 19.142 11.6827 19.1935 12.0937C19.4622 14.2401 18.7727 16.4803 17.1265 18.1266C14.2952 20.9579 9.70478 20.9579 6.87348 18.1266C4.04217 15.2953 4.04217 10.7048 6.87348 7.87351Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+</style>

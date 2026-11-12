@@ -1,13 +1,32 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/a/a2sl48bmy.css';
-import '../../css/o/ozst3gb1r.css';
-import '../../css/f/f9c6rlbtf.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ipq1z-bjh"><path class="a2sl48bmy"/><circle transform="rotate(-45 8.607 8.879)" class="ozst3gb1r"/><path class="f9c6rlbtf"/></g>`;
+const content = `<g class="ipq1z-bjh"><path class="a2sl48bmy"/><circle class="ozst3gb1r"/><path class="f9c6rlbtf"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:tag-linear" /></template>
+<style>
+.a2sl48bmy {
+  d: path("M2.85574 7.39057L2.57231 8.61875C2.08083 10.7485 1.83509 11.8134 2.12264 12.816C2.41018 13.8186 3.18295 14.5914 4.72848 16.1369L6.55812 17.9665C9.24711 20.6555 10.5916 22 12.2623 22C13.933 22 15.2775 20.6555 17.9665 17.9665C20.6555 15.2775 22 13.933 22 12.2623C22 10.5916 20.6555 9.24711 17.9665 6.55812L16.1369 4.72848C14.5914 3.18295 13.8186 2.41018 12.816 2.12264C11.8134 1.83509 10.7485 2.08083 8.61875 2.57231L7.39057 2.85574C5.59881 3.26922 4.70292 3.47597 4.08944 4.08944C3.47597 4.70292 3.26922 5.59881 2.85574 7.39057Z");
+}
+
+.f9c6rlbtf {
+  d: path("M11.5413 18.4998L18.5203 11.5205");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.ozst3gb1r {
+  cx: 8.607px;
+  cy: 8.879px;
+  r: 2px;
+}
+
+</style>

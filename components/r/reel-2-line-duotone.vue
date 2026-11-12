@@ -1,13 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/s/shu3xdl9q.css';
-import '../../css/z/zc6fw0k_a.css';
-import '../../css/j/j3-nj7urp.css';
-import '../../css/p/p8jx-kb8x.css';
-import '../../css/j/ja8v-rhtc.css';
-import '../../css/n/ne6lh4btq.css';
-import '../../css/z/zbfkny6yh.css';
 
 const props = defineProps(["width","height"]);
 
@@ -15,3 +7,48 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><circle class="shu3xdl9q"/><path class="zc6fw0k_a"/><path class="j3-nj7urp"/><path class="p8jx-kb8x"/><path class="ja8v-rhtc"/><path class="ne6lh4btq"/><path class="zbfkny6yh"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:reel-2-line-duotone" /></template>
+<style>
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.j3-nj7urp {
+  d: path("M12 9C13.6569 9 15 10.3431 15 12C15 13.6569 13.6569 15 12 15C10.3431 15 9 13.6569 9 12C9 10.3431 10.3431 9 12 9Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.ja8v-rhtc {
+  stroke-linejoin: round;
+  d: path("M18.5 12H18.5001");
+}
+
+.ne6lh4btq {
+  stroke-linejoin: round;
+  d: path("M12 18.5H12.0001");
+}
+
+.p8jx-kb8x {
+  stroke-linejoin: round;
+  d: path("M12 5.5H12.0001");
+}
+
+.shu3xdl9q {
+  cx: 12px;
+  cy: 12px;
+  r: 10px;
+}
+
+.zbfkny6yh {
+  stroke-linejoin: round;
+  d: path("M5.5 12H5.5001");
+}
+
+.zc6fw0k_a {
+  d: path("M12 22L22 22");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+</style>

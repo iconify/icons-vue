@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nq3ocyl1l.css';
-import '../../css/x/xtpeb-edw.css';
-import '../../css/h/hibe8qwor.css';
-import '../../css/f/f-wf32bmx.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,23 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="nq3ocyl1l"/><g class="xtpeb-edw"><path class="hibe8qwor"/><path class="f-wf32bmx"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:waterdrops-bold-duotone" /></template>
+<style>
+.f-wf32bmx {
+  d: path("M10.7383 3.23452C11.4322 2.50256 12.5678 2.50256 13.2617 3.23452C14.434 4.47139 15.9999 6.39335 16 7.83315C16 10.1343 14.2091 12.0001 12 12.0001C9.79086 12.0001 8 10.1343 8 7.83315C8.00013 6.39335 9.56603 4.47139 10.7383 3.23452Z");
+}
+
+.hibe8qwor {
+  d: path("M16.7383 13.2345C17.4322 12.5026 18.5678 12.5026 19.2617 13.2345C20.434 14.4714 21.9999 16.3934 22 17.8332C22 20.1343 20.2091 22.0001 18 22.0001C15.7909 22.0001 14 20.1343 14 17.8332C14.0001 16.3934 15.566 14.4714 16.7383 13.2345Z");
+}
+
+.nq3ocyl1l {
+  fill: currentColor;
+  d: path("M10 17.8333C10 20.1345 8.20914 22 6 22C3.79086 22 2 20.1345 2 17.8333C2 16.3935 3.56593 14.4718 4.73823 13.2349C5.43222 12.5026 6.56778 12.5026 7.26177 13.2349C8.43407 14.4718 10 16.3935 10 17.8333Z");
+}
+
+.xtpeb-edw {
+  fill: currentColor;
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+</style>

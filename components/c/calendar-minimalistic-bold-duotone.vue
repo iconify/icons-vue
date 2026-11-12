@@ -1,11 +1,22 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nd465jbnq.css';
-import '../../css/n/nxd-6qb4n.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="nd465jbnq"/><path class="nxd-6qb4n"/>`;
+const content = `<path class="nljc8nbdc"/><path class="r0p_zqv_y"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:calendar-minimalistic-bold-duotone" /></template>
+<style>
+.nljc8nbdc {
+  fill: currentColor;
+  d: path("M2 11.75C2 7.97876 2 6.09315 3.17157 4.92157C4.34315 3.75 6.22876 3.75 10 3.75H14C17.7712 3.75 19.6569 3.75 20.8284 4.92157C22 6.09315 22 7.97876 22 11.75V13.75C22 17.5212 22 19.4069 20.8284 20.5784C19.6569 21.75 17.7712 21.75 14 21.75H10C6.22876 21.75 4.34315 21.75 3.17157 20.5784C2 19.4069 2 17.5212 2 13.75V11.75Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.r0p_zqv_y {
+  fill: currentColor;
+  d: path("M17 2.25C17.4142 2.25 17.75 2.58579 17.75 3V3.83008C19.1894 3.94533 20.1349 4.22766 20.8291 4.92188C21.637 5.73003 21.8871 6.87801 21.9648 8.75H2.03516C2.11291 6.87777 2.36378 5.73004 3.17188 4.92188C3.86603 4.22772 4.81081 3.94535 6.25 3.83008V3C6.25 2.58579 6.58579 2.25 7 2.25C7.41421 2.25 7.75 2.58579 7.75 3V3.76465C8.41527 3.75174 9.16095 3.75 10 3.75H14C14.839 3.75 15.5848 3.75175 16.25 3.76465V3C16.25 2.58579 16.5858 2.25 17 2.25Z");
+}
+
+</style>

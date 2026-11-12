@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/b/b12nhxb9p.css';
-import '../../css/o/oockgugaw.css';
-import '../../css/a/axjtsp52f.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,24 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="b12nhxb9p"/><path class="oockgugaw"/><path class="axjtsp52f"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:slider-horizontal-broken" /></template>
+<style>
+.axjtsp52f {
+  d: path("M8 6C5.17157 6 3.75736 6 2.87868 6.87868C2 7.75736 2 9.17157 2 12C2 14.8284 2 16.2426 2.87868 17.1213C3.75736 18 5.17157 18 8 18L16 18C18.8284 18 20.2426 18 21.1213 17.1213C22 16.2426 22 14.8284 22 12C22 9.17157 22 7.75736 21.1213 6.87868C20.2426 6 18.8284 6 16 6L12 6");
+}
+
+.b12nhxb9p {
+  d: path("M19.5 6C19.5 4.59987 19.5 3.8998 19.2275 3.36502C18.9878 2.89462 18.6054 2.51217 18.135 2.27248C17.6002 2 16.9001 2 15.5 2H8.5C7.09987 2 6.3998 2 5.86502 2.27248C5.39462 2.51217 5.01217 2.89462 4.77248 3.36502C4.5 3.8998 4.5 4.59987 4.5 6");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.oockgugaw {
+  d: path("M19.5 18C19.5 19.4001 19.5 20.1002 19.2275 20.635C18.9878 21.1054 18.6054 21.4878 18.135 21.7275C17.6002 22 16.9001 22 15.5 22L8.5 22C7.09987 22 6.3998 22 5.86502 21.7275C5.39462 21.4878 5.01217 21.1054 4.77248 20.635C4.5 20.1002 4.5 19.4001 4.5 18");
+}
+
+</style>

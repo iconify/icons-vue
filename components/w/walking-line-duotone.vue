@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/k/k80kg2mvy.css';
-import '../../css/g/gc0yl5bvu.css';
-import '../../css/p/p397vciec.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,29 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><circle class="k80kg2mvy"/><path class="gc0yl5bvu"/><path class="p397vciec"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:walking-line-duotone" /></template>
+<style>
+.gc0yl5bvu {
+  stroke-linejoin: round;
+  d: path("M10.5 10L10.3413 11.5869C10.1722 13.2776 10.0877 14.123 10.2784 14.9346C10.4691 15.7462 10.9212 16.4655 11.8255 17.904L11.8255 17.904L14.4004 22M10.5 10H10.2087C8.67043 10 7.9013 10 7.35289 10.4399C6.80448 10.8798 6.63763 11.6306 6.30394 13.1323L6 14.5M10.5 10H12.2698C12.43 10 12.5101 10 12.5815 10.0051C13.3916 10.0632 14.0862 10.6055 14.3391 11.3774C14.3614 11.4455 14.3808 11.5231 14.4196 11.6785C14.4717 11.8869 14.4978 11.9911 14.5269 12.0752C14.8633 13.0449 15.8792 13.6025 16.8779 13.3657C16.9645 13.3452 17.0664 13.3112 17.2702 13.2433L18 13");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.k80kg2mvy {
+  cx: 11.5px;
+  cy: 4.5px;
+  r: 2.5px;
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.p397vciec {
+  d: path("M9 17.5L6 22");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+</style>

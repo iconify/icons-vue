@@ -1,15 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/t/t_-ts0p0p.css';
-import '../../css/g/gqlrnr0hz.css';
-import '../../css/q/q4fzwqbkf.css';
-import '../../css/n/n30k0z4xd.css';
-import '../../css/t/t7j-yfbxu.css';
-import '../../css/e/ez__-jb1z.css';
-import '../../css/f/f8xsbma3z.css';
-import '../../css/t/tj46qnbna.css';
-import '../../css/f/f52sbkbuz.css';
 
 const props = defineProps(["width","height"]);
 
@@ -17,3 +7,51 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="t_-ts0p0p"/><circle class="gqlrnr0hz"/><path class="q4fzwqbkf"/><path class="n30k0z4xd"/><path class="t7j-yfbxu"/><path class="ez__-jb1z"/><path class="f8xsbma3z"/><path class="tj46qnbna"/><path class="f52sbkbuz"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:cup-music-broken" /></template>
+<style>
+.ez__-jb1z {
+  d: path("M6 22H18");
+}
+
+.f52sbkbuz {
+  d: path("M6.36008 12.4223L3.54305 10.8572C2.79063 10.4392 2.41442 10.2302 2.20723 9.87809C2.00004 9.52598 2.00003 9.09561 2 8.23487L2 8.16234V8.16234C1.99997 7.11873 1.99996 6.59692 2.2831 6.20408C2.56623 5.81124 3.06126 5.64623 4.05132 5.31621L4.99994 5");
+}
+
+.f8xsbma3z {
+  d: path("M17 2.45597C17.7415 2.59747 18.1811 2.75299 18.5609 3.22083C19.0367 3.80673 19.0115 4.43998 18.9612 5.70647C18.7805 10.2595 17.7601 16 12.0002 16C6.24021 16 5.21983 10.2595 5.03907 5.70647C4.98879 4.43998 4.96365 3.80673 5.43937 3.22083C5.91508 2.63494 6.48445 2.53887 7.62318 2.34674C8.74724 2.15709 10.2166 2 12.0002 2C12.7184 2 13.3857 2.02548 14 2.06829");
+}
+
+.gqlrnr0hz {
+  cx: 11.5px;
+  cy: 10.5px;
+  r: 1.5px;
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.n30k0z4xd {
+  d: path("M12 16V19");
+}
+
+.q4fzwqbkf {
+  d: path("M15 7C13.8954 7 13 6.10457 13 5");
+}
+
+.t_-ts0p0p {
+  d: path("M13 10.5V7.5V5");
+}
+
+.t7j-yfbxu {
+  stroke-linejoin: round;
+  d: path("M8.5 22H15.5L15.1608 20.3039C15.0673 19.8365 14.6569 19.5 14.1802 19.5H9.8198C9.34312 19.5 8.93271 19.8365 8.83922 20.3039L8.5 22Z");
+}
+
+.tj46qnbna {
+  d: path("M17.6401 12.422L20.4567 10.8572C21.2091 10.4392 21.5853 10.2302 21.7925 9.87809C21.9997 9.52598 21.9997 9.09561 21.9997 8.23487L21.9997 8.16234C21.9998 7.11873 21.9998 6.59692 21.7166 6.20408C21.4335 5.81124 20.9385 5.64623 19.9484 5.31621L18.9998 5");
+}
+
+</style>

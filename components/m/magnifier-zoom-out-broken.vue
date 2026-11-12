@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/c/cq5xp9n1p.css';
-import '../../css/x/x09loybdy.css';
-import '../../css/c/c5cjgzbpf.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,24 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="cq5xp9n1p"/><path class="x09loybdy"/><path class="c5cjgzbpf"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:magnifier-zoom-out-broken" /></template>
+<style>
+.c5cjgzbpf {
+  d: path("M18.2168 18.2178L21.9994 22.0004");
+}
+
+.cq5xp9n1p {
+  d: path("M9 11.5H11.5H14");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.x09loybdy {
+  d: path("M6.75 3.27093C8.14732 2.46262 9.76964 2 11.5 2C16.7467 2 21 6.25329 21 11.5C21 16.7467 16.7467 21 11.5 21C6.25329 21 2 16.7467 2 11.5C2 9.76964 2.46262 8.14732 3.27093 6.75");
+}
+
+</style>

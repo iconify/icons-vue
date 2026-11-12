@@ -1,11 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/l/lgksoiblo.css';
-import '../../css/p/p397vciec.css';
-import '../../css/e/e-v0vdm4w.css';
-import '../../css/c/cu7xy9b9y.css';
-import '../../css/t/t1nlz8bqy.css';
 
 const props = defineProps(["width","height"]);
 
@@ -13,3 +7,37 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><circle class="lgksoiblo"/><path class="p397vciec"/><path class="e-v0vdm4w"/><path class="cu7xy9b9y"/><path class="t1nlz8bqy"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:hiking-line-duotone" /></template>
+<style>
+.cu7xy9b9y {
+  d: path("M19 22V8");
+}
+
+.e-v0vdm4w {
+  stroke-linejoin: round;
+  d: path("M18.9993 10.5L17.9149 11.4036C17.3131 11.9052 17.0122 12.1559 16.6851 12.2753C16.2422 12.437 15.7564 12.437 15.3134 12.2753C14.9864 12.1559 14.6855 11.9052 14.0836 11.4036L14.0023 11.3358C13.7733 11.145 13.6588 11.0496 13.4806 10.9256C13.1658 10.7066 12.6045 10.4224 12.2416 10.2984C12.0362 10.2282 12.1308 10.2516 12.0929 10.2422C11.6799 10.14 11.4733 10.0889 11.308 10.1033C11.0018 10.1298 10.6125 10.4043 10.4848 10.6839C10.4158 10.8349 10.4021 10.972 10.3747 11.2462L10.2125 12.8679C10.1257 13.7358 10.0823 14.1698 10.2041 14.5595C10.2652 14.7548 10.3559 14.9396 10.4731 15.1074C10.7068 15.4422 11.0766 15.6734 11.8163 16.1357C12.714 16.6967 13.1629 16.9772 13.4804 17.3718C13.6402 17.5703 13.774 17.7884 13.8787 18.0207C14.0867 18.4825 14.1336 19.0097 14.2274 20.0641L14.3997 22");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.lgksoiblo {
+  cx: 11.5px;
+  cy: 4.5px;
+  r: 2.5px;
+}
+
+.p397vciec {
+  d: path("M9 17.5L6 22");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.t1nlz8bqy {
+  d: path("M8 10L6.328 10.5573C5.53493 10.8217 5 11.5639 5 12.3998C5 12.7677 5.20781 13.1039 5.5368 13.2684L8 14.5");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+</style>

@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/c/ck-tkcbik.css';
-import '../../css/j/jerdz3n6w.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,21 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="ck-tkcbik"/><path class="jerdz3n6w"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:radar-line-duotone" /></template>
+<style>
+.ck-tkcbik {
+  d: path("M11.9996 12L5.00148 6.33594C4.57236 5.98862 3.93821 6.05231 3.6355 6.51399C3.06629 7.38212 2.62364 8.35437 2.34029 9.41185C0.910876 14.7465 4.0767 20.2299 9.41136 21.6593C14.746 23.0887 20.2294 19.9229 21.6588 14.5882C23.0882 9.25357 19.9224 3.7702 14.5877 2.34078C11.9552 1.63538 9.28636 2.04906 7.08641 3.29021");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.jerdz3n6w {
+  d: path("M12 11.9995L5.00195 6.33545");
+}
+
+</style>

@@ -1,14 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/l/lq7a-_8su.css';
-import '../../css/v/vq44mp76d.css';
-import '../../css/a/a0gtrrbuj.css';
-import '../../css/k/kq_hv7btj.css';
-import '../../css/b/bpn-7yb-y.css';
-import '../../css/u/uhmcihi5l.css';
-import '../../css/a/aef5y3ret.css';
-import '../../css/g/gqb61cbma.css';
 
 const props = defineProps(["width","height"]);
 
@@ -16,3 +7,44 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="lq7a-_8su"/><path class="vq44mp76d"/><path class="a0gtrrbuj"/><path class="kq_hv7btj"/><path class="bpn-7yb-y"/><path class="uhmcihi5l"/><path class="aef5y3ret"/><path class="gqb61cbma"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:signpost-2-linear" /></template>
+<style>
+.a0gtrrbuj {
+  d: path("M12 20V22");
+}
+
+.aef5y3ret {
+  d: path("M6.7035 3.5H17.4995C18.904 3.5 19.6062 3.5 20.1106 3.83706C20.329 3.98298 20.5165 4.17048 20.6624 4.38886C20.9995 4.89331 20.9995 5.59554 20.9995 7C20.9995 8.40446 20.9995 9.10669 20.6624 9.61114C20.5165 9.82952 20.329 10.017 20.1106 10.1629C19.6062 10.5 18.904 10.5 17.4995 10.5H6.7035C6.04593 10.5 5.71715 10.5 5.41544 10.4018C5.28233 10.3585 5.15414 10.3013 5.03298 10.2312C4.75833 10.0723 4.53866 9.8277 4.09933 9.33844C3.24863 8.39107 2.82327 7.91738 2.72087 7.36381C2.67638 7.12331 2.67638 6.87669 2.72087 6.63619C2.82327 6.08262 3.24862 5.60894 4.09933 4.66156C4.53866 4.1723 4.75833 3.92767 5.03298 3.76879C5.15414 3.6987 5.28233 3.64152 5.41544 3.5982C5.71715 3.5 6.04593 3.5 6.7035 3.5Z");
+}
+
+.bpn-7yb-y {
+  d: path("M9 7H15");
+}
+
+.gqb61cbma {
+  d: path("M17.296 12.5H6.5C5.09554 12.5 4.39331 12.5 3.88886 12.8371C3.67048 12.983 3.48298 13.1705 3.33706 13.3889C3 13.8933 3 14.5955 3 16C3 17.4045 3 18.1067 3.33706 18.6111C3.48298 18.8295 3.67048 19.017 3.88886 19.1629C4.39331 19.5 5.09554 19.5 6.5 19.5H17.296C17.9536 19.5 18.2824 19.5 18.5841 19.4018C18.7172 19.3585 18.8454 19.3013 18.9665 19.2312C19.2412 19.0723 19.4608 18.8277 19.9002 18.3384C20.7509 17.3911 21.1762 16.9174 21.2786 16.3638C21.3231 16.1233 21.3231 15.8767 21.2786 15.6362C21.1762 15.0826 20.7509 14.6089 19.9002 13.6616C19.4608 13.1723 19.2412 12.9277 18.9665 12.7688C18.8454 12.6987 18.7172 12.6415 18.5841 12.5982C18.2824 12.5 17.9536 12.5 17.296 12.5Z");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.kq_hv7btj {
+  d: path("M14 22H10");
+}
+
+.lq7a-_8su {
+  d: path("M12 2V3");
+}
+
+.uhmcihi5l {
+  d: path("M9 16L15 16");
+}
+
+.vq44mp76d {
+  d: path("M12 11V12");
+}
+
+</style>

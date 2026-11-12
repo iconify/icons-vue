@@ -1,15 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/u/u_4tr0b8x.css';
-import '../../css/s/slew70bje.css';
-import '../../css/v/vbh340hvr.css';
-import '../../css/x/xtpeb-edw.css';
-import '../../css/m/mwd8db17g.css';
-import '../../css/g/gpufsebbg.css';
-import '../../css/g/g35hp_odc.css';
-import '../../css/k/k2xvk1jdl.css';
-import '../../css/b/bitdb8u9p.css';
-import '../../css/e/evni7jj1t.css';
 
 const props = defineProps(["width","height"]);
 
@@ -17,3 +7,49 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="u_4tr0b8x"/><path class="slew70bje"/><path class="vbh340hvr"/><g class="xtpeb-edw"><path class="mwd8db17g"/><path class="gpufsebbg"/><path class="g35hp_odc"/><path class="k2xvk1jdl"/><path class="bitdb8u9p"/><path class="evni7jj1t"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:tuning-3-bold-duotone" /></template>
+<style>
+.bitdb8u9p {
+  d: path("M4.75 8.14538C4.51839 8.05163 4.26523 8 4 8C3.73477 8 3.48161 8.05163 3.25 8.14538V5C3.25 4.58579 3.58579 4.25 4 4.25C4.41421 4.25 4.75 4.58579 4.75 5V8.14538Z");
+}
+
+.evni7jj1t {
+  d: path("M4.75 11.8546C4.51839 11.9484 4.26523 12 4 12C3.73478 12 3.48161 11.9484 3.25 11.8546V19C3.25 19.4142 3.58579 19.75 4 19.75C4.41421 19.75 4.75 19.4142 4.75 19L4.75 11.8546Z");
+}
+
+.g35hp_odc {
+  d: path("M19.25 12.1454C19.4816 12.0516 19.7348 12 20 12C20.2652 12 20.5184 12.0516 20.75 12.1454V5C20.75 4.58579 20.4142 4.25 20 4.25C19.5858 4.25 19.25 4.58579 19.25 5V12.1454Z");
+}
+
+.gpufsebbg {
+  d: path("M11.25 13.8546C11.4816 13.9484 11.7348 14 12 14C12.2652 14 12.5184 13.9484 12.75 13.8546V19C12.75 19.4142 12.4142 19.75 12 19.75C11.5858 19.75 11.25 19.4142 11.25 19V13.8546Z");
+}
+
+.k2xvk1jdl {
+  d: path("M19.25 15.8546V19C19.25 19.4142 19.5858 19.75 20 19.75C20.4142 19.75 20.75 19.4142 20.75 19V15.8546C20.5184 15.9484 20.2652 16 20 16C19.7348 16 19.4816 15.9484 19.25 15.8546Z");
+}
+
+.mwd8db17g {
+  d: path("M12.75 10.1454C12.5184 10.0516 12.2652 10 12 10C11.7348 10 11.4816 10.0516 11.25 10.1454V5C11.25 4.58579 11.5858 4.25 12 4.25C12.4142 4.25 12.75 4.58579 12.75 5V10.1454Z");
+}
+
+.slew70bje {
+  fill: currentColor;
+  d: path("M10 12C10 10.8954 10.8954 10 12 10C13.1046 10 14 10.8954 14 12C14 13.1046 13.1046 14 12 14C10.8954 14 10 13.1046 10 12Z");
+}
+
+.u_4tr0b8x {
+  fill: currentColor;
+  d: path("M4 12C2.89543 12 2 11.1046 2 10C2 8.89543 2.89543 8 4 8C5.10457 8 6 8.89543 6 10C6 11.1046 5.10457 12 4 12Z");
+}
+
+.vbh340hvr {
+  fill: currentColor;
+  d: path("M18 14C18 12.8954 18.8954 12 20 12C21.1046 12 22 12.8954 22 14C22 15.1046 21.1046 16 20 16C18.8954 16 18 15.1046 18 14Z");
+}
+
+.xtpeb-edw {
+  fill: currentColor;
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+</style>

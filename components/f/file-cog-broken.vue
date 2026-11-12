@@ -1,10 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/e/e0cmz0boh.css';
-import '../../css/t/t4qaumccy.css';
-import '../../css/c/c9r2ktrzi.css';
-import '../../css/w/wze5myx6x.css';
 
 const props = defineProps(["width","height"]);
 
@@ -12,3 +7,31 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="e0cmz0boh"/><path class="t4qaumccy"/><path class="c9r2ktrzi"/><circle class="wze5myx6x"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:file-cog-broken" /></template>
+<style>
+.c9r2ktrzi {
+  d: path("M6 14.7417V15.0352C6 15.9029 6 16.3367 6.20111 16.694C6.40222 17.0513 6.76852 17.2682 7.50111 17.7021L7.74889 17.8488C8.48148 18.2826 8.84778 18.4996 9.25 18.4996C9.65222 18.4996 10.0185 18.2826 10.7511 17.8488L10.9989 17.7021C11.7315 17.2682 12.0978 17.0513 12.2989 16.694C12.5 16.3367 12.5 15.9029 12.5 15.0352V14.7417C12.5 13.874 12.5 13.4402 12.2989 13.0829C12.0978 12.7256 11.7315 12.5087 10.9989 12.0748L10.7511 11.9281C10.0185 11.4943 9.65222 11.2773 9.25 11.2773C8.84778 11.2773 8.48148 11.4943 7.74889 11.9281L7.50111 12.0748C6.76852 12.5087 6.40222 12.7256 6.20111 13.0829C6 13.4402 6 13.874 6 14.7417Z");
+}
+
+.e0cmz0boh {
+  d: path("M13 2.2627V5.0003C13 7.35732 13 8.53583 13.7322 9.26806C14.4645 10.0003 15.643 10.0003 18 10.0003H21.58");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.t4qaumccy {
+  stroke-linejoin: round;
+  d: path("M2 10V14C2 17.7712 2 19.6569 3.17157 20.8284C4.34315 22 6.22876 22 10 22H14C17.7712 22 19.6569 22 20.8284 20.8284C21.4816 20.1752 21.7706 19.3001 21.8985 18M22 14V13.5629C22 11.8083 22 10.931 21.654 10.1541C21.308 9.3772 20.6559 8.79032 19.3517 7.61654L15.3929 4.05365C14.2651 3.03857 13.7012 2.53104 13.0092 2.26552C12.3173 2 11.5548 2 10.0298 2C6.23869 2 4.34315 2 3.17157 3.17157C2.51839 3.82475 2.22937 4.69989 2.10149 6");
+}
+
+.wze5myx6x {
+  cx: 9.249px;
+  cy: 14.889px;
+  r: 1.083px;
+}
+
+</style>

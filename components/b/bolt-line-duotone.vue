@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/z/zul_37c3k.css';
-import '../../css/d/dwxx0cbvg.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,21 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="zul_37c3k"/><path class="dwxx0cbvg"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:bolt-line-duotone" /></template>
+<style>
+.dwxx0cbvg {
+  d: path("M13.9257 9.70557L13.9457 9.72481C14.3324 10.0885 14.9489 10.0885 16.1819 10.0885H16.1819C18.4008 10.0885 19.5103 10.0885 19.8852 10.7615C19.8914 10.7726 19.8974 10.7838 19.9033 10.7951C20.2573 11.4785 19.6149 12.3476 18.3301 14.0858L18.3301 14.0858L15.268 18.2288L15.268 18.2288C13.2886 20.9069 12.2989 22.2459 11.3755 21.9629C10.4522 21.68 10.4522 20.0376 10.4522 16.753L10.4523 16.4434C10.4523 15.2587 10.4523 14.6663 10.0737 14.2948L10.0537 14.2755");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.zul_37c3k {
+  d: path("M13.926 9.70541C13.5474 9.33386 13.5474 8.74151 13.5474 7.55682V7.24712V7.24711C13.5474 3.96249 13.5474 2.32018 12.6241 2.03721C11.7007 1.75425 10.711 3.09327 8.73167 5.77133L5.66953 9.91436L5.66952 9.91437C4.3848 11.6526 3.74244 12.5217 4.09639 13.205C4.10225 13.2164 4.10829 13.2276 4.1145 13.2387C4.48945 13.9117 5.59888 13.9117 7.81775 13.9117C9.05079 13.9117 9.6673 13.9117 10.054 14.2754");
+}
+
+</style>

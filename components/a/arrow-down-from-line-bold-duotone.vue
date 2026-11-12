@@ -1,7 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/t/t4_uu6bes.css';
-import '../../css/z/z2oj5v6-v.css';
 
 const props = defineProps(["width","height"]);
 
@@ -9,3 +7,16 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="t4_uu6bes"/><path class="z2oj5v6-v"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:arrow-down-from-line-bold-duotone" /></template>
+<style>
+.t4_uu6bes {
+  fill: currentColor;
+  d: path("M20 3.75C20.4142 3.75 20.75 3.41421 20.75 3C20.75 2.58579 20.4142 2.25 20 2.25L4 2.25C3.58579 2.25 3.25 2.58579 3.25 3C3.25 3.41421 3.58579 3.75 4 3.75L20 3.75Z");
+}
+
+.z2oj5v6-v {
+  fill: currentColor;
+  d: path("M12.75 8L12.75 19.0684L15.4463 16.1191C15.7257 15.8135 16.2001 15.792 16.5058 16.0713C16.8115 16.3507 16.833 16.8252 16.5537 17.1309L12.5537 21.5059C12.4116 21.6613 12.2105 21.75 12 21.75C11.7894 21.75 11.5883 21.6613 11.4463 21.5059L7.44626 17.1309C7.16697 16.8251 7.18849 16.3507 7.49412 16.0713C7.79983 15.792 8.27425 15.8135 8.55369 16.1191L11.25 19.0684L11.25 8C11.25 7.58579 11.5858 7.25 12 7.25C12.4142 7.25 12.75 7.58579 12.75 8Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+</style>

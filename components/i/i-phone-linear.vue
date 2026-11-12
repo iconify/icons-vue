@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/g/gy5n-26px.css';
-import '../../css/e/erekrcbav.css';
-import '../../css/t/thfd6zb1r.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,24 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="gy5n-26px"/><path class="erekrcbav"/><path class="thfd6zb1r"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:i-phone-linear" /></template>
+<style>
+.erekrcbav {
+  d: path("M15 19H9");
+}
+
+.gy5n-26px {
+  d: path("M12 22C8.22876 22 6.34315 22 5.17157 20.8284C4 19.6569 4 17.7712 4 14V10C4 6.22876 4 4.34315 5.17157 3.17157C6.34315 2 8.22876 2 12 2C15.7712 2 17.6569 2 18.8284 3.17157C20 4.34315 20 6.22876 20 10V14C20 17.7712 20 19.6569 18.8284 20.8284C17.6569 22 15.7712 22 12 22Z");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.thfd6zb1r {
+  d: path("M16.7481 2.37769L16.664 2.50385C15.908 3.63794 15.5299 4.205 14.9778 4.54811C14.868 4.61634 14.7539 4.6774 14.6362 4.73091C14.0444 5 13.3629 5 11.9999 5C10.6369 5 9.95539 5 9.36363 4.73091C9.24596 4.6774 9.13187 4.61634 9.02207 4.54811C8.46992 4.205 8.09189 3.63795 7.33582 2.50385L7.25171 2.37769");
+}
+
+</style>

@@ -1,10 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/n/nr28dlb2d.css';
-import '../../css/f/f6a82rrqn.css';
-import '../../css/b/b6enbdbml.css';
-import '../../css/q/qq_vvgblc.css';
 
 const props = defineProps(["width","height"]);
 
@@ -12,3 +7,28 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="nr28dlb2d"/><path class="f6a82rrqn"/><path class="b6enbdbml"/><path class="qq_vvgblc"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:mouse-circle-linear" /></template>
+<style>
+.b6enbdbml {
+  d: path("M12 10V6");
+}
+
+.f6a82rrqn {
+  d: path("M8.5 10H15.5");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.nr28dlb2d {
+  d: path("M8 10C8 7.79086 9.79086 6 12 6C14.2091 6 16 7.79086 16 10V14C16 16.2091 14.2091 18 12 18C9.79086 18 8 16.2091 8 14V10Z");
+}
+
+.qq_vvgblc {
+  d: path("M12 8.89182V3.85022C12 2.73646 11.0955 1.81254 10.0128 2.03267C5.44193 2.96194 2 7.03407 2 11.9168C2 17.4856 6.47715 22 12 22C17.5228 22 22 17.4856 22 11.9168C22 7.92565 19.7003 4.4761 16.3641 2.8419");
+}
+
+</style>

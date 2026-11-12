@@ -1,7 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/m/madko4bbz.css';
-import '../../css/f/fgkwccyip.css';
 
 const props = defineProps(["width","height"]);
 
@@ -9,3 +7,16 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="madko4bbz"/><path class="fgkwccyip"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:square-arrow-left-down-bold-duotone" /></template>
+<style>
+.fgkwccyip {
+  fill: currentColor;
+  d: path("M8.42126 14.8278C8.42126 15.242 8.75705 15.5778 9.17126 15.5778L13.4139 15.5778C13.8281 15.5778 14.1639 15.242 14.1639 14.8278C14.1639 14.4135 13.8281 14.0778 13.4139 14.0778H10.9819L15.3584 9.70123C15.6513 9.40834 15.6513 8.93346 15.3584 8.64057C15.0656 8.34768 14.5907 8.34768 14.2978 8.64057L9.92126 13.0171L9.92127 10.5851C9.92127 10.1709 9.58548 9.83511 9.17127 9.83511C8.75705 9.83511 8.42127 10.1709 8.42127 10.5851L8.42126 14.8278Z");
+}
+
+.madko4bbz {
+  fill: currentColor;
+  d: path("M3.46447 20.5355C4.92893 22 7.28595 22 12 22C16.714 22 19.0711 22 20.5355 20.5355C22 19.0711 22 16.714 22 12C22 7.28596 22 4.92893 20.5355 3.46447C19.0711 2 16.714 2 12 2C7.28595 2 4.92893 2 3.46447 3.46447C2 4.92893 2 7.28596 2 12C2 16.714 2 19.0711 3.46447 20.5355Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+</style>

@@ -1,15 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/h/h_tsn8bxt.css';
-import '../../css/t/tw30_ubet.css';
-import '../../css/y/yic1xvbbc.css';
-import '../../css/v/vrjh5yb5v.css';
-import '../../css/t/tw4z_pbpg.css';
-import '../../css/f/fikrekb4q.css';
-import '../../css/w/w3oeeubcb.css';
-import '../../css/h/hhi9k4bqd.css';
-import '../../css/s/s8xjouf5y.css';
 
 const props = defineProps(["width","height"]);
 
@@ -17,3 +7,50 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><circle class="h_tsn8bxt"/><path class="tw30_ubet"/><path class="yic1xvbbc"/><path class="vrjh5yb5v"/><path class="tw4z_pbpg"/><path class="fikrekb4q"/><path class="w3oeeubcb"/><path class="hhi9k4bqd"/><path class="s8xjouf5y"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:black-hole-broken" /></template>
+<style>
+.fikrekb4q {
+  d: path("M10.8516 13.5242C10.5814 13.254 10.383 12.9565 10.2495 12.6399M21.4582 7.16023C21.1926 6.89463 20.9187 6.6622 20.6384 6.46072M18.7065 5.55468C17.9991 5.37657 17.2795 5.34417 16.5726 5.42842M14.5096 6.00434C13.8506 6.29448 13.2296 6.67284 12.672 7.11001M11.1644 8.63451C10.7038 9.24525 10.3634 9.89369 10.1825 10.5342");
+}
+
+.h_tsn8bxt {
+  cx: 12px;
+  cy: 12px;
+  r: 2px;
+}
+
+.hhi9k4bqd {
+  d: path("M10 12.3115C10 7.31152 22 7.71152 22 15.3115");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.s8xjouf5y {
+  d: path("M14 12C14 17 2 16.6 2 9");
+}
+
+.tw30_ubet {
+  d: path("M12 10C17 10 16.6 22 9 22");
+}
+
+.tw4z_pbpg {
+  d: path("M13.6801 13.3041C13.4098 13.5743 13.1124 13.7727 12.7958 13.9061M7.31611 2.69747C7.05051 2.96307 6.81808 3.23696 6.6166 3.51724M5.71056 5.44919C5.53245 6.1565 5.50005 6.87614 5.58431 7.58308M6.16022 9.64602C6.45036 10.3051 6.82872 10.9261 7.26589 11.4837M8.79039 12.9913C9.40114 13.4519 10.0496 13.7923 10.6901 13.9732");
+}
+
+.vrjh5yb5v {
+  d: path("M10.6315 10.6959C10.9017 10.4257 11.1992 10.2273 11.5158 10.0939M16.9954 21.3025C17.261 21.0369 17.4934 20.763 17.6949 20.4828M18.601 18.5508C18.7791 17.8435 18.8115 17.1239 18.7272 16.4169M18.1513 14.354C17.8612 13.6949 17.4828 13.0739 17.0456 12.5163M15.5211 11.0087C14.9104 10.5481 14.2619 10.2077 13.6214 10.0268");
+}
+
+.w3oeeubcb {
+  d: path("M13.4599 10.4758C13.7302 10.746 13.9285 11.0435 14.062 11.3601M2.85334 16.8398C3.11894 17.1054 3.39283 17.3378 3.67311 17.5393M5.60506 18.4453C6.31237 18.6234 7.03201 18.6558 7.73895 18.5716M9.80189 17.9957C10.461 17.7055 11.0819 17.3272 11.6395 16.89M13.1472 15.3655C13.6078 14.7547 13.9481 14.1063 14.129 13.4658");
+}
+
+.yic1xvbbc {
+  d: path("M12.3115 14C7.31152 14 7.71152 2 15.3115 2");
+}
+
+</style>

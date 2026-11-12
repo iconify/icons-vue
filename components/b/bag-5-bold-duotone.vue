@@ -1,13 +1,32 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nfzicbcse.css';
-import '../../css/f/fq3gxbred.css';
-import '../../css/e/ec8ku5buv.css';
-import '../../css/w/wr7qp9b-e.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="nfzicbcse"/><path class="fq3gxbred"/><path class="ec8ku5buv"/><path class="wr7qp9b-e"/>`;
+const content = `<path class="t8xjvjb_h"/><path class="d7yf89b9p"/><path class="ia2-zybcd"/><path class="ofyt1pg0y"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:bag-5-bold-duotone" /></template>
+<style>
+.d7yf89b9p {
+  fill: currentColor;
+  d: path("M9 9.75C9.41421 9.75 9.75 10.0858 9.75 10.5C9.75 10.9142 9.41421 11.25 9 11.25C8.58579 11.25 8.25 10.9142 8.25 10.5C8.25 10.0858 8.58579 9.75 9 9.75Z");
+}
+
+.ia2-zybcd {
+  fill: currentColor;
+  d: path("M15 9.75C15.4142 9.75 15.75 10.0858 15.75 10.5C15.75 10.9142 15.4142 11.25 15 11.25C14.5858 11.25 14.25 10.9142 14.25 10.5C14.25 10.0858 14.5858 9.75 15 9.75Z");
+}
+
+.ofyt1pg0y {
+  fill: currentColor;
+  d: path("M12 1.75C14.0711 1.75 15.75 3.42893 15.75 5.5V6.52637C15.292 6.51195 14.7935 6.50481 14.25 6.50195V5.5C14.25 4.25736 13.2426 3.25 12 3.25C10.7574 3.25 9.75 4.25736 9.75 5.5V6.50195C9.20648 6.50481 8.708 6.51196 8.25 6.52637V5.5C8.25 3.42893 9.92893 1.75 12 1.75Z");
+}
+
+.t8xjvjb_h {
+  fill: currentColor;
+  d: path("M3.79375 15.4709C4.33092 18.1567 4.5995 19.4996 5.48697 20.3646C5.651 20.5244 5.82845 20.6699 6.01737 20.7994C7.03956 21.5 8.40907 21.5 11.1481 21.5H12.851C15.5901 21.5 16.9596 21.5 17.9818 20.7994C18.1707 20.6699 18.3482 20.5244 18.5122 20.3646C19.3997 19.4996 19.6682 18.1567 20.2054 15.4709C20.9766 11.6149 21.3622 9.68686 20.4745 8.32067C20.3138 8.0733 20.1262 7.84447 19.9152 7.63836C18.7496 6.5 16.7834 6.5 12.851 6.5H11.1481C7.21574 6.5 5.24955 6.5 4.08398 7.63836C3.87293 7.84447 3.68534 8.0733 3.52461 8.32067C2.63695 9.68686 3.02255 11.6149 3.79375 15.4709Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+</style>

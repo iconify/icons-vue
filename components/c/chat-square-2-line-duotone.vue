@@ -1,10 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/j/jx0p4fbya.css';
-import '../../css/w/wf89k6buf.css';
-import '../../css/e/e98791bqv.css';
-import '../../css/n/nay7nddul.css';
-import '../../css/z/zsv6gzbnj.css';
 
 const props = defineProps(["width","height"]);
 
@@ -12,3 +7,31 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="jx0p4fbya"><path class="wf89k6buf"/><path class="e98791bqv"/><path class="nay7nddul"/><path class="zsv6gzbnj"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:chat-square-2-line-duotone" /></template>
+<style>
+.e98791bqv {
+  stroke-linecap: round;
+  d: path("M7 18L7 15");
+}
+
+.jx0p4fbya {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.nay7nddul {
+  stroke-linecap: round;
+  d: path("M12 18V12");
+}
+
+.wf89k6buf {
+  d: path("M2 12C2 7.28595 2 4.92893 3.46447 3.46447C4.92893 2 7.28595 2 12 2C16.714 2 19.0711 2 20.5355 3.46447C22 4.92893 22 7.28595 22 12C22 16.714 22 19.0711 20.5355 20.5355C19.0711 22 16.714 22 12 22C7.28595 22 4.92893 22 3.46447 20.5355C2 19.0711 2 16.714 2 12Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.zsv6gzbnj {
+  stroke-linecap: round;
+  d: path("M17 18V9");
+}
+
+</style>

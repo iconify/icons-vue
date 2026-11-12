@@ -1,7 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/t/tjzuz0oew.css';
-import '../../css/d/dfd8n3ylg.css';
 
 const props = defineProps(["width","height"]);
 
@@ -9,3 +7,16 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="tjzuz0oew"/><path clip-rule="evenodd" class="dfd8n3ylg"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:bell-bing-outline" /></template>
+<style>
+.dfd8n3ylg {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M4.25 9a7.75 7.75 0 1 1 15.5 0v.704c0 .697.206 1.378.593 1.958l1.148 1.723c1.334 2 .316 4.718-2.003 5.35q-1.133.309-2.284.523l-.002.005c-.769 2.052-2.824 3.487-5.202 3.487s-4.433-1.435-5.202-3.487l-.002-.005a29 29 0 0 1-2.284-.523c-2.319-.632-3.337-3.35-2.003-5.35l1.148-1.723a3.53 3.53 0 0 0 .593-1.958zm4.373 10.537a28.5 28.5 0 0 0 6.753 0c-.71 1.021-1.947 1.713-3.376 1.713s-2.666-.692-3.377-1.713M12 2.75A6.25 6.25 0 0 0 5.75 9v.704a5.03 5.03 0 0 1-.845 2.79l-1.148 1.723a2.02 2.02 0 0 0 1.15 3.071a26.96 26.96 0 0 0 14.187 0a2.02 2.02 0 0 0 1.15-3.07l-1.15-1.724a5.03 5.03 0 0 1-.844-2.79V9A6.25 6.25 0 0 0 12 2.75");
+}
+
+.tjzuz0oew {
+  fill: currentColor;
+  d: path("M12.75 6a.75.75 0 0 0-1.5 0v4a.75.75 0 0 0 1.5 0z");
+}
+
+</style>

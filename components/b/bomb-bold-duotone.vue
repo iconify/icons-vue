@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/x/xtpeb-edw.css';
-import '../../css/v/v1i9zeb3v.css';
-import '../../css/q/q27aehs6m.css';
-import '../../css/l/l-h5hnbcu.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,23 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="xtpeb-edw"><path class="v1i9zeb3v"/><path class="q27aehs6m"/></g><path class="l-h5hnbcu"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:bomb-bold-duotone" /></template>
+<style>
+.l-h5hnbcu {
+  fill: currentColor;
+  d: path("M16.4767 6.46216L14.2461 8.69281C14.6339 9.01019 14.9894 9.36566 15.3067 9.7535L17.5373 7.52284L17.3262 6.98752C17.2695 6.84375 17.1557 6.72995 17.0119 6.67325L16.4767 6.46216Z");
+}
+
+.q27aehs6m {
+  d: path("M17.9814 2.35365C18.1672 1.88277 18.8328 1.88277 19.0186 2.35365L19.6729 4.01283C19.7296 4.15653 19.8436 4.27058 19.9873 4.32728L21.6465 4.98158C22.1174 5.16729 22.1174 5.83298 21.6465 6.01869L19.9873 6.67299C19.8436 6.72969 19.7296 6.84374 19.6729 6.98744L19.0186 8.64662C18.8328 9.1175 18.1672 9.1175 17.9814 8.64662L17.3271 6.98744C17.2704 6.84374 17.1564 6.72969 17.0127 6.67299L15.3535 6.01869C14.8826 5.83298 14.8826 5.16729 15.3535 4.98158L17.0127 4.32728C17.1564 4.27058 17.2704 4.15653 17.3271 4.01283L17.9814 2.35365Z");
+}
+
+.v1i9zeb3v {
+  d: path("M9.5 7.00014C13.6421 7.00014 17 10.358 17 14.5001C17 18.6423 13.6421 22.0001 9.5 22.0001C5.35786 22.0001 2 18.6423 2 14.5001C2 10.358 5.35786 7.00014 9.5 7.00014Z");
+}
+
+.xtpeb-edw {
+  fill: currentColor;
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+</style>

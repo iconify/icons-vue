@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/f/ft5dv1b6b.css';
-import '../../css/d/d3-u93bya.css';
-import '../../css/h/hxuxb_bgp.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,23 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ft5dv1b6b"><path clip-rule="evenodd" class="d3-u93bya"/><path class="hxuxb_bgp"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:text-bold" /></template>
+<style>
+.d3-u93bya {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M7.934 2h8.132c.886 0 1.65 0 2.262.082c.655.088 1.284.287 1.793.797c.51.51.709 1.138.797 1.793C21 5.284 21 6.048 21 6.934V7.95a1 1 0 1 1-2 0V7c0-.971-.002-1.599-.064-2.061c-.059-.434-.153-.57-.229-.646s-.212-.17-.646-.229C17.6 4.002 16.971 4 16 4h-3v17a1 1 0 1 1-2 0V4H8c-.971 0-1.599.002-2.061.064c-.434.059-.57.153-.646.229s-.17.212-.229.646C5.002 5.4 5 6.029 5 7v.95a1 1 0 1 1-2 0V6.934c0-.886 0-1.65.082-2.262c.088-.655.287-1.284.797-1.793c.51-.51 1.138-.709 1.793-.797C6.284 2 7.048 2 7.934 2");
+}
+
+.ft5dv1b6b {
+  fill: none;
+}
+
+.hxuxb_bgp {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M7 21h10");
+}
+
+</style>

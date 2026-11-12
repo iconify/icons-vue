@@ -1,13 +1,33 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/q/q9wjlktgi.css';
-import '../../css/z/zsg-kcgty.css';
-import '../../css/j/j6xrxv6-w.css';
-import '../../css/z/zw-s4mi4u.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="q9wjlktgi"/><path clip-rule="evenodd" class="zsg-kcgty"/><path class="j6xrxv6-w"/><path class="zw-s4mi4u"/>`;
+const content = `<path class="nljc8nbdc"/><path class="m99ki0bit"/><path clip-rule="evenodd" class="dfxeb3v9w"/><path class="r0p_zqv_y"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:calendar-date-bold-duotone" /></template>
+<style>
+.dfxeb3v9w {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M14 12C14.9663 12.0001 15.7498 12.7837 15.75 13.75V15.75C15.7498 16.7163 14.9663 17.4999 14 17.5C13.0336 17.5 12.2502 16.7163 12.25 15.75V13.75C12.2502 12.7836 13.0336 12 14 12ZM14 13.5C13.862 13.5 13.7502 13.6121 13.75 13.75V15.75C13.7502 15.8879 13.862 16 14 16C14.1379 15.9999 14.2498 15.8879 14.25 15.75V13.75C14.2498 13.6121 14.1379 13.5001 14 13.5Z");
+}
+
+.m99ki0bit {
+  fill: currentColor;
+  d: path("M9.96973 12.2197C10.1842 12.0054 10.507 11.9407 10.7871 12.0566C11.0671 12.1727 11.2499 12.4469 11.25 12.75V16.75C11.2498 17.164 10.914 17.4999 10.5 17.5C10.0859 17.5 9.75018 17.1641 9.75 16.75V14.5605L9.53027 14.7803C9.23745 15.073 8.7626 15.0729 8.46973 14.7803C8.177 14.4874 8.17698 14.0126 8.46973 13.7197L9.96973 12.2197Z");
+}
+
+.nljc8nbdc {
+  fill: currentColor;
+  d: path("M2 11.75C2 7.97876 2 6.09315 3.17157 4.92157C4.34315 3.75 6.22876 3.75 10 3.75H14C17.7712 3.75 19.6569 3.75 20.8284 4.92157C22 6.09315 22 7.97876 22 11.75V13.75C22 17.5212 22 19.4069 20.8284 20.5784C19.6569 21.75 17.7712 21.75 14 21.75H10C6.22876 21.75 4.34315 21.75 3.17157 20.5784C2 19.4069 2 17.5212 2 13.75V11.75Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.r0p_zqv_y {
+  fill: currentColor;
+  d: path("M17 2.25C17.4142 2.25 17.75 2.58579 17.75 3V3.83008C19.1894 3.94533 20.1349 4.22766 20.8291 4.92188C21.637 5.73003 21.8871 6.87801 21.9648 8.75H2.03516C2.11291 6.87777 2.36378 5.73004 3.17188 4.92188C3.86603 4.22772 4.81081 3.94535 6.25 3.83008V3C6.25 2.58579 6.58579 2.25 7 2.25C7.41421 2.25 7.75 2.58579 7.75 3V3.76465C8.41527 3.75174 9.16095 3.75 10 3.75H14C14.839 3.75 15.5848 3.75175 16.25 3.76465V3C16.25 2.58579 16.5858 2.25 17 2.25Z");
+}
+
+</style>

@@ -1,11 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/p/pxqub0bkx.css';
-import '../../css/u/uw2q8fo_m.css';
-import '../../css/g/gep8t6bjz.css';
-import '../../css/d/dkkib-ewx.css';
-import '../../css/l/l7uqntb2z.css';
-import '../../css/c/c4q01mb0y.css';
 
 const props = defineProps(["width","height"]);
 
@@ -13,3 +7,37 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="pxqub0bkx"/><path clip-rule="evenodd" class="uw2q8fo_m"/><path class="gep8t6bjz"/><path class="dkkib-ewx"/><path class="l7uqntb2z"/><path class="c4q01mb0y"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:reel-2-bold-duotone" /></template>
+<style>
+.c4q01mb0y {
+  fill: currentColor;
+  d: path("M18.5 13C19.0523 13 19.5 12.5523 19.5 12C19.5 11.4477 19.0523 11 18.5 11C17.9477 11 17.5 11.4477 17.5 12C17.5 12.5523 17.9477 13 18.5 13Z");
+}
+
+.dkkib-ewx {
+  fill: currentColor;
+  d: path("M12 4.5C12.5523 4.5 13 4.94772 13 5.5C13 6.05228 12.5523 6.5 12 6.5C11.4477 6.5 11 6.05228 11 5.5C11 4.94772 11.4477 4.5 12 4.5Z");
+}
+
+.gep8t6bjz {
+  fill: currentColor;
+  d: path("M5.5 13C6.05228 13 6.5 12.5523 6.5 12C6.5 11.4477 6.05228 11 5.5 11C4.94772 11 4.5 11.4477 4.5 12C4.5 12.5523 4.94772 13 5.5 13Z");
+}
+
+.l7uqntb2z {
+  fill: currentColor;
+  d: path("M13 18.5C13 17.9477 12.5523 17.5 12 17.5C11.4477 17.5 11 17.9477 11 18.5C11 19.0523 11.4477 19.5 12 19.5C12.5523 19.5 13 19.0523 13 18.5Z");
+}
+
+.pxqub0bkx {
+  fill: currentColor;
+  d: path("M2 12C2 17.5228 6.47715 22 12 22H21.25C21.6642 22 22 21.6642 22 21.25C22 20.8358 21.6642 20.5 21.25 20.5H17.2704C20.1097 18.7358 22 15.5887 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.uw2q8fo_m {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M12 15.75C9.92893 15.75 8.25 14.0711 8.25 12C8.25 9.92893 9.92893 8.25 12 8.25C14.0711 8.25 15.75 9.92893 15.75 12C15.75 14.0711 14.0711 15.75 12 15.75Z");
+}
+
+</style>

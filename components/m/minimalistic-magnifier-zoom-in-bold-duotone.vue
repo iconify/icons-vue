@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/c/cl66i7bqg.css';
-import '../../css/x/x-5f2htjo.css';
-import '../../css/x/xa2k-bcvw.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,23 @@ const viewBox = {"width":24,"height":24};
 const content = `<circle class="cl66i7bqg"/><path class="x-5f2htjo"/><path class="xa2k-bcvw"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:minimalistic-magnifier-zoom-in-bold-duotone" /></template>
+<style>
+.cl66i7bqg {
+  cx: 11.5px;
+  cy: 11.5px;
+  r: 9.5px;
+  fill: currentColor;
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.x-5f2htjo {
+  fill: currentColor;
+  d: path("M19.4697 19.4697C19.7626 19.1768 20.2374 19.1768 20.5303 19.4697L22.5303 21.4697C22.8231 21.7626 22.8231 22.2374 22.5303 22.5303C22.2374 22.8231 21.7626 22.8231 21.4697 22.5303L19.4697 20.5303C19.1768 20.2374 19.1768 19.7626 19.4697 19.4697Z");
+}
+
+.xa2k-bcvw {
+  fill: currentColor;
+  d: path("M11.5 8.25C11.9142 8.25 12.25 8.58579 12.25 9V10.75H14C14.4142 10.75 14.75 11.0858 14.75 11.5C14.75 11.9142 14.4142 12.25 14 12.25H12.25V14C12.25 14.4142 11.9142 14.75 11.5 14.75C11.0858 14.75 10.75 14.4142 10.75 14V12.25H9C8.58579 12.25 8.25 11.9142 8.25 11.5C8.25 11.0858 8.58579 10.75 9 10.75H10.75V9C10.75 8.58579 11.0858 8.25 11.5 8.25Z");
+}
+
+</style>

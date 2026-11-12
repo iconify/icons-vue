@@ -1,12 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/j/jgx204b2g.css';
-import '../../css/v/vbgcwqb6e.css';
-import '../../css/b/bi7mdqb8a.css';
-import '../../css/t/tkzm_abvq.css';
-import '../../css/t/to23gco_r.css';
-import '../../css/n/nja6m3bms.css';
 
 const props = defineProps(["width","height"]);
 
@@ -14,3 +7,37 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="jgx204b2g"/><path class="vbgcwqb6e"/><path class="bi7mdqb8a"/><path class="tkzm_abvq"/><path class="to23gco_r"/><path class="nja6m3bms"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:cloud-rain-line-duotone" /></template>
+<style>
+.bi7mdqb8a {
+  d: path("M16 15.5L14 17.5");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.jgx204b2g {
+  d: path("M19.5 18.0226C21.0091 17.0061 22 15.2939 22 13.3529C22 10.8811 20.393 8.78024 18.1551 8.01498C17.5693 7.81468 16.9404 7.70588 16.2857 7.70588C15.6178 7.70588 14.9767 7.81911 14.381 8.02721M7.11616 10.6089C6.8475 10.5567 6.56983 10.5294 6.28571 10.5294C3.91878 10.5294 2 12.4256 2 14.7647C2 16.0746 2.60178 17.2457 3.54704 18.0226M7.11616 10.6089C6.88706 9.9978 6.7619 9.33687 6.7619 8.64706C6.7619 5.52827 9.32028 3 12.4762 3C15.4159 3 17.8371 5.19371 18.1551 8.01498M7.11616 10.6089C7.68058 10.7184 8.20528 10.9374 8.66667 11.2426");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.nja6m3bms {
+  d: path("M7.5 19L5.5 21");
+}
+
+.tkzm_abvq {
+  d: path("M12 20L10 22");
+}
+
+.to23gco_r {
+  d: path("M11.5 15.5L9.5 17.5");
+}
+
+.vbgcwqb6e {
+  d: path("M17 19L15 21");
+}
+
+</style>

@@ -1,12 +1,28 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/h/h8d4-cc9w.css';
-import '../../css/p/p8mr26bfo.css';
-import '../../css/g/g4j5pwbyn.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="h8d4-cc9w"/><path clip-rule="evenodd" class="p8mr26bfo"/><path class="g4j5pwbyn"/>`;
+const content = `<path class="eejymju2p"/><path clip-rule="evenodd" class="wm6b71f_n"/><path class="c5u0d_bju"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:laptop-bold-duotone" /></template>
+<style>
+.c5u0d_bju {
+  fill: currentColor;
+  d: path("M12 6C12.4142 6 12.75 6.33579 12.75 6.75C12.75 7.16421 12.4142 7.5 12 7.5C11.5858 7.5 11.25 7.16421 11.25 6.75C11.25 6.33579 11.5858 6 12 6Z");
+}
+
+.eejymju2p {
+  fill: currentColor;
+  d: path("M4.93881 4.58579C4.35303 5.17157 4.35303 6.11438 4.35303 8V15H19.6471V8C19.6471 6.11438 19.6471 5.17157 19.0614 4.58579C18.4756 4 17.5328 4 15.6471 4H8.35303C6.46741 4 5.5246 4 4.93881 4.58579Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.wm6b71f_n {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M21.3916 17.3359C21.4359 17.3816 21.4578 17.4049 21.4785 17.4277C21.7996 17.7803 21.9843 18.2363 21.999 18.7129C22 18.7436 22 18.7755 22 18.8389C22 18.988 22.0001 19.063 21.9961 19.126C21.9326 20.1312 21.1312 20.9326 20.126 20.9961C20.063 21.0001 19.988 21 19.8389 21H4.16113C4.01204 21 3.93699 21.0001 3.87402 20.9961C2.86879 20.9326 2.06742 20.1312 2.00391 19.126C1.99994 19.063 2 18.988 2 18.8389C2 18.7755 2.00004 18.7436 2.00098 18.7129C2.01572 18.2363 2.20044 17.7803 2.52148 17.4277C2.54224 17.4049 2.56409 17.3817 2.6084 17.3359L3.90332 16H20.0967L21.3916 17.3359ZM9.5 18.25C9.08579 18.25 8.75 18.5858 8.75 19C8.75 19.4142 9.08579 19.75 9.5 19.75H14.5C14.9142 19.75 15.25 19.4142 15.25 19C15.25 18.5858 14.9142 18.25 14.5 18.25H9.5Z");
+}
+
+</style>

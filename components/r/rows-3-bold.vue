@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/r/rgn7bubwt.css';
-import '../../css/u/u-3cpkh9t.css';
-import '../../css/f/fog6w8bnu.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,20 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="rgn7bubwt"/><path class="u-3cpkh9t"/><path class="fog6w8bnu"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:rows-3-bold" /></template>
+<style>
+.fog6w8bnu {
+  fill: currentColor;
+  d: path("M20.9873 16.083C20.9485 18.511 20.7606 19.8956 19.8281 20.8281C18.6566 21.9997 16.7712 22 13 22L11 22C7.22876 22 5.34345 21.9997 4.17187 20.8281C3.23937 19.8956 3.0525 18.511 3.01367 16.083L20.9873 16.083Z");
+}
+
+.rgn7bubwt {
+  fill: currentColor;
+  d: path("M3.00098 14.583C3.0008 14.3938 3 14.1996 3 14L3 10C3 9.80044 3.0008 9.60616 3.00098 9.41699L21 9.41699L21 14.583L3.00098 14.583Z");
+}
+
+.u-3cpkh9t {
+  fill: currentColor;
+  d: path("M3.01367 7.91699C3.0525 5.489 3.23937 4.10438 4.17187 3.17187C5.34345 2.0003 7.22876 2 11 2L13 2C16.7712 2 18.6566 2.0003 19.8281 3.17187C20.7606 4.10438 20.9485 5.48899 20.9873 7.91699L3.01367 7.91699Z");
+}
+
+</style>

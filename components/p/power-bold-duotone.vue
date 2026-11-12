@@ -1,11 +1,22 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/b/bjmcju-mi.css';
-import '../../css/p/pvhv_7sne.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="bjmcju-mi"/><path class="pvhv_7sne"/>`;
+const content = `<path class="uomvocbto"/><path class="aoj597b8y"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:power-bold-duotone" /></template>
+<style>
+.aoj597b8y {
+  fill: currentColor;
+  d: path("M12.75 2C12.75 1.58579 12.4142 1.25 12 1.25C11.5858 1.25 11.25 1.58579 11.25 2V6C11.25 6.41421 11.5858 6.75 12 6.75C12.4142 6.75 12.75 6.41421 12.75 6V2Z");
+}
+
+.uomvocbto {
+  fill: currentColor;
+  d: path("M8.7919 4.39712C9.17345 4.23591 9.35208 3.79591 9.19087 3.41435C9.02966 3.0328 8.58966 2.85417 8.2081 3.01538C4.70832 4.49406 2.25 7.95925 2.25 12.0003C2.25 17.3851 6.61522 21.7503 12 21.7503C17.3848 21.7503 21.75 17.3851 21.75 12.0003C21.75 7.95925 19.2917 4.49406 15.7919 3.01538C15.4103 2.85417 14.9703 3.0328 14.8091 3.41435C14.6479 3.79591 14.8265 4.23591 15.2081 4.39712C18.1722 5.64947 20.25 8.58312 20.25 12.0003C20.25 16.5567 16.5563 20.2503 12 20.2503C7.44365 20.2503 3.75 16.5567 3.75 12.0003C3.75 8.58312 5.82779 5.64947 8.7919 4.39712Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+</style>

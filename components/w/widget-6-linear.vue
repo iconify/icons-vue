@@ -1,10 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/e/e90mrrbvd.css';
-import '../../css/v/vsa8_nbla.css';
-import '../../css/x/xw09-ubbu.css';
-import '../../css/c/cviyaybdx.css';
 
 const props = defineProps(["width","height"]);
 
@@ -12,3 +7,28 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="e90mrrbvd"/><path class="vsa8_nbla"/><path class="xw09-ubbu"/><path class="cviyaybdx"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:widget-6-linear" /></template>
+<style>
+.cviyaybdx {
+  d: path("M14.6429 10.5H17.5C19.7091 10.5 21.5 8.70914 21.5 6.5C21.5 4.29086 19.7091 2.5 17.5 2.5C15.2909 2.5 13.5 4.29086 13.5 6.5V9.35714C13.5 9.48982 13.5 9.55616 13.5063 9.61196C13.5585 10.0756 13.9244 10.4415 14.388 10.4937C14.4438 10.5 14.5102 10.5 14.6429 10.5Z");
+}
+
+.e90mrrbvd {
+  d: path("M6.5 10.5H9.16667C9.47666 10.5 9.63165 10.5 9.75882 10.4659C10.1039 10.3735 10.3735 10.1039 10.4659 9.75882C10.5 9.63165 10.5 9.47666 10.5 9.16667V6.5C10.5 4.29086 8.70914 2.5 6.5 2.5C4.29086 2.5 2.5 4.29086 2.5 6.5C2.5 8.70914 4.29086 10.5 6.5 10.5Z");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.vsa8_nbla {
+  d: path("M17.5 21.5C15.2909 21.5 13.5 19.7091 13.5 17.5V14.8333C13.5 14.5233 13.5 14.3683 13.5341 14.2412C13.6265 13.8961 13.8961 13.6265 14.2412 13.5341C14.3683 13.5 14.5233 13.5 14.8333 13.5H17.5C19.7091 13.5 21.5 15.2909 21.5 17.5C21.5 19.7091 19.7091 21.5 17.5 21.5Z");
+}
+
+.xw09-ubbu {
+  d: path("M6.5 21.5C4.29086 21.5 2.5 19.7091 2.5 17.5C2.5 15.2909 4.29086 13.5 6.5 13.5H8.9C9.46005 13.5 9.74008 13.5 9.95399 13.609C10.1422 13.7049 10.2951 13.8578 10.391 14.046C10.5 14.2599 10.5 14.5399 10.5 15.1V17.5C10.5 19.7091 8.70914 21.5 6.5 21.5Z");
+}
+
+</style>

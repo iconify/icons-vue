@@ -1,7 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/y/yqe-1p3yw.css';
-import '../../css/o/ohna_rbrt.css';
 
 const props = defineProps(["width","height"]);
 
@@ -9,3 +7,15 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="yqe-1p3yw"/><path class="ohna_rbrt"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:arrow-up-to-line-outline" /></template>
+<style>
+.ohna_rbrt {
+  fill: currentColor;
+  d: path("M12 21.75C11.5858 21.75 11.25 21.4142 11.25 21L11.25 9.93164L8.55371 12.8809C8.27429 13.1865 7.79985 13.208 7.49414 12.9287C7.18851 12.6493 7.167 12.1748 7.44629 11.8691L11.4463 7.49414C11.5884 7.33877 11.7895 7.25 12 7.25C12.2105 7.25003 12.4116 7.33876 12.5537 7.49414L16.5537 11.8691C16.8329 12.1748 16.8114 12.6493 16.5059 12.9287C16.2002 13.208 15.7257 13.1864 15.4463 12.8809L12.75 9.93164L12.75 21C12.75 21.4142 12.4142 21.7499 12 21.75Z");
+}
+
+.yqe-1p3yw {
+  fill: currentColor;
+  d: path("M4 3.75C3.58579 3.75 3.25 3.41421 3.25 3C3.25 2.58579 3.58579 2.25 4 2.25L20 2.25C20.4142 2.25 20.75 2.58579 20.75 3C20.75 3.41421 20.4142 3.75 20 3.75L4 3.75Z");
+}
+
+</style>

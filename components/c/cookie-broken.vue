@@ -1,0 +1,43 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="hntgybcog"><path class="f1kjsc7zk"/><path class="xydihvtye"/><path class="vxdxvcilx"/><path class="ooi4irvdb"/><path class="kfn71cctn"/><path class="w5po6ubht"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:cookie-broken" /></template>
+<style>
+.f1kjsc7zk {
+  d: path("M7 3.33782C8.47087 2.48697 10.1786 2 12 2C11.786 2.69499 11.7655 3.43517 11.9407 4.14094C12.116 4.8467 12.4803 5.49135 12.9945 6.00555C13.5087 6.51975 14.1533 6.88405 14.8591 7.05927C15.5648 7.23449 16.305 7.214 17 7C16.786 7.69499 16.7655 8.43517 16.9407 9.14094C17.116 9.8467 17.4803 10.4913 17.9945 11.0056C18.5087 11.5198 19.1533 11.8841 19.8591 12.0593C20.5648 12.2345 21.305 12.214 22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 10.1786 2.48697 8.47087 3.33782 7");
+}
+
+.hntgybcog {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.kfn71cctn {
+  d: path("M12 12H12.0001");
+}
+
+.ooi4irvdb {
+  d: path("M11 17H11.0001");
+}
+
+.vxdxvcilx {
+  d: path("M7 14H7.0001");
+}
+
+.w5po6ubht {
+  d: path("M16 15.5H16.0001");
+}
+
+.xydihvtye {
+  d: path("M8.5 8.5H8.5001");
+}
+
+</style>

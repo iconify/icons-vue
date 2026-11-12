@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/w/wu-cc3sah.css';
-import '../../css/h/htk2wgbva.css';
-import '../../css/v/vm55ygbgc.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,21 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="wu-cc3sah"/><path class="htk2wgbva"/><path class="vm55ygbgc"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:rewind-back-circle-bold-duotone" /></template>
+<style>
+.htk2wgbva {
+  fill: currentColor;
+  d: path("M10.5645 7.46105C10.9016 7.22029 11.37 7.29836 11.6108 7.63542C11.8515 7.97248 11.7735 8.44089 11.4364 8.68165L8.21486 10.9828C7.51692 11.4813 7.51692 12.5186 8.21486 13.0171L11.4364 15.3182C11.7735 15.5589 11.8515 16.0274 11.6108 16.3644C11.37 16.7015 10.9016 16.7795 10.5645 16.5388L7.343 14.2377C5.80754 13.1409 5.80754 10.8589 7.343 9.76215L10.5645 7.46105Z");
+}
+
+.vm55ygbgc {
+  fill: currentColor;
+  d: path("M16.5005 15.1318V8.86887C16.5005 8.07017 15.6104 7.59378 14.9458 8.03682L10.2486 11.1683C9.65488 11.5641 9.65488 12.4366 10.2486 12.8324L14.9458 15.9639C15.6104 16.4069 16.5005 15.9305 16.5005 15.1318Z");
+}
+
+.wu-cc3sah {
+  fill: currentColor;
+  d: path("M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+</style>

@@ -1,15 +1,34 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/q/qpizk3b2i.css';
-import '../../css/k/krvkaiboe.css';
-import '../../css/y/ytwl2ebtc.css';
-import '../../css/r/rmwzjebkv.css';
-import '../../css/o/ou-u7bcws.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ipq1z-bjh"><path class="qpizk3b2i"/><path class="krvkaiboe"/><path class="ytwl2ebtc"/><path class="rmwzjebkv"/><path class="ou-u7bcws"/></g>`;
+const content = `<g class="ipq1z-bjh"><path class="xcs4aye_u"/><path class="gcjr-xbce"/><path class="w6tva8xka"/><path class="wvolq0b1y"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:calendar-add-linear" /></template>
+<style>
+.gcjr-xbce {
+  d: path("M10 21.75H14C17.7712 21.75 19.6569 21.75 20.8284 20.5784C22 19.4069 22 17.5212 22 13.75V11.75C22 7.97876 22 6.09315 20.8284 4.92157C19.6569 3.75 17.7712 3.75 14 3.75H10C6.22876 3.75 4.34315 3.75 3.17157 4.92157C2 6.09315 2 7.97876 2 11.75V13.75C2 17.5212 2 19.4069 3.17157 20.5784C4.34315 21.75 6.22876 21.75 10 21.75Z");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.w6tva8xka {
+  d: path("M2.03516 8.75H21.965");
+}
+
+.wvolq0b1y {
+  d: path("M7 3.78496V2.25");
+}
+
+.xcs4aye_u {
+  d: path("M18 15.75H16M16 15.75L14 15.75M16 15.75L16 13.75M16 15.75L16 17.75");
+}
+
+</style>

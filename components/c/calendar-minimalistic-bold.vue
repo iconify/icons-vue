@@ -1,11 +1,22 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/d/dbzkg2bkw.css';
-import '../../css/e/e_29zdb8m.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="dbzkg2bkw"/><path class="e_29zdb8m"/>`;
+const content = `<path clip-rule="evenodd" class="wjxwrwbiv"/><path class="pxpgfoisn"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:calendar-minimalistic-bold" /></template>
+<style>
+.pxpgfoisn {
+  fill: currentColor;
+  d: path("M17 2.25C17.4142 2.25 17.75 2.58579 17.75 3V3.8291L17.751 3.83008C19.1903 3.94534 20.1349 4.22769 20.8291 4.92188C21.5233 5.61605 21.8047 6.56075 21.9199 8H2.08203C2.19729 6.56075 2.47868 5.61605 3.17285 4.92188C3.86688 4.22784 4.81125 3.94539 6.25 3.83008V3C6.25 2.58579 6.58579 2.25 7 2.25C7.41421 2.25 7.75 2.58579 7.75 3V3.76465C8.41527 3.75175 9.16193 3.75 10.001 3.75H14.001C14.8396 3.75 15.585 3.75079 16.25 3.76367V3C16.25 2.58579 16.5858 2.25 17 2.25Z");
+}
+
+.wjxwrwbiv {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M21.9854 9.5C21.9983 10.1653 22 10.911 22 11.75V13.75C22 17.5212 21.9997 19.4066 20.8281 20.5781C19.6566 21.7497 17.7712 21.75 14 21.75H10C6.22876 21.75 4.34345 21.7497 3.17188 20.5781C2.0003 19.4066 2 17.5212 2 13.75V11.75C2 10.911 2.00175 10.1653 2.01465 9.5H21.9854Z");
+}
+
+</style>

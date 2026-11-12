@@ -1,14 +1,40 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/j/jx0p4fbya.css';
-import '../../css/r/rjfa6f3hs.css';
-import '../../css/z/z_r9jpb7p.css';
-import '../../css/a/a3scpvo1f.css';
-import '../../css/e/eck4ylbag.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="jx0p4fbya"><path class="rjfa6f3hs"/><path class="z_r9jpb7p"/><path class="a3scpvo1f"/><path class="eck4ylbag"/></g>`;
+const content = `<g class="jx0p4fbya"><path class="rjfa6f3hs"/><path class="z_r9jpb7p"/><path class="a3scpvo1f"/><rect class="lqpy27syi"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:hand-pills-linear" /></template>
+<style>
+.a3scpvo1f {
+  stroke-linecap: round;
+  d: path("M5 20.3884H7.25993C8.27079 20.3884 9.29253 20.4937 10.2763 20.6964C12.0166 21.0549 13.8488 21.0983 15.6069 20.8138C16.4738 20.6734 17.326 20.4589 18.0975 20.0865C18.7939 19.7504 19.6469 19.2766 20.2199 18.7459C20.7921 18.216 21.388 17.3487 21.8109 16.6707C22.1736 16.0894 21.9982 15.3762 21.4245 14.943C20.7873 14.4619 19.8417 14.462 19.2046 14.9433L17.3974 16.3084C16.697 16.8375 15.932 17.3245 15.0206 17.4699C14.911 17.4874 14.7962 17.5033 14.6764 17.5172M12.7518 17.5326C13.4312 17.5968 14.0434 17.5829 14.5668 17.5292C14.6038 17.5254 14.6403 17.5214 14.6764 17.5172M14.6764 17.5172C14.8222 17.486 14.9669 17.396 15.1028 17.2775C15.746 16.7161 15.7866 15.77 15.2285 15.1431C15.0991 14.9977 14.9475 14.8764 14.7791 14.7759C11.9817 13.1074 7.62942 14.3782 5 16.2429M14.6764 17.5172C14.6399 17.525 14.6033 17.5292 14.5668 17.5292");
+}
+
+.jx0p4fbya {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.lqpy27syi {
+  width: 3px;
+  height: 8px;
+  x: 2px;
+  y: 14px;
+  rx: 1.5px;
+}
+
+.rjfa6f3hs {
+  stroke-linecap: round;
+  d: path("M15.2038 9.20377C14.1421 10.2654 12.4209 10.2654 11.3592 9.20377C10.9475 8.79201 10.5357 8.38024 10.1239 7.96847C9.68137 7.5259 9.2388 7.08333 8.79623 6.64075C7.73459 5.57912 7.73459 3.85786 8.79623 2.79623C9.85786 1.73459 11.5791 1.73459 12.6408 2.79623C13.0833 3.2388 13.5259 3.68137 13.9685 4.12394C14.3802 4.53571 14.792 4.94748 15.2038 5.35925C16.2654 6.42088 16.2654 8.14214 15.2038 9.20377Z");
+}
+
+.z_r9jpb7p {
+  stroke-linecap: round;
+  d: path("M13.9685 4.12393C13.8724 4.45745 13.5225 5.42018 12.4713 6.47139C11.4201 7.52256 10.4575 7.87238 10.124 7.96847");
+}
+
+</style>

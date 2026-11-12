@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/j/j53x1ibvg.css';
-import '../../css/u/urler8hic.css';
-import '../../css/o/o_5pt9b1x.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,27 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="j53x1ibvg"/><path class="urler8hic"/><path class="o_5pt9b1x"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:key-square-2-line-duotone" /></template>
+<style>
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.j53x1ibvg {
+  stroke-linejoin: round;
+  d: path("M22 6.72008C22 9.3269 19.8781 11.4402 17.2606 11.4402C16.7829 11.4402 15.6954 11.3304 15.1664 10.8913L14.505 11.5499C13.954 12.0988 14.3948 12.0988 14.6153 12.5378C14.6153 12.5378 15.1664 13.3062 14.6153 14.0746C14.2846 14.5137 13.3588 15.1284 12.3007 14.0746L12.0802 14.2942C12.0802 14.2942 12.7415 15.0625 12.1904 15.8309C11.8598 16.27 10.978 16.7091 10.2065 15.9407L9.43495 16.7091C8.90589 17.236 8.25929 16.9286 8.00212 16.7091L7.3408 16.0505C6.72357 15.4358 7.08363 14.7698 7.3408 14.5137L13.0722 8.80569C13.0722 8.80569 12.5211 7.92754 12.5211 6.72008C12.5211 4.11325 14.643 2 17.2606 2C19.8781 2 22 4.11325 22 6.72008Z");
+}
+
+.o_5pt9b1x {
+  d: path("M22 14.993C21.9361 17.787 21.6692 19.419 20.5542 20.5341C19.0882 22 16.7288 22 12.0101 22C7.29127 22 4.93188 22 3.46594 20.5341C2 19.0681 2 16.7087 2 11.9899C2 7.27117 2 4.91177 3.46594 3.44584C4.58099 2.33078 6.21298 2.06388 9.00704 2");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.urler8hic {
+  d: path("M18.914 6.72003C18.914 7.62938 18.1738 8.36656 17.2607 8.36656C16.3476 8.36656 15.6074 7.62938 15.6074 6.72003C15.6074 5.81067 16.3476 5.07349 17.2607 5.07349C18.1738 5.07349 18.914 5.81067 18.914 6.72003Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+</style>

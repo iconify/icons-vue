@@ -1,7 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nl4bbtw5c.css';
-import '../../css/y/ynwkrvbew.css';
 
 const props = defineProps(["width","height"]);
 
@@ -9,3 +7,16 @@ const viewBox = {"width":24,"height":24};
 const content = `<path clip-rule="evenodd" class="nl4bbtw5c"/><path class="ynwkrvbew"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:double-alt-arrow-left-bold" /></template>
+<style>
+.nl4bbtw5c {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M13.4881 4.43051C13.8026 4.70008 13.839 5.17355 13.5695 5.48805L7.98784 12L13.5695 18.5119C13.839 18.8264 13.8026 19.2998 13.4881 19.5694C13.1736 19.839 12.7002 19.8025 12.4306 19.488L6.43059 12.488C6.18984 12.2072 6.18984 11.7927 6.43059 11.5119L12.4306 4.51186C12.7002 4.19736 13.1736 4.16094 13.4881 4.43051Z");
+}
+
+.ynwkrvbew {
+  fill: currentColor;
+  d: path("M17.75 4.99999C17.75 4.68613 17.5546 4.40547 17.2602 4.29657C16.9659 4.18768 16.6348 4.2736 16.4306 4.51189L10.4306 11.5119C10.1898 11.7928 10.1898 12.2072 10.4306 12.4881L16.4306 19.4881C16.6348 19.7264 16.9659 19.8123 17.2602 19.7034C17.5546 19.5945 17.75 19.3138 17.75 19L17.75 4.99999Z");
+}
+
+</style>

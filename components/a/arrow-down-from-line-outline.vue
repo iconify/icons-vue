@@ -1,7 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/k/kl21u1gxg.css';
-import '../../css/m/mhkgzbcsb.css';
 
 const props = defineProps(["width","height"]);
 
@@ -9,3 +7,15 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="kl21u1gxg"/><path class="mhkgzbcsb"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:arrow-down-from-line-outline" /></template>
+<style>
+.kl21u1gxg {
+  fill: currentColor;
+  d: path("M12 7.25C12.4142 7.25 12.75 7.58579 12.75 8V19.0684L15.4463 16.1191C15.7257 15.8135 16.2002 15.792 16.5059 16.0713C16.8115 16.3507 16.833 16.8252 16.5537 17.1309L12.5537 21.5059C12.4116 21.6613 12.2106 21.75 12 21.75C11.7894 21.75 11.5884 21.6613 11.4463 21.5059L7.44629 17.1309C7.167 16.8252 7.18851 16.3507 7.49414 16.0713C7.79985 15.792 8.27428 15.8135 8.55371 16.1191L11.25 19.0684V8C11.25 7.58579 11.5858 7.25 12 7.25Z");
+}
+
+.mhkgzbcsb {
+  fill: currentColor;
+  d: path("M20 2.25C20.4142 2.25 20.75 2.58579 20.75 3C20.75 3.41421 20.4142 3.75 20 3.75H4C3.58579 3.75 3.25 3.41421 3.25 3C3.25 2.58579 3.58579 2.25 4 2.25H20Z");
+}
+
+</style>

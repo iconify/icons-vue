@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/b/b9hwg5m9c.css';
-import '../../css/z/zd_oiac-f.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,20 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="b9hwg5m9c"/><path class="zd_oiac-f"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:call-chat-linear" /></template>
+<style>
+.b9hwg5m9c {
+  d: path("M22 7C22 9.76142 19.7614 12 17 12C16.2002 12 15.4442 11.8122 14.7738 11.4783C14.5956 11.3895 14.392 11.36 14.1997 11.4114L13.0867 11.7092C12.6035 11.8385 12.1615 11.3965 12.2908 10.9133L12.5886 9.80031C12.64 9.60803 12.6105 9.4044 12.5217 9.22624C12.1878 8.55582 12 7.79984 12 7C12 4.23858 14.2386 2 17 2C19.7614 2 22 4.23858 22 7Z");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.zd_oiac-f {
+  d: path("M6.81536 17.4752C2.81072 13.259 2.09304 9.64546 2.00289 7.96594C1.96765 7.30945 2.25823 6.71766 2.69185 6.26114L4.26145 4.60864C5.13596 3.68795 6.61028 3.8305 7.37326 4.90961L8.63424 6.6931C9.25068 7.56497 9.18407 8.75924 8.47752 9.50311L8.1907 9.80507C8.1907 9.80507 7.10812 10.9448 10.0631 14.0559C13.0181 17.167 14.1007 16.0272 14.1007 16.0272L14.5562 15.5477C15.1858 14.8848 16.1672 14.7486 16.9728 15.2123L18.8833 16.312C20.1102 17.0182 20.3806 18.7489 19.4217 19.7584L18.0011 21.254C17.6399 21.6343 17.1917 21.9122 16.6763 21.9631C15.0468 22.1239 11.0621 21.9462 6.81536 17.4752Z");
+}
+
+</style>

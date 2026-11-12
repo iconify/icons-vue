@@ -1,11 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/x/xfauliwbs.css';
-import '../../css/z/z472a114k.css';
-import '../../css/n/npibm0n8u.css';
-import '../../css/t/twy_ekbpf.css';
-import '../../css/p/po0uyhbnh.css';
 
 const props = defineProps(["width","height"]);
 
@@ -13,3 +7,40 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="xfauliwbs"/><circle class="z472a114k"/><circle class="npibm0n8u"/><path class="twy_ekbpf"/><path class="po0uyhbnh"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:pallete-2-line-duotone" /></template>
+<style>
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.npibm0n8u {
+  cx: 6.5px;
+  cy: 11.5px;
+  r: 1.5px;
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.po0uyhbnh {
+  d: path("M16 7C16 7.82843 15.3284 8.5 14.5 8.5C13.6716 8.5 13 7.82843 13 7C13 6.17157 13.6716 5.5 14.5 5.5C15.3284 5.5 16 6.17157 16 7Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.twy_ekbpf {
+  d: path("M11 6.99976C11 7.82818 10.3284 8.49976 9.5 8.49976C8.67157 8.49976 8 7.82818 8 6.99976C8 6.17133 8.67157 5.49976 9.5 5.49976C10.3284 5.49976 11 6.17133 11 6.99976Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.xfauliwbs {
+  d: path("M10.8468 21.9863C5.86713 21.413 2 17.1723 2 12.0261C2 6.48884 6.47715 2 12 2C17.5228 2 22 6.48884 22 12.0261C22 20.178 13.8385 14.4192 12.2619 16.9268C11.8674 17.5541 12.2938 18.3364 12.8168 18.8607C13.4703 19.5159 13.4703 20.5781 12.8168 21.2333C12.2938 21.7576 11.5816 22.0709 10.8468 21.9863Z");
+}
+
+.z472a114k {
+  cx: 17.5px;
+  cy: 11.5px;
+  r: 1.5px;
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+</style>

@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/j/j6cjvt0fe.css';
-import '../../css/v/v_g5znc-a.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,21 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="j6cjvt0fe"/><path class="v_g5znc-a"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:broom-line-duotone" /></template>
+<style>
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.j6cjvt0fe {
+  d: path("M12.7282 5.53569C14.2903 3.97359 16.8229 3.97351 18.385 5.53561C19.9471 7.09771 19.9471 9.63044 18.3851 11.1925M3.57976 12.9792L2.91289 11.883C2.04084 10.1746 2.60107 7.96517 4.40797 7.01113C5.26178 6.56033 6.2187 6.13191 7.16958 5.86008C10.0291 5.04262 12.535 5.34235 12.535 5.34235L18.5782 11.3855C18.5782 11.3855 18.8779 13.8914 18.0604 16.7509C17.7886 17.7018 17.3602 18.6587 16.9094 19.5125C15.9553 21.3194 13.7459 21.8797 12.0375 21.0076L10.9412 20.3407C7.93376 18.5112 5.40928 15.9867 3.57976 12.9792Z");
+}
+
+.v_g5znc-a {
+  d: path("M20.5061 3.41406L18.3848 5.53538");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+</style>

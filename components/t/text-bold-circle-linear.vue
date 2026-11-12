@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/w/w3r9-bcte.css';
-import '../../css/r/r6ybk4brv.css';
-import '../../css/r/rwmcjfboi.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,24 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="w3r9-bcte"/><path class="r6ybk4brv"/><path class="rwmcjfboi"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:text-bold-circle-linear" /></template>
+<style>
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.r6ybk4brv {
+  d: path("M8 12H12C13.6569 12 15 10.6569 15 9C15 7.34315 13.6569 6 12 6H9.52174C8.68131 6 8 6.68131 8 7.52174V12Z");
+}
+
+.rwmcjfboi {
+  d: path("M8 12H13C14.6569 12 16 13.3431 16 15C16 16.6569 14.6569 18 13 18H9.17647C8.52672 18 8 17.4733 8 16.8235V12Z");
+}
+
+.w3r9-bcte {
+  d: path("M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22Z");
+}
+
+</style>

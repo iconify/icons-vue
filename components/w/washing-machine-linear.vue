@@ -1,14 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/b/baciku7_x.css';
-import '../../css/j/jxz50xbgf.css';
-import '../../css/k/k8zkzcbex.css';
-import '../../css/l/ljy83tbko.css';
-import '../../css/t/tq7kvx37d.css';
-import '../../css/g/g4uzw-b-k.css';
-import '../../css/c/c-qa2bcch.css';
-import '../../css/n/n2pg5aclz.css';
 
 const props = defineProps(["width","height"]);
 
@@ -16,3 +7,46 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="baciku7_x"/><path class="jxz50xbgf"/><path class="k8zkzcbex"/><path class="ljy83tbko"/><path class="tq7kvx37d"/><path class="g4uzw-b-k"/><path class="c-qa2bcch"/><path class="n2pg5aclz"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:washing-machine-linear" /></template>
+<style>
+.baciku7_x {
+  d: path("M6 22V21");
+}
+
+.c-qa2bcch {
+  stroke-linejoin: round;
+  d: path("M14.5 5.5H14.5001");
+}
+
+.g4uzw-b-k {
+  d: path("M6.5 5.5H9.5");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.jxz50xbgf {
+  d: path("M18 22V21");
+}
+
+.k8zkzcbex {
+  d: path("M11 21H13C16.7712 21 18.6569 21 19.8284 19.8284C21 18.6569 21 16.7712 21 13V10C21 6.22876 21 4.34315 19.8284 3.17157C18.6569 2 16.7712 2 13 2H11C7.22876 2 5.34315 2 4.17157 3.17157C3 4.34315 3 6.22876 3 10V13C3 16.7712 3 18.6569 4.17157 19.8284C5.34315 21 7.22876 21 11 21Z");
+}
+
+.ljy83tbko {
+  d: path("M3 9H21");
+}
+
+.n2pg5aclz {
+  stroke-linejoin: round;
+  d: path("M17.5 5.5H17.5001");
+}
+
+.tq7kvx37d {
+  d: path("M15 15C15 16.6569 13.6569 18 12 18C10.3431 18 9 16.6569 9 15C9 13.3431 10.3431 12 12 12C13.6569 12 15 13.3431 15 15Z");
+}
+
+</style>

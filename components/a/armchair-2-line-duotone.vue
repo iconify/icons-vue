@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/d/d5qib_b7x.css';
-import '../../css/z/z-47jyb-q.css';
-import '../../css/p/ppy_pacey.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,26 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="d5qib_b7x"/><path class="z-47jyb-q"/><path class="ppy_pacey"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:armchair-2-line-duotone" /></template>
+<style>
+.d5qib_b7x {
+  d: path("M16.5332 18H6.88633C6.82438 18 6.7934 18 6.76531 17.9996C5.26517 17.9786 3.93869 17.1243 3.44197 15.8594C3.43267 15.8357 3.42288 15.8095 3.40329 15.757L2.10028 12.2643C1.68469 11.1504 2.61268 10 3.92689 10C4.7372 10 5.46079 10.4533 5.73699 11.1339L6.83511 13.84C6.93505 14.0863 6.98502 14.2094 7.05744 14.3101C7.22656 14.5452 7.49217 14.7116 7.79716 14.7735C7.92777 14.8 8.07437 14.8 8.36757 14.8H15.3467C15.9158 14.8 16.2004 14.8 16.4383 14.7019C16.5683 14.6484 16.6864 14.5744 16.787 14.4835C16.9713 14.317 17.0683 14.078 17.2623 13.6L18.263 11.1339C18.5392 10.4533 19.2628 10 20.0731 10C21.3873 10 22.3153 11.1504 21.8997 12.2643L20.7803 15.2649C20.5852 15.7879 20.4876 16.0494 20.3588 16.2717C19.8348 17.1756 18.8608 17.8028 17.7354 17.9611C17.4587 18 17.1502 18 16.5332 18Z");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.ppy_pacey {
+  d: path("M18 20V18M6 20V18.6667");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.z-47jyb-q {
+  d: path("M6 11.7896V8.45117C6 6.35287 6 5.30372 6.70294 4.65186C7.40589 4 8.53726 4 10.8 4H13.2C15.4627 4 16.5941 4 17.2971 4.65186C18 5.30372 18 6.35287 18 8.45117V11.7896");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+</style>

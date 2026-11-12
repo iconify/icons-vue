@@ -1,7 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/n5_nvnutr.css';
-import '../../css/x/xe9j-trbe.css';
 
 const props = defineProps(["width","height"]);
 
@@ -9,3 +7,15 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="n5_nvnutr"/><path class="xe9j-trbe"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:chevrons-left-right-bold" /></template>
+<style>
+.n5_nvnutr {
+  fill: currentColor;
+  d: path("M8.46967 5.46967C8.76256 5.17678 9.23732 5.17678 9.53022 5.46967C9.82305 5.76257 9.82309 6.23734 9.53022 6.53022L4.06049 11.9999L9.53022 17.4697C9.82305 17.7626 9.82309 18.2373 9.53022 18.5302C9.23734 18.8231 8.76257 18.8231 8.46967 18.5302L2.46967 12.5302C2.17678 12.2373 2.17678 11.7626 2.46967 11.4697L8.46967 5.46967Z");
+}
+
+.xe9j-trbe {
+  fill: currentColor;
+  d: path("M14.4697 5.46967C14.7626 5.17678 15.2373 5.17678 15.5302 5.46967L21.5302 11.4697C21.8231 11.7626 21.8231 12.2373 21.5302 12.5302L15.5302 18.5302C15.2373 18.8231 14.7626 18.8231 14.4697 18.5302C14.1768 18.2373 14.1768 17.7626 14.4697 17.4697L19.9394 11.9999L14.4697 6.53022C14.1768 6.23732 14.1768 5.76256 14.4697 5.46967Z");
+}
+
+</style>

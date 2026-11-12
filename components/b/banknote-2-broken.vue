@@ -1,12 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/n/n54zvri0c.css';
-import '../../css/c/c5vk6tgit.css';
-import '../../css/n/na52euwwy.css';
-import '../../css/k/kkrotxg9c.css';
-import '../../css/a/aekpxvtae.css';
-import '../../css/y/ynw34cc0h.css';
 
 const props = defineProps(["width","height"]);
 
@@ -14,3 +7,36 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="n54zvri0c"/><path class="c5vk6tgit"/><path class="na52euwwy"/><path class="kkrotxg9c"/><path class="aekpxvtae"/><path class="ynw34cc0h"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:banknote-2-broken" /></template>
+<style>
+.aekpxvtae {
+  d: path("M21.1215 19.1211C22.0002 18.2424 22.0002 16.8282 22.0002 13.9998V13.9998V13.9998C22.0002 11.1714 22.0002 9.75716 21.1215 8.87848C20.6201 8.37704 19.9442 8.16176 18.9307 8.06934");
+}
+
+.c5vk6tgit {
+  d: path("M13 11C13 12.3807 11.8807 13.5 10.5 13.5C9.11929 13.5 8 12.3807 8 11C8 9.61929 9.11929 8.5 10.5 8.5C11.8807 8.5 13 9.61929 13 11Z");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.kkrotxg9c {
+  d: path("M5 13L5 9");
+}
+
+.n54zvri0c {
+  d: path("M13 5C15.8284 5 17.2426 5 18.1213 5.87868C19 6.75736 19 8.17157 19 11C19 13.8284 19 15.2426 18.1213 16.1213C17.2426 17 15.8284 17 13 17H8C5.17157 17 3.75736 17 2.87868 16.1213C2 15.2426 2 13.8284 2 11C2 8.17157 2 6.75736 2.87868 5.87868C3.75736 5 5.17157 5 8 5H9");
+}
+
+.na52euwwy {
+  d: path("M16 13L16 9");
+}
+
+.ynw34cc0h {
+  d: path("M15.9998 19.9998H10.9998H10.9998C8.17137 19.9998 6.75716 19.9998 5.87848 19.1211C5.37704 18.6197 5.16176 17.9438 5.06934 16.9303");
+}
+
+</style>

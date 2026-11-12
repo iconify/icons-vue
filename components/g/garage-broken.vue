@@ -1,12 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/x/xpzbxokqs.css';
-import '../../css/f/fp69pgcrt.css';
-import '../../css/l/lbfuos7ub.css';
-import '../../css/o/o7iew9atz.css';
-import '../../css/k/kpbjqwesw.css';
-import '../../css/o/o8epaoc8a.css';
 
 const props = defineProps(["width","height"]);
 
@@ -14,3 +7,36 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="xpzbxokqs"/><path class="fp69pgcrt"/><path class="lbfuos7ub"/><path class="o7iew9atz"/><path class="kpbjqwesw"/><path class="o8epaoc8a"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:garage-broken" /></template>
+<style>
+.fp69pgcrt {
+  d: path("M3 22V11.3472C3 10.4903 3.36644 9.67426 4.00691 9.10496M7.25345 6.21914L10.0069 3.77163C11.1436 2.76126 12.8564 2.76126 13.9931 3.77163L19.9931 9.10496C20.6336 9.67426 21 10.4903 21 11.3472V11.9999M21 22V15.9999");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.kpbjqwesw {
+  d: path("M10 9H10.5M12.5 9H14");
+}
+
+.lbfuos7ub {
+  d: path("M9 18.5H15");
+}
+
+.o7iew9atz {
+  d: path("M18 22V16C18 14.1144 18 13.1716 17.4142 12.5858C16.8284 12 15.8856 12 14 12H10C8.11438 12 7.17157 12 6.58579 12.5858C6.11424 13.0573 6.02228 13.7602 6.00434 15M6 19V22");
+}
+
+.o8epaoc8a {
+  d: path("M9 15.5H10.5M12.5 15.5H15");
+}
+
+.xpzbxokqs {
+  d: path("M22 22L2 22");
+}
+
+</style>

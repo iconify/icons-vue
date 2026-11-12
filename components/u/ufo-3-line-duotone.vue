@@ -1,14 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/h/hg17webpa.css';
-import '../../css/m/m6t9d7bky.css';
-import '../../css/e/ei3g7d_fk.css';
-import '../../css/v/vo7gr2bvu.css';
-import '../../css/i/iz--d2ynu.css';
-import '../../css/y/ym68aulta.css';
-import '../../css/t/t9zc-2blx.css';
-import '../../css/t/ty1oijvex.css';
 
 const props = defineProps(["width","height"]);
 
@@ -16,3 +7,50 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="hg17webpa"/><path class="m6t9d7bky"/><path class="ei3g7d_fk"/><path class="vo7gr2bvu"/><path class="iz--d2ynu"/><path class="ym68aulta"/><path class="t9zc-2blx"/><path class="ty1oijvex"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:ufo-3-line-duotone" /></template>
+<style>
+.ei3g7d_fk {
+  d: path("M3.636 20.364L7.75732 16.2427");
+}
+
+.hg17webpa {
+  d: path("M11.8763 5.0932L11.8508 5.07806C9.22697 3.47479 6.85124 3.00655 5.75887 4.09892C4.12896 5.72882 5.97349 10.216 9.87873 14.1212C13.784 18.0264 18.2711 19.871 19.901 18.2411C20.9934 17.1487 20.5251 14.773 18.9219 12.1491L18.9082 12.1222");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.iz--d2ynu {
+  d: path("M1.99988 13.9999L4.2218 11.2928");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.m6t9d7bky {
+  d: path("M14.1213 9.87866C16.3768 12.1342 17.5987 12.6043 18.0951 12.6934C18.2696 12.7248 18.4304 12.6406 18.5557 12.5153C20.4024 10.6686 20.4024 7.67451 18.5557 5.82781L18.1721 5.44423C16.3254 3.59753 13.3313 3.59753 11.4846 5.44423C11.3593 5.56956 11.2752 5.73033 11.3065 5.9048C11.3957 6.40126 11.8657 7.6231 14.1213 9.87866Z");
+}
+
+.t9zc-2blx {
+  stroke-linejoin: round;
+  d: path("M11.9999 12H12");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.ty1oijvex {
+  stroke-linejoin: round;
+  d: path("M9.17163 7.75696H9.17173");
+}
+
+.vo7gr2bvu {
+  d: path("M10 22.0005L12.7072 19.7782");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.ym68aulta {
+  stroke-linejoin: round;
+  d: path("M16.2427 14.8282H16.2428");
+}
+
+</style>

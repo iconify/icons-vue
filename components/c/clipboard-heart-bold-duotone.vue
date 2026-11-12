@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/m/mo43we00a.css';
-import '../../css/g/gnkxcd53d.css';
-import '../../css/c/c4946-17v.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,21 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="mo43we00a"/><path class="gnkxcd53d"/><path class="c4946-17v"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:clipboard-heart-bold-duotone" /></template>
+<style>
+.c4946-17v {
+  fill: currentColor;
+  d: path("M14.5 2C15.3284 2 16 2.67157 16 3.5V4.5C16 5.32843 15.3284 6 14.5 6H9.5C8.67157 6 8 5.32843 8 4.5V3.5C8 2.67157 8.67157 2 9.5 2H14.5Z");
+}
+
+.gnkxcd53d {
+  fill: currentColor;
+  d: path("M12 11.6914C13.3498 10.399 14.9997 11.0234 15 12.6963C15 13.6807 13.835 14.721 12.957 15.3652C12.5373 15.6732 12.3275 15.8271 12 15.8271C11.6725 15.8271 11.4627 15.6732 11.043 15.3652C10.165 14.721 9 13.6807 9 12.6963C9.00029 11.0234 10.6502 10.399 12 11.6914Z");
+}
+
+.mo43we00a {
+  fill: currentColor;
+  d: path("M21 15.9983V9.99826C21 7.16983 21 5.75562 20.1213 4.87694C19.3529 4.10856 18.175 4.01211 16 4H8C5.82497 4.01211 4.64706 4.10856 3.87868 4.87694C3 5.75562 3 7.16983 3 9.99826V15.9983C3 18.8267 3 20.2409 3.87868 21.1196C4.75736 21.9983 6.17157 21.9983 9 21.9983H15C17.8284 21.9983 19.2426 21.9983 20.1213 21.1196C21 20.2409 21 18.8267 21 15.9983Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+</style>

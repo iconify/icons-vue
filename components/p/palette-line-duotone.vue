@@ -1,10 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/i/i1vfzkb9v.css';
-import '../../css/r/rifo2czrt.css';
-import '../../css/c/ctgpv1blf.css';
-import '../../css/y/y8fghij0j.css';
 
 const props = defineProps(["width","height"]);
 
@@ -12,3 +7,30 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="i1vfzkb9v"/><path class="rifo2czrt"/><path class="ctgpv1blf"/><path class="y8fghij0j"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:palette-line-duotone" /></template>
+<style>
+.ctgpv1blf {
+  d: path("M11.1716 7.07109L13.3137 4.929C14.3037 3.93896 14.7987 3.44394 15.3695 3.25847C15.8717 3.09532 16.4125 3.09532 16.9146 3.25847C17.4855 3.44394 17.9805 3.93896 18.9705 4.929C19.9606 5.91904 20.4556 6.41406 20.6411 6.98489C20.8042 7.48699 20.8042 8.02786 20.6411 8.52997C20.4556 9.10079 19.9606 9.59581 18.9705 10.5859L10 19.5564L10 9.89952C10 9.08202 10 8.67327 10.1522 8.30573C10.3045 7.93818 10.5935 7.64915 11.1716 7.07109Z");
+}
+
+.i1vfzkb9v {
+  d: path("M6 22C4.59987 22 3.8998 22 3.36502 21.7275C2.89462 21.4878 2.51217 21.1054 2.27248 20.635C2 20.1002 2 19.4001 2 18V6C2 4.59987 2 3.8998 2.27248 3.36502C2.51217 2.89462 2.89462 2.51217 3.36502 2.27248C3.8998 2 4.59987 2 6 2C7.40013 2 8.1002 2 8.63498 2.27248C9.10538 2.51217 9.48783 2.89462 9.72752 3.36502C10 3.8998 10 4.59987 10 6V18C10 19.4001 10 20.1002 9.72752 20.635C9.48783 21.1054 9.10538 21.4878 8.63498 21.7275C8.1002 22 7.40013 22 6 22Z");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.rifo2czrt {
+  d: path("M7 19H5");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.y8fghij0j {
+  d: path("M6 22L18 22C19.4001 22 20.1002 22 20.635 21.7275C21.1054 21.4878 21.4878 21.1054 21.7275 20.635C22 20.1002 22 19.4001 22 18C22 16.5999 22 15.8998 21.7275 15.365C21.4878 14.8946 21.1054 14.5122 20.635 14.2725C20.1002 14 19.4001 14 18 14H15.5");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+</style>

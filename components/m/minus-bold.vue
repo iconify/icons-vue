@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/m/mpyidubfm.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,10 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="mpyidubfm"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:minus-bold" /></template>
+<style>
+.mpyidubfm {
+  fill: currentColor;
+  d: path("M4 12.75C3.58579 12.75 3.25 12.4142 3.25 12C3.25 11.5858 3.58579 11.25 4 11.25L20 11.25C20.4142 11.25 20.75 11.5858 20.75 12C20.75 12.4142 20.4142 12.75 20 12.75L4 12.75Z");
+}
+
+</style>

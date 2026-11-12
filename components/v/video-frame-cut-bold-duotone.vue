@@ -1,16 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/m/manx2832l.css';
-import '../../css/i/inowgf1od.css';
-import '../../css/s/s9xp0qbks.css';
-import '../../css/p/pk3k9_xdm.css';
-import '../../css/k/kziyyodiz.css';
-import '../../css/r/r0ut4ubdk.css';
-import '../../css/e/encgw1sgz.css';
-import '../../css/f/fb411ub2i.css';
-import '../../css/l/l4ty0rvhb.css';
-import '../../css/c/cokqabbkf.css';
-import '../../css/u/ux5cbxbmg.css';
 
 const props = defineProps(["width","height"]);
 
@@ -18,3 +7,61 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="manx2832l"/><path class="inowgf1od"/><path class="s9xp0qbks"/><path class="pk3k9_xdm"/><path class="kziyyodiz"/><path class="r0ut4ubdk"/><path class="encgw1sgz"/><path class="fb411ub2i"/><path class="l4ty0rvhb"/><path class="cokqabbkf"/><path class="ux5cbxbmg"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:video-frame-cut-bold-duotone" /></template>
+<style>
+.cokqabbkf {
+  fill: currentColor;
+  d: path("M20.9944 9.25H17.75V14.75H20.9944C21 14.2163 21 13.6346 21 12.9995V10.9995C21 10.3648 21 9.78349 20.9944 9.25Z");
+}
+
+.encgw1sgz {
+  fill: currentColor;
+  d: path("M3.00559 9.25C3 9.78349 3 10.3648 3 10.9995V12.9995C3 13.6346 3 14.2163 3.0056 14.75H6.25V9.25H3.00559Z");
+}
+
+.fb411ub2i {
+  fill: currentColor;
+  d: path("M4.17157 19.828C3.40007 19.0565 3.13662 17.9753 3.04665 16.25H6.25V20.7969C5.34931 20.6359 4.69042 20.3468 4.17157 19.828Z");
+}
+
+.inowgf1od {
+  fill: currentColor;
+  d: path("M12 1.25C12.4142 1.25 12.75 1.58579 12.75 2V3.00293V3.66667C12.75 4.08088 12.4142 4.41667 12 4.41667C11.5858 4.41667 11.25 4.08088 11.25 3.66667V3.00293V2C11.25 1.58579 11.5858 1.25 12 1.25Z");
+}
+
+.kziyyodiz {
+  fill: currentColor;
+  d: path("M12.75 13.6667C12.75 13.2525 12.4142 12.9167 12 12.9167C11.5858 12.9167 11.25 13.2525 11.25 13.6667V17C11.25 17.4142 11.5858 17.75 12 17.75C12.4142 17.75 12.75 17.4142 12.75 17V13.6667Z");
+}
+
+.l4ty0rvhb {
+  fill: currentColor;
+  d: path("M17.75 7.75V3.20215C18.6507 3.3632 19.3096 3.65227 19.8284 4.17112C20.6001 4.94275 20.8635 6.02414 20.9534 7.75H17.75Z");
+}
+
+.manx2832l {
+  fill: currentColor;
+  d: path("M9.49991 3.00293H11.25H12.75H14.5C15.1483 3.00766 15.7286 3.019 16.25 3.04617V20.9529C15.7286 20.9801 15.1483 20.9914 14.5 20.9962H12.75H11.25H9.49991C8.85162 20.9914 8.2714 20.9801 7.75 20.9529V3.04617C8.2714 3.019 8.85162 3.00766 9.49991 3.00293Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.pk3k9_xdm {
+  fill: currentColor;
+  d: path("M12.75 7C12.75 6.58579 12.4142 6.25 12 6.25C11.5858 6.25 11.25 6.58579 11.25 7V10.3333C11.25 10.7475 11.5858 11.0833 12 11.0833C12.4142 11.0833 12.75 10.7475 12.75 10.3333V7Z");
+}
+
+.r0ut4ubdk {
+  fill: currentColor;
+  d: path("M6.25 3.20215C5.34931 3.3632 4.69042 3.65227 4.17157 4.17112C3.39994 4.94275 3.13653 6.02414 3.04661 7.75H6.25V3.20215Z");
+}
+
+.s9xp0qbks {
+  fill: currentColor;
+  d: path("M11.25 22V20.9962V20.3333C11.25 19.9191 11.5858 19.5833 12 19.5833C12.4142 19.5833 12.75 19.9191 12.75 20.3333V20.9962V22C12.75 22.4142 12.4142 22.75 12 22.75C11.5858 22.75 11.25 22.4142 11.25 22Z");
+}
+
+.ux5cbxbmg {
+  fill: currentColor;
+  d: path("M17.75 16.25H20.9533C20.8634 17.9753 20.5999 19.0565 19.8284 19.828C19.3096 20.3468 18.6507 20.6359 17.75 20.7969V16.25Z");
+}
+
+</style>

@@ -1,10 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/q/q-xtgobda.css';
-import '../../css/w/wuk4o269j.css';
-import '../../css/r/r4ytz2xbu.css';
-import '../../css/b/bppk80h1t.css';
 
 const props = defineProps(["width","height"]);
 
@@ -12,3 +7,29 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="q-xtgobda"/><path class="wuk4o269j"/><path class="r4ytz2xbu"/><path class="bppk80h1t"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:shop-line-duotone" /></template>
+<style>
+.bppk80h1t {
+  d: path("M20.6703 5.35133C20.4922 4.46093 20.4031 4.01573 20.2221 3.65484C19.8406 2.89439 19.1542 2.33168 18.3337 2.10675C17.9443 2 17.4903 2 16.5823 2H14.5L15.2245 9.24527C15.3809 10.8091 16.6968 12 18.2685 12C20.1989 12 21.6468 10.2339 21.2682 8.34093L20.6703 5.35133Z");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.q-xtgobda {
+  d: path("M3.5 11.0334V14C3.5 17.7712 3.5 19.6569 4.67157 20.8284C5.61466 21.7715 7.02043 21.9555 9.5 21.9913M20.5 11.0335V14C20.5 17.7712 20.5 19.6569 19.3284 20.8284C18.3853 21.7715 16.9796 21.9555 14.5 21.9913M9.5 21.9913C10.1007 22 10.7645 22 11.5 22H12.5C13.2355 22 13.8993 22 14.5 21.9913M9.5 21.9913V18.5C9.5 17.5654 9.5 17.0981 9.70096 16.75C9.83261 16.522 10.022 16.3326 10.25 16.201C10.5981 16 11.0654 16 12 16C12.9346 16 13.4019 16 13.75 16.201C13.978 16.3326 14.1674 16.522 14.299 16.75C14.5 17.0981 14.5 17.5654 14.5 18.5V21.9913");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.r4ytz2xbu {
+  d: path("M3.32927 5.35133C3.50734 4.46093 3.59638 4.01573 3.77742 3.65484C4.1589 2.89439 4.8453 2.33168 5.66579 2.10675C6.05518 2 6.5092 2 7.41722 2H9.49953L8.775 9.24527C8.61862 10.8091 7.30269 12 5.73106 12C3.80061 12 2.35275 10.2339 2.73134 8.34093L3.32927 5.35133Z");
+}
+
+.wuk4o269j {
+  d: path("M9.4998 2H14.4998L15.1515 8.51737C15.338 10.382 13.8737 12 11.9998 12C10.1259 12 8.6616 10.382 8.84806 8.51737L9.4998 2Z");
+}
+
+</style>

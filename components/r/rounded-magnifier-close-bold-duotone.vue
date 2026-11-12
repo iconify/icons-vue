@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/n9y477w0i.css';
-import '../../css/e/en0qu8tuo.css';
-import '../../css/a/attm18beq.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,23 @@ const viewBox = {"width":24,"height":24};
 const content = `<circle class="n9y477w0i"/><path class="en0qu8tuo"/><path class="attm18beq"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:rounded-magnifier-close-bold-duotone" /></template>
+<style>
+.attm18beq {
+  fill: currentColor;
+  d: path("M12.2372 8.70132C12.5301 8.40845 13.0049 8.40851 13.2978 8.70132C13.5907 8.99421 13.5907 9.46897 13.2978 9.76186L12.0605 10.9992L13.2978 12.2365C13.5906 12.5293 13.5905 13.0041 13.2978 13.297C13.0049 13.5899 12.5301 13.5899 12.2372 13.297L10.9999 12.0597L9.76264 13.297C9.46975 13.5899 8.99499 13.5899 8.70209 13.297C8.40928 13.0041 8.40923 12.5293 8.70209 12.2365L9.9394 10.9992L8.70209 9.76186C8.4092 9.46897 8.4092 8.99421 8.70209 8.70132C8.995 8.40857 9.46979 8.40847 9.76264 8.70132L10.9999 9.93862L12.2372 8.70132Z");
+}
+
+.en0qu8tuo {
+  fill: currentColor;
+  d: path("M20.2831 18.256C20.5012 18.274 20.7703 18.3591 21.0585 18.4455C21.3221 18.5244 21.5732 18.5948 21.7578 18.6935C22.7332 19.2159 23.0479 20.465 22.4374 21.3878C22.3218 21.5625 22.1341 21.7439 21.9394 21.9386C21.7447 22.1333 21.5632 22.3209 21.3886 22.4367C20.4657 23.0476 19.2168 22.7328 18.6943 21.757C18.5955 21.5723 18.5252 21.3213 18.4462 21.0578C18.3598 20.7695 18.2747 20.5004 18.2568 20.2824C18.1621 19.1263 19.127 18.1611 20.2831 18.256Z");
+}
+
+.n9y477w0i {
+  cx: 11px;
+  cy: 11px;
+  r: 9px;
+  fill: currentColor;
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+</style>

@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/n9y477w0i.css';
-import '../../css/s/swt0kss-n.css';
-import '../../css/u/u32rdbbja.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,23 @@ const viewBox = {"width":24,"height":24};
 const content = `<circle class="n9y477w0i"/><path class="swt0kss-n"/><path class="u32rdbbja"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:rounded-magnifier-slash-bold-duotone" /></template>
+<style>
+.n9y477w0i {
+  cx: 11px;
+  cy: 11px;
+  r: 9px;
+  fill: currentColor;
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.swt0kss-n {
+  fill: currentColor;
+  d: path("M20.2831 18.2569C20.5012 18.275 20.7704 18.36 21.0585 18.4463C21.322 18.5253 21.5733 18.5956 21.7578 18.6944C22.7328 19.2172 23.0483 20.4661 22.4374 21.3887C22.3217 21.5634 22.1342 21.7447 21.9394 21.9395C21.7446 22.1343 21.5633 22.3218 21.3886 22.4375C20.466 23.0484 19.2171 22.7329 18.6943 21.7579C18.5955 21.5734 18.5252 21.3221 18.4462 21.0586C18.3599 20.7705 18.2749 20.5013 18.2568 20.2832C18.1616 19.1267 19.1266 18.1617 20.2831 18.2569Z");
+}
+
+.u32rdbbja {
+  fill: currentColor;
+  d: path("M12.2372 8.70121C12.53 8.40857 13.0049 8.40879 13.2978 8.70121C13.5907 8.9941 13.5907 9.46984 13.2978 9.76273L9.76264 13.2979C9.46976 13.5908 8.99499 13.5907 8.70209 13.2979C8.4092 13.005 8.4092 12.5302 8.70209 12.2373L12.2372 8.70121Z");
+}
+
+</style>

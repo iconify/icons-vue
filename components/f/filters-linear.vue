@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/h/hv2ikpz9m.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,13 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="hv2ikpz9m"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:filters-linear" /></template>
+<style>
+.hv2ikpz9m {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M6.42042 10.2101C3.87318 10.9035 2.00024 13.233 2.00024 15.9999C2.00024 19.3136 4.68654 21.9999 8.00024 21.9999C11.314 21.9999 14.0002 19.3136 14.0002 15.9999C14.0002 15.2194 13.8512 14.4738 13.5801 13.7898M12 20.4722C13.0615 21.4223 14.4633 22 16 22C19.3138 22 22 19.3137 22 16C22 13.2331 20.1271 10.9036 17.5799 10.2102M18 8C18 11.3137 15.3138 14 12 14C8.68634 14 6.00005 11.3137 6.00005 8C6.00005 4.68629 8.68634 2 12 2C15.3138 2 18 4.68629 18 8Z");
+}
+
+</style>

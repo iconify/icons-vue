@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/m/m_-k83bxt.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,13 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="m_-k83bxt"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:map-arrow-right-linear" /></template>
+<style>
+.m_-k83bxt {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M21.0072 13.4725L4.49746 20.835C3.00163 21.5021 1.45007 20.0209 2.19099 18.6331L5.34302 12.7294C5.58818 12.2702 5.58817 11.7298 5.34302 11.2706L2.19099 5.36689C1.45006 3.97914 3.00163 2.49789 4.49746 3.16496L21.0072 10.5275C22.3309 11.1178 22.3309 12.8822 21.0072 13.4725Z");
+}
+
+</style>

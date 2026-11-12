@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/y/y6iy-gb8w.css';
-import '../../css/u/uif7prbix.css';
-import '../../css/w/w3j8bvi0u.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,21 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="y6iy-gb8w"/><path class="uif7prbix"/><path class="w3j8bvi0u"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:test-tube-minimalistic-bold-duotone" /></template>
+<style>
+.uif7prbix {
+  fill: currentColor;
+  d: path("M13.3622 2.23334C13.6753 1.92161 14.1823 1.92218 14.494 2.23529L21.7665 9.54096C22.0781 9.85398 22.0774 10.3601 21.7645 10.6718C21.4514 10.9835 20.9444 10.983 20.6327 10.6699L13.3602 3.3642C13.0486 3.05118 13.0494 2.54509 13.3622 2.23334Z");
+}
+
+.w3j8bvi0u {
+  fill: currentColor;
+  d: path("M14.0901 4.09753L3.18744 15.0484C1.60419 16.6387 1.60419 19.217 3.18744 20.8073C4.7707 22.3975 7.33768 22.3975 8.92094 20.8073L19.8236 9.8564L14.0901 4.09753Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.y6iy-gb8w {
+  fill: currentColor;
+  d: path("M7.41297 12.3212C8.50386 12.443 9.36501 13.3075 9.48622 14.4033C9.57957 15.2469 10.1176 15.9751 10.8944 16.3095L12.6669 17.0449L8.92079 20.8076C7.33756 22.3977 4.77062 22.3976 3.18739 20.8076C1.60417 19.2173 1.60424 16.639 3.18739 15.0488L5.90321 12.3212H7.41297Z");
+}
+
+</style>

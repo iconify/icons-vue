@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/t/tf5obgnbb.css';
-import '../../css/u/u__owgkcd.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,21 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="tf5obgnbb"/><path class="u__owgkcd"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:thermometer-broken" /></template>
+<style>
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.tf5obgnbb {
+  stroke-linejoin: round;
+  d: path("M11.9873 17.7093L10.8778 18.8188C10.2289 19.4677 9.32013 19.7865 8.40799 19.6851L7.60886 19.5964C7.00076 19.5288 6.39492 19.7413 5.96229 20.1739L5.57866 20.5576C4.98875 21.1475 4.03233 21.1475 3.44243 20.5576C2.85252 19.9677 2.85252 19.0112 3.44243 18.4213L3.82606 18.0377C4.25869 17.6051 4.47121 16.9992 4.40364 16.3911L4.31485 15.592C4.2135 14.6799 4.53228 13.7711 5.18123 13.1222L10.3034 8M18.396 11.3006L15.1966 14.5L11.9873 17.7093M11.9873 17.7093L10.6868 16.4087M15.1966 14.5L13.896 13.1994M18.396 11.3006L19.8202 9.87642C21.3933 8.30334 21.3933 5.75288 19.8202 4.17981C18.2471 2.60673 15.6967 2.60673 14.1236 4.17981L13.3034 5M18.396 11.3006L17.0955 10");
+}
+
+.u__owgkcd {
+  d: path("M9 15L15.5 8.5");
+}
+
+</style>

@@ -1,11 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/j/joszak3fu.css';
-import '../../css/o/op08whwzy.css';
-import '../../css/n/nhayq953l.css';
-import '../../css/u/u-0xqcbuz.css';
-import '../../css/a/ae44b6bts.css';
 
 const props = defineProps(["width","height"]);
 
@@ -13,3 +7,35 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="joszak3fu"/><path class="op08whwzy"/><path class="nhayq953l"/><path class="u-0xqcbuz"/><path class="ae44b6bts"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:syringe-line-duotone" /></template>
+<style>
+.ae44b6bts {
+  d: path("M14.9093 16.3636L12.0239 13.4783M13.2729 18L11.627 16.3541");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.joszak3fu {
+  d: path("M20.0002 6.90909L18.5456 5.45455L17.0911 4M6.18201 17.8182C4.1737 15.8099 4.1737 12.5538 6.18201 10.5455L10.4648 6.26263C11.2185 5.50893 11.5954 5.13208 12.0239 4.97611C12.4784 4.8107 12.9766 4.8107 13.431 4.97611C13.8595 5.13208 14.2364 5.50893 14.9901 6.26263L17.7376 9.0101L17.7376 9.01011C18.4913 9.7638 18.8681 10.1406 19.0241 10.5692C19.1895 11.0236 19.1895 11.5218 19.0241 11.9763C18.8681 12.4048 18.4913 12.7816 17.7376 13.5353L17.7376 13.5354L13.4547 17.8182C11.4464 19.8265 8.19032 19.8265 6.18201 17.8182Z");
+}
+
+.nhayq953l {
+  d: path("M6.18182 17.8184L4 20.0002");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.op08whwzy {
+  d: path("M17.0911 14.1819L9.81836 6.90918");
+}
+
+.u-0xqcbuz {
+  d: path("M16.3633 7.63641L18.5451 5.45459");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+</style>

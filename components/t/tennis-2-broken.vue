@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/w/w2f9w_blg.css';
-import '../../css/k/ko6o-6b9b.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,20 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="w2f9w_blg"/><path class="ko6o-6b9b"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:tennis-2-broken" /></template>
+<style>
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.ko6o-6b9b {
+  d: path("M7 3.33782C8.47087 2.48697 10.1786 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 10.1786 2.48697 8.47087 3.33782 7");
+}
+
+.w2f9w_blg {
+  d: path("M13.195 2.07117C13.195 2.07117 13.1047 2.40835 13.0349 2.99147M21.1958 15.9288C21.1958 15.9288 20.8586 15.8385 20.3187 15.6074M2.80273 8.07117C2.80273 8.07117 3.1399 8.16155 3.6798 8.39265M10.8035 21.9288C10.8035 21.9288 10.8938 21.5917 10.9636 21.0085M13.006 5.48263C13.058 6.05338 13.1545 6.67421 13.3165 7.32781M14.1602 9.67231C14.292 9.94658 14.4373 10.2228 14.5973 10.5C14.7574 10.7772 14.9239 11.0411 15.0956 11.2924M16.7041 13.1954C17.1891 13.6624 17.6786 14.0564 18.1469 14.3868M5.85166 9.61321C6.31995 9.9436 6.80936 10.3376 7.29441 10.8046M8.90292 12.7076C9.07456 12.9589 9.24114 13.2228 9.40118 13.5C9.56121 13.7772 9.7065 14.0534 9.83828 14.3277M10.682 16.6722C10.844 17.3258 10.9405 17.9466 10.9925 18.5174");
+}
+
+</style>

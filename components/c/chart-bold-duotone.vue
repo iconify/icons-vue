@@ -1,7 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/o/ogok9o5lk.css';
-import '../../css/w/wzlj4ldvm.css';
 
 const props = defineProps(["width","height"]);
 
@@ -9,3 +7,17 @@ const viewBox = {"width":24,"height":24};
 const content = `<path clip-rule="evenodd" class="ogok9o5lk"/><path class="wzlj4ldvm"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:chart-bold-duotone" /></template>
+<style>
+.ogok9o5lk {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M14 20.5V4.25C14 3.52169 13.9984 3.05091 13.9518 2.70403C13.908 2.37872 13.8374 2.27676 13.7803 2.21967C13.7232 2.16258 13.6213 2.09197 13.296 2.04823C12.9491 2.00159 12.4783 2 11.75 2C11.0217 2 10.5509 2.00159 10.204 2.04823C9.87872 2.09197 9.77676 2.16258 9.71967 2.21967C9.66258 2.27676 9.59197 2.37872 9.54823 2.70403C9.50159 3.05091 9.5 3.52169 9.5 4.25V20.5H14Z");
+}
+
+.wzlj4ldvm {
+  fill: currentColor;
+  d: path("M1.75 20.5H3.5V8.75C3.5 8.33579 3.83579 8 4.25 8H7.25C7.66421 8 8 8.33579 8 8.75V20.5H15.5V13.75C15.5 13.3358 15.8358 13 16.25 13H19.25C19.6642 13 20 13.3358 20 13.75V20.5H21.75C22.1642 20.5 22.5 20.8358 22.5 21.25C22.5 21.6642 22.1642 22 21.75 22H1.75C1.33579 22 1 21.6642 1 21.25C1 20.8358 1.33579 20.5 1.75 20.5Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+</style>

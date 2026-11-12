@@ -1,12 +1,24 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/n1lsf0bnc.css';
-import '../../css/f/fq53arb9x.css';
-import '../../css/l/l-l2fpbwv.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g clip-rule="evenodd" class="n1lsf0bnc"><path class="fq53arb9x"/><path class="l-l2fpbwv"/></g>`;
+const content = `<g clip-rule="evenodd" class="n1lsf0bnc"><path class="zsi5zmbfi"/><path class="uupwk3ben"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:laptop-bold" /></template>
+<style>
+.n1lsf0bnc {
+  fill: currentColor;
+  fill-rule: evenodd;
+}
+
+.uupwk3ben {
+  d: path("M4.35294 8C4.35294 6.11438 4.35294 5.17157 4.93873 4.58579C5.52451 4 6.46732 4 8.35294 4H15.6471C17.5327 4 18.4755 4 19.0613 4.58579C19.6471 5.17157 19.6471 6.11438 19.6471 8V15H4.35294V8ZM12 7.5C12.4142 7.5 12.75 7.16421 12.75 6.75C12.75 6.33579 12.4142 6 12 6C11.5858 6 11.25 6.33579 11.25 6.75C11.25 7.16421 11.5858 7.5 12 7.5Z");
+}
+
+.zsi5zmbfi {
+  d: path("M21.3911 17.3358C21.4356 17.3818 21.4579 17.4048 21.4787 17.4276C21.7998 17.7802 21.9843 18.2358 21.999 18.7124C22 18.7433 22 18.7753 22 18.8393C22 18.9885 22 19.0631 21.996 19.1261C21.9325 20.1314 21.1314 20.9325 20.1261 20.996C20.0631 21 19.9885 21 19.8393 21H4.16068C4.01148 21 3.93688 21 3.87388 20.996C2.86865 20.9325 2.06749 20.1314 2.00398 19.1261C2 19.0631 2 18.9885 2 18.8393C2 18.7753 2 18.7433 2.00096 18.7124C2.01569 18.2358 2.20022 17.7802 2.52127 17.4276C2.54208 17.4048 2.56433 17.3818 2.60883 17.3359L3.90311 16H20.0969L21.3911 17.3358ZM8.75 19C8.75 18.5858 9.08579 18.25 9.5 18.25H14.5C14.9142 18.25 15.25 18.5858 15.25 19C15.25 19.4142 14.9142 19.75 14.5 19.75H9.5C9.08579 19.75 8.75 19.4142 8.75 19Z");
+}
+
+</style>

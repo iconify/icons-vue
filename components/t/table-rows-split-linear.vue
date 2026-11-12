@@ -1,14 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/j/jts3wgq4j.css';
-import '../../css/t/tjrfi1_ui.css';
-import '../../css/c/c_v3i9w2p.css';
-import '../../css/y/yjol71blk.css';
-import '../../css/p/pw6_k69dy.css';
-import '../../css/t/ty0t6tblz.css';
-import '../../css/w/wh408oret.css';
-import '../../css/y/yjui92s4b.css';
 
 const props = defineProps(["width","height"]);
 
@@ -16,3 +7,44 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="jts3wgq4j"/><path class="tjrfi1_ui"/><path class="c_v3i9w2p"/><path class="yjol71blk"/><path class="pw6_k69dy"/><path class="ty0t6tblz"/><path class="wh408oret"/><path class="yjui92s4b"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:table-rows-split-linear" /></template>
+<style>
+.c_v3i9w2p {
+  d: path("M2.00122 19.0063L21.9838 19.0063");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.jts3wgq4j {
+  d: path("M15.3254 22.0063L15.3254 13.0063");
+}
+
+.pw6_k69dy {
+  d: path("M1.99243 22.0063L1.99243 21.0063C1.99243 17.2351 1.99243 15.3495 3.164 14.1779C4.33558 13.0063 6.2212 13.0063 9.99243 13.0063L13.9924 13.0063C17.7637 13.0063 19.6493 13.0063 20.8209 14.1779C21.9924 15.3495 21.9924 17.2351 21.9924 21.0063L21.9924 22.0063");
+}
+
+.tjrfi1_ui {
+  d: path("M8.65894 22.0063L8.65894 13.0063");
+}
+
+.ty0t6tblz {
+  d: path("M15.3254 2.00781L15.3254 8.00202");
+}
+
+.wh408oret {
+  d: path("M2.00122 2.01454C2.03753 4.48628 2.22243 5.88889 3.16392 6.83038C4.33549 8.00195 6.22111 8.00195 9.99235 8.00195L13.9923 8.00195C17.7636 8.00195 19.6492 8.00195 20.8208 6.83038C21.7631 5.88801 21.9475 4.48366 21.9836 2.00761");
+}
+
+.yjol71blk {
+  d: path("M2.00122 10.5063L3.6651 10.5063M20.3426 10.5063L22.0065 10.5063M6.99512 10.5063L10.3412 10.5063M13.6525 10.5063L16.9986 10.5063");
+}
+
+.yjui92s4b {
+  d: path("M8.65894 2.01223L8.65894 8.002");
+}
+
+</style>

@@ -1,7 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/a/atpjn6hvy.css';
-import '../../css/a/at2vc6bce.css';
 
 const props = defineProps(["width","height"]);
 
@@ -9,3 +7,16 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="atpjn6hvy"/><path class="at2vc6bce"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:square-arrow-right-down-bold-duotone" /></template>
+<style>
+.at2vc6bce {
+  fill: currentColor;
+  d: path("M15.5785 14.8282C15.5785 15.2425 15.2427 15.5782 14.8285 15.5782L10.5858 15.5782C10.1716 15.5782 9.83585 15.2425 9.83585 14.8282C9.83585 14.414 10.1716 14.0782 10.5858 14.0782H13.0178L8.6413 9.70172C8.34841 9.40882 8.34841 8.93395 8.6413 8.64106C8.93419 8.34816 9.40907 8.34816 9.70196 8.64106L14.0785 13.0176L14.0785 10.5856C14.0785 10.1714 14.4143 9.8356 14.8285 9.8356C15.2427 9.8356 15.5785 10.1714 15.5785 10.5856L15.5785 14.8282Z");
+}
+
+.atpjn6hvy {
+  fill: currentColor;
+  d: path("M20.5355 20.5355C19.0711 22 16.714 22 12 22C7.28595 22 4.92893 22 3.46447 20.5355C2 19.0711 2 16.714 2 12C2 7.28596 2 4.92893 3.46447 3.46447C4.92893 2 7.28595 2 12 2C16.714 2 19.0711 2 20.5355 3.46447C22 4.92893 22 7.28596 22 12C22 16.714 22 19.0711 20.5355 20.5355Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+</style>

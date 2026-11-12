@@ -1,13 +1,36 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/j/jx0p4fbya.css';
-import '../../css/a/an1auylmc.css';
-import '../../css/r/r_kt-dgff.css';
-import '../../css/e/eck4ylbag.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="jx0p4fbya"><path class="an1auylmc"/><path class="r_kt-dgff"/><path class="eck4ylbag"/></g>`;
+const content = `<g class="jx0p4fbya"><path class="an1auylmc"/><path class="r_kt-dgff"/><rect class="lqpy27syi"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:hand-heart-linear" /></template>
+<style>
+.an1auylmc {
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M7 4.71476C7 6.19986 8.72593 7.76428 10.1497 8.80219C10.9489 9.38471 11.3484 9.67598 12 9.67598C12.6516 9.67598 13.0512 9.38472 13.8503 8.8022C15.2741 7.7643 17 6.19988 17 4.71475C17 2.03759 14.2499 1.03807 12 3.10615C9.75008 1.03807 7 2.03759 7 4.71476Z");
+}
+
+.jx0p4fbya {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.lqpy27syi {
+  width: 3px;
+  height: 8px;
+  x: 2px;
+  y: 14px;
+  rx: 1.5px;
+}
+
+.r_kt-dgff {
+  stroke-linecap: round;
+  d: path("M12.7518 17.5326C13.4312 17.5968 14.0435 17.5829 14.5668 17.5292C14.6038 17.5254 14.6403 17.5214 14.6764 17.5172M14.6764 17.5172C14.6399 17.525 14.6033 17.5292 14.5668 17.5292M14.6764 17.5172C14.7962 17.5033 14.911 17.4874 15.0206 17.4699C15.932 17.3245 16.697 16.8375 17.3974 16.3084L19.2046 14.9433C19.8417 14.462 20.7873 14.4619 21.4245 14.943C21.9982 15.3762 22.1736 16.0894 21.8109 16.6707C21.388 17.3487 20.7921 18.216 20.2199 18.7459C19.6469 19.2766 18.7939 19.7504 18.0975 20.0865C17.326 20.4589 16.4738 20.6734 15.6069 20.8138C13.8488 21.0983 12.0166 21.0549 10.2763 20.6964C9.29253 20.4937 8.27079 20.3884 7.25993 20.3884H5M14.6764 17.5172C14.8222 17.486 14.9669 17.396 15.1028 17.2775C15.746 16.7161 15.7866 15.77 15.2285 15.1431C15.0991 14.9977 14.9475 14.8764 14.7791 14.7759C11.9817 13.1074 7.62942 14.3782 5 16.2429");
+}
+
+</style>

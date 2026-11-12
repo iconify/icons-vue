@@ -1,11 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/j/jv514ss1m.css';
-import '../../css/r/rbjrgob2r.css';
-import '../../css/q/qesyv5buv.css';
-import '../../css/d/djbi_ub-i.css';
-import '../../css/s/sqmdekbrs.css';
 
 const props = defineProps(["width","height"]);
 
@@ -13,3 +7,32 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="jv514ss1m"/><path class="rbjrgob2r"/><path class="qesyv5buv"/><path class="djbi_ub-i"/><path class="sqmdekbrs"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:playlist-linear" /></template>
+<style>
+.djbi_ub-i {
+  d: path("M11 18H3");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.jv514ss1m {
+  d: path("M21 6L3 6");
+}
+
+.qesyv5buv {
+  d: path("M11 14L3 14");
+}
+
+.rbjrgob2r {
+  d: path("M21 10L3 10");
+}
+
+.sqmdekbrs {
+  d: path("M14.75 16.5C14.75 14.5904 14.75 13.6355 15.2858 13.1859C15.4199 13.0734 15.5725 12.9853 15.737 12.9254C16.3942 12.6862 17.2212 13.1636 18.875 14.1185C20.5288 15.0733 21.3558 15.5507 21.4772 16.2396C21.5076 16.4119 21.5076 16.5882 21.4772 16.7605C21.3558 17.4493 20.5288 17.9268 18.875 18.8816C17.2212 19.8365 16.3942 20.3139 15.737 20.0746C15.5725 20.0148 15.4199 19.9266 15.2858 19.8142C14.75 19.3646 14.75 18.4097 14.75 16.5Z");
+}
+
+</style>

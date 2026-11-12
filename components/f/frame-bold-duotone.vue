@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/n1lsf0bnc.css';
-import '../../css/c/cfsf_3bkg.css';
-import '../../css/k/klhcydbbm.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,19 @@ const viewBox = {"width":24,"height":24};
 const content = `<g clip-rule="evenodd" class="n1lsf0bnc"><path class="cfsf_3bkg"/><path class="klhcydbbm"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:frame-bold-duotone" /></template>
+<style>
+.cfsf_3bkg {
+  d: path("M19 1.25C19.4142 1.25 19.75 1.58579 19.75 2V4.25H22C22.4142 4.25 22.75 4.58579 22.75 5C22.75 5.41421 22.4142 5.75 22 5.75H19.75V18.25H22C22.4142 18.25 22.75 18.5858 22.75 19C22.75 19.4142 22.4142 19.75 22 19.75H19.75V22C19.75 22.4142 19.4142 22.75 19 22.75C18.5858 22.75 18.25 22.4142 18.25 22V19.75H5.75V22C5.75 22.4142 5.41421 22.75 5 22.75C4.58579 22.75 4.25 22.4142 4.25 22V19.75H2C1.58579 19.75 1.25 19.4142 1.25 19C1.25 18.5858 1.58579 18.25 2 18.25H4.25V5.75H2C1.58579 5.75 1.25 5.41421 1.25 5C1.25 4.58579 1.58579 4.25 2 4.25H4.25V2C4.25 1.58579 4.58579 1.25 5 1.25C5.41421 1.25 5.75 1.58579 5.75 2V4.25H18.25V2C18.25 1.58579 18.5858 1.25 19 1.25ZM5.75 18.25H18.25V5.75H5.75V18.25Z");
+}
+
+.klhcydbbm {
+  d: path("M5.75 18.25H18.25V5.75H5.75V18.25Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.n1lsf0bnc {
+  fill: currentColor;
+  fill-rule: evenodd;
+}
+
+</style>

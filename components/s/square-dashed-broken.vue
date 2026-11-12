@@ -1,14 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/h/hntgybcog.css';
-import '../../css/f/f7hwlcctd.css';
-import '../../css/l/lpcnlnbgj.css';
-import '../../css/g/gcrwrzbef.css';
-import '../../css/u/uefkvfbed.css';
-import '../../css/m/m06sd407r.css';
-import '../../css/k/kgz6jpbsb.css';
-import '../../css/r/rl11s-bsn.css';
-import '../../css/b/bbwwipbly.css';
 
 const props = defineProps(["width","height"]);
 
@@ -16,3 +7,45 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="hntgybcog"><path class="f7hwlcctd"/><path class="lpcnlnbgj"/><path class="gcrwrzbef"/><path class="uefkvfbed"/><path class="m06sd407r"/><path class="kgz6jpbsb"/><path class="rl11s-bsn"/><path class="bbwwipbly"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:square-dashed-broken" /></template>
+<style>
+.bbwwipbly {
+  d: path("M2.00736 9.77725C2 10.4539 2 11.1923 2 12C2 12.8076 2 13.546 2.00736 14.2227");
+}
+
+.f7hwlcctd {
+  d: path("M18.6167 2.40479C19.406 2.62141 20.0249 2.95394 20.5354 3.46438C21.0455 3.97455 21.378 4.59304 21.5946 5.38176");
+}
+
+.gcrwrzbef {
+  d: path("M21.5952 18.6167C21.3786 19.406 21.0461 20.0249 20.5356 20.5354C20.0254 21.0455 19.407 21.378 18.6182 21.5946");
+}
+
+.hntgybcog {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.kgz6jpbsb {
+  d: path("M9.77725 21.9926C10.4539 22 11.1923 22 12 22C12.8076 22 13.546 22 14.2227 21.9926");
+}
+
+.lpcnlnbgj {
+  d: path("M14.2228 2.00736C13.5461 2 12.8077 2 12 2C11.1924 2 10.454 2 9.77734 2.00736");
+}
+
+.m06sd407r {
+  d: path("M5.3833 21.5952C4.59397 21.3786 3.97509 21.0461 3.46464 20.5356C2.95447 20.0254 2.62203 19.407 2.4054 18.6182");
+}
+
+.rl11s-bsn {
+  d: path("M2.40479 5.3833C2.62141 4.59397 2.95394 3.97509 3.46438 3.46464C3.97455 2.95447 4.59304 2.62203 5.38176 2.4054");
+}
+
+.uefkvfbed {
+  d: path("M21.9926 14.2228C22 13.5461 22 12.8077 22 12C22 11.1924 22 10.454 21.9926 9.77734");
+}
+
+</style>

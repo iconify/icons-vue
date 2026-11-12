@@ -1,11 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/l/lvnegepox.css';
-import '../../css/n/n6e0xbyjd.css';
-import '../../css/s/so9syjbwr.css';
-import '../../css/o/oi8qo7lax.css';
-import '../../css/q/qpifgroin.css';
 
 const props = defineProps(["width","height"]);
 
@@ -13,3 +7,32 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="lvnegepox"/><path class="n6e0xbyjd"/><path class="so9syjbwr"/><path class="oi8qo7lax"/><path class="qpifgroin"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:music-note-broken" /></template>
+<style>
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.lvnegepox {
+  d: path("M9 19C9 20.6569 7.65685 22 6 22C4.34315 22 3 20.6569 3 19C3 17.3431 4.34315 16 6 16C7.65685 16 9 17.3431 9 19Z");
+}
+
+.n6e0xbyjd {
+  d: path("M21 17C21 18.6569 19.6569 20 18 20C16.3431 20 15 18.6569 15 17C15 15.3431 16.3431 14 18 14C19.6569 14 21 15.3431 21 17Z");
+}
+
+.oi8qo7lax {
+  d: path("M21 11.5V6");
+}
+
+.qpifgroin {
+  d: path("M15.7351 3.75503L11.7351 5.08836C10.4151 5.52837 9.75503 5.74838 9.37752 6.27215C9 6.79593 9 7.49165 9 8.88309V12.0001L21 8.00006V7.54976C21 5.0173 21 3.75107 20.1694 3.15242C19.3388 2.55378 18.1376 2.95419 15.7351 3.75503Z");
+}
+
+.so9syjbwr {
+  d: path("M9 19V8");
+}
+
+</style>

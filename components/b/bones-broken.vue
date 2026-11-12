@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/f/fdmnrgb0f.css';
-import '../../css/y/yt8oais7s.css';
-import '../../css/s/si_mtzbvj.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,26 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="fdmnrgb0f"/><path class="yt8oais7s"/><path class="si_mtzbvj"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:bones-broken" /></template>
+<style>
+.fdmnrgb0f {
+  stroke-linejoin: round;
+  d: path("M9.4809 2.01105V4.0606C9.4809 4.61708 9.00457 5.05911 8.52039 5.33341C7.60566 5.85162 6.96191 7.03991 6.96191 8.09098C6.96191 9.48218 8.0897 10.61 9.4809 10.61C10.8721 10.61 11.9999 9.48218 11.9999 8.09098C11.9999 9.48218 13.1277 10.61 14.5189 10.61C15.9101 10.61 17.0379 9.48218 17.0379 8.09098C17.0379 7.03991 16.3941 5.85162 15.4794 5.33341C14.9952 5.05911 14.5189 4.61708 14.5189 4.0606V2.01105");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.si_mtzbvj {
+  d: path("M22 12C22 16.714 22 19.0711 20.5355 20.5355C19.0711 22 16.714 22 12 22C7.28595 22 4.92893 22 3.46447 20.5355C2 19.0711 2 16.714 2 12C2 7.28595 2 4.92893 3.46447 3.46447C4.92893 2 7.28595 2 12 2C16.714 2 19.0711 2 20.5355 3.46447C21.5093 4.43821 21.8356 5.80655 21.9449 8");
+}
+
+.yt8oais7s {
+  stroke-linejoin: round;
+  d: path("M9.51899 21.9896V19.9848C9.51899 19.4283 9.04266 18.9863 8.55848 18.712C7.64375 18.1938 7 17.0055 7 15.9544C7 14.5632 8.12779 13.4354 9.51899 13.4354C10.9102 13.4354 12.038 14.5632 12.038 15.9544C12.038 14.5632 13.1658 13.4354 14.557 13.4354C15.9482 13.4354 17.076 14.5632 17.076 15.9544C17.076 17.0055 16.4322 18.1938 15.5175 18.712C15.0333 18.9863 14.557 19.4283 14.557 19.9848V21.9883");
+}
+
+</style>

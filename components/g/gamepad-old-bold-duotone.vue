@@ -1,14 +1,37 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/l/lvqw1eblr.css';
-import '../../css/b/bugs1lbja.css';
-import '../../css/w/wh6_lm8cy.css';
-import '../../css/i/ik78sgb1x.css';
-import '../../css/n/n4bf-vlvt.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="lvqw1eblr"/><path class="bugs1lbja"/><path class="wh6_lm8cy"/><path class="ik78sgb1x"/><path class="n4bf-vlvt"/>`;
+const content = `<path class="c0uermklu"/><path class="myu7m9bhv"/><path class="l220er6es"/><path class="jy5pnpuzf"/><path class="rlmk47boc"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:gamepad-old-bold-duotone" /></template>
+<style>
+.c0uermklu {
+  fill: currentColor;
+  d: path("M12.75 4.80005H14C17.7712 4.80005 19.6569 4.80005 20.8284 5.97162C22 7.14319 22 9.02881 22 12.8C22 16.5713 22 18.4569 20.8284 19.6285C19.6569 20.8 17.7712 20.8 14 20.8H10C6.22876 20.8 4.34315 20.8 3.17157 19.6285C2 18.4569 2 16.5713 2 12.8C2 9.02881 2 7.14319 3.17157 5.97162C4.34315 4.80005 6.22876 4.80005 10 4.80005H11.25H12.75Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.jy5pnpuzf {
+  fill: currentColor;
+  d: path("M15 10.3C15.5523 10.3 16 10.7478 16 11.3C16 11.8523 15.5523 12.3 15 12.3C14.4477 12.3 14 11.8523 14 11.3C14 10.7478 14.4477 10.3 15 10.3Z");
+}
+
+.l220er6es {
+  fill: currentColor;
+  d: path("M17 13.3C17.5523 13.3 18 13.7478 18 14.3C18 14.8523 17.5523 15.3 17 15.3C16.4477 15.3 16 14.8523 16 14.3C16 13.7478 16.4477 13.3 17 13.3Z");
+}
+
+.myu7m9bhv {
+  fill: currentColor;
+  d: path("M8 10.05C8.41421 10.05 8.75 10.3858 8.75 10.8V11.8499C8.75 11.9603 8.83974 12.05 8.9502 12.05H10C10.4142 12.05 10.75 12.3858 10.75 12.8C10.75 13.2143 10.4142 13.55 10 13.55H8.9502C8.83974 13.55 8.75 13.6398 8.75 13.7502V14.8C8.75 15.2143 8.41421 15.55 8 15.55C7.58579 15.55 7.25 15.2143 7.25 14.8V13.7502C7.25 13.6398 7.16026 13.55 7.0498 13.55H6C5.58579 13.55 5.25 13.2143 5.25 12.8C5.25 12.3858 5.58579 12.05 6 12.05H7.0498C7.16026 12.05 7.25 11.9603 7.25 11.8499V10.8C7.25 10.3858 7.58579 10.05 8 10.05Z");
+}
+
+.rlmk47boc {
+  fill: currentColor;
+  d: path("M15 0.0500488C15.4142 0.0500488 15.75 0.385835 15.75 0.800049V1.80005C15.75 2.76655 14.9665 3.55005 14 3.55005H13C12.8619 3.55005 12.75 3.66198 12.75 3.80005V4.80005H11.25V3.80005C11.25 2.83355 12.0335 2.05005 13 2.05005H14C14.1381 2.05005 14.25 1.93812 14.25 1.80005V0.800049C14.25 0.385835 14.5858 0.0500488 15 0.0500488Z");
+}
+
+</style>

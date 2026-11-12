@@ -1,12 +1,27 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/x/x6yy04fix.css';
-import '../../css/o/o4u834bpr.css';
-import '../../css/a/avmk686_u.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="x6yy04fix"/><path class="o4u834bpr"/><path class="avmk686_u"/>`;
+const content = `<path class="fz14c5v4a"/><path class="j1pqdhb-k"/><path class="q6sbdnbwg"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:notebook-square-bold-duotone" /></template>
+<style>
+.fz14c5v4a {
+  fill: currentColor;
+  d: path("M2 10C2 6.22876 2 4.34315 3.17157 3.17157C4.34315 2 6.22876 2 10 2H14C17.7712 2 19.6569 2 20.8284 3.17157C22 4.34315 22 6.22876 22 10V14C22 17.7712 22 19.6569 20.8284 20.8284C19.6569 22 17.7712 22 14 22H10C6.22876 22 4.34315 22 3.17157 20.8284C2 19.6569 2 17.7712 2 14V10Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.j1pqdhb-k {
+  fill: currentColor;
+  d: path("M6 13.9108V8.49649C6 7.67251 6.66539 7.00074 7.48717 7.06091C7.99967 7.09844 8.55592 7.16228 9 7.27079C9.8239 7.4721 10.851 7.9711 11.4646 8.29318C11.4763 8.29933 11.4881 8.30525 11.5 8.31094V16.7262C11.4975 16.7249 11.495 16.7236 11.4926 16.7223C10.8826 16.4009 9.83655 15.8896 9 15.6852C8.56248 15.5783 8.01608 15.5147 7.50991 15.477C6.67934 15.4151 6 14.7437 6 13.9108Z");
+}
+
+.q6sbdnbwg {
+  fill: currentColor;
+  d: path("M12.5 16.7262C12.5025 16.7249 12.505 16.7236 12.5074 16.7223C13.1174 16.4009 14.1634 15.8896 15 15.6852C15.4375 15.5783 15.9839 15.5147 16.4901 15.477C17.3207 15.4151 18 14.7437 18 13.9108V8.45154C18 7.64543 17.3619 6.98216 16.5568 7.0217C15.9405 7.05197 15.2404 7.12099 14.7 7.27079C13.9685 7.47356 13.0752 7.95027 12.5219 8.27042C12.5147 8.27462 12.5073 8.27874 12.5 8.28277V16.7262Z");
+}
+
+</style>

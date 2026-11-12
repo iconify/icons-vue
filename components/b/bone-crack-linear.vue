@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/h/hntgybcog.css';
-import '../../css/h/hv308dboi.css';
-import '../../css/q/qa___lkpn.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,21 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="hntgybcog"><path class="hv308dboi"/><path class="qa___lkpn"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:bone-crack-linear" /></template>
+<style>
+.hntgybcog {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.hv308dboi {
+  d: path("M13.2895 5.78973C13.0092 4.77649 13.3942 3.48105 14.1374 2.73782C15.1212 1.7541 16.7161 1.7541 17.6998 2.73782C18.6835 3.72155 18.6835 5.31649 17.6998 6.30021C18.6835 5.31649 20.2785 5.31649 21.2622 6.30021C22.2459 7.28394 22.2459 8.87887 21.2622 9.8626C20.519 10.6058 19.2235 10.9909 18.2103 10.7105C17.674 10.5621 17.0246 10.5378 16.6311 10.9313L10.9313 16.6311C10.5378 17.0246 10.562 17.674 10.7105 18.2103C10.9908 19.2236 10.6058 20.519 9.86257 21.2622C8.87884 22.246 7.28391 22.246 6.30018 21.2622C5.31646 20.2785 5.31646 18.6836 6.30018 17.6998C5.31646 18.6836 3.72152 18.6836 2.73779 17.6998C1.75407 16.7161 1.75407 15.1212 2.73779 14.1375C3.48102 13.3942 4.77646 13.0092 5.7897 13.2896C6.32603 13.438 6.97541 13.4622 7.3689 13.0687L13.0687 7.36893C13.4622 6.97544 13.438 6.32606 13.2895 5.78973Z");
+}
+
+.qa___lkpn {
+  d: path("M10.2324 10.2322V12.3536L12.3537 11.6465V13.0607L14.9999 12.4999");
+}
+
+</style>

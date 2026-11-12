@@ -1,11 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/k/km0klhbji.css';
-import '../../css/p/pzh9jhb6y.css';
-import '../../css/d/dfwvprboi.css';
-import '../../css/r/rsrcios1h.css';
-import '../../css/v/vn59_jbgk.css';
 
 const props = defineProps(["width","height"]);
 
@@ -13,3 +7,32 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="km0klhbji"/><path class="pzh9jhb6y"/><path class="dfwvprboi"/><path class="rsrcios1h"/><path class="vn59_jbgk"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:backpack-broken" /></template>
+<style>
+.dfwvprboi {
+  d: path("M15.9581 4.5C15.72 3.08114 14.486 2 12.9995 2H10.9995C9.51304 2 8.27905 3.08114 8.04102 4.5");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.km0klhbji {
+  d: path("M20.9994 10.7303C21 10.7717 21 10.8182 21 10.9112V16.3752C21 18.4931 19.529 20.3269 17.4615 20.7863C13.8644 21.5857 10.1356 21.5857 6.53853 20.7863C4.47101 20.3269 3 18.4931 3 16.3752V10.9112C3 10.8182 3 10.7717 3.00057 10.7303C3.0385 7.98019 4.94139 5.60802 7.61778 4.97441C7.65802 4.96489 7.70342 4.9548 7.79419 4.93463L7.79425 4.93461L7.79437 4.93459C7.87791 4.91602 7.9197 4.90674 7.96109 4.89773C10.6226 4.31874 13.3774 4.31874 16.0389 4.89773C16.0803 4.90674 16.1221 4.91603 16.2057 4.93461C16.2966 4.95479 16.342 4.96488 16.3822 4.97441C17.6946 5.2851 18.821 6.0138 19.6327 7.00011");
+}
+
+.pzh9jhb6y {
+  d: path("M17.5 15.5V17");
+}
+
+.rsrcios1h {
+  d: path("M12 15.9099C15.0676 15.9099 18.1351 15.2733 21 14M3 14C4.6144 14.7175 6.29316 15.2329 8 15.546");
+}
+
+.vn59_jbgk {
+  d: path("M10 13H14");
+}
+
+</style>

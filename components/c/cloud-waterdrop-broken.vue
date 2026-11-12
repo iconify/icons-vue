@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/m/mp06uz8ka.css';
-import '../../css/c/cz_ntqbfa.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,20 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="mp06uz8ka"/><path class="cz_ntqbfa"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:cloud-waterdrop-broken" /></template>
+<style>
+.cz_ntqbfa {
+  d: path("M14.381 8.02721C14.9767 7.81911 15.6178 7.70588 16.2857 7.70588C16.9404 7.70588 17.5693 7.81468 18.1551 8.01498M7.11616 10.6089C6.8475 10.5567 6.56983 10.5294 6.28571 10.5294C3.91878 10.5294 2 12.4256 2 14.7647C2 16.6611 3.26124 18.2664 5 18.8061M7.11616 10.6089C6.88706 9.9978 6.7619 9.33687 6.7619 8.64706C6.7619 5.52827 9.32028 3 12.4762 3C15.4159 3 17.8371 5.19371 18.1551 8.01498M7.11616 10.6089C7.68058 10.7184 8.20528 10.9374 8.66667 11.2426M18.1551 8.01498C19.0446 8.31916 19.8345 8.83436 20.4633 9.5M22 13.3529C22 15.6958 20.5562 17.7055 18.5 18.5604");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.mp06uz8ka {
+  d: path("M15 19.0834C15 20.6942 13.6569 22 12 22C10.3431 22 9 20.6942 9 19.0834C9 18.1715 9.96143 16.9834 10.7958 16.1241C11.4626 15.4373 12.5374 15.4373 13.2042 16.1241C14.0386 16.9834 15 18.1715 15 19.0834Z");
+}
+
+</style>

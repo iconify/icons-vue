@@ -1,10 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/b/bet-qjsfp.css';
-import '../../css/h/hwifnpb2v.css';
-import '../../css/w/woqg6bste.css';
-import '../../css/y/yhc08k3ha.css';
 
 const props = defineProps(["width","height"]);
 
@@ -12,3 +7,28 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="bet-qjsfp"/><path class="hwifnpb2v"/><path class="woqg6bste"/><path class="yhc08k3ha"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:weigher-linear" /></template>
+<style>
+.bet-qjsfp {
+  d: path("M11 22H13C16.7712 22 18.6569 22 19.8284 20.8284C21 19.6569 21 17.7712 21 14V10C21 6.22876 21 4.34315 19.8284 3.17157C18.6569 2 16.7712 2 13 2H11C7.22876 2 5.34315 2 4.17157 3.17157C3 4.34315 3 6.22876 3 10V14C3 17.7712 3 19.6569 4.17157 20.8284C5.34315 22 7.22876 22 11 22Z");
+}
+
+.hwifnpb2v {
+  d: path("M8 18H16");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.woqg6bste {
+  d: path("M17.0771 8.30695L16.4115 9.97103C16.1757 10.5604 15.5408 10.8851 14.9249 10.7311C13.0045 10.251 10.9954 10.251 9.07499 10.7311C8.45912 10.8851 7.82419 10.5604 7.58842 9.97103L6.92279 8.30695C6.44861 7.12149 7.19154 5.80129 8.45095 5.59138L8.87638 5.52048C10.9445 5.17579 13.0554 5.17579 15.1235 5.52048L15.549 5.59138C16.8084 5.80129 17.5513 7.12149 17.0771 8.30695Z");
+}
+
+.yhc08k3ha {
+  d: path("M10.1796 9.92881L9.50464 8.04614");
+}
+
+</style>

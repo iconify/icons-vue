@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/l/lahr7gp7l.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,13 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="lahr7gp7l"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:fire-minimalistic-linear" /></template>
+<style>
+.lahr7gp7l {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M20 13.504C20 17.6439 16.4183 21 12 21C7.58172 21 4 17.6439 4 13.504C4 8.51143 6.9046 4.90436 9.08645 3.11539C9.46972 2.80113 9.97151 3.17868 9.83483 3.64868C8.31688 8.86844 10.1975 9.92086 11.4286 9.75607C13.4178 9.75607 14.9742 7.3229 15.7212 5.63288C15.8683 5.30006 16.3017 5.18584 16.562 5.44436C17.9654 6.83811 20 9.76257 20 13.504Z");
+}
+
+</style>

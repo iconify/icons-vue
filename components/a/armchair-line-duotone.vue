@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/a/awr1zxi0y.css';
-import '../../css/d/dh-362btw.css';
-import '../../css/u/uniftz_yv.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,27 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="awr1zxi0y"/><path class="dh-362btw"/><path class="uniftz_yv"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:armchair-line-duotone" /></template>
+<style>
+.awr1zxi0y {
+  d: path("M6 10.2656V8.15385C6 5.85325 6 4.70296 6.48231 3.84615C6.79827 3.28485 7.25273 2.81874 7.8 2.49468C8.63538 2 9.75692 2 12 2C14.2431 2 15.3646 2 16.2 2.49468C16.7473 2.81874 17.2017 3.28485 17.5177 3.84615C18 4.70296 18 5.85325 18 8.15383V8.15385V10.2656");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.dh-362btw {
+  stroke-linejoin: round;
+  d: path("M17.1786 21H6.82143C5.82546 21 5.32748 21 4.91555 20.8997C3.51119 20.5578 2.41456 19.3881 2.09402 17.8901C2 17.4507 2 16.9195 2 15.8571V11.2456C2 10.0054 2.94256 9 4.10526 9C5.26797 9 6.21053 10.0054 6.21053 11.2456V16.3333H17.7895V11.2456C17.7895 10.0054 18.732 9 19.8947 9C21.0574 9 22 10.0054 22 11.2456V15.8571C22 16.9195 22 17.4507 21.906 17.8901C21.5854 19.3881 20.4888 20.5578 19.0845 20.8997C18.6725 21 18.1745 21 17.1786 21Z");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.uniftz_yv {
+  d: path("M19.5 22V21M4.5 22V21");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+</style>

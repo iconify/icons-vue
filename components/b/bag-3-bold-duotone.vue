@@ -1,11 +1,22 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/j/jxjhjgbtl.css';
-import '../../css/k/kcmyxgenc.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="jxjhjgbtl"/><path class="kcmyxgenc"/>`;
+const content = `<path class="ltuiicbhl"/><path class="zo1ttrbwk"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:bag-3-bold-duotone" /></template>
+<style>
+.ltuiicbhl {
+  fill: currentColor;
+  d: path("M3.77706 10.5257C4.36228 7.40452 4.65489 5.84393 5.76579 4.92196C5.76579 4.92196 5.76579 4.92196 5.76579 4.92196C6.87669 4 8.46447 4 11.64 4H12.3612C15.5368 4 17.1246 4 18.2355 4.92196C18.2355 4.92196 18.2355 4.92196 18.2355 4.92196C19.3464 5.84393 19.639 7.40452 20.2242 10.5257C21.0471 14.9146 21.4586 17.1091 20.259 18.5545C20.259 18.5545 20.259 18.5545 20.259 18.5545C19.0593 20 16.8266 20 12.3612 20H11.64C7.17463 20 4.94192 20 3.7423 18.5545C3.7423 18.5545 3.7423 18.5545 3.7423 18.5545C2.54268 17.1091 2.95414 14.9146 3.77706 10.5257Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.zo1ttrbwk {
+  fill: currentColor;
+  d: path("M14.1211 7.74988C14.2591 7.35952 14.6878 7.15515 15.0782 7.29285C15.4687 7.43088 15.6732 7.85935 15.5352 8.24988C15.0207 9.70525 13.6329 10.7499 11.9991 10.7499C10.3653 10.7497 8.97736 9.7052 8.46294 8.24988C8.32504 7.85947 8.52964 7.43096 8.91997 7.29285C9.31042 7.15485 9.73887 7.35951 9.877 7.74988C10.1862 8.62467 11.0207 9.24971 11.9991 9.24988C12.9776 9.24988 13.8119 8.62477 14.1211 7.74988Z");
+}
+
+</style>

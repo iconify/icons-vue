@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/d/dm2oz9bnr.css';
-import '../../css/l/lv6i0qblq.css';
-import '../../css/r/r6c_bmbvc.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,24 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="dm2oz9bnr"/><path class="lv6i0qblq"/><path class="r6c_bmbvc"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:skirt-broken" /></template>
+<style>
+.dm2oz9bnr {
+  d: path("M9.82136 6L7.8917 21.5M14.1786 6L16.1083 21.5M19.2184 9L21.9193 17.9529C22.1353 18.6686 21.9178 19.4379 21.2655 19.8293C19.8429 20.6828 16.8602 22 12 22C7.13982 22 4.15709 20.6828 2.7345 19.8293C2.08222 19.4379 1.86473 18.6686 2.08066 17.9529L2.36813 17");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.lv6i0qblq {
+  d: path("M18.1626 4V5.5");
+}
+
+.r6c_bmbvc {
+  d: path("M5.83738 5.5L3.57471 13M5.83738 5.5H18.1623M5.83738 5.5V4V4C5.83738 3.05719 5.83738 2.58579 6.1382 2.29289C6.43902 2 6.92319 2 7.89152 2H16.1081C17.0764 2 17.5606 2 17.8614 2.29289C18.1623 2.58579 18.1623 3.05719 18.1623 3.99999V4");
+}
+
+</style>

@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/p/p82yzhump.css';
-import '../../css/e/efyt3acxm.css';
-import '../../css/l/l1vnaybdh.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,24 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="p82yzhump"/><path class="efyt3acxm"/><path class="l1vnaybdh"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:satellite-broken" /></template>
+<style>
+.efyt3acxm {
+  d: path("M17.9999 2.14453C18.905 2.36174 19.7634 2.82354 20.4698 3.52995C22.5099 5.57005 22.5099 8.87772 20.4698 10.9178C18.4297 12.9579 15.1221 12.9579 13.082 10.9179M20.4698 10.9178L17.6464 16M14.9999 2.30968C14.2999 2.56214 13.6429 2.9689 13.0819 3.52995C11.0418 5.57005 11.0418 8.87772 13.0819 10.9178C13.0819 10.9179 13.0819 10.9179 13.082 10.9179M13.082 10.9179L16.1601 7.83977M13.082 10.9179L10.9999 12.9999M13.0819 3.52995L6.83594 7");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.l1vnaybdh {
+  d: path("M9 15.0004L5 19.0003M16.5 18.0005L14.3132 22.0003M5 8.02051L2 9.68721");
+}
+
+.p82yzhump {
+  d: path("M13.0813 3.53027C13.0813 3.53027 13.6969 5.37747 16.1595 7.8401C18.6222 10.3027 20.4692 10.9182 20.4692 10.9182");
+}
+
+</style>

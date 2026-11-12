@@ -1,10 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/h/hntgybcog.css';
-import '../../css/z/zob7utbzb.css';
-import '../../css/t/tmnt0-fuj.css';
-import '../../css/u/uoxjs6bit.css';
-import '../../css/a/at_81ebpk.css';
 
 const props = defineProps(["width","height"]);
 
@@ -12,3 +7,31 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="hntgybcog"><path class="zob7utbzb"/><path class="tmnt0-fuj"/><path class="uoxjs6bit"/><path class="at_81ebpk"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:swimming-line-duotone" /></template>
+<style>
+.at_81ebpk {
+  d: path("M19.5 5.5C19.5 6.88071 18.3807 8 17 8C15.6193 8 14.5 6.88071 14.5 5.5C14.5 4.11929 15.6193 3 17 3C18.3807 3 19.5 4.11929 19.5 5.5Z");
+}
+
+.hntgybcog {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.tmnt0-fuj {
+  d: path("M22 20.7724C20.4123 20.3983 19.5955 19.4792 18.9199 18.457C18.4965 17.8165 17.5655 17.8554 17.1055 18.4702C16.0541 19.8758 14.4844 21 12 21C9.49345 21 7.91806 19.5696 6.86651 18.2236C6.42721 17.6612 5.58617 17.6687 5.20168 18.2699C4.50078 19.3656 3.68402 20.3756 2 20.7724");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.uoxjs6bit {
+  d: path("M4 11.5L7.47693 9.41382C8.27334 8.93597 8.4485 7.85657 7.84407 7.15139L6.85636 5.99906C6.37314 5.4353 6.40542 4.59455 6.93046 4.06952C7.51004 3.48994 8.45844 3.51955 9.00074 4.13415L15.5 11.5");
+}
+
+.zob7utbzb {
+  d: path("M22 15.7724C20.4123 15.3983 19.5955 14.4792 18.9199 13.457C18.4965 12.8165 17.5655 12.8554 17.1055 13.4702C16.0541 14.8758 14.4844 16 12 16C9.49345 16 7.91806 14.5696 6.86651 13.2236C6.42721 12.6612 5.58617 12.6687 5.20168 13.2699C4.50078 14.3656 3.68402 15.3756 2 15.7724");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+</style>

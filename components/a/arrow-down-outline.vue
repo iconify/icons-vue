@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/q/q8g_y9igt.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,11 @@ const viewBox = {"width":24,"height":24};
 const content = `<path clip-rule="evenodd" class="q8g_y9igt"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:arrow-down-outline" /></template>
+<style>
+.q8g_y9igt {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M12 3.25C12.4142 3.25 12.75 3.58579 12.75 4L12.75 18.1893L17.4697 13.4697C17.7626 13.1768 18.2374 13.1768 18.5303 13.4697C18.8232 13.7626 18.8232 14.2374 18.5303 14.5303L12.5303 20.5303C12.3897 20.671 12.1989 20.75 12 20.75C11.8011 20.75 11.6103 20.671 11.4697 20.5303L5.46967 14.5303C5.17678 14.2374 5.17678 13.7626 5.46967 13.4697C5.76256 13.1768 6.23744 13.1768 6.53033 13.4697L11.25 18.1893L11.25 4C11.25 3.58579 11.5858 3.25 12 3.25Z");
+}
+
+</style>

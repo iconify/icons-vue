@@ -1,11 +1,17 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/k/kk94-14if.css';
-import '../../css/t/tjyrjeb2d.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="kk94-14if"/><path clip-rule="evenodd" class="tjyrjeb2d"/>`;
+const content = `<path clip-rule="evenodd" class="x_119fbwg"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:eye-bold" /></template>
+<style>
+.x_119fbwg {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M12 4C16.1819 4 19.0285 6.49933 20.7256 8.7041C21.5755 9.80824 22 10.3607 22 12C22 13.6393 21.5755 14.1918 20.7256 15.2959C19.0285 17.5007 16.1819 20 12 20C7.81811 20 4.97149 17.5007 3.27441 15.2959C2.42453 14.1918 2 13.6393 2 12C2 10.3607 2.42453 9.80824 3.27441 8.7041C4.97149 6.49933 7.81811 4 12 4ZM12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9Z");
+}
+
+</style>

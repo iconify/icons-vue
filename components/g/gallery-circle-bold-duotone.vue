@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/z/zzudi5blo.css';
-import '../../css/s/snglypb8l.css';
-import '../../css/e/e---ckffe.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,22 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="zzudi5blo"/><path class="snglypb8l"/><path clip-rule="evenodd" class="e---ckffe"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:gallery-circle-bold-duotone" /></template>
+<style>
+.e---ckffe {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M12 1.25C17.9371 1.25 22.75 6.06294 22.75 12C22.75 17.9371 17.9371 22.75 12 22.75C6.06294 22.75 1.25 17.9371 1.25 12C1.25 6.06294 6.06294 1.25 12 1.25ZM12 2.75C7.6541 2.75 4.00841 5.7471 3.0166 9.78711C2.81042 10.5566 2.70021 11.3656 2.7002 12.2002C2.7002 17.3364 6.86384 21.4999 12 21.5C17.1362 21.5 21.2998 17.3364 21.2998 12.2002C21.2998 11.3593 21.1887 10.5442 20.9795 9.76953C19.9815 5.73836 16.3396 2.75 12 2.75Z");
+}
+
+.snglypb8l {
+  fill: currentColor;
+  d: path("M15 7C16.1046 7 17 7.89543 17 9C17 10.1046 16.1046 11 15 11C13.8954 11 13 10.1046 13 9C13 7.89543 13.8954 7 15 7Z");
+}
+
+.zzudi5blo {
+  fill: currentColor;
+  d: path("M11.1812 15.3618L6.89151 11.0721C6.0353 10.2159 4.66188 10.1702 3.75061 10.9675L2.75003 11.8623C2.73309 11.8751 2.69922 11.9607 2.69922 12.2004C2.69922 17.3366 6.86297 21.5004 11.9992 21.5004C15.2187 21.5004 18.056 19.8645 19.7254 17.3786L19.6081 17.2612L17.7755 15.599C16.736 14.6634 15.1879 14.5702 14.0436 15.3744L13.7454 15.5839C12.9503 16.1428 11.8685 16.0491 11.1812 15.3618Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+</style>

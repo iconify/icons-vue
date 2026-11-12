@@ -1,7 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/q/q3zoptn7o.css';
-import '../../css/g/gc83r37zp.css';
 
 const props = defineProps(["width","height"]);
 
@@ -9,3 +7,16 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="q3zoptn7o"/><path class="gc83r37zp"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:chat-round-bold-duotone" /></template>
+<style>
+.gc83r37zp {
+  fill: currentColor;
+  d: path("M21.8263 13.8655C21.9403 13.2611 22 12.6375 22 12C22 6.47715 17.5228 2 12 2C10.4467 2 8.97611 2.35415 7.66459 2.98611C7.59476 3.01975 7.52539 3.05419 7.45648 3.08939C6.53534 4.50152 6 6.18824 6 8C6 12.9706 10.0294 17 15 17C17.7298 17 20.1758 15.7847 21.8263 13.8655Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.q3zoptn7o {
+  fill: currentColor;
+  d: path("M7.45648 3.08939C4.21754 4.74423 2 8.11315 2 12C2 13.5997 2.37562 15.1116 3.04346 16.4525C3.22094 16.8088 3.28001 17.2161 3.17712 17.6006L2.58151 19.8267C2.32295 20.793 3.20701 21.677 4.17335 21.4185L6.39939 20.8229C6.78393 20.72 7.19121 20.7791 7.54753 20.9565C8.88836 21.6244 10.4003 22 12 22C16.8853 22 20.9524 18.4968 21.8263 13.8655C20.1758 15.7847 17.7298 17 15 17C10.0294 17 6 12.9706 6 8C6 6.18824 6.53534 4.50152 7.45648 3.08939Z");
+}
+
+</style>

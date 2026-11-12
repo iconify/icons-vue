@@ -1,15 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/x/xtpeb-edw.css';
-import '../../css/n/n22hjzb2q.css';
-import '../../css/a/ah7jg9a2e.css';
-import '../../css/f/fly9otqib.css';
-import '../../css/y/yv3_nhb2n.css';
-import '../../css/q/qv07b1bbr.css';
-import '../../css/n/nqr4yxb9r.css';
-import '../../css/o/ol11kpbfc.css';
-import '../../css/f/fngg_dbkn.css';
-import '../../css/g/gcctpwkja.css';
 
 const props = defineProps(["width","height"]);
 
@@ -17,3 +7,53 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="xtpeb-edw"><path class="n22hjzb2q"/><path class="ah7jg9a2e"/></g><path class="fly9otqib"/><path class="yv3_nhb2n"/><path class="qv07b1bbr"/><path class="nqr4yxb9r"/><path class="ol11kpbfc"/><path class="fngg_dbkn"/><path class="gcctpwkja"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:table-columns-split-bold-duotone" /></template>
+<style>
+.ah7jg9a2e {
+  d: path("M17.176 3.17155C18.1175 2.23006 19.5201 2.04516 21.9918 2.00885L21.9987 21.9912C19.5227 21.9551 18.1183 21.7708 17.176 20.8284C16.0044 19.6568 16.0044 17.7712 16.0044 14V9.99998C16.0044 6.22874 16.0044 4.34312 17.176 3.17155Z");
+}
+
+.fly9otqib {
+  fill: currentColor;
+  d: path("M13.5 19.6006C13.9142 19.6006 14.25 19.9364 14.25 20.3506V22.0137C14.25 22.4279 13.9142 22.7637 13.5 22.7637C13.0858 22.7637 12.75 22.4279 12.75 22.0137V20.3506C12.75 19.9364 13.0858 19.6006 13.5 19.6006Z");
+}
+
+.fngg_dbkn {
+  fill: currentColor;
+  d: path("M21.9941 9.41699H16.0049C16.0054 8.87667 16.0092 8.37805 16.0166 7.91699H21.9932L21.9941 9.41699Z");
+}
+
+.gcctpwkja {
+  fill: currentColor;
+  d: path("M13.5 1.25879C13.9142 1.25879 14.25 1.59458 14.25 2.00879V3.67285C14.2499 4.08695 13.9141 4.42285 13.5 4.42285C13.0859 4.42285 12.7501 4.08695 12.75 3.67285V2.00879C12.75 1.59458 13.0858 1.25879 13.5 1.25879Z");
+}
+
+.n22hjzb2q {
+  d: path("M3 2L2 2L2 22H3C6.77124 22 8.65685 22 9.82843 20.8284C11 19.6569 11 17.7712 11 14L11 10C11 6.22876 11 4.34315 9.82843 3.17157C8.65685 2 6.77124 2 3 2Z");
+}
+
+.nqr4yxb9r {
+  fill: currentColor;
+  d: path("M21.9961 16.083H16.0166C16.0092 15.622 16.0054 15.1233 16.0049 14.583H21.9951L21.9961 16.083Z");
+}
+
+.ol11kpbfc {
+  fill: currentColor;
+  d: path("M13.5 6.25293C13.9142 6.25293 14.25 6.58872 14.25 7.00293V10.3486C14.25 10.7628 13.9142 11.0986 13.5 11.0986C13.0858 11.0986 12.75 10.7628 12.75 10.3486V7.00293C12.75 6.58872 13.0858 6.25293 13.5 6.25293Z");
+}
+
+.qv07b1bbr {
+  fill: currentColor;
+  d: path("M13.5 12.9102C13.9142 12.9102 14.25 13.2459 14.25 13.6602V17.0059C14.25 17.42 13.9142 17.7559 13.5 17.7559C13.0858 17.7559 12.75 17.42 12.75 17.0059V13.6602C12.75 13.2459 13.0858 12.9102 13.5 12.9102Z");
+}
+
+.xtpeb-edw {
+  fill: currentColor;
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.yv3_nhb2n {
+  fill: currentColor;
+  d: path("M4.25 2.00098C4.79467 2.0036 5.29296 2.01141 5.75 2.02637V7.91699H10.9873C10.9947 8.37805 10.9985 8.87667 10.999 9.41699H5.75V14.583H10.999C10.9985 15.1233 10.9947 15.622 10.9873 16.083H5.75V21.9727C5.29296 21.9876 4.79468 21.9954 4.25 21.998V16.083H2V14.583H4.25V9.41699H2V7.91699H4.25V2.00098Z");
+}
+
+</style>

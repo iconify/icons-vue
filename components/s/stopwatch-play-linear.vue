@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/v/vzo3ypbps.css';
-import '../../css/u/u8gkuv4uz.css';
-import '../../css/g/gi6x2hbzd.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,26 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><circle class="vzo3ypbps"/><path class="u8gkuv4uz"/><path class="gi6x2hbzd"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:stopwatch-play-linear" /></template>
+<style>
+.gi6x2hbzd {
+  d: path("M13.0261 10.2749C12.7888 10.1083 12.5201 9.93597 12.2419 9.76679C11.1695 9.11466 10.6333 8.78859 10.1524 9.1496C9.6715 9.51061 9.62779 10.2664 9.54038 11.7778C9.51566 12.2053 9.5 12.6243 9.5 13C9.5 13.3757 9.51566 13.7947 9.54038 14.2222C9.62779 15.7336 9.6715 16.4894 10.1524 16.8504C10.6333 17.2114 11.1695 16.8853 12.2419 16.2332C12.5201 16.064 12.7888 15.8917 13.0261 15.7251C13.2966 15.5352 13.5909 15.3073 13.8876 15.0652C14.9625 14.1883 15.5 13.7499 15.5 13C15.5 12.2501 14.9625 11.8117 13.8876 10.9348C13.5909 10.6927 13.2966 10.4648 13.0261 10.2749Z");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.u8gkuv4uz {
+  d: path("M10 2H14");
+}
+
+.vzo3ypbps {
+  cx: 12px;
+  cy: 13px;
+  r: 9px;
+}
+
+</style>

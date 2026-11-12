@@ -1,10 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/b/b9hwg5m9c.css';
-import '../../css/i/ihjyqm_3u.css';
-import '../../css/b/bbto15hdo.css';
-import '../../css/i/inol7c_ew.css';
 
 const props = defineProps(["width","height"]);
 
@@ -12,3 +7,28 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="b9hwg5m9c"/><path class="ihjyqm_3u"/><path class="bbto15hdo"/><path class="inol7c_ew"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:call-medicine-broken" /></template>
+<style>
+.b9hwg5m9c {
+  d: path("M22 7C22 9.76142 19.7614 12 17 12C16.2002 12 15.4442 11.8122 14.7738 11.4783C14.5956 11.3895 14.392 11.36 14.1997 11.4114L13.0867 11.7092C12.6035 11.8385 12.1615 11.3965 12.2908 10.9133L12.5886 9.80031C12.64 9.60803 12.6105 9.4044 12.5217 9.22624C12.1878 8.55582 12 7.79984 12 7C12 4.23858 14.2386 2 17 2C19.7614 2 22 4.23858 22 7Z");
+}
+
+.bbto15hdo {
+  d: path("M2 7.96582C2.09015 9.64534 2.80783 13.2589 6.81247 17.4751C7.92563 18.647 9.02078 19.524 10.0602 20.1772");
+}
+
+.ihjyqm_3u {
+  d: path("M17 9V7M17 7L17 5M17 7L19 7M17 7L15 7");
+}
+
+.inol7c_ew {
+  d: path("M13.9563 21.7925C15.1197 22.0361 16.0622 22.0234 16.6734 21.9631C17.1888 21.9122 17.637 21.6343 17.9982 21.254L19.4188 19.7584C20.3777 18.7489 20.1073 17.0182 18.8804 16.312L16.9699 15.2123C16.1643 14.7486 15.1829 14.8848 14.5533 15.5477L14.0978 16.0272C14.0978 16.0272 13.0152 17.167 10.0602 14.0559C7.10521 10.9448 8.1878 9.80507 8.1878 9.80507L8.47461 9.50311C9.18117 8.75924 9.24778 7.56497 8.63134 6.6931L7.37035 4.90962C6.60738 3.8305 5.13305 3.68795 4.25854 4.60864");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+</style>

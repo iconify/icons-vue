@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/m/mk7apdhpz.css';
-import '../../css/f/fgrlfobbu.css';
-import '../../css/d/d7jqjkbvm.css';
-import '../../css/j/joaxcob9n.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,27 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="mk7apdhpz"/><path class="fgrlfobbu"/><path clip-rule="evenodd" class="d7jqjkbvm"/><path class="joaxcob9n"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:command-bold-duotone" /></template>
+<style>
+.d7jqjkbvm {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M19 8.00049L16 8.00002L16.0005 5.00002C16.0007 3.34316 17.3441 2.00023 19.0009 2.00049C20.6578 2.00075 22.0007 3.34411 22.0005 5.00096C22.0002 6.65781 20.6569 8.00075 19 8.00049ZM8.00047 8L8 5.00002C7.99974 3.34316 6.65638 2.00023 4.99953 2.00049C3.34267 2.00075 1.99974 3.34411 2 5.00096C2.00026 6.65781 3.34362 8.00075 5.00047 8.00049L8.00047 8Z");
+}
+
+.fgrlfobbu {
+  fill: currentColor;
+  d: path("M5.00047 16.0005L8.00047 16.001L8 19.001C7.99974 20.6578 6.65638 22.0007 4.99953 22.0005C3.34267 22.0002 1.99974 20.6569 2 19C2.00026 17.3432 3.34362 16.0002 5.00047 16.0005Z");
+}
+
+.joaxcob9n {
+  fill: currentColor;
+  d: path("M16 8.00002L8.00047 8L8 16H16V8.00002Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.mk7apdhpz {
+  fill: currentColor;
+  d: path("M16 16L19 16.0005C20.6569 16.0002 22.0002 17.3432 22.0005 19C22.0007 20.6569 20.6578 22.0002 19.0009 22.0005C17.3441 22.0007 16.0007 20.6578 16.0005 19.001L16 16Z");
+}
+
+</style>

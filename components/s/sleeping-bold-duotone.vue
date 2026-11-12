@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/j/j1el_fbgx.css';
-import '../../css/x/xtpeb-edw.css';
-import '../../css/z/zbke2mcmt.css';
-import '../../css/o/oj410s8yw.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,24 @@ const viewBox = {"width":24,"height":24};
 const content = `<path clip-rule="evenodd" class="j1el_fbgx"/><g class="xtpeb-edw"><path class="zbke2mcmt"/><path class="oj410s8yw"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:sleeping-bold-duotone" /></template>
+<style>
+.j1el_fbgx {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M2 5.25C2.41421 5.25 2.75 5.58579 2.75 6V15.25H12H22.6428L22.6429 15.643L22.642 16.0001V18.0002C22.642 18.4144 22.3063 18.7502 21.892 18.7502C21.4778 18.7502 21.142 18.4144 21.142 18.0002V16.75H2.75V18C2.75 18.4142 2.41421 18.75 2 18.75C1.58579 18.75 1.25 18.4142 1.25 18V6C1.25 5.58579 1.58579 5.25 2 5.25Z");
+}
+
+.oj410s8yw {
+  d: path("M7 8.5C8.38071 8.5 9.5 9.61929 9.5 11C9.5 12.3807 8.38071 13.5 7 13.5C5.61929 13.5 4.5 12.3807 4.5 11C4.5 9.61929 5.61929 8.5 7 8.5Z");
+}
+
+.xtpeb-edw {
+  fill: currentColor;
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.zbke2mcmt {
+  d: path("M15.5 8.5C17.4946 8.5 18.4921 8.49982 19.2939 8.78027C20.7302 9.28283 21.8597 10.4124 22.3623 11.8486C22.6238 12.596 22.6414 13.5135 22.6426 15.25H12V11.3574C12 10.5595 12.0001 10.1596 12.1123 9.83887C12.3134 9.26458 12.7655 8.81328 13.3398 8.6123C13.6606 8.50028 14.7006 8.5 15.498 8.5H15.5Z");
+}
+
+</style>

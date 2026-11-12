@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/t/tcpry4u-q.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,11 @@ const viewBox = {"width":24,"height":24};
 const content = `<path clip-rule="evenodd" class="tcpry4u-q"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:clock-circle-bold" /></template>
+<style>
+.tcpry4u-q {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2ZM12 7.25C11.5858 7.25 11.25 7.58579 11.25 8V12C11.25 12.1989 11.3291 12.3896 11.4697 12.5303L13.9697 15.0303C14.2626 15.3232 14.7374 15.3232 15.0303 15.0303C15.3232 14.7374 15.3232 14.2626 15.0303 13.9697L12.75 11.6895V8C12.75 7.58579 12.4142 7.25 12 7.25Z");
+}
+
+</style>

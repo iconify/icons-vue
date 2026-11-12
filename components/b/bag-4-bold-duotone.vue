@@ -1,13 +1,32 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/r/rpptw4brn.css';
-import '../../css/f/fq3gxbred.css';
-import '../../css/e/ec8ku5buv.css';
-import '../../css/w/wr7qp9b-e.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="rpptw4brn"/><path class="fq3gxbred"/><path class="ec8ku5buv"/><path class="wr7qp9b-e"/>`;
+const content = `<path class="cqdnafjtt"/><path class="i4_klnb8j"/><path class="m676zdbti"/><path class="q8ngf0-0c"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:bag-4-bold-duotone" /></template>
+<style>
+.cqdnafjtt {
+  fill: currentColor;
+  d: path("M3.79375 12.5291C4.33092 9.84329 4.5995 8.50036 5.48697 7.63543C5.651 7.47557 5.82845 7.3301 6.01737 7.20061C7.03956 6.5 8.40907 6.5 11.1481 6.5H12.851C15.5901 6.5 16.9596 6.5 17.9818 7.20061C18.1707 7.3301 18.3482 7.47557 18.5122 7.63543C19.3997 8.50036 19.6682 9.84329 20.2054 12.5291C20.9766 16.3851 21.3622 18.3131 20.4745 19.6793C20.3138 19.9267 20.1262 20.1555 19.9152 20.3616C18.7496 21.5 16.7834 21.5 12.851 21.5H11.1481C7.21574 21.5 5.24955 21.5 4.08398 20.3616C3.87293 20.1555 3.68534 19.9267 3.52461 19.6793C2.63695 18.3131 3.02255 16.3851 3.79375 12.5291Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.i4_klnb8j {
+  fill: currentColor;
+  d: path("M9 8.75C9.41421 8.75 9.75 9.08579 9.75 9.5C9.75 9.91421 9.41421 10.25 9 10.25C8.58579 10.25 8.25 9.91421 8.25 9.5C8.25 9.08579 8.58579 8.75 9 8.75Z");
+}
+
+.m676zdbti {
+  fill: currentColor;
+  d: path("M15 8.75C15.4142 8.75 15.75 9.08579 15.75 9.5C15.75 9.91421 15.4142 10.25 15 10.25C14.5858 10.25 14.25 9.91421 14.25 9.5C14.25 9.08579 14.5858 8.75 15 8.75Z");
+}
+
+.q8ngf0-0c {
+  fill: currentColor;
+  d: path("M12 1.75C14.0711 1.75 15.75 3.42893 15.75 5.5V6.51953C15.75 6.53267 15.7477 6.54562 15.7471 6.55859C15.3115 6.52489 14.8178 6.512 14.25 6.50586V5.5C14.25 4.25736 13.2426 3.25 12 3.25C10.7574 3.25 9.75 4.25736 9.75 5.5V6.50586C9.1809 6.51201 8.68629 6.52476 8.25 6.55859V5.5C8.25 3.42893 9.92893 1.75 12 1.75Z");
+}
+
+</style>

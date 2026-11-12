@@ -1,10 +1,17 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/q/qcol1993k.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path clip-rule="evenodd" class="qcol1993k"/>`;
+const content = `<path clip-rule="evenodd" class="of8s3jb2o"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:bag-3-bold" /></template>
+<style>
+.of8s3jb2o {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M12.3613 4C15.5367 4 17.1244 3.99999 18.2353 4.92188C19.3462 5.84382 19.6394 7.40435 20.2246 10.5254C21.0475 14.9143 21.4584 17.1092 20.2587 18.5547C19.0591 20 16.8264 20 12.3613 20H11.6396C7.17446 20 4.94174 20 3.74213 18.5547C2.54251 17.1092 2.95436 14.9143 3.77729 10.5254C4.36246 7.40447 4.65473 5.84381 5.76557 4.92188C6.87643 3.99994 8.46425 4 11.6396 4H12.3613ZM15.0781 7.29297C14.6876 7.15515 14.259 7.35957 14.121 7.75C13.8118 8.62488 12.9774 9.25 11.999 9.25C11.0206 9.24989 10.1861 8.62483 9.8769 7.75C9.73882 7.35953 9.31037 7.15495 8.91987 7.29297C8.52943 7.43106 8.32483 7.85952 8.46284 8.25C8.97727 9.70536 10.3652 10.7499 11.999 10.75C13.6328 10.75 15.0206 9.70536 15.5351 8.25C15.6731 7.85946 15.4686 7.431 15.0781 7.29297Z");
+}
+
+</style>

@@ -1,7 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/d/d2c4dccfz.css';
-import '../../css/r/rm7ga8nok.css';
 
 const props = defineProps(["width","height"]);
 
@@ -9,3 +7,15 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="d2c4dccfz"/><path class="rm7ga8nok"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:sofa-3-bold" /></template>
+<style>
+.d2c4dccfz {
+  fill: currentColor;
+  d: path("M20 13.75C21.1046 13.75 22 14.6454 22 15.75C22 16.5893 21.4829 17.3078 20.75 17.6045V19.75C20.75 20.1642 20.4142 20.5 20 20.5C19.5858 20.5 19.25 20.1642 19.25 19.75V17.75H4.75V19.75C4.75 20.1642 4.41421 20.5 4 20.5C3.58579 20.5 3.25 20.1642 3.25 19.75V17.6045C2.51707 17.3078 2 16.5893 2 15.75C2 14.6454 2.89543 13.75 4 13.75H20Z");
+}
+
+.rm7ga8nok {
+  fill: currentColor;
+  d: path("M12 3.75C16.481 3.75 18.7213 3.75023 19.9189 5.15332C19.9944 5.2417 20.0663 5.33312 20.1338 5.42773C21.1454 6.84688 20.7169 8.86583 19.75 12.75H4.25C3.28313 8.8658 2.85462 6.84688 3.86621 5.42773C3.93365 5.33315 4.00564 5.24168 4.08105 5.15332C5.27874 3.75029 7.51903 3.75 12 3.75Z");
+}
+
+</style>

@@ -1,10 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/b/bt_-vrosd.css';
-import '../../css/l/lbbxpcczj.css';
-import '../../css/e/epcli-bre.css';
-import '../../css/r/r7pgarbha.css';
-import '../../css/e/enasjubvc.css';
 
 const props = defineProps(["width","height"]);
 
@@ -12,3 +7,30 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="bt_-vrosd"/><path class="lbbxpcczj"/><path class="epcli-bre"/><path class="r7pgarbha"/><path class="enasjubvc"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:chevrons-left-right-ellipsis-outline" /></template>
+<style>
+.bt_-vrosd {
+  fill: currentColor;
+  d: path("M7.46979 5.46979C7.76268 5.1769 8.23745 5.1769 8.53034 5.46979C8.82317 5.76269 8.82321 6.23747 8.53034 6.53034L3.06061 12.0001L8.53034 17.4698C8.82317 17.7627 8.82321 18.2375 8.53034 18.5303C8.23746 18.8232 7.76269 18.8232 7.46979 18.5303L1.46979 12.5303C1.1769 12.2374 1.1769 11.7627 1.46979 11.4698L7.46979 5.46979Z");
+}
+
+.enasjubvc {
+  fill: currentColor;
+  d: path("M16.0001 11.2501C16.4143 11.2501 16.7501 11.5859 16.7501 12.0001C16.75 12.4142 16.4142 12.75 16.0001 12.7501H15.9913C15.5771 12.7501 15.2413 12.4143 15.2413 12.0001C15.2413 11.5859 15.5771 11.2501 15.9913 11.2501H16.0001Z");
+}
+
+.epcli-bre {
+  fill: currentColor;
+  d: path("M8.00885 11.2501C8.42304 11.2501 8.75885 11.5859 8.75885 12.0001C8.75882 12.4142 8.42302 12.75 8.00885 12.7501H8.00006C7.58587 12.7501 7.2501 12.4143 7.25006 12.0001C7.25006 11.5859 7.58585 11.2501 8.00006 11.2501H8.00885Z");
+}
+
+.lbbxpcczj {
+  fill: currentColor;
+  d: path("M15.4698 5.46979C15.7627 5.1769 16.2374 5.1769 16.5303 5.46979L22.5303 11.4698C22.8232 11.7627 22.8232 12.2375 22.5303 12.5303L16.5303 18.5303C16.2375 18.8232 15.7627 18.8232 15.4698 18.5303C15.1769 18.2374 15.1769 17.7627 15.4698 17.4698L20.9395 12.0001L15.4698 6.53034C15.1769 6.23745 15.1769 5.76268 15.4698 5.46979Z");
+}
+
+.r7pgarbha {
+  fill: currentColor;
+  d: path("M12.0001 11.2501C12.4143 11.2501 12.7501 11.5859 12.7501 12.0001C12.75 12.4142 12.4142 12.75 12.0001 12.7501H11.9913C11.5771 12.7501 11.2413 12.4143 11.2413 12.0001C11.2413 11.5859 11.5771 11.2501 11.9913 11.2501H12.0001Z");
+}
+
+</style>

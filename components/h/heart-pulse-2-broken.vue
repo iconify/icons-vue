@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/q/q7c950bcg.css';
-import '../../css/u/ujkec4b9w.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,21 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="q7c950bcg"/><path class="ujkec4b9w"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:heart-pulse-2-broken" /></template>
+<style>
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.q7c950bcg {
+  d: path("M21 12H18.6361C17.9781 12 17.6491 12 17.3578 12.1298C17.0665 12.2595 16.8463 12.5042 16.4059 12.9934L15.3767 14.137C15.0154 14.5384 14.8348 14.7391 14.6057 14.7342C14.3766 14.7293 14.2049 14.5212 13.8616 14.105L13.8616 14.105L10.3334 9.82838C10.0133 9.44035 9.85321 9.24634 9.63599 9.23329C9.41877 9.22024 9.23663 9.3937 8.87237 9.74062L7.36897 11.1724L7.36895 11.1724C6.93985 11.5811 6.72529 11.7855 6.45709 11.8927C6.18887 12 5.89258 12 5.3 12H3");
+}
+
+.ujkec4b9w {
+  stroke-linejoin: round;
+  d: path("M3.29334 13C2.50729 11.7374 2 10.4241 2 9.13707C2 3.08498 7.50016 0.825433 12 5.5006C16.4998 0.825433 22 3.08498 22 9.13703C22 12.7599 17.9806 16.5914 15.0383 18.9109L15.0383 18.9109C13.7063 19.9609 13.0403 20.4859 12 20.4859C10.9597 20.4859 10.2937 19.9609 8.96173 18.9108C8.02863 18.1753 6.9872 17.2876 6 16.3028");
+}
+
+</style>

@@ -1,7 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/z/z0tkg9bgp.css';
-import '../../css/p/pbv_9xbam.css';
 
 const props = defineProps(["width","height"]);
 
@@ -9,3 +7,16 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="z0tkg9bgp"/><path class="pbv_9xbam"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:square-arrow-right-up-bold-duotone" /></template>
+<style>
+.pbv_9xbam {
+  fill: currentColor;
+  d: path("M15.5785 9.17188C15.5785 8.75766 15.2427 8.42188 14.8285 8.42188L10.5858 8.42188C10.1716 8.42187 9.83585 8.75766 9.83585 9.17188C9.83585 9.58609 10.1716 9.92187 10.5858 9.92188H13.0178L8.6413 14.2984C8.34841 14.5913 8.34841 15.0662 8.6413 15.3591C8.93419 15.652 9.40907 15.652 9.70196 15.3591L14.0785 10.9825L14.0785 13.4145C14.0785 13.8287 14.4143 14.1645 14.8285 14.1645C15.2427 14.1645 15.5785 13.8287 15.5785 13.4145L15.5785 9.17188Z");
+}
+
+.z0tkg9bgp {
+  fill: currentColor;
+  d: path("M20.5355 3.46447C19.0711 2 16.714 2 12 2C7.28595 2 4.92893 2 3.46447 3.46447C2 4.92893 2 7.28595 2 12C2 16.714 2 19.0711 3.46447 20.5355C4.92893 22 7.28595 22 12 22C16.714 22 19.0711 22 20.5355 20.5355C22 19.0711 22 16.714 22 12C22 7.28595 22 4.92893 20.5355 3.46447Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+</style>

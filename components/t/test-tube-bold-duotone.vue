@@ -1,12 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/x/xtpeb-edw.css';
-import '../../css/z/z14_0gbyd.css';
-import '../../css/f/fu6frkzrs.css';
-import '../../css/p/pq4qlabdh.css';
-import '../../css/b/b6d_zub2x.css';
-import '../../css/d/dipfovbpe.css';
-import '../../css/c/cuz1aeb8f.css';
 
 const props = defineProps(["width","height"]);
 
@@ -14,3 +7,38 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="xtpeb-edw"><path class="z14_0gbyd"/><path class="fu6frkzrs"/></g><path class="pq4qlabdh"/><path class="b6d_zub2x"/><path class="dipfovbpe"/><path class="cuz1aeb8f"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:test-tube-bold-duotone" /></template>
+<style>
+.b6d_zub2x {
+  fill: currentColor;
+  d: path("M9.33593 11.3819C9.5425 11.0228 10.0013 10.8989 10.3603 11.1055L14.5625 13.5244L14.5644 13.5254L13.8125 14.8233L9.6123 12.4063C9.25327 12.1997 9.12936 11.7409 9.33593 11.3819Z");
+}
+
+.cuz1aeb8f {
+  fill: currentColor;
+  d: path("M8.2666 1.61819C8.47744 1.26178 8.93744 1.14377 9.29394 1.35451L10.126 1.84572L19.373 7.15334C19.7321 7.35956 19.8555 7.81762 19.6494 8.17678C19.4432 8.53603 18.9852 8.66031 18.626 8.45412L9.37206 3.14358L9.36621 3.13967L8.53027 2.64553C8.17394 2.43466 8.05587 1.97465 8.2666 1.61819Z");
+}
+
+.dipfovbpe {
+  fill: currentColor;
+  d: path("M12.6943 9.37112C12.9008 9.0122 13.3588 8.88845 13.7178 9.09475L16.2764 10.5664L15.5264 11.8653L12.9697 10.3946C12.6111 10.1879 12.488 9.72995 12.6943 9.37112Z");
+}
+
+.fu6frkzrs {
+  d: path("M16.278 10.5675L17.7828 7.97012L9.37268 3.14331L2.65093 14.7456C1.31093 17.0585 2.10615 20.016 4.42709 21.3514C6.74803 22.6868 9.7158 21.8943 11.0558 19.5814L12.1751 17.6494L16.278 10.5675Z");
+}
+
+.pq4qlabdh {
+  fill: currentColor;
+  d: path("M9.28808 15.1231C9.49465 14.764 9.95347 14.6411 10.3125 14.8477L12.9258 16.3506L12.9268 16.3516L12.1748 17.6494L9.56445 16.1475C9.20547 15.9409 9.08152 15.4821 9.28808 15.1231Z");
+}
+
+.xtpeb-edw {
+  fill: currentColor;
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.z14_0gbyd {
+  d: path("M20 16.9999C21.1046 16.9999 22 16.0672 22 14.9166C22 14.1967 21.217 13.2358 20.6309 12.6174C20.2839 12.2512 19.7161 12.2512 19.3691 12.6174C18.783 13.2358 18 14.1967 18 14.9166C18 16.0672 18.8954 16.9999 20 16.9999Z");
+}
+
+</style>

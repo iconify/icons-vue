@@ -1,25 +1,91 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/t/t8jed3q6q.css';
-import '../../css/q/qftlv8bpb.css';
-import '../../css/v/vucbnbbhu.css';
-import '../../css/l/lta1ae56a.css';
-import '../../css/z/zb_o4p5fn.css';
-import '../../css/v/v2_ccbvux.css';
-import '../../css/z/zydd4fbxz.css';
-import '../../css/f/fsbgzxbis.css';
-import '../../css/g/goxl-kh1x.css';
-import '../../css/k/kvnjkvb7x.css';
-import '../../css/i/iblu4ablw.css';
-import '../../css/z/zca6p_bfo.css';
-import '../../css/c/ct8de1bqv.css';
-import '../../css/q/qkc8pybpt.css';
-import '../../css/e/ei6v1xbcc.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ipq1z-bjh"><path class="t8jed3q6q"/><path class="qftlv8bpb"/><path class="vucbnbbhu"/><path class="lta1ae56a"/><path class="zb_o4p5fn"/><path class="v2_ccbvux"/><path class="zydd4fbxz"/><circle class="fsbgzxbis"/><circle transform="matrix(-1 0 0 1 5 2)" class="goxl-kh1x"/><path class="kvnjkvb7x"/><circle transform="matrix(1 0 0 -1 17.05 21.05)" class="goxl-kh1x"/><circle transform="rotate(180 4.5 20.5)" class="iblu4ablw"/><path class="zca6p_bfo"/><path class="ct8de1bqv"/><path class="qkc8pybpt"/><path class="ei6v1xbcc"/></g>`;
+const content = `<g class="ipq1z-bjh"><path class="t8jed3q6q"/><path class="qftlv8bpb"/><path class="vucbnbbhu"/><path class="lta1ae56a"/><path class="zb_o4p5fn"/><path class="v2_ccbvux"/><path class="zydd4fbxz"/><circle class="fsbgzxbis"/><circle class="hyi0wcccp"/><path class="kvnjkvb7x"/><circle class="y4b_ork8r"/><circle class="iblu4ablw"/><path class="zca6p_bfo"/><path class="ct8de1bqv"/><path class="qkc8pybpt"/><path class="ei6v1xbcc"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:virus-linear" /></template>
+<style>
+.ct8de1bqv {
+  d: path("M21 11.9999C21 12.8283 20.3284 13.4999 19.5 13.4999C19.3247 13.4999 19.1564 13.4698 19 13.4145V10.5852C19.1564 10.53 19.3247 10.4999 19.5 10.4999C20.3284 10.4999 21 11.1715 21 11.9999Z");
+}
+
+.ei6v1xbcc {
+  stroke-linejoin: round;
+  d: path("M9 13H9.0001");
+}
+
+.fsbgzxbis {
+  cx: 19.5px;
+  cy: 4.5px;
+  r: 1.5px;
+}
+
+.hyi0wcccp {
+  cx: 3.5px;
+  cy: 3.5px;
+  r: 1.5px;
+}
+
+.iblu4ablw {
+  cx: 4.5px;
+  cy: 20.5px;
+  r: 1.5px;
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.kvnjkvb7x {
+  d: path("M2 12C2 12.8284 2.67157 13.5 3.5 13.5C4.32843 13.5 5 12.8284 5 12C5 11.1716 4.32843 10.5 3.5 10.5C2.67157 10.5 2 11.1716 2 12Z");
+}
+
+.lta1ae56a {
+  d: path("M17.0498 18.0498L16.5 17.5");
+}
+
+.qftlv8bpb {
+  d: path("M18 6L16.95 7.05003");
+}
+
+.qkc8pybpt {
+  d: path("M12.0004 20.0001C11.3472 20.0001 10.7916 19.5826 10.5857 19L13.415 19C13.2091 19.5826 12.6535 20.0001 12.0004 20.0001Z");
+}
+
+.t8jed3q6q {
+  d: path("M18.9998 12.0565C19.031 15.9224 15.9224 19.031 12.0565 18.9998C8.19062 18.9686 5.03143 15.8094 5.00023 11.9435C4.96904 8.07765 8.07765 4.96904 11.9435 5.00023C15.8094 5.03143 18.9686 8.19062 18.9998 12.0565Z");
+}
+
+.v2_ccbvux {
+  d: path("M16.5 13C16.5 14.1046 15.6046 15 14.5 15C13.3954 15 12.5 14.1046 12.5 13C12.5 11.8954 13.3954 11 14.5 11C15.6046 11 16.5 11.8954 16.5 13Z");
+}
+
+.vucbnbbhu {
+  d: path("M5 5L7 7");
+}
+
+.y4b_ork8r {
+  cx: 18.55px;
+  cy: 19.55px;
+  r: 1.5px;
+}
+
+.zb_o4p5fn {
+  d: path("M6 19.0498L7.05003 17.9998");
+}
+
+.zca6p_bfo {
+  d: path("M13.5 3.5C13.5 4.32843 12.8284 5 12 5C11.1716 5 10.5 4.32843 10.5 3.5C10.5 2.67157 11.1716 2 12 2C12.8284 2 13.5 2.67157 13.5 3.5Z");
+}
+
+.zydd4fbxz {
+  d: path("M11 9C11 9.55228 10.5523 10 10 10C9.44772 10 9 9.55228 9 9C9 8.44772 9.44772 8 10 8C10.5523 8 11 8.44772 11 9Z");
+}
+
+</style>

@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/v/vkkvlhj7f.css';
-import '../../css/p/pq35h-0il.css';
-import '../../css/q/qq69lrb9z.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,20 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="vkkvlhj7f"/><path class="pq35h-0il"/><path class="qq69lrb9z"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:sort-outline" /></template>
+<style>
+.pq35h-0il {
+  fill: currentColor;
+  d: path("M19 11.25C19.4142 11.25 19.75 11.5858 19.75 12C19.75 12.4142 19.4142 12.75 19 12.75H5C4.58579 12.75 4.25 12.4142 4.25 12C4.25 11.5858 4.58579 11.25 5 11.25H19Z");
+}
+
+.qq69lrb9z {
+  fill: currentColor;
+  d: path("M22 6.25C22.4142 6.25 22.75 6.58579 22.75 7C22.75 7.41421 22.4142 7.75 22 7.75H2C1.58579 7.75 1.25 7.41421 1.25 7C1.25 6.58579 1.58579 6.25 2 6.25H22Z");
+}
+
+.vkkvlhj7f {
+  fill: currentColor;
+  d: path("M16 16.25C16.4142 16.25 16.75 16.5858 16.75 17C16.75 17.4142 16.4142 17.75 16 17.75H8C7.58579 17.75 7.25 17.4142 7.25 17C7.25 16.5858 7.58579 16.25 8 16.25H16Z");
+}
+
+</style>

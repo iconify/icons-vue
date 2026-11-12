@@ -1,10 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/v/vgdrhu2qc.css';
-import '../../css/e/eetq4kbnf.css';
-import '../../css/h/hnqmqirsa.css';
-import '../../css/v/v77ej-64o.css';
 
 const props = defineProps(["width","height"]);
 
@@ -12,3 +7,28 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="vgdrhu2qc"/><path class="eetq4kbnf"/><path class="hnqmqirsa"/><path class="v77ej-64o"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:bag-music-broken" /></template>
+<style>
+.eetq4kbnf {
+  d: path("M12 17C12 18.1046 11.1046 19 10 19C8.89543 19 8 18.1046 8 17C8 15.8954 8.89543 15 10 15C11.1046 15 12 15.8954 12 17ZM12 17V12");
+}
+
+.hnqmqirsa {
+  d: path("M12.7416 10.6292L14.0584 9.97082C14.4926 9.75368 14.7098 9.64511 14.8841 9.62477C15.3449 9.57102 15.7822 9.84126 15.9402 10.2775C16 10.4425 16 10.6853 16 11.1708C16 11.3748 16 11.4768 15.9822 11.57C15.936 11.8113 15.8026 12.0271 15.6074 12.1764C15.532 12.234 15.4408 12.2796 15.2584 12.3708L13.9416 13.0292C13.5074 13.2463 13.2902 13.3549 13.1159 13.3752C12.6551 13.429 12.2178 13.1587 12.0598 12.7225C12 12.5575 12 12.3147 12 11.8292C12 11.6252 12 11.5232 12.0178 11.43C12.064 11.1887 12.1974 10.9729 12.3926 10.8236C12.468 10.766 12.5592 10.7204 12.7416 10.6292L12.7416 10.6292Z");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.v77ej-64o {
+  d: path("M20.2232 12.5257C19.638 9.40452 19.3454 7.84393 18.2345 6.92196C17.1236 6 15.5358 6 12.3602 6H11.6391C8.4635 6 6.87571 6 5.76481 6.92196C4.65392 7.84393 4.3613 9.40452 3.77608 12.5257C2.95316 16.9146 2.5417 19.1091 3.74132 20.5545C4.94094 22 7.17365 22 11.6391 22H12.3602C16.8257 22 19.0584 22 20.258 20.5545C20.954 19.7159 21.1077 18.6252 20.9533 17");
+}
+
+.vgdrhu2qc {
+  d: path("M9 6.032V5C9 3.34315 10.3431 2 12 2C13.6569 2 15 3.34315 15 5V6.03201");
+}
+
+</style>

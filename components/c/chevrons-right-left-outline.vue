@@ -1,7 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/h/hmt8ryb3g.css';
-import '../../css/u/uijvjtbbr.css';
 
 const props = defineProps(["width","height"]);
 
@@ -9,3 +7,15 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="hmt8ryb3g"/><path class="uijvjtbbr"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:chevrons-right-left-outline" /></template>
+<style>
+.hmt8ryb3g {
+  fill: currentColor;
+  d: path("M2.46979 5.46979C2.76269 5.1769 3.23745 5.1769 3.53034 5.46979L9.53034 11.4698C9.82317 11.7627 9.82321 12.2375 9.53034 12.5303L3.53034 18.5303C3.23746 18.8232 2.76269 18.8232 2.46979 18.5303C2.1769 18.2374 2.1769 17.7627 2.46979 17.4698L7.93952 12.0001L2.46979 6.53034C2.1769 6.23745 2.1769 5.76269 2.46979 5.46979Z");
+}
+
+.uijvjtbbr {
+  fill: currentColor;
+  d: path("M20.4698 5.46979C20.7627 5.1769 21.2374 5.1769 21.5303 5.46979C21.8232 5.76269 21.8232 6.23746 21.5303 6.53034L16.0606 12.0001L21.5303 17.4698C21.8232 17.7627 21.8232 18.2375 21.5303 18.5303C21.2375 18.8232 20.7627 18.8232 20.4698 18.5303L14.4698 12.5303C14.1769 12.2374 14.1769 11.7627 14.4698 11.4698L20.4698 5.46979Z");
+}
+
+</style>

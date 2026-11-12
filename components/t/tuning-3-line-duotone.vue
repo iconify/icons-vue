@@ -1,18 +1,61 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/h/h_tsn8bxt.css';
-import '../../css/i/imrhgbc8c.css';
-import '../../css/n/np1e_hbeg.css';
-import '../../css/g/gv40cnbhb.css';
-import '../../css/t/t0kfsthsf.css';
-import '../../css/u/uhbrgbbup.css';
-import '../../css/z/zxylmobtl.css';
-import '../../css/r/r84xtxbro.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ipq1z-bjh"><circle transform="rotate(180 12 12)" class="h_tsn8bxt"/><circle transform="rotate(180 20 14)" class="imrhgbc8c"/><circle transform="matrix(-1 0 0 1 6 8)" class="np1e_hbeg"/><path class="gv40cnbhb"/><path class="t0kfsthsf"/><path class="uhbrgbbup"/><path class="zxylmobtl"/><path class="r84xtxbro"/></g>`;
+const content = `<g class="ipq1z-bjh"><circle class="h_tsn8bxt"/><circle class="imrhgbc8c"/><circle class="qbe_3qbje"/><path class="gv40cnbhb"/><path class="t0kfsthsf"/><path class="uhbrgbbup"/><path class="zxylmobtl"/><path class="r84xtxbro"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:tuning-3-line-duotone" /></template>
+<style>
+.gv40cnbhb {
+  d: path("M20 12L20 5");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.h_tsn8bxt {
+  cx: 12px;
+  cy: 12px;
+  r: 2px;
+}
+
+.imrhgbc8c {
+  cx: 20px;
+  cy: 14px;
+  r: 2px;
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.qbe_3qbje {
+  cx: 4px;
+  cy: 10px;
+  r: 2px;
+}
+
+.r84xtxbro {
+  d: path("M12 10V5M4 5V7.66667");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.t0kfsthsf {
+  d: path("M4 12V19");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.uhbrgbbup {
+  d: path("M12 19V14");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.zxylmobtl {
+  d: path("M20 19L20 16");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+</style>

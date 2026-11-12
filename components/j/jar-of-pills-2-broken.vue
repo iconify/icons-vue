@@ -1,12 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/w/wbicn6byt.css';
-import '../../css/x/xk8carhdz.css';
-import '../../css/a/al7cw8y0q.css';
-import '../../css/d/d9cgzhbuf.css';
-import '../../css/s/sdzmkabql.css';
-import '../../css/w/wzjs11h7j.css';
 
 const props = defineProps(["width","height"]);
 
@@ -14,3 +7,36 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="wbicn6byt"/><path class="xk8carhdz"/><path class="al7cw8y0q"/><path class="d9cgzhbuf"/><path class="sdzmkabql"/><path class="wzjs11h7j"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:jar-of-pills-2-broken" /></template>
+<style>
+.al7cw8y0q {
+  d: path("M10.5 22H6.95693C6.38582 22 6.10026 22 5.82957 21.9628C5.02661 21.8526 4.27608 21.5011 3.67738 20.9548C3.47554 20.7706 3.29272 20.5513 2.92711 20.1125C2.32806 19.3937 2 18.4875 2 17.5518V17M18 12.5V10.9083C18 9.70126 17.455 8.55877 16.5168 7.79931L14.1595 5.89102C13.6146 5.44989 13.3421 5.22933 13.0182 5.11466C12.6943 5 12.3438 5 11.6427 5H8.40312C7.70834 5 7.36095 5 7.03955 5.11274C6.71814 5.22549 6.44688 5.4425 5.90434 5.87652L3.50122 7.79902C2.55236 8.55811 2 9.70736 2 10.9225V13");
+}
+
+.d9cgzhbuf {
+  d: path("M10 12V14M10 14V16M10 14H8M10 14L12 14");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.sdzmkabql {
+  d: path("M14.7726 16.7726C14.7726 16.7726 15.7648 16.9833 16.8908 18.1093C18.0169 19.2353 18.2274 20.2274 18.2274 20.2274M19.2638 15.7362C20.2178 16.6902 20.2487 18.206 19.3329 19.1218L17.1218 21.3329C16.206 22.2487 14.6902 22.2178 13.7362 21.2638C12.7822 20.3098 12.7513 18.794 13.6671 17.8782L15.8782 15.6671C16.794 14.7513 18.3098 14.7822 19.2638 15.7362Z");
+}
+
+.wbicn6byt {
+  d: path("M5.5 5H14.5C14.9659 5 15.1989 5 15.3827 4.92388C15.6277 4.82239 15.8224 4.62771 15.9239 4.38268C16 4.19891 16 3.96594 16 3.5C16 3.03406 16 2.80109 15.9239 2.61732C15.8224 2.37229 15.6277 2.17761 15.3827 2.07612C15.1989 2 14.9659 2 14.5 2H5.5C5.03406 2 4.80109 2 4.61732 2.07612C4.37229 2.17761 4.17761 2.37229 4.07612 2.61732C4 2.80109 4 3.03406 4 3.5C4 3.96594 4 4.19891 4.07612 4.38268C4.17761 4.62771 4.37229 4.82239 4.61732 4.92388C4.80109 5 5.03406 5 5.5 5Z");
+}
+
+.wzjs11h7j {
+  d: path("M10 10H17.5M2.5 10H6.25");
+}
+
+.xk8carhdz {
+  d: path("M2.5 18H10.5");
+}
+
+</style>

@@ -1,7 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/z/z4brlnqpx.css';
-import '../../css/b/bpeho1s8l.css';
 
 const props = defineProps(["width","height"]);
 
@@ -9,3 +7,16 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="z4brlnqpx"/><path class="bpeho1s8l"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:map-arrow-down-bold-duotone" /></template>
+<style>
+.bpeho1s8l {
+  fill: currentColor;
+  d: path("M8.6095 15.5337C8.37019 15.6534 8.26749 15.9402 8.37646 16.1846L10.5271 21.0071C11.1174 22.3309 12.8818 22.3309 13.4722 21.0071L17.4401 12.1094C17.6313 11.6807 17.1797 11.2486 16.7598 11.4585L8.6095 15.5337Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.z4brlnqpx {
+  fill: currentColor;
+  d: path("M8.03691 14.1432C7.78217 14.2706 7.47265 14.1597 7.35665 13.8996L3.16398 4.49795C2.49692 3.00212 3.97816 1.45055 5.36592 2.19148L11.2696 5.34351C11.7288 5.58867 12.2693 5.58866 12.7284 5.34351L18.6321 2.19148C20.0199 1.45055 21.5011 3.00212 20.8341 4.49795L19.2624 8.02227C19.0738 8.44514 18.7444 8.78948 18.3302 8.99655L8.03691 14.1432Z");
+}
+
+</style>

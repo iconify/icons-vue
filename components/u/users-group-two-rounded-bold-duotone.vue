@@ -1,12 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/l/lagukibcz.css';
-import '../../css/b/buif742pl.css';
-import '../../css/x/xtpeb-edw.css';
-import '../../css/r/rv8lfbcew.css';
-import '../../css/p/piw-45d7x.css';
-import '../../css/c/cazy7abfr.css';
-import '../../css/y/ydxu9l6jm.css';
 
 const props = defineProps(["width","height"]);
 
@@ -14,3 +7,36 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="lagukibcz"/><path class="buif742pl"/><g class="xtpeb-edw"><path class="rv8lfbcew"/><path class="piw-45d7x"/><path class="cazy7abfr"/><path class="ydxu9l6jm"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:users-group-two-rounded-bold-duotone" /></template>
+<style>
+.buif742pl {
+  fill: currentColor;
+  d: path("M12 4C13.933 4 15.5 5.567 15.5 7.5C15.5 9.433 13.933 11 12 11C10.067 11 8.5 9.433 8.5 7.5C8.5 5.567 10.067 4 12 4Z");
+}
+
+.cazy7abfr {
+  d: path("M7 5C8.38071 5 9.5 6.11929 9.5 7.5C9.5 8.88071 8.38071 10 7 10C5.61929 10 4.5 8.88071 4.5 7.5C4.5 6.11929 5.61929 5 7 5Z");
+}
+
+.lagukibcz {
+  fill: currentColor;
+  d: path("M12 13C15.3137 13 18 14.567 18 16.5C18 18.433 15.3137 20 12 20C8.68629 20 6 18.433 6 16.5C6 14.567 8.68629 13 12 13Z");
+}
+
+.piw-45d7x {
+  d: path("M18 14C20.2091 14 22 15.1193 22 16.5C22 17.8807 20.2091 19 18 19C15.7909 19 14 17.8807 14 16.5C14 15.1193 15.7909 14 18 14Z");
+}
+
+.rv8lfbcew {
+  d: path("M6 14C8.20914 14 10 15.1193 10 16.5C10 17.8807 8.20914 19 6 19C3.79086 19 2 17.8807 2 16.5C2 15.1193 3.79086 14 6 14Z");
+}
+
+.xtpeb-edw {
+  fill: currentColor;
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.ydxu9l6jm {
+  d: path("M17 5C18.3807 5 19.5 6.11929 19.5 7.5C19.5 8.88071 18.3807 10 17 10C15.6193 10 14.5 8.88071 14.5 7.5C14.5 6.11929 15.6193 5 17 5Z");
+}
+
+</style>

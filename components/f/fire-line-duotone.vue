@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/g/gt39wtbtr.css';
-import '../../css/i/iixn8x-zu.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,21 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="gt39wtbtr"/><path class="iixn8x-zu"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:fire-line-duotone" /></template>
+<style>
+.gt39wtbtr {
+  d: path("M10.9333 22C13.9556 22 20 20.2222 20 13.1111C20 8.58427 17.1653 5.35127 14.6023 3.49767C13.4438 2.65985 12 3.58 12 5.00971V5.33334C12 6.7752 11.3938 9.40705 9.70932 10.5017C8.84932 11.0606 7.92052 10.2241 7.816 9.20382L7.73017 8.36598C7.6304 7.39197 6.63841 6.80069 5.85996 7.39454C4.46147 8.46138 3 10.3295 3 13.1111C3 20.2222 8.28889 22 10.9333 22Z");
+}
+
+.iixn8x-zu {
+  d: path("M11.7333 22C10.4889 22 8 21.2889 8 18.4445C8 16.6814 9.10649 15.4091 10.1389 14.6589C10.6539 14.2847 11.2941 14.6968 11.2941 15.3333C11.2941 15.7956 11.2941 16.5638 11.5944 17.0759C11.9228 17.6359 12.5675 17.2437 12.7459 16.6195C12.8828 16.1408 13.4424 15.872 13.8404 16.1713C14.4107 16.6002 15 17.3434 15 18.4445C15 21.2889 12.8222 22 11.7333 22Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+</style>

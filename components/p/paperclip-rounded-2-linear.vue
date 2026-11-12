@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/u/u-z4ujbsh.css';
 
 const props = defineProps(["width","height"]);
 
@@ -8,3 +7,13 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="u-z4ujbsh"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:paperclip-rounded-2-linear" /></template>
+<style>
+.u-z4ujbsh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M12.9502 11.0087L10.0104 13.9351C8.38687 15.5513 8.38687 18.1716 10.0104 19.7878C11.634 21.4041 14.2664 21.4041 15.8899 19.7878L19.5646 16.1299C22.8118 12.8975 22.8118 7.6567 19.5646 4.4243C16.3175 1.1919 11.0528 1.1919 7.80563 4.4243L4.13095 8.08229C1.28968 10.9106 1.28968 15.4963 4.13095 18.3247");
+}
+
+</style>

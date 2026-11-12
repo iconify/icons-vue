@@ -1,11 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/c/czeiw6b4w.css';
-import '../../css/j/j8di39b_c.css';
-import '../../css/o/ofikpv3ei.css';
-import '../../css/o/oocf04n0z.css';
-import '../../css/q/qu7lvtbyl.css';
 
 const props = defineProps(["width","height"]);
 
@@ -13,3 +7,36 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="czeiw6b4w"/><path class="j8di39b_c"/><path class="ofikpv3ei"/><path class="oocf04n0z"/><path class="qu7lvtbyl"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:shop-2-line-duotone" /></template>
+<style>
+.czeiw6b4w {
+  d: path("M22 22H2");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.j8di39b_c {
+  d: path("M20 22V11");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.ofikpv3ei {
+  d: path("M4 22V11");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.oocf04n0z {
+  stroke-linejoin: round;
+  d: path("M7.47214 2H16.5278C17.7306 2 18.332 2 18.8153 2.2987C19.2986 2.5974 19.5676 3.13531 20.1055 4.21114L21.5091 7.75929C21.8334 8.57905 22.1171 9.54525 21.5712 10.2375C21.205 10.7019 20.6373 11 19.9999 11C18.8953 11 17.9999 10.1046 17.9999 9C17.9999 10.1046 17.1045 11 15.9999 11C14.8953 11 13.9999 10.1046 13.9999 9C13.9999 10.1046 13.1045 11 11.9999 11C10.8953 11 9.99991 10.1046 9.99991 9C9.99991 10.1046 9.10448 11 7.99991 11C6.89534 11 5.99991 10.1046 5.99991 9C5.99991 10.1046 5.10448 11 3.99991 11C3.36257 11 2.79489 10.7019 2.42867 10.2375C1.88279 9.54525 2.16652 8.57905 2.49081 7.75929L3.89443 4.21114C4.43234 3.13531 4.7013 2.5974 5.18461 2.2987C5.66791 2 6.26932 2 7.47214 2Z");
+}
+
+.qu7lvtbyl {
+  d: path("M9.5 21.5V18.5C9.5 17.5654 9.5 17.0981 9.70096 16.75C9.83261 16.522 10.022 16.3326 10.25 16.201C10.5981 16 11.0654 16 12 16C12.9346 16 13.4019 16 13.75 16.201C13.978 16.3326 14.1674 16.522 14.299 16.75C14.5 17.0981 14.5 17.5654 14.5 18.5V21.5");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+</style>

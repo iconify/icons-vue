@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/x/xvjk-cbox.css';
-import '../../css/n/nd7mrxb6q.css';
-import '../../css/o/ollsq1blz.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,24 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="xvjk-cbox"/><path class="nd7mrxb6q"/><path class="ollsq1blz"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:bookmark-opened-linear" /></template>
+<style>
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.nd7mrxb6q {
+  d: path("M22 14C22 11.1997 22 9.79961 21.455 8.73005C20.9757 7.78924 20.2108 7.02433 19.27 6.54497C18.2004 6 16.8003 6 14 6H10C7.19974 6 5.79961 6 4.73005 6.54497C3.78924 7.02433 3.02433 7.78924 2.54497 8.73005C2 9.79961 2 11.1997 2 14");
+}
+
+.ollsq1blz {
+  d: path("M17 6.04797V10.8076C17 11.7825 17 12.27 16.8709 12.5607C16.5766 13.2233 15.8506 13.5805 15.1461 13.4095C14.8369 13.3344 14.4507 13.037 13.6782 12.4422L13.6782 12.4422C13.2421 12.1064 13.024 11.9385 12.797 11.8398C12.2886 11.619 11.7114 11.619 11.203 11.8398C10.976 11.9385 10.7579 12.1064 10.3218 12.4422L10.3218 12.4422C9.5493 13.037 9.16307 13.3344 8.85391 13.4095C8.14942 13.5805 7.42342 13.2233 7.12914 12.5607C7 12.27 7 11.7825 7 10.8076V6.04797");
+}
+
+.xvjk-cbox {
+  d: path("M12 22C7.28595 22 4.92893 22 3.46447 20.5355C2 19.0711 2 16.714 2 12C2 7.28595 2 4.92893 3.46447 3.46447C4.92893 2 7.28595 2 12 2C16.714 2 19.0711 2 20.5355 3.46447C22 4.92893 22 7.28595 22 12C22 16.714 22 19.0711 20.5355 20.5355C19.0711 22 16.714 22 12 22Z");
+}
+
+</style>

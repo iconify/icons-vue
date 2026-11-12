@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/p/pw8f5c0fp.css';
-import '../../css/r/rqtgs8bmr.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,20 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="pw8f5c0fp"/><path class="rqtgs8bmr"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:high-definition-linear" /></template>
+<style>
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.pw8f5c0fp {
+  d: path("M2 12C2 7.28595 2 4.92893 3.46447 3.46447C4.92893 2 7.28595 2 12 2C16.714 2 19.0711 2 20.5355 3.46447C22 4.92893 22 7.28595 22 12C22 16.714 22 19.0711 20.5355 20.5355C19.0711 22 16.714 22 12 22C7.28595 22 4.92893 22 3.46447 20.5355C2 19.0711 2 16.714 2 12Z");
+}
+
+.rqtgs8bmr {
+  d: path("M5.5 8V12M5.5 12V16M5.5 12H10.3148M10.3148 12V8M10.3148 12V16M12.7222 8.8C12.7222 8.35817 13.1534 8 13.6852 8C16.3443 8 18.5 9.79086 18.5 12C18.5 14.2091 16.3443 16 13.6852 16C13.1534 16 12.7222 15.6418 12.7222 15.2V8.8Z");
+}
+
+</style>

@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/x/xtpeb-edw.css';
-import '../../css/o/o0l0yrncv.css';
-import '../../css/y/yhu770tis.css';
-import '../../css/t/tslomuedm.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,23 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="xtpeb-edw"><path class="o0l0yrncv"/><path class="yhu770tis"/></g><path class="tslomuedm"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:posts-carousel-vertical-bold-duotone" /></template>
+<style>
+.o0l0yrncv {
+  d: path("M8 5.5H16C17.6569 5.5 19 4.15685 19 2.5C19 2.22386 18.7761 2 18.5 2H5.5C5.22386 2 5 2.22386 5 2.5C5 4.15685 6.34315 5.5 8 5.5Z");
+}
+
+.tslomuedm {
+  fill: currentColor;
+  d: path("M5 11.5C5 9.61438 5 8.67157 5.58579 8.08579C6.17157 7.5 7.11438 7.5 9 7.5H15C16.8856 7.5 17.8284 7.5 18.4142 8.08579C19 8.67157 19 9.61438 19 11.5V12.5C19 14.3856 19 15.3284 18.4142 15.9142C17.8284 16.5 16.8856 16.5 15 16.5H9C7.11438 16.5 6.17157 16.5 5.58579 15.9142C5 15.3284 5 14.3856 5 12.5V11.5Z");
+}
+
+.xtpeb-edw {
+  fill: currentColor;
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.yhu770tis {
+  d: path("M16 18.5H8C6.34315 18.5 5 19.8431 5 21.5C5 21.7761 5.22386 22 5.5 22L18.5 22C18.7761 22 19 21.7761 19 21.5C19 19.8431 17.6569 18.5 16 18.5Z");
+}
+
+</style>

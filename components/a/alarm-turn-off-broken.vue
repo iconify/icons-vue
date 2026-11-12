@@ -1,10 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/g/grjk2ibua.css';
-import '../../css/x/x43s2zn6y.css';
-import '../../css/p/pfllnjb4h.css';
-import '../../css/c/cfw654b4b.css';
 
 const props = defineProps(["width","height"]);
 
@@ -12,3 +7,30 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="grjk2ibua"/><path class="x43s2zn6y"/><path class="pfllnjb4h"/><path class="cfw654b4b"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:alarm-turn-off-broken" /></template>
+<style>
+.cfw654b4b {
+  d: path("M7.5 5.20404C8.82378 4.43827 10.3607 4 12 4C16.9706 4 21 8.02944 21 13C21 17.9706 16.9706 22 12 22C7.02944 22 3 17.9706 3 13C3 11.3607 3.43827 9.82378 4.20404 8.5");
+}
+
+.grjk2ibua {
+  d: path("M14.1215 15.1214L12.0002 13M12.0002 13L9.87891 10.8787M12.0002 13L14.1216 10.8787M12.0002 13L9.87892 15.1213");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.pfllnjb4h {
+  stroke-linejoin: round;
+  d: path("M20.5 4.5L16.5 2");
+}
+
+.x43s2zn6y {
+  stroke-linejoin: round;
+  d: path("M3.5 4.5L7.50002 2");
+}
+
+</style>

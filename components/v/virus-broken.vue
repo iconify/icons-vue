@@ -1,22 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/t/t8jed3q6q.css';
-import '../../css/q/qftlv8bpb.css';
-import '../../css/v/vucbnbbhu.css';
-import '../../css/l/lta1ae56a.css';
-import '../../css/z/zb_o4p5fn.css';
-import '../../css/k/kk1iv2blu.css';
-import '../../css/z/zydd4fbxz.css';
-import '../../css/n/n_hx95bzk.css';
-import '../../css/n/ntnce-blv.css';
-import '../../css/k/kvnjkvb7x.css';
-import '../../css/y/y89jwwbfp.css';
-import '../../css/z/z91zqgbok.css';
-import '../../css/z/zca6p_bfo.css';
-import '../../css/c/ct8de1bqv.css';
-import '../../css/q/qkc8pybpt.css';
-import '../../css/e/ei6v1xbcc.css';
 
 const props = defineProps(["width","height"]);
 
@@ -24,3 +7,77 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="t8jed3q6q"/><path class="qftlv8bpb"/><path class="vucbnbbhu"/><path class="lta1ae56a"/><path class="zb_o4p5fn"/><path class="kk1iv2blu"/><path class="zydd4fbxz"/><path class="n_hx95bzk"/><path class="ntnce-blv"/><path class="kvnjkvb7x"/><path class="y89jwwbfp"/><path class="z91zqgbok"/><path class="zca6p_bfo"/><path class="ct8de1bqv"/><path class="qkc8pybpt"/><path class="ei6v1xbcc"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:virus-broken" /></template>
+<style>
+.ct8de1bqv {
+  d: path("M21 11.9999C21 12.8283 20.3284 13.4999 19.5 13.4999C19.3247 13.4999 19.1564 13.4698 19 13.4145V10.5852C19.1564 10.53 19.3247 10.4999 19.5 10.4999C20.3284 10.4999 21 11.1715 21 11.9999Z");
+}
+
+.ei6v1xbcc {
+  stroke-linejoin: round;
+  d: path("M9 13H9.0001");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.kk1iv2blu {
+  d: path("M12.5 13C12.5 14.1046 13.3954 15 14.5 15C15.6046 15 16.5 14.1046 16.5 13C16.5 11.8954 15.6046 11 14.5 11");
+}
+
+.kvnjkvb7x {
+  d: path("M2 12C2 12.8284 2.67157 13.5 3.5 13.5C4.32843 13.5 5 12.8284 5 12C5 11.1716 4.32843 10.5 3.5 10.5C2.67157 10.5 2 11.1716 2 12Z");
+}
+
+.lta1ae56a {
+  d: path("M17.0498 18.0498L16.5 17.5");
+}
+
+.n_hx95bzk {
+  d: path("M20.5607 5.56066C19.9749 6.14645 19.0251 6.14645 18.4393 5.56066C17.8536 4.97487 17.8536 4.02513 18.4393 3.43934C19.0251 2.85355 19.9749 2.85355 20.5607 3.43934");
+}
+
+.ntnce-blv {
+  d: path("M2 3.5C2 4.32843 2.67157 5 3.5 5C4.32843 5 5 4.32843 5 3.5C5 2.67157 4.32843 2 3.5 2");
+}
+
+.qftlv8bpb {
+  d: path("M18 6L16.95 7.05003");
+}
+
+.qkc8pybpt {
+  d: path("M12.0004 20.0001C11.3472 20.0001 10.7916 19.5826 10.5857 19L13.415 19C13.2091 19.5826 12.6535 20.0001 12.0004 20.0001Z");
+}
+
+.t8jed3q6q {
+  d: path("M18.9998 12.0565C19.031 15.9224 15.9224 19.031 12.0565 18.9998C8.19062 18.9686 5.03143 15.8094 5.00023 11.9435C4.96904 8.07765 8.07765 4.96904 11.9435 5.00023C15.8094 5.03143 18.9686 8.19062 18.9998 12.0565Z");
+}
+
+.vucbnbbhu {
+  d: path("M5 5L7 7");
+}
+
+.y89jwwbfp {
+  d: path("M20.0498 19.5498C20.0498 18.7214 19.3782 18.0498 18.5498 18.0498C17.7214 18.0498 17.0498 18.7214 17.0498 19.5498C17.0498 20.3782 17.7214 21.0498 18.5498 21.0498");
+}
+
+.z91zqgbok {
+  d: path("M3.43945 19.4393C4.02524 18.8536 4.97499 18.8536 5.56077 19.4393C6.14656 20.0251 6.14656 20.9749 5.56077 21.5607C4.97499 22.1464 4.02524 22.1464 3.43945 21.5607");
+}
+
+.zb_o4p5fn {
+  d: path("M6 19.0498L7.05003 17.9998");
+}
+
+.zca6p_bfo {
+  d: path("M13.5 3.5C13.5 4.32843 12.8284 5 12 5C11.1716 5 10.5 4.32843 10.5 3.5C10.5 2.67157 11.1716 2 12 2C12.8284 2 13.5 2.67157 13.5 3.5Z");
+}
+
+.zydd4fbxz {
+  d: path("M11 9C11 9.55228 10.5523 10 10 10C9.44772 10 9 9.55228 9 9C9 8.44772 9.44772 8 10 8C10.5523 8 11 8.44772 11 9Z");
+}
+
+</style>

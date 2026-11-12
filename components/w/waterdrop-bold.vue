@@ -1,10 +1,17 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nh1f_ub2d.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path clip-rule="evenodd" class="nh1f_ub2d"/>`;
+const content = `<path clip-rule="evenodd" class="idai_k20p"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:waterdrop-bold" /></template>
+<style>
+.idai_k20p {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M9.29102 3.17903C10.7811 1.60697 13.2189 1.60701 14.709 3.17903C17.2262 5.83499 20.5889 9.96143 20.5889 13.0531C20.5889 17.9942 16.7435 22.0003 12 22.0003C7.25649 22.0003 3.41114 17.9942 3.41113 13.0531C3.41113 9.96143 6.77381 5.83499 9.29102 3.17903ZM11.5234 6.14192C11.2216 5.85845 10.7465 5.8734 10.4629 6.17513C9.35748 7.3511 8.0992 8.80279 7.0293 10.3294C6.79185 10.6686 6.87382 11.1367 7.21289 11.3743C7.55189 11.6118 8.02002 11.5294 8.25781 11.1908C9.27209 9.74349 10.4791 8.34884 11.5566 7.20247C11.8401 6.90073 11.825 6.42559 11.5234 6.14192Z");
+}
+
+</style>

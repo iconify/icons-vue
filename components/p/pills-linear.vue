@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/h/hq7-kg1-l.css';
-import '../../css/v/vr39ulzpl.css';
-import '../../css/q/qdyencbob.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,24 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="hq7-kg1-l"/><path class="vr39ulzpl"/><path class="qdyencbob"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:pills-linear" /></template>
+<style>
+.hq7-kg1-l {
+  d: path("M17.8445 6.15547C17.8445 6.15547 17.4119 8.39999 14.9057 10.9061C12.3996 13.4123 10.1555 13.8445 10.1555 13.8445M20.4075 16.4075C18.6338 18.1813 15.9393 18.4733 13.8624 17.2835C13.4532 17.049 13.068 16.757 12.7185 16.4075L7.59246 11.2815C7.243 10.9321 6.95106 10.5469 6.71664 10.1377C5.5267 8.06082 5.81864 5.36628 7.59246 3.59246C9.71573 1.46918 13.1582 1.46918 15.2815 3.59246L20.4075 8.71849C22.5308 10.8418 22.5308 14.2843 20.4075 16.4075Z");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.qdyencbob {
+  d: path("M13.8624 17.2833C13.2748 19.9804 10.8732 22 8 22C4.68629 22 2 19.3137 2 16C2 13.1268 4.01959 10.7253 6.71664 10.1376");
+}
+
+.vr39ulzpl {
+  d: path("M14.5 6.5L13 5");
+}
+
+</style>

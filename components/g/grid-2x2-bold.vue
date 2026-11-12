@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/w/w-mexebzb.css';
-import '../../css/n/nbkh3ubia.css';
-import '../../css/a/abgizhdkn.css';
-import '../../css/b/bvct38blc.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,25 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="w-mexebzb"/><path class="nbkh3ubia"/><path class="abgizhdkn"/><path class="bvct38blc"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:grid-2x2-bold" /></template>
+<style>
+.abgizhdkn {
+  fill: currentColor;
+  d: path("M12.75 2.00098C16.9683 2.00509 19.1505 2.08019 20.5352 3.46484C21.9193 4.84896 21.9949 7.03 21.999 11.2451H12.75V2.00098Z");
+}
+
+.bvct38blc {
+  fill: currentColor;
+  d: path("M11.25 11.2451H2.00098C2.00514 7.03 2.08073 4.84896 3.46484 3.46484C4.84949 2.08019 7.03168 2.00509 11.25 2.00098V11.2451Z");
+}
+
+.nbkh3ubia {
+  fill: currentColor;
+  d: path("M21.999 12.7451C21.995 16.9666 21.9203 19.15 20.5352 20.5352C19.1505 21.9198 16.9683 21.9939 12.75 21.998V12.7451H21.999Z");
+}
+
+.w-mexebzb {
+  fill: currentColor;
+  d: path("M11.25 12.7451V21.998C7.03168 21.9939 4.84949 21.9198 3.46484 20.5352C2.07966 19.15 2.00504 16.9666 2.00098 12.7451H11.25Z");
+}
+
+</style>

@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/b/bj8teyevb.css';
-import '../../css/v/vr39ulzpl.css';
-import '../../css/h/h0g48wbnz.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,24 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="bj8teyevb"/><path class="vr39ulzpl"/><path class="h0g48wbnz"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:pills-broken" /></template>
+<style>
+.bj8teyevb {
+  d: path("M17.8445 6.15547C17.8445 6.15547 17.4119 8.39999 14.9057 10.9061C12.3996 13.4123 10.1555 13.8445 10.1555 13.8445M17.8445 6.15547L20.4075 8.71849C21.0771 9.38806 21.5355 10.1888 21.7828 11.038M17.8445 6.15547L15.2815 3.59246C13.1582 1.46918 9.71573 1.46918 7.59246 3.59246C5.46918 5.71573 5.46918 9.15824 7.59246 11.2815L10.1555 13.8445M10.1555 13.8445L12.7185 16.4075C14.8418 18.5308 18.2843 18.5308 20.4075 16.4075C20.8312 15.9839 21.1703 15.5077 21.4249 15");
+}
+
+.h0g48wbnz {
+  d: path("M5.48909 21.4511C6.25296 21.8035 7.10352 22.0001 8 22.0001C10.8732 22.0001 13.2748 19.9805 13.8624 17.2834M2.54449 18.5011C2.19491 17.7398 2 16.8927 2 16.0001C2 13.1269 4.01959 10.7254 6.71664 10.1377");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.vr39ulzpl {
+  d: path("M14.5 6.5L13 5");
+}
+
+</style>

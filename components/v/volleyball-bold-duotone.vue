@@ -1,12 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/x/xtpeb-edw.css';
-import '../../css/l/lyjoipjzh.css';
-import '../../css/s/sygmjqbiz.css';
-import '../../css/b/b0ubx3bvg.css';
-import '../../css/m/mzvd5t_pb.css';
-import '../../css/c/cf_pz1hze.css';
-import '../../css/a/ayck09-tp.css';
 
 const props = defineProps(["width","height"]);
 
@@ -14,3 +7,36 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="xtpeb-edw"><path class="lyjoipjzh"/><path class="sygmjqbiz"/><path class="b0ubx3bvg"/><path class="mzvd5t_pb"/></g><g class="xtpeb-edw"><path class="lyjoipjzh"/><path class="sygmjqbiz"/></g><path class="cf_pz1hze"/><path class="ayck09-tp"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:volleyball-bold-duotone" /></template>
+<style>
+.ayck09-tp {
+  fill: currentColor;
+  d: path("M10.1846 2.55859C8.8658 5.6907 9.08232 9.23977 10.7471 12.1826L10.5762 12.3984C9.6482 13.5791 8.49496 14.5392 7.2002 15.2373C5.6224 11.4333 5.51474 7.26194 6.87891 3.4082C7.93086 2.77985 9.10839 2.33946 10.3643 2.13281L10.1846 2.55859Z");
+}
+
+.b0ubx3bvg {
+  d: path("M10.8291 6.81152C14.8836 6.89031 18.7536 8.51798 21.625 11.3584L21.627 11.3604L21.998 11.7324C22.0004 11.8212 22.001 11.9107 22.001 12C22.001 13.3875 21.7188 14.7091 21.208 15.9102C18.9658 13.2081 15.6384 11.5867 12.082 11.4941C11.2535 10.05 10.8314 8.43484 10.8291 6.81152Z");
+}
+
+.cf_pz1hze {
+  fill: currentColor;
+  d: path("M4.86426 4.99414C4.05511 8.60441 4.37798 12.3755 5.83301 15.8574C4.94932 16.187 4.01923 16.4042 3.06543 16.4971C2.3837 15.1453 2.00005 13.6173 2 12C2 9.27467 3.09029 6.80373 4.8584 5L4.86426 4.99414Z");
+}
+
+.lyjoipjzh {
+  d: path("M18.6162 15.4385C19.2967 15.9974 19.9112 16.6432 20.4414 17.3652C18.6664 20.1515 15.5494 22 12.001 22C10.7187 22 9.49277 21.7581 8.36621 21.3184C12.2692 20.4472 15.9434 18.3127 18.6162 15.4385Z");
+}
+
+.mzvd5t_pb {
+  d: path("M12.0488 2C16.6325 2.02142 20.4874 5.1267 21.6455 9.34766C18.6567 6.83896 14.8823 5.4101 10.9473 5.31348C11.0652 4.57533 11.2716 3.84553 11.5684 3.14062L12.0488 2Z");
+}
+
+.sygmjqbiz {
+  d: path("M12.0186 12.9932C13.9412 13.0388 15.7866 13.593 17.3809 14.5625C14.4922 17.5979 10.3923 19.7025 6.21582 20.1572C5.33656 19.5325 4.56249 18.7694 3.92578 17.8994C7.00331 17.4192 9.81276 15.7987 11.7568 13.3252L12.0186 12.9932Z");
+}
+
+.xtpeb-edw {
+  fill: currentColor;
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+</style>

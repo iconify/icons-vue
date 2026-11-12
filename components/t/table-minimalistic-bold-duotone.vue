@@ -1,7 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/nayqy1c_r.css';
-import '../../css/k/kydc5glkh.css';
 
 const props = defineProps(["width","height"]);
 
@@ -9,3 +7,16 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="nayqy1c_r"/><path class="kydc5glkh"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:table-minimalistic-bold-duotone" /></template>
+<style>
+.kydc5glkh {
+  fill: currentColor;
+  d: path("M9.75 7.91699H20.9873C20.9947 8.37805 20.9985 8.87667 20.999 9.41699H9.75V21.998C9.20532 21.9954 8.70704 21.9876 8.25 21.9727V9.41699H3.00098C3.00147 8.87667 3.00532 8.37805 3.0127 7.91699H8.25V2.02637C8.70704 2.01141 9.20533 2.0036 9.75 2.00098V7.91699Z");
+}
+
+.nayqy1c_r {
+  fill: currentColor;
+  d: path("M13 2C16.7712 2 18.6569 2 19.8284 3.17157C21 4.34315 21 6.22876 21 10L21 14C21 17.7712 21 19.6569 19.8284 20.8284C18.6569 22 16.7712 22 13 22L11 22C7.22876 22 5.34315 22 4.17157 20.8284C3 19.6569 3 17.7712 3 14L3 10C3 6.22876 3 4.34315 4.17157 3.17157C5.34315 2 7.22876 2 11 2L13 2Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+</style>

@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/f/ft-nr84oc.css';
-import '../../css/z/zia4plbis.css';
-import '../../css/x/xbt_tmtte.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,26 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="ft-nr84oc"/><path class="zia4plbis"/><path class="xbt_tmtte"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:panorama-line-duotone" /></template>
+<style>
+.ft-nr84oc {
+  d: path("M22 5.85976C22 5.06521 21.2094 4.33387 19.883 3.75291C18.7083 3.23847 17.5 4.21975 17.5 5.50211V8.71958M22 5.85976V18.5762C22 20.4671 17.5228 21.9999 12 21.9999C6.47715 21.9999 2 20.4671 2 18.5762V5.85976M2 5.85976C2 7.05499 3.78889 8.10717 6.5 8.71958C8.0779 9.07601 9.96818 9.28348 12 9.28348C14.0318 9.28348 15.9221 9.07601 17.5 8.71958C20.2111 8.10717 22 7.05499 22 5.85976M2 5.85976C2 5.06521 2.79055 4.33387 4.11705 3.75291C5.29169 3.23847 6.5 4.21975 6.5 5.50211V8.71958");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.xbt_tmtte {
+  d: path("M2.25 19.3387L6.29143 15.5566L7.6475 14.4214C8.353 13.8309 9.41629 13.8648 10.0792 14.4989L13.4002 17.6758C13.9323 18.1848 14.7698 18.2542 15.3854 17.8403L15.6163 17.6851C16.5021 17.0896 17.7007 17.1586 18.5055 17.8514L21.0456 20.0384");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.zia4plbis {
+  d: path("M19.5 13C19.5 13.8284 18.8284 14.5 18 14.5C17.1716 14.5 16.5 13.8284 16.5 13C16.5 12.1716 17.1716 11.5 18 11.5C18.8284 11.5 19.5 12.1716 19.5 13Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+</style>

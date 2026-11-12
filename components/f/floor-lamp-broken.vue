@@ -1,12 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/j/j02jjxvbk.css';
-import '../../css/o/o9d_ombdl.css';
-import '../../css/i/ick8o1b-y.css';
-import '../../css/y/y217mfbez.css';
-import '../../css/y/y93r_0nnf.css';
-import '../../css/x/xd4f9coez.css';
 
 const props = defineProps(["width","height"]);
 
@@ -14,3 +7,36 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="j02jjxvbk"/><path class="o9d_ombdl"/><path class="ick8o1b-y"/><path class="y217mfbez"/><path class="y93r_0nnf"/><path class="xd4f9coez"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:floor-lamp-broken" /></template>
+<style>
+.ick8o1b-y {
+  d: path("M9 22H15");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.j02jjxvbk {
+  d: path("M12 18V16.9368C12 15.6554 11.4101 14.4467 10.4035 13.6655L6.52181 10.8909M6.52181 10.8909C7.28701 9.83644 7.29602 8.44296 6.62898 7.39296C6.3242 6.9132 5.661 6.99543 5.31139 7.44298L2.7793 10.6844M2.7793 10.6844C2.4297 11.132 2.50541 11.8018 3.03895 11.9887C4.2398 12.4094 5.62367 12.0438 6.45481 10.9798C6.47776 10.9505 6.50009 10.9208 6.52181 10.8909M2.7793 10.6844C1.89216 9.97894 1.73982 8.6814 2.43904 7.7863C3.13826 6.8912 4.42425 6.73749 5.31139 7.44298");
+}
+
+.o9d_ombdl {
+  d: path("M12 18V16.9368C12 15.6554 12.5899 14.4467 13.5965 13.6655L17.4782 10.8909M17.4782 10.8909C16.713 9.83644 16.704 8.44296 17.371 7.39296C17.6758 6.9132 18.339 6.99543 18.6886 7.44298L21.2207 10.6844M21.2207 10.6844C21.5703 11.132 21.4946 11.8018 20.9611 11.9887C19.7602 12.4094 18.3763 12.0438 17.5452 10.9798C17.5222 10.9505 17.4999 10.9208 17.4782 10.8909M21.2207 10.6844C22.1078 9.97894 22.2602 8.6814 21.561 7.7863C20.8617 6.8912 19.5757 6.73749 18.6886 7.44298");
+}
+
+.xd4f9coez {
+  d: path("M14 4C14 2.89543 13.1046 2 12 2C10.8954 2 10 2.89543 10 4H14Z");
+}
+
+.y217mfbez {
+  d: path("M12 10V7M12 22V13");
+}
+
+.y93r_0nnf {
+  d: path("M14.8354 4.98189C14.4288 6.15653 13.3128 7 11.9998 7C10.6868 7 9.57086 6.15653 9.16418 4.98189C8.98349 4.46 9.44752 4 9.99981 4H13.9998C14.5521 4 15.0161 4.46 14.8354 4.98189Z");
+}
+
+</style>

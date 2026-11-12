@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/d/dm03gzbnp.css';
-import '../../css/g/gy84gfb-f.css';
-import '../../css/s/sqo895pky.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,21 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="dm03gzbnp"/><path class="gy84gfb-f"/><path class="sqo895pky"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:send-square-bold-duotone" /></template>
+<style>
+.dm03gzbnp {
+  fill: currentColor;
+  d: path("M2 12C2 7.28595 2 4.92893 3.46447 3.46447C4.92893 2 7.28595 2 12 2C16.714 2 19.0711 2 20.5355 3.46447C22 4.92893 22 7.28595 22 12C22 16.714 22 19.0711 20.5355 20.5355C19.0711 22 16.714 22 12 22C7.28595 22 4.92893 22 3.46447 20.5355C2 19.0711 2 16.714 2 12Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.gy84gfb-f {
+  fill: currentColor;
+  d: path("M7.75 8C7.75 7.58579 7.41421 7.25 7 7.25C6.58579 7.25 6.25 7.58579 6.25 8V16C6.25 16.4142 6.58579 16.75 7 16.75C7.41421 16.75 7.75 16.4142 7.75 16L7.75 8Z");
+}
+
+.sqo895pky {
+  fill: currentColor;
+  d: path("M17 12.75C17.4142 12.75 17.75 12.4142 17.75 12C17.75 11.5858 17.4142 11.25 17 11.25L11.8107 11.25L13.5303 9.53033C13.8232 9.23744 13.8232 8.76256 13.5303 8.46967C13.2374 8.17678 12.7626 8.17678 12.4697 8.46967L9.46967 11.4697C9.32902 11.6103 9.25 11.8011 9.25 12C9.25 12.1989 9.32902 12.3897 9.46967 12.5303L12.4697 15.5303C12.7626 15.8232 13.2374 15.8232 13.5303 15.5303C13.8232 15.2374 13.8232 14.7626 13.5303 14.4697L11.8107 12.75H17Z");
+}
+
+</style>

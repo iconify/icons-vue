@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/o/o4bztxbcd.css';
-import '../../css/w/w3kf-ubcm.css';
-import '../../css/k/k-a-0dber.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,26 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="o4bztxbcd"/><path class="w3kf-ubcm"/><path class="k-a-0dber"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:bookmark-opened-line-duotone" /></template>
+<style>
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.k-a-0dber {
+  d: path("M10 6H14C16.8003 6 18.2004 6 19.27 6.54497C20.2108 7.02433 20.9757 7.78924 21.455 8.73005C22 9.79961 22 11.1997 22 14C22 16.8003 22 18.2004 21.455 19.27C20.9757 20.2108 20.2108 20.9757 19.27 21.455C18.2004 22 16.8003 22 14 22H10C7.19974 22 5.79961 22 4.73005 21.455C3.78924 20.9757 3.02433 20.2108 2.54497 19.27C2 18.2004 2 16.8003 2 14C2 11.1997 2 9.79961 2.54497 8.73005C3.02433 7.78924 3.78924 7.02433 4.73005 6.54497C5.79961 6 7.19974 6 10 6Z");
+}
+
+.o4bztxbcd {
+  d: path("M17 6.04797V10.8076C17 11.7825 17 12.27 16.8709 12.5607C16.5766 13.2233 15.8506 13.5805 15.1461 13.4095C14.8369 13.3344 14.4507 13.037 13.6782 12.4422L13.6782 12.4422C13.2421 12.1064 13.024 11.9385 12.797 11.8398C12.2886 11.619 11.7114 11.619 11.203 11.8398C10.976 11.9385 10.7579 12.1064 10.3218 12.4422L10.3218 12.4422C9.5493 13.037 9.16307 13.3344 8.85391 13.4095C8.14942 13.5805 7.42342 13.2233 7.12914 12.5607C7 12.27 7 11.7825 7 10.8076V6.04797");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.w3kf-ubcm {
+  d: path("M22 12C22 7.28595 22 4.92893 20.5355 3.46447C19.0711 2 16.714 2 12 2C7.28595 2 4.92893 2 3.46447 3.46447C2 4.92893 2 7.28595 2 12");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+</style>

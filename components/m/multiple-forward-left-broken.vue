@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/v/vhqt3fbde.css';
-import '../../css/l/lyvknabku.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,21 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="vhqt3fbde"/><path class="lyvknabku"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:multiple-forward-left-broken" /></template>
+<style>
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.lyvknabku {
+  d: path("M8.46154 4.5L3.24533 9.34362C2.45122 10.081 2 11.1158 2 12.1994C2 13.3418 2.50122 14.4266 3.37112 15.1671L8.46154 19.5");
+}
+
+.vhqt3fbde {
+  stroke-linejoin: round;
+  d: path("M18.0002 10.1316C16.3869 8.97745 14.5456 8.57148 13.0003 8.57148V6.2269C13.0003 5.2689 13.0003 4.78991 12.7052 4.65735C12.41 4.5248 12.052 4.84303 11.336 5.47949L7.36369 9.01041L7.36367 9.01043C5.79506 10.4048 5.01074 11.1019 5.01074 12.0001C5.01074 12.8982 5.79506 13.5954 7.36369 14.9897L11.336 18.5206C12.052 19.1571 12.41 19.4753 12.7052 19.3427C13.0003 19.2102 13.0003 18.7312 13.0003 17.7732V15.4286C16.6003 15.4286 20.5003 17.1429 22.0003 20.0001C22.0003 17.5684 21.6231 15.6218 21.0002 14.0742");
+}
+
+</style>

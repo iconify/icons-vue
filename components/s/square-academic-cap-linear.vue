@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/n/nsru6hb0x.css';
-import '../../css/p/p3_4el9va.css';
-import '../../css/c/csckydbbl.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,24 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="nsru6hb0x"/><path class="p3_4el9va"/><path class="csckydbbl"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:square-academic-cap-linear" /></template>
+<style>
+.csckydbbl {
+  d: path("M19 11.5V16.6254C19 17.6334 18.4965 18.5772 17.6147 19.0656C16.1463 19.8787 13.796 21 12 21C10.204 21 7.8537 19.8787 6.38533 19.0656C5.5035 18.5772 5 17.6334 5 16.6254V11.5");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.nsru6hb0x {
+  d: path("M3.0916 10.3634L9.78281 13.5004C11.2038 14.1665 12.7963 14.1665 14.2173 13.5004L20.9084 10.3634C22.3639 9.68105 22.3639 7.31899 20.9084 6.63664L14.2172 3.49965C12.7962 2.83345 11.2037 2.83345 9.78272 3.49965L3.0916 6.63659C1.63614 7.31895 1.63613 9.68101 3.0916 10.3634Z");
+}
+
+.p3_4el9va {
+  d: path("M2 8.5V14");
+}
+
+</style>

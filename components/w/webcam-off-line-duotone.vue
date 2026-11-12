@@ -1,12 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/c/cu1491zmm.css';
-import '../../css/r/rsrhfac5n.css';
-import '../../css/v/v_cyp7bey.css';
-import '../../css/o/ooa950bqt.css';
-import '../../css/u/uwes2uvpu.css';
-import '../../css/p/pbkeun42d.css';
 
 const props = defineProps(["width","height"]);
 
@@ -14,3 +7,39 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="cu1491zmm"/><path class="rsrhfac5n"/><path class="v_cyp7bey"/><path class="ooa950bqt"/><path class="uwes2uvpu"/><path class="pbkeun42d"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:webcam-off-line-duotone" /></template>
+<style>
+.cu1491zmm {
+  d: path("M14.8715 9.12853C14.4981 7.89669 13.3538 7 12 7C10.3431 7 9 8.34315 9 10C9 11.3538 9.8967 12.4981 11.1285 12.8715");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.ooa950bqt {
+  d: path("M22 2L18.5246 5.47543L7.47544 16.5246L2 22");
+}
+
+.pbkeun42d {
+  d: path("M16 22H8M9.65405 17.6507C10.3959 17.8779 11.1836 18.0002 11.9999 18.0002M11.9999 18.0002C16.4182 18.0002 19.9999 14.4184 19.9999 10.0002C19.9999 9.18388 19.8777 8.39616 19.6505 7.6543M11.9999 18.0002L12 22");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.rsrhfac5n {
+  d: path("M22 2L2 22");
+}
+
+.uwes2uvpu {
+  d: path("M18.5246 5.47544C17.0618 3.3948 14.6512 2.02218 11.9354 2.00027C7.51731 1.96461 3.96461 5.51731 4.00027 9.93545C4.02218 12.6512 5.3948 15.0618 7.47545 16.5246");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.v_cyp7bey {
+  stroke-linejoin: round;
+  d: path("M12 4.50098H12.0001");
+}
+
+</style>

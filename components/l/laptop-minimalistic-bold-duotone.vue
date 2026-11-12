@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/iy2kejbyw.css';
-import '../../css/j/j-36nlbdh.css';
-import '../../css/h/hxvqwbbdj.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,21 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="iy2kejbyw"/><path class="j-36nlbdh"/><path class="hxvqwbbdj"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:laptop-minimalistic-bold-duotone" /></template>
+<style>
+.hxvqwbbdj {
+  fill: currentColor;
+  d: path("M3.69013 3.8904C2.79102 4.78079 2.79102 6.21386 2.79102 9.08V14.1467C2.79102 16.0574 2.79102 17.0128 3.39042 17.6064C3.98983 18.2 4.95457 18.2 6.88404 18.2H17.1166C19.0461 18.2 20.0108 18.2 20.6102 17.6064C21.2096 17.0128 21.2096 16.0574 21.2096 14.1467V9.08C21.2096 6.21386 21.2096 4.78079 20.3105 3.8904C19.4114 3 17.9643 3 15.0701 3H8.93055C6.03635 3 4.58924 3 3.69013 3.8904Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.iy2kejbyw {
+  fill: currentColor;
+  d: path("M22.2324 19.4805C22.6562 19.4805 22.9999 19.8206 23 20.2402C23 20.66 22.6563 21 22.2324 21H1.76758C1.34373 21 1 20.66 1 20.2402C1.00013 19.8206 1.34381 19.4805 1.76758 19.4805H22.2324Z");
+}
+
+.j-36nlbdh {
+  fill: currentColor;
+  d: path("M15.0703 14.4004C15.494 14.4005 15.8378 14.7406 15.8379 15.1602C15.8379 15.5798 15.494 15.9198 15.0703 15.9199H8.93066C8.50682 15.9199 8.16309 15.5799 8.16309 15.1602C8.16321 14.7405 8.5069 14.4004 8.93066 14.4004H15.0703Z");
+}
+
+</style>

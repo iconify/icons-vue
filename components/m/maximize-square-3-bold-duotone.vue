@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/d/dm03gzbnp.css';
-import '../../css/y/yawhug1ht.css';
-import '../../css/p/p-jn__uye.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,21 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="dm03gzbnp"/><path class="yawhug1ht"/><path class="p-jn__uye"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:maximize-square-3-bold-duotone" /></template>
+<style>
+.dm03gzbnp {
+  fill: currentColor;
+  d: path("M2 12C2 7.28595 2 4.92893 3.46447 3.46447C4.92893 2 7.28595 2 12 2C16.714 2 19.0711 2 20.5355 3.46447C22 4.92893 22 7.28595 22 12C22 16.714 22 19.0711 20.5355 20.5355C19.0711 22 16.714 22 12 22C7.28595 22 4.92893 22 3.46447 20.5355C2 19.0711 2 16.714 2 12Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.p-jn__uye {
+  fill: currentColor;
+  d: path("M17 6.25C17.4142 6.25 17.75 6.58579 17.75 7V10.75C17.75 11.1642 17.4142 11.5 17 11.5C16.5858 11.5 16.25 11.1642 16.25 10.75V8.81055L12.5303 12.5303C12.2374 12.8232 11.7626 12.8232 11.4697 12.5303C11.1768 12.2374 11.1768 11.7626 11.4697 11.4697L15.1895 7.75H13.25C12.8358 7.75 12.5 7.41421 12.5 7C12.5 6.58579 12.8358 6.25 13.25 6.25H17Z");
+}
+
+.yawhug1ht {
+  fill: currentColor;
+  d: path("M6.5 13C8.62132 13 9.68181 13.0002 10.3408 13.6592C10.9998 14.3182 11 15.3787 11 17.5C11 19.6213 10.9998 20.6818 10.3408 21.3408C9.68181 21.9998 8.62132 22 6.5 22C4.37868 22 3.31819 21.9998 2.65918 21.3408C2.00017 20.6818 2 19.6213 2 17.5C2 15.3787 2.00017 14.3182 2.65918 13.6592C3.31819 13.0002 4.37868 13 6.5 13Z");
+}
+
+</style>

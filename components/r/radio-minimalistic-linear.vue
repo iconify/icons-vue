@@ -1,12 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/k/k66tt2kvs.css';
-import '../../css/v/vbbzsbc0t.css';
-import '../../css/z/zyzap34-z.css';
-import '../../css/r/rjhta0mui.css';
-import '../../css/j/j8cgqw99q.css';
-import '../../css/n/n787bfb7v.css';
 
 const props = defineProps(["width","height"]);
 
@@ -14,3 +7,38 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="k66tt2kvs"/><circle class="vbbzsbc0t"/><path class="zyzap34-z"/><path class="rjhta0mui"/><path class="j8cgqw99q"/><path class="n787bfb7v"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:radio-minimalistic-linear" /></template>
+<style>
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.j8cgqw99q {
+  d: path("M13.5 17H19");
+}
+
+.k66tt2kvs {
+  d: path("M10 22H14C17.7712 22 19.6569 22 20.8284 20.8284C22 19.6569 22 17.7712 22 14C22 10.2288 22 8.34315 20.8284 7.17157C19.6569 6 17.7712 6 14 6H10C6.22876 6 4.34315 6 3.17157 7.17157C2 8.34315 2 10.2288 2 14C2 17.7712 2 19.6569 3.17157 20.8284C4.34315 22 6.22876 22 10 22Z");
+}
+
+.n787bfb7v {
+  d: path("M6.5 6L15 2");
+}
+
+.rjhta0mui {
+  d: path("M13.5 14H19");
+}
+
+.vbbzsbc0t {
+  cx: 8px;
+  cy: 14px;
+  r: 3px;
+}
+
+.zyzap34-z {
+  d: path("M13.5 11H19");
+}
+
+</style>

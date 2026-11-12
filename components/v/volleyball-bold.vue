@@ -1,11 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/r/re74k8eaa.css';
-import '../../css/n/nquug4bon.css';
-import '../../css/d/dh1if8bzc.css';
-import '../../css/z/zlv857b-x.css';
-import '../../css/l/l662jhb3d.css';
-import '../../css/j/j8blkxn0m.css';
 
 const props = defineProps(["width","height"]);
 
@@ -13,3 +7,35 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="re74k8eaa"/><path class="nquug4bon"/><path class="dh1if8bzc"/><path class="zlv857b-x"/><path class="l662jhb3d"/><path class="j8blkxn0m"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:volleyball-bold" /></template>
+<style>
+.dh1if8bzc {
+  fill: currentColor;
+  d: path("M21.6241 11.3582L21.6261 11.3603L21.9965 11.7328C21.9988 11.8216 22 11.9107 22 12C22 13.3877 21.7173 14.7094 21.2065 15.9106C18.9642 13.2086 15.6375 11.5872 12.0812 11.4947C11.2524 10.0503 10.8302 8.43485 10.828 6.81123C14.8825 6.89002 18.7527 8.51781 21.6241 11.3582Z");
+}
+
+.j8blkxn0m {
+  fill: currentColor;
+  d: path("M4.8586 4.99998C3.09033 6.80374 2 9.27454 2 12C2 13.6174 2.38398 15.1451 3.06576 16.497C4.01958 16.4041 4.94937 16.1874 5.83307 15.8578C4.37799 12.3758 4.05507 8.60453 4.86431 4.99415L4.8586 4.99998Z");
+}
+
+.l662jhb3d {
+  fill: currentColor;
+  d: path("M10.5766 12.3989C9.64853 13.5797 8.49484 14.5399 7.19986 15.238C5.62198 11.434 5.51513 7.26259 6.87932 3.40878C7.93127 2.78043 9.1083 2.3398 10.3642 2.13315L10.1849 2.55899C8.86607 5.69111 9.08193 9.23967 10.7467 12.1825L10.5766 12.3989Z");
+}
+
+.nquug4bon {
+  fill: currentColor;
+  d: path("M20.4402 17.3654C18.6653 20.1518 15.5485 22 12 22C10.7178 22 9.49188 21.7587 8.36531 21.319C12.2683 20.4478 15.9424 18.3134 18.6152 15.4391C19.2956 15.998 19.91 16.6434 20.4402 17.3654Z");
+}
+
+.re74k8eaa {
+  fill: currentColor;
+  d: path("M12.0171 12.9936C13.94 13.0391 15.7856 13.5933 17.38 14.563C14.4913 17.5984 10.3915 19.7031 6.21502 20.1578C5.33561 19.5331 4.56158 18.7697 3.92479 17.8996C7.00231 17.4193 9.81188 15.7993 11.756 13.3258L12.0171 12.9936Z");
+}
+
+.zlv857b-x {
+  fill: currentColor;
+  d: path("M10.9458 5.31347C11.0638 4.57532 11.2705 3.84598 11.5673 3.14108L12.0477 2.00012C16.6314 2.02154 20.4864 5.12681 21.6445 9.34779C18.6556 6.839 14.881 5.41002 10.9458 5.31347Z");
+}
+
+</style>

@@ -1,12 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/x/xtpeb-edw.css';
-import '../../css/j/jq_ooubgw.css';
-import '../../css/u/u2g21000b.css';
-import '../../css/t/t219vab9w.css';
-import '../../css/o/opm_vbb2d.css';
-import '../../css/t/t6dnxslch.css';
-import '../../css/t/t1-16f25t.css';
 
 const props = defineProps(["width","height"]);
 
@@ -14,3 +7,38 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="xtpeb-edw"><path class="jq_ooubgw"/><path class="u2g21000b"/></g><path class="t219vab9w"/><path class="opm_vbb2d"/><path class="t6dnxslch"/><path class="t1-16f25t"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:airbuds-bold-duotone" /></template>
+<style>
+.jq_ooubgw {
+  d: path("M5.96582 3.00586C8.68535 3.13212 10.8596 5.18641 10.9932 7.75488C10.9995 7.87744 11 8.02249 11 8.3125V18.75C11 19.9926 9.93292 21 8.61719 21C7.30166 20.9998 6.23535 19.9925 6.23535 18.75V12.2998C6.23524 11.7477 5.76133 11.3 5.17676 11.2998C3.42244 11.2998 2 9.95666 2 8.29981V6.1875C2 6.01349 2.00008 5.92608 2.00391 5.85254C2.0842 4.31159 3.38889 3.07966 5.02051 3.00391C5.09839 3.00029 5.19066 3 5.375 3C5.68223 3 5.83601 2.99984 5.96582 3.00586Z");
+}
+
+.opm_vbb2d {
+  fill: currentColor;
+  d: path("M17.7646 18.75H13V17.25H17.7646V18.75Z");
+}
+
+.t1-16f25t {
+  fill: currentColor;
+  d: path("M19.5 5.25C19.9142 5.25 20.25 5.58579 20.25 6V8.5C20.25 8.91421 19.9142 9.25 19.5 9.25C19.0858 9.25 18.75 8.91421 18.75 8.5V6C18.75 5.58579 19.0858 5.25 19.5 5.25Z");
+}
+
+.t219vab9w {
+  fill: currentColor;
+  d: path("M11 18.75H6.23535V17.25H11V18.75Z");
+}
+
+.t6dnxslch {
+  fill: currentColor;
+  d: path("M4.5 5.25C4.91421 5.25 5.25 5.58579 5.25 6V8.5C5.25 8.91421 4.91421 9.25 4.5 9.25C4.08579 9.25 3.75 8.91421 3.75 8.5V6C3.75 5.58579 4.08579 5.25 4.5 5.25Z");
+}
+
+.u2g21000b {
+  d: path("M18.9795 3.00391C20.6111 3.07966 21.9158 4.31159 21.9961 5.85254C21.9999 5.92608 22 6.01349 22 6.1875V8.29981C22 9.95666 20.5776 11.2998 18.8232 11.2998C18.2387 11.3 17.7648 11.7477 17.7646 12.2998V18.75C17.7646 19.9925 16.6983 20.9998 15.3828 21C14.0671 21 13 19.9926 13 18.75V8.3125C13 8.02249 13.0005 7.87744 13.0068 7.75488C13.1404 5.18641 15.3146 3.13212 18.0342 3.00586C18.164 2.99984 18.3178 3 18.625 3C18.8093 3 18.9016 3.00029 18.9795 3.00391Z");
+}
+
+.xtpeb-edw {
+  fill: currentColor;
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+</style>

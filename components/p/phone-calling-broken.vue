@@ -1,10 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/a/a8xienwaj.css';
-import '../../css/q/qy44fxbnk.css';
-import '../../css/t/trwxrbbld.css';
-import '../../css/n/ny_y9qmnt.css';
 
 const props = defineProps(["width","height"]);
 
@@ -12,3 +7,28 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="a8xienwaj"/><path class="qy44fxbnk"/><path class="trwxrbbld"/><path class="ny_y9qmnt"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:phone-calling-broken" /></template>
+<style>
+.a8xienwaj {
+  d: path("M13.5 2.00006C13.5 2.00006 15.8335 2.21219 18.8033 5.18204C21.7731 8.15189 21.9853 10.4853 21.9853 10.4853");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.ny_y9qmnt {
+  d: path("M14.9592 20.7925C16.1226 21.0361 17.0651 21.0234 17.6763 20.9631C18.1917 20.9122 18.6399 20.6343 19.0011 20.254L20.4217 18.7584C21.3806 17.7489 21.1102 16.0182 19.8833 15.312L17.9728 14.2123C17.1673 13.7486 16.1858 13.8848 15.5562 14.5477L15.1007 15.0272C15.1007 15.0272 14.0182 16.167 11.0631 13.0559C8.10814 9.94484 9.19073 8.80507 9.19073 8.80507L9.47754 8.50311C10.1841 7.75924 10.2507 6.56497 9.63427 5.6931L8.37328 3.90962C7.61031 2.8305 6.13598 2.68795 5.26147 3.60864");
+}
+
+.qy44fxbnk {
+  d: path("M14.207 5.53564C14.207 5.53564 15.197 5.81849 16.6819 7.30341C18.1668 8.78834 18.4497 9.77829 18.4497 9.77829");
+}
+
+.trwxrbbld {
+  d: path("M3.00293 6.96582C3.09308 8.64534 3.81076 12.2589 7.8154 16.4751C8.92856 17.647 10.0237 18.524 11.0632 19.1772");
+}
+
+</style>

@@ -1,7 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/q/qi3uxcbzc.css';
-import '../../css/d/duqz644oy.css';
 
 const props = defineProps(["width","height"]);
 
@@ -9,3 +7,16 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="qi3uxcbzc"/><path class="duqz644oy"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:arrow-right-to-line-bold-duotone" /></template>
+<style>
+.duqz644oy {
+  fill: currentColor;
+  d: path("M21 12.75L9.93164 12.75L12.8809 15.4463C13.1865 15.7257 13.208 16.2002 12.9287 16.5059C12.6493 16.8115 12.1748 16.833 11.8691 16.5537L7.49414 12.5537C7.33874 12.4116 7.25 12.2106 7.25 12C7.25 11.7894 7.33874 11.5884 7.49414 11.4463L11.8691 7.4463C12.1749 7.167 12.6493 7.18852 12.9287 7.49415C13.208 7.79986 13.1865 8.27428 12.8809 8.55372L9.93164 11.25L21 11.25C21.4142 11.25 21.75 11.5858 21.75 12C21.75 12.4142 21.4142 12.75 21 12.75Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.qi3uxcbzc {
+  fill: currentColor;
+  d: path("M2.25 20C2.25 20.4142 2.58579 20.75 3 20.75C3.41421 20.75 3.75 20.4142 3.75 20L3.75 4C3.75 3.58579 3.41421 3.25 3 3.25C2.58579 3.25 2.25 3.58579 2.25 4L2.25 20Z");
+}
+
+</style>

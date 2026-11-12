@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/j/jg7ou40pg.css';
-import '../../css/e/eh6mdhb4g.css';
-import '../../css/c/cipdabcte.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,24 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="jg7ou40pg"/><path class="eh6mdhb4g"/><path class="cipdabcte"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:mirror-right-broken" /></template>
+<style>
+.cipdabcte {
+  d: path("M12 22L12 2");
+}
+
+.eh6mdhb4g {
+  d: path("M13 21H12.0909M13 3H12.0909M9.90909 21H9C8.56459 21 8.16269 21 7.79109 20.9968M4.91261 20.7228C4.49432 20.5928 4.15921 20.4018 3.87868 20.1213C3.59815 19.8408 3.40719 19.5057 3.27719 19.0874M3.00321 16.2089C3 15.8373 3 15.4354 3 15V13.6364M3 10.3636V9C3 8.56459 3 8.16269 3.00321 7.79109M3.27719 4.91261C3.40719 4.49432 3.59815 4.15921 3.87868 3.87868C4.15921 3.59815 4.49432 3.40719 4.91261 3.27719M7.7911 3.00321C8.16269 3 8.56459 3 9 3H9.90909");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.jg7ou40pg {
+  d: path("M21 12C21 16.2426 21 18.364 19.682 19.682C18.364 21 16.2426 21 12 21M12 3C16.2426 3 18.364 3 19.682 4.31802C20.4976 5.13363 20.8085 6.25685 20.927 8");
+}
+
+</style>

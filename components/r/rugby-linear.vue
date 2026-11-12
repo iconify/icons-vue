@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/n/nb77v-bco.css';
-import '../../css/h/hlm5fkb9j.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,20 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="nb77v-bco"/><path class="hlm5fkb9j"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:rugby-linear" /></template>
+<style>
+.hlm5fkb9j {
+  d: path("M15.3108 8.69043L13.8923 10.1089M13.8923 10.1089L12.0011 12.0001M13.8923 10.1089L12.4739 8.69043M13.8923 10.1089L15.3108 11.5273M12.0011 12.0001L10.1098 13.8914M12.0011 12.0001L10.5827 10.5817M12.0011 12.0001L13.4195 13.4185M10.1098 13.8914L8.69141 15.3098M10.1098 13.8914L8.69141 12.4729M10.1098 13.8914L11.5283 15.3098");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.nb77v-bco {
+  d: path("M13.4572 2.10976C10.5738 2.38717 7.50944 3.25185 5.38064 5.38064C3.25185 7.50944 2.38717 10.5738 2.10976 13.4572M13.4572 2.10976C15.1273 1.94909 16.7367 1.98542 18.0686 2.08725C20.1483 2.24627 21.7537 3.85169 21.9127 5.93144C22.0146 7.26327 22.0509 8.87269 21.8902 10.5428M13.4572 2.10976L21.8902 10.5428M21.8902 10.5428C21.6128 13.4262 20.7482 16.4906 18.6194 18.6194C16.4906 20.7482 13.4262 21.6128 10.5428 21.8902M10.5428 21.8902C8.87269 22.0509 7.26327 22.0146 5.93144 21.9127C3.85169 21.7537 2.24627 20.1483 2.08725 18.0686C1.98542 16.7367 1.94909 15.1273 2.10976 13.4572M10.5428 21.8902L2.10976 13.4572");
+}
+
+</style>

@@ -1,13 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/a/a_fhw4q4n.css';
-import '../../css/i/i1og6obge.css';
-import '../../css/j/jpf6i3h8v.css';
-import '../../css/m/myrt-acvb.css';
-import '../../css/a/akwwjkb_a.css';
-import '../../css/z/zfv0jff-m.css';
-import '../../css/x/xhsqmdbch.css';
 
 const props = defineProps(["width","height"]);
 
@@ -15,3 +7,41 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="a_fhw4q4n"/><path class="i1og6obge"/><path class="jpf6i3h8v"/><path class="myrt-acvb"/><path class="akwwjkb_a"/><path class="zfv0jff-m"/><path class="xhsqmdbch"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:crown-line-duotone" /></template>
+<style>
+.a_fhw4q4n {
+  d: path("M5 17.5H19");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.akwwjkb_a {
+  d: path("M11.0925 6.78271C10.9345 7.03565 10.7592 7.3499 10.5498 7.72546L10.5498 7.72547L8.76027 10.934C8.42077 11.5427 8.25102 11.8471 7.99642 11.9592C7.85535 12.0213 7.69969 12.0431 7.54691 12.0219C7.27118 11.9838 7.02403 11.7376 6.52971 11.2452L6.52967 11.2452C5.88804 10.606 5.46177 10.1814 5.13574 9.98019");
+}
+
+.i1og6obge {
+  d: path("M20 10.5L19.9823 10.4999C19.5357 10.4947 19.1359 10.2944 18.8645 9.98013C18.6374 9.71724 18.5 9.37466 18.5 9C18.5 8.17157 19.1716 7.5 20 7.5C20.8284 7.5 21.5 8.17157 21.5 9C21.5 9.82843 20.8284 10.5 20 10.5Z");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.jpf6i3h8v {
+  d: path("M19.9823 10.5C20.033 10.8784 19.9684 11.479 19.8706 12.3885L19.6872 14.0932C19.3851 16.902 19.234 19.3064 18.2879 20.1533C17.3418 21.0001 15.9239 21.0001 13.0879 21.0001H10.9121C8.07613 21.0001 6.65817 21.0001 5.71208 20.1533C4.76598 19.3064 4.61492 16.902 4.3128 14.0932L4.12945 12.3885C4.03162 11.479 3.96702 10.8784 4.01771 10.5");
+}
+
+.myrt-acvb {
+  d: path("M4.01771 10.4999L4 10.5C3.17157 10.5 2.5 9.82843 2.5 9C2.5 8.17157 3.17157 7.5 4 7.5C4.82843 7.5 5.5 8.17157 5.5 9C5.5 9.37466 5.36264 9.71724 5.13553 9.98012C4.86406 10.2944 4.46434 10.4947 4.01771 10.4999Z");
+}
+
+.xhsqmdbch {
+  d: path("M12.9077 6.78271C13.0658 7.03565 13.241 7.34991 13.4505 7.72546L15.24 10.934C15.5795 11.5427 15.7492 11.8471 16.0038 11.9592C16.1449 12.0213 16.3006 12.0431 16.4533 12.0219C16.7291 11.9838 16.9762 11.7376 17.4705 11.2452C18.1122 10.6061 18.5385 10.1814 18.8645 9.98019");
+}
+
+.zfv0jff-m {
+  d: path("M12 7C11.6732 7 11.3647 6.92163 11.0923 6.78265C10.444 6.45187 10 5.77778 10 5C10 3.89543 10.8954 3 12 3C13.1046 3 14 3.89543 14 5C14 5.77778 13.556 6.45187 12.9077 6.78265C12.6353 6.92163 12.3268 7 12 7Z");
+}
+
+</style>

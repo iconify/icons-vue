@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/j/ji_1lwb7y.css';
-import '../../css/v/v71dgib_d.css';
-import '../../css/g/gzp2zubus.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,25 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="ji_1lwb7y"/><path class="v71dgib_d"/><path class="gzp2zubus"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:video-frame-2-line-duotone" /></template>
+<style>
+.gzp2zubus {
+  d: path("M12 7.00032L7.00002 7.00032L2.00195 7.00032M7.00002 7.00032V2.00684M7.00002 19.9938L7.00002 16.0003M7.00002 16.0003L2.01927 16.0003M7.00002 16.0003L12 16.0003M12 16.0003V9.00032M12 16.0003V18.0003M12 7.00032L12 3.00032M12 7.00032V9.00032M21.9981 9.00032L17 9.00032L12 9.00032M12 18.0003V20.0003M12 18.0003H17M17 9.00032V4.00684M17 21.9938L17 18.0003M17 18.0003H21.9808");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.ji_1lwb7y {
+  d: path("M17 21.9935V22M17 21.9935C16.4994 22 15.9462 22 15.3333 22H13C12.4477 22 12 21.5523 12 21V20M17 21.9935C19.0663 21.9666 20.2378 21.8286 21.0237 21.1213C21.7363 20.48 21.9287 19.5534 21.9808 18M21.9808 18H22M17 4.00652C19.0663 4.03342 20.2378 4.17137 21.0237 4.87868C21.8775 5.64706 21.9846 6.82497 21.9981 9C22 9.31205 22 9.64463 22 9.99947V10V16C22 16.7641 22 17.425 21.9808 18M21.9981 9H22M17 4.00652C16.4994 4 15.9462 4 15.3333 4H12M17 4.00652V4");
+}
+
+.v71dgib_d {
+  d: path("M12 4L12 3C12 2.44772 11.5523 2 11 2H8.66667C8.05376 2 7.50062 2 7 2.00652M7 2.00652V2M7 2.00652C4.9337 2.03342 3.76222 2.17137 2.97631 2.87868C2.12255 3.64706 2.01538 4.82497 2.00193 7M2.00193 7H2M2.00193 7C2 7.31221 2 7.64496 2 8V14C2 14.7641 2 15.425 2.01925 16M2.01925 16H2M2.01925 16C2.07125 17.5534 2.26375 18.48 2.97631 19.1213C3.76222 19.8286 4.93369 19.9666 7 19.9935M7 19.9935V20M7 19.9935C7.50062 20 8.05376 20 8.66667 20H12");
+}
+
+</style>

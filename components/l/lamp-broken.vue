@@ -1,10 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/i/ick8o1b-y.css';
-import '../../css/a/a-4dztb1w.css';
-import '../../css/b/bnx4ls-tx.css';
-import '../../css/v/vnmkxmasi.css';
 
 const props = defineProps(["width","height"]);
 
@@ -12,3 +7,28 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="ick8o1b-y"/><path class="a-4dztb1w"/><path class="bnx4ls-tx"/><path class="vnmkxmasi"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:lamp-broken" /></template>
+<style>
+.a-4dztb1w {
+  d: path("M12 22V15");
+}
+
+.bnx4ls-tx {
+  d: path("M12.0002 2C14.4233 2 15.6349 2 16.5825 2.56616C16.8572 2.73028 17.1113 2.92678 17.3392 3.15144C18.1253 3.9264 18.4297 5.0991 19.0386 7.44451L19.1229 7.76898L19.1229 7.76899C19.9507 10.9576 20.3646 12.5519 19.6128 13.6719C19.5378 13.7837 19.4554 13.8902 19.3661 13.9909C18.4708 15 16.8237 15 13.5294 15H10.4709C7.1766 15 5.52945 15 4.63423 13.9909C4.54494 13.8902 4.46252 13.7837 4.38754 13.6719C3.63573 12.5519 4.04963 10.9576 4.87744 7.76897L4.96167 7.44451C5.57058 5.0991 5.87503 3.9264 6.66114 3.15144C6.88904 2.92678 7.14306 2.73028 7.41778 2.56616C7.59994 2.45733 7.79185 2.36942 8.00024 2.29841");
+}
+
+.ick8o1b-y {
+  d: path("M9 22H15");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.vnmkxmasi {
+  d: path("M17.5 15V17");
+}
+
+</style>

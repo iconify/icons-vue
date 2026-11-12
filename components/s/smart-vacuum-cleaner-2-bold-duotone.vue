@@ -1,10 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/x/xtpeb-edw.css';
-import '../../css/v/v5wadhqzm.css';
-import '../../css/f/fua2m0b8b.css';
-import '../../css/u/uvu9w-b5w.css';
-import '../../css/x/x084lm06v.css';
 
 const props = defineProps(["width","height"]);
 
@@ -12,3 +7,29 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="xtpeb-edw"><path class="v5wadhqzm"/><path class="fua2m0b8b"/></g><path class="uvu9w-b5w"/><path clip-rule="evenodd" class="x084lm06v"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:smart-vacuum-cleaner-2-bold-duotone" /></template>
+<style>
+.fua2m0b8b {
+  d: path("M22.5302 21.4697C22.8231 21.7626 22.8231 22.2374 22.5302 22.5303C22.2373 22.8232 21.7625 22.8232 21.4696 22.5303L17.9394 19L18.9999 17.9395L22.5302 21.4697Z");
+}
+
+.uvu9w-b5w {
+  fill: currentColor;
+  d: path("M9.75 8.75C9.75 7.50736 10.7574 6.5 12 6.5C13.2426 6.5 14.25 7.50736 14.25 8.75C14.25 9.99264 13.2426 11 12 11C10.7574 11 9.75 9.99264 9.75 8.75Z");
+}
+
+.v5wadhqzm {
+  d: path("M6.06046 19L2.53019 22.5303C2.2373 22.8232 1.76253 22.8232 1.46964 22.5303C1.1768 22.2374 1.17677 21.7626 1.46964 21.4697L4.99992 17.9395L6.06046 19Z");
+}
+
+.x084lm06v {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M12 21.5C17.5228 21.5 22 17.0228 22 11.5C22 5.97715 17.5228 1.5 12 1.5C6.47715 1.5 2 5.97715 2 11.5C2 17.0228 6.47715 21.5 12 21.5ZM8.25 8.75C8.25 6.67893 9.92893 5 12 5C14.0711 5 15.75 6.67893 15.75 8.75C15.75 10.8211 14.0711 12.5 12 12.5C9.92893 12.5 8.25 10.8211 8.25 8.75ZM12.75 15.75C12.75 15.3358 12.4142 15 12 15C11.5858 15 11.25 15.3358 11.25 15.75V17.75C11.25 18.1642 11.5858 18.5 12 18.5C12.4142 18.5 12.75 18.1642 12.75 17.75V15.75Z");
+}
+
+.xtpeb-edw {
+  fill: currentColor;
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+</style>

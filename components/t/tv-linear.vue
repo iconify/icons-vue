@@ -1,11 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/c/cw80_bb7p.css';
-import '../../css/z/zdx4gpbfd.css';
-import '../../css/h/hxmvn4bez.css';
-import '../../css/t/tar4ktbfi.css';
-import '../../css/e/ewt7nk-fj.css';
 
 const props = defineProps(["width","height"]);
 
@@ -13,3 +7,34 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="cw80_bb7p"/><path class="zdx4gpbfd"/><path class="hxmvn4bez"/><path class="tar4ktbfi"/><path class="ewt7nk-fj"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:tv-linear" /></template>
+<style>
+.cw80_bb7p {
+  d: path("M16 6L8 6C5.17157 6 3.75736 6 2.87868 6.87868C2 7.75736 2 9.17157 2 12L2 16C2 18.8284 2 20.2426 2.87868 21.1213C3.75736 22 5.17157 22 8 22L16 22C18.8284 22 20.2426 22 21.1213 21.1213C22 20.2426 22 18.8284 22 16V12C22 9.17157 22 7.75736 21.1213 6.87868C20.2426 6 18.8284 6 16 6Z");
+}
+
+.ewt7nk-fj {
+  stroke-linejoin: round;
+  d: path("M19 16H19.0001");
+}
+
+.hxmvn4bez {
+  d: path("M16 6V22");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.tar4ktbfi {
+  stroke-linejoin: round;
+  d: path("M19 12H19.0001");
+}
+
+.zdx4gpbfd {
+  d: path("M9 2L12 5.5L15 2");
+}
+
+</style>

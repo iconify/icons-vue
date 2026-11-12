@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/w/w42vh2b3z.css';
-import '../../css/c/cgy44m6jh.css';
-import '../../css/u/unr76jbhr.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,26 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="w42vh2b3z"/><path class="cgy44m6jh"/><path class="unr76jbhr"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:slider-vertical-minimalistic-line-duotone" /></template>
+<style>
+.cgy44m6jh {
+  d: path("M21 4.5L21 19.5");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.unr76jbhr {
+  d: path("M3 4.5L3 19.5");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.w42vh2b3z {
+  d: path("M12 22C9.17157 22 7.75736 22 6.87868 21.1213C6 20.2426 6 18.8284 6 16V8C6 5.17157 6 3.75736 6.87868 2.87868C7.75736 2 9.17157 2 12 2C14.8284 2 16.2426 2 17.1213 2.87868C18 3.75736 18 5.17157 18 8V16C18 18.8284 18 20.2426 17.1213 21.1213C16.2426 22 14.8284 22 12 22Z");
+}
+
+</style>

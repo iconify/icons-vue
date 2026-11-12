@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/n/ntwgq1b2y.css';
-import '../../css/y/yib8xibaw.css';
-import '../../css/w/wrbn_p02x.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,21 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="ntwgq1b2y"/><path class="yib8xibaw"/><path clip-rule="evenodd" class="wrbn_p02x"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:panels-bottom-left-bold" /></template>
+<style>
+.ntwgq1b2y {
+  fill: currentColor;
+  d: path("M21.2461 13.75C21.2495 13.2102 21.25 12.6285 21.25 12C21.25 9.62177 21.248 7.91326 21.0732 6.61328C20.9014 5.33508 20.5745 4.56472 20.0049 3.99512C19.4353 3.42551 18.6649 3.09864 17.3867 2.92676C16.0867 2.75198 14.3782 2.75 12 2.75C11.1726 2.75 10.4263 2.75404 9.75 2.76172L9.75 13.75L21.2461 13.75Z");
+}
+
+.wrbn_p02x {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M12 21.25C14.3782 21.25 16.0867 21.248 17.3867 21.0732C18.6649 20.9014 19.4353 20.5745 20.0049 20.0049C20.5745 19.4353 20.9014 18.6649 21.0732 17.3867C21.1556 16.7743 21.1992 16.0711 21.2227 15.25L2.77734 15.25C2.80084 16.0711 2.84442 16.7743 2.92676 17.3867C3.09865 18.6649 3.42551 19.4353 3.99512 20.0049C4.56472 20.5745 5.33508 20.9014 6.61328 21.0732C7.91326 21.248 9.62178 21.25 12 21.25Z");
+}
+
+.yib8xibaw {
+  fill: currentColor;
+  d: path("M8.25 13.75L8.25 2.79492C7.63871 2.8209 7.09763 2.86164 6.61328 2.92676C5.33508 3.09865 4.56472 3.42551 3.99512 3.99512C3.42551 4.56472 3.09865 5.33508 2.92676 6.61328C2.75198 7.91326 2.75 9.62177 2.75 12C2.75 12.6285 2.75048 13.2102 2.75391 13.75L8.25 13.75Z");
+}
+
+</style>

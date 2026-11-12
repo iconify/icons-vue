@@ -1,12 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/x/xm-1off4h.css';
-import '../../css/d/dg5sb_lqv.css';
-import '../../css/n/n4nm1ab_l.css';
-import '../../css/z/zg6czpbke.css';
-import '../../css/g/gr7n79p7s.css';
-import '../../css/m/mi3lwbbbt.css';
 
 const props = defineProps(["width","height"]);
 
@@ -14,3 +7,39 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="xm-1off4h"/><path class="dg5sb_lqv"/><path class="n4nm1ab_l"/><path class="zg6czpbke"/><path class="gr7n79p7s"/><path class="mi3lwbbbt"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:server-minimalistic-linear" /></template>
+<style>
+.dg5sb_lqv {
+  d: path("M5 15H19C19.9319 15 20.3978 15 20.7654 14.8478C21.2554 14.6448 21.6448 14.2554 21.8478 13.7654C22 13.3978 22 12.9319 22 12C22 11.0681 22 10.6022 21.8478 10.2346C21.6448 9.74458 21.2554 9.35523 20.7654 9.15224C20.3978 9 19.9319 9 19 9H5C4.06812 9 3.60218 9 3.23463 9.15224C2.74458 9.35523 2.35523 9.74458 2.15224 10.2346C2 10.6022 2 11.0681 2 12C2 12.9319 2 13.3978 2.15224 13.7654C2.35523 14.2554 2.74458 14.6448 3.23463 14.8478C3.60218 15 4.06812 15 5 15Z");
+}
+
+.gr7n79p7s {
+  stroke-linejoin: round;
+  d: path("M5 12H5.0001");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.mi3lwbbbt {
+  stroke-linejoin: round;
+  d: path("M5 18H5.0001");
+}
+
+.n4nm1ab_l {
+  d: path("M5 9H19C19.9319 9 20.3978 9 20.7654 8.84776C21.2554 8.64477 21.6448 8.25542 21.8478 7.76537C22 7.39782 22 6.93188 22 6C22 5.06812 22 4.60218 21.8478 4.23463C21.6448 3.74458 21.2554 3.35523 20.7654 3.15224C20.3978 3 19.9319 3 19 3H5C4.06812 3 3.60218 3 3.23463 3.15224C2.74458 3.35523 2.35523 3.74458 2.15224 4.23463C2 4.60218 2 5.06812 2 6C2 6.93188 2 7.39782 2.15224 7.76537C2.35523 8.25542 2.74458 8.64477 3.23463 8.84776C3.60218 9 4.06812 9 5 9Z");
+}
+
+.xm-1off4h {
+  d: path("M5 21H19C19.9319 21 20.3978 21 20.7654 20.8478C21.2554 20.6448 21.6448 20.2554 21.8478 19.7654C22 19.3978 22 18.9319 22 18C22 17.0681 22 16.6022 21.8478 16.2346C21.6448 15.7446 21.2554 15.3552 20.7654 15.1522C20.3978 15 19.9319 15 19 15H5C4.06812 15 3.60218 15 3.23463 15.1522C2.74458 15.3552 2.35523 15.7446 2.15224 16.2346C2 16.6022 2 17.0681 2 18C2 18.9319 2 19.3978 2.15224 19.7654C2.35523 20.2554 2.74458 20.6448 3.23463 20.8478C3.60218 21 4.06812 21 5 21Z");
+}
+
+.zg6czpbke {
+  stroke-linejoin: round;
+  d: path("M5 6H5.0001");
+}
+
+</style>

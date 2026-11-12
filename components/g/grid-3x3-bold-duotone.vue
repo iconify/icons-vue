@@ -1,7 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/d/dm03gzbnp.css';
-import '../../css/c/ciyiykbcb.css';
 
 const props = defineProps(["width","height"]);
 
@@ -9,3 +7,17 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="dm03gzbnp"/><path clip-rule="evenodd" class="ciyiykbcb"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:grid-3x3-bold-duotone" /></template>
+<style>
+.ciyiykbcb {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M14.5713 2.01465C15.111 2.02302 15.6096 2.03633 16.0713 2.06055V7.93652H21.9395C21.9635 8.39826 21.9761 8.89685 21.9844 9.43652H16.0713V14.5635H21.9854C21.977 15.1032 21.9635 15.6017 21.9395 16.0635H16.0713V21.9385C15.6096 21.9627 15.111 21.976 14.5713 21.9844V16.0635H9.44531V21.9844C8.90568 21.9761 8.4071 21.9634 7.94531 21.9395V16.0635H2.06055C2.03646 15.6017 2.02295 15.1032 2.01465 14.5635H7.94531V9.43652H2.01465C2.02295 8.89685 2.03646 8.39826 2.06055 7.93652H7.94531V2.05957C8.40709 2.03563 8.9057 2.02288 9.44531 2.01465V7.93652H14.5713V2.01465ZM9.44531 14.5635H14.5713V9.43652H9.44531V14.5635Z");
+}
+
+.dm03gzbnp {
+  fill: currentColor;
+  d: path("M2 12C2 7.28595 2 4.92893 3.46447 3.46447C4.92893 2 7.28595 2 12 2C16.714 2 19.0711 2 20.5355 3.46447C22 4.92893 22 7.28595 22 12C22 16.714 22 19.0711 20.5355 20.5355C19.0711 22 16.714 22 12 22C7.28595 22 4.92893 22 3.46447 20.5355C2 19.0711 2 16.714 2 12Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+</style>

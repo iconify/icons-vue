@@ -1,7 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/t/tl8qmubzh.css';
-import '../../css/q/qwd-pmblu.css';
 
 const props = defineProps(["width","height"]);
 
@@ -9,3 +7,16 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="tl8qmubzh"/><path class="qwd-pmblu"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:sort-vertical-bold-duotone" /></template>
+<style>
+.qwd-pmblu {
+  fill: currentColor;
+  d: path("M12 13.125C12.3012 13.125 12.5732 13.3052 12.6907 13.5827C12.8081 13.8601 12.7481 14.1808 12.5384 14.3971L8.53841 18.5221C8.39716 18.6678 8.2029 18.75 7.99999 18.75C7.79708 18.75 7.60282 18.6678 7.46156 18.5221L3.46156 14.3971C3.25185 14.1808 3.19189 13.8601 3.30931 13.5827C3.42673 13.3052 3.69874 13.125 3.99999 13.125H7.24999L7.24999 6C7.24999 5.58579 7.58577 5.25 7.99999 5.25C8.4142 5.25 8.74999 5.58579 8.74999 6L8.74999 13.125L12 13.125Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.tl8qmubzh {
+  fill: currentColor;
+  d: path("M20 10.875C20.3012 10.875 20.5732 10.6948 20.6907 10.4173C20.8081 10.1399 20.7481 9.81916 20.5384 9.60289L16.5384 5.47789C16.3972 5.33222 16.2029 5.25 16 5.25C15.7971 5.25 15.6028 5.33222 15.4616 5.47789L11.4616 9.60289C11.2519 9.81916 11.1919 10.1399 11.3093 10.4173C11.4267 10.6948 11.6987 10.875 12 10.875H15.25V18C15.25 18.4142 15.5858 18.75 16 18.75C16.4142 18.75 16.75 18.4142 16.75 18L16.75 10.875H20Z");
+}
+
+</style>

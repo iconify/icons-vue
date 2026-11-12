@@ -1,10 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/x/xa4lx_b1x.css';
-import '../../css/a/ahi--3boy.css';
-import '../../css/a/axx9m59wr.css';
-import '../../css/r/rfavqvugw.css';
 
 const props = defineProps(["width","height"]);
 
@@ -12,3 +7,30 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="xa4lx_b1x"/><path class="ahi--3boy"/><path class="axx9m59wr"/><path class="rfavqvugw"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:chair-2-line-duotone" /></template>
+<style>
+.ahi--3boy {
+  d: path("M10.5088 12H13.4914C15.5939 12 16.6451 12 17.2419 11.3273C17.8387 10.6546 17.7134 9.61087 17.463 7.52342L17.372 6.76581C17.1307 4.75442 17.01 3.74872 16.4283 3.06161C16.2437 2.84355 16.0289 2.65298 15.7904 2.49567C15.0389 2 14.026 2 12.0001 2C9.97432 2 8.96141 2 8.2099 2.49567C7.97139 2.65298 7.75659 2.84355 7.57198 3.06161C6.9903 3.74872 6.86962 4.75442 6.62825 6.76581L6.53734 7.52342C6.28684 9.61087 6.1616 10.6546 6.7584 11.3273C7.35521 12 8.40642 12 10.5088 12Z");
+}
+
+.axx9m59wr {
+  d: path("M12 12V14");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.rfavqvugw {
+  d: path("M12 22V20M12 20V17.5M12 20L12.4661 20.1165C13.4214 20.3554 14.1886 21.0658 14.5 22M12 20L11.5339 20.1165C10.5786 20.3554 9.81142 21.0658 9.5 22M6 16L5.13484 13.4045C5.06173 13.1852 5.02518 13.0755 4.95424 12.9225C4.8833 12.7695 4.85413 12.7215 4.79579 12.6256C4.33942 11.8752 3.7325 11.5 2 11.5M18 16L18.8652 13.4045C18.9383 13.1852 18.9748 13.0755 19.0458 12.9225C19.1167 12.7695 19.1459 12.7215 19.2042 12.6256C19.6606 11.8752 20.2675 11.5 22 11.5");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.xa4lx_b1x {
+  d: path("M8 17.5H16C17.1046 17.5 18 16.6046 18 15.5C18 14.9477 17.5523 14.5 17 14.5H7C6.44772 14.5 6 14.9477 6 15.5C6 16.6046 6.89543 17.5 8 17.5Z");
+}
+
+</style>

@@ -1,13 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/j/je0pbq8pu.css';
-import '../../css/j/jay-3_dpw.css';
-import '../../css/p/pf73k4bai.css';
-import '../../css/g/gqb61cbma.css';
-import '../../css/r/r9b6-mb5b.css';
-import '../../css/w/wukh1tdzo.css';
-import '../../css/v/vap5u3y1m.css';
 
 const props = defineProps(["width","height"]);
 
@@ -15,3 +7,45 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="je0pbq8pu"/><path class="jay-3_dpw"/><path class="pf73k4bai"/><path class="gqb61cbma"/><path class="r9b6-mb5b"/><path class="wukh1tdzo"/><path class="vap5u3y1m"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:signpost-2-line-duotone" /></template>
+<style>
+.gqb61cbma {
+  d: path("M17.296 12.5H6.5C5.09554 12.5 4.39331 12.5 3.88886 12.8371C3.67048 12.983 3.48298 13.1705 3.33706 13.3889C3 13.8933 3 14.5955 3 16C3 17.4045 3 18.1067 3.33706 18.6111C3.48298 18.8295 3.67048 19.017 3.88886 19.1629C4.39331 19.5 5.09554 19.5 6.5 19.5H17.296C17.9536 19.5 18.2824 19.5 18.5841 19.4018C18.7172 19.3585 18.8454 19.3013 18.9665 19.2312C19.2412 19.0723 19.4608 18.8277 19.9002 18.3384C20.7509 17.3911 21.1762 16.9174 21.2786 16.3638C21.3231 16.1233 21.3231 15.8767 21.2786 15.6362C21.1762 15.0826 20.7509 14.6089 19.9002 13.6616C19.4608 13.1723 19.2412 12.9277 18.9665 12.7688C18.8454 12.6987 18.7172 12.6415 18.5841 12.5982C18.2824 12.5 17.9536 12.5 17.296 12.5Z");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.jay-3_dpw {
+  d: path("M12 11V12");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.je0pbq8pu {
+  d: path("M12 2V3");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.pf73k4bai {
+  d: path("M6.70447 3.5H17.5005C18.9049 3.5 19.6072 3.5 20.1116 3.83706C20.33 3.98298 20.5175 4.17048 20.6634 4.38886C21.0005 4.89331 21.0005 5.59554 21.0005 7C21.0005 8.40446 21.0005 9.10669 20.6634 9.61114C20.5175 9.82952 20.33 10.017 20.1116 10.1629C19.6072 10.5 18.9049 10.5 17.5005 10.5H6.70447C6.04691 10.5 5.71813 10.5 5.41642 10.4018C5.28331 10.3585 5.15512 10.3013 5.03395 10.2312C4.75931 10.0723 4.53964 9.8277 4.1003 9.33844C3.2496 8.39107 2.82425 7.91738 2.72184 7.36381C2.67735 7.12331 2.67735 6.87669 2.72184 6.63619C2.82425 6.08262 3.2496 5.60894 4.1003 4.66156C4.53964 4.1723 4.75931 3.92767 5.03395 3.76879C5.15512 3.6987 5.28331 3.64152 5.41642 3.5982C5.71813 3.5 6.04691 3.5 6.70447 3.5Z");
+}
+
+.r9b6-mb5b {
+  d: path("M12 20V22M12 22H14M12 22H10");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.vap5u3y1m {
+  d: path("M9 16L15 16");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.wukh1tdzo {
+  d: path("M9 7H15");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+</style>

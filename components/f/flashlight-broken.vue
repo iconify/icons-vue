@@ -1,10 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/c/ckmt88bjd.css';
-import '../../css/m/mwgy38bvr.css';
-import '../../css/v/vma4mubrc.css';
-import '../../css/m/m4eix-b4z.css';
 
 const props = defineProps(["width","height"]);
 
@@ -12,3 +7,28 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="ckmt88bjd"/><path class="mwgy38bvr"/><path class="vma4mubrc"/><path class="m4eix-b4z"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:flashlight-broken" /></template>
+<style>
+.ckmt88bjd {
+  d: path("M17 2H18C18.9428 2 19.4142 2 19.7071 2.29289C20 2.58579 20 3.05719 20 4V4.17157C20 4.58032 20 4.7847 19.9239 4.96847C19.8478 5.15224 19.7032 5.29676 19.4142 5.58579L16.1716 8.82843L16.1716 8.82844C15.5935 9.40649 15.3045 9.69552 15.1522 10.0631C15 10.4306 15 10.8394 15 11.6569V19C15 19.9319 15 20.3978 14.8478 20.7654C14.6448 21.2554 14.2554 21.6448 13.7654 21.8478C13.3978 22 12.9319 22 12 22C11.0681 22 10.6022 22 10.2346 21.8478C9.74458 21.6448 9.35523 21.2554 9.15224 20.7654C9 20.3978 9 19.9319 9 19V11.6569C9 10.8394 9 10.4306 8.84776 10.0631C8.69552 9.69552 8.40649 9.40649 7.82843 8.82843L4.58579 5.58579C4.29676 5.29676 4.15224 5.15224 4.07612 4.96847C4 4.7847 4 4.58032 4 4.17157V4C4 3.05719 4 2.58579 4.29289 2.29289C4.58579 2 5.05719 2 6 2H13");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.m4eix-b4z {
+  d: path("M4.5 5H19.5");
+}
+
+.mwgy38bvr {
+  d: path("M15 10H9");
+}
+
+.vma4mubrc {
+  d: path("M12 13V15");
+}
+
+</style>

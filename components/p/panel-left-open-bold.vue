@@ -1,7 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/j/j_pkd94hu.css';
-import '../../css/o/o-08tibye.css';
 
 const props = defineProps(["width","height"]);
 
@@ -9,3 +7,16 @@ const viewBox = {"width":24,"height":24};
 const content = `<path clip-rule="evenodd" class="j_pkd94hu"/><path class="o-08tibye"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:panel-left-open-bold" /></template>
+<style>
+.j_pkd94hu {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M9.75 3L14 3C17.7712 3 19.6566 3.0003 20.8281 4.17187C21.9997 5.34345 22 7.22876 22 11L22 13C22 16.7712 21.9997 18.6566 20.8281 19.8281C19.6566 20.9997 17.7712 21 14 21L9.75 21L9.75 3ZM13.7227 15.5693C14.037 15.8388 14.5106 15.8024 14.7803 15.4883L17.3525 12.4883C17.593 12.2075 17.593 11.7925 17.3525 11.5117L14.7813 8.51172C14.5117 8.19747 14.0381 8.1614 13.7236 8.43066C13.4093 8.70025 13.3731 9.17384 13.6426 9.48828L15.7949 12L13.6426 14.5117C13.3731 14.8261 13.4086 15.2997 13.7227 15.5693Z");
+}
+
+.o-08tibye {
+  fill: currentColor;
+  d: path("M8.25 20.9941C5.61409 20.9665 4.14621 20.8025 3.17188 19.8281C2.0003 18.6566 2 16.7712 2 13L2 11C2 7.22876 2.0003 5.34345 3.17188 4.17187C4.14621 3.19754 5.61409 3.03347 8.25 3.00586L8.25 20.9941Z");
+}
+
+</style>

@@ -1,10 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/r/ro7vyibyz.css';
-import '../../css/l/lcxm2bc4c.css';
-import '../../css/r/rasqg796i.css';
-import '../../css/i/i87_9e8dl.css';
 
 const props = defineProps(["width","height"]);
 
@@ -12,3 +7,28 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="ro7vyibyz"/><path class="lcxm2bc4c"/><path class="rasqg796i"/><path class="i87_9e8dl"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:basketball-linear" /></template>
+<style>
+.i87_9e8dl {
+  d: path("M16.4131 3.20896C14.9252 7.63002 7.67345 12.5123 2.28779 11.4516");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.lcxm2bc4c {
+  d: path("M16.9503 20.5732C16.9503 20.5732 16.0113 13.9821 14.001 10.5C11.9906 7.01801 7.05078 3.42679 7.05078 3.42679");
+}
+
+.rasqg796i {
+  d: path("M7.57739 20.8175C9.05903 16.3477 16.4528 11.393 21.8638 12.5801");
+}
+
+.ro7vyibyz {
+  d: path("M16.9997 20.66C12.2168 23.4214 6.10089 21.7826 3.33946 16.9997C0.578039 12.2168 2.21679 6.10089 6.99972 3.33946C8.94932 2.21386 11.1204 1.81935 13.1955 2.07088C16.2112 2.43642 19.0242 4.1664 20.66 6.99972C22.2958 9.83304 22.3875 13.1341 21.1962 15.9286C20.3765 17.8514 18.9493 19.5344 16.9997 20.66Z");
+}
+
+</style>

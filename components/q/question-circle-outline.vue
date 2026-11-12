@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/l/lt_dvue1n.css';
-import '../../css/t/ts_bt_bky.css';
-import '../../css/d/du6sep0xm.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,21 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="lt_dvue1n"/><path class="ts_bt_bky"/><path clip-rule="evenodd" class="du6sep0xm"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:question-circle-outline" /></template>
+<style>
+.du6sep0xm {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M12 1.25C17.9371 1.25 22.75 6.06294 22.75 12C22.75 17.9371 17.9371 22.75 12 22.75C6.06294 22.75 1.25 17.9371 1.25 12C1.25 6.06294 6.06294 1.25 12 1.25ZM12 2.75C6.89137 2.75 2.75 6.89137 2.75 12C2.75 17.1086 6.89137 21.25 12 21.25C17.1086 21.25 21.25 17.1086 21.25 12C21.25 6.89137 17.1086 2.75 12 2.75Z");
+}
+
+.lt_dvue1n {
+  fill: currentColor;
+  d: path("M12 15C12.5523 15 13 15.4477 13 16C13 16.5523 12.5523 17 12 17C11.4477 17 11 16.5523 11 16C11 15.4477 11.4477 15 12 15Z");
+}
+
+.ts_bt_bky {
+  fill: currentColor;
+  d: path("M12 6.25C13.4497 6.25 14.625 7.42525 14.625 8.875C14.625 9.83834 14.1054 10.68 13.335 11.1357C13.1384 11.2521 12.9759 11.3793 12.8701 11.5039C12.7676 11.6248 12.75 11.7036 12.75 11.75V13C12.75 13.4142 12.4142 13.75 12 13.75C11.5858 13.75 11.25 13.4142 11.25 13V11.75C11.25 11.2442 11.4715 10.8338 11.7266 10.5332C11.9785 10.2363 12.2928 10.0095 12.5713 9.84473C12.9043 9.64773 13.125 9.28655 13.125 8.875C13.125 8.25368 12.6213 7.75 12 7.75C11.3787 7.75 10.875 8.25368 10.875 8.875C10.875 9.28921 10.5392 9.625 10.125 9.625C9.71079 9.625 9.375 9.28921 9.375 8.875C9.375 7.42525 10.5503 6.25 12 6.25Z");
+}
+
+</style>

@@ -1,7 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/k/kswv2hrkj.css';
-import '../../css/m/mqmycj9zd.css';
 
 const props = defineProps(["width","height"]);
 
@@ -9,3 +7,16 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="kswv2hrkj"/><path class="mqmycj9zd"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:chat-round-off-bold-duotone" /></template>
+<style>
+.kswv2hrkj {
+  fill: currentColor;
+  d: path("M1.46967 1.46979C1.76256 1.1769 2.23732 1.1769 2.53022 1.46979L22.5302 21.4698C22.823 21.7627 22.8231 22.2375 22.5302 22.5303C22.2374 22.8232 21.7626 22.8231 21.4697 22.5303L18.5195 19.5801C16.7686 21.0875 14.4915 22.001 11.9999 22.001C10.4004 22.001 8.88855 21.6248 7.54779 20.9571C7.19156 20.7797 6.78382 20.7205 6.39936 20.8233L4.17377 21.419C3.20744 21.6776 2.32245 20.7935 2.581 19.8272L3.1767 17.6016C3.27957 17.2172 3.22128 16.8095 3.04389 16.4532C2.37608 15.1124 1.99999 13.6006 1.99994 12.001C1.99994 9.50937 2.91241 7.23146 4.41986 5.48053L1.46967 2.53034C1.17678 2.23745 1.17678 1.76268 1.46967 1.46979Z");
+}
+
+.mqmycj9zd {
+  fill: currentColor;
+  d: path("M12 2C10.1213 2 8.36362 2.51807 6.862 3.41914L20.5809 17.138C21.4819 15.6364 22 13.8787 22 12C22 6.47715 17.5228 2 12 2Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+</style>

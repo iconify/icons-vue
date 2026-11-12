@@ -1,7 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/q/qx4zoabor.css';
-import '../../css/p/pm4bswxgt.css';
 
 const props = defineProps(["width","height"]);
 
@@ -9,3 +7,16 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="qx4zoabor"/><path class="pm4bswxgt"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:transfer-vertical-bold-duotone" /></template>
+<style>
+.pm4bswxgt {
+  fill: currentColor;
+  d: path("M4 13.75L9.25 13.75L9.25 4C9.25 3.58579 9.58578 3.25 10 3.25C10.4142 3.25 10.75 3.58579 10.75 4V20C10.75 20.2974 10.5742 20.5667 10.302 20.6865C10.0297 20.8063 9.71245 20.7538 9.4932 20.5529L3.49321 15.0529C3.26521 14.8439 3.18889 14.5164 3.30102 14.2281C3.41314 13.9399 3.69071 13.75 4 13.75Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.qx4zoabor {
+  fill: currentColor;
+  d: path("M20 10.25C20.3093 10.25 20.5868 10.0602 20.699 9.77191C20.8111 9.48366 20.7348 9.15614 20.5068 8.94715L14.5068 3.44715C14.2875 3.24617 13.9702 3.19374 13.698 3.3135C13.4257 3.43327 13.25 3.70259 13.25 4.00002L13.25 20C13.25 20.4142 13.5858 20.75 14 20.75C14.4142 20.75 14.75 20.4142 14.75 20L14.75 10.25L20 10.25Z");
+}
+
+</style>

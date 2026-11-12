@@ -1,10 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/v/vsdjuskpk.css';
-import '../../css/m/my5268blj.css';
-import '../../css/x/xjmp9lmjf.css';
-import '../../css/j/jn1z35blr.css';
 
 const props = defineProps(["width","height"]);
 
@@ -12,3 +7,33 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="vsdjuskpk"/><path class="my5268blj"/><circle class="xjmp9lmjf"/><path class="jn1z35blr"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:clipboard-clock-line-duotone" /></template>
+<style>
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.jn1z35blr {
+  stroke-linejoin: round;
+  d: path("M12 12.0029V13.8491L13 15.0029");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.my5268blj {
+  d: path("M9.5 6H14.5C15.3284 6 16 5.32843 16 4.5V3.5C16 2.67157 15.3284 2 14.5 2H9.5C8.67157 2 8 2.67157 8 3.5V4.5C8 5.32843 8.67157 6 9.5 6Z");
+}
+
+.vsdjuskpk {
+  d: path("M16 4.00195C18.175 4.01406 19.3529 4.11051 20.1213 4.87889C21 5.75757 21 7.17179 21 10.0002V16.0002C21 18.8286 21 20.2429 20.1213 21.1215C19.2426 22.0002 17.8284 22.0002 15 22.0002H9C6.17157 22.0002 4.75736 22.0002 3.87868 21.1215C3 20.2429 3 18.8286 3 16.0002V10.0002C3 7.17179 3 5.75757 3.87868 4.87889C4.64706 4.11051 5.82497 4.01406 8 4.00195");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.xjmp9lmjf {
+  cx: 12px;
+  cy: 14.003px;
+  r: 5px;
+}
+
+</style>

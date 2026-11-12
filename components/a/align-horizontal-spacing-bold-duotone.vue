@@ -1,7 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/e/ewu5_fbdb.css';
-import '../../css/g/g4sooab0i.css';
 
 const props = defineProps(["width","height"]);
 
@@ -9,3 +7,17 @@ const viewBox = {"width":24,"height":24};
 const content = `<path clip-rule="evenodd" class="ewu5_fbdb"/><path class="g4sooab0i"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:align-horizontal-spacing-bold-duotone" /></template>
+<style>
+.ewu5_fbdb {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M20.9998 22.75C20.5855 22.75 20.2498 22.4142 20.2498 22L20.2498 1.99997C20.2498 1.58576 20.5855 1.24997 20.9998 1.24997C21.414 1.24997 21.7498 1.58576 21.7498 1.99997L21.7498 22C21.7498 22.4142 21.414 22.75 20.9998 22.75ZM2.99976 22.75C2.58554 22.75 2.24976 22.4142 2.24976 22L2.24976 1.99997C2.24976 1.58576 2.58554 1.24997 2.99976 1.24997C3.41397 1.24997 3.74976 1.58576 3.74976 1.99997L3.74976 22C3.74976 22.4142 3.41397 22.75 2.99976 22.75Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.g4sooab0i {
+  fill: currentColor;
+  d: path("M12.0002 20.0001C13.8859 20.0001 14.8287 20.0001 15.4145 19.4143C16.0002 18.8285 16.0002 17.8857 16.0002 16.0001L16.0002 8.00006C16.0002 6.11444 16.0002 5.17163 15.4145 4.58585C14.8287 4.00006 13.8859 4.00006 12.0002 4.00006C10.1146 4.00006 9.17182 4.00006 8.58603 4.58585C8.00024 5.17163 8.00024 6.11444 8.00024 8.00006L8.00024 16.0001C8.00024 17.8857 8.00024 18.8285 8.58603 19.4143C9.17182 20.0001 10.1146 20.0001 12.0002 20.0001Z");
+}
+
+</style>

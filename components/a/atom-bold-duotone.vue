@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/v/vack09bmc.css';
-import '../../css/z/zno_he9df.css';
-import '../../css/m/mxe9l_zuc.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,22 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="vack09bmc"/><path class="zno_he9df"/><path class="mxe9l_zuc"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:atom-bold-duotone" /></template>
+<style>
+.mxe9l_zuc {
+  fill: currentColor;
+  d: path("M12 9.5C13.3807 9.5 14.5 10.6193 14.5 12C14.5 13.3807 13.3807 14.5 12 14.5C10.6193 14.5 9.5 13.3807 9.5 12C9.5 10.6193 10.6193 9.5 12 9.5Z");
+}
+
+.vack09bmc {
+  fill: currentColor;
+  d: path("M7.52918 7.52915C12.4678 2.59052 18.4729 0.588206 20.9423 3.05747C23.4116 5.5268 21.4092 11.5329 16.4706 16.4715C11.532 21.4099 5.52675 23.4115 3.0575 20.9422C0.588288 18.4729 2.59058 12.4678 7.52918 7.52915Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.zno_he9df {
+  fill: currentColor;
+  d: path("M3.05756 3.05755C5.52689 0.588221 11.532 2.59056 16.4706 7.52923C21.4093 12.4679 23.4116 18.473 20.9423 20.9423C18.473 23.4116 12.4679 21.4093 7.52924 16.4706C2.59059 11.532 0.588233 5.52688 3.05756 3.05755Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+</style>

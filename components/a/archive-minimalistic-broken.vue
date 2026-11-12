@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/i/iscitzuxy.css';
-import '../../css/p/p5qbbdc2d.css';
-import '../../css/t/tir77voan.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,25 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="iscitzuxy"/><path class="p5qbbdc2d"/><path class="tir77voan"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:archive-minimalistic-broken" /></template>
+<style>
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.iscitzuxy {
+  stroke-linejoin: round;
+  d: path("M9.5 14.4L10.9286 16L14.5 12");
+}
+
+.p5qbbdc2d {
+  d: path("M10 22C7.19974 22 5.79961 22 4.73005 21.455C3.78924 20.9757 3.02433 20.2108 2.54497 19.27C2 18.2004 2 16.8003 2 14C2 11.1997 2 9.79961 2.54497 8.73005C3.02433 7.78924 3.78924 7.02433 4.73005 6.54497C5.79961 6 7.19974 6 10 6H14C16.8003 6 18.2004 6 19.27 6.54497C20.2108 7.02433 20.9757 7.78924 21.455 8.73005C22 9.79961 22 11.1997 22 14C22 16.8003 22 18.2004 21.455 19.27C20.9757 20.2108 20.2108 20.9757 19.27 21.455C18.2004 22 16.8003 22 14 22");
+}
+
+.tir77voan {
+  d: path("M22.0005 14C22.0058 13.3828 22.0003 12.7227 22.0003 12C22.0003 7.28596 22.0003 4.92893 20.5358 3.46447C19.2954 2.2241 17.4148 2.03429 14.004 2.00525M2.0004 14C1.99518 13.3848 2.00027 12.7199 2.00027 12C2.00027 7.28596 2.00027 4.92893 3.46474 3.46447C4.70511 2.2241 6.58577 2.03429 9.99653 2.00525");
+}
+
+</style>

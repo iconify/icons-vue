@@ -1,9 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/p/pr52f_b5y.css';
-import '../../css/a/ah2n0bcph.css';
-import '../../css/s/saw53o2qp.css';
-import '../../css/d/d2xz6hb5j.css';
 
 const props = defineProps(["width","height"]);
 
@@ -11,3 +7,27 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="pr52f_b5y"><path class="ah2n0bcph"/><path class="saw53o2qp"/><circle class="d2xz6hb5j"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:smartphone-2-linear" /></template>
+<style>
+.ah2n0bcph {
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M12 22C8.22876 22 6.34315 22 5.17157 20.8284C4 19.6569 4 17.7712 4 14V10C4 6.22876 4 4.34315 5.17157 3.17157C6.34315 2 8.22876 2 12 2C15.7712 2 17.6569 2 18.8284 3.17157C20 4.34315 20 6.22876 20 10V14C20 17.7712 20 19.6569 18.8284 20.8284C17.6569 22 15.7712 22 12 22Z");
+}
+
+.d2xz6hb5j {
+  cx: 12px;
+  cy: 19px;
+  r: 1px;
+}
+
+.pr52f_b5y {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+}
+
+.saw53o2qp {
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M15 5H9");
+}
+
+</style>

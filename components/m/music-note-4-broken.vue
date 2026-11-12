@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/q/q9v1gx_dc.css';
-import '../../css/i/iktagqaae.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,21 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="q9v1gx_dc"/><path class="iktagqaae"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:music-note-4-broken" /></template>
+<style>
+.iktagqaae {
+  d: path("M16.1167 3.94163L13.4833 5.25835C13.1184 5.4408 12.9359 5.53203 12.7852 5.64725C12.3949 5.94571 12.128 6.37744 12.0357 6.86006C12 7.04637 12 7.25036 12 7.65835C12 8.62944 12 9.11498 12.1196 9.44506C12.4356 10.3175 13.3101 10.858 14.2317 10.7504C14.5804 10.7098 15.0147 10.4926 15.8833 10.0583L18.5167 8.74163C18.8816 8.55917 19.0641 8.46794 19.2148 8.35273C19.6051 8.05426 19.872 7.62254 19.9643 7.13992C20 6.95361 20 6.74962 20 6.34163C20 5.37054 20 4.88499 19.8804 4.55491C19.5644 3.68251 18.6899 3.14202 17.7683 3.24952C17.4196 3.2902 16.9853 3.50734 16.1167 3.94163Z");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.q9v1gx_dc {
+  stroke-linejoin: round;
+  d: path("M11.4649 20C10.7733 21.1956 9.48057 22 8 22C5.79086 22 4 20.2091 4 18C4 15.7909 5.79086 14 8 14C9.48057 14 10.7733 14.8044 11.4649 16C11.6439 16.3095 12 17 12 17V8");
+}
+
+</style>

@@ -1,12 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/s/s_vxd5bvs.css';
-import '../../css/p/p0dd6dbol.css';
-import '../../css/y/y__cacvha.css';
-import '../../css/q/q4fxlaccz.css';
-import '../../css/k/k0lwqxbvz.css';
-import '../../css/z/zozkijhek.css';
-import '../../css/s/s48_u__dx.css';
 
 const props = defineProps(["width","height"]);
 
@@ -14,3 +7,40 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="s_vxd5bvs"/><path class="p0dd6dbol"/><path class="y__cacvha"/><path class="q4fxlaccz"/><path class="k0lwqxbvz"/><path class="zozkijhek"/><path class="s48_u__dx"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:sheet-bold" /></template>
+<style>
+.k0lwqxbvz {
+  fill: currentColor;
+  d: path("M14.584 14.583H9.41699V9.41602H14.584V14.583Z");
+}
+
+.p0dd6dbol {
+  fill: currentColor;
+  d: path("M7.91699 21.9385C5.77199 21.825 4.42622 21.4965 3.46484 20.5352C2.50346 19.5738 2.17498 18.228 2.06152 16.083H7.91699V21.9385Z");
+}
+
+.q4fxlaccz {
+  fill: currentColor;
+  d: path("M7.91699 14.583H2.01562C2.00351 13.8103 2 12.9534 2 12C2 11.0462 2.00349 10.189 2.01562 9.41602H7.91699V14.583Z");
+}
+
+.s_vxd5bvs {
+  fill: currentColor;
+  d: path("M14.583 21.9844C13.8103 21.9965 12.9534 22 12 22C11.0466 22 10.1897 21.9965 9.41699 21.9844V16.083H14.583V21.9844Z");
+}
+
+.s48_u__dx {
+  fill: currentColor;
+  d: path("M12 2C16.714 2 19.0707 2.00038 20.5352 3.46484C21.4964 4.42608 21.825 5.77158 21.9385 7.91602H2.06152C2.17503 5.77158 2.50361 4.42608 3.46484 3.46484C4.92931 2.00038 7.28595 2 12 2Z");
+}
+
+.y__cacvha {
+  fill: currentColor;
+  d: path("M21.9385 16.083C21.825 18.228 21.4965 19.5738 20.5352 20.5352C19.5738 21.4965 18.228 21.825 16.083 21.9385V16.083H21.9385Z");
+}
+
+.zozkijhek {
+  fill: currentColor;
+  d: path("M21.9844 9.41602C21.9965 10.189 22 11.0462 22 12C22 12.9534 21.9965 13.8103 21.9844 14.583H16.084V9.41602H21.9844Z");
+}
+
+</style>

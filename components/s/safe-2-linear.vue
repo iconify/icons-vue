@@ -1,15 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/x/xvjk-cbox.css';
-import '../../css/g/g9yxis6-e.css';
-import '../../css/d/dgy22zbai.css';
-import '../../css/n/n6f1xybpw.css';
-import '../../css/s/suncmkbcq.css';
-import '../../css/x/xdjqjik-w.css';
-import '../../css/f/fmbpbptfg.css';
-import '../../css/t/tw1vd4bor.css';
-import '../../css/j/jnsl4jgmw.css';
 
 const props = defineProps(["width","height"]);
 
@@ -17,3 +7,48 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="xvjk-cbox"/><path class="g9yxis6-e"/><path class="dgy22zbai"/><path class="n6f1xybpw"/><path class="suncmkbcq"/><path class="xdjqjik-w"/><path class="fmbpbptfg"/><path class="tw1vd4bor"/><path class="jnsl4jgmw"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:safe-2-linear" /></template>
+<style>
+.dgy22zbai {
+  d: path("M12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12C16 14.2091 14.2091 16 12 16Z");
+}
+
+.fmbpbptfg {
+  d: path("M4.5 7V10");
+}
+
+.g9yxis6-e {
+  d: path("M11 19H13C15.8284 19 17.2426 19 18.1213 18.1213C19 17.2426 19 15.8284 19 13V11C19 8.17157 19 6.75736 18.1213 5.87868C17.2426 5 15.8284 5 13 5H11C8.17157 5 6.75736 5 5.87868 5.87868C5 6.75736 5 8.17157 5 11V13C5 15.8284 5 17.2426 5.87868 18.1213C6.75736 19 8.17157 19 11 19Z");
+}
+
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.jnsl4jgmw {
+  d: path("M12.75 12C12.75 12.4142 12.4142 12.75 12 12.75C11.5858 12.75 11.25 12.4142 11.25 12C11.25 11.5858 11.5858 11.25 12 11.25C12.4142 11.25 12.75 11.5858 12.75 12Z");
+}
+
+.n6f1xybpw {
+  d: path("M12 12V8");
+}
+
+.suncmkbcq {
+  d: path("M12 12L15.6775 13.5761");
+}
+
+.tw1vd4bor {
+  d: path("M4.5 14V17");
+}
+
+.xdjqjik-w {
+  d: path("M11.9999 12L8.32227 13.5761");
+}
+
+.xvjk-cbox {
+  d: path("M12 22C7.28595 22 4.92893 22 3.46447 20.5355C2 19.0711 2 16.714 2 12C2 7.28595 2 4.92893 3.46447 3.46447C4.92893 2 7.28595 2 12 2C16.714 2 19.0711 2 20.5355 3.46447C22 4.92893 22 7.28595 22 12C22 16.714 22 19.0711 20.5355 20.5355C19.0711 22 16.714 22 12 22Z");
+}
+
+</style>

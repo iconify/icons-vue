@@ -1,15 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/l/leiavflem.css';
-import '../../css/z/z-j2qvsgx.css';
-import '../../css/h/h78_ecbaq.css';
-import '../../css/b/b4c6m_bwn.css';
-import '../../css/q/qqendgior.css';
-import '../../css/c/ch9hcky0g.css';
-import '../../css/g/guuqhebxh.css';
-import '../../css/a/aluxx0bky.css';
-import '../../css/l/l3l-oobgc.css';
-import '../../css/k/k28w6hhem.css';
 
 const props = defineProps(["width","height"]);
 
@@ -17,3 +7,57 @@ const viewBox = {"width":24,"height":24};
 const content = `<path clip-rule="evenodd" class="leiavflem"/><path class="z-j2qvsgx"/><path class="h78_ecbaq"/><path class="b4c6m_bwn"/><path class="qqendgior"/><path class="ch9hcky0g"/><path class="guuqhebxh"/><path class="aluxx0bky"/><path class="l3l-oobgc"/><path class="k28w6hhem"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:video-frame-play-vertical-bold-duotone" /></template>
+<style>
+.aluxx0bky {
+  fill: currentColor;
+  d: path("M21.9307 7.75C21.989 8.73116 21.9987 9.88384 22 11.25H17.75V7.75H21.9307Z");
+}
+
+.b4c6m_bwn {
+  fill: currentColor;
+  d: path("M6.25 16.25H2.06836C2.01001 15.2688 2.00133 14.1162 2 12.75H6.25V16.25Z");
+}
+
+.ch9hcky0g {
+  fill: currentColor;
+  d: path("M10.4004 9.58691C10.8007 9.322 11.3375 9.68269 12.4111 10.4043C13.4704 11.1162 14 11.4722 14 12C14 12.5278 13.4703 12.8838 12.4111 13.5957C11.3375 14.3173 10.8007 14.678 10.4004 14.4131C10.0001 14.1482 10 13.4322 10 12C10 10.5678 10.0001 9.85184 10.4004 9.58691Z");
+}
+
+.guuqhebxh {
+  fill: currentColor;
+  d: path("M6.25 11.25H2C2.00133 9.88384 2.01001 8.73116 2.06836 7.75H6.25V11.25Z");
+}
+
+.h78_ecbaq {
+  fill: currentColor;
+  d: path("M21.7783 17.75C21.5841 18.9726 21.2191 19.8511 20.5352 20.5352C19.8512 21.2191 18.9726 21.584 17.75 21.7783V17.75H21.7783Z");
+}
+
+.k28w6hhem {
+  fill: currentColor;
+  d: path("M17.75 2.22168C18.9726 2.41595 19.8512 2.78085 20.5352 3.46484C21.2191 4.14886 21.5841 5.02733 21.7783 6.25H17.75V2.22168Z");
+}
+
+.l3l-oobgc {
+  fill: currentColor;
+  d: path("M6.25 6.25H2.22168C2.41591 5.02752 2.78007 4.14881 3.46387 3.46484C4.1479 2.78081 5.02727 2.41594 6.25 2.22168V6.25Z");
+}
+
+.leiavflem {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M3.46447 3.46447C2 4.92893 2 7.28595 2 12C2 16.714 2 19.0711 3.46447 20.5355C4.92893 22 7.28595 22 12 22C16.714 22 19.0711 22 20.5355 20.5355C22 19.0711 22 16.714 22 12C22 7.28595 22 4.92893 20.5355 3.46447C19.0711 2 16.714 2 12 2C7.28595 2 4.92893 2 3.46447 3.46447Z");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.qqendgior {
+  fill: currentColor;
+  d: path("M22 12.75C21.9987 14.1162 21.989 15.2688 21.9307 16.25H17.75V12.75H22Z");
+}
+
+.z-j2qvsgx {
+  fill: currentColor;
+  d: path("M6.25 21.7783C5.02727 21.5841 4.1479 21.2192 3.46387 20.5352C2.78009 19.8512 2.4159 18.9725 2.22168 17.75H6.25V21.7783Z");
+}
+
+</style>

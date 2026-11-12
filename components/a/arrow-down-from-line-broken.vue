@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/h/hntgybcog.css';
-import '../../css/c/cjmocgbdu.css';
-import '../../css/x/xwy_nd-iu.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,21 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="hntgybcog"><path class="cjmocgbdu"/><path class="xwy_nd-iu"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:arrow-down-from-line-broken" /></template>
+<style>
+.cjmocgbdu {
+  d: path("M20 3H16M12 3H4");
+}
+
+.hntgybcog {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.xwy_nd-iu {
+  d: path("M12 8L12 21M16 16.625L12 21L8 16.625");
+}
+
+</style>

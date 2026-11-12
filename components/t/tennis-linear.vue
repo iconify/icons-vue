@@ -1,8 +1,5 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/n/nt-gmgbzs.css';
-import '../../css/n/n_npn5bge.css';
 
 const props = defineProps(["width","height"]);
 
@@ -10,3 +7,20 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="nt-gmgbzs"/><path class="n_npn5bge"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:tennis-linear" /></template>
+<style>
+.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.n_npn5bge {
+  d: path("M13.195 2.07117C13.195 2.07117 12.9634 5.66988 15.4634 10C17.9634 14.3301 21.1958 15.9288 21.1958 15.9288M2.80273 8.07117C2.80273 8.07117 6.03515 9.66988 8.53515 14C11.0352 18.3301 10.8035 21.9288 10.8035 21.9288");
+}
+
+.nt-gmgbzs {
+  d: path("M16.9997 20.6602C12.2168 23.4216 6.10089 21.7829 3.33946 17C0.578039 12.217 2.21679 6.10113 6.99972 3.33971C8.94932 2.2141 11.1204 1.81959 13.1955 2.07112C16.2112 2.43666 19.0242 4.16664 20.66 6.99996C22.2958 9.83328 22.3875 13.1344 21.1962 15.9288C20.3765 17.8516 18.9493 19.5346 16.9997 20.6602Z");
+}
+
+</style>

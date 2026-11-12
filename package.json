@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/token-branded",
   "type": "module",
-  "version": "1.0.22",
+  "version": "1.0.23",
   "homepage": "https://icon-sets.iconify.design/token-branded/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -2345,6 +2345,14 @@
     "./caw-background": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/caw-background.vue"
+    },
+    "./cbbtc": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cbbtc.vue"
+    },
+    "./cbbtc-background": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cbbtc-background.vue"
     },
     "./cbeth": {
       "types": "./types/dd0bq22g.d.ts",

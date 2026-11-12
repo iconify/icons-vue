@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/material-symbols",
   "type": "module",
-  "version": "1.0.58",
+  "version": "1.0.59",
   "homepage": "https://icon-sets.iconify.design/material-symbols/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "Apache-2.0",
@@ -15442,22 +15442,6 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/crop-free-sharp.vue"
     },
-    "./crop-landscape": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/c/crop-landscape.vue"
-    },
-    "./crop-landscape-outline": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/c/crop-landscape-outline.vue"
-    },
-    "./crop-landscape-outline-sharp": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/c/crop-landscape-outline-sharp.vue"
-    },
-    "./crop-landscape-sharp": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/c/crop-landscape-sharp.vue"
-    },
     "./crop-portrait": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/crop-portrait.vue"
@@ -18493,6 +18477,30 @@
     "./document-share": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/document-share.vue"
+    },
+    "./document-share-off": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/document-share-off.vue"
+    },
+    "./document-share-off-outline": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/document-share-off-outline.vue"
+    },
+    "./document-share-off-outline-rounded": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/document-share-off-outline-rounded.vue"
+    },
+    "./document-share-off-outline-sharp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/document-share-off-outline-sharp.vue"
+    },
+    "./document-share-off-rounded": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/document-share-off-rounded.vue"
+    },
+    "./document-share-off-sharp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/document-share-off-sharp.vue"
     },
     "./document-share-outline": {
       "types": "./types/dd0bq22g.d.ts",
@@ -21698,9 +21706,13 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/e/eyeglasses-2.vue"
     },
-    "./eyeglasses-2-rounded": {
+    "./eyeglasses-2-outline-sharp": {
       "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/e/eyeglasses-2-rounded.vue"
+      "default": "./components/e/eyeglasses-2-outline-sharp.vue"
+    },
+    "./eyeglasses-2-sharp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/eyeglasses-2-sharp.vue"
     },
     "./eyeglasses-2-sound": {
       "types": "./types/dd0bq22g.d.ts",
@@ -25873,6 +25885,18 @@
     "./frame-person": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/frame-person.vue"
+    },
+    "./frame-person-2": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/frame-person-2.vue"
+    },
+    "./frame-person-2-rounded": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/frame-person-2-rounded.vue"
+    },
+    "./frame-person-2-sharp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/frame-person-2-sharp.vue"
     },
     "./frame-person-mic": {
       "types": "./types/dd0bq22g.d.ts",
@@ -38106,14 +38130,6 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/mode-off-on.vue"
     },
-    "./mode-standby": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/m/mode-standby.vue"
-    },
-    "./mode-standby-outline": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/m/mode-standby-outline.vue"
-    },
     "./model-training": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/model-training.vue"
@@ -46326,6 +46342,50 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/print-error-sharp.vue"
     },
+    "./print-landscape-long": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/print-landscape-long.vue"
+    },
+    "./print-landscape-long-outline": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/print-landscape-long-outline.vue"
+    },
+    "./print-landscape-long-outline-rounded": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/print-landscape-long-outline-rounded.vue"
+    },
+    "./print-landscape-long-outline-sharp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/print-landscape-long-outline-sharp.vue"
+    },
+    "./print-landscape-long-rounded": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/print-landscape-long-rounded.vue"
+    },
+    "./print-landscape-long-sharp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/print-landscape-long-sharp.vue"
+    },
+    "./print-landscape-short": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/print-landscape-short.vue"
+    },
+    "./print-landscape-short-outline": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/print-landscape-short-outline.vue"
+    },
+    "./print-landscape-short-outline-rounded": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/print-landscape-short-outline-rounded.vue"
+    },
+    "./print-landscape-short-outline-sharp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/print-landscape-short-outline-sharp.vue"
+    },
+    "./print-landscape-short-sharp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/print-landscape-short-sharp.vue"
+    },
     "./print-lock": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/print-lock.vue"
@@ -46361,6 +46421,54 @@
     "./print-outline-sharp": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/print-outline-sharp.vue"
+    },
+    "./print-portrait-long": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/print-portrait-long.vue"
+    },
+    "./print-portrait-long-outline": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/print-portrait-long-outline.vue"
+    },
+    "./print-portrait-long-outline-rounded": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/print-portrait-long-outline-rounded.vue"
+    },
+    "./print-portrait-long-outline-sharp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/print-portrait-long-outline-sharp.vue"
+    },
+    "./print-portrait-long-rounded": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/print-portrait-long-rounded.vue"
+    },
+    "./print-portrait-long-sharp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/print-portrait-long-sharp.vue"
+    },
+    "./print-portrait-short": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/print-portrait-short.vue"
+    },
+    "./print-portrait-short-outline": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/print-portrait-short-outline.vue"
+    },
+    "./print-portrait-short-outline-rounded": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/print-portrait-short-outline-rounded.vue"
+    },
+    "./print-portrait-short-outline-sharp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/print-portrait-short-outline-sharp.vue"
+    },
+    "./print-portrait-short-rounded": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/print-portrait-short-rounded.vue"
+    },
+    "./print-portrait-short-sharp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/print-portrait-short-sharp.vue"
     },
     "./print-rounded": {
       "types": "./types/dd0bq22g.d.ts",
@@ -60250,6 +60358,30 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/touch-double-2.vue"
     },
+    "./touch-double-2-hold": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/touch-double-2-hold.vue"
+    },
+    "./touch-double-2-hold-outline": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/touch-double-2-hold-outline.vue"
+    },
+    "./touch-double-2-hold-outline-rounded": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/touch-double-2-hold-outline-rounded.vue"
+    },
+    "./touch-double-2-hold-outline-sharp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/touch-double-2-hold-outline-sharp.vue"
+    },
+    "./touch-double-2-hold-rounded": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/touch-double-2-hold-rounded.vue"
+    },
+    "./touch-double-2-hold-sharp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/touch-double-2-hold-sharp.vue"
+    },
     "./touch-double-2-outline": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/touch-double-2-outline.vue"
@@ -73418,13 +73550,29 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/crop-free-outline-sharp.vue"
     },
+    "./crop-landscape": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/crop-landscape.vue"
+    },
+    "./crop-landscape-outline": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/crop-landscape-outline.vue"
+    },
     "./crop-landscape-outline-rounded": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/crop-landscape-outline-rounded.vue"
     },
+    "./crop-landscape-outline-sharp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/crop-landscape-outline-sharp.vue"
+    },
     "./crop-landscape-rounded": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/crop-landscape-rounded.vue"
+    },
+    "./crop-landscape-sharp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/crop-landscape-sharp.vue"
     },
     "./crop-outline": {
       "types": "./types/dd0bq22g.d.ts",
@@ -76198,13 +76346,9 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/e/eyeglasses-2-outline-rounded.vue"
     },
-    "./eyeglasses-2-outline-sharp": {
+    "./eyeglasses-2-rounded": {
       "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/e/eyeglasses-2-outline-sharp.vue"
-    },
-    "./eyeglasses-2-sharp": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/e/eyeglasses-2-sharp.vue"
+      "default": "./components/e/eyeglasses-2-rounded.vue"
     },
     "./eyeglasses-2-sound-outline": {
       "types": "./types/dd0bq22g.d.ts",
@@ -78369,6 +78513,18 @@
     "./frame-inspect-outline-sharp": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/frame-inspect-outline-sharp.vue"
+    },
+    "./frame-person-2-outline": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/frame-person-2-outline.vue"
+    },
+    "./frame-person-2-outline-rounded": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/frame-person-2-outline-rounded.vue"
+    },
+    "./frame-person-2-outline-sharp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/frame-person-2-outline-sharp.vue"
     },
     "./frame-reload-outline": {
       "types": "./types/dd0bq22g.d.ts",
@@ -83994,6 +84150,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/mode-off-on-sharp.vue"
     },
+    "./mode-standby": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mode-standby.vue"
+    },
+    "./mode-standby-outline": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mode-standby-outline.vue"
+    },
     "./mode-standby-outline-rounded": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/mode-standby-outline-rounded.vue"
@@ -88205,6 +88369,10 @@
     "./price-check-outline-sharp": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/price-check-outline-sharp.vue"
+    },
+    "./print-landscape-short-rounded": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/print-landscape-short-rounded.vue"
     },
     "./priority-high-outline": {
       "types": "./types/dd0bq22g.d.ts",

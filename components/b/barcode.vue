@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/u/uvh2dc16q.css';
+import '../../css/j/jrc-bsn6i.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="uvh2dc16q"/>`;
+const content = `<path class="jrc-bsn6i"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="tabler:barcode" /></template>

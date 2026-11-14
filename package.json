@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/cbi",
   "type": "module",
-  "version": "1.0.54",
+  "version": "1.0.55",
   "homepage": "https://icon-sets.iconify.design/cbi/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "CC-BY-NC-SA-4.0",
@@ -738,6 +738,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/binge.vue"
     },
+    "./bitcoin-btc": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bitcoin-btc.vue"
+    },
     "./bitfocus": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/bitfocus.vue"
@@ -1125,6 +1129,10 @@
     "./car-fob": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/car-fob.vue"
+    },
+    "./cardano-ada": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cardano-ada.vue"
     },
     "./carrier": {
       "types": "./types/dd0bq22g.d.ts",
@@ -1518,6 +1526,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/criterion-channel.vue"
     },
+    "./cronos-cro": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cronos-cro.vue"
+    },
     "./crunchyrol": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/crunchyrol.vue"
@@ -1697,6 +1709,10 @@
     "./dolby-atmos": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/dolby-atmos.vue"
+    },
+    "./dollar-usd": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dollar-usd.vue"
     },
     "./dome-light": {
       "types": "./types/dd0bq22g.d.ts",
@@ -2002,6 +2018,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/e/etc.vue"
     },
+    "./ethereum-eth": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/ethereum-eth.vue"
+    },
     "./etihad-airways": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/e/etihad-airways.vue"
@@ -2009,6 +2029,10 @@
     "./eufy-doorbell": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/e/eufy-doorbell.vue"
+    },
+    "./euro-eur": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/euro-eur.vue"
     },
     "./ev-charging": {
       "types": "./types/dd0bq22g.d.ts",
@@ -2741,6 +2765,10 @@
     "./hydro-qubec": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/hydro-qubec.vue"
+    },
+    "./hyperliquid-hype": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hyperliquid-hype.vue"
     },
     "./hyundai": {
       "types": "./types/dd0bq22g.d.ts",
@@ -4682,6 +4710,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/polestar.vue"
     },
+    "./polkadot-dot": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/polkadot-dot.vue"
+    },
     "./pool-clorine": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/pool-clorine.vue"
@@ -5482,6 +5514,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/skoda.vue"
     },
+    "./skoda-2026": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/skoda-2026.vue"
+    },
+    "./skoda-2026-long": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/skoda-2026-long.vue"
+    },
     "./sky": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/sky.vue"
@@ -6169,6 +6209,10 @@
     "./tet-plus": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/tet-plus.vue"
+    },
+    "./tether-usdt": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tether-usdt.vue"
     },
     "./tf1": {
       "types": "./types/dd0bq22g.d.ts",

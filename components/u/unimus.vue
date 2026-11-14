@@ -9,6 +9,6 @@ import '../../css/f/f70b6ll5d.css';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":512,"height":512};
-const content = `<path class="omid8gbny"/><path class="nw7qd_-li"/><linearGradient id="SVG3jsiabhH" x1="113.078" x2="329.023" y1="1692.111" y2="1860.166" gradientTransform="translate(0 -1372.33)" gradientUnits="userSpaceOnUse"><stop offset="0" class="bvmi69brq"/><stop offset="1" class="z-wqubc_h"/></linearGradient><path fill="url(#SVG3jsiabhH)" class="f70b6ll5d"/>`;
+const content = `<path class="omid8gbny"/><path class="nw7qd_-li"/><linearGradient id="SVG2t8TveWO" x1="113.1" x2="329" y1="319.8" y2="487.8" gradientUnits="userSpaceOnUse"><stop offset="0" class="bvmi69brq"/><stop offset="1" class="z-wqubc_h"/></linearGradient><path fill="url(#SVG2t8TveWO)" class="f70b6ll5d"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="selfhst:unimus" /></template>

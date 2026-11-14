@@ -1,17 +1,15 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/u/u7zrumsqk.css';
-import '../../css/s/sqvqkpkdf.css';
-import '../../css/b/b78_k0b_z.css';
-import '../../css/o/od74hsspy.css';
-import '../../css/r/rkz3bsbps.css';
-import '../../css/t/tlf02vbbn.css';
-import '../../css/m/mjgt59bkf.css';
-import '../../css/i/ie86e7a4z.css';
+import '../../css/w/w7_e5xbbg.css';
+import '../../css/l/lke8sfb2b.css';
+import '../../css/h/hya45hbax.css';
+import '../../css/q/qqi_ahbwa.css';
+import '../../css/c/cnou19b4m.css';
+import '../../css/y/y1cvh44tl.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":512,"height":512};
-const content = `<linearGradient id="SVGfsqPibCh" x1="-22.496" x2="-21.429" y1="256" y2="256" gradientTransform="matrix(0 0 0 0 2947.959 -381.062)" gradientUnits="userSpaceOnUse"><stop offset="0" class="u7zrumsqk"/><stop offset="1" class="sqvqkpkdf"/></linearGradient><circle fill="url(#SVGfsqPibCh)" class="b78_k0b_z"/><path clip-rule="evenodd" class="od74hsspy"/><path class="rkz3bsbps"/><path class="tlf02vbbn"/><path class="mjgt59bkf"/><path clip-rule="evenodd" class="ie86e7a4z"/>`;
+const content = `<circle class="w7_e5xbbg"/><path class="lke8sfb2b"/><path class="hya45hbax"/><path class="qqi_ahbwa"/><path class="cnou19b4m"/><path class="y1cvh44tl"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="selfhst:tandoor-recipes" /></template>

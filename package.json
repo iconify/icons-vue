@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/selfhst",
   "type": "module",
-  "version": "1.0.30",
+  "version": "1.0.31",
   "homepage": "https://icon-sets.iconify.design/selfhst/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "CC-BY-4.0",
@@ -5533,6 +5533,14 @@
     "./dokuwiki": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/dokuwiki.vue"
+    },
+    "./dokuwiki-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dokuwiki-dark.vue"
+    },
+    "./dokuwiki-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dokuwiki-light.vue"
     },
     "./dolibarr": {
       "types": "./types/dd0bq22g.d.ts",
@@ -11978,6 +11986,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/k/kometa-light.vue"
     },
+    "./komga": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/komga.vue"
+    },
     "./komga-dark": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/k/komga-dark.vue"
@@ -13762,6 +13774,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/malcolm-networking.vue"
     },
+    "./malcolm-networking-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/malcolm-networking-dark.vue"
+    },
+    "./malcolm-networking-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/malcolm-networking-light.vue"
+    },
     "./maloja": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/maloja.vue"
@@ -15257,6 +15277,14 @@
     "./minuspod": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/minuspod.vue"
+    },
+    "./minuspod-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/minuspod-dark.vue"
+    },
+    "./minuspod-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/minuspod-light.vue"
     },
     "./mirotalk": {
       "types": "./types/dd0bq22g.d.ts",

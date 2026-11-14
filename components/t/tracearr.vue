@@ -1,15 +1,15 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
+import '../../css/b/bsusqz6jj.css';
 import '../../css/r/rfa47j6vc.css';
 import '../../css/d/d-n5niaps.css';
-import '../../css/w/wi19v5bsv.css';
-import '../../css/e/evbksexjs.css';
-import '../../css/s/sri6s-bff.css';
-import '../../css/b/bsusqz6jj.css';
+import '../../css/i/iix9hwazr.css';
+import '../../css/z/ziff9d-lx.css';
+import '../../css/w/w8taj1bhx.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":512,"height":512};
-const content = `<filter id="SVGqReBxIRF" width="140%" height="140%" x="-20%" y="-20%"><feGaussianBlur result="blur" stdDeviation="1"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter><path class="rfa47j6vc"/><path class="d-n5niaps"/><path class="wi19v5bsv"/><path class="evbksexjs"/><path class="sri6s-bff"/><g filter="url(#SVGqReBxIRF)"><path class="bsusqz6jj"/></g>`;
+const content = `<defs><path id="SVGDp62uefI" class="bsusqz6jj"/></defs><path class="rfa47j6vc"/><path class="d-n5niaps"/><path class="iix9hwazr"/><path class="ziff9d-lx"/><path class="w8taj1bhx"/><filter id="SVG9g0xNcQJ"><feGaussianBlur stdDeviation="1"/></filter><use href="#SVGDp62uefI" filter="url(#SVG9g0xNcQJ)"/><use href="#SVGDp62uefI"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="selfhst:tracearr" /></template>

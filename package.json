@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/devicon-plain",
   "type": "module",
-  "version": "1.0.34",
+  "version": "1.0.35",
   "homepage": "https://icon-sets.iconify.design/devicon-plain/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -1566,6 +1566,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/k/keras-wordmark.vue"
     },
+    "./keycloak": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/keycloak.vue"
+    },
+    "./keycloak-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/keycloak-wordmark.vue"
+    },
     "./kibana": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/k/kibana.vue"
@@ -2486,6 +2494,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/q/qodana-wordmark.vue"
     },
+    "./qodo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/qodo.vue"
+    },
+    "./qodo-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/qodo-wordmark.vue"
+    },
     "./quarkus": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/q/quarkus.vue"
@@ -2993,6 +3009,10 @@
     "./terraform-wordmark": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/terraform-wordmark.vue"
+    },
+    "./testinglibrary": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/testinglibrary.vue"
     },
     "./testrail-wordmark": {
       "types": "./types/dd0bq22g.d.ts",

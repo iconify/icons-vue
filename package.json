@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/pinhead",
   "type": "module",
-  "version": "1.0.41",
+  "version": "1.0.42",
   "homepage": "https://icon-sets.iconify.design/pinhead/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "CC0-1.0",
@@ -4774,17 +4774,13 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/i/i.vue"
     },
-    "./ice-cream-on-cone": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/i/ice-cream-on-cone.vue"
-    },
     "./ice-pop": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/i/ice-pop.vue"
     },
-    "./ice-pop-beside-ice-cream-on-cone": {
+    "./ice-pop-beside-scoop-of-ice-cream-in-cone": {
       "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/i/ice-pop-beside-ice-cream-on-cone.vue"
+      "default": "./components/i/ice-pop-beside-scoop-of-ice-cream-in-cone.vue"
     },
     "./ice-pop-with-bite": {
       "types": "./types/dd0bq22g.d.ts",
@@ -8810,6 +8806,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/scissors-and-comb.vue"
     },
+    "./scoop-of-ice-cream-in-cone": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/scoop-of-ice-cream-in-cone.vue"
+    },
+    "./scoop-of-ice-cream-in-cup": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/scoop-of-ice-cream-in-cup.vue"
+    },
     "./screw-beside-nail": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/screw-beside-nail.vue"
@@ -11018,10 +11022,6 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/v/vending-machine-with-heart.vue"
     },
-    "./vending-machine-with-ice-cream-on-cone": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/v/vending-machine-with-ice-cream-on-cone.vue"
-    },
     "./vending-machine-with-mars": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/v/vending-machine-with-mars.vue"
@@ -11033,6 +11033,10 @@
     "./vending-machine-with-question-mark": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/v/vending-machine-with-question-mark.vue"
+    },
+    "./vending-machine-with-scoop-of-ice-cream-in-cone": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vending-machine-with-scoop-of-ice-cream-in-cone.vue"
     },
     "./vending-machine-with-shelves": {
       "types": "./types/dd0bq22g.d.ts",
@@ -12114,6 +12118,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/house-and-trees-on-hill-in-water.vue"
     },
+    "./ice-cream-on-cone": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/ice-cream-on-cone.vue"
+    },
+    "./ice-pop-beside-ice-cream-on-cone": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/ice-pop-beside-ice-cream-on-cone.vue"
+    },
     "./ice-text": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/i/ice-text.vue"
@@ -13089,6 +13101,10 @@
     "./underweight-person": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/u/underweight-person.vue"
+    },
+    "./vending-machine-with-ice-cream-on-cone": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vending-machine-with-ice-cream-on-cone.vue"
     },
     "./water-bottle-beside-droplet": {
       "types": "./types/dd0bq22g.d.ts",

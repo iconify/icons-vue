@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/devicon",
   "type": "module",
-  "version": "1.0.39",
+  "version": "1.0.40",
   "homepage": "https://icon-sets.iconify.design/devicon/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -2066,6 +2066,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/k/keras-wordmark.vue"
     },
+    "./keycloak": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/keycloak.vue"
+    },
+    "./keycloak-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/keycloak-wordmark.vue"
+    },
     "./kibana": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/k/kibana.vue"
@@ -3206,6 +3214,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/q/qodana.vue"
     },
+    "./qodo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/qodo.vue"
+    },
+    "./qodo-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/qodo-wordmark.vue"
+    },
     "./qt": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/q/qt.vue"
@@ -3926,6 +3942,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/talos.vue"
     },
+    "./tanstack": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tanstack.vue"
+    },
+    "./tanstack-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tanstack-wordmark.vue"
+    },
     "./taskade": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/taskade.vue"
@@ -3997,6 +4021,10 @@
     "./terramate-wordmark": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/terramate-wordmark.vue"
+    },
+    "./testinglibrary": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/testinglibrary.vue"
     },
     "./testrail": {
       "types": "./types/dd0bq22g.d.ts",

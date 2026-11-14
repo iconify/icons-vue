@@ -1,0 +1,20 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="rq_j5547m"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="uix:account-joint" /></template>
+<style>
+.rq_j5547m {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M4.5 8a3.5 3.5 0 1 0 7 0a3.5 3.5 0 1 0-7 0m8 0a3.5 3.5 0 1 0 7 0a3.5 3.5 0 1 0-7 0M3 20c.3-3.2 2.3-5 5-5s4 1 4 1s1.3-1 4-1s4.7 1.8 5 5");
+}
+
+</style>

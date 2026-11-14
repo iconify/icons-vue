@@ -1,0 +1,31 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="hntgybcog"><path class="kwd6tdbsf"/><path class="u8054pfip"/><path class="pzm8jabqj"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="uix:mystery-box" /></template>
+<style>
+.hntgybcog {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.kwd6tdbsf {
+  d: path("M3.5 7.5L12 3l8.5 4.5v9L12 21l-8.5-4.5Z");
+}
+
+.pzm8jabqj {
+  d: path("M10 8c0-1.5 4-1.5 4 .5c0 1.5-2 1.5-2 3");
+}
+
+.u8054pfip {
+  d: path("M3.5 7.5L12 12l8.5-4.5M12 12v9");
+}
+
+</style>

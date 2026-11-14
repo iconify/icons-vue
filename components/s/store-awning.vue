@@ -1,0 +1,27 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="hntgybcog"><path class="run5ny8xc"/><path class="v2_2c-b2u"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="uix:store-awning" /></template>
+<style>
+.hntgybcog {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.run5ny8xc {
+  d: path("m3 9l1.5-5h15L21 9M4.5 11v9h15v-9");
+}
+
+.v2_2c-b2u {
+  d: path("M3 9a3 3 0 0 0 6 0a3 3 0 0 0 6 0a3 3 0 0 0 6 0M10 20v-4.5h4V20M9 9l1-5m5 5l-1-5");
+}
+
+</style>

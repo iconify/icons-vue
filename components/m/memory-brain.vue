@@ -1,0 +1,31 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="hntgybcog"><path class="jqd4eob-v"/><path class="ecziz5b4d"/><path class="nfdct5bvl"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="uix:memory-brain" /></template>
+<style>
+.ecziz5b4d {
+  d: path("M7.5 10.5c1-2.25 3.5-2.25 4 0M14 7.25c1.5.5 2.25 1.75 1.5 3.25m-.75 7.5a3.25 3.25 0 1 1 1 2.25");
+}
+
+.hntgybcog {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.jqd4eob-v {
+  d: path("M13.373 14H6.5c-2.5 0-4-1.75-3.5-3.5c-1-2.25.5-4.75 3-5.25c.75-2 3.75-3 6-2c2-1 5.25-.5 6.25 1.75c2.25.75 3.25 3.5 1.75 5.25c.156.701.069 1.329-.2 1.862");
+}
+
+.nfdct5bvl {
+  d: path("M13.5 16.75L14.75 18L16 16.75");
+}
+
+</style>

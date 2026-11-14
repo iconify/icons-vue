@@ -1,0 +1,20 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="nbx-7_bsv"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="uix:air-plant" /></template>
+<style>
+.nbx-7_bsv {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M12 20.5C9 17 5.5 14 2.5 13m9.5 7.5C9.5 15 7.5 9 6.5 4M12 20.5C14.5 15 16.5 9 17.5 4M12 20.5c3-3.5 6.5-6.5 9.5-7.5M12 20.5v-13");
+}
+
+</style>

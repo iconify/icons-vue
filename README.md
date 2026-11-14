@@ -4,7 +4,7 @@
 
 Author: [CodeX](https://github.com/davidabou/icons)
 
-License: [MIT](https://github.com/codex-team/icons/blob/master/LICENSE)
+License: [MIT](https://github.com/davidabou/icons/blob/master/LICENSE)
 
 Browse all icons: [preview CodeX Icons on Iconify](https://icon-sets.iconify.design/codex/)
 

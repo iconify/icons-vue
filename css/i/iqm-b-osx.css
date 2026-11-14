@@ -1,0 +1,8 @@
+.iqm-b-osx {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M6.5 5h11m-11 14h11M8 5.5v1.7C8 9 9.5 10.6 12 12s4 3 4 4.8v1.7m0-13v1.7c0 1.8-1.5 3.4-4 4.8s-4 3-4 4.8v1.7");
+}

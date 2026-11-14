@@ -1,0 +1,28 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="hntgybcog"><path class="g41u551_a"/><path class="xqdolob9o"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:gavel-line-duotone" /></template>
+<style>
+.g41u551_a {
+  d: path("M5.86133 7.61108L9.96253 11.7123M9.53906 3.93408L13.6403 8.03528M11.8008 9.87378L20.7104 18.7834M3.28906 21.6612H12.2891");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.hntgybcog {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.xqdolob9o {
+  d: path("M5.86258 11.712L5.36758 11.2169L5.36708 11.2164C4.63408 10.4834 4.26758 10.1169 4.26758 9.66147C4.26758 9.20597 4.63388 8.83947 5.36658 8.10657L5.36758 8.10567L10.0345 3.43877L10.0354 3.43777C10.7682 2.70517 11.1346 2.33887 11.5902 2.33887C12.0457 2.33887 12.4122 2.70527 13.1451 3.43797L13.1456 3.43847L14.1358 4.42887C14.8691 5.16207 15.2358 5.52887 15.2358 5.98447C15.2358 6.43957 14.8697 6.80581 14.138 7.53798L14.1375 7.53847L14.1368 7.53917L14.1358 7.54017L9.46888 12.207C8.73568 12.9401 8.36878 13.3069 7.91318 13.3069C7.45758 13.3069 7.09088 12.9403 6.35758 12.207L5.86258 11.712Z");
+}
+
+</style>

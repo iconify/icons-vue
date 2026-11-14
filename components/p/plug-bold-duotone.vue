@@ -1,0 +1,34 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="xtpeb-edw"><path class="yhj0v9fdj"/><path class="kk1w7dbtl"/><path class="r89l1sn9m"/></g><path clip-rule="evenodd" class="pjxb-yu7d"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:plug-bold-duotone" /></template>
+<style>
+.kk1w7dbtl {
+  d: path("M9.25 1.25C9.66421 1.25 10 1.58579 10 2V7.5C10 7.91421 9.66421 8.25 9.25 8.25C8.83579 8.25 8.5 7.91421 8.5 7.5V2C8.5 1.58579 8.83579 1.25 9.25 1.25Z");
+}
+
+.pjxb-yu7d {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M6 9.3C6 8.3 6.8 7.5 7.8 7.5H16.2C17.2 7.5 18 8.3 18 9.3V9.5C18 12.8137 15.3137 15.5 12 15.5C8.6863 15.5 6 12.8137 6 9.5V9.3Z");
+}
+
+.r89l1sn9m {
+  d: path("M14.75 1.25C15.1642 1.25 15.5 1.58579 15.5 2V7.5C15.5 7.91421 15.1642 8.25 14.75 8.25C14.3358 8.25 14 7.91421 14 7.5V2C14 1.58579 14.3358 1.25 14.75 1.25Z");
+}
+
+.xtpeb-edw {
+  fill: currentColor;
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.yhj0v9fdj {
+  d: path("M14.25 17C14.25 17.7999 13.7002 18.2499 12.9004 18.25H12.75V22C12.75 22.4142 12.4142 22.75 12 22.75C11.5858 22.75 11.25 22.4142 11.25 22V18.25H11.0996C10.2998 18.2499 9.75 17.7999 9.75 17V15.0625H14.25V17Z");
+}
+
+</style>

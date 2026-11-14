@@ -1,0 +1,39 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="hntgybcog"><path class="gcjr-xbce"/><path class="w6tva8xka"/><path class="wvolq0b1y"/><path class="sev8m68qn"/><path class="z4gnbmbjf"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:calendar-check-linear" /></template>
+<style>
+.gcjr-xbce {
+  d: path("M10 21.75H14C17.7712 21.75 19.6569 21.75 20.8284 20.5784C22 19.4069 22 17.5212 22 13.75V11.75C22 7.97876 22 6.09315 20.8284 4.92157C19.6569 3.75 17.7712 3.75 14 3.75H10C6.22876 3.75 4.34315 3.75 3.17157 4.92157C2 6.09315 2 7.97876 2 11.75V13.75C2 17.5212 2 19.4069 3.17157 20.5784C4.34315 21.75 6.22876 21.75 10 21.75Z");
+}
+
+.hntgybcog {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.sev8m68qn {
+  d: path("M17 3.78496V2.25");
+}
+
+.w6tva8xka {
+  d: path("M2.03516 8.75H21.965");
+}
+
+.wvolq0b1y {
+  d: path("M7 3.78496V2.25");
+}
+
+.z4gnbmbjf {
+  d: path("M9.5 15.4L11.1667 17.25L14.5 13.25");
+}
+
+</style>

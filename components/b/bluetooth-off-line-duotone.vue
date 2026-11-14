@@ -1,0 +1,28 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="hntgybcog"><path class="aha5gcc3f"/><path class="ayo73pbzj"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:bluetooth-off-line-duotone" /></template>
+<style>
+.aha5gcc3f {
+  d: path("M11 7.54438V5.22458C11 3.33818 11 2.39498 11.6047 2.08558C12.2093 1.77628 12.9813 2.32448 14.5253 3.42088L16.2633 4.65508C17.4211 5.47728 18 5.88838 18 6.45868C18 7.02908 17.4211 7.44018 16.2633 8.26238L13.6054 10.1498M17.9109 17.9109C17.7081 18.3189 17.1589 18.7089 16.2634 19.3448L14.5253 20.5791L14.5242 20.5798C12.9809 21.6757 12.2091 22.2237 11.6047 21.9144C11 21.605 11 20.6618 11 18.7754V12M6 8.49997L11 12L14.4498 14.4498M11 12L6 15.5");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.ayo73pbzj {
+  d: path("M2 2L22 22");
+}
+
+.hntgybcog {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+</style>

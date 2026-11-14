@@ -1,0 +1,35 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="hntgybcog"><path class="r2p7ctnsr"/><path class="q2f8uxbsq"/><path class="mgcah1bmv"/><path class="u6ceo5bvg"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:fork-knife-linear" /></template>
+<style>
+.hntgybcog {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.mgcah1bmv {
+  d: path("M8.1499 2.41028V8.25528");
+}
+
+.q2f8uxbsq {
+  d: path("M5.5 7.58728C6.75 8.47798 9.55 8.47798 10.8 7.58728");
+}
+
+.r2p7ctnsr {
+  d: path("M5.5 2.41028V7.58728C5.5 9.50778 7.05 10.5933 7.05 11.9293L6.8 20.1123C6.75 21.2813 7.35 21.9493 8.15 21.9493C8.95 21.9493 9.55 21.2813 9.5 20.1123L9.25 11.9293C9.25 10.5933 10.8 9.50778 10.8 7.58728V2.41028");
+}
+
+.u6ceo5bvg {
+  d: path("M17.1999 21.9493C16.0999 21.9493 15.8499 21.1143 15.8999 19.9453L15.9999 13.7663C16.0499 13.0148 15.0499 12.7643 14.5499 11.5953C13.9499 9.84181 14.5499 5.75031 16.9499 2.41031C17.4499 1.74231 18.4999 1.99281 18.4999 3.24531V19.9453C18.4999 21.1143 18.1999 21.9493 17.1999 21.9493Z");
+}
+
+</style>

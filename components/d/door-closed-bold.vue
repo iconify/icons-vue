@@ -1,0 +1,17 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path clip-rule="evenodd" class="ohjsjpbcv"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:door-closed-bold" /></template>
+<style>
+.ohjsjpbcv {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M15 2C16.8856 2 17.8283 2.00014 18.4141 2.58594C18.9999 3.17174 19 4.1144 19 6V21.25H22C22.4142 21.25 22.75 21.5858 22.75 22C22.75 22.4142 22.4142 22.75 22 22.75H2C1.58579 22.75 1.25 22.4142 1.25 22C1.25 21.5858 1.58579 21.25 2 21.25H5V6C5 4.1144 5.00014 3.17174 5.58594 2.58594C6.17174 2.00014 7.1144 2 9 2H15ZM15.5 11.6504C15.0308 11.6506 14.6504 12.0307 14.6504 12.5C14.6504 12.9693 15.0308 13.3494 15.5 13.3496C15.9694 13.3496 16.3506 12.9694 16.3506 12.5C16.3506 12.0306 15.9694 11.6504 15.5 11.6504Z");
+}
+
+</style>

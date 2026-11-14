@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/lucide",
   "type": "module",
-  "version": "1.0.88",
+  "version": "1.0.89",
   "homepage": "https://icon-sets.iconify.design/lucide/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "ISC",
@@ -1301,6 +1301,10 @@
     "./cannabis-off": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/cannabis-off.vue"
+    },
+    "./cap": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cap.vue"
     },
     "./captions": {
       "types": "./types/dd0bq22g.d.ts",
@@ -3678,6 +3682,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/graph-hub.vue"
     },
+    "./graph-ring": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/graph-ring.vue"
+    },
     "./graph-star": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/graph-star.vue"
@@ -4261,6 +4269,10 @@
     "./layout-grid-circles": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/l/layout-grid-circles.vue"
+    },
+    "./layout-grid-plus": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/layout-grid-plus.vue"
     },
     "./layout-list": {
       "types": "./types/dd0bq22g.d.ts",

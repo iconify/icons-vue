@@ -1,12 +1,12 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/h/hntgybcog.css';
-import '../../css/n/njvarwbry.css';
-import '../../css/k/kyr4a2l0q.css';
+import '../../css/j/jx0p4fbya.css';
+import '../../css/p/psncwcctr.css';
+import '../../css/o/oqjd98bgp.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="hntgybcog"><path class="njvarwbry"/><path class="kyr4a2l0q"/></g>`;
+const content = `<g class="jx0p4fbya"><path class="psncwcctr"/><path class="oqjd98bgp"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="hugeicons:bubble-chat-favourite" /></template>

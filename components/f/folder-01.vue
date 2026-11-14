@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ifnrpjbzy.css';
+import '../../css/l/lehcnlb9a.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="ifnrpjbzy"/>`;
+const content = `<path class="lehcnlb9a"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="hugeicons:folder-01" /></template>

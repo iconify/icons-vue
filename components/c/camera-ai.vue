@@ -1,12 +1,12 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/f/ft5dv1b6b.css';
-import '../../css/k/k_r3fq2nx.css';
-import '../../css/g/gi3ejpbsk.css';
+import '../../css/h/hntgybcog.css';
+import '../../css/d/dx3djob0r.css';
+import '../../css/k/krc89nbff.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="k_r3fq2nx"/><path class="gi3ejpbsk"/></g>`;
+const content = `<g class="hntgybcog"><path class="dx3djob0r"/><path class="krc89nbff"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="hugeicons:camera-ai" /></template>

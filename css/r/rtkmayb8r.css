@@ -1,0 +1,8 @@
+.rtkmayb8r {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M19 19L5 5.001M19 5L5 18.999");
+}

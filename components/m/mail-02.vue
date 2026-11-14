@@ -1,12 +1,12 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/d/ddvgu8bvv.css';
-import '../../css/i/iqultvbvz.css';
-import '../../css/s/si8melbls.css';
+import '../../css/j/jx0p4fbya.css';
+import '../../css/h/h88haibia.css';
+import '../../css/a/aeapd2ack.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ddvgu8bvv"><path class="iqultvbvz"/><path class="si8melbls"/></g>`;
+const content = `<g class="jx0p4fbya"><path class="h88haibia"/><path class="aeapd2ack"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="hugeicons:mail-02" /></template>

@@ -1,12 +1,12 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/d/dkfqmgbcg.css';
-import '../../css/u/uebd-hbog.css';
+import '../../css/h/hntgybcog.css';
+import '../../css/w/w99w8acpr.css';
+import '../../css/q/qnvcbffvu.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ipq1z-bjh"><path class="dkfqmgbcg"/><path class="uebd-hbog"/></g>`;
+const content = `<g class="hntgybcog"><path class="w99w8acpr"/><path class="qnvcbffvu"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="hugeicons:money-security" /></template>

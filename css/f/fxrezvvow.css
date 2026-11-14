@@ -1,0 +1,8 @@
+.fxrezvvow {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("m15.5 12.5l2-2m-13 6l12-12M4 22h14M15.384 2.884l5.732 5.732a3.02 3.02 0 0 1 0 4.268l-8.232 8.232a3.02 3.02 0 0 1-4.268 0l-5.732-5.732a3.02 3.02 0 0 1 0-4.268l8.232-8.232a3.02 3.02 0 0 1 4.268 0");
+}

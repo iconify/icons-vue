@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/z/z3k13gdbv.css';
+import '../../css/w/wdxv9_54x.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="z3k13gdbv"/>`;
+const content = `<path class="wdxv9_54x"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="hugeicons:message-add-01" /></template>

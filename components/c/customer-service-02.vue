@@ -1,14 +1,12 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/j/jx0p4fbya.css';
-import '../../css/j/jgktazfdt.css';
-import '../../css/j/jvl9yi_dy.css';
-import '../../css/r/rkhwyvbrn.css';
-import '../../css/i/ikksi9dlb.css';
+import '../../css/h/hntgybcog.css';
+import '../../css/y/y4qn3mn9e.css';
+import '../../css/m/mauw27bsx.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="jx0p4fbya"><path class="jgktazfdt"/><path class="jvl9yi_dy"/><path class="rkhwyvbrn"/><path class="ikksi9dlb"/></g>`;
+const content = `<g class="hntgybcog"><path class="y4qn3mn9e"/><path class="mauw27bsx"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="hugeicons:customer-service-02" /></template>

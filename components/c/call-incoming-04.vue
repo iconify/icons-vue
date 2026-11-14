@@ -1,12 +1,12 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/t/tyxji_35o.css';
-import '../../css/b/bij_adcel.css';
+import '../../css/j/jx0p4fbya.css';
+import '../../css/j/j_u3vybip.css';
+import '../../css/l/lj7ufqojk.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ipq1z-bjh"><path class="tyxji_35o"/><path class="bij_adcel"/></g>`;
+const content = `<g class="jx0p4fbya"><path class="j_u3vybip"/><path class="lj7ufqojk"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="hugeicons:call-incoming-04" /></template>

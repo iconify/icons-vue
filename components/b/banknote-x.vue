@@ -2,11 +2,11 @@
 import { Icon } from '@iconify/css-vue';
 import '../../css/h/hntgybcog.css';
 import '../../css/c/cgfunjbue.css';
-import '../../css/f/fgug72nvh.css';
+import '../../css/m/mbh8a7n3r.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="hntgybcog"><path class="cgfunjbue"/><path class="fgug72nvh"/></g>`;
+const content = `<g class="hntgybcog"><path class="cgfunjbue"/><path class="mbh8a7n3r"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="hugeicons:banknote-x" /></template>

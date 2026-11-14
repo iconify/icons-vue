@@ -1,12 +1,12 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/d/db_o6pbco.css';
-import '../../css/z/zr2te8zai.css';
+import '../../css/h/hntgybcog.css';
+import '../../css/g/gvls4cbah.css';
+import '../../css/a/a0c3lvbkm.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ipq1z-bjh"><path class="db_o6pbco"/><path class="zr2te8zai"/></g>`;
+const content = `<g class="hntgybcog"><path class="gvls4cbah"/><path class="a0c3lvbkm"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="hugeicons:folder-upload" /></template>

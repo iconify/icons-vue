@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/arcticons",
   "type": "module",
-  "version": "1.0.23",
+  "version": "1.0.24",
   "homepage": "https://icon-sets.iconify.design/arcticons/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "CC-BY-SA-4.0",
@@ -36498,9 +36498,9 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/mull.vue"
     },
-    "./mullvadvpn": {
+    "./mullvad-vpn": {
       "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/m/mullvadvpn.vue"
+      "default": "./components/m/mullvad-vpn.vue"
     },
     "./mullwegde": {
       "types": "./types/dd0bq22g.d.ts",
@@ -46442,9 +46442,9 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/r/recon.vue"
     },
-    "./record-club": {
+    "./record-club-alt": {
       "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/r/record-club.vue"
+      "default": "./components/r/record-club-alt.vue"
     },
     "./record-you": {
       "types": "./types/dd0bq22g.d.ts",
@@ -55590,13 +55590,13 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/toqla.vue"
     },
+    "./tor-browser-alpha": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tor-browser-alpha.vue"
+    },
     "./torbrowser": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/torbrowser.vue"
-    },
-    "./torbrowser-alpha": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/t/torbrowser-alpha.vue"
     },
     "./torch": {
       "types": "./types/dd0bq22g.d.ts",
@@ -63182,6 +63182,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/mtofrance.vue"
     },
+    "./mullvadvpn": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mullvadvpn.vue"
+    },
     "./nekogotchi-alt2": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/n/nekogotchi-alt2.vue"
@@ -63294,6 +63298,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/r/reactiontraining.vue"
     },
+    "./record-club": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/record-club.vue"
+    },
     "./redditsync": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/r/redditsync.vue"
@@ -63381,6 +63389,10 @@
     "./todolist": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/todolist.vue"
+    },
+    "./torbrowser-alpha": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/torbrowser-alpha.vue"
     },
     "./tui-poland": {
       "types": "./types/dd0bq22g.d.ts",

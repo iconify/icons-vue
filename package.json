@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/vscode-icons",
   "type": "module",
-  "version": "1.0.72",
+  "version": "1.0.73",
   "homepage": "https://icon-sets.iconify.design/vscode-icons/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -489,6 +489,10 @@
     "./file-type-casc": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-casc.vue"
+    },
+    "./file-type-cassandra": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-type-cassandra.vue"
     },
     "./file-type-cddl": {
       "types": "./types/dd0bq22g.d.ts",
@@ -2046,6 +2050,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-light-cabal.vue"
     },
+    "./file-type-light-cassandra": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-type-light-cassandra.vue"
+    },
     "./file-type-light-checkov": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-light-checkov.vue"
@@ -2481,6 +2489,10 @@
     "./file-type-light-shaderlab": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-light-shaderlab.vue"
+    },
+    "./file-type-light-simple-icons": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-type-light-simple-icons.vue"
     },
     "./file-type-light-skill": {
       "types": "./types/dd0bq22g.d.ts",
@@ -4209,6 +4221,10 @@
     "./file-type-silverstripe": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-type-silverstripe.vue"
+    },
+    "./file-type-simple-icons": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-type-simple-icons.vue"
     },
     "./file-type-sino": {
       "types": "./types/dd0bq22g.d.ts",

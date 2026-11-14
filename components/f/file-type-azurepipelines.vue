@@ -4,42 +4,48 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":32,"height":32};
-const content = `<defs><linearGradient id="SVGmfRkbeCV" x1=".069" x2="1.069" y1="31.569" y2="31.569" gradientTransform="matrix(0 29.091 29.091 0 -902.364 -.545)" gradientUnits="userSpaceOnUse"><stop offset="0" class="vc--wpv5i"/><stop offset="1" class="stui2mbih"/></linearGradient><linearGradient id="SVGb1JdjVMV" x1=".069" x2="1.069" y1="31.194" y2="31.194" href="#SVGmfRkbeCV"/><mask id="SVGmWebYlEV" width="29.091" height="29.091" x="1.455" y="1.455" maskUnits="userSpaceOnUse"><path class="rg-irtbtl"/></mask></defs><g mask="url(#SVGmWebYlEV)"><path class="nib7xn_nn"/><path class="xxyl10b5k"/><path class="n8aroe0no"/><path class="hotpzkb3h"/><path class="qcpwf5jbg"/><path class="y6hacsbqt"/><path class="ynzpjdbfo"/><path class="ceego9b8r"/><path class="xh09pvbbq"/><g class="xyjtgccot"><path fill="url(#SVGmfRkbeCV)" class="amyph0bgb"/><path fill="url(#SVGb1JdjVMV)" class="z3zfb1pya"/></g></g>`;
+const content = `<g transform="translate(.6 .6)scale(.9625)"><linearGradient id="SVGZIm7rcDi" x2="0" y1="1.49" y2="30.58" gradientUnits="userSpaceOnUse"><stop class="z_4m6ybwr"/><stop offset="1" class="stui2mbih"/></linearGradient><mask id="SVGN83cfgaN" width="29.09" height="29.09" x="1.46" y="1.46" maskUnits="userSpaceOnUse" class="n1mjunbsu"><path id="SVGiaIvlDah" class="s-xgkcydk"/></mask><g mask="url(#SVGN83cfgaN)"><path class="xsxizabsn"/><path class="qmyh28lrk"/><path class="h5ibxcxqa"/><path class="f696cwbfg"/><g class="zcmc_fbkz"><path id="SVGM2yjcbKg" class="b4ljwjhzf"/><path id="SVGpRRG5bWB" class="yw1-9ubuw"/></g><use href="#SVGM2yjcbKg" class="htza9qbjy"/><path class="iv-cnqbqi"/><use href="#SVGpRRG5bWB" class="efvvmdqgo"/><use fill="url(#SVGZIm7rcDi)" href="#SVGiaIvlDah"/></g></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="vscode-icons:file-type-azurepipelines" /></template>
 <style>
-.amyph0bgb {
-  d: path("m5.7 20.974l1.464-1.565l1.819 1.819L7.5 22.707L9.293 24.5l1.479-1.479l1.828 1.831l-1.449 1.448l4.242 4.242h6.667a1.21 1.21 0 0 0 1.212-1.212v-9.7l6.195-4.129a2.42 2.42 0 0 0 1.078-2.016V2.667a1.21 1.21 0 0 0-1.212-1.212H18.509a2.42 2.42 0 0 0-2.016 1.078l-4.129 6.194h-9.7A1.21 1.21 0 0 0 1.455 9.94v6.666Z");
+.b4ljwjhzf {
+  d: path("m7.5 22.7l9.26-9.25l1.79 1.8l-9.26 9.25Z");
 }
 
-.ceego9b8r {
-  fill: var(--svg-color--0a44c2, #0a44c2);
-  d: path("M23.273 12.364a3.636 3.636 0 1 0-3.636-3.636a3.636 3.636 0 0 0 3.636 3.636");
-}
-
-.hotpzkb3h {
-  fill: var(--svg-color--2560e0, #2560e0);
-  d: path("M6.7 18.952a1.21 1.21 0 0 1-.151-1.53l9.94-14.889a2.42 2.42 0 0 1 2.016-1.078h10.828a1.21 1.21 0 0 1 1.212 1.212v10.825a2.42 2.42 0 0 1-1.078 2.016l-14.889 9.94a1.21 1.21 0 0 1-1.53-.151Z");
-}
-
-.n8aroe0no {
-  fill: var(--svg-color--062aa9, #062aa9);
-  d: path("M6 18.249L17.212 1.455h13.333v13.333L13.751 26Z");
-}
-
-.nib7xn_nn {
+.efvvmdqgo {
   fill: var(--svg-color--91b0f2, #91b0f2);
-  d: path("M1.455 23.273h2.181v5.091h5.091v2.182H1.455Z");
 }
 
-.qcpwf5jbg {
-  fill: var(--svg-color--0a44c2, #0a44c2);
-  d: path("m7.5 22.707l9.255-9.255l1.792 1.792L9.293 24.5Z");
+.f696cwbfg {
+  fill: var(--svg-color--2560e0, #2560e0);
+  d: path("M6.7 18.95a1.2 1.2 0 0 1-.15-1.53l9.94-14.89a2.4 2.4 0 0 1 2.02-1.07h10.82a1.2 1.2 0 0 1 1.22 1.2V13.5a2.4 2.4 0 0 1-1.08 2.02l-14.9 9.94a1.2 1.2 0 0 1-1.52-.15Z");
 }
 
-.rg-irtbtl {
+.h5ibxcxqa {
+  fill: var(--svg-color--062aa9, #062aa9);
+  d: path("m6 18.25l11.21-16.8h13.34V14.8L13.75 26Z");
+}
+
+.htza9qbjy {
+  fill: var(--svg-color--729af2, #729af2);
+}
+
+.iv-cnqbqi {
+  fill: var(--svg-color--4c80f0, #4c80f0);
+  d: path("m10.77 23.02l-1.79-1.8l7.78-7.77l1.79 1.8Z");
+}
+
+.n1mjunbsu {
   fill: var(--svg-color--fff, #fff);
-  d: path("m5.7 20.974l1.464-1.565l1.819 1.819L7.5 22.707L9.293 24.5l1.479-1.479l1.828 1.831l-1.449 1.448l4.242 4.242h6.667a1.21 1.21 0 0 0 1.212-1.212v-9.7l6.195-4.129a2.42 2.42 0 0 0 1.078-2.016V2.667a1.21 1.21 0 0 0-1.212-1.212H18.509a2.42 2.42 0 0 0-2.016 1.078l-4.129 6.194h-9.7A1.21 1.21 0 0 0 1.455 9.94v6.666Zm-2.064 2.299H1.455v7.273h7.272v-2.182H3.636Z");
+}
+
+.qmyh28lrk {
+  fill: var(--svg-color--0f46bd, #0f46bd);
+  d: path("M1.46 9.94v6.67l4.24 4.36l1.82-1.94l5.45 5.46l-1.82 1.81l4.24 4.24h6.67a1.2 1.2 0 0 0 1.21-1.21v-9.7l-10.9-10.9h-9.7a1.2 1.2 0 0 0-1.21 1.2");
+}
+
+.s-xgkcydk {
+  d: path("m5.7 20.97l1.46-1.56l1.82 1.82L7.5 22.7l1.8 1.79l1.47-1.48l1.83 1.83l-1.45 1.45l4.24 4.24h6.67a1.2 1.2 0 0 0 1.21-1.21v-9.7l6.2-4.13a2.4 2.4 0 0 0 1.07-2.01V2.67a1.2 1.2 0 0 0-1.2-1.22H18.5a2.4 2.4 0 0 0-2.02 1.08l-4.13 6.2h-9.7a1.2 1.2 0 0 0-1.2 1.21v6.67Zm-2.06 2.3H1.46v7.28h7.27v-2.19h-5.1Z");
 }
 
 .stui2mbih {
@@ -47,36 +53,22 @@ const content = `<defs><linearGradient id="SVGmfRkbeCV" x1=".069" x2="1.069" y1=
   stop-opacity: 0;
 }
 
-.vc--wpv5i {
-  stop-color: var(--svg-color--fff, #fff);
-}
-
-.xh09pvbbq {
+.xsxizabsn {
   fill: var(--svg-color--91b0f2, #91b0f2);
-  d: path("M23.273 12.364a3.636 3.636 0 1 0-3.636-3.636a3.636 3.636 0 0 0 3.636 3.636");
+  d: path("M1.46 23.27h2.18v5.1h5.09v2.18H1.46Z");
 }
 
-.xxyl10b5k {
-  fill: var(--svg-color--0f46bd, #0f46bd);
-  d: path("M1.455 9.939v6.667L5.7 20.974l1.815-1.944l5.455 5.455l-1.819 1.815l4.242 4.242h6.667a1.21 1.21 0 0 0 1.212-1.212v-9.7L12.364 8.727h-9.7a1.21 1.21 0 0 0-1.209 1.212");
+.yw1-9ubuw {
+  d: path("M23.27 12.36a3.64 3.64 0 1 0-3.63-3.63a3.64 3.64 0 0 0 3.63 3.63");
 }
 
-.xyjtgccot {
-  opacity: var(--svg-opacity--0-2, 0.2);
+.z_4m6ybwr {
+  stop-color: var(--svg-color--fff, #fff);
+  stop-opacity: 0.2;
 }
 
-.y6hacsbqt {
-  fill: var(--svg-color--729af2, #729af2);
-  d: path("m7.5 22.707l9.255-9.255l1.792 1.792L9.293 24.5Z");
-}
-
-.ynzpjdbfo {
-  fill: var(--svg-color--4c80f0, #4c80f0);
-  d: path("M10.772 23.02L8.98 21.228l7.776-7.775l1.792 1.792Z");
-}
-
-.z3zfb1pya {
-  d: path("M3.636 23.273H1.455v7.273h7.272v-2.182H3.636Z");
+.zcmc_fbkz {
+  fill: var(--svg-color--0a44c2, #0a44c2);
 }
 
 </style>

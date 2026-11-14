@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":32,"height":32};
-const content = `<g clip-path="url(#SVGkRCCwb7V)" transform="matrix(.8 0 0 .8 3.198 3.2)"><g clip-rule="evenodd" class="d2kvgvbvc"><use href="#SVG6avVPbbn"/><path fill="url(#SVGKTtrecCl)" class="ee5ewvbqv"/><path fill="url(#SVGQkIHBvLp)" class="ck--558kt"/><path fill="url(#SVGLR2Q5bvK)" class="e7hx-yxpp"/><path fill="url(#SVGCf5TPdDy)" class="tdrb0pucy"/><path fill="url(#SVGDfpUvdbi)" class="u1uv2096c"/></g><g clip-path="url(#SVGGccgBdRN)"><use href="#SVG6avVPbbn" clip-rule="evenodd" class="d2kvgvbvc"/></g></g><defs><linearGradient id="SVGP98eXdfG" x1="26.4" x2="28.8" y1="9.6" y2="15.01" gradientUnits="userSpaceOnUse"><stop offset="0" class="zov-qnpum"/><stop offset="1" class="z-wj5t2su"/></linearGradient><linearGradient id="SVGKTtrecCl" x1="26.8" x2="17.8" y1="9.4" y2="3.61" gradientUnits="userSpaceOnUse"><stop offset="0" class="olw50kbdx"/><stop offset="1" class="jwwb_xbwf"/></linearGradient><linearGradient id="SVGQkIHBvLp" x1="3.6" x2="5.4" y1="14.01" y2="24.81" gradientUnits="userSpaceOnUse"><stop offset="0" class="xh53xjbng"/><stop offset="1" class="zj-hb0bfs"/></linearGradient><linearGradient id="SVGLR2Q5bvK" x1="4.8" x2="14.4" y1="22.21" y2="29.21" gradientUnits="userSpaceOnUse"><stop offset="0" class="ykjfm24il"/><stop offset=".96" class="lhkv0xzfh"/><stop offset="1" class="lhkv0xzfh"/></linearGradient><linearGradient id="SVGCf5TPdDy" x1="28.4" x2="22.19" y1="22.18" y2="28.4" gradientUnits="userSpaceOnUse"><stop offset="0" class="anh21-u6s"/><stop offset="1" class="ykd9cjbnf"/></linearGradient><linearGradient id="SVGDfpUvdbi" x1="29.2" x2="30.63" y1="54.43" y2="54.28" gradientUnits="userSpaceOnUse"><stop offset="0" class="ykd9cjbnf"/><stop offset="1" class="ykd9cjbnf"/></linearGradient><clipPath id="SVGkRCCwb7V"><path class="wycjhibbk"/></clipPath><clipPath id="SVGGccgBdRN"><path class="ihvvy5wqv"/></clipPath><path id="SVG6avVPbbn" fill="url(#SVGP98eXdfG)" class="dp031hbps"/></defs>`;
+const content = `<linearGradient id="SVGv7eHAeTx" x1="26.4" x2="28.8" y1="9.6" y2="15" gradientUnits="userSpaceOnUse"><stop class="zov-qnpum"/><stop offset="1" class="z-wj5t2su"/></linearGradient><linearGradient id="SVGMQXW5cOZ" x1="26.8" x2="17.8" y1="9.4" y2="3.6" href="#SVGv7eHAeTx"><stop class="olw50kbdx"/><stop offset="1" class="jwwb_xbwf"/></linearGradient><linearGradient id="SVG7lPwrdsi" x1="3.6" x2="5.4" y1="14" y2="24.8" href="#SVGv7eHAeTx"><stop class="xh53xjbng"/><stop offset="1" class="zj-hb0bfs"/></linearGradient><linearGradient id="SVGyNYrcdaY" x1="4.8" x2="14.4" y1="22.2" y2="29.2" href="#SVGv7eHAeTx"><stop class="ykjfm24il"/><stop offset=".96" class="lhkv0xzfh"/></linearGradient><linearGradient id="SVGqiFWIddi" x1="28.4" x2="22.2" y1="22.2" y2="28.4" href="#SVGv7eHAeTx"><stop class="anh21-u6s"/><stop offset="1" class="ykd9cjbnf"/></linearGradient><clipPath id="SVGh4epsdyo"><path class="dqjyn2bld"/></clipPath><clipPath id="SVGseksXbjI"><path class="yheihnbxw"/></clipPath><g clip-path="url(#SVGseksXbjI)" transform="matrix(.8 0 0 .8 3.2 3.2)"><path id="SVGzMVxV9Tm" fill="url(#SVGv7eHAeTx)" class="ls2p0b3cp"/><path fill="url(#SVGMQXW5cOZ)" class="nf8bbrdma"/><path fill="url(#SVG7lPwrdsi)" class="qt86564ko"/><path fill="url(#SVGyNYrcdaY)" class="ul8whyjnk"/><path fill="url(#SVGqiFWIddi)" class="tdrb0pucy"/><path class="c69pngbaq"/><use clip-path="url(#SVGh4epsdyo)" href="#SVGzMVxV9Tm"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="vscode-icons:file-type-allure" /></template>
 <style>
@@ -12,28 +12,12 @@ const content = `<g clip-path="url(#SVGkRCCwb7V)" transform="matrix(.8 0 0 .8 3.
   stop-color: var(--svg-color--d97706, #d97706);
 }
 
-.ck--558kt {
-  d: path("M0 16A16 16 0 0 1 16 0a3.6 3.6 0 0 1 0 7.2a8.8 8.8 0 0 0-6.21 15.04a3.603 3.603 0 0 1-5.13 5.06A16.08 16.08 0 0 1 0 16");
+.c69pngbaq {
+  fill: var(--svg-color--fbbf24, #fbbf24);
+  d: path("M28.38 12.4a3.6 3.6 0 0 1 3.6 3.6v12.4a3.6 3.6 0 1 1-7.2 0V16a3.6 3.6 0 0 1 3.6-3.6");
 }
 
-.d2kvgvbvc {
-  fill-rule: evenodd;
-}
-
-.dp031hbps {
-  d: path("M22.23 4.66a3.6 3.6 0 0 1 5.1.04A16.08 16.08 0 0 1 31.97 16a3.6 3.6 0 1 1-7.2 0c0-2.4-.98-4.61-2.58-6.24a3.6 3.6 0 0 1 .03-5.1z");
-}
-
-.e7hx-yxpp {
-  d: path("M4.66 22.24a3.6 3.6 0 0 1 5.1-.03a8.87 8.87 0 0 0 6.23 2.59a3.6 3.6 0 0 1 0 7.2c-4.4 0-8.4-1.8-11.3-4.66a3.6 3.6 0 0 1-.03-5.1");
-}
-
-.ee5ewvbqv {
-  d: path("M12.4 3.6A3.6 3.6 0 0 1 16 0c4.4 0 8.4 1.8 11.29 4.66a3.603 3.603 0 0 1-5.06 5.13A8.87 8.87 0 0 0 16 7.2a3.6 3.6 0 0 1-3.6-3.6");
-}
-
-.ihvvy5wqv {
-  fill: var(--svg-color--fff, #fff);
+.dqjyn2bld {
   d: path("M24.8 12H32v8h-7.2z");
 }
 
@@ -45,25 +29,36 @@ const content = `<g clip-path="url(#SVGkRCCwb7V)" transform="matrix(.8 0 0 .8 3.
   stop-color: var(--svg-color--64748b, #64748b);
 }
 
+.ls2p0b3cp {
+  d: path("M22.23 4.66a3.6 3.6 0 0 1 5.1.04A16 16 0 0 1 31.97 16a3.6 3.6 0 1 1-7.2 0a9 9 0 0 0-2.58-6.24a3.6 3.6 0 0 1 .03-5.1z");
+}
+
+.nf8bbrdma {
+  d: path("M12.4 3.6A3.6 3.6 0 0 1 16 0c4.4 0 8.4 1.8 11.29 4.66a3.6 3.6 0 0 1-5.06 5.13A9 9 0 0 0 16 7.2a3.6 3.6 0 0 1-3.6-3.6");
+}
+
 .olw50kbdx {
   stop-color: var(--svg-color--ef4444, #ef4444);
+}
+
+.qt86564ko {
+  d: path("M0 16A16 16 0 0 1 16 0a3.6 3.6 0 0 1 0 7.2a8.8 8.8 0 0 0-6.21 15.04a3.6 3.6 0 0 1-5.13 5.06A16 16 0 0 1 0 16");
 }
 
 .tdrb0pucy {
   d: path("M28.38 12.4a3.6 3.6 0 0 1 3.6 3.6A16 16 0 0 1 16 32a3.6 3.6 0 0 1 0-7.2a8.8 8.8 0 0 0 8.8-8.8a3.6 3.6 0 0 1 3.6-3.6z");
 }
 
-.u1uv2096c {
-  d: path("M28.38 12.4a3.6 3.6 0 0 1 3.6 3.6v12.4a3.6 3.6 0 1 1-7.2 0V16a3.6 3.6 0 0 1 3.6-3.6");
-}
-
-.wycjhibbk {
-  fill: var(--svg-color--fff, #fff);
-  d: path("M0 0h32v32H0z");
+.ul8whyjnk {
+  d: path("M4.66 22.24a3.6 3.6 0 0 1 5.1-.03a9 9 0 0 0 6.23 2.59a3.6 3.6 0 0 1 0 7.2c-4.4 0-8.4-1.8-11.3-4.66a3.6 3.6 0 0 1-.03-5.1");
 }
 
 .xh53xjbng {
   stop-color: var(--svg-color--22c55e, #22c55e);
+}
+
+.yheihnbxw {
+  d: path("M0 0h32v32H0z");
 }
 
 .ykd9cjbnf {

@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":32,"height":32};
-const content = `<defs><radialGradient id="SVGfu08OdHs" cx="22.737" cy="22.737" r="3.628" gradientTransform="rotate(-81.5 21.8 23.545)scale(1 1.071)" gradientUnits="userSpaceOnUse"><stop offset="0" class="u-g7kcrga"/><stop offset=".5" class="if4itl3ut"/><stop offset="1" class="a16vb7bpj"/></radialGradient><radialGradient id="SVGzAKlmcFE" cx="11.336" cy="11.336" r="5.201" gradientTransform="rotate(-81.5 10.869 11.738)scale(1 1.071)" href="#SVGfu08OdHs"/></defs><path class="m2ht3t5yz"/><path class="q0bdoobvj"/><path class="zucsho8mm"/><path fill="url(#SVGfu08OdHs)" class="bry842bwf"/><path class="gv6anab5q"/><path class="rzh__eb3d"/><path class="f_2giy89o"/><path class="ocnt8gbok"/><path fill="url(#SVGzAKlmcFE)" class="dorlrqj1a"/><path class="t-zbmxbwy"/>`;
+const content = `<defs><radialGradient id="SVGy1pJOGBU" cx="22.74" cy="22.74" r="3.63" gradientTransform="rotate(-81.5 21.8 23.55)scale(1 1.071)" gradientUnits="userSpaceOnUse"><stop offset="0" class="u-g7kcrga"/><stop offset=".5" class="if4itl3ut"/><stop offset="1" class="a16vb7bpj"/></radialGradient><radialGradient id="SVG0EwDaceR" cx="11.34" cy="11.34" r="5.2" gradientTransform="rotate(-81.5 10.87 11.74)scale(1 1.071)" href="#SVGy1pJOGBU"/></defs><path class="egm_4pyhf"/><g class="ft5dv1b6b"><g class="z9i2y7bkf"><circle class="jzxsgulpx"/><circle class="l3e092whm"/></g><g class="k-rlgpaxz"><circle class="xl8ylw7qf"/><circle class="jbh9_khau"/></g><circle stroke="url(#SVGy1pJOGBU)" class="b0_obdc-p"/><circle stroke="url(#SVG0EwDaceR)" class="lf63rv2rb"/><g class="k-rlgpaxz"><circle class="c69l8rvju"/><circle class="vvpa_xwyj"/></g></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="vscode-icons:file-type-bat" /></template>
 <style>
@@ -13,22 +13,27 @@ const content = `<defs><radialGradient id="SVGfu08OdHs" cx="22.737" cy="22.737" 
   stop-opacity: 0.84;
 }
 
-.bry842bwf {
-  d: path("M22.674 19.11a3.628 3.628 0 1 0 3.69 3.564a3.63 3.63 0 0 0-3.69-3.564m.1 5.7a2.073 2.073 0 1 1 2.037-2.11a2.073 2.073 0 0 1-2.037 2.11");
+.b0_obdc-p {
+  cx: 22.74px;
+  cy: 22.74px;
+  r: 2.85px;
+  stroke-width: var(--svg-stroke-width--1-55px, 1.55px);
 }
 
-.dorlrqj1a {
-  d: path("M11.245 6.136a5.2 5.2 0 1 0 5.29 5.109a5.2 5.2 0 0 0-5.29-5.109m.14 8.036a2.837 2.837 0 1 1 2.787-2.886a2.837 2.837 0 0 1-2.786 2.886Z");
+.c69l8rvju {
+  cx: 22.74px;
+  cy: 22.74px;
+  r: 1.91px;
+  stroke-width: var(--svg-stroke-width--0-32px, 0.32px);
 }
 
-.f_2giy89o {
+.egm_4pyhf {
   fill: var(--svg-color--silver, silver);
-  d: path("M11.467 18.831a7.5 7.5 0 1 1 5.261-2.288a7.47 7.47 0 0 1-5.261 2.288m2.682-7.544a2.814 2.814 0 1 0-.789 2a2.8 2.8 0 0 0 .789-2");
+  d: path("m24.81 27.32l2.4-2.41l1.21 2.41l-1.2 1.2zm-3.85.12h3.4l-.84 2.55h-1.7zm-2.8-2.63l2.4 2.4l-2.4 1.2l-1.2-1.2zm-.12-3.85v3.4l-2.55-.85v-1.7zm2.63-2.8l-2.41 2.4l-1.2-2.4l1.2-1.2zm3.84-.13h-3.4l.85-2.55h1.7zm2.8 2.63l-2.4-2.4l2.4-1.2l1.2 1.2zm.14 3.85v-3.4l2.55.85v1.7zM6.57 16.98l2.27 1.26l-1.47 1.57l-1.36-.76zm-2.18-3.15l1.33 2.23l-2.05.63l-.8-1.34zm-.3-3.8l.02 2.6l-2.09-.49l-.03-1.56zm1.6-3.47L4.44 8.84L2.87 7.37l.75-1.36zm3.15-2.18L6.6 5.72l-.63-2.05l1.34-.8zm3.81-.32l-2.6.05l.48-2.09l1.56-.03zm3.46 1.63l-2.28-1.26l1.47-1.56l1.36.75zm2.18 3.14l-1.34-2.22L19 5.98l.8 1.34zm.32 3.82l-.05-2.6l2.1.48l.02 1.56zm-1.63 3.46l1.26-2.27l1.57 1.46l-.76 1.36zm-3.14 2.18l2.23-1.34l.62 2.05l-1.33.8zm-3.81.32l2.6-.05l-.5 2.1l-1.55.02z");
 }
 
-.gv6anab5q {
-  fill: var(--svg-color--a9a9a9, #a9a9a9);
-  d: path("M22.7 20.665a2.073 2.073 0 1 0 2.11 2.035a2.073 2.073 0 0 0-2.11-2.035m.067 3.826a1.754 1.754 0 1 1 1.723-1.784a1.754 1.754 0 0 1-1.722 1.784Z");
+.ft5dv1b6b {
+  fill: none;
 }
 
 .if4itl3ut {
@@ -36,38 +41,58 @@ const content = `<defs><radialGradient id="SVGfu08OdHs" cx="22.737" cy="22.737" 
   stop-opacity: 0.74;
 }
 
-.m2ht3t5yz {
-  fill: var(--svg-color--silver, silver);
-  d: path("m24.811 27.318l2.404-2.404l1.202 2.404l-1.202 1.202zm-3.847.125h3.401l-.85 2.55h-1.7zm-2.807-2.632l2.404 2.404l-2.404 1.202l-1.203-1.202zm-.125-3.847v3.401l-2.55-.85v-1.7zm2.632-2.807l-2.404 2.404l-1.202-2.404l1.202-1.203zm3.846-.125h-3.4l.85-2.55h1.7zm2.808 2.632l-2.404-2.404l2.404-1.202l1.202 1.202zm.125 3.846v-3.4l2.55.85v1.7z");
+.jbh9_khau {
+  cx: 11.34px;
+  cy: 11.34px;
+  r: 6.22px;
+  stroke-width: var(--svg-stroke-width--1-04px, 1.04px);
 }
 
-.ocnt8gbok {
-  fill: var(--svg-color--a9a9a9, #a9a9a9);
-  d: path("M11.218 4.6a6.737 6.737 0 1 0 6.854 6.619A6.737 6.737 0 0 0 11.218 4.6m.217 12.436a5.7 5.7 0 1 1 5.6-5.8a5.7 5.7 0 0 1-5.599 5.8Z");
+.jzxsgulpx {
+  cx: 22.74px;
+  cy: 22.74px;
+  r: 3.47px;
+  stroke-width: var(--svg-stroke-width--3-14px, 3.14px);
 }
 
-.q0bdoobvj {
-  fill: var(--svg-color--silver, silver);
-  d: path("M27.776 22.737a5.039 5.039 0 1 1-1.476-3.562a5.02 5.02 0 0 1 1.476 3.562m-5.039-1.9a1.9 1.9 0 1 0 1.344.557a1.9 1.9 0 0 0-1.344-.557");
+.k-rlgpaxz {
+  stroke: var(--svg-color--a9a9a9, #a9a9a9);
 }
 
-.rzh__eb3d {
-  fill: var(--svg-color--silver, silver);
-  d: path("m6.563 16.976l2.275 1.262l-1.464 1.568l-1.365-.757zm-2.181-3.142l1.34 2.23l-2.052.626l-.804-1.338zm-.317-3.811l.045 2.601l-2.09-.484l-.027-1.561zm1.631-3.46L4.434 8.838L2.866 7.374l.757-1.365zm3.142-2.181l-2.23 1.34l-.626-2.052l1.338-.804zm3.812-.317l-2.602.045l.484-2.09l1.561-.027zm3.459 1.631l-2.275-1.262l1.464-1.568l1.365.757zm2.181 3.142l-1.34-2.23l2.052-.626l.804 1.338zm.317 3.812l-.045-2.602l2.09.484l.027 1.561zm-1.631 3.459l1.262-2.275l1.568 1.464l-.757 1.365zm-3.142 2.181l2.23-1.34l.626 2.052l-1.338.804zm-3.811.317l2.601-.045l-.484 2.09l-1.561.027z");
+.l3e092whm {
+  cx: 11.34px;
+  cy: 11.34px;
+  r: 5.16px;
+  stroke-width: var(--svg-stroke-width--4-69px, 4.69px);
 }
 
-.t-zbmxbwy {
-  fill: var(--svg-color--a9a9a9, #a9a9a9);
-  d: path("M11.282 8.227a3.109 3.109 0 1 0 3.163 3.055a3.11 3.11 0 0 0-3.163-3.055m.1 5.74a2.631 2.631 0 1 1 2.585-2.677a2.63 2.63 0 0 1-2.585 2.677");
+.lf63rv2rb {
+  cx: 11.34px;
+  cy: 11.34px;
+  r: 4.02px;
+  stroke-width: var(--svg-stroke-width--2-36px, 2.36px);
 }
 
 .u-g7kcrga {
   stop-color: var(--svg-color--bedcdc, #bedcdc);
 }
 
-.zucsho8mm {
-  fill: var(--svg-color--a9a9a9, #a9a9a9);
-  d: path("M22.656 18.074a4.664 4.664 0 1 0 4.744 4.582a4.664 4.664 0 0 0-4.744-4.582m.15 8.61a3.947 3.947 0 1 1 3.877-4.015a3.947 3.947 0 0 1-3.877 4.015");
+.vvpa_xwyj {
+  cx: 11.34px;
+  cy: 11.34px;
+  r: 2.87px;
+  stroke-width: var(--svg-stroke-width--0-48px, 0.48px);
+}
+
+.xl8ylw7qf {
+  cx: 22.74px;
+  cy: 22.74px;
+  r: 4.31px;
+  stroke-width: var(--svg-stroke-width--0-72px, 0.72px);
+}
+
+.z9i2y7bkf {
+  stroke: var(--svg-color--silver, silver);
 }
 
 </style>

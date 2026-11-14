@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/thesvg-color",
   "type": "module",
-  "version": "1.0.26",
+  "version": "1.0.27",
   "homepage": "https://icon-sets.iconify.design/thesvg-color/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -8142,6 +8142,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/hyperdx.vue"
     },
+    "./hyperframes": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hyperframes.vue"
+    },
     "./hyperskill": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/hyperskill.vue"
@@ -10253,6 +10257,10 @@
     "./localxpose": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/l/localxpose.vue"
+    },
+    "./locatorjs": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/locatorjs.vue"
     },
     "./lockheed-martin": {
       "types": "./types/dd0bq22g.d.ts",
@@ -12746,6 +12754,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/o/octoprint.vue"
     },
+    "./octopus": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/octopus.vue"
+    },
     "./octopus-deploy": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/o/octopus-deploy.vue"
@@ -12834,6 +12846,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/o/omarchy.vue"
     },
+    "./omniroute": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/omniroute.vue"
+    },
     "./onedev": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/o/onedev.vue"
@@ -12901,6 +12917,10 @@
     "./open-containers-initiative": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/o/open-containers-initiative.vue"
+    },
+    "./open-design": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/open-design.vue"
     },
     "./open-notebook": {
       "types": "./types/dd0bq22g.d.ts",
@@ -19305,6 +19325,10 @@
     "./vegas": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/v/vegas.vue"
+    },
+    "./vellum": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vellum.vue"
     },
     "./velocity": {
       "types": "./types/dd0bq22g.d.ts",

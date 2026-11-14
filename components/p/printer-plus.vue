@@ -1,0 +1,20 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="wga-1tqpb"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="uix-sharp:printer-plus" /></template>
+<style>
+.wga-1tqpb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-miterlimit: 3.5;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M12.2 17H2.5V8h19v7.2M6.5 8V3.5h11V8M6 11.5h.01M18 15v6m-3-3h6");
+}
+
+</style>

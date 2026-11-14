@@ -1,0 +1,20 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="oun3ipb8f"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="uix-sharp:tram-line" /></template>
+<style>
+.oun3ipb8f {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-miterlimit: 3.5;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("m5 21.5l4.5-19m9.5 19l-4.5-19M3.5 18h17m-15-6h13M7 6h10");
+}
+
+</style>

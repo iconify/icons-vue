@@ -1,0 +1,20 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="caz4-vn1y"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="uix-sharp:map-grid" /></template>
+<style>
+.caz4-vn1y {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-miterlimit: 3.5;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M3 5.5L9 3l6 2.5L21 3v15.5L15 21l-6-2.5L3 21ZM9 3v15.5m6-13V21M3 9.5h18m-18 5h18");
+}
+
+</style>

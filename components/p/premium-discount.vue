@@ -1,0 +1,20 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="zmtri2tnw"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="uix-sharp:premium-discount" /></template>
+<style>
+.zmtri2tnw {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-miterlimit: 3.5;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M3.5 12V3.5H12l8.5 8.5l-8.5 8.5ZM8 8h.01m6.49 2.5l-4 4M11 11h.01M14 14h.01");
+}
+
+</style>

@@ -1,0 +1,27 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ulnmmdpxh"><path class="s-jxs-0ml"/><path class="h1f8vib_x"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="uix-sharp:insurance-hand-heart" /></template>
+<style>
+.h1f8vib_x {
+  d: path("m14.5 14.5l3.75-2c.85-.45 1.85-.1 2.25.75c.2.7-.15 1.45-.75 1.75l-5.5 3.75c-.75.5-1.65.75-2.5.75H2.5M12 10S8 7.75 8 5.25C8 4 9 3 10.25 3C11 3 11.6 3.4 12 4c.4-.6 1-1 1.75-1C15 3 16 4 16 5.25c0 2.5-4 4.75-4 4.75Z");
+}
+
+.s-jxs-0ml {
+  d: path("M2.5 13H6c1.5 0 2.5-.75 4-.75h3c.8 0 1.5.65 1.5 1.5s-.7 1.5-1.5 1.5h-2.5");
+}
+
+.ulnmmdpxh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-miterlimit: 3.5;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+</style>

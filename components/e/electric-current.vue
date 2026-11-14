@@ -1,0 +1,27 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ulnmmdpxh"><path class="irbudsb2w"/><path class="hvexjkbco"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="uix-sharp:electric-current" /></template>
+<style>
+.hvexjkbco {
+  d: path("M2.25 15.25L4.5 13l2.25 2.25m10.5-4.5L19.5 13l2.25-2.25");
+}
+
+.irbudsb2w {
+  d: path("M10.5 5.5h-6v15h15v-15h-6m-3-2.5v5m3-3.75v2.5");
+}
+
+.ulnmmdpxh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-miterlimit: 3.5;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+</style>

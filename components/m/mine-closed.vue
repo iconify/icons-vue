@@ -1,0 +1,27 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ulnmmdpxh"><path class="tvwcfmb6v"/><path class="sye78vbzq"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="uix-sharp:mine-closed" /></template>
+<style>
+.sye78vbzq {
+  d: path("M16.25 17v-1a1.75 1.75 0 0 1 3.5 0v1");
+}
+
+.tvwcfmb6v {
+  d: path("M4 21.5V12q0-.196.01-.393q.009-.196.029-.391q.019-.196.048-.39q.028-.194.067-.387q.038-.192.086-.383q.047-.19.104-.378t.124-.373t.141-.366t.159-.359t.177-.351t.193-.342t.21-.332t.226-.321t.242-.309t.256-.297q.132-.146.271-.285t.285-.271q.145-.131.297-.256t.309-.242q.158-.117.321-.226q.164-.109.332-.21q.169-.101.342-.193q.173-.093.351-.177q.177-.084.359-.159q.181-.075.366-.141q.185-.067.373-.124t.378-.104t.383-.086t.387-.067t.39-.048t.391-.029Q11.804 4 12 4q.195 0 .39.01q.196.009.39.028t.388.048q.193.028.385.066q.191.038.381.085q.189.047.376.104t.371.122t.365.14q.181.074.357.157q.177.083.35.175q.172.091.34.191t.331.208q.162.108.32.224q.157.116.308.239q.152.124.297.254q.145.131.284.269q.139.137.271.281t.256.295q.125.15.242.307q.117.156.226.318q.11.162.211.329t.195.338q.093.172.177.348q.085.176.161.356t.143.364q.067.183.125.37q.058.186.106.375q.049.19.089.381t.069.384q.03.193.051.387q.021.195.032.39t.013.39M8 21.5V6m4 15.5V4m4 7.9V6M4 13h10.6m.4 4h6v4.5h-6Z");
+}
+
+.ulnmmdpxh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-miterlimit: 3.5;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+</style>

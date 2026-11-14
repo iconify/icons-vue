@@ -1,0 +1,32 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ulnmmdpxh"><path class="fzilfkcey"/><path class="jkhqnu_hy"/><path class="pv0-gyb7x"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="uix-sharp:doula" /></template>
+<style>
+.fzilfkcey {
+  d: path("M11.472 20.5H4c-.6 0-1-.4-1-1c0-3.25 3.25-5.5 7.5-5.5c.931 0 1.814.108 2.625.311M6.5 7a4 4 0 1 0 8 0a4 4 0 1 0-8 0Z");
+}
+
+.jkhqnu_hy {
+  fill: currentColor;
+  d: path("M18 18.25S15.75 17 15.75 15.5c0-.75.5-1.5 1.25-1.5c.5 0 .75.25 1 .5c.25-.25.5-.5 1-.5c.75 0 1.25.75 1.25 1.5c0 1.5-2.25 2.75-2.25 2.75Z");
+}
+
+.pv0-gyb7x {
+  d: path("m14.25 19.25l2.25 2h3l2.25-2");
+}
+
+.ulnmmdpxh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-miterlimit: 3.5;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+</style>

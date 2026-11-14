@@ -1,0 +1,20 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="pjh7dibar"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="uix-sharp:beaufort-scale" /></template>
+<style>
+.pjh7dibar {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-miterlimit: 3.5;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M3.5 3.5v17M6.5 7H12a1.5 1.5 0 1 0-1.5-1.5m-4 7.5H16a1.5 1.5 0 1 0-1.5-1.5m-8 7.5h13a1.5 1.5 0 1 0-1.5-1.5");
+}
+
+</style>

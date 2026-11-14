@@ -1,0 +1,27 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ulnmmdpxh"><path class="c_a3v3r7n"/><path class="lfgsgcc7i"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="uix-sharp:pie-chart-class" /></template>
+<style>
+.c_a3v3r7n {
+  d: path("M12 3.5a8.5 8.5 0 1 0 8.5 8.5H12Z");
+}
+
+.lfgsgcc7i {
+  d: path("M15 2.75A9 9 0 0 1 21.25 9H15Z");
+}
+
+.ulnmmdpxh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-miterlimit: 3.5;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+</style>

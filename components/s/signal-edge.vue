@@ -1,0 +1,28 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ulnmmdpxh"><path class="x6zfq7bwe"/><path class="hcagkdbmg"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="uix-sharp:signal-edge" /></template>
+<style>
+.hcagkdbmg {
+  d: path("M13.5 7.5H16v13h-2.5Zm5.25-4h2.5v17h-2.5Z");
+}
+
+.ulnmmdpxh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-miterlimit: 3.5;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.x6zfq7bwe {
+  fill: currentColor;
+  d: path("M3 15.5h2.5v5H3Zm5.25-4h2.5v9h-2.5Z");
+}
+
+</style>

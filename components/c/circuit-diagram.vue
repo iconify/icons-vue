@@ -1,0 +1,20 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="s6tywkbrn"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="uix-sharp:circuit-diagram" /></template>
+<style>
+.s6tywkbrn {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-miterlimit: 3.5;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M10.75 6H4v12h3.5l1.25-2.5l2.25 5l2-5l2.25 5L16.5 18H20V6h-6.75m-2.5-3v6m2.5-4.5v3");
+}
+
+</style>

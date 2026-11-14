@@ -1,0 +1,20 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="jry3d9gnm"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="uix-sharp:cyber-insurance" /></template>
+<style>
+.jry3d9gnm {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-miterlimit: 3.5;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M12.2 15.5H4.5v-11h15V12m-17 6.5h9.7m6.05-4l3.25 1.25V18c0 1.9-1.4 3.1-3.25 3.75C16.4 21.1 15 19.9 15 18v-2.25Z");
+}
+
+</style>

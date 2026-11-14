@@ -1,0 +1,31 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ulnmmdpxh"><path class="v5kq1vbdt"/><path class="ngobb5bsi"/><path class="j3r4kdqko"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="uix-sharp:bird-biology" /></template>
+<style>
+.j3r4kdqko {
+  d: path("M21.5 14.5c0 3.75-5 3.75-5 7.5m.25-6.25h4.5m-4.5 5h4.5");
+}
+
+.ngobb5bsi {
+  d: path("M16.5 14.5c0 3.75 5 3.75 5 7.5");
+}
+
+.ulnmmdpxh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-miterlimit: 3.5;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.v5kq1vbdt {
+  d: path("M13.969 16.488a9 9 0 0 1-.469.012C9 16.5 6.5 14 6 10L3 8l2.5-1c.5-2.5 2.5-4 5-4s4 2 4 4.5V9c2.5 1.5 5 1.75 7 1.5q-.326.652-.671 1.234M10 16v4.5m-.5-14h.01");
+}
+
+</style>

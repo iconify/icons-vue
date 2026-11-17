@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/selfhst",
   "type": "module",
-  "version": "1.0.31",
+  "version": "1.0.32",
   "homepage": "https://icon-sets.iconify.design/selfhst/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "CC-BY-4.0",
@@ -1762,6 +1762,30 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/audiodeck-light.vue"
     },
+    "./audiosilo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/audiosilo.vue"
+    },
+    "./audiosilo-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/audiosilo-dark.vue"
+    },
+    "./audiosilo-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/audiosilo-light.vue"
+    },
+    "./auditorr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/auditorr.vue"
+    },
+    "./auditorr-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/auditorr-dark.vue"
+    },
+    "./auditorr-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/auditorr-light.vue"
+    },
     "./aureus": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/aureus.vue"
@@ -2918,6 +2942,18 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/caddymanager-light.vue"
     },
+    "./cadenza": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cadenza.vue"
+    },
+    "./cadenza-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cadenza-dark.vue"
+    },
+    "./cadenza-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cadenza-light.vue"
+    },
     "./caderno": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/caderno.vue"
@@ -3409,6 +3445,18 @@
     "./chili3d-light": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/chili3d-light.vue"
+    },
+    "./chirpstack": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chirpstack.vue"
+    },
+    "./chirpstack-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chirpstack-dark.vue"
+    },
+    "./chirpstack-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chirpstack-light.vue"
     },
     "./chirpy": {
       "types": "./types/dd0bq22g.d.ts",
@@ -5662,6 +5710,18 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/doppler-light.vue"
     },
+    "./doska": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/doska.vue"
+    },
+    "./doska-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/doska-dark.vue"
+    },
+    "./doska-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/doska-light.vue"
+    },
     "./dosvault": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/dosvault.vue"
@@ -6957,6 +7017,18 @@
     "./ferron-light": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/ferron-light.vue"
+    },
+    "./ffxf": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/ffxf.vue"
+    },
+    "./ffxf-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/ffxf-dark.vue"
+    },
+    "./ffxf-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/ffxf-light.vue"
     },
     "./fhem": {
       "types": "./types/dd0bq22g.d.ts",
@@ -10082,6 +10154,18 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/hollo-light.vue"
     },
+    "./holyarrs": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/holyarrs.vue"
+    },
+    "./holyarrs-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/holyarrs-dark.vue"
+    },
+    "./holyarrs-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/holyarrs-light.vue"
+    },
     "./homarr": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/homarr.vue"
@@ -12661,6 +12745,18 @@
     "./librarything-light": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/l/librarything-light.vue"
+    },
+    "./libre-closet": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/libre-closet.vue"
+    },
+    "./libre-closet-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/libre-closet-dark.vue"
+    },
+    "./libre-closet-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/libre-closet-light.vue"
     },
     "./librechat": {
       "types": "./types/dd0bq22g.d.ts",
@@ -15822,6 +15918,18 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/mysterium-node-light.vue"
     },
+    "./mytview": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mytview.vue"
+    },
+    "./mytview-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mytview-dark.vue"
+    },
+    "./mytview-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mytview-light.vue"
+    },
     "./n8n": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/n/n8n.vue"
@@ -18601,6 +18709,18 @@
     "./overseerr-light": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/o/overseerr-light.vue"
+    },
+    "./overtchat": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/overtchat.vue"
+    },
+    "./overtchat-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/overtchat-dark.vue"
+    },
+    "./overtchat-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/overtchat-light.vue"
     },
     "./ovh": {
       "types": "./types/dd0bq22g.d.ts",
@@ -21782,6 +21902,18 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/r/raspberry-pi-light.vue"
     },
+    "./rasputin-management": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rasputin-management.vue"
+    },
+    "./rasputin-management-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rasputin-management-dark.vue"
+    },
+    "./rasputin-management-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rasputin-management-light.vue"
+    },
     "./rauthy": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/r/rauthy.vue"
@@ -23222,6 +23354,18 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/seagate-light.vue"
     },
+    "./seamside": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/seamside.vue"
+    },
+    "./seamside-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/seamside-dark.vue"
+    },
+    "./seamside-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/seamside-light.vue"
+    },
     "./searxng": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/searxng.vue"
@@ -24181,6 +24325,18 @@
     "./solectrus-light": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/solectrus-light.vue"
+    },
+    "./solidcraft": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/solidcraft.vue"
+    },
+    "./solidcraft-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/solidcraft-dark.vue"
+    },
+    "./solidcraft-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/solidcraft-light.vue"
     },
     "./solidping": {
       "types": "./types/dd0bq22g.d.ts",
@@ -25642,6 +25798,18 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/termix-light.vue"
     },
+    "./terrakata": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/terrakata.vue"
+    },
+    "./terrakata-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/terrakata-dark.vue"
+    },
+    "./terrakata-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/terrakata-light.vue"
+    },
     "./teslamate": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/teslamate.vue"
@@ -26146,6 +26314,18 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/tor-light.vue"
     },
+    "./torsher": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/torsher.vue"
+    },
+    "./torsher-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/torsher-dark.vue"
+    },
+    "./torsher-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/torsher-light.vue"
+    },
     "./touitomamout": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/touitomamout.vue"
@@ -26533,6 +26713,18 @@
     "./tsdproxy-light": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/tsdproxy-light.vue"
+    },
+    "./tubehaus": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tubehaus.vue"
+    },
+    "./tubehaus-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tubehaus-dark.vue"
+    },
+    "./tubehaus-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tubehaus-light.vue"
     },
     "./tubesync": {
       "types": "./types/dd0bq22g.d.ts",
@@ -27041,6 +27233,18 @@
     "./unregistry-light": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/u/unregistry-light.vue"
+    },
+    "./upload-assistant": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/upload-assistant.vue"
+    },
+    "./upload-assistant-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/upload-assistant-dark.vue"
+    },
+    "./upload-assistant-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/upload-assistant-light.vue"
     },
     "./ups": {
       "types": "./types/dd0bq22g.d.ts",
@@ -27769,6 +27973,18 @@
     "./voxmedia-coral-light": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/v/voxmedia-coral-light.vue"
+    },
+    "./vpn-sentinel": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vpn-sentinel.vue"
+    },
+    "./vpn-sentinel-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vpn-sentinel-dark.vue"
+    },
+    "./vpn-sentinel-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vpn-sentinel-light.vue"
     },
     "./vscodium": {
       "types": "./types/dd0bq22g.d.ts",

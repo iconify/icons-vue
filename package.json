@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/codex",
   "type": "module",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "homepage": "https://icon-sets.iconify.design/codex/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -33,6 +33,10 @@
     "./align-right": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/align-right.vue"
+    },
+    "./angry": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/angry.vue"
     },
     "./application": {
       "types": "./types/dd0bq22g.d.ts",
@@ -294,6 +298,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/drag.vue"
     },
+    "./earth": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/earth.vue"
+    },
     "./error": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/e/error.vue"
@@ -334,6 +342,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/flag.vue"
     },
+    "./flask": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/flask.vue"
+    },
     "./folder": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/folder.vue"
@@ -353,6 +365,10 @@
     "./globe": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/globe.vue"
+    },
+    "./grab": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/grab.vue"
     },
     "./grid-view": {
       "types": "./types/dd0bq22g.d.ts",
@@ -381,6 +397,10 @@
     "./h6": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/h6.vue"
+    },
+    "./happy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/happy.vue"
     },
     "./hash": {
       "types": "./types/dd0bq22g.d.ts",
@@ -538,6 +558,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/mute.vue"
     },
+    "./neutral": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/neutral.vue"
+    },
     "./paperclip": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/paperclip.vue"
@@ -582,6 +606,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/printer.vue"
     },
+    "./qr-code": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/qr-code.vue"
+    },
     "./question": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/q/question.vue"
@@ -602,6 +630,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/r/remove-background.vue"
     },
+    "./rename": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rename.vue"
+    },
     "./repeat": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/r/repeat.vue"
@@ -613,6 +645,10 @@
     "./rocket": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/r/rocket.vue"
+    },
+    "./sad": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/sad.vue"
     },
     "./save": {
       "types": "./types/dd0bq22g.d.ts",

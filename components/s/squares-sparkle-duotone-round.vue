@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="m3qlckbfz"/><path class="zodoaqbjn"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="jhpma3bmo"/><path class="zodoaqbjn"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:squares-sparkle-duotone-round" /></template>
 <style>
@@ -12,10 +12,10 @@ const content = `<g class="ft5dv1b6b"><path class="m3qlckbfz"/><path class="zodo
   fill: none;
 }
 
-.m3qlckbfz {
+.jhpma3bmo {
   fill: currentColor;
   fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M2 5a3 3 0 0 1 3-3h2a3 3 0 0 1 3 3v2a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3Zm16-2c.002 1.005 1.995 2.998 3 3c-1.005.002-2.998 1.995-3 3c-.002-1.005-1.995-2.998-3-3c1.005-.002 2.998-1.995 3-3M2 17a3 3 0 0 1 3-3h2a3 3 0 0 1 3 3v2a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3Zm12 0a3 3 0 0 1 3-3h2a3 3 0 0 1 3 3v2a3 3 0 0 1-3 3h-2a3 3 0 0 1-3-3Z");
+  d: path("M5 3h2a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2m13 0c.002 1.005 1.995 2.998 3 3c-1.005.002-2.998 1.995-3 3c-.002-1.005-1.995-2.998-3-3c1.005-.002 2.998-1.995 3-3M5 15h2a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-2a2 2 0 0 1 2-2m12 0h2a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2v-2a2 2 0 0 1 2-2");
 }
 
 .zodoaqbjn {

@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="cuyn6tgcc"><path class="b0ch600ub"/><path class="e7kl5pbla"/></g>`;
+const content = `<g class="cuyn6tgcc"><path class="b0ch600ub"/><path class="ws-arbcpt"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:building-3-bulk" /></template>
 <style>
@@ -17,8 +17,8 @@ const content = `<g class="cuyn6tgcc"><path class="b0ch600ub"/><path class="e7kl
   fill: currentColor;
 }
 
-.e7kl5pbla {
-  d: path("M3 21a1 1 0 0 1 0-2h1v-4c0-1.039.577-1.991 1.293-2.707l3-3a2.414 2.414 0 0 1 3.414 0l3 3C15.422 13.008 16 13.961 16 15v4h5a1 1 0 0 1 0 2Zm11-2v-4c0-.468-.39-.976-.707-1.293l-3-3a.415.415 0 0 0-.586 0l-3 3C6.392 14.022 6 14.532 6 15v4Z");
+.ws-arbcpt {
+  d: path("M3 21a1 1 0 0 1 0-2h1v-5.039c0-.911.414-1.773 1.126-2.342l3-2.4a3 3 0 0 1 3.748 0l3 2.4A3 3 0 0 1 16 13.961V19h5a1 1 0 0 1 0 2Zm11-2v-5.039a1 1 0 0 0-.376-.78l-3-2.401a.995.995 0 0 0-1.248.001l-3.001 2.401a.99.99 0 0 0-.375.779V19Z");
 }
 
 </style>

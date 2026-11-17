@@ -4,16 +4,10 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="c8wyodb9j"/><path class="d6zgfgplu"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="z6vasp6lf"/><path class="d6zgfgplu"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:binoculars-duotone" /></template>
 <style>
-.c8wyodb9j {
-  fill: currentColor;
-  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M6 8V7a2 2 0 1 1 4 0v9a4 4 0 0 1-8 0c0-1.036.374-2.037.865-2.935c.642-1.177 1.493-2.216 2.258-3.312C5.413 9.337 6 8.49 6 8m8 8V7a2 2 0 1 1 4 0v1c0 .49.587 1.337.877 1.753c.765 1.096 1.616 2.135 2.258 3.312c.491.898.865 1.899.865 2.935a4 4 0 0 1-8 0");
-}
-
 .d6zgfgplu {
   stroke: currentColor;
   stroke-linecap: round;
@@ -24,6 +18,12 @@ const content = `<g class="ft5dv1b6b"><path class="c8wyodb9j"/><path class="d6zg
 
 .ft5dv1b6b {
   fill: none;
+}
+
+.z6vasp6lf {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
+  d: path("M7 8V7a1 1 0 0 1 2 0v9a3 3 0 1 1-6 0c0-3 4-6 4-8m8 8V7a1 1 0 0 1 2 0v1c0 2 4 5 4 8a3 3 0 1 1-6 0");
 }
 
 </style>

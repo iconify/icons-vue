@@ -4,13 +4,13 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="c-zj6ccaj"/>`;
+const content = `<path class="txo7hqp3b"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:zap-off-fill-round" /></template>
 <style>
-.c-zj6ccaj {
+.txo7hqp3b {
   fill: currentColor;
-  d: path("M16.828 15.586L8.414 7.172l3.879-3.879c.31-.311.752-.456 1.186-.382C14.428 3.072 15 4.102 15 5v4a.997.997 0 0 0 1 1h2c.898 0 1.928.572 2.089 1.521a1.34 1.34 0 0 1-.382 1.186ZM2.707 4.293l17 17a.999.999 0 1 1-1.414 1.414L14 18.414l-2.293 2.293a1.36 1.36 0 0 1-1.186.382C9.572 20.928 9 19.898 9 19v-4a.997.997 0 0 0-1-1H6c-.898 0-1.928-.572-2.089-1.521a1.34 1.34 0 0 1 .382-1.186L5.586 10L1.293 5.707a.999.999 0 1 1 1.414-1.414");
+  d: path("M16.275 15.032L8.826 7.584l2.896-3.641A1.697 1.697 0 0 1 14.75 5v3a.997.997 0 0 0 1 1H17a1.966 1.966 0 0 1 1.538 3.188ZM2.707 4.293l17 17a.999.999 0 1 1-1.414 1.414l-4.524-4.524l-1.491 1.874A1.699 1.699 0 0 1 9.25 19v-3a.997.997 0 0 0-1-1H7a1.966 1.966 0 0 1-1.538-3.188l.858-1.078l-5.027-5.027a.999.999 0 1 1 1.414-1.414");
 }
 
 </style>

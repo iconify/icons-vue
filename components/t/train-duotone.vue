@@ -4,16 +4,10 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="ck0dipbtf"/><path class="djulzlbey"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="r_7j5cv3i"/><path class="djulzlbey"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:train-duotone" /></template>
 <style>
-.ck0dipbtf {
-  fill: currentColor;
-  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M7 18a3 3 0 0 1-3-3V7c0-1.039.578-1.992 1.293-2.707l1-1C7.008 2.578 7.961 2 9 2h6c1.039 0 1.992.578 2.707 1.293l1 1C19.422 5.008 20 5.961 20 7v8a3 3 0 0 1-3 3Z");
-}
-
 .djulzlbey {
   stroke: currentColor;
   stroke-linecap: round;
@@ -24,6 +18,12 @@ const content = `<g class="ft5dv1b6b"><path class="ck0dipbtf"/><path class="djul
 
 .ft5dv1b6b {
   fill: none;
+}
+
+.r_7j5cv3i {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
+  d: path("M17 17H7a2 2 0 0 1-2-2V7c0-.763.48-1.479 1-2l1-1c.521-.52 1.237-1 2-1h6c.763 0 1.479.48 2 1l1 1c.52.521 1 1.237 1 2v8a2 2 0 0 1-2 2");
 }
 
 </style>

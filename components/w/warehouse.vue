@@ -4,17 +4,17 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="ehe2hlduo"/>`;
+const content = `<path class="iedectlic"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:warehouse" /></template>
 <style>
-.ehe2hlduo {
+.iedectlic {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-width: var(--svg-stroke-width--2px, 2px);
-  d: path("M3 21h18M5 21V11c0-.613.774-1.387 2-2l4-2h2l4 2c1.226.613 2 1.387 2 2v10M9 21v-8h6v8m-6-4h6");
+  d: path("M12 21H6a2 2 0 0 1-2-2V9.236a2 2 0 0 1 1.106-1.789l4.472-2.236A2 2 0 0 1 10.472 5h3.056a2 2 0 0 1 .894.211l4.472 2.236A2 2 0 0 1 20 9.237V19a2 2 0 0 1-2 2zm-4 0v-7a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v7m-8-5h8");
 }
 
 </style>

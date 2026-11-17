@@ -4,14 +4,14 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="o1ie711_q"/>`;
+const content = `<path class="rdw50d6mv"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:zap-bulk-round" /></template>
 <style>
-.o1ie711_q {
+.rdw50d6mv {
   fill: currentColor;
   fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
-  d: path("m8.293 7.293l4-4c.31-.311.752-.456 1.186-.382C14.428 3.072 15 4.102 15 5v4a.997.997 0 0 0 1 1h2c.898 0 1.928.572 2.089 1.521a1.34 1.34 0 0 1-.382 1.186l-8 8a1.36 1.36 0 0 1-1.186.382C9.572 20.928 9 19.898 9 19v-4a.997.997 0 0 0-1-1H6c-.898 0-1.928-.572-2.089-1.521a1.34 1.34 0 0 1 .382-1.186Z");
+  d: path("m8.592 7.877l3.13-3.934A1.697 1.697 0 0 1 14.75 5v3a.997.997 0 0 0 1 1H17a1.966 1.966 0 0 1 1.538 3.188l-6.26 7.869A1.699 1.699 0 0 1 9.25 19v-3a.997.997 0 0 0-1-1H7a1.966 1.966 0 0 1-1.538-3.188Z");
 }
 
 </style>

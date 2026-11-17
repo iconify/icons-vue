@@ -4,18 +4,18 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="s06c4qn5w"/><path class="votu9tbpn"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="el6ngbcsj"/><path class="votu9tbpn"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:file-pin-corner-duotone-round" /></template>
 <style>
-.ft5dv1b6b {
-  fill: none;
-}
-
-.s06c4qn5w {
+.el6ngbcsj {
   fill: currentColor;
   fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("m13.707 2.293l6 6A1 1 0 0 1 19 10h-6a3 3 0 0 0-3 3v8a1 1 0 0 1-1 1a5 5 0 0 1-3.536-1.464A4.98 4.98 0 0 1 4 17V7a5 5 0 0 1 5-5h4c.265 0 .52.105.707.293M13 4v2a2 2 0 0 0 2 2h2Zm6 9v3l1 1c.369.369-.262 1-1 1h-4c-.738 0-1.369-.631-1-1l1-1v-3Z");
+  d: path("M13.034 3.034q-.01-.01-.022-.004a.02.02 0 0 0-.012.018V7c0 1.103.897 1.998 2 2h-2a4 4 0 0 0-4 4v8a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4h4ZM15 13h4v3l1 1c.369.369-.262 1-1 1h-4c-.738 0-1.369-.631-1-1l1-1Z");
+}
+
+.ft5dv1b6b {
+  fill: none;
 }
 
 .votu9tbpn {

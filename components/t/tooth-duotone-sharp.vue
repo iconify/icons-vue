@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="i-51vky1v"/><path class="l-nbotb_e"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="hnx_ofxzr"/><path class="l-nbotb_e"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:tooth-duotone-sharp" /></template>
 <style>
@@ -12,10 +12,10 @@ const content = `<g class="ft5dv1b6b"><path class="i-51vky1v"/><path class="l-nb
   fill: none;
 }
 
-.i-51vky1v {
+.hnx_ofxzr {
   fill: currentColor;
   fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M12 2.764C12.901 2.215 13.955 2 15 2a4.995 4.995 0 0 1 5 5a37 37 0 0 1-.161 3.662c-.164 1.634-.524 3.241-.688 4.875A35 35 0 0 0 19 19a3.001 3.001 0 0 1-6 0v-1a1 1 0 0 0-2 0v1a3 3 0 0 1-6 0a35 35 0 0 0-.151-3.463c-.164-1.634-.524-3.241-.688-4.875A37 37 0 0 1 4 7a4.995 4.995 0 0 1 5-5c1.045 0 2.099.215 3 .764");
+  d: path("M12 4c.845-.738 1.898-1 3-1a4 4 0 0 1 4 4c0 6-1 6-1 12a2 2 0 1 1-4 0v-1a2 2 0 1 0-4 0v1a2 2 0 1 1-4 0c0-6-1-6-1-12a4 4 0 0 1 4-4c1.102 0 2.155.262 3 1");
 }
 
 .l-nbotb_e {

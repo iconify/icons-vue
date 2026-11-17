@@ -4,14 +4,14 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="dk9g05b2s"/><path class="p7owabb_k"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="azlb9zi1c"/><path class="p7owabb_k"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:eraser-sparkle-duotone-sharp" /></template>
 <style>
-.dk9g05b2s {
+.azlb9zi1c {
   fill: currentColor;
   fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M6 3c.002 1.005 1.995 2.998 3 3c-1.005.002-2.998 1.995-3 3c-.002-1.005-1.995-2.998-3-3c1.005-.002 2.998-1.995 3-3m.293 17.707l-3-3a1 1 0 0 1 0-1.414l12-12a1 1 0 0 1 1.414 0l5 5a1 1 0 0 1 0 1.414l-10 10A1 1 0 0 1 11 21H7a1 1 0 0 1-.707-.293");
+  d: path("M6 3c.002 1.005 1.995 2.998 3 3c-1.005.002-2.998 1.995-3 3c-.002-1.005-1.995-2.998-3-3c1.005-.002 2.998-1.995 3-3M4 17L16 5l5 5l-10 10H7Z");
 }
 
 .ft5dv1b6b {

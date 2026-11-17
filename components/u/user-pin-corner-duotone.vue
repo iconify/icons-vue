@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="tgm_ssbug"/><path class="epnp7ib0o"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="p3mbzqbjg"/><path class="epnp7ib0o"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:user-pin-corner-duotone" /></template>
 <style>
@@ -20,10 +20,10 @@ const content = `<g class="ft5dv1b6b"><path class="tgm_ssbug"/><path class="epnp
   fill: none;
 }
 
-.tgm_ssbug {
+.p3mbzqbjg {
   fill: currentColor;
   fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M4 7a5 5 0 1 1 10.001.001A5 5 0 0 1 4 7m11 6h4v3l1 1c.369.369.369 1 0 1h-6c-.369 0-.369-.631 0-1l1-1Zm-5 2v6a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1c0-1.862.731-3.636 2.05-4.95a6.9 6.9 0 0 1 2.225-1.499A6.9 6.9 0 0 1 9 14a1 1 0 0 1 1 1");
+  d: path("M9 11a4 4 0 1 1 0-8a4 4 0 0 1 0 8m6 2h4v3l1 1c.369.369.369 1 0 1h-6c-.369 0-.369-.631 0-1l1-1Zm-6 2v6H3a6 6 0 0 1 6-6");
 }
 
 </style>

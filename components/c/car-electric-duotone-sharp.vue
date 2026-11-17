@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="etbs71upp"/><path class="am61gebvx"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="w9-vhcbwg"/><path class="am61gebvx"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:car-electric-duotone-sharp" /></template>
 <style>
@@ -16,14 +16,14 @@ const content = `<g class="ft5dv1b6b"><path class="etbs71upp"/><path class="am61
   d: path("m13 8l-3 3h4l-3 3m-7 4v-8l3-6h10l3 6v8zm2 0h2v2H6Zm10 0h2v2h-2ZM3 10h1m16 0h1");
 }
 
-.etbs71upp {
-  fill: currentColor;
-  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M3 10c0-.155.036-.308.106-.447l3-6A1 1 0 0 1 7 3h10c.379 0 .725.214.894.553l3 6c.07.139.106.292.106.447v8a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1Z");
-}
-
 .ft5dv1b6b {
   fill: none;
+}
+
+.w9-vhcbwg {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
+  d: path("m4 10l3-6h10l3 6v8H4Z");
 }
 
 </style>

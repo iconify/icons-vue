@@ -4,10 +4,16 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="ja7wzlbzf"/><path class="ildjeh0we"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="cjxy7gvrn"/><path class="ildjeh0we"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:file-help-corner-duotone" /></template>
 <style>
+.cjxy7gvrn {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
+  d: path("m13 3l.034.034q-.01-.01-.022-.004a.02.02 0 0 0-.012.018V7c0 1.103.897 1.998 2 2h-4a2 2 0 0 0-2 2v10H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2Z");
+}
+
 .ft5dv1b6b {
   fill: none;
 }
@@ -18,12 +24,6 @@ const content = `<g class="ft5dv1b6b"><path class="ja7wzlbzf"/><path class="ildj
   stroke-linejoin: round;
   stroke-width: var(--svg-stroke-width--2px, 2px);
   d: path("M13 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h2m4-18l6 6m-6-6v4a2 2 0 0 0 2 2h4m-4 7a2 2 0 1 1 2 2m0 3h.01");
-}
-
-.ja7wzlbzf {
-  fill: currentColor;
-  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M19.707 8.293A1 1 0 0 1 19 10h-8a.997.997 0 0 0-1 1v10a1 1 0 0 1-1 1H7a3 3 0 0 1-3-3V5a3 3 0 0 1 3-3h6c.265 0 .52.105.707.293ZM13 6a2 2 0 0 0 2 2h2l-4-4Z");
 }
 
 </style>

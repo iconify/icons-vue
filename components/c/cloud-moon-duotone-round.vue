@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="q_jwh6b_z"/><path class="cvrqceb2e"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="js4epwk0u"/><path class="cvrqceb2e"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:cloud-moon-duotone-round" /></template>
 <style>
@@ -20,10 +20,10 @@ const content = `<g class="ft5dv1b6b"><path class="q_jwh6b_z"/><path class="cvrq
   fill: none;
 }
 
-.q_jwh6b_z {
+.js4epwk0u {
   fill: currentColor;
   fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M4.967 14.733a4.7 4.7 0 0 1 1.913-2.071a4.84 4.84 0 0 1 3.102-.568c2.138.322 3.657 1.935 3.959 4.057A3 3 0 0 1 13 22H5.667a3.668 3.668 0 0 1-.7-7.267");
+  d: path("M5.667 21a2.668 2.668 0 0 1-2.31-4a2.67 2.67 0 0 1 2.31-1.333C7 11.667 13 12.333 13 17a2 2 0 1 1 0 4Z");
 }
 
 </style>

@@ -4,26 +4,26 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="tsfyb9jvh"/><path class="qh6e3tbqg"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="ee9oz6h2c"/><path class="fbaki1okh"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:server-check-corner-duotone-sharp" /></template>
 <style>
-.ft5dv1b6b {
-  fill: none;
+.ee9oz6h2c {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
+  d: path("M3 4h18v6H3Zm0 10h6v6H3Z");
 }
 
-.qh6e3tbqg {
+.fbaki1okh {
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-width: var(--svg-stroke-width--2px, 2px);
-  d: path("M3 4h18v6H3Zm0 10h6m0 6H3v-6m4-7h.01M7 17h.01M13 17l3 3l5-6");
+  d: path("M3 4h18v6H3Zm6 16H3v-6h6M7 7h.01M7 17h.01M13 17l3 3l5-6");
 }
 
-.tsfyb9jvh {
-  fill: currentColor;
-  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M21 3a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1ZM9 13a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-6a1 1 0 0 1 1-1Z");
+.ft5dv1b6b {
+  fill: none;
 }
 
 </style>

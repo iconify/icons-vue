@@ -1,0 +1,24 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="cuyn6tgcc"><path class="spjl01l0b"/><path class="v1hb_4afs"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:save-check-bulk-round" /></template>
+<style>
+.cuyn6tgcc {
+  fill: currentColor;
+}
+
+.spjl01l0b {
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M17 22H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5h8c1.317 0 2.748.335 3.707 1.293l2 2C21.665 6.252 22 7.683 22 9v8a5 5 0 0 1-1.464 3.536A5 5 0 0 1 17 22");
+}
+
+.v1hb_4afs {
+  d: path("M9.707 8.293L11 9.586l3.293-3.293a.999.999 0 1 1 1.414 1.414l-4 4a1 1 0 0 1-1.414 0l-2-2a.999.999 0 1 1 1.414-1.414M6 21v-3a5 5 0 0 1 5-5h2a5 5 0 0 1 5 5v3a1 1 0 0 1-2 0v-3a3 3 0 0 0-3-3h-2a3 3 0 0 0-3 3v3a1 1 0 0 1-2 0");
+}
+
+</style>

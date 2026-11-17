@@ -1,0 +1,29 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ft5dv1b6b"><path class="oxpl08kdw"/><path class="u1m-yobml"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:zap-alt-off-duotone" /></template>
+<style>
+.ft5dv1b6b {
+  fill: none;
+}
+
+.oxpl08kdw {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
+  d: path("M15.5 12.5L8.769 5.769l.967-2.175c.16-.361.519-.593.914-.594H16a.58.58 0 0 1 .504.868l-3.008 5.264A.58.58 0 0 0 14 10h3a.414.414 0 0 1 .293.707Zm-7.793 7.793a.291.291 0 0 1-.49-.269l1.566-7.048A.802.802 0 0 0 8 12H7a.65.65 0 0 1-.594-.914l.517-1.163L12.5 15.5Z");
+}
+
+.u1m-yobml {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("m12.5 15.5l-4.793 4.793c-.206.206-.553.015-.49-.27l1.566-7.047A.802.802 0 0 0 8 12H7a.65.65 0 0 1-.594-.914l.517-1.163M8.77 5.77l.967-2.175A1 1 0 0 1 10.65 3H16a.58.58 0 0 1 .504.868l-3.008 5.264A.58.58 0 0 0 14 10h3c.369 0 .554.446.293.707L16 12M2 5l17 17");
+}
+
+</style>

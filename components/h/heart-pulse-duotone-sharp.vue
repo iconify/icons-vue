@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="gul0ugb6t"/><path class="alx_2acwm"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="os1jtewbv"/><path class="alx_2acwm"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:heart-pulse-duotone-sharp" /></template>
 <style>
@@ -20,10 +20,10 @@ const content = `<g class="ft5dv1b6b"><path class="gul0ugb6t"/><path class="alx_
   fill: none;
 }
 
-.gul0ugb6t {
+.os1jtewbv {
   fill: currentColor;
   fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M12 5.247a6.24 6.24 0 0 1 3.552-1.939c2.656-.469 5.187.78 6.089 3.393c.254.738.359 1.52.359 2.299c-.001 1.72-.645 3.359-1.565 4.791c-.895 1.391-2.038 2.61-3.271 3.706a29 29 0 0 1-3.203 2.46c-.482.321-.969.636-1.475.917a1 1 0 0 1-.972 0a22 22 0 0 1-1.475-.917a29 29 0 0 1-3.203-2.46c-1.233-1.096-2.376-2.315-3.271-3.706C2.645 12.359 2.001 10.72 2 9c0-.779.105-1.561.359-2.299c.902-2.613 3.433-3.862 6.089-3.393A6.24 6.24 0 0 1 12 5.247");
+  d: path("M12 7c2-4 9-4 9 2s-9 11-9 11s-9-5-9-11s7-6 9-2");
 }
 
 </style>

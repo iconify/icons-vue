@@ -4,18 +4,18 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="k4x0zwmdz"/><path class="m7-y_v0cd"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="a-q_5yh_o"/><path class="m7-y_v0cd"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:webcam-duotone" /></template>
 <style>
-.ft5dv1b6b {
-  fill: none;
-}
-
-.k4x0zwmdz {
+.a-q_5yh_o {
   fill: currentColor;
   fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M4 10a8 8 0 1 1 16 0a8 8 0 0 1-16 0m6 0a2 2 0 1 0 3.999.001A2 2 0 0 0 10 10m1 0a1 1 0 1 1 2 0a1 1 0 0 1-2 0");
+  d: path("M12 17a7 7 0 1 1 0-14a7 7 0 0 1 0 14M9.202 8.916a3 3 0 1 0 1.205-1.46a.02.02 0 0 0 .002-.027a.02.02 0 0 0-.027-.004c-.521.323-.93.799-1.171 1.363a2.97 2.97 0 0 0-.218 1.671c.005.027.009.137.044.131a.02.02 0 0 0 .016-.024a2.9 2.9 0 0 1 .149-1.65M11 10a1 1 0 1 1 2 0a1 1 0 0 1-2 0");
+}
+
+.ft5dv1b6b {
+  fill: none;
 }
 
 .m7-y_v0cd {

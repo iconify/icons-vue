@@ -4,14 +4,14 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="fm1_c9jqd"/><path class="k30j5fh0s"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="ew8_-x7qv"/><path class="k30j5fh0s"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:ship-side-duotone-round" /></template>
 <style>
-.fm1_c9jqd {
+.ew8_-x7qv {
   fill: currentColor;
   fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M4 8a3 3 0 0 1 3-3h9c.379 0 .725.214.894.553l3 6A1 1 0 0 1 19 13H5a1 1 0 0 1-1-1Z");
+  d: path("M5 8a2 2 0 0 1 2-2h9l3 6H5Z");
 }
 
 .ft5dv1b6b {

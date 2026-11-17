@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="cuyn6tgcc"><path class="p0d8_acbc"/><path class="xrvuenbxx"/></g>`;
+const content = `<g class="cuyn6tgcc"><path class="qehwg8owf"/><path class="xrvuenbxx"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:dashboard-bulk-round" /></template>
 <style>
@@ -12,9 +12,9 @@ const content = `<g class="cuyn6tgcc"><path class="p0d8_acbc"/><path class="xrvu
   fill: currentColor;
 }
 
-.p0d8_acbc {
+.qehwg8owf {
   fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
-  d: path("M3 6a3 3 0 0 1 3-3h2a3 3 0 0 1 3 3v4a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3Zm10 8a3 3 0 0 1 3-3h2a3 3 0 0 1 3 3v4a3 3 0 0 1-3 3h-2a3 3 0 0 1-3-3Zm-7 1h2a3 3 0 1 1 0 6H6a3 3 0 1 1 0-6");
+  d: path("M3 6a3 3 0 0 1 3-3h2a3 3 0 0 1 3 3v4a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3Zm13-3h2a3 3 0 1 1 0 6h-2a3 3 0 1 1 0-6m-3 11a3 3 0 0 1 3-3h2a3 3 0 0 1 3 3v4a3 3 0 0 1-3 3h-2a3 3 0 0 1-3-3Zm-7 1h2a3 3 0 1 1 0 6H6a3 3 0 1 1 0-6");
 }
 
 .xrvuenbxx {

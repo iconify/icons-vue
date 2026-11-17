@@ -4,18 +4,18 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="pk9vkxkrw"/><path class="womdt7_yz"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="bsrvo5b0s"/><path class="womdt7_yz"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:credit-card-sync-corner-duotone-round" /></template>
 <style>
-.ft5dv1b6b {
-  fill: none;
-}
-
-.pk9vkxkrw {
+.bsrvo5b0s {
   fill: currentColor;
   fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M22 9H10v10a1 1 0 0 1-1 1H7a5 5 0 0 1-5-5V9a5 5 0 0 1 5-5h10a5 5 0 0 1 5 5");
+  d: path("M17 5a4 4 0 0 1 4 4H9v10H7a4 4 0 0 1-4-4V9a4 4 0 0 1 4-4Z");
+}
+
+.ft5dv1b6b {
+  fill: none;
 }
 
 .womdt7_yz {

@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="cuyn6tgcc"><path class="a30bwub1c"/><path class="x10zmccxi"/></g>`;
+const content = `<g class="cuyn6tgcc"><path class="a30bwub1c"/><path class="ofl8cwbia"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:neural-network-bulk-round" /></template>
 <style>
@@ -17,8 +17,8 @@ const content = `<g class="cuyn6tgcc"><path class="a30bwub1c"/><path class="x10z
   fill: currentColor;
 }
 
-.x10zmccxi {
-  d: path("M7.293 15.293L10.586 12L7.293 8.707A1 1 0 0 1 8 7a1 1 0 0 1 0-2h7.171a3.002 3.002 0 0 1 5.601-.148a3 3 0 0 1-4.065 3.856L13.414 12l3.293 3.292A3 3 0 1 1 15.171 19H8a1 1 0 0 1 0-2a1.002 1.002 0 0 1-.707-1.707M17 6a1 1 0 1 0 2 0a1 1 0 0 0-2 0m-1.829 1H8c.265 0 .52.105.707.293L12 10.586l3.292-3.293A3 3 0 0 1 15.171 7M12 13.414l-3.293 3.293A1 1 0 0 1 8 17h7.171q.053-.15.121-.293Zm5.293 5.293a.999.999 0 1 0 1.414-1.414a.999.999 0 1 0-1.414 1.414");
+.ofl8cwbia {
+  d: path("M8 5h7.171a3.002 3.002 0 0 1 5.601-.148a3 3 0 0 1-4.065 3.856L13.414 12l3.293 3.292A3 3 0 1 1 15.171 19H8a1 1 0 0 1 0-2h7.171q.053-.15.121-.293L12 13.414l-3.293 3.293a.999.999 0 1 1-1.414-1.414L10.586 12L7.293 8.707a.999.999 0 1 1 1.414-1.414L12 10.586l3.292-3.293A3 3 0 0 1 15.171 7H8a1 1 0 0 1 0-2");
 }
 
 </style>

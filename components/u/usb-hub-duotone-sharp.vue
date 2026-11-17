@@ -4,18 +4,18 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="bs6h54wqs"/><path class="ya8jth7la"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="vfhccdb3m"/><path class="ya8jth7la"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:usb-hub-duotone-sharp" /></template>
 <style>
-.bs6h54wqs {
-  fill: currentColor;
-  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M15 2a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1Zm6 10a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-8a1 1 0 0 1 1-1Z");
-}
-
 .ft5dv1b6b {
   fill: none;
+}
+
+.vfhccdb3m {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
+  d: path("M9 3h6v4H9ZM3 13h18v8H3Z");
 }
 
 .ya8jth7la {

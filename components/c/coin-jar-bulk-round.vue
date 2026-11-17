@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="cuyn6tgcc"><path class="ci_-vopve"/><path class="ldkxcoxeq"/></g>`;
+const content = `<g class="cuyn6tgcc"><path class="ci_-vopve"/><path class="qka7dtbeg"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:coin-jar-bulk-round" /></template>
 <style>
@@ -17,8 +17,8 @@ const content = `<g class="cuyn6tgcc"><path class="ci_-vopve"/><path class="ldkx
   fill: currentColor;
 }
 
-.ldkxcoxeq {
-  d: path("M7 11h10a1 1 0 0 1 0 2H7a1 1 0 0 1 0-2");
+.qka7dtbeg {
+  d: path("M5.236 3.832a3 3 0 1 1 5.527 2.338a3 3 0 0 1-5.527-2.338m7 2a3 3 0 1 1 5.527 2.338a3 3 0 0 1-5.527-2.338M17 11a1 1 0 0 1 0 2H7a1 1 0 0 1 0-2Z");
 }
 
 </style>

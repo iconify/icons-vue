@@ -4,14 +4,14 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="b6nu0hlfz"/><path class="q91idrbem"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="bf43cda-k"/><path class="q91idrbem"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:virus-duotone-sharp" /></template>
 <style>
-.b6nu0hlfz {
+.bf43cda-k {
   fill: currentColor;
   fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M18.169 9.496a6.658 6.658 0 1 1-12.338 5.008a6.658 6.658 0 0 1 12.338-5.008");
+  d: path("M16 8a5.657 5.657 0 1 1-8.001 8.001A5.657 5.657 0 1 1 16 8");
 }
 
 .ft5dv1b6b {

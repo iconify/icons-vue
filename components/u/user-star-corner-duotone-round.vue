@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="fvy5bib4h"/><path class="q5mz3s69a"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="k4jkyyr5l"/><path class="q5mz3s69a"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:user-star-corner-duotone-round" /></template>
 <style>
@@ -12,10 +12,10 @@ const content = `<g class="ft5dv1b6b"><path class="fvy5bib4h"/><path class="q5mz
   fill: none;
 }
 
-.fvy5bib4h {
+.k4jkyyr5l {
   fill: currentColor;
   fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M4 7a5 5 0 1 1 10.001.001A5 5 0 0 1 4 7m13 6.4l1.2 2.4l2.8.4l-2 2l.4 2.4l-2.4-1.2l-2.4 1.2l.4-2.4l-2-2l2.8-.4ZM10 15v6a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1c0-1.862.731-3.636 2.05-4.95a6.9 6.9 0 0 1 2.225-1.499A6.9 6.9 0 0 1 9 14a1 1 0 0 1 1 1");
+  d: path("M9 11a4 4 0 1 1 0-8a4 4 0 0 1 0 8m8 2.4l1.2 2.4l2.8.4l-2 2l.4 2.4l-2.4-1.2l-2.4 1.2l.4-2.4l-2-2l2.8-.4ZM9 15v6H3a6 6 0 0 1 6-6");
 }
 
 .q5mz3s69a {

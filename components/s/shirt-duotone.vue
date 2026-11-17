@@ -4,18 +4,18 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="nh-czy3rg"/><path class="ystchfbxz"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="ak7sw2brr"/><path class="ystchfbxz"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:shirt-duotone" /></template>
 <style>
-.ft5dv1b6b {
-  fill: none;
-}
-
-.nh-czy3rg {
+.ak7sw2brr {
   fill: currentColor;
   fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("m15.371 3.072l5 2C21.177 5.394 22 6.056 22 7v3a2 2 0 0 1-2 2h-1v6a3 3 0 0 1-3 3H8a3 3 0 0 1-3-3v-6H4a2 2 0 0 1-2-2V7c0-.944.823-1.606 1.629-1.928l5-2A.998.998 0 0 1 10 4a2 2 0 1 0 4 0a1 1 0 0 1 1.371-.928");
+  d: path("M9 4a3 3 0 1 0 6 0l5 2c.384.154.999.52 1 1v3a1 1 0 0 1-1 1h-1a1 1 0 0 0-1 1v6a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2v-6a1 1 0 0 0-1-1H4a1 1 0 0 1-1-1V7c.001-.48.616-.846 1-1Z");
+}
+
+.ft5dv1b6b {
+  fill: none;
 }
 
 .ystchfbxz {

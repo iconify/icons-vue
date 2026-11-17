@@ -4,18 +4,18 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="o7_p1yb8q"/><path class="o7nd_5t7y"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="cjxy7gvrn"/><path class="o7nd_5t7y"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:file-upload-corner-duotone" /></template>
 <style>
-.ft5dv1b6b {
-  fill: none;
-}
-
-.o7_p1yb8q {
+.cjxy7gvrn {
   fill: currentColor;
   fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M11 10a.997.997 0 0 0-1 1v10a1 1 0 0 1-1 1H7a3 3 0 0 1-3-3V5a3 3 0 0 1 3-3h6c.265 0 .52.105.707.293l6 6A1 1 0 0 1 19 10Zm2-4a2 2 0 0 0 2 2h2l-4-4Z");
+  d: path("m13 3l.034.034q-.01-.01-.022-.004a.02.02 0 0 0-.012.018V7c0 1.103.897 1.998 2 2h-4a2 2 0 0 0-2 2v10H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2Z");
+}
+
+.ft5dv1b6b {
+  fill: none;
 }
 
 .o7nd_5t7y {

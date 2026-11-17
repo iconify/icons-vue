@@ -1,0 +1,28 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="nrj6p8qat"><path class="p_iyoqoin"/><path class="k_qmzh0zn"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:campfire-duocolor-round" /></template>
+<style>
+.k_qmzh0zn {
+  d: path("m4 17l16 4M4 21l16-4");
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.p_iyoqoin {
+  stroke-opacity: 0.4;
+  d: path("M12 3c.313 1.563 1.25 2.813 2.5 3.75c.938.938 1.25 2.188 1.25 3.75a3.75 3.75 0 1 1-7.5 0c0-.937.313-1.562.625-1.875m0 0a1.25 1.25 0 1 0 2.5 0c0-.937-.312-1.25-.625-1.875C10.125 5.5 10.438 4.25 12 3");
+}
+
+</style>

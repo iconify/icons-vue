@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="jpy19tscb"/><path class="zud699bhj"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="g7hud0ren"/><path class="zud699bhj"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:apple-logo-duotone" /></template>
 <style>
@@ -12,10 +12,10 @@ const content = `<g class="ft5dv1b6b"><path class="jpy19tscb"/><path class="zud6
   fill: none;
 }
 
-.jpy19tscb {
+.g7hud0ren {
   fill: currentColor;
   fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M12 5a2 2 0 0 1 2-2a2 2 0 0 1-2 2m0 3c.157 0 .316-.046.465-.089c.27-.078.533-.178.797-.274C14.143 7.313 15.05 7 16 7c1.695.001 2.937 1.104 3.832 2.445a1 1 0 0 1-.385 1.449C18.619 11.309 18 12.039 18 13c0 .345.035.694.14 1.023c.192.601.621 1.038 1.126 1.395c.372.264.774.484 1.181.688a1 1 0 0 1 .447 1.341c-.532 1.065-1.162 2.098-1.969 2.979c-.76.828-1.752 1.573-2.925 1.574c-.855 0-1.591-.259-2.371-.572C13.108 21.22 12.57 21 12 21s-1.108.22-1.629.428C9.591 21.741 8.855 22 8 22c-1.719-.001-2.95-1.665-3.644-3.053a12.5 12.5 0 0 1-.986-2.782A14 14 0 0 1 3 13a7.2 7.2 0 0 1 .317-2.129c.416-1.354 1.26-2.616 2.518-3.315A4.4 4.4 0 0 1 8 7c.95 0 1.857.313 2.738.637c.264.096.527.196.797.274c.149.043.308.089.465.089");
+  d: path("M12 5a2 2 0 0 1 2-2a2 2 0 0 1-2 2m7 5c-1.169.585-1.999 1.656-2 3c0 2 1 3 3 4c-.678 1.355-2.253 3.998-4 4c-1.5 0-2.5-1-4-1s-2.5 1-4 1c-2 0-4-4-4-8c0-2.5 1.5-5 4-5c1.5 0 3 1 4 1s2.5-1 4-1c1.346.001 2.297.947 3 2");
 }
 
 .zud699bhj {

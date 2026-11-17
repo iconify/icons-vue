@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="tg5ekskpo"/><path class="deev6eljl"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="s-35n8b_t"/><path class="deev6eljl"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:beer-duotone-round" /></template>
 <style>
@@ -20,10 +20,10 @@ const content = `<g class="ft5dv1b6b"><path class="tg5ekskpo"/><path class="deev
   fill: none;
 }
 
-.tg5ekskpo {
+.s-35n8b_t {
   fill: currentColor;
   fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M17 9.287V17a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V9.287a4.8 4.8 0 0 1-.602-1.597c-.319-1.801.552-3.525 2.047-4.522c.951-.633 2.118-.942 3.256-.783A4.3 4.3 0 0 1 10 3.472a4.3 4.3 0 0 1 2.299-1.087c1.138-.159 2.305.15 3.256.783c1.495.997 2.366 2.721 2.047 4.522A4.8 4.8 0 0 1 17 9.287");
+  d: path("M4 9c-2.661-4.004 3.327-7.996 6-4c2.673-3.996 8.661-.004 6 4v8a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4Z");
 }
 
 </style>

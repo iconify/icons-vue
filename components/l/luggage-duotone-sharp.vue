@@ -4,18 +4,18 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="aezsu9biz"/><path class="p9ingombl"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="jw14013-i"/><path class="p9ingombl"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:luggage-duotone-sharp" /></template>
 <style>
-.aezsu9biz {
-  fill: currentColor;
-  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M4 7a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1h-1.171a3 3 0 0 1-5.658 0h-.342a3 3 0 0 1-5.658 0H5a1 1 0 0 1-1-1Zm5.705 12.709l.002-.002l.002-.002a1 1 0 0 0-.002-1.412l-.002-.002a1 1 0 1 0 0 1.418m4.588-.002l.002.002a1 1 0 1 0 0-1.418l-.002.002l-.002.002a1 1 0 0 0 .002 1.412");
-}
-
 .ft5dv1b6b {
   fill: none;
+}
+
+.jw14013-i {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
+  d: path("M5 19V7h14v12h-2a1.999 1.999 0 0 0-3-1.732c-.619.357-1 1.017-1 1.732h-2a1.999 1.999 0 0 0-3-1.732c-.619.357-1 1.017-1 1.732Z");
 }
 
 .p9ingombl {

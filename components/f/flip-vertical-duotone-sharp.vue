@@ -4,18 +4,18 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="gxe5ulj0i"/><path class="im8-libzf"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="flu26icqe"/><path class="im8-libzf"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:flip-vertical-duotone-sharp" /></template>
 <style>
-.ft5dv1b6b {
-  fill: none;
-}
-
-.gxe5ulj0i {
+.flu26icqe {
   fill: currentColor;
   fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M7 2h10a1.002 1.002 0 0 1 .707 1.707l-5 5a1 1 0 0 1-1.414 0l-5-5A1 1 0 0 1 7 2m4.293 13.293a1 1 0 0 1 1.414 0l5 5A1 1 0 0 1 17 22H7a1.002 1.002 0 0 1-.707-1.707Z");
+  d: path("M7 3h10l-5 5Zm0 18l5-5l5 5Z");
+}
+
+.ft5dv1b6b {
+  fill: none;
 }
 
 .im8-libzf {

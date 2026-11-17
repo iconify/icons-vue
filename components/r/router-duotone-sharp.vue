@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="q71vj5lnb"/><path class="fiup64xoc"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="gmj4pbmbe"/><path class="fiup64xoc"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:router-duotone-sharp" /></template>
 <style>
@@ -20,10 +20,10 @@ const content = `<g class="ft5dv1b6b"><path class="q71vj5lnb"/><path class="fiup
   fill: none;
 }
 
-.q71vj5lnb {
+.gmj4pbmbe {
   fill: currentColor;
   fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M2 21v-6a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1");
+  d: path("M3 15h18v6H3Z");
 }
 
 </style>

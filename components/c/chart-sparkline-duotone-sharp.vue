@@ -4,14 +4,14 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="f9-flfbpi"/><path class="l21x__bqk"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="fio1ofjep"/><path class="l21x__bqk"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:chart-sparkline-duotone-sharp" /></template>
 <style>
-.f9-flfbpi {
+.fio1ofjep {
   fill: currentColor;
   fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M16.56 2.452a3.829 3.829 0 1 1 2.88 7.096a3.829 3.829 0 0 1-2.88-7.096");
+  d: path("M16 4a2.828 2.828 0 1 1 4 4a2.828 2.828 0 1 1-4-4");
 }
 
 .ft5dv1b6b {

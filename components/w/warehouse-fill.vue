@@ -4,13 +4,13 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="iimbz4s0a"/>`;
+const content = `<path class="wdwdnc-wi"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:warehouse-fill" /></template>
 <style>
-.iimbz4s0a {
+.wdwdnc-wi {
   fill: currentColor;
-  d: path("M21 22h-5v-9a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v9H3a1 1 0 0 1 0-2h1v-9c.001-1.348 1.478-2.357 2.553-2.894l4-2A1 1 0 0 1 11 6h2c.155 0 .308.036.447.106l4 2C18.522 8.643 19.999 9.652 20 11v9h1a1 1 0 0 1 0 2m-8-6h-2a1 1 0 0 1 0-2h2a1 1 0 0 1 0 2m0 4h-2a1 1 0 0 1 0-2h2a1 1 0 0 1 0 2");
+  d: path("M17 22v-8a3 3 0 0 0-3-3h-4a3 3 0 0 0-3 3v8H6a3 3 0 0 1-3-3V9.236a3 3 0 0 1 1.658-2.683L9.13 4.317c.417-.21.876-.318 1.342-.317h3.056c.466-.001.925.107 1.342.317l4.472 2.236A3 3 0 0 1 21 9.236V19a3 3 0 0 1-3 3Zm-8-6v-2a.997.997 0 0 1 1-1h4a.997.997 0 0 1 1 1v2Zm0 6v-4h6v4Z");
 }
 
 </style>

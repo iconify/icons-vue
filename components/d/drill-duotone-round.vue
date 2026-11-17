@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="m9n9vybaw"/><path class="yckxvub5k"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="wk4hkydoh"/><path class="yckxvub5k"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:drill-duotone-round" /></template>
 <style>
@@ -12,10 +12,10 @@ const content = `<g class="ft5dv1b6b"><path class="m9n9vybaw"/><path class="yckx
   fill: none;
 }
 
-.m9n9vybaw {
+.wk4hkydoh {
   fill: currentColor;
   fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M5 3h8c.856 0 1.667.36 2.236 1H17a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2h-1.764A3 3 0 0 1 13 11h-1v4.171A3.001 3.001 0 0 1 11 21H7a3 3 0 0 1-1-5.829V11H5a3 3 0 0 1-3-3V6a3 3 0 0 1 3-3");
+  d: path("M3 6a2 2 0 0 1 2-2h8c.728 0 1.398.394 1.75 1.031Q14.874 5 15 5h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2q-.126 0-.25-.031A2 2 0 0 1 13 10h-2v6a2 2 0 1 1 0 4H7a2 2 0 1 1 0-4v-6H5a2 2 0 0 1-2-2Z");
 }
 
 .yckxvub5k {

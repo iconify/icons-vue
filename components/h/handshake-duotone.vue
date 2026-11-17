@@ -4,14 +4,14 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="b3uk5nbqo"/><path class="y_i7z7pwq"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="b_vqw_ivz"/><path class="y_i7z7pwq"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:handshake-duotone" /></template>
 <style>
-.b3uk5nbqo {
+.b_vqw_ivz {
   fill: currentColor;
   fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M9.605 4c1.614-1.418 3.827-1.916 5.92-1.53c.667.12 1.315.334 1.922.636L19.236 4H21a1 1 0 0 1 1 1v7c0 .265-.105.52-.293.707l-1.409 1.409a3.121 3.121 0 0 1-4.944 3.65a3.123 3.123 0 0 1-5 1a3.12 3.12 0 0 1-5.061.941l-3-3A1 1 0 0 1 2 16V5a1 1 0 0 1 1-1Z");
+  d: path("M3 5h7c2-2 5-2 7-1l2 1h2v7l-2 2a2.122 2.122 0 0 1-3 3l-1-1l-.379.5A2.122 2.122 0 0 1 11 18l-1-1l-.379.5A2.122 2.122 0 0 1 6 19l-3-3Z");
 }
 
 .ft5dv1b6b {

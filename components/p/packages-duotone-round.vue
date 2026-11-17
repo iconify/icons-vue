@@ -4,18 +4,18 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="ux0h32b5r"/><path class="xh6wvxbvp"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="at111kbdg"/><path class="xh6wvxbvp"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:packages-duotone-round" /></template>
 <style>
-.ft5dv1b6b {
-  fill: none;
-}
-
-.ux0h32b5r {
+.at111kbdg {
   fill: currentColor;
   fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("m17.5 10.257l2.842 1.421A3 3 0 0 1 22 14.361v3.153a3 3 0 0 1-1.658 2.683l-2.5 1.25a3 3 0 0 1-2.684 0L12 19.868l-3.158 1.579a3 3 0 0 1-2.684 0l-2.5-1.25A3 3 0 0 1 2 17.514v-3.153a3 3 0 0 1 1.658-2.683L6.5 10.257V6.486a3 3 0 0 1 1.658-2.683l2.5-1.25a3 3 0 0 1 2.684 0l2.5 1.25A3 3 0 0 1 17.5 6.486Z");
+  d: path("m16.5 10.875l3.394 1.697A2 2 0 0 1 21 14.361v3.153a2 2 0 0 1-1.106 1.789l-2.5 1.25a2 2 0 0 1-1.788 0L12 18.75l-3.606 1.803a2 2 0 0 1-1.788 0l-2.5-1.25A2 2 0 0 1 3 17.514v-3.153a2 2 0 0 1 1.106-1.789L7.5 10.875V6.486a2 2 0 0 1 1.106-1.789l2.5-1.25a2 2 0 0 1 1.788 0l2.5 1.25A2 2 0 0 1 16.5 6.486Z");
+}
+
+.ft5dv1b6b {
+  fill: none;
 }
 
 .xh6wvxbvp {

@@ -4,12 +4,17 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="nrj6p8qat"><path class="ra34vcrze"/><path class="nq9fwlbqy"/></g>`;
+const content = `<g class="nrj6p8qat"><path class="n_9hu2b-q"/><path class="cv_ls244n"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:house-alt-2-duocolor" /></template>
 <style>
-.nq9fwlbqy {
-  d: path("M3 20h18M5 20v-8c0-.64.36-1.36 1-2l5-5a1.414 1.414 0 0 1 2 0l5 5c.64.64 1 1.36 1 2v8");
+.cv_ls244n {
+  d: path("M3 21h18M4 21V10.908a2 2 0 0 1 .683-1.506l6-5.25a2 2 0 0 1 2.634 0l6 5.25A2 2 0 0 1 20 10.908V21");
+}
+
+.n_9hu2b-q {
+  stroke-opacity: 0.4;
+  d: path("M10 21v-4a2 2 0 1 1 4 0v4");
 }
 
 .nrj6p8qat {
@@ -18,11 +23,6 @@ const content = `<g class="nrj6p8qat"><path class="ra34vcrze"/><path class="nq9f
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-width: var(--svg-stroke-width--2px, 2px);
-}
-
-.ra34vcrze {
-  stroke-opacity: 0.4;
-  d: path("M10 20v-4a2 2 0 1 1 4 0v4");
 }
 
 </style>

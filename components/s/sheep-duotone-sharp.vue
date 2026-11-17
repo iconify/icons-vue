@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="u24z3jtfd"/><path class="wta6pi43a"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="hj72mtslv"/><path class="wta6pi43a"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:sheep-duotone-sharp" /></template>
 <style>
@@ -12,10 +12,10 @@ const content = `<g class="ft5dv1b6b"><path class="u24z3jtfd"/><path class="wta6
   fill: none;
 }
 
-.u24z3jtfd {
+.hj72mtslv {
   fill: currentColor;
   fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M6 12.268a3.1 3.1 0 0 1-2.201-.875c-1.36-1.308-1.46-3.521.005-4.792c-.41-1.896.998-3.606 2.871-3.836a3.1 3.1 0 0 1 2.217.569c1.659-1.78 4.556-1.78 6.216 0a3.1 3.1 0 0 1 2.217-.569c1.873.23 3.281 1.94 2.871 3.836c1.465 1.271 1.365 3.484.005 4.792a3.1 3.1 0 0 1-2.201.875V17c0 1.554-.49 3.007-1.794 3.939C15.008 21.794 13.435 22 12 22s-3.008-.206-4.206-1.061C6.49 20.007 6 18.554 6 17Z");
+  d: path("M7 11c-2.669 1.329-4.665-2.663-2-4c-1.329-2.669 2.663-4.665 4-2a3.25 3.25 0 0 1 6 0c1.337-2.665 5.329-.669 4 2c2.665 1.337.669 5.329-2 4v6c-.002 3.155-2.225 3.999-5 4c-2.775-.001-4.998-.845-5-4Z");
 }
 
 .wta6pi43a {

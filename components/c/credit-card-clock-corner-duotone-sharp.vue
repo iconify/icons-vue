@@ -4,18 +4,12 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="gtldxvb2y"/><path class="jx8wosb_f"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="ygbf3ub5p"/><path class="jx8wosb_f"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:credit-card-clock-corner-duotone-sharp" /></template>
 <style>
 .ft5dv1b6b {
   fill: none;
-}
-
-.gtldxvb2y {
-  fill: currentColor;
-  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M22 9H10v10a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1Z");
 }
 
 .jx8wosb_f {
@@ -24,6 +18,12 @@ const content = `<g class="ft5dv1b6b"><path class="gtldxvb2y"/><path class="jx8w
   stroke-linejoin: round;
   stroke-width: var(--svg-stroke-width--2px, 2px);
   d: path("M21 9V5H3v14h6M3 9h18m-9 8a5 5 0 1 0 10 0a5 5 0 0 0-10 0m5-2v2h2");
+}
+
+.ygbf3ub5p {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
+  d: path("M21 5v4H9v10H3V5Z");
 }
 
 </style>

@@ -4,16 +4,10 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="b-osb3b-f"/><path class="ey4y9ubwa"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="vg1lh6vdz"/><path class="ey4y9ubwa"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:sword-duotone" /></template>
 <style>
-.b-osb3b-f {
-  fill: currentColor;
-  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M16.293 3.293C17.008 2.578 17.961 2 19 2h2a1 1 0 0 1 1 1v2c0 1.039-.578 1.992-1.293 2.707l-10 10a1 1 0 0 1-1.414 0l-3-3a.997.997 0 0 1 0-1.414Z");
-}
-
 .ey4y9ubwa {
   stroke: currentColor;
   stroke-linecap: round;
@@ -24,6 +18,12 @@ const content = `<g class="ft5dv1b6b"><path class="b-osb3b-f"/><path class="ey4y
 
 .ft5dv1b6b {
   fill: none;
+}
+
+.vg1lh6vdz {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
+  d: path("M7 14L17 4c.521-.52 1.237-1 2-1h2v2c0 .763-.48 1.479-1 2L10 17Z");
 }
 
 </style>

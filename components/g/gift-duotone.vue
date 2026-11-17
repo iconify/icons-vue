@@ -4,18 +4,12 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="mahj6bb0s"/><path class="t30z2achq"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="y5k6zb3vq"/><path class="t30z2achq"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:gift-duotone" /></template>
 <style>
 .ft5dv1b6b {
   fill: none;
-}
-
-.mahj6bb0s {
-  fill: currentColor;
-  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M20 11.829V19a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3v-7.171A3.001 3.001 0 0 1 5 6h14a3 3 0 0 1 1 5.829");
 }
 
 .t30z2achq {
@@ -24,6 +18,12 @@ const content = `<g class="ft5dv1b6b"><path class="mahj6bb0s"/><path class="t30z
   stroke-linejoin: round;
   stroke-width: var(--svg-stroke-width--2px, 2px);
   d: path("M3 9a2 2 0 0 1 2-2h14a2 2 0 1 1 0 4H5a2 2 0 0 1-2-2m2 2v8a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-8m-7-4H9C7 7 6 6 6 5c0-2 2-2 3-1zm0 0h3c2 0 3-1 3-2c0-2-2-2-3-1zm0 0v14");
+}
+
+.y5k6zb3vq {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
+  d: path("M19 11v8a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-8a2 2 0 1 1 0-4h14a2 2 0 1 1 0 4");
 }
 
 </style>

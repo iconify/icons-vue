@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="b9uehb7do"/><path class="b87fthq3e"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="y5xasbcun"/><path class="b87fthq3e"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:package-duotone" /></template>
 <style>
@@ -16,14 +16,14 @@ const content = `<g class="ft5dv1b6b"><path class="b9uehb7do"/><path class="b87f
   d: path("M4 8v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8M4 8l1-2c.613-1.226 1.387-2 2-2h10c.613 0 1.387.774 2 2l1 2M4 8h16");
 }
 
-.b9uehb7do {
-  fill: currentColor;
-  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M4.106 5.553C4.643 4.478 5.652 3.001 7 3h10c1.348.001 2.357 1.478 2.894 2.553l1 2A1 1 0 0 1 20 9H4a1 1 0 0 1-.894-1.447Z");
-}
-
 .ft5dv1b6b {
   fill: none;
+}
+
+.y5xasbcun {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
+  d: path("M5 6c.326-.651 1.15-1.999 2-2h10c.85.001 1.674 1.349 2 2l1 2H4Z");
 }
 
 </style>

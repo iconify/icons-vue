@@ -4,13 +4,13 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="lqn6o2rec"/>`;
+const content = `<path class="vuafeu31x"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:building-1-fill-round" /></template>
 <style>
-.lqn6o2rec {
+.vuafeu31x {
   fill: currentColor;
-  d: path("M3 19h1V7a4 4 0 0 1 4-4h1a4 4 0 0 1 4 4v2.303a3.83 3.83 0 0 1 3.707.99l2 2C19.665 13.252 20 14.683 20 16v3h1a1 1 0 0 1 0 2H3a1 1 0 0 1 0-2m8-12a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v12h2v-3c0-1.317.335-2.748 1.293-3.707L11 10.586Z");
+  d: path("M3 19h1V8a5 5 0 0 1 5-5h3a1 1 0 0 1 1 1v5.223a5 5 0 0 1 4.123.995l1 .8A5 5 0 0 1 20 14.922V19h1a1 1 0 0 1 0 2H3a1 1 0 0 1 0-2m8-14H9a3 3 0 0 0-3 3v11h2v-4.078c0-1.518.69-2.955 1.877-3.904l1-.8l.123-.096Z");
 }
 
 </style>

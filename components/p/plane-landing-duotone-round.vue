@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="r1qb5kekq"/><path class="zw3b81pam"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="y37g5en_y"/><path class="zw3b81pam"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:plane-landing-duotone-round" /></template>
 <style>
@@ -12,10 +12,10 @@ const content = `<g class="ft5dv1b6b"><path class="r1qb5kekq"/><path class="zw3b
   fill: none;
 }
 
-.r1qb5kekq {
+.y37g5en_y {
   fill: currentColor;
   fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("m13.293 15.707l-1.636-1.636l-4.795.799a2.3 2.3 0 0 1-1.115-.081c-.816-.262-1.486-.937-1.423-1.837c.033-.467.267-.896.642-1.176l2.766-2.075L7.382 9h-.675c-1.119 0-2.414-.768-2.414-2c0-.453.18-.887.5-1.207l3-3c.32-.32.754-.5 1.207-.5c1.232 0 2 1.295 2 2.414v.675l.701.35l2.075-2.766c.28-.375.709-.609 1.176-.642c.9-.063 1.575.607 1.837 1.423c.117.36.145.742.081 1.115l-.799 4.795l1.636 1.636c1.536 1.536 2.951 3.462 1 5.414c-.692.692-1.538 1.096-2.528.899c-1.102-.221-2.116-1.128-2.886-1.899");
+  d: path("M17 12c2 2 2 3 1 4s-2 1-4-1l-2-2l-5.303.884A1.37 1.37 0 0 1 5.5 13.5a.61.61 0 0 1 .066-.924L9 10L8 8H6.707c-.453 0-.887-.18-1.207-.5a.707.707 0 0 1 0-1l3-3a.707.707 0 0 1 1 0c.32.32.5.754.5 1.207V6l2 1l2.576-3.434A.61.61 0 0 1 15.5 3.5c.314.314.457.76.384 1.197L15 10Z");
 }
 
 .zw3b81pam {

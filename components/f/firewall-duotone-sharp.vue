@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="hvc_vyb0f"/><path class="fd_6gv4oq"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="j8m6wclzu"/><path class="fd_6gv4oq"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:firewall-duotone-sharp" /></template>
 <style>
@@ -20,10 +20,10 @@ const content = `<g class="ft5dv1b6b"><path class="hvc_vyb0f"/><path class="fd_6
   fill: none;
 }
 
-.hvc_vyb0f {
+.j8m6wclzu {
   fill: currentColor;
   fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M10.5 7.5c0-.317-.068-.455-.219-.725a8 8 0 0 1-.175-.328c-.355-.71-.455-1.482-.217-2.245c.253-.808.837-1.463 1.486-1.983a1.002 1.002 0 0 1 1.606.585c.199.997.818 1.795 1.619 2.396a1 1 0 0 1 .107.093C15.71 6.296 16 7.626 16 9a4 4 0 0 1-.315 1.557A3.998 3.998 0 0 1 8 9c0-.79.22-1.634.793-2.207A1 1 0 0 1 10.5 7.5");
+  d: path("M12 3c.248 1.235 1.005 2.253 2 3c.807.807 1 1.901 1 3a3 3 0 1 1-6 0c0-.514.122-1.122.5-1.5a1 1 0 0 0 2 0c0-.75-.25-1-.5-1.5c-.612-1.226.028-2.222 1-3");
 }
 
 </style>

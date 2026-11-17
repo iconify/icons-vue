@@ -4,16 +4,10 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="ax6m2cc8w"/><path class="b9b40_beb"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="r0rjfwbjn"/><path class="b9b40_beb"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:hard-hat-duotone-sharp" /></template>
 <style>
-.ax6m2cc8w {
-  fill: currentColor;
-  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M20 15h1a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-4a1 1 0 0 1 1-1h1v-4a6.01 6.01 0 0 1 5-5.918V4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v1.082A6.01 6.01 0 0 1 20 11Z");
-}
-
 .b9b40_beb {
   stroke: currentColor;
   stroke-linecap: round;
@@ -24,6 +18,12 @@ const content = `<g class="ft5dv1b6b"><path class="ax6m2cc8w"/><path class="b9b4
 
 .ft5dv1b6b {
   fill: none;
+}
+
+.r0rjfwbjn {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
+  d: path("M5 16v-5a5 5 0 0 1 5-5V4h4v2a5 5 0 0 1 5 5v5h2v4H3v-4Z");
 }
 
 </style>

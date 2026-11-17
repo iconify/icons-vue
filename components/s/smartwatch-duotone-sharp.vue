@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="t8l79clup"/><path class="a4h3s8qno"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="jd4-llbsy"/><path class="a4h3s8qno"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:smartwatch-duotone-sharp" /></template>
 <style>
@@ -20,10 +20,10 @@ const content = `<g class="ft5dv1b6b"><path class="t8l79clup"/><path class="a4h3
   fill: none;
 }
 
-.t8l79clup {
+.jd4-llbsy {
   fill: currentColor;
   fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M5 18V6a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1");
+  d: path("M6 6h12v12H6Z");
 }
 
 </style>

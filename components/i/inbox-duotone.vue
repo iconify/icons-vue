@@ -4,18 +4,18 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="ctc5lfz7i"/><path class="kz5g6ac3r"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="jpu3ve2nz"/><path class="kz5g6ac3r"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:inbox-duotone" /></template>
 <style>
-.ctc5lfz7i {
-  fill: currentColor;
-  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M6 12c1.039 0 1.992.578 2.707 1.293l1 1c.313.312.825.707 1.293.707h2c.468 0 .98-.395 1.293-.707l1-1C16.008 12.578 16.961 12 18 12h3a1 1 0 0 1 1 1v5a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3v-5a1 1 0 0 1 1-1Z");
-}
-
 .ft5dv1b6b {
   fill: none;
+}
+
+.jpu3ve2nz {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
+  d: path("M3 13h3c.763 0 1.479.48 2 1l1 1c.521.52 1.237 1 2 1h2c.763 0 1.479-.48 2-1l1-1c.521-.52 1.237-1 2-1h3v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2Z");
 }
 
 .kz5g6ac3r {

@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="s-i38pbuq"/><path class="oxf852b1d"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="sp8mm5bad"/><path class="sq7_59_0e"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:building-3-duotone-round" /></template>
 <style>
@@ -12,18 +12,18 @@ const content = `<g class="ft5dv1b6b"><path class="s-i38pbuq"/><path class="oxf8
   fill: none;
 }
 
-.oxf852b1d {
+.sp8mm5bad {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
+  d: path("M15 20H5v-5.078c0-1.215.552-2.364 1.501-3.123l1-.8a4 4 0 0 1 4.998 0l1 .8A4 4 0 0 1 15 14.922Z");
+}
+
+.sq7_59_0e {
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-width: var(--svg-stroke-width--2px, 2px);
-  d: path("M3 20h18M5 20v-4c0-1.28.36-2.36 1-3l2-2a2.83 2.83 0 0 1 4 0l2 2c.64.64 1 1.72 1 3v4m-8-8V8a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v12");
-}
-
-.s-i38pbuq {
-  fill: currentColor;
-  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M4 20v-4c0-1.317.335-2.748 1.293-3.707l2-2a3.83 3.83 0 0 1 5.414 0l2 2C15.665 13.252 16 14.683 16 16v4a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1");
+  d: path("M3 20h18M5 20v-5.078A4 4 0 0 1 6.501 11.8l1-.8a4 4 0 0 1 4.998 0l1 .8A4 4 0 0 1 15 14.923V20m-8-8.6V4h8a4 4 0 0 1 4 4v12");
 }
 
 </style>

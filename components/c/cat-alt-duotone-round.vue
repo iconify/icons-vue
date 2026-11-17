@@ -4,18 +4,18 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="n6q2bbc_t"/><path class="ot9k8kbpn"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="bmxlpxbtn"/><path class="ot9k8kbpn"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:cat-alt-duotone-round" /></template>
 <style>
-.ft5dv1b6b {
-  fill: none;
-}
-
-.n6q2bbc_t {
+.bmxlpxbtn {
   fill: currentColor;
   fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M5 7.849V3a1 1 0 0 1 1.243-.97a7.3 7.3 0 0 1 2.875 1.431c.512.415.968.896 1.353 1.431a10 10 0 0 1 3.058 0a7.4 7.4 0 0 1 1.353-1.431a7.3 7.3 0 0 1 2.875-1.431A.998.998 0 0 1 19 3v4.849q.407 1.295.67 2.627A19 19 0 0 1 20 14a5.8 5.8 0 0 1-.356 2.036a7 7 0 0 1-.82 1.531l-.013.018a8.06 8.06 0 0 1-2.905 2.48c-3.658 1.873-8.29.879-10.717-2.48l-.013-.018a7 7 0 0 1-.82-1.531A5.8 5.8 0 0 1 4 14a19 19 0 0 1 .33-3.524q.263-1.332.67-2.627");
+  d: path("M6 8V3a6.42 6.42 0 0 1 4 3c1.316-.3 2.684-.3 4 0a6.42 6.42 0 0 1 4-3v5c.5 1.6 1 3.5 1 6c0 1.152-.356 2.063-1 3c-1.384 1.915-3.651 2.999-6 3c-2.349-.001-4.616-1.085-6-3c-.644-.937-1-1.848-1-3c0-2.5.5-4.4 1-6");
+}
+
+.ft5dv1b6b {
+  fill: none;
 }
 
 .ot9k8kbpn {

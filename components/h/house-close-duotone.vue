@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="jbyvjlb7k"/><path class="q9a7j1bmf"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="wih4d2b7q"/><path class="m7c814kzp"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:house-close-duotone" /></template>
 <style>
@@ -12,18 +12,18 @@ const content = `<g class="ft5dv1b6b"><path class="jbyvjlb7k"/><path class="q9a7
   fill: none;
 }
 
-.jbyvjlb7k {
-  fill: currentColor;
-  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M18 22H6a3 3 0 0 1-3-3v-7c0-1.039.578-1.992 1.293-2.707l6-6a2.414 2.414 0 0 1 3.414 0l6 6C20.422 10.008 21 10.961 21 12v7a3 3 0 0 1-3 3");
-}
-
-.q9a7j1bmf {
+.m7c814kzp {
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-width: var(--svg-stroke-width--2px, 2px);
-  d: path("m16 7l3 3c.64.64 1 1.36 1 2v7a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-7c0-.64.36-1.36 1-2l6-6a1.414 1.414 0 0 1 2 0zm-6 5l4 4m0-4l-4 4");
+  d: path("M12 21H6a2 2 0 0 1-2-2v-8.092a2 2 0 0 1 .683-1.506l6-5.25a2 2 0 0 1 2.634 0l6 5.25A2 2 0 0 1 20 10.908V19a2 2 0 0 1-2 2zm-2-9l4 4m0-4l-4 4");
+}
+
+.wih4d2b7q {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
+  d: path("M6 21a2 2 0 0 1-2-2v-8.092c0-.577.249-1.126.683-1.506l6-5.25a2 2 0 0 1 2.634 0l6 5.25c.434.38.683.929.683 1.506V19a2 2 0 0 1-2 2Z");
 }
 
 </style>

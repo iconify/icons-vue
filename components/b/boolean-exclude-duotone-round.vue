@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="pb5uu9bun"/><path class="a6f5g6btf"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="gghuihl5s"/><path class="a6f5g6btf"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:boolean-exclude-duotone-round" /></template>
 <style>
@@ -20,10 +20,10 @@ const content = `<g class="ft5dv1b6b"><path class="pb5uu9bun"/><path class="a6f5
   fill: none;
 }
 
-.pb5uu9bun {
+.gghuihl5s {
   fill: currentColor;
   fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M16 8h3a3 3 0 0 1 3 3v8a3 3 0 0 1-3 3h-8a3 3 0 0 1-3-3v-3H5a3 3 0 0 1-3-3V5a3 3 0 0 1 3-3h8a3 3 0 0 1 3 3Zm-6 6h3a.997.997 0 0 0 1-1v-3h-3a.997.997 0 0 0-1 1Z");
+  d: path("M9 19v-4h4a2 2 0 0 0 2-2V9h4a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-8a2 2 0 0 1-2-2m6-14v4h-4a2 2 0 0 0-2 2v4H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2");
 }
 
 </style>

@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="cuyn6tgcc"><path class="mcg_oib0e"/><path class="scc1kvjkf"/></g>`;
+const content = `<g class="cuyn6tgcc"><path class="p76o-3bag"/><path class="scc1kvjkf"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:zap-off-bulk" /></template>
 <style>
@@ -12,9 +12,9 @@ const content = `<g class="cuyn6tgcc"><path class="mcg_oib0e"/><path class="scc1
   fill: currentColor;
 }
 
-.mcg_oib0e {
+.p76o-3bag {
   fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
-  d: path("M16.828 15.586L8.414 7.172l3.879-3.879c.182-.182.398-.326.635-.424c.69-.286 1.561-.163 1.932.549c.093.18.141.379.14.582v6h4c.203-.001.402.047.582.14c.712.371.835 1.242.549 1.932a2 2 0 0 1-.424.635Zm-2.121 2.121l-3 3a2 2 0 0 1-.635.424c-.69.286-1.561.163-1.932-.549A1.25 1.25 0 0 1 9 20v-6H5a1.25 1.25 0 0 1-.582-.14c-.712-.371-.835-1.242-.549-1.932c.098-.237.242-.453.424-.635l2-2Z");
+  d: path("M16.275 15.032L8.826 7.584l3.519-4.424A1.35 1.35 0 0 1 14.75 4v5H18a1.483 1.483 0 0 1 1.16 2.405Zm-1.88 2.363l-2.74 3.445A1.35 1.35 0 0 1 9.25 20v-5H6a1.483 1.483 0 0 1-1.16-2.405l2.107-2.648Z");
 }
 
 .scc1kvjkf {

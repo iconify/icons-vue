@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="ytyn1kb9c"/><path class="a14vpk97p"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="tl7pvfbbg"/><path class="a14vpk97p"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:wind-turbine-duotone-round" /></template>
 <style>
@@ -20,10 +20,10 @@ const content = `<g class="ft5dv1b6b"><path class="ytyn1kb9c"/><path class="a14v
   fill: none;
 }
 
-.ytyn1kb9c {
+.tl7pvfbbg {
   fill: currentColor;
   fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M11 3a1 1 0 0 1 1.555-.832c.981.654 1.618 1.652 1.904 2.787c.317 1.264.213 2.598-.074 3.857a1 1 0 0 1-1.361.7l-1.41-.59A1 1 0 0 1 11 8ZM6.438 14.366a1 1 0 0 1-1.498-.93c.076-1.177.621-2.228 1.461-3.042c.936-.908 2.144-1.484 3.378-1.866a1 1 0 0 1 1.287.829l.194 1.516a1 1 0 0 1-.492.993Zm12.124-1.732a1 1 0 0 1-.057 1.762c-1.057.523-2.239.576-3.365.256c-1.254-.357-2.356-1.115-3.304-1.993a1 1 0 0 1 .074-1.528l1.216-.927a1 1 0 0 1 1.106-.07Z");
+  d: path("M12 8V3c1.835 1.226 1.85 3.657 1.41 5.59Zm-1.732 3l-4.33 2.5c.144-2.202 2.242-3.43 4.136-4.016Zm3.464 0l4.33 2.5c-1.979.977-4.092-.227-5.546-1.574Z");
 }
 
 </style>

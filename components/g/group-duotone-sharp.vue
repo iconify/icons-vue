@@ -4,14 +4,14 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="ei2ayfvok"/><path class="eul4pkbhp"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="e_-4zobrf"/><path class="eul4pkbhp"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:group-duotone-sharp" /></template>
 <style>
-.ei2ayfvok {
+.e_-4zobrf {
   fill: currentColor;
   fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M9 17v-5a1 1 0 0 1 1-1h7a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1h-7a1 1 0 0 1-1-1");
+  d: path("M10 12h7v5h-7Z");
 }
 
 .eul4pkbhp {

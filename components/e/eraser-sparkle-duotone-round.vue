@@ -4,18 +4,18 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="d-coozbch"/><path class="v2pjf6bzm"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="khpm-rqcb"/><path class="v2pjf6bzm"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:eraser-sparkle-duotone-round" /></template>
 <style>
-.d-coozbch {
-  fill: currentColor;
-  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M6 3c.002 1.005 1.995 2.998 3 3c-1.005.002-2.998 1.995-3 3c-.002-1.005-1.995-2.998-3-3c1.005-.002 2.998-1.995 3-3m.293 10.293l7-7a3.83 3.83 0 0 1 5.414 0l1 1a3.83 3.83 0 0 1 0 5.414l-8 8A1 1 0 0 1 11 21H7a1 1 0 0 1-.707-.293a5.243 5.243 0 0 1 0-7.414");
-}
-
 .ft5dv1b6b {
   fill: none;
+}
+
+.khpm-rqcb {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
+  d: path("M6 3c.002 1.005 1.995 2.998 3 3c-1.005.002-2.998 1.995-3 3c-.002-1.005-1.995-2.998-3-3c1.005-.002 2.998-1.995 3-3m1 11l7-7a2.83 2.83 0 0 1 4 0l1 1a2.83 2.83 0 0 1 0 4l-8 8H7a4.24 4.24 0 0 1 0-6");
 }
 
 .v2pjf6bzm {

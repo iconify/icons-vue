@@ -1,19 +1,20 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
 import '../../css/x/xn5eo9bqs.css';
-import '../../css/s/si0hl7bio.css';
-import '../../css/u/uhdtx0bqo.css';
-import '../../css/y/yxvkoj-yz.css';
-import '../../css/q/q67n8obsq.css';
-import '../../css/h/htxh0eb3w.css';
-import '../../css/l/lz5mk4bva.css';
-import '../../css/x/x-6j4jtbf.css';
-import '../../css/d/ddvihvbgj.css';
-import '../../css/l/lfv_uut9s.css';
+import '../../css/s/sa4fysb8c.css';
+import '../../css/d/dd3zrjbuz.css';
+import '../../css/w/w8x877lvf.css';
+import '../../css/h/hz2mf3biw.css';
+import '../../css/s/sreb2xbns.css';
+import '../../css/j/jf6ujqbxl.css';
+import '../../css/a/aij78c2bw.css';
+import '../../css/t/tej_gcber.css';
+import '../../css/x/x1-1ykboc.css';
+import '../../css/k/kfqpaxbym.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="xn5eo9bqs"><path class="si0hl7bio"/><path class="uhdtx0bqo"/><path class="yxvkoj-yz"/><path class="q67n8obsq"/><path class="htxh0eb3w"/><path class="lz5mk4bva"/><path class="x-6j4jtbf"/><path class="ddvihvbgj"/><path class="lfv_uut9s"/></g>`;
+const content = `<g class="xn5eo9bqs"><path class="sa4fysb8c"/><path class="dd3zrjbuz"/><path class="w8x877lvf"/><path class="hz2mf3biw"/><path class="sreb2xbns"/><path class="jf6ujqbxl"/><path class="aij78c2bw"/><path class="tej_gcber"/><path class="x1-1ykboc"/><path class="kfqpaxbym"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="matita:matita" /></template>

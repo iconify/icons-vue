@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/cbi",
   "type": "module",
-  "version": "1.0.55",
+  "version": "1.0.56",
   "homepage": "https://icon-sets.iconify.design/cbi/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "CC-BY-NC-SA-4.0",
@@ -3257,6 +3257,10 @@
     "./letsencrypt": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/l/letsencrypt.vue"
+    },
+    "./levoit-air-purifier": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/levoit-air-purifier.vue"
     },
     "./lexus": {
       "types": "./types/dd0bq22g.d.ts",

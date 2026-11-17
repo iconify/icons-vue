@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/simple-icons",
   "type": "module",
-  "version": "1.0.52",
+  "version": "1.0.53",
   "homepage": "https://icon-sets.iconify.design/simple-icons/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "CC0-1.0",
@@ -6910,6 +6910,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/k/kitsu.vue"
     },
+    "./kitty": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kitty.vue"
+    },
     "./kiwix": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/k/kiwix.vue"
@@ -13261,6 +13265,10 @@
     "./traefikproxy": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/traefikproxy.vue"
+    },
+    "./trafficdotcv": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/trafficdotcv.vue"
     },
     "./trailforks": {
       "types": "./types/dd0bq22g.d.ts",

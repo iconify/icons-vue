@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/devicon-plain",
   "type": "module",
-  "version": "1.0.35",
+  "version": "1.0.36",
   "homepage": "https://icon-sets.iconify.design/devicon-plain/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -1553,6 +1553,10 @@
     "./karma": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/k/karma.vue"
+    },
+    "./kate": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/k/kate.vue"
     },
     "./kdeneon": {
       "types": "./types/dd0bq22g.d.ts",

@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/thesvg-color",
   "type": "module",
-  "version": "1.0.27",
+  "version": "1.0.28",
   "homepage": "https://icon-sets.iconify.design/thesvg-color/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -1109,6 +1109,10 @@
     "./apifox": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/apifox.vue"
+    },
+    "./apiko": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/apiko.vue"
     },
     "./apl": {
       "types": "./types/dd0bq22g.d.ts",
@@ -6782,13 +6786,21 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/glif.vue"
     },
-    "./glincker-dark": {
+    "./glincker-legacy-dark": {
       "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/g/glincker-dark.vue"
+      "default": "./components/g/glincker-legacy-dark.vue"
     },
-    "./glincker-light": {
+    "./glincker-legacy-light": {
       "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/g/glincker-light.vue"
+      "default": "./components/g/glincker-legacy-light.vue"
+    },
+    "./glinr-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/glinr-dark.vue"
+    },
+    "./glinr-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/glinr-light.vue"
     },
     "./glitch": {
       "types": "./types/dd0bq22g.d.ts",
@@ -20881,6 +20893,14 @@
     "./fans": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/fans.vue"
+    },
+    "./glincker-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/glincker-dark.vue"
+    },
+    "./glincker-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/glincker-light.vue"
     },
     "./mastra": {
       "types": "./types/dd0bq22g.d.ts",

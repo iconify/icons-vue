@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/thesvg",
   "type": "module",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "homepage": "https://icon-sets.iconify.design/thesvg/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -841,6 +841,10 @@
     "./apifox": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/apifox.vue"
+    },
+    "./apiko": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/apiko.vue"
     },
     "./apl": {
       "types": "./types/dd0bq22g.d.ts",
@@ -5022,9 +5026,13 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/glif.vue"
     },
-    "./glincker": {
+    "./glincker-legacy": {
       "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/g/glincker.vue"
+      "default": "./components/g/glincker-legacy.vue"
+    },
+    "./glinr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/glinr.vue"
     },
     "./glitch": {
       "types": "./types/dd0bq22g.d.ts",
@@ -15229,6 +15237,10 @@
     "./confluence": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/confluence.vue"
+    },
+    "./glincker": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/glincker.vue"
     },
     "./*": "./*"
   },

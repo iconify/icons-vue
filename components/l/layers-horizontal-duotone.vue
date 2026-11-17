@@ -1,0 +1,30 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="nrj6p8qat"><path class="u9gj2tg-a"/><path class="j2020s62y"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:layers-horizontal-duotone" /></template>
+<style>
+.j2020s62y {
+  d: path("M12.625 2L17.2864 11.562C17.4212 11.838 17.4212 12.162 17.2864 12.438L12.625 22M17.2375 2L21.8989 11.562C22.0337 11.838 22.0337 12.162 21.8989 12.438L17.2375 22");
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.u9gj2tg-a {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M5.5899 2.124C6.3202 0.626 8.4552 0.626 9.1856 2.124L13.5733 11.124C13.8426 11.677 13.8425 12.323 13.5733 12.876L9.1856 21.876C8.4552 23.374 6.3202 23.374 5.5899 21.876L1.2022 12.876C0.9328 12.323 0.9328 11.677 1.2022 11.124L5.5899 2.124Z");
+  stroke: none;
+}
+
+</style>

@@ -1,0 +1,30 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="nrj6p8qat"><path class="jc1e50bfr"/><path class="g1r3w4bnh"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:window-awning-open-two-tone" /></template>
+<style>
+.g1r3w4bnh {
+  d: path("M12 3H4.8417C4.3553 3 3.9394 3.35 3.8564 3.829L3.0477 8.5L2.3106 12.757C2.1528 13.389 2.6302 14 3.2808 14H4M4 14H20M4 14V21M3.0477 8.5H20.9523M20 14H20.7192C21.3698 14 21.8472 13.389 21.6894 12.757L20.9523 8.5L20.1436 3.829C20.0606 3.35 19.6447 3 19.1583 3H12M12 3V14M20 14V21M2 21H22");
+}
+
+.jc1e50bfr {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M19.1582 2C20.1311 2 20.9629 2.701 21.1289 3.659L22.6748 12.587H22.6729C22.9161 13.731 22.1294 14.82 21 14.978V20H22C22.5523 20 23 20.448 23 21C23 21.552 22.5523 22 22 22H2C1.4477 22 1 21.552 1 21C1 20.448 1.4477 20 2 20H3V14.978C1.8706 14.82 1.0839 13.731 1.3271 12.587H1.3252L2.8711 3.659C3.0371 2.701 3.8689 2 4.8418 2H19.1582Z");
+  stroke: none;
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+</style>

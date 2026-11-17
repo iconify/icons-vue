@@ -1,0 +1,35 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="gp_8x1bzb"><path class="zw_tbcbml"/><path class="kxmdcyb1l"/><path class="ifgz10bgv"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:route-arrow-right-sharp-duotone" /></template>
+<style>
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.ifgz10bgv {
+  d: path("M15 5H10.5C8.567 5 7 6.567 7 8.5C7 10.433 8.567 12 10.5 12H14.5C16.433 12 18 13.567 18 15.5C18 17.433 16.433 19 14.5 19H9");
+}
+
+.kxmdcyb1l {
+  fill: currentColor;
+  d: path("M14.475 1.149C14.769 0.967 15.137 0.951 15.447 1.105L21.447 4.105C21.786 4.275 22 4.621 22 5C22 5.379 21.786 5.725 21.447 5.895L15.447 8.895C15.137 9.049 14.769 9.033 14.475 8.851C14.18 8.668 14 8.347 14 8V2C14 1.653 14.18 1.332 14.475 1.149Z");
+  stroke: none;
+}
+
+.zw_tbcbml {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M10 19C10 21.209 8.209 23 6 23C3.791 23 2 21.209 2 19C2 16.791 3.791 15 6 15C8.209 15 10 16.791 10 19Z");
+  stroke: none;
+}
+
+</style>

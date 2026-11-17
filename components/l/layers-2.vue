@@ -1,0 +1,20 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="indk50buq"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:layers-2" /></template>
+<style>
+.indk50buq {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M9.7599 12L2.5618 15.582C1.8127 15.955 1.8127 17.045 2.5618 17.418L11.5618 21.897C11.8384 22.034 12.1616 22.034 12.4382 21.897L21.4382 17.418C22.1873 17.045 22.1873 15.955 21.4382 15.582L14.2401 12M14.2401 12L12.4382 12.897C12.1616 13.034 11.8384 13.034 11.5618 12.897L9.7599 12L2.5618 8.418C1.8127 8.045 1.8127 6.955 2.5618 6.582L11.5618 2.103C11.8384 1.966 12.1616 1.966 12.4382 2.103L21.4381 6.582C22.1872 6.955 22.1872 8.045 21.4381 8.418L14.2401 12Z");
+}
+
+</style>

@@ -1,0 +1,30 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="nrj6p8qat"><path class="kve-90i7o"/><path clip-rule="evenodd" class="l_zqhn18i"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:cloud-sun-rain" /></template>
+<style>
+.kve-90i7o {
+  d: path("M8.5 18.598C7.5718 18.062 7 17.072 7 16C7 14.343 8.3431 13 10 13C10 10.515 12.0147 8.5 14.5 8.5C16.9853 8.5 19 10.515 19 13C20.6569 13 22 14.343 22 16C22 17.072 21.4282 18.062 20.5 18.598M6.4672 9.955C6.1634 9.531 6 9.022 6 8.5C6 7.119 7.1193 6 8.5 6C8.8173 6 9.1317 6.06 9.4264 6.178M12.5 19V22M16.5 19V22");
+}
+
+.l_zqhn18i {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M3 8.5C3 9.052 2.5523 9.5 2 9.5C1.4477 9.5 1 9.052 1 8.5C1 7.948 1.4477 7.5 2 7.5C2.5523 7.5 3 7.948 3 8.5ZM4.9038 3.904C4.9038 4.456 4.4561 4.904 3.9038 4.904C3.3515 4.904 2.9038 4.456 2.9038 3.904C2.9038 3.352 3.3515 2.904 3.9038 2.904C4.4561 2.904 4.9038 3.352 4.9038 3.904ZM9.5 2C9.5 2.552 9.0523 3 8.5 3C7.9477 3 7.5 2.552 7.5 2C7.5 1.448 7.9477 1 8.5 1C9.0523 1 9.5 1.448 9.5 2ZM14.0962 3.904C14.0962 4.456 13.6485 4.904 13.0962 4.904C12.5439 4.904 12.0962 4.456 12.0962 3.904C12.0962 3.352 12.5439 2.904 13.0962 2.904C13.6485 2.904 14.0962 3.352 14.0962 3.904Z");
+  stroke: none;
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+</style>

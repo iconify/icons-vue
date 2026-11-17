@@ -1,0 +1,20 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="koyb21adg"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:lamp" /></template>
+<style>
+.koyb21adg {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M14 10V11C14 12.6 17 13 17 15.5C17 18.5 15 19.6 14.5 22M10 10V11C10 12.6 7 13 7 15.5C7 18.5 9 19.6 9.5 22M4 22H20M7.7035 2.449C7.8886 2.168 8.202 2 8.5378 2H15.4622C15.798 2 16.1114 2.168 16.2965 2.449L19.7489 7.673C20.4079 8.67 19.6928 10 18.4975 10H5.5025C4.3072 10 3.5921 8.67 4.2511 7.673L7.7035 2.449Z");
+}
+
+</style>

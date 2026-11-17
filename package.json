@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/pinhead",
   "type": "module",
-  "version": "1.0.42",
+  "version": "1.0.43",
   "homepage": "https://icon-sets.iconify.design/pinhead/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "CC0-1.0",
@@ -11021,6 +11021,10 @@
     "./vending-machine-with-heart": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/v/vending-machine-with-heart.vue"
+    },
+    "./vending-machine-with-ice-pop": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vending-machine-with-ice-pop.vue"
     },
     "./vending-machine-with-mars": {
       "types": "./types/dd0bq22g.d.ts",

@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/evicons",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://icon-sets.iconify.design/evicons/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -17,6 +17,10 @@
     "./battery-charging": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/battery-charging.vue"
+    },
+    "./battery-level": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/battery-level.vue"
     },
     "./bidirectional-charging": {
       "types": "./types/dd0bq22g.d.ts",
@@ -125,6 +129,10 @@
     "./driving-range": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/driving-range.vue"
+    },
+    "./energy-kwh": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/energy-kwh.vue"
     },
     "./fast-charging": {
       "types": "./types/dd0bq22g.d.ts",
@@ -258,6 +266,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/plug-type-2.vue"
     },
+    "./plug-type-e": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/plug-type-e.vue"
+    },
     "./power-kw": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/power-kw.vue"
@@ -290,6 +302,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/r/route-to-charger.vue"
     },
+    "./scheduled-charging": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/scheduled-charging.vue"
+    },
     "./shop-charging": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/shop-charging.vue"
@@ -306,6 +322,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/status-available.vue"
     },
+    "./status-blocked": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/status-blocked.vue"
+    },
     "./status-faulted": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/status-faulted.vue"
@@ -317,6 +337,10 @@
     "./status-out-of-service": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/status-out-of-service.vue"
+    },
+    "./status-planned": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/status-planned.vue"
     },
     "./status-queue": {
       "types": "./types/dd0bq22g.d.ts",

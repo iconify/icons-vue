@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/devicon-plain",
   "type": "module",
-  "version": "1.0.36",
+  "version": "1.0.37",
   "homepage": "https://icon-sets.iconify.design/devicon-plain/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -129,6 +129,14 @@
     "./apacheairflow-wordmark": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/apacheairflow-wordmark.vue"
+    },
+    "./apacheflink": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/apacheflink.vue"
+    },
+    "./apacheflink-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/apacheflink-wordmark.vue"
     },
     "./apacheignite-wordmark": {
       "types": "./types/dd0bq22g.d.ts",
@@ -961,6 +969,10 @@
     "./gardener": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/gardener.vue"
+    },
+    "./gate": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gate.vue"
     },
     "./gatling": {
       "types": "./types/dd0bq22g.d.ts",
@@ -2521,6 +2533,14 @@
     "./quasar-wordmark": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/q/quasar-wordmark.vue"
+    },
+    "./qwen": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/qwen.vue"
+    },
+    "./qwen-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/qwen-wordmark.vue"
     },
     "./qwik": {
       "types": "./types/dd0bq22g.d.ts",

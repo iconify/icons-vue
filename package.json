@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/token",
   "type": "module",
-  "version": "1.0.22",
+  "version": "1.0.23",
   "homepage": "https://icon-sets.iconify.design/token/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -202,6 +202,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/akt.vue"
     },
+    "./albedo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/albedo.vue"
+    },
     "./alcx": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/alcx.vue"
@@ -373,6 +377,10 @@
     "./aqtis": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/aqtis.vue"
+    },
+    "./aquarius": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/aquarius.vue"
     },
     "./ar": {
       "types": "./types/dd0bq22g.d.ts",
@@ -825,6 +833,10 @@
     "./blid": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/blid.vue"
+    },
+    "./blnd": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/blnd.vue"
     },
     "./block": {
       "types": "./types/dd0bq22g.d.ts",
@@ -3618,6 +3630,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/l/lmwr.vue"
     },
+    "./lobstr": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/lobstr.vue"
+    },
     "./loc": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/l/loc.vue"
@@ -5250,6 +5266,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/r/rabbit.vue"
     },
+    "./rabet": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rabet.vue"
+    },
     "./rad": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/r/rad.vue"
@@ -5909,6 +5929,10 @@
     "./sophen": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/sophen.vue"
+    },
+    "./soroswap": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/soroswap.vue"
     },
     "./soul": {
       "types": "./types/dd0bq22g.d.ts",
@@ -6726,6 +6750,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/v/vara.vue"
     },
+    "./varial": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/varial.vue"
+    },
     "./vaulta": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/v/vaulta.vue"
@@ -7121,6 +7149,10 @@
     "./xava": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/x/xava.vue"
+    },
+    "./xbull": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/x/xbull.vue"
     },
     "./xcad": {
       "types": "./types/dd0bq22g.d.ts",

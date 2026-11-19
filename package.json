@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/mynaui",
   "type": "module",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "homepage": "https://icon-sets.iconify.design/mynaui/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -9293,6 +9293,14 @@
     "./square-solid": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/square-solid.vue"
+    },
+    "./stamp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stamp.vue"
+    },
+    "./stamp-solid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stamp-solid.vue"
     },
     "./star": {
       "types": "./types/dd0bq22g.d.ts",

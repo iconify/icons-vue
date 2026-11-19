@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/selfhst",
   "type": "module",
-  "version": "1.0.32",
+  "version": "1.0.33",
   "homepage": "https://icon-sets.iconify.design/selfhst/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "CC-BY-4.0",
@@ -1521,6 +1521,18 @@
     "./ars-technica-light": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/ars-technica-light.vue"
+    },
+    "./artcraft": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/artcraft.vue"
+    },
+    "./artcraft-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/artcraft-dark.vue"
+    },
+    "./artcraft-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/artcraft-light.vue"
     },
     "./asciinema": {
       "types": "./types/dd0bq22g.d.ts",
@@ -6681,6 +6693,18 @@
     "./excalidraw-light": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/e/excalidraw-light.vue"
+    },
+    "./excaliself": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/excaliself.vue"
+    },
+    "./excaliself-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/excaliself-dark.vue"
+    },
+    "./excaliself-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/excaliself-light.vue"
     },
     "./exclaimer": {
       "types": "./types/dd0bq22g.d.ts",
@@ -16946,6 +16970,18 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/n/nodyx-light.vue"
     },
+    "./nogon": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nogon.vue"
+    },
+    "./nogon-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nogon-dark.vue"
+    },
+    "./nogon-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nogon-light.vue"
+    },
     "./nomad-travel": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/n/nomad-travel.vue"
@@ -17389,6 +17425,18 @@
     "./nyt-wordle-light": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/n/nyt-wordle-light.vue"
+    },
+    "./nyxiontech-pdf-tools": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nyxiontech-pdf-tools.vue"
+    },
+    "./nyxiontech-pdf-tools-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nyxiontech-pdf-tools-dark.vue"
+    },
+    "./nyxiontech-pdf-tools-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nyxiontech-pdf-tools-light.vue"
     },
     "./nzb-dav": {
       "types": "./types/dd0bq22g.d.ts",
@@ -18358,6 +18406,18 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/o/opentelemetry-light.vue"
     },
+    "./opentodo": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/opentodo.vue"
+    },
+    "./opentodo-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/opentodo-dark.vue"
+    },
+    "./opentodo-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/opentodo-light.vue"
+    },
     "./opentofu": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/o/opentofu.vue"
@@ -18613,6 +18673,18 @@
     "./orca-slicer-light": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/o/orca-slicer-light.vue"
+    },
+    "./orcah-studio": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/orcah-studio.vue"
+    },
+    "./orcah-studio-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/orcah-studio-dark.vue"
+    },
+    "./orcah-studio-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/orcah-studio-light.vue"
     },
     "./origamivault": {
       "types": "./types/dd0bq22g.d.ts",
@@ -19481,6 +19553,18 @@
     "./pgsty-silo-light": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/pgsty-silo-light.vue"
+    },
+    "./ph-intercept": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/ph-intercept.vue"
+    },
+    "./ph-intercept-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/ph-intercept-dark.vue"
+    },
+    "./ph-intercept-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/ph-intercept-light.vue"
     },
     "./phanpy": {
       "types": "./types/dd0bq22g.d.ts",
@@ -23306,6 +23390,18 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/scrutiny-light.vue"
     },
+    "./scryer": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/scryer.vue"
+    },
+    "./scryer-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/scryer-dark.vue"
+    },
+    "./scryer-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/scryer-light.vue"
+    },
     "./scrypted": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/scrypted.vue"
@@ -25758,6 +25854,18 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/teleport-light.vue"
     },
+    "./telltaledns": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/telltaledns.vue"
+    },
+    "./telltaledns-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/telltaledns-dark.vue"
+    },
+    "./telltaledns-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/telltaledns-light.vue"
+    },
     "./temps": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/temps.vue"
@@ -27322,6 +27430,18 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/u/upvote-rss-light.vue"
     },
+    "./uruky": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/uruky.vue"
+    },
+    "./uruky-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/uruky-dark.vue"
+    },
+    "./uruky-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/uruky-light.vue"
+    },
     "./us-mobile": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/u/us-mobile.vue"
@@ -27385,6 +27505,18 @@
     "./utorrent-light": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/u/utorrent-light.vue"
+    },
+    "./uxwizz": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/uxwizz.vue"
+    },
+    "./uxwizz-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/uxwizz-dark.vue"
+    },
+    "./uxwizz-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/uxwizz-light.vue"
     },
     "./v2raya": {
       "types": "./types/dd0bq22g.d.ts",
@@ -27673,6 +27805,18 @@
     "./vidzy-light": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/v/vidzy-light.vue"
+    },
+    "./vigilant-monitor": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vigilant-monitor.vue"
+    },
+    "./vigilant-monitor-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vigilant-monitor-dark.vue"
+    },
+    "./vigilant-monitor-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vigilant-monitor-light.vue"
     },
     "./vikunja": {
       "types": "./types/dd0bq22g.d.ts",
@@ -28222,6 +28366,18 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/w/wavelog-light.vue"
     },
+    "./waydroid": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/waydroid.vue"
+    },
+    "./waydroid-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/waydroid-dark.vue"
+    },
+    "./waydroid-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/waydroid-light.vue"
+    },
     "./waze": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/w/waze.vue"
@@ -28605,6 +28761,18 @@
     "./windshift": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/w/windshift.vue"
+    },
+    "./wintertrace": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wintertrace.vue"
+    },
+    "./wintertrace-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wintertrace-dark.vue"
+    },
+    "./wintertrace-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wintertrace-light.vue"
     },
     "./wiredoor": {
       "types": "./types/dd0bq22g.d.ts",

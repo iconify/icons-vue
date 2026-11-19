@@ -1,12 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/h/hntgybcog.css';
-import '../../css/y/yv3jn7vjn.css';
-import '../../css/u/ui7vyv9lr.css';
+import '../../css/n/nplz0_bdz.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="hntgybcog"><path class="yv3jn7vjn"/><path class="ui7vyv9lr"/></g>`;
+const content = `<path class="nplz0_bdz"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="andrsrxn:check-double" /></template>

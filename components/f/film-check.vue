@@ -2,11 +2,11 @@
 import { Icon } from '@iconify/css-vue';
 import '../../css/f/ft5dv1b6b.css';
 import '../../css/w/w69pz5srx.css';
-import '../../css/t/tsyaufb5a.css';
+import '../../css/b/bx9pksb2y.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="w69pz5srx"/><path class="tsyaufb5a"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="w69pz5srx"/><path class="bx9pksb2y"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="andrsrxn:film-check" /></template>

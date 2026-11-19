@@ -1,0 +1,7 @@
+.t50nn_bmc {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M5.23 12h12.09m-9.31 3.19V8.8m3.33 6.39V8.8m3.32 6.39V8.8");
+}

@@ -1,16 +1,16 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
 import '../../css/f/ft5dv1b6b.css';
-import '../../css/b/bxr-pzb2a.css';
-import '../../css/s/sfok2h7eh.css';
-import '../../css/b/b_-gkxb7l.css';
-import '../../css/e/e8ljvv22o.css';
-import '../../css/v/vppvk20zr.css';
-import '../../css/x/x9g6iubus.css';
+import '../../css/k/kiw9zd1sw.css';
+import '../../css/t/tjngfebbg.css';
+import '../../css/m/mmr0x_b2r.css';
+import '../../css/p/p1tagdbtt.css';
+import '../../css/v/v1jbi7bnm.css';
+import '../../css/k/kt3ak7b5c.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><circle transform="rotate(90 19 18.68)" class="bxr-pzb2a"/><path class="sfok2h7eh"/><path class="b_-gkxb7l"/><path class="e8ljvv22o"/><path class="vppvk20zr"/><path class="x9g6iubus"/></g>`;
+const content = `<g class="ft5dv1b6b"><circle class="kiw9zd1sw"/><path class="tjngfebbg"/><path class="mmr0x_b2r"/><path class="p1tagdbtt"/><path class="v1jbi7bnm"/><path class="kt3ak7b5c"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="andrsrxn:user-prohibit" /></template>

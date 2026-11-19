@@ -1,0 +1,7 @@
+.lovowablv {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M10.46 11.16v5.46h.98c2.83 0 4.25 0 5.13-.88s.87-2.3.87-5.12v-2.5");
+}

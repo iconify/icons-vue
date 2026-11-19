@@ -1,0 +1,6 @@
+.n_r2ripro {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M2.78 17.26v-6.63c0-5.32 4.64-8.21 9.23-8.21s9.26 2.9 9.26 8.21v6.63");
+}

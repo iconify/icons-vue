@@ -1,0 +1,7 @@
+.blnanb_bb {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M1.7 12c0-3.77 0-5.66 1.18-6.83C4.05 4 5.94 4 9.7 4h4.58c3.77 0 5.66 0 6.83 1.17S22.3 8.23 22.3 12s0 5.66-1.17 6.83S18.06 20 14.3 20H9.71c-3.77 0-5.66 0-6.83-1.17S1.7 15.77 1.7 12");
+}

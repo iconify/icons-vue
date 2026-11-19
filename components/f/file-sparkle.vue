@@ -1,13 +1,13 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
 import '../../css/f/ft5dv1b6b.css';
-import '../../css/a/ak_vvcbmq.css';
-import '../../css/j/jk9qlga9d.css';
-import '../../css/h/hx1_3ybbj.css';
+import '../../css/d/dmcnghoau.css';
+import '../../css/b/bge5drf7z.css';
+import '../../css/y/y4_0nvbdl.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="ak_vvcbmq"/><path class="jk9qlga9d"/><path class="hx1_3ybbj"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="dmcnghoau"/><path class="bge5drf7z"/><path class="y4_0nvbdl"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="andrsrxn:file-sparkle" /></template>

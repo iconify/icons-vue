@@ -1,0 +1,7 @@
+.sqf9_npno {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M9.08 22.47a2.92 2.92 0 0 1 5.84 0");
+}

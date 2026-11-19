@@ -1,0 +1,7 @@
+.ifgbisb2q {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M8.34 4.73a2.73 2.73 0 1 0-5.45 0a2.73 2.73 0 0 0 5.45 0");
+}

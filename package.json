@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/thesvg-color",
   "type": "module",
-  "version": "1.0.28",
+  "version": "1.0.29",
   "homepage": "https://icon-sets.iconify.design/thesvg-color/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -18973,6 +18973,14 @@
     "./ukca": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/u/ukca.vue"
+    },
+    "./ultanimus-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/ultanimus-dark.vue"
+    },
+    "./ultanimus-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/ultanimus-light.vue"
     },
     "./ultralytics": {
       "types": "./types/dd0bq22g.d.ts",

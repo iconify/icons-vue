@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/lucide",
   "type": "module",
-  "version": "1.0.90",
+  "version": "1.0.91",
   "homepage": "https://icon-sets.iconify.design/lucide/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "ISC",
@@ -2630,6 +2630,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/diagram-flow-vertical.vue"
     },
+    "./diagram-sankey": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/diagram-sankey.vue"
+    },
     "./diameter": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/diameter.vue"
@@ -4238,6 +4242,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/i/iv-bag.vue"
     },
+    "./jacket": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jacket.vue"
+    },
     "./japanese-yen": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/j/japanese-yen.vue"
@@ -5597,6 +5605,10 @@
     "./paint-bucket": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/paint-bucket.vue"
+    },
+    "./paint-gun": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/paint-gun.vue"
     },
     "./paint-roller": {
       "types": "./types/dd0bq22g.d.ts",

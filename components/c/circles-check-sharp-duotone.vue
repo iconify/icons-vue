@@ -1,0 +1,24 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="cuyn6tgcc"><path class="gtyvgub8n"/><path class="r45m__40x"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:circles-check-sharp-duotone" /></template>
+<style>
+.cuyn6tgcc {
+  fill: currentColor;
+}
+
+.gtyvgub8n {
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M7.2027 16.7973C3.6498 15.9817 1 12.8003 1 9C1 4.5817 4.5817 1 9 1C12.8003 1 15.9817 3.6498 16.7973 7.2027C16.2196 7.0701 15.618 7 15 7C10.5817 7 7 10.5817 7 15C7 15.618 7.0701 16.2196 7.2027 16.7973Z");
+}
+
+.r45m__40x {
+  d: path("M23 15C23 19.4183 19.4183 23 15 23C10.5817 23 7 19.4183 7 15C7 10.5817 10.5817 7 15 7C19.4183 7 23 10.5817 23 15ZM12.9142 14L11.5 15.4142L11.7929 15.7071L13.7929 17.7071C14.1834 18.0976 14.8166 18.0976 15.2071 17.7071L18.2071 14.7071L18.5 14.4142L17.0858 13L16.7929 13.2929L14.5 15.5858L13.2071 14.2929Z");
+}
+
+</style>

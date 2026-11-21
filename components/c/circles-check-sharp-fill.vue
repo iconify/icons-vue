@@ -1,0 +1,23 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="cuyn6tgcc"><path class="ny8gg_b7p"/><path class="r45m__40x"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:circles-check-sharp-fill" /></template>
+<style>
+.cuyn6tgcc {
+  fill: currentColor;
+}
+
+.ny8gg_b7p {
+  d: path("M3.3431 3.3431C4.7898 1.8965 6.7911 1 9 1C11.2076 1 13.2089 1.8952 14.6563 3.3424C14.8439 3.53 14.9493 3.7843 14.9493 4.0496C14.9493 4.5653 14.5571 4.9964 14.0437 5.0451C11.6652 5.2707 9.5277 6.3302 7.929 7.929C6.3302 9.5277 5.2707 11.6652 5.0451 14.0437C4.9964 14.5571 4.5653 14.9493 4.0496 14.9493C3.7843 14.9493 3.53 14.8439 3.3424 14.6563C1.8952 13.2089 1 11.2076 1 9C1 6.7911 1.8965 4.7898 3.3431 3.3431Z");
+}
+
+.r45m__40x {
+  d: path("M23 15C23 19.4183 19.4183 23 15 23C10.5817 23 7 19.4183 7 15C7 10.5817 10.5817 7 15 7C19.4183 7 23 10.5817 23 15ZM12.9142 14L11.5 15.4142L11.7929 15.7071L13.7929 17.7071C14.1834 18.0976 14.8166 18.0976 15.2071 17.7071L18.2071 14.7071L18.5 14.4142L17.0858 13L16.7929 13.2929L14.5 15.5858L13.2071 14.2929Z");
+}
+
+</style>

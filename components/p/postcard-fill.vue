@@ -1,0 +1,17 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path clip-rule="evenodd" class="qvfpfmc-p"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:postcard-fill" /></template>
+<style>
+.qvfpfmc-p {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M12 3L19 3C21.2092 3 23 4.7908 23 7L23 17C23 19.2092 21.2092 21 19 21L5 21C2.7908 21 1 19.2092 1 17L1 7C1 4.7908 2.7908 3 5 3ZM16 7L15 7C13.8954 7 13 7.8954 13 9L13 11C13 12.1046 13.8954 13 15 13L17 13C18.1046 13 19 12.1046 19 11L19 9C19 7.8954 18.1046 7 17 7ZM6 11C5.4477 11 5 11.4477 5 12C5 12.5523 5.4477 13 6 13L10 13C10.5523 13 11 12.5523 11 12C11 11.4477 10.5523 11 10 11ZM6 15C5.4477 15 5 15.4477 5 16C5 16.5523 5.4477 17 6 17L14 17C14.5523 17 15 16.5523 15 16C15 15.4477 14.5523 15 14 15Z");
+}
+
+</style>

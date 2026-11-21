@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/arcticons",
   "type": "module",
-  "version": "1.0.24",
+  "version": "1.0.25",
   "homepage": "https://icon-sets.iconify.design/arcticons/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "CC-BY-SA-4.0",
@@ -39370,9 +39370,9 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/n/nothing-material-icon-pack.vue"
     },
-    "./nothing-recorder": {
+    "./nothing-recorder-alt": {
       "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/n/nothing-recorder.vue"
+      "default": "./components/n/nothing-recorder-alt.vue"
     },
     "./nothing-system-service": {
       "types": "./types/dd0bq22g.d.ts",
@@ -63201,6 +63201,10 @@
     "./normal-app": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/n/normal-app.vue"
+    },
+    "./nothing-recorder": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nothing-recorder.vue"
     },
     "./novaposhtaa": {
       "types": "./types/dd0bq22g.d.ts",

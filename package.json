@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/selfhst",
   "type": "module",
-  "version": "1.0.33",
+  "version": "1.0.34",
   "homepage": "https://icon-sets.iconify.design/selfhst/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "CC-BY-4.0",
@@ -170,6 +170,18 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/actual-budget-light.vue"
     },
+    "./actual-mcp-server": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/actual-mcp-server.vue"
+    },
+    "./actual-mcp-server-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/actual-mcp-server-dark.vue"
+    },
+    "./actual-mcp-server-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/actual-mcp-server-light.vue"
+    },
     "./adguard-home": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/adguard-home.vue"
@@ -258,9 +270,33 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/adobe-acrobat-light.vue"
     },
+    "./adobe-after-effects": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/adobe-after-effects.vue"
+    },
+    "./adobe-after-effects-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/adobe-after-effects-dark.vue"
+    },
+    "./adobe-after-effects-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/adobe-after-effects-light.vue"
+    },
     "./adobe-dark": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/adobe-dark.vue"
+    },
+    "./adobe-dreamweaver": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/adobe-dreamweaver.vue"
+    },
+    "./adobe-dreamweaver-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/adobe-dreamweaver-dark.vue"
+    },
+    "./adobe-dreamweaver-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/adobe-dreamweaver-light.vue"
     },
     "./adobe-firefly": {
       "types": "./types/dd0bq22g.d.ts",
@@ -3862,6 +3898,18 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/coder-light.vue"
     },
+    "./codetta": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/codetta.vue"
+    },
+    "./codetta-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/codetta-dark.vue"
+    },
+    "./codetta-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/codetta-light.vue"
+    },
     "./coffer": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/coffer.vue"
@@ -5365,6 +5413,18 @@
     "./docker": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/docker.vue"
+    },
+    "./docker-2017": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/docker-2017.vue"
+    },
+    "./docker-2017-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/docker-2017-dark.vue"
+    },
+    "./docker-2017-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/docker-2017-light.vue"
     },
     "./docker-dark": {
       "types": "./types/dd0bq22g.d.ts",
@@ -17006,6 +17066,30 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/n/noodle-gallery-light.vue"
     },
+    "./nordlocker": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nordlocker.vue"
+    },
+    "./nordlocker-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nordlocker-dark.vue"
+    },
+    "./nordlocker-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nordlocker-light.vue"
+    },
+    "./nordpass": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nordpass.vue"
+    },
+    "./nordpass-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nordpass-dark.vue"
+    },
+    "./nordpass-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/n/nordpass-light.vue"
+    },
     "./nordvpn": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/n/nordvpn.vue"
@@ -21974,6 +22058,18 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/r/raneto-light.vue"
     },
+    "./rarbg": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rarbg.vue"
+    },
+    "./rarbg-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rarbg-dark.vue"
+    },
+    "./rarbg-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rarbg-light.vue"
+    },
     "./raspberry-pi": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/r/raspberry-pi.vue"
@@ -25977,6 +26073,18 @@
     "./the-new-york-times-light": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/the-new-york-times-light.vue"
+    },
+    "./the-pirate-bay": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/the-pirate-bay.vue"
+    },
+    "./the-pirate-bay-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/the-pirate-bay-dark.vue"
+    },
+    "./the-pirate-bay-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/the-pirate-bay-light.vue"
     },
     "./the-verge": {
       "types": "./types/dd0bq22g.d.ts",

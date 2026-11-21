@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/thesvg-color",
   "type": "module",
-  "version": "1.0.29",
+  "version": "1.0.30",
   "homepage": "https://icon-sets.iconify.design/thesvg-color/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -3198,6 +3198,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/claude-code.vue"
     },
+    "./claude-of-tanks-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/claude-of-tanks-dark.vue"
+    },
+    "./claude-of-tanks-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/claude-of-tanks-light.vue"
+    },
     "./cleanuparr": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/cleanuparr.vue"
@@ -5710,6 +5718,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/fastgpt.vue"
     },
+    "./fastieshop": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/fastieshop.vue"
+    },
     "./fastify-dark": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/fastify-dark.vue"
@@ -6573,6 +6585,14 @@
     "./general-motors": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/general-motors.vue"
+    },
+    "./general-translation-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/general-translation-dark.vue"
+    },
+    "./general-translation-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/general-translation-light.vue"
     },
     "./genius": {
       "types": "./types/dd0bq22g.d.ts",
@@ -12973,6 +12993,14 @@
     "./openai-gym": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/o/openai-gym.vue"
+    },
+    "./openai-legacy-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/openai-legacy-dark.vue"
+    },
+    "./openai-legacy-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/openai-legacy-light.vue"
     },
     "./openai-light": {
       "types": "./types/dd0bq22g.d.ts",

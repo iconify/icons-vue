@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/octicon",
   "type": "module",
-  "version": "1.0.29",
+  "version": "1.0.30",
   "homepage": "https://icon-sets.iconify.design/octicon/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -2565,6 +2565,14 @@
     "./pin-24": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/pin-24.vue"
+    },
+    "./pin-fill-16": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pin-fill-16.vue"
+    },
+    "./pin-fill-24": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pin-fill-24.vue"
     },
     "./pin-slash-16": {
       "types": "./types/dd0bq22g.d.ts",

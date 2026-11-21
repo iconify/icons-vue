@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/devicon",
   "type": "module",
-  "version": "1.0.42",
+  "version": "1.0.43",
   "homepage": "https://icon-sets.iconify.design/devicon/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -1885,6 +1885,10 @@
     "./javascript": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/j/javascript.vue"
+    },
+    "./jax": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jax.vue"
     },
     "./jeet": {
       "types": "./types/dd0bq22g.d.ts",

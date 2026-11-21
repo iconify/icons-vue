@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/thesvg",
   "type": "module",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "homepage": "https://icon-sets.iconify.design/thesvg/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -2337,6 +2337,10 @@
     "./claude-code": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/claude-code.vue"
+    },
+    "./claude-of-tanks": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/claude-of-tanks.vue"
     },
     "./clerk": {
       "types": "./types/dd0bq22g.d.ts",
@@ -4853,6 +4857,10 @@
     "./general-motors": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/general-motors.vue"
+    },
+    "./general-translation": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/general-translation.vue"
     },
     "./genius": {
       "types": "./types/dd0bq22g.d.ts",

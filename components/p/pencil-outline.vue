@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/k/k19ti7c7w.css';
+import '../../css/n/nll5oncab.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":512,"height":512};
-const content = `<path class="k19ti7c7w"/>`;
+const content = `<path class="nll5oncab"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="ion:pencil-outline" /></template>

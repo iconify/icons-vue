@@ -11,6 +11,11 @@ Browse all icons: [preview IonIcons on Iconify](https://icon-sets.iconify.design
 ## Installation
 
 ```bash
+npm install gitlab:iconify-icons/vue#ion
+```
+
+or
+```bash
 npm install github:iconify/icons-vue#ion
 ```
 

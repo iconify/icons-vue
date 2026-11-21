@@ -1,0 +1,8 @@
+.stdxmbcpa {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--32px, 32px);
+  d: path("M16 336v-24a8 8 0 0 1 8-8a16 16 0 0 0 16-16v-64a16 16 0 0 0-16-16a8 8 0 0 1-8-8v-24");
+}

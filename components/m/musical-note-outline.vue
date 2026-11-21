@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/z/zjry3wxkj.css';
+import '../../css/y/y04k47f9d.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":512,"height":512};
-const content = `<path class="zjry3wxkj"/>`;
+const content = `<path class="y04k47f9d"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="ion:musical-note-outline" /></template>

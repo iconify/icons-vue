@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/lucide",
   "type": "module",
-  "version": "1.0.91",
+  "version": "1.0.92",
   "homepage": "https://icon-sets.iconify.design/lucide/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "ISC",
@@ -1058,6 +1058,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/box.vue"
     },
+    "./box-dashed": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/box-dashed.vue"
+    },
     "./boxes": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/boxes.vue"
@@ -1713,6 +1717,10 @@
     "./chevrons-up-down": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/chevrons-up-down.vue"
+    },
+    "./chocolate-bar": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chocolate-bar.vue"
     },
     "./chrome": {
       "types": "./types/dd0bq22g.d.ts",
@@ -3490,6 +3498,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/folder-minus.vue"
     },
+    "./folder-network": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-network.vue"
+    },
     "./folder-open": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/folder-open.vue"
@@ -3509,6 +3521,10 @@
     "./folder-plus": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/folder-plus.vue"
+    },
+    "./folder-plus-corner": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-plus-corner.vue"
     },
     "./folder-root": {
       "types": "./types/dd0bq22g.d.ts",
@@ -6162,6 +6178,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/r/rectangle-horizontal.vue"
     },
+    "./rectangle-landscape-play": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rectangle-landscape-play.vue"
+    },
     "./rectangle-vertical": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/r/rectangle-vertical.vue"
@@ -8265,6 +8285,10 @@
     "./user-round-check": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/u/user-round-check.vue"
+    },
+    "./user-round-clock": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/user-round-clock.vue"
     },
     "./user-round-cog": {
       "types": "./types/dd0bq22g.d.ts",

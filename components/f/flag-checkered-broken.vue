@@ -1,0 +1,43 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="hntgybcog"><path class="h_4zdlb5l"/><path class="risqd1qtz"/><path class="mpb4bxarg"/><path class="im41zfbfm"/><path class="e-or2_b3f"/><path class="b3s1n97rh"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:flag-checkered-broken" /></template>
+<style>
+.b3s1n97rh {
+  d: path("M14.3301 4.51501V14.4825");
+}
+
+.e-or2_b3f {
+  d: path("M9.66992 3.35162V13.3517");
+}
+
+.h_4zdlb5l {
+  d: path("M5 22V19.2");
+}
+
+.hntgybcog {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.im41zfbfm {
+  d: path("M5 9.00002L7.4707 8.50592C9.1212 8.17582 10.8321 8.33282 12.3949 8.95802C14.0885 9.63542 15.9524 9.76192 17.722 9.31952L19 9.00002");
+}
+
+.mpb4bxarg {
+  d: path("M5 14L7.4707 13.5059C9.1212 13.1758 10.8321 13.3328 12.3949 13.958C14.0885 14.6354 15.9524 14.7619 17.722 14.3195L17.9364 14.2659C18.5615 14.1096 19 13.548 19 12.9037V5.53672C19 4.75612 18.2665 4.18342 17.5092 4.37272C15.878 4.78052 14.1597 4.66392 12.5986 4.03942L12.3949 3.95802C10.8321 3.33282 9.1212 3.17582 7.4707 3.50592L5 4.00002");
+}
+
+.risqd1qtz {
+  d: path("M5 16.4V2");
+}
+
+</style>

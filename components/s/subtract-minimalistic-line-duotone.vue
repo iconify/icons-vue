@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="jx0p4fbya"><path class="tegtdzrqd"/><path class="yv1skefmm"/></g>`;
+const content = `<g class="jx0p4fbya"><path class="ylrarpb6t"/><path class="yv1skefmm"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:subtract-minimalistic-line-duotone" /></template>
 <style>
@@ -14,7 +14,8 @@ const content = `<g class="jx0p4fbya"><path class="tegtdzrqd"/><path class="yv1s
   stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
 }
 
-.tegtdzrqd {
+.ylrarpb6t {
+  stroke-linecap: round;
   d: path("M15 15H16C18.8284 15 20.2426 15 21.1213 14.1213C22 13.2426 22 11.8284 22 9V8C22 5.1716 22 3.7574 21.1213 2.8787C20.2426 2 18.8284 2 16 2H15C12.1716 2 10.7574 2 9.8787 2.8787C9 3.7574 9 5.1716 9 8V9");
   opacity: var(--svg-opacity--0-5, 0.5);
 }

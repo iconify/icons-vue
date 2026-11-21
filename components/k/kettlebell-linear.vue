@@ -1,0 +1,31 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="hntgybcog"><path class="jwccg9jvn"/><path class="djy_jrb6h"/><path class="juz1etbqj"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="solar:kettlebell-linear" /></template>
+<style>
+.djy_jrb6h {
+  d: path("M6.85991 9.4769C5.80041 6.8 5.80041 4.2 7.00041 3.1C7.70041 2.5 8.80041 2.5 12.0004 2.5C15.2004 2.5 16.3004 2.5 17.0004 3.1C18.2004 4.2 18.2004 6.8 17.1409 9.4769");
+}
+
+.hntgybcog {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.juz1etbqj {
+  d: path("M14.3996 14.8C14.3996 16.1255 13.3251 17.2 11.9996 17.2C10.6741 17.2 9.59961 16.1255 9.59961 14.8C9.59961 13.4745 10.6741 12.4 11.9996 12.4C13.3251 12.4 14.3996 13.4745 14.3996 14.8Z");
+}
+
+.jwccg9jvn {
+  d: path("M6.76703 20.0326C3.87713 17.1427 3.87713 12.4573 6.76703 9.56745C9.65693 6.67755 14.3423 6.67755 17.2322 9.56745C20.1221 12.4573 20.1221 17.1427 17.2322 20.0326C16.4496 20.81 15.7996 21.5 14.5996 21.5H9.39963C8.19963 21.5 7.54963 20.81 6.76703 20.0326Z");
+}
+
+</style>

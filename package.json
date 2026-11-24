@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/gravity-ui",
   "type": "module",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "homepage": "https://icon-sets.iconify.design/gravity-ui/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -654,6 +654,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/chevrons-collapse-vertical.vue"
     },
+    "./chevrons-collapse-vertical-from-lines": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chevrons-collapse-vertical-from-lines.vue"
+    },
     "./chevrons-collapse-vertical-to-line": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/chevrons-collapse-vertical-to-line.vue"
@@ -689,6 +693,10 @@
     "./chevrons-expand-vertical-from-line": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/chevrons-expand-vertical-from-line.vue"
+    },
+    "./chevrons-expand-vertical-to-lines": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chevrons-expand-vertical-to-lines.vue"
     },
     "./chevrons-left": {
       "types": "./types/dd0bq22g.d.ts",
@@ -1229,6 +1237,10 @@
     "./compass": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/compass.vue"
+    },
+    "./cookie": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cookie.vue"
     },
     "./copy": {
       "types": "./types/dd0bq22g.d.ts",
@@ -1950,6 +1962,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/house-fill.vue"
     },
+    "./incognito": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/incognito.vue"
+    },
     "./italic": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/i/italic.vue"
@@ -2274,9 +2290,17 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/l/logo-yandex.vue"
     },
+    "./logo-yandex-ai-studio": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/logo-yandex-ai-studio.vue"
+    },
     "./logo-yandex-cloud": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/l/logo-yandex-cloud.vue"
+    },
+    "./logo-yandex-id": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/logo-yandex-id.vue"
     },
     "./logo-yandex-messenger": {
       "types": "./types/dd0bq22g.d.ts",
@@ -2941,6 +2965,10 @@
     "./strikethrough": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/strikethrough.vue"
+    },
+    "./subscript": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/subscript.vue"
     },
     "./suitcase": {
       "types": "./types/dd0bq22g.d.ts",

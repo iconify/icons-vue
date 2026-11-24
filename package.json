@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/selfhst",
   "type": "module",
-  "version": "1.0.34",
+  "version": "1.0.35",
   "homepage": "https://icon-sets.iconify.design/selfhst/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "CC-BY-4.0",
@@ -2309,6 +2309,18 @@
     "./bentopdf-light": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/bentopdf-light.vue"
+    },
+    "./besucherlogin": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/besucherlogin.vue"
+    },
+    "./besucherlogin-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/besucherlogin-dark.vue"
+    },
+    "./besucherlogin-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/besucherlogin-light.vue"
     },
     "./beszel": {
       "types": "./types/dd0bq22g.d.ts",
@@ -18070,6 +18082,18 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/o/openbooks-light.vue"
     },
+    "./opencaptions": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/opencaptions.vue"
+    },
+    "./opencaptions-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/opencaptions-dark.vue"
+    },
+    "./opencaptions-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/o/opencaptions-light.vue"
+    },
     "./openccu": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/o/openccu.vue"
@@ -19254,6 +19278,18 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/passbolt-light.vue"
     },
+    "./passonce": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/passonce.vue"
+    },
+    "./passonce-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/passonce-dark.vue"
+    },
+    "./passonce-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/passonce-light.vue"
+    },
     "./password-pusher": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/password-pusher.vue"
@@ -19361,6 +19397,18 @@
     "./payram-light": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/payram-light.vue"
+    },
+    "./pcloud": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pcloud.vue"
+    },
+    "./pcloud-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pcloud-dark.vue"
+    },
+    "./pcloud-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pcloud-light.vue"
     },
     "./pdfcraft": {
       "types": "./types/dd0bq22g.d.ts",
@@ -26786,6 +26834,18 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/travstats-light.vue"
     },
+    "./trawl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/trawl.vue"
+    },
+    "./trawl-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/trawl-dark.vue"
+    },
+    "./trawl-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/trawl-light.vue"
+    },
     "./trek": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/trek.vue"
@@ -27185,6 +27245,18 @@
     "./typesense-light": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/typesense-light.vue"
+    },
+    "./typestash": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/typestash.vue"
+    },
+    "./typestash-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/typestash-dark.vue"
+    },
+    "./typestash-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/typestash-light.vue"
     },
     "./typetype": {
       "types": "./types/dd0bq22g.d.ts",

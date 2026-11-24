@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/lucide",
   "type": "module",
-  "version": "1.0.92",
+  "version": "1.0.93",
   "homepage": "https://icon-sets.iconify.design/lucide/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "ISC",
@@ -221,6 +221,10 @@
     "./app-window-mac": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/app-window-mac.vue"
+    },
+    "./app-window-plus": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/app-window-plus.vue"
     },
     "./apple": {
       "types": "./types/dd0bq22g.d.ts",
@@ -2054,6 +2058,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/circle-small.vue"
     },
+    "./circle-speed-lines": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/circle-speed-lines.vue"
+    },
     "./circle-star": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/circle-star.vue"
@@ -3830,6 +3838,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/graph-hub.vue"
     },
+    "./graph-path": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/graph-path.vue"
+    },
     "./graph-ring": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/graph-ring.vue"
@@ -4089,6 +4101,10 @@
     "./hockey-stick": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/hockey-stick.vue"
+    },
+    "./hole": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hole.vue"
     },
     "./hop": {
       "types": "./types/dd0bq22g.d.ts",
@@ -5585,6 +5601,10 @@
     "./package-2": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/package-2.vue"
+    },
+    "./package-arrow-bend-up-left": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/package-arrow-bend-up-left.vue"
     },
     "./package-check": {
       "types": "./types/dd0bq22g.d.ts",
@@ -7421,6 +7441,10 @@
     "./square-plus": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/square-plus.vue"
+    },
+    "./square-plus-corner": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/square-plus-corner.vue"
     },
     "./square-power": {
       "types": "./types/dd0bq22g.d.ts",

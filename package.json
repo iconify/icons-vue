@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/openmoji",
   "type": "module",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "homepage": "https://icon-sets.iconify.design/openmoji/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "CC-BY-SA-4.0",
@@ -5349,6 +5349,10 @@
     "./guide-dog": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/guide-dog.vue"
+    },
+    "./guinea-pig": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/guinea-pig.vue"
     },
     "./guitar": {
       "types": "./types/dd0bq22g.d.ts",

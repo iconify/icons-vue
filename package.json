@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/tabler",
   "type": "module",
-  "version": "1.0.27",
+  "version": "1.0.28",
   "homepage": "https://icon-sets.iconify.design/tabler/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -2498,6 +2498,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/bed-off.vue"
     },
+    "./bed-pin": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bed-pin.vue"
+    },
     "./beer": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/beer.vue"
@@ -2669,6 +2673,10 @@
     "./bike-off": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/bike-off.vue"
+    },
+    "./bike-pin": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bike-pin.vue"
     },
     "./binary": {
       "types": "./types/dd0bq22g.d.ts",
@@ -5046,6 +5054,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/briefcase-off.vue"
     },
+    "./briefcase-pin": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/briefcase-pin.vue"
+    },
     "./brightness": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/brightness.vue"
@@ -5322,6 +5334,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/building-hospital.vue"
     },
+    "./building-hospital-pin": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/building-hospital-pin.vue"
+    },
     "./building-lighthouse": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/building-lighthouse.vue"
@@ -5386,6 +5402,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/building-store.vue"
     },
+    "./building-store-pin": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/building-store-pin.vue"
+    },
     "./building-tunnel": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/building-tunnel.vue"
@@ -5441,6 +5461,10 @@
     "./bus-off": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/bus-off.vue"
+    },
+    "./bus-pin": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bus-pin.vue"
     },
     "./bus-stop": {
       "types": "./types/dd0bq22g.d.ts",
@@ -5933,6 +5957,10 @@
     "./car-off-road": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/car-off-road.vue"
+    },
+    "./car-pin": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/car-pin.vue"
     },
     "./car-suspension": {
       "types": "./types/dd0bq22g.d.ts",
@@ -8389,6 +8417,10 @@
     "./coffee-off": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/coffee-off.vue"
+    },
+    "./coffee-pin": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/coffee-pin.vue"
     },
     "./coffin": {
       "types": "./types/dd0bq22g.d.ts",
@@ -12994,6 +13026,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/gas-station-off.vue"
     },
+    "./gas-station-pin": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/gas-station-pin.vue"
+    },
     "./gauge": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/gauge.vue"
@@ -14345,6 +14381,10 @@
     "./home-off": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/home-off.vue"
+    },
+    "./home-pin": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/home-pin.vue"
     },
     "./home-plus": {
       "types": "./types/dd0bq22g.d.ts",
@@ -18858,6 +18898,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/package-off.vue"
     },
+    "./package-pin": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/package-pin.vue"
+    },
     "./packages": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/packages.vue"
@@ -18969,6 +19013,10 @@
     "./parking-off": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/parking-off.vue"
+    },
+    "./parking-pin": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/parking-pin.vue"
     },
     "./password": {
       "types": "./types/dd0bq22g.d.ts",
@@ -19358,6 +19406,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/phone-pause.vue"
     },
+    "./phone-pin": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/phone-pin.vue"
+    },
     "./phone-plus": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/phone-plus.vue"
@@ -19713,6 +19765,10 @@
     "./plane-off": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/plane-off.vue"
+    },
+    "./plane-pin": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/plane-pin.vue"
     },
     "./plane-tilt": {
       "types": "./types/dd0bq22g.d.ts",
@@ -21289,6 +21345,10 @@
     "./school-off": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/school-off.vue"
+    },
+    "./school-pin": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/school-pin.vue"
     },
     "./scissors": {
       "types": "./types/dd0bq22g.d.ts",
@@ -24322,6 +24382,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/tent-off.vue"
     },
+    "./tent-pin": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tent-pin.vue"
+    },
     "./terminal": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/terminal.vue"
@@ -24673,6 +24737,10 @@
     "./tools-kitchen-2-off": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/tools-kitchen-2-off.vue"
+    },
+    "./tools-kitchen-2-pin": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tools-kitchen-2-pin.vue"
     },
     "./tools-kitchen-3": {
       "types": "./types/dd0bq22g.d.ts",
@@ -25065,6 +25133,10 @@
     "./truck-delivery": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/truck-delivery.vue"
+    },
+    "./truck-delivery-pin": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/truck-delivery-pin.vue"
     },
     "./truck-filled": {
       "types": "./types/dd0bq22g.d.ts",

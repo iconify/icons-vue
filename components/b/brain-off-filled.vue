@@ -1,11 +1,11 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/g/gahn9tbab.css';
-import '../../css/r/rpqiizbbq.css';
+import '../../css/h/hp4eihbdx.css';
+import '../../css/v/vox3mdpjt.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path clip-rule="evenodd" class="gahn9tbab"/><path class="rpqiizbbq"/>`;
+const content = `<path clip-rule="evenodd" class="hp4eihbdx"/><path class="vox3mdpjt"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="lucide-extended:brain-off-filled" /></template>

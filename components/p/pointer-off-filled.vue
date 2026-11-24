@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/i__nhrbhy.css';
+import '../../css/l/lx-hgebni.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="i__nhrbhy"/>`;
+const content = `<path class="lx-hgebni"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="lucide-extended:pointer-off-filled" /></template>

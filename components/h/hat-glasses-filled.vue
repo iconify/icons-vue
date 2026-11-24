@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/a/aicnhacvd.css';
+import '../../css/c/cwavrg0fw.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="aicnhacvd"/>`;
+const content = `<path class="cwavrg0fw"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="lucide-extended:hat-glasses-filled" /></template>

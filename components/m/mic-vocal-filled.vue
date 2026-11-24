@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/i/ibo-1vb4k.css';
+import '../../css/t/tl8fmdb5l.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="ibo-1vb4k"/>`;
+const content = `<path class="tl8fmdb5l"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="lucide-extended:mic-vocal-filled" /></template>

@@ -1,11 +1,11 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/r/ravrb1b2k.css';
-import '../../css/s/s9p5b8y_x.css';
+import '../../css/n/nz7xlfb-v.css';
+import '../../css/b/bbq8uabvg.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="ravrb1b2k"/><path class="s9p5b8y_x"/>`;
+const content = `<path class="nz7xlfb-v"/><path class="bbq8uabvg"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="lucide-extended:database-zap-filled" /></template>

@@ -1,11 +1,11 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/o/o16g-nult.css';
-import '../../css/d/du-r1xbos.css';
+import '../../css/g/gg84ptbsf.css';
+import '../../css/t/tl712yvzu.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path clip-rule="evenodd" class="o16g-nult"/><path class="du-r1xbos"/>`;
+const content = `<path clip-rule="evenodd" class="gg84ptbsf"/><path class="tl712yvzu"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="lucide-extended:alarm-clock-filled" /></template>

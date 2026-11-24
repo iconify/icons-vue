@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/lucide-extended",
   "type": "module",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "homepage": "https://icon-sets.iconify.design/lucide-extended/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "ISC",
@@ -1222,6 +1222,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/boom-box-filled.vue"
     },
+    "./bot-check-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bot-check-filled.vue"
+    },
     "./bot-duotone": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/bot-duotone.vue"
@@ -1238,9 +1242,21 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/bot-message-square-filled.vue"
     },
+    "./bot-minus-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bot-minus-filled.vue"
+    },
     "./bot-off-filled": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/bot-off-filled.vue"
+    },
+    "./bot-plus-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bot-plus-filled.vue"
+    },
+    "./bot-x-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bot-x-filled.vue"
     },
     "./bottle-wine-duotone": {
       "types": "./types/dd0bq22g.d.ts",
@@ -1846,6 +1862,70 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/card-sim-filled.vue"
     },
+    "./carets-from-axis-dashed-horizontal-duotone": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/carets-from-axis-dashed-horizontal-duotone.vue"
+    },
+    "./carets-from-axis-dashed-horizontal-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/carets-from-axis-dashed-horizontal-filled.vue"
+    },
+    "./carets-from-axis-dashed-vertical-duotone": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/carets-from-axis-dashed-vertical-duotone.vue"
+    },
+    "./carets-from-axis-dashed-vertical-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/carets-from-axis-dashed-vertical-filled.vue"
+    },
+    "./carets-from-axis-horizontal-duotone": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/carets-from-axis-horizontal-duotone.vue"
+    },
+    "./carets-from-axis-horizontal-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/carets-from-axis-horizontal-filled.vue"
+    },
+    "./carets-from-axis-vertical-duotone": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/carets-from-axis-vertical-duotone.vue"
+    },
+    "./carets-from-axis-vertical-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/carets-from-axis-vertical-filled.vue"
+    },
+    "./carets-to-axis-dashed-horizontal-duotone": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/carets-to-axis-dashed-horizontal-duotone.vue"
+    },
+    "./carets-to-axis-dashed-horizontal-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/carets-to-axis-dashed-horizontal-filled.vue"
+    },
+    "./carets-to-axis-dashed-vertical-duotone": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/carets-to-axis-dashed-vertical-duotone.vue"
+    },
+    "./carets-to-axis-dashed-vertical-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/carets-to-axis-dashed-vertical-filled.vue"
+    },
+    "./carets-to-axis-horizontal-duotone": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/carets-to-axis-horizontal-duotone.vue"
+    },
+    "./carets-to-axis-horizontal-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/carets-to-axis-horizontal-filled.vue"
+    },
+    "./carets-to-axis-vertical-duotone": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/carets-to-axis-vertical-duotone.vue"
+    },
+    "./carets-to-axis-vertical-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/carets-to-axis-vertical-filled.vue"
+    },
     "./carrot-duotone": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/carrot-duotone.vue"
@@ -2054,6 +2134,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/chess-rook-filled.vue"
     },
+    "./chocolate-bar-duotone": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chocolate-bar-duotone.vue"
+    },
+    "./chocolate-bar-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/chocolate-bar-filled.vue"
+    },
     "./church-duotone": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/church-duotone.vue"
@@ -2073,6 +2161,14 @@
     "./cigarette-off-filled": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/cigarette-off-filled.vue"
+    },
+    "./cinema-duotone": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cinema-duotone.vue"
+    },
+    "./cinema-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cinema-filled.vue"
     },
     "./circle-arrow-down-duotone": {
       "types": "./types/dd0bq22g.d.ts",
@@ -2105,6 +2201,14 @@
     "./circle-arrow-up-filled": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/circle-arrow-up-filled.vue"
+    },
+    "./circle-bounce-duotone": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/circle-bounce-duotone.vue"
+    },
+    "./circle-bounce-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/circle-bounce-filled.vue"
     },
     "./circle-check-big-filled": {
       "types": "./types/dd0bq22g.d.ts",
@@ -2501,6 +2605,14 @@
     "./circle-percent-filled": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/circle-percent-filled.vue"
+    },
+    "./circle-person-arms-spread-duotone": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/circle-person-arms-spread-duotone.vue"
+    },
+    "./circle-person-arms-spread-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/circle-person-arms-spread-filled.vue"
     },
     "./circle-pile-duotone": {
       "types": "./types/dd0bq22g.d.ts",
@@ -3430,6 +3542,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/diagram-flow-vertical-filled.vue"
     },
+    "./diagram-sankey-duotone": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/diagram-sankey-duotone.vue"
+    },
+    "./diagram-sankey-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/diagram-sankey-filled.vue"
+    },
     "./diameter-duotone": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/diameter-duotone.vue"
@@ -3573,6 +3693,14 @@
     "./dog-filled": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/dog-filled.vue"
+    },
+    "./doghouse-duotone": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/doghouse-duotone.vue"
+    },
+    "./doghouse-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/doghouse-filled.vue"
     },
     "./dome-duotone": {
       "types": "./types/dd0bq22g.d.ts",
@@ -4698,6 +4826,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/folder-minus-filled.vue"
     },
+    "./folder-network-duotone": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-network-duotone.vue"
+    },
+    "./folder-network-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-network-filled.vue"
+    },
     "./folder-open-dot-duotone": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/folder-open-dot-duotone.vue"
@@ -4725,6 +4861,10 @@
     "./folder-pen-filled": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/folder-pen-filled.vue"
+    },
+    "./folder-plus-corner-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/folder-plus-corner-filled.vue"
     },
     "./folder-plus-duotone": {
       "types": "./types/dd0bq22g.d.ts",
@@ -5422,6 +5562,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/hand-platter-filled.vue"
     },
+    "./hand-truck-duotone": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hand-truck-duotone.vue"
+    },
+    "./hand-truck-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/hand-truck-filled.vue"
+    },
     "./handbag-duotone": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/handbag-duotone.vue"
@@ -5658,6 +5806,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/hourglass-filled.vue"
     },
+    "./house-arrow-left-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/house-arrow-left-filled.vue"
+    },
+    "./house-arrow-right-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/house-arrow-right-filled.vue"
+    },
     "./house-cog-filled": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/house-cog-filled.vue"
@@ -5841,6 +5997,10 @@
     "./iv-bag-filled": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/i/iv-bag-filled.vue"
+    },
+    "./jacket-duotone": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jacket-duotone.vue"
     },
     "./joystick-duotone": {
       "types": "./types/dd0bq22g.d.ts",
@@ -7550,6 +7710,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/paint-bucket-filled.vue"
     },
+    "./paint-gun-duotone": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/paint-gun-duotone.vue"
+    },
+    "./paint-gun-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/paint-gun-filled.vue"
+    },
     "./paint-roller-duotone": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/paint-roller-duotone.vue"
@@ -8453,6 +8621,14 @@
     "./rectangle-horizontal-filled": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/r/rectangle-horizontal-filled.vue"
+    },
+    "./rectangle-landscape-play-duotone": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rectangle-landscape-play-duotone.vue"
+    },
+    "./rectangle-landscape-play-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rectangle-landscape-play-filled.vue"
     },
     "./rectangle-vertical-duotone": {
       "types": "./types/dd0bq22g.d.ts",
@@ -9566,6 +9742,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/square-asterisk-filled.vue"
     },
+    "./square-axis-dashed-horizontal-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/square-axis-dashed-horizontal-filled.vue"
+    },
+    "./square-axis-dashed-vertical-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/square-axis-dashed-vertical-filled.vue"
+    },
+    "./square-axis-horizontal-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/square-axis-horizontal-filled.vue"
+    },
+    "./square-axis-vertical-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/square-axis-vertical-filled.vue"
+    },
     "./square-bookmark-duotone": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/square-bookmark-duotone.vue"
@@ -9573,14 +9765,6 @@
     "./square-bookmark-filled": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/square-bookmark-filled.vue"
-    },
-    "./square-centerline-dashed-horizontal-filled": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/s/square-centerline-dashed-horizontal-filled.vue"
-    },
-    "./square-centerline-dashed-vertical-filled": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/s/square-centerline-dashed-vertical-filled.vue"
     },
     "./square-chart-gantt-duotone": {
       "types": "./types/dd0bq22g.d.ts",
@@ -10454,6 +10638,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/stroke-line-join-round-filled.vue"
     },
+    "./stroke-width-duotone": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stroke-width-duotone.vue"
+    },
+    "./stroke-width-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/stroke-width-filled.vue"
+    },
     "./sun-dim-duotone": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/sun-dim-duotone.vue"
@@ -11082,18 +11274,6 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/triangles-centerline-dashed-horizontal-duotone.vue"
     },
-    "./triangles-centerline-dashed-horizontal-filled": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/t/triangles-centerline-dashed-horizontal-filled.vue"
-    },
-    "./triangles-centerline-dashed-vertical-duotone": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/t/triangles-centerline-dashed-vertical-duotone.vue"
-    },
-    "./triangles-centerline-dashed-vertical-filled": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/t/triangles-centerline-dashed-vertical-filled.vue"
-    },
     "./trophy-duotone": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/trophy-duotone.vue"
@@ -11313,6 +11493,14 @@
     "./user-round-check-filled": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/u/user-round-check-filled.vue"
+    },
+    "./user-round-clock-duotone": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/user-round-clock-duotone.vue"
+    },
+    "./user-round-clock-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/user-round-clock-filled.vue"
     },
     "./user-round-cog-duotone": {
       "types": "./types/dd0bq22g.d.ts",
@@ -11978,6 +12166,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/shield-alert-filled.vue"
     },
+    "./square-centerline-dashed-horizontal-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/square-centerline-dashed-horizontal-filled.vue"
+    },
+    "./square-centerline-dashed-vertical-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/square-centerline-dashed-vertical-filled.vue"
+    },
     "./square-m-duotone": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/square-m-duotone.vue"
@@ -12005,6 +12201,18 @@
     "./triangle-alert-filled": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/triangle-alert-filled.vue"
+    },
+    "./triangles-centerline-dashed-horizontal-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/triangles-centerline-dashed-horizontal-filled.vue"
+    },
+    "./triangles-centerline-dashed-vertical-duotone": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/triangles-centerline-dashed-vertical-duotone.vue"
+    },
+    "./triangles-centerline-dashed-vertical-filled": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/triangles-centerline-dashed-vertical-filled.vue"
     },
     "./*": "./*"
   },

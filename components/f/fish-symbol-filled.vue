@@ -1,10 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
-import '../../css/f/f_hu_z_gx.css';
+import '../../css/d/d088tmoig.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="f_hu_z_gx"/>`;
+const content = `<path class="d088tmoig"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="lucide-extended:fish-symbol-filled" /></template>

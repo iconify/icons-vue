@@ -1,0 +1,7 @@
+.s82pcabcf {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M18 20h3a1 1 0 0 0 1-1V9a7 7 0 0 0-7-7H9a7 7 0 0 0-7 7v10a1 1 0 0 0 1 1h3");
+}

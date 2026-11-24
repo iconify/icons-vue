@@ -4,17 +4,17 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="cuyn6tgcc"><path class="a06aaqtap"/><path class="jxq-ihbak"/></g>`;
+const content = `<g class="cuyn6tgcc"><path class="gm80qtbdn"/><path class="jxq-ihbak"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:upload-bulk" /></template>
 <style>
-.a06aaqtap {
-  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
-  d: path("M6 19h12a1 1 0 0 1 0 2H6a1 1 0 0 1 0-2");
-}
-
 .cuyn6tgcc {
   fill: currentColor;
+}
+
+.gm80qtbdn {
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M5 18a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2a1 1 0 0 1 2 0v2a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3v-2a1 1 0 0 1 2 0Z");
 }
 
 .jxq-ihbak {

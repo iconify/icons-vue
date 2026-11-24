@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="cuyn6tgcc"><path class="u294wob9d"/><path class="ywbu_jj9f"/></g>`;
+const content = `<g class="cuyn6tgcc"><path class="lpcc7-b1f"/><path class="u8o2urv0n"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:lock-bulk" /></template>
 <style>
@@ -12,13 +12,13 @@ const content = `<g class="cuyn6tgcc"><path class="u294wob9d"/><path class="ywbu
   fill: currentColor;
 }
 
-.u294wob9d {
+.lpcc7-b1f {
   fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
-  d: path("M3 12a3 3 0 0 1 3-3h12a3 3 0 0 1 3 3v7a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3Z");
+  d: path("M3 11a3 3 0 0 1 3-3h12a3 3 0 0 1 3 3v8a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3Z");
 }
 
-.ywbu_jj9f {
-  d: path("M8 6a4 4 0 0 1 8 0v4a1 1 0 0 1-2 0V6a2 2 0 1 0-4 0v4a1 1 0 0 1-2 0Z");
+.u8o2urv0n {
+  d: path("M7 7a5 5 0 0 1 10 0v2a1 1 0 0 1-2 0V7a3 3 0 1 0-6 0v2a1 1 0 0 1-2 0Zm3.158 7.221a2 2 0 1 1 3.684 1.558a2 2 0 0 1-3.684-1.558");
 }
 
 </style>

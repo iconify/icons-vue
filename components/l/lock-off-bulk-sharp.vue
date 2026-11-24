@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="cuyn6tgcc"><path class="hgj7sh0hq"/><path class="pj220gbcd"/></g>`;
+const content = `<g class="cuyn6tgcc"><path class="tobnp4bek"/><path class="hj0t4uosh"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:lock-off-bulk-sharp" /></template>
 <style>
@@ -12,13 +12,13 @@ const content = `<g class="cuyn6tgcc"><path class="hgj7sh0hq"/><path class="pj22
   fill: currentColor;
 }
 
-.hgj7sh0hq {
-  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
-  d: path("M19 22H4a1 1 0 0 1-1-1V10a1 1 0 0 1 1-1h2Zm2-2.243L10.243 9H20a1 1 0 0 1 1 1Z");
+.hj0t4uosh {
+  d: path("m2.707 2.293l19 19a.999.999 0 1 1-1.414 1.414l-19-19a.999.999 0 1 1 1.414-1.414m5.757 2.585a1 1 0 0 1 0-1.414a5.003 5.003 0 0 1 7.072 0A4.98 4.98 0 0 1 17 7v2a1 1 0 0 1-2 0V7a3 3 0 0 0-5.12-2.121a1 1 0 0 1-1.415.001Z");
 }
 
-.pj220gbcd {
-  d: path("M16 6v4a1 1 0 0 1-2 0V6a2 2 0 1 0-4 0a1 1 0 0 1-2 0a4 4 0 0 1 8 0M2.707 4.293l17 17a.999.999 0 1 1-1.414 1.414l-17-17a.999.999 0 1 1 1.414-1.414");
+.tobnp4bek {
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M20.707 21.707A1 1 0 0 1 20 22H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1h3Zm.293-3.95L11.243 8H20a1 1 0 0 1 1 1Z");
 }
 
 </style>

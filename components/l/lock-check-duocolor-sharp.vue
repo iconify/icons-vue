@@ -4,17 +4,17 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="nrj6p8qat"><path class="cgwbwtp3a"/><path class="kcxs7db4r"/></g>`;
+const content = `<g class="nrj6p8qat"><path class="bf86c_bvy"/><path class="kskc15b9j"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:lock-check-duocolor-sharp" /></template>
 <style>
-.cgwbwtp3a {
+.bf86c_bvy {
   stroke-opacity: 0.4;
-  d: path("m8 15l3 3l5-5");
+  d: path("m9 15l2 2l4-4");
 }
 
-.kcxs7db4r {
-  d: path("M4 10h16v11H4Zm5 0V6a3 3 0 0 1 6 0v4");
+.kskc15b9j {
+  d: path("M4 9h16v12H4Zm4 0V7a4 4 0 1 1 8 0v2");
 }
 
 .nrj6p8qat {

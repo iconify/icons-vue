@@ -1,0 +1,29 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ft5dv1b6b"><path class="mdx0z35ly"/><path class="m4s7t9bpt"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:phone-arrow-u-turn-up-right-duotone-round" /></template>
+<style>
+.ft5dv1b6b {
+  fill: none;
+}
+
+.m4s7t9bpt {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M3 5a2 2 0 0 1 2-2h1c1.691 0 3.275 1.188 4 3c.693 1.733.693 3.307 0 4a2.12 2.12 0 0 0 0 3l2 2a2.12 2.12 0 0 0 3 0c.64-.64 1.72-1 3-1h1c1.105 0 2 1.79 2 4v1a2 2 0 0 1-2 2C10.163 21 3 13.837 3 5m15-2l3 3l-3 3m3-3h-4a3 3 0 0 0-3 3");
+}
+
+.mdx0z35ly {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
+  d: path("M5 3h1c1.841.001 3.342 1.357 4 3c.693 1.733.693 3.307 0 4a2.12 2.12 0 0 0 0 3l2 2a2.12 2.12 0 0 0 3 0c.764-.763 1.959-1 3-1h1c1.105 0 2 1.791 2 4v1a2 2 0 0 1-2 2C10.163 21 3 13.837 3 5a2 2 0 0 1 2-2");
+}
+
+</style>

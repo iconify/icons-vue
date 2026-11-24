@@ -4,18 +4,10 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="ddux6hb7s"/><path class="b2zeksbry"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="ddux6hb7s"/><path class="we1x12vuz"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:mail-search-corner-duotone" /></template>
 <style>
-.b2zeksbry {
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  stroke-width: var(--svg-stroke-width--2px, 2px);
-  d: path("M11 19H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v4M4 6l4 4c.64.64 1.36 1 2 1h4c.64 0 1.36-.36 2-1l4-4m-5 11a2 2 0 1 0 4 0a2 2 0 0 0-4 0m4 2l2 2");
-}
-
 .ddux6hb7s {
   fill: currentColor;
   fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
@@ -24,6 +16,14 @@ const content = `<g class="ft5dv1b6b"><path class="ddux6hb7s"/><path class="b2ze
 
 .ft5dv1b6b {
   fill: none;
+}
+
+.we1x12vuz {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M11 19H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v4M4 6l4 4c.64.64 1.36 1 2 1h4c.64 0 1.36-.36 2-1l4-4m0 14a2.828 2.828 0 1 1-4-4a2.828 2.828 0 0 1 4 4m0 0l2 2");
 }
 
 </style>

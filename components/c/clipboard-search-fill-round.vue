@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="h14mobcba"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:clipboard-search-fill-round" /></template>
+<style>
+.h14mobcba {
+  fill: currentColor;
+  d: path("M15.854 4.072A5.01 5.01 0 0 1 20 9v8a5 5 0 0 1-1.464 3.536A5 5 0 0 1 15 22H9a5 5 0 0 1-5-5V9a5.006 5.006 0 0 1 4.146-4.928A3.005 3.005 0 0 1 11 2h2c1.298 0 2.451.838 2.854 2.072M8.21 6.104A3.01 3.01 0 0 0 6 9v8a3 3 0 0 0 3 3h6a3 3 0 0 0 3-3V9a3.01 3.01 0 0 0-2.21-2.896A3 3 0 0 1 13 8h-2a3.005 3.005 0 0 1-2.79-1.896m5.498 8.189l1.999 2a.999.999 0 1 1-1.414 1.414l-2-1.999a3 3 0 1 1 1.415-1.415M10 13a1 1 0 1 0 2 0a1 1 0 0 0-2 0");
+}
+
+</style>

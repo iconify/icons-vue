@@ -1,0 +1,16 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="h2zqipbwz"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="coolicons:file-warning-fill-round" /></template>
+<style>
+.h2zqipbwz {
+  fill: currentColor;
+  d: path("M19.707 8.293A1 1 0 0 1 20 9v8a5 5 0 0 1-1.464 3.536A5 5 0 0 1 15 22H9a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5h4c.265 0 .52.105.707.293ZM13 7a2 2 0 0 0 2 2h3l-5-5Zm0 5a1 1 0 0 0-2 0v3a1 1 0 0 0 2 0Zm-.99 5H12a1 1 0 0 0 0 2h.01a1 1 0 0 0 0-2");
+}
+
+</style>

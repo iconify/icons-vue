@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/openmoji",
   "type": "module",
-  "version": "1.0.18",
+  "version": "1.0.19",
   "homepage": "https://icon-sets.iconify.design/openmoji/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "CC-BY-SA-4.0",
@@ -13049,6 +13049,10 @@
     "./prohibited-sign": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/prohibited-sign.vue"
+    },
+    "./provence-flag": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/provence-flag.vue"
     },
     "./purple-circle": {
       "types": "./types/dd0bq22g.d.ts",

@@ -1,0 +1,19 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="dw7vgj_yq"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:teapot-sharp" /></template>
+<style>
+.dw7vgj_yq {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M18 16.5C20 16.5 18.5 11.5 22 11L22.8586 10.8773M6.2764 12.5L4 12.5C2.8954 12.5 2 13.3954 2 14.5C2 15.6046 2.8954 16.5 4 16.5L6 16.5M6 14C6 11.2386 8.6863 9 12 9C15.3137 9 18 11.2386 18 14L18 20L6 20ZM12 5L12 4L12 3M9 9.6528L9 9.5L9 5L12 5L15 5L15 9.5L15 9.6528");
+}
+
+</style>

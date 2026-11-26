@@ -1,0 +1,36 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="nrj6p8qat"><path class="z-u51lc5j"/><path class="fojv4qb5y"/><path class="a56bb998x"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:mushroom-two-tone" /></template>
+<style>
+.a56bb998x {
+  fill: currentColor;
+  d: path("M8 9C8 9.5523 7.5523 10 7 10C6.4477 10 6 9.5523 6 9C6 8.4477 6.4477 8 7 8C7.5523 8 8 8.4477 8 9ZM12 6.5C12 7.0523 11.5523 7.5 11 7.5C10.4477 7.5 10 7.0523 10 6.5C10 5.9477 10.4477 5.5 11 5.5C11.5523 5.5 12 5.9477 12 6.5ZM17 8.5C17 9.3284 16.3284 10 15.5 10C14.6716 10 14 9.3284 14 8.5C14 7.6716 14.6716 7 15.5 7C16.3284 7 17 7.6716 17 8.5Z");
+  stroke: none;
+}
+
+.fojv4qb5y {
+  d: path("M12 13L3 13C2.4477 13 2 12.5523 2 12C2 6.4772 6.4772 2 12 2C17.5228 2 22 6.4772 22 12C22 12.5523 21.5523 13 21 13ZM9.5 13L8.3881 19.6712C8.37 19.7799 8.3609 19.8898 8.3609 20C8.3609 21.1046 9.2563 22 10.3609 22L13.6391 22C14.7437 22 15.6391 21.1046 15.6391 20C15.6391 19.8898 15.63 19.7799 15.6119 19.6712L14.5 13");
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.z-u51lc5j {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M8.3195 14L3 14C1.8954 14 1 13.1046 1 12C1 5.9249 5.9249 1 12 1C15.0373 1 17.7886 2.2323 19.7782 4.2218C21.7677 6.2114 23 8.9627 23 12C23 13.1046 22.1046 14 21 14L15.6805 14L16.5983 19.5069C16.6254 19.6699 16.6391 19.8347 16.6391 20C16.6391 21.6569 15.296 23 13.6391 23L10.3609 23C8.704 23 7.3609 21.6569 7.3609 20C7.3609 19.8347 7.3746 19.6699 7.4017 19.5068L7.9577 16.1712Z");
+  stroke: none;
+}
+
+</style>

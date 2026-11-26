@@ -1,0 +1,29 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="gp_8x1bzb"><path class="cjm1eccvu"/><path class="j_e93vc3v"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:screwdriver-sharp-duotone" /></template>
+<style>
+.cjm1eccvu {
+  stroke-opacity: 0.4;
+  d: path("M12.4394 11.5607L17 7");
+}
+
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.j_e93vc3v {
+  fill: currentColor;
+  d: path("M5.9228 12.733L9.6425 9.3245C9.8269 9.1555 10.068 9.0618 10.3181 9.0618C10.5248 9.0618 10.7264 9.1258 10.8952 9.2451L13.0165 10.744C13.1094 10.8097 13.1905 10.8907 13.2561 10.9837L14.7548 13.1049C14.8741 13.2736 14.9381 13.4752 14.9381 13.6819C14.9381 13.932 14.8444 14.1731 14.6754 14.3575L7.8587 21.7969C7.8489 21.8076 7.8388 21.8181 7.8285 21.8284C6.2664 23.3905 3.7337 23.3905 2.1716 21.8284C0.6095 20.2663 0.6095 17.7337 2.1716 16.1716C2.1819 16.1613 2.1924 16.1512 2.2031 16.1414ZM18.5528 2.1056L20.5528 1.1056C20.6916 1.0361 20.8448 1 21 1C21.2652 1 21.5196 1.1054 21.7071 1.2929L22.7071 2.2929C22.8946 2.4804 23 2.7348 23 3C23 3.1552 22.9639 3.3084 22.8944 3.4472L20.8944 7.4472C20.725 7.786 20.3788 8 20 8L17 8C16.4477 8 16 7.5523 16 7L16 4C16 3.6212 16.214 3.275 16.5528 3.1056Z");
+  stroke: none;
+}
+
+</style>

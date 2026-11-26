@@ -1,0 +1,29 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="gp_8x1bzb"><path class="ukg2lzboe"/><path class="n_owddihp"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:layers-minus-sharp-two-tone" /></template>
+<style>
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.n_owddihp {
+  d: path("M12 2L22 7.5L12 13L2 7.5ZM1.4819 11.7151L12.2251 17.6238M1.4819 16.2151L12.2251 22.1238M16 19.5L23 19.5");
+}
+
+.ukg2lzboe {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M17.4819 3.8738L22.4819 6.6238C22.8015 6.7995 23 7.1353 23 7.5C23 7.8647 22.8015 8.2005 22.4819 8.3762L12.4819 13.8762C12.3343 13.9574 12.1685 14 12 14C11.8315 14 11.6657 13.9574 11.5181 13.8762L1.5181 8.3762C1.1985 8.2005 1 7.8647 1 7.5C1 7.1353 1.1985 6.7995 1.5181 6.6238L11.5181 1.1238C11.6657 1.0426 11.8315 1 12 1C12.1685 1 12.3343 1.0426 12.4819 1.1238Z");
+  stroke: none;
+}
+
+</style>

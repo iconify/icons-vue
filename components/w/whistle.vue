@@ -1,0 +1,20 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="hlvgx1bat"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:whistle" /></template>
+<style>
+.hlvgx1bat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M9 5C5.134 5 2 8.134 2 12C2 15.866 5.134 19 9 19C12.866 19 16 15.866 16 12C16 11.8356 15.9942 11.6712 15.9826 11.5072L21.3846 9.25641C21.7573 9.10114 22 8.73703 22 8.33333V6C22 5.4477 21.5523 5 21 5H15M9 5H15M15 5V7M9 9.5C10.3807 9.5 11.5 10.6193 11.5 12C11.5 13.3807 10.3807 14.5 9 14.5C7.61929 14.5 6.5 13.3807 6.5 12C6.5 10.6193 7.61929 9.5 9 9.5Z");
+}
+
+</style>

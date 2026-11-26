@@ -1,0 +1,29 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="gp_8x1bzb"><path clip-rule="evenodd" class="gew4oljbc"/><path class="k5rxxobkn"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:helicopter-sharp-fill" /></template>
+<style>
+.gew4oljbc {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M13.1056 9L19.2112 9C19.5685 9 19.8986 9.1906 20.0772 9.5L22.866 14.3303C22.9538 14.4823 23 14.6548 23 14.8303L23 18C23 18.5523 22.5523 19 22 19L11.6189 19C11.2616 19 10.9315 18.8094 10.7529 18.5L6.134 10.5C6.0462 10.348 6 10.1755 6 10C6 9.4477 6.4477 9 7 9ZM15.5207 13L15.5207 15L19.7885 15L19.7885 13Z");
+  stroke: none;
+}
+
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.k5rxxobkn {
+  d: path("M6 6L7 6L21 6L22 6M14 6L14 10M2 10L7 10M2 6L2 7L2 13L2 14");
+}
+
+</style>

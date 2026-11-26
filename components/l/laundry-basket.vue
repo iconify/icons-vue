@@ -1,0 +1,20 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="nr6176b1a"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:laundry-basket" /></template>
+<style>
+.nr6176b1a {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M5 11C4.3509 10.1345 4 9.0819 4 8C4 5.2386 6.2386 3 9 3C10.0819 3 11.1345 3.3509 12 4C12.8655 3.3509 13.9181 3 15 3C17.7614 3 20 5.2386 20 8C20 9.0819 19.6491 10.1345 19 11M8 15V17M12 15V17M16 15V17M3 11H21C21.5524 11 22 11.4477 22 12C22 12.0738 21.9919 12.1475 21.9757 12.2195L20.3512 19.439C20.1459 20.3516 19.3354 21 18.4 21H5.6C4.6646 21 3.8541 20.3516 3.6488 19.439L2.0243 12.2195C2.0081 12.1475 2 12.0738 2 12C2 11.4477 2.4476 11 3 11Z");
+}
+
+</style>

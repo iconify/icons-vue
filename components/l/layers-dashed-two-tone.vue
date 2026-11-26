@@ -1,0 +1,28 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="nrj6p8qat"><path class="a_k1_5cce"/><path class="d8meufkqa"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:layers-dashed-two-tone" /></template>
+<style>
+.a_k1_5cce {
+  stroke-opacity: 0.4;
+  d: path("M9 3.35L11.5618 2.1011C11.8384 1.9663 12.1616 1.9663 12.4382 2.1011L15 3.35M19 5.3L21.4382 6.4886C22.1873 6.8538 22.1873 7.9212 21.4382 8.2864L19 9.475M15 11.425L12.4382 12.6739C12.1616 12.8087 11.8384 12.8087 11.5618 12.6739L9 11.425M5 9.475L2.5618 8.2864C1.8127 7.9212 1.8127 6.8538 2.5618 6.4886L5 5.3");
+}
+
+.d8meufkqa {
+  d: path("M2 12.625L11.5618 17.2864C11.8384 17.4212 12.1616 17.4212 12.4382 17.2864L22 12.625M2 17.2375L11.5618 21.8989C11.8384 22.0337 12.1616 22.0337 12.4382 21.8989L22 17.2375");
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+</style>

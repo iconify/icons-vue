@@ -1,0 +1,28 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="gp_8x1bzb"><path class="pvk1j3b8w"/><path class="pkmkbxb8w"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:pitcher-sharp-fill" /></template>
+<style>
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.pkmkbxb8w {
+  d: path("M17.5 8L18 8C20.2091 8 22 9.7909 22 12C22 14.2091 20.2091 16 18 16L16.5 16");
+}
+
+.pvk1j3b8w {
+  fill: currentColor;
+  d: path("M12 20.9999L8 20.9999C7.4956 20.9999 7.0702 20.6244 7.0077 20.1239L6.2577 14.124C6.2526 14.0829 6.25 14.0415 6.25 14C6.25 13.4477 6.6977 13 7.25 13L12 13L16.75 13C17.3023 13 17.75 13.4477 17.75 14C17.75 14.0415 17.7474 14.0829 17.7423 14.124L16.9923 20.124C16.9297 20.6245 16.5043 21 16 21ZM12 11L7 11L6.75 11C6.2457 11 5.8203 10.6245 5.7577 10.124L5.5544 8.4974L1.3361 4.7474C1.1226 4.5576 1.0005 4.2856 1.0005 4C1.0005 3.4477 1.4482 3 2.0005 3L10.0003 3L18 3.0009C18.5523 3.0009 18.9999 3.4486 18.9999 4.0009C18.9999 4.0423 18.9973 4.0837 18.9922 4.1249L18.2423 10.124C18.1797 10.6245 17.7543 11 17.25 11L17 11Z");
+  stroke: none;
+}
+
+</style>

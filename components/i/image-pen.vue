@@ -1,0 +1,30 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="nrj6p8qat"><path class="k9wh9tvun"/><path clip-rule="evenodd" class="vj2xmxbtx"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:image-pen" /></template>
+<style>
+.k9wh9tvun {
+  d: path("M8.2464 21H6C4.3431 21 3 19.6569 3 18V6C3 4.3431 4.3431 3 6 3H18C19.6569 3 21 4.3431 21 6V8.5614M3 18L7.9393 13.0607C8.5251 12.4749 9.4749 12.4749 10.0607 13.0607L10.8667 13.8667M20.4142 15.6329L16.255 19.792C16.2001 19.8469 16.1332 19.8883 16.0596 19.9128L12.8776 20.9735C12.4867 21.1038 12.1149 20.7319 12.2452 20.341L13.3058 17.159C13.3304 17.0854 13.3717 17.0185 13.4266 16.9636L17.5858 12.8044C17.9609 12.4294 18.4696 12.2186 19 12.2186C20.1046 12.2186 21 13.1141 21 14.2186C21 14.7491 20.7893 15.2578 20.4142 15.6329Z");
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.vj2xmxbtx {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M9.5 7.5C9.5 8.3284 8.8284 9 8 9C7.1716 9 6.5 8.3284 6.5 7.5C6.5 6.6716 7.1716 6 8 6C8.8284 6 9.5 6.6716 9.5 7.5Z");
+  stroke: none;
+}
+
+</style>

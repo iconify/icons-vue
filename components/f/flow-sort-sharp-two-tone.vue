@@ -1,0 +1,29 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="gp_8x1bzb"><path class="ly344qjju"/><path class="d3zo4rbrp"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:flow-sort-sharp-two-tone" /></template>
+<style>
+.d3zo4rbrp {
+  d: path("M2.0014 12L12 5.0015L21.9986 12L12 18.9985ZM2 12L22 12");
+}
+
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.ly344qjju {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M6.4273 7.6815L11.4266 4.1822C11.5946 4.0646 11.7948 4.0015 12 4.0015C12.2052 4.0015 12.4054 4.0646 12.5734 4.1822L22.572 11.1807C22.8394 11.3679 22.9986 11.6737 22.9986 12C22.9986 12.3263 22.8394 12.6321 22.572 12.8193L12.5734 19.8178C12.4054 19.9354 12.2052 19.9985 12 19.9985C11.7948 19.9985 11.5946 19.9354 11.4266 19.8178L1.428 12.8193C1.1606 12.6321 1.0014 12.3263 1.0014 12C1.0014 11.6737 1.1606 11.3679 1.428 11.1807Z");
+  stroke: none;
+}
+
+</style>

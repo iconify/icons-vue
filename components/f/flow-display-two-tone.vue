@@ -1,0 +1,30 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="nrj6p8qat"><path class="tian79bvq"/><path class="pri-jsa5b"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:flow-display-two-tone" /></template>
+<style>
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.pri-jsa5b {
+  d: path("M15 5C18.866 5 22 8.134 22 12C22 15.866 18.866 19 15 19L8.886 19C8.3218 19 7.7838 18.7617 7.4047 18.3438L2.2593 12.6719C1.9135 12.2907 1.9135 11.7093 2.2593 11.3281L7.4047 5.6562C7.7838 5.2383 8.3218 5 8.886 5L15 5Z");
+}
+
+.tian79bvq {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M20.6569 6.3431C22.1035 7.7898 23 9.7911 23 12C23 16.4183 19.4183 20 15 20L8.886 20C8.0397 20 7.2327 19.6426 6.664 19.0157L1.5187 13.3438C0.8271 12.5814 0.8271 11.4186 1.5186 10.6562L6.6641 4.9843C7.2327 4.3574 8.0397 4 8.886 4L15 4C17.2089 4 19.2102 4.8965 20.6569 6.3431Z");
+  stroke: none;
+}
+
+</style>

@@ -1,0 +1,28 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="gp_8x1bzb"><path class="ao03fbbgm"/><path class="isy2lrdil"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:elevator-sharp" /></template>
+<style>
+.ao03fbbgm {
+  d: path("M8 12L8 13M8 13L6 17L5.7236 17.5528M8 13L10 17L10.2764 17.5528M20 3L20 21M22.2929 5.2929L22 5L20 3L18 5L17.7071 5.2929M22.2929 18.7071L22 19L20 21L18 19L17.7071 18.7071M2 3L14 3L14 21L2 21ZM5 12L6 12L8 12L10 12L11 12");
+}
+
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.isy2lrdil {
+  fill: currentColor;
+  d: path("M9.5 7.5C9.5 8.3284 8.8284 9 8 9C7.1716 9 6.5 8.3284 6.5 7.5C6.5 6.6716 7.1716 6 8 6C8.8284 6 9.5 6.6716 9.5 7.5Z");
+  stroke: none;
+}
+
+</style>

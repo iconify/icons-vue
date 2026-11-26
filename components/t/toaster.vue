@@ -1,0 +1,30 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="nrj6p8qat"><path class="lb1adfxpw"/><path clip-rule="evenodd" class="qdi8zuvms"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:toaster" /></template>
+<style>
+.lb1adfxpw {
+  d: path("M7 11V9.7321C6.3819 9.3746 6.0013 8.7148 6.0013 8.0008C6.0013 6.8962 6.8967 6.0008 8.0013 6.0008C8.3832 6.0008 8.7572 6.1102 9.079 6.316C9.3967 4.9593 10.6066 4 12 4C13.3934 4 14.6033 4.9593 14.921 6.316C15.2428 6.1102 15.6168 6.0008 15.9987 6.0008C17.1033 6.0008 17.9987 6.8962 17.9987 8.0008C17.9987 8.7148 17.6181 9.3746 17 9.7321V11M5 11H19C20.6569 11 22 12.3431 22 14V17C22 18.6569 20.6569 20 19 20H5C3.3431 20 2 18.6569 2 17V14C2 12.3431 3.3431 11 5 11Z");
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.qdi8zuvms {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M18.5 15.5C18.5 16.3284 17.8284 17 17 17C16.1716 17 15.5 16.3284 15.5 15.5C15.5 14.6716 16.1716 14 17 14C17.8284 14 18.5 14.6716 18.5 15.5Z");
+  stroke: none;
+}
+
+</style>

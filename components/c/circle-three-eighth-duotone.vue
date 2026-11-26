@@ -1,0 +1,24 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="cuyn6tgcc"><path class="yjdw7wb-b"/><path class="soz0zrbjm"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:circle-three-eighth-duotone" /></template>
+<style>
+.cuyn6tgcc {
+  fill: currentColor;
+}
+
+.soz0zrbjm {
+  d: path("M16.9498 7.0502C18.2154 8.3159 19 10.0672 19 12C19 13.8565 18.2625 15.637 16.9497 16.9497C16.7621 17.1373 16.5078 17.2426 16.2426 17.2426C15.9774 17.2426 15.723 17.1372 15.5355 16.9497L11.2929 12.7071C11.1054 12.5196 11 12.2652 11 12L11 6C11 5.4477 11.4477 5 12 5C13.9328 5 15.6841 5.7846 16.9498 7.0502Z");
+}
+
+.yjdw7wb-b {
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M23 12C23 18.0751 18.0751 23 12 23C5.9249 23 1 18.0751 1 12C1 5.9249 5.9249 1 12 1C18.0751 1 23 5.9249 23 12Z");
+}
+
+</style>

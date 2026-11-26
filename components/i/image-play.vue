@@ -1,0 +1,30 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="nrj6p8qat"><path class="meoyvkvkn"/><path clip-rule="evenodd" class="vj2xmxbtx"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:image-play" /></template>
+<style>
+.meoyvkvkn {
+  d: path("M11 3H6C4.3431 3 3 4.3431 3 6V18C3 19.6569 4.3431 21 6 21H18C19.6569 21 21 19.6569 21 18V13M3 18L7.9393 13.0607C8.5251 12.4749 9.4749 12.4749 10.0607 13.0607L12.0801 15.0801C12.6079 15.6079 13.4436 15.6673 14.0408 15.2194L15.9592 13.7806C16.5564 13.3327 17.3921 13.3921 17.9199 13.9199L21 17M16.447 3.1067L20.447 5.1055C21.1843 5.4739 21.1843 6.5261 20.447 6.8945L16.447 8.8933C15.7821 9.2255 15 8.742 15 7.9987V4.0013C15 3.258 15.7821 2.7745 16.447 3.1067Z");
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.vj2xmxbtx {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M9.5 7.5C9.5 8.3284 8.8284 9 8 9C7.1716 9 6.5 8.3284 6.5 7.5C6.5 6.6716 7.1716 6 8 6C8.8284 6 9.5 6.6716 9.5 7.5Z");
+  stroke: none;
+}
+
+</style>

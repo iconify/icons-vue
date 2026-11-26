@@ -1,0 +1,36 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="nrj6p8qat"><path class="wjq765tgk"/><path class="n96g3zo3v"/><path class="w1euoeb_l"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:perfume-bottle-duotone" /></template>
+<style>
+.n96g3zo3v {
+  fill: currentColor;
+  d: path("M8 9L5.5 9C4.6716 9 4 8.3284 4 7.5L4 5C4 3.8954 4.8954 3 6 3L10 3C11.1046 3 12 3.8954 12 5L12 7.5C12 8.3284 11.3284 9 10.5 9ZM21.1951 9.1075C21.7085 9.7493 22 10.5985 22 11.5C22 12.4015 21.7085 13.2507 21.1951 13.8925C20.6802 14.5361 19.9105 15 19 15C18.0895 15 17.3198 14.5361 16.8049 13.8925C16.2915 13.2507 16 12.4015 16 11.5C16 10.5985 16.2915 9.7493 16.8049 9.1075C17.3198 8.4639 18.0895 8 19 8C19.9105 8 20.6802 8.4639 21.1951 9.1075Z");
+  stroke: none;
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.w1euoeb_l {
+  d: path("M10 4H14C16.7614 4 19 6.2386 19 9");
+}
+
+.wjq765tgk {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M8 21L5.3542 21C4.8669 21 4.3967 20.8221 4.0313 20.5C2.7399 19.361 2 17.722 2 16C2 13.8564 3.1436 11.8757 5.0001 10.8038L5 8C5 7.4477 5.4477 7 6 7L10 7C10.5523 7 11 7.4477 11 8L11 10.8038C12.8564 11.8757 14 13.8564 14 16C14 17.722 13.2601 19.361 11.9686 20.5001C11.6033 20.8221 11.1331 21 10.6458 21Z");
+  stroke: none;
+}
+
+</style>

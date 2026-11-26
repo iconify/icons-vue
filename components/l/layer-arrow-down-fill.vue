@@ -1,0 +1,30 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="nrj6p8qat"><path clip-rule="evenodd" class="a4zfbbb3h"/><path class="yjtjxu8ic"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:layer-arrow-down-fill" /></template>
+<style>
+.a4zfbbb3h {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M9.9208 9.2166L7.6708 10.3416C7.2485 10.5528 6.7515 10.5528 6.3292 10.3416L1.8292 8.0916C1.2776 7.8159 1 7.2733 1 6.75C1 6.2267 1.2776 5.6841 1.8293 5.4083L6.3292 3.1584C6.7515 2.9472 7.2485 2.9472 7.6708 3.1584L12.1708 5.4084C12.7224 5.6841 13 6.2267 13 6.75C13 7.2733 12.7224 7.8159 12.1707 8.0917Z");
+  stroke: none;
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.yjtjxu8ic {
+  d: path("M2 12.309L6.7764 14.6972C6.9172 14.7676 7.0828 14.7676 7.2236 14.6972L12 12.309M2 17.559L6.7764 19.9472C6.9172 20.0176 7.0828 20.0176 7.2236 19.9472L12 17.559M19 3V21M16 18L19 21L22 18");
+}
+
+</style>

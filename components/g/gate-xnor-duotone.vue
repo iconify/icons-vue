@@ -1,0 +1,30 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="nrj6p8qat"><path class="g2uizlmmu"/><path class="l8c1resmk"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:gate-xnor-duotone" /></template>
+<style>
+.g2uizlmmu {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M13.6359 6.2734C15.5635 7.4299 17.2618 8.9686 18.6148 10.8198C18.865 11.1625 19 11.5757 19 12C19 12.4243 18.865 12.8375 18.615 13.1799C15.9088 16.8827 11.8217 19.3349 7.2814 19.9802C7.1877 19.9934 7.0938 20 7 20C5.8954 20 5 19.1046 5 18C5 17.5671 5.1404 17.1462 5.3999 16.8001C6.4386 15.4152 7 13.7309 7 12C7 10.2691 6.4386 8.5848 5.4 7.2C5.1404 6.8538 5 6.4329 5 6C5 4.8954 5.8954 4 7 4C7.0938 4 7.1877 4.0066 7.2809 4.0198C9.5515 4.3425 11.7084 5.1169 13.6359 6.2734Z");
+  stroke: none;
+}
+
+.l8c1resmk {
+  d: path("M18 12C18 10.8954 18.8954 10 20 10C21.1046 10 22 10.8954 22 12C22 13.1046 21.1046 14 20 14C18.8954 14 18 13.1046 18 12ZM2 6C2 7.0819 2.3509 8.1345 3 9C3.6491 9.8655 4 10.9181 4 12C4 13.0819 3.6491 14.1345 3 15C2.3509 15.8655 2 16.9181 2 18");
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+</style>

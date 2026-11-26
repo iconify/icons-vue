@@ -1,0 +1,29 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="gp_8x1bzb"><path class="ukwx1f4zi"/><path class="atu_bcada"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:layers-arrow-up-sharp-duotone" /></template>
+<style>
+.atu_bcada {
+  d: path("M1.4472 12.0326L7 14.809L12.5528 12.0326M1.4472 17.2826L7 20.059L12.5528 17.2826M15 3L23 3M19 22L19 7M15.7071 10.2929L19 7L22.2929 10.2929");
+}
+
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.ukwx1f4zi {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M4.0191 9.0007L1.5201 7.6262C1.2005 7.4505 1.002 7.1147 1.002 6.75C1.002 6.3853 1.2005 6.0495 1.5201 5.8738L6.5181 3.1248C6.6657 3.0436 6.8315 3.001 7 3.001C7.1685 3.001 7.3343 3.0436 7.4819 3.1248L12.4799 5.8738C12.7995 6.0495 12.998 6.3853 12.998 6.75C12.998 7.1147 12.7995 7.4505 12.4799 7.6262L7.4819 10.3752C7.3343 10.4564 7.1685 10.499 7 10.499C6.8315 10.499 6.6657 10.4564 6.5181 10.3752Z");
+  stroke: none;
+}
+
+</style>

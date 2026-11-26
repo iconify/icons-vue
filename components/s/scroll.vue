@@ -1,0 +1,20 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="h-64z_qfx"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:scroll" /></template>
+<style>
+.h-64z_qfx {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M18 16V6C18 4.3431 16.6569 3 15 3H4.5M18 16H20.5C21.3284 16 22 16.6716 22 17.5V18C22 19.6569 20.6569 21 19 21H9.5M18 16H14C12.8954 16 12 16.8954 12 18V18.5C12 19.8807 10.8807 21 9.5 21M7 9V15V18V18.5C7 19.8807 8.11929 21 9.5 21M7 9H3.5C2.67157 9 2 8.32843 2 7.5V5.5C2 4.11929 3.11929 3 4.5 3M7 9V5.5C7 4.11929 5.88071 3 4.5 3M11 8H14M11 12H14");
+}
+
+</style>

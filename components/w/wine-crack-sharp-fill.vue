@@ -1,0 +1,28 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="gp_8x1bzb"><path class="az8wwqb4d"/><path class="bszcznb7d"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:wine-crack-sharp-fill" /></template>
+<style>
+.az8wwqb4d {
+  fill: currentColor;
+  d: path("M4.2313 12.9546C3.8995 11.8237 3.9165 10.587 4.3351 9.4225L5.7262 5.5425L7.1174 1.6625C7.2599 1.2651 7.6365 1 8.0587 1L10.3763 1C10.9286 1 11.3763 1.4477 11.3763 2C11.3763 2.1146 11.3566 2.2284 11.3181 2.3363L10.3083 5.1637C10.1711 5.5477 10.2809 5.9765 10.5856 6.2474L11.6227 7.1693C11.8362 7.359 11.9584 7.631 11.9584 7.9167C11.9584 8.0907 11.913 8.2617 11.8267 8.4128L10.6318 10.5039L10.3438 11.0078L12.0804 12L12.3683 11.4961L14.3682 7.9961C14.6028 7.5857 14.5179 7.0669 14.1644 6.7526L12.923 5.6492C12.7095 5.4594 12.5874 5.1874 12.5874 4.9018C12.5874 4.7871 12.6071 4.6734 12.6456 4.5654L13.4417 2.3363L13.682 1.6636C13.8241 1.2657 14.2011 1 14.6237 1L15.9413 1C16.3635 1 16.7401 1.2652 16.8826 1.6625L18.2737 5.5422L19.6647 9.4218C20.5009 11.7483 19.7374 14.3676 17.7696 15.867C16.8035 16.5967 15.628 17 14.4144 17L12 17L9.5857 17C8.372 17 7.1966 16.5967 6.2298 15.8664C5.2456 15.1165 4.5632 14.0857 4.2313 12.9546Z");
+  stroke: none;
+}
+
+.bszcznb7d {
+  d: path("M12 16L12 22M8.0429 22L9.0429 22L12 22L14.9571 22L15.9571 22");
+}
+
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+</style>

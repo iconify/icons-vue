@@ -1,0 +1,20 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="sa8p60wev"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:tulip" /></template>
+<style>
+.sa8p60wev {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M7 8V2.5007C7 1.9541 7.7513 1.8038 7.9615 2.3083L8.7022 4.0857C9.0243 4.8586 10.0969 4.917 10.5011 4.1837L11.5621 2.2587C11.7522 1.9138 12.2478 1.9138 12.4379 2.2587L13.4989 4.1837C13.9031 4.917 14.9757 4.8586 15.2978 4.0857L16.0385 2.3083C16.2487 1.8038 17 1.9541 17 2.5007V8C17 10.7614 14.7614 13 12 13C9.2386 13 7 10.7614 7 8ZM12 13V22M12 22C7 22 4 20 4 16.5C4 15.9477 4.4477 15.5 5 15.5C8 15.8 12 18.5 12 22C17 22 20 20 20 16.5C20 15.9477 19.5523 15.5 19 15.5C16 15.8 12 18.5 12 22");
+}
+
+</style>

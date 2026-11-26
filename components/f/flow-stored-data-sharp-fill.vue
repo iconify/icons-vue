@@ -1,0 +1,17 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path clip-rule="evenodd" class="odw118bek"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:flow-stored-data-sharp-fill" /></template>
+<style>
+.odw118bek {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M15 20L9 20C4.5817 20 1 16.4183 1 12C1 7.5817 4.5817 4 9 4L21 4C22.1046 4 23 4.8954 23 6C23 6.6297 22.7035 7.2223 22.2001 7.5999C20.8151 8.6387 20 10.2689 20 12C20 13.7311 20.8151 15.3613 22.2 16.4C22.7035 16.7777 23 17.3703 23 18C23 19.1046 22.1046 20 21 20Z");
+}
+
+</style>

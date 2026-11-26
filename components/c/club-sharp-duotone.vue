@@ -1,0 +1,19 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="f9ywvmjxk"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:club-sharp-duotone" /></template>
+<style>
+.f9ywvmjxk {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M7.6128 8.5014C7.5378 8.1729 7.5 7.8371 7.5 7.5002C7.5 5.0149 9.5147 3.0002 12 3.0002C14.4853 3.0002 16.5 5.0149 16.5 7.5002C16.5 7.8371 16.4622 8.1729 16.3872 8.5014C16.4248 8.5005 16.4623 8.5 16.4999 8.5C18.9852 8.5 20.9999 10.5147 20.9999 13C20.9999 15.4853 18.9852 17.5 16.4999 17.5C15.61 17.5 14.74 17.2361 14 16.7417L14 18.5L16.5 21L7.5 21L10 18.5L10 16.7417C9.26 17.2361 8.39 17.5 7.5001 17.5C5.0148 17.5 3.0001 15.4853 3.0001 13C3.0001 10.5147 5.0148 8.5 7.5001 8.5C7.5377 8.5 7.5752 8.5005 7.6128 8.5014Z");
+}
+
+</style>

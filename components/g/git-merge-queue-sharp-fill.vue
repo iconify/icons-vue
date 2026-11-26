@@ -1,0 +1,29 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="gp_8x1bzb"><path class="q9r5-x3bu"/><path clip-rule="evenodd" class="lt8ci8baz"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:git-merge-queue-sharp-fill" /></template>
+<style>
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.lt8ci8baz {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M3.1716 20.8284C3.8943 21.5512 4.8957 22 6 22C8.2092 22 10 20.2092 10 18C10 15.7908 8.2092 14 6 14C3.7908 14 2 15.7908 2 18C2 19.1043 2.4488 20.1057 3.1716 20.8284ZM20.8284 8.8284C21.5512 8.1057 22 7.1043 22 6C22 3.7908 20.2092 2 18 2C15.7908 2 14 3.7908 14 6C14 8.2092 15.7908 10 18 10C19.1043 10 20.1057 9.5512 20.8284 8.8284ZM19.5 14C19.5 14.8284 18.8284 15.5 18 15.5C17.1716 15.5 16.5 14.8284 16.5 14C16.5 13.1716 17.1716 12.5 18 12.5C18.8284 12.5 19.5 13.1716 19.5 14ZM19.5 19.5C19.5 20.3284 18.8284 21 18 21C17.1716 21 16.5 20.3284 16.5 19.5C16.5 18.6716 17.1716 18 18 18C18.8284 18 19.5 18.6716 19.5 19.5Z");
+  stroke: none;
+}
+
+.q9r5-x3bu {
+  d: path("M6 2L6 15C6.1667 12 8.2 6 15 6");
+}
+
+</style>

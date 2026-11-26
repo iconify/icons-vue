@@ -1,0 +1,30 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="nrj6p8qat"><path class="yti1hsbpw"/><path class="h5ioobclc"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:bikini-duotone" /></template>
+<style>
+.h5ioobclc {
+  fill: currentColor;
+  d: path("M12 11.6458C11.267 12.4762 10.1947 13 9 13C6.7908 13 5 11.2091 5 9C5 7.8618 5.4849 6.7774 6.3333 6.0185C6.5167 5.8546 6.754 5.7639 7 5.7639C7.1407 5.7639 7.2798 5.7936 7.4083 5.851L9.9083 6.9691L12 7.9045L14.0917 6.9691L16.5917 5.851C16.7202 5.7936 16.8593 5.7639 17 5.7639C17.246 5.7639 17.4833 5.8546 17.6667 6.0185C18.5151 6.7774 19 7.8618 19 9C19 11.2091 17.2092 13 15 13C13.8053 13 12.733 12.4762 12 11.6458ZM12 16L16 16C17.1046 16 18 16.8954 18 18L18 18.0858C18 18.6163 17.7892 19.125 17.4142 19.5L14.5 22.4142C14.125 22.7892 13.6163 23 13.0858 23L10.9142 23C10.3837 23 9.875 22.7892 9.5 22.4142L6.5858 19.5C6.2108 19.125 6 18.6163 6 18.0858L6 18C6 16.8954 6.8954 16 8 16Z");
+  stroke: none;
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.yti1hsbpw {
+  stroke-opacity: 0.4;
+  d: path("M7 2L7 6.7639M17 2L17 6.7639");
+}
+
+</style>

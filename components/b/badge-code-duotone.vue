@@ -1,0 +1,30 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="nrj6p8qat"><path class="r8gxgmkxg"/><path class="c66db-bxp"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:badge-code-duotone" /></template>
+<style>
+.c66db-bxp {
+  d: path("M10 9.5L7.5 12L10 14.5M14 9.5L16.5 12L14 14.5");
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.r8gxgmkxg {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M4.2218 4.2218C5.216 3.2276 6.5924 2.6109 8.1109 2.6109C9.1373 1.5844 10.5345 1 12 1C13.4655 1 14.8627 1.5844 15.8891 2.6109C18.9267 2.6109 21.3891 5.0733 21.3891 8.1109C22.4156 9.1373 23 10.5345 23 12C23 13.4655 22.4156 14.8627 21.3891 15.8891C21.3891 18.9267 18.9267 21.3891 15.8891 21.3891C14.8627 22.4156 13.4655 23 12 23C10.5345 23 9.1373 22.4156 8.1109 21.3891C5.0733 21.3891 2.6109 18.9267 2.6109 15.8891C1.5844 14.8627 1 13.4655 1 12C1 10.5345 1.5844 9.1373 2.6109 8.1109C2.6109 6.5924 3.2276 5.216 4.2218 4.2218Z");
+  stroke: none;
+}
+
+</style>

@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/thesvg-color",
   "type": "module",
-  "version": "1.0.30",
+  "version": "1.0.31",
   "homepage": "https://icon-sets.iconify.design/thesvg-color/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -341,6 +341,10 @@
     "./aerospike": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/aerospike.vue"
+    },
+    "./aetheriumos": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/aetheriumos.vue"
     },
     "./afdian": {
       "types": "./types/dd0bq22g.d.ts",
@@ -797,6 +801,10 @@
     "./anaconda": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/anaconda.vue"
+    },
+    "./anadolujet": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/anadolujet.vue"
     },
     "./analogue": {
       "types": "./types/dd0bq22g.d.ts",
@@ -3758,6 +3766,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/contentstack.vue"
     },
+    "./context7-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/context7-dark.vue"
+    },
+    "./context7-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/context7-light.vue"
+    },
     "./continente": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/continente.vue"
@@ -4105,6 +4121,10 @@
     "./custom-ink": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/custom-ink.vue"
+    },
+    "./customtkinter": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/customtkinter.vue"
     },
     "./cvs": {
       "types": "./types/dd0bq22g.d.ts",
@@ -8606,6 +8626,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/i/intelbras.vue"
     },
+    "./intelbyte": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/intelbyte.vue"
+    },
     "./intellij-idea": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/i/intellij-idea.vue"
@@ -9730,6 +9754,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/l/lada.vue"
     },
+    "./ladybird": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/ladybird.vue"
+    },
     "./lambda": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/l/lambda.vue"
@@ -10109,6 +10137,10 @@
     "./linear": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/l/linear.vue"
+    },
+    "./linguaexam": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/linguaexam.vue"
     },
     "./link": {
       "types": "./types/dd0bq22g.d.ts",
@@ -13786,6 +13818,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/pfizer.vue"
     },
+    "./pfs": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/pfs.vue"
+    },
     "./pfsense": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/pfsense.vue"
@@ -15162,6 +15198,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/r/ram.vue"
     },
+    "./ramp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/ramp.vue"
+    },
     "./rancher": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/r/rancher.vue"
@@ -15533,6 +15573,10 @@
     "./resharper": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/r/resharper.vue"
+    },
+    "./residual-labs": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/residual-labs.vue"
     },
     "./resurrection-remix-os": {
       "types": "./types/dd0bq22g.d.ts",
@@ -16409,6 +16453,10 @@
     "./setuptools": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/setuptools.vue"
+    },
+    "./seus-community": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/seus-community.vue"
     },
     "./sezzle-dark": {
       "types": "./types/dd0bq22g.d.ts",
@@ -20057,6 +20105,10 @@
     "./wendys": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/w/wendys.vue"
+    },
+    "./wenitor": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/w/wenitor.vue"
     },
     "./wenxin": {
       "types": "./types/dd0bq22g.d.ts",

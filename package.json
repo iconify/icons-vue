@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/lucide",
   "type": "module",
-  "version": "1.0.93",
+  "version": "1.0.94",
   "homepage": "https://icon-sets.iconify.design/lucide/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "ISC",
@@ -221,6 +221,18 @@
     "./app-window-mac": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/app-window-mac.vue"
+    },
+    "./app-window-mac-minus": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/app-window-mac-minus.vue"
+    },
+    "./app-window-mac-plus": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/app-window-mac-plus.vue"
+    },
+    "./app-window-minus": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/app-window-minus.vue"
     },
     "./app-window-plus": {
       "types": "./types/dd0bq22g.d.ts",
@@ -1057,6 +1069,10 @@
     "./bow-arrow": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/bow-arrow.vue"
+    },
+    "./bowl-chopsticks": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/bowl-chopsticks.vue"
     },
     "./box": {
       "types": "./types/dd0bq22g.d.ts",
@@ -2366,6 +2382,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/columns-2.vue"
     },
+    "./columns-2-plus-left": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/columns-2-plus-left.vue"
+    },
+    "./columns-2-plus-right": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/columns-2-plus-right.vue"
+    },
     "./columns-3": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/columns-3.vue"
@@ -2882,6 +2906,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/e/eject.vue"
     },
+    "./elevator": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/elevator.vue"
+    },
     "./ellipse": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/e/ellipse.vue"
@@ -3269,6 +3297,10 @@
     "./file-text": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/f/file-text.vue"
+    },
+    "./file-text-sparkles": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/f/file-text-sparkles.vue"
     },
     "./file-type": {
       "types": "./types/dd0bq22g.d.ts",
@@ -3798,6 +3830,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/globe-check.vue"
     },
+    "./globe-clock": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/globe-clock.vue"
+    },
     "./globe-code": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/globe-code.vue"
@@ -4209,6 +4245,10 @@
     "./image-plus": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/i/image-plus.vue"
+    },
+    "./image-sparkles": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/image-sparkles.vue"
     },
     "./image-up": {
       "types": "./types/dd0bq22g.d.ts",
@@ -4781,6 +4821,10 @@
     "./list-x": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/l/list-x.vue"
+    },
+    "./list-x-corner": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/l/list-x-corner.vue"
     },
     "./loader": {
       "types": "./types/dd0bq22g.d.ts",
@@ -5954,6 +5998,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/plane-landing.vue"
     },
+    "./plane-off": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/plane-off.vue"
+    },
     "./plane-takeoff": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/plane-takeoff.vue"
@@ -6198,9 +6246,13 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/r/rectangle-horizontal.vue"
     },
-    "./rectangle-landscape-play": {
+    "./rectangle-horizontal-play": {
       "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/r/rectangle-landscape-play.vue"
+      "default": "./components/r/rectangle-horizontal-play.vue"
+    },
+    "./rectangle-horizontal-plus": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rectangle-horizontal-plus.vue"
     },
     "./rectangle-vertical": {
       "types": "./types/dd0bq22g.d.ts",
@@ -6374,6 +6426,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/r/rows-2.vue"
     },
+    "./rows-2-plus-bottom": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rows-2-plus-bottom.vue"
+    },
+    "./rows-2-plus-top": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rows-2-plus-top.vue"
+    },
     "./rows-3": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/r/rows-3.vue"
@@ -6541,6 +6601,10 @@
     "./screw": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/screw.vue"
+    },
+    "./screwdriver": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/screwdriver.vue"
     },
     "./scroll": {
       "types": "./types/dd0bq22g.d.ts",
@@ -7578,6 +7642,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/star-x.vue"
     },
+    "./steering-wheel": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/steering-wheel.vue"
+    },
     "./step-back": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/step-back.vue"
@@ -8070,6 +8138,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/train-front-tunnel.vue"
     },
+    "./train-high-speed": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/train-high-speed.vue"
+    },
     "./train-track": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/train-track.vue"
@@ -8085,6 +8157,10 @@
     "./trash": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/trash.vue"
+    },
+    "./trash-leaf": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/trash-leaf.vue"
     },
     "./trash-off": {
       "types": "./types/dd0bq22g.d.ts",
@@ -9501,6 +9577,10 @@
     "./power-square": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/power-square.vue"
+    },
+    "./rectangle-landscape-play": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rectangle-landscape-play.vue"
     },
     "./rotate-3-d": {
       "types": "./types/dd0bq22g.d.ts",

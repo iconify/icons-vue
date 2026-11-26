@@ -38,7 +38,7 @@ To resize icon, set `width` and/or `height` parameters:
 
 ```vue
 <script setup lang="ts">
-import SampleIcon from '@iconify-vue/flag/de-1x1';
+import SampleIcon from '@iconify-vue/flag/bg-1x1';
 </script>
 <template>
   <SampleIcon height="1em" />

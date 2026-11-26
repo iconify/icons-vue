@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/cbi",
   "type": "module",
-  "version": "1.0.57",
+  "version": "1.0.58",
   "homepage": "https://icon-sets.iconify.design/cbi/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "CC-BY-NC-SA-4.0",
@@ -3493,6 +3493,10 @@
     "./mammotion-luba-top": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/mammotion-luba-top.vue"
+    },
+    "./mapy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mapy.vue"
     },
     "./maria-db": {
       "types": "./types/dd0bq22g.d.ts",

@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/devicon",
   "type": "module",
-  "version": "1.0.43",
+  "version": "1.0.44",
   "homepage": "https://icon-sets.iconify.design/devicon/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -410,6 +410,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/bevyengine-wordmark.vue"
     },
+    "./binijs": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/binijs.vue"
+    },
+    "./binijs-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/binijs-wordmark.vue"
+    },
     "./biome": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/biome.vue"
@@ -678,6 +686,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/codepen-wordmark.vue"
     },
+    "./codewars": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/codewars.vue"
+    },
+    "./codewars-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/codewars-wordmark.vue"
+    },
     "./codex": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/codex.vue"
@@ -933,6 +949,10 @@
     "./digitalocean-wordmark": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/digitalocean-wordmark.vue"
+    },
+    "./directx-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/directx-wordmark.vue"
     },
     "./discloud": {
       "types": "./types/dd0bq22g.d.ts",
@@ -3502,6 +3522,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/r/ros-wordmark.vue"
     },
+    "./rqlite": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rqlite.vue"
+    },
     "./rspec": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/r/rspec.vue"
@@ -3509,6 +3533,10 @@
     "./rspec-wordmark": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/r/rspec-wordmark.vue"
+    },
+    "./rstan": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/rstan.vue"
     },
     "./rstudio": {
       "types": "./types/dd0bq22g.d.ts",
@@ -3817,6 +3845,14 @@
     "./stata-wordmark": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/stata-wordmark.vue"
+    },
+    "./statuspage": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/statuspage.vue"
+    },
+    "./statuspage-wordmark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/statuspage-wordmark.vue"
     },
     "./stenciljs": {
       "types": "./types/dd0bq22g.d.ts",

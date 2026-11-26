@@ -1,0 +1,8 @@
+.aqdamnumd {
+  fill: var(--svg-color--1c1e24, #1c1e24);
+  stroke: var(--svg-color--24160a, #24160a);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--3-4px, 3.4px);
+  d: path("m100 162l-20-10q-5 10 0 20Zm0 0l20-10q5 10 0 20Z");
+}

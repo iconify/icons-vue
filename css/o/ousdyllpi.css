@@ -1,0 +1,8 @@
+.ousdyllpi {
+  fill: none;
+  stroke: var(--svg-color--c88a00, #c88a00);
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--3px, 3px);
+  d: path("m16 106l18 12m-16 2l18 6m30-6q10 10 22 6m-20 6q10 8 22 4");
+  opacity: var(--svg-opacity--0-8, 0.8);
+}

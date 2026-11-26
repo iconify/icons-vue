@@ -1,0 +1,8 @@
+.txtxudbar {
+  fill: none;
+  stroke: var(--svg-color--e8c080, #e8c080);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--21-6px, 21.6px);
+  d: path("m97.503 56.043l243 178.2m81-178.2l-243 178.2");
+}

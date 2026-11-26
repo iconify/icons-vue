@@ -1,0 +1,7 @@
+.e1x_25mew {
+  fill: var(--svg-color--24160a, #24160a);
+  stroke: var(--svg-color--24160a, #24160a);
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--10-5px, 10.5px);
+  d: path("M52 94h20v24H52Zm26 0h20v24H78Zm26 0h20v24h-20Zm26 0h20v24h-20Z");
+}

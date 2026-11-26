@@ -1,0 +1,8 @@
+.leq8r-bne {
+  fill: none;
+  stroke: var(--svg-color--fff, #fff);
+  stroke-linecap: round;
+  stroke-opacity: 0.35;
+  stroke-width: var(--svg-stroke-width--5px, 5px);
+  d: path("M58 30q14-12 32-14");
+}

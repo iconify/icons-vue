@@ -1,0 +1,8 @@
+.jr_eeltun {
+  fill: none;
+  stroke: var(--svg-color--2a2f3a, #2a2f3a);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--3px, 3px);
+  d: path("M12 50q88-12 176 0");
+}

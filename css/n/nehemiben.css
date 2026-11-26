@@ -1,0 +1,7 @@
+.nehemiben {
+  fill: var(--svg-color--24160a, #24160a);
+  stroke: var(--svg-color--24160a, #24160a);
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--9px, 9px);
+  d: path("M30 100c-4-4 2.7-23.3 6-28s10-4 14 0s13.3 19.3 10 24s-26 8-30 4Z");
+}

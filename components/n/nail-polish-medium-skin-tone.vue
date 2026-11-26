@@ -1,0 +1,62 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/r/rfxecdbdj.css';
+import '../../css/y/y7lqwdbcf.css';
+import '../../css/i/iv2ss-tfg.css';
+import '../../css/q/qj4cmsymc.css';
+import '../../css/u/u0e97wbfw.css';
+import '../../css/e/ehw66d_-i.css';
+import '../../css/v/vec_-q5mk.css';
+import '../../css/z/z1742hbns.css';
+import '../../css/e/egjuokbkq.css';
+import '../../css/u/ue6f0qe5l.css';
+import '../../css/c/c8c9qkdsk.css';
+import '../../css/u/uobks4tiu.css';
+import '../../css/b/bte_okbcq.css';
+import '../../css/z/ztznhx5jv.css';
+import '../../css/s/syyxevbsq.css';
+import '../../css/k/ki-qes4vq.css';
+import '../../css/q/qlzo-bu3i.css';
+import '../../css/u/u2_lribqn.css';
+import '../../css/z/zf_jl_baf.css';
+import '../../css/m/m11tevs1x.css';
+import '../../css/k/kbqoiibwh.css';
+import '../../css/u/umwe3ywjj.css';
+import '../../css/h/hbk6ce79n.css';
+import '../../css/r/rvkje27rq.css';
+import '../../css/r/rqvqm6bdh.css';
+import '../../css/o/ob8bt1d5h.css';
+import '../../css/o/owejs-6kv.css';
+import '../../css/j/j8xctjcdg.css';
+import '../../css/s/sit00bc7i.css';
+import '../../css/w/w_3xrsbjx.css';
+import '../../css/f/ff1o10u_w.css';
+import '../../css/m/mrymatbod.css';
+import '../../css/n/n5j5qbl3t.css';
+import '../../css/l/l7japxb5c.css';
+import '../../css/s/s_ndncbkc.css';
+import '../../css/h/htgwyixxg.css';
+import '../../css/i/is8r81btk.css';
+import '../../css/i/iifl2ac8i.css';
+import '../../css/a/aaxu8jb3x.css';
+import '../../css/e/evkicsb3f.css';
+import '../../css/c/ccx684fsv.css';
+import '../../css/c/cqvv4qbtf.css';
+import '../../css/i/idlrrfb2o.css';
+import '../../css/s/stz079bzu.css';
+import '../../css/o/oqy47ab4r.css';
+import '../../css/a/axwvq5l7w.css';
+import '../../css/n/nxv4dfd3n.css';
+import '../../css/w/wqlgd2bwe.css';
+import '../../css/j/j6jj3xbbh.css';
+import '../../css/h/h1_g0fv2s.css';
+import '../../css/s/smxcrtb_l.css';
+import '../../css/j/j--gzia5w.css';
+import '../../css/e/eel6zm1da.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":512,"height":512};
+const content = `<defs><radialGradient id="SVGlycytueg" cx=".35" cy=".3" r=".8"><stop offset="0" class="rfxecdbdj"/><stop offset=".25" class="y7lqwdbcf"/><stop offset=".8" class="iv2ss-tfg"/><stop offset="1" class="qj4cmsymc"/></radialGradient></defs><g transform="rotate(-18 79.91 342.49)scale(2.4)"><g class="u0e97wbfw"><path class="ehw66d_-i"/><path class="vec_-q5mk"/><path class="z1742hbns"/><path class="egjuokbkq"/><path class="ue6f0qe5l"/><path class="c8c9qkdsk"/><path class="uobks4tiu"/><path class="bte_okbcq"/><path class="ztznhx5jv"/><path class="syyxevbsq"/><path class="ki-qes4vq"/><path class="qlzo-bu3i"/><path class="u2_lribqn"/><path class="zf_jl_baf"/><path class="m11tevs1x"/><path class="kbqoiibwh"/><path class="umwe3ywjj"/><path class="hbk6ce79n"/></g><path fill="url(#SVGlycytueg)" class="rvkje27rq"/><path class="rqvqm6bdh"/><path class="ob8bt1d5h"/><path fill="url(#SVGlycytueg)" class="owejs-6kv"/><path class="j8xctjcdg"/><path class="sit00bc7i"/><path fill="url(#SVGlycytueg)" class="w_3xrsbjx"/><path class="ff1o10u_w"/><path class="mrymatbod"/><path fill="url(#SVGlycytueg)" class="n5j5qbl3t"/><path class="l7japxb5c"/><path class="s_ndncbkc"/><path fill="url(#SVGlycytueg)" class="htgwyixxg"/><path class="is8r81btk"/><path class="iifl2ac8i"/><path fill="url(#SVGlycytueg)" class="aaxu8jb3x"/><path class="evkicsb3f"/><path class="ccx684fsv"/><ellipse transform="rotate(-6 63.9 49.8)" class="cqvv4qbtf"/><ellipse transform="rotate(-1 91.8 35.5)" class="idlrrfb2o"/><ellipse transform="rotate(3 118.3 43)" class="stz079bzu"/><ellipse transform="rotate(8 142.8 63.8)" class="oqy47ab4r"/><ellipse transform="rotate(-34 43.3 116.3)" class="axwvq5l7w"/></g><g class="nxv4dfd3n"><path class="wqlgd2bwe"/><path class="j6jj3xbbh"/></g><path class="h1_g0fv2s"/><path class="smxcrtb_l"/><path class="j--gzia5w"/><path class="eel6zm1da"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="xero-emoji:nail-polish-medium-skin-tone" /></template>

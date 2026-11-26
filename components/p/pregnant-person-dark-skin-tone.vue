@@ -1,0 +1,62 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/t/tcow_5uzw.css';
+import '../../css/v/vvde1da8q.css';
+import '../../css/k/kam9u7bih.css';
+import '../../css/h/hum2sjbbb.css';
+import '../../css/y/y6pjf1bwb.css';
+import '../../css/q/qdsd79bvu.css';
+import '../../css/a/amabzjn2m.css';
+import '../../css/v/vcnu9g1hu.css';
+import '../../css/u/uqhbq5ugw.css';
+import '../../css/n/ng326_b-y.css';
+import '../../css/g/gnl83ybtp.css';
+import '../../css/u/u61m1to9h.css';
+import '../../css/v/vc--wpv5i.css';
+import '../../css/y/yi33801ac.css';
+import '../../css/n/n0eqhubdv.css';
+import '../../css/z/z_4m6ybwr.css';
+import '../../css/p/p5_fqnb0s.css';
+import '../../css/c/c-5g9jb4z.css';
+import '../../css/a/agb2cobrf.css';
+import '../../css/z/zwwgj2bxs.css';
+import '../../css/d/d2kvgvbvc.css';
+import '../../css/w/w3oizhj_l.css';
+import '../../css/d/d13ipyhki.css';
+import '../../css/n/ntfk3d07k.css';
+import '../../css/c/cjt7vybul.css';
+import '../../css/c/clkow8rxa.css';
+import '../../css/k/km7syvh-b.css';
+import '../../css/m/mgx8jz-xe.css';
+import '../../css/g/g2tmlr5sr.css';
+import '../../css/b/b3xu1pbcw.css';
+import '../../css/x/xdo2sogdh.css';
+import '../../css/i/i9sxaeb6x.css';
+import '../../css/q/q7976e6ic.css';
+import '../../css/k/k7n35obep.css';
+import '../../css/z/zt5qcv73i.css';
+import '../../css/d/dv8nf-b2e.css';
+import '../../css/w/wrazh-bai.css';
+import '../../css/t/t9sqq3bge.css';
+import '../../css/p/pczbnkxaa.css';
+import '../../css/g/gwscr4x8w.css';
+import '../../css/w/w7h_wn5ma.css';
+import '../../css/x/x4nyccb8d.css';
+import '../../css/d/dh6ij8bpy.css';
+import '../../css/t/t5yvz8bco.css';
+import '../../css/u/u_8zf0bml.css';
+import '../../css/j/j6fzvubxx.css';
+import '../../css/s/shja2nbaz.css';
+import '../../css/c/ck6bedbut.css';
+import '../../css/f/fljiubb9r.css';
+import '../../css/v/vqjwz_bsc.css';
+import '../../css/g/gmn5li1hm.css';
+import '../../css/y/y8tsztmsk.css';
+import '../../css/o/o4k3wcb_r.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":512,"height":512};
+const content = `<defs><path id="SVGw26Psbth" fill="url(#SVGkdhkxdsL)" class="tcow_5uzw"/><path id="SVGilRSydQW" fill="url(#SVGkdhkxdsL)" class="vvde1da8q"/><path id="SVGZ8EV5d4o" fill="url(#SVGkdhkxdsL)" class="kam9u7bih"/><path id="SVGFwgSgcrz" fill="url(#SVGkdhkxdsL)" class="hum2sjbbb"/><path id="SVGZ46qIcdj" fill="url(#SVGkdhkxdsL)" class="y6pjf1bwb"/><path id="SVGLMjTldwm" fill="url(#SVGkdhkxdsL)" class="qdsd79bvu"/><radialGradient id="SVGkdhkxdsL" cx=".35" cy=".3" r=".8"><stop offset="0" class="amabzjn2m"/><stop offset=".25" class="vcnu9g1hu"/><stop offset=".8" class="uqhbq5ugw"/><stop offset="1" class="ng326_b-y"/></radialGradient><radialGradient id="SVGL1iocdof" cx=".35" cy=".3" r=".8"><stop offset="0" class="gnl83ybtp"/><stop offset="1" class="u61m1to9h"/></radialGradient><linearGradient id="SVGOzZqcb3T" x1=".5" x2=".5" y1="1" y2="0"><stop offset="0"/><stop offset="1" class="vc--wpv5i"/></linearGradient><linearGradient id="SVGdJuUbejB" x1=".5" x2=".5" y1="0" y2="1"><stop offset="0"/><stop offset=".26" class="yi33801ac"/><stop offset=".6" class="n0eqhubdv"/><stop offset=".88" class="z_4m6ybwr"/><stop offset="1" class="p5_fqnb0s"/></linearGradient></defs><g transform="matrix(2 0 0 2 77.872 22.262)"><path fill="url(#SVGL1iocdof)" class="c-5g9jb4z"/><path class="agb2cobrf"/><path stroke="url(#SVGL1iocdof)" class="zwwgj2bxs"/><g class="d2kvgvbvc"><path fill="url(#SVGkdhkxdsL)" transform="matrix(.59186 0 0 -.59186 3294.876 4548.317)" class="w3oizhj_l"/><path class="d13ipyhki"/></g><path class="ntfk3d07k"/><path class="cjt7vybul"/><path class="clkow8rxa"/><path fill="url(#SVGOzZqcb3T)" transform="matrix(.59186 0 0 -.59186 3294.876 4548.317)" class="km7syvh-b"/><path class="mgx8jz-xe"/><path class="g2tmlr5sr"/><path class="b3xu1pbcw"/><path fill="url(#SVGOzZqcb3T)" transform="matrix(.59186 0 0 -.59186 3294.876 4548.317)" class="xdo2sogdh"/><path class="i9sxaeb6x"/><g class="d2kvgvbvc"><path fill="url(#SVGdJuUbejB)" transform="matrix(.59186 0 0 -.59186 3294.876 4548.317)" class="q7976e6ic"/><path class="k7n35obep"/></g><path class="zt5qcv73i"/><path fill="url(#SVGL1iocdof)" class="dv8nf-b2e"/><path class="wrazh-bai"/><path class="t9sqq3bge"/><defs><clipPath id="SVGAIgUye8k"><path class="dv8nf-b2e"/></clipPath></defs><g clip-path="url(#SVGAIgUye8k)" class="pczbnkxaa"><g class="gwscr4x8w"><path class="w7h_wn5ma"/><path class="x4nyccb8d"/><path class="dh6ij8bpy"/><path class="t5yvz8bco"/><path class="u_8zf0bml"/><path class="j6fzvubxx"/></g><use href="#SVGw26Psbth" transform="rotate(122 -7.644 90.38)scale(.2)"/><use href="#SVGilRSydQW" transform="rotate(122 -7.644 90.38)scale(.2)"/><use href="#SVGZ8EV5d4o" transform="rotate(122 -7.644 90.38)scale(.2)"/><use href="#SVGFwgSgcrz" transform="rotate(122 -7.644 90.38)scale(.2)"/><use href="#SVGZ46qIcdj" transform="rotate(122 -7.644 90.38)scale(.2)"/><use href="#SVGLMjTldwm" transform="rotate(122 -7.644 90.38)scale(.2)"/></g><path class="shja2nbaz"/><g class="pczbnkxaa"><g class="gwscr4x8w"><path class="ck6bedbut"/><path class="fljiubb9r"/><path class="vqjwz_bsc"/><path class="gmn5li1hm"/><path class="y8tsztmsk"/><path class="o4k3wcb_r"/></g><use href="#SVGw26Psbth" transform="rotate(-80 158.833 83.63)scale(.2)"/><use href="#SVGilRSydQW" transform="rotate(-80 158.833 83.63)scale(.2)"/><use href="#SVGZ8EV5d4o" transform="rotate(-80 158.833 83.63)scale(.2)"/><use href="#SVGFwgSgcrz" transform="rotate(-80 158.833 83.63)scale(.2)"/><use href="#SVGZ46qIcdj" transform="rotate(-80 158.833 83.63)scale(.2)"/><use href="#SVGLMjTldwm" transform="rotate(-80 158.833 83.63)scale(.2)"/></g></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="xero-emoji:pregnant-person-dark-skin-tone" /></template>

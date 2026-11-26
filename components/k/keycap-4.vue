@@ -1,0 +1,20 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/r/ru36gnb2i.css';
+import '../../css/g/gdp-lpbgi.css';
+import '../../css/u/uee0bnb9m.css';
+import '../../css/k/k2qweuboq.css';
+import '../../css/q/qjfv279ji.css';
+import '../../css/t/ti19ytbje.css';
+import '../../css/j/j2ibbyx1m.css';
+import '../../css/j/jal14nk_d.css';
+import '../../css/o/owq968v8x.css';
+import '../../css/z/zd6u74bim.css';
+import '../../css/n/n7rlv6byt.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":512,"height":512};
+const content = `<defs><radialGradient id="SVG2ywEkcDq" cx="66.2" cy="55.2" r="147.2" gradientUnits="userSpaceOnUse"><stop offset="0" class="ru36gnb2i"/><stop offset=".85" class="gdp-lpbgi"/><stop offset="1" class="gdp-lpbgi"/></radialGradient></defs><path class="uee0bnb9m"/><path fill="url(#SVG2ywEkcDq)" transform="matrix(2.8 0 0 2.8 -28.016 -28.016)" class="k2qweuboq"/><path class="qjfv279ji"/><path class="ti19ytbje"/><path class="j2ibbyx1m"/><path class="jal14nk_d"/><path class="owq968v8x"/><path class="zd6u74bim"/><path class="n7rlv6byt"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="xero-emoji:keycap-4" /></template>

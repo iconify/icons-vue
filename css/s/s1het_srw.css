@@ -1,0 +1,6 @@
+.s1het_srw {
+  stroke: var(--svg-color--24160a, #24160a);
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--4-4px, 4.4px);
+  d: path("M78 77a15 15 0 0 1 30 0v58a15 15 0 0 1-30 0Z");
+}

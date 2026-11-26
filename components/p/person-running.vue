@@ -1,0 +1,68 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/y/y6pjf1bwb.css';
+import '../../css/s/ss23bg3cm.css';
+import '../../css/e/ebl8mmj9b.css';
+import '../../css/z/ztcvylbbx.css';
+import '../../css/f/fvmxlnbvm.css';
+import '../../css/t/t4adpy6bj.css';
+import '../../css/w/wu-_q7b4s.css';
+import '../../css/t/tb86pvbmx.css';
+import '../../css/a/ah0nj420a.css';
+import '../../css/h/hfwjevbwj.css';
+import '../../css/g/gnl83ybtp.css';
+import '../../css/u/u61m1to9h.css';
+import '../../css/j/j96pioojo.css';
+import '../../css/e/evbkzq0pq.css';
+import '../../css/s/sqhf_8fjr.css';
+import '../../css/x/xyubulj-i.css';
+import '../../css/v/vc--wpv5i.css';
+import '../../css/y/yi33801ac.css';
+import '../../css/n/n0eqhubdv.css';
+import '../../css/z/z_4m6ybwr.css';
+import '../../css/p/p5_fqnb0s.css';
+import '../../css/r/rxjqwj0fc.css';
+import '../../css/m/muz8zzbce.css';
+import '../../css/c/cy-ja0ihn.css';
+import '../../css/u/u62wuuwwf.css';
+import '../../css/x/xb0eb9b3i.css';
+import '../../css/d/do4nflbju.css';
+import '../../css/e/e_39946bk.css';
+import '../../css/d/d0zgw7bbr.css';
+import '../../css/s/s4bfsdkse.css';
+import '../../css/b/bw0g3ybio.css';
+import '../../css/k/k3m49ac3p.css';
+import '../../css/a/am-0x9t6x.css';
+import '../../css/b/bo0o3_34s.css';
+import '../../css/q/qcjn5n46q.css';
+import '../../css/g/gwkzpwbsf.css';
+import '../../css/b/bq0zcgbkl.css';
+import '../../css/k/k7mmrznyt.css';
+import '../../css/k/ka4drwbos.css';
+import '../../css/a/apdukdbhw.css';
+import '../../css/e/euglsyzks.css';
+import '../../css/p/picm6qtyz.css';
+import '../../css/l/l18z42aft.css';
+import '../../css/c/czrv3kbui.css';
+import '../../css/d/d2kvgvbvc.css';
+import '../../css/w/w3oizhj_l.css';
+import '../../css/e/ed9jj9rmx.css';
+import '../../css/i/ivjzey0ki.css';
+import '../../css/g/gzqqy_wek.css';
+import '../../css/t/tkyn9yr0o.css';
+import '../../css/k/km7syvh-b.css';
+import '../../css/g/g9xho-7pd.css';
+import '../../css/g/gun1v4atm.css';
+import '../../css/p/pl0othbyz.css';
+import '../../css/x/xdo2sogdh.css';
+import '../../css/g/gkey_mbgz.css';
+import '../../css/q/q7976e6ic.css';
+import '../../css/i/i3tr_4bff.css';
+import '../../css/x/xy3rrjb_x.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":512,"height":512};
+const content = `<defs><path id="SVGnxnPVb4x" fill="url(#SVGzyvpPcUf)" class="y6pjf1bwb"/><path id="SVGZixx25mt" fill="url(#SVGzyvpPcUf)" class="ss23bg3cm"/><path id="SVGvRGpfe0U" fill="url(#SVGzyvpPcUf)" class="ebl8mmj9b"/><path id="SVGhC5aZbvV" fill="url(#SVGzyvpPcUf)" class="ztcvylbbx"/><path id="SVGmmeD7bQr" fill="url(#SVGzyvpPcUf)" class="fvmxlnbvm"/><path id="SVGbid47O0p" fill="url(#SVGzyvpPcUf)" class="t4adpy6bj"/><radialGradient id="SVGzyvpPcUf" cx=".35" cy=".3" r=".8"><stop offset="0" class="wu-_q7b4s"/><stop offset=".25" class="tb86pvbmx"/><stop offset=".8" class="ah0nj420a"/><stop offset="1" class="hfwjevbwj"/></radialGradient><radialGradient id="SVGL1iocdof" cx=".35" cy=".3" r=".8"><stop offset="0" class="gnl83ybtp"/><stop offset="1" class="u61m1to9h"/></radialGradient><radialGradient id="SVGn7SkycWv" cx=".35" cy=".3" r=".8"><stop offset="0" class="j96pioojo"/><stop offset="1" class="evbkzq0pq"/></radialGradient><radialGradient id="SVG77wbTDKv" cx=".35" cy=".3" r=".8"><stop offset="0" class="sqhf_8fjr"/><stop offset="1" class="xyubulj-i"/></radialGradient><linearGradient id="SVGOzZqcb3T" x1=".5" x2=".5" y1="1" y2="0"><stop offset="0"/><stop offset="1" class="vc--wpv5i"/></linearGradient><linearGradient id="SVGdJuUbejB" x1=".5" x2=".5" y1="0" y2="1"><stop offset="0"/><stop offset=".26" class="yi33801ac"/><stop offset=".6" class="n0eqhubdv"/><stop offset=".88" class="z_4m6ybwr"/><stop offset="1" class="p5_fqnb0s"/></linearGradient></defs><path fill="url(#SVGzyvpPcUf)" transform="matrix(2.5 0 0 2.5 -12.852 23.998)" class="rxjqwj0fc"/><path class="muz8zzbce"/><path fill="url(#SVGL1iocdof)" transform="matrix(2.5 0 0 2.5 -12.852 23.998)" class="cy-ja0ihn"/><g class="u62wuuwwf"><g class="xb0eb9b3i"><path class="do4nflbju"/><path class="e_39946bk"/><path class="d0zgw7bbr"/></g><use href="#SVGnxnPVb4x" transform="rotate(-42 283.668 20.543)scale(.3)"/><use href="#SVGZixx25mt" transform="rotate(-42 283.668 20.543)scale(.3)"/><use href="#SVGvRGpfe0U" transform="rotate(-42 283.668 20.543)scale(.3)"/><use href="#SVGhC5aZbvV" transform="rotate(-42 283.668 20.543)scale(.3)"/><use href="#SVGmmeD7bQr" transform="rotate(-42 283.668 20.543)scale(.3)"/><use href="#SVGbid47O0p" transform="rotate(-42 283.668 20.543)scale(.3)"/></g><path fill="url(#SVGn7SkycWv)" transform="matrix(2.5 0 0 2.5 -12.852 23.998)" class="s4bfsdkse"/><path class="bw0g3ybio"/><path fill="url(#SVG77wbTDKv)" transform="matrix(2.5 0 0 2.5 -12.852 23.998)" class="k3m49ac3p"/><path fill="url(#SVGn7SkycWv)" transform="matrix(2.5 0 0 2.5 -12.852 23.998)" class="am-0x9t6x"/><path class="bo0o3_34s"/><path fill="url(#SVG77wbTDKv)" transform="matrix(2.5 0 0 2.5 -12.852 23.998)" class="qcjn5n46q"/><path fill="url(#SVGn7SkycWv)" transform="matrix(2.5 0 0 2.5 -12.852 23.998)" class="gwkzpwbsf"/><path fill="url(#SVGL1iocdof)" transform="matrix(2.5 0 0 2.5 -12.852 23.998)" class="bq0zcgbkl"/><path fill="url(#SVGzyvpPcUf)" transform="matrix(2.5 0 0 2.5 -12.852 23.998)" class="k7mmrznyt"/><path class="ka4drwbos"/><path fill="url(#SVGL1iocdof)" transform="matrix(2.5 0 0 2.5 -12.852 23.998)" class="apdukdbhw"/><g class="u62wuuwwf"><g class="euglsyzks"><path class="picm6qtyz"/><path class="l18z42aft"/><path class="czrv3kbui"/></g><use href="#SVGnxnPVb4x" transform="matrix(.3 .1 .1 -.3 223.397 333.764)"/><use href="#SVGZixx25mt" transform="matrix(.3 .1 .1 -.3 223.397 333.764)"/><use href="#SVGvRGpfe0U" transform="matrix(.3 .1 .1 -.3 223.397 333.764)"/><use href="#SVGhC5aZbvV" transform="matrix(.3 .1 .1 -.3 223.397 333.764)"/><use href="#SVGmmeD7bQr" transform="matrix(.3 .1 .1 -.3 223.397 333.764)"/><use href="#SVGbid47O0p" transform="matrix(.3 .1 .1 -.3 223.397 333.764)"/></g><g class="d2kvgvbvc"><path fill="url(#SVGzyvpPcUf)" transform="matrix(.94785 0 0 -.94785 5329.577 7306.8)" class="w3oizhj_l"/><path class="ed9jj9rmx"/></g><path class="ivjzey0ki"/><path class="gzqqy_wek"/><path class="tkyn9yr0o"/><path fill="url(#SVGOzZqcb3T)" transform="matrix(.94785 0 0 -.94785 5329.577 7306.8)" class="km7syvh-b"/><path class="g9xho-7pd"/><path class="gun1v4atm"/><path class="pl0othbyz"/><path fill="url(#SVGOzZqcb3T)" transform="matrix(.94785 0 0 -.94785 5329.577 7306.8)" class="xdo2sogdh"/><path class="gkey_mbgz"/><g class="d2kvgvbvc"><path fill="url(#SVGdJuUbejB)" transform="matrix(.94785 0 0 -.94785 5329.577 7306.8)" class="q7976e6ic"/><path class="i3tr_4bff"/></g><path class="xy3rrjb_x"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="xero-emoji:person-running" /></template>

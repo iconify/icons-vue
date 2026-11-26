@@ -1,0 +1,8 @@
+.rozsjovbg {
+  fill: none;
+  stroke: var(--svg-color--24160a, #24160a);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--18px, 18px);
+  d: path("m68 116l-24 14m88-14l24 14");
+}

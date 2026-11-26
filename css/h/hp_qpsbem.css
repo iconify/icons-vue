@@ -1,0 +1,8 @@
+.hp_qpsbem {
+  fill: none;
+  stroke: var(--svg-color--24160a, #24160a);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--31px, 31px);
+  d: path("M100 190v-80m0 30q-30-10-36-50m0 20q-24-10-26-40m62 60q34-10 40-50m0 22q26-6 28-40m-68 48q-4-30 4-60M64 90l8-34");
+}

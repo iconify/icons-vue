@@ -1,0 +1,8 @@
+.j-mif-bro {
+  fill: none;
+  stroke: var(--svg-color--fff, #fff);
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--3px, 3px);
+  d: path("M98 100L66 200m36-100l32 100m-34-96v5m0 11v6.9m0 17.1v9.8m0 22.2v13.6");
+  opacity: var(--svg-opacity--0-8, 0.8);
+}

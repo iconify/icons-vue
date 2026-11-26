@@ -1,0 +1,8 @@
+.srxtw8bus {
+  fill: none;
+  stroke: var(--svg-color--a04a30, #a04a30);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--5px, 5px);
+  d: path("M44 58Q30 20 14 22m50 30q10-34 24-40");
+}

@@ -1,0 +1,59 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/s/stui2mbih.css';
+import '../../css/p/pp63wfnym.css';
+import '../../css/z/zg-u4dbfw.css';
+import '../../css/a/ax11ochyl.css';
+import '../../css/e/e7_6oq32k.css';
+import '../../css/v/vipmogn9x.css';
+import '../../css/v/v_k4w598q.css';
+import '../../css/w/w93_x0byt.css';
+import '../../css/m/m-yi_nb3j.css';
+import '../../css/t/t8f1nj-mn.css';
+import '../../css/x/x3hy0v_mf.css';
+import '../../css/z/z_4m6ybwr.css';
+import '../../css/e/e0au0m3fk.css';
+import '../../css/p/pabjq-ufc.css';
+import '../../css/i/ioxe6ac3j.css';
+import '../../css/i/iyegkdjxf.css';
+import '../../css/q/qfdbbzayh.css';
+import '../../css/b/bqpe5sb0d.css';
+import '../../css/i/ipifr84jh.css';
+import '../../css/e/eggoz1ktt.css';
+import '../../css/q/qqfsqob7j.css';
+import '../../css/m/mjub3ebov.css';
+import '../../css/d/dbnbfdy9q.css';
+import '../../css/o/o6m7fn_1p.css';
+import '../../css/q/qc_-ekbtz.css';
+import '../../css/b/blvje0beu.css';
+import '../../css/d/dyp3n-b4f.css';
+import '../../css/b/bi5g2cujt.css';
+import '../../css/s/sr_sb322g.css';
+import '../../css/l/li20totei.css';
+import '../../css/y/yuj8jrbid.css';
+import '../../css/l/l8dvrlv6s.css';
+import '../../css/i/i1-rst28x.css';
+import '../../css/v/vugqivbqw.css';
+import '../../css/a/agzbubc9h.css';
+import '../../css/i/i6jzg1blh.css';
+import '../../css/k/k05n1gbkm.css';
+import '../../css/d/ddualrbew.css';
+import '../../css/a/a-7iykbgn.css';
+import '../../css/p/p3twrv7_k.css';
+import '../../css/v/va_q0rbup.css';
+import '../../css/r/rm2uu5b0i.css';
+import '../../css/j/j_2bidcsv.css';
+import '../../css/u/u1b7ux-qt.css';
+import '../../css/z/z705pxc_c.css';
+import '../../css/c/c0zbm8b7j.css';
+import '../../css/j/jxg0i8b7r.css';
+import '../../css/h/hn-j0-bvy.css';
+import '../../css/z/zpw5aobpj.css';
+import '../../css/v/v0ozbeb_a.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":512,"height":512};
+const content = `<g transform="matrix(2.3 0 0 2.3 27.813 29.723)"><defs><linearGradient id="SVGy2D0NdDD" x1="22" x2="178" y1="0" y2="0" gradientUnits="userSpaceOnUse"><stop offset="0" class="stui2mbih"/><stop offset=".025" class="stui2mbih"/><stop offset=".05" class="stui2mbih"/><stop offset=".075" class="stui2mbih"/><stop offset=".1" class="stui2mbih"/><stop offset=".125" class="stui2mbih"/><stop offset=".15" class="stui2mbih"/><stop offset=".175" class="stui2mbih"/><stop offset=".2" class="stui2mbih"/><stop offset=".225" class="stui2mbih"/><stop offset=".25" class="stui2mbih"/><stop offset=".275" class="stui2mbih"/><stop offset=".3" class="stui2mbih"/><stop offset=".325" class="stui2mbih"/><stop offset=".35" class="pp63wfnym"/><stop offset=".375" class="zg-u4dbfw"/><stop offset=".4" class="ax11ochyl"/><stop offset=".425" class="e7_6oq32k"/><stop offset=".45" class="vipmogn9x"/><stop offset=".475" class="v_k4w598q"/><stop offset=".5" class="w93_x0byt"/><stop offset=".525" class="m-yi_nb3j"/><stop offset=".55" class="t8f1nj-mn"/><stop offset=".575" class="x3hy0v_mf"/><stop offset=".6" class="z_4m6ybwr"/><stop offset=".625" class="e0au0m3fk"/><stop offset=".65" class="pabjq-ufc"/><stop offset=".675" class="ioxe6ac3j"/><stop offset=".7" class="iyegkdjxf"/><stop offset=".725" class="qfdbbzayh"/><stop offset=".75" class="bqpe5sb0d"/><stop offset=".775" class="ipifr84jh"/><stop offset=".8" class="eggoz1ktt"/><stop offset=".825" class="qqfsqob7j"/><stop offset=".85" class="mjub3ebov"/><stop offset=".875" class="stui2mbih"/><stop offset=".9" class="stui2mbih"/><stop offset=".925" class="stui2mbih"/><stop offset=".95" class="stui2mbih"/><stop offset=".975" class="stui2mbih"/><stop offset="1" class="stui2mbih"/></linearGradient><linearGradient id="SVGWEAmkcQa" x1="22" x2="178" y1="0" y2="0" gradientUnits="userSpaceOnUse"><stop offset="0" class="dbnbfdy9q"/><stop offset=".025" class="o6m7fn_1p"/><stop offset=".05" class="qc_-ekbtz"/><stop offset=".075" class="blvje0beu"/><stop offset=".1" class="dyp3n-b4f"/><stop offset=".125" class="bi5g2cujt"/><stop offset=".15" class="sr_sb322g"/><stop offset=".175" class="li20totei"/><stop offset=".2" class="yuj8jrbid"/><stop offset=".225" class="l8dvrlv6s"/><stop offset=".25" class="i1-rst28x"/><stop offset=".275" class="vugqivbqw"/><stop offset=".3" class="agzbubc9h"/><stop offset=".325" class="i6jzg1blh"/><stop offset=".35" class="k05n1gbkm"/><stop offset=".375" class="k05n1gbkm"/><stop offset=".4" class="k05n1gbkm"/><stop offset=".425" class="k05n1gbkm"/><stop offset=".45" class="k05n1gbkm"/><stop offset=".475" class="k05n1gbkm"/><stop offset=".5" class="k05n1gbkm"/><stop offset=".525" class="k05n1gbkm"/><stop offset=".55" class="k05n1gbkm"/><stop offset=".575" class="k05n1gbkm"/><stop offset=".6" class="k05n1gbkm"/><stop offset=".625" class="k05n1gbkm"/><stop offset=".65" class="k05n1gbkm"/><stop offset=".675" class="k05n1gbkm"/><stop offset=".7" class="k05n1gbkm"/><stop offset=".725" class="k05n1gbkm"/><stop offset=".75" class="k05n1gbkm"/><stop offset=".775" class="k05n1gbkm"/><stop offset=".8" class="k05n1gbkm"/><stop offset=".825" class="k05n1gbkm"/><stop offset=".85" class="k05n1gbkm"/><stop offset=".875" class="ddualrbew"/><stop offset=".9" class="a-7iykbgn"/><stop offset=".925" class="p3twrv7_k"/><stop offset=".95" class="va_q0rbup"/><stop offset=".975" class="rm2uu5b0i"/><stop offset="1" class="j_2bidcsv"/></linearGradient><clipPath id="SVG2bDAlc0h"><path class="u1b7ux-qt"/></clipPath></defs><path class="z705pxc_c"/><g clip-path="url(#SVG2bDAlc0h)"><path class="c0zbm8b7j"/><path class="jxg0i8b7r"/><path class="hn-j0-bvy"/><path class="zpw5aobpj"/><path fill="url(#SVGy2D0NdDD)" class="u1b7ux-qt"/><path fill="url(#SVGWEAmkcQa)" class="u1b7ux-qt"/></g><path class="v0ozbeb_a"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="xero-emoji:flag-liechtenstein" /></template>

@@ -1,0 +1,47 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/d/dfg4gdnvd.css';
+import '../../css/j/jr7uw376e.css';
+import '../../css/t/te05njbos.css';
+import '../../css/j/jdhbiwb-v.css';
+import '../../css/y/yll24xk0w.css';
+import '../../css/i/ir75bjt2x.css';
+import '../../css/w/wiea2qbee.css';
+import '../../css/o/o8cfn6bfb.css';
+import '../../css/v/vc--wpv5i.css';
+import '../../css/y/yi33801ac.css';
+import '../../css/n/n0eqhubdv.css';
+import '../../css/z/z_4m6ybwr.css';
+import '../../css/p/p5_fqnb0s.css';
+import '../../css/q/qwk3vf45l.css';
+import '../../css/w/wqf1hdbsr.css';
+import '../../css/k/k5swgdc8b.css';
+import '../../css/h/h8ouw7-so.css';
+import '../../css/k/k873eb4ni.css';
+import '../../css/a/aqdamnumd.css';
+import '../../css/y/y-4odoujp.css';
+import '../../css/v/vtz-d2s9l.css';
+import '../../css/r/rso5r5b4n.css';
+import '../../css/t/th-m14b6y.css';
+import '../../css/d/d2kvgvbvc.css';
+import '../../css/w/w3oizhj_l.css';
+import '../../css/k/khwi7t81c.css';
+import '../../css/t/to98gib4r.css';
+import '../../css/x/xtrvf6b1j.css';
+import '../../css/o/o8dm1ac5s.css';
+import '../../css/k/km7syvh-b.css';
+import '../../css/e/ej991obre.css';
+import '../../css/o/ompqknb4a.css';
+import '../../css/i/iy9epdl4n.css';
+import '../../css/x/xdo2sogdh.css';
+import '../../css/a/a-njfynvd.css';
+import '../../css/q/q7976e6ic.css';
+import '../../css/b/bvdp4055h.css';
+import '../../css/u/uq7d6hbvd.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":512,"height":512};
+const content = `<defs><radialGradient id="SVGXx4gjenE" cx=".35" cy=".3" r=".8"><stop offset="0" class="dfg4gdnvd"/><stop offset=".25" class="jr7uw376e"/><stop offset=".8" class="te05njbos"/><stop offset="1" class="jdhbiwb-v"/></radialGradient><radialGradient id="SVGeaOjbeQZ" cx=".35" cy=".3" r=".8"><stop offset="0" class="yll24xk0w"/><stop offset="1" class="ir75bjt2x"/></radialGradient><radialGradient id="SVGHBIrkdZr" cx=".35" cy=".3" r=".8"><stop offset="0" class="wiea2qbee"/><stop offset="1" class="o8cfn6bfb"/></radialGradient><linearGradient id="SVGOzZqcb3T" x1=".5" x2=".5" y1="1" y2="0"><stop offset="0"/><stop offset="1" class="vc--wpv5i"/></linearGradient><linearGradient id="SVGdJuUbejB" x1=".5" x2=".5" y1="0" y2="1"><stop offset="0"/><stop offset=".26" class="yi33801ac"/><stop offset=".6" class="n0eqhubdv"/><stop offset=".88" class="z_4m6ybwr"/><stop offset="1" class="p5_fqnb0s"/></linearGradient></defs><g transform="matrix(2.5 0 0 2.5 7.951 -14.319)"><path fill="url(#SVGeaOjbeQZ)" class="qwk3vf45l"/><path class="wqf1hdbsr"/><path class="k5swgdc8b"/><path fill="url(#SVGHBIrkdZr)" class="h8ouw7-so"/><path fill="url(#SVGHBIrkdZr)" class="k873eb4ni"/><path class="aqdamnumd"/><rect class="y-4odoujp"/><path class="vtz-d2s9l"/><path class="rso5r5b4n"/><path class="th-m14b6y"/><g class="d2kvgvbvc"><path fill="url(#SVGXx4gjenE)" transform="matrix(.73982 0 0 -.73982 4088.595 5699.396)" class="w3oizhj_l"/><path class="khwi7t81c"/></g><path class="to98gib4r"/><path class="xtrvf6b1j"/><path class="o8dm1ac5s"/><path fill="url(#SVGOzZqcb3T)" transform="matrix(.73982 0 0 -.73982 4088.595 5699.396)" class="km7syvh-b"/><path class="ej991obre"/><path class="ompqknb4a"/><path class="iy9epdl4n"/><path fill="url(#SVGOzZqcb3T)" transform="matrix(.73982 0 0 -.73982 4088.595 5699.396)" class="xdo2sogdh"/><path class="a-njfynvd"/><g class="d2kvgvbvc"><path fill="url(#SVGdJuUbejB)" transform="matrix(.73982 0 0 -.73982 4088.595 5699.396)" class="q7976e6ic"/><path class="bvdp4055h"/></g><path class="uq7d6hbvd"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="xero-emoji:person-in-tuxedo-light-skin-tone" /></template>

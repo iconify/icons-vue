@@ -1,0 +1,7 @@
+.moh_mibue {
+  fill: none;
+  stroke: var(--svg-color--24160a, #24160a);
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-9px, 1.9px);
+  d: path("M42 104q0-26 28-28h56q30 2 30 30v36q0 36-34 38H72q-30-2-30-36Z");
+}

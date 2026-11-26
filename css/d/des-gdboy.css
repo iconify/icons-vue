@@ -1,0 +1,7 @@
+.des-gdboy {
+  fill: var(--svg-color--24160a, #24160a);
+  stroke: var(--svg-color--24160a, #24160a);
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--11px, 11px);
+  d: path("M6 160c0-6.7 5-15 14-20s26.7-8 40-10s26.7-2 40-2s26.7 0 40 2s31 5 40 10s14 13.3 14 20s-5 15-14 20s-26.7 8-40 10s-26.7 2-40 2s-26.7 0-40-2s-31-5-40-10s-14-13.3-14-20Z");
+}

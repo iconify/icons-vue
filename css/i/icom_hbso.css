@@ -1,0 +1,7 @@
+.icom_hbso {
+  fill: var(--svg-color--24160a, #24160a);
+  stroke: var(--svg-color--24160a, #24160a);
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--9px, 9px);
+  d: path("M174.9 126c0 .6-.4 1-.9 1s-.9-.4-.9-1s.4-1 .9-1s.9.4.9 1Z");
+}

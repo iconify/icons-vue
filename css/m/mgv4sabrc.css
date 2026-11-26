@@ -1,0 +1,7 @@
+.mgv4sabrc {
+  fill: var(--svg-color--24160a, #24160a);
+  stroke: var(--svg-color--24160a, #24160a);
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--9px, 9px);
+  d: path("M48 78v104c0 7.2 23.3 13 52 13s52-5.8 52-13V78Z");
+}

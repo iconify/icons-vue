@@ -1,0 +1,9 @@
+.w_cnc1b-w {
+  fill: none;
+  stroke: var(--svg-color--2a2d34, #2a2d34);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-opacity: 0.9;
+  stroke-width: var(--svg-stroke-width--2-8px, 2.8px);
+  d: path("M40 72L30 54m6 18L18 82");
+}

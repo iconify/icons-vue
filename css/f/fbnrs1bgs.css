@@ -1,0 +1,7 @@
+.fbnrs1bgs {
+  fill: var(--svg-color--24160a, #24160a);
+  stroke: var(--svg-color--24160a, #24160a);
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--9px, 9px);
+  d: path("M24 100q0-8 10-8q8 2 6 10q-6 6-12 4Z");
+}

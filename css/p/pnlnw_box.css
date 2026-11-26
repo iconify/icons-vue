@@ -1,0 +1,8 @@
+.pnlnw_box {
+  fill: none;
+  stroke: var(--svg-color--3a3a4a, #3a3a4a);
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--7-5px, 7.5px);
+  d: path("M248.189 163.639v-30m0 30l22.5 10");
+  opacity: var(--svg-opacity--0-8, 0.8);
+}

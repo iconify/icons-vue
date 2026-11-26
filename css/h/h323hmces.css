@@ -1,0 +1,8 @@
+.h323hmces {
+  fill: none;
+  stroke: var(--svg-color--8a92a4, #8a92a4);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--4px, 4px);
+  d: path("M100 0v32");
+}

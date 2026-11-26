@@ -1,0 +1,8 @@
+.v20prfbor {
+  fill: none;
+  stroke: var(--svg-color--d8c070, #d8c070);
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--4px, 4px);
+  d: path("M14 200q10-80 30-130M30 200q10-80 30-110M44 200q10-80 30-136");
+  opacity: var(--svg-opacity--0-8, 0.8);
+}

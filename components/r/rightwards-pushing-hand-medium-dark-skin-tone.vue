@@ -1,0 +1,66 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/j/jnqqn-bqn.css';
+import '../../css/k/ke0hu9b0i.css';
+import '../../css/z/z1c7437hx.css';
+import '../../css/t/tzs8klb-z.css';
+import '../../css/u/u0e97wbfw.css';
+import '../../css/a/a9d1k1bph.css';
+import '../../css/l/l1ou2hbfq.css';
+import '../../css/x/x40l384mf.css';
+import '../../css/n/n426ffvwz.css';
+import '../../css/u/ugz71egbw.css';
+import '../../css/o/o_s3q1zkh.css';
+import '../../css/z/zs8rk2bvr.css';
+import '../../css/c/csidgkbbq.css';
+import '../../css/o/od7_0_bdt.css';
+import '../../css/z/z0tb3xhdh.css';
+import '../../css/x/xt5uotedr.css';
+import '../../css/s/s5tu7cb2w.css';
+import '../../css/x/xwe8hk29i.css';
+import '../../css/q/q-dykzras.css';
+import '../../css/r/rojrkdbrc.css';
+import '../../css/m/m5c-9rb-j.css';
+import '../../css/g/g_kxxorol.css';
+import '../../css/t/tsagugb6h.css';
+import '../../css/j/j479qbb4z.css';
+import '../../css/i/i2wn58b2o.css';
+import '../../css/g/gt16nwnei.css';
+import '../../css/c/c8dr-cguy.css';
+import '../../css/n/nfxliwcbx.css';
+import '../../css/x/x0-jusinu.css';
+import '../../css/v/vz7hgib3y.css';
+import '../../css/f/fglgnwbxh.css';
+import '../../css/g/gsy2e8bph.css';
+import '../../css/h/hnv7_bbez.css';
+import '../../css/i/ixqn_415m.css';
+import '../../css/m/mwicfeboz.css';
+import '../../css/u/uplpcroxf.css';
+import '../../css/s/soxvpbdxo.css';
+import '../../css/j/j7c00pb5o.css';
+import '../../css/w/weyb-qb_e.css';
+import '../../css/c/cbsop4b9a.css';
+import '../../css/z/zao-j2gww.css';
+import '../../css/g/g27owrb0u.css';
+import '../../css/r/rmz0lfnvy.css';
+import '../../css/q/qdjig9bmc.css';
+import '../../css/g/gnb7l7bwn.css';
+import '../../css/x/xla69bbmp.css';
+import '../../css/g/gbxykf30k.css';
+import '../../css/a/a7w3wu4ke.css';
+import '../../css/v/vgi8_ybmv.css';
+import '../../css/p/ptvzuabbj.css';
+import '../../css/a/a8mt_ebvc.css';
+import '../../css/l/l55iujyqk.css';
+import '../../css/e/e8fsx6bal.css';
+import '../../css/p/ph32x3bki.css';
+import '../../css/z/z8huo7i0n.css';
+import '../../css/e/ef50c1arp.css';
+import '../../css/v/v9wvyyb0d.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":512,"height":512};
+const content = `<defs><radialGradient id="SVGVUtATdXe" cx=".35" cy=".3" r=".8"><stop offset="0" class="jnqqn-bqn"/><stop offset=".25" class="ke0hu9b0i"/><stop offset=".8" class="z1c7437hx"/><stop offset="1" class="tzs8klb-z"/></radialGradient></defs><g transform="matrix(-2.67 0 0 2.67 571.584 -33.706)"><g class="u0e97wbfw"><path class="a9d1k1bph"/><path class="l1ou2hbfq"/><path class="x40l384mf"/><path class="n426ffvwz"/><path class="ugz71egbw"/><path class="o_s3q1zkh"/><path class="zs8rk2bvr"/><path class="csidgkbbq"/><path class="od7_0_bdt"/><path class="z0tb3xhdh"/><path class="xt5uotedr"/><path class="s5tu7cb2w"/><path class="xwe8hk29i"/><path class="q-dykzras"/><path class="rojrkdbrc"/><path class="m5c-9rb-j"/><path class="g_kxxorol"/><path class="tsagugb6h"/><path class="j479qbb4z"/></g><path fill="url(#SVGVUtATdXe)" class="i2wn58b2o"/><clipPath id="SVGRJ4Mge9q"><path class="gt16nwnei"/></clipPath><path clip-path="url(#SVGRJ4Mge9q)" class="c8dr-cguy"/><path class="nfxliwcbx"/><path fill="url(#SVGVUtATdXe)" class="x0-jusinu"/><clipPath id="SVG2kIZwpEr"><path class="vz7hgib3y"/></clipPath><path clip-path="url(#SVG2kIZwpEr)" class="fglgnwbxh"/><path class="gsy2e8bph"/><path class="hnv7_bbez"/><path fill="url(#SVGVUtATdXe)" class="ixqn_415m"/><clipPath id="SVGRptzPedB"><path class="mwicfeboz"/></clipPath><path clip-path="url(#SVGRptzPedB)" class="uplpcroxf"/><path class="soxvpbdxo"/><path class="j7c00pb5o"/><path fill="url(#SVGVUtATdXe)" class="weyb-qb_e"/><clipPath id="SVGiMMScN0g"><path class="cbsop4b9a"/></clipPath><path clip-path="url(#SVGiMMScN0g)" class="zao-j2gww"/><path class="g27owrb0u"/><path class="rmz0lfnvy"/><path fill="url(#SVGVUtATdXe)" class="qdjig9bmc"/><clipPath id="SVGIMRZzc3I"><path class="gnb7l7bwn"/></clipPath><path clip-path="url(#SVGIMRZzc3I)" class="xla69bbmp"/><path class="gbxykf30k"/><path class="a7w3wu4ke"/><path fill="url(#SVGVUtATdXe)" class="vgi8_ybmv"/><clipPath id="SVG3PeGpb1c"><path class="ptvzuabbj"/></clipPath><path clip-path="url(#SVG3PeGpb1c)" class="a8mt_ebvc"/><path class="l55iujyqk"/><path fill="url(#SVGVUtATdXe)" class="e8fsx6bal"/><clipPath id="SVGWQvvycdp"><path class="ph32x3bki"/></clipPath><path clip-path="url(#SVGWQvvycdp)" class="z8huo7i0n"/><path class="ef50c1arp"/><path class="v9wvyyb0d"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="xero-emoji:rightwards-pushing-hand-medium-dark-skin-tone" /></template>

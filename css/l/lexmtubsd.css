@@ -1,0 +1,7 @@
+.lexmtubsd {
+  fill: var(--svg-color--24160a, #24160a);
+  stroke: var(--svg-color--24160a, #24160a);
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--9px, 9px);
+  d: path("M88 112h24q4 16-8 30l-6-8q6-8 2-14H88Z");
+}

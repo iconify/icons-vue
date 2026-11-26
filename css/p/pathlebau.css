@@ -1,0 +1,7 @@
+.pathlebau {
+  fill: var(--svg-color--24160a, #24160a);
+  stroke: var(--svg-color--24160a, #24160a);
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--9px, 9px);
+  d: path("m58 140l20-20l8 8l-20 20Zm-14 22l16-16l8 8l-16 16Z");
+}

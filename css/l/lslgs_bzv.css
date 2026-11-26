@@ -1,0 +1,7 @@
+.lslgs_bzv {
+  fill: var(--svg-color--24160a, #24160a);
+  stroke: var(--svg-color--24160a, #24160a);
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--9px, 9px);
+  d: path("M108 166h24l2 16q-7-4-14 0q-7-4-14 0Z");
+}

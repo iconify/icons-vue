@@ -1,0 +1,7 @@
+.jftap_bcd {
+  fill: var(--svg-color--24160a, #24160a);
+  stroke: var(--svg-color--24160a, #24160a);
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--7px, 7px);
+  d: path("M48 106a9 11 0 1 0 18 0a9 11 0 1 0-18 0Z");
+}

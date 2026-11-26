@@ -1,0 +1,60 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/a/amabzjn2m.css';
+import '../../css/v/vcnu9g1hu.css';
+import '../../css/u/uqhbq5ugw.css';
+import '../../css/n/ng326_b-y.css';
+import '../../css/u/u0e97wbfw.css';
+import '../../css/i/ihxbl97ef.css';
+import '../../css/l/liqqqmplk.css';
+import '../../css/l/l2181bbnu.css';
+import '../../css/z/z9mla0bcs.css';
+import '../../css/t/tslvg33el.css';
+import '../../css/s/ss1l4_b0b.css';
+import '../../css/g/gfgd_1bnz.css';
+import '../../css/i/i0o80sb8v.css';
+import '../../css/u/uqf8l56xi.css';
+import '../../css/p/p3fpitbuj.css';
+import '../../css/x/xdx7a2fpn.css';
+import '../../css/t/trpe27p8y.css';
+import '../../css/y/yzqjbyi-w.css';
+import '../../css/w/ww6o2tbkf.css';
+import '../../css/l/ln28i145o.css';
+import '../../css/g/gxfu3mbfv.css';
+import '../../css/j/jcl95ebmo.css';
+import '../../css/z/z287jlboh.css';
+import '../../css/l/lh8kffb2d.css';
+import '../../css/r/rd-iywbhl.css';
+import '../../css/u/uauv0zlad.css';
+import '../../css/o/opu85ubht.css';
+import '../../css/q/q-1naltnk.css';
+import '../../css/d/d8ar1qekt.css';
+import '../../css/l/lnna39bst.css';
+import '../../css/l/lj_38ob5n.css';
+import '../../css/g/gvm672b6s.css';
+import '../../css/g/gdmoy0ydg.css';
+import '../../css/p/pgir8eb7l.css';
+import '../../css/q/q71bms5ny.css';
+import '../../css/h/hl-g7254y.css';
+import '../../css/y/yjq7oab6f.css';
+import '../../css/h/hndey7bsv.css';
+import '../../css/z/zdn6j0byx.css';
+import '../../css/t/t2a2b2g2c.css';
+import '../../css/g/ghimohbuj.css';
+import '../../css/e/ethid4cho.css';
+import '../../css/s/sqg4zubdn.css';
+import '../../css/f/f6azns5-e.css';
+import '../../css/n/nox8glont.css';
+import '../../css/i/ip8jrp3ux.css';
+import '../../css/n/nvyq35u8y.css';
+import '../../css/f/f8mhfptrl.css';
+import '../../css/j/jbfm93s3w.css';
+import '../../css/p/pv-vrzbzx.css';
+import '../../css/c/chj2x_z4n.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":512,"height":512};
+const content = `<defs><radialGradient id="SVGkdhkxdsL" cx=".35" cy=".3" r=".8"><stop offset="0" class="amabzjn2m"/><stop offset=".25" class="vcnu9g1hu"/><stop offset=".8" class="uqhbq5ugw"/><stop offset="1" class="ng326_b-y"/></radialGradient></defs><g transform="matrix(2.5 -1 1 2.5 -98.68 84.378)"><g class="u0e97wbfw"><path class="ihxbl97ef"/><path class="liqqqmplk"/><path class="l2181bbnu"/><path class="z9mla0bcs"/><path class="tslvg33el"/><path class="ss1l4_b0b"/><path class="gfgd_1bnz"/><path class="i0o80sb8v"/><path class="uqf8l56xi"/><path class="p3fpitbuj"/><path class="xdx7a2fpn"/><path class="trpe27p8y"/><path class="yzqjbyi-w"/><path class="ww6o2tbkf"/><path class="ln28i145o"/><path class="gxfu3mbfv"/><path class="jcl95ebmo"/></g><path fill="url(#SVGkdhkxdsL)" class="z287jlboh"/><clipPath id="SVGQw3DPbJN"><path class="lh8kffb2d"/></clipPath><path clip-path="url(#SVGQw3DPbJN)" class="rd-iywbhl"/><path class="uauv0zlad"/><path class="opu85ubht"/><path fill="url(#SVGkdhkxdsL)" class="q-1naltnk"/><clipPath id="SVGWGcidboN"><path class="d8ar1qekt"/></clipPath><path clip-path="url(#SVGWGcidboN)" class="lnna39bst"/><path class="lj_38ob5n"/><path class="gvm672b6s"/><path fill="url(#SVGkdhkxdsL)" class="gdmoy0ydg"/><clipPath id="SVGDziwdc6A"><path class="pgir8eb7l"/></clipPath><path clip-path="url(#SVGDziwdc6A)" class="q71bms5ny"/><path class="hl-g7254y"/><path fill="url(#SVGkdhkxdsL)" class="yjq7oab6f"/><clipPath id="SVGiRRaJetm"><path class="hndey7bsv"/></clipPath><path clip-path="url(#SVGiRRaJetm)" class="zdn6j0byx"/><path class="t2a2b2g2c"/><path class="ghimohbuj"/><path fill="url(#SVGkdhkxdsL)" class="ethid4cho"/><clipPath id="SVGx8gCjcxz"><path class="sqg4zubdn"/></clipPath><path clip-path="url(#SVGx8gCjcxz)" class="f6azns5-e"/><path class="nox8glont"/><path class="ip8jrp3ux"/><path fill="url(#SVGkdhkxdsL)" class="nvyq35u8y"/><clipPath id="SVGCJOwDezY"><path class="f8mhfptrl"/></clipPath><path clip-path="url(#SVGCJOwDezY)" class="jbfm93s3w"/><path class="pv-vrzbzx"/><path class="chj2x_z4n"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="xero-emoji:call-me-hand-dark-skin-tone" /></template>

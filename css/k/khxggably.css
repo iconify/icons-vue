@@ -1,0 +1,9 @@
+.khxggably {
+  fill: none;
+  stroke: var(--svg-color--24160a, #24160a);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-opacity: 0.45;
+  stroke-width: var(--svg-stroke-width--1-8px, 1.8px);
+  d: path("M124 128q10-4 20 0m-23 7q13-3 26 0m-23 7q10-3 20 0m-10-22v28");
+}

@@ -1,0 +1,8 @@
+.r2_livzes {
+  fill: none;
+  stroke: var(--svg-color--fff, #fff);
+  stroke-linecap: round;
+  stroke-opacity: 0.45;
+  stroke-width: var(--svg-stroke-width--5px, 5px);
+  d: path("M84 154q26-8 48-4");
+}

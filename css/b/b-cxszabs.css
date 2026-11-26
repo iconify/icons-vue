@@ -1,0 +1,7 @@
+.b-cxszabs {
+  fill: var(--svg-color--24160a, #24160a);
+  stroke: var(--svg-color--24160a, #24160a);
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--10px, 10px);
+  d: path("M44 36h50l6 10H38Z");
+}

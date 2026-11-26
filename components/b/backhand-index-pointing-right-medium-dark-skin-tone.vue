@@ -1,0 +1,61 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/j/jnqqn-bqn.css';
+import '../../css/k/ke0hu9b0i.css';
+import '../../css/z/z1c7437hx.css';
+import '../../css/t/tzs8klb-z.css';
+import '../../css/u/u0e97wbfw.css';
+import '../../css/n/n8dgp_qde.css';
+import '../../css/p/p1y5o0b8v.css';
+import '../../css/b/by7me5blg.css';
+import '../../css/x/x7noh96yt.css';
+import '../../css/a/a1_7oobyb.css';
+import '../../css/q/q4nf0vt1e.css';
+import '../../css/j/jg8v-sbzh.css';
+import '../../css/x/xdx7a2fpn.css';
+import '../../css/h/hfgd68b8d.css';
+import '../../css/b/bnzaybbbj.css';
+import '../../css/w/ww6o2tbkf.css';
+import '../../css/q/qz4zu6bxr.css';
+import '../../css/r/r2oy2ol0l.css';
+import '../../css/j/jcl95ebmo.css';
+import '../../css/r/rpkwnhbvj.css';
+import '../../css/x/xs0x87mwt.css';
+import '../../css/x/xz8s5zn3z.css';
+import '../../css/o/oqj3c4b4h.css';
+import '../../css/u/uoqt5gbhn.css';
+import '../../css/h/hcshz7d0p.css';
+import '../../css/x/x86mgfvtu.css';
+import '../../css/n/n4unr3b3l.css';
+import '../../css/a/akifq5egd.css';
+import '../../css/p/pgir8eb7l.css';
+import '../../css/x/x_js8nbvq.css';
+import '../../css/f/f403enblw.css';
+import '../../css/t/txqfft-pw.css';
+import '../../css/h/hndey7bsv.css';
+import '../../css/o/okycg6bwv.css';
+import '../../css/l/l9rvstbqi.css';
+import '../../css/g/ghimohbuj.css';
+import '../../css/j/jvnu1i9qu.css';
+import '../../css/s/sqg4zubdn.css';
+import '../../css/o/o4r9qzb6h.css';
+import '../../css/y/yw7xnpbnp.css';
+import '../../css/i/ip8jrp3ux.css';
+import '../../css/h/h0_3qjdud.css';
+import '../../css/f/f8mhfptrl.css';
+import '../../css/r/rz800wj7o.css';
+import '../../css/h/h97kw62xl.css';
+import '../../css/c/chj2x_z4n.css';
+import '../../css/t/tlfytvbdk.css';
+import '../../css/e/eigpz5idz.css';
+import '../../css/a/a6mon3blj.css';
+import '../../css/f/f9qh-m0sp.css';
+import '../../css/y/ykf5wjbft.css';
+import '../../css/v/vfz7eac7u.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":512,"height":512};
+const content = `<defs><radialGradient id="SVGVUtATdXe" cx=".35" cy=".3" r=".8"><stop offset="0" class="jnqqn-bqn"/><stop offset=".25" class="ke0hu9b0i"/><stop offset=".8" class="z1c7437hx"/><stop offset="1" class="tzs8klb-z"/></radialGradient></defs><g transform="rotate(90 289.125 264.173)scale(2.7)"><g class="u0e97wbfw"><path class="n8dgp_qde"/><path class="p1y5o0b8v"/><path class="by7me5blg"/><path class="x7noh96yt"/><path class="a1_7oobyb"/><path class="q4nf0vt1e"/><path class="jg8v-sbzh"/><path class="xdx7a2fpn"/><path class="hfgd68b8d"/><path class="bnzaybbbj"/><path class="ww6o2tbkf"/><path class="qz4zu6bxr"/><path class="r2oy2ol0l"/><path class="jcl95ebmo"/><path class="rpkwnhbvj"/><path class="xs0x87mwt"/><path class="xz8s5zn3z"/></g><path fill="url(#SVGVUtATdXe)" class="oqj3c4b4h"/><clipPath id="SVG0Bpkdc3F"><path class="uoqt5gbhn"/></clipPath><path clip-path="url(#SVG0Bpkdc3F)" class="hcshz7d0p"/><path class="x86mgfvtu"/><path class="n4unr3b3l"/><path fill="url(#SVGVUtATdXe)" class="akifq5egd"/><clipPath id="SVGDziwdc6A"><path class="pgir8eb7l"/></clipPath><path clip-path="url(#SVGDziwdc6A)" class="x_js8nbvq"/><path class="f403enblw"/><path fill="url(#SVGVUtATdXe)" class="txqfft-pw"/><clipPath id="SVGiRRaJetm"><path class="hndey7bsv"/></clipPath><path clip-path="url(#SVGiRRaJetm)" class="okycg6bwv"/><path class="l9rvstbqi"/><path class="ghimohbuj"/><path fill="url(#SVGVUtATdXe)" class="jvnu1i9qu"/><clipPath id="SVGx8gCjcxz"><path class="sqg4zubdn"/></clipPath><path clip-path="url(#SVGx8gCjcxz)" class="o4r9qzb6h"/><path class="yw7xnpbnp"/><path class="ip8jrp3ux"/><path fill="url(#SVGVUtATdXe)" class="h0_3qjdud"/><clipPath id="SVGCJOwDezY"><path class="f8mhfptrl"/></clipPath><path clip-path="url(#SVGCJOwDezY)" class="rz800wj7o"/><path class="h97kw62xl"/><path class="chj2x_z4n"/><path fill="url(#SVGVUtATdXe)" class="tlfytvbdk"/><clipPath id="SVGSjxhtbKS"><path class="eigpz5idz"/></clipPath><path clip-path="url(#SVGSjxhtbKS)" class="a6mon3blj"/><path class="f9qh-m0sp"/><path class="ykf5wjbft"/><ellipse class="vfz7eac7u"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="xero-emoji:backhand-index-pointing-right-medium-dark-skin-tone" /></template>

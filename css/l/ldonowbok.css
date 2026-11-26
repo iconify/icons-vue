@@ -1,0 +1,7 @@
+.ldonowbok {
+  stroke: var(--svg-color--24160a, #24160a);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--5px, 5px);
+  d: path("M7 50q93-8 186 0v22q-93-6-186 0Z");
+}

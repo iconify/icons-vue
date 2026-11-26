@@ -1,0 +1,7 @@
+.ed-neoufs {
+  fill: var(--svg-color--24160a, #24160a);
+  stroke: var(--svg-color--24160a, #24160a);
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--22-5px, 22.5px);
+  d: path("M125.148 50.148h290q30 0 30 30v365q0 30-30 30h-290Z");
+}

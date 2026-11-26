@@ -1,0 +1,8 @@
+.deymitwoy {
+  fill: var(--svg-color--173c78, #173c78);
+  stroke: var(--svg-color--24160a, #24160a);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--5px, 5px);
+  d: path("M20.5 68q79.5 32 159 0q-79.5 10-159 0");
+}

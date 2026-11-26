@@ -1,0 +1,8 @@
+.gr0-vlanm {
+  fill: var(--svg-color--0f5a36, #0f5a36);
+  stroke: var(--svg-color--24160a, #24160a);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--3-4px, 3.4px);
+  d: path("M80 142q20 10 40 0l-2 10q-18 8-36 0Z");
+}

@@ -1,0 +1,8 @@
+.cmtkdenau {
+  fill: none;
+  stroke: var(--svg-color--6b3a12, #6b3a12);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--21-6px, 21.6px);
+  d: path("M304 208L448 64");
+}

@@ -1,0 +1,7 @@
+.r6fl-vbar {
+  fill: var(--svg-color--24160a, #24160a);
+  stroke: var(--svg-color--24160a, #24160a);
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--18-4px, 18.4px);
+  d: path("M254 171.2q32.2-80.27-32.2-138q-32.2 80.27 32.2 138Z");
+}

@@ -1,0 +1,7 @@
+.sismebciu {
+  fill: var(--svg-color--24160a, #24160a);
+  stroke: var(--svg-color--24160a, #24160a);
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--24-3px, 24.3px);
+  d: path("M92.292 291.842v135c0 23.76 72.63 43.2 162 43.2s162-19.44 162-43.2v-135Z");
+}

@@ -1,0 +1,9 @@
+.em_of_zct {
+  fill: none;
+  stroke: var(--svg-color--24160a, #24160a);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2-4px, 2.4px);
+  d: path("M114 150q26 16 52 0");
+  opacity: var(--svg-opacity--0-18, 0.18);
+}

@@ -1,0 +1,9 @@
+.wwnsuidls {
+  fill: none;
+  stroke: var(--svg-color--24160a, #24160a);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M28 104c6-36 38-52 64-40");
+  opacity: var(--svg-opacity--0-65, 0.65);
+}

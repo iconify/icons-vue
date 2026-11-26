@@ -1,0 +1,8 @@
+.r4d_al1st {
+  fill: none;
+  stroke: var(--svg-color--3a4a70, #3a4a70);
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M68 52v46");
+  opacity: var(--svg-opacity--0-8, 0.8);
+}

@@ -1,0 +1,63 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/x/x9xgp-ixo.css';
+import '../../css/f/f2tzpebuj.css';
+import '../../css/j/ju0m9qwle.css';
+import '../../css/s/sqfwfccan.css';
+import '../../css/v/vc--wpv5i.css';
+import '../../css/n/nsynbsb9d.css';
+import '../../css/q/q9xh6zlkv.css';
+import '../../css/a/a5w6klftu.css';
+import '../../css/v/vqbb8abgh.css';
+import '../../css/e/en2dzi9ic.css';
+import '../../css/n/nk6ne-b0v.css';
+import '../../css/s/svmpy64lp.css';
+import '../../css/k/k1arodzch.css';
+import '../../css/z/z78x8fb9w.css';
+import '../../css/b/bmhnjaboh.css';
+import '../../css/f/f04svnb0l.css';
+import '../../css/k/k3737cctu.css';
+import '../../css/t/tnvq6xbtc.css';
+import '../../css/h/hyhqbz0hv.css';
+import '../../css/o/oytr0zb5p.css';
+import '../../css/i/iozfm1e1l.css';
+import '../../css/t/t1zty1_dk.css';
+import '../../css/b/bvfy9mbuo.css';
+import '../../css/m/mxe8eob8m.css';
+import '../../css/e/elamzi26e.css';
+import '../../css/m/mj1bm4tzu.css';
+import '../../css/m/m0wvurbrn.css';
+import '../../css/d/dslclh91g.css';
+import '../../css/d/d2f_2fb1q.css';
+import '../../css/b/bya7c104w.css';
+import '../../css/w/wrr1__b8j.css';
+import '../../css/c/c989k4ytr.css';
+import '../../css/z/z-clhobzb.css';
+import '../../css/l/lm5g66t0o.css';
+import '../../css/p/pneigtdvh.css';
+import '../../css/d/dx3jgxbir.css';
+import '../../css/f/flnz6ibig.css';
+import '../../css/w/wrebecc4s.css';
+import '../../css/j/jl77eeq0t.css';
+import '../../css/z/zfth92bpy.css';
+import '../../css/z/zhfz8lkrl.css';
+import '../../css/f/frylcvv7e.css';
+import '../../css/i/if63rnb2r.css';
+import '../../css/p/pfn694bkw.css';
+import '../../css/y/yel9mhbwt.css';
+import '../../css/k/k_n1ezrpf.css';
+import '../../css/s/snv6omfts.css';
+import '../../css/t/tebp5mk3d.css';
+import '../../css/k/kk6durbcl.css';
+import '../../css/m/mtuts9ibg.css';
+import '../../css/k/ke04racot.css';
+import '../../css/k/kfj6--ppt.css';
+import '../../css/d/dsc_-k24z.css';
+import '../../css/v/vsekurbns.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":512,"height":512};
+const content = `<defs><radialGradient id="SVG4HAxGeCI" cx="176.9" cy="8" r="6.4" gradientUnits="userSpaceOnUse"><stop offset="0" class="x9xgp-ixo"/><stop offset=".85" class="f2tzpebuj"/><stop offset="1" class="f2tzpebuj"/></radialGradient><radialGradient id="SVGfjA1mbTA" cx="77" cy="90.4" r="131.2" gradientUnits="userSpaceOnUse"><stop offset="0" class="ju0m9qwle"/><stop offset=".85" class="sqfwfccan"/><stop offset="1" class="sqfwfccan"/></radialGradient><radialGradient id="SVGRAdt6bqI" cx="80.4" cy="69.4" r="112" gradientUnits="userSpaceOnUse"><stop offset="0" class="vc--wpv5i"/><stop offset=".85" class="nsynbsb9d"/><stop offset="1" class="nsynbsb9d"/></radialGradient><radialGradient id="SVGOBGyJbEV" cx="69.6" cy="115.2" r="59.2" gradientUnits="userSpaceOnUse"><stop offset="0" class="q9xh6zlkv"/><stop offset=".85" class="a5w6klftu"/><stop offset="1" class="a5w6klftu"/></radialGradient><radialGradient id="SVGGr5U9bVh" cx="143.8" cy="140" r="35.2" gradientUnits="userSpaceOnUse"><stop offset="0" class="q9xh6zlkv"/><stop offset=".85" class="a5w6klftu"/><stop offset="1" class="a5w6klftu"/></radialGradient><radialGradient id="SVGQtd8FdBC" cx="147.8" cy="104" r="12.8" gradientUnits="userSpaceOnUse"><stop offset="0" class="q9xh6zlkv"/><stop offset=".85" class="a5w6klftu"/><stop offset="1" class="a5w6klftu"/></radialGradient></defs><path class="vqbb8abgh"/><path class="en2dzi9ic"/><path class="nk6ne-b0v"/><path fill="url(#SVG4HAxGeCI)" transform="matrix(2.5 0 0 2.5 5.71 26.09)" class="svmpy64lp"/><path class="k1arodzch"/><path class="z78x8fb9w"/><path class="bmhnjaboh"/><path fill="url(#SVGfjA1mbTA)" transform="matrix(2.5 0 0 2.5 5.71 26.09)" class="f04svnb0l"/><path class="k3737cctu"/><path class="tnvq6xbtc"/><path fill="url(#SVGRAdt6bqI)" transform="matrix(2.5 0 0 2.5 5.71 26.09)" class="hyhqbz0hv"/><path class="oytr0zb5p"/><path class="iozfm1e1l"/><path class="t1zty1_dk"/><path class="bvfy9mbuo"/><path fill="url(#SVGOBGyJbEV)" transform="matrix(2.5 0 0 2.5 5.71 26.09)" class="mxe8eob8m"/><path fill="url(#SVGOBGyJbEV)" transform="matrix(2.5 0 0 2.5 5.71 26.09)" class="elamzi26e"/><path fill="url(#SVGOBGyJbEV)" transform="matrix(2.5 0 0 2.5 5.71 26.09)" class="mj1bm4tzu"/><path fill="url(#SVGOBGyJbEV)" transform="matrix(2.5 0 0 2.5 5.71 26.09)" class="m0wvurbrn"/><path fill="url(#SVGOBGyJbEV)" transform="matrix(2.5 0 0 2.5 5.71 26.09)" class="dslclh91g"/><path fill="url(#SVGOBGyJbEV)" transform="matrix(2.5 0 0 2.5 5.71 26.09)" class="d2f_2fb1q"/><path fill="url(#SVGOBGyJbEV)" transform="matrix(2.5 0 0 2.5 5.71 26.09)" class="bya7c104w"/><path fill="url(#SVGOBGyJbEV)" transform="matrix(2.5 0 0 2.5 5.71 26.09)" class="wrr1__b8j"/><path fill="url(#SVGOBGyJbEV)" transform="matrix(2.5 0 0 2.5 5.71 26.09)" class="c989k4ytr"/><path fill="url(#SVGOBGyJbEV)" transform="matrix(2.5 0 0 2.5 5.71 26.09)" class="z-clhobzb"/><path fill="url(#SVGOBGyJbEV)" transform="matrix(2.5 0 0 2.5 5.71 26.09)" class="lm5g66t0o"/><path fill="url(#SVGOBGyJbEV)" transform="matrix(2.5 0 0 2.5 5.71 26.09)" class="pneigtdvh"/><path fill="url(#SVGOBGyJbEV)" transform="matrix(2.5 0 0 2.5 5.71 26.09)" class="dx3jgxbir"/><path fill="url(#SVGOBGyJbEV)" transform="matrix(2.5 0 0 2.5 5.71 26.09)" class="flnz6ibig"/><path fill="url(#SVGOBGyJbEV)" transform="matrix(2.5 0 0 2.5 5.71 26.09)" class="wrebecc4s"/><path fill="url(#SVGOBGyJbEV)" transform="matrix(2.5 0 0 2.5 5.71 26.09)" class="jl77eeq0t"/><path fill="url(#SVGOBGyJbEV)" transform="matrix(2.5 0 0 2.5 5.71 26.09)" class="zfth92bpy"/><path fill="url(#SVGOBGyJbEV)" transform="matrix(2.5 0 0 2.5 5.71 26.09)" class="zhfz8lkrl"/><path fill="url(#SVGOBGyJbEV)" transform="matrix(2.5 0 0 2.5 5.71 26.09)" class="frylcvv7e"/><path fill="url(#SVGOBGyJbEV)" transform="matrix(2.5 0 0 2.5 5.71 26.09)" class="if63rnb2r"/><path fill="url(#SVGOBGyJbEV)" transform="matrix(2.5 0 0 2.5 5.71 26.09)" class="pfn694bkw"/><path fill="url(#SVGOBGyJbEV)" transform="matrix(2.5 0 0 2.5 5.71 26.09)" class="yel9mhbwt"/><path fill="url(#SVGOBGyJbEV)" transform="matrix(2.5 0 0 2.5 5.71 26.09)" class="k_n1ezrpf"/><path class="snv6omfts"/><path fill="url(#SVGGr5U9bVh)" transform="matrix(2.5 0 0 2.5 5.71 26.09)" class="tebp5mk3d"/><path class="kk6durbcl"/><path class="mtuts9ibg"/><path class="ke04racot"/><path class="kfj6--ppt"/><path fill="url(#SVGQtd8FdBC)" transform="matrix(2.5 0 0 2.5 5.71 26.09)" class="dsc_-k24z"/><path class="vsekurbns"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="xero-emoji:radio" /></template>

@@ -1,0 +1,66 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/l/la1q1sbut.css';
+import '../../css/x/xnchh2ble.css';
+import '../../css/u/utbvmjb1m.css';
+import '../../css/i/itrz8idgc.css';
+import '../../css/j/jttloou7d.css';
+import '../../css/v/vc--wpv5i.css';
+import '../../css/z/z_s652b6c.css';
+import '../../css/q/q2fydbcyx.css';
+import '../../css/f/ftxjl8bee.css';
+import '../../css/v/v5dqo5ywf.css';
+import '../../css/u/us_w2-bdo.css';
+import '../../css/j/jabv4_6-m.css';
+import '../../css/w/wu-_q7b4s.css';
+import '../../css/t/tb86pvbmx.css';
+import '../../css/a/ah0nj420a.css';
+import '../../css/h/hfwjevbwj.css';
+import '../../css/a/a861kcsdb.css';
+import '../../css/u/u6gjtjbzs.css';
+import '../../css/m/mq_eov51x.css';
+import '../../css/g/go-54_8jb.css';
+import '../../css/f/fl9ksr5cu.css';
+import '../../css/d/d0g5x0b6u.css';
+import '../../css/p/p9o1xo56a.css';
+import '../../css/k/kn4ga8bfi.css';
+import '../../css/e/e1f0wtowb.css';
+import '../../css/t/tdh44cbai.css';
+import '../../css/u/ubfhxp97m.css';
+import '../../css/b/b4cvawbfc.css';
+import '../../css/z/z7l1v-bks.css';
+import '../../css/d/d2kvgvbvc.css';
+import '../../css/s/sgz_kobze.css';
+import '../../css/f/fhqcflbfd.css';
+import '../../css/n/nkinpmqwu.css';
+import '../../css/v/vss8tz4xp.css';
+import '../../css/u/ubpgdslyr.css';
+import '../../css/j/j35w6zuci.css';
+import '../../css/y/y1c9anq5b.css';
+import '../../css/s/sov_1rtgu.css';
+import '../../css/o/oix1i9bdo.css';
+import '../../css/b/b224b5_zz.css';
+import '../../css/i/ii6nxmb6r.css';
+import '../../css/v/ve4z5gb1v.css';
+import '../../css/m/mdthvvjat.css';
+import '../../css/b/b8y-hackl.css';
+import '../../css/q/qtahu7bcz.css';
+import '../../css/l/llzpzbbgl.css';
+import '../../css/a/alsdopyko.css';
+import '../../css/e/eu1ivdb6g.css';
+import '../../css/e/eqk6opb7s.css';
+import '../../css/h/hhoz0uspk.css';
+import '../../css/b/bg1r3x8ol.css';
+import '../../css/o/o3-18iepv.css';
+import '../../css/k/kykyp617v.css';
+import '../../css/n/n3pv7u24s.css';
+import '../../css/a/a1brm_buw.css';
+import '../../css/o/og7onkbik.css';
+import '../../css/b/bo-vgkc8j.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":512,"height":512};
+const content = `<defs><linearGradient id="SVGEOMzszqi" x1=".5" x2=".5" y1="0" y2="1"><stop offset="0" class="la1q1sbut"/><stop offset=".24" class="xnchh2ble"/><stop offset=".52" class="utbvmjb1m"/><stop offset=".78" class="itrz8idgc"/><stop offset="1" class="jttloou7d"/></linearGradient><linearGradient id="SVGOzZqcb3T" x1=".5" x2=".5" y1="1" y2="0"><stop offset="0"/><stop offset="1" class="vc--wpv5i"/></linearGradient><linearGradient id="SVGJy23CeJg" x1=".5" x2=".5" y1="0" y2="1"><stop offset="0" class="z_s652b6c"/><stop offset="1" class="vc--wpv5i"/></linearGradient><path id="SVG0IAABcdh" fill="url(#SVG37B6Pe8H)" class="q2fydbcyx"/><path id="SVGiIT8lmSR" fill="url(#SVGzyvpPcUf)" class="ftxjl8bee"/><path id="SVGFg3jIciO" fill="url(#SVGOzZqcb3T)" class="v5dqo5ywf"/><path id="SVGmSVee67X" fill="url(#SVGOzZqcb3T)" class="us_w2-bdo"/><path id="SVG1QsXFbZn" fill="url(#SVGEOMzszqi)" class="jabv4_6-m"/><radialGradient id="SVGzyvpPcUf" cx=".35" cy=".3" r=".8"><stop offset="0" class="wu-_q7b4s"/><stop offset=".25" class="tb86pvbmx"/><stop offset=".8" class="ah0nj420a"/><stop offset="1" class="hfwjevbwj"/></radialGradient><radialGradient id="SVG37B6Pe8H" cx=".35" cy=".3" r=".8"><stop offset="0" class="vc--wpv5i"/><stop offset="1" class="a861kcsdb"/></radialGradient></defs><use href="#SVG0IAABcdh" transform="matrix(1.6 0 0 1.6 217.416 212.512)" class="u6gjtjbzs"/><path fill="url(#SVGzyvpPcUf)" transform="matrix(1.59202 0 0 -1.59202 12396.786 11877.755)" class="mq_eov51x"/><path class="go-54_8jb"/><path class="fl9ksr5cu"/><path class="d0g5x0b6u"/><path fill="url(#SVGOzZqcb3T)" transform="matrix(1.59202 0 0 -1.59202 12396.786 11877.755)" class="p9o1xo56a"/><path class="kn4ga8bfi"/><path class="e1f0wtowb"/><path class="tdh44cbai"/><path fill="url(#SVGOzZqcb3T)" transform="matrix(1.59202 0 0 -1.59202 12396.786 11877.755)" class="ubfhxp97m"/><path class="b4cvawbfc"/><path class="z7l1v-bks"/><g class="d2kvgvbvc"><path fill="url(#SVGJy23CeJg)" transform="matrix(1.59202 0 0 -1.59202 12396.786 11877.755)" class="sgz_kobze"/><path class="fhqcflbfd"/></g><path class="nkinpmqwu"/><use href="#SVG0IAABcdh" transform="translate(191.962 371.596)scale(1.15)" class="u6gjtjbzs"/><path class="vss8tz4xp"/><g class="d2kvgvbvc"><use href="#SVGiIT8lmSR" transform="matrix(1.21057 0 0 -1.21057 8534.89 9540.192)"/><path class="ubpgdslyr"/></g><path class="j35w6zuci"/><path class="y1c9anq5b"/><use href="#SVGFg3jIciO" transform="matrix(1.21057 0 0 -1.21057 8534.89 9540.192)" class="d2kvgvbvc"/><path class="sov_1rtgu"/><path class="oix1i9bdo"/><path class="b224b5_zz"/><use href="#SVGmSVee67X" transform="matrix(1.21057 0 0 -1.21057 8534.89 9540.192)" class="d2kvgvbvc"/><path class="ii6nxmb6r"/><g class="d2kvgvbvc"><use href="#SVG1QsXFbZn" transform="matrix(1.21057 0 0 -1.21057 8534.89 9540.192)"/><path class="ve4z5gb1v"/></g><path class="mdthvvjat"/><path class="b8y-hackl"/><path class="qtahu7bcz"/><use href="#SVG0IAABcdh" transform="translate(331.956 371.596)scale(1.15)" class="u6gjtjbzs"/><path class="llzpzbbgl"/><g class="d2kvgvbvc"><use href="#SVGiIT8lmSR" transform="matrix(1.21057 0 0 -1.21057 8674.884 9540.192)"/><path class="alsdopyko"/></g><path class="eu1ivdb6g"/><path class="eqk6opb7s"/><use href="#SVGFg3jIciO" transform="matrix(1.21057 0 0 -1.21057 8674.884 9540.192)" class="d2kvgvbvc"/><path class="hhoz0uspk"/><path class="bg1r3x8ol"/><path class="o3-18iepv"/><use href="#SVGmSVee67X" transform="matrix(1.21057 0 0 -1.21057 8674.884 9540.192)" class="d2kvgvbvc"/><path class="kykyp617v"/><g class="d2kvgvbvc"><use href="#SVG1QsXFbZn" transform="matrix(1.21057 0 0 -1.21057 8674.884 9540.192)"/><path class="n3pv7u24s"/></g><path class="a1brm_buw"/><path class="og7onkbik"/><path class="bo-vgkc8j"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="xero-emoji:family-man-girl-girl" /></template>

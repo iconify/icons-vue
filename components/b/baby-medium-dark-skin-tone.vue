@@ -1,0 +1,32 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/v/vc--wpv5i.css';
+import '../../css/e/ejtthytpq.css';
+import '../../css/s/s7c1tttdn.css';
+import '../../css/j/jnqqn-bqn.css';
+import '../../css/k/ke0hu9b0i.css';
+import '../../css/z/z1c7437hx.css';
+import '../../css/t/tzs8klb-z.css';
+import '../../css/a/ag60ltb4l.css';
+import '../../css/d/d2kvgvbvc.css';
+import '../../css/r/ru53qnb2x.css';
+import '../../css/k/k2d92lbyr.css';
+import '../../css/o/oy43q7exp.css';
+import '../../css/i/ijf0c2pmg.css';
+import '../../css/g/gb6n-8bgp.css';
+import '../../css/c/c6ov_ob5s.css';
+import '../../css/u/uib2n4lxs.css';
+import '../../css/a/a1tej0b9b.css';
+import '../../css/u/um2pt8m4g.css';
+import '../../css/z/zz5oo5b8j.css';
+import '../../css/n/n690p2brr.css';
+import '../../css/s/soxhunbgl.css';
+import '../../css/h/hip1fojti.css';
+import '../../css/w/w5x0z8bny.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":512,"height":512};
+const content = `<defs><linearGradient id="SVGOzZqcb3T" x1=".5" x2=".5" y1="1" y2="0"><stop offset="0"/><stop offset="1" class="vc--wpv5i"/></linearGradient><path id="SVGXh9yueua" class="ejtthytpq"/><path id="SVGzQ7lKgHa" class="s7c1tttdn"/><radialGradient id="SVGVUtATdXe" cx=".35" cy=".3" r=".8"><stop offset="0" class="jnqqn-bqn"/><stop offset=".25" class="ke0hu9b0i"/><stop offset=".8" class="z1c7437hx"/><stop offset="1" class="tzs8klb-z"/></radialGradient></defs><g transform="matrix(2.30921 0 0 -2.30921 5800.986 17812.501)"><path fill="url(#SVGVUtATdXe)" class="ag60ltb4l"/><use href="#SVGXh9yueua" class="d2kvgvbvc"/><path stroke="url(#SVGVUtATdXe)" class="ru53qnb2x"/><clipPath id="SVGdBNliyvy"><use href="#SVGXh9yueua" clip-rule="evenodd"/></clipPath><path clip-path="url(#SVGdBNliyvy)" class="k2d92lbyr"/></g><path class="oy43q7exp"/><path class="ijf0c2pmg"/><path class="gb6n-8bgp"/><path fill="url(#SVGOzZqcb3T)" transform="matrix(2.30921 0 0 -2.30921 5800.986 17812.501)" class="c6ov_ob5s"/><path class="uib2n4lxs"/><path class="a1tej0b9b"/><path class="um2pt8m4g"/><path fill="url(#SVGOzZqcb3T)" transform="matrix(2.30921 0 0 -2.30921 5800.986 17812.501)" class="zz5oo5b8j"/><path class="n690p2brr"/><g class="d2kvgvbvc"><path class="soxhunbgl"/><use href="#SVGzQ7lKgHa"/></g><path class="hip1fojti"/><use href="#SVGzQ7lKgHa" class="d2kvgvbvc"/><path class="w5x0z8bny"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="xero-emoji:baby-medium-dark-skin-tone" /></template>

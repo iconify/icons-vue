@@ -1,0 +1,7 @@
+.j_dooccog {
+  stroke: var(--svg-color--24160a, #24160a);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--4-5px, 4.5px);
+  d: path("M144 50q20-10 38-32q-2 16-10 26q16-6 24-14q-10 26-48 36Z");
+}

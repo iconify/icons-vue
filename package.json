@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/evicons",
   "type": "module",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "homepage": "https://icon-sets.iconify.design/evicons/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -170,6 +170,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/marker-available.vue"
     },
+    "./marker-blocked": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/marker-blocked.vue"
+    },
     "./marker-charging": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/marker-charging.vue"
@@ -193,6 +197,10 @@
     "./marker-out-of-service": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/marker-out-of-service.vue"
+    },
+    "./marker-planned": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/marker-planned.vue"
     },
     "./marker-queue": {
       "types": "./types/dd0bq22g.d.ts",

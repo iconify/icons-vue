@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/codicon",
   "type": "module",
-  "version": "1.0.51",
+  "version": "1.0.52",
   "homepage": "https://icon-sets.iconify.design/codicon/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "CC-BY-4.0",
@@ -1546,6 +1546,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/mcp.vue"
     },
+    "./mcp-compact": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mcp-compact.vue"
+    },
     "./megaphone": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/megaphone.vue"
@@ -2386,6 +2390,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/terminal-secure.vue"
     },
+    "./terminal-secure-compact": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/terminal-secure-compact.vue"
+    },
     "./terminal-tmux": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/terminal-tmux.vue"
@@ -2401,6 +2409,10 @@
     "./thinking": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/thinking.vue"
+    },
+    "./thinking-compact": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/thinking-compact.vue"
     },
     "./three-bars": {
       "types": "./types/dd0bq22g.d.ts",
@@ -2425,6 +2437,10 @@
     "./tools": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/tools.vue"
+    },
+    "./tools-compact": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tools-compact.vue"
     },
     "./trash": {
       "types": "./types/dd0bq22g.d.ts",

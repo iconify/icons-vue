@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/openmoji",
   "type": "module",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "homepage": "https://icon-sets.iconify.design/openmoji/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "CC-BY-SA-4.0",
@@ -345,6 +345,10 @@
     "./axe2": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/axe2.vue"
+    },
+    "./azores-flag": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/azores-flag.vue"
     },
     "./b-button-blood-type": {
       "types": "./types/dd0bq22g.d.ts",

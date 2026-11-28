@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/pinhead",
   "type": "module",
-  "version": "1.0.43",
+  "version": "1.0.44",
   "homepage": "https://icon-sets.iconify.design/pinhead/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "CC0-1.0",
@@ -905,6 +905,10 @@
     "./baguette": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/baguette.vue"
+    },
+    "./baguette-in-vending-machine": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/baguette-in-vending-machine.vue"
     },
     "./baht": {
       "types": "./types/dd0bq22g.d.ts",
@@ -2482,6 +2486,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/cigarette-with-smoke-curl.vue"
     },
+    "./cigarette-with-smoke-curl-in-vending-machine": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cigarette-with-smoke-curl-in-vending-machine.vue"
+    },
     "./cindercone-volcano-erupting": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/cindercone-volcano-erupting.vue"
@@ -3062,6 +3070,18 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/cup-and-saucer-and-wifi.vue"
     },
+    "./cup-with-steam": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cup-with-steam.vue"
+    },
+    "./cup-with-steam-in-dispensing-machine-with-handled-teacup-and-saucer": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cup-with-steam-in-dispensing-machine-with-handled-teacup-and-saucer.vue"
+    },
+    "./cup-with-steam-in-vending-machine": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/cup-with-steam-in-vending-machine.vue"
+    },
     "./cupcake-with-cherry": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/cupcake-with-cherry.vue"
@@ -3146,6 +3166,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/dharma-wheel-on-square.vue"
     },
+    "./diamond": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/diamond.vue"
+    },
+    "./diamond-outline": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/diamond-outline.vue"
+    },
     "./diaper": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/diaper.vue"
@@ -3205,6 +3233,26 @@
     "./disc-golf-basket": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/disc-golf-basket.vue"
+    },
+    "./dispensing-machine": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dispensing-machine.vue"
+    },
+    "./dispensing-machine-with-drink-cup-with-straw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dispensing-machine-with-drink-cup-with-straw.vue"
+    },
+    "./dispensing-machine-with-handled-teacup-and-saucer": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dispensing-machine-with-handled-teacup-and-saucer.vue"
+    },
+    "./dispensing-machine-with-scoop-of-ice-cream-in-cone": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dispensing-machine-with-scoop-of-ice-cream-in-cone.vue"
+    },
+    "./dispensing-machine-with-snowflake": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/dispensing-machine-with-snowflake.vue"
     },
     "./district-of-columbia": {
       "types": "./types/dd0bq22g.d.ts",
@@ -3385,6 +3433,10 @@
     "./drink-can-and-drink-bottle": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/drink-can-and-drink-bottle.vue"
+    },
+    "./drink-can-in-vending-machine": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/d/drink-can-in-vending-machine.vue"
     },
     "./drink-cup-with-straw": {
       "types": "./types/dd0bq22g.d.ts",
@@ -3602,9 +3654,17 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/e/eaved-open-gabled-building-with-window.vue"
     },
+    "./eaved-open-pitched-building-with-double-z-door": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/eaved-open-pitched-building-with-double-z-door.vue"
+    },
     "./egg": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/e/egg.vue"
+    },
+    "./egg-in-vending-machine": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/egg-in-vending-machine.vue"
     },
     "./egg-with-crack": {
       "types": "./types/dd0bq22g.d.ts",
@@ -3701,6 +3761,10 @@
     "./exclamation-point-beside-question-mark": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/e/exclamation-point-beside-question-mark.vue"
+    },
+    "./exclamation-point-in-vending-machine": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/e/exclamation-point-in-vending-machine.vue"
     },
     "./exclamation-point-on-square": {
       "types": "./types/dd0bq22g.d.ts",
@@ -4294,6 +4358,22 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/geyser-from-ground.vue"
     },
+    "./geyser-from-water": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/geyser-from-water.vue"
+    },
+    "./geyser-outline": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/geyser-outline.vue"
+    },
+    "./geyser-outline-from-ground": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/geyser-outline-from-ground.vue"
+    },
+    "./geyser-outline-from-water": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/geyser-outline-from-water.vue"
+    },
     "./giftwrapped-box": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/giftwrapped-box.vue"
@@ -4365,6 +4445,10 @@
     "./greek-cross-above-outstretched-hand": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/g/greek-cross-above-outstretched-hand.vue"
+    },
+    "./greek-cross-in-vending-machine": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/g/greek-cross-in-vending-machine.vue"
     },
     "./greek-cross-outline": {
       "types": "./types/dd0bq22g.d.ts",
@@ -4606,6 +4690,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/heart-in-eaved-gabled-shelter.vue"
     },
+    "./heart-in-vending-machine": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/h/heart-in-vending-machine.vue"
+    },
     "./heart-organ": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/h/heart-organ.vue"
@@ -4774,6 +4862,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/i/i.vue"
     },
+    "./ice-cubes-to-cup": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/ice-cubes-to-cup.vue"
+    },
+    "./ice-cubes-to-cup-from-dispensing-machine-with-snowflake": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/ice-cubes-to-cup-from-dispensing-machine-with-snowflake.vue"
+    },
     "./ice-pop": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/i/ice-pop.vue"
@@ -4781,6 +4877,10 @@
     "./ice-pop-beside-scoop-of-ice-cream-in-cone": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/i/ice-pop-beside-scoop-of-ice-cream-in-cone.vue"
+    },
+    "./ice-pop-in-vending-machine": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/i/ice-pop-in-vending-machine.vue"
     },
     "./ice-pop-with-bite": {
       "types": "./types/dd0bq22g.d.ts",
@@ -4917,6 +5017,10 @@
     "./jewel": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/j/jewel.vue"
+    },
+    "./jewel-outline": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/j/jewel-outline.vue"
     },
     "./joint": {
       "types": "./types/dd0bq22g.d.ts",
@@ -5342,6 +5446,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/m.vue"
     },
+    "./machine-with-handwheel-and-flat-coin": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/machine-with-handwheel-and-flat-coin.vue"
+    },
     "./madagascar": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/madagascar.vue"
@@ -5481,6 +5589,10 @@
     "./mars": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/m/mars.vue"
+    },
+    "./mars-in-vending-machine": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/m/mars-in-vending-machine.vue"
     },
     "./martini-glass-and-wine-bottle": {
       "types": "./types/dd0bq22g.d.ts",
@@ -6577,6 +6689,10 @@
     "./perfume-bottle-with-spray": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/perfume-bottle-with-spray.vue"
+    },
+    "./perfume-bottle-with-spray-beside-jewel-outline-above-purse": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/perfume-bottle-with-spray-beside-jewel-outline-above-purse.vue"
     },
     "./person": {
       "types": "./types/dd0bq22g.d.ts",
@@ -8170,6 +8286,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/postage-stamp.vue"
     },
+    "./postage-stamp-in-vending-machine": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/postage-stamp-in-vending-machine.vue"
+    },
     "./poster-box": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/poster-box.vue"
@@ -8289,6 +8409,10 @@
     "./question-mark-above-water": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/q/question-mark-above-water.vue"
+    },
+    "./question-mark-in-vending-machine": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/q/question-mark-in-vending-machine.vue"
     },
     "./question-mark-on-square": {
       "types": "./types/dd0bq22g.d.ts",
@@ -8809,6 +8933,10 @@
     "./scoop-of-ice-cream-in-cone": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/scoop-of-ice-cream-in-cone.vue"
+    },
+    "./scoop-of-ice-cream-in-cone-in-vending-machine": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/scoop-of-ice-cream-in-cone-in-vending-machine.vue"
     },
     "./scoop-of-ice-cream-in-cup": {
       "types": "./types/dd0bq22g.d.ts",
@@ -9358,6 +9486,14 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/soccer-ball.vue"
     },
+    "./soft-serve-in-cup": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/soft-serve-in-cup.vue"
+    },
+    "./soft-serve-in-cup-in-dispensing-machine-with-scoop-of-ice-cream-in-cone": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/soft-serve-in-cup-in-dispensing-machine-with-scoop-of-ice-cream-in-cone.vue"
+    },
     "./sos-uppercase": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/sos-uppercase.vue"
@@ -9545,6 +9681,10 @@
     "./spray-paint-can-with-spray": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/s/spray-paint-can-with-spray.vue"
+    },
+    "./spray-to-cup-from-dispensing-machine-with-drink-cup-with-straw": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/s/spray-to-cup-from-dispensing-machine-with-drink-cup-with-straw.vue"
     },
     "./spyglass": {
       "types": "./types/dd0bq22g.d.ts",
@@ -10314,6 +10454,10 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/ticket-in-slot.vue"
     },
+    "./ticket-in-vending-machine": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/ticket-in-vending-machine.vue"
+    },
     "./tiling": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/tiling.vue"
@@ -10914,21 +11058,25 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/u/utility-meter.vue"
     },
-    "./utility-meter-with-bolt": {
+    "./utility-meter-beside-bolt": {
       "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/u/utility-meter-with-bolt.vue"
+      "default": "./components/u/utility-meter-beside-bolt.vue"
     },
-    "./utility-meter-with-cable": {
+    "./utility-meter-beside-cable": {
       "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/u/utility-meter-with-cable.vue"
+      "default": "./components/u/utility-meter-beside-cable.vue"
     },
-    "./utility-meter-with-droplet": {
+    "./utility-meter-beside-droplet": {
       "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/u/utility-meter-with-droplet.vue"
+      "default": "./components/u/utility-meter-beside-droplet.vue"
     },
-    "./utility-meter-with-gas-flame": {
+    "./utility-meter-beside-gas-flame": {
       "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/u/utility-meter-with-gas-flame.vue"
+      "default": "./components/u/utility-meter-beside-gas-flame.vue"
+    },
+    "./utility-meter-beside-sewage-pipe-cross-section": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/utility-meter-beside-sewage-pipe-cross-section.vue"
     },
     "./utility-pole": {
       "types": "./types/dd0bq22g.d.ts",
@@ -10942,25 +11090,29 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/u/utility-shutoff.vue"
     },
-    "./utility-shutoff-with-bolt": {
+    "./utility-shutoff-beside-bolt": {
       "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/u/utility-shutoff-with-bolt.vue"
+      "default": "./components/u/utility-shutoff-beside-bolt.vue"
     },
-    "./utility-shutoff-with-cable": {
+    "./utility-shutoff-beside-cable": {
       "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/u/utility-shutoff-with-cable.vue"
+      "default": "./components/u/utility-shutoff-beside-cable.vue"
     },
     "./utility-valve": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/u/utility-valve.vue"
     },
-    "./utility-valve-with-droplet": {
+    "./utility-valve-beside-droplet": {
       "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/u/utility-valve-with-droplet.vue"
+      "default": "./components/u/utility-valve-beside-droplet.vue"
     },
-    "./utility-valve-with-gas-flame": {
+    "./utility-valve-beside-gas-flame": {
       "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/u/utility-valve-with-gas-flame.vue"
+      "default": "./components/u/utility-valve-beside-gas-flame.vue"
+    },
+    "./utility-valve-beside-sewage-pipe-cross-section": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/utility-valve-beside-sewage-pipe-cross-section.vue"
     },
     "./utv": {
       "types": "./types/dd0bq22g.d.ts",
@@ -10990,81 +11142,29 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/v/vending-machine.vue"
     },
-    "./vending-machine-with-baguette": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/v/vending-machine-with-baguette.vue"
-    },
-    "./vending-machine-with-cigarette-with-smoke-curl": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/v/vending-machine-with-cigarette-with-smoke-curl.vue"
-    },
-    "./vending-machine-with-drink-can": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/v/vending-machine-with-drink-can.vue"
-    },
     "./vending-machine-with-drink-cup-with-steam": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/v/vending-machine-with-drink-cup-with-steam.vue"
-    },
-    "./vending-machine-with-egg": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/v/vending-machine-with-egg.vue"
-    },
-    "./vending-machine-with-exclamation-point": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/v/vending-machine-with-exclamation-point.vue"
-    },
-    "./vending-machine-with-greek-cross": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/v/vending-machine-with-greek-cross.vue"
-    },
-    "./vending-machine-with-heart": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/v/vending-machine-with-heart.vue"
-    },
-    "./vending-machine-with-ice-pop": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/v/vending-machine-with-ice-pop.vue"
-    },
-    "./vending-machine-with-mars": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/v/vending-machine-with-mars.vue"
-    },
-    "./vending-machine-with-postage-stamp": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/v/vending-machine-with-postage-stamp.vue"
-    },
-    "./vending-machine-with-question-mark": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/v/vending-machine-with-question-mark.vue"
-    },
-    "./vending-machine-with-scoop-of-ice-cream-in-cone": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/v/vending-machine-with-scoop-of-ice-cream-in-cone.vue"
     },
     "./vending-machine-with-shelves": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/v/vending-machine-with-shelves.vue"
     },
-    "./vending-machine-with-ticket": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/v/vending-machine-with-ticket.vue"
-    },
-    "./vending-machine-with-venus": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/v/vending-machine-with-venus.vue"
-    },
-    "./vending-machine-with-venus-mars": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/v/vending-machine-with-venus-mars.vue"
-    },
     "./venus": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/v/venus.vue"
     },
+    "./venus-in-vending-machine": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/venus-in-vending-machine.vue"
+    },
     "./venus-mars": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/v/venus-mars.vue"
+    },
+    "./venus-mars-in-vending-machine": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/venus-mars-in-vending-machine.vue"
     },
     "./venus-with-mars": {
       "types": "./types/dd0bq22g.d.ts",
@@ -11833,14 +11933,6 @@
     "./desk-lamp": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/d/desk-lamp.vue"
-    },
-    "./diamond": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/d/diamond.vue"
-    },
-    "./diamond-outline": {
-      "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/d/diamond-outline.vue"
     },
     "./diamond-tall": {
       "types": "./types/dd0bq22g.d.ts",
@@ -13106,9 +13198,101 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/u/underweight-person.vue"
     },
+    "./utility-meter-with-bolt": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/utility-meter-with-bolt.vue"
+    },
+    "./utility-meter-with-cable": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/utility-meter-with-cable.vue"
+    },
+    "./utility-meter-with-droplet": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/utility-meter-with-droplet.vue"
+    },
+    "./utility-meter-with-gas-flame": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/utility-meter-with-gas-flame.vue"
+    },
+    "./utility-shutoff-with-bolt": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/utility-shutoff-with-bolt.vue"
+    },
+    "./utility-shutoff-with-cable": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/utility-shutoff-with-cable.vue"
+    },
+    "./utility-valve-with-droplet": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/utility-valve-with-droplet.vue"
+    },
+    "./utility-valve-with-gas-flame": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/u/utility-valve-with-gas-flame.vue"
+    },
+    "./vending-machine-with-baguette": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vending-machine-with-baguette.vue"
+    },
+    "./vending-machine-with-cigarette-with-smoke-curl": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vending-machine-with-cigarette-with-smoke-curl.vue"
+    },
+    "./vending-machine-with-drink-can": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vending-machine-with-drink-can.vue"
+    },
+    "./vending-machine-with-egg": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vending-machine-with-egg.vue"
+    },
+    "./vending-machine-with-exclamation-point": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vending-machine-with-exclamation-point.vue"
+    },
+    "./vending-machine-with-greek-cross": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vending-machine-with-greek-cross.vue"
+    },
+    "./vending-machine-with-heart": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vending-machine-with-heart.vue"
+    },
     "./vending-machine-with-ice-cream-on-cone": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/v/vending-machine-with-ice-cream-on-cone.vue"
+    },
+    "./vending-machine-with-ice-pop": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vending-machine-with-ice-pop.vue"
+    },
+    "./vending-machine-with-mars": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vending-machine-with-mars.vue"
+    },
+    "./vending-machine-with-postage-stamp": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vending-machine-with-postage-stamp.vue"
+    },
+    "./vending-machine-with-question-mark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vending-machine-with-question-mark.vue"
+    },
+    "./vending-machine-with-scoop-of-ice-cream-in-cone": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vending-machine-with-scoop-of-ice-cream-in-cone.vue"
+    },
+    "./vending-machine-with-ticket": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vending-machine-with-ticket.vue"
+    },
+    "./vending-machine-with-venus": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vending-machine-with-venus.vue"
+    },
+    "./vending-machine-with-venus-mars": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/v/vending-machine-with-venus-mars.vue"
     },
     "./water-bottle-beside-droplet": {
       "types": "./types/dd0bq22g.d.ts",

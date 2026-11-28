@@ -1,0 +1,17 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path clip-rule="evenodd" class="fmuqzzbtn"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:align-vertical-space-between-fill" /></template>
+<style>
+.fmuqzzbtn {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M1 4C1 4.5523 1.448 5 2 5H6.172C6.058 5.3212 6 5.6593 6 6V7C6 8.6569 7.343 10 9 10H15C16.657 10 18 8.6569 18 7V6C18 5.6593 17.942 5.3212 17.828 5H22C22.552 5 23 4.5523 23 4C23 3.4477 22.552 3 22 3H2C1.448 3 1 3.4477 1 4ZM1 20C1 19.4477 1.448 19 2 19H6.172C6.058 18.6788 6 18.3407 6 18V17C6 15.3431 7.343 14 9 14H15C16.657 14 18 15.3431 18 17V18C18 18.3407 17.942 18.6788 17.828 19H22C22.552 19 23 19.4477 23 20C23 20.5523 22.552 21 22 21H2C1.448 21 1 20.5523 1 20Z");
+}
+
+</style>

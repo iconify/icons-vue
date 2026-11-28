@@ -4,14 +4,14 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="nrj6p8qat"><path class="gq9g81bdv"/><path class="ouhik3bff"/></g>`;
+const content = `<g class="nrj6p8qat"><path class="cd1267bxe"/><path class="w6zjo76_y"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:user-unlock-two-tone" /></template>
 <style>
-.gq9g81bdv {
+.cd1267bxe {
   fill: currentColor;
   fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
-  d: path("M10 13C10.5523 13 11 13.4477 11 14L11 21C11 21.5523 10.5523 22 10 22L3 22C1.8954 22 1 21.1046 1 20C1 16.134 4.134 13 8 13ZM9 3C11.2092 3 13 4.7908 13 7C13 9.2092 11.2092 11 9 11C6.7909 11 5 9.2092 5 7C5 4.7908 6.7909 3 9 3Z");
+  d: path("M11 12C11.5523 12 12 12.4477 12 13V21C12 21.5523 11.5523 22 11 22H3C1.89542 22 1 21.1046 1 20V19C1 15.134 4.13402 12 8 12H11ZM9 2C11.2092 2 13 3.7908 13 6C13 8.2092 11.2092 10 9 10C6.7909 10 5 8.2092 5 6C5 3.7908 6.7909 2 9 2Z");
   stroke: none;
 }
 
@@ -23,8 +23,8 @@ const content = `<g class="nrj6p8qat"><path class="gq9g81bdv"/><path class="ouhi
   stroke-width: var(--svg-stroke-width--2px, 2px);
 }
 
-.ouhik3bff {
-  d: path("M9 4C10.6569 4 12 5.3431 12 7C12 8.6569 10.6569 10 9 10C7.3432 10 6 8.6569 6 7C6 5.3431 7.3432 4 9 4ZM10 21L3 21C2.4477 21 2 20.5523 2 20C2 16.6863 4.6863 14 8 14L10 14M16 16L21 16C21.5523 16 22 16.4477 22 17L22 20C22 20.5523 21.5523 21 21 21L16 21C15.4477 21 15 20.5523 15 20L15 17C15 16.4477 15.4477 16 16 16ZM20.5 16L20.5 12C20.5 10.8954 19.6046 10 18.5 10C17.3954 10 16.5 10.8954 16.5 12");
+.w6zjo76_y {
+  d: path("M9 3C10.6569 3 12 4.3431 12 6C12 7.6569 10.6569 9 9 9C7.3432 9 6 7.6569 6 6C6 4.3431 7.3432 3 9 3ZM11 21L3 21C2.4477 21 2 20.5523 2 20V19C2 15.6863 4.6863 13 8 13L11 13M16 16L21 16C21.5523 16 22 16.4477 22 17L22 20C22 20.5523 21.5523 21 21 21L16 21C15.4477 21 15 20.5523 15 20L15 17C15 16.4477 15.4477 16 16 16ZM20.5 16L20.5 12C20.5 10.8954 19.6046 10 18.5 10C17.3954 10 16.5 10.8954 16.5 12");
 }
 
 </style>

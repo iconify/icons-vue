@@ -1,0 +1,29 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="gp_8x1bzb"><path class="hqjmp_a2v"/><path class="qib3ujb7r"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:database-off-sharp-duotone" /></template>
+<style>
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.hqjmp_a2v {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M20.74 20.86C20.638 21.018 20.516 21.153 20.397 21.263C20.099 21.536 19.719 21.748 19.326 21.918C18.493 22.278 17.409 22.539 16.143 22.722C14.877 22.904 13.44 23 12 23C10.56 23 9.123 22.904 7.857 22.722C6.592 22.539 5.507 22.278 4.674 21.918C4.281 21.748 3.901 21.536 3.603 21.263C3.307 20.99 3 20.567 3 20V4C3 3.732 3.069 3.496 3.172 3.293L12.867 12.987C12.58 12.996 12.29 13 12 13C10.375 13 8.753 12.866 7.473 12.634C6.833 12.517 6.278 12.376 5.85 12.229C5.408 12.077 5.138 11.932 5 11.824V14.049C6.672 14.674 9.301 15 12 15C12.942 15 13.875 14.96 14.762 14.882L20.74 20.86ZM5.452 1.796C6.145 1.578 6.955 1.408 7.857 1.278C9.123 1.096 10.56 1 12 1C13.44 1 14.877 1.096 16.143 1.278C17.409 1.461 18.493 1.722 19.326 2.082C19.719 2.252 20.099 2.464 20.397 2.737C20.693 3.01 21 3.433 21 4V17.343L8.44 4.783C9.524 4.923 10.762 5 12 5C13.43 5 14.859 4.897 16.053 4.713C17.247 4.528 18.213 4.248 18.708 4C18.213 3.752 17.247 3.471 16.053 3.287C14.859 3.102 13.43 3 12 3C10.57 3 9.141 3.102 7.947 3.287C7.648 3.333 7.364 3.385 7.098 3.441L5.452 1.796Z");
+  stroke: none;
+}
+
+.qib3ujb7r {
+  d: path("M1.707 1.707L22.293 22.293");
+}
+
+</style>

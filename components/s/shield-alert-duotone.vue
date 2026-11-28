@@ -4,24 +4,18 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="nrj6p8qat"><path class="ciz47rm9a"/><path class="j_efvl6tx"/><path class="ju8v6k8zc"/></g>`;
+const content = `<g class="nrj6p8qat"><path class="ozqf44bug"/><path class="c5yb8bdcb"/><path clip-rule="evenodd" class="m6hdizbcy"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:shield-alert-duotone" /></template>
 <style>
-.ciz47rm9a {
-  fill: currentColor;
-  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
-  d: path("M5.0647 4.1754C7.4506 3.8923 9.2514 2.6998 10.3279 1.6554C10.7686 1.2278 11.3816 1 12 1C12.6184 1 13.2314 1.2278 13.6721 1.6554C14.7486 2.6998 16.5495 3.8923 18.9353 4.1754C20.0939 4.3129 21 5.2554 21 6.3829L21 12.5708C21 14.5658 20.6389 16.5862 19.4031 18.1846C18.1083 19.859 16.0537 21.7334 13.1746 22.7912C12.4169 23.0696 11.5831 23.0696 10.8253 22.7911C7.9462 21.7334 5.8916 19.859 4.5969 18.1846C3.3611 16.5862 3 14.5658 3 12.5708L3 6.3829C3 5.2554 3.9062 4.3129 5.0647 4.1754Z");
-  stroke: none;
+.c5yb8bdcb {
+  d: path("M12 7V13");
 }
 
-.j_efvl6tx {
-  d: path("M12 7L12 13");
-}
-
-.ju8v6k8zc {
+.m6hdizbcy {
   fill: currentColor;
-  d: path("M13 17C13 17.5523 12.5523 18 12 18C11.4477 18 11 17.5523 11 17C11 16.4477 11.4477 16 12 16C12.5523 16 13 16.4477 13 17Z");
+  fill-rule: evenodd;
+  d: path("M13 17C13 17.552 12.552 18 12 18C11.448 18 11 17.552 11 17C11 16.448 11.448 16 12 16C12.552 16 13 16.448 13 17Z");
   stroke: none;
 }
 
@@ -31,6 +25,13 @@ const content = `<g class="nrj6p8qat"><path class="ciz47rm9a"/><path class="j_ef
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.ozqf44bug {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M5.065 4.175C7.451 3.892 9.251 2.7 10.328 1.655C10.769 1.228 11.382 1 12 1C12.618 1 13.231 1.228 13.672 1.655C14.749 2.7 16.55 3.892 18.935 4.175C20.094 4.313 21 5.255 21 6.383V12.571C21 14.566 20.639 16.586 19.403 18.185C18.108 19.859 16.054 21.733 13.175 22.791C12.417 23.07 11.583 23.07 10.825 22.791C7.946 21.733 5.892 19.859 4.597 18.185C3.361 16.586 3 14.566 3 12.571V6.383C3 5.255 3.906 4.313 5.065 4.175Z");
+  stroke: none;
 }
 
 </style>

@@ -1,0 +1,17 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path clip-rule="evenodd" class="mgznambzx"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:piano-sharp-fill" /></template>
+<style>
+.mgznambzx {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M17 20V14C17 13.448 17.448 13 18 13V5H14V13C14.552 13 15 13.448 15 14V20C15 20.552 14.552 21 14 21H10C9.448 21 9 20.552 9 20V14C9 13.448 9.448 13 10 13V5H6V13C6.552 13 7 13.448 7 14V20C7 20.552 6.552 21 6 21H2C1.448 21 1 20.552 1 20V4C1 3.448 1.448 3 2 3H12H22C22.552 3 23 3.448 23 4V20C23 20.552 22.552 21 22 21H18C17.448 21 17 20.552 17 20Z");
+}
+
+</style>

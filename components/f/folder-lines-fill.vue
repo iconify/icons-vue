@@ -1,0 +1,17 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path clip-rule="evenodd" class="cc1xvm-ak"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:folder-lines-fill" /></template>
+<style>
+.cc1xvm-ak {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M2 7C2 4.7909 3.7909 3 6 3L8.6716 3C9.4672 3 10.2303 3.3161 10.7929 3.8787L12.1213 5.2071C12.3089 5.3946 12.5632 5.5 12.8284 5.5L18 5.5C20.2091 5.5 22 7.2909 22 9.5L22 17C22 19.2091 20.2091 21 18 21L6 21C3.7909 21 2 19.2091 2 17ZM8 10C7.4477 10 7 10.4477 7 11C7 11.5523 7.4477 12 8 12L16 12C16.5523 12 17 11.5523 17 11C17 10.4477 16.5523 10 16 10ZM8 14C7.4477 14 7 14.4477 7 15C7 15.5523 7.4477 16 8 16L13 16C13.5523 16 14 15.5523 14 15C14 14.4477 13.5523 14 13 14Z");
+}
+
+</style>

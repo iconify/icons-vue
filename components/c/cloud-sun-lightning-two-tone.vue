@@ -4,20 +4,20 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="nrj6p8qat"><path class="x-vgh5und"/><path class="u8ae7_bmm"/><path class="ow04fs4ru"/></g>`;
+const content = `<g class="nrj6p8qat"><path class="x-vgh5und"/><path class="u8ae7_bmm"/><path class="ia8ln5bci"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:cloud-sun-lightning-two-tone" /></template>
 <style>
+.ia8ln5bci {
+  d: path("M6.467 9.955C6.163 9.531 6 9.022 6 8.5C6 7.119 7.119 6 8.5 6C8.817 6 9.132 6.06 9.426 6.178M15.5 16L12.5 19H16.5L13.5 22");
+}
+
 .nrj6p8qat {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-width: var(--svg-stroke-width--2px, 2px);
-}
-
-.ow04fs4ru {
-  d: path("M6.467 9.955C6.163 9.531 6 9.022 6 8.5C6 7.119 7.119 6 8.5 6C8.817 6 9.132 6.06 9.426 6.178M15.5 17.5L13.25 20H16.25L14 22");
 }
 
 .u8ae7_bmm {

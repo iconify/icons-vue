@@ -4,14 +4,19 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="nrj6p8qat"><path class="zuozovbmq"/><path class="aaf9dhb8c"/></g>`;
+const content = `<g class="nrj6p8qat"><path class="f17n07jae"/><path clip-rule="evenodd" class="bev0ehbyx"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:user-voice-fill" /></template>
 <style>
-.aaf9dhb8c {
+.bev0ehbyx {
   fill: currentColor;
-  d: path("M13 7C13 9.20914 11.2091 11 9 11C6.79086 11 5 9.20914 5 7C5 4.79086 6.79086 3 9 3C11.2091 3 13 4.79086 13 7ZM8 13H10C13.866 13 17 16.134 17 20C17 21.1046 16.1046 22 15 22H3C1.89543 22 1 21.1046 1 20C1 16.134 4.13401 13 8 13Z");
+  fill-rule: evenodd;
+  d: path("M13 6C13 8.209 11.209 10 9 10C6.791 10 5 8.209 5 6C5 3.791 6.791 2 9 2C11.209 2 13 3.791 13 6ZM8 12H10C13.866 12 17 15.134 17 19V20C17 21.105 16.105 22 15 22H3C1.895 22 1 21.105 1 20V19C1 15.134 4.134 12 8 12Z");
   stroke: none;
+}
+
+.f17n07jae {
+  d: path("M17.485 3C17.826 3.964 18 4.978 18 6C18 7.022 17.826 8.036 17.485 9M21.649 3C21.882 3.983 22 4.99 22 6C22 8.282 21.399 10.524 20.258 12.5");
 }
 
 .nrj6p8qat {
@@ -20,10 +25,6 @@ const content = `<g class="nrj6p8qat"><path class="zuozovbmq"/><path class="aaf9
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-width: var(--svg-stroke-width--2px, 2px);
-}
-
-.zuozovbmq {
-  d: path("M17.0623 3C17.6791 4.2432 18 5.6122 18 7C18 8.3878 17.6791 9.7568 17.0623 11M21.3693 3C21.7872 4.2922 22 5.6419 22 7C22 9.282 21.3993 11.5238 20.2583 13.5");
 }
 
 </style>

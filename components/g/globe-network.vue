@@ -1,0 +1,29 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="nrj6p8qat"><path class="uowxoucpq"/><path class="u7g_gvbhy"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:globe-network" /></template>
+<style>
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.u7g_gvbhy {
+  fill: currentColor;
+  d: path("M12 20C12.8284 20 13.5 20.6716 13.5 21.5C13.5 22.3284 12.8284 23 12 23C11.1716 23 10.5 22.3284 10.5 21.5C10.5 20.6716 11.1716 20 12 20Z");
+  stroke: none;
+}
+
+.uowxoucpq {
+  d: path("M12 2C16.1421 2 19.5 5.3579 19.5 9.5C19.5 13.6421 16.1421 17 12 17C7.8579 17 4.5 13.6421 4.5 9.5C4.5 5.3579 7.8579 2 12 2ZM4.5 9.5H19.5M12 2C13.6667 4.25 14.5 6.875 14.5 9.5C14.5 12.125 13.6667 14.75 12 17C10.3333 14.75 9.5 12.125 9.5 9.5C9.5 6.875 10.3333 4.25 12 2ZM12 17V21.5M3 21.5H21");
+}
+
+</style>

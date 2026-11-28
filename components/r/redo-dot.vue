@@ -4,26 +4,26 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="nrj6p8qat"><path class="ei4x6nbiq"/><path class="i23jo_tjq"/></g>`;
+const content = `<g class="nrj6p8qat"><path class="vs9wa_cnr"/><path class="pelh9kbkx"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:redo-dot" /></template>
 <style>
-.ei4x6nbiq {
-  d: path("M2 18C2 11.6487 7.1487 6.5 13.5 6.5C16.55 6.5 19.4751 7.7116 21.6317 9.8683M22 6L22 9.7365C22 10.0127 21.7761 10.2365 21.5 10.2365L17.7635 10.2365");
-}
-
-.i23jo_tjq {
-  fill: currentColor;
-  d: path("M11.5 17C11.5 18.1046 12.3954 19 13.5 19C14.6046 19 15.5 18.1046 15.5 17C15.5 15.8954 14.6046 15 13.5 15C12.3954 15 11.5 15.8954 11.5 17Z");
-  stroke: none;
-}
-
 .nrj6p8qat {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.pelh9kbkx {
+  fill: currentColor;
+  d: path("M11.2851 16.9998C11.2851 18.1044 12.1805 18.9998 13.2851 18.9998C14.3897 18.9998 15.2851 18.1044 15.2851 16.9998C15.2851 15.8952 14.3897 14.9998 13.2851 14.9998C12.1805 14.9998 11.2851 15.8952 11.2851 16.9998Z");
+  stroke: none;
+}
+
+.vs9wa_cnr {
+  d: path("M3 17.9998C3 13.9534 5.3726 10.283 9.0622 8.6216C12.7518 6.9602 17.0727 7.6166 20.1025 10.2987M21 6.0002V11H16");
 }
 
 </style>

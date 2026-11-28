@@ -4,14 +4,14 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="gp_8x1bzb"><path class="bjudg0-lh"/><path class="jpdhonkoa"/></g>`;
+const content = `<g class="gp_8x1bzb"><path class="chd8r9lmu"/><path class="jpdhonkoa"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:user-unlock-sharp-duotone" /></template>
 <style>
-.bjudg0-lh {
+.chd8r9lmu {
   fill: currentColor;
   fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
-  d: path("M10 13C10.3396 13 10.6733 13.0255 11 13.0723L11 22L2 22C1.4477 22 1 21.5523 1 21L1 20C1 16.134 4.134 13 8 13ZM9 3C11.2092 3 13 4.7908 13 7C13 9.2092 11.2092 11 9 11C6.7909 11 5 9.2092 5 7C5 4.7908 6.7909 3 9 3Z");
+  d: path("M12 22H2C1.44772 22 1 21.5523 1 21V19C1 15.134 4.13402 12 8 12H12V22ZM9 2C11.2092 2 13 3.7908 13 6C13 8.2092 11.2092 10 9 10C6.7909 10 5 8.2092 5 6C5 3.7908 6.7909 2 9 2Z");
   stroke: none;
 }
 

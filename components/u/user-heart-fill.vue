@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="nrj6p8qat"><path class="zwpv-tb0j"/><path class="eqjw64pds"/></g>`;
+const content = `<g class="nrj6p8qat"><path class="tw_v22gnt"/><path class="eqjw64pds"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:user-heart-fill" /></template>
 <style>
@@ -20,9 +20,9 @@ const content = `<g class="nrj6p8qat"><path class="zwpv-tb0j"/><path class="eqjw
   stroke-width: var(--svg-stroke-width--2px, 2px);
 }
 
-.zwpv-tb0j {
+.tw_v22gnt {
   fill: currentColor;
-  d: path("M10 13C10.5523 13 11 13.4477 11 14V21C11 21.5523 10.5523 22 10 22H3C1.89542 22 1 21.1046 1 20C1 16.134 4.13402 13 8 13H10ZM9 3C11.2092 3 13 4.79082 13 7C13 9.20918 11.2092 11 9 11C6.79094 11 5 9.20921 5 7C5 4.79079 6.79094 3 9 3Z");
+  d: path("M10 12C10.5523 12 11 12.4477 11 13V21C11 21.5523 10.5523 22 10 22H3C1.89542 22 1 21.1046 1 20V19C1 15.134 4.13402 12 8 12H10ZM9 2C11.2092 2 13 3.79082 13 6C13 8.20918 11.2092 10 9 10C6.79094 10 5 8.20921 5 6C5 3.79079 6.79094 2 9 2Z");
   stroke: none;
 }
 

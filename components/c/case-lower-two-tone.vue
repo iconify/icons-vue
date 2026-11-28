@@ -1,0 +1,28 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="nrj6p8qat"><path class="ootuw-bap"/><path class="drpbwbbee"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:case-lower-two-tone" /></template>
+<style>
+.drpbwbbee {
+  d: path("M22 14C22 15.657 20.6569 17 19 17C17.3431 17 16 15.657 16 14C16 12.343 17.3431 11 19 11C20.6569 11 22 12.343 22 14ZM22 14L22 10M22 14L22 17");
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.ootuw-bap {
+  stroke-opacity: 0.4;
+  d: path("M11 12.5C11 14.9853 8.9853 17 6.5 17C4.0147 17 2 14.9853 2 12.5C2 10.0147 4.0147 8 6.5 8C8.9853 8 11 10.0147 11 12.5ZM11 12.5L11 7M11 12.5L11 17");
+}
+
+</style>

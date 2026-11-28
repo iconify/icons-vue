@@ -4,13 +4,14 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="nrj6p8qat"><path class="yelxr2brf"/><path class="aaf9dhb8c"/></g>`;
+const content = `<g class="nrj6p8qat"><path class="o1-2j8bsn"/><path clip-rule="evenodd" class="ddxwk17ku"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:user-x-fill" /></template>
 <style>
-.aaf9dhb8c {
+.ddxwk17ku {
   fill: currentColor;
-  d: path("M13 7C13 9.20914 11.2091 11 9 11C6.79086 11 5 9.20914 5 7C5 4.79086 6.79086 3 9 3C11.2091 3 13 4.79086 13 7ZM8 13H10C13.866 13 17 16.134 17 20C17 21.1046 16.1046 22 15 22H3C1.89543 22 1 21.1046 1 20C1 16.134 4.13401 13 8 13Z");
+  fill-rule: evenodd;
+  d: path("M13 6C13 8.209 11.2091 10 9 10C6.7909 10 5 8.209 5 6C5 3.791 6.7909 2 9 2C11.2091 2 13 3.791 13 6ZM8 12H10C13.866 12 17 15.134 17 19V20C17 21.105 16.1046 22 15 22H3C1.8954 22 1 21.105 1 20V19C1 15.134 4.134 12 8 12Z");
   stroke: none;
 }
 
@@ -22,8 +23,8 @@ const content = `<g class="nrj6p8qat"><path class="yelxr2brf"/><path class="aaf9
   stroke-width: var(--svg-stroke-width--2px, 2px);
 }
 
-.yelxr2brf {
-  d: path("M16 4L22 10M22 4L16 10");
+.o1-2j8bsn {
+  d: path("M16 3L22 9M22 3L16 9");
 }
 
 </style>

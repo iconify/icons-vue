@@ -4,12 +4,12 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="nrj6p8qat"><path class="f0yusve5z"/><path class="e3qcjurvl"/></g>`;
+const content = `<g class="nrj6p8qat"><path class="f0yusve5z"/><path class="c81t81yuk"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:layers-minus-duotone" /></template>
 <style>
-.e3qcjurvl {
-  d: path("M2 12.625L11.5618 17.2864C11.7001 17.3538 11.85 17.3875 12 17.3875M2 17.2375L11.5618 21.8989C11.7001 21.9663 11.85 22 12 22M17 19.5L22 19.5");
+.c81t81yuk {
+  d: path("M2 12.625L11.5618 17.2864C11.7001 17.3538 11.85 17.3875 12 17.3875M2 17.2375L11.5618 21.8989C11.7001 21.9663 11.85 22 12 22M16 19L22 19");
 }
 
 .f0yusve5z {

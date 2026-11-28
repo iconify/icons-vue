@@ -1,0 +1,20 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="a4fb0ob5g"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:printer-off" /></template>
+<style>
+.a4fb0ob5g {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M6 19L4 19C2.8954 19 2 18.1046 2 17L2 12C2 10.8954 2.8954 10 4 10L10 10M15.6569 10L20 10C21.1046 10 22 10.8954 22 12L22 16.3431M7.682 2.0251C7.7856 2.0086 7.8918 2 8 2L13.5858 2C13.851 2 14.1054 2.1054 14.2929 2.2929L17.7071 5.7071C17.8946 5.8946 18 6.149 18 6.4142L18 10M18 18L18 20C18 21.1046 17.1046 22 16 22L8 22C6.8954 22 6 21.1046 6 20L6 17C6 15.8954 6.8954 15 8 15L15 15M2 2L22 22");
+}
+
+</style>

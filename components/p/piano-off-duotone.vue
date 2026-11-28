@@ -1,0 +1,30 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="nrj6p8qat"><path class="pahoftbfi"/><path class="ayo73pbzj"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:piano-off-duotone" /></template>
+<style>
+.ayo73pbzj {
+  d: path("M2 2L22 22");
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.pahoftbfi {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M6 6V12C6 12.37 6.201 12.694 6.5 12.866C6.81 13.045 7 13.375 7 13.732V20C7 20.552 6.552 21 6 21H5C2.791 21 1 19.209 1 17V7C1 5.378 1.966 3.981 3.353 3.353L6 6ZM20.646 20.646C20.144 20.874 19.587 21 19 21H10C9.448 21 9 20.552 9 20V13.732C9 13.375 9.19 13.045 9.5 12.866C9.799 12.694 10 12.37 10 12V10L20.646 20.646ZM21.293 17.05L17.219 12.976C17.666 12.876 18 12.477 18 12V6C18 5.448 17.552 5 17 5H15C14.448 5 14 5.448 14 6V9.757L8.95 4.707C8.769 4.526 8.657 4.276 8.657 4C8.657 3.448 9.105 3 9.657 3H12H19C21.209 3 23 4.791 23 7V16.343C23 16.895 22.552 17.343 22 17.343C21.724 17.343 21.474 17.231 21.293 17.05Z");
+  stroke: none;
+}
+
+</style>

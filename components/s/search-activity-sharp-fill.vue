@@ -1,0 +1,29 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="gp_8x1bzb"><path clip-rule="evenodd" class="a-ey6593q"/><path class="p9760fzsb"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:search-activity-sharp-fill" /></template>
+<style>
+.a-ey6593q {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M15.6569 15.6569C14.2102 17.1035 12.2089 18 10 18C5.5817 18 2 14.4183 2 10C2 5.5817 5.5817 2 10 2C14.4183 2 18 5.5817 18 10C18 12.2089 17.1035 14.2102 15.6569 15.6569ZM4.083 9C4.0284 9.3252 4 9.6593 4 10C4 10.3407 4.0284 10.6748 4.083 11L7.5 11C7.8513 11 8.1768 10.8157 8.3575 10.5145L8.8203 9.7432L10.0715 12.8714C10.2126 13.2241 10.5414 13.4665 10.9201 13.4968C11.2988 13.5271 11.662 13.3403 11.8575 13.0145L13.0662 11L15.917 11C15.9716 10.6748 16 10.3407 16 10C16 9.6593 15.9716 9.3252 15.917 9L12.5 9C12.1487 9 11.8232 9.1843 11.6425 9.4855L11.1797 10.2568L9.9285 7.1286C9.7874 6.7759 9.4586 6.5335 9.0799 6.5032C8.7012 6.4729 8.338 6.6597 8.1425 6.9855L6.9338 9Z");
+  stroke: none;
+}
+
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.p9760fzsb {
+  d: path("M14.2929 14.2929L21.2929 21.2929");
+}
+
+</style>

@@ -4,12 +4,12 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="gp_8x1bzb"><path class="l1s7kvbwq"/><path class="g0obvfn1t"/></g>`;
+const content = `<g class="gp_8x1bzb"><path class="l1s7kvbwq"/><path class="arjd6wspp"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:cloud-moon-lightning-sharp-two-tone" /></template>
 <style>
-.g0obvfn1t {
-  d: path("M4.016 13.226L3.719 12.904C2.614 11.704 2 10.132 2 8.5C2 4.91 4.91 2 8.5 2C7.844 2.82 7.487 3.839 7.487 4.889C7.487 5.747 7.725 6.588 8.176 7.318L8.469 7.793M15.798 17.169L13.25 20H16.25L13.716 22.253");
+.arjd6wspp {
+  d: path("M4.016 13.226L3.719 12.904C2.614 11.704 2 10.132 2 8.5C2 4.91 4.91 2 8.5 2C7.844 2.82 7.487 3.839 7.487 4.889C7.487 5.747 7.725 6.588 8.176 7.318L8.469 7.793M15.7929 15.7071L12.5 19H16.5L13.2071 22.2929");
 }
 
 .gp_8x1bzb {

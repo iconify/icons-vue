@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="nrj6p8qat"><path clip-rule="evenodd" class="p9kv-sbpj"/><path clip-rule="evenodd" class="ual22jnhh"/><path class="nrn598-dc"/></g>`;
+const content = `<g class="nrj6p8qat"><path class="tpprqygxs"/><path class="qpj_722nl"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:oven-off-two-tone" /></template>
 <style>
@@ -16,22 +16,14 @@ const content = `<g class="nrj6p8qat"><path clip-rule="evenodd" class="p9kv-sbpj
   stroke-width: var(--svg-stroke-width--2px, 2px);
 }
 
-.nrn598-dc {
-  d: path("M20 20C20 21.1046 19.1046 22 18 22L6 22C4.8954 22 4 21.1046 4 20L4 6C4 5.4131 4.1264 4.8557 4.3535 4.3535M4 10L10 10M9 14L14 14M2 2L22 22");
+.qpj_722nl {
+  d: path("M20 20C20 21.105 19.105 22 18 22H6C4.895 22 4 21.105 4 20V6C4 5.413 4.126 4.856 4.353 4.353M4 10H10M9 14H14M2 2L22 22");
 }
 
-.p9kv-sbpj {
+.tpprqygxs {
   fill: currentColor;
   fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
-  fill-rule: evenodd;
-  d: path("M20.8715 20.8715C20.4872 22.1357 19.3214 23 18 23L6 23C4.3431 23 3 21.6569 3 20L3 6C2.9987 5.1643 3.2079 4.3417 3.6081 3.6081L20.8715 20.8715ZM7.589 1.0167C7.7257 1.0055 7.8628 1 8 1L16 1C18.7614 1 21 3.2386 21 6L21 14.3431L20.98 14.3431C20.9802 14.8844 20.5415 15.3233 20.0002 15.3233C19.7402 15.3233 19.4908 15.22 19.3071 15.0361L19.2929 15.0503L6.9631 2.7205L6.9773 2.7063C6.7934 2.5226 6.6901 2.2732 6.6901 2.0132C6.6901 1.5028 7.0819 1.0779 7.5906 1.0366L7.589 1.0167Z");
-  stroke: none;
-}
-
-.ual22jnhh {
-  fill: currentColor;
-  fill-rule: evenodd;
-  d: path("M13 6C13 6.5523 12.5523 7 12 7C11.4477 7 11 6.5523 11 6C11 5.4477 11.4477 5 12 5C12.5523 5 13 5.4477 13 6ZM17 6C17 6.5523 16.5523 7 16 7C15.4477 7 15 6.5523 15 6C15 5.4477 15.4477 5 16 5C16.5523 5 17 5.4477 17 6Z");
+  d: path("M20.872 20.872C20.487 22.136 19.321 23 18 23H6C4.343 23 3 21.657 3 20V6C2.999 5.164 3.208 4.342 3.608 3.608L20.872 20.872ZM7.589 1.017C7.726 1.006 7.863 1 8 1H16C18.761 1 21 3.239 21 6V14.343H20.98C20.98 14.884 20.542 15.323 20 15.323C19.74 15.323 19.491 15.22 19.307 15.036L19.293 15.05L6.963 2.72L6.977 2.706C6.793 2.523 6.69 2.273 6.69 2.013C6.69 1.503 7.082 1.078 7.591 1.037L7.589 1.017Z");
   stroke: none;
 }
 

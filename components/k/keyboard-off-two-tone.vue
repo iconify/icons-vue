@@ -4,21 +4,10 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="nrj6p8qat"><path clip-rule="evenodd" class="yhebyfbsy"/><path clip-rule="evenodd" class="cybs-0bev"/><path class="h8nn5eb7p"/></g>`;
+const content = `<g class="nrj6p8qat"><path class="r391zzbqg"/><path clip-rule="evenodd" class="vpcb-kbtv"/><path class="qml68xbxn"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:keyboard-off-two-tone" /></template>
 <style>
-.cybs-0bev {
-  fill: currentColor;
-  fill-rule: evenodd;
-  d: path("M13.5 7L14.5 7C14.7761 7 15 7.2239 15 7.5L15 8.5C15 8.7761 14.7761 9 14.5 9L13.5 9C13.2239 9 13 8.7761 13 8.5L13 7.5C13 7.2239 13.2239 7 13.5 7ZM17.5 7L18.5 7C18.7761 7 19 7.2239 19 7.5L19 8.5C19 8.7761 18.7761 9 18.5 9L17.5 9C17.2239 9 17 8.7761 17 8.5L17 7.5C17 7.2239 17.2239 7 17.5 7ZM5.5 11L6.5 11C6.7761 11 7 11.2239 7 11.5L7 12.5C7 12.7761 6.7761 13 6.5 13L5.5 13C5.2239 13 5 12.7761 5 12.5L5 11.5C5 11.2239 5.2239 11 5.5 11ZM17.5 11L18.5 11C18.7761 11 19 11.2239 19 11.5L19 12.5C19 12.7761 18.7761 13 18.5 13L17.5 13C17.2239 13 17 12.7761 17 12.5L17 11.5C17 11.2239 17.2239 11 17.5 11Z");
-  stroke: none;
-}
-
-.h8nn5eb7p {
-  d: path("M19.8715 19.8715C19.5957 19.9551 19.3031 20 19 20L5 20C3.3431 20 2 18.6569 2 17L2 7C2 5.6462 2.8967 4.5019 4.1285 4.1285M8 16L16 16M2 2L22 22");
-}
-
 .nrj6p8qat {
   fill: none;
   stroke: currentColor;
@@ -27,11 +16,21 @@ const content = `<g class="nrj6p8qat"><path clip-rule="evenodd" class="yhebyfbsy
   stroke-width: var(--svg-stroke-width--2px, 2px);
 }
 
-.yhebyfbsy {
+.qml68xbxn {
+  d: path("M19.872 19.8715C19.596 19.9551 19.303 20 19 20H5C3.343 20 2 18.6569 2 17V7C2 5.6462 2.897 4.5019 4.128 4.1285M8 16H16M2 2L22 22");
+}
+
+.r391zzbqg {
   fill: currentColor;
   fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M20.646 20.6465C20.129 20.8803 19.568 21.0008 19 21H5C2.791 21 1 19.2091 1 17V7C1 5.4276 1.921 4.0009 3.353 3.3535L20.646 20.6465ZM9.657 3H19C21.209 3 23 4.7909 23 7V16.3431H22.98C22.98 16.8844 22.542 17.3233 22 17.3233C21.74 17.3233 21.491 17.22 21.307 17.0361L21.293 17.0503L8.95 4.7071L8.964 4.6929C8.78 4.5092 8.677 4.2598 8.677 3.9998C8.677 3.4585 9.116 3.0198 9.657 3.02V3Z");
+  stroke: none;
+}
+
+.vpcb-kbtv {
+  fill: currentColor;
   fill-rule: evenodd;
-  d: path("M20.6465 20.6465C20.1291 20.8803 19.5677 21.0008 19 21L5 21C2.7909 21 1 19.2091 1 17L1 7C0.9998 5.4276 1.9206 4.0009 3.3535 3.3535L20.6465 20.6465ZM9.6569 3L19 3C21.2091 3 23 4.7909 23 7L23 16.3431L22.98 16.3431C22.9802 16.8844 22.5415 17.3233 22.0002 17.3233C21.7402 17.3233 21.4908 17.22 21.3071 17.0361L21.2929 17.0503L8.9497 4.7071L8.9639 4.6929C8.78 4.5092 8.6767 4.2598 8.6767 3.9998C8.6767 3.4585 9.1156 3.0198 9.6569 3.02L9.6569 3Z");
+  d: path("M5.5 11H6.5C6.776 11 7 11.2239 7 11.5V12.5C7 12.7761 6.776 13 6.5 13H5.5C5.224 13 5 12.7761 5 12.5V11.5C5 11.2239 5.224 11 5.5 11Z");
   stroke: none;
 }
 

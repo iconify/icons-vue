@@ -1,0 +1,30 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="nrj6p8qat"><path class="f2ruxmr6b"/><path class="yh78dp0ap"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:square-search-duotone" /></template>
+<style>
+.f2ruxmr6b {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M2 6C2 3.7909 3.7909 2 6 2H18C20.2091 2 22 3.7909 22 6V18C22 20.2091 20.2091 22 18 22H6C3.7909 22 2 20.2091 2 18V6Z");
+  stroke: none;
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.yh78dp0ap {
+  d: path("M13.4141 13.4142L16.2425 16.2426M14.3569 11.0572C14.3569 12.8796 12.8795 14.357 11.0571 14.357C9.2346 14.357 7.7573 12.8796 7.7573 11.0572C7.7573 9.2347 9.2346 7.7574 11.0571 7.7574C12.8795 7.7574 14.3569 9.2347 14.3569 11.0572Z");
+}
+
+</style>

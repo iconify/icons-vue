@@ -4,13 +4,14 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="qrgs-6b1d"/>`;
+const content = `<path clip-rule="evenodd" class="s55k0kb_s"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:user-sharp-fill" /></template>
 <style>
-.qrgs-6b1d {
+.s55k0kb_s {
   fill: currentColor;
-  d: path("M12 3C14.0711 3 16 4.9289 16 7C16 9.0711 14.0711 11 12 11C9.9289 11 8 9.0711 8 7C8 4.9289 9.9289 3 12 3ZM11 13L13 13C16.7279 13 20 16.2721 20 20L20 21C20 21.5523 19.5523 22 19 22L5 22C4.4477 22 4 21.5523 4 21L4 20C4 16.2721 7.2721 13 11 13Z");
+  fill-rule: evenodd;
+  d: path("M12 2C14.071 2 16 3.929 16 6C16 8.071 14.071 10 12 10C9.929 10 8 8.071 8 6C8 3.929 9.929 2 12 2ZM11 12H13C16.728 12 20 15.272 20 19V21C20 21.552 19.552 22 19 22H5C4.448 22 4 21.552 4 21V19C4 15.272 7.272 12 11 12Z");
 }
 
 </style>

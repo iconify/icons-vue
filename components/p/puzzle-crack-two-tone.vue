@@ -1,0 +1,30 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="nrj6p8qat"><path class="kq6b4vbpz"/><path class="gztc0cbnr"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:puzzle-crack-two-tone" /></template>
+<style>
+.gztc0cbnr {
+  d: path("M7 6L7 6.5C7 6.7761 6.7761 7 6.5 7L5 7C3.8954 7 3 7.8954 3 9L3 10.5C3 10.7761 3.2239 11 3.5 11L4 11C5.6569 11 7 12.3431 7 14C7 15.6569 5.6569 17 4 17L3.5 17C3.2239 17 3 17.2239 3 17.5L3 19C3 20.1046 3.8954 21 5 21L15 21C16.1046 21 17 20.1046 17 19L17 17.5C17 17.2239 17.2239 17 17.5 17L18 17C19.6569 17 21 15.6569 21 14C21 12.3431 19.6569 11 18 11L17.5 11C17.2239 11 17 10.7761 17 10.5L17 9C17 7.8954 16.1046 7 15 7L13.5 7C13.2239 7 13 6.7761 13 6.5L13 6C13 4.3431 11.6569 3 10 3C8.3431 3 7 4.3431 7 6ZM11 21L13 17L11 14L13 11");
+}
+
+.kq6b4vbpz {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M10 2C12.2092 2 14 3.7908 14 6L15 6C16.6569 6 18 7.3431 18 9L18 10C20.2092 10 22 11.7908 22 14C22 16.2092 20.2092 18 18 18L18 19C18 20.6569 16.6569 22 15 22L5 22C3.3431 22 2 20.6569 2 19L2 17.5C2 16.6716 2.6716 16 3.5 16L4 16C5.1046 16 6 15.1046 6 14C6 12.8954 5.1046 12 4 12L3.5 12C2.6716 12 2 11.3284 2 10.5L2 9C2 7.3431 3.3431 6 5 6L6 6C6 3.7908 7.7908 2 10 2Z");
+  stroke: none;
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+</style>

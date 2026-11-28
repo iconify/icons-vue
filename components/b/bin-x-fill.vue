@@ -1,0 +1,17 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path clip-rule="evenodd" class="ss7za2b9m"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:bin-x-fill" /></template>
+<style>
+.ss7za2b9m {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M20 6C20.5523 6 21 6.4477 21 7C21 7.5523 20.5523 8 20 8L19 8L19 19C19 21.2091 17.2091 23 15 23L9 23C6.7909 23 5 21.2091 5 19L5 8L4 8C3.4477 8 3 7.5523 3 7C3 6.4477 3.4477 6 4 6ZM14 1C14.5523 1 15 1.4477 15 2C15 2.5523 14.5523 3 14 3L10 3C9.4477 3 9 2.5523 9 2C9 1.4477 9.4477 1 10 1ZM13.4142 15L14.7071 13.7071C15.0976 13.3166 15.0976 12.6834 14.7071 12.2929C14.3166 11.9024 13.6834 11.9024 13.2929 12.2929L12 13.5858L10.7071 12.2929C10.3166 11.9024 9.6834 11.9024 9.2929 12.2929C8.9024 12.6834 8.9024 13.3166 9.2929 13.7071L10.5858 15L9.2929 16.2929C8.9024 16.6834 8.9024 17.3166 9.2929 17.7071C9.6834 18.0976 10.3166 18.0976 10.7071 17.7071L12 16.4142L13.2929 17.7071C13.6834 18.0976 14.3166 18.0976 14.7071 17.7071C15.0976 17.3166 15.0976 16.6834 14.7071 16.2929Z");
+}
+
+</style>

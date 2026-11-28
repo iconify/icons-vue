@@ -1,0 +1,29 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="gp_8x1bzb"><path class="j3u75kdjo"/><path class="aslqjgb8d"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:puzzle-off-sharp-duotone" /></template>
+<style>
+.aslqjgb8d {
+  d: path("M1.707 1.7071L22.293 22.2929");
+}
+
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.j3u75kdjo {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M18 18.12V21C18 21.5523 17.552 22 17 22H3C2.448 22 2 21.5523 2 21V17C2 16.4477 2.448 16 3 16H4C5.105 16 6 15.1046 6 14C6 12.8954 5.105 12 4 12H3C2.448 12 2 11.5523 2 11V7C2 6.4477 2.448 6 3 6H5.88L18 18.12ZM7.005 3.3483C7.738 2.5213 8.808 2 10 2C12.209 2 14 3.7908 14 6H17C17.552 6 18 6.4477 18 7V10C20.209 10 22 11.7908 22 14C22 15.1919 21.479 16.262 20.652 16.9948L7.005 3.3483Z");
+  stroke: none;
+}
+
+</style>

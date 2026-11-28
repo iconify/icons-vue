@@ -1,0 +1,20 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="ypwr2qh-r"/>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:face-squint" /></template>
+<style>
+.ypwr2qh-r {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M8.5 7.5L10 8.75L8.5 10M15.5 7.5L14 8.75L15.5 10M22 12C22 17.523 17.523 22 12 22C6.477 22 2 17.523 2 12C2 6.477 6.477 2 12 2C17.523 2 22 6.477 22 12ZM9.171 14H14.829C15.518 14 16.001 14.682 15.772 15.332C15.212 16.919 13.707 18 12 18C10.293 18 8.788 16.919 8.228 15.332C7.999 14.682 8.482 14 9.171 14Z");
+}
+
+</style>

@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="gp_8x1bzb"><path class="d4w8s_inb"/><path clip-rule="evenodd" class="btwd0w9_q"/></g>`;
+const content = `<g class="gp_8x1bzb"><path class="ccdryp6-a"/><path clip-rule="evenodd" class="btwd0w9_q"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:user-alert-sharp" /></template>
 <style>
@@ -15,8 +15,8 @@ const content = `<g class="gp_8x1bzb"><path class="d4w8s_inb"/><path clip-rule="
   stroke: none;
 }
 
-.d4w8s_inb {
-  d: path("M11 14L13 14C16.3137 14 19 16.6863 19 20L19 21L5 21L5 20C5 16.6863 7.6863 14 11 14ZM12 4C13.6569 4 15 5.3431 15 7C15 8.6569 13.6569 10 12 10C10.3431 10 9 8.6569 9 7C9 5.3431 10.3431 4 12 4ZM19 2L19 6");
+.ccdryp6-a {
+  d: path("M11 13L13 13C16.3137 13 19 15.6863 19 19L19 21L5 21L5 19C5 15.6863 7.6863 13 11 13ZM12 3C13.6569 3 15 4.3431 15 6C15 7.6569 13.6569 9 12 9C10.3431 9 9 7.6569 9 6C9 4.3431 10.3431 3 12 3ZM19 2L19 6");
 }
 
 .gp_8x1bzb {

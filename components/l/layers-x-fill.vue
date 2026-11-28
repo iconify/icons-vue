@@ -4,12 +4,12 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="nrj6p8qat"><path clip-rule="evenodd" class="iw7zvwbvy"/><path class="gebltrbha"/></g>`;
+const content = `<g class="nrj6p8qat"><path clip-rule="evenodd" class="iw7zvwbvy"/><path class="acwg6ob0g"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:layers-x-fill" /></template>
 <style>
-.gebltrbha {
-  d: path("M2 12.625L11.5618 17.2864C11.7001 17.3538 11.85 17.3875 12 17.3875M2 17.2375L11.5618 21.8989C11.7001 21.9663 11.85 22 12 22M17 17L22 22M22 17L17 22");
+.acwg6ob0g {
+  d: path("M2 12.625L11.5618 17.2864C11.7001 17.3538 11.85 17.3875 12 17.3875M2 17.2375L11.5618 21.8989C11.7001 21.9663 11.85 22 12 22M16 16L22 22M22 16L16 22");
 }
 
 .iw7zvwbvy {

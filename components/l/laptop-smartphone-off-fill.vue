@@ -1,0 +1,30 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="nrj6p8qat"><path clip-rule="evenodd" class="wc3hh1bcf"/><path class="pwisyzbup"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:laptop-smartphone-off-fill" /></template>
+<style>
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.pwisyzbup {
+  d: path("M4 14L4 4M7.6569 2L18 2C19.1046 2 20 2.8954 20 4M9 18L4 18C2.8954 18 2 17.1046 2 16L2 14.5C2 14.2239 2.2239 14 2.5 14L9 14M2 2L22 22");
+}
+
+.wc3hh1bcf {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M21.8284 21.8284C21.1046 22.5523 20.1046 23 19 23L16 23C13.7909 23 12 21.2091 12 19L12 13C12 12.691 12.035 12.3902 12.1014 12.1014ZM15.558 9.0242C15.7031 9.0082 15.8506 9 16 9L19 9C21.2091 9 23 10.7909 23 13L23 16.3431C23 16.8954 22.5523 17.3431 22 17.3431C21.7239 17.3431 21.4739 17.2312 21.2929 17.0502L14.9638 10.7211C14.7848 10.5405 14.6743 10.2919 14.6743 10.0175C14.6743 9.5045 15.0605 9.0818 15.558 9.0242Z");
+  stroke: none;
+}
+
+</style>

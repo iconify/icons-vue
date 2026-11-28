@@ -4,25 +4,26 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="gp_8x1bzb"><path class="jgn5bbb2d"/><path class="s_7e9gbgc"/></g>`;
+const content = `<g class="gp_8x1bzb"><path class="fpas2bcxi"/><path clip-rule="evenodd" class="bptmxumgf"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:users-sharp-fill" /></template>
 <style>
+.bptmxumgf {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M9 2C11.071 2 13 3.929 13 6C13 8.071 11.071 10 9 10C6.929 10 5 8.071 5 6C5 3.929 6.929 2 9 2ZM8 12H10C13.728 12 17 15.272 17 19V21C17 21.552 16.552 22 16 22H2C1.448 22 1 21.552 1 21V19C1 15.272 4.272 12 8 12Z");
+  stroke: none;
+}
+
+.fpas2bcxi {
+  d: path("M15 3H16C17.657 3 19 4.343 19 6C19 7.657 17.657 9 16 9H15M17.412 13.082L18.333 13.471C20.554 14.409 22 16.589 22 19V20C22 20.552 21.552 21 21 21H20");
+}
+
 .gp_8x1bzb {
   fill: none;
   stroke: currentColor;
   stroke-linejoin: round;
   stroke-width: var(--svg-stroke-width--2px, 2px);
-}
-
-.jgn5bbb2d {
-  d: path("M15 4L16 4C17.6569 4 19 5.3431 19 7C19 8.6569 17.6569 10 16 10L15 10M17.4121 14.0823L18.3333 14.4713C20.554 15.409 22 17.589 22 20C22 20.5523 21.5523 21 21 21L20 21");
-}
-
-.s_7e9gbgc {
-  fill: currentColor;
-  d: path("M9 3C11.0711 3 13 4.9289 13 7C13 9.0711 11.0711 11 9 11C6.9289 11 5 9.0711 5 7C5 4.9289 6.9289 3 9 3ZM8 13L10 13C13.7279 13 17 16.2721 17 20L17 21C17 21.5523 16.5523 22 16 22L2 22C1.4477 22 1 21.5523 1 21L1 20C1 16.2721 4.2721 13 8 13Z");
-  stroke: none;
 }
 
 </style>

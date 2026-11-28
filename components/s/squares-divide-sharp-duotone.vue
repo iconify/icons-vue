@@ -1,0 +1,25 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="cuyn6tgcc"><path class="wv7jrvk4g"/><path clip-rule="evenodd" class="r-z7n8m8o"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:squares-divide-sharp-duotone" /></template>
+<style>
+.cuyn6tgcc {
+  fill: currentColor;
+}
+
+.r-z7n8m8o {
+  fill-rule: evenodd;
+  d: path("M12 16H9C8.448 16 8 15.5523 8 15V9C8 8.4477 8.448 8 9 8H15C15.552 8 16 8.4477 16 9V11.5V15C16 15.5523 15.552 16 15 16H12Z");
+}
+
+.wv7jrvk4g {
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M6.879 6.8787C6.335 7.4226 6 8.1713 6 9V12V15C6 15.5523 5.552 16 5 16H3C2.448 16 2 15.5523 2 15V9V3C2 2.4477 2.448 2 3 2H9H15C15.552 2 16 2.4477 16 3V5C16 5.5523 15.552 6 15 6H12H9C8.171 6 7.423 6.3347 6.879 6.8787ZM15 22H9C8.448 22 8 21.5523 8 21V19C8 18.4477 8.448 18 9 18H12H15C16.657 18 18 16.6569 18 15V11.5V9C18 8.4477 18.448 8 19 8H21C21.552 8 22 8.4477 22 9V15V21C22 21.5523 21.552 22 21 22H15Z");
+}
+
+</style>

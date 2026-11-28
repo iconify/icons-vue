@@ -4,12 +4,12 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="nrj6p8qat"><path class="ugse86bkf"/><path class="j6lwybb_v"/></g>`;
+const content = `<g class="nrj6p8qat"><path class="ugse86bkf"/><path class="ja5ucrb-k"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:moon-z-fill" /></template>
 <style>
-.j6lwybb_v {
-  d: path("M22 9H17.1466C16.71 9 16.4831 8.4797 16.7802 8.15977L21.7198 2.84023C22.0169 2.5203 21.79 2 21.3534 2H16.5");
+.ja5ucrb-k {
+  d: path("M16 2H22L16 8H22");
 }
 
 .nrj6p8qat {

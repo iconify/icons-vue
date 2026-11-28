@@ -1,0 +1,35 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="nrj6p8qat"><path class="zydi4acxo"/><path class="dzxuiot8h"/><path class="ayo73pbzj"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:touchpad-mouse-off-duotone" /></template>
+<style>
+.ayo73pbzj {
+  d: path("M2 2L22 22");
+}
+
+.dzxuiot8h {
+  stroke-opacity: 0.4;
+  d: path("M10 16L5 16C3.3431 16 2 14.6569 2 13L2 5C2 4.1715 2.3358 3.4215 2.8787 2.8787M7.6569 2L17 2C18.6569 2 20 3.3431 20 5L20 6");
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.zydi4acxo {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M21.5355 21.5355C20.6318 22.4392 19.3804 23 18 23C15.2386 23 13 20.7614 13 18L13 14C13 13.687 13.0288 13.3808 13.0838 13.0838ZM21.2929 17.0502L15.4164 11.1737C15.2354 10.9928 15.1235 10.7428 15.1235 10.4666C15.1235 10.0841 15.3382 9.7518 15.6537 9.5837L15.6223 9.6004C15.6345 9.5938 15.6467 9.5872 15.659 9.5807C16.3574 9.21 17.1542 9 18 9C20.7614 9 23 11.2386 23 14L23 16.3431C23 16.8954 22.5523 17.3431 22 17.3431C21.7239 17.3431 21.4739 17.2312 21.2929 17.0502Z");
+  stroke: none;
+}
+
+</style>

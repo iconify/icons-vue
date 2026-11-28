@@ -1,0 +1,35 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="nrj6p8qat"><path class="ytoo2x1ig"/><path class="hsr-c-bqf"/><path class="zt83q8bvz"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="keyline-icons:app-window-shield-duotone" /></template>
+<style>
+.hsr-c-bqf {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M8 7C8 7.5523 7.5523 8 7 8C6.4477 8 6 7.5523 6 7C6 6.4477 6.4477 6 7 6C7.5523 6 8 6.4477 8 7ZM12 7C12 7.5523 11.5523 8 11 8C10.4477 8 10 7.5523 10 7C10 6.4477 10.4477 6 11 6C11.5523 6 12 6.4477 12 7ZM16 7C16 7.5523 15.5523 8 15 8C14.4477 8 14 7.5523 14 7C14 6.4477 14.4477 6 15 6C15.5523 6 16 6.4477 16 7Z");
+  stroke: none;
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.ytoo2x1ig {
+  stroke-opacity: 0.4;
+  d: path("M11 21H6C4.34315 21 3 19.6569 3 18V6C3 4.34315 4.34315 3 6 3H18C19.6569 3 21 4.34315 21 6V9");
+}
+
+.zt83q8bvz {
+  d: path("M14.5173 13.6362C15.6758 13.4987 16.5504 12.9203 17.0731 12.4133C17.2974 12.1956 17.7026 12.1956 17.9269 12.4133C18.4496 12.9203 19.3242 13.4987 20.4827 13.6362C20.7669 13.6699 21 13.8909 21 14.1675L21 16.8747C21 17.651 20.8736 18.4412 20.3928 19.0631C19.8667 19.7434 19.0327 20.5058 17.863 20.9355C17.6288 21.0215 17.3712 21.0215 17.137 20.9355C15.9673 20.5058 15.1332 19.7434 14.6073 19.0631C14.1264 18.4412 14 17.651 14 16.8747L14 14.1675C14 13.8909 14.2331 13.6699 14.5173 13.6362Z");
+}
+
+</style>

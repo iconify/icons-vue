@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/thesvg-color",
   "type": "module",
-  "version": "1.0.31",
+  "version": "1.0.32",
   "homepage": "https://icon-sets.iconify.design/thesvg-color/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "MIT",
@@ -1897,6 +1897,10 @@
     "./bata": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/b/bata.vue"
+    },
+    "./batchfile": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/b/batchfile.vue"
     },
     "./battledotnet": {
       "types": "./types/dd0bq22g.d.ts",
@@ -4122,9 +4126,13 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/custom-ink.vue"
     },
-    "./customtkinter": {
+    "./customtkinter-dark": {
       "types": "./types/dd0bq22g.d.ts",
-      "default": "./components/c/customtkinter.vue"
+      "default": "./components/c/customtkinter-dark.vue"
+    },
+    "./customtkinter-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/customtkinter-light.vue"
     },
     "./cvs": {
       "types": "./types/dd0bq22g.d.ts",
@@ -17922,6 +17930,18 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/tata-consultancy-services.vue"
     },
+    "./tata-consultancy-services-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tata-consultancy-services-dark.vue"
+    },
+    "./tata-consultancy-services-legacy": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tata-consultancy-services-legacy.vue"
+    },
+    "./tata-consultancy-services-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/t/tata-consultancy-services-light.vue"
+    },
     "./tauri": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/t/tauri.vue"
@@ -20977,6 +20997,10 @@
     "./circleci": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/c/circleci.vue"
+    },
+    "./customtkinter": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/c/customtkinter.vue"
     },
     "./fans": {
       "types": "./types/dd0bq22g.d.ts",

@@ -1,0 +1,13 @@
+<script setup>
+import { Icon } from '@iconify/css-vue';
+import '../../css/p/p7_zzsbit.css';
+import '../../css/d/dt0cm9dhy.css';
+import '../../css/b/b00ennbgq.css';
+import '../../css/v/vati7obtv.css';
+
+const props = defineProps(["width","height"]);
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="p7_zzsbit secondary"/><g class="dt0cm9dhy primary"><path class="b00ennbgq"/><path class="vati7obtv"/></g>`;
+</script>
+<template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="iconaut:hexagon-half-duo" /></template>

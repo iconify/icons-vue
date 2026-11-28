@@ -1,0 +1,8 @@
+.sd92k-bou {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-75px, 1.75px);
+  d: path("M12 11.24 A4.54 3.88 0 1 1 12 3.5 A4.54 3.88 0 1 1 12 11.24 A5.49 4.63 0 1 1 12 20.51 A5.49 4.63 0 1 1 12 11.24 Z");
+}

@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":32,"height":32};
-const content = `<g transform="translate(2 2)scale(.21212)"><rect class="e_ezxwzva"/><path class="b0acwmbzg"/></g>`;
+const content = `<g transform="translate(2.1 2.1)scale(.21068)"><rect class="e_ezxwzva"/><path class="b0acwmbzg"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="vscode-icons:file-type-kysely" /></template>
 <style>

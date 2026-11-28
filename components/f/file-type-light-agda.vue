@@ -4,21 +4,21 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":32,"height":32};
-const content = `<path class="a8skb4qgj"/><path class="b2nk89btt"/>`;
+const content = `<path class="pdxcd3qxn"/><path class="zajb2_bqw"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="vscode-icons:file-type-light-agda" /></template>
 <style>
-.a8skb4qgj {
-  d: path("M8.46 10.79a.61.61 0 0 1-.62.61a.61.61 0 0 1-.6-.61a.61.61 0 0 1 .6-.61a.61.61 0 0 1 .62.61m2.26 0a.61.61 0 0 1-.61.61a.61.61 0 0 1-.61-.61a.61.61 0 0 1 .61-.61a.61.61 0 0 1 .61.61");
+.pdxcd3qxn {
+  d: path("M8.81 11.03a.6.6 0 0 1-.59.59a.6.6 0 0 1-.57-.59a.6.6 0 0 1 .57-.58a.6.6 0 0 1 .6.58m2.15 0a.6.6 0 0 1-.59.59a.6.6 0 0 1-.58-.59a.6.6 0 0 1 .58-.58a.6.6 0 0 1 .59.58");
 }
 
-.b2nk89btt {
+.zajb2_bqw {
   fill: none;
   stroke: var(--svg-color--000, #000);
   stroke-linecap: round;
   stroke-linejoin: round;
-  stroke-width: var(--svg-stroke-width--0-82px, 0.82px);
-  d: path("M25.06 4.67L16 13.73m13.6-6.8l-4.54 4.54m4.53-6.8L25.06 9.2M13.73 4.67L9.2 9.2M16 4.67L11.47 9.2m0-4.53L2.4 13.73h4.53v4.54c0 4.98 4.08 9.06 9.06 9.06s9.06-4.08 9.06-9.06v-4.54l4.53-4.53");
+  stroke-width: var(--svg-stroke-width--0-78px, 0.78px);
+  d: path("M24.64 5.2L16 13.84m12.96-6.49l-4.32 4.33m4.31-6.48l-4.31 4.32M13.84 5.2L9.52 9.52M16 5.2l-4.32 4.32m0-4.32l-8.64 8.64h4.31v4.32c0 4.75 3.9 8.64 8.64 8.64s8.64-3.89 8.64-8.64v-4.32l4.31-4.32");
 }
 
 </style>

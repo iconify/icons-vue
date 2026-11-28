@@ -4,20 +4,20 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":32,"height":32};
-const content = `<defs><radialGradient id="SVGGXNqAdis" cx="767.179" cy="5169.543" r="14.989" gradientTransform="matrix(.955 0 0 .962 -718.112 -4953.917)" gradientUnits="userSpaceOnUse"><stop offset="0" class="qajbedrgs"/><stop offset="1" class="sww5exvfm"/></radialGradient></defs><path fill="url(#SVGGXNqAdis)" class="vlg2rxbdr"/><path class="ba5nn0bhr"/><path class="v_fg9xbnd"/><path class="g1t2a1bgy"/>`;
+const content = `<g transform="translate(.56 .62)scale(.97252)"><defs><radialGradient id="SVGdi8U0bpt" cx="767.18" cy="5169.54" r="14.99" gradientTransform="matrix(.955 0 0 .962 -718.11 -4953.92)" gradientUnits="userSpaceOnUse"><stop offset="0" class="qajbedrgs"/><stop offset="1" class="sww5exvfm"/></radialGradient></defs><path fill="url(#SVGdi8U0bpt)" class="t03eu_bee"/><path class="hnfa5t57s"/><path class="w_2wfjsid"/><path class="amv3t8b4d"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="vscode-icons:file-type-arduino" /></template>
 <style>
-.ba5nn0bhr {
-  stroke: var(--svg-color--000, #000);
-  stroke-width: var(--svg-stroke-width--0-121px, 0.121px);
-  d: path("M10.581 11.648c2.41-.076 3.359.834 4.605 2.069c.285.282.579.59.9.921l.922-.991a6.2 6.2 0 0 1 3.256-1.93c1.939-.211 3.119-.122 4.311.814a5.02 5.02 0 0 1 2.245 3.9a5.65 5.65 0 0 1-3.25 5.156a5.98 5.98 0 0 1-3.913.135a7.66 7.66 0 0 1-3.541-2.987c-1.678 2.142-3.187 3.253-5.235 3.155c-7.452-.354-6.842-10.075-.3-10.247Zm1.657 7.994a9.2 9.2 0 0 0 2.856-2.9c-.74-1.243-2.209-2.824-3.455-3.134a4.33 4.33 0 0 0-3.224.777a3.38 3.38 0 0 0-.762 3.686a3.674 3.674 0 0 0 4.585 1.57Zm-2.98-3.487l3.278.005v1.21l-3.283.005Zm13.448 3.6A3.84 3.84 0 0 0 24.937 17a3.46 3.46 0 0 0-1.863-3.109a3.65 3.65 0 0 0-4.2.728a7.4 7.4 0 0 0-1.649 2.151a8.9 8.9 0 0 0 1.975 2.482a4.02 4.02 0 0 0 3.506.502Zm-1.955-2.376l-1.088-.008v-1.217h1.091v-1.079l1.107-.008l-.007 1.093h1.085v1.165l-1.021-.008v1.12h-1.165Z");
-  opacity: var(--svg-opacity--0-168, 0.168);
+.amv3t8b4d {
+  fill: var(--svg-color--fff, #fff);
+  d: path("M8.9 15.8h3.23v1.06H8.9zm11.74 1.05h-1.06V15.7h1.06v-1.07h1.14v1.07h1.07v1.14h-1.07v1.06h-1.14z");
 }
 
-.g1t2a1bgy {
-  fill: var(--svg-color--fff, #fff);
-  d: path("M8.898 15.795h3.237v1.067H8.898zm11.746 1.051h-1.068v-1.134h1.068v-1.068h1.135v1.068h1.068v1.134h-1.068v1.068h-1.135z");
+.hnfa5t57s {
+  stroke: var(--svg-color--000, #000);
+  stroke-width: var(--svg-stroke-width--0-12px, 0.12px);
+  d: path("M10.58 11.65c2.41-.08 3.36.83 4.6 2.07q.44.42.9.92l.93-1a6.2 6.2 0 0 1 3.25-1.92c1.94-.21 3.12-.13 4.31.81a5 5 0 0 1 2.25 3.9a5.7 5.7 0 0 1-3.25 5.16a6 6 0 0 1-3.91.13a7.7 7.7 0 0 1-3.54-2.99c-1.68 2.15-3.2 3.26-5.24 3.16c-7.45-.35-6.84-10.07-.3-10.25Zm1.66 8a9 9 0 0 0 2.85-2.9c-.74-1.25-2.2-2.83-3.45-3.14a4.3 4.3 0 0 0-3.23.78a3.4 3.4 0 0 0-.76 3.68a3.7 3.7 0 0 0 4.59 1.57Zm-2.98-3.5l3.28.01v1.21H9.25Zm13.45 3.6A3.8 3.8 0 0 0 24.94 17a3.5 3.5 0 0 0-1.87-3.1a3.65 3.65 0 0 0-4.2.72a7 7 0 0 0-1.64 2.15a9 9 0 0 0 1.97 2.48a4 4 0 0 0 3.5.5Zm-1.96-2.37h-1.09v-1.23h1.1v-1.07l1.1-.01v1.09h1.08v1.17l-1.02-.01v1.12h-1.17Z");
+  opacity: var(--svg-opacity--0-17, 0.17);
 }
 
 .qajbedrgs {
@@ -28,18 +28,18 @@ const content = `<defs><radialGradient id="SVGGXNqAdis" cx="767.179" cy="5169.54
   stop-color: var(--svg-color--2d9094, #2d9094);
 }
 
-.v_fg9xbnd {
-  fill: var(--svg-color--fff, #fff);
-  stroke: var(--svg-color--000, #000);
-  stroke-width: var(--svg-stroke-width--0-242px, 0.242px);
-  d: path("M4.917 16.337c0 5.348 7.354 7.34 10.987 1.894c3.765 5.647 10.824 3.28 10.824-1.9S19.7 8.656 15.9 14.441c-3.6-5.719-10.987-3.453-10.987 1.9Zm1.931 0c0-3.86 5.455-5.078 7.992 0c-2.588 4.889-7.992 3.859-7.992 0Zm10.119 0c2.286-5.178 7.889-3.751 7.872.008s-5.653 4.932-7.872-.008Z");
-}
-
-.vlg2rxbdr {
+.t03eu_bee {
   stroke: var(--svg-color--02797e, #02797e);
   stroke-linejoin: round;
-  stroke-width: var(--svg-stroke-width--1-137px, 1.137px);
-  d: path("M29.645 15.925A13.77 13.77 0 1 1 15.876 2.056a13.82 13.82 0 0 1 13.769 13.869Z");
+  stroke-width: var(--svg-stroke-width--1-14px, 1.14px);
+  d: path("M29.65 15.93A13.77 13.77 0 1 1 15.88 2.06a13.8 13.8 0 0 1 13.76 13.87Z");
+}
+
+.w_2wfjsid {
+  fill: var(--svg-color--fff, #fff);
+  stroke: var(--svg-color--000, #000);
+  stroke-width: var(--svg-stroke-width--0-24px, 0.24px);
+  d: path("M4.92 16.34c0 5.35 7.35 7.34 10.98 1.9c3.77 5.64 10.83 3.27 10.83-1.9s-7.03-7.68-10.83-1.9C12.3 8.72 4.91 11 4.91 16.34Zm1.93 0c0-3.86 5.45-5.08 7.99 0c-2.59 4.89-8 3.86-8 0Zm10.12 0c2.28-5.18 7.89-3.75 7.87 0s-5.65 4.94-7.87 0Z");
 }
 
 </style>

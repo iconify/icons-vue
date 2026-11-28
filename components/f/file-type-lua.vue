@@ -4,26 +4,26 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":32,"height":32};
-const content = `<path class="ljbmbbclg"/><path class="sh4jj2bep"/><path class="cc5q7eb3k"/>`;
+const content = `<path class="b0y1c1bfn"/><path class="ybp0ixbjb"/><path class="tll0xjy8h"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="vscode-icons:file-type-lua" /></template>
 <style>
-.cc5q7eb3k {
-  fill: var(--svg-color--fff, #fff);
-  d: path("M17.29 11.56a3.14 3.14 0 1 0 6.28 0a3.14 3.14 0 1 0-6.28 0m-4.19 9.79v-.79H9.63v-6.23h-.9v7.02zm4.82 0V16.3h-.8v2.79c0 1.03-.54 1.7-1.38 1.7a.95.95 0 0 1-1.04-.99v-3.5h-.8v3.82c0 .83.63 1.37 1.6 1.37a1.9 1.9 0 0 0 1.7-.92v.78zm5.88-.02v-.6l-.18.01q-.43 0-.44-.4v-2.8q-.01-1.37-1.9-1.38c-1.22 0-1.97.47-2.02 1.64h.81c.07-.62.43-.9 1.19-.9q1.1.02 1.12.75v.21c0 .34-.2.48-.83.56a6 6 0 0 0-1.62.3a1.3 1.3 0 0 0-.9 1.32c0 .91.64 1.45 1.67 1.45a2.4 2.4 0 0 0 1.71-.74a.86.86 0 0 0 .83.67a2 2 0 0 0 .55-.1m-1.4-1.72a1.37 1.37 0 0 1-1.52 1.19c-.63 0-1-.22-1-.77c0-.53.36-.76 1.22-.89a4 4 0 0 0 1.3-.28z");
-}
-
-.ljbmbbclg {
+.b0y1c1bfn {
   fill: none;
   stroke: var(--svg-color--gray, gray);
-  stroke-dasharray: 1.209;
-  stroke-width: var(--svg-stroke-width--0-33px, 0.33px);
-  d: path("M28.33 9.7a13.85 13.85 0 1 1-3.81-4.62");
+  stroke-dasharray: 1.18;
+  stroke-width: var(--svg-stroke-width--0-32px, 0.32px);
+  d: path("M28.03 9.9a13.48 13.48 0 1 1-3.7-4.5");
 }
 
-.sh4jj2bep {
+.tll0xjy8h {
+  fill: var(--svg-color--fff, #fff);
+  d: path("M17.29 11.7a3.06 3.06 0 1 0 6.1 0a3.06 3.06 0 1 0-6.1 0m-4.08 9.54v-.77H9.83V14.4h-.88v6.84zm4.69 0v-4.92h-.78v2.72c0 1-.53 1.65-1.34 1.65a.93.93 0 0 1-1.02-.96v-3.4H14v3.7c0 .82.6 1.34 1.55 1.34a1.9 1.9 0 0 0 1.66-.9v.77zm5.72-.02v-.59l-.17.01q-.42 0-.43-.39v-2.72q-.01-1.33-1.85-1.34c-1.19 0-1.92.45-1.97 1.6h.8c.06-.61.4-.88 1.15-.88q1.07.02 1.09.73v.2c0 .33-.2.47-.8.55a6 6 0 0 0-1.59.29a1.26 1.26 0 0 0-.87 1.28c0 .89.62 1.41 1.62 1.41a2.3 2.3 0 0 0 1.67-.72a.84.84 0 0 0 .8.66a2 2 0 0 0 .54-.1m-1.36-1.68a1.33 1.33 0 0 1-1.48 1.16c-.61 0-.97-.21-.97-.75c0-.51.35-.74 1.18-.86a4 4 0 0 0 1.27-.28z");
+}
+
+.ybp0ixbjb {
   fill: var(--svg-color--navy, navy);
-  d: path("M5.29 16a10.71 10.71 0 1 0 21.42 0a10.71 10.71 0 1 0-21.42 0M23.57 5.29a3.14 3.14 0 1 0 6.28 0a3.14 3.14 0 1 0-6.28 0");
+  d: path("M5.6 16.03a10.42 10.42 0 1 0 20.85 0a10.42 10.42 0 1 0-20.84 0M23.4 5.61a3.06 3.06 0 1 0 6.1 0a3.06 3.06 0 1 0-6.1 0");
 }
 
 </style>

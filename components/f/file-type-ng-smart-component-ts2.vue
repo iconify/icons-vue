@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":32,"height":32};
-const content = `<defs><linearGradient id="SVGTwwirdsF"><stop offset="0" class="h42nv2bew"/><stop offset="1" class="yzz0rr1-g"/></linearGradient><linearGradient id="SVGoox1CbHG"><stop offset="0" class="h42nv2bew"/><stop offset="1" class="jiqafbbkz"/></linearGradient><clipPath id="SVGqpIVPcCN"><path class="ang0-8bkx"/></clipPath></defs><g clip-path="url(#SVGqpIVPcCN)" transform="translate(2.76 1.986)scale(.11923)"><path fill="url(#SVGTwwirdsF)" class="lzmzk1bgq"/><path fill="url(#SVGoox1CbHG)" class="lzmzk1bgq"/></g><path class="ppo5_hb8l"/>`;
+const content = `<g transform="translate(.16 .16)scale(.96206)"><defs><linearGradient id="SVGTwwirdsF"><stop offset="0" class="h42nv2bew"/><stop offset="1" class="yzz0rr1-g"/></linearGradient><linearGradient id="SVGoox1CbHG"><stop offset="0" class="h42nv2bew"/><stop offset="1" class="jiqafbbkz"/></linearGradient><clipPath id="SVGqpIVPcCN"><path class="ang0-8bkx"/></clipPath></defs><g clip-path="url(#SVGqpIVPcCN)" transform="translate(2.76 1.99)scale(.11923)"><path fill="url(#SVGTwwirdsF)" class="qvdjvbboh"/><path fill="url(#SVGoox1CbHG)" class="qvdjvbboh"/></g><path class="tzt39dbwk"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="vscode-icons:file-type-ng-smart-component-ts2" /></template>
 <style>
@@ -22,13 +22,13 @@ const content = `<defs><linearGradient id="SVGTwwirdsF"><stop offset="0" class="
   stop-opacity: 0;
 }
 
-.lzmzk1bgq {
-  d: path("m222.08 39.192l-8.019 125.92L137.39-.008zm-53.105 162.82l-57.933 33.056l-57.934-33.056l11.783-28.556h92.301zm-57.933-139.34l30.357 73.803H80.684zm-103.1 102.44L.005 39.192L84.695 0z");
+.qvdjvbboh {
+  d: path("m222.08 39.2l-8.02 125.91L137.4 0zM168.98 202l-57.94 33.06L53.11 202l11.78-28.55h92.3zM111.04 62.67l30.36 73.8H80.68zM7.94 165.11L.01 39.2L84.7 0z");
 }
 
-.ppo5_hb8l {
+.tzt39dbwk {
   fill: var(--svg-color--007acc, #007acc);
-  d: path("M28.385 20.525a2.84 2.84 0 0 1 1.426.822a3.8 3.8 0 0 1 .547.731c.007.029-.985.7-1.586 1.068c-.022.014-.109-.08-.206-.224a1.3 1.3 0 0 0-1.072-.644c-.692-.047-1.137.315-1.133.92a.84.84 0 0 0 .1.427c.152.315.434.5 1.321.887c1.633.7 2.332 1.166 2.766 1.825a3.31 3.31 0 0 1 .264 2.781a3.06 3.06 0 0 1-2.523 1.807a7 7 0 0 1-1.739-.025a4.2 4.2 0 0 1-2.321-1.2a4 4 0 0 1-.594-.88a2 2 0 0 1 .21-.134l.847-.489l.655-.38l.138.2a3.1 3.1 0 0 0 .865.829a2.12 2.12 0 0 0 2.219-.112a.99.99 0 0 0 .127-1.264c-.177-.253-.539-.467-1.568-.912a5.65 5.65 0 0 1-2.147-1.321a3 3 0 0 1-.626-1.14a4.6 4.6 0 0 1-.04-1.455a2.78 2.78 0 0 1 2.339-2.165a5.8 5.8 0 0 1 1.731.048m-5.355.952l.007.934h-2.968v8.436h-2.1v-8.436H15V21.5a9 9 0 0 1 .025-.941c.011-.014 1.817-.022 4.008-.018l3.986.011Z");
+  d: path("M28.39 20.53a3 3 0 0 1 1.42.82a4 4 0 0 1 .55.73c0 .03-.99.7-1.59 1.07q-.04 0-.2-.23a1.3 1.3 0 0 0-1.08-.64c-.69-.05-1.13.31-1.13.92a1 1 0 0 0 .1.43c.15.31.44.5 1.32.88c1.64.7 2.33 1.17 2.77 1.83a3.3 3.3 0 0 1 .26 2.78a3 3 0 0 1-2.52 1.8a7 7 0 0 1-1.74-.02a4.2 4.2 0 0 1-2.32-1.2a4 4 0 0 1-.6-.88l.22-.13l.84-.5l.66-.37l.14.2a3 3 0 0 0 .86.83a2.1 2.1 0 0 0 2.22-.12a1 1 0 0 0 .13-1.26c-.18-.25-.54-.47-1.57-.91a6 6 0 0 1-2.15-1.32a3 3 0 0 1-.62-1.14a5 5 0 0 1-.04-1.46a2.8 2.8 0 0 1 2.33-2.16a6 6 0 0 1 1.74.05m-5.36.95v.93h-2.96v8.44h-2.1V22.4H15v-.91a9 9 0 0 1 .03-.94c0-.01 1.81-.02 4-.02l3.99.01Z");
 }
 
 .yzz0rr1-g {

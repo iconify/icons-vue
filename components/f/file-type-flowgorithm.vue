@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":32,"height":32};
-const content = `<g class="y3d6msbhs"><path transform="matrix(.11086 0 0 .12298 -28.7 0)" class="urqsmc34t"/><path transform="matrix(.11086 0 0 .12298 -28.7 0)" class="f2d5sxv3l"/><path transform="matrix(.11086 0 0 .12298 -28.7 0)" class="oiijmrb4y"/></g>`;
+const content = `<g class="y3d6msbhs"><path transform="matrix(.11045 0 0 .12253 -28.54 .09)" class="urqsmc34t"/><path transform="matrix(.11045 0 0 .12253 -28.54 .09)" class="f2d5sxv3l"/><path transform="matrix(.11045 0 0 .12253 -28.54 .09)" class="oiijmrb4y"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="vscode-icons:file-type-flowgorithm" /></template>
 <style>

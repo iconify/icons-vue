@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":32,"height":32};
-const content = `<g class="yp8lfkb4l"><ellipse class="wxfyecbjg"/><ellipse transform="rotate(-66)" class="ly87scc6a"/><ellipse transform="rotate(66)" class="jyh6nzbko"/><circle class="ftgcdn_po"/><g class="yikj7jbzz"><circle class="uxcqtzbip"/><circle class="fc29076ss"/><circle class="ojc8knb_c"/><circle class="mgc37kb1g"/></g></g>`;
+const content = `<g transform="translate(.34 .34)scale(.97892)" class="yp8lfkb4l"><ellipse class="wxfyecbjg"/><ellipse transform="rotate(-66)" class="ly87scc6a"/><ellipse transform="rotate(66)" class="jyh6nzbko"/><circle class="ftgcdn_po"/><g class="yikj7jbzz"><circle class="uxcqtzbip"/><circle class="fc29076ss"/><circle class="ojc8knb_c"/><circle class="mgc37kb1g"/></g></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="vscode-icons:file-type-atom" /></template>
 <style>

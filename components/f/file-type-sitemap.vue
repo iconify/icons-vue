@@ -4,65 +4,65 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":32,"height":32};
-const content = `<g class="pjaiepbgj"><g transform="translate(-2 .955)scale(3.9999)" class="hwneuincd"><rect class="iaivzbq-f"/><rect class="wandjd64r"/><rect class="pkylttd2t"/><rect class="m9e9rob-w"/></g><path class="n7xp5lbtn"/><path class="pxm3alyml"/><path class="bttmy5xjf"/></g>`;
+const content = `<g class="pjaiepbgj"><g transform="translate(-1.88 1.06)scale(3.97274)" class="k64c2rubo"><rect class="m2n3jmb0n"/><rect class="fzz5a18-p"/><rect class="gdneo7beo"/><rect class="m5yw71b_k"/></g><path class="tiuvz8b2y"/><path class="tk0fgbc_w"/><path class="lsfyt3utf"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="vscode-icons:file-type-sitemap" /></template>
 <style>
-.bttmy5xjf {
-  d: path("M25 15.85h2v5.52h-2z");
+.fzz5a18-p {
+  width: 1.77px;
+  height: 1.77px;
+  x: 3.62px;
+  y: 0.64px;
+  rx: 0.44px;
+  ry: 0.44px;
 }
 
-.hwneuincd {
+.gdneo7beo {
+  width: 1.77px;
+  height: 1.77px;
+  x: 3.62px;
+  y: 5.12px;
+  rx: 0.44px;
+  ry: 0.44px;
+}
+
+.k64c2rubo {
   stroke: var(--svg-color--f16427, #f16427);
-  stroke-width: var(--svg-stroke-width--0-234px, 0.234px);
+  stroke-width: var(--svg-stroke-width--0-23px, 0.23px);
 }
 
-.iaivzbq-f {
-  width: 1.766px;
-  height: 1.766px;
-  x: 1.117px;
-  y: 5.117px;
-  rx: 0.442px;
-  ry: 0.442px;
+.lsfyt3utf {
+  d: path("M24.94 15.85h1.99v5.48h-2z");
 }
 
-.m9e9rob-w {
-  width: 1.766px;
-  height: 1.766px;
-  x: 6.117px;
-  y: 5.117px;
-  rx: 0.442px;
-  ry: 0.442px;
+.m2n3jmb0n {
+  width: 1.77px;
+  height: 1.77px;
+  x: 1.12px;
+  y: 5.12px;
+  rx: 0.44px;
+  ry: 0.44px;
 }
 
-.n7xp5lbtn {
-  d: path("M15 10.367h2v11.395h-2zM5 15.339h2v5.96H5z");
+.m5yw71b_k {
+  width: 1.77px;
+  height: 1.77px;
+  x: 6.12px;
+  y: 5.12px;
+  rx: 0.44px;
+  ry: 0.44px;
 }
 
 .pjaiepbgj {
   fill: var(--svg-color--f16427, #f16427);
 }
 
-.pkylttd2t {
-  width: 1.766px;
-  height: 1.766px;
-  x: 3.617px;
-  y: 5.117px;
-  rx: 0.442px;
-  ry: 0.442px;
+.tiuvz8b2y {
+  d: path("M15 10.4h2v11.32h-2zm-9.93 4.94h2v5.92h-2z");
 }
 
-.pxm3alyml {
-  d: path("M27 15.067v2H4.996v-2z");
-}
-
-.wandjd64r {
-  width: 1.766px;
-  height: 1.766px;
-  x: 3.617px;
-  y: 0.639px;
-  rx: 0.442px;
-  ry: 0.442px;
+.tk0fgbc_w {
+  d: path("M26.93 15.07v1.99H5.07v-1.99z");
 }
 
 </style>

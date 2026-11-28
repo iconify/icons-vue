@@ -4,51 +4,51 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":32,"height":32};
-const content = `<path class="rzyuec7gw"/><path class="lo5rxmeuq"/><path class="pt5pg0bzp"/><path class="hddb3qzok"/><path class="ezcs0_xhq"/><path class="vebk3ib4k"/><path class="naf54wbnp"/><ellipse class="v_rucj_kc"/>`;
+const content = `<g transform="translate(.1 .1)scale(.96413)"><path class="s_veg9vwk"/><path class="krcjany6l"/><path class="zhu_vebed"/><path class="zd9uehbvw"/><path class="rr3hlrbqy"/><path class="gtvap5njx"/><path class="a3yjb6bqh"/><ellipse class="nwj-0tnfr"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="vscode-icons:file-type-plsql-package" /></template>
 <style>
-.ezcs0_xhq {
-  fill: var(--svg-color--f2f2f2, #f2f2f2);
-  d: path("M4.044 22.581h9.37v3.608h-9.37z");
+.a3yjb6bqh {
+  fill: var(--svg-color--red, red);
+  d: path("M23.5 31c4.13 0 7.47-1.3 7.47-2.92v-2.13a8 8 0 0 1-1.15.57l-.12.05a18 18 0 0 1-6.2 1.01a18 18 0 0 1-6.2-1.01l-.11-.05a8 8 0 0 1-1.16-.57v2.13c0 1.61 3.34 2.92 7.47 2.92");
 }
 
-.hddb3qzok {
-  fill: var(--svg-color--dbb551, #dbb551);
-  d: path("M12.391 9.462h7.216c-.008 2.247.011 4.494-.009 6.741a3 3 0 0 1-.2.014h-6.743a2 2 0 0 1-.255-.017c-.014-2.248 0-4.494-.009-6.738");
+.gtvap5njx {
+  fill: var(--svg-color--red, red);
+  d: path("M17.92 19.94a16 16 0 0 0 5.58.9a16 16 0 0 0 5.58-.9c1.4-.55 1.9-1.15 1.9-1.5v-2.66a8 8 0 0 1-1.57.8a17 17 0 0 1-5.91.98a17 17 0 0 1-5.9-.98a8 8 0 0 1-1.57-.8v2.66c0 .35.5.96 1.9 1.5m0 5.03a12 12 0 0 0 1.94.56a20 20 0 0 0 7.26 0a12 12 0 0 0 1.95-.56c1.4-.54 1.9-1.15 1.9-1.5v-2.54a8 8 0 0 1-1.28.62a18 18 0 0 1-6.2 1a18 18 0 0 1-6.2-1a8 8 0 0 1-1.27-.62v2.54c0 .35.5.95 1.9 1.5");
 }
 
-.lo5rxmeuq {
+.krcjany6l {
   fill: var(--svg-color--efc75e, #efc75e);
-  d: path("M13.848 3.086h4.315c.466 2.128.969 4.247 1.444 6.373h-7.216c.491-2.122.964-4.25 1.457-6.373");
+  d: path("M13.85 3.09h4.31l1.45 6.37h-7.22z");
 }
 
-.naf54wbnp {
-  fill: var(--svg-color--red, red);
-  d: path("M23.5 31c4.125 0 7.472-1.308 7.472-2.921v-2.127a8 8 0 0 1-1.151.571l-.118.047a17.6 17.6 0 0 1-6.2 1.013a17.6 17.6 0 0 1-6.2-1.013l-.118-.047a8 8 0 0 1-1.151-.571v2.128C16.028 29.692 19.375 31 23.5 31");
-}
-
-.pt5pg0bzp {
-  fill: var(--svg-color--e7bf55, #e7bf55);
-  d: path("M2 9.448c.3.022.6.011.9.012h9.491q0 3.367.007 6.735a2 2 0 0 0 .256.018H19.4a2 2 0 0 0 .2-.014c.019-2.247 0-4.494.009-6.741h6.8c1.2-.006 2.4.014 3.6-.011v19.466H2z");
-}
-
-.rzyuec7gw {
-  fill: var(--svg-color--f2e6c9, #f2e6c9);
-  d: path("M7.61 3.093c2.078-.019 4.159 0 6.238-.008c-.493 2.123-.966 4.252-1.457 6.376H2.9c-.3 0-.6.01-.9-.012c1.864-2.124 3.749-4.23 5.61-6.356m10.553-.007h6.22C26.251 5.212 28.137 7.32 30 9.449c-1.2.025-2.4 0-3.6.011h-6.8c-.467-2.127-.971-4.246-1.437-6.374");
-}
-
-.v_rucj_kc {
+.nwj-0tnfr {
   cx: 23.5px;
-  cy: 12.921px;
+  cy: 12.92px;
   fill: var(--svg-color--red, red);
-  rx: 7.472px;
-  ry: 2.921px;
+  rx: 7.47px;
+  ry: 2.92px;
 }
 
-.vebk3ib4k {
-  fill: var(--svg-color--red, red);
-  d: path("M17.922 19.942a15.9 15.9 0 0 0 5.578.895a15.9 15.9 0 0 0 5.578-.9c1.4-.545 1.894-1.151 1.894-1.5v-2.662a7.8 7.8 0 0 1-1.563.807a16.7 16.7 0 0 1-5.909.977a16.8 16.8 0 0 1-5.909-.975a7.7 7.7 0 0 1-1.563-.809v2.663c0 .355.497.962 1.894 1.504m0 5.029a11.7 11.7 0 0 0 1.95.556a19.6 19.6 0 0 0 7.257 0a11.7 11.7 0 0 0 1.95-.556c1.4-.545 1.894-1.151 1.894-1.5v-2.542a8 8 0 0 1-1.269.619a17.6 17.6 0 0 1-6.2 1.007a17.6 17.6 0 0 1-6.2-1.011a8 8 0 0 1-1.269-.619v2.545c-.007.35.49.953 1.887 1.501");
+.rr3hlrbqy {
+  fill: var(--svg-color--f2f2f2, #f2f2f2);
+  d: path("M4.04 22.58h9.37v3.6H4.04z");
+}
+
+.s_veg9vwk {
+  fill: var(--svg-color--f2e6c9, #f2e6c9);
+  d: path("M7.61 3.1c2.08-.03 4.16 0 6.24-.02l-1.46 6.38H2.9q-.45.01-.9-.01zm10.55 0h6.22Q27.2 6.26 30 9.45l-3.6.01h-6.8z");
+}
+
+.zd9uehbvw {
+  fill: var(--svg-color--dbb551, #dbb551);
+  d: path("M12.4 9.46h7.2q.02 3.38 0 6.74l-.2.02h-6.74l-.26-.02z");
+}
+
+.zhu_vebed {
+  fill: var(--svg-color--e7bf55, #e7bf55);
+  d: path("m2 9.45l.9.01h9.5v6.74l.25.01h6.75l.2-.01q.02-3.38 0-6.74h6.8q1.8.01 3.6-.01V28.9H2z");
 }
 
 </style>

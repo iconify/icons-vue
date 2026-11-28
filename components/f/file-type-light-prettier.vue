@@ -4,39 +4,39 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":32,"height":32};
-const content = `<g class="htkzkaczg"><path class="cfl-q7bnq"/><path class="hx2wsebhl"/><path class="y9mvwiu-a"/><path class="e4ltvpyms"/><path class="u5je51fqz"/></g>`;
+const content = `<g class="exlknac3d"><path class="dni4dqblb"/><path class="vb2nj7cda"/><path class="v-3nih4lx"/><path class="azj_mkb3h"/><path class="m03rwlbvj"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="vscode-icons:file-type-light-prettier" /></template>
 <style>
-.cfl-q7bnq {
-  stroke: var(--svg-color--56b3b4, #56b3b4);
-  d: path("M2.45 2.45h16.3M2.45 7.87h9.48m10.8 0h1.35m-16.3 2.71h1.35M13.19 16h10.8m-21.7 2.71h5.42m-5.42 8.13H5");
-}
-
-.e4ltvpyms {
+.azj_mkb3h {
   stroke: var(--svg-color--bf85bf, #bf85bf);
-  d: path("M14.6 7.87h5.42m-17.6 5.42h6.77m9.48 5.42h4.06m-20.3 2.71h1.35m-1.35 2.71H9.2");
+  d: path("M14.7 8.06h5.29m-17.2 5.3h6.62m9.26 5.29h3.96M2.82 21.29h1.31m-1.31 2.65h6.6");
 }
 
-.htkzkaczg {
+.dni4dqblb {
+  stroke: var(--svg-color--56b3b4, #56b3b4);
+  d: path("M2.83 2.77h15.92M2.83 8.06h9.26m10.55 0h1.31M8.03 10.71h1.32M13.32 16h10.55m-21.2 2.65h5.3m-5.3 7.94h2.65");
+}
+
+.exlknac3d {
   stroke-linecap: round;
-  stroke-width: var(--svg-stroke-width--1-33px, 1.33px);
+  stroke-width: var(--svg-stroke-width--1-3px, 1.3px);
 }
 
-.hx2wsebhl {
-  stroke: var(--svg-color--ea5e5e, #ea5e5e);
-  d: path("M2.45 5.16h4.06m12.2 5.42h6.77M2.48 16h1.35m6.77 2.71h5.42m-13.5 10.8h6.77");
-}
-
-.u5je51fqz {
+.m03rwlbvj {
   stroke: var(--svg-color--d0d4d8, #d0d4d8);
-  d: path("M21.4 2.45h8.13m-4.06 2.71h4.06m-2.71 2.71h2.71m-17.6 2.71h4.06m12.2 0h1.35m-17.6 2.71H16m12.2 0h1.35M26.84 16h2.71m-4.06 2.71h4.06m-8.13 2.71h2.71m2.71 0h2.71m-17.6 2.71h2.71m2.71 0h12.2m-17.6 2.71h5.42m2.71 0h1.35m2.71 0h5.42m-17.6 2.71h8.13m2.71 0h6.77");
+  d: path("M21.34 2.77h7.94M25.3 5.4h3.97m-2.65 2.65h2.65m-17.2 2.65h3.97m11.92 0h1.32m-17.2 2.64h3.97m11.92 0h1.32M26.65 16h2.65m-3.97 2.65h3.97m-7.94 2.64H24m2.65 0h2.65m-17.2 2.65h2.65m2.65 0h11.92m-17.2 2.65h5.3m2.65 0h1.32m2.64 0h5.3m-17.2 2.64h7.95m2.64 0h6.62");
   opacity: var(--svg-opacity--0-5, 0.5);
 }
 
-.y9mvwiu-a {
+.v-3nih4lx {
   stroke: var(--svg-color--f7b93e, #f7b93e);
-  d: path("M9.23 5.16h13.5m-20.3 5.42h2.71m13.5 2.71h6.77M6.41 16h4.06m-4.06 5.42h12.2m-10.8 5.42h1.35");
+  d: path("M9.45 5.41h13.19M2.8 10.71h2.64m13.19 2.64h6.61M6.7 16h3.97M6.7 21.3h11.92M8.06 26.58h1.32");
+}
+
+.vb2nj7cda {
+  stroke: var(--svg-color--ea5e5e, #ea5e5e);
+  d: path("M2.83 5.41h3.96m11.92 5.3h6.61M2.86 16h1.31m6.62 2.65h5.3M2.88 29.2H9.5");
 }
 
 </style>

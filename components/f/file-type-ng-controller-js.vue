@@ -4,38 +4,38 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":32,"height":32};
-const content = `<path class="v23hspb-t"/><path class="ydu82wbce"/><path class="ryo366bav"/><path class="u99frxb5d"/><path class="j5r86ebsd"/><path class="krb_vzbzz"/>`;
+const content = `<path class="ah0uycbqo"/><path class="qddlr7bgq"/><path class="cym00ubwq"/><path class="cdlctl0ou"/><path class="kic6gmscz"/><path class="gzztqrbgh"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="vscode-icons:file-type-ng-controller-js" /></template>
 <style>
-.j5r86ebsd {
+.ah0uycbqo {
   fill: var(--svg-color--b3b3b3, #b3b3b3);
-  d: path("M19.181 15.938H16.13l-.007 2.657l4.219.004l1.972 4.567l3.205.06l-9.396-20.041l.025 6.407z");
+  d: path("m5.07 23.89l11.09 6.1L27.3 23.8l2.08-17.23l-13.24-4.55L3 6.65z");
 }
 
-.krb_vzbzz {
-  fill: var(--svg-color--f7df1e, #f7df1e);
-  d: path("m15.64 27.93l1.67-1A1.51 1.51 0 0 0 18.62 28c.67 0 1.1-.26 1.1-1.29v-7h2v7a2.78 2.78 0 0 1-3.06 3.09a3.18 3.18 0 0 1-3.07-1.87m7.29-.22l1.67-1a2.23 2.23 0 0 0 2 1.24a1.18 1.18 0 0 0 1.431-.859q.011-.045.019-.091c0-.7-.56-1-1.49-1.36l-.51-.22c-1.48-.63-2.46-1.42-2.46-3.09a2.74 2.74 0 0 1 2.76-2.722q.121 0 .242.012a3 3 0 0 1 2.91 1.64l-1.59 1a1.39 1.39 0 0 0-1.32-.88a.89.89 0 0 0-1 .88c0 .61.38.86 1.26 1.24l.51.22C29 24.47 30 25.23 30 26.95s-1.45 2.85-3.39 2.85a3.93 3.93 0 0 1-3.73-2.09");
-}
-
-.ryo366bav {
-  fill: var(--svg-color--dd1b16, #dd1b16);
-  d: path("M16.123 29.829V2.181L3.261 6.765l1.967 17.021z");
-}
-
-.u99frxb5d {
+.cdlctl0ou {
   fill: var(--svg-color--f2f2f2, #f2f2f2);
-  d: path("m19.758 16.9l-3.635 1.7h-3.83l-1.8 4.5l-3.35.062l8.981-19.98Zm-.351-.856l-3.259-6.452l-2.673 6.341h2.649Z");
+  d: path("m19.4 16.82l-3.29 1.54h-3.47l-1.63 4.07l-3.03.06l8.13-18.1Zm-.31-.78l-2.96-5.84l-2.42 5.74h2.4Z");
 }
 
-.v23hspb-t {
+.cym00ubwq {
+  fill: var(--svg-color--dd1b16, #dd1b16);
+  d: path("M16.11 28.52V3.5L4.46 7.64l1.79 15.41z");
+}
+
+.gzztqrbgh {
+  fill: var(--svg-color--f7df1e, #f7df1e);
+  d: path("m15.67 26.8l1.52-.9a1.4 1.4 0 0 0 1.18.97c.61 0 1-.24 1-1.17v-6.34h1.81v6.34a2.52 2.52 0 0 1-2.77 2.8a2.9 2.9 0 0 1-2.78-1.7m6.6-.2l1.51-.9a2 2 0 0 0 1.81 1.12a1.07 1.07 0 0 0 1.3-.78l.02-.08c0-.63-.51-.9-1.35-1.23l-.46-.2c-1.34-.57-2.23-1.28-2.23-2.8a2.5 2.5 0 0 1 2.5-2.46h.22a2.7 2.7 0 0 1 2.63 1.5l-1.44.9a1.3 1.3 0 0 0-1.2-.8a.8.8 0 0 0-.9.8c0 .55.34.78 1.14 1.12l.46.2c1.53.68 2.44 1.37 2.44 2.93s-1.32 2.58-3.07 2.58a3.6 3.6 0 0 1-3.38-1.9");
+}
+
+.kic6gmscz {
   fill: var(--svg-color--b3b3b3, #b3b3b3);
-  d: path("m3.927 24.707l12.246 6.731l12.309-6.823l2.295-19.031L16.158.563L1.631 5.675z");
+  d: path("M18.88 15.94h-2.76v2.41h3.81l1.79 4.14l2.9.05l-8.5-18.14l.01 5.8z");
 }
 
-.ydu82wbce {
+.qddlr7bgq {
   fill: var(--svg-color--a6120d, #a6120d);
-  d: path("m16.124 29.829l11.066-6.124l2.138-17.021l-13.204-4.503z");
+  d: path("m16.11 28.52l10.02-5.54l1.94-15.42L16.11 3.5z");
 }
 
 </style>

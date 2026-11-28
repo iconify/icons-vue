@@ -4,7 +4,7 @@ import { Icon } from '@iconify/css-vue';
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":32,"height":32};
-const content = `<defs><linearGradient id="SVGDwx2hHqD"><stop offset="0" class="e3ofwb_th"/><stop offset="1" class="ywbkpbcru"/></linearGradient><linearGradient id="SVGL7BxmduV"><stop offset="0" class="e3ofwb_th"/><stop offset="1" class="w13rwtbau"/></linearGradient><clipPath id="SVGqpIVPcCN"><path class="ang0-8bkx"/></clipPath></defs><g clip-path="url(#SVGqpIVPcCN)" transform="translate(2.76 1.986)scale(.11923)"><path fill="url(#SVGDwx2hHqD)" class="lzmzk1bgq"/><path fill="url(#SVGL7BxmduV)" class="lzmzk1bgq"/></g><path class="evwak7bgb"/>`;
+const content = `<g transform="translate(.22 .16)scale(.96206)"><defs><linearGradient id="SVGDwx2hHqD"><stop offset="0" class="e3ofwb_th"/><stop offset="1" class="ywbkpbcru"/></linearGradient><linearGradient id="SVGL7BxmduV"><stop offset="0" class="e3ofwb_th"/><stop offset="1" class="w13rwtbau"/></linearGradient><clipPath id="SVGqpIVPcCN"><path class="ang0-8bkx"/></clipPath></defs><g clip-path="url(#SVGqpIVPcCN)" transform="translate(2.76 1.99)scale(.11923)"><path fill="url(#SVGDwx2hHqD)" class="qvdjvbboh"/><path fill="url(#SVGL7BxmduV)" class="qvdjvbboh"/></g><path class="d9wmqpb7v"/></g>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="vscode-icons:file-type-ng-module-js2" /></template>
 <style>
@@ -13,17 +13,17 @@ const content = `<defs><linearGradient id="SVGDwx2hHqD"><stop offset="0" class="
   d: path("M0 0h223v236H0z");
 }
 
+.d9wmqpb7v {
+  fill: var(--svg-color--f5de19, #f5de19);
+  d: path("M24.82 27.57a2.5 2.5 0 0 0 2.25 1.39c.94 0 1.55-.48 1.55-1.13c0-.78-.62-1.06-1.67-1.51l-.57-.25c-1.64-.7-2.74-1.58-2.74-3.44A3.05 3.05 0 0 1 27 19.62a3.4 3.4 0 0 1 3.24 1.83l-1.78 1.14A1.55 1.55 0 0 0 27 21.6a1 1 0 0 0-1.1.98c0 .68.43.96 1.4 1.38l.57.25c1.95.83 3.04 1.68 3.04 3.58c0 2.05-1.61 3.18-3.78 3.18a4.4 4.4 0 0 1-4.16-2.33Zm-8.06.2c.35.64.68 1.17 1.46 1.17c.75 0 1.23-.29 1.23-1.43v-7.76h2.28v7.79a3.1 3.1 0 0 1-3.4 3.44a3.5 3.5 0 0 1-3.43-2.09Z");
+}
+
 .e3ofwb_th {
   stop-color: var(--svg-color--a300d8, #a300d8);
 }
 
-.evwak7bgb {
-  fill: var(--svg-color--f5de19, #f5de19);
-  d: path("M24.816 27.57a2.49 2.49 0 0 0 2.251 1.385c.945 0 1.549-.472 1.549-1.125c0-.782-.62-1.059-1.661-1.514l-.57-.245c-1.646-.7-2.74-1.58-2.74-3.437a3.05 3.05 0 0 1 3.341-3.014a3.37 3.37 0 0 1 3.245 1.827l-1.777 1.141a1.55 1.55 0 0 0-1.468-.978a.993.993 0 0 0-1.092.978c0 .684.424.961 1.4 1.385l.57.244c1.942.831 3.036 1.683 3.036 3.583c0 2.054-1.614 3.179-3.78 3.179a4.38 4.38 0 0 1-4.157-2.333Zm-8.059.2c.358.636.684 1.173 1.468 1.173c.75 0 1.222-.293 1.222-1.434V19.75h2.281v7.788a3.1 3.1 0 0 1-3.407 3.437a3.54 3.54 0 0 1-3.421-2.083Z");
-}
-
-.lzmzk1bgq {
-  d: path("m222.08 39.192l-8.019 125.92L137.39-.008zm-53.105 162.82l-57.933 33.056l-57.934-33.056l11.783-28.556h92.301zm-57.933-139.34l30.357 73.803H80.684zm-103.1 102.44L.005 39.192L84.695 0z");
+.qvdjvbboh {
+  d: path("m222.08 39.2l-8.02 125.91L137.4 0zM168.98 202l-57.94 33.06L53.11 202l11.78-28.55h92.3zM111.04 62.67l30.36 73.8H80.68zM7.94 165.11L.01 39.2L84.7 0z");
 }
 
 .w13rwtbau {

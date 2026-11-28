@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/selfhst",
   "type": "module",
-  "version": "1.0.35",
+  "version": "1.0.36",
   "homepage": "https://icon-sets.iconify.design/selfhst/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "CC-BY-4.0",
@@ -1989,6 +1989,10 @@
     "./aviato-light": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/aviato-light.vue"
+    },
+    "./awin": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/awin.vue"
     },
     "./azirevpn": {
       "types": "./types/dd0bq22g.d.ts",
@@ -21302,6 +21306,18 @@
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/prunemate-light.vue"
     },
+    "./prusa-connect": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/prusa-connect.vue"
+    },
+    "./prusa-connect-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/prusa-connect-dark.vue"
+    },
+    "./prusa-connect-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/p/prusa-connect-light.vue"
+    },
     "./ps5-mqtt": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/p/ps5-mqtt.vue"
@@ -22561,6 +22577,18 @@
     "./relaytv-light": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/r/relaytv-light.vue"
+    },
+    "./releasewatcher": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/releasewatcher.vue"
+    },
+    "./releasewatcher-dark": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/releasewatcher-dark.vue"
+    },
+    "./releasewatcher-light": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/r/releasewatcher-light.vue"
     },
     "./relic-storage": {
       "types": "./types/dd0bq22g.d.ts",

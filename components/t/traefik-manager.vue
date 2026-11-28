@@ -1,20 +1,13 @@
 <script setup>
 import { Icon } from '@iconify/css-vue';
 import '../../css/x/x7_8e2b0j.css';
-import '../../css/m/m-7df1bom.css';
-import '../../css/z/zt012fb4l.css';
-import '../../css/s/s51azyb0y.css';
-import '../../css/m/mqrfqubqz.css';
-import '../../css/q/qd3ow7bjr.css';
-import '../../css/l/l_fqkqjma.css';
-import '../../css/b/b0nfdvbbe.css';
 import '../../css/i/icj9dmb5t.css';
 import '../../css/i/ibogbvhlc.css';
-import '../../css/f/fm_y_8b1y.css';
+import '../../css/i/i4ks7abcs.css';
 
 const props = defineProps(["width","height"]);
 
 const viewBox = {"width":512,"height":512};
-const content = `<linearGradient id="SVGjq05mdsI" x1="141.6" x2="370.4" y1="141.6" y2="370.4" gradientUnits="userSpaceOnUse"><stop offset="0" class="x7_8e2b0j"/><stop offset=".283" class="m-7df1bom"/><stop offset=".475" class="zt012fb4l"/><stop offset=".641" class="s51azyb0y"/><stop offset=".792" class="mqrfqubqz"/><stop offset=".931" class="qd3ow7bjr"/><stop offset="1" class="l_fqkqjma"/></linearGradient><path fill="url(#SVGjq05mdsI)" class="b0nfdvbbe"/><linearGradient id="SVGrgixoc7Z" x1="68" x2="192541.1" y1="444" y2="-192029.1" gradientUnits="userSpaceOnUse"><stop offset="0" class="x7_8e2b0j"/><stop offset=".5" class="x7_8e2b0j"/><stop offset=".75" class="icj9dmb5t"/><stop offset="1" class="ibogbvhlc"/></linearGradient><path fill="url(#SVGrgixoc7Z)" class="fm_y_8b1y"/>`;
+const content = `<linearGradient id="SVGGEFIQe0B" x1="-47.4" x2="559.4" y1="-47.4" y2="559.4" gradientUnits="userSpaceOnUse"><stop offset="0" class="x7_8e2b0j"/><stop offset=".5" class="x7_8e2b0j"/><stop offset=".75" class="icj9dmb5t"/><stop offset="1" class="ibogbvhlc"/></linearGradient><path fill="url(#SVGGEFIQe0B)" class="i4ks7abcs"/>`;
 </script>
 <template><Icon :width="width" :height="height" :viewBox="viewBox" :content="content" fallback="selfhst:traefik-manager" /></template>

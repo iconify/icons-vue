@@ -1,0 +1,8 @@
+.ra_lr-ray {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-25px, 1.25px);
+  d: path("M4 6 20 6M4 10 20 10M4 14 20 14M4 18 20 18");
+}

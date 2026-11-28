@@ -1,7 +1,7 @@
 {
   "name": "@iconify-vue/cbi",
   "type": "module",
-  "version": "1.0.58",
+  "version": "1.0.59",
   "homepage": "https://icon-sets.iconify.design/cbi/",
   "bugs": "https://github.com/iconify/icons-vue/issues",
   "license": "CC-BY-NC-SA-4.0",
@@ -497,6 +497,10 @@
     "./arcam": {
       "types": "./types/dd0bq22g.d.ts",
       "default": "./components/a/arcam.vue"
+    },
+    "./arcane": {
+      "types": "./types/dd0bq22g.d.ts",
+      "default": "./components/a/arcane.vue"
     },
     "./ard": {
       "types": "./types/dd0bq22g.d.ts",
